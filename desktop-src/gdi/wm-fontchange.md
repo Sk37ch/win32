@@ -1,5 +1,5 @@
 ---
-Description: An application sends the WM\_FONTCHANGE message to all top-level windows in the system after changing the pool of font resources.
+description: An application sends the WM\_FONTCHANGE message to all top-level windows in the system after changing the pool of font resources.
 ms.assetid: 4774308e-2f18-4a35-a769-56871f3c29a2
 title: WM_FONTCHANGE message (Winuser.h)
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 An application sends the **WM\_FONTCHANGE** message to all top-level windows in the system after changing the pool of font resources.
 
-To send this message, call the [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx) function with the following parameters.
+To send this message, call the [**SendMessage**](/windows/win32/api/winuser/nf-winuser-sendmessage) function with the following parameters.
 
 
 ```C++
@@ -52,7 +52,7 @@ To send the **WM\_FONTCHANGE** message to all top-level windows, an application 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -79,7 +79,3 @@ To send the **WM\_FONTCHANGE** message to all top-level windows, an application 
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: For a client to communicate on a network, it must connect to a server.
+description: For a client to communicate on a network, it must connect to a server.
 ms.assetid: fb52d2b7-70fa-497a-bbb4-42b25ea9d136
 title: Connecting to a Socket
 ms.topic: article
@@ -39,7 +39,7 @@ if (ConnectSocket == INVALID_SOCKET) {
 
 
 
-The [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) function is used to determine the values in the [**sockaddr**](sockaddr-2.md) structure. In this example, the first IP address returned by the **getaddrinfo** function is used to specify the **sockaddr** structure passed to the [**connect**](/windows/desktop/api/Winsock2/nf-winsock2-connect). If the **connect** call fails to the first IP address, then try the next [**addrinfo**](https://msdn.microsoft.com/library/ms737530(v=VS.85).aspx) structure in the linked list returned from the **getaddrinfo** function.
+The [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) function is used to determine the values in the [**sockaddr**](sockaddr-2.md) structure. In this example, the first IP address returned by the **getaddrinfo** function is used to specify the **sockaddr** structure passed to the [**connect**](/windows/desktop/api/Winsock2/nf-winsock2-connect). If the **connect** call fails to the first IP address, then try the next [**addrinfo**](/windows/win32/api/ws2def/ns-ws2def-addrinfoa) structure in the linked list returned from the **getaddrinfo** function.
 
 The information specified in the [**sockaddr**](sockaddr-2.md) structure includes:
 
@@ -64,6 +64,3 @@ Next Step: [Sending and Receiving Data on the Client](sending-and-receiving-data
  
 
  
-
-
-

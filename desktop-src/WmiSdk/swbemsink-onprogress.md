@@ -1,5 +1,5 @@
 ---
-Description: The OnProgress event of SWbemSink is triggered when an asynchronous call returns the status of a call that is in progress.
+description: The OnProgress event of SWbemSink is triggered when an asynchronous call returns the status of a call that is in progress.
 ms.assetid: abb43916-f952-41fe-a5ba-0428864c0685
 ms.tgt_platform: multiple
 title: ISWbemSinkEvents::OnProgress event (Wbemdisp.h)
@@ -75,7 +75,7 @@ This event does not return a value.
 
 ## Error codes
 
-After the completion of the **OnProgress** event, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes below.
+After the completion of the **OnProgress** event, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes below.
 
 <dl> <dt>
 
@@ -113,7 +113,7 @@ The **OnProgress** event is triggered when an asynchronous call returns the stat
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -133,9 +133,4 @@ The **OnProgress** event is triggered when an asynchronous call returns the stat
 </dt> </dl>
 
  
-
- 
-
-
-
 

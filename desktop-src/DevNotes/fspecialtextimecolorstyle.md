@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the specified color is a special text color.
+description: Specifies whether the specified color is a special text color.
 ms.assetid: 527806f5-5046-48b0-a8db-86a5b8c0db08
 title: FSpecialTextIMEColorStyle function
 ms.topic: reference
@@ -47,13 +47,13 @@ Returns **TRUE** when the color is a special text color.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Imeshare.dll</dt> </dl> |
 
@@ -72,7 +72,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # Predefined List Attributes
 
-The following values identify list attributes obtained with the [ITfContext::GetAppProperty](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getappproperty) method. The data format and contents of each property type are included.
+The following values identify list attributes obtained with the [ITfContext::GetAppProperty](/windows/desktop/api/msctf/nf-msctf-itfcontext-getappproperty) method. The data format and contents of each property type are included.
 
 ## Properties
 
@@ -44,7 +44,7 @@ The following values identify list attributes obtained with the [ITfContext::Get
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
@@ -57,14 +57,8 @@ The following values identify list attributes obtained with the [ITfContext::Get
 
 <dl> <dt>
 
-[ITfContext::GetAppProperty](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getappproperty)
+[ITfContext::GetAppProperty](/windows/desktop/api/msctf/nf-msctf-itfcontext-getappproperty)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

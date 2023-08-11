@@ -44,7 +44,7 @@ The return value is not used.
 
 ## Remarks
 
-Quick Launch and [Taskbar](https://docs.microsoft.com/windows/desktop/shell/taskbar) should not specify a dpi scaling, because the images are already scaled.
+Quick Launch and [Taskbar](/windows/desktop/shell/taskbar) should not specify a dpi scaling, because the images are already scaled.
 
 Any control that uses an image list created with the SmallIcon metric should not scale its icons.
 
@@ -57,7 +57,7 @@ Any control that uses an image list created with the SmallIcon metric should not
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -66,10 +66,4 @@ Any control that uses an image list created with the SmallIcon metric should not
 
 
  
-
- 
-
-
-
-
 

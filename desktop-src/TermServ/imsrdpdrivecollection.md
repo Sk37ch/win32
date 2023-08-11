@@ -24,7 +24,7 @@ Represents a collection of drive objects.
 
 ## Members
 
-The **IMsRdpDriveCollection** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMsRdpDriveCollection** also has these types of members:
+The **IMsRdpDriveCollection** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMsRdpDriveCollection** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -62,7 +62,7 @@ The **IMsRdpDriveCollection** interface has these properties.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
@@ -83,10 +83,4 @@ The **IMsRdpDriveCollection** interface has these properties.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

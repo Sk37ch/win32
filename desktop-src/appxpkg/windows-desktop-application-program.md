@@ -8,20 +8,20 @@ ms.date: 11/02/2018
 
 # Windows Desktop Application Program
 
-You can get detailed telemetry data and analytics reports that let you see how your Windows desktop applications are doing through the new Windows Desktop Application Program.
+You can get detailed telemetry data and analytics reports that let you see how your Windows desktop applications are doing through the new Windows Desktop Application Program. To view these reports, navigate to Partner Center > [Insights dashboard](https://partner.microsoft.com/dashboard/insights/analytics/overview) > Windows Desktop Applications and click on Overview.
 
-There's no charge to access this data all you need to do is [sign up](https://login.microsoftonline.com/common/oauth2/authorize?client_id=4990cffe-04e8-4e8b-808a-1175604b879f&response_mode=form_post&response_type=code+id_token&scope=openid+profile&state=OpenIdConnect.AuthenticationProperties%3deJsPaLaK4fU55nKvN21CjU6FsdJ0aPGfhsjGAZ0HR9bE6rgwHHX4izvRt_w-0VUlIF0ClCya4cVY6Uv4qTAqDrH8LTwFpjFGWVW2BAIJmAAuxBLZGTPS_DYy0wwgvTh1orWTCMvBdlOu_kF8vwNe4mjtk9JRMvYaETyspKrJi-s5Z2K7lKIPqnlFkwSU-aoot-3NxTeQ0wu6_RJ1nf_kLFatEkVAqokDSYTKkpv7zF6gA3YYriMFoC9_f2uxuXpI-STckg&nonce=637177463062493881.YjhiOTZjYTMtOTVhZS00OGM1LWI4MDItNWE5MThjMjA1ZjZmMTAyZDRiMGQtMDJhNC00ZDJmLWFkM2QtM2FjZDJkNjcxYWQy&redirect_uri=https%3a%2f%2fpartner.microsoft.com%2faad%2fauthPostGateway&resource=797f4846-ba00-4fd7-ba43-dac1f8f63013&mkt=en-US) and accept the [Windows Desktop Application Program Agreement](https://go.microsoft.com/fwlink/?linkid=853677), then upload a signed file using the same certificate you used to sign your application executable files.
+There's no charge to access this data all you need to do is [sign up](https://partner.microsoft.com/dashboard/desktop/overview) and accept the [Windows Desktop Application Program Agreement](https://go.microsoft.com/fwlink/?linkid=853677), then upload a signed file using the same certificate you used to sign your application executable files.
 
 ## Join the Windows Desktop Application Program
 
 **If your company already has a Partner Center account**: Sign into your Partner Center account (using the Microsoft account associated with the account owner) and navigate to the **Programs** page (either in **Account settings** or by selecting **All** in the left navigation menu). Under **Windows Desktop Application Program**, click **Get Started** to join the program at no additional cost. If you have an Azure AD tenant associated with your Partner Center account, users you've added will be able to access the Windows Desktop Application Program. Coming soon, we ll allow you to set more granular access for this program.
 
 > [!Tip]  
-> If your company has a Partner Center account, but you don't have access to it, ask your administrator to [add you as a user](https://docs.microsoft.com/windows/uwp/publish/add-users-groups-and-azure-ad-applications). Note that only the account owner can join the Windows Desktop Application Program.
+> If your company has a Partner Center account, but you don't have access to it, ask your administrator to [add you as a user](/windows/uwp/publish/add-users-groups-and-azure-ad-applications). Note that only the account owner can join the Windows Desktop Application Program.
 
  
 
-**If your company doesn't have a Partner Center account**: You can [sign up for the Windows Desktop Application Program directly](https://login.microsoftonline.com/common/oauth2/authorize?client_id=4990cffe-04e8-4e8b-808a-1175604b879f&response_mode=form_post&response_type=code+id_token&scope=openid+profile&state=OpenIdConnect.AuthenticationProperties%3dWc5R_wIKVD0EbOy2UUxS0_0GQJnIAbD-eisMn7Gb4cJL18fRdelvbtj5_R0zoGlsebcnAxIvwKS5kx4Ma4mLMbU4l9ULsE9ajiZU4wtchLJXyJGsPCjCBUNV7TY1SzwXAI-LepSoXkqa8xSywVb7JZ3Xed-Lcw-kwEShFOwt0SdSdc1nNevHbPOhotOeFQcqbo0HESVYXk6pZORJ_OYimG99onp_zSTyludOvvaTd9GYKUgX9exCU5IHReP7MzJDHOgqTg&nonce=637177463071243612.NDU4MjE2ZTMtNmVkMi00YWNiLWEzZGEtMjYyNDRkODI0M2FmOTM3MmE1NzgtMzQ1OC00M2ZkLWJhMDktYzI4YTNhNzdiYTk0&redirect_uri=https%3a%2f%2fpartner.microsoft.com%2faad%2fauthPostGateway&resource=797f4846-ba00-4fd7-ba43-dac1f8f63013&mkt=en-US) at no cost. Coming soon, we'll provide the option to [associate an Azure AD tenant with your account](https://docs.microsoft.com/windows/uwp/publish/add-users-groups-and-azure-ad-applications) so that other people in your company can also sign in.
+**If your company doesn't have a Partner Center account**: You can [sign up for the Windows Desktop Application Program directly](https://partner.microsoft.com/dashboard/desktop/overview) at no cost. Coming soon, we'll provide the option to [associate an Azure AD tenant with your account](/windows/uwp/publish/add-users-groups-and-azure-ad-applications) so that other people in your company can also sign in.
 
 ## Add your desktop applications
 
@@ -40,7 +40,7 @@ We'll provide you a file and ask you to sign it with the same valid, non-expired
 
 1.  From your dashboard, select **Add desktop applications**.
 2.  On the next page, download the signable file by selecting **Download the file**, then save the file to your computer.
-3.  Sign the file you just downloaded using the same code-signing certificate that you use to authenticate your desktop application(s). You can use SignTool.exe (available in Microsoft Visual Studio and as part of the [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk)) to sign this file. More details about this process are described below.
+3.  Sign the file you just downloaded using the same code-signing certificate that you use to authenticate your desktop application(s). You can use SignTool.exe (available in Microsoft Visual Studio and as part of the [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-sdk/)) to sign this file. More details about this process are described below.
 4.  Upload the file you just signed by dragging it into the field (or click to browse your files).
 5.  Select **Submit** to complete the process.
 
@@ -52,17 +52,17 @@ After you complete these steps, we'll identify which Windows desktop application
 
 ## Use signtool.exe to sign the downloaded file
 
-Microsoft provides a tool for signing files, SignTool.exe, with Visual Studio and in the [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk). You can use this tool to perform and verify the code signing process. More info about SignTool.exe is available [here](https://docs.microsoft.com/dotnet/framework/tools/signtool-exe).
+Microsoft provides a tool for signing files, SignTool.exe, with Visual Studio and in the [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-sdk/). You can use this tool to perform and verify the code signing process. More info about SignTool.exe is available [here](/dotnet/framework/tools/signtool-exe).
 
 Here are two of the most common ways to use this tool to sign the signable file.
 
--   If you have access to the code-signing certificate as a [Personal Information Exchange (PFX)](https://docs.microsoft.com/windows-hardware/drivers/install/personal-information-exchange---pfx--files) file:
+-   If you have access to the code-signing certificate as a [Personal Information Exchange (PFX)](/windows-hardware/drivers/install/personal-information-exchange---pfx--files) file:
 
     ``` syntax
     signtool sign /f MyCert.pfx /p MyCertPassword /v SignableFile.bin
     ```
 
-    ![command prompt window showing this command](images/signtool2.png)
+    ![Screenshot that shows a command prompt window showing the 'signtool sign /f MyCert.pfx /p MyCertPassword /v SignableFile.bin' command.](images/signtool2.png)
 
 -   If the code-signing certificate is available in your local certificate store:
 
@@ -82,12 +82,13 @@ signtool verify /a SignableFile.bin
 
 After your signed files have been uploaded and we've identified your desktop applications, your dashboard will show an overview of your applications along with key metrics.
 
-Our telemetry data will show health information such as crashes for each application associated with your certificate. Your dashboard will show an overview of your applications along with key metrics. You can select any application to view its [Health report](#health-report), [Installs report](#installs-report), and [Blocks report](#blocks-report) in the dashboard. You can also [retrieve analytic data programmatically by using the Microsoft Store analytics API](#retrieve-analytic-data-using-the-microsoft-store-analytics-api).
+Our telemetry data will show health information such as crashes for each application associated with your certificate. Your dashboard will show an overview of your applications along with key metrics. You can select any application to view its [Health report](#health-report), [Installs report](#installs-report), and [Blocks report](#application-blocks-report) in the dashboard. You can also [retrieve analytic data programmatically by using the Microsoft Store analytics API](#retrieve-analytic-data-using-the-microsoft-store-analytics-api).
 
 > [!Note]  
 > If we detect that an application's metadata has been updated to use a new name, we ll begin to report new data under the new name. Historical data associated with the old name will be preserved for 30 days.
+> 
+> Analytics will not be available for an application until it has been installed on at least 100 devices.
 
- 
 
 ### Health report
 
@@ -104,7 +105,7 @@ You can filter the data in a number of ways, allowing you to:
 -   Compare performance of your desktop applications across Windows versions, or on a specific version, such as the latest Windows 10 release
 -   View health info for one particular executable file included in your application
 
-Select **Upload symbols** in the top of the **Failures** table to upload a .zip file containing your application's [symbol files](http:/docs.microsoft.com/windows-hardware/drivers/debugger/symbols-and-symbol-files). These symbol files will be indexed and used to produce more accurate stack traces. Symbol file types within the .zip should be .pdb, .dll, or .exe. After you successfully upload your .zip file, you should see fewer **!Unknown** values for new failures in your application's failure list in approximately 5 days.
+Select **Upload symbols** in the top of the **Failures** table to upload a .zip file containing your application's [symbol files](/windows-hardware/drivers/debugger/symbols-and-symbol-files). These symbol files will be indexed and used to produce more accurate stack traces. Symbol file types within the .zip should be .pdb, .dll, or .exe. After you successfully upload your .zip file, you should see fewer **!Unknown** values for new failures in your application's failure list in approximately 5 days.
 
 ### Installs report
 
@@ -136,16 +137,16 @@ The Microsoft Store analytics API lets you programmatically retrieve analytics d
 
 This API offers the following methods specific to the Windows Desktop Application Program:
 
--   [Installs](https://docs.microsoft.com/windows/uwp/monetize/get-desktop-app-installs)
--   [Failure hits](https://docs.microsoft.com/windows/uwp/monetize/get-desktop-application-error-reporting-data)
--   [Failure details](https://docs.microsoft.com/windows/uwp/monetize/get-details-for-an-error-in-your-desktop-application)
--   [Stack trace](https://docs.microsoft.com/windows/uwp/monetize/get-the-stack-trace-for-an-error-in-your-desktop-application)
--   [CAB file](https://docs.microsoft.com/windows/uwp/monetize/download-the-cab-file-for-an-error-in-your-desktop-application)
--   [Upgrade blocks](https://docs.microsoft.com/windows/uwp/monetize/get-desktop-block-data)
--   [Upgrade block details](https://docs.microsoft.com/windows/uwp/monetize/get-desktop-block-data-details)
+-   [Installs](/windows/uwp/monetize/get-desktop-app-installs)
+-   [Failure hits](/windows/uwp/monetize/get-desktop-application-error-reporting-data)
+-   [Failure details](/windows/uwp/monetize/get-details-for-an-error-in-your-desktop-application)
+-   [Stack trace](/windows/uwp/monetize/get-the-stack-trace-for-an-error-in-your-desktop-application)
+-   [CAB file](/windows/uwp/monetize/download-the-cab-file-for-an-error-in-your-desktop-application)
+-   [Upgrade blocks](/windows/uwp/monetize/get-desktop-block-data)
+-   [Upgrade block details](/windows/uwp/monetize/get-desktop-block-data-details)
 
 
-For more info about using this API, see [Access analytic data using Store services](https://docs.microsoft.com/windows/uwp/monetize/access-analytics-data-using-windows-store-services).
+For more info about using this API, see [Access analytic data using Store services](/windows/uwp/monetize/access-analytics-data-using-windows-store-services).
 
 ## Managing your desktop application metadata
 
@@ -158,7 +159,7 @@ Keeping the metadata of your apps and files up to date helps make sure they are 
 -   Every time you make changes to your metadata, you may see a new entry for your application in your dashboard. If you make a change, new incoming telemetry data will reflect your changes, but your old telemetry data will still appear as an **Unknown** application.
 -   When you revise a file, make sure to update the application version and product version numbers.
     > [!Tip]  
-    > Use [**VERSIONINFO**](https://docs.microsoft.com/windows/desktop/menurc/versioninfo-resource) resources to set the **FileDescription**, **FileVersion**, **ProductName**, and **ProductVersion** for your files and applications. The following example defines a **VERSIONINFO** resource:
+    > Use [**VERSIONINFO**](/windows/desktop/menurc/versioninfo-resource) resources to set the **FileDescription**, **FileVersion**, **ProductName**, and **ProductVersion** for your files and applications. The following example defines a **VERSIONINFO** resource:
     >
     > ``` syntax
     > #define VER_PRODUCTNAME_STR      "Sample App"
@@ -205,13 +206,13 @@ You can use Azure Active Directory to add and manage additional users in your Wi
 
 In order to add and manage account users, you must first associate your account with your organization's Azure Active Directory. If your organization already uses Office 365 or other business services from Microsoft, you already have Azure AD. Otherwise, you can create a new Azure AD tenant at no additional charge.
 
-See [Associate Azure Active Directory with your Partner Center account](https://docs.microsoft.com/windows/uwp/publish/associate-azure-ad-with-dev-center) for more info. While the topic focuses on the Windows apps developer program, associating a tenant works the same way for the Windows Desktop Application Program.
+See [Associate Azure Active Directory with your Partner Center account](/windows/uwp/publish/associate-azure-ad-with-dev-center) for more info. While the topic focuses on the Windows apps developer program, associating a tenant works the same way for the Windows Desktop Application Program.
 
 ### Add users, groups, and Azure AD applications to your account
 
-Once you've set up the Azure AD association, you can add users by going to the Users section under Account settings. Each user is assigned a role that defines their access to the account. You can also add groups of users and Azure AD applications to grant them access to your Partner Center account. For more info about adding users, see [Add users, groups, and Azure AD applications](https://docs.microsoft.com/windows/uwp/publish/add-users-groups-and-azure-ad-applications).
+Once you've set up the Azure AD association, you can add users by going to the Users section under Account settings. Each user is assigned a role that defines their access to the account. You can also add groups of users and Azure AD applications to grant them access to your Partner Center account. For more info about adding users, see [Add users, groups, and Azure AD applications](/windows/uwp/publish/add-users-groups-and-azure-ad-applications).
 
-Each user, group, or Azure AD application that you add to your account must be assigned a role. This process is described at [Set roles or custom permissions for account users](https://docs.microsoft.com/windows/uwp/publish/set-custom-permissions-for-account-users). However, note that for the Windows Desktop Application Program, there is no ability to assign custom permissions or to restrict access by product. Instead, each user must be assigned one of the following standard roles.
+Each user, group, or Azure AD application that you add to your account must be assigned a role. This process is described at [Set roles or custom permissions for account users](/windows/uwp/publish/set-custom-permissions-for-account-users). However, note that for the Windows Desktop Application Program, there is no ability to assign custom permissions or to restrict access by product. Instead, each user must be assigned one of the following standard roles.
 
 
 
@@ -232,10 +233,4 @@ Each user, group, or Azure AD application that you add to your account must be a
 -   **Why do I see an application I don't recognize?** If the certificate you use to sign files in your application is also used by someone else in your company to sign another application, you will see telemetry for that application too. In the future, we'll provide an option to hide applications from your dashboard. If your company account is attached to an Azure AD tenant, you can request your admin to modify user permissions so that only specific applications are visible to you.
 -   **How can I provide feedback on the experience or get support?** If you need assistance, you can create a support request [here](https://developer.microsoft.com/windows/support/). To share your feedback, use the **Feedback** link (under **Account settings**) and select the **Analytics** area to let us know what you think. 
  
-
- 
-
-
-
-
 

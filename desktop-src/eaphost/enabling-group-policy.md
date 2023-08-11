@@ -1,6 +1,6 @@
 ---
 title: Enabling Group Policy
-description: Explains how to configure the supplicant by enabling group policy.
+description: Learn how to configure the supplicant by enabling group policy. See considerations for supplicants and view additional available resources.
 ms.assetid: ac04b83b-1322-41d4-85e0-93687f10a7f6
 ms.topic: article
 ms.date: 05/31/2018
@@ -20,8 +20,8 @@ These are the considerations for supplicants with respect to group policy and EA
 
     For more information, see the following topics.
 
-    -   [General Frequently Asked Questions](general-frequently-asked-questions.md)
-    -   [EAP Method Frequently Asked Questions](eap-method-frequently-asked-questions.md).
+    -   [General Frequently Asked Questions](general-frequently-asked-questions.yml)
+    -   [EAP Method Frequently Asked Questions](eap-method-frequently-asked-questions.yml).
     -   [**EapHostPeerConfigXml2Blob**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerconfigxml2blob)
     -   [**EapHostPeerCredentialsXml2Blob**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeercredentialsxml2blob)
 

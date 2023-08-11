@@ -1,5 +1,5 @@
 ---
-Description: Gets the scale, rotation, and translation values of the animation set.
+description: Gets the scale, rotation, and translation values of the animation set.
 ms.assetid: 84fc56f3-15bf-4e27-ad06-57fab94f3a33
 title: ID3DXAnimationSet::GetSRT method (D3dx9anim.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ HRESULT GetSRT(
 *PeriodicPosition* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](../winprog/windows-data-types.md)**
 
 Position of the animation set. The position can be obtained by calling [**ID3DXAnimationSet::GetPeriodicPosition**](id3dxanimationset--getperiodicposition.md).
 
@@ -51,7 +51,7 @@ Position of the animation set. The position can be obtained by calling [**ID3DXA
 *Animation* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Animation index.
 
@@ -88,13 +88,13 @@ Pointer to the [**D3DXVECTOR3**](d3dxvector3.md) vector that describes the trans
 
 Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
-The return values of this method are implemented by an application programmer. In general, if no error occurs, program the method to return D3D\_OK. Otherwise, program the method to return an appropriate error message from [D3DERR](d3derr.md) or [**D3DXERR**](https://msdn.microsoft.com/library/Bb172825(v=VS.85).aspx).
+The return values of this method are implemented by an application programmer. In general, if no error occurs, program the method to return D3D\_OK. Otherwise, program the method to return an appropriate error message from [D3DERR](d3derr.md) or [**D3DXERR**](./d3dxerr.md).
 
 ## Requirements
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -111,7 +111,3 @@ The return values of this method are implemented by an application programmer. I
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the IContextNode object that is the destination for this IContextLink.
+description: Retrieves the IContextNode object that is the destination for this IContextLink.
 ms.assetid: 7e185e69-821b-409b-bc58-d89a4aefeb23
 title: IContextLink::GetDestinationNode method (IACom.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ For a description of return values, see [Classes and Interfaces - Ink Analysis](
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppDstContextNodeId* when you no longer need to use the destination node.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppDstContextNodeId* when you no longer need to use the destination node.
 
  
 
@@ -60,7 +60,7 @@ If the [**IContextLink**](icontextlink.md) object has a link type of Encloses (s
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -86,9 +86,4 @@ If the [**IContextLink**](icontextlink.md) object has a link type of Encloses (s
 </dt> </dl>
 
  
-
- 
-
-
-
 

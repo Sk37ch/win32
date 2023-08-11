@@ -1,5 +1,5 @@
 ---
-Description: The CloseDatabase method of the Merge object closes the currently open Windows Installer database.
+description: The CloseDatabase method of the Merge object closes the currently open Windows Installer database.
 ms.assetid: 'a89fe77a-0099-4c49-b484-c05ee351a66a'
 title: Merge.CloseDatabase method (Mergemod.h)
 ms.topic: reference
@@ -52,13 +52,13 @@ Closing a database clears all dependency information but does not affect any err
 
 ### C++
 
-See [**CloseDatabase**](https://msdn.microsoft.com/library/Aa369265(v=VS.85).aspx) function.
+See [**CloseDatabase**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-closedatabase) function.
 
 ## Requirements
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 1.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |
@@ -69,7 +69,3 @@ See [**CloseDatabase**](https://msdn.microsoft.com/library/Aa369265(v=VS.85).asp
  
 
  
-
-
-
-

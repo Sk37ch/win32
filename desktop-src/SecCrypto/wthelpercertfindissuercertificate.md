@@ -1,5 +1,5 @@
 ---
-Description: Finds an issuer certificate from the specified certificate stores that matches the specified subject certificate.
+description: Finds an issuer certificate from the specified certificate stores that matches the specified subject certificate.
 ms.assetid: c724f602-fc73-4857-941f-0f22a9e472d1
 title: WTHelperCertFindIssuerCertificate function
 ms.topic: reference
@@ -22,7 +22,7 @@ api_location:
 The **WTHelperCertFindIssuerCertificate** function finds an issuer certificate from the specified certificate stores that matches the specified subject certificate.
 
 > [!Note]  
-> This function has no associated import library. You must use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Wintrust.dll.
+> This function has no associated import library. You must use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Wintrust.dll.
 
  
 
@@ -128,7 +128,7 @@ To successfully find a matching issuer certificate, the following requirements m
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -139,7 +139,3 @@ To successfully find a matching issuer certificate, the following requirements m
  
 
  
-
-
-
-

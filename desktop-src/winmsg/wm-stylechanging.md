@@ -1,5 +1,5 @@
 ---
-Description: Sent to a window when the SetWindowLong function is about to change one or more of the window's styles.
+description: Sent to a window when the SetWindowLong function is about to change one or more of the window's styles.
 ms.assetid: 71034362-3f67-49ae-bbbf-d38853ababb3
 title: WM_STYLECHANGING message (Winuser.h)
 ms.topic: reference
@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # WM\_STYLECHANGING message
 
-Sent to a window when the [**SetWindowLong**](https://msdn.microsoft.com/library/ms633591(v=VS.85).aspx) function is about to change one or more of the window's styles.
+Sent to a window when the [**SetWindowLong**](/windows/win32/api/winuser/nf-winuser-setwindowlonga) function is about to change one or more of the window's styles.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -44,7 +44,7 @@ Indicates whether the window's styles or extended window styles are changing. Th
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**STYLESTRUCT**](https://msdn.microsoft.com/library/ms632607(v=VS.85).aspx) structure that contains the proposed new styles for the window. An application can examine the styles and, if necessary, change them.
+A pointer to a [**STYLESTRUCT**](/windows/win32/api/winuser/ns-winuser-stylestruct) structure that contains the proposed new styles for the window. An application can examine the styles and, if necessary, change them.
 
 </dd> </dl>
 
@@ -58,7 +58,7 @@ An application should return zero if it processes this message.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -73,7 +73,7 @@ An application should return zero if it processes this message.
 **Reference**
 </dt> <dt>
 
-[**STYLESTRUCT**](https://msdn.microsoft.com/library/ms632607(v=VS.85).aspx)
+[**STYLESTRUCT**](/windows/win32/api/winuser/ns-winuser-stylestruct)
 </dt> <dt>
 
 [**WM\_STYLECHANGED**](wm-stylechanged.md)
@@ -88,7 +88,3 @@ An application should return zero if it processes this message.
  
 
  
-
-
-
-

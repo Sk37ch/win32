@@ -1,5 +1,5 @@
 ---
-Description: Identifies the root node of the counters section of an instrumentation manifest.
+description: Identifies the root node of the counters section of an instrumentation manifest.
 ms.assetid: f16f432b-466f-4a3c-bc1b-e80b876a2511
 title: counters Element
 ms.topic: reference
@@ -80,13 +80,13 @@ Identifies the root node of the counters section of an instrumentation manifest.
 
 ## Remarks
 
-This element's parent node is the [**instrumentation**](https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-instrumentationtype-complextype) element of the manifest.
+This element's parent node is the [**instrumentation**](/windows/desktop/WES/eventmanifestschema-instrumentationtype-complextype) element of the manifest.
 
 ## Requirements
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
@@ -94,9 +94,4 @@ This element's parent node is the [**instrumentation**](https://docs.microsoft.c
 
 
  
-
- 
-
-
-
 

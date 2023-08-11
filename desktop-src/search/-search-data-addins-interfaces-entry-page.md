@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Data Add-in Interfaces
 ms.assetid: 2e9748be-7d76-4424-8daf-c94a327d85ac
 title: Data Add-in Interfaces
 ms.topic: article
@@ -8,7 +8,6 @@ ms.date: 05/31/2018
 
 # Data Add-in Interfaces
 
-## 
 
 This Windows Search reference section consists of the following data add-in interfaces:
 
@@ -18,11 +17,11 @@ This Windows Search reference section consists of the following data add-in inte
 
 [**IColumnMapperCreator**](/windows/desktop/api/indexsrv/nn-indexsrv-icolumnmappercreator)
 
-[**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx)
+[**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)
 
 [**ILoadFilter**](/windows/desktop/api/filtereg/nn-filtereg-iloadfilter)
 
-[**IPhraseSink**](https://msdn.microsoft.com/library/Ff819113(v=VS.85).aspx)
+[**IPhraseSink**](/windows/win32/api/indexsrv/nn-indexsrv-iphrasesink)
 
 [**ISearchLanguageSupport**](/windows/desktop/api/Searchapi/nn-searchapi-isearchlanguagesupport)
 
@@ -37,6 +36,3 @@ This Windows Search reference section consists of the following data add-in inte
  
 
  
-
-
-

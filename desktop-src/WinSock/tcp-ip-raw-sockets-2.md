@@ -1,12 +1,12 @@
 ---
-Description: A raw socket is a type of socket that allows access to the underlying transport provider.
+title: TCP/IP raw sockets
+description: A raw socket is a type of socket that allows access to the underlying transport provider.
 ms.assetid: 4cbe5505-75e7-454f-9e6b-f38bdc60bf6d
-title: TCP/IP Raw Sockets
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# TCP/IP Raw Sockets
+# TCP/IP raw sockets
 
 A raw socket is a type of socket that allows access to the underlying transport provider. This topic focuses only on raw sockets and the IPv4 and IPv6 protocols. This is because most other protocols with the exception of ATM do not support raw sockets. To use raw sockets, an application needs to have detailed information on the underlying protocol being used.
 
@@ -19,19 +19,19 @@ There are two basic types of such raw sockets:
 
 ## Determining if Raw Sockets are Supported
 
-If a Winsock service provider supports **SOCK\_RAW** sockets for the AF\_INET or AF\_INET6 address families, the socket type of **SOCK\_RAW** should be included in the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/library/ms741675(v=VS.85).aspx) structure returned by [**WSAEnumProtocols**](/windows/desktop/api/Winsock2/nf-winsock2-wsaenumprotocolsa) function for one or more of the available transport providers.
+If a Winsock service provider supports **SOCK\_RAW** sockets for the AF\_INET or AF\_INET6 address families, the socket type of **SOCK\_RAW** should be included in the [**WSAPROTOCOL\_INFO**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure returned by [**WSAEnumProtocols**](/windows/desktop/api/Winsock2/nf-winsock2-wsaenumprotocolsa) function for one or more of the available transport providers.
 
-The **iAddressFamily** member in the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/library/ms741675(v=VS.85).aspx) structure should specify AF\_INET or AF\_INET6 and the **iSocketType** member of the **WSAPROTOCOL\_INFO** structure should specify **SOCK\_RAW** for one of the transport providers.
+The **iAddressFamily** member in the [**WSAPROTOCOL\_INFO**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure should specify AF\_INET or AF\_INET6 and the **iSocketType** member of the **WSAPROTOCOL\_INFO** structure should specify **SOCK\_RAW** for one of the transport providers.
 
-The **iProtocol** member of the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/library/ms741675(v=VS.85).aspx) structure may be set to **IPROTO\_IP**. The **iProtocol** member of the **WSAPROTOCOL\_INFO** structure may also be set to zero if the service provider allows an application to use a **SOCK\_RAW** socket type for other network protocols other than the Internet Protocol for the address family.
+The **iProtocol** member of the [**WSAPROTOCOL\_INFO**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure may be set to **IPROTO\_IP**. The **iProtocol** member of the **WSAPROTOCOL\_INFO** structure may also be set to zero if the service provider allows an application to use a **SOCK\_RAW** socket type for other network protocols other than the Internet Protocol for the address family.
 
-The other members in the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/library/ms741675(v=VS.85).aspx) structure indicate other properties of the protocol support for **SOCK\_RAW** and indicate how a socket of **SOCK\_RAW** should be treated. These other members of the **WSAPROTOCOL\_INFO** for **SOCK\_RAW** normally specify that the protocol is connectionless, message-oriented, supports broadcast/multicast (the XP1\_CONNECTIONLESS, XP1\_MESSAGE\_ORIENTED, XP1\_SUPPORT\_BROADCAST, and XP1\_SUPPORT\_MULTIPOINT bits are set in the dwServiceFlags1 member), and can have a maximum message size of 65,467 bytes.
+The other members in the [**WSAPROTOCOL\_INFO**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure indicate other properties of the protocol support for **SOCK\_RAW** and indicate how a socket of **SOCK\_RAW** should be treated. These other members of the **WSAPROTOCOL\_INFO** for **SOCK\_RAW** normally specify that the protocol is connectionless, message-oriented, supports broadcast/multicast (the XP1\_CONNECTIONLESS, XP1\_MESSAGE\_ORIENTED, XP1\_SUPPORT\_BROADCAST, and XP1\_SUPPORT\_MULTIPOINT bits are set in the dwServiceFlags1 member), and can have a maximum message size of 65,467 bytes.
 
 On Windows XP and later, the *NetSh.exe* command can be used to determine if raw sockets are supported. The following command run from a CMD window will display data from the Winsock catalog on the console:
 
 **netsh winsock show catalog**
 
-The output will include a list that contains some of the data from the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/library/ms741675(v=VS.85).aspx) structures supported on the local computer. Search for the term RAW/IP or RAW/IPv6 in the Description field to find those protocols that support raw sockets.
+The output will include a list that contains some of the data from the [**WSAPROTOCOL\_INFO**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structures supported on the local computer. Search for the term RAW/IP or RAW/IPv6 in the Description field to find those protocols that support raw sockets.
 
 ## Creating a Raw Socket
 
@@ -71,7 +71,7 @@ It is important to understand that some sockets of type **SOCK\_RAW** may receiv
 
 ## Common Uses of Raw Sockets
 
-One common use of raw sockets are troubleshooting applications that need to examine IP packets and headers in detail. For example, a raw socket can be used with the SIO\_RCVALL IOCTL to enable a socket to receive all IPv4 or IPv6 packets passing through a network interface. For more information, see the [**SIO\_RCVALL**](https://msdn.microsoft.com/library/Ee309610(v=VS.85).aspx) reference.
+One common use of raw sockets are troubleshooting applications that need to examine IP packets and headers in detail. For example, a raw socket can be used with the SIO\_RCVALL IOCTL to enable a socket to receive all IPv4 or IPv6 packets passing through a network interface. For more information, see the [**SIO_RCVALL**](/windows/win32/winsock/sio-rcvall) reference.
 
 ## Limitations on Raw Sockets
 
@@ -99,6 +99,3 @@ Applications also need to be aware of the impact that firewall settings may have
  
 
  
-
-
-

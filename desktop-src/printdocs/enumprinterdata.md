@@ -1,5 +1,5 @@
 ---
-Description: The EnumPrinterData function enumerates configuration data for a specified printer.
+description: The EnumPrinterData function enumerates configuration data for a specified printer.
 ms.assetid: 0a4c8436-46fe-4e21-8d55-c5031a3d1b38
 title: EnumPrinterData function (Winspool.h)
 ms.topic: reference
@@ -92,7 +92,7 @@ A pointer to a variable that receives the number of bytes stored into the buffer
 *pType* \[out\]
 </dt> <dd>
 
-A pointer to a variable that receives a code indicating the type of data stored in the specified value. For a list of the possible type codes, see [Registry Value Types](https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types). The *pType* parameter can be **NULL** if the type code is not required.
+A pointer to a variable that receives a code indicating the type of data stored in the specified value. For a list of the possible type codes, see [Registry Value Types](/windows/desktop/SysInfo/registry-value-types). The *pType* parameter can be **NULL** if the type code is not required.
 
 </dd> <dt>
 
@@ -148,7 +148,7 @@ If you want to have the operating system supply an adequate buffer size, first c
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -188,9 +188,4 @@ If you want to have the operating system supply an adequate buffer size, first c
 </dt> </dl>
 
  
-
- 
-
-
-
 

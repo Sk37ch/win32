@@ -1,5 +1,5 @@
 ---
-Description: Creates a Microsoft Direct3D surface from a Microsoft DirectDraw surface and associates a requested handle value to it.
+description: Creates a Microsoft Direct3D surface from a Microsoft DirectDraw surface and associates a requested handle value to it.
 ms.assetid: 7b1ce714-a56e-4508-8160-af8c1748c5f7
 title: NtGdiDdCreateSurfaceEx function (Ntgdi.h)
 ms.topic: reference
@@ -51,14 +51,14 @@ Handle to the DirectDraw object created by the application.
 *hSurface* \[in\]
 </dt> <dd>
 
-Handle to the DirectDraw surface to be created for Direct3D. These handles are unique within each different [**DD\_DIRECTDRAW\_LOCAL**](https://msdn.microsoft.com/library/Ff550595(v=VS.85).aspx) structure.
+Handle to the DirectDraw surface to be created for Direct3D. These handles are unique within each different [**DD\_DIRECTDRAW\_LOCAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_directdraw_local) structure.
 
 </dd> <dt>
 
 *dwSurfaceHandle* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_CREATESURFACEEXDATA**](https://msdn.microsoft.com/library/Ff550545(v=VS.85).aspx) structure that contains the information required for the driver to create the surface.
+Handle to a [**DD\_CREATESURFACEEXDATA**](/windows/win32/api/ddrawint/ns-ddrawint-dd_createsurfaceexdata) structure that contains the information required for the driver to create the surface.
 
 </dd> </dl>
 
@@ -81,7 +81,7 @@ Handle to a [**DD\_CREATESURFACEEXDATA**](https://msdn.microsoft.com/library/Ff5
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
@@ -99,7 +99,3 @@ Handle to a [**DD\_CREATESURFACEEXDATA**](https://msdn.microsoft.com/library/Ff5
  
 
  
-
-
-
-

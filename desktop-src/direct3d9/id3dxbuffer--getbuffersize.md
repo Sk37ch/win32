@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the total size of the data in the buffer.
+description: Retrieves the total size of the data in the buffer.
 ms.assetid: f26792bc-381b-4ee1-b7d2-2007790fc046
 title: ID3DXBuffer::GetBufferSize method (D3DX9Mesh.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Returns the total size of the data in the buffer, in bytes.
 
@@ -43,7 +43,7 @@ Returns the total size of the data in the buffer, in bytes.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -60,7 +60,3 @@ Returns the total size of the data in the buffer, in bytes.
  
 
  
-
-
-
-

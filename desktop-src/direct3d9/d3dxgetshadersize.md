@@ -1,5 +1,5 @@
 ---
-Description: Returns the size of the shader byte code, in bytes.
+description: Returns the size of the shader byte code, in bytes.
 ms.assetid: 7dd091f7-fda9-49e1-982d-2eb57d9ecb23
 title: D3DXGetShaderSize function (D3DX9Shader.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ UINT D3DXGetShaderSize(
 *pFunction* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to the function DWORD stream.
 
@@ -46,7 +46,7 @@ Pointer to the function DWORD stream.
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Returns the size of the shader byte code, in bytes.
 
@@ -54,7 +54,7 @@ Returns the size of the shader byte code, in bytes.
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -71,7 +71,3 @@ Returns the size of the shader byte code, in bytes.
  
 
  
-
-
-
-

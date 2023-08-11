@@ -1,6 +1,6 @@
 ---
 title: Strsafe Functions
-description: .
+description: Strsafe Functions
 ms.assetid: 3590dd8d-3a88-4dde-a5fe-f10e12354919
 ms.topic: article
 ms.date: 05/31/2018
@@ -48,13 +48,9 @@ ms.date: 05/31/2018
 -   [**StringCchVPrintf\_lEx**](/windows/desktop/api/StrSafe/nf-strsafe-stringcchvprintf_lexa)
 -   [**StringCchVPrintf**](/windows/desktop/api/Strsafe/nf-strsafe-stringcchvprintfa)
 -   [**StringCchVPrintfEx**](/windows/desktop/api/Strsafe/nf-strsafe-stringcchvprintfexa)
--   [**UnalignedStringCbLength**](https://msdn.microsoft.com/library/Hh305643(v=VS.85).aspx)
--   [**UnalignedStringCchLength**](https://msdn.microsoft.com/library/Hh305644(v=VS.85).aspx)
+-   [**UnalignedStringCbLength**](/previous-versions/windows/desktop/legacy/hh305643(v=vs.85))
+-   [**UnalignedStringCchLength**](/previous-versions/windows/desktop/legacy/hh305644(v=vs.85))
 
  
 
  
-
-
-
-

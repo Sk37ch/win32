@@ -1,5 +1,5 @@
 ---
-Description: The following lists standard qualifiers specific to WMI.
+description: The following lists standard qualifiers specific to WMI.
 ms.assetid: 63bdbafc-51f3-4714-8b7e-9d5a61cef45e
 ms.tgt_platform: multiple
 title: Standard WMI Qualifiers
@@ -195,7 +195,7 @@ Data type: **string array**
 
 Applies to: namespace instances
 
-Specifies a security descriptor for the namespace in [SDDL](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-definition-language) format. For more information, see [Setting Namespace Security When the Namespace is Created](setting-namespace-security-when-the-namespace-is-created.md). The SDDL string is processed by WMI to establish the namespace security but not stored as a string. If no security descriptor is specified, the default security is used. For more information, see [Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md).
+Specifies a security descriptor for the namespace in [SDDL](/windows/desktop/SecAuthZ/security-descriptor-definition-language) format. For more information, see [Setting Namespace Security When the Namespace is Created](setting-namespace-security-when-the-namespace-is-created.md). The SDDL string is processed by WMI to establish the namespace security but not stored as a string. If no security descriptor is specified, the default security is used. For more information, see [Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md).
 
 </dd> <dt>
 
@@ -334,7 +334,7 @@ Set of values indicating which system privileges must be available and enabled f
 
 ### Locale Codes
 
-A locale code is of the form "MS\_<Three Digit Language ID>". For example, English locale is MS\_409. The following table lists the language IDs.
+A locale code is of the form "MS\_\<Three Digit Language ID>". For example, English locale is MS\_409. The following table lists the language IDs.
 
 
 
@@ -415,7 +415,7 @@ ExecMethod("Circle.Name='MyCircle'","DrawIt");
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -436,9 +436,4 @@ ExecMethod("Circle.Name='MyCircle'","DrawIt");
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -13,6 +13,9 @@ ms.date: 05/31/2018
 
 # Microsoft Interface Definition Language
 
+> [!NOTE]
+> This topic is about the *classic* MIDL used for creating RPC and COM interfaces. For MIDL 3.0, which is used to create Windows Runtime (WinRT) types, see [Microsoft Interface Definition Language 3.0 reference](/uwp/midl-3/).
+
 ## Purpose
 
 The Microsoft Interface Definition Language (MIDL) defines interfaces between client and server programs. Microsoft includes the MIDL compiler with the Platform Software Development Kit (SDK) to enable developers to create the interface definition language (IDL) files and application configuration files (ACF) required for remote procedure call (RPC) interfaces and COM/DCOM interfaces. MIDL also supports the generation of type libraries for OLE Automation.
@@ -27,7 +30,7 @@ When using MIDL with RPC, familiarity with C/C++ programming and the RPC paradig
 
 ## Run-time requirements
 
-The appropriate run-time libraries for using MIDL are included with Windows. The MIDL compiler and the components of the RPC development environment are installed when you install the Windows SDK. For more information, see [Using the MIDL Compiler](using-the-midl-compiler-2.md) and [Installing the RPC Programming Environment](https://docs.microsoft.com/windows/desktop/Rpc/installing-the-rpc-programming-environment).
+The appropriate run-time libraries for using MIDL are included with Windows. The MIDL compiler and the components of the RPC development environment are installed when you install the Windows SDK. For more information, see [Using the MIDL Compiler](using-the-midl-compiler-2.md) and [Installing the RPC Programming Environment](/windows/desktop/Rpc/installing-the-rpc-programming-environment).
 
 ## In this section
 
@@ -49,14 +52,8 @@ The appropriate run-time libraries for using MIDL are included with Windows. The
 
 <dl> <dt>
 
-[Remote Procedure Call (RPC)](https://docs.microsoft.com/windows/desktop/Rpc/rpc-start-page)
+[Remote Procedure Call (RPC)](/windows/desktop/Rpc/rpc-start-page)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

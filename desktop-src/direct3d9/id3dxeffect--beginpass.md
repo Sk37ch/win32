@@ -1,5 +1,5 @@
 ---
-Description: Begins a pass, within the active technique.
+description: Begins a pass, within the active technique.
 ms.assetid: fbb2bf1c-e37a-4117-8c3c-5f5b6a267301
 title: ID3DXEffect::BeginPass method (D3DX9Effect.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT BeginPass(
 *Pass* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 A zero-based integer index into the technique.
 
@@ -60,7 +60,7 @@ If the application changes any effect state using any of the [**Effect::Setx**](
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -77,7 +77,3 @@ If the application changes any effect state using any of the [**Effect::Setx**](
  
 
  
-
-
-
-

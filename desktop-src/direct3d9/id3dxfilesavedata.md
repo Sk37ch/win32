@@ -1,5 +1,5 @@
 ---
-Description: Applications use the methods of the ID3DXFileSaveData interface to add data objects as children of a .x file data node.
+description: Applications use the methods of the ID3DXFileSaveData interface to add data objects as children of a .x file data node.
 ms.assetid: ab5bdd9a-496a-4ae1-b93a-fe5856bd97d4
 title: ID3DXFileSaveData interface (D3DX9Xof.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ Applications use the methods of the ID3DXFileSaveData interface to add data obje
 
 ## Members
 
-The **ID3DXFileSaveData** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXFileSaveData** also has these types of members:
+The **ID3DXFileSaveData** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ID3DXFileSaveData** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -62,7 +62,7 @@ typedef interface ID3DXFileSaveData *LPD3DXFILESAVEDATA;
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |
@@ -79,7 +79,3 @@ typedef interface ID3DXFileSaveData *LPD3DXFILESAVEDATA;
  
 
  
-
-
-
-

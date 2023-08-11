@@ -1,5 +1,5 @@
 ---
-Description: 'With Direct3D 10, effect state for certain pipeline stages is organized by the following structures:'
+description: 'With Direct3D 10, effect state for certain pipeline stages is organized by the following structures:'
 ms.assetid: 674ed278-102c-43da-a6bf-58e084df151e
 title: Organizing State in an Effect (Direct3D 10)
 ms.topic: article
@@ -61,7 +61,7 @@ SamplerState MeshTextureSampler
 
 
 
-The syntax for effect variables is more fully detailed in [Effect Variable Syntax (Direct3D 10)](d3d10-effect-variable-syntax.md). The syntax for effect texture samplers is more fully detailed in [Sampler Type (DirectX HLSL)](https://msdn.microsoft.com/library/Bb509644(v=VS.85).aspx).
+The syntax for effect variables is more fully detailed in [Effect Variable Syntax (Direct3D 10)](d3d10-effect-variable-syntax.md). The syntax for effect texture samplers is more fully detailed in [Sampler Type (DirectX HLSL)](../direct3dhlsl/dx-graphics-hlsl-sampler.md).
 
 ## Shaders
 
@@ -155,6 +155,3 @@ The syntax for effect shaders is more fully detailed in [Effect Technique Syntax
  
 
  
-
-
-

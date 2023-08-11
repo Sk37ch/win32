@@ -1,5 +1,5 @@
 ---
-Description: Reports the number of triangles that have been processed and clipped by the runtime's software vertex processing.
+description: Reports the number of triangles that have been processed and clipped by the runtime's software vertex processing.
 ms.assetid: 280fb5c3-3048-4208-b352-0548b13ecba2
 title: D3DDEVINFO_D3DVERTEXSTATS structure (D3D9Types.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ typedef struct D3DDEVINFO_D3DVERTEXSTATS {
 **NumRenderedTriangles**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -49,7 +49,7 @@ Total number of triangles that are not clipped in this frame.
 **NumExtraClippingTriangles**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -65,7 +65,7 @@ Use the debug runtime and software vertex processing to get the number of non-cl
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 
@@ -81,7 +81,3 @@ Use the debug runtime and software vertex processing to get the number of non-cl
  
 
  
-
-
-
-

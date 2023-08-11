@@ -1,5 +1,5 @@
 ---
-Description: Represents an association in which a CIM\_ResourceAllocationSettingData instance is allocated from a resource pool.
+description: Represents an association in which a CIM\_ResourceAllocationSettingData instance is allocated from a resource pool.
 ms.assetid: ca9060e5-4434-4302-a840-a7d9cf5db714
 title: CIM_ResourceAllocationFromPool class
 ms.topic: reference
@@ -53,7 +53,7 @@ Data type: **CIM\_ResourcePool**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 The resource pool.
@@ -69,7 +69,7 @@ Data type: **CIM\_ResourceAllocationSettingData**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The resource allocation data.
@@ -80,7 +80,7 @@ The resource allocation data.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -98,9 +98,4 @@ The resource allocation data.
 </dt> </dl>
 
  
-
- 
-
-
-
 

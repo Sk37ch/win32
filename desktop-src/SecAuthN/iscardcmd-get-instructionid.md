@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the instruction identifier byte from the application protocol data unit (APDU).
+description: Retrieves the instruction identifier byte from the application protocol data unit (APDU).
 ms.assetid: 294f51cd-0a13-4dfb-bf02-9edd11a7085e
 title: ISCardCmd::get_InstructionId method (Scarddat.h)
 ms.topic: reference
@@ -17,9 +17,9 @@ api_location:
 
 # ISCardCmd::get\_InstructionId method
 
-\[The **get\_InstructionId** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **get\_InstructionId** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
-The **get\_InstructionId** method retrieves the instruction identifier byte from the [*application protocol data unit*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (APDU).
+The **get\_InstructionId** method retrieves the instruction identifier byte from the [*application protocol data unit*](../secgloss/a-gly.md) (APDU).
 
 ## Syntax
 
@@ -66,11 +66,11 @@ To set the instructional identifier to a new value, call [**put\_InstructionId**
 
 For a list of all the methods provided by this interface, see [**ISCardCmd**](iscardcmd.md).
 
-In addition to the COM error codes listed above, this interface may return a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md).
+In addition to the COM error codes listed above, this interface may return a [*smart card*](../secgloss/s-gly.md) error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md).
 
 ## Examples
 
-The following example shows how to retrieve the instruction identifier byte from the [*application protocol data unit*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (APDU). The example assumes that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
+The following example shows how to retrieve the instruction identifier byte from the [*application protocol data unit*](../secgloss/a-gly.md) (APDU). The example assumes that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
 
 
 ```C++
@@ -92,7 +92,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -118,7 +118,3 @@ if (FAILED(hr))
  
 
  
-
-
-
-

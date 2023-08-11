@@ -2,7 +2,6 @@
 title: Rasterizer-ordered views
 description: Rasterizer-ordered views (ROVs) allow pixel shader code to mark unordered access view bindings with a declaration that alters the normal requirements for the order of graphics pipeline results for UAVs.
 ms.assetid: D308BF3E-8CBE-4DF0-B020-4D202E858D99
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -56,4 +55,4 @@ ROVs are an HLSL-only construct that applies different behavior semantics to UAV
 * [Conservative Rasterization](conservative-rasterization.md)
 * [Rendering](rendering.md)
 * [Resource Binding in HLSL](resource-binding-in-hlsl.md)
-* [Shader Model 5.1](https://docs.microsoft.com/windows/desktop/direct3dhlsl/shader-model-5-1)
+* [Shader Model 5.1](/windows/desktop/direct3dhlsl/shader-model-5-1)

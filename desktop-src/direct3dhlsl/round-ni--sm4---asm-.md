@@ -1,6 +1,6 @@
 ---
 title: round_ni (sm4 - asm)
-description: Floating-point round to integral float.
+description: Floating-point round to integral float. | round_ni (sm4 - asm)
 ms.assetid: 6DEF818B-AFF9-4B44-950E-320EACE1CAC4
 ms.topic: reference
 ms.date: 05/31/2018
@@ -32,7 +32,7 @@ Floating-point round to integral float.
 
 ## Remarks
 
-This instruction performs a component-wise floating-point round of the values in *src0*, writing integral floating-point values to *dest*. **round\_ne** rounds toward -infinity, commonly known as floor().
+This instruction performs a component-wise floating-point round of the values in *src0*, writing integral floating-point values to *dest*. **round\_ni** rounds toward -infinity, commonly known as floor().
 
 The following table shows the results obtained when executing the instruction with various classes of numbers.
 
@@ -40,9 +40,8 @@ F means finite-real number.
 
 
 
-|          |          |        |             |        |        |             |        |          |         |
-|----------|----------|--------|-------------|--------|--------|-------------|--------|----------|---------|
 | **src**  | **-inf** | **-F** | **-denorm** | **-0** | **+0** | **+denorm** | **+F** | **+inf** | **NaN** |
+|----------|----------|--------|-------------|--------|--------|-------------|--------|----------|---------|
 | **dest** | -inf     | -F     | -0          | -0     | +0     | +0          | +F     | +inf     | NaN     |
 
 

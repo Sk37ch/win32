@@ -1,5 +1,5 @@
 ---
-Description: The following tables list formats that are available for each factoid used in Chinese (Simplified).
+description: The following tables list formats that are available for each factoid used in Chinese (Simplified).
 ms.assetid: dfcefe69-dacf-4a55-a2fb-7a039fa737e7
 title: Chinese (Simplified) Factoids
 ms.topic: article
@@ -43,13 +43,8 @@ The following tables list formats that are available for each factoid used in Ch
 [**Factoid Constants (C++)**](factoid-constants.md)
 </dt> <dt>
 
-[Factoid Class (Managed code)](https://msdn.microsoft.com/library/ms583657(v=VS.90).aspx)
+[Factoid Class (Managed code)](/previous-versions/ms583657(v=vs.100))
 </dt> </dl>
 
  
-
- 
-
-
-
 

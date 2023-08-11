@@ -1,5 +1,5 @@
 ---
-Description: The IStats interface provides the methods you use to connect an NPP to the network, capture network traffic, retrieve statistics, and disconnect the NPP from the network. This interface generates statistics without frames.
+description: The IStats interface provides the methods you use to connect an NPP to the network, capture network traffic, retrieve statistics, and disconnect the NPP from the network. This interface generates statistics without frames.
 ms.assetid: 57cfcdd6-f16c-4a1c-b2ba-ce98f0576862
 title: IStats interface (Netmon.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ The **IStats** interface provides the methods you use to connect an NPP to the n
 
 ## Members
 
-The **IStats** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IStats** also has these types of members:
+The **IStats** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IStats** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -55,7 +55,7 @@ The **IStats** interface has these methods.
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
@@ -65,9 +65,4 @@ The **IStats** interface has these methods.
 
 
  
-
- 
-
-
-
 

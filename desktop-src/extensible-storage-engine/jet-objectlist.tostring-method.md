@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTLIST.ToString method"
 title: JET_OBJECTLIST.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_OBJECTLIST.ToString
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_OBJECTLIST.ToString method
 
-Returns a [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) that represents the current [JET_OBJECTLIST](dn335206\(v=exchg.10\).md).
+Returns a [String](/dotnet/api/system.string) that represents the current [JET_OBJECTLIST](./jet-objectlist-class.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,16 +52,15 @@ public override string ToString()
 
 #### Return value
 
-Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
-A [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) that represents the current [JET_OBJECTLIST](dn335206\(v=exchg.10\).md).  
+Type: [System.String](/dotnet/api/system.string)  
+A [String](/dotnet/api/system.string) that represents the current [JET_OBJECTLIST](./jet-objectlist-class.md).  
 
 ## See also
 
 #### Reference
 
-[JET_OBJECTLIST class](dn335206\(v=exchg.10\).md)
+[JET_OBJECTLIST class](./jet-objectlist-class.md)
 
-[JET_OBJECTLIST members](dn335204\(v=exchg.10\).md)
+[JET_OBJECTLIST members](./jet-objectlist-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_RealizesDiskPartition class represents a disk partition on a physical media that models the creation of partitions on a raw SCSI or IDE drive.
+description: The CIM\_RealizesDiskPartition class represents a disk partition on a physical media that models the creation of partitions on a raw SCSI or IDE drive.
 ms.assetid: cc317f7d-06cd-4126-8123-6a3eb32f792e
 ms.tgt_platform: multiple
 title: CIM_RealizesDiskPartition class
@@ -63,7 +63,7 @@ Data type: **CIM\_PhysicalMedia**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 A [**CIM\_PhysicalMedia**](cim-physicalmedia.md) that describes the physical media on which the extent is realized.
@@ -79,7 +79,7 @@ Data type: **CIM\_DiskPartition**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_DiskPartition**](cim-diskpartition.md) that describes the disk partition that is located on the media.
@@ -97,7 +97,7 @@ Access type: Read-only
 
 Starting address on the physical media where the disk partition begins. The partition's ending address is determined using the **NumberOfBlocks** and **BlockSize** properties of the [**CIM\_DiskPartition**](cim-diskpartition.md) object.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> </dl>
 
@@ -113,7 +113,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -131,9 +131,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

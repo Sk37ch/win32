@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 The where command retrieves the rectangle specifying the source or destination area. This rectangle was specified using the [put](put.md) command. Digital-video, and video-overlay devices recognize this command.
 
-To send this command, call the [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -89,7 +89,7 @@ Can be "wait", "notify", or both. For digital-video devices, "test" can also be 
 
 ## Return Value
 
-Returns a rectangle in the *lpszReturnString* parameter of the [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) function. The rectangle describes the area specified in the *lpszRequestRect* parameter of this command. The rectangle is specified as *X1 Y1 X2 Y2*. The coordinates *X1 Y1* specify the upper left corner of the rectangle, and the coordinates *X2 Y2* specify the width and height.
+Returns a rectangle in the *lpszReturnString* parameter of the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) function. The rectangle describes the area specified in the *lpszRequestRect* parameter of this command. The rectangle is specified as *X1 Y1 X2 Y2*. The coordinates *X1 Y1* specify the upper left corner of the rectangle, and the coordinates *X2 Y2* specify the width and height.
 
 ## Examples
 
@@ -103,7 +103,7 @@ where movie destination
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
@@ -124,10 +124,4 @@ where movie destination
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

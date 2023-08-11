@@ -1,5 +1,5 @@
 ---
-Description: The following example encrypts and decrypts a data BLOB using CryptProtectData and CryptUnprotectData.
+description: The following example encrypts and decrypts a data BLOB using CryptProtectData and CryptUnprotectData.
 ms.assetid: 51607aad-9fa8-4db6-bd2a-3821dce619e7
 title: 'Example C Program: Using CryptProtectData'
 ms.topic: article
@@ -8,14 +8,14 @@ ms.date: 05/31/2018
 
 # Example C Program: Using CryptProtectData
 
-The following example encrypts and decrypts a data [*BLOB*](https://msdn.microsoft.com/library/ms721569(v=VS.85).aspx) using [**CryptProtectData**](/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectdata) and [**CryptUnprotectData**](/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectdata).
+The following example encrypts and decrypts a data [*BLOB*](../secgloss/b-gly.md) using [**CryptProtectData**](/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectdata) and [**CryptUnprotectData**](/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectdata).
 
 This example illustrates the following tasks and CryptoAPI functions:
 
 -   Initializing a [**CRYPTPROTECT\_PROMPTSTRUCT**](/windows/desktop/api/Dpapi/ns-dpapi-cryptprotect_promptstruct) data structure.
 -   Using [**CryptProtectData**](/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectdata) to encrypt a data BLOB.
 -   Using [**CryptUnprotectData**](/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectdata) to decrypt the data.
--   Using [**LocalFree**](https://msdn.microsoft.com/library/Aa366730(v=VS.85).aspx) to release allocated memory.
+-   Using [**LocalFree**](/windows/win32/api/winbase/nf-winbase-localfree) to release allocated memory.
 
 This example uses the [**MyHandleError**](myhandleerror.md) function. The code for this function is included with the sample. Code for this and other auxiliary functions is also listed under [General Purpose Functions](general-purpose-functions.md).
 
@@ -137,6 +137,3 @@ void MyHandleError(char *s)
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Releases a partial lock so that other exclusive or partial lock acquirers can now enter.
+description: Releases a partial lock so that other exclusive or partial lock acquirers can now enter.
 ms.assetid: 95a3e0d1-4e8b-4e30-b4fd-709b9db465de
 title: CShareLockNH::PartialUnlock method
 ms.topic: reference
@@ -38,13 +38,13 @@ This method does not return a value.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                     |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Rwnh.dll</dt> </dl> |
 
@@ -53,7 +53,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

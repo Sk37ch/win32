@@ -1,5 +1,5 @@
 ---
-Description: The GetEncryptionKey method gets the encryption key.
+description: The GetEncryptionKey method gets the encryption key.
 ms.assetid: a80d8660-d13e-483f-b1d7-ee2043ef5cab
 title: ITConnection::GetEncryptionKey method (Sdpblb.h)
 ms.topic: reference
@@ -70,13 +70,13 @@ This method can return one of these values.
 
 ## Remarks
 
-The application must use [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the memory allocated for the *ppKeyType* and *ppKeyData* parameters.
+The application must use [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) to free the memory allocated for the *ppKeyType* and *ppKeyData* parameters.
 
 ## Requirements
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |
@@ -93,9 +93,4 @@ The application must use [**SysFreeString**](https://msdn.microsoft.com/library/
 </dt> </dl>
 
  
-
- 
-
-
-
 

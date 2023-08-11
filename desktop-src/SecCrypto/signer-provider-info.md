@@ -1,5 +1,5 @@
 ---
-Description: Specifies the cryptographic service provider (CSP) and private key information used to create a digital signature.
+description: Specifies the cryptographic service provider (CSP) and private key information used to create a digital signature.
 ms.assetid: 85dc6a06-365a-4591-9d1d-117556a4417d
 title: SIGNER_PROVIDER_INFO structure
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 
 # SIGNER\_PROVIDER\_INFO structure
 
-The **SIGNER\_PROVIDER\_INFO** structure specifies the [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP) and private key information used to create a digital signature.
+The **SIGNER\_PROVIDER\_INFO** structure specifies the [*cryptographic service provider*](../secgloss/c-gly.md) (CSP) and private key information used to create a digital signature.
 
 > [!Note]  
 > This structure is not defined in any header file. To use this structure, you must define it yourself as shown in this topic.
@@ -110,7 +110,7 @@ The name of the key container that contains the private key information.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
@@ -130,7 +130,3 @@ The name of the key container that contains the private key information.
  
 
  
-
-
-
-

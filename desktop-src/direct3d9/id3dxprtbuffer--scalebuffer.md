@@ -1,5 +1,5 @@
 ---
-Description: Multiplies every value in the buffer by a constant value.
+description: Multiplies every value in the buffer by a constant value.
 ms.assetid: 3d7ef530-b83a-4123-a2ed-fff2b21378ee
 title: ID3DXPRTBuffer::ScaleBuffer method (D3DX9Mesh.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT ScaleBuffer(
 *Scale* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Constant value used to scale the buffer. Every value in the buffer is replaced by the product of this value and the original buffer value.
 
@@ -54,7 +54,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -71,7 +71,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Sets an integer value.
+description: ID3DXTextureShader::SetInt method - Sets an integer value.
 ms.assetid: e7dcf3f4-1d0c-432a-85fc-0473c49956ff
 title: ID3DXTextureShader::SetInt method (D3DX9Shader.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Unique identifier to the constant. See [D3DXHANDLE](d3dxfx.md).
 *n* \[in\]
 </dt> <dd>
 
-Type: **[**INT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**INT**](../winprog/windows-data-types.md)**
 
 Integer value.
 
@@ -64,7 +64,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -81,7 +81,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

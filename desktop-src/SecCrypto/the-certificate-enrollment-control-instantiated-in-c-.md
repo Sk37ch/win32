@@ -1,5 +1,5 @@
 ---
-Description: The Certificate Enrollment Control Instantiated in C++
+description: The Certificate Enrollment Control Instantiated in C++
 ms.assetid: 19dd2fce-b4a9-44fd-9572-897ee7943914
 title: The Certificate Enrollment Control Instantiated in C++
 ms.topic: article
@@ -12,7 +12,7 @@ The following C++ example initializes COM, creates an instance of the [Certifica
 
 ## Example in C++
 
-The following example creates an instance of the [Certificate Enrollment Control](certificate-enrollment-control.md) and displays the value of the [**MyStoreName**](https://msdn.microsoft.com/library/Aa383167(v=VS.85).aspx) property. This example uses the [**ICEnroll4**](/windows/desktop/api/Xenroll/nn-xenroll-icenroll4) interface.
+The following example creates an instance of the [Certificate Enrollment Control](certificate-enrollment-control.md) and displays the value of the [**MyStoreName**](/windows/win32/api/xenroll/nf-xenroll-icenroll-get_mystorename) property. This example uses the [**ICEnroll4**](/windows/desktop/api/Xenroll/nn-xenroll-icenroll4) interface.
 
 
 ```C++
@@ -70,6 +70,3 @@ HRESULT __cdecl main(void)
  
 
  
-
-
-

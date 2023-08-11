@@ -1,5 +1,5 @@
 ---
-Description: Renames the logical file (or directory) specified in the object path. Renaming is not supported if the destination is on another drive or overwriting an existing logical file is required.
+description: Renames the logical file (or directory) specified in the object path. Renaming is not supported if the destination is on another drive or overwriting an existing logical file is required.
 ms.assetid: 728737a7-7cb8-4237-be03-16c4dac530b2
 ms.tgt_platform: multiple
 title: Rename method of the CIM_Directory class
@@ -27,7 +27,7 @@ This method is inherited from [**CIM\_LogicalFile**](cim-logicalfile.md).
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -160,7 +160,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -181,9 +181,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

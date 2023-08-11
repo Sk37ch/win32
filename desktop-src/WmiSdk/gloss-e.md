@@ -1,5 +1,5 @@
 ---
-Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 40d26ea1-3081-4afd-8b12-bc6521fad390
 ms.tgt_platform: multiple
@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# E
+# E (WMI)
 
 [A](gloss-a.md) B [C](gloss-c.md) [D](gloss-d.md) E [F](gloss-f.md) G [H](gloss-h.md) [I](gloss-i.md) J [K](gloss-k.md) [L](gloss-l.md) [M](gloss-m.md) [N](gloss-n.md) [O](gloss-o.md) [P](gloss-p.md) [Q](gloss-q.md) [R](gloss-r.md) [S](gloss-s.md) [T](gloss-t.md) U V [W](gloss-w.md) X Y Z
 
@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 <span id="wmi.gloss_event_class"></span><span id="WMI.GLOSS_EVENT_CLASS"></span>**event class**
 </dt> <dd>
 
-A WMI class that *event consumers* can subscribe to by an *event query*. The class reports a specific type of occurrence. For example, the [**Win32\_ProcessStopTrace**](https://docs.microsoft.com/previous-versions/windows/desktop/krnlprov/win32-processstoptrace) class reports that a specific process has stopped.
+A WMI class that *event consumers* can subscribe to by an *event query*. The class reports a specific type of occurrence. For example, the [**Win32\_ProcessStopTrace**](/previous-versions/windows/desktop/krnlprov/win32-processstoptrace) class reports that a specific process has stopped.
 
 </dd> <dt>
 
@@ -66,13 +66,10 @@ The third layer of the [*CIM schema*](gloss-c.md), which includes platform-speci
 <span id="wmi.gloss_extrinsic_event"></span><span id="WMI.GLOSS_EXTRINSIC_EVENT"></span>**extrinsic event**
 </dt> <dd>
 
-An event notification from a provider. Most providers create an instance of an event class defined in the provider MOF files. An extrinsic event inherits from [**\_\_ExtrinsicEvent**](--extrinsicevent.md). For example, the [Event Log Provider](https://docs.microsoft.com/previous-versions/windows/desktop/eventlogprov/event-log-provider) defines the event class [**Win32\_NTLogEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/eventlogprov/win32-ntlogevent). Also see [*intrinsic event*](gloss-i.md).
+An event notification from a provider. Most providers create an instance of an event class defined in the provider MOF files. An extrinsic event inherits from [**\_\_ExtrinsicEvent**](--extrinsicevent.md). For example, the [Event Log Provider](/previous-versions/windows/desktop/eventlogprov/event-log-provider) defines the event class [**Win32\_NTLogEvent**](/previous-versions/windows/desktop/eventlogprov/win32-ntlogevent). Also see [*intrinsic event*](gloss-i.md).
 
 </dd> </dl>
 
  
 
  
-
-
-

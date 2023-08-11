@@ -175,7 +175,7 @@ End If
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | None supported<br/>                                                         |
@@ -191,14 +191,8 @@ End If
 [Restore Points](restore-points.md)
 </dt> <dt>
 
-[Windows Management Instrumentation](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-start-page)
+[Windows Management Instrumentation](/windows/desktop/WmiSdk/wmi-start-page)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

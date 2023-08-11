@@ -1,5 +1,5 @@
 ---
-Description: Occurs before IInkStrokeDisp objects are deleted from the Ink property.
+description: Occurs before IInkStrokeDisp objects are deleted from the Ink property.
 ms.assetid: 747e0fdf-c68b-4805-bdc8-aa05e95ec0f7
 title: InkPicture.StrokesDeleting event (Msinkaut.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ void StrokesDeleting(
 *Strokes* \[in\]
 </dt> <dd>
 
-The [InkStrokes](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection deleted when the **StrokesDeleting** event fires.
+The [InkStrokes](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) collection deleted when the **StrokesDeleting** event fires.
 
 </dd> </dl>
 
@@ -44,7 +44,7 @@ This event method is defined in the **\_IInkOverlayEvents** and **\_IInkPictureE
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
@@ -61,9 +61,4 @@ This event method is defined in the **\_IInkOverlayEvents** and **\_IInkPictureE
 </dt> </dl>
 
  
-
- 
-
-
-
 

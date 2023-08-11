@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.GPS.LatitudeRef property.
+description: The photo metadata policy for the System.GPS.LatitudeRef property.
 ms.assetid: 057015fd-38b7-4053-b611-72565975cc58
 title: System.GPS.LatitudeRef Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.LatitudeRef Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.LatitudeRef](https://msdn.microsoft.com/library/bb760543(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.LatitudeRef](../properties/props-system-gps-latitude.md) property.
 
 ### PKEY
 
@@ -70,12 +70,9 @@ If the file is in TIFF format, the handler will read, write, and remove the data
 
 <dl> <dt>
 
-[System.GPS.LatitudeRef](https://msdn.microsoft.com/library/bb760543(VS.85).aspx)
+[System.GPS.LatitudeRef](../properties/props-system-gps-latitude.md)
 </dt> </dl>
 
  
 
  
-
-
-

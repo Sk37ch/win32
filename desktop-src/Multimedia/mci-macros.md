@@ -6,10 +6,13 @@ keywords:
 - MCI macros
 - MCI reference,macros
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # MCI Macros
+
+\[The feature associated with this page, [MCI](/windows/win32/multimedia/mci), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **MCI**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The following macros are used with MCI.
 
@@ -19,7 +22,7 @@ The following macros are used with MCI.
 -   [**MCI\_MAKE\_HMS**](mci-make-hms.md)
 -   [**MCI\_MAKE\_MSF**](mci-make-msf.md)
 -   [**MCI\_MAKE\_TMSF**](mci-make-tmsf.md)
--   [**MCI\_MSF\_FRAME**](https://msdn.microsoft.com/library/Dd743438(v=VS.85).aspx)
+-   [**MCI\_MSF\_FRAME**](/previous-versions//dd743438(v=vs.85))
 -   [**MCI\_MSF\_MINUTE**](mci-msf-minute.md)
 -   [**MCI\_MSF\_SECOND**](mci-msf-second.md)
 -   [**MCI\_TMSF\_FRAME**](mci-tmsf-frame.md)
@@ -37,7 +40,3 @@ The following macros are used with MCI.
  
 
  
-
-
-
-

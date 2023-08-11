@@ -1,5 +1,5 @@
 ---
-Description: Contains an object for each subscriber property for the parent SubscriptionsForComponent collection.
+description: Contains an object for each subscriber property for the parent SubscriptionsForComponent collection.
 ms.assetid: 58c9edbd-1128-4b8c-bb5a-528c212aa6a7
 title: SubscriberProperties collection
 ms.topic: reference
@@ -22,7 +22,7 @@ This collection supports the [**Add**](/windows/desktop/api/ComAdmin/nf-comadmin
 
 ## Members
 
-The **SubscriberProperties** collection inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
+The **SubscriberProperties** collection inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Related Collections
 
@@ -47,7 +47,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                                                        |
+| Entry | Value |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The name of the property. Extra spaces at the beginning and end of the string are stripped out. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) or [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) property method is called on an object of this collection. |
 | Access         | WriteOnce                                                                                                                                                                                                                                                              |
@@ -63,7 +63,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                           |
+| Entry | Value |
 |----------------|---------------------------|
 | Description    | A value for the property. |
 | Access         | ReadWrite                 |
@@ -85,6 +85,3 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
  
 
  
-
-
-

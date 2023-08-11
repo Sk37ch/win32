@@ -1,5 +1,5 @@
 ---
-Description: CSIDL (constant special item ID list) values provide a unique system-independent way to identify special folders used frequently by applications, but which may not have the same name or location on any given system.
+description: CSIDL (constant special item ID list) values provide a unique system-independent way to identify special folders used frequently by applications, but which may not have the same name or location on any given system.
 title: CSIDL (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -81,7 +81,8 @@ topic_type:
 
 # CSIDL
 
-> [!Note]As of Windows Vista, these values have been replaced by [**KNOWNFOLDERID**](knownfolderid.md) values. See that topic for a list of the new constants and their corresponding CSIDL values. For convenience, corresponding **KNOWNFOLDERID** values are also noted here for each CSIDL value.
+> [!Note]  
+> As of Windows Vista, these values have been replaced by [**KNOWNFOLDERID**](knownfolderid.md) values. See that topic for a list of the new constants and their corresponding CSIDL values. For convenience, corresponding **KNOWNFOLDERID** values are also noted here for each CSIDL value.
 >
 > The CSIDL system is supported under Windows Vista for compatibility reasons. However, new development should use [**KNOWNFOLDERID**](knownfolderid.md) values rather than CSIDL values.
 
@@ -172,7 +173,7 @@ Combine ****CSIDL\_FLAG\_CREATE**** with any of the other CSIDLs, except for ***
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Shlobj.h</dt> </dl> |
 

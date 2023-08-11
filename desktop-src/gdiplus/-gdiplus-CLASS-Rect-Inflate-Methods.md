@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the Inflate methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.
+description: This topic lists the Inflate methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.
 ms.assetid: 4875dec3-e57e-4109-8c63-c3dc4db6080d
 title: Rect.Inflate methods (Gdiplustypes.h)
 ms.date: 07/02/2019
@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Rect.Inflate methods
 
-This topic lists the Inflate methods of the [**Rect**](https://msdn.microsoft.com/library/ms534495(v=VS.85).aspx) class. For a complete list of methods for the **Rect** class, see [Rect Methods](-gdiplus-class-rect-methods.md).
+This topic lists the Inflate methods of the [**Rect**](/windows/win32/api/gdiplustypes/nl-gdiplustypes-rect) class. For a complete list of methods for the **Rect** class, see [Rect Methods](-gdiplus-class-rect-methods.md).
 
 ### Overload list
 
@@ -16,8 +16,8 @@ This topic lists the Inflate methods of the [**Rect**](https://msdn.microsoft.co
 
 | Method                                                         | Description                                                                                                                                                                     |
 |:---------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Inflate(Point&)**](https://msdn.microsoft.com/library/ms534983(v=VS.85).aspx)  | The [**Rect::Inflate**](https://msdn.microsoft.com/library/ms534983(v=VS.85).aspx) method expands the rectangle by the value of *point*.**X***point*.**Y** on the top and bottom edges.<br/> |
-| [**Inflate(INT,INT)**](https://msdn.microsoft.com/library/ms534982(v=VS.85).aspx) | The [**Rect::Inflate**](https://msdn.microsoft.com/library/ms534982(v=VS.85).aspx)*dxdy* on the top and bottom edges.<br/>                                                                   |
+| [**Inflate(Point&)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-inflate(inconstpoint_))  | The [**Rect::Inflate**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-inflate(inconstpoint_)) method expands the rectangle by the value of *point*.**X***point*.**Y** on the top and bottom edges.<br/> |
+| [**Inflate(INT,INT)**](/previous-versions//ms534982(v=vs.85)) | The [**Rect::Inflate**](/previous-versions//ms534982(v=vs.85))*dxdy* on the top and bottom edges.<br/>                                                                   |
 
 
 
@@ -25,7 +25,7 @@ This topic lists the Inflate methods of the [**Rect**](https://msdn.microsoft.co
 
 
 
-|                   |                                                                                           |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplustypes.h</dt> </dl> |
 
@@ -34,7 +34,3 @@ This topic lists the Inflate methods of the [**Rect**](https://msdn.microsoft.co
  
 
  
-
-
-
-

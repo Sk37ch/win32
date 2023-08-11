@@ -1,5 +1,5 @@
 ---
-Description: The pSetupGetGlobalFlags function is an unsupported utility.
+description: The pSetupGetGlobalFlags function is an unsupported utility.
 ms.assetid: c993ef5d-9f4e-4643-aa9b-017c90796c8d
 title: pSetupGetGlobalFlags function
 ms.topic: reference
@@ -40,13 +40,13 @@ This function does not return a value.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Setupapi.dll</dt> </dl> |
 
@@ -55,7 +55,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

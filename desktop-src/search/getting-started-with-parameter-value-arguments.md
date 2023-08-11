@@ -1,5 +1,5 @@
 ---
-Description: The search-ms ?application protocol is a convention for querying the Windows Search index.
+description: The search-ms ?application protocol is a convention for querying the Windows Search index.
 ms.assetid: e8b18018-c712-4007-bb0a-af90a75780d6
 title: Getting Started with Parameter-Value Arguments
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Getting Started with Parameter-Value Arguments
 
-The **search-ms** ?[application protocol](https://msdn.microsoft.com/library/Aa767916(VS.85).aspx) is a convention for querying the Windows Search index. The protocol enables applications, like Windows Explorer, to query the index with parameter-value arguments, including property arguments, previously saved searches, Advanced Query Syntax (AQS), Natural Query Syntax (NQS), and language code identifiers (LCIDs) for both the indexer and the query itself.
+The **search-ms** ?[application protocol](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767916(v=vs.85)) is a convention for querying the Windows Search index. The protocol enables applications, like Windows Explorer, to query the index with parameter-value arguments, including property arguments, previously saved searches, Advanced Query Syntax (AQS), Natural Query Syntax (NQS), and language code identifiers (LCIDs) for both the indexer and the query itself.
 
 This topic is organized as follows:
 
@@ -38,7 +38,7 @@ The syntax begins by identifying the protocol itself (search-ms:). The parameter
 | displayname                                                  | URL-encoded string                                            | The name of the current search.                                                                                                                                                                                                                                            | Windows Vista, and later |
 
 
-For related information, see [Registering an Application to a URL Protocol](https://msdn.microsoft.com/library/Aa767914(v=VS.85).aspx).
+For related information, see [Registering an Application to a URL Protocol](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767914(v=vs.85)).
 
 ## Examples
 

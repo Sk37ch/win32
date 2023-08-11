@@ -1,5 +1,5 @@
 ---
-Description: Modifies the settings for the Hyper-V Replica service.
+description: Modifies the settings for the Hyper-V Replica service.
 ms.assetid: e203f9f5-da4b-4ba7-8637-add7169990d3
 title: ModifyServiceSettings method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -45,7 +45,7 @@ A string representation of the [**Msvm\_ReplicationServiceSettingData**](msvm-re
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -98,7 +98,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -116,9 +116,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

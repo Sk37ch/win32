@@ -1,5 +1,5 @@
 ---
-Description: The DisableIPSec WMI class method is used to disable Internet Protocol security (IPsec) on this TCP/IP-enabled network adapter.
+description: The DisableIPSec WMI class method is used to disable Internet Protocol security (IPsec) on this TCP/IP-enabled network adapter.
 ms.assetid: 6fff2721-1ee2-42b4-bbf9-fd36b97318e3
 ms.tgt_platform: multiple
 title: DisableIPSec method of the Win32_NetworkAdapterConfiguration class
@@ -18,9 +18,9 @@ api_location:
 
 # DisableIPSec method of the Win32\_NetworkAdapterConfiguration class
 
-The **DisableIPSec** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method is used to disable Internet Protocol security (IPsec) on this TCP/IP-enabled network adapter.
+The **DisableIPSec** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method is used to disable Internet Protocol security (IPsec) on this TCP/IP-enabled network adapter.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -37,7 +37,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns a value of 0 (zero) for a successful completion when a reboot is not required, 1 (one) for a successful completion when a reboot is required, and any other number if there is an error. For more information on error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+Returns a value of 0 (zero) for a successful completion when a reboot is not required, 1 (one) for a successful completion when a reboot is required, and any other number if there is an error. For more information on error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -417,7 +417,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -437,19 +437,14 @@ Next
 [**Win32\_NetworkAdapterConfiguration**](win32-networkadapterconfiguration.md)
 </dt> <dt>
 
-[WMI Tasks: Networking](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--networking)
+[WMI Tasks: Networking](/windows/desktop/WmiSdk/wmi-tasks--networking)
 </dt> <dt>
 
-[WMI Tasks: Accounts and Domains](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--accounts-and-domains)
+[WMI Tasks: Accounts and Domains](/windows/desktop/WmiSdk/wmi-tasks--accounts-and-domains)
 </dt> <dt>
 
-[IPv6 and IPv4 Support in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/ipv6-and-ipv4-support-in-wmi)
+[IPv6 and IPv4 Support in WMI](/windows/desktop/WmiSdk/ipv6-and-ipv4-support-in-wmi)
 </dt> </dl>
 
  
-
- 
-
-
-
 

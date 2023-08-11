@@ -1,5 +1,5 @@
 ---
-Description: MBNProfileExt\/...\/AccessString (v4)
+description: MBNProfileExt\/...\/AccessString (v4)
 MS-HAID: WWAN\_profile\_v4.element\_AccessString
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -23,7 +23,7 @@ topic_type:
 
 Identifies the APN or dial string to be used to establish a data connection.
 
-For more information, see the documentation for the v1 [**AccessString**](https://msdn.microsoft.com/library/Dd323273(v=VS.85).aspx) element.
+For more information, see the documentation for the v1 [**AccessString**](./schema-accessstring-contexttype-element.md) element.
 
 ## Element hierarchy
 
@@ -57,45 +57,22 @@ None.
 
 ### <span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Parent Elements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-context.md">Context</a></td>
-<td><p>Specifies the parameters required to establish a data connection.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Parent Element | Description | 
+|----------------|-------------|
+| <a href="element-context.md">Context</a> | <p>Specifies the parameters required to establish a data connection.</p> | 
+
 
  
 
 ## Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p>Namespace</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 
  
-
-
-

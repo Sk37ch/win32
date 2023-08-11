@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_VideoSetting class associates the CIM\_VideoControllerResolution setting object with the controller to which it applies.
+description: The CIM\_VideoSetting class associates the CIM\_VideoControllerResolution setting object with the controller to which it applies.
 ms.assetid: 1f6742ad-ab92-4723-b691-0c3e6c0d82fa
 ms.tgt_platform: multiple
 title: CIM_VideoSetting class
@@ -61,7 +61,7 @@ Data type: **CIM\_VideoController**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Element")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Element")
 </dt> </dl>
 
 A [**CIM\_VideoController**](cim-videocontroller.md) that describes the video controller.
@@ -77,7 +77,7 @@ Data type: **CIM\_VideoControllerResolution**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Setting")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Setting")
 </dt> </dl>
 
 A [**CIM\_VideoControllerResolution**](cim-videocontrollerresolution.md) that describes the resolutions, refresh rates, scan mode and number of colors that can be set for the Controller.
@@ -94,7 +94,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -112,9 +112,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

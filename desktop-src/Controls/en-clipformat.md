@@ -36,7 +36,7 @@ EN_CLIPFORMAT
 *wParam* 
 </dt> <dd>
 
-The window ID retrieved by calling the [**GetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowlonga) function with the GWL\_ID value.
+The window ID retrieved by calling the [**GetWindowLong**](/windows/desktop/api/winuser/nf-winuser-getwindowlonga) function with the GWL\_ID value.
 
 </dd> <dt>
 
@@ -59,7 +59,7 @@ To receive EN\_CLIPFORMAT notification codes, specify [**ENM\_CLIPFORMAT**](rich
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
@@ -75,10 +75,4 @@ To receive EN\_CLIPFORMAT notification codes, specify [**ENM\_CLIPFORMAT**](rich
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -1,6 +1,6 @@
 ---
 title: ID3DX11EffectTechnique GetAnnotationByName method (D3dx11effect.h)
-description: Get an annotation by name.
+description: Get an annotation by name. | ID3DX11EffectTechnique GetAnnotationByName method (D3dx11effect.h)
 ms.assetid: 3a9e1fa7-4586-42d6-a723-3140f29a01b4
 keywords:
 - GetAnnotationByName method Direct3D 11
@@ -41,7 +41,7 @@ ID3DX11EffectVariable* GetAnnotationByName(
 *Name* 
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 Name of the annotation.
 
@@ -66,7 +66,7 @@ Use an annotation to attach a piece of metadata to a technique.
 
 
 
-|                    |                                                                                                                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
 | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |
@@ -81,10 +81,4 @@ Use an annotation to attach a piece of metadata to a technique.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

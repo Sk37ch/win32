@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates the use of basic wireless network management functions.
+description: Demonstrates the use of basic wireless network management functions.
 ms.assetid: 63af0b88-c20b-4b06-9db3-e8510fc80053
 title: Native Wifi API Sample
 ms.topic: article
@@ -12,7 +12,7 @@ A Native Wifi API sample that demonstrates the use of basic wireless network man
 
 By default, the Native Wifi sample source code is installed in the following directory:
 
-**C:\\Program Files\\Microsoft SDKs\\Windows\\<version number>\\Samples\\NetDs\\Wlan**
+**C:\\Program Files\\Microsoft SDKs\\Windows\\\<version number\>\\Samples\\NetDs\\Wlan**
 
 The Native Wifi API sample is located under the following folder:
 
@@ -41,15 +41,12 @@ The Native Wifi sample demonstrates how to perform the following tasks:
 [Using Native Wifi](using-native-wifi.md)
 </dt> <dt>
 
-[Windows Vista Wireless SDK Forum](https://social.msdn.microsoft.com/Forums/en-US/b6bbd8f0-a921-480f-9b4b-845336462bc0/welcome-to-the-windows-vista-wireless-sdk-forum)
+[Windows Vista Wireless SDK Forum](https://social.msdn.microsoft.com/Forums/b6bbd8f0-a921-480f-9b4b-845336462bc0/welcome-to-the-windows-vista-wireless-sdk-forum)
 </dt> <dt>
 
-[Troubleshooting Windows Vista 802.11 Wireless Connections](https://technet.microsoft.com/library/3ed3d027-5ae8-4cb0-ade5-0a7c446cd4f7)
+[Troubleshooting Windows Vista 802.11 Wireless Connections](/previous-versions/windows/it-pro/windows-vista/cc766215(v=ws.10))
 </dt> </dl>
 
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of vertices (or texels) sampled.
+description: ID3DXPRTBuffer::GetNumSamples method - Retrieves the number of vertices (or texels) sampled.
 ms.assetid: fdcb9f09-29fb-409d-b2c0-78ebf311f48b
 title: ID3DXPRTBuffer::GetNumSamples method (D3DX9Mesh.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Returns the number of vertices (or texels) sampled.
 
@@ -43,7 +43,7 @@ Returns the number of vertices (or texels) sampled.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -60,7 +60,3 @@ Returns the number of vertices (or texels) sampled.
  
 
  
-
-
-
-

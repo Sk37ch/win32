@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_PrinterSetting association WMI class relates a printer and its configuration settings.
+description: The Win32\_PrinterSetting association WMI class relates a printer and its configuration settings.
 ms.assetid: 5d0f0724-0583-449b-a6da-336e7c8e526e
 ms.tgt_platform: multiple
 title: Win32_PrinterSetting class
@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_PrinterSetting class
 
-The **Win32\_PrinterSetting** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) relates a printer and its configuration settings.
+The **Win32\_PrinterSetting** association [WMI class](../wmisdk/retrieving-a-class.md) relates a printer and its configuration settings.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -55,7 +55,7 @@ Data type: **CIM\_LogicalDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("CIM\|CIM\_LogicalDevice")
+Qualifiers: [**key**](../wmisdk/key-qualifier.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("CIM\|CIM\_LogicalDevice")
 </dt> </dl>
 
 A [**CIM\_LogicalDevice**](cim-logicaldevice.md) that represents properties of the logical device on which the settings can be applied.
@@ -73,7 +73,7 @@ Data type: **CIM\_Setting**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("CIM\|CIM\_Setting")
+Qualifiers: [**key**](../wmisdk/key-qualifier.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("CIM\|CIM\_Setting")
 </dt> </dl>
 
 A [**CIM\_Setting**](cim-setting.md) that represents settings that can be applied to the logical device.
@@ -90,7 +90,7 @@ The **Win32\_PrinterSetting** class is derived from [**Win32\_DeviceSettings**](
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
@@ -113,7 +113,3 @@ The **Win32\_PrinterSetting** class is derived from [**Win32\_DeviceSettings**](
  
 
  
-
-
-
-

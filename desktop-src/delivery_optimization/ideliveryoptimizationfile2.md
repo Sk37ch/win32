@@ -23,7 +23,7 @@ The **IDeliveryOptimizationFile2** supports setting and getting optional file pr
 
 ## Members
 
-The **IDeliveryOptimizationFile2** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDeliveryOptimizationFile2** also has these types of members:
+The **IDeliveryOptimizationFile2** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDeliveryOptimizationFile2** also has these types of members:
 
 - [Methods](#methods)
 
@@ -33,12 +33,12 @@ The **IDeliveryOptimizationFile2** interface has these methods.
 
 | Method                                                 | Description                                                  |
 |:-------------------------------------------------------|:-------------------------------------------------------------|
-| [**GetProperty**](ideliveryoptimizationfile2-getproperty.md)  | This method returns a single property of the DO file. |
-| [**SetProperty**](ideliveryoptimizationfile2-setproperty.md)  | This method sets a single property of the DO file.    |
+| [**GetProperty**](ideliveryoptimizationfile2-getproperty.md)  | This method returns a single property of the Delivery Optimization file. |
+| [**SetProperty**](ideliveryoptimizationfile2-setproperty.md)  | This method sets a single property of the Delivery Optimization file.    |
 
 ## Requirements
 
-|                               |                                                                                   |
+| Requirement | Value |
 |-------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client      | Windows 10, version 1803 \[desktop apps only\]                                    |
 | Minimum supported server      | Windows Server, version 1709 \[desktop apps only\]                                |

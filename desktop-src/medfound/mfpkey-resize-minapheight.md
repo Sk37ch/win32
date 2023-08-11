@@ -1,5 +1,5 @@
 ---
-Description: Specifies the height of the minimum display aperture, in pixels.
+description: Specifies the height of the minimum display aperture, in pixels.
 ms.assetid: dddae10f-3ed2-4444-af5b-f2cf46c52e7c
 title: MFPKEY_RESIZE_MINAPHEIGHT Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Specifies the height of the minimum display aperture, in pixels.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -26,7 +26,7 @@ VT\_I4
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -44,7 +44,3 @@ VT\_I4
  
 
  
-
-
-
-

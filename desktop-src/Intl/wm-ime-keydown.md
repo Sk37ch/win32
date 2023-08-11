@@ -1,5 +1,5 @@
 ---
-Description: Sent to an application by the IME to notify the application of a key press and to keep message order. A window receives this message through its WindowProc function.
+description: Sent to an application by the IME to notify the application of a key press and to keep message order. A window receives this message through its WindowProc function.
 ms.assetid: db7075fb-b3d4-4d32-a0db-096d17d67c72
 title: WM_IME_KEYDOWN message (Winuser.h)
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WM\_IME\_KEYDOWN message
 
-Sent to an application by the IME to notify the application of a key press and to keep message order. A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+Sent to an application by the IME to notify the application of a key press and to keep message order. A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -69,13 +69,13 @@ An application should return 0 if it processes this message.
 
 ## Remarks
 
-An application can process this message or pass it to the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function to generate a matching [**WM\_KEYDOWN**](https://msdn.microsoft.com/library/ms646280(v=VS.85).aspx) message.
+An application can process this message or pass it to the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)  function to generate a matching [**WM\_KEYDOWN**](../inputdev/wm-keydown.md) message.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -87,16 +87,7 @@ An application can process this message or pass it to the [**DefWindowProc**](ht
 
 <dl> <dt>
 
-[Input Method Manager](input-method-manager.md)
-</dt> <dt>
-
-[Input Method Manager Messages](input-method-manager-messages.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+- [Input Method Manager](input-method-manager.md)
+- [Input Method Manager Messages](input-method-manager-messages.md)
+- [Keyboard Input (Keyboard and Mouse Input)](../inputdev/keyboard-input.md)
+- [About Keyboard Input](../inputdev/about-keyboard-input.md)

@@ -1,5 +1,5 @@
 ---
-Description: Allows a data volume to be automatically unlocked when the volume is mounted.
+description: Allows a data volume to be automatically unlocked when the volume is mounted.
 ms.assetid: ec77b17f-545b-40a7-91b2-ff0b32b8370d
 title: EnableAutoUnlock method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -80,13 +80,13 @@ If the external key associated with the volume key protector ID is deleted, the 
 
  
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/Aa823192(v=VS.85).aspx).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |
@@ -105,7 +105,3 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
  
 
  
-
-
-
-

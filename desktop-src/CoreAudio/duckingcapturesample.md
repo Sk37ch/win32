@@ -1,5 +1,5 @@
 ---
-Description: This sample application demonstrates opening and closing communication streams and causing ducking events that an application can get to implement stream attenuation.
+description: This sample application demonstrates opening and closing communication streams and causing ducking events that an application can get to implement stream attenuation.
 ms.assetid: 9a2131b2-ec4a-492a-a277-bd26ec8d67e5
 title: DuckingCaptureSample
 ms.topic: article
@@ -25,7 +25,7 @@ This sample demonstrates the following features.
 
 -   [MMDevice API](mmdevice-api.md) for multimedia device enumeration and selection.
 -   [WASAPI](wasapi.md) for accessing the communications capture and render device, stream management operations, and handling ducking events.
--   [WAVE APIs](https://msdn.microsoft.com/library/ms713499(VS.85).aspx) for accessing the communications device and capturing audio input.
+-   [WAVE APIs](/previous-versions//ms713499(v=vs.85)) for accessing the communications device and capturing audio input.
 
 ## Requirements
 
@@ -88,6 +88,3 @@ For more information about the stream attenuation feature, see [Using a Communic
  
 
  
-
-
-

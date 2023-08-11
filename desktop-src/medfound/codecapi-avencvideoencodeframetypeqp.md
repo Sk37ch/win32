@@ -1,5 +1,5 @@
 ---
-Description: Specifies the frame types (I, P, or B) that the quantization parameter (QP) is applied to.
+description: Specifies the frame types (I, P, or B) that the quantization parameter (QP) is applied to.
 ms.assetid: 6331033F-7EEB-41B3-B166-29686D4AADB6
 title: CODECAPI_AVEncVideoEncodeFrameTypeQP property (Codecapi.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ This is a dynamic encoding property meaning that a new value can be set any time
 
 **H.264/AVC encoders:**
 
-Encoder shall support [**GetValue**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue), [**SetValue**](https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-setvalue), and [**GetParameterRange**](https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-getparameterrange).
+Encoder shall support [**GetValue**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue), [**SetValue**](/windows/desktop/api/strmif/nf-strmif-icodecapi-setvalue), and [**GetParameterRange**](/windows/desktop/api/strmif/nf-strmif-icodecapi-getparameterrange).
 
 A set of four 16-bit fields are used to specify the frame QPs in fixed-QP encoding. The fields are:
 
@@ -39,7 +39,7 @@ When this CodecAPI is supported, encoders shall support QP setting on frame type
 
 Default value shall be 0x0000001a001a001a. QP equal to 26 for I, P and B.
 
-When [CODECAPI\_AVEncVideoSelectLayer](codecapi-avencvideoselectlayer.md) selects a specific temporal layer, [**SetValue**](https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-setvalue) of CODECAPI\_AVEncVideoEncodeFrameTypeQP shall set QP for I, P, and B frames on that temporal layer. By default, it sets QP for I, P, and B frames on base temporal layer temporal layer 0.
+When [CODECAPI\_AVEncVideoSelectLayer](codecapi-avencvideoselectlayer.md) selects a specific temporal layer, [**SetValue**](/windows/desktop/api/strmif/nf-strmif-icodecapi-setvalue) of CODECAPI\_AVEncVideoEncodeFrameTypeQP shall set QP for I, P, and B frames on that temporal layer. By default, it sets QP for I, P, and B frames on base temporal layer temporal layer 0.
 
 [CODECAPI\_AVEncVideoMaxQP](codecapi-avencvideomaxqp.md) and [CODECAPI\_AVEncVideoMinQP](codecapi-avencvideominqp.md) shall be used to define and limit the QP range for QPs of all picture types, I, P and B.
 
@@ -47,7 +47,7 @@ When [CODECAPI\_AVEncVideoSelectLayer](codecapi-avencvideoselectlayer.md) select
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                   |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                        |
@@ -63,9 +63,4 @@ When [CODECAPI\_AVEncVideoSelectLayer](codecapi-avencvideoselectlayer.md) select
 </dt> </dl>
 
  
-
- 
-
-
-
 

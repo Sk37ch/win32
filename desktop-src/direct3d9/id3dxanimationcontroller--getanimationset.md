@@ -1,5 +1,5 @@
 ---
-Description: Gets an animation set.
+description: Gets an animation set.
 ms.assetid: 61785f60-82c1-4ddc-b4cd-2e7f665cfe8c
 title: ID3DXAnimationController::GetAnimationSet method (D3dx9anim.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT GetAnimationSet(
 *Index* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Index of the animation set.
 
@@ -68,7 +68,7 @@ The animation controller contains an array of animation sets. This method return
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -85,7 +85,3 @@ The animation controller contains an array of animation sets. This method return
  
 
  
-
-
-
-

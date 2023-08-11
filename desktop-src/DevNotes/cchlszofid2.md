@@ -1,5 +1,5 @@
 ---
-Description: Decodes and stores a string.
+description: Decodes and stores a string.
 ms.assetid: 6ababd6e-57b7-49eb-98c9-a4bcb558a377
 title: CchLszOfId2 function
 ms.topic: reference
@@ -63,13 +63,13 @@ This function returns the decoded string.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Msjint40.dll</dt> </dl> |
 
@@ -78,7 +78,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

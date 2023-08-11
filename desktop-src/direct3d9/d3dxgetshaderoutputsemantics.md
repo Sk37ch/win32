@@ -1,5 +1,5 @@
 ---
-Description: Get the semantics for all shader output elements.
+description: Get the semantics for all shader output elements.
 ms.assetid: 1a3cdd5d-0ea7-48ae-a3f1-030e95b03a42
 title: D3DXGetShaderOutputSemantics function (D3DX9Shader.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ HRESULT D3DXGetShaderOutputSemantics(
 *pFunction* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to the shader function DWORD stream.
 
@@ -58,7 +58,7 @@ Pointer to an array of [**D3DXSEMANTIC**](d3dxsemantic.md) structures. The funct
 *pCount* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Returns the number of elements in pSemantics.
 
@@ -74,7 +74,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -91,7 +91,3 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
  
 
  
-
-
-
-

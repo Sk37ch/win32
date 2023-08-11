@@ -1,5 +1,5 @@
 ---
-Description: An association used to represent virtual system migration network settings of the virtual system migration service.
+description: An association used to represent virtual system migration network settings of the virtual system migration service.
 ms.assetid: 5704dce7-1db3-4049-8c61-58bfa9596766
 title: Msvm_VirtualSystemMigrationServiceSettingDataComponent class
 ms.topic: reference
@@ -55,7 +55,7 @@ Data type: **Msvm\_VirtualSystemMigrationServiceSettingData**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 A reference to an instance of the [**Msvm\_VirtualSystemMigrationServiceSettingData**](msvm-virtualsystemmigrationservicesettingdata.md) class that represents the migration service settings.
@@ -71,7 +71,7 @@ Data type: **Msvm\_VirtualSystemMigrationNetworkSettingData**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
 </dt> </dl>
 
 A reference to an instance of the [**Msvm\_VirtualSystemMigrationNetworkSettingData**](msvm-virtualsystemmigrationnetworksettingdata.md) class that represents the migration network settings.
@@ -82,7 +82,7 @@ A reference to an instance of the [**Msvm\_VirtualSystemMigrationNetworkSettingD
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -93,9 +93,4 @@ A reference to an instance of the [**Msvm\_VirtualSystemMigrationNetworkSettingD
 
 
  
-
- 
-
-
-
 

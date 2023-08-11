@@ -1,9 +1,10 @@
 ---
-Description: The ALLUSERS property configures the installation context of the package.
+description: The ALLUSERS property configures the installation context of the package.
 ms.assetid: 942e7764-a80f-4880-9559-72174f1827f7
 title: ALLUSERS property
 ms.topic: reference
-ms.date: 05/31/2018
+ms.custom: snippet-project
+ms.date: 07/27/2020
 ---
 
 # ALLUSERS property
@@ -24,6 +25,18 @@ The value of the **ALLUSERS** property, at installation time, determines the [in
 
 -   If the value of the **ALLUSERS** property does not equal 2, the Windows Installer ignores the value of the [**MSIINSTALLPERUSER**](msiinstallperuser.md) property.
 
+## Example
+
+```xml
+  <!-- Disallow user from installing for all users -->
+    <Property Id="ALLUSERS" Secure="yes"/>
+    <Condition Message="Setting the ALLUSERS property is not allowed because [ProductName] is a per-user application. Setup will now exit.">
+      NOT ALLUSERS
+    </Condition>
+```
+
+Example from [Windows Classic Samples](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/DesktopToasts/CPP/Product.wxs) on GitHub.
+
 ## Default Value
 
 The recommended default installation context is per-user. If **ALLUSERS** is not set, the installer does a per-user installation. You can ensure the **ALLUSERS** property has not been set by setting its value to an empty string (""), ALLUSERS="".
@@ -36,7 +49,7 @@ The [installation context](installation-context.md) determines the values of the
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

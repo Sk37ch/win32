@@ -1,5 +1,5 @@
 ---
-Description: Used to set the ambient light sensor brightness value.
+description: Used to set the ambient light sensor brightness value.
 ms.assetid: 8b3ec692-4043-42b3-8dd6-7a147620e382
 title: WmiSetALSBrightness method of the WmiMonitorBrightnessMethods class
 ms.topic: reference
@@ -43,13 +43,13 @@ The ALS brightness as a percentage.
 
 ## Return value
 
-Returns zero (0) to indicate success. Any other number indicates an error. For more information about error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum).
+Returns zero (0) to indicate success. Any other number indicates an error. For more information about error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum).
 
 ## Requirements
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
@@ -70,9 +70,4 @@ Returns zero (0) to indicate success. Any other number indicates an error. For m
 </dt> </dl>
 
  
-
- 
-
-
-
 

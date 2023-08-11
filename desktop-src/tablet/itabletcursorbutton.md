@@ -1,5 +1,5 @@
 ---
-Description: Represents general information about a button on a stylus device.
+description: Represents general information about a button on a stylus device.
 ms.assetid: 20c9f8bb-8f8d-4469-baff-b9001c8adb3b
 title: ITabletCursorButton interface
 ms.topic: reference
@@ -22,7 +22,7 @@ Represents general information about a button on a stylus device.
 
 ## Members
 
-The **ITabletCursorButton** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITabletCursorButton** also has these types of members:
+The **ITabletCursorButton** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITabletCursorButton** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -67,7 +67,7 @@ interface ITabletCursorButton : IUnknown
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
@@ -83,9 +83,4 @@ interface ITabletCursorButton : IUnknown
 </dt> </dl>
 
  
-
- 
-
-
-
 

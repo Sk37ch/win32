@@ -1,5 +1,5 @@
 ---
-Description: The date and time when the report was generated.
+description: LocationDisp.DispLatLongReport.Timestamp property - The date and time when the report was generated.
 ms.assetid: 3b8036aa-499c-4baf-bcc4-5b6c3f54eb7b
 title: LocationDisp.DispLatLongReport.Timestamp property
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 
 # LocationDisp.DispLatLongReport.Timestamp property
 
-\[The Location API object model is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, to access location from a website, use the [W3C Geolocation API](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). To access location from a desktop application, use the [**Windows.Devices.Geolocation**](https://docs.microsoft.com/uwp/api/Windows.Devices.Geolocation) API.\]
+\[The Location API object model is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, to access location from a website, use the [W3C Geolocation API](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). To access location from a desktop application, use the [**Windows.Devices.Geolocation**](/uwp/api/Windows.Devices.Geolocation) API.\]
 
 The date and time when the report was generated.
 
@@ -41,13 +41,13 @@ Note that scripting languages, such as Microsoft JScript, might require you to p
 
 ## Examples
 
-For an example of how to use this property, see [A Simple LatLong Report Example](https://docs.microsoft.com/uwp/api/Windows.Devices.Geolocation).
+For an example of how to use this property, see [A Simple LatLong Report Example](/uwp/api/Windows.Devices.Geolocation).
 
 ## Requirements
 
 
 
-|                                     |                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                  |
@@ -55,9 +55,4 @@ For an example of how to use this property, see [A Simple LatLong Report Example
 
 
  
-
- 
-
-
-
 

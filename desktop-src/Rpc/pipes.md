@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Pipes
+# Pipes (RPC)
 
 The pipe type constructor is a highly efficient mechanism for passing large amounts of data, or any quantity of data that is not all available in memory at one time. By using a pipe, RPC run time handles the actual data transfer, eliminating the overhead associated with repeated remote procedure calls.
 
@@ -24,12 +24,8 @@ This section provides an overview of using pipes for remote procedure calls. It 
 -   [Rules for Multiple Pipes](rules-for-multiple-pipes.md)
 -   [Combining Pipe and Nonpipe Parameters](combining-pipe-and-nonpipe-parameters.md)
 
-For more information on pipe syntax and restrictions, see [pipe](https://docs.microsoft.com/windows/desktop/Midl/pipe) in the MIDL Language Reference. The PIPES sample program in the Platform Software Development Kit (SDK) samples\\rpc directory demonstrates how to use **\[in,out\]** pipes to transfer data between a client and a server.
+For more information on pipe syntax and restrictions, see [pipe](/windows/desktop/Midl/pipe) in the MIDL Language Reference. The PIPES sample program in the Platform Software Development Kit (SDK) samples\\rpc directory demonstrates how to use **\[in,out\]** pipes to transfer data between a client and a server.
 
  
 
  
-
-
-
-

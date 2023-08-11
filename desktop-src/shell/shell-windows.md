@@ -1,5 +1,5 @@
 ---
-Description: Creates and returns a ShellWindows object. This object represents a collection of all of the open windows that belong to the Shell.
+description: Shell.Windows method - Creates and returns a ShellWindows object. This object represents a collection of all of the open windows that belong to the Shell.
 title: Shell.Windows method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: ffa6311c-8bbe-45c4-9b06-069779d2306d
-api_name: 
- - Shell.Windows
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -54,13 +45,13 @@ This method has no parameters.
 
 ### JScript
 
-Type: **[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)\*\***
+Type: **[**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)\*\***
 
 An object reference to the [**ShellWindows**](shellwindows.md) object.
 
 ### VB
 
-Type: **[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)\*\***
+Type: **[**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)\*\***
 
 An object reference to the [**ShellWindows**](shellwindows.md) object.
 
@@ -141,7 +132,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
@@ -154,7 +145,3 @@ End Sub
  
 
  
-
-
-
-

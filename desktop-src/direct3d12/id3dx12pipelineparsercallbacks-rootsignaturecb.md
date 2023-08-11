@@ -14,7 +14,6 @@ api_location:
 - D3D12.dll
 api_type:
 - COM
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 ---
@@ -41,7 +40,7 @@ void RootSignatureCb(
 *RootSignature* 
 </dt> <dd>
 
-Type: **[**ID3D12RootSignature**](https://msdn.microsoft.com/library/Dn788714(v=VS.85).aspx)\***
+Type: **[**ID3D12RootSignature**](/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignature)\***
 
 Details of the root signature subobject parsed from a pipeline state stream.
 
@@ -55,7 +54,7 @@ Returns nothing.
 
 
 
-|                    |                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX12.h</dt> </dl>  |
 | Library<br/> | <dl> <dt>D3D12.lib</dt> </dl> |
@@ -73,14 +72,8 @@ Returns nothing.
 [**ID3DX12PipelineParserCallbacks**](id3dx12pipelineparsercallbacks.md)
 </dt> <dt>
 
-[**ID3D12RootSignature**](https://msdn.microsoft.com/library/Dn788714(v=VS.85).aspx)
+[**ID3D12RootSignature**](/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignature)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

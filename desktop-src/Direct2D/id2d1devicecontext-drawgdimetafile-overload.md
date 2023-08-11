@@ -1,6 +1,6 @@
 ---
 title: ID2D1DeviceContext DrawGdiMetafile methods
-description: Draw a metafile to the device context.
+description: Draw a metafile to the device context. | ID2D1DeviceContext DrawGdiMetafile methods
 ms.assetid: 57A08FFE-7B2D-477F-AEAD-E6A315B5B932
 keywords:
 - DrawGdiMetafile methods Direct2D
@@ -24,8 +24,8 @@ Draw a metafile to the device context.
 
 | Method                                                                                                | Description                                       |
 |:------------------------------------------------------------------------------------------------------|:--------------------------------------------------|
-| [**DrawGdiMetafile (ID2D1GdiMetafile\*, D2D1\_POINT\_2F)**](https://msdn.microsoft.com/library/JJ841147(v=VS.85).aspx)  | Draw a metafile to the device context.<br/> |
-| [**DrawGdiMetafile (ID2D1GdiMetafile\*, D2D1\_POINT\_2F\*)**](https://msdn.microsoft.com/library/Dn441540(v=VS.85).aspx) | Draw a metafile to the device context.<br/> |
+| [**DrawGdiMetafile (ID2D1GdiMetafile\*, D2D1\_POINT\_2F)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawgdimetafile(id2d1gdimetafile_d2d1_point_2f))  | Draw a metafile to the device context.<br/> |
+| [**DrawGdiMetafile (ID2D1GdiMetafile\*, D2D1\_POINT\_2F\*)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawgdimetafile(id2d1gdimetafile_constd2d1_point_2f)) | Draw a metafile to the device context.<br/> |
 
 
 
@@ -33,14 +33,8 @@ Draw a metafile to the device context.
 
 <dl> <dt>
 
-[**ID2D1DeviceContext**](https://msdn.microsoft.com/library/Hh404479(v=VS.85).aspx)
+[**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

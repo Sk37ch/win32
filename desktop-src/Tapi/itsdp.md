@@ -1,5 +1,5 @@
 ---
-Description: The ITSdp interface provides methods for the manipulation of a Session Descriptor Protocol (SDP, see RFC 2327) conference blob component.
+description: The ITSdp interface provides methods for the manipulation of a Session Descriptor Protocol (SDP, see RFC 2327) conference blob component.
 ms.assetid: 77c1e302-6290-4eeb-b7c9-462a13b29dcd
 title: ITSdp interface (Sdpblb.h)
 ms.topic: reference
@@ -19,7 +19,7 @@ The **ITSdp** interface is created by calling **QueryInterface** on [**ITConfere
 
 ## Members
 
-The **ITSdp** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ITSdp** also has these types of members:
+The **ITSdp** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **ITSdp** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -61,7 +61,7 @@ The **ITSdp** interface has these methods.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |
@@ -71,9 +71,4 @@ The **ITSdp** interface has these methods.
 
 
  
-
- 
-
-
-
 

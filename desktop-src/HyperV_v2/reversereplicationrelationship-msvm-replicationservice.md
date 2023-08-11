@@ -1,5 +1,5 @@
 ---
-Description: Replicates a failed-over virtual machine back to the primary server.
+description: Replicates a failed-over virtual machine back to the primary server.
 ms.assetid: 21806a66-85b4-4d9e-8a50-52d2b1933b67
 title: ReverseReplicationRelationship method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -39,7 +39,7 @@ uint32 ReverseReplicationRelationship(
 *ComputerSystem* \[in\]
 </dt> <dd>
 
-A reference to a [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) instance that represents the virtual machine for which the replication should be reversed.
+A reference to a [**CIM\_ComputerSystem**](/windows/desktop/CIMWin32Prov/cim-computersystem) instance that represents the virtual machine for which the replication should be reversed.
 
 </dd> <dt>
 
@@ -53,7 +53,7 @@ A string representation of an instance of the [**Msvm\_ReplicationSettingData**]
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -109,7 +109,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -127,9 +127,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

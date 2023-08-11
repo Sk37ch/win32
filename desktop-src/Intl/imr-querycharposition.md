@@ -1,5 +1,5 @@
 ---
-Description: Notifies an application when the selected IME needs information about the coordinates of a character in the composition string. The application receives this command through the WM\_IME\_REQUEST message with parameter settings as shown below.
+description: Notifies an application when the selected IME needs information about the coordinates of a character in the composition string. The application receives this command through the WM\_IME\_REQUEST message with parameter settings as shown below.
 ms.assetid: cae7e5b3-8aaf-452d-80df-fb0ae04a342c
 title: IMR_QUERYCHARPOSITION notification code (Imm.h)
 ms.topic: reference
@@ -41,13 +41,13 @@ Returns a nonzero value if the application fills the [**IMECHARPOSITION**](/wind
 
 ## Remarks
 
-An application that draws the composition string itself, instead of relying on the IME, is responsible for filling in all the members of the [**IMECHARPOSITION**](/windows/win32/api/imm/ns-imm-imecharposition) structure. Otherwise, the application should pass the command to [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) or [**ImmIsUIMessage**](/windows/desktop/api/Imm/nf-imm-immisuimessagea) if it has its own IME user interface window.
+An application that draws the composition string itself, instead of relying on the IME, is responsible for filling in all the members of the [**IMECHARPOSITION**](/windows/win32/api/imm/ns-imm-imecharposition) structure. Otherwise, the application should pass the command to [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) or [**ImmIsUIMessage**](/windows/desktop/api/Imm/nf-imm-immisuimessagea) if it has its own IME user interface window.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |
@@ -77,7 +77,3 @@ An application that draws the composition string itself, instead of relying on t
  
 
  
-
-
-
-

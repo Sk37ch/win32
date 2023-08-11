@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the parameters of the public key algorithm.
+description: Retrieves the parameters of the public key algorithm.
 ms.assetid: 1d12f72e-0144-4b7b-b468-d2f35bf253d3
 title: PublicKey.EncodedParameters property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # PublicKey.EncodedParameters property
 
-\[The **EncodedParameters** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Certificate2.PublicKey Property**](https://msdn.microsoft.com/library/ms148461(v=VS.90).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[The **EncodedParameters** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Certificate2.PublicKey Property**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2.publickey) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **EncodedParameters** property retrieves the parameters of the public key algorithm.
 
@@ -38,7 +38,7 @@ An [**EncodedData**](encodeddata.md) object that provides access to the paramete
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
@@ -55,7 +55,3 @@ An [**EncodedData**](encodeddata.md) object that provides access to the paramete
  
 
  
-
-
-
-

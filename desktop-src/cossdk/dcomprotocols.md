@@ -1,5 +1,5 @@
 ---
-Description: Contains a list of the protocols to be used by DCOM. It contains an object for each protocol.
+description: Contains a list of the protocols to be used by DCOM. It contains an object for each protocol.
 ms.assetid: f553ce01-39b6-4dc3-9696-978b390a5c7d
 title: DCOMProtocols collection
 ms.topic: reference
@@ -22,7 +22,7 @@ This collection supports the [**Add**](/windows/desktop/api/ComAdmin/nf-comadmin
 
 ## Members
 
-The **DCOMProtocols** collection inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
+The **DCOMProtocols** collection inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Related Collections
 
@@ -48,7 +48,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                             |
+| Entry | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The name of the protocol. This property is returned when the [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) property method is called on an object of this collection. |
 | Access         | ReadWrite                                                                                                                                                   |
@@ -64,7 +64,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                         |
+| Entry | Value |
 |----------------|-----------------------------------------|
 | Description    | The order in which to try the protocol. |
 | Access         | ReadWrite                               |
@@ -80,7 +80,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                                                             |
+| Entry | Value |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The code specifying the RPC protocol sequence. The supported protocol codes include the following: ncacn\_ip\_tcp, ncacn\_http, ncacn\_spx. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) property method is called on an object of this collection. |
 | Access         | WriteOnce                                                                                                                                                                                                                                                                   |
@@ -102,6 +102,3 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
  
 
  
-
-
-

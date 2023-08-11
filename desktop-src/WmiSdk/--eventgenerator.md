@@ -1,5 +1,5 @@
 ---
-Description: Serves as a parent class for classes that control the generation of events, such as timer events.
+description: Serves as a parent class for classes that control the generation of events, such as timer events.
 ms.assetid: 381b06e7-2857-4932-9f52-f1d62efa8b79
 ms.tgt_platform: multiple
 title: '__EventGenerator class'
@@ -43,7 +43,7 @@ The **\_\_EventGenerator** class is derived from [**\_\_IndicationRelated**](--i
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -55,16 +55,11 @@ The **\_\_EventGenerator** class is derived from [**\_\_IndicationRelated**](--i
 
 <dl> <dt>
 
-[**\_\_IndicationRelated**](https://docs.microsoft.com/windows/desktop/WmiSdk/--indicationrelated)
+[**\_\_IndicationRelated**](/windows/desktop/WmiSdk/--indicationrelated)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

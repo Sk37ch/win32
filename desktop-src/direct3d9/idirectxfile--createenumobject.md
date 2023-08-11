@@ -1,5 +1,5 @@
 ---
-Description: Creates an enumerator object. Deprecated.
+description: Creates an enumerator object. Deprecated.
 ms.assetid: 9e72bb2f-143e-4690-baef-ccded21572ec
 title: IDirectXFile::CreateEnumObject method (DXFile.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ HRESULT CreateEnumObject(
 *pvSource* \[in\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](../winprog/windows-data-types.md)**
 
 Pointer to data whose contents depend on the value of dwLoadOptions
 
@@ -78,7 +78,7 @@ After using this method, use one of the IDirectXFileEnumObject methods to retrie
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>DXFile.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3dxof.lib</dt> </dl> |
@@ -95,7 +95,3 @@ After using this method, use one of the IDirectXFileEnumObject methods to retrie
  
 
  
-
-
-
-

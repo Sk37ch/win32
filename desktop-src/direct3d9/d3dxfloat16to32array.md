@@ -1,22 +1,25 @@
 ---
-Description: Converts an array of 16-bit floats to 32-bit floats.
+description: D3DXFloat16To32Array function (D3dx9math.h) - Converts an array of 16-bit floats to 32-bit floats.
 ms.assetid: cabb2888-76e4-403b-99ab-f7d62478bf43
 title: D3DXFloat16To32Array function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXFloat16To32Array
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXFloat16To32Array function
+# D3DXFloat16To32Array function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Converts an array of 16-bit floats to 32-bit floats.
 
@@ -40,7 +43,7 @@ FLOAT* D3DXFloat16To32Array(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to the array of 32-bit floats.
 
@@ -58,7 +61,7 @@ Pointer to an array of 16-bit floats.
 *n* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of elements in the array.
 
@@ -66,7 +69,7 @@ Number of elements in the array.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to an array of 32-bit floats.
 
@@ -74,7 +77,7 @@ Pointer to an array of 32-bit floats.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -91,7 +94,3 @@ Pointer to an array of 32-bit floats.
  
 
  
-
-
-
-

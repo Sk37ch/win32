@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the background color style of the specified style.
+description: Retrieves the background color style of the specified style.
 ms.assetid: 1b0acac1-c36d-49b6-8154-f69bda008e9a
 title: PColorStyleBackFromIMEStyle function
 ms.topic: reference
@@ -47,7 +47,7 @@ Pointer to an **IMECOLORSTY** structure representing the background color style.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 The **IMECOLORSTY** structure is defined as follows:
 
@@ -67,7 +67,7 @@ typedef struct {
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Imeshare.dll</dt> </dl> |
 
@@ -83,7 +83,3 @@ typedef struct {
  
 
  
-
-
-
-

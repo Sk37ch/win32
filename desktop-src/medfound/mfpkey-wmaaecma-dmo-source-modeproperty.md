@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the Voice Capture DSP uses source mode or filter mode.
+description: Specifies whether the Voice Capture DSP uses source mode or filter mode.
 ms.assetid: d1d3beba-678c-48fd-ad12-45e0418e1236
 title: MFPKEY_WMAAECMA_DMO_SOURCE_MODE Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Specifies whether the Voice Capture DSP uses source mode or filter mode.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -44,7 +44,7 @@ This property can have the following values.
  
 
 > [!Note]  
-> When the DMO is in source mode, you should only call [**IMediaObject::SetOutputType**](https://msdn.microsoft.com/library/Dd406963(v=VS.85).aspx) to set output stream format, and do not call [**IMediaObject::SetInputType**](https://msdn.microsoft.com/library/Dd406962(v=VS.85).aspx) to set input stream formats. Otherwise DMO initialization will fail.
+> When the DMO is in source mode, you should only call [**IMediaObject::SetOutputType**](/previous-versions/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-setoutputtype) to set output stream format, and do not call [**IMediaObject::SetInputType**](/previous-versions/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-setinputtype) to set input stream formats. Otherwise DMO initialization will fail.
 
  
 
@@ -72,7 +72,7 @@ If the value of this property is VARIANT\_TRUE, the DSP has zero inputs. If the 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
@@ -93,7 +93,3 @@ If the value of this property is VARIANT\_TRUE, the DSP has zero inputs. If the 
  
 
  
-
-
-
-

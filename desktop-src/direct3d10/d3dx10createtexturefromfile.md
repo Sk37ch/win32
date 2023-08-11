@@ -1,5 +1,5 @@
 ---
-Description: Create a texture resource from a file.
+description: Create a texture resource from a file.
 ms.assetid: 23edad1f-89bb-4b62-8c48-3be1cd0690d2
 title: D3DX10CreateTextureFromFile function (D3DX10.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ A pointer to the device (see [**ID3D10Device Interface**](/windows/desktop/api/D
 *pSrcFile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 The name of the file containing the resource. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the data type resolves to LPCSTR. See [**D3DX10\_IMAGE\_FILE\_FORMAT**](d3dx10-image-file-format.md) enumeration for a list of the supported image file formats.
 
@@ -108,7 +108,7 @@ For a list of supported image formats see [**D3DX10\_IMAGE\_FILE\_FORMAT**](d3dx
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -128,7 +128,3 @@ For a list of supported image formats see [**D3DX10\_IMAGE\_FILE\_FORMAT**](d3dx
  
 
  
-
-
-
-

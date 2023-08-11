@@ -1,6 +1,6 @@
 ---
 title: IVMVirtualMachine HasSSE property (VPCCOMInterfaces.h)
-description: Determines whether the processor supports the SSE instruction set.
+description: Determines whether the processor supports the SSE instruction set. | IVMVirtualMachine HasSSE property (VPCCOMInterfaces.h)
 ms.assetid: 949dd93b-aa4e-4506-91ed-ed625a535d5f
 keywords:
 - HasSSE property Virtual PC
@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualMachine::HasSSE property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Determines whether the processor supports the SSE instruction set.
 
@@ -59,7 +59,7 @@ HRESULT get_HasSSE(
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
@@ -78,10 +78,4 @@ HRESULT get_HasSSE(
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

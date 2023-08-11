@@ -3,7 +3,7 @@ title: Restore points
 description: Restore points are created to allow users a choice of previous system states. Each restore point contains the necessary information needed to restore the system to the chosen state. Restore points are created before key changes are made to the system.
 ms.assetid: 5f68b377-4293-493e-afaf-f4414c2af1fb
 author: Teresa-Motiv
-ms.author: v-tea
+ms.author: misatran
 ms.topic: article
 ms.date: 12/06/2019
 manager: dcscontentpm
@@ -95,5 +95,5 @@ To start the System Restore wizard on an affected computer, use WinRE instead of
 
 For more information about how to use WinRE, see the following articles:
 
-- [Windows Recovery Environment (Windows RE)](https://docs.microsoft.com/windows-hardware/manufacture/desktop/windows-recovery-environment--windows-re--technical-reference)
+- [Windows Recovery Environment (Windows RE)](/windows-hardware/manufacture/desktop/windows-recovery-environment--windows-re--technical-reference)
 - [Start your PC in safe mode in Windows 10](https://support.microsoft.com/help/12376) 

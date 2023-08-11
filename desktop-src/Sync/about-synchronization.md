@@ -1,5 +1,5 @@
 ---
-Description: To synchronize access to a resource, use one of the synchronization objects in one of the wait functions.
+description: To synchronize access to a resource, use one of the synchronization objects in one of the wait functions.
 ms.assetid: 0930bf12-6d5f-4f2c-914d-53e6e862d3bd
 title: About Synchronization
 ms.topic: article
@@ -21,13 +21,10 @@ The following are other synchronization mechanisms:
 -   [interlocked variable access](interlocked-variable-access.md)
 -   [interlocked singly linked lists](interlocked-singly-linked-lists.md)
 -   [timer queues](timer-queues.md)
--   the [**MemoryBarrier**](https://msdn.microsoft.com/library/ms684208(v=VS.85).aspx) macro
+-   the [**MemoryBarrier**](/windows/win32/api/winnt/nf-winnt-memorybarrier) macro
 
 For additional information on synchronization, see [Synchronization and Multiprocessor Issues](synchronization-and-multiprocessor-issues.md).
 
  
 
  
-
-
-

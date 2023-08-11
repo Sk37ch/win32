@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_ComClassEmulator association WMI class relates two versions of a Component Object Model (COM) class.
+description: The Win32\_ComClassEmulator association WMI class relates two versions of a Component Object Model (COM) class.
 ms.assetid: 33899c1e-911d-49ad-be25-355dcdb8f0c7
 ms.tgt_platform: multiple
 title: Win32_ComClassEmulator class
@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_ComClassEmulator class
 
-The **Win32\_ComClassEmulator** association [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) relates two versions of a Component Object Model (COM) class.
+The **Win32\_ComClassEmulator** association [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) relates two versions of a Component Object Model (COM) class.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_ClassicCOMClass**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_ClassicCOMClass")
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_ClassicCOMClass")
 </dt> </dl>
 
 Reference to the instance representing the COM component that contains interfaces emulating the older version of the component.
@@ -72,7 +72,7 @@ Data type: **Win32\_ClassicCOMClass**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_ClassicCOMClass")
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_ClassicCOMClass")
 </dt> </dl>
 
 Reference to the instance representing the COM component with interfaces that can be emulated by the new version of the component.
@@ -83,7 +83,7 @@ Reference to the instance representing the COM component with interfaces that ca
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -97,13 +97,8 @@ Reference to the instance representing the COM component with interfaces that ca
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
 

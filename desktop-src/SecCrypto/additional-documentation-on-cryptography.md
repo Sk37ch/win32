@@ -1,5 +1,5 @@
 ---
-Description: Lists additional available documentation on cryptography and authentication.
+description: Lists additional available documentation on cryptography and authentication.
 ms.assetid: c4cecc97-25eb-43e8-9f4d-9ed3fc4acf0a
 title: Additional Documentation on Cryptography
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Additional Documentation on Cryptography
 
-Additional documentation on [*cryptography*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) and authentication, and the associated security issues, includes the following publications:
+Additional documentation on [*cryptography*](../secgloss/c-gly.md) and authentication, and the associated security issues, includes the following publications:
 
 -   Adams, Carlisle, and Steve Lloyd. *Understanding PKI: Concepts, Standards, and Deployment Considerations*. 2d ed. Boston: Addison-Wesley Professional, 2002.
 -   Housley, Russ, and Tim Polk. *Planning for PKI: Best Practices Guide for Deploying Public Key Infrastructure*. New York: John Wiley & Sons, Inc., 2001.
@@ -26,6 +26,3 @@ Additional documentation on [*cryptography*](https://msdn.microsoft.com/library/
  
 
  
-
-
-

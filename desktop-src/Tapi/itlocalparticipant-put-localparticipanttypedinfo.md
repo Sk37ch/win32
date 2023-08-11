@@ -1,5 +1,5 @@
 ---
-Description: The put\_LocalParticipantTypedInfo method sets participant information.
+description: The put\_LocalParticipantTypedInfo method sets participant information.
 ms.assetid: c4afd1d3-6fe4-4e5b-a9bf-81b7dffa9914
 title: ITLocalParticipant::put_LocalParticipantTypedInfo method (Confpriv.h)
 ms.topic: reference
@@ -46,13 +46,13 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-The application must use [SysAllocString](https://msdn.microsoft.com/library/ms221458(v=VS.71).aspx) to allocate memory for the *ppInfo* parameter and use [SysFreeString](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the memory when the variable is no longer needed.
+The application must use [SysAllocString](/windows/win32/api/oleauto/nf-oleauto-sysallocstring) to allocate memory for the *ppInfo* parameter and use [SysFreeString](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) to free the memory when the variable is no longer needed.
 
 ## Requirements
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |
@@ -72,9 +72,4 @@ The application must use [SysAllocString](https://msdn.microsoft.com/library/ms2
 </dt> </dl>
 
  
-
- 
-
-
-
 

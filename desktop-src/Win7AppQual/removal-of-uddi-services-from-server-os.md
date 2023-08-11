@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Removal of UDDI Services from Server Operating System
 ms.assetid: 5ebc8c4c-acee-4658-8d36-30fbb17b1ef1
 title: Removal of UDDI Services from Server Operating System
 ms.topic: article
@@ -10,14 +10,14 @@ ms.date: 05/31/2018
 
 ## Affected Platform
 
-<dl> **Servers** - Windows Server 2008 R2  
-</dl>
+**Servers** - Windows Server 2008 R2  
+
+
 
 ## Feature Impact
 
-<dl> **Severity** - Medium  
+**Severity** - Medium  
 **Frequency** - Low  
-</dl>
 
 ## Description
 

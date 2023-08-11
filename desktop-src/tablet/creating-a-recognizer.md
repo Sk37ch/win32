@@ -1,5 +1,5 @@
 ---
-Description: If you choose to do so, your application can provide its own recognizer implementations. This section describes the requirements for creating a custom application recognizer for your application that you can use with the Tablet PC Platform API.
+description: If you choose to do so, your application can provide its own recognizer implementations. This section describes the requirements for creating a custom application recognizer for your application that you can use with the Tablet PC Platform API.
 ms.assetid: 502ef3fb-ba45-4f8b-bbd5-19c24e313439
 title: Creating a Recognizer
 ms.topic: article
@@ -18,7 +18,7 @@ If you choose to do so, your application can provide its own recognizer implemen
 The following sections detail the implementation of a custom recognizer:
 
 -   [Recognition API Architecture](recognition-api-architecture.md)
--   [Required Recognition APIs](https://msdn.microsoft.com/library/ms701664(v=VS.85).aspx)
+-   [Required Recognition APIs](/previous-versions//ms701664(v=vs.85))
 -   [HRECOGNIZER and HRECOCONTEXT](hrecognizer-and-hrecocontext.md)
 -   [Recognizer Lattice Structure](recognizer-lattice-structure.md)
 -   [Registering Your Recognizer DLL](registering-your-recognizer-dll.md)
@@ -31,6 +31,3 @@ The following sections detail the implementation of a custom recognizer:
  
 
  
-
-
-

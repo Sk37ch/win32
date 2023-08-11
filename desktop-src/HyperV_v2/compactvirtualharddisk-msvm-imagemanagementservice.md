@@ -1,5 +1,5 @@
 ---
-Description: Compacts a virtual hard disk file.
+description: Compacts a virtual hard disk file.
 ms.assetid: 1E64BD91-6FE6-4658-9EBF-615FC705B920
 title: CompactVirtualHardDisk method of the Msvm_ImageManagementService class
 ms.topic: reference
@@ -92,7 +92,7 @@ Specifies the mode for the compact operation. This must be one of the following 
 *Job* \[out\]
 </dt> <dd>
 
-Type: **[**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85))**
+Type: **[**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85))**
 
 A reference to the job (can be **Null** if the task is completed).
 
@@ -158,7 +158,7 @@ Only the following types of virtual hard disks can be used with this method:
 -   Differencing VHD
 -   Differencing VHDX
 
-Access to the [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Examples
 
@@ -212,7 +212,7 @@ public static void CompactVirtualHardDisk(string vhdPath, VirtualHardDiskCompact
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -226,16 +226,11 @@ public static void CompactVirtualHardDisk(string vhdPath, VirtualHardDiskCompact
 
 <dl> <dt>
 
-[**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85))
+[**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85))
 </dt> <dt>
 
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

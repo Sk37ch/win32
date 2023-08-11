@@ -1,5 +1,5 @@
 ---
-Description: Uncompresses the logical codec file (or directory) specified in the object path.
+description: Uncompresses the logical codec file (or directory) specified in the object path.
 ms.assetid: abe74267-1274-4b20-82ac-51ca94d7af33
 ms.tgt_platform: multiple
 title: Uncompress method of the Win32_CodecFile class
@@ -18,9 +18,9 @@ api_location:
 
 # Uncompress method of the Win32\_CodecFile class
 
-The **Uncompress** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method uncompresses the logical codec file (or directory) specified in the object path.
+The **Uncompress** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method uncompresses the logical codec file (or directory) specified in the object path.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -136,7 +136,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -150,16 +150,11 @@ A parameter specified is not valid.
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_CodecFile**](win32-codecfile.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

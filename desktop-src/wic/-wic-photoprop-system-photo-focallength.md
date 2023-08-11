@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.FocalLength property.
+description: The photo metadata policy for the System.Photo.FocalLength property.
 ms.assetid: a282c31f-00dd-4df5-9b93-300bb9bc8f2d
 title: System.Photo.FocalLength Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.FocalLength Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.FocalLength](https://msdn.microsoft.com/library/bb760462(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.FocalLength](../properties/props-system-photo-focallength.md) property.
 
 ### PKEY
 
@@ -118,12 +118,9 @@ This value is generated from System.Photo.FocalLengthNumerator and System.Photo.
 
 <dl> <dt>
 
-[System.Photo.FocalLength](https://msdn.microsoft.com/library/bb760462(VS.85).aspx)
+[System.Photo.FocalLength](../properties/props-system-photo-focallength.md)
 </dt> </dl>
 
  
 
  
-
-
-

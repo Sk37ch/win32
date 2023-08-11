@@ -1,6 +1,6 @@
 ---
 title: IVMDVDDriveEvents OnMediaInsert method (VPCCOMInterfaces.h)
-description: Receives notification that media has been inserted into the drive.
+description: Receives notification that media has been inserted into the drive. | IVMDVDDriveEvents OnMediaInsert method (VPCCOMInterfaces.h)
 ms.assetid: a246e2dd-638e-4d2f-9089-74771cd8bb2b
 keywords:
 - OnMediaInsert method Virtual PC
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # IVMDVDDriveEvents::OnMediaInsert method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Receives notification that media has been inserted into the drive.
 
@@ -58,7 +58,7 @@ This method is called when media (an ISO image or a disc in a host drive) is ins
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
@@ -77,10 +77,4 @@ This method is called when media (an ISO image or a disc in a host drive) is ins
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

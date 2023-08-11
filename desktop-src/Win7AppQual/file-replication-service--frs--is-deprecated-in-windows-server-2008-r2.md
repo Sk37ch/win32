@@ -1,5 +1,5 @@
 ---
-Description: .
+description: File Replication Service (FRS) Is Deprecated in Windows Server 2008 R2
 ms.assetid: 18a03469-737a-4905-9851-f7961c46b867
 title: File Replication Service (FRS) Is Deprecated in Windows Server 2008 R2
 ms.topic: article
@@ -10,14 +10,13 @@ ms.date: 05/31/2018
 
 ## Platform
 
-<dl> **Servers -** Windows Server 2008 R2  
-</dl>
+ **Servers -** Windows Server 2008 R2  
 
 ## Feature Impact
 
-<dl> **Severity -** High  
+ **Severity -** High  
 **Frequency -** High  
-</dl>
+
 
 ## Description
 
@@ -33,13 +32,10 @@ To prevent issues that might occur as a result of these changes, migrate custom 
 
 ## Links to Other Resources
 
--   [FRS Overview](https://technet.microsoft.com/library/cc754297.aspx)
--   [Distributed File System Replication: Frequently Asked Questions](https://docs.microsoft.com/windows-server/storage/dfs-replication/dfsr-faq)
--   [SYSVOL Replication Migration Guide: FRS to DFS Replication](https://docs.microsoft.com/windows-server/storage/dfs-replication/migrate-sysvol-to-dfsr)
+-   [FRS Overview](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754297(v=ws.11))
+-   [Distributed File System Replication: Frequently Asked Questions](/windows-server/storage/dfs-replication/dfsr-faq)
+-   [SYSVOL Replication Migration Guide: FRS to DFS Replication](/windows-server/storage/dfs-replication/migrate-sysvol-to-dfsr)
 
  
 
  
-
-
-

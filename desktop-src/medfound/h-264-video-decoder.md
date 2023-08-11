@@ -1,5 +1,5 @@
 ---
-Description: The Media Foundation H.264 video decoder is a Media Foundation Transform that supports decoding of Baseline, Main, and High profiles, up to level 5.1.
+description: The Media Foundation H.264 video decoder is a Media Foundation Transform that supports decoding of Baseline, Main, and High profiles, up to level 5.1.
 ms.assetid: 783a3618-981a-4573-9e9e-ebf5eeb75d06
 title: H.264 Video Decoder
 ms.topic: reference
@@ -12,7 +12,7 @@ The Media Foundation H.264 video decoder is a [Media Foundation Transform](media
 
 The H.264 video decoder exposes the following interfaces.
 
--   [**ICodecAPI**](https://msdn.microsoft.com/library/Dd311953(v=VS.85).aspx) (supported in Windows 8)
+-   [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodecapi) (supported in Windows 8)
 -   [**IMFGetService**](/windows/desktop/api/mfidl/nn-mfidl-imfgetservice)
 -   [**IMFQualityAdvise**](/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise)
 -   [**IMFQualityAdvise2**](/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise2)
@@ -24,7 +24,7 @@ The H.264 video decoder exposes the following interfaces.
 To create an instance of the decoder, do one of the following:
 
 -   Call the [**MFTEnum**](/windows/desktop/api/mfapi/nf-mfapi-mftenum) or [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex) function.
--   Call [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx). The CLSID for the decoder is **CLSID\_CMSH264DecoderMFT**, declared in wmcodecdsp.h.
+-   Call [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance). The CLSID for the decoder is **CLSID\_CMSH264DecoderMFT**, declared in wmcodecdsp.h.
 
 ## Input Types
 
@@ -47,41 +47,14 @@ To avoid an initial format change, provide as much information in the input type
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-frame-rate-attribute.md"><strong>MF_MT_FRAME_RATE</strong></a></td>
-<td>Frame rate.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-frame-size-attribute.md"><strong>MF_MT_FRAME_SIZE</strong></a></td>
-<td>Frame dimensions.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-interlace-mode-attribute.md"><strong>MF_MT_INTERLACE_MODE</strong></a></td>
-<td>Interlace mode.
-<blockquote>
-[!Note]<br />
-In H.264 video, the interlace structure can change dynamically, so the recommended value of this attribute is <strong>MFVideoInterlace_MixedInterlaceOrProgressive</strong>. Interlace information in the video elementary stream takes precedence over the media type. For more information, see <a href="video-interlacing.md">Video Interlacing</a>.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-pixel-aspect-ratio-attribute.md"><strong>MF_MT_PIXEL_ASPECT_RATIO</strong></a></td>
-<td>Pixel aspect ratio.</td>
-</tr>
-</tbody>
-</table>
+
+| Attribute | Description | 
+|-----------|-------------|
+| <a href="mf-mt-frame-rate-attribute.md"><strong>MF_MT_FRAME_RATE</strong></a> | Frame rate. | 
+| <a href="mf-mt-frame-size-attribute.md"><strong>MF_MT_FRAME_SIZE</strong></a> | Frame dimensions. | 
+| <a href="mf-mt-interlace-mode-attribute.md"><strong>MF_MT_INTERLACE_MODE</strong></a> | Interlace mode.<blockquote>[!Note]<br />In H.264 video, the interlace structure can change dynamically, so the recommended value of this attribute is <strong>MFVideoInterlace_MixedInterlaceOrProgressive</strong>. Interlace information in the video elementary stream takes precedence over the media type. For more information, see <a href="video-interlacing.md">Video Interlacing</a>.</blockquote><br /><br /> | 
+| <a href="mf-mt-pixel-aspect-ratio-attribute.md"><strong>MF_MT_PIXEL_ASPECT_RATIO</strong></a> | Pixel aspect ratio. | 
+
 
 
 
@@ -109,8 +82,8 @@ The H.264 decoder implements the [**IMFTransform::GetAttributes**](/windows/desk
 
 | Attribute                                                                                       | Description                                                                                |
 |-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| [CODECAPI\_AVDecVideoAcceleration\_H264](https://msdn.microsoft.com/library/Dd742712(v=VS.85).aspx)            | Enables or disables hardware acceleration.                                                 |
-| [CODECAPI\_AVDecVideoThumbnailGenerationMode](https://msdn.microsoft.com/library/Dd742718(v=VS.85).aspx) | Enables or disables thumbnail generation mode.                                             |
+| [CODECAPI\_AVDecVideoAcceleration\_H264](../directshow/avdecvideoacceleration-h264-property.md)            | Enables or disables hardware acceleration.                                                 |
+| [CODECAPI\_AVDecVideoThumbnailGenerationMode](../directshow/avdecvideothumbnailgenerationmode-property.md) | Enables or disables thumbnail generation mode.                                             |
 | [MF\_SA\_D3D\_AWARE](mf-sa-d3d-aware-attribute.md)                                             | Indicates that the decoder supports DirectX Video Acceleration (DXVA). Treat as read-only. |
 
 
@@ -134,13 +107,13 @@ In Windows 8, the H.264 decoder also supports the following attributes.
 
  
 
-In Windows 8, the H.264 decoder supports the [**ICodecAPI**](https://msdn.microsoft.com/library/Dd311953(v=VS.85).aspx) interface. This interface provides an alternativate API for setting the following codec properties.
+In Windows 8, the H.264 decoder supports the [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodecapi) interface. This interface provides an alternativate API for setting the following codec properties.
 
 -   [CODECAPI\_AVDecVideoMaxCodedWidth](codecapi-avdecvideomaxcodedwidth.md)
--   [CODECAPI\_AVDecVideoAcceleration\_H264](https://msdn.microsoft.com/library/Dd742712(v=VS.85).aspx)
+-   [CODECAPI\_AVDecVideoAcceleration\_H264](../directshow/avdecvideoacceleration-h264-property.md)
 -   [CODECAPI\_AVDecVideoMaxCodedHeight](codecapi-avdecvideomaxcodedheight.md)
 -   [CODECAPI\_AVDecVideoMaxCodedWidth](codecapi-avdecvideomaxcodedwidth.md)
--   [CODECAPI\_AVDecVideoThumbnailGenerationMode](https://msdn.microsoft.com/library/Dd742718(v=VS.85).aspx)
+-   [CODECAPI\_AVDecVideoThumbnailGenerationMode](../directshow/avdecvideothumbnailgenerationmode-property.md)
 
 ## Format Constraints
 
@@ -148,39 +121,15 @@ The decoder supports the following formats:
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Profiles/Levels</td>
-<td>Baseline, Main, and High profiles, up to level 5.1. (See ITU-T H.264 specification for details.)</td>
-</tr>
-<tr class="even">
-<td>Chroma Formats</td>
-<td>4:2:0 chroma or monochrome</td>
-</tr>
-<tr class="odd">
-<td>Minimum Resolution</td>
-<td>48 × 48 pixels</td>
-</tr>
-<tr class="even">
-<td>Maximum Resolution</td>
-<td>4096 × 2304 pixels<br/> The maximum guaranteed resolution for DXVA acceleration is 1920 × 1088 pixels; at higher resolutions, decoding is done with DXVA, if it is supported by the underlying hardware, otherwise, decoding is done with software.<br/>
-<blockquote>
-[!Note]<br />
-In Windows 7, the maximum supported resolution is 1920 × 1088 pixels for both software and DXVA decoding.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td>DXVA</td>
-<td>The decoder supports DXVA version 2, but not DXVA version 1. DXVA decoding is supported only for Main-compatible Baseline, Main, and High profile bitstreams. (Main-compatible Baseline bitstreams are defined as <strong>profile_idc</strong>=66 and <strong>constrained_set1_flag</strong>=1.)</td>
-</tr>
-</tbody>
-</table>
+
+|Setting|Format|
+|----|-----|
+|Profiles/Levels| Baseline, Main, and High profiles, up to level 5.1. (See ITU-T H.264 specification for details.) | 
+| Chroma Formats | 4:2:0 chroma or monochrome | 
+| Minimum Resolution | 48 × 48 pixels | 
+| Maximum Resolution | 4096 × 2304 pixels<br /> The maximum guaranteed resolution for DXVA acceleration is 1920 × 1088 pixels; at higher resolutions, decoding is done with DXVA, if it is supported by the underlying hardware, otherwise, decoding is done with software.<br /><blockquote>[!Note]<br />In Windows 7, the maximum supported resolution is 1920 × 1088 pixels for both software and DXVA decoding.</blockquote><br /><br /> | 
+| DXVA | The decoder supports DXVA version 2, but not DXVA version 1. DXVA decoding is supported only for Main-compatible Baseline, Main, and High profile bitstreams. (Main-compatible Baseline bitstreams are defined as <strong>profile_idc</strong>=66 and <strong>constrained_set1_flag</strong>=1.)| 
+
 
 
 
@@ -201,7 +150,7 @@ If Platform Update Supplement for Windows Vista is installed, the H.264 video d
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                  |
@@ -228,7 +177,3 @@ If Platform Update Supplement for Windows Vista is installed, the H.264 video d
  
 
  
-
-
-
-

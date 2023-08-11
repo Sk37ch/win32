@@ -1,5 +1,5 @@
 ---
-Description: Retrieves information about the specified directory object.
+description: Retrieves information about the specified directory object.
 ms.assetid: a2c67c4d-4753-4d47-a404-31d067a78bf4
 title: NtQueryDirectoryObject function
 ms.topic: reference
@@ -106,13 +106,13 @@ typedef struct _OBJECT_DIRECTORY_INFORMATION {
 } OBJECT_DIRECTORY_INFORMATION, *POBJECT_DIRECTORY_INFORMATION;
 ```
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                      |
+| Requirement | Value |
 |----------------|--------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ntdll.dll</dt> </dl> |
 
@@ -128,7 +128,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Used by applications to enumerate IWiaItem2 objects in the item tree's current folder.
+description: Used by applications to enumerate IWiaItem2 objects in the item tree's current folder.
 ms.assetid: a82298e0-fbe7-4ef5-99c5-18ff60538e03
 title: IEnumWiaItem2 interface (Wia.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ Used by applications to enumerate [**IWiaItem2**](-wia-iwiaitem2.md) objects in 
 
 ## Members
 
-The **IEnumWiaItem2** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IEnumWiaItem2** also has these types of members:
+The **IEnumWiaItem2** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IEnumWiaItem2** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -47,7 +47,7 @@ The **IEnumWiaItem2** interface has these methods.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
@@ -59,7 +59,3 @@ The **IEnumWiaItem2** interface has these methods.
  
 
  
-
-
-
-

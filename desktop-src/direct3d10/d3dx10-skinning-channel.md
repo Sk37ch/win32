@@ -1,5 +1,5 @@
 ---
-Description: The member of the vertex decl to do the software skinning on. This is used with the ID3DX10SkinInfo::DoSoftwareSkinning API.
+description: The member of the vertex decl to do the software skinning on. This is used with the ID3DX10SkinInfo::DoSoftwareSkinning API.
 ms.assetid: 67c817cd-ce78-4e8b-bdc3-7c4d6670dee1
 title: D3DX10_SKINNING_CHANNEL structure (D3DX10.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ typedef struct D3DX10_SKINNING_CHANNEL {
 **SrcOffset**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -50,7 +50,7 @@ Offset from the beginning of each source vertex.
 **DestOffset**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -61,7 +61,7 @@ Offset from the beginning of each destination vertex.
 **IsNormal**
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -73,7 +73,7 @@ Determines which array of matrices to use in the [**ID3DX10SkinInfo::DoSoftwareS
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10.h</dt> </dl> |
 
@@ -89,7 +89,3 @@ Determines which array of matrices to use in the [**ID3DX10SkinInfo::DoSoftwareS
  
 
  
-
-
-
-

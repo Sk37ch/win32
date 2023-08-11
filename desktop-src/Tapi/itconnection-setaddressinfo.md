@@ -1,5 +1,5 @@
 ---
-Description: The SetAddressInfo method sets the address information.
+description: The SetAddressInfo method sets the address information.
 ms.assetid: 100b96af-e6ba-4496-9978-4df133e1c2b5
 title: ITConnection::SetAddressInfo method (Sdpblb.h)
 ms.topic: reference
@@ -46,7 +46,7 @@ Number of addresses to be used for the session.
 *Ttl* \[in\]
 </dt> <dd>
 
-[*time to live*](../tapi2/t_tapgloss.md) (TTL) scope for transmissions on the addresses.
+[*time to live*](t-tapgloss.md) (TTL) scope for transmissions on the addresses.
 
 </dd> </dl>
 
@@ -70,13 +70,13 @@ This method can return one of these values.
 
 ## Remarks
 
-The application must use [**SysAllocString**](https://msdn.microsoft.com/library/ms221458(v=VS.71).aspx) to allocate memory for the *pStartAddress* parameter and use [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the memory when the variable is no longer needed.
+The application must use [**SysAllocString**](/windows/win32/api/oleauto/nf-oleauto-sysallocstring) to allocate memory for the *pStartAddress* parameter and use [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) to free the memory when the variable is no longer needed.
 
 ## Requirements
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |
@@ -93,9 +93,4 @@ The application must use [**SysAllocString**](https://msdn.microsoft.com/library
 </dt> </dl>
 
  
-
- 
-
-
-
 

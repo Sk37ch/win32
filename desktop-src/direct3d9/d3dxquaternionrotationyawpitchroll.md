@@ -1,22 +1,25 @@
 ---
-Description: Builds a quaternion with the given yaw, pitch, and roll.
+description: D3DXQuaternionRotationYawPitchRoll function (D3dx9math.h) - Builds a quaternion with the given yaw, pitch, and roll.
 ms.assetid: be4a3bd5-114b-4652-8e0a-e51338317c16
 title: D3DXQuaternionRotationYawPitchRoll function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXQuaternionRotationYawPitchRoll
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXQuaternionRotationYawPitchRoll function
+# D3DXQuaternionRotationYawPitchRoll function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a quaternion with the given yaw, pitch, and roll.
 
@@ -50,7 +53,7 @@ Pointer to the [**D3DXQUATERNION**](d3dxquaternion.md) structure that is the res
 *Yaw* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Yaw around the y-axis, in radians.
 
@@ -59,7 +62,7 @@ Yaw around the y-axis, in radians.
 *Pitch* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Pitch around the x-axis, in radians.
 
@@ -68,7 +71,7 @@ Pitch around the x-axis, in radians.
 *Roll* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Roll around the z-axis, in radians.
 
@@ -90,7 +93,7 @@ Use [**D3DXQuaternionNormalize**](d3dxquaternionnormalize.md) for any quaternion
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -113,7 +116,3 @@ Use [**D3DXQuaternionNormalize**](d3dxquaternionnormalize.md) for any quaternion
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft Telephony Application Programming Interface (TAPI) version 2.2 (TAPI/C) enables implementation of communications applications ranging from basic modem control to call centers with multiple agents and switches.
+description: The Microsoft Telephony Application Programming Interface (TAPI) version 2.2 (TAPI/C) enables implementation of communications applications ranging from basic modem control to call centers with multiple agents and switches.
 ms.assetid: 02bfe923-9915-439e-ac7c-a570416d054a
 title: Telephony Application Programming Interface Version 2.2
 ms.topic: article
@@ -49,16 +49,11 @@ TAPI version 2.2 enables development of communications applications for the Wind
 
 <dl> <dt>
 
-[TAPI 3.1](https://msdn.microsoft.com/library/ms734215(v=VS.85).aspx)
+[TAPI 3.1](./tapi-3-1-start-page.md)
 </dt> <dt>
 
-[TAPI Service Providers](https://msdn.microsoft.com/library/ms725513(v=VS.85).aspx)
+[TAPI Service Providers](./tapi-service-providers.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

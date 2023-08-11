@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ProductFRU class represents an association between the product and a field replaceable unit (FRU), which provides information about product components that have been, or are being replaced.
+description: The CIM\_ProductFRU class represents an association between the product and a field replaceable unit (FRU), which provides information about product components that have been, or are being replaced.
 ms.assetid: 15d682e5-cd90-4fc4-8fff-e3fe1d2a0ac4
 ms.tgt_platform: multiple
 title: CIM_ProductFRU class
@@ -74,7 +74,7 @@ Data type: **CIM\_Product**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 Reference to the product to which the FRU is applied.
@@ -91,7 +91,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -102,9 +102,4 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
  
-
- 
-
-
-
 

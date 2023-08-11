@@ -1,6 +1,6 @@
 ---
 title: RWByteAddressBuffer::InterlockedCompareStore function
-description: Ccompares the input to the comparison value, atomically.
+description: Compares the input to the comparison value, atomically.
 ms.assetid: d82a73b6-24a5-4eb3-9f20-15ba263c93d0
 keywords:
 - InterlockedCompareStore function HLSL
@@ -17,7 +17,7 @@ api_location:
 
 # InterlockedCompareStore function
 
-Ccompares the input to the comparison value, atomically.
+Compares the input to the comparison value, atomically.
 
 ## Syntax
 
@@ -36,7 +36,7 @@ void InterlockedCompareStore(
 *dest* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The destination address.
 
@@ -45,7 +45,7 @@ The destination address.
 *compare\_value* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The comparison value.
 
@@ -54,7 +54,7 @@ The comparison value.
 *value* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The input value.
 
@@ -93,7 +93,3 @@ This function is supported in the following types of shaders:
  
 
  
-
-
-
-

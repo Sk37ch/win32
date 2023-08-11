@@ -1,12 +1,15 @@
 ---
-Description: How To Play a File
+description: How To Play a File
 ms.assetid: 3d8c5d06-8690-4298-a1d1-f21af35bcfd4
 title: How To Play a File
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # How To Play a File
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This article is intended to give you the flavor of DirectShow programming. It presents a simple console application that plays an audio or video file. The program is only a few lines long, but it demonstrates some of the power of DirectShow programming.
 
@@ -18,7 +21,7 @@ As the article [Introduction to DirectShow Application Programming](introduction
 
 To compile and link the code in this topic, include the header file Dshow.h and link to the static library file strmiids.lib. For more information, see [Building DirectShow Applications](setting-up-the-build-environment.md).
 
-Start by calling [**CoInitialize**](https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize) or [**CoInitializeEx**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) to initialize the COM library:
+Start by calling [**CoInitialize**](/windows/desktop/api/objbase/nf-objbase-coinitialize) or [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) to initialize the COM library:
 
 
 ```C++
@@ -33,7 +36,7 @@ if (FAILED(hr))
 
 To keep things simple, this example ignores the return value, but you should always check the **HRESULT** value from any method call.
 
-Next, call [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) to create the Filter Graph Manager:
+Next, call [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) to create the Filter Graph Manager:
 
 
 ```C++
@@ -44,9 +47,9 @@ HRESULT hr = CoCreateInstance(CLSID_FilterGraph, NULL,
 
 
 
-As shown, the class identifier (CLSID) is CLSID\_FilterGraph. The Filter Graph Manager is provided by an in-process DLL, so the execution context is **CLSCTX\_INPROC\_SERVER**. DirectShow supports the free-threading model, so you can also call [**CoInitializeEx**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) with the **COINIT\_MULTITHREADED** flag.
+As shown, the class identifier (CLSID) is CLSID\_FilterGraph. The Filter Graph Manager is provided by an in-process DLL, so the execution context is **CLSCTX\_INPROC\_SERVER**. DirectShow supports the free-threading model, so you can also call [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) with the **COINIT\_MULTITHREADED** flag.
 
-The call to [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) returns the [**IGraphBuilder**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder) interface, which mostly contains methods for building the filter graph. Two other interfaces are needed for this example:
+The call to [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) returns the [**IGraphBuilder**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder) interface, which mostly contains methods for building the filter graph. Two other interfaces are needed for this example:
 
 -   [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol) controls streaming. It contains methods for stopping and starting the graph.
 -   [**IMediaEvent**](/windows/desktop/api/Control/nn-control-imediaevent) has methods for getting events from the Filter Graph Manager. In this example, the interface is used to wait for playback to complete.
@@ -175,6 +178,3 @@ void main(void)
  
 
  
-
-
-

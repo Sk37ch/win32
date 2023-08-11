@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates several different ways to use the CryptAcquireContext and related CryptoAPI functions to work with a cryptographic service provider (CSP) and a key container.
+description: Demonstrates several different ways to use the CryptAcquireContext and related CryptoAPI functions to work with a cryptographic service provider (CSP) and a key container.
 ms.assetid: e8d2503c-a38f-44f6-a653-ae9c7bf903bd
 title: 'Example C Program: Using CryptAcquireContext'
 ms.topic: article
@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # Example C Program: Using CryptAcquireContext
 
-The following example demonstrates several different ways to use the [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) and related CryptoAPI functions to work with a [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP) and a [*key container*](https://msdn.microsoft.com/library/ms721590(v=VS.85).aspx).
+The following example demonstrates several different ways to use the [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) and related CryptoAPI functions to work with a [*cryptographic service provider*](../secgloss/c-gly.md) (CSP) and a [*key container*](../secgloss/k-gly.md).
 
 This example demonstrates the following tasks and CryptoAPI functions:
 
 -   Use the [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) function to acquire a handle for the default CSP and the default key container. If no default key container exists, use the **CryptAcquireContext** function to create the default key container.
 -   Use the [**CryptGetProvParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetprovparam) function to retrieve information about a CSP and a key container.
--   Increase the [*reference count*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx) on the provider by using the [**CryptContextAddRef**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcontextaddref) function.
+-   Increase the [*reference count*](../secgloss/r-gly.md) on the provider by using the [**CryptContextAddRef**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcontextaddref) function.
 -   Release a CSP by using the [**CryptReleaseContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptreleasecontext) function.
 -   Create a named key container by using the [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) function.
 -   Acquire a handle for a CSP by using the newly created key container.
@@ -291,6 +291,3 @@ void main(void)
  
 
  
-
-
-

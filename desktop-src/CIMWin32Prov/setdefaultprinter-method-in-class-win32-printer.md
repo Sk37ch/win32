@@ -1,5 +1,5 @@
 ---
-Description: The SetDefaultPrinter WMI class method sets the default system printer for the user calling the method.
+description: The SetDefaultPrinter WMI class method sets the default system printer for the user calling the method.
 ms.assetid: 7e896961-363d-4b8b-9d22-bbfc9681e97b
 ms.tgt_platform: multiple
 title: SetDefaultPrinter method of the Win32_Printer class
@@ -18,9 +18,9 @@ api_location:
 
 # SetDefaultPrinter method of the Win32\_Printer class
 
-The **SetDefaultPrinter** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method sets the default system printer for the user calling the method.
+The **SetDefaultPrinter** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method sets the default system printer for the user calling the method.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -37,7 +37,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns 0 (zero) if successful, and some other value if an error occurs. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+Returns 0 (zero) if successful, and some other value if an error occurs. For additional error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](/windows/desktop/Debug/system-error-codes).
 
 ## Examples
 
@@ -65,7 +65,7 @@ Next
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
@@ -82,16 +82,11 @@ Next
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> <dt>
 
-[WMI Tasks: Printers and Printing](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--printers-and-printing)
+[WMI Tasks: Printers and Printing](/windows/desktop/WmiSdk/wmi-tasks--printers-and-printing)
 </dt> <dt>
 
 [**Win32\_Printer**](win32-printer.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

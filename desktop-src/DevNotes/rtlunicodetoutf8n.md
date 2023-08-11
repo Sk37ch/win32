@@ -1,5 +1,5 @@
 ---
-Description: Translates the specified Unicode string into a new character string, using the 8-bit Unicode Transformation Format (UTF-8) code page.
+description: Translates the specified Unicode string into a new character string, using the 8-bit Unicode Transformation Format (UTF-8) code page.
 ms.assetid: ecd63eee-bf86-42b5-93d8-3c7871aa6324
 title: RtlUnicodeToUTF8N function (Wdm.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ NTSTATUS WINAPI RtlUnicodeToUTF8N(
   _In_      ULONG  UTF8StringMaxByteCount,
   _Out_opt_ PULONG UTF8StringActualByteCount,
   _In_      PCWSTR UnicodeStringSource,
-  _In_      ULONG  UnicodeStringWCharCount
+  _In_      ULONG  UnicodeStringByteCount
 );
 ```
 
@@ -66,10 +66,10 @@ A pointer to the Unicode source string to be translated.
 
 </dd> <dt>
 
-*UnicodeStringWCharCount* \[in\]
+*UnicodeStringByteCount * \[in\]
 </dt> <dd>
 
-Size, in WChar, of the string at *UnicodeStringSource*.
+Specifies the number of bytes in the Unicode source string that the *UnicodeStringSource* parameter points to.
 
 </dd> </dl>
 
@@ -105,7 +105,7 @@ Callers of **RtlUnicodeToUTF8N** must be running at IRQL < DISPATCH\_LEVEL.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                              |

@@ -1,5 +1,5 @@
 ---
-Description: Places the service represented by the Win32\_PrinterDriver object in the stopped state.
+description: Places the service represented by the Win32\_PrinterDriver object in the stopped state.
 ms.assetid: 0e730fe6-ff9f-4866-a255-be6d372f2d7d
 ms.tgt_platform: multiple
 title: StopService method of the Win32_PrinterDriver class (Sdoias.h)
@@ -18,9 +18,9 @@ api_location:
 
 # StopService method of the Win32\_PrinterDriver class
 
-The **StopService** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method places the service represented by the [**Win32\_PrinterDriver**](win32-printerdriver.md) object in the stopped state.
+The **StopService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method places the service represented by the [**Win32\_PrinterDriver**](win32-printerdriver.md) object in the stopped state.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -37,7 +37,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns one of the values listed in the following list or any other value to indicate an error. For values different from those listed in the following list, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants).
+Returns one of the values listed in the following list or any other value to indicate an error. For values different from those listed in the following list, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants).
 
 <dl> <dt>
 
@@ -59,7 +59,7 @@ Request not supported.
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
@@ -81,9 +81,4 @@ Request not supported.
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,22 +1,25 @@
 ---
-Description: Rotates a quaternion about an arbitrary axis.
+description: D3DXQuaternionRotationAxis function (D3DX10Math.h) - Rotates a quaternion about an arbitrary axis.
 ms.assetid: 9673ef89-458f-4a25-960e-8f03179e78ba
 title: D3DXQuaternionRotationAxis function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXQuaternionRotationAxis
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXQuaternionRotationAxis function
+# D3DXQuaternionRotationAxis function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Rotates a quaternion about an arbitrary axis.
 
@@ -40,7 +43,7 @@ D3DXQUATERNION* D3DXQuaternionRotationAxis(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **[**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that is the result of the operation.
 
@@ -49,7 +52,7 @@ Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that is the result 
 *pV* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to the [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that identifies the axis about which to rotate the quaternion.
 
@@ -58,7 +61,7 @@ Pointer to the [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that identifies the axis 
 *Angle* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Angle of rotation, in radians. Angles are measured clockwise when looking along the rotation axis toward the origin.
 
@@ -66,7 +69,7 @@ Angle of rotation, in radians. Angles are measured clockwise when looking along 
 
 ## Return value
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **[**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to a D3DXQUATERNION structure rotated around the specified axis.
 
@@ -80,7 +83,7 @@ Use [**D3DXQuaternionNormalize**](d3d10-d3dxquaternionnormalize.md) for any quat
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -97,7 +100,3 @@ Use [**D3DXQuaternionNormalize**](d3d10-d3dxquaternionnormalize.md) for any quat
  
 
  
-
-
-
-

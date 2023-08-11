@@ -1,5 +1,5 @@
 ---
-Description: Removes feature settings from a virtual machine Ethernet connection.
+description: Removes feature settings from a virtual machine Ethernet connection.
 ms.assetid: 457056d0-7e69-47e4-8744-0136a1816f4a
 title: RemoveFeatureSettings method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -45,7 +45,7 @@ An array of strings that contain an embedded instance of a class derived from th
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -89,7 +89,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -107,9 +107,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Finds the child frame of a root frame.
+description: Finds the child frame of a root frame.
 ms.assetid: 211e117a-9707-459a-a6a1-b3e78bdad6e2
 title: D3DXFrameFind function (D3dx9anim.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Pointer to the root frame. See [**D3DXFRAME**](d3dxframe.md).
 *Name* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Name of the child frame to find.
 
@@ -64,7 +64,7 @@ Returns the child frame if it is found, or **NULL** otherwise. See [**D3DXFRAME*
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -81,7 +81,3 @@ Returns the child frame if it is found, or **NULL** otherwise. See [**D3DXFRAME*
  
 
  
-
-
-
-

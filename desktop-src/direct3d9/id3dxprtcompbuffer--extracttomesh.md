@@ -1,5 +1,5 @@
 ---
-Description: Extracts the per-sample principal component analysis (PCA) projection coefficients from an ID3DXPRTCompBuffer compressed data buffer and adds the data to an ID3DXMesh object.
+description: Extracts the per-sample principal component analysis (PCA) projection coefficients from an ID3DXPRTCompBuffer compressed data buffer and adds the data to an ID3DXMesh object.
 ms.assetid: 0680d626-f07a-43d3-acb9-e8db82b5e933
 title: ID3DXPRTCompBuffer::ExtractToMesh method (D3DX9Mesh.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ HRESULT ExtractToMesh(
 *NumPCA* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of PCA coefficients to extract from the buffer.
 
@@ -50,16 +50,16 @@ Number of PCA coefficients to extract from the buffer.
 *Usage* \[in\]
 </dt> <dd>
 
-Type: **[**D3DDECLUSAGE**](https://msdn.microsoft.com/library/Bb172534(v=VS.85).aspx)**
+Type: **[**D3DDECLUSAGE**](./d3ddeclusage.md)**
 
-Vertex usage descriptions of the mesh. See [**D3DDECLUSAGE**](https://msdn.microsoft.com/library/Bb172534(v=VS.85).aspx).
+Vertex usage descriptions of the mesh. See [**D3DDECLUSAGE**](./d3ddeclusage.md).
 
 </dd> <dt>
 
 *UsageIndexStart* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Starting index for PCA coefficients to be stored in the mesh.
 
@@ -84,7 +84,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -101,7 +101,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

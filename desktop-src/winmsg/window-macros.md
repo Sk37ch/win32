@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Window Macros
 ms.assetid: 8b93bf4f-c9da-4edf-8bd8-cf9f39a0b79a
 title: Window Macros
 ms.topic: article
@@ -8,21 +8,15 @@ ms.date: 05/31/2018
 
 # Window Macros
 
--   [**GET\_X\_LPARAM**](https://msdn.microsoft.com/library/ms632654(v=VS.85).aspx)
--   [**GET\_Y\_LPARAM**](https://msdn.microsoft.com/library/ms632655(v=VS.85).aspx)
--   [**HIBYTE**](https://msdn.microsoft.com/library/ms632656(v=VS.85).aspx)
--   [**HIWORD**](https://msdn.microsoft.com/library/ms632657(v=VS.85).aspx)
--   [**LOBYTE**](https://msdn.microsoft.com/library/ms632658(v=VS.85).aspx)
--   [**LOWORD**](https://msdn.microsoft.com/library/ms632659(v=VS.85).aspx)
--   [**MAKELONG**](https://msdn.microsoft.com/library/ms632660(v=VS.85).aspx)
--   [**MAKELPARAM**](https://msdn.microsoft.com/library/ms632661(v=VS.85).aspx)
--   [**MAKELRESULT**](https://msdn.microsoft.com/library/ms632662(v=VS.85).aspx)
--   [**MAKEWORD**](https://msdn.microsoft.com/library/ms632663(v=VS.85).aspx)
--   [**MAKEWPARAM**](https://msdn.microsoft.com/library/ms632664(v=VS.85).aspx)
-
- 
-
- 
-
-
-
+- [**GET\_X\_LPARAM**](/windows/win32/api/windowsx/nf-windowsx-get_x_lparam)
+- [**GET\_Y\_LPARAM**](/windows/win32/api/windowsx/nf-windowsx-get_y_lparam)
+- [**GET_MOUSEORKEY_LPARAM**](nf-winuser-get_mouseorkey_lparam.md)
+- [**HIBYTE**](/previous-versions/windows/desktop/legacy/ms632656(v=vs.85))
+- [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+- [**LOBYTE**](/previous-versions/windows/desktop/legacy/ms632658(v=vs.85))
+- [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
+- [**MAKELONG**](/previous-versions/windows/desktop/legacy/ms632660(v=vs.85))
+- [**MAKELPARAM**](/windows/win32/api/winuser/nf-winuser-makelparam)
+- [**MAKELRESULT**](/windows/win32/api/winuser/nf-winuser-makelresult)
+- [**MAKEWORD**](/previous-versions/windows/desktop/legacy/ms632663(v=vs.85))
+- [**MAKEWPARAM**](/windows/win32/api/winuser/nf-winuser-makewparam)

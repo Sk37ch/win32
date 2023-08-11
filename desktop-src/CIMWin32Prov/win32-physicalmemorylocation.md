@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_PhysicalMemoryLocation association WMI class relates an array of physical memory and its physical memory.
+description: The Win32\_PhysicalMemoryLocation association WMI class relates an array of physical memory and its physical memory.
 ms.assetid: 40252428-77ca-4dfb-8048-c05096a114d8
 ms.tgt_platform: multiple
 title: Win32_PhysicalMemoryLocation class
@@ -21,7 +21,7 @@ api_location:
 
 # Win32\_PhysicalMemoryLocation class
 
-The **Win32\_PhysicalMemoryLocation** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) relates an array of physical memory and its physical memory.
+The **Win32\_PhysicalMemoryLocation** association [WMI class](../wmisdk/retrieving-a-class.md) relates an array of physical memory and its physical memory.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -58,7 +58,7 @@ Data type: **Win32\_PhysicalMemoryArray**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("GroupComponent"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_PhysicalMemoryArray")
+Qualifiers: [**Key**](../wmisdk/key-qualifier.md), [**Override**](../wmisdk/standard-qualifiers.md) ("GroupComponent"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI\|Win32\_PhysicalMemoryArray")
 </dt> </dl>
 
 A [**Win32\_PhysicalMemoryArray**](win32-physicalmemoryarray.md) that represents the physical memory array that contains the physical memory.
@@ -89,7 +89,7 @@ Data type: **Win32\_PhysicalMemory**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("PartComponent"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_PhysicalMemory")
+Qualifiers: [**Key**](../wmisdk/key-qualifier.md), [**Override**](../wmisdk/standard-qualifiers.md) ("PartComponent"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI\|Win32\_PhysicalMemory")
 </dt> </dl>
 
 A [**Win32\_PhysicalMemory**](win32-physicalmemory.md) that represents the physical memory contained in the physical memory array.
@@ -104,7 +104,7 @@ The **Win32\_PhysicalMemoryLocation** class is derived from [**CIM\_PackagedComp
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -127,7 +127,3 @@ The **Win32\_PhysicalMemoryLocation** class is derived from [**CIM\_PackagedComp
  
 
  
-
-
-
-

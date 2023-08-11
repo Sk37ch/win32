@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNID.ToString method"
 title: JET_COLUMNID.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNID.ToString
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Generate a string representation of the structure.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -47,18 +48,17 @@ public override string ToString()
 
 #### Return value
 
-Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+Type: [System.String](/dotnet/api/system.string)  
 The structure as a string.  
 
 ## See also
 
 #### Reference
 
-[JET_COLUMNID structure](hh564510\(v=exchg.10\).md)
+[JET_COLUMNID structure](./jet-columnid-structure.md)
 
-[JET_COLUMNID members](hh558343\(v=exchg.10\).md)
+[JET_COLUMNID members](./jet-columnid-members.md)
 
-[ToString overload](hh558497\(v=exchg.10\).md)
+[ToString overload](./jet-columnid.tostring-method2.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

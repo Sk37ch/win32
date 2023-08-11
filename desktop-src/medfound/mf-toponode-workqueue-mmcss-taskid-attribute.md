@@ -1,5 +1,5 @@
 ---
-Description: Specifies a Multimedia Class Scheduler Service (MMCSS) task identifier for a topology branch.
+description: Specifies a Multimedia Class Scheduler Service (MMCSS) task identifier for a topology branch.
 ms.assetid: ccecc1e6-2d30-4e89-849f-c3acad97f312
 title: MF_TOPONODE_WORKQUEUE_MMCSS_TASKID attribute (Mfidl.h)
 ms.topic: reference
@@ -23,7 +23,7 @@ This attribute is ignored unless the following attributes are also set:
 -   [**MF\_TOPONODE\_WORKQUEUE\_ID**](mf-toponode-workqueue-id-attribute.md)
 -   [**MF\_TOPONODE\_WORKQUEUE\_MMCSS\_CLASS**](mf-toponode-workqueue-mmcss-class-attribute.md)
 
-If the application registers one of its own threads with MMCSS, you can use this attribute to associate the topology work queue with the application's MMCSS group. Set the attribute value equal to the task identifier that the application received when it registered with MMCSS. (The task identifier is returned in the *TaskIndex* parameter of the [**AvSetMmThreadCharacteristics**](https://msdn.microsoft.com/library/ms681974(v=VS.85).aspx) function. For more information, see the topic [Process and Thread Functions](https://msdn.microsoft.com/library/ms684847(v=VS.85).aspx).)
+If the application registers one of its own threads with MMCSS, you can use this attribute to associate the topology work queue with the application's MMCSS group. Set the attribute value equal to the task identifier that the application received when it registered with MMCSS. (The task identifier is returned in the *TaskIndex* parameter of the [**AvSetMmThreadCharacteristics**](/windows/win32/api/avrt/nf-avrt-avsetmmthreadcharacteristicsa) function. For more information, see the topic [Process and Thread Functions](../procthread/process-and-thread-functions.md).)
 
 If you want MMCSS to assign a new task identifier for the topology, set the [**MF\_TOPONODE\_WORKQUEUE\_MMCSS\_CLASS**](mf-toponode-workqueue-mmcss-class-attribute.md) attribute, but do not set the **MF\_TOPONODE\_WORKQUEUE\_MMCSS\_TASKID** attribute.
 
@@ -33,7 +33,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
@@ -69,7 +69,3 @@ The GUID constant for this attribute is exported from mfuuid.lib.
  
 
  
-
-
-
-

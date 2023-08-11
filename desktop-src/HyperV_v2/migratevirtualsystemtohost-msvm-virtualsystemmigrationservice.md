@@ -1,5 +1,5 @@
 ---
-Description: Migrates a virtual system or the storage of a virtual system to a destination host specified by a hostname.
+description: Migrates a virtual system or the storage of a virtual system to a destination host specified by a hostname.
 ms.assetid: 796b043c-5ac9-4c69-9838-0f415be5a63e
 title: MigrateVirtualSystemToHost method of the Msvm_VirtualSystemMigrationService class
 ms.topic: reference
@@ -77,7 +77,7 @@ An array of strings that contain an embedded instance of the [**Msvm\_ResourceAl
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -127,7 +127,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -145,9 +145,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

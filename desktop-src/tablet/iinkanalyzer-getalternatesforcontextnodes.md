@@ -1,5 +1,5 @@
 ---
-Description: Retrieves analysis alternates for the nodes in a specified IContextNodes collection.
+description: Retrieves analysis alternates for the nodes in a specified IContextNodes collection.
 ms.assetid: 7d047808-4360-442d-8fd9-4ee4aeeed2c9
 title: IInkAnalyzer::GetAlternatesForContextNodes method (IACom.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppAlternates* when you no longer need to use the object.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppAlternates* when you no longer need to use the object.
 
  
 
@@ -78,7 +78,7 @@ For each analysis hint in nodes, the [**IInkAnalyzer**](iinkanalyzer.md) returns
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -116,9 +116,4 @@ For each analysis hint in nodes, the [**IInkAnalyzer**](iinkanalyzer.md) returns
 </dt> </dl>
 
  
-
- 
-
-
-
 

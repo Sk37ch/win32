@@ -1,5 +1,5 @@
 ---
-Description: Create a thread pump.
+description: Create a thread pump.
 ms.assetid: a7a016e2-784d-4d7a-8058-88895bf3c4e2
 title: D3DX10CreateThreadPump function (D3DX10.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ HRESULT D3DX10CreateThreadPump(
 *cIoThreads* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The number of I/O threads to create. If 0 is specified, Direct3D will attempt to calculate the optimal number of threads based on the hardware configuration.
 
@@ -49,7 +49,7 @@ The number of I/O threads to create. If 0 is specified, Direct3D will attempt to
 *cProcThreads* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The number of process threads to create. If 0 is specified, Direct3D will attempt to calculate the optimal number of threads based on the hardware configuration.
 
@@ -78,7 +78,7 @@ A thread pump is a very resource-intensive object. Only one thread pump should b
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -95,7 +95,3 @@ A thread pump is a very resource-intensive object. Only one thread pump should b
  
 
  
-
-
-
-

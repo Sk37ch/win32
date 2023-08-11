@@ -129,7 +129,7 @@ A [**ResultCodes**](/windows/win32/api/naptypes/ns-naptypes-resultcodes) structu
 
 **case(sohAttributeTypeTimeOfLastUpdate, sohAttributeTypeSoHGenerationTime)**
 
-A [FILETIME](https://msdn.microsoft.com/library/ms724284.aspx) structure that contains the time of the last [**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh) update or the **SoH** generation time.
+A [FILETIME](/windows/win32/api/minwinbase/ns-minwinbase-filetime) structure that contains the time of the last [**SoH**](/windows/win32/api/naptypes/ns-naptypes-soh) update or the **SoH** generation time.
 
 </dd> <dt>
 
@@ -283,7 +283,7 @@ The rest of the [**SoHAttributeTypes**](sohattributetype-enum.md) are meant pure
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
@@ -303,10 +303,4 @@ The rest of the [**SoHAttributeTypes**](sohattributetype-enum.md) are meant pure
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

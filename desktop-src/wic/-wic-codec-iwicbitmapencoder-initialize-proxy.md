@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the Initialize method.
+description: IWICBitmapEncoder_Initialize_Proxy function - Proxy function for the Initialize method.
 ms.assetid: 0db79eb4-dcb2-491a-9bea-a0dec418f80f
 title: IWICBitmapEncoder_Initialize_Proxy function
 ms.topic: reference
@@ -49,7 +49,7 @@ Pointer to this [**IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincode
 *pIStream* \[in\]
 </dt> <dd>
 
-Type: **[IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream)\***
+Type: **[IStream](/windows/desktop/api/objidl/nn-objidl-istream)\***
 
 The output stream.
 
@@ -76,7 +76,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
@@ -85,9 +85,4 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Represents the method that is called when an asynchronous action completes.
+description: Represents the method that is called when an asynchronous action completes.
 ms.assetid: B410E7C1-B108-4204-9AD1-663F7E05BBC3
 title: AsyncActionCompletedHandler interface
 ms.topic: reference
@@ -21,7 +21,7 @@ Represents the method that is called when an asynchronous action completes.
 
 ## Members
 
-The **AsyncActionCompletedHandler** interface inherits from [**IAsyncInfo**](https://msdn.microsoft.com/library/BR205795(v=VS.85).aspx). **AsyncActionCompletedHandler** also has these types of members:
+The **AsyncActionCompletedHandler** interface inherits from [**IAsyncInfo**](/windows/win32/api/asyncinfo/nn-asyncinfo-iasyncinfo). **AsyncActionCompletedHandler** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -41,13 +41,13 @@ The **AsyncActionCompletedHandler** interface has these methods.
 
 ## Remarks
 
-Assign an **AsyncActionCompletedHandler** to an [**IAsyncAction**](https://msdn.microsoft.com/library/BR205781(v=VS.85).aspx) to receive a notification when the asynchronous action completes.
+Assign an **AsyncActionCompletedHandler** to an [**IAsyncAction**](/windows/win32/api/windows.foundation/nn-windows-foundation-iasyncaction) to receive a notification when the asynchronous action completes.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                              |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
@@ -59,13 +59,8 @@ Assign an **AsyncActionCompletedHandler** to an [**IAsyncAction**](https://msdn.
 
 <dl> <dt>
 
-[**IAsyncInfo**](https://msdn.microsoft.com/library/BR205795(v=VS.85).aspx)
+[**IAsyncInfo**](/windows/win32/api/asyncinfo/nn-asyncinfo-iasyncinfo)
 </dt> </dl>
 
  
-
- 
-
-
-
 

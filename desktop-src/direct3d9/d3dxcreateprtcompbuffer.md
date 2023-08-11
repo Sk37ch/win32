@@ -1,5 +1,5 @@
 ---
-Description: Creates a compressed precomputed radiance transfer (PRT) buffer from an uncompressed ID3DXPRTBuffer object. This function should be used with per-vertex or volume buffers.
+description: Creates a compressed precomputed radiance transfer (PRT) buffer from an uncompressed ID3DXPRTBuffer object. This function should be used with per-vertex or volume buffers.
 ms.assetid: 1464d2dd-05db-4d9a-84ac-39d57b6fff4f
 title: D3DXCreatePRTCompBuffer function (D3DX9Mesh.h)
 ms.topic: reference
@@ -44,16 +44,16 @@ HRESULT D3DXCreatePRTCompBuffer(
 *Quality* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXSHCOMPRESSQUALITYTYPE**](https://msdn.microsoft.com/library/Bb205445(v=VS.85).aspx)**
+Type: **[**D3DXSHCOMPRESSQUALITYTYPE**](./d3dxshcompressqualitytype.md)**
 
-Quality of spherical harmonic (SH) compression. See [**D3DXSHCOMPRESSQUALITYTYPE**](https://msdn.microsoft.com/library/Bb205445(v=VS.85).aspx).
+Quality of spherical harmonic (SH) compression. See [**D3DXSHCOMPRESSQUALITYTYPE**](./d3dxshcompressqualitytype.md).
 
 </dd> <dt>
 
 *NumClusters* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of clusters to use for compression.
 
@@ -62,7 +62,7 @@ Number of clusters to use for compression.
 *NumPCA* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of principal component analysis (PCA) basis vectors to use in each cluster.
 
@@ -80,7 +80,7 @@ Optional pointer to the [LPD3DXSHPRTSIMCB](lpd3dxshprtsimcb.md) callback functio
 *lpUserContext* \[in\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](../winprog/windows-data-types.md)**
 
 Optional pointer to a user-defined value passed to the [LPD3DXSHPRTSIMCB](lpd3dxshprtsimcb.md) callback function. Typically used by an application to pass a pointer to a data structure that provides context information for the callback function. May be **NULL**.
 
@@ -114,7 +114,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -137,7 +137,3 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
  
 
  
-
-
-
-

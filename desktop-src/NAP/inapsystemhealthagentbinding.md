@@ -1,6 +1,6 @@
 ---
 title: INapSystemHealthAgentBinding interface (NapSystemHealthAgent.h)
-description: The SHAs use to communicate with the NapAgent.
+description: The SHAs use to communicate with the NapAgent. | INapSystemHealthAgentBinding interface (NapSystemHealthAgent.h)
 ms.assetid: 9366f61f-086a-4f44-900e-9ec3165a35ba
 keywords:
 - INapSystemHealthAgentBinding interface NAP
@@ -33,7 +33,7 @@ The **INapSystemHealthAgentBinding** provides methods that the SHAs use to commu
 
 ## Members
 
-The **INapSystemHealthAgentBinding** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapSystemHealthAgentBinding** also has these types of members:
+The **INapSystemHealthAgentBinding** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapSystemHealthAgentBinding** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -63,7 +63,7 @@ All the APIs in this interface will return **RPC\_E\_DISCONNECTED** if the NapAg
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
@@ -84,10 +84,4 @@ All the APIs in this interface will return **RPC\_E\_DISCONNECTED** if the NapAg
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

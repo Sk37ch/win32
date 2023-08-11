@@ -1,5 +1,5 @@
 ---
-Description: Adds a new channel to the list of channels in the Windows Internet Explorer Favorites menu and to the Channel bar on the desktop.
+description: Adds a new channel to the list of channels in the Windows Internet Explorer Favorites menu and to the Channel bar on the desktop.
 title: ShellUIHelper.AddChannel method (Exdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: b62e6e82-429a-4d41-96d4-cba639b611f5
-api_name: 
- - ShellUIHelper.AddChannel
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -52,7 +43,7 @@ iRetVal = ShellUIHelper.AddChannel(
 *sURL* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** value that specifies the URL of the CDF file.
 
@@ -116,7 +107,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
@@ -128,7 +119,3 @@ End Sub
  
 
  
-
-
-
-

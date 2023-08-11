@@ -1,6 +1,6 @@
 ---
 title: ps_2_0 Registers
-description: Pixel shaders depend on registers to get vertex data, to output pixel data, to hold temporary results during calculations, and to identify texture sampling stages.
+description: This article contains reference information for the input and output registers implemented by pixel shader version 2_0.
 ms.assetid: 8002e3eb-b9d4-4ecb-a9e5-ae58a9e20ace
 keywords:
 - Registers - ps_2_0
@@ -52,7 +52,7 @@ The number of readports is the number of different registers (for each register 
 
 | Register | Name                                                                              | Count                                                                             | R/W | Dimension | RelAddr | Defaults | Requires DCL |
 |----------|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-----|-----------|---------|----------|--------------|
-| oC#     | [Output Color Register](dx9-graphics-reference-asm-ps-registers-output-color.md) | See [Multiple-element Textures (Direct3D 9)](https://docs.microsoft.com/windows/desktop/direct3d9/multiple-element-textures) | W   | 4         | N       | None     | N            |
+| oC#     | [Output Color Register](dx9-graphics-reference-asm-ps-registers-output-color.md) | See [Multiple-element Textures (Direct3D 9)](/windows/desktop/direct3d9/multiple-element-textures) | W   | 4         | N       | None     | N            |
 | oDepth   | [Output Depth Register](dx9-graphics-reference-asm-ps-registers-output-depth.md) | 1                                                                                 | W   | 1         | N       | None     | N            |
 
 
@@ -69,7 +69,3 @@ The number of readports is the number of different registers (for each register 
  
 
  
-
-
-
-

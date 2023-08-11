@@ -1,12 +1,12 @@
 ---
-Description: The network file functions provide a way to monitor and close the file, device, and pipe resources open on a server. The file functions are listed following.
+description: The network file functions provide a way to monitor and close the file, device, and pipe resources open on a server. The file functions are listed following.
 ms.assetid: cbcdad6e-80dd-49f0-9d69-a82a7010f10b
 title: NetFile Functions (Network Share Management)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# NetFile Functions
+# NetFile Functions (Network Share Management)
 
 The network file functions provide a way to monitor and close the file, device, and pipe resources open on a server. The file functions are listed following.
 
@@ -36,11 +36,8 @@ File information is available at the following levels.
 
 Levels 0 and 1 are not supported. Level 2 returns only the identification number assigned to the resource when it was opened. Level 3 returns the identification number, permissions, file locks, and the name of the user who opened the resource.
 
-If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the [**NetFileEnum**](/windows/desktop/api/Lmshare/nf-lmshare-netfileenum) and [**NetFileGetInfo**](/windows/desktop/api/Lmshare/nf-lmshare-netfilegetinfo) functions. For more information, see [**IADsResource**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsresource) and [**IADsFileServiceOperations**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations).
+If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the [**NetFileEnum**](/windows/desktop/api/Lmshare/nf-lmshare-netfileenum) and [**NetFileGetInfo**](/windows/desktop/api/Lmshare/nf-lmshare-netfilegetinfo) functions. For more information, see [**IADsResource**](/windows/desktop/api/iads/nn-iads-iadsresource) and [**IADsFileServiceOperations**](/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations).
 
  
 
  
-
-
-

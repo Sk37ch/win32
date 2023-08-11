@@ -1,5 +1,5 @@
 ---
-Description: Creates a save object that will be used to save data to a .x file.
+description: Creates a save object that will be used to save data to a .x file.
 ms.assetid: da064e83-605f-4c86-985d-9a0961c18e01
 title: ID3DXFile::CreateSaveObject method (D3DX9Xof.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ HRESULT CreateSaveObject(
 *pData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](../winprog/windows-data-types.md)**
 
 Pointer to the name of the file to use for saving data.
 
@@ -92,7 +92,7 @@ The file format values can be combined in a logical OR to create compressed text
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |
@@ -112,7 +112,3 @@ The file format values can be combined in a logical OR to create compressed text
  
 
  
-
-
-
-

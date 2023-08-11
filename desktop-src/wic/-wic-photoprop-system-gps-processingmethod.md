@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.GPS.ProcessingMethod property.
+description: The photo metadata policy for the System.GPS.ProcessingMethod property.
 ms.assetid: 840021a8-ec1d-4916-93b2-7cc1803e2d8c
 title: System.GPS.ProcessingMethod Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.ProcessingMethod Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.ProcessingMethod](https://msdn.microsoft.com/library/bb760578(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.ProcessingMethod](../properties/props-system-gps-processingmethod.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.GPS.ProcessingMethod](https://msdn.microsoft.com/library/bb760578(VS.85).aspx)
+[System.GPS.ProcessingMethod](../properties/props-system-gps-processingmethod.md)
 </dt> </dl>
 
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Sets an array of pointers to transposed matrices.
+description: ID3DXTextureShader::SetMatrixTransposePointerArray method - Sets an array of pointers to transposed matrices.
 ms.assetid: 2b9f1efe-b2ea-416b-a370-202db57b1925
 title: ID3DXTextureShader::SetMatrixTransposePointerArray method (D3DX9Shader.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Array of pointers to transposed matrices. See [**D3DXMATRIX**](d3dxmatrix.md).
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of matrices in the array.
 
@@ -78,7 +78,7 @@ A transposed matrix contains column-major data; that is, each vector is containe
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -95,7 +95,3 @@ A transposed matrix contains column-major data; that is, each vector is containe
  
 
  
-
-
-
-

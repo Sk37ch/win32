@@ -1,5 +1,5 @@
 ---
-Description: Passes symbol server information to the desktop capture engine.
+description: Passes symbol server information to the desktop capture engine.
 MS-HAID: vspixengine.ISymbolSettings
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -26,7 +26,7 @@ Passes symbol server information to the desktop capture engine.
 
 ## Members
 
-The **ISymbolSettings** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ISymbolSettings** also has these types of members:
+The **ISymbolSettings** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ISymbolSettings** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,17 +34,14 @@ The **ISymbolSettings** interface inherits from the [**IUnknown**](https://docs.
 
 The **ISymbolSettings** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/isymbolsettings-updatesymbolsettings-symbolserverinfo"><strong>UpdateSymbolSettings</strong></a></td><td style="text-align: left;"><p>A request to send debug symbol paths to the local (non-remote) engine.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Method</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/isymbolsettings-updatesymbolsettings-symbolserverinfo"><strong>UpdateSymbolSettings</strong></a></td><td ><p>A request to send debug symbol paths to the local (non-remote) engine.</p></td></tr></tbody></table>
 
  
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 
  
-
-
-

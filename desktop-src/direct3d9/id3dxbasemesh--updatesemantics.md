@@ -1,5 +1,5 @@
 ---
-Description: This method allows the user to change the mesh declaration without changing the data layout of the vertex buffer. The call is valid only if the old and new declaration formats have the same vertex size.
+description: This method allows the user to change the mesh declaration without changing the data layout of the vertex buffer. The call is valid only if the old and new declaration formats have the same vertex size.
 ms.assetid: ed2ad479-e0f7-4580-a20a-d3649759876a
 title: ID3DXBaseMesh::UpdateSemantics method (D3DX9Mesh.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ HRESULT UpdateSemantics(
 
 Type: **[**D3DVERTEXELEMENT9**](d3dvertexelement9.md)**
 
-An array of [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) elements, describing the vertex format of the mesh vertices. The upper limit of this declarator array is [**MAX\_FVF\_DECL\_SIZE**](https://msdn.microsoft.com/library/Bb147183(v=VS.85).aspx).
+An array of [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) elements, describing the vertex format of the mesh vertices. The upper limit of this declarator array is [**MAX\_FVF\_DECL\_SIZE**](./max-fvf-decl-size.md).
 
 </dd> </dl>
 
@@ -60,7 +60,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -83,7 +83,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

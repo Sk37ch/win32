@@ -1,5 +1,5 @@
 ---
-Description: Converts an IMECOLORSTY structure to a COLORREF structure.
+description: Converts an IMECOLORSTY structure to a COLORREF structure.
 ms.assetid: f7a3eab0-16ca-4c4e-9eda-bead8d1a91b8
 title: RGBFromIMEColorStyle function
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # RGBFromIMEColorStyle function
 
-Converts an **IMECOLORSTY** structure to a [**COLORREF**](https://msdn.microsoft.com/library/Dd183449(v=VS.85).aspx) structure.
+Converts an **IMECOLORSTY** structure to a [**COLORREF**](../gdi/colorref.md) structure.
 
 ## Syntax
 
@@ -43,17 +43,17 @@ An **IMECOLORSTY** structure returned from a [**PColorStyleBackFromIMEStyle**](p
 
 ## Return value
 
-Returns a [**COLORREF**](https://msdn.microsoft.com/library/Dd183449(v=VS.85).aspx) structure.
+Returns a [**COLORREF**](../gdi/colorref.md) structure.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Imeshare.dll</dt> </dl> |
 
@@ -63,7 +63,7 @@ This function has no associated import library or header file; you must call it 
 
 <dl> <dt>
 
-[**COLORREF**](https://msdn.microsoft.com/library/Dd183449(v=VS.85).aspx)
+[**COLORREF**](../gdi/colorref.md)
 </dt> <dt>
 
 [**PColorStyleBackFromIMEStyle**](pcolorstylebackfromimestyle.md)
@@ -75,7 +75,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

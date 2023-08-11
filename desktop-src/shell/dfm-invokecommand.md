@@ -1,5 +1,5 @@
 ---
-Description: Sent by the default context menu implementation to request the callback function that handles the menu (LPFNDFMCALLBACK) to invoke a menu command.
+description: Sent by the default context menu implementation to request the callback function that handles the menu (LPFNDFMCALLBACK) to invoke a menu command.
 title: DFM_INVOKECOMMAND message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -18,7 +18,7 @@ topic_type:
 
 # DFM\_INVOKECOMMAND message
 
-Sent by the default context menu implementation to request the callback function that handles the menu ([**LPFNDFMCALLBACK**](https://msdn.microsoft.com/library/Bb776770(v=VS.85).aspx)) to invoke a menu command.
+Sent by the default context menu implementation to request the callback function that handles the menu ([**LPFNDFMCALLBACK**](/windows/win32/api/shlobj_core/nc-shlobj_core-lpfndfmcallback)) to invoke a menu command.
 
 
 ```C++
@@ -207,7 +207,7 @@ The items on which the command is being invoked are provided in a data object pa
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
@@ -218,7 +218,3 @@ The items on which the command is being invoked are provided in a data object pa
  
 
  
-
-
-
-

@@ -40,7 +40,7 @@ typedef struct _STOWED_EXCEPTION_INFORMATION_HEADER {
 **Size**
 </dt> <dd>
 
-Type: **[**ULONG**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**ULONG**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -51,7 +51,7 @@ Size, in bytes, of the parent structure.
 **Signature**
 </dt> <dd>
 
-Type: **[**ULONG**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**ULONG**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -80,7 +80,7 @@ The **STOWED\_EXCEPTION\_INFORMATION\_V1** structure is identical to this struct
 
 
 
-|                                     |                                                                                 |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                            |
@@ -96,10 +96,4 @@ The **STOWED\_EXCEPTION\_INFORMATION\_V1** structure is identical to this struct
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

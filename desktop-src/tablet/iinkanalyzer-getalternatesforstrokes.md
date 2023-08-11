@@ -1,5 +1,5 @@
 ---
-Description: Retrieves analysis alternates for the strokes with the specified stroke identifiers.
+description: Retrieves analysis alternates for the strokes with the specified stroke identifiers.
 ms.assetid: e8bc198e-de0b-49b7-9120-4298985dfe64
 title: IInkAnalyzer::GetAlternatesForStrokes method (IACom.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppAlternates* when you no longer need to use the object.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppAlternates* when you no longer need to use the object.
 
  
 
@@ -84,7 +84,7 @@ The specified strokes do not have to represent adjacent areas of the document.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -122,9 +122,4 @@ The specified strokes do not have to represent adjacent areas of the document.
 </dt> </dl>
 
  
-
- 
-
-
-
 

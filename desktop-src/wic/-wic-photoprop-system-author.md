@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Author property.
+description: The photo metadata policy for the System.Author property.
 ms.assetid: 2de9c452-93be-40a4-a72b-5da590534dfd
 title: System.Author Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Author Photo Metadata Policy
 
-The photo metadata policy for the [System.Author](https://msdn.microsoft.com/library/bb760652(VS.85).aspx) property.
+The photo metadata policy for the [System.Author](../properties/props-system-author.md) property.
 
 ### PKEY
 
@@ -44,7 +44,7 @@ Values from different schemas are reconciled.
 |-------|----------------------------------|----------------|
 | 1     | /app1/ifd/{ushort=315}           | ascii          |
 | 2     | /app13/irb/8bimiptc/iptc/by-line |                |
-| 3     | /xmp/<xmpseq>dc:creator    | unicode        |
+| 3     | /xmp/&lt;xmpseq&gt;dc:creator    | unicode        |
 | 4     | /app13/irb/8bimiptc/iptc/by-line |                |
 | 5     | /app1/ifd/{ushort=40093}         | unicode\_bytes |
 | 6     | /xmp/tiff:artist                 | unicode        |
@@ -59,7 +59,7 @@ Values from different schemas are reconciled.
 
 | Order | Path                             | Disk Format    |
 |-------|----------------------------------|----------------|
-| 1     | /xmp/<xmpseq>dc:creator    | unicode        |
+| 1     | /xmp/&lt;xmpseq&gt;dc:creator    | unicode        |
 | 2     | /xmp/tiff:artist                 | unicode        |
 | 3     | /app13/irb/8bimiptc/iptc/by-line |                |
 | 4     | /app1/ifd/{ushort=315}           | ascii          |
@@ -95,7 +95,7 @@ Values from different schemas are reconciled.
 |-------|-----------------------------------|----------------|
 | 1     | /ifd/{ushort=315}                 | ascii          |
 | 2     | /ifd/iptc/by-line                 |                |
-| 3     | /ifd/xmp/<xmpseq>dc:creator | unicode        |
+| 3     | /ifd/xmp/&lt;xmpseq&gt;dc:creator | unicode        |
 | 4     | /ifd/iptc/by-line                 |                |
 | 5     | /ifd/{ushort=40093}               | unicode\_bytes |
 | 6     | /ifd/irb/8bimiptc/iptc/by-line    |                |
@@ -111,7 +111,7 @@ Values from different schemas are reconciled.
 
 | Order | Path                              | Disk Format    |
 |-------|-----------------------------------|----------------|
-| 1     | /ifd/xmp/<xmpseq>dc:creator | unicode        |
+| 1     | /ifd/xmp/&lt;xmpseq&gt;dc:creator | unicode        |
 | 2     | /ifd/xmp/tiff:artist              | unicode        |
 | 3     | /ifd/iptc/by-line                 |                |
 | 4     | /ifd/{ushort=315}                 | ascii\_vector  |
@@ -145,12 +145,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Author](https://msdn.microsoft.com/library/bb760652(VS.85).aspx)
+[System.Author](../properties/props-system-author.md)
 </dt> </dl>
 
  
 
  
-
-
-

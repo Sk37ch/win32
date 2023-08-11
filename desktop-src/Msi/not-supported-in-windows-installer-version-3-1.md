@@ -1,5 +1,5 @@
 ---
-Description: The Windows Installer functions, tables, and properties listed on this page are not supported by Windows Installer&\#160;3.1 and earlier versions.
+description: The Windows Installer functions, tables, and properties listed on this page are not supported by Windows Installer&\#160;3.1 and earlier versions.
 ms.assetid: fbf75dbe-3fa1-424b-83bb-cfd0b179107c
 title: Not Supported in Windows Installer 3.1
 ms.topic: article
@@ -85,13 +85,10 @@ The following features are not supported in Windows Installer 3.1 and earlier v
 
 ## Notes
 
-The Windows Installer service must run on Windows Vista to enable use of [Restart Manager](https://msdn.microsoft.com/library/Cc948910(v=VS.85).aspx), [*User Account Control*](u-gly.md), and [User Account Control (UAC) Patching](user-account-control--uac--patching.md). For information, see [Using Windows Installer with Restart Manager](using-windows-installer-with-restart-manager.md) and [Using Windows Installer with UAC](using-windows-installer-with-uac.md) and [User Account Control (UAC) Patching](user-account-control--uac--patching.md).
+The Windows Installer service must run on Windows Vista to enable use of [Restart Manager](../rstmgr/restart-manager-portal.md), [*User Account Control*](u-gly.md), and [User Account Control (UAC) Patching](user-account-control--uac--patching.md). For information, see [Using Windows Installer with Restart Manager](using-windows-installer-with-restart-manager.md) and [Using Windows Installer with UAC](using-windows-installer-with-uac.md) and [User Account Control (UAC) Patching](user-account-control--uac--patching.md).
 
 Windows Installer 3.1 supports Windows File Protection (WFP) and does not support Windows Resource Protection (WRP). WRP in Windows Server 2008 and Windows Vista replaces WFP in Windows Server 2003, Windows XP, and Windows 2000. For information about Windows Installer and WFP, see [Using Windows Installer and Windows Resource Protection](windows-resource-protection-on-windows-vista.md).
 
  
 
  
-
-
-

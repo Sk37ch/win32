@@ -7,10 +7,13 @@ keywords:
 - Advanced Systems Format (ASF),functions
 - ASF (Advanced Systems Format),functions
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
-# Functions
+# Windows Media Format SDK Functions
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The Windows Media Format SDK includes functions for creating objects, and helper functions to simplify some procedures.
 
@@ -23,7 +26,7 @@ This SDK supports the following functions for initial creation of objects. If an
 | [**WMCheckURLExtension**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlextension)                                   | Examines the file name extension in the URL or file name that is passed in as an argument                                                               |
 | [**WMCheckURLScheme**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlscheme)                                         | Examines a network protocol and compares it to an internal list of supported schemes                                                                    |
 | [**WMCreateBackupRestorer**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatebackuprestorer)                             | Creates a backup restorer object.                                                                                                                       |
-| [**WMCreateCertificate**](https://msdn.microsoft.com/library/Dd757745(v=VS.85).aspx)                                   | Wraps the user's certificates into an object.                                                                                                           |
+| [**WMCreateCertificate**](/previous-versions/windows/desktop/legacy/dd757745(v=vs.85))                                   | Wraps the user's certificates into an object.                                                                                                           |
 | [**WMCreateDeviceRegistration**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatedeviceregistration)                     | Creates a device registration object.                                                                                                                   |
 | [**WMCreateDRMTranscryptor**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatedrmtranscryptor)                           | Creates a DRM transcryptor object.                                                                                                                      |
 | [**WMCreateEditor**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreateeditor)                                             | Creates a metadata editor object.                                                                                                                       |
@@ -31,15 +34,15 @@ This SDK supports the following functions for initial creation of objects. If an
 | [**WMCreateLicenseRevocationAgent**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatelicenserevocationagent)             | Creates a license revocation agent object.                                                                                                              |
 | [**WMCreateProfileManager**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreateprofilemanager)                             | Creates a profile manager object.                                                                                                                       |
 | [**WMCreateReader**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatereader)                                             | Creates a reader object.                                                                                                                                |
-| [**WMCreateSecureChannel**](/previous-versions/windows/desktop/api/Wmsecure/nf-wmsecure-wmcreatesecurechannel)                               | Creates an object that implements [**IWMSecureChannel**](https://msdn.microsoft.com/library/Dd743705(v=VS.85).aspx).                                                                         |
-| [**WMCreateSecureChannel\_Certified**](/previous-versions/previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-wmcreatesecurechannel_certified)          | Creates an object that implements [**IWMSecureChannel**](https://msdn.microsoft.com/library/Dd743705(v=VS.85).aspx).                                                                         |
-| [**WMCreateSecureChannel\_Certified\_DES**](/previous-versions/previous-versions/previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-wmcreatesecurechannel_certified_des) | Creates an object that implements [**IWMSecureChannel**](https://msdn.microsoft.com/library/Dd743705(v=VS.85).aspx)..                                                                        |
-| [**WMCreateSecureChannel\_DES**](/previous-versions/previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-wmcreatesecurechannel_des)                      | Creates an object that implements [**IWMSecureChannel**](https://msdn.microsoft.com/library/Dd743705(v=VS.85).aspx).                                                                         |
+| [**WMCreateSecureChannel**](/previous-versions/windows/desktop/api/Wmsecure/nf-wmsecure-wmcreatesecurechannel)                               | Creates an object that implements [**IWMSecureChannel**](/previous-versions/windows/desktop/api/wmsecure/nn-wmsecure-iwmsecurechannel).                                                                         |
+| [**WMCreateSecureChannel\_Certified**](/previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-wmcreatesecurechannel_certified)          | Creates an object that implements [**IWMSecureChannel**](/previous-versions/windows/desktop/api/wmsecure/nn-wmsecure-iwmsecurechannel).                                                                         |
+| [**WMCreateSecureChannel\_Certified\_DES**](/previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-wmcreatesecurechannel_certified_des) | Creates an object that implements [**IWMSecureChannel**](/previous-versions/windows/desktop/api/wmsecure/nn-wmsecure-iwmsecurechannel)..                                                                        |
+| [**WMCreateSecureChannel\_DES**](/previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-wmcreatesecurechannel_des)                      | Creates an object that implements [**IWMSecureChannel**](/previous-versions/windows/desktop/api/wmsecure/nn-wmsecure-iwmsecurechannel).                                                                         |
 | [**WMCreateSyncReader**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatesyncreader)                                     | Creates a synchronous reader object.                                                                                                                    |
 | [**WMCreateWriter**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatewriter)                                             | Creates a writer object.                                                                                                                                |
-| [**WMCreateWriterFileSink**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatewriterfilesink)                             | Creates a writer file sink object.                                                                                                                      |
-| [**WMCreateWriterNetworkSink**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatewriternetworksink)                       | Creates a writer network sink object.                                                                                                                   |
-| [**WMCreateWriterPushSink**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatewriterpushsink)                             | Creates a writer push sink object.                                                                                                                      |
+| [**WMCreateWriterFileSink**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatewriterfilesink)                             | Creates a writer file sink object.                                                                                                                      |
+| [**WMCreateWriterNetworkSink**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatewriternetworksink)                       | Creates a writer network sink object.                                                                                                                   |
+| [**WMCreateWriterPushSink**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatewriterpushsink)                             | Creates a writer push sink object.                                                                                                                      |
 | [**WMIsAvailableOffline**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmisavailableoffline)                                 | Verifies that an ASF file can be played from a cached copy.                                                                                             |
 | [**WMIsContentProtected**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmiscontentprotected)                                 | Checks a file for DRM-protected content.                                                                                                                |
 | [**WMValidateData**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmvalidatedata)                                             | Verifies that data from the beginning of a file is consistent with the header section of a file type that is supported by the Windows Media Format SDK. |
@@ -77,7 +80,3 @@ The following functions provide convenient shortcuts for analyzing files.
  
 
  
-
-
-
-

@@ -414,12 +414,12 @@ DWORD GetProperty(EC_HANDLE hSubscription,
 
     1.  Run the following command from an elevated privilege command prompt to get the runtime status of the subscription:
 
-        **wecutil gr** *<subscriptionID>*
+        **wecutil gr** *&lt;subscriptionID&gt;*
 
     2.  Verify that the event source has connected. You might need to wait until the refresh interval specified in the policy is over after you create the subscription for the event source to be connected.
     3.  Run the following command to get the subscription information:
 
-        **wecutil gs** *<subscriptionID>*
+        **wecutil gs** *&lt;subscriptionID&gt;*
 
     4.  Get the DeliveryMaxItems value from the subscription information.
 
@@ -430,7 +430,7 @@ DWORD GetProperty(EC_HANDLE hSubscription,
 
 <dl> <dt>
 
-[Configure Computers to Forward and Collect Events](https://technet.microsoft.com/library/cc748890.aspx)
+[Configure Computers to Forward and Collect Events](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc748890(v=ws.11))
 </dt> <dt>
 
 [Setting up a Source Initiated Subscription](setting-up-a-source-initiated-subscription.md)
@@ -442,7 +442,3 @@ DWORD GetProperty(EC_HANDLE hSubscription,
  
 
  
-
-
-
-

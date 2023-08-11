@@ -1,5 +1,5 @@
 ---
-Description: Associates the Msvm\_VirtualSystemReferencePoint to the corresponding Msvm\_VirtualSystem objects.
+description: Associates the Msvm\_VirtualSystemReferencePoint to the corresponding Msvm\_VirtualSystem objects.
 ms.assetid: 5a9cb099-c0ae-4088-a64c-f2720a6cb9c8
 title: Msvm_ReferencePointOfVirtualSystem class
 ms.topic: reference
@@ -55,7 +55,7 @@ Data type: **Msvm\_ComputerSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 An [**Msvm\_ComputerSystem**](msvm-computersystem.md) that represents the independent object in this association.
@@ -71,7 +71,7 @@ Data type: **Msvm\_VirtualSystemReferencePoint**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 An [**Msvm\_VirtualSystemReferencePoint**](msvm-virtualsystemreferencepoint.md) that represents the object that is dependent on the **Antecedent**.
@@ -82,7 +82,7 @@ An [**Msvm\_VirtualSystemReferencePoint**](msvm-virtualsystemreferencepoint.md) 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -100,9 +100,4 @@ An [**Msvm\_VirtualSystemReferencePoint**](msvm-virtualsystemreferencepoint.md) 
 </dt> </dl>
 
  
-
- 
-
-
-
 

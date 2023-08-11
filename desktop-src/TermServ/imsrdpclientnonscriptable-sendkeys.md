@@ -69,7 +69,7 @@ An array whose size is equal to *numKeys*. An element is **TRUE** if the corresp
 *plKeyData* \[in\]
 </dt> <dd>
 
-An array whose size is equal to *numKeys*. The array contains keystroke data and corresponds to the value of the *lParam* parameter of the [WM\_KEYDOWN](https://msdn.microsoft.com/library/ms646280(VS.85).aspx) message. The data specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag. For a description of the bits in this array, see [WM\_KEYDOWN](https://msdn.microsoft.com/library/ms646280(VS.85).aspx).
+An array whose size is equal to *numKeys*. The array contains keystroke data and corresponds to the value of the *lParam* parameter of the [WM\_KEYDOWN](../inputdev/wm-keydown.md) message. The data specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag. For a description of the bits in this array, see [WM\_KEYDOWN](../inputdev/wm-keydown.md).
 
 The corresponding element in *pbArrayKeyUp* indicates if the key is UP or DOWN.
 
@@ -89,7 +89,7 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                     |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                               |
@@ -101,31 +101,11 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 ## See also
 
-<dl> <dt>
-
-[**IMsRdpClientNonScriptable2**](imsrdpclientnonscriptable2.md)
-</dt> <dt>
-
-[**IMsRdpClientNonScriptable3**](imsrdpclientnonscriptable3.md)
-</dt> <dt>
-
-[**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md)
-</dt> <dt>
-
-[**IMsRdpClientNonScriptable5**](imsrdpclientnonscriptable5.md)
-</dt> <dt>
-
-[**IMsRdpClientNonScriptable**](imsrdpclientnonscriptable-interface.md)
-</dt> <dt>
-
-[WM\_KEYDOWN](https://msdn.microsoft.com/library/ms646280(VS.85).aspx)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
+- [**IMsRdpClientNonScriptable2**](imsrdpclientnonscriptable2.md)
+- [**IMsRdpClientNonScriptable3**](imsrdpclientnonscriptable3.md)
+- [**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md)
+- [**IMsRdpClientNonScriptable5**](imsrdpclientnonscriptable5.md)
+- [**IMsRdpClientNonScriptable**](imsrdpclientnonscriptable-interface.md)
+- [WM\_KEYDOWN](../inputdev/wm-keydown.md)
+- [Keyboard Input (Keyboard and Mouse Input)](../inputdev/keyboard-input.md)
+- [About Keyboard Input](../inputdev/about-keyboard-input.md)

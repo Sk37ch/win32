@@ -1,5 +1,5 @@
 ---
-Description: Schedules Autochk to be run on the disk drive represented by the Win32\_LogicalDisk at the next reboot if the dirty bit is set.
+description: Schedules Autochk to be run on the disk drive represented by the Win32\_LogicalDisk at the next reboot if the dirty bit is set.
 ms.assetid: 34f4c26b-6bfb-45d9-9d6c-0a9b735355f3
 ms.tgt_platform: multiple
 title: ScheduleAutoChk method of the Win32_LogicalDisk class
@@ -20,7 +20,7 @@ api_location:
 
 The **ScheduleAutoChk** class method schedules Autochk to be run on the disk drive represented by the [**Win32\_LogicalDisk**](win32-logicaldisk.md) at the next reboot if the dirty bit is set.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -51,7 +51,7 @@ Specifies the list of drives to schedule for Autochk at the next reboot. The str
 
 ## Return value
 
-Returns a value of 0 (zero) if successful, and some other value if any other error occurs. Values are listed in the following list. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+Returns a value of 0 (zero) if successful, and some other value if any other error occurs. Values are listed in the following list. For additional error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -103,7 +103,7 @@ Invoke-WmiMethod -path win32_logicaldisk -Name ScheduleAutoChk -ArgumentList @(&
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -121,9 +121,4 @@ Invoke-WmiMethod -path win32_logicaldisk -Name ScheduleAutoChk -ArgumentList @(&
 </dt> </dl>
 
  
-
- 
-
-
-
 

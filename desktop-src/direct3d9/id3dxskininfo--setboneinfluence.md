@@ -1,5 +1,5 @@
 ---
-Description: Sets the influence value for a bone.
+description: Sets the influence value for a bone.
 ms.assetid: c6dc8a33-8f5c-47d0-8637-a2492b1e3089
 title: ID3DXSkinInfo::SetBoneInfluence method (D3DX9Mesh.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ HRESULT SetBoneInfluence(
 *Bone* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Bone number.
 
@@ -50,7 +50,7 @@ Bone number.
 *numInfluences* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Number of influences.
 
@@ -59,7 +59,7 @@ Number of influences.
 *vertices* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 The array of vertices influenced by a bone.
 
@@ -68,7 +68,7 @@ The array of vertices influenced by a bone.
 *weights* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](../winprog/windows-data-types.md)\***
 
 The array of weights influenced by a bone.
 
@@ -84,7 +84,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -107,7 +107,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

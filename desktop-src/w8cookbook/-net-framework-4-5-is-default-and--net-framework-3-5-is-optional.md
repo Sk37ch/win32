@@ -10,9 +10,8 @@ ms.date: 05/31/2018
 
 ## Platforms
 
-<dl> **Clients**   Windows 8  
+**Clients**   Windows 8  
 **Servers**   Windows Server 2012  
-</dl>
 
 ## Description
 
@@ -125,7 +124,7 @@ This registry entry is supported:
 <td>Local Source Path</td>
 <td>REG_EXPAND_SZ</td>
 <td>Local source path(s) to be used by default. Multiple paths can be specified; they should be separated by  ; . Locations will be searched in the order they are specified. <br/> Local source location(s) that are specified on the DISM command line, take precedence over locations specified in this registry entry. Folder locations can be specified in this registry entry. <br/> WIMs can be used, but the path must be to the WIM file; there is no need to mount it, for example: <br/> <dl> wim:\\machine\share\file.wim:1<br />
-</dl> Notice the  1  at the end. You must specify the numerical index of the image you want to use in the WIM file. <br/> For a mounted WIM, the source path needs to refer to the windows directory of the mounted image, rather than to the mount point (for example: /source:<mount_point>\windows rather than /source:<mount_point>). <br/></td>
+</dl> Notice the  1  at the end. You must specify the numerical index of the image you want to use in the WIM file. <br/> For a mounted WIM, the source path needs to refer to the windows directory of the mounted image, rather than to the mount point (for example: /source:&lt;mount_point&gt;\windows rather than /source:&lt;mount_point&gt;). <br/></td>
 </tr>
 </tbody>
 </table>
@@ -138,5 +137,5 @@ This registry entry is supported:
 
 <dl>
 
-[Implementing Registry-based Policy](https://msdn.microsoft.com/library/aa374292(v=VS.85).aspx)  
+[Implementing Registry-based Policy](/previous-versions/windows/desktop/Policy/implementing-registry-based-policy)  
 </dl>

@@ -1,22 +1,25 @@
 ---
-Description: Builds a matrix with a specified yaw, pitch, and roll.
+description: D3DXMatrixRotationYawPitchRoll function (D3DX10Math.h) - Builds a matrix with a specified yaw, pitch, and roll.
 ms.assetid: a3ef2b57-275f-484a-88fc-aaa5e470717c
 title: D3DXMatrixRotationYawPitchRoll function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixRotationYawPitchRoll
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXMatrixRotationYawPitchRoll function
+# D3DXMatrixRotationYawPitchRoll function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a matrix with a specified yaw, pitch, and roll.
 
@@ -41,7 +44,7 @@ D3DXMATRIX* D3DXMatrixRotationYawPitchRoll(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the result of the operation.
 
@@ -50,7 +53,7 @@ Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the resul
 *Yaw* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Yaw around the y-axis, in radians.
 
@@ -59,7 +62,7 @@ Yaw around the y-axis, in radians.
 *Pitch* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Pitch around the x-axis, in radians.
 
@@ -68,7 +71,7 @@ Pitch around the x-axis, in radians.
 *Roll* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Roll around the z-axis, in radians.
 
@@ -76,7 +79,7 @@ Roll around the z-axis, in radians.
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to a D3DXMATRIX structure with the specified yaw, pitch, and roll.
 
@@ -92,7 +95,7 @@ The order of transformations is roll first, then pitch, then yaw. Relative to th
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -109,7 +112,3 @@ The order of transformations is roll first, then pitch, then yaw. Relative to th
  
 
  
-
-
-
-

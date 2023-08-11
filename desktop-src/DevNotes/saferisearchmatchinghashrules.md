@@ -1,5 +1,5 @@
 ---
-Description: Gets the level of a hash identification rule that matches the specified hash.
+description: Gets the level of a hash identification rule that matches the specified hash.
 ms.assetid: 1592c8da-31c0-45fb-b832-d439dd53c277
 title: SaferiSearchMatchingHashRules function
 ms.topic: reference
@@ -20,9 +20,9 @@ api_location:
 
 Gets the level of a hash identification rule that matches the specified hash.
 
-This function has no associated import library and is not declared in a public header. You must define a function pointer with the signature of this function, and you must use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Advapi32.dll.
+This function has no associated import library and is not declared in a public header. You must define a function pointer with the signature of this function, and you must use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Advapi32.dll.
 
-We recommend using the [**SaferIdentifyLevel**](https://msdn.microsoft.com/library/ms722428(v=VS.85).aspx) function to evaluate software restriction policies.
+We recommend using the [**SaferIdentifyLevel**](/windows/win32/api/winsafer/nf-winsafer-saferidentifylevel) function to evaluate software restriction policies.
 
 ## Syntax
 
@@ -94,7 +94,7 @@ Reserved. Set this value to zero.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -105,7 +105,3 @@ Reserved. Set this value to zero.
  
 
  
-
-
-
-

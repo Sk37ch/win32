@@ -32,13 +32,13 @@ Retrieves the current background color of the control. You can send this message
 
 ## Return value
 
-Returns a [**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) value that represents the current background color. If this value is -1, the control is using the system color for the background color.
+Returns a [**COLORREF**](/windows/desktop/gdi/colorref) value that represents the current background color. If this value is -1, the control is using the system color for the background color.
 
 ## Requirements
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -54,10 +54,4 @@ Returns a [**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

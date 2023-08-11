@@ -28,7 +28,7 @@ The **INapEnforcementClientCallback** interface provides callback methods that e
 
 ## Members
 
-The **INapEnforcementClientCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapEnforcementClientCallback** also has these types of members:
+The **INapEnforcementClientCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapEnforcementClientCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -51,7 +51,7 @@ The **INapEnforcementClientCallback** interface has these methods.
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
@@ -61,10 +61,4 @@ The **INapEnforcementClientCallback** interface has these methods.
 
 
  
-
- 
-
-
-
-
 

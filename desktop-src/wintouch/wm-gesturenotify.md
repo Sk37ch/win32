@@ -40,11 +40,11 @@ A pointer to a [**GESTURENOTIFYSTRUCT**](/windows/win32/api/winuser/ns-winuser-g
 
 ## Return value
 
-A value should be returned from [DefWindowProc](https://msdn.microsoft.com/library/ms633572.aspx).
+A value should be returned from [DefWindowProc](/windows/win32/api/winuser/nf-winuser-defwindowproca).
 
 ## Remarks
 
-When the **WM\_GESTURENOTIFY** message is received, the application can use [**SetGestureConfig**](/windows/desktop/api/winuser/nf-winuser-setgestureconfig) to specify the gestures to receive. This message should always be bubbled up using the [DefWindowProc](https://msdn.microsoft.com/library/ms633572.aspx) function.
+When the **WM\_GESTURENOTIFY** message is received, the application can use [**SetGestureConfig**](/windows/desktop/api/winuser/nf-winuser-setgestureconfig) to specify the gestures to receive. This message should always be bubbled up using the [DefWindowProc](/windows/win32/api/winuser/nf-winuser-defwindowproca) function.
 
 > [!Note]  
 > Handling the **WM\_GESTURENOTIFY** message will change the gesture configuration for the lifetime of the Window, not just for the next gesture.
@@ -78,7 +78,7 @@ The following example shows how to enable all gestures. For more examples, see [
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                  |
@@ -103,10 +103,4 @@ The following example shows how to enable all gestures. For more examples, see [
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

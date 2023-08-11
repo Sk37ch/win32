@@ -1,6 +1,6 @@
 ---
 title: D2D1_RECT_F (D2DBaseTypes.h)
-description: Represents a rectangle defined by the coordinates of the upper-left corner (left, top) and the coordinates of the lower-right corner (right, bottom).
+description: Represents a rectangle defined by the coordinates of the upper-left corner (left, top) and the coordinates of the lower-right corner (right, bottom). | D2D1_RECT_F (D2DBaseTypes.h)
 ms.assetid: a961c0e3-fb76-4c07-b76e-47d8c09ada08
 keywords:
 - D2D1_RECT_F
@@ -25,7 +25,7 @@ typedef D2D_RECT_F D2D1_RECT_F;
 
 ## Examples
 
-The following example uses an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/library/Dd371461(v=VS.85).aspx) to draw and fill several rectangles. This example produces output as shown in the following illustration.
+The following example uses an [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget) to draw and fill several rectangles. This example produces output as shown in the following illustration.
 
 ![illustration of two rectangles on a grid background](images/drawrectangleexample-small.png)
 
@@ -111,13 +111,13 @@ HRESULT DemoApp::OnRender()
 
 
 
-For a related tutorial, see [Creating a Simple Direct2D Application](direct2d-quickstart.md).
+For a related tutorial, see [Create a simple Direct2D application](direct2d-quickstart.md).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
 | Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
@@ -133,14 +133,8 @@ For a related tutorial, see [Creating a Simple Direct2D Application](direct2d-qu
 [**D2D\_RECT\_F**](/windows/desktop/api/dcommon/ns-dcommon-d2d_rect_f)
 </dt> <dt>
 
-[Creating a Simple Direct2D Application](direct2d-quickstart.md)
+[Create a simple Direct2D application](direct2d-quickstart.md)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: The future of cryptography and secure communications cannot easily be predicted.
+description: The future of cryptography and secure communications cannot easily be predicted.
 ms.assetid: 41c1758d-1213-47a6-81d5-7755b41c3007
 title: Extending CryptoAPI Functionality
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Extending CryptoAPI Functionality
 
-The future of [*cryptography*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) and secure communications cannot easily be predicted. New certificate types might emerge, various certificate extensions might find common usage, and new message types might be introduced. Because of this, extensibility is part of the design of key [*CryptoAPI*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) functions.
+The future of [*cryptography*](../secgloss/c-gly.md) and secure communications cannot easily be predicted. New certificate types might emerge, various certificate extensions might find common usage, and new message types might be introduced. Because of this, extensibility is part of the design of key [*CryptoAPI*](../secgloss/c-gly.md) functions.
 
 The following sections present overviews on the use of OIDs for extending CryptoAPI functions.
 
@@ -29,6 +29,3 @@ The following sections present overviews on the use of OIDs for extending Crypto
  
 
  
-
-
-

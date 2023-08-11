@@ -1,5 +1,5 @@
 ---
-Description: This section describes the flags used by IActiveDesktop interface methods.
+description: This section describes the flags used by IActiveDesktop interface methods.
 title: IActiveDesktop Flags (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -50,7 +50,7 @@ topic_type:
 
 # IActiveDesktop Flags
 
-This section describes the flags used by [**IActiveDesktop**](https://msdn.microsoft.com/library/Bb776357(v=VS.85).aspx) interface methods.
+This section describes the flags used by [**IActiveDesktop**](/windows/win32/api/shlobj_core/nn-shlobj_core-iactivedesktop) interface methods.
 
 <dl> <dt>
 
@@ -388,7 +388,7 @@ The wallpaper is tiled.
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Shlobj.h</dt> </dl> |
 
@@ -397,7 +397,3 @@ The wallpaper is tiled.
  
 
  
-
-
-
-

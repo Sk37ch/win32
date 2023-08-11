@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the user releases a mouse button while the mouse is over the InkEdit control.
+description: Occurs when the user releases a mouse button while the mouse is over the InkEdit control.
 ms.assetid: 3c9e0229-c7e2-4b5c-9532-18fbf8a3667d
 title: InkEdit.MouseUp event (Inked.h)
 ms.topic: reference
@@ -91,13 +91,13 @@ If a mouse button is pressed while the pointer is over an [InkEdit](inkedit-cont
 
 If mouse buttons are pressed in succession, the object that captures the mouse after the first press receives all mouse events until all buttons are released.
 
-This event method is defined in the **\_IInkEditEvents** interface. The **\_IInkEditEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IeeMouseUp.
+This event method is defined in the **\_IInkEditEvents** interface. The **\_IInkEditEvents** interface implements the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface with an identifier of DISPID\_IeeMouseUp.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -126,9 +126,4 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 </dt> </dl>
 
  
-
- 
-
-
-
 

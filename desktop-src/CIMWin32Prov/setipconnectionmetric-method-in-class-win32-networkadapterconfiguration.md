@@ -1,5 +1,5 @@
 ---
-Description: The SetIPConnectionMetric method is used to set the routing metric associated with this IP-bound adapter.
+description: The SetIPConnectionMetric method is used to set the routing metric associated with this IP-bound adapter.
 ms.assetid: d7f7c0df-51e3-4dc8-8a53-977ecde075df
 ms.tgt_platform: multiple
 title: SetIPConnectionMetric method of the Win32_NetworkAdapterConfiguration class
@@ -20,7 +20,7 @@ api_location:
 
 The **SetIPConnectionMetric** method is used to set the routing metric associated with this IP-bound adapter.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -46,7 +46,7 @@ Indicates the cost of using the configured routes for this IP-bound adapter. The
 
 ## Return value
 
-Returns a value of 0 (zero) for a successful completion when no reboot is required, 1 (one) for a successful completion when a reboot is required, and a different number if there is an error. For more information on error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+Returns a value of 0 (zero) for a successful completion when no reboot is required, 1 (one) for a successful completion when a reboot is required, and a different number if there is an error. For more information on error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -407,7 +407,7 @@ The [Modify the IP Connection Metric for a Network Adapter](https://Gallery.Tech
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows Vista<br/>                                                 |
 | Minimum supported server<br/> | Windows Server 2008, Windows Server 2008<br/>                                     |
@@ -427,19 +427,14 @@ The [Modify the IP Connection Metric for a Network Adapter](https://Gallery.Tech
 [**Win32\_NetworkAdapterConfiguration**](win32-networkadapterconfiguration.md)
 </dt> <dt>
 
-[WMI Tasks: Networking](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--networking)
+[WMI Tasks: Networking](/windows/desktop/WmiSdk/wmi-tasks--networking)
 </dt> <dt>
 
-[WMI Tasks: Accounts and Domains](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--accounts-and-domains)
+[WMI Tasks: Accounts and Domains](/windows/desktop/WmiSdk/wmi-tasks--accounts-and-domains)
 </dt> <dt>
 
-[IPv6 and IPv4 Support in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/ipv6-and-ipv4-support-in-wmi)
+[IPv6 and IPv4 Support in WMI](/windows/desktop/WmiSdk/ipv6-and-ipv4-support-in-wmi)
 </dt> </dl>
 
  
-
- 
-
-
-
 

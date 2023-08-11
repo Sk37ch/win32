@@ -1,5 +1,5 @@
 ---
-Description: Specifies a socket descriptor used by send and receive requests with the Winsock registered I/O extensions.
+description: Specifies a socket descriptor used by send and receive requests with the Winsock registered I/O extensions.
 ms.assetid: 50E9516C-6078-4466-A593-3F29E4783740
 title: RIO_RQ (Mswsockdef.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ The [**RIO\_RQ**](riocqueue.md) typedef is defined in the *Mswsockdef.h* header 
 
 
 
-|                                     |                                                                                                             |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                        |
@@ -64,13 +64,13 @@ The [**RIO\_RQ**](riocqueue.md) typedef is defined in the *Mswsockdef.h* header 
 [**RIOReceiveEx**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceiveex)
 </dt> <dt>
 
-[**RIOResizeRequestQueue**](https://msdn.microsoft.com/library/Hh437204(v=VS.85).aspx)
+[**RIOResizeRequestQueue**](/previous-versions/windows/desktop/legacy/hh437204(v=vs.85))
 </dt> <dt>
 
 [**RIOSend**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riosend)
 </dt> <dt>
 
-[**RIOSendEx**](https://msdn.microsoft.com/library/Hh437216(v=VS.85).aspx)
+[**RIOSendEx**](/previous-versions/windows/desktop/legacy/hh437216(v=vs.85))
 </dt> <dt>
 
 [**WSASocket**](/windows/desktop/api/Winsock2/nf-winsock2-wsasocketa)
@@ -79,7 +79,3 @@ The [**RIO\_RQ**](riocqueue.md) typedef is defined in the *Mswsockdef.h* header 
  
 
  
-
-
-
-

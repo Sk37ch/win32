@@ -1,5 +1,5 @@
 ---
-Description: Locks a specified area of surface memory and provides a valid pointer to a block of memory associated with a surface.
+description: Locks a specified area of surface memory and provides a valid pointer to a block of memory associated with a surface.
 ms.assetid: 02810576-73d8-431d-ab41-3244dcff311f
 title: NtGdiDdLock function (Ntgdi.h)
 ms.topic: reference
@@ -44,14 +44,14 @@ DWORD APIENTRY NtGdiDdLock(
 *hSurface* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that describes the surface associated with the memory region to be locked down.
+Handle to a [**DD\_SURFACE\_LOCAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local) structure that describes the surface associated with the memory region to be locked down.
 
 </dd> <dt>
 
 *puLockData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_LOCKDATA**](https://msdn.microsoft.com/library/Ff551637(v=VS.85).aspx) structure that contains the information required to perform the lockdown.
+Pointer to a [**DD\_LOCKDATA**](/windows/win32/api/ddrawint/ns-ddrawint-dd_lockdata) structure that contains the information required to perform the lockdown.
 
 </dd> <dt>
 
@@ -81,7 +81,7 @@ Reserved.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
@@ -99,7 +99,3 @@ Reserved.
  
 
  
-
-
-
-

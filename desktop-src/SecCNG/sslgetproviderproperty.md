@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the value of a specified provider property.
+description: Retrieves the value of a specified provider property.
 ms.assetid: 69235520-acaa-4ec4-9fd6-4b3297e14376
 title: SslGetProviderProperty function (Sslprovider.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ SECURITY_STATUS WINAPI SslGetProviderProperty(
 *hSslProvider* \[in\]
 </dt> <dd>
 
-The handle of the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) provider for which to retrieve the property.
+The handle of the [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) provider for which to retrieve the property.
 
 </dd> <dt>
 
@@ -109,7 +109,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
@@ -119,9 +119,4 @@ Possible return codes include, but are not limited to, the following.
 
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: The IKeyFrameControl interface is implemented by the H.323 MSP and is available only on H.323 stream objects.
+description: The IKeyFrameControl interface is implemented by the H.323 MSP and is available only on H.323 stream objects.
 ms.assetid: 68cb1df1-f7fa-447a-8ea5-80dc1e802760
 title: IKeyFrameControl interface (H323priv.h)
 ms.topic: reference
@@ -14,7 +14,7 @@ The **IKeyFrameControl** interface is implemented by the [H.323 MSP](h323-msp.md
 
 ## Members
 
-The **IKeyFrameControl** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IKeyFrameControl** also has these types of members:
+The **IKeyFrameControl** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IKeyFrameControl** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -37,7 +37,7 @@ The **IKeyFrameControl** interface has these methods.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>H323priv.h</dt> </dl> |
@@ -54,9 +54,4 @@ The **IKeyFrameControl** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
 

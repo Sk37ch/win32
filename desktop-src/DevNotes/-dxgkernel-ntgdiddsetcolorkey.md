@@ -1,5 +1,5 @@
 ---
-Description: Sets the color key value for the specified surface.
+description: Sets the color key value for the specified surface.
 ms.assetid: 052dba97-c047-4ef7-a908-2a66ade3af10
 title: NtGdiDdSetColorKey function (Ntgdi.h)
 ms.topic: reference
@@ -43,14 +43,14 @@ DWORD APIENTRY NtGdiDdSetColorKey(
 *hSurface* \[in\]
 </dt> <dd>
 
-Pointer to the [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that describes the surface with which the color key is to be associated.
+Pointer to the [**DD\_SURFACE\_LOCAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local) structure that describes the surface with which the color key is to be associated.
 
 </dd> <dt>
 
 *puSetColorKeyData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_SETCOLORKEYDATA**](https://msdn.microsoft.com/library/Ff551696(v=VS.85).aspx) structure that contains the information required to set the color key for the specified surface.
+Pointer to a [**DD\_SETCOLORKEYDATA**](/windows/win32/api/ddrawint/ns-ddrawint-dd_setcolorkeydata) structure that contains the information required to set the color key for the specified surface.
 
 </dd> </dl>
 
@@ -73,7 +73,7 @@ Pointer to a [**DD\_SETCOLORKEYDATA**](https://msdn.microsoft.com/library/Ff5516
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
@@ -91,7 +91,3 @@ Pointer to a [**DD\_SETCOLORKEYDATA**](https://msdn.microsoft.com/library/Ff5516
  
 
  
-
-
-
-

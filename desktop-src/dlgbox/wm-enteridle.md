@@ -68,7 +68,7 @@ You can suppress the **WM\_ENTERIDLE** message for a dialog box by creating the 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -83,7 +83,7 @@ You can suppress the **WM\_ENTERIDLE** message for a dialog box by creating the 
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
 **Conceptual**
@@ -93,10 +93,4 @@ You can suppress the **WM\_ENTERIDLE** message for a dialog box by creating the 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

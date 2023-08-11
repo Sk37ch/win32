@@ -56,7 +56,7 @@ Pointer to the raw data to decompress.
 *pcBytes* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)\***
+Type: **[**SIZE\_T**](/windows/desktop/WinProg/windows-data-types)\***
 
 The size of the data pointed to by ppData.
 
@@ -78,7 +78,7 @@ Use this method to load resources from file systems, such as ZIP files. When loa
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX11core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX11.lib</dt> </dl>   |
@@ -96,10 +96,4 @@ Use this method to load resources from file systems, such as ZIP files. When loa
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

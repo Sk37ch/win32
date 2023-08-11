@@ -1,5 +1,5 @@
 ---
-Description: Creates a universal buffer of bytes mapped into an IStream (IByteBuffer) object.
+description: Creates a universal buffer of bytes mapped into an IStream (IByteBuffer) object.
 ms.assetid: 8015c7e8-2cbb-4ba8-9bd0-2f84751840f1
 title: ISCardTypeConv::CreateByteBuffer method (Scarddat.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # ISCardTypeConv::CreateByteBuffer method
 
-\[The **CreateByteBuffer** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **CreateByteBuffer** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
 The **CreateByteBuffer** method creates a universal buffer of bytes mapped into an **IStream** ([**IByteBuffer**](ibytebuffer.md)) object.
 
@@ -81,7 +81,7 @@ To create an Automation SAFEARRAY of unsigned characters (bytes), call [**Create
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -113,7 +113,3 @@ To create an Automation SAFEARRAY of unsigned characters (bytes), call [**Create
  
 
  
-
-
-
-

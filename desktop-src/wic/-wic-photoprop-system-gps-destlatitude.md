@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.GPS.DestLatitude property.
+description: The photo metadata policy for the System.GPS.DestLatitude property.
 ms.assetid: 05284291-977d-49b8-ad92-365f68384960
 title: System.GPS.DestLatitude Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.DestLatitude Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.DestLatitude](https://msdn.microsoft.com/library/bb787500(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.DestLatitude](../properties/props-system-gps-destlatitude.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ This value is generated from System.GPS.DestLatitudeNumerator and System.GPS.Des
 
 <dl> <dt>
 
-[System.GPS.DestLatitude](https://msdn.microsoft.com/library/bb787500(VS.85).aspx)
+[System.GPS.DestLatitude](../properties/props-system-gps-destlatitude.md)
 </dt> </dl>
 
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Defines a planned virtual system.
+description: Defines a planned virtual system.
 ms.assetid: f129554b-e43e-4c3a-8418-d5d810f4c4b5
 title: DefinePlannedSystem method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -71,7 +71,7 @@ A [**CIM\_ComputerSystem**](cim-computersystem.md) containing the resulting syst
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -112,7 +112,7 @@ On success, returns 0 or 4096; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -130,9 +130,4 @@ On success, returns 0 or 4096; otherwise, returns an error.
 </dt> </dl>
 
  
-
- 
-
-
-
 

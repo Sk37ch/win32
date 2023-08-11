@@ -1,5 +1,5 @@
 ---
-Description: Removes an authorization entry from a recovery server.
+description: Removes an authorization entry from a recovery server.
 ms.assetid: 1647b35d-1c2f-4fb5-84c0-10b357326abf
 title: RemoveAuthorizationEntry method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -45,7 +45,7 @@ The primary server for which the authorization entry will be removed from the se
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -105,7 +105,7 @@ Removing an authorization entry will stop replication for any virtual machines t
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -132,9 +132,4 @@ Removing an authorization entry will stop replication for any virtual machines t
 </dt> </dl>
 
  
-
- 
-
-
-
 

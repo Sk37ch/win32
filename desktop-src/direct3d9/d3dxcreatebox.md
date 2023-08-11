@@ -1,5 +1,5 @@
 ---
-Description: Uses a left-handed coordinate system to create a mesh containing an axis-aligned box.
+description: Uses a left-handed coordinate system to create a mesh containing an axis-aligned box.
 ms.assetid: 396ef0f7-65d5-46f9-9b97-e6471f2fb5fe
 title: D3DXCreateBox function (D3dx9shape.h)
 ms.topic: reference
@@ -43,16 +43,16 @@ HRESULT D3DXCreateBox(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, representing the device associated with the created box mesh.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface, representing the device associated with the created box mesh.
 
 </dd> <dt>
 
 *Width* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Width of the box, along the x-axis.
 
@@ -61,7 +61,7 @@ Width of the box, along the x-axis.
 *Height* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Height of the box, along the y-axis.
 
@@ -70,7 +70,7 @@ Height of the box, along the y-axis.
 *Depth* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Depth of the box, along the z-axis.
 
@@ -110,7 +110,7 @@ This function creates a mesh with the D3DXMESH\_MANAGED creation option and [D3D
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9shape.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>    |
@@ -127,7 +127,3 @@ This function creates a mesh with the D3DXMESH\_MANAGED creation option and [D3D
  
 
  
-
-
-
-

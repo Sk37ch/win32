@@ -1,22 +1,25 @@
 ---
-Description: Breaks down a general 3D transformation matrix into its scalar, rotational, and translational components.
+description: D3DXMatrixDecompose function (D3DX10Math.h) - Breaks down a general 3D transformation matrix into its scalar, rotational, and translational components.
 ms.assetid: 3694769f-56e7-4983-924e-021c129462a2
 title: D3DXMatrixDecompose function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixDecompose
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXMatrixDecompose function
+# D3DXMatrixDecompose function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Breaks down a general 3D transformation matrix into its scalar, rotational, and translational components.
 
@@ -41,7 +44,7 @@ HRESULT D3DXMatrixDecompose(
 *pOutScale* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to the output [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that contains scaling factors applied along the x, y, and z-axes.
 
@@ -50,7 +53,7 @@ Pointer to the output [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that contains scal
 *pOutRotation* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **[**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that describes the rotation.
 
@@ -59,7 +62,7 @@ Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that describes the 
 *pOutTranslation* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to the D3DXVECTOR3 vector that describes the translation.
 
@@ -68,7 +71,7 @@ Pointer to the D3DXVECTOR3 vector that describes the translation.
 *pM* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **const [**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to an input [**D3DXMATRIX**](d3d10-d3dxmatrix.md) matrix to decompose.
 
@@ -84,7 +87,7 @@ If the function succeeds, the return value is S\_OK. If the function fails, the 
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -101,7 +104,3 @@ If the function succeeds, the return value is S\_OK. If the function fails, the 
  
 
  
-
-
-
-

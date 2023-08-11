@@ -1,5 +1,5 @@
 ---
-Description: The EnumPrintProcessors function enumerates the print processors installed on the specified server.
+description: The EnumPrintProcessors function enumerates the print processors installed on the specified server.
 ms.assetid: 98c9185c-c89d-4b4e-8c1e-7e22b315f188
 title: EnumPrintProcessors function (Winspool.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ The type of information returned in the *pPrintProcessorInfo* buffer. This param
 
 A pointer to a buffer that receives an array of [**PRINTPROCESSOR\_INFO\_1**](printprocessor-info-1.md) structures. Each structure describes an available print processor. The buffer must be large enough to receive the array of structures and any strings to which the structure members point.
 
-To determine the required buffer size, call **EnumPrintProcessors** with *cbBuf* set to zero. **EnumPrintProcessors** fails, [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns ERROR\_INSUFFICIENT\_BUFFER, and the *pcbNeeded* parameter returns the size, in bytes, of the buffer required to hold the array of structures and their data.
+To determine the required buffer size, call **EnumPrintProcessors** with *cbBuf* set to zero. **EnumPrintProcessors** fails, [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns ERROR\_INSUFFICIENT\_BUFFER, and the *pcbNeeded* parameter returns the size, in bytes, of the buffer required to hold the array of structures and their data.
 
 </dd> <dt>
 
@@ -110,7 +110,7 @@ If the function fails, the return value is zero.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -141,9 +141,4 @@ If the function fails, the return value is zero.
 </dt> </dl>
 
  
-
- 
-
-
-
 

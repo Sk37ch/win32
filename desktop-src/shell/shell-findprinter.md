@@ -1,5 +1,5 @@
 ---
-Description: Displays the Find Printer dialog box.
+description: Shell.FindPrinter method - Displays the Find Printer dialog box.
 ms.assetid: 61C700CF-623B-4c99-A211-AC26A1E4AE85
 title: Shell.FindPrinter method (Shldisp.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ Shell.FindPrinter( _
 *sName* \[in, optional\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** that contains the printer name.
 
@@ -60,7 +60,7 @@ A **String** that contains the printer name.
 *sLocation* \[in, optional\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** that contains the printer location.
 
@@ -69,7 +69,7 @@ A **String** that contains the printer location.
 *sModel* \[in, optional\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** that contains the printer model.
 
@@ -124,7 +124,7 @@ VBScript:
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |
@@ -137,7 +137,3 @@ VBScript:
  
 
  
-
-
-
-

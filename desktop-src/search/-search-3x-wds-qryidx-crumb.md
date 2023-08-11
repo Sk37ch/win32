@@ -1,12 +1,12 @@
 ---
-Description: The crumb argument supports full Advanced Query Syntax (AQS) statements and is especially useful as a means of controlling the scope of a search.
+description: Understand how to use the CRUMB argument in Windows Search as a means of controlling the scope of a search.
 ms.assetid: b0b974ae-0573-45e4-888e-07138604b62e
 title: CRUMB Argument (Windows Search)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# CRUMB Argument
+# CRUMB Argument (Windows Search)
 
 The `crumb` argument supports full Advanced Query Syntax (AQS) statements and is especially useful as a means of controlling the scope of a search. In addition to AQS ements, the `crumb` argument can take a special `location` parameter on Windows Vista and `kind` and `store` parameters on XP, as described later in this topic.
 
@@ -34,7 +34,7 @@ crumb=<column>:<value>[,<label>][,<column>:<value>[,<label>]]&
 
 
 
-The <column> portion is any property in the property system, and the <value> portion is a valid value for that property. The <label> portion is an optional alias for the property that displays as a user interface hint.
+The &lt;column&gt; portion is any property in the property system, and the &lt;value&gt; portion is a valid value for that property. The <label> portion is an optional alias for the property that displays as a user interface hint.
 
 ### General Examples
 
@@ -62,7 +62,7 @@ When you specify a `location` property, two additional parameters are supported 
 | Parameter | Values                  | Description                                                                                                                                                                       |
 |-----------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | inclusion | include, exclude        | Specifies whether the query should include or exclude items from that path. "Include" is the default. Windows Vista does not support exclusions without inclusions. (See example) |
-| recursion | recursive, nonrecursive | Specifies whether the search should recurse all subfolders starting from the value defined in the location:<value>. "Recursive" is the default.                             |
+| recursion | recursive, nonrecursive | Specifies whether the search should recurse all subfolders starting from the value defined in the location:&lt;value&gt;. "Recursive" is the default.                             |
 
 
 
@@ -72,17 +72,17 @@ To scope a search using the search-ms: protocol, you have different options depe
 
 Folder on a local machine:
 
--   Use AQS (crumb=folder:<URL-encoded path>)
--   Use location argument (crumb=location:<URL-encoded path>)
+-   Use AQS (crumb=folder:\<URL-encoded path\>)
+-   Use location argument (crumb=location:\<URL-encoded path\>)
 
-Folder on a remote machine/netowork:
+Folder on a remote machine/network:
 
--   Use location argument (crumb=location:<URL-encoded path>)
+-   Use location argument (crumb=location:\<URL-encoded path\>)
 
 Folder accessed via a known UNC protocol handler:
 
--   Use AQS (crumb=store:<UNC protocol handler name>)
--   Use location argument (crumb=location:<URL-encoded path>)
+-   Use AQS (crumb=store:\<UNC protocol handler name\>)
+-   Use location argument (crumb=location:\<URL-encoded path\>)
 
 ### Vista Examples
 
@@ -105,7 +105,7 @@ The third example executes a search within C:\\Documents, limited to files with 
 
 ### Constants for Common Folders
 
-Windows Vista enables the use of [KNOWNFOLDERID](https://msdn.microsoft.com/library/bb762584(VS.85).aspx) values that provide a unique system-independent way to identify special folders used frequently by applications, but which may not have the same name or location on any given system. For example, the system folder may be "C:\\Windows" on one system and "C:\\Winnt" on another. Prior to Windows Vista, [CSIDLs](https://docs.microsoft.com/windows/desktop/shell/csidl) were used.
+Windows Vista enables the use of [KNOWNFOLDERID](/previous-versions//bb762584(v=vs.85)) values that provide a unique system-independent way to identify special folders used frequently by applications, but which may not have the same name or location on any given system. For example, the system folder may be "C:\\Windows" on one system and "C:\\Winnt" on another. Prior to Windows Vista, [CSIDLs](/windows/desktop/shell/csidl) were used.
 
 Use these locations with this syntax:
 
@@ -120,7 +120,7 @@ crumb=location:shell%3a<LocationName>&
 
 ## Using crumb with Windows XP (kind and store)
 
-For Windows Search on Windows XP (WDS 3.x), the AQS terms "kind" and "store" have a special implementation. The "kind" values are the same [values used in WDS 2.x](https://msdn.microsoft.com/library/Aa965719(v=VS.85).aspx). The "store" values include the following:
+For Windows Search on Windows XP (WDS 3.x), the AQS terms "kind" and "store" have a special implementation. The "kind" values are the same [values used in WDS 2.x](../lwef/-search-2x-wds-perceivedtype.md). The "store" values include the following:
 
 -   mapi
 -   file
@@ -161,6 +161,3 @@ The first example returns Microsoft Outlook Express emails from John with the cu
  
 
  
-
-
-

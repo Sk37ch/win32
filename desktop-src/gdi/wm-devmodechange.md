@@ -1,5 +1,5 @@
 ---
-Description: The WM\_DEVMODECHANGE message is sent to all top-level windows whenever the user changes device-mode settings.
+description: The WM\_DEVMODECHANGE message is sent to all top-level windows whenever the user changes device-mode settings.
 ms.assetid: 06b625a8-7584-4a98-b8e7-f1de668c274e
 title: WM_DEVMODECHANGE message (Winuser.h)
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The **WM\_DEVMODECHANGE** message is sent to all top-level windows whenever the user changes device-mode settings.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -62,13 +62,13 @@ An application should return zero if it processes this message.
 
 ## Remarks
 
-This message cannot be sent directly to a window. To send the **WM\_DEVMODECHANGE** message to all top-level windows, use the [**SendMessageTimeout**](https://msdn.microsoft.com/library/ms644952(v=VS.85).aspx) function with the *hWnd* parameter set to HWND\_BROADCAST.
+This message cannot be sent directly to a window. To send the **WM\_DEVMODECHANGE** message to all top-level windows, use the [**SendMessageTimeout**](/windows/win32/api/winuser/nf-winuser-sendmessagetimeouta) function with the *hWnd* parameter set to HWND\_BROADCAST.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -89,7 +89,3 @@ This message cannot be sent directly to a window. To send the **WM\_DEVMODECHANG
  
 
  
-
-
-
-

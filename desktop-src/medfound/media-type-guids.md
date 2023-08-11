@@ -1,5 +1,5 @@
 ---
-Description: Major Media Types
+description: Major Media Types
 ms.assetid: 1cca3539-a920-4938-93b9-ae41e1c0a287
 title: Major Media Types
 ms.topic: article
@@ -33,7 +33,8 @@ The following major types are defined.
 | **MFMediaType\_Binary**       | Binary stream.                                                                                                                                             | None.                                                |
 | **MFMediaType\_FileTransfer** | A stream that contains data files.                                                                                                                         | None.                                                |
 | **MFMediaType\_HTML**         | HTML stream.                                                                                                                                               | None.                                                |
-| **MFMediaType\_Image**        | Still image stream.                                                                                                                                        | [WIC GUIDs and CLSIDs](https://msdn.microsoft.com/library/Ee719882(v=VS.85).aspx).       |
+| **MFMediaType\_Image**        | Still image stream.                                                                                                                                        | [WIC GUIDs and CLSIDs](../wic/-wic-guids-clsids.md).       |
+| **MFMediaType\_Metadata**        | Metadata stream.                                                                                                                                        | None.       |
 | **MFMediaType\_Protected**    | Protected media.                                                                                                                                           | The subtype specifies the content protection scheme. |
 | **MFMediaType\_Perception**   | Streams from a camera sensor or processing unit that reasons and understands raw video data and provides understanding of the environment or humans in it. | None.                                                |
 | **MFMediaType\_SAMI**         | Synchronized Accessible Media Interchange (SAMI) captions.                                                                                                 | None.                                                |
@@ -60,6 +61,3 @@ Third-party components can define new major types and new subtypes.
  
 
  
-
-
-

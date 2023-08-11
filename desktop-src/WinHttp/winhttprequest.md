@@ -1,9 +1,10 @@
 ---
-Description: This topic provides information about using the WinHTTP WinHttpRequest COM object with scripting languages.
+description: This topic provides information about using the WinHTTP WinHttpRequest COM object with scripting languages.
 ms.assetid: 0bbbf3dc-84b8-41d8-8627-e3d80ddcb783
 title: WinHttpRequest object
 ms.topic: reference
-ms.date: 05/31/2018
+ms.custom: snippet-project
+ms.date: 07/22/2020
 topic_type: 
 - APIRef
 - kbSyntax
@@ -17,7 +18,32 @@ api_location:
 
 # WinHttpRequest object
 
-This topic provides information about using the WinHTTP **WinHttpRequest** COM object with scripting languages.
+This topic provides information about using the WinHTTP **WinHttpRequest** COM object with scripting languages. For more information, including the C++ API (WinHTTP) please see [About WinHTTP](about-winhttp.md). See [Choosing a WinHTTP Interface](choosing-a-winhttp-interface.md) for a comparison of these interfaces.
+
+## Example
+
+```javascript
+// Instantiate a WinHttpRequest object.
+var WinHttpReq = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
+```
+
+```cpp
+ IWinHttpRequest *  pIWinHttpRequest = NULL;
+ \\..
+    hr = CLSIDFromProgID(L"WinHttp.WinHttpRequest.5.1", &clsid);
+
+    if (SUCCEEDED(hr))
+    {
+        hr = CoCreateInstance(clsid, NULL,
+                              CLSCTX_INPROC_SERVER,
+                              IID_IWinHttpRequest,
+                              (void **)&pIWinHttpRequest);
+    }
+```
+
+Code examples taken from [IWinHttpRequest::Status property](iwinhttprequest-status.md).
+
+
 
 ## Members
 
@@ -79,7 +105,7 @@ The **WinHttpRequest** object has these properties.
 |:--------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------|
 | [**Option**](iwinhttprequest-option.md)<br/>                 | Read/write<br/> | Sets or retrieves a WinHTTP option value.<br/>                            |
 | [**ResponseBody**](iwinhttprequest-responsebody.md)<br/>     | Read-only<br/>  | Retrieves the response entity body as an array of unsigned bytes.<br/>    |
-| [**ResponseStream**](iwinhttprequest-responsestream.md)<br/> | Read-only<br/>  | Retrieves the response entity body as an [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream).<br/> |
+| [**ResponseStream**](iwinhttprequest-responsestream.md)<br/> | Read-only<br/>  | Retrieves the response entity body as an [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream).<br/> |
 | [**ResponseText**](iwinhttprequest-responsetext.md)<br/>     | Read-only<br/>  | Retrieves the response entity body as text.<br/>                          |
 | [**Status**](iwinhttprequest-status.md)<br/>                 | Read-only<br/>  | Retrieves the HTTP status code from the last response.<br/>               |
 | [**StatusText**](iwinhttprequest-statustext.md)<br/>         | Read-only<br/>  | Retrieves HTTP status text.<br/>                                          |
@@ -90,7 +116,7 @@ The **WinHttpRequest** object has these properties.
 
 ## Remarks
 
-The **WinHttpRequest** object uses the [**IErrorInfo**](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo) interface to provide error data. A description and numerical error value can be obtained with the [Err](https://msdn.microsoft.com/library/sbf5ze0e.aspx) object in Microsoft Visual Basic Scripting Edition (VBScript), and the [Error](https://msdn.microsoft.com/library/dww52sbt.aspx) object in Microsoft JScript. The lower 16 bits of an error number correspond to the values found in [**Error Messages**](error-messages.md).
+The **WinHttpRequest** object uses the [**IErrorInfo**](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo) interface to provide error data. A description and numerical error value can be obtained with the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object in Microsoft Visual Basic Scripting Edition (VBScript), and the [Error](https://msdn.microsoft.com/library/dww52sbt.aspx) object in Microsoft JScript. The lower 16 bits of an error number correspond to the values found in [**Error Messages**](error-messages.md).
 
 > [!Note]  
 > For Windows XP and Windows 2000, see [Run-Time Requirements](winhttp-start-page.md).
@@ -101,7 +127,7 @@ The **WinHttpRequest** object uses the [**IErrorInfo**](https://docs.microsoft.c
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
@@ -120,9 +146,4 @@ The **WinHttpRequest** object uses the [**IErrorInfo**](https://docs.microsoft.c
 </dt> </dl>
 
  
-
- 
-
-
-
 

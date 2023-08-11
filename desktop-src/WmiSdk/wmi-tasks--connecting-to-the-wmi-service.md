@@ -1,5 +1,5 @@
 ---
-Description: To get data from WMI, either on the local computer or from a remote computer, you must connect to the WMI service by connecting to a specific namespace.
+description: To get data from WMI, either on the local computer or from a remote computer, you must connect to the WMI service by connecting to a specific namespace.
 ms.assetid: 71ff6b06-af7d-43ee-ae6e-1964ec249472
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Connecting to the WMI Service'
@@ -16,11 +16,10 @@ api_location:
 
 To get data from WMI, either on the local computer or from a remote computer, you must connect to the WMI service by connecting to a specific [*namespace*](gloss-n.md). In most cases, use either the shorthand [moniker](creating-a-wmi-script.md) connection or the [**Locator**](swbemlocator-connectserver.md) connection. For other examples, see the TechNet ScriptCenter at [https://www.microsoft.com/technet](https://technet.microsoft.com/default.aspx).
 
-Remote connections require proper settings for the Windows Firewall and DCOM. For more information, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md) and [Connecting Through Windows Firewall](https://docs.microsoft.com/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista). Starting with Windows Vista, User Account Control (UAC) can affect WMI access. For more information, see [User Account Control and WMI](user-account-control-and-wmi.md).
+Remote connections require proper settings for the Windows Firewall and DCOM. For more information, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md) and [Connecting Through Windows Firewall](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista). Starting with Windows Vista, User Account Control (UAC) can affect WMI access. For more information, see [User Account Control and WMI](user-account-control-and-wmi.md).
 
 The script examples shown in this topic obtain data only from the local computer. For more information about how to use the script to obtain data from remote computers, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
-## 
 
 The following procedure describes how to run a script.
 
@@ -42,8 +41,8 @@ The following table lists script examples that can be used to obtain various typ
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -64,7 +63,7 @@ The following table lists script examples that can be used to obtain various typ
 For more information, see <a href="connecting-to-wmi-on-a-remote-computer.md">Connecting to WMI on a Remote Computer</a> and <a href="ipv6-and-ipv4-support-in-wmi.md">IPv6 and IPv4 Support in WMI</a>.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -85,7 +84,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -108,7 +107,7 @@ Get-WmiObject -Class Win32_Process -ComputerName $strComputer -Namespace &quot;r
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -130,7 +129,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

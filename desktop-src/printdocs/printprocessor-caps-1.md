@@ -1,5 +1,5 @@
 ---
-Description: The PRINTPROCESSOR\_CAPS\_1 structure is the format for the printer capability information that is returned by the GetPrinterData function in the buffer specified by the pData variable.
+description: The PRINTPROCESSOR\_CAPS\_1 structure is the format for the printer capability information that is returned by the GetPrinterData function in the buffer specified by the pData variable.
 ms.assetid: 43c568ff-ccc9-4873-b159-ede09b4a7e51
 title: PRINTPROCESSOR_CAPS_1 structure (Winspool.h)
 ms.topic: reference
@@ -67,15 +67,15 @@ The maximum number of copies the printer can handle.
 
 ## Remarks
 
-Values for all structure members are supplied by the [**GetPrintProcessorCapabilities**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-getprintprocessorcapabilities) function, which is documented in the Windows Driver Kit (WDK).
+Values for all structure members are supplied by the [**GetPrintProcessorCapabilities**](/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-getprintprocessorcapabilities) function, which is documented in the Windows Driver Kit (WDK).
 
-The spooler calls a print processor's [**GetPrintProcessorCapabilities**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-getprintprocessorcapabilities) function when an application calls [**GetPrinterData**](getprinterdata.md), specifying a value name with a format of PrintProcCaps\_*datatype*, where *datatype* is the name of an input data type.
+The spooler calls a print processor's [**GetPrintProcessorCapabilities**](/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-getprintprocessorcapabilities) function when an application calls [**GetPrinterData**](getprinterdata.md), specifying a value name with a format of PrintProcCaps\_*datatype*, where *datatype* is the name of an input data type.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -97,9 +97,4 @@ The spooler calls a print processor's [**GetPrintProcessorCapabilities**](https:
 </dt> </dl>
 
  
-
- 
-
-
-
 

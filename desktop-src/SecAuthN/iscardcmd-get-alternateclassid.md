@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the value of the alternate class ID.
+description: Retrieves the value of the alternate class ID.
 ms.assetid: 80c7cbba-e28d-4973-9f3f-7636ff331b64
 title: ISCardCmd::get_AlternateClassId method (Scarddat.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # ISCardCmd::get\_AlternateClassId method
 
-\[The **get\_AlternateClassId** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **get\_AlternateClassId** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
 The **get\_AlternateClassId** method retrieves the value of the alternate class ID. This method will fail unless the alternate ID has been set by a previous call to [**put\_AlternateClassId**](iscardcmd-put-alternateclassid.md).
 
@@ -61,7 +61,7 @@ The method returns the following possible values.
 
 ## Remarks
 
-This method applies to communications using the [*T=0 protocol*](https://msdn.microsoft.com/library/ms721627(v=VS.85).aspx). For more information, see [**put\_AlternateClassId**](iscardcmd-put-alternateclassid.md).
+This method applies to communications using the [*T=0 protocol*](../secgloss/t-gly.md). For more information, see [**put\_AlternateClassId**](iscardcmd-put-alternateclassid.md).
 
 ## Examples
 
@@ -87,7 +87,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -113,7 +113,3 @@ if (FAILED(hr))
  
 
  
-
-
-
-

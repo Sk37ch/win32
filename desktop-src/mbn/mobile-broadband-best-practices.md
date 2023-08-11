@@ -1,5 +1,5 @@
 ---
-Description: When working with the Mobile Broadband API the following set of best practices should be used in order to achieve the best possible performance.
+description: When working with the Mobile Broadband API the following set of best practices should be used in order to achieve the best possible performance.
 ms.assetid: 523e3ea4-1d4e-45d1-bc24-93aa2fb14390
 title: Mobile Broadband API Best Practices
 ms.topic: article
@@ -125,11 +125,11 @@ For example, performing a connect using one of the connection managers will chan
 
 ## Sending And Receiving Bytes
 
-Use the IP Helper functions [GetlfEntry](https://msdn.microsoft.com/library/aa365939(VS.85).aspx) and [GetlfEntry2](https://msdn.microsoft.com/library/aa365941(VS.85).aspx) to send and receive bytes.
+Use the IP Helper functions [GetlfEntry](/windows/win32/api/iphlpapi/nf-iphlpapi-getifentry) and [GetlfEntry2](/windows/win32/api/netioapi/nf-netioapi-getifentry2) to send and receive bytes.
 
 ## Using The Pin Unblock API
 
-A calling client application must be elevated in order to successfully to invoke [**IMbnPin::Unblock**](/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-unblock). This method is the only portion of the Mobile Broadband API that requires administrator or NCO privileges. See [A Description of the Network Configuration Operators Group]( https://go.microsoft.com/fwlink/p/?linkid=194211) for more information.
+A calling client application must be elevated in order to successfully to invoke [**IMbnPin::Unblock**](/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-unblock). This method is the only portion of the Mobile Broadband API that requires administrator or NCO privileges.
 
 ## Working With SafeArrays
 
@@ -242,6 +242,3 @@ ERROR_0:
  
 
  
-
-
-

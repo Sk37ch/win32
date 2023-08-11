@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the display name used to identify a given key protector.
+description: Retrieves the display name used to identify a given key protector.
 ms.assetid: 2f310494-7873-4d05-836e-f09e5784571b
 title: GetKeyProtectorFriendlyName method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -73,13 +73,13 @@ This method returns one of the following codes or another error code if it fails
 
 ## Remarks
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/Aa823192(v=VS.85).aspx).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |
@@ -98,7 +98,3 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
  
 
  
-
-
-
-

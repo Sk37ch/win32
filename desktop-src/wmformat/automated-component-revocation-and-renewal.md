@@ -19,10 +19,13 @@ keywords:
 - DRM Client Extended APIs,renewal
 - Client Extended APIs,renewal
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Automated Component Revocation and Renewal
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Software applications or components that are considered compromised can be revoked by Microsoft. The Windows Media Format Client Extended API provides a mechanism for the automated revocation and renewal of components.
 
@@ -52,7 +55,7 @@ To perform automated revocation and renewal when a user attempts to process Wind
 5.  Parse the revocation list, and check for Windows Media DRM revocations. For more information, see [Checking Certificate Revocation](checking-certificate-revocation.md).
 6.  If there are any Windows Media DRM revocations:
     1.  Create a content enabler to renew the revoked components by calling the [**IWMDRMSecurity::GetContentEnablersForRevocations**](iwmdrmsecurity-getcontentenablersforrevocations.md) method.
-    2.  Call **IMFContentEnabler::AutomaticEnable** which directs the user to a URL that contains component renewal information. This method is documented in the [Media Foundation SDK](https://msdn.microsoft.com/library/ms694197(VS.85).aspx) (https://msdn.microsoft.com/library/ms694197(VS.85).aspx).
+    2.  Call **IMFContentEnabler::AutomaticEnable** which directs the user to a URL that contains component renewal information. This method is documented in the [Media Foundation SDK](../medfound/microsoft-media-foundation-sdk.md) (https://msdn.microsoft.com/library/ms694197(VS.85).aspx).
         > [!Note]  
         > You must clarify this process to the user through the use of a privacy statement because the update process sends information from the client computer to a Microsoft Web site.
 
@@ -71,7 +74,3 @@ To perform automated revocation and renewal when a user attempts to process Wind
  
 
  
-
-
-
-

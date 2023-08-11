@@ -1,5 +1,5 @@
 ---
-Description: The Line control is a horizontal line.
+description: The Line control is a horizontal line.
 ms.assetid: 8b180b71-1e80-47c0-bb44-d5fcecabaed2
 title: Line Control
 ms.topic: article
@@ -28,12 +28,8 @@ You can use the following attributes with this control. To change the value of a
 
 ## Remarks
 
-This control can be created from the STATIC class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the **SS\_ETCHEDHORZ** and **SS\_SUNKEN** styles.
+This control can be created from the STATIC class by using the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function. It has the **SS\_ETCHEDHORZ** and **SS\_SUNKEN** styles.
 
  
 
  
-
-
-
-

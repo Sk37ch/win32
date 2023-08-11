@@ -1,5 +1,5 @@
 ---
-Description: Gets the root IContextNode of the IInkAnalyzer object's context tree.
+description: Gets the root IContextNode of the IInkAnalyzer object's context tree.
 ms.assetid: 6c073952-7962-4f38-89ae-f543e64e904f
 title: IInkAnalyzer::GetRootNode method (IACom.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppRootNode* when you no longer need to use the root node.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppRootNode* when you no longer need to use the root node.
 
  
 
@@ -120,7 +120,7 @@ HRESULT CMyClass::ExploreAnalysisResults(
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -146,9 +146,4 @@ HRESULT CMyClass::ExploreAnalysisResults(
 </dt> </dl>
 
  
-
- 
-
-
-
 

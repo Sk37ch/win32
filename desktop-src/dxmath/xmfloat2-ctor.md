@@ -1,5 +1,5 @@
 ---
-Description: Constructors exposed by XMFLOAT2.
+description: Constructors exposed by XMFLOAT2.
 ms.assetid: 2b679681-f50c-4028-8a0d-28d283e0e9e7
 title: XMFLOAT2 constructors (Directxmath.h)
 ms.date: 07/02/2019
@@ -10,7 +10,7 @@ ms.topic: reference
 
 Constructors exposed by `XMFLOAT2`.
 
-Constructs instances of the [**XMFLOAT2**](https://msdn.microsoft.com/library/Ee419468(v=VS.85).aspx) structure.
+Constructs instances of the [**XMFLOAT2**](/windows/win32/api/directxmath/ns-directxmath-xmfloat2) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -21,47 +21,13 @@ Constructs instances of the [**XMFLOAT2**](https://msdn.microsoft.com/library/Ee
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Constructor</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">[<strong>XMFLOAT2 ()</strong>](https://msdn.microsoft.com/library/Ee419471(v=VS.85).aspx)</td>
-<td style="text-align: left;">Default constructor for <code>XMFLOAT2</code>. <br/> Default constructor for [<strong>XMFLOAT2</strong>](https://msdn.microsoft.com/library/Ee419468(v=VS.85).aspx). <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">[<strong>XMFLOAT2 (float,float)</strong>](https://msdn.microsoft.com/library/Ee419472(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT2</code> from two <code>float</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMFLOAT2</strong>](https://msdn.microsoft.com/library/Ee419468(v=VS.85).aspx) from two <code>float</code> arguments. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">[<strong>XMFLOAT2 (const float*)</strong>](https://msdn.microsoft.com/library/Ee419473(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT2</code> from a two element <code>float</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMFLOAT2</strong>](https://msdn.microsoft.com/library/Ee419468(v=VS.85).aspx) from a from a two element <code>float</code> array argument. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Constructor | Description | 
+|-------------|-------------|
+| [<strong>XMFLOAT2 ()</strong>](/windows/win32/api/directxmath/nf-directxmath-xmfloat2-xmfloat2(constxmfloat2_)) | Default constructor for <code>XMFLOAT2</code>. <br /> Default constructor for [<strong>XMFLOAT2</strong>](/windows/win32/api/directxmath/ns-directxmath-xmfloat2). <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| [<strong>XMFLOAT2 (float,float)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmfloat2-xmfloat2(float_float)) | Initializes a new instance of <code>XMFLOAT2</code> from two <code>float</code> arguments. <br /> This constructor initializes a new instance of [<strong>XMFLOAT2</strong>](/windows/win32/api/directxmath/ns-directxmath-xmfloat2) from two <code>float</code> arguments. <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| [<strong>XMFLOAT2 (const float*)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmfloat2-xmfloat2(constfloat)) | Initializes a new instance of <code>XMFLOAT2</code> from a two element <code>float</code> array argument. <br /> This constructor initializes a new instance of [<strong>XMFLOAT2</strong>](/windows/win32/api/directxmath/ns-directxmath-xmfloat2) from a from a two element <code>float</code> array argument. <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+
 
 
 
@@ -69,7 +35,7 @@ This constructor is only available under C++.
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Directxmath.h</dt> </dl> |
 
@@ -85,13 +51,9 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT2**](https://msdn.microsoft.com/library/Ee419468(v=VS.85).aspx)
+[**XMFLOAT2**](/windows/win32/api/directxmath/ns-directxmath-xmfloat2)
 </dt> </dl>
 
  
 
  
-
-
-
-

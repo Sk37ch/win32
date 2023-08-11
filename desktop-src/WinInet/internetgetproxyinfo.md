@@ -18,12 +18,14 @@ ms.date: 05/31/2018
 
 # InternetGetProxyInfo function
 
-Retrieves proxy data for accessing specified resources. This function can only be called by dynamically linking to "JSProxy.dll". For better autoproxy support, use HTTP Services (WinHTTP) version 5.1 instead. For more information, see [WinHTTP AutoProxy Support](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-autoproxy-support).
+> [!IMPORTANT]
+> This function is deprecated on Windows 10, and it is unsupported as of Windows 11. For autoproxy support, use HTTP Services (WinHTTP) version 5.1 instead. For more information, see [WinHTTP AutoProxy Support](../winhttp/winhttp-autoproxy-support.md).
+
+Retrieves proxy data for accessing specified resources. This function can be called only by explicitly loading `JSProxy.dll`.
 
 ## Syntax
 
-
-```C++
+```cpp
 BOOL InternetGetProxyInfo(
   _In_  LPCSTR  lpszUrl,
   _In_  DWORD   dwUrlLength,
@@ -33,8 +35,6 @@ BOOL InternetGetProxyInfo(
   _Out_ LPDWORD lpdwProxyHostNameLength
 );
 ```
-
-
 
 ## Parameters
 
@@ -84,14 +84,13 @@ A pointer to a variable that receives the size, in bytes, of the string returned
 
 ## Return value
 
-Returns **TRUE** if successful, or **FALSE** otherwise. To get extended error data, call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+Returns **TRUE** if successful, or **FALSE** otherwise. To get extended error data, call [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 
 To call **InternetGetProxyInfo**, you must dynamically link to it using the defined function-pointer type **pfnInternetGetProxyInfo**. The code snippet below shows how to declare an instance of this function-pointer type and then initialize and call it.
 
-
-```C++
+```cpp
   HMODULE hModJS;                               // Handle for loading the DLL
   pfnInternetGetProxyInfo pIGPI;                // Function-pointer instance
 
@@ -113,48 +112,23 @@ To call **InternetGetProxyInfo**, you must dynamically link to it using the defi
   }
 
   // The pIGPI function pointer can now be used to call InternetGetProxyInfo.
-
 ```
 
+Like all other aspects of the WinINet API, this function can't be safely called from within **DllMain** or the constructors and destructors of global objects.
 
-
-Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
-
-> [!Note]  
-> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page).
-
- 
+> [!NOTE]  
+> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
 ## Requirements
 
-
-
-|                                     |                                                                                        |
-|-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Requirement | Value |
+|-------------------------------------|-----------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>Unsupported as of Windows 11  |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>JSProxy.dll</dt> </dl> |
-
-
 
 ## See also
 
-<dl> <dt>
-
-[**InternetInitializeAutoProxyDll**](https://msdn.microsoft.com/library/Aa385093(v=VS.85).aspx)
-</dt> <dt>
-
-[**InternetDeInitializeAutoProxyDll**](https://msdn.microsoft.com/library/Aa384580(v=VS.85).aspx)
-</dt> <dt>
-
-[**DetectAutoProxyUrl**](https://msdn.microsoft.com/library/Aa383993(v=VS.85).aspx)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
+* [**InternetInitializeAutoProxyDll**](/windows/win32/api/winineti/nf-winineti-internetinitializeautoproxydll)
+* [**InternetDeInitializeAutoProxyDll**](/previous-versions/windows/desktop/legacy/aa384580(v=vs.85))
+* [**DetectAutoProxyUrl**](/windows/win32/api/winineti/nf-winineti-detectautoproxyurl)

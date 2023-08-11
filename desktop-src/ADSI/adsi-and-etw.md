@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Event Tracing in ADSI
 
-Windows Server 2008 and Windows Vista introduce [Event Tracing](https://docs.microsoft.com/windows/desktop/ETW/event-tracing-portal) in [Active Directory Service Interfaces](active-directory-service-interfaces-adsi.md) (ADSI). Certain areas of the ADSI LDAP Provider have an underlying implementation that is complex or that involves a sequence of steps that makes it difficult to diagnose problems. To help application developers troubleshoot, Event Tracing has been added to the following areas:
+Windows Server 2008 and Windows Vista introduce [Event Tracing](/windows/desktop/ETW/event-tracing-portal) in [Active Directory Service Interfaces](active-directory-service-interfaces-adsi.md) (ADSI). Certain areas of the ADSI LDAP Provider have an underlying implementation that is complex or that involves a sequence of steps that makes it difficult to diagnose problems. To help application developers troubleshoot, Event Tracing has been added to the following areas:
 
 ## Schema Parsing and Downloading
 
@@ -25,7 +25,7 @@ If the schema cannot be obtained from the disk or the server, ADSI uses a hardco
 
 ## ADSI Bind Cache
 
-ADSI internally tries to reuse LDAP connections whenever possible (see [Connection Caching](connection-caching.md)). When troubleshooting, it is useful to trace whether a new connection was opened for communication with the server or whether an existing connection was used. It can also be useful to trace the lifecycle of the connection cache (sometimes referred to as the bind cache) and its creation or closure, and whether a connection referral took place. In the case of a [serverless bind](https://docs.microsoft.com/windows/desktop/AD/serverless-binding-and-rootdse), ADSI calls the DC locator to select a server for the domain of the user's context. ADSI then maintains a cache of the domain-server mapping for subsequent connections. Event Tracing helps to trace the selection of the DC, and is therefore helpful in troubleshooting connection-related issues.
+ADSI internally tries to reuse LDAP connections whenever possible (see [Connection Caching](connection-caching.md)). When troubleshooting, it is useful to trace whether a new connection was opened for communication with the server or whether an existing connection was used. It can also be useful to trace the lifecycle of the connection cache (sometimes referred to as the bind cache) and its creation or closure, and whether a connection referral took place. In the case of a [serverless bind](/windows/desktop/AD/serverless-binding-and-rootdse), ADSI calls the DC locator to select a server for the domain of the user's context. ADSI then maintains a cache of the domain-server mapping for subsequent connections. Event Tracing helps to trace the selection of the DC, and is therefore helpful in troubleshooting connection-related issues.
 
 ## Enabling Tracing and Starting a Tracing Session
 
@@ -43,7 +43,7 @@ Then execute the following command:
 
 
 
-|                                 |                       |
+|         Flag                        |         Value              |
 |---------------------------------|-----------------------|
 | **DEBUG\_SCHEMA**<br/>    | 0x00000001<br/> |
 | **DEBUG\_CHANGEPWD**<br/> | 0x00000002<br/> |
@@ -58,71 +58,14 @@ These flags determine which [ADSI](active-directory-service-interfaces-adsi.md) 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>DEBUG_SCHEMA</strong><br/></td>
-<td><ul>
-<li>LdapGetSchema</li>
-<li>GetSchemaInfoTime</li>
-<li>LdapReadSchemaInfoFromServer</li>
-<li>ProcessSchemaInfo</li>
-<li>HelperReadLdapSchemaInfo</li>
-<li>ProcessClassInfoArray</li>
-<li>ReadSchemaInfoFromRegistry</li>
-<li>StoreSchemaInfoFromRegistry</li>
-<li>AttributeTypeDescription</li>
-<li>ObjectClassDescription</li>
-<li>DITContentRuleDescription</li>
-<li>DirectoryString</li>
-<li>DirectoryStrings</li>
-<li>DITContentRuleDescription</li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td><strong>DEBUG_CHANGEPWD</strong><br/></td>
-<td><ul>
-<li>CADsUser::ChangePassword</li>
-</ul>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>DEBUG_SETPWD</strong><br/></td>
-<td><ul>
-<li>CADsUser::SetPassword</li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td><strong>DEBUG_BINDCACHE</strong><br/></td>
-<td><ul>
-<li>GetServerBasedObject</li>
-<li>GetServerLessBasedObject</li>
-<li>GetGCDomainName</li>
-<li>GetDefaultDomainName</li>
-<li>GetUserDomainFlatName</li>
-<li>BindCacheLookup</li>
-<li>EquivalentPortNumbers</li>
-<li>CanCredentialsBeReused</li>
-<li>BindCacheAdd</li>
-<li>BindCacheAddRef</li>
-<li>AddReferralLink</li>
-<li>CommonRemoveEntry</li>
-<li>BindCacheDerefHelper</li>
-<li>NotifyNewConnection</li>
-<li>QueryForConnection</li>
-<li>LdapOpenBindWithCredentials</li>
-<li>LdapOpenBindWithDefaultCredentials</li>
-</ul>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+|Flag |Method |
+|--|--|
+| <strong>DEBUG_SCHEMA</strong><br /> | <ul><li>LdapGetSchema</li><li>GetSchemaInfoTime</li><li>LdapReadSchemaInfoFromServer</li><li>ProcessSchemaInfo</li><li>HelperReadLdapSchemaInfo</li><li>ProcessClassInfoArray</li><li>ReadSchemaInfoFromRegistry</li><li>StoreSchemaInfoFromRegistry</li><li>AttributeTypeDescription</li><li>ObjectClassDescription</li><li>DITContentRuleDescription</li><li>DirectoryString</li><li>DirectoryStrings</li><li>DITContentRuleDescription</li></ul><br /> | 
+| <strong>DEBUG_CHANGEPWD</strong><br /> | <ul><li>CADsUser::ChangePassword</li></ul><br /> | 
+| <strong>DEBUG_SETPWD</strong><br /> | <ul><li>CADsUser::SetPassword</li></ul><br /> | 
+| <strong>DEBUG_BINDCACHE</strong><br /> | <ul><li>GetServerBasedObject</li><li>GetServerLessBasedObject</li><li>GetGCDomainName</li><li>GetDefaultDomainName</li><li>GetUserDomainFlatName</li><li>BindCacheLookup</li><li>EquivalentPortNumbers</li><li>CanCredentialsBeReused</li><li>BindCacheAdd</li><li>BindCacheAddRef</li><li>AddReferralLink</li><li>CommonRemoveEntry</li><li>BindCacheDerefHelper</li><li>NotifyNewConnection</li><li>QueryForConnection</li><li>LdapOpenBindWithCredentials</li><li>LdapOpenBindWithDefaultCredentials</li></ul><br /> | 
+
 
 
 
@@ -134,7 +77,7 @@ Finally, the *traceLevel* flag should be one of the following values:
 
 
 
-|                                          |                       |
+|      Flag                                    |       Value                |
 |------------------------------------------|-----------------------|
 | **TRACE\_LEVEL\_ERROR**<br/>       | 0x00000002<br/> |
 | **TRACE\_LEVEL\_INFORMATION**<br/> | 0x00000004<br/> |
@@ -206,10 +149,4 @@ Scenario 2: The administrator wants to trace the schema parsing and download ope
     **tracerpt.exe .\\w3wp.etl -o -report**
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Disassemble a shader.
+description: Disassemble a shader.
 ms.assetid: 30159223-8f88-4929-8ef1-7a6acc13f485
 title: D3DXDisassembleShader function (D3DX9Shader.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ api_location:
 Disassemble a shader.
 
 > [!Note]  
-> Instead of using this legacy function, we recommend that you use the [**D3DDisassemble**](https://msdn.microsoft.com/library/Dd607326(v=VS.85).aspx) API.
+> Instead of using this legacy function, we recommend that you use the [**D3DDisassemble**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3ddisassemble) API.
 
  
 
@@ -46,7 +46,7 @@ HRESULT D3DXDisassembleShader(
 *pShader* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to a memory buffer that contains the shader data.
 
@@ -55,7 +55,7 @@ Pointer to a memory buffer that contains the shader data.
 *EnableColorCode* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 Enable color code to make it easier to read the disassembly.
 
@@ -64,7 +64,7 @@ Enable color code to make it easier to read the disassembly.
 *pComments* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 An optional NULL-terminated comment string. This value may be **NULL**.
 
@@ -89,7 +89,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -106,7 +106,3 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
  
 
  
-
-
-
-

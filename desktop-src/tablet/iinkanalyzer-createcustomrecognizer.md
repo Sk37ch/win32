@@ -1,5 +1,5 @@
 ---
-Description: Creates a new custom recognizer node for the IInkAnalyzer.
+description: Creates a new custom recognizer node for the IInkAnalyzer.
 ms.assetid: bc1dbe88-8f81-48b6-9dd3-8f00e2b6c01c
 title: IInkAnalyzer::CreateCustomRecognizer method (IACom.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on ppContextNode when you no longer need to use the object.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on ppContextNode when you no longer need to use the object.
 
  
 
@@ -66,7 +66,7 @@ This method creates a new [**IContextNode**](icontextnode.md) with a type of Cus
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -95,9 +95,4 @@ This method creates a new [**IContextNode**](icontextnode.md) with a type of Cus
 </dt> </dl>
 
  
-
- 
-
-
-
 

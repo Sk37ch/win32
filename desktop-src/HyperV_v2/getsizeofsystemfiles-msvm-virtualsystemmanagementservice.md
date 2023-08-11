@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the total size of the system files of virtual machine.
+description: Retrieves the total size of the system files of virtual machine.
 ms.assetid: 492aa0df-1562-4d83-a0ea-43776b12c1b1
 title: GetSizeOfSystemFiles method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -38,7 +38,7 @@ uint32 GetSizeOfSystemFiles(
 *Vssd* \[in\]
 </dt> <dd>
 
-A reference to the [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)) instance whose system files size are to be retrieved. This instance may represent either the current instantiation of the virtual machine, or an instance of a virtual machine snapshot.
+A reference to the [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)) instance whose system files size are to be retrieved. This instance may represent either the current instantiation of the virtual machine, or an instance of a virtual machine snapshot.
 
 </dd> <dt>
 
@@ -98,7 +98,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -116,9 +116,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

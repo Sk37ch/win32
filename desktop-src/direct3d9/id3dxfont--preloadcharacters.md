@@ -1,5 +1,5 @@
 ---
-Description: Loads a series of characters into video memory to improve the efficiency of rendering to the device.
+description: Loads a series of characters into video memory to improve the efficiency of rendering to the device.
 ms.assetid: bb49842e-99de-406b-bf4b-139d6499f96e
 title: ID3DXFont::PreloadCharacters method (D3dx9core.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT PreloadCharacters(
 *First* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 ID of the first character to be loaded into video memory.
 
@@ -48,7 +48,7 @@ ID of the first character to be loaded into video memory.
 *Last* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 ID of the last character to be loaded into video memory.
 
@@ -66,13 +66,13 @@ This method generates textures containing glyphs that represent the input charac
 
 Characters will not be rendered to the device; [**DrawText**](id3dxfont--drawtext.md) must still be called to render the characters. However, by pre-loading characters into video memory, **DrawText** will use substantially fewer CPU resources.
 
-This method internally converts characters to glyphs using the GDI function [**GetCharacterPlacement**](https://msdn.microsoft.com/library/Dd144860(v=VS.85).aspx).
+This method internally converts characters to glyphs using the GDI function [**GetCharacterPlacement**](/windows/win32/api/wingdi/nf-wingdi-getcharacterplacementa).
 
 ## Requirements
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -89,7 +89,3 @@ This method internally converts characters to glyphs using the GDI function [**G
  
 
  
-
-
-
-

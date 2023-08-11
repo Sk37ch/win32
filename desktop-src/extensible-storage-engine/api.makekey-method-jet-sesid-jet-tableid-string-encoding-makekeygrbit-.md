@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.MakeKey method (JET_SESID, JET_TABLEID, String, Encoding, MakeKeyGrbit)"
 title: Api.MakeKey method (JET_SESID, JET_TABLEID, String, Encoding, MakeKeyGrbit)
 TOCTitle: MakeKey method (JET_SESID, JET_TABLEID, String, Encoding, MakeKeyGrbit)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.MakeKey(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.String,System.Text.Encoding,Microsoft.Isam.Esent.Interop.MakeKeyGrbit)
@@ -24,9 +25,9 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.MakeKey method (JET_SESID, JET_TABLEID, String, Encoding, MakeKeyGrbit)
 
-Constructs a search key that may then be used by [JetSeek(JET_SESID, JET_TABLEID, SeekGrbit)](dn334003\(v=exchg.10\).md) and [JetSetIndexRange(JET_SESID, JET_TABLEID, SetIndexRangeGrbit)](dn334024\(v=exchg.10\).md).
+Constructs a search key that may then be used by [JetSeek(JET_SESID, JET_TABLEID, SeekGrbit)](./api.jetseek-method.md) and [JetSetIndexRange(JET_SESID, JET_TABLEID, SetIndexRangeGrbit)](./api.jetsetindexrange-method.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,35 +63,35 @@ public static void MakeKey(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
     
     The cursor to create the key on.
 
 <!-- end list -->
 
   - data  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     Column data for the current key column of the current index.
 
 <!-- end list -->
 
   - encoding  
-    Type: [System.Text.Encoding](https://docs.microsoft.com/dotnet/api/system.text.encoding?redirectedfrom=MSDN)  
+    Type: [System.Text.Encoding](/dotnet/api/system.text.encoding)  
     
     The encoding used to convert the string.
 
 <!-- end list -->
 
   - grbit  
-    Type: [Microsoft.Isam.Esent.Interop.MakeKeyGrbit](hh578182\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.MakeKeyGrbit](./makekeygrbit-enumeration.md)  
     
     Key options.
 
@@ -98,11 +99,10 @@ public static void MakeKey(
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[MakeKey overload](dn334039\(v=exchg.10\).md)
+[MakeKey overload](./api.makekey-method.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

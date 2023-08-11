@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MofDeserializerSchemaValidationOption enumeration"
 title: MofDeserializerSchemaValidationOption enumeration (Microsoft.Management.Infrastructure.Serialization)
 TOCTitle: MofDeserializerSchemaValidationOption enumeration (Microsoft.Management.Infrastructure.Serialization)
 ms:assetid: T:Microsoft.Management.Infrastructure.Serialization.MofDeserializerSchemaValidationOption
@@ -43,7 +44,7 @@ ms.topic: reference
 
 Defines constants that specify schema validation options for deserialization.
 
-**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](hh832966\(v=vs.85\).md)  
+**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))  
 **Assembly:**  Microsoft.Management.Infrastructure (in Microsoft.Management.Infrastructure.dll)  
 
 ## Syntax
@@ -66,14 +67,14 @@ Friend Enumeration MofDeserializerSchemaValidationOption
 
 ## Members
 
-||Member name|Description|
-|-|-|-|
-||Default|Specifies default schema validation.|
-||Strict|Specifies strict schema validation.|
-||Loose|Specifies loose schema validation.|
-||IgnorePropertyType|Specifies that schema validation should ignore property types.|
-||Ignore|Specifies that schema validation should be ignored.|
+|Member name|Description|
+|-|-|
+|Default|Specifies default schema validation.|
+|Strict|Specifies strict schema validation.|
+|Loose|Specifies loose schema validation.|
+|IgnorePropertyType|Specifies that schema validation should ignore property types.|
+|Ignore|Specifies that schema validation should be ignored.|
 
 ## See Also
 
-[Microsoft.Management.Infrastructure.Serialization Namespace](hh832966\(v=vs.85\).md)
+[Microsoft.Management.Infrastructure.Serialization Namespace](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))

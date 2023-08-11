@@ -1,5 +1,5 @@
 ---
-Description: Returns a string that contains additional error information about the indexed entry.
+description: Returns a string that contains additional error information about the indexed entry.
 ms.assetid: 4f0d5289-c414-4e2b-b612-be8ce1d98b12
 title: IChain2::ExtendedErrorInfo method
 ms.topic: reference
@@ -18,7 +18,7 @@ api_location:
 
 # IChain2::ExtendedErrorInfo method
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Chain Class**](https://msdn.microsoft.com/library/9bys9et1(v=VS.90).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Chain Class**](/dotnet/api/system.security.cryptography.x509certificates.x509chain) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **ExtendedErrorInfo** method returns a string that contains additional error information about the indexed entry.
 
@@ -54,7 +54,7 @@ A string that contains the extended error information.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |
@@ -73,7 +73,3 @@ A string that contains the extended error information.
  
 
  
-
-
-
-

@@ -1,12 +1,12 @@
 ---
-Description: The network management session functions control network sessions established between workstations and servers. The functions require that the server service be started on the server.
+description: Understand session functions in network share management. These functions control network sessions established between workstations and servers.
 ms.assetid: 931455e3-1301-4a68-93c3-2674b3d4c491
 title: Session Functions (Network Share Management)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Session Functions
+# Session Functions (Network Share Management)
 
 The network management session functions control network sessions established between workstations and servers. The functions require that the server service be started on the server.
 
@@ -39,11 +39,8 @@ Session functions are available at five information levels:
 [**SESSION\_INFO\_502**](/windows/desktop/api/Lmshare/ns-lmshare-session_info_502)  
 </dl>
 
-If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management session functions. For more information, see [**IADsSession**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssession) and [**IADsFileServiceOperations**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations).
+If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management session functions. For more information, see [**IADsSession**](/windows/desktop/api/iads/nn-iads-iadssession) and [**IADsFileServiceOperations**](/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations).
 
  
 
  
-
-
-

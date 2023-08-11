@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_HostedBootService class associates a hosting system and a boot service. Since this relationship is subclassed from CIM\_HostedService, it inherits the scoping/naming scheme defined for service, where a service defers to its hosting system.
+description: The CIM\_HostedBootService class associates a hosting system and a boot service. Since this relationship is subclassed from CIM\_HostedService, it inherits the scoping/naming scheme defined for service, where a service defers to its hosting system.
 ms.assetid: 91621288-a231-4423-94df-7601bdf2ebe1
 ms.tgt_platform: multiple
 title: CIM_HostedBootService class
@@ -61,7 +61,7 @@ Data type: **CIM\_System**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (Antecedent)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) (Antecedent)
 </dt> </dl>
 
 A [**CIM\_System**](cim-system.md) that describes the hosting system.
@@ -77,7 +77,7 @@ Data type: **CIM\_BootService**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_BootService**](cim-bootservice.md) that describes the boot service hosted on the system.
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -114,9 +114,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

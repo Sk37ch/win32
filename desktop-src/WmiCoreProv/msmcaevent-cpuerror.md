@@ -1,5 +1,5 @@
 ---
-Description: Represents a CPU error event. This class is available only in 64-bit Windows systems.
+description: Represents a CPU error event. This class is available only in 64-bit Windows systems.
 ms.assetid: 4ee4aa51-a965-4569-b53c-0ba21bf42752
 title: MSMCAEvent_CPUError class
 ms.topic: reference
@@ -136,7 +136,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 Unique identifier for this instance of the class.
@@ -196,7 +196,7 @@ Access type: Read-only
 
 Record identifier of the error record for this error.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/previous-versions//aa393262(v=vs.85)).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> <dt>
 
@@ -234,7 +234,7 @@ The **MSMCAEvent\_CPUError** class is derived from [**WMIEvent**](wmievent.md).
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
@@ -255,9 +255,4 @@ The **MSMCAEvent\_CPUError** class is derived from [**WMIEvent**](wmievent.md).
 </dt> </dl>
 
  
-
- 
-
-
-
 

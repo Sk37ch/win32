@@ -1,5 +1,5 @@
 ---
-Description: Gets the Windows Image Acquisition (WIA) 2.0 preview component.
+description: Gets the Windows Image Acquisition (WIA) 2.0 preview component.
 ms.assetid: 0b773c4c-f080-41fa-8902-4243a80fc67c
 title: IWiaItem2::GetPreviewComponent method (Wia.h)
 ms.topic: reference
@@ -63,13 +63,13 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 Use this function to return a pointer to the address of the WIA 2.0 preview component for any [**IWiaItem2**](-wia-iwiaitem2.md) object in the object tree of a WIA 2.0 hardware device.
 
-Applications must call the [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method on the interface pointers that they receive through the *ppWiaPreview* parameter.
+Applications must call the [IUnknown::Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) method on the interface pointers that they receive through the *ppWiaPreview* parameter.
 
 ## Requirements
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
@@ -91,7 +91,3 @@ Applications must call the [IUnknown::Release](https://msdn.microsoft.com/librar
  
 
  
-
-
-
-

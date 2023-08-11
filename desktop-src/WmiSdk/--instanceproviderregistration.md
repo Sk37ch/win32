@@ -1,5 +1,5 @@
 ---
-Description: Registers instance providers in WMI.
+description: Registers instance providers in WMI.
 ms.assetid: 6eba9bff-a5b9-4741-94ef-7d65b33d9aff
 ms.tgt_platform: multiple
 title: '__InstanceProviderRegistration class'
@@ -330,7 +330,7 @@ The **\_\_InstanceProviderRegistration** class is derived from [**\_\_ObjectProv
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -342,7 +342,7 @@ The **\_\_InstanceProviderRegistration** class is derived from [**\_\_ObjectProv
 
 <dl> <dt>
 
-[**\_\_ObjectProviderRegistration**](https://docs.microsoft.com/windows/desktop/WmiSdk/--objectproviderregistration)
+[**\_\_ObjectProviderRegistration**](/windows/desktop/WmiSdk/--objectproviderregistration)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
@@ -355,9 +355,4 @@ The **\_\_InstanceProviderRegistration** class is derived from [**\_\_ObjectProv
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -17,7 +17,7 @@ api_location:
 
 # binary (TemplateItemType) Element
 
-Contains the binary data that is supplied by the [Event Log](https://docs.microsoft.com/windows/desktop/EventLog/event-logging) API.
+Contains the binary data that is supplied by the [Event Log](/windows/desktop/EventLog/event-logging) API.
 
 ``` syntax
 <xs:element name="binary">
@@ -46,7 +46,7 @@ The **binary** element is defined by the [**TemplateItemType**](eventmanifestsch
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
@@ -64,10 +64,4 @@ The **binary** element is defined by the [**TemplateItemType**](eventmanifestsch
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

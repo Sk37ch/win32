@@ -1,10 +1,10 @@
 ---
 UID: 
 title: KeyboardProc callback function
-description: The system calls this function gets a message function and there is a keyboard message to process.
+description: The system calls this function whenever an application calls the GetMessage or PeekMessage function and there is a keyboard message (WM_KEYUP) to be processed.
 old-location: 
 ms.assetid: na
-ms.date: 04/05/2019
+ms.date: 06/29/2023
 ms.keywords: 
 ms.topic: reference
 req.header: 
@@ -34,15 +34,15 @@ req.typenames:
 req.redist: 
 ---
 
-# KeyboardProc function
+# KeyboardProc callback function
 
-## -description
+## Description
 
-An application-defined or library-defined callback function used with the [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexw) function.
-The system calls this function whenever an application calls the [GetMessage](/windows/desktop/api/winuser/nf-winuser-getmessage) or [PeekMessage](/windows/desktop/api/winuser/nf-winuser-peekmessagew) function and there is a keyboard message ([WM_KEYUP](/windows/desktop/inputdev/wm-keyup) or [WM_KEYDOWN](/windows/desktop/inputdev/wm-keydown)) to be processed.
+An application-defined or library-defined callback function used with the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function.
 
-The **HOOKPROC** type defines a pointer to this callback function.
-**KeyboardProc** is a placeholder for the application-defined or library-defined function name.
+The system calls this function whenever an application calls the [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) or [**PeekMessageA**](/windows/win32/api/winuser/nf-winuser-peekmessagea)/[**PeekMessageW**](/windows/win32/api/winuser/nf-winuser-peekmessagew) function and there is a keyboard message ([**WM_KEYUP**](/windows/win32/inputdev/wm-keyup) or [**WM_KEYDOWN**](/windows/win32/inputdev/wm-keydown) to be processed.
+
+The **HOOKPROC** type defines a pointer to this callback function. *KeyboardProc* is a placeholder for the application-defined or library-defined function name.
 
 ```cpp
 LRESULT CALLBACK KeyboardProc(
@@ -52,14 +52,16 @@ LRESULT CALLBACK KeyboardProc(
 );
 ```
 
-## -parameters
+## Parameters
 
-### -param code [in]
+### code [in]
 
 Type: **int**
 
 A code the hook procedure uses to determine how to process the message.
+
 If *code* is less than zero, the hook procedure must pass the message to the [CallNextHookEx](/windows/desktop/api/winuser/nf-winuser-callnexthookex) function without further processing and should return the value returned by **CallNextHookEx**.
+
 This parameter can be one of the following values.
 
 | Value | Meaning |
@@ -67,13 +69,13 @@ This parameter can be one of the following values.
 | **HC_ACTION** 0 | The *wParam* and *lParam* parameters contain information about a keystroke message. |
 | **HC_NOREMOVE** 3 | The *wParam* and *lParam* parameters contain information about a keystroke message, and the keystroke message has not been removed from the message queue. (An application called the **PeekMessage** function, specifying the **PM_NOREMOVE** flag.) |
 
-### -param wParam [in]
+### wParam [in]
 
 Type: **WPARAM**
 
 The [virtual-key code](/windows/desktop/inputdev/virtual-key-codes) of the key that generated the keystroke message.
 
-### -param lParam [in]
+### lParam [in]
 
 Type: **LPARAM**
 
@@ -91,35 +93,30 @@ The following table describes the bits of this value.
 | 30 | The previous key state. The value is 1 if the key is down before the message is sent; it is 0 if the key is up. |
 | 31 | The transition state. The value is 0 if the key is being pressed and 1 if it is being released. |
 
-## -returns
+## Returns
 
 Type: **LRESULT**
 
-If *code* is less than zero, the hook procedure must return the value returned by **CallNextHookEx**.
+If *code* is less than zero, the hook procedure must return the value returned by [**CallNextHookEx**](/windows/win32/api/winuser/nf-winuser-callnexthookex).
 
-If *code* is greater than or equal to zero, and the hook procedure did not process the message, it is highly recommended that you call **CallNextHookEx** and return the value it returns; otherwise, other applications that have installed [WH_KEYBOARD](about-hooks.md) hooks will not receive hook notifications and may behave incorrectly as a result.
+If *code* is greater than or equal to zero, and the hook procedure did not process the message, it is highly recommended that you call [**CallNextHookEx**](/windows/win32/api/winuser/nf-winuser-callnexthookex) and return the value it returns; otherwise, other applications that have installed [**WH_KEYBOARD**](/windows/win32/winmsg/about-hooks) hooks will not receive hook notifications and may behave incorrectly as a result. 
+
 If the hook procedure processed the message, it may return a nonzero value to prevent the system from passing the message to the rest of the hook chain or the target window procedure.
 
-## -remarks
+## Remarks
 
-An application installs the hook procedure by specifying the **WH_KEYBOARD** hook type and a pointer to the hook procedure in a call to the **SetWindowsHookEx** function.
+An application installs the hook procedure by specifying the [**WH_KEYBOARD**](/windows/win32/winmsg/about-hooks) hook type and a pointer to the hook procedure in a call to the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function.
 
-This hook may be called in the context of the thread that installed it.
-The call is made by sending a message to the thread that installed the hook.
-Therefore, the thread that installed the hook must have a message loop.
+This hook may be called in the context of the thread that installed it. The call is made by sending a message to the thread that installed the hook. Therefore, the thread that installed the hook must have a message loop.
 
-## -see-also
+## See also
 
-[CallNextHookEx](/windows/desktop/api/winuser/nf-winuser-callnexthookex)
-
-[GetMessage](/windows/desktop/api/winuser/nf-winuser-getmessage)
-
-[PeekMessage](/windows/desktop/api/winuser/nf-winuser-peekmessagew)
-
-[SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexw)
-
-[WM_KEYUP](/windows/desktop/inputdev/wm-keyup)
-
-[WM_KEYDOWN](/windows/desktop/inputdev/wm-keydown)
-
-[Hooks](hooks.md)
+- [CallNextHookEx](/windows/desktop/api/winuser/nf-winuser-callnexthookex)
+- [GetMessage](/windows/desktop/api/winuser/nf-winuser-getmessage)
+- [PeekMessage](/windows/desktop/api/winuser/nf-winuser-peekmessagew)
+- [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexw)
+- [WM_KEYUP](/windows/desktop/inputdev/wm-keyup)
+- [WM_KEYDOWN](/windows/desktop/inputdev/wm-keydown)
+- [Hooks](hooks.md)
+- [Keyboard Input (Keyboard and Mouse Input)](../inputdev/keyboard-input.md)
+- [About Keyboard Input](../inputdev/about-keyboard-input.md)

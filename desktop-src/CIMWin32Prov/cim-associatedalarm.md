@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_AssociatedAlarm dependency associates an alarm with a logical device.
+description: The CIM\_AssociatedAlarm dependency associates an alarm with a logical device.
 ms.assetid: ed0ccc81-6d1b-45b0-abf0-7a2bd9a50193
 ms.tgt_platform: multiple
 title: CIM_AssociatedAlarm class
@@ -61,7 +61,7 @@ Data type: **CIM\_AlarmDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_AlarmDevice**](cim-alarmdevice.md) that contains the alarm device.
@@ -77,7 +77,7 @@ Data type: **CIM\_LogicalDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_LogicalDevice**](cim-logicaldevice.md) that contains the logical device that is alarmed.
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -114,9 +114,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: The CWbemProviderGlue class exposes the following methods.
+description: The CWbemProviderGlue class exposes the following methods.
 ms.assetid: E09290AF-1C2E-458A-811E-5357D470D3DF
 ms.tgt_platform: multiple
 title: CWbemProviderGlue Methods
@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # CWbemProviderGlue Methods
 
-\[The [**CWbemProviderGlue**](/windows/desktop/api/WbemGlue/nl-wbemglue-cwbemproviderglue) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
+\[The [**CWbemProviderGlue**](/windows/desktop/api/WbemGlue/nl-wbemglue-cwbemproviderglue) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The [**CWbemProviderGlue**](/windows/desktop/api/WbemGlue/nl-wbemglue-cwbemproviderglue) class exposes the following methods.
 
@@ -34,6 +34,3 @@ The [**CWbemProviderGlue**](/windows/desktop/api/WbemGlue/nl-wbemglue-cwbemprovi
  
 
  
-
-
-

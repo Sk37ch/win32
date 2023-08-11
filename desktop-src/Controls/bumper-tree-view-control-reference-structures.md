@@ -1,6 +1,6 @@
 ---
 title: Tree View Structures
-description: .
+description: Tree View Structures
 ms.assetid: 2860458f-0217-4434-aab7-69f6f4274055
 ms.topic: article
 ms.date: 05/31/2018
@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 -   [**NMTVDISPINFOEX**](/windows/win32/api/commctrl/ns-commctrl-nmtvdispinfoexa)
 -   [**NMTVGETINFOTIP**](/windows/win32/api/commctrl/ns-commctrl-nmtvgetinfotipa)
 -   [**NMTVITEMCHANGE**](/windows/win32/api/commctrl/ns-commctrl-nmtvitemchange)
--   [**NMTVITEMRECT**](https://msdn.microsoft.com/library/Bb773428(v=VS.85).aspx)
+-   [**NMTVITEMRECT**](/previous-versions/windows/desktop/legacy/bb773428(v=vs.85))
 -   [**NMTVKEYDOWN**](/windows/win32/api/commctrl/ns-commctrl-nmtvkeydown)
 -   [**NMTVSTATEIMAGECHANGING**](/windows/win32/api/commctrl/ns-commctrl-nmtvstateimagechanging)
 -   [**TVGETITEMPARTRECTINFO**](/windows/win32/api/commctrl/ns-commctrl-tvgetitempartrectinfo)
@@ -30,7 +30,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
-

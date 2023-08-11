@@ -1,6 +1,6 @@
 ---
 title: ps_3_0
-description: A programmable pixel shader is made up of a set of instructions that operate on pixel data. Registers transfer data in and out of the ALU. Additional control can be applied to modify the instruction, the results, or what data gets written out.
+description: Learn about ps_3_0, a programmable pixel shader, which is made up of a set of instructions that operate on pixel data.
 ms.assetid: 3eabf173-9d9d-45b2-bc30-de857428f3ee
 ms.topic: article
 ms.date: 05/31/2018
@@ -88,7 +88,7 @@ If ps\_3\_0 is supported, the following caps are supported in hardware (at a min
 | The following are supported on texture filter caps, volume texture filter caps and cube texture filter caps: | D3DPTFILTERCAPS\_MINFPOINT, D3DPTFILTERCAPS\_MINFLINEAR, D3DPTFILTERCAPS\_MINFANISOTROPIC (This is not required for VolumeTextureFilterCaps and CubeTextureFilterCaps ), D3DPTFILTERCAPS\_MIPFPOINT, D3DPTFILTERCAPS\_MIPFLINEAR, D3DPTFILTERCAPS\_MAGFPOINT, D3DPTFILTERCAPS\_MAGFLINEAR             |
 | The following texture address modes are supported at vertex and pixel stages:                                | D3DPTADDRESSCAPS\_WRAP, D3DPTADDRESSCAPS\_MIRROR, D3DPTADDRESSCAPS\_CLAMP, D3DPTADDRESSCAPS\_BORDER, D3DPTADDRESSCAPS\_INDEPENDENTUV, D3DPTADDRESSCAPS\_MIRRORONCE                                                                                                                                    |
 | All the pixel shader caps are supported.                                                                     | DynamicFlowControlDepth = 24, NumTemps = 32, StaticFlowControlDepth = 4, NumInstructionSlots = 512. The following features are supported: predication, arbitrary swizzles, and gradient instructions. There is no dependent-read limit, and no limit on the mixture of texture and math instructions. |
-| All the stencil operations are supported. This includes two sided stencil.                                   | See [**D3DSTENCILOP**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dstencilop)                                                                                                                                                                                                                                                        |
+| All the stencil operations are supported. This includes two sided stencil.                                   | See [**D3DSTENCILOP**](/windows/desktop/direct3d9/d3dstencilop)                                                                                                                                                                                                                                                        |
 | Device support point size per vertex                                                                         | D3DFVFCAPS\_PSIZE in D3DCAPS9                                                                                                                                                                                                                                                                         |
 | Non-power of 2 texture support.                                                                              | Either full support or conditional non-pow-2 support; device should not have the square texture only limitation as in D3DPTEXTURECAPS\_SQUAREONLY.                                                                                                                                                    |
 | If the device supports multiple rendertargets, the following caps are supported:                             | D3DPMISCCAPS\_INDEPENDENTWRITEMASKS, D3DPMISCCAPS\_MRTPOSTPIXELSHADERBLENDING                                                                                                                                                                                                                         |
@@ -108,7 +108,3 @@ If ps\_3\_0 is supported, the following caps are supported in hardware (at a min
  
 
  
-
-
-
-

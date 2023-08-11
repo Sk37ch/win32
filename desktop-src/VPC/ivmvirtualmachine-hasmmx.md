@@ -1,6 +1,6 @@
 ---
 title: IVMVirtualMachine HasMMX property (VPCCOMInterfaces.h)
-description: Determines whether the processor supports the MMX instruction set.
+description: Determines whether the processor supports the MMX instruction set. | IVMVirtualMachine HasMMX property (VPCCOMInterfaces.h)
 ms.assetid: 85350abe-ab44-42d2-9f3e-0fbdb64ff854
 keywords:
 - HasMMX property Virtual PC
@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualMachine::HasMMX property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Determines whether the processor supports the MMX instruction set.
 
@@ -59,7 +59,7 @@ HRESULT get_HasMMX(
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
@@ -78,10 +78,4 @@ HRESULT get_HasMMX(
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

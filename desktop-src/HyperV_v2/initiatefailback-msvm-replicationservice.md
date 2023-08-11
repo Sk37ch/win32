@@ -1,5 +1,5 @@
 ---
-Description: Initiates the failback for a recovery virtual machine.
+description: Initiates the failback for a recovery virtual machine.
 ms.assetid: F4AE1911-46B2-4412-A17F-3CA7D388276F
 title: Msvm_ReplicationService::InitiateFailback method
 ms.topic: reference
@@ -40,7 +40,7 @@ uint32 InitiateFailback(
 *ComputerSystem* \[in\]
 </dt> <dd>
 
-A reference to a [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) instance that represents the virtual machine for which to initiate a failback.
+A reference to a [**CIM\_ComputerSystem**](/windows/desktop/CIMWin32Prov/cim-computersystem) instance that represents the virtual machine for which to initiate a failback.
 
 </dd> <dt>
 
@@ -61,7 +61,7 @@ Optional input that identifies the recovery point to which failback is requested
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)). This reference can be used to monitor progress and to obtain the result of the method.
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)). This reference can be used to monitor progress and to obtain the result of the method.
 
 </dd> </dl>
 
@@ -121,7 +121,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
@@ -139,9 +139,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -80,7 +80,7 @@
       href: power-management-enumeration-types.md
       items: 
       - name: "EFFECTIVE_POWER_MODE"
-        href: /windows/desktop/api/powersetting/ne-powersetting-effective_power_mode)
+        href: /windows/desktop/api/powersetting/ne-powersetting-effective_power_mode
       - name: "POWER_ACTION"
         href: /windows/desktop/api/WinNT/ne-winnt-power_action
       - name: "POWER_DATA_ACCESSOR"
@@ -218,7 +218,7 @@
       - name: "PowerReadValueUnitsSpecifier"
         href: /windows/desktop/api/PowrProf/nf-powrprof-powerreadvalueunitsspecifier
       - name: "PowerRegisterForEffectivePowerModeNotifications"
-        href: /windows/desktop/api/powersetting/nf-powersetting-powerregisterforeffectivepowermodenotifications)
+        href: /windows/desktop/api/powersetting/nf-powersetting-powerregisterforeffectivepowermodenotifications
       - name: "PowerRegisterSuspendResumeNotification"
         href: /windows/desktop/api/Powerbase/nf-powerbase-powerregistersuspendresumenotification
       - name: "PowerRemovePowerSetting"
@@ -334,7 +334,7 @@
       - name: "BATTERY_WAIT_STATUS"
         href: battery-wait-status-str.md
       - name: "DISPLAY_BRIGHTNESS"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa372686(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa372686(v=vs.85)
       - name: "DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS"
         href: /windows/win32/api/Powrprof/ns-powrprof-device_notify_subscribe_parameters
       - name: "GLOBAL_MACHINE_POWER_POLICY"

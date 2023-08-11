@@ -52,7 +52,7 @@ A pointer to the variable.
 *Offset* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The offset (in bytes) from the beginning of the pointer to the data.
 
@@ -61,7 +61,7 @@ The offset (in bytes) from the beginning of the pointer to the data.
 *Count* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The number of bytes to set.
 
@@ -86,7 +86,7 @@ This method does no conversion or type checking; it is therefore a very quick wa
 
 
 
-|                    |                                                                                                                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
 | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |
@@ -101,10 +101,4 @@ This method does no conversion or type checking; it is therefore a very quick wa
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

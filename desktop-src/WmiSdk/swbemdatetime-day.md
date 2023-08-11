@@ -1,5 +1,5 @@
 ---
-Description: Gets or sets a value that represents the day component of the datetime value.
+description: Gets or sets a value that represents the day component of the datetime value.
 ms.assetid: 60da99bc-560c-45bc-b787-f4bef8e5a509
 ms.tgt_platform: multiple
 title: SWbemDateTime.Day property (Wbemdisp.h)
@@ -42,7 +42,7 @@ SWbemDateTime.Day As Long
 
 ## Error codes
 
-After you get or set the **Day** property, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain the error code below.
+After you get or set the **Day** property, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain the error code below.
 
 <dl> <dt>
 
@@ -61,7 +61,7 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -87,9 +87,4 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Provides read access to a Windows Journal file, returning a stream containing an XML version of the file's contents.
+description: Provides read access to a Windows Journal file, returning a stream containing an XML version of the file's contents.
 ms.assetid: e4e19f69-6377-4f06-856d-7f9b453e7656
 title: IJournalReader interface (Journal.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ Provides read access to a Windows Journal file, returning a stream containing an
 
 ## Members
 
-The **IJournalReader** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IJournalReader** also has these types of members:
+The **IJournalReader** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IJournalReader** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -50,7 +50,7 @@ The **JournalReader** class enables you to load a Journal document stream and to
 
 ## Examples
 
-The following example of a handler for a button's [**Click**](https://msdn.microsoft.com/library/hkz3c8hc(v=VS.90).aspx) event creates an instance of the **JournalReader** class and uses it to read an existing Journal file.
+The following example of a handler for a button's [**Click**](/dotnet/api/system.windows.forms.control.click?view=netcore-3.1&preserve-view=true) event creates an instance of the **JournalReader** class and uses it to read an existing Journal file.
 
 > [!Note]  
 > The **DisplayXml** method called from this example is not shown. The specific implementation of such a method is dependent on your application's needs.
@@ -150,7 +150,7 @@ void CJntlReaderMFCDlg::OnBnClickedButton1()
 
 
 
-|                                     |                                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                     |
 | Minimum supported server<br/> | None supported<br/>                                                                                         |
@@ -170,9 +170,4 @@ void CJntlReaderMFCDlg::OnBnClickedButton1()
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,22 +1,25 @@
 ---
-Description: Returns a point in Barycentric coordinates, using the specified 2D vectors.
+description: D3DXVec2BaryCentric function (D3dx9math.h) - Returns a point in Barycentric coordinates, using the specified 2D vectors.
 ms.assetid: afbffe6d-d786-4d65-b737-ae201613d1ac
 title: D3DXVec2BaryCentric function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec2BaryCentric
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXVec2BaryCentric function
+# D3DXVec2BaryCentric function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Returns a point in Barycentric coordinates, using the specified 2D vectors.
 
@@ -79,7 +82,7 @@ Pointer to a source [**D3DXVECTOR2**](d3dxvector2.md) structure.
 *f* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Weighting factor. See Remarks.
 
@@ -88,7 +91,7 @@ Weighting factor. See Remarks.
 *g* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Weighting factor. See Remarks.
 
@@ -117,13 +120,13 @@ Barycentric coordinates are a form of general coordinates. In this context, usin
 
 The return value for this function is the same value returned in the *pOut* parameter. In this way, the **D3DXVec2BaryCentric** function can be used as a parameter for another function.
 
-Barycentric coordinates define a point inside a triangle in terms of the triangle's vertices. For a more in-depth description of barycentric coordinates, see [Mathworld's Barycentric Coordinates Description](http://mathworld.wolfram.com/BarycentricCoordinates.html). (This resource may not be available in some languages and countries.)
+Barycentric coordinates define a point inside a triangle in terms of the triangle's vertices. For a more in-depth description of barycentric coordinates, see [Mathworld's Barycentric Coordinates Description](https://mathworld.wolfram.com/BarycentricCoordinates.html). (This resource may not be available in some languages and countries.)
 
 ## Requirements
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -140,7 +143,3 @@ Barycentric coordinates define a point inside a triangle in terms of the triangl
  
 
  
-
-
-
-

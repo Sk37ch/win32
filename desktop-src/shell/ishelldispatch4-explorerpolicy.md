@@ -1,5 +1,5 @@
 ---
-Description: Gets the value for a specified Windows Internet Explorer policy.
+description: IShellDispatch4.ExplorerPolicy method - Gets the value for a specified Windows Internet Explorer policy.
 ms.assetid: 490c3e18-b606-456a-9016-dc4f7bad2bc3
 title: IShellDispatch4.ExplorerPolicy method (Shldisp.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ IShellDispatch4.ExplorerPolicy( _
 *bstrPolicyName* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** that specifies the name of the policy.
 
@@ -135,7 +135,7 @@ End Sub
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |
@@ -148,7 +148,3 @@ End Sub
  
 
  
-
-
-
-

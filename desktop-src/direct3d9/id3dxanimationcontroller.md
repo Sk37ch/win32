@@ -1,5 +1,5 @@
 ---
-Description: This interface is used to control animation functionality, connecting animation sets with the transformation frames that are being animated.
+description: This interface is used to control animation functionality, connecting animation sets with the transformation frames that are being animated.
 ms.assetid: a485e4d2-82e1-45db-8496-dd743904c34d
 title: ID3DXAnimationController interface (D3dx9anim.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ This interface is used to control animation functionality, connecting animation 
 
 ## Members
 
-The **ID3DXAnimationController** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXAnimationController** also has these types of members:
+The **ID3DXAnimationController** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ID3DXAnimationController** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -114,7 +114,7 @@ typedef D3DXEVENTHANDLE *LPD3DXEVENTHANDLE;
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -131,7 +131,3 @@ typedef D3DXEVENTHANDLE *LPD3DXEVENTHANDLE;
  
 
  
-
-
-
-

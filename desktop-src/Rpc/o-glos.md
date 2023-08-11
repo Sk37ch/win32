@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# O
+# O (RPC)
 
 [A](a-glos.md) [B](b-glos.md) [C](c-glos.md) [D](d-glos.md) [E](e-glos.md) [F](f-glos.md) G H [I](i-glos.md) J K [L](l-glos.md) [M](m-glos.md) [N](n-glos.md) O [P](p-glos.md) [Q](q.md) [R](r-glos.md) [S](s-glos.md) [T](t-glos.md) [U](u-glos.md) [V](v-glos.md) [W](w-glos.md) X Y Z
 
@@ -44,14 +44,10 @@ Memory on a client previously referred to by a pointer parameter that has been r
 <span id="_rpc_output_parameter_glos"></span><span id="_RPC_OUTPUT_PARAMETER_GLOS"></span>**output parameter**
 </dt> <dd>
 
-Parameter containing data that the server application is transmitting to the client application. The \[ [out](https://docs.microsoft.com/windows/desktop/Midl/out-idl)\] attribute designates an output parameter.
+Parameter containing data that the server application is transmitting to the client application. The \[ [out](/windows/desktop/Midl/out-idl)\] attribute designates an output parameter.
 
 </dd> </dl>
 
  
 
  
-
-
-
-

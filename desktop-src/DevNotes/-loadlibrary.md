@@ -1,5 +1,5 @@
 ---
-Description: Loads a library.
+description: Loads a library.
 ms.assetid: 191fcbd8-4542-4cad-955e-6951f3005fc5
 title: '_LoadLibrary function'
 ms.topic: reference
@@ -20,7 +20,7 @@ api_location:
 
 \[This function is a wrapper over the **LoadLibrary** function. This function may be altered or unavailable in the future. Applications should call **LoadLibrary** directly.\]
 
-Loads a library. See [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx).
+Loads a library. See [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya).
 
 ## Syntax
 
@@ -44,7 +44,7 @@ HMODULE _LoadLibrary(
 
 
 
-|                |                                                                                                                                                             |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Msmdun80.dll; </dt> <dt>Sqlunirl.dll</dt> </dl> |
 
@@ -54,13 +54,9 @@ HMODULE _LoadLibrary(
 
 <dl> <dt>
 
-[**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx)
+[**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya)
 </dt> </dl>
 
  
 
  
-
-
-
-

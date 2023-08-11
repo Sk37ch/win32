@@ -1,5 +1,5 @@
 ---
-Description: Sets the location of the icon assigned to the link.
+description: Sets the location of the icon assigned to the link.
 ms.assetid: 257bb8e2-29fa-4d2f-ac2d-3497cf12959c
 title: ShellLinkObject.SetIconLocation method (Shldisp.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ iRetVal = ShellLinkObject.SetIconLocation(
 *sPath* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 The fully qualified path of the file that contains the icon.
 
@@ -166,7 +166,7 @@ End Sub
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional with SP3 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |
@@ -179,7 +179,3 @@ End Sub
  
 
  
-
-
-
-

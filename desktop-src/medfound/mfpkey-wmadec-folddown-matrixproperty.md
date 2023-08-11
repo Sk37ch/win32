@@ -1,5 +1,5 @@
 ---
-Description: Specifies the author-supplied fold-down coefficients for decoding multichannel audio for fewer channels than the encoded stream contains.
+description: Specifies the author-supplied fold-down coefficients for decoding multichannel audio for fewer channels than the encoded stream contains.
 ms.assetid: f6737c05-4b39-4209-9985-9402b28cf316
 title: MFPKEY_WMADEC_FOLDDOWN_MATRIX Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ g\_wszWMACFoldXToYChannelsZ
 
 An audio decoder can act as a DirectX Media Object (DMO) or as a Media Foundation Transform (MFT). For information on when a decoder acts as a DMO or an MFT, see the individual codec reference pages under [Codec Objects](codecobjects.md).
 
-When you use a decoder as a DMO, the decoder can perform channel fold down, and you can enumerate folded down output media types by calling [**IMediaObject::GetOutputType**](https://msdn.microsoft.com/library/Dd406956(v=VS.85).aspx).
+When you use a decoder as a DMO, the decoder can perform channel fold down, and you can enumerate folded down output media types by calling [**IMediaObject::GetOutputType**](/previous-versions/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getoutputtype).
 
 When you use a decoder as an MFT, the decoder by default will not perform any fold down, and will not offer folded down output media types. A decoder acting as an MFT will perform fold down only if custom fold-down coefficients are set using the **MFPKEY\_WMADEC\_FOLDDOWN\_MATRIX** property.
 
@@ -46,7 +46,7 @@ If the [MFPKEY\_WMADEC\_SPKRCFG](mfpkey-wmadec-spkrcfgproperty.md) property is s
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -64,7 +64,3 @@ If the [MFPKEY\_WMADEC\_SPKRCFG](mfpkey-wmadec-spkrcfgproperty.md) property is s
  
 
  
-
-
-
-

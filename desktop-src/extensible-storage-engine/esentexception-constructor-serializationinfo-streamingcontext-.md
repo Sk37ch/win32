@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentException constructor (SerializationInfo, StreamingContext)"
 title: EsentException constructor (SerializationInfo, StreamingContext) (Microsoft.Isam.Esent)
 TOCTitle: EsentException constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Isam.Esent.EsentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentException class. This constructor is used to deserialize a serialized exception.
 
-**Namespace:**  [Microsoft.Isam.Esent](dn292085\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent](./microsoft.isam.esent-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -54,14 +55,14 @@ protected EsentException(
 #### Parameters
 
   - info  
-    Type: [System.Runtime.Serialization.SerializationInfo](https://docs.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo?redirectedfrom=MSDN)  
+    Type: [System.Runtime.Serialization.SerializationInfo](/dotnet/api/system.runtime.serialization.serializationinfo)  
     
     The data needed to deserialize the object.
 
 <!-- end list -->
 
   - context  
-    Type: [System.Runtime.Serialization.StreamingContext](https://docs.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext?redirectedfrom=MSDN)  
+    Type: [System.Runtime.Serialization.StreamingContext](/dotnet/api/system.runtime.serialization.streamingcontext)  
     
     The deserialization context.
 
@@ -69,11 +70,10 @@ protected EsentException(
 
 #### Reference
 
-[EsentException class](dn292088\(v=exchg.10\).md)
+[EsentException class](./esentexception-class.md)
 
-[EsentException members](dn292086\(v=exchg.10\).md)
+[EsentException members](./esentexception-members.md)
 
-[EsentException overload](dn292116\(v=exchg.10\).md)
+[EsentException overload](./esentexception-constructor.md)
 
-[Microsoft.Isam.Esent namespace](dn292085\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent namespace](./microsoft.isam.esent-namespace.md)

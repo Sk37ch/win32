@@ -18,21 +18,24 @@ keywords:
 - audio compression manager (ACM),driver procedures
 - ACM (audio compression manager),driver procedures
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Functions Called by the System
+
+\[The feature associated with this page, [﻿Audio Compression Manager](/windows/win32/multimedia/audio-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 The system calls three different kinds of application-defined functions. Callback functions are functions in your application that the system calls in response to a request made by an application. Hook procedures help an application handle the customization of dialog boxes. A driver procedure is an application's implementation of its own codec, converter, or filter.
 
 The callback functions have the following names:
 
--   [**acmDriverEnumCallback**](https://msdn.microsoft.com/library/Dd742891(v=VS.85).aspx)
+-   [**acmDriverEnumCallback**](/windows/win32/api/msacm/nc-msacm-acmdriverenumcb)
 -   [**acmFilterEnumCallback**](/windows/desktop/api/Msacm/nc-msacm-acmfilterenumcb)
 -   [**acmFilterTagEnumCallback**](/windows/desktop/api/Msacm/nc-msacm-acmfiltertagenumcb)
 -   [**acmFormatEnumCallback**](/windows/desktop/api/Msacm/nc-msacm-acmformatenumcb)
 -   [**acmFormatTagEnumCallback**](/windows/desktop/api/Msacm/nc-msacm-acmformattagenumcb)
--   [**acmStreamConvertCallback**](https://docs.microsoft.com/previous-versions//dd742925(v=vs.85))
+-   [**acmStreamConvertCallback**](/previous-versions//dd742925(v=vs.85))
 
 Most of the enumeration functions in the ACM use callback functions. For example, when you call an enumeration function, the ACM enumerates the items by repeatedly calling the application through the callback function.
 
@@ -54,7 +57,3 @@ The following function is specified as a prototype that allows an application to
  
 
  
-
-
-
-

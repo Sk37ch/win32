@@ -1,5 +1,5 @@
 ---
-Description: Lists the elements used with event tracing.
+description: Lists the elements used with event tracing.
 ms.assetid: 8cb5907e-9006-45d1-9d48-13a43a631664
 title: Event Tracing Reference
 ms.topic: article
@@ -26,6 +26,6 @@ This section also contains information on:
 
 ## Process ETW traces in .NET code
 
-You can also use the [.NET TraceProcessing API](https://www.nuget.org/packages/Microsoft.Windows.EventTracing.Processing.All) to analyze ETW traces for your applications and other software components. This API is used internally at Microsoft to analyze ETW data produced the Windows engineering system, and it is also used to power several tables in [Windows Performance Analyzer](https://docs.microsoft.com/windows-hardware/test/wpt/windows-performance-analyzer). This API is available as a NuGet package.
+You can also use the [.NET TraceProcessing API](https://www.nuget.org/packages/Microsoft.Windows.EventTracing.Processing.All) to analyze ETW traces for your applications and other software components. This API is used internally at Microsoft to analyze ETW data produced the Windows engineering system, and it is also used to power several tables in [Windows Performance Analyzer](/windows-hardware/test/wpt/windows-performance-analyzer). This API is available as a NuGet package.
 
-For more information, see [this article](https://docs.microsoft.com/windows/apps/trace-processing/overview).
+For more information, see [this article](/windows/apps/trace-processing/overview).

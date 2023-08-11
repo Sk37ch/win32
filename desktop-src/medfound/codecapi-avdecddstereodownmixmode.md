@@ -1,5 +1,5 @@
 ---
-Description: Specifies the stereo downmix mode for a Dolby Digital audio decoder.
+description: Specifies the stereo downmix mode for a Dolby Digital audio decoder.
 ms.assetid: 270893C6-8B44-4A4D-AE2B-2E58E260F649
 title: CODECAPI_AVDecDDStereoDownMixMode property (Codecapi.h)
 ms.topic: reference
@@ -20,7 +20,7 @@ Specifies the stereo downmix mode for a Dolby Digital audio decoder.
 
 ## Property value
 
-The value of this property is a member of the [**eAVDecDDStereoDownMixMode**](https://msdn.microsoft.com/library/Hh447683(v=VS.85).aspx) enumeration.
+The value of this property is a member of the [**eAVDecDDStereoDownMixMode**](/windows/win32/api/codecapi/ne-codecapi-eavdecddstereodownmixmode) enumeration.
 
 ## Remarks
 
@@ -30,7 +30,7 @@ This attribute applies when the input to the decoder is multichannel PCM audio, 
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
@@ -45,13 +45,8 @@ This attribute applies when the input to the decoder is multichannel PCM audio, 
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> <dt>
 
-[**ICodecAPI**](https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi)
+[**ICodecAPI**](/windows/desktop/api/strmif/nn-strmif-icodecapi)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: The strPrivilege parameter of the SWbemPrivilegeSet.AddAsString method and the iPrivilege parameter for SWbemPrivilegeSet.Add require privilege strings from WbemPrivilegeEnum.
+description: The strPrivilege parameter of the SWbemPrivilegeSet.AddAsString method and the iPrivilege parameter for SWbemPrivilegeSet.Add require privilege strings from WbemPrivilegeEnum.
 ms.assetid: f9400597-81bb-44a8-80dc-aba0160aea26
 ms.tgt_platform: multiple
 title: Privilege Constants (Wbemdisp.h)
@@ -192,7 +192,7 @@ C++ constant: **SE\_TAKE\_OWNERSHIP\_NAME** string: **SeTakeOwnershipPrivilege**
 
 Scripting short name: **TakeOwnership**
 
-Required to assume ownership of files or other objects without having an [*Access Control Entry*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACE) in the *discretionary access control list* (DACL).
+Required to assume ownership of files or other objects without having an [*Access Control Entry*](/windows/desktop/SecGloss/a-gly) (ACE) in the *discretionary access control list* (DACL).
 
 
 </dt> </dl> </dd> <dt>
@@ -524,7 +524,7 @@ Required to perform volume maintenance tasks.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -553,9 +553,4 @@ Required to perform volume maintenance tasks.
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -51,13 +51,13 @@ An application should return zero if it processes this message.
 
 ## Remarks
 
-The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function returns zero.
+The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function returns zero.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -72,7 +72,7 @@ The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/n
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
 [**WM\_ENTERMENULOOP**](wm-entermenuloop.md)
@@ -85,10 +85,4 @@ The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/n
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

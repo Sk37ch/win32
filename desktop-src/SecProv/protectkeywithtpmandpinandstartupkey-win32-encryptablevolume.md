@@ -1,5 +1,5 @@
 ---
-Description: Secures the volume's encryption key by using the Trusted Platform Module (TPM) on the computer, if available, enhanced by both a user-specified personal identification number (PIN) and by an external key that must be presented to the computer at startup.
+description: Secures the volume's encryption key by using the Trusted Platform Module (TPM) on the computer, if available, enhanced by both a user-specified personal identification number (PIN) and by an external key that must be presented to the computer at startup.
 ms.assetid: 8991c22c-1e36-415e-a82b-c5ddf9c3b24a
 title: ProtectKeyWithTPMAndPINAndStartupKey method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -164,13 +164,13 @@ Additional key protectors should be specified to unlock the volume in recovery s
 
 While it is possible to have both a key protector of the type "TPM" and another of the type "TPM And PIN And Startup Key", the presence of the "TPM" key protector type negates the effects of other TPM-based key protectors.
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/Aa823192(v=VS.85).aspx).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise with SP1, Windows Vista Ultimate with SP1 \[desktop apps only\]<br/>     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |
@@ -189,7 +189,3 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
  
 
  
-
-
-
-

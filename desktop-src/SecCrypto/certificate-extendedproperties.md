@@ -1,5 +1,5 @@
 ---
-Description: Returns a collection of the extended properties of the certificate.
+description: Returns a collection of the extended properties of the certificate.
 ms.assetid: e03ce9cf-a437-43e8-89d1-109245492d72
 title: ICertificate2::ExtendedProperties method
 ms.topic: reference
@@ -18,7 +18,7 @@ api_location:
 
 # ICertificate2::ExtendedProperties method
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2 Class**](https://msdn.microsoft.com/library/ms148409(v=VS.90).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2 Class**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **ExtendedProperties** method returns a collection of the extended properties of the certificate.
 
@@ -39,7 +39,7 @@ This method has no parameters.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |
@@ -51,7 +51,3 @@ This method has no parameters.
  
 
  
-
-
-
-

@@ -35,10 +35,10 @@ Represents a standard [Drop-Down Button](windowsribbon-controls-dropdownbutton.m
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -160,12 +160,8 @@ This section of code shows the **DropDownButton** control declarations.
 
 ## Element information
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
-| Can be empty                        | No        |
+* **Minimum supported system**: Windows 7
+* **Can be empty**: No
 
 
 
@@ -176,14 +172,8 @@ This section of code shows the **DropDownButton** control declarations.
 [Drop-Down Button control](windowsribbon-controls-dropdownbutton.md)
 </dt> <dt>
 
-[**SetModes**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes)
+[**SetModes**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

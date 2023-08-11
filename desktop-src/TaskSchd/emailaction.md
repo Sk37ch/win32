@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # EmailAction object
 
-\[This object is no longer supported. Please use IExecAction with the powershell [**Send-MailMessage**](https://msdn.microsoft.com/library/Hh849925(v=WPS.620).aspx) cmdlet as a workaround.\]
+\[This object is no longer supported. Please use IExecAction with the powershell [**Send-MailMessage**](/powershell/module/microsoft.powershell.utility/send-mailmessage) cmdlet as a workaround.\]
 
 Scripting object that represents an action that sends an email message.
 
@@ -48,7 +48,7 @@ The **EmailAction** object has these properties.
 | [**Server**](emailaction-server.md)<br/>             | Read/write<br/> | Gets or sets the name of the server that you use to send email from.<br/>                           |
 | [**Subject**](emailaction-subject.md)<br/>           | Read/write<br/> | Gets or sets the subject of the email message.<br/>                                                 |
 | [**To**](emailaction-to.md)<br/>                     | Read/write<br/> | Gets or sets the email address or addresses that you want to send the email to.<br/>                |
-| [**Type**](/windows/desktop/api/taskschd/nf-taskschd-iaction-get_type)<br/>                     | Read-only<br/>  | Inherited from [**Action**](action.md) object. Gets the type of the action.<br/>                   |
+| [**Type**](/windows/win32/api/taskschd/nf-taskschd-iaction-get_type)<br/>                     | Read-only<br/>  | Inherited from [**Action**](action.md) object. Gets the type of the action.<br/>                   |
 
 
 
@@ -62,13 +62,13 @@ When reading or writing your own XML for a task, an email action is specified us
 
 ## Examples
 
-For more information and example code for this scripting object, see [Event Trigger Example (Scripting)](https://msdn.microsoft.com/library/Aa446887(v=VS.85).aspx).
+For more information and example code for this scripting object, see [Event Trigger Example (Scripting)](/previous-versions//aa446887(v=vs.85)).
 
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
@@ -80,10 +80,4 @@ For more information and example code for this scripting object, see [Event Trig
 
 
  
-
- 
-
-
-
-
 

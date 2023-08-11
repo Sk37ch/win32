@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.GPS.DestBearingRef property.
+description: The photo metadata policy for the System.GPS.DestBearingRef property.
 ms.assetid: d1c8b3cc-ed52-43ca-a0ba-045a2c5fe274
 title: System.GPS.DestBearingRef Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.DestBearingRef Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.DestBearingRef](https://msdn.microsoft.com/library/bb787490(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.DestBearingRef](../properties/props-system-gps-destbearingref.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.GPS.DestBearingRef](https://msdn.microsoft.com/library/bb787490(VS.85).aspx)
+[System.GPS.DestBearingRef](../properties/props-system-gps-destbearingref.md)
 </dt> </dl>
 
  
 
  
-
-
-

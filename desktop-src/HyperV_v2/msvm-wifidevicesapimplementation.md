@@ -1,5 +1,5 @@
 ---
-Description: An association between a service access point (SAP) and how it is implemented.
+description: Msvm_WiFiDeviceSAPImplementation class - An association between a service access point (SAP) and how it is implemented.
 ms.assetid: d1d99299-f2d9-4025-a48d-cf8180f2f7af
 title: Msvm_WiFiDeviceSAPImplementation class
 ms.topic: reference
@@ -55,7 +55,7 @@ Data type: **[**Msvm\_WiFiPort**](msvm-wifiport.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 An instance of the [**Msvm\_WiFiPort**](msvm-wifiport.md) class that represents the logical device.
@@ -71,7 +71,7 @@ Data type: **[**Msvm\_WiFiEndpoint**](msvm-wifiendpoint.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 An instance of the [**Msvm\_WiFiEndpoint**](msvm-wifiendpoint.md) class that represents the service access point implemented using the logical device.
@@ -82,7 +82,7 @@ An instance of the [**Msvm\_WiFiEndpoint**](msvm-wifiendpoint.md) class that rep
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -93,9 +93,4 @@ An instance of the [**Msvm\_WiFiEndpoint**](msvm-wifiendpoint.md) class that rep
 
 
  
-
- 
-
-
-
 

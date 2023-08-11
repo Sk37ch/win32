@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValueOfStruct<T>.CheckDataCount method"
 title: ColumnValueOfStruct(T).CheckDataCount method 
 TOCTitle: 'CheckDataCount method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1.CheckDataCount(System.Int32)
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Make sure the retrieved data is exactly the size needed for the structure. An exception is thrown if there is a mismatch.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -55,7 +56,7 @@ protected void CheckDataCount(
 #### Parameters
 
   - count  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The size of the retrieved data.
 
@@ -63,9 +64,8 @@ protected void CheckDataCount(
 
 #### Reference
 
-[ColumnValueOfStruct\<T\> class](dn334171\(v=exchg.10\).md)
+[ColumnValueOfStruct\<T\> class](./columnvalueofstruct-t-class.md)
 
-[ColumnValueOfStruct\<T\> members](dn334217\(v=exchg.10\).md)
+[ColumnValueOfStruct\<T\> members](./columnvalueofstruct-t-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

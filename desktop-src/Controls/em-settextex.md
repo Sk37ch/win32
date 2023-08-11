@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # EM\_SETTEXTEX message
 
-Combines the functionality of the [**WM\_SETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-settext) and [**EM\_REPLACESEL**](em-replacesel.md) messages, and adds the ability to set text using a code page and to use either rich text or plain text.
+Combines the functionality of the [**WM\_SETTEXT**](/windows/desktop/winmsg/wm-settext) and [**EM\_REPLACESEL**](em-replacesel.md) messages, and adds the ability to set text using a code page and to use either rich text or plain text.
 
 ## Parameters
 
@@ -50,7 +50,7 @@ If the operation fails, the return value is zero.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -73,10 +73,4 @@ If the operation fails, the return value is zero.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

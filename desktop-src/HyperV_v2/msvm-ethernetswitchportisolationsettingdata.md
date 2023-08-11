@@ -1,5 +1,5 @@
 ---
-Description: Represents the Isolation setting data.
+description: Represents the Isolation setting data.
 ms.assetid: f6bf5fcf-61c4-4e69-8ba0-fff4c4873368
 title: Msvm_EthernetSwitchPortIsolationSettingData class
 ms.topic: reference
@@ -59,7 +59,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: **WmiDataId** (2), [**Version**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Revision**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0)
+Qualifiers: **WmiDataId** (2), [**Version**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Revision**](/windows/desktop/WmiSdk/standard-qualifiers) (0)
 </dt> </dl>
 
 Whether the port is allowed to send/receive untagged traffic.
@@ -75,7 +75,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: **WmiDataId** (3), [**Version**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Revision**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0)
+Qualifiers: **WmiDataId** (3), [**Version**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Revision**](/windows/desktop/WmiSdk/standard-qualifiers) (0)
 </dt> </dl>
 
 The default VirtualSubnetId or VLAN that will be set on all send/receive traffic if **AllowedUntaggedTraffic** is **true**.
@@ -91,7 +91,7 @@ Data type: **Boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: **WmiDataId** (4), [**Version**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Revision**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0)
+Qualifiers: **WmiDataId** (4), [**Version**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Revision**](/windows/desktop/WmiSdk/standard-qualifiers) (0)
 </dt> </dl>
 
 If **true**, the network stack in the VM will be able to access the isolation configuration. The default value is **false**.
@@ -107,7 +107,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: **WmiDataId** (1), [**Version**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Revision**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0)
+Qualifiers: **WmiDataId** (1), [**Version**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Revision**](/windows/desktop/WmiSdk/standard-qualifiers) (0)
 </dt> </dl>
 
 Whether the port is using **VLAN** or **VirtualSubnetId** for isolation. **NativeVirtualSubnetId** is used for WNV VirtualSubnetId-based networks.
@@ -148,7 +148,7 @@ Whether the port is using **VLAN** or **VirtualSubnetId** for isolation. **Nativ
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
@@ -166,9 +166,4 @@ Whether the port is using **VLAN** or **VirtualSubnetId** for isolation. **Nativ
 </dt> </dl>
 
  
-
- 
-
-
-
 

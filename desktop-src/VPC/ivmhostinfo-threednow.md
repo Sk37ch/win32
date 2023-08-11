@@ -1,6 +1,6 @@
 ---
 title: IVMHostInfo ThreeDNow property (VPCCOMInterfaces.h)
-description: Determines whether the processor supports the 3DNow instruction set.
+description: Determines whether the processor supports the 3DNow instruction set. | IVMHostInfo ThreeDNow property (VPCCOMInterfaces.h)
 ms.assetid: 4987e326-d8fa-4dfa-b592-9dd90cedb0ef
 keywords:
 - ThreeDNow property Virtual PC
@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IVMHostInfo::ThreeDNow property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Determines whether the processor supports the 3DNow instruction set.
 
@@ -58,7 +58,7 @@ HRESULT get_ThreeDNow(
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
@@ -77,10 +77,4 @@ HRESULT get_ThreeDNow(
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

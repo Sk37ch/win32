@@ -1,5 +1,5 @@
 ---
-Description: Discusses methods of opening a Control Panel item for Windows Vista and later systems as well as covering legacy Control Panel commands.
+description: Discusses methods of opening a Control Panel item for Windows Vista and later systems as well as covering legacy Control Panel commands.
 ms.assetid: c17167ab-e9a0-4290-955c-484d038b82af
 title: Executing Control Panel Items
 ms.topic: article
@@ -18,7 +18,7 @@ There are two ways to open a Control Panel item:
 -   The user can open Control Panel and then open an item by clicking or double-clicking the item's icon.
 -   The user or an application can start a Control Panel item by executing it directly from the command line prompt.
 
-An application can open the Control Panel programmatically by using the [**WinExec**](https://msdn.microsoft.com/library/ms687393(v=VS.85).aspx) function.
+An application can open the Control Panel programmatically by using the [**WinExec**](/windows/win32/api/winbase/nf-winbase-winexec) function.
 
 
 ```
@@ -27,7 +27,7 @@ WinExec("c:\windows\system32\control.exe", SW_NORMAL);
 
 
 
-The following example shows how an application can start the Control Panel item named **MyCpl.cpl** by using the [**WinExec**](https://msdn.microsoft.com/library/ms687393(v=VS.85).aspx) function.
+The following example shows how an application can start the Control Panel item named **MyCpl.cpl** by using the [**WinExec**](/windows/win32/api/winbase/nf-winbase-winexec) function.
 
 
 ```
@@ -58,7 +58,7 @@ In Windows Vista and later, the preferred method of launching a Control Panel i
 
 By convention, the canonical name is formed as "CorporationName.ControlPanelItemName".
 
-The following example shows how an application can start the Control Panel item **Windows Update** with [**WinExec**](https://msdn.microsoft.com/library/ms687393(v=VS.85).aspx).
+The following example shows how an application can start the Control Panel item **Windows Update** with [**WinExec**](/windows/win32/api/winbase/nf-winbase-winexec).
 
 
 ```
@@ -130,55 +130,22 @@ On Windows Vista, some options that were accessed by a .cpl module on Windows 
 
 ## Legacy Control Panel Commands
 
-When you use the [**WinExec**](https://msdn.microsoft.com/library/ms687393(v=VS.85).aspx) function, the system can recognize special Control Panel commands. These commands predate Windows Vista.
+When you use the [**WinExec**](/windows/win32/api/winbase/nf-winbase-winexec) function, the system can recognize special Control Panel commands. These commands predate Windows Vista.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>control.exe desktop</td>
-<td>Launches the <strong>Display Properties</strong> window.
-<blockquote>
-[!Note]<br />
-Starter and Basic Editions do not support this command.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>control.exe color</td>
-<td>Launches the <strong>Display Properties</strong> window with the <strong>Appearance</strong> tab preselected.</td>
-</tr>
-<tr class="odd">
-<td>control.exe date/time</td>
-<td>Launches the <strong>Date and Time Properties</strong> window.</td>
-</tr>
-<tr class="even">
-<td>control.exe international</td>
-<td>Launches the <strong>Regional and Language Options</strong> window.</td>
-</tr>
-<tr class="odd">
-<td>control.exe mouse</td>
-<td>Launches the <strong>Mouse Properties</strong> window.</td>
-</tr>
-<tr class="even">
-<td>control.exe keyboard</td>
-<td>Launches the <strong>Keyboard Properties</strong> window.</td>
-</tr>
-<tr class="odd">
-<td>control.exe printers</td>
-<td>Displays the <strong>Printers and Faxes</strong> folder.</td>
-</tr>
-<tr class="even">
-<td>control.exe fonts</td>
-<td>Displays the <strong>Fonts</strong> folder.</td>
-</tr>
-</tbody>
-</table>
+
+|Argument|Description|
+|--------|--------|
+| control.exe desktop | Launches the <strong>Display Properties</strong> window.<blockquote>[!Note]<br />Starter and Basic Editions do not support this command.</blockquote><br /> | 
+| control.exe color | Launches the <strong>Display Properties</strong> window with the <strong>Appearance</strong> tab preselected. | 
+| control.exe date/time | Launches the <strong>Date and Time Properties</strong> window. | 
+| control.exe international | Launches the <strong>Regional and Language Options</strong> window. | 
+| control.exe mouse | Launches the <strong>Mouse Properties</strong> window. | 
+| control.exe keyboard | Launches the <strong>Keyboard Properties</strong> window. | 
+| control.exe printers | Displays the <strong>Printers and Faxes</strong> folder. | 
+| control.exe fonts | Displays the <strong>Fonts</strong> folder. | 
+
 
 
 
@@ -188,7 +155,7 @@ For Windows 2000 and later systems:
 
 
 
-|                            |                                                          |
+| Command                    | Description                                              |
 |----------------------------|----------------------------------------------------------|
 | control.exe folders        | Launches the **Folder Options** window.                  |
 | control.exe netware        | Launches the **Novell NetWare** window (if installed).   |
@@ -237,7 +204,3 @@ For Windows 2000 and later systems:
  
 
  
-
-
-
-

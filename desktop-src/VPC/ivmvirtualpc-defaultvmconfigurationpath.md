@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualPC::DefaultVMConfigurationPath property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Retrieves and sets the default directory to be searched for available virtual machine configuration files.
 
@@ -45,7 +45,7 @@ HRESULT get_DefaultVMConfigurationPath(
 
 ## Property value
 
-Specifies the directory path for the default virtual machine configuration files. In the path string, a backslash (\) may appear immediately before the terminating null character.
+Specifies the directory path for the default virtual machine configuration files. In the path string, a backslash (\\) may appear immediately before the terminating null character.
 
 ## Error codes
 
@@ -73,7 +73,7 @@ By default, this property value is set to the following directory: "%LocalAppDat
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
@@ -92,10 +92,4 @@ By default, this property value is set to the following directory: "%LocalAppDat
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

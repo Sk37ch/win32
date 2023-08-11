@@ -1,5 +1,5 @@
 ---
-Description: Compile an effect.
+description: Compile an effect.
 ms.assetid: be6f862a-5091-4a06-a27a-308e81360129
 title: ID3DXEffectCompiler::CompileEffect method (D3DX9Effect.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ HRESULT CompileEffect(
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Compile options identified by various flags. The Direct3D 10 HLSL compiler is now the default. See [D3DXSHADER Flags](d3dxshader-flags.md) for details.
 
@@ -78,7 +78,7 @@ If the method fails, the return value will be E\_FAIL.
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -95,7 +95,3 @@ If the method fails, the return value will be E\_FAIL.
  
 
  
-
-
-
-

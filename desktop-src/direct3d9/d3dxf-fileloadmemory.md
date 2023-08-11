@@ -1,5 +1,5 @@
 ---
-Description: Identifies memory data.
+description: Identifies memory data.
 ms.assetid: 0ec0597f-d83a-4c1e-b993-30f0bbd64e6b
 title: D3DXF_FILELOADMEMORY structure (D3dx9xof.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ typedef struct D3DXF_FILELOADMEMORY {
 **lpMemory**
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -49,7 +49,7 @@ Pointer to a block of memory to be loaded.
 **dSize**
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**SIZE\_T**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -65,7 +65,7 @@ This structure identifies data to be loaded from memory when an application uses
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9xof.h</dt> </dl> |
 
@@ -81,7 +81,3 @@ This structure identifies data to be loaded from memory when an application uses
  
 
  
-
-
-
-

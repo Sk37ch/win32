@@ -1,5 +1,5 @@
 ---
-Description: Retrieves information for applications that are imported.
+description: Retrieves information for applications that are imported.
 ms.assetid: 9ed4bc3f-3490-4c36-ba94-bc803886a4d2
 title: FilesForImport collection
 ms.topic: reference
@@ -22,7 +22,7 @@ This collection supports the [**Add**](/windows/desktop/api/ComAdmin/nf-comadmin
 
 ## Members
 
-The **FilesForImport** collection inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
+The **FilesForImport** collection inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Related Collections
 
@@ -55,7 +55,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                              |
+| Entry | Value |
 |----------------|------------------------------------------------------------------------------|
 | Description    | The name of the MSI file that contains the application that can be imported. |
 | Access         | ReadOnly                                                                     |
@@ -71,7 +71,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                              |
+| Entry | Value |
 |----------------|------------------------------|
 | Description    | The name of the application. |
 | Access         | ReadOnly                     |
@@ -87,7 +87,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                   |
+| Entry | Value |
 |----------------|-----------------------------------|
 | Description    | A description of the application. |
 | Access         | ReadOnly                          |
@@ -103,7 +103,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                       |
+| Entry | Value |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The name of the DLL or EXE file that contains the application. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) or [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                                                                                              |
@@ -119,7 +119,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                  |
+| Entry | Value |
 |----------------|--------------------------------------------------|
 | Description    | Indicates whether the application has any users. |
 | Access         | ReadOnly                                         |
@@ -135,7 +135,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                               |
+| Entry | Value |
 |----------------|-----------------------------------------------|
 | Description    | Indicates whether the application is a proxy. |
 | Access         | ReadOnly                                      |
@@ -151,7 +151,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                 |
+| Entry | Value |
 |----------------|-------------------------------------------------|
 | Description    | Indicates whether the application is a service. |
 | Access         | ReadOnly                                        |
@@ -167,7 +167,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                               |
+| Entry | Value |
 |----------------|-----------------------------------------------|
 | Description    | A description of the application's partition. |
 | Access         | ReadOnly                                      |
@@ -183,7 +183,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                          |
+| Entry | Value |
 |----------------|------------------------------------------|
 | Description    | The GUID of the application's partition. |
 | Access         | ReadOnly                                 |
@@ -199,7 +199,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                          |
+| Entry | Value |
 |----------------|------------------------------------------|
 | Description    | The name of the application's partition. |
 | Access         | ReadOnly                                 |
@@ -221,6 +221,3 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
  
 
  
-
-
-

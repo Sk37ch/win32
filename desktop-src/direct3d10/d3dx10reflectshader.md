@@ -1,5 +1,5 @@
 ---
-Description: This function -- which creates a shader-reflection object for retrieving information about a compiled shader -- no longer exists. Instead, use D3DReflect or D3D11Reflect.
+description: This function -- which creates a shader-reflection object for retrieving information about a compiled shader -- no longer exists. Instead, use D3DReflect or D3D11Reflect.
 ms.assetid: 7090418c-1940-4f07-b075-937e3399613c
 title: D3DX10ReflectShader function (D3DX10Core.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # D3DX10ReflectShader function
 
-This function -- which creates a shader-reflection object for retrieving information about a compiled shader -- no longer exists. Instead, use [**D3DReflect**](https://msdn.microsoft.com/library/Dd607334(v=VS.85).aspx) or [**D3D11Reflect**](https://msdn.microsoft.com/library/Ff728670(v=VS.85).aspx).
+This function -- which creates a shader-reflection object for retrieving information about a compiled shader -- no longer exists. Instead, use [**D3DReflect**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dreflect) or [**D3D11Reflect**](../direct3dhlsl/d3d11reflect.md).
 
 ## Syntax
 
@@ -41,14 +41,14 @@ HRESULT D3DX10ReflectShader(
 
 Type: **const void\***
 
-A pointer to the compiled shader. To get this pointer see [Getting a Pointer to a Compiled Shader](https://msdn.microsoft.com/library/Bb509703(v=VS.85).aspx).
+A pointer to the compiled shader. To get this pointer see [Getting a Pointer to a Compiled Shader](../direct3dhlsl/dx-graphics-hlsl-using-shaders-10.md).
 
 </dd> <dt>
 
 *BytecodeLength* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**SIZE\_T**](../winprog/windows-data-types.md)**
 
 Length of pShaderBytecode.
 
@@ -100,7 +100,7 @@ if( pIShaderReflection1 )
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Core.h</dt> </dl> |
 
@@ -116,7 +116,3 @@ if( pIShaderReflection1 )
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: You can use the methods of an SWbemServices object to perform operations against a namespace on either a local host or a remote host. This object cannot be created by the VBScript CreateObject call.
+description: You can use the methods of an SWbemServices object to perform operations against a namespace on either a local host or a remote host. This object cannot be created by the VBScript CreateObject call.
 ms.assetid: 7fcfa404-2fe6-42e5-85ac-64536f6d2a44
 ms.tgt_platform: multiple
 title: SWbemServices object (Wbemdisp.h)
@@ -99,7 +99,7 @@ After you obtain a reference to an **SWbemServices** object, you use the object 
 
     In semisynchronous mode, your script calls one of the six data retrieval methods and returns immediately. WMI retrieves the managed resources in the background as your script continues to run. As the resources are retrieved, they are immediately returned to your script by way of an SWbemObjectSet. You can begin to access the managed resources without waiting for the entire collection to be assembled.
 
-    There is a caveat to semisynchronous operations when you are working with managed resources that have many instances (many meaning greater than 1,000), such as [**CIM\_DataFile**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-datafile) and [**Win32\_NTLogEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/eventlogprov/win32-ntlogevent). The caveat is a result of how WMI handles instances of managed resources. For each instance of a managed resource, WMI creates and caches an [**SWbemObject**](swbemobject.md) object. When a large number of instances exist for a managed resource, instance retrieval can monopolize available resources, reducing the performance of both the script and the computer.
+    There is a caveat to semisynchronous operations when you are working with managed resources that have many instances (many meaning greater than 1,000), such as [**CIM\_DataFile**](/windows/desktop/CIMWin32Prov/cim-datafile) and [**Win32\_NTLogEvent**](/previous-versions/windows/desktop/eventlogprov/win32-ntlogevent). The caveat is a result of how WMI handles instances of managed resources. For each instance of a managed resource, WMI creates and caches an [**SWbemObject**](swbemobject.md) object. When a large number of instances exist for a managed resource, instance retrieval can monopolize available resources, reducing the performance of both the script and the computer.
 
     To work around the problem, you can optimize semisynchronous method calls using the **wbemFlagForwardOnly** flag. The **wbemFlagForwardOnly** flag, combined with the **wbemFlagReturnImmediately** flag (the default semisynchronous flag), tells WMI to return a forward-only [**SWbemObjectSet**](swbemobjectset.md), which eliminates the large data set performance problem. However, using the **wbemFlagForwardOnly** flag comes with a cost. A forward-only **SWbemObjectSet** can be enumerated only once. After each [**SWbemObject**](swbemobject.md) in a forward-only **SWbemObjectSet** is accessed, the memory allocated to the instance is released.
 
@@ -113,7 +113,7 @@ The methods most often used in system administration scripts are [**InstancesOf*
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -136,9 +136,4 @@ The methods most often used in system administration scripts are [**InstancesOf*
 </dt> </dl>
 
  
-
- 
-
-
-
 

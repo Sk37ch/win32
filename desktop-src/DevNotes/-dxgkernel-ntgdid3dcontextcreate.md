@@ -1,5 +1,5 @@
 ---
-Description: Creates a context.
+description: Creates a context.
 ms.assetid: f972ab40-c9e9-4d2a-88f6-4c7817d5533f
 title: NtGdiD3DContextCreate function (Ntgdi.h)
 ms.topic: reference
@@ -49,21 +49,21 @@ Handle to a kernel-mode DirectDraw object, previously created with [**NtGdiDdCre
 *hSurfColor* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that describes the DirectDraw surface to be used as the rendering target.
+Handle to a [**DD\_SURFACE\_LOCAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local) structure that describes the DirectDraw surface to be used as the rendering target.
 
 </dd> <dt>
 
 *hSurfZ* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that describes the DirectDraw surface to be used as a depth buffer. If this member is **NULL**, no depth buffering is to be performed.
+Handle to a [**DD\_SURFACE\_LOCAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local) structure that describes the DirectDraw surface to be used as a depth buffer. If this member is **NULL**, no depth buffering is to be performed.
 
 </dd> <dt>
 
 *pdcci* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**D3DNTHAL\_CONTEXTCREATEDATA**](https://msdn.microsoft.com/library/Ff549031(v=VS.85).aspx) structure that contains the information required to create a context and the data that the driver should store in the new context.
+Pointer to a [**D3DNTHAL\_CONTEXTCREATEDATA**](/windows-hardware/drivers/ddi/) structure that contains the information required to create a context and the data that the driver should store in the new context.
 
 </dd> </dl>
 
@@ -86,7 +86,7 @@ Pointer to a [**D3DNTHAL\_CONTEXTCREATEDATA**](https://msdn.microsoft.com/librar
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
@@ -104,7 +104,3 @@ Pointer to a [**D3DNTHAL\_CONTEXTCREATEDATA**](https://msdn.microsoft.com/librar
  
 
  
-
-
-
-

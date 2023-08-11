@@ -1,5 +1,5 @@
 ---
-Description: The following example uses the GetComputerName, GetUserName, GetSystemDirectory, GetWindowsDirectory, and ExpandEnvironmentStrings functions to get information that describes the system configuration.
+description: The following example uses the GetComputerName, GetUserName, GetSystemDirectory, GetWindowsDirectory, and ExpandEnvironmentStrings functions to get information that describes the system configuration.
 ms.assetid: 965bd14b-be93-4084-bce8-642f5704cef1
 title: Getting System Information
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Getting System Information
 
-The following example uses the [**GetComputerName**](/windows/desktop/api/Winbase/nf-winbase-getcomputernamea), [**GetUserName**](/windows/desktop/api/Winbase/nf-winbase-getusernamea), [**GetSystemDirectory**](https://msdn.microsoft.com/library/ms724373(v=VS.85).aspx), [**GetWindowsDirectory**](https://msdn.microsoft.com/library/ms724454(v=VS.85).aspx), and [**ExpandEnvironmentStrings**](https://msdn.microsoft.com/library/ms724265(v=VS.85).aspx) functions to get information that describes the system configuration.
+The following example uses the [**GetComputerName**](/windows/desktop/api/Winbase/nf-winbase-getcomputernamea), [**GetUserName**](/windows/desktop/api/Winbase/nf-winbase-getusernamea), [**GetSystemDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya), [**GetWindowsDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya), and [**ExpandEnvironmentStrings**](/windows/win32/api/processenv/nf-processenv-expandenvironmentstringsa) functions to get information that describes the system configuration.
 
 
 ```C++
@@ -102,6 +102,3 @@ void printError( TCHAR* msg )
  
 
  
-
-
-

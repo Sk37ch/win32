@@ -1,5 +1,5 @@
 ---
-Description: Represents the status of the optional features that are present on the operating system.
+description: Represents the status of the optional features that are present on the operating system.
 ms.assetid: 3ac0c227-dfe1-4f33-b3d1-bcd1309c3635
 ms.tgt_platform: multiple
 title: Win32_OptionalFeature class
@@ -20,21 +20,7 @@ api_type:
 - DllExport
 api_location: 
 - CIMWin32.dll
-topic_type: 
-- APIRef
-- kbSyntax
-api_name: 
-- Win32_OptionalFeature
-- Win32_OptionalFeature.Description
-- Win32_OptionalFeature.InstallDate
-- Win32_OptionalFeature.Status
-- Win32_OptionalFeature.Caption
-- Win32_OptionalFeature.Name
-- Win32_OptionalFeature.InstallState
-api_type: 
-- DllExport
-api_location: 
-- CIMWin32.dll
+
 ---
 
 # Win32\_OptionalFeature class
@@ -79,7 +65,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (Caption), [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (260)
+Qualifiers: [**Override**](../wmisdk/standard-qualifiers.md) (Caption), [**MaxLen**](../wmisdk/standard-qualifiers.md) (260)
 </dt> </dl>
 
 An optional feature display name.
@@ -95,7 +81,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Description")
+Qualifiers: [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Description")
 </dt> </dl>
 
 A textual description of the object.
@@ -113,7 +99,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Install Date")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Install Date")
 </dt> </dl>
 
 Indicates when the object was installed. Lack of a value does not indicate that the object is not installed.
@@ -174,7 +160,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (Name), [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (260)
+Qualifiers: [**Override**](../wmisdk/standard-qualifiers.md) (Name), [**key**](../wmisdk/key-qualifier.md), [**MaxLen**](../wmisdk/standard-qualifiers.md) (260)
 </dt> </dl>
 
 Represents the name of the optional feature.
@@ -190,7 +176,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (10), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Status")
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (10), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Status")
 </dt> </dl>
 
 String that indicates the current status of the object. Operational and non-operational status can be defined. Operational status can include "OK", "Degraded", and "Pred Fail". "Pred Fail" indicates that an element is functioning properly, but is predicting a failure (for example, a SMART-enabled hard disk drive).
@@ -293,7 +279,7 @@ Values include the following:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
@@ -313,13 +299,9 @@ Values include the following:
 [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md)
 </dt> <dt>
 
-[Querying the Status of Optional Features](https://msdn.microsoft.com/library/Ee309380(v=VS.85).aspx)
+[Querying the Status of Optional Features](../wmisdk/querying-the-status-of-optional-features.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

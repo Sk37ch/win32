@@ -1,5 +1,5 @@
 ---
-Description: Specifies tolerance values for each vertex component when comparing vertices to determine if they are similar enough to be welded together.
+description: D3DX10_WELD_EPSILONS structure - Specifies tolerance values for each vertex component when comparing vertices to determine if they are similar enough to be welded together.
 ms.assetid: b28a17bd-5d5b-41b3-86d9-327f5497fc94
 title: D3DX10_WELD_EPSILONS structure (D3DX10.h)
 ms.topic: reference
@@ -46,7 +46,7 @@ typedef struct D3DX10_WELD_EPSILONS {
 **Position**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -57,7 +57,7 @@ Position
 **BlendWeights**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -68,7 +68,7 @@ Blend weight
 **Normal**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -79,7 +79,7 @@ Normal
 **PSize**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -90,7 +90,7 @@ Point size value
 **Specular**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -101,7 +101,7 @@ Specular lighting value
 **Diffuse**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -112,7 +112,7 @@ Diffuse lighting value
 **Texcoord**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -123,7 +123,7 @@ Eight texture coordinates
 **Tangent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -134,7 +134,7 @@ Tangent
 **Binormal**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -145,7 +145,7 @@ Binormal
 **TessFactor**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -168,7 +168,7 @@ typedef D3DX_WELD_EPSILONS *LPD3DX_WELD_EPSILONS;
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10.h</dt> </dl> |
 
@@ -184,7 +184,3 @@ typedef D3DX_WELD_EPSILONS *LPD3DX_WELD_EPSILONS;
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Converts a typical C/C++ byte array into a universal buffer of bytes (IStream object).
+description: Converts a typical C/C++ byte array into a universal buffer of bytes (IStream object).
 ms.assetid: 512c561a-63f1-463e-9bae-9bec1ebdbe9b
 title: ISCardTypeConv::ConvertByteArrayToByteBuffer method (Scarddat.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # ISCardTypeConv::ConvertByteArrayToByteBuffer method
 
-\[The **ConvertByteArrayToByteBuffer** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **ConvertByteArrayToByteBuffer** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
 The **ConvertByteArrayToByteBuffer** method converts a typical C/C++ byte array into a universal buffer of bytes (**IStream** object).
 
@@ -86,7 +86,7 @@ Memory allocated is movable. Use the **IStream::Release** method to free the mem
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -112,7 +112,3 @@ Memory allocated is movable. Use the **IStream::Release** method to free the mem
  
 
  
-
-
-
-

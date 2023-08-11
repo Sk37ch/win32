@@ -1,5 +1,5 @@
 ---
-Description: The IWiaItem2::EnumRegisterEventInfo method creates an enumerator that you can use to obtain information about events for which an application is registered.
+description: The IWiaItem2::EnumRegisterEventInfo method creates an enumerator that you can use to obtain information about events for which an application is registered.
 ms.assetid: 9c25e9ae-bd3e-46a6-b4c2-c0bbcd265d51
 title: IWiaItem2::EnumRegisterEventInfo method (Wia.h)
 ms.topic: reference
@@ -73,13 +73,13 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 An application calls this method to create an enumerator object for the event information. **IWiaItem2::EnumRegisterEventInfo** stores the address of the [**IEnumWIA\_DEV\_CAPS**](/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_caps) interface of the enumerator object in the *ppIEnum* parameter. The program then uses the interface pointer to enumerate the properties of the event for which it is registered.
 
-Applications must call the [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method on the interface pointers that they receive through the *ppIEnum* parameter.
+Applications must call the [IUnknown::Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) method on the interface pointers that they receive through the *ppIEnum* parameter.
 
 ## Requirements
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                             |
@@ -90,7 +90,3 @@ Applications must call the [IUnknown::Release](https://msdn.microsoft.com/librar
  
 
  
-
-
-
-

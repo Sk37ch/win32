@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an object that represents the parent of the current object.
+description: Retrieves an object that represents the parent of the current object.
 ms.assetid: 2FDEF8D3-3F5B-43ae-9812-83B4249D9CBB
 title: IShellDispatch.Parent property (Shldisp.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ Property Parent As Object
 
 ## Property value
 
-A variable of type [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) that receives the parent object.
+A variable of type [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) that receives the parent object.
 
 ## Remarks
 
@@ -123,7 +123,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
@@ -136,7 +136,3 @@ End Sub
  
 
  
-
-
-
-

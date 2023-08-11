@@ -1,5 +1,5 @@
 ---
-Description: The LINEBEARERMODE\_ bit-flag constants describe different bearer modes of a call.
+description: The LINEBEARERMODE\_ bit-flag constants describe different bearer modes of a call.
 ms.assetid: 87e46ec9-ed5f-4ff5-a382-34eb164f4e66
 title: LINEBEARERMODE_ Constants (Tapi.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ This corresponds to a non-call-associated signaling connection from the applicat
 
 
 
-When a call is active in LINEBEARERMODE\_PASSTHROUGH, the service provider gives direct access to the attached hardware for control by the application. This mode is used primarily by applications desiring temporary direct control over asynchronous modems, accessed through the [communications functions](https://docs.microsoft.com/windows/desktop/DevIO/communications-functions), for the purpose of configuring or using special features not otherwise supported by the service provider.
+When a call is active in LINEBEARERMODE\_PASSTHROUGH, the service provider gives direct access to the attached hardware for control by the application. This mode is used primarily by applications desiring temporary direct control over asynchronous modems, accessed through the [communications functions](/windows/desktop/DevIO/communications-functions), for the purpose of configuring or using special features not otherwise supported by the service provider.
 
 
 </dt> </dl> </dd> <dt>
@@ -102,7 +102,7 @@ Note that bearer mode and media type are different notions. The bearer mode of a
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |
@@ -110,9 +110,4 @@ Note that bearer mode and media type are different notions. The bearer mode of a
 
 
  
-
- 
-
-
-
 

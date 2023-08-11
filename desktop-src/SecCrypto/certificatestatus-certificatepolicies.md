@@ -1,5 +1,5 @@
 ---
-Description: Returns an OIDs collection that represents the certificate policies used to create the Chain object.
+description: Returns an OIDs collection that represents the certificate policies used to create the Chain object.
 ms.assetid: 7fe7d3ea-28fc-4c0a-9b43-a97518ac65db
 title: CertificateStatus.CertificatePolicies method
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # CertificateStatus.CertificatePolicies method
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509ChainStatus Structure**](https://msdn.microsoft.com/library/s1yyxyx9(v=VS.90).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509ChainStatus Structure**](/dotnet/api/system.security.cryptography.x509certificates.x509chainstatus) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **CertificatePolicies** method returns an [**OIDs**](oids.md) collection that represents the certificate policies used to create the [**Chain**](chain.md) object.
 
@@ -46,7 +46,7 @@ Add certificate policy OIDs to the collection to specify the certificate policie
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |
@@ -58,7 +58,3 @@ Add certificate policy OIDs to the collection to specify the certificate policie
  
 
  
-
-
-
-

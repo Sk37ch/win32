@@ -16,7 +16,7 @@ This topic contains these sections:
 
 -   [Technologies](#technologies)
 -   [Requirements](#requirements)
--   [View the code (C++)](https://docs.microsoft.com/windows)
+-   [View the code (C++)](/windows)
 
 <span id="download_locations"></span>
 
@@ -30,7 +30,7 @@ This sample is not available for download.
 
 
 
-|                       |             |
+| Requirement | Value |
 |-----------------------|-------------|
 | Programming languages | C++         |
 | Programming models    | Windows/C++ |
@@ -41,7 +41,7 @@ This sample is not available for download.
 
 
 
-|                          |                        |
+| Requirement | Value |
 |--------------------------|------------------------|
 | Minimum supported client | Windows 8.1            |
 | Minimum supported server | Windows Server 2012 R2 |
@@ -1307,14 +1307,15 @@ void Renderer::CreateViewAndPerspective()
             )
         );
 
-    float aspectRatio = m_deviceResources->GetAspectRatio();
+    float aspectRatioX = m_deviceResources->GetAspectRatio();
+    float aspectRatioY = aspectRatioX < (16.0f / 9.0f) ? aspectRatioX / (16.0f / 9.0f) : 1.0f;
 
     DirectX::XMStoreFloat4x4(
         &m_constantBufferData.projection,
         DirectX::XMMatrixTranspose(
             DirectX::XMMatrixPerspectiveFovRH(
-                DirectX::XMConvertToRadians(70),
-                aspectRatio,
+                2.0f * std::atan(std::tan(DirectX::XMConvertToRadians(70) * 0.5f) / aspectRatioY),
+                aspectRatioX,
                 0.01f,
                 100.0f
                 )
@@ -1478,7 +1479,3 @@ Renderer::~Renderer()
  
 
  
-
-
-
-

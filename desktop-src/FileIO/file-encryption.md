@@ -1,5 +1,5 @@
 ---
-Description: The Encrypted File System (EFS) provides cryptographic protection of individual files on NTFS file system volumes by using a public-key system.
+description: The Encrypted File System (EFS) provides cryptographic protection of individual files on NTFS file system volumes by using a public-key system.
 ms.assetid: 5f20109f-727d-44a9-90a1-0adc19b00d28
 title: File Encryption
 ms.topic: article
@@ -24,6 +24,9 @@ Sparse files can be encrypted.
 
 TxF does not support most operations on Encrypted File System (EFS) files. The only operations TxF supports are read operations, such as [**ReadEncryptedFileRaw**](/windows/desktop/api/WinBase/nf-winbase-readencryptedfileraw).
 
+> [!NOTE]
+> When the source file is encrypted, **CopyFile** and **CopyFileEx** rely on the EFS service (hosted in lsass.exe) to create the target file and apply keys used in encryption of the source file. These operations are performed by EFS service while impersonating the caller of **CopyFile** or **CopyFileEx**.
+
 ## In this section
 
 
@@ -40,12 +43,7 @@ TxF does not support most operations on Encrypted File System (EFS) files. The o
 
 For more information about encryption, see [Adding Users to an Encrypted File](adding-users-to-an-encrypted-file.md).
 
-For more information about cryptography, see [Cryptography](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-portal).
+For more information about cryptography, see [Cryptography](/windows/desktop/SecCrypto/cryptography-portal).
 
  
-
- 
-
-
-
 

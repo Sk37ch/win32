@@ -1,5 +1,5 @@
 ---
-Description: WMI uses Event Tracing (ETW) and events can be obtained through the Event Viewer user interface or the Wevtutil command line tool. For more information, see Tracing WMI Activity.
+description: WMI uses Event Tracing (ETW) and events can be obtained through the Event Viewer user interface or the Wevtutil command line tool. For more information, see Tracing WMI Activity.
 ms.assetid: 315b8355-03b9-40f9-a6c1-29a49f5a2cd8
 ms.tgt_platform: multiple
 title: WMI Log Files
@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # WMI Log Files
 
-WMI uses [Event Tracing](https://docs.microsoft.com/windows/desktop/ETW/event-tracing-portal) (ETW) and events can be obtained through the **Event Viewer** user interface or the Wevtutil command line tool. For more information, see [Tracing WMI Activity](tracing-wmi-activity.md).
+WMI uses [Event Tracing](/windows/desktop/ETW/event-tracing-portal) (ETW) and events can be obtained through the **Event Viewer** user interface or the Wevtutil command line tool. For more information, see [Tracing WMI Activity](tracing-wmi-activity.md).
 
 -   [Event Tracing Instead of Text Logs](#event-tracing-instead-of-text-logs)
 -   [WMI Log Files](#wmi-log-files)
@@ -48,6 +48,3 @@ WMI providers also may maintain logs. Which log files appear on a system depends
  
 
  
-
-
-

@@ -12,13 +12,16 @@ api_name:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 api_location: 
+ms.custom: UpdateFrequency5
 ---
 
 # GetStreamPropertiesOperation class
 
-Registers an event handler that is invoked when the asynchronous operation started by [**GetStreamPropertiesAsync**](https://msdn.microsoft.com/library/Hh829001(v=VS.85).aspx) completes, and provides a method that returns the results of the operation.
+\[The feature associated with this page, [Windows Media Streaming API](/windows/win32/mediastreaming/media-streaming-api-portal), is a legacy feature. It has been superseded by [Media Casting](/windows/uwp/audio-video-camera/media-casting). **Media Casting** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Media Casting** instead of **Windows Media Streaming API**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
+Registers an event handler that is invoked when the asynchronous operation started by [**GetStreamPropertiesAsync**](/previous-versions/windows/desktop/legacy/hh829001(v=vs.85)) completes, and provides a method that returns the results of the operation.
 
 **GetStreamPropertiesOperation** has these types of members:
 
@@ -33,7 +36,7 @@ The **GetStreamPropertiesOperation** class has these methods.
 
 | Method                                                        | Description                                                                                                                                          |
 |:--------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetResults**](getstreampropertiesoperation-getresults.md) | Returns the results of the asynchronous operation started by [**GetStreamPropertiesAsync**](https://msdn.microsoft.com/library/Hh829001(v=VS.85).aspx).<br/> |
+| [**GetResults**](getstreampropertiesoperation-getresults.md) | Returns the results of the asynchronous operation started by [**GetStreamPropertiesAsync**](/previous-versions/windows/desktop/legacy/hh829001(v=vs.85)).<br/> |
 
 
 
@@ -47,17 +50,11 @@ The **GetStreamPropertiesOperation** class has these properties.
 
 | Property                                                               | Access type           | Description                                                                                                                                                                                   |
 |:-----------------------------------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Completed**](getstreampropertiesoperation-completed.md)<br/> | Read/write<br/> | Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetStreamPropertiesAsync**](https://msdn.microsoft.com/library/Hh829001(v=VS.85).aspx) is completed.<br/> |
+| [**Completed**](getstreampropertiesoperation-completed.md)<br/> | Read/write<br/> | Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetStreamPropertiesAsync**](/previous-versions/windows/desktop/legacy/hh829001(v=vs.85)) is completed.<br/> |
 
 
 
  
 
  
-
- 
-
-
-
-
 

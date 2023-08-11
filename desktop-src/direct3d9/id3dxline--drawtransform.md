@@ -1,5 +1,5 @@
 ---
-Description: Draws a line strip in screen space with a specified input transformation matrix.
+description: Draws a line strip in screen space with a specified input transformation matrix.
 ms.assetid: 869dc705-8162-4cd9-ac6a-c0ce32f430c3
 title: ID3DXLine::DrawTransform method (D3dx9core.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ Array of vertices that make up the line. See [**D3DXVECTOR3**](d3dxvector3.md).
 *dwVertexListCount* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Number of vertices in the vertex list.
 
@@ -84,7 +84,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -101,7 +101,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

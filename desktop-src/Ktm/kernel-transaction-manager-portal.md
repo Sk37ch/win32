@@ -1,5 +1,5 @@
 ---
-Description: Implement Transactional NTFS (TxF) and Transactional Registry (TxR). TxF allows transacted file system operations within NTFS. TxR allows transacted registry operations. Coordinate file system and registry operations with a transaction.
+description: Implement Transactional NTFS (TxF) and Transactional Registry (TxR). TxF allows transacted file system operations within NTFS. TxR allows transacted registry operations. Coordinate file system and registry operations with a transaction.
 ms.assetid: 2f601994-db1e-4aac-8db1-9a36c702664b
 title: Kernel Transaction Manager
 ms.topic: article
@@ -47,19 +47,14 @@ KTM is supported starting with Windows Vista.
 
 <dl> <dt>
 
-[Common Log File System](https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-portal)
+[Common Log File System](/previous-versions/windows/desktop/clfs/common-log-file-system-portal)
 </dt> <dt>
 
-[Transactional NTFS (TxF)](https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal)
+[Transactional NTFS (TxF)](/windows/desktop/FileIO/transactional-ntfs-portal)
 </dt> <dt>
 
-[Distributed Transaction Coordinator](https://msdn.microsoft.com/library/ms684146.aspx)
+[Distributed Transaction Coordinator](/previous-versions/windows/desktop/ms684146(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
 

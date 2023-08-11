@@ -29,7 +29,7 @@ A thread pump executes tasks asynchronously. It is created by calling [**D3DX11C
 
 ## Members
 
-The **ID3DX11ThreadPump** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ID3DX11ThreadPump** also has these types of members:
+The **ID3DX11ThreadPump** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ID3DX11ThreadPump** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -39,68 +39,16 @@ The **ID3DX11ThreadPump** interface has these methods.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Method</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="id3dx11threadpump-addworkitem.md"><strong>AddWorkItem</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
-</blockquote>
-<br/> Adds a work item to the thread pump.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="id3dx11threadpump-getqueuestatus.md"><strong>GetQueueStatus</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
-</blockquote>
-<br/> Gets the number of items in each of the three queues inside the thread pump.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="id3dx11threadpump-getworkitemcount.md"><strong>GetWorkItemCount</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
-</blockquote>
-<br/> Gets the number of work items in the thread pump.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="id3dx11threadpump-processdeviceworkitems.md"><strong>ProcessDeviceWorkItems</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
-</blockquote>
-<br/> Sets work items to the device after they have finished loading and processing.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="id3dx11threadpump-purgeallitems.md"><strong>PurgeAllItems</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
-</blockquote>
-<br/> Clears all work items from the thread pump.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="id3dx11threadpump-waitforallitems.md"><strong>WaitForAllItems</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
-</blockquote>
-<br/> Waits for all work items in the thread pump to finish.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Method | Description | 
+|--------|-------------|
+| <a href="id3dx11threadpump-addworkitem.md"><strong>AddWorkItem</strong></a> | <blockquote>[!Note]<br />The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.</blockquote><br /> Adds a work item to the thread pump.<br /> | 
+| <a href="id3dx11threadpump-getqueuestatus.md"><strong>GetQueueStatus</strong></a> | <blockquote>[!Note]<br />The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.</blockquote><br /> Gets the number of items in each of the three queues inside the thread pump.<br /> | 
+| <a href="id3dx11threadpump-getworkitemcount.md"><strong>GetWorkItemCount</strong></a> | <blockquote>[!Note]<br />The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.</blockquote><br /> Gets the number of work items in the thread pump.<br /> | 
+| <a href="id3dx11threadpump-processdeviceworkitems.md"><strong>ProcessDeviceWorkItems</strong></a> | <blockquote>[!Note]<br />The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.</blockquote><br /> Sets work items to the device after they have finished loading and processing.<br /> | 
+| <a href="id3dx11threadpump-purgeallitems.md"><strong>PurgeAllItems</strong></a> | <blockquote>[!Note]<br />The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.</blockquote><br /> Clears all work items from the thread pump.<br /> | 
+| <a href="id3dx11threadpump-waitforallitems.md"><strong>WaitForAllItems</strong></a> | <blockquote>[!Note]<br />The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.</blockquote><br /> Waits for all work items in the thread pump to finish.<br /> | 
+
 
 
 
@@ -124,7 +72,7 @@ The thread pump object takes up a substantial amount of resources, so generally 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
@@ -141,10 +89,4 @@ The thread pump object takes up a substantial amount of resources, so generally 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

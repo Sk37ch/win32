@@ -1,5 +1,5 @@
 ---
-Description: Obtains ownership of the logical directory entry file specified in the object path. This method is an extended version of the TakeOwnerShip method and is inherited from CIM\_LogicalFile.
+description: Obtains ownership of the logical directory entry file specified in the object path. This method is an extended version of the TakeOwnerShip method and is inherited from CIM\_LogicalFile.
 ms.assetid: a13acaa2-2203-470a-b989-15f8276e46c6
 ms.tgt_platform: multiple
 title: TakeOwnerShipEx method of the CIM_Directory class
@@ -25,7 +25,7 @@ The **TakeOwnerShipEx** method obtains ownership of the logical directory entry 
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -54,7 +54,7 @@ String that represents the name of the file (or directory) where the method fail
 *StartFileName* \[in\]
 </dt> <dd>
 
-String that represents the child file (or directory) to use as a starting point for this method. Typically, this parameter is the *StopFileName* parameter that specifies the file or directory at which an error occurred from the previous method call. If this parameter is null, the operation is performed on the file (or directory) specified in the [**ExecMethod**](https://docs.microsoft.com/windows/desktop/WmiSdk/swbemservices-execmethod) call.
+String that represents the child file (or directory) to use as a starting point for this method. Typically, this parameter is the *StopFileName* parameter that specifies the file or directory at which an error occurred from the previous method call. If this parameter is null, the operation is performed on the file (or directory) specified in the [**ExecMethod**](/windows/desktop/WmiSdk/swbemservices-execmethod) call.
 
 </dd> <dt>
 
@@ -227,7 +227,7 @@ wscript.echo objOutParams.ReturnValue
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -248,9 +248,4 @@ wscript.echo objOutParams.ReturnValue
 </dt> </dl>
 
  
-
- 
-
-
-
 

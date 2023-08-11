@@ -24,7 +24,7 @@ At application start up, the IME mode is set to the following defaults:
 
 
 
-|          | Software input panel | Hardware keyboard |
+| &nbsp;   | Software input panel | Hardware keyboard |
 |----------|----------------------|-------------------|
 | KOR, JPN | On                   | Off               |
 | CHS, CHT | On                   | On                |
@@ -41,14 +41,10 @@ The IME mode for a specified input scope is determined by each IME. Developers c
 
 ## Resources
 
--   [InputScope Enumeration](https://msdn.microsoft.com/library/windows/desktop/ms538181(v=vs.85).aspx)
--   [ImmSetConversionStatus](https://msdn.microsoft.com/library/windows/desktop/dd318584(v=vs.85).aspx)
--   [ImmGetConversionStatus](https://msdn.microsoft.com/library/aa912903.aspx)
+-   [InputScope Enumeration](/windows/win32/api/inputscope/ne-inputscope-inputscope)
+-   [ImmSetConversionStatus](/windows/win32/api/immdev/nf-immdev-immsetconversionstatus)
+-   [ImmGetConversionStatus](/previous-versions/aa912903(v=msdn.10))
 
  
 
  
-
-
-
-

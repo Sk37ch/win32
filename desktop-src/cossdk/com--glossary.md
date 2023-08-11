@@ -1,5 +1,5 @@
 ---
-Description: Glossary page
+description: Glossary page
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 26a72de1-24bc-41e6-8d41-61d45f581e51
 title: COM+ Glossary
@@ -210,7 +210,7 @@ In a distributed transaction system, the conceptual representation of a transact
 <span id="cos.com_object_gloss"></span><span id="COS.COM_OBJECT_GLOSS"></span>**COM object**
 </dt> <dd>
 
-In the COM programming model, a programming structure encapsulating both data and functionality, which are defined and allocated as a single unit and for which the only public access is through the programming structure's interfaces. A COM object must support, at a minimum, the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface, which maintains the object's existence while it is being used and provides access to the object's other interfaces.
+In the COM programming model, a programming structure encapsulating both data and functionality, which are defined and allocated as a single unit and for which the only public access is through the programming structure's interfaces. A COM object must support, at a minimum, the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface, which maintains the object's existence while it is being used and provides access to the object's other interfaces.
 
 </dd> <dt>
 
@@ -826,6 +826,3 @@ Units of application logic providing data and services to other applications. Ap
  
 
  
-
-
-

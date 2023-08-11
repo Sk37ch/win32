@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValue.ValueAsObject property"
 title: ColumnValue.ValueAsObject property 
 TOCTitle: 'ValueAsObject property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValue.ValueAsObject
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the last set or retrieved value of the column. The value is returned as a generic object.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -53,15 +54,14 @@ public abstract Object ValueAsObject { get; }
 
 #### Property value
 
-Type: [System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+Type: [System.Object](/dotnet/api/system.object)  
 
 ## See also
 
 #### Reference
 
-[ColumnValue class](dn334206\(v=exchg.10\).md)
+[ColumnValue class](./columnvalue-class.md)
 
-[ColumnValue members](dn334156\(v=exchg.10\).md)
+[ColumnValue members](./columnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

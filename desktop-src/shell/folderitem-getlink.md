@@ -1,5 +1,5 @@
 ---
-Description: Contains the item's ShellLinkObject object, if the item is a shortcut.
+description: Contains the item's ShellLinkObject object, if the item is a shortcut.
 ms.assetid: 6444476a-a065-4f69-9330-584e30dbe30d
 title: FolderItem.GetLink property (Shldisp.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ objGetLink = FolderItem.GetLink
 
 ## Property value
 
-A variable of type [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) that receives the [**ShellLinkObject**](shelllinkobject-object.md) object.
+A variable of type [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) that receives the [**ShellLinkObject**](shelllinkobject-object.md) object.
 
 ## Examples
 
@@ -156,7 +156,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
@@ -179,7 +179,3 @@ End Sub
  
 
  
-
-
-
-

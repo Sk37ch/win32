@@ -1,5 +1,5 @@
 ---
-Description: Subclasses all controls in a dialog box and in the dialog window itself.
+description: Subclasses all controls in a dialog box and in the dialog window itself.
 ms.assetid: 4d3c298b-07ba-4668-badd-dddecc389e70
 title: Ctl3dSubclassDlgEx function
 ms.topic: reference
@@ -74,13 +74,13 @@ Returns **TRUE** if the function succeeds; otherwise, it returns **FALSE**.
 
 This function is especially useful in applications based on C++.
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ctl3d32.dll</dt> </dl> |
 
@@ -89,7 +89,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

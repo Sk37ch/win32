@@ -1,5 +1,5 @@
 ---
-Description: The MPEG-4 file sink creates MP4 files.
+description: The MPEG-4 file sink creates MP4 files.
 ms.assetid: 069b8e72-d081-466e-ac8d-c3f81c8a6f35
 title: MPEG-4 File Sink
 ms.topic: reference
@@ -67,7 +67,7 @@ The MPEG-4 file sink has the following requirements for AVC bitstreams:
 
 -   The bitstream must conform to the H.264 Annex B format specification. In particular, NALUs must be delimited with either 3-byte or 4-byte start codes.
 -   Media samples must contain all slice and data NALUs that correspond to a single presentation time.
--   The MPEG-4 file sink does not support content that has B frames.
+-   When writing B-frames into an MP4 file, you must set both the presentation time stamp and the decode time stamp. If stream has a B frame and the decode timestamp is not set, the MP4 writer will see the frame time going backwards and will drop the frame. 
 
 ## AAC Audio
 
@@ -78,7 +78,7 @@ For AAC audio, the MPEG-4 file sink can generate the sample description box for 
 
 For more information about these substypes, see [AAC Media Types](aac-media-types.md).
 
-For the **MFAudioFormat\_AAC** subtype, the media type optionally contains the [**MF\_MT\_USER\_DATA**](mf-mt-user-data-attribute.md) attribute. If present, this attribute the portion of the [**HEAACWAVEINFO**](https://msdn.microsoft.com/library/Dd757806(v=VS.85).aspx) structure that appears after the **WAVEFORMATEX** structure (that is, after the **wfx** member). This is followed by the AudioSpecificConfig() data, as defined by ISO/IEC 14496-3. If the **MF\_MT\_USER\_DATA** attribute is not present, the stream is assumed to be AAC Low Complexity (LC) profile, and the MPEG-4 file sink generates a suitable sample description box.
+For the **MFAudioFormat\_AAC** subtype, the media type optionally contains the [**MF\_MT\_USER\_DATA**](mf-mt-user-data-attribute.md) attribute. If present, this attribute the portion of the [**HEAACWAVEINFO**](/windows/win32/api/mmreg/ns-mmreg-heaacwaveinfo) structure that appears after the **WAVEFORMATEX** structure (that is, after the **wfx** member). This is followed by the AudioSpecificConfig() data, as defined by ISO/IEC 14496-3. If the **MF\_MT\_USER\_DATA** attribute is not present, the stream is assumed to be AAC Low Complexity (LC) profile, and the MPEG-4 file sink generates a suitable sample description box.
 
 For the **MEDIASUBTYPE\_RAW\_AAC1** subtype, the media sink must contain the [**MF\_MT\_USER\_DATA**](mf-mt-user-data-attribute.md) attribute, and the attribute must contain the AudioSpecificConfig() data.
 
@@ -165,7 +165,7 @@ The MPEG-4 file sink creates the MPEG-4 variant of the MP3 sample description bo
 
 
 
-|                                     |                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
@@ -191,7 +191,3 @@ The MPEG-4 file sink creates the MPEG-4 variant of the MP3 sample description bo
  
 
  
-
-
-
-

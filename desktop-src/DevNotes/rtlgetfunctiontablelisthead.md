@@ -1,5 +1,5 @@
 ---
-Description: Enables a debugger to examine dynamic function table information.
+description: Enables a debugger to examine dynamic function table information.
 ms.assetid: 32fd0dfd-ca7c-45e4-9d59-2b3318d7e13d
 title: RtlGetFunctionTableListHead function
 ms.topic: reference
@@ -40,13 +40,13 @@ Returns a pointer to the head of the function table list.
 
 ## Remarks
 
-Note that the Windows Driver Kit (WDK) header file Ntdef.h is required for some definitions. The associated import library, Ntdll.lib, is available in the WDK. You can also use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Ntdll.dll.
+Note that the Windows Driver Kit (WDK) header file Ntdef.h is required for some definitions. The associated import library, Ntdll.lib, is available in the WDK. You can also use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Ntdll.dll.
 
 ## Requirements
 
 
 
-|                |                                                                                      |
+| Requirement | Value |
 |----------------|--------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ntdll.dll</dt> </dl> |
 
@@ -55,7 +55,3 @@ Note that the Windows Driver Kit (WDK) header file Ntdef.h is required for some 
  
 
  
-
-
-
-

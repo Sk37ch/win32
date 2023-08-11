@@ -1,5 +1,5 @@
 ---
-Description: Finishes setting up a trace buffer with optional fields for sprintf-style traces.
+description: SetAsyncTraceParamsEx function - Finishes setting up a trace buffer with optional fields for sprintf-style traces.
 ms.assetid: 6c23e61c-0285-47ba-b614-b73bd001d552
 title: SetAsyncTraceParamsEx function
 ms.topic: reference
@@ -102,13 +102,13 @@ This function returns 1 if the function succeeds; otherwise, it returns 0.
 
 Exstrace.dll is an optional component that installs with the Simple Mail Transfer Protocol (SMTP) and the Network News Transfer Protocol (NNTP).
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Exstrace.dll</dt> </dl> |
 
@@ -117,7 +117,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

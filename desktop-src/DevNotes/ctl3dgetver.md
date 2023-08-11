@@ -1,5 +1,5 @@
 ---
-Description: Indicates the version of CTL3D that is currently running.
+description: Indicates the version of CTL3D that is currently running.
 ms.assetid: 38c0842c-417f-4ca1-acc2-3bbadf45c804
 title: Ctl3dGetVer function
 ms.topic: reference
@@ -38,13 +38,13 @@ Returns a value that contains the major version number in the high-order byte an
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ctl3d32.dll</dt> </dl> |
 
@@ -53,7 +53,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

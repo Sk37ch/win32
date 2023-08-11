@@ -1,5 +1,5 @@
 ---
-Description: Specifies the relative thread priority for a branch of the topology.
+description: Specifies the relative thread priority for a branch of the topology.
 ms.assetid: 7BCD2EE0-94FB-4438-9B6A-7B26DBFB5978
 title: MF_TOPONODE_WORKQUEUE_MMCSS_PRIORITY attribute (Mfidl.h)
 ms.topic: reference
@@ -20,7 +20,7 @@ This attribute applies to source nodes (**MF\_TOPOLOGY\_SOURCESTREAM\_NODE**). T
 
 This attribute requires the [MF\_TOPONODE\_WORKQUEUE\_ID](mf-toponode-workqueue-id-attribute.md) and [MF\_TOPONODE\_WORKQUEUE\_MMCSS\_CLASS](mf-toponode-workqueue-mmcss-class-attribute.md) attributes on the same node.
 
-The value of the attribute is the relative thread priority of the work queue for this branch of the topology. The [Multimedia Class Scheduler Service](https://msdn.microsoft.com/library/ms684247(v=VS.85).aspx) (MMCSS) uses the relative priority when it sets the thread priority. For more information, see [**AvSetMmThreadPriority**](https://msdn.microsoft.com/library/ms681975(v=VS.85).aspx).
+The value of the attribute is the relative thread priority of the work queue for this branch of the topology. The [Multimedia Class Scheduler Service](../procthread/multimedia-class-scheduler-service.md) (MMCSS) uses the relative priority when it sets the thread priority. For more information, see [**AvSetMmThreadPriority**](/windows/win32/api/avrt/nf-avrt-avsetmmthreadpriority).
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -28,7 +28,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |
@@ -64,7 +64,3 @@ The GUID constant for this attribute is exported from mfuuid.lib.
  
 
  
-
-
-
-

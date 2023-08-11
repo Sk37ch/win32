@@ -1,5 +1,5 @@
 ---
-Description: Sets an array of floating point values.
+description: Sets an array of floating point values.
 ms.assetid: 4b9c27b4-0255-4bbf-9168-491936d64fb9
 title: ID3DXBaseEffect::SetFloatArray method (D3DX9Shader.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ Unique identifier. See [Handles (Direct3D 9)](handles.md).
 *pf* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](../winprog/windows-data-types.md)\***
 
 Array of floating point values.
 
@@ -58,7 +58,7 @@ Array of floating point values.
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of floating point values in the array.
 
@@ -74,7 +74,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -94,7 +94,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

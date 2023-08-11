@@ -1,5 +1,5 @@
 ---
-Description: The EnumPrinterDrivers function enumerates the printer drivers installed on a specified printer server.
+description: The EnumPrinterDrivers function enumerates the printer drivers installed on a specified printer server.
 ms.assetid: fa3d8cf4-70bc-4362-833e-e4217ed5d43b
 title: EnumPrinterDrivers function (Winspool.h)
 ms.topic: reference
@@ -89,7 +89,7 @@ The type of information structure returned in the *pDriverInfo* buffer. It can b
 
 A pointer to a buffer that receives an array of DRIVER\_INFO\_\* structures, as specified by *Level*. Each structure contains data that describes an available printer driver. The buffer must be large enough to receive the array of structures and any strings or other data to which the structure members point.
 
-To determine the required buffer size, call **EnumPrinterDrivers** with *cbBuf* set to zero. **EnumPrinterDrivers** fails, [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns ERROR\_INSUFFICIENT\_BUFFER, and the *pcbNeeded* parameter returns the size, in bytes, of the buffer required to hold the array of structures and their data.
+To determine the required buffer size, call **EnumPrinterDrivers** with *cbBuf* set to zero. **EnumPrinterDrivers** fails, [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns ERROR\_INSUFFICIENT\_BUFFER, and the *pcbNeeded* parameter returns the size, in bytes, of the buffer required to hold the array of structures and their data.
 
 </dd> <dt>
 
@@ -131,7 +131,7 @@ If the function fails, the return value is zero.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -177,9 +177,4 @@ If the function fails, the return value is zero.
 </dt> </dl>
 
  
-
- 
-
-
-
 

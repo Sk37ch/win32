@@ -1,5 +1,5 @@
 ---
-Description: Contains an object for each user in the role to which the collection is related.
+description: UsersInRole collection - Contains an object for each user in the role to which the collection is related.
 ms.assetid: e7d9e5e8-1927-42b2-bdd5-0c49a562c31f
 title: UsersInRole collection
 ms.topic: reference
@@ -22,7 +22,7 @@ This collection supports the [**Add**](/windows/desktop/api/ComAdmin/nf-comadmin
 
 ## Members
 
-The **UsersInRole** collection inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
+The **UsersInRole** collection inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Related Collections
 
@@ -46,7 +46,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                       |
+| Entry | Value |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The user name. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) or [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) property method is called on an object of this collection. |
 | Access         | WriteOnce                                                                                                                                                                             |
@@ -68,6 +68,3 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
  
 
  
-
-
-

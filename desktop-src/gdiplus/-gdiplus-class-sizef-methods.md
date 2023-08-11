@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the methods of the SizeF class. For a complete class listing, see SizeF Class.
+description: This topic lists the methods of the SizeF class. For a complete class listing, see SizeF Class.
 ms.assetid: e4efc02b-e8a5-4c4b-a42c-256b746ca3a3
 title: SizeF Methods
 ms.topic: reference
@@ -12,12 +12,9 @@ This topic lists the methods of the [**SizeF**](/windows/desktop/api/gdiplustype
 
 -   [**Empty**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-sizef-empty)
 -   [**Equals**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-sizef-equals)
--   [**operator-(SizeF&)**](https://msdn.microsoft.com/library/ms534743(v=VS.85).aspx)
--   [**operator+(SizeF&)**](https://msdn.microsoft.com/library/ms534742(v=VS.85).aspx)
+-   [**operator-(SizeF&)**](/previous-versions//ms534743(v=vs.85))
+-   [**operator+(SizeF&)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-sizef-operator-add)
 
  
 
  
-
-
-

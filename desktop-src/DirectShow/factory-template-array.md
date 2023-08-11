@@ -1,12 +1,15 @@
 ---
-Description: Factory Template Array
+description: Factory Template Array
 ms.assetid: 310afccd-42a6-426e-b455-7bf98062bf36
 title: Factory Template Array
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Factory Template Array
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The factory template contains the following public member variables:
 
@@ -63,7 +66,7 @@ int g_cTemplates = sizeof(g_Templates) / sizeof(g_Templates[0]);
 
 
 
-The `CreateInstance` method calls the class constructor and returns a pointer to the new class instance. The parameter *pUnk* is a pointer to the aggregating [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown). You can simply pass this parameter to the class constructor. The parameter *pHr* is a pointer to an HRESULT value. The class constructor sets this to an appropriate value, but if the constructor fails, set the value to E\_OUTOFMEMORY.
+The `CreateInstance` method calls the class constructor and returns a pointer to the new class instance. The parameter *pUnk* is a pointer to the aggregating [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown). You can simply pass this parameter to the class constructor. The parameter *pHr* is a pointer to an HRESULT value. The class constructor sets this to an appropriate value, but if the constructor fails, set the value to E\_OUTOFMEMORY.
 
 The [**NAME**](name.md) macro generates a string in debug builds but resolves to **NULL** in retail builds. It is used in this example to give the component a name that appears in debug logs but does not occupy memory in the final version.
 
@@ -79,6 +82,3 @@ The `CreateInstance` method can have any name, because the class factory refers 
  
 
  
-
-
-

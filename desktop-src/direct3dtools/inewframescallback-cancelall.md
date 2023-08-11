@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host that all requests have been cancelled.
+description: A callback that notifies the host that all requests have been cancelled.
 MS-HAID: vspixengine.INewFramesCallback\_CancelAll
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -32,11 +32,8 @@ A callback that notifies the host that all requests have been cancelled.
 
 ## <span id="see_also"></span>See also
 
-[**INewFramesCallback**](https://docs.microsoft.com/windows/desktop/direct3dtools/inewframescallback)
+[**INewFramesCallback**](/windows/desktop/direct3dtools/inewframescallback)
 
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: The SPFILENOTIFY\_QUEUESCAN\_EX notification is sent to a callback routine by SetupScanFileQueue for each node in the copy subqueue of the file queue.
+description: The SPFILENOTIFY\_QUEUESCAN\_EX notification is sent to a callback routine by SetupScanFileQueue for each node in the copy subqueue of the file queue.
 ms.assetid: 293e63f9-9567-4ea7-b7e5-e5046c8a704b
 title: SPFILENOTIFY_QUEUESCAN_EX message (Setupapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ Pointer to a [**FILEPATHS**](/windows/desktop/api/Setupapi/ns-setupapi-filepaths
 
 ## Return value
 
-The callback routine should return a [system error code](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+The callback routine should return a [system error code](/windows/desktop/Debug/system-error-codes).
 
 If the callback routine returns NO\_ERROR, the queue scan continues. If the routine returns any other error code, the queue scan aborts and [**SetupScanFileQueue**](/windows/desktop/api/Setupapi/nf-setupapi-setupscanfilequeuea) returns FALSE.
 
@@ -45,7 +45,7 @@ If the callback routine returns NO\_ERROR, the queue scan continues. If the rout
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -67,9 +67,4 @@ If the callback routine returns NO\_ERROR, the queue scan continues. If the rout
 </dt> </dl>
 
  
-
- 
-
-
-
 

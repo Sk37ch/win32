@@ -1,5 +1,5 @@
 ---
-Description: Resizes a video stream.
+description: Resizes a video stream.
 ms.assetid: 4acd6366-1abf-43f3-b6c9-4ea17a335cec
 title: Video Resizer DSP (Wmcodecdsp.h)
 ms.topic: reference
@@ -16,10 +16,10 @@ CLSID\_CResizerDMO
 
 ## Interfaces
 
--   [**IMediaObject**](https://msdn.microsoft.com/library/Dd406926(v=VS.85).aspx)
+-   [**IMediaObject**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject)
 -   [**IMFRealTimeClient**](/windows/desktop/api/mfidl/nn-mfidl-imfrealtimeclient)
 -   [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)
--   [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx)
+-   [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore)
 -   [**IWMResizerProps**](/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresizerprops)
 
 ## Formats
@@ -122,7 +122,7 @@ For more information, see the following topics:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
@@ -141,7 +141,3 @@ For more information, see the following topics:
  
 
  
-
-
-
-

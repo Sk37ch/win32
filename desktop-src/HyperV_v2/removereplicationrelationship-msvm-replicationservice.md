@@ -1,5 +1,5 @@
 ---
-Description: Removes a virtual machine replication relationship and acts on the primary replication relationship of the virtual machine.
+description: Removes a virtual machine replication relationship and acts on the primary replication relationship of the virtual machine.
 ms.assetid: a9a20aa1-378d-4a2a-9ebc-9786ab2dfda7
 title: RemoveReplicationRelationship method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -43,14 +43,14 @@ uint32 RemoveReplicationRelationship(
 *ComputerSystem* \[in\]
 </dt> <dd>
 
-A reference to a [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) instance that represents the virtual machine for which the replication relationship should be removed.
+A reference to a [**CIM\_ComputerSystem**](/windows/desktop/CIMWin32Prov/cim-computersystem) instance that represents the virtual machine for which the replication relationship should be removed.
 
 </dd> <dt>
 
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -106,7 +106,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -127,9 +127,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

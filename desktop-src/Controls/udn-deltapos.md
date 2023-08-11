@@ -52,7 +52,7 @@ The UDN\_DELTAPOS notification code is sent before the [**WM\_VSCROLL**](wm-vscr
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -64,14 +64,8 @@ The UDN\_DELTAPOS notification code is sent before the [**WM\_VSCROLL**](wm-vscr
 
 <dl> <dt>
 
-[**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command)
+[**WM\_COMMAND**](/windows/desktop/menurc/wm-command)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

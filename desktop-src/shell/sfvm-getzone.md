@@ -1,5 +1,5 @@
 ---
-Description: Allows the callback object to provide Internet zone information. Used by IShellFolderViewCB::MessageSFVCB.
+description: Allows the callback object to provide Internet zone information. Used by IShellFolderViewCB::MessageSFVCB.
 ms.assetid: 6fae7925-b1be-4270-9318-7fa517563dad
 title: SFVM_GETZONE message (Shlobj.h)
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[This notification is supported through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be unsupported in subsequent versions of Windows.\]
 
-Allows the callback object to provide Internet zone information. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/library/Bb774968(v=VS.85).aspx).
+Allows the callback object to provide Internet zone information. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb).
 
 
 ```C++
@@ -28,7 +28,7 @@ SFVM_GETZONE
 *zone* \[out\]
 </dt> <dd>
 
-One of the following values indicating the Internet zone. These values constitute the [**URLZONE**](https://msdn.microsoft.com/library/ms537175(v=VS.85).aspx) enumeration, defined in Urlmon.h.
+One of the following values indicating the Internet zone. These values constitute the [**URLZONE**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537175(v=vs.85)) enumeration, defined in Urlmon.h.
 
 <dt>
 
@@ -91,7 +91,7 @@ Zone used for websites that are not trusted.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
@@ -102,7 +102,3 @@ Zone used for websites that are not trusted.
  
 
  
-
-
-
-

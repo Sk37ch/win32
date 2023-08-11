@@ -1,5 +1,5 @@
 ---
-Description: Sets a pointer to an optional callback function that computes the percentage of spherical harmonic (SH) computations completed and gives the caller the option of aborting the simulator.
+description: Sets a pointer to an optional callback function that computes the percentage of spherical harmonic (SH) computations completed and gives the caller the option of aborting the simulator.
 ms.assetid: 0a47610d-fa4e-4094-9adb-4fd9306b8a12
 title: ID3DXPRTEngine::SetCallBack method (D3DX9Mesh.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ Pointer to the [LPD3DXSHPRTSIMCB](lpd3dxshprtsimcb.md) callback function that co
 *Frequency* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Frequency of callback calls. The inverse of Frequency is approximately the number of times the callback function will be called.
 
@@ -58,7 +58,7 @@ Frequency of callback calls. The inverse of Frequency is approximately the numbe
 *lpUserContext* \[in\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](../winprog/windows-data-types.md)**
 
 Pointer to a user-defined value which is passed to the callback function. Typically used by an application to pass a pointer to a data structure that provides context information for the callback function.
 
@@ -74,7 +74,7 @@ The return value is S\_OK.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -91,7 +91,3 @@ The return value is S\_OK.
  
 
  
-
-
-
-

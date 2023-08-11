@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a collection of the policy's qualifiers.
+description: Retrieves a collection of the policy's qualifiers.
 ms.assetid: aa5e2225-0a39-40bc-868c-d96f5953edaa
 title: PolicyInformation.Qualifiers property (Iads.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # PolicyInformation.Qualifiers property
 
-\[The **Qualifiers** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Extension Class**](https://msdn.microsoft.com/library/x5x51x86(v=VS.100).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Policies to process policy information in the Certificate policies extension.\]
+\[The **Qualifiers** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Extension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509extension) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Policies to process policy information in the Certificate policies extension.\]
 
 The **Qualifiers** property retrieves a collection of the policy's qualifiers.
 
@@ -38,7 +38,7 @@ The policy's Certification Practice Statement (CPS) pointer or user notice quali
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | Header<br/>          | <dl> <dt>Iads.h</dt> </dl>      |
@@ -56,7 +56,3 @@ The policy's Certification Practice Statement (CPS) pointer or user notice quali
  
 
  
-
-
-
-

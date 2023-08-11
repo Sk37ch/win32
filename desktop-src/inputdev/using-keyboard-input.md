@@ -32,86 +32,64 @@ When the window procedure receives the [**WM\_KEYDOWN**](wm-keydown.md) message,
 The following example shows the window procedure framework that a typical application uses to receive and process keystroke messages.
 
 
-```
-        case WM_KEYDOWN: 
-            switch (wParam) 
-            { 
-                case VK_LEFT: 
-                    
-                    // Process the LEFT ARROW key. 
-                     
-                    break; 
- 
-                case VK_RIGHT: 
-                    
-                    // Process the RIGHT ARROW key. 
-                     
-                    break; 
- 
-                case VK_UP: 
-                    
-                    // Process the UP ARROW key. 
-                     
-                    break; 
- 
-                case VK_DOWN: 
-                    
-                    // Process the DOWN ARROW key. 
-                     
-                    break; 
- 
-                case VK_HOME: 
-                    
-                    // Process the HOME key. 
-                     
-                    break; 
- 
-                case VK_END: 
-                    
-                    // Process the END key. 
-                     
-                    break; 
- 
-                case VK_INSERT: 
-                    
-                    // Process the INS key. 
-                     
-                    break; 
- 
-                case VK_DELETE: 
-                    
-                    // Process the DEL key. 
-                     
-                    break; 
- 
-                case VK_F2: 
-                    
-                    // Process the F2 key. 
-                    
-                    break; 
- 
-                
-                // Process other non-character keystrokes. 
-                 
-                default: 
-                    break; 
-            } 
-```
+```cpp
+case WM_KEYDOWN: 
+	switch (wParam) 
+	{ 
+		case VK_LEFT: 
+			// Process the LEFT ARROW key. 
+			break; 
 
+		case VK_RIGHT: 
+			// Process the RIGHT ARROW key. 
+			break; 
 
+		case VK_UP: 
+			// Process the UP ARROW key. 
+			break; 
+
+		case VK_DOWN: 
+			// Process the DOWN ARROW key. 
+			break; 
+
+		case VK_HOME: 
+			// Process the HOME key. 
+			break; 
+
+		case VK_END: 
+			// Process the END key. 
+			break; 
+
+		case VK_INSERT: 
+			// Process the INS key. 
+			break; 
+
+		case VK_DELETE: 
+			// Process the DEL key. 
+			break; 
+
+		case VK_F2: 
+			// Process the F2 key. 
+			break; 
+
+		default: 
+			// Process other non-character keystrokes. 
+			break; 
+	}
+```
 
 ## Translating Character Messages
 
-Any thread that receives character input from the user must include the [**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage) function in its message loop. This function examines the virtual-key code of a keystroke message and, if the code corresponds to a character, places a character message into the message queue. The character message is removed and dispatched on the next iteration of the message loop; the *wParam* parameter of the message contains the character code.
+Any thread that receives character input from the user must include the [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage) function in its message loop. This function examines the virtual-key code of a keystroke message and, if the code corresponds to a character, places a character message into the message queue. The character message is removed and dispatched on the next iteration of the message loop; the *wParam* parameter of the message contains the character code.
 
-In general, a thread's message loop should use the [**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage) function to translate every message, not just virtual-key messages. Although **TranslateMessage** has no effect on other types of messages, it guarantees that keyboard input is translated correctly. The following example shows how to include the **TranslateMessage** function in a typical thread message loop.
+In general, a thread's message loop should use the [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage) function to translate every message, not just virtual-key messages. Although **TranslateMessage** has no effect on other types of messages, it guarantees that keyboard input is translated correctly. The following example shows how to include the **TranslateMessage** function in a typical thread message loop.
 
 
-```
+```cpp
 MSG msg;
 BOOL bRet;
 
-while (( bRet = GetMessage(&msg, (HWND) NULL, 0, 0)) != 0) 
+while ((bRet = GetMessage(&msg, (HWND) NULL, 0, 0)) != 0) 
 {
     if (bRet == -1);
     {
@@ -128,11 +106,9 @@ while (( bRet = GetMessage(&msg, (HWND) NULL, 0, 0)) != 0)
 }
 ```
 
-
-
 ## Processing Character Messages
 
-A window procedure receives a character message when the [**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage) function translates a virtual-key code corresponding to a character key. The character messages are [**WM\_CHAR**](wm-char.md), [**WM\_DEADCHAR**](wm-deadchar.md), [**WM\_SYSCHAR**](https://docs.microsoft.com/windows/desktop/menurc/wm-syschar), and [**WM\_SYSDEADCHAR**](wm-sysdeadchar.md). A typical window procedure ignores all character messages except **WM\_CHAR**. The **TranslateMessage** function generates a **WM\_CHAR** message when the user presses any of the following keys:
+A window procedure receives a character message when the [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage) function translates a virtual-key code corresponding to a character key. The character messages are [**WM\_CHAR**](wm-char.md), [**WM\_DEADCHAR**](wm-deadchar.md), [**WM\_SYSCHAR**](/windows/desktop/menurc/wm-syschar), and [**WM\_SYSDEADCHAR**](wm-sysdeadchar.md). A typical window procedure ignores all character messages except **WM\_CHAR**. The **TranslateMessage** function generates a **WM\_CHAR** message when the user presses any of the following keys:
 
 -   Any character key
 -   BACKSPACE
@@ -145,60 +121,45 @@ When a window procedure receives the [**WM\_CHAR**](wm-char.md) message, it shou
 
 The following example shows the window procedure framework that a typical application uses to receive and process character messages.
 
+```cpp
+case WM_CHAR:
+	switch (wParam)
+	{
+		case 0x08: // or '\b'
+			// Process a backspace.
+			break;
+			
+		case 0x09: // or '\t'
+			// Process a tab.
+			break;
 
+		case 0x0A: // or '\n'
+			// Process a linefeed.
+			break;
+			
+		case 0x0D:
+			// Process a carriage return.
+			break;
+
+		case 0x1B:
+			// Process an escape.
+			break;
+
+		default:
+			// Process displayable characters.
+			break;
+	}
 ```
-        case WM_CHAR: 
-            switch (wParam) 
-            { 
-                case 0x08: 
-                    
-                    // Process a backspace. 
-                     
-                    break; 
- 
-                case 0x0A: 
-                    
-                    // Process a linefeed. 
-                     
-                    break; 
- 
-                case 0x1B: 
-                    
-                    // Process an escape. 
-                    
-                    break; 
- 
-                case 0x09: 
-                    
-                    // Process a tab. 
-                     
-                    break; 
- 
-                case 0x0D: 
-                    
-                    // Process a carriage return. 
-                     
-                    break; 
- 
-                default: 
-                    
-                    // Process displayable characters. 
-                     
-                    break; 
-            } 
-```
-
-
 
 ## Using the Caret
 
-A window that receives keyboard input typically displays the characters the user types in the window's client area. A window should use a caret to indicate the position in the client area where the next character will appear. The window should also create and display the caret when it receives the keyboard focus, and hide and destroy the caret when it loses the focus. A window can perform these operations in the processing of the [**WM\_SETFOCUS**](wm-setfocus.md) and [**WM\_KILLFOCUS**](wm-killfocus.md) messages. For more information about carets, see [Carets](https://docs.microsoft.com/windows/desktop/menurc/carets).
+A window that receives keyboard input typically displays the characters the user types in the window's client area. A window should use a caret to indicate the position in the client area where the next character will appear. The window should also create and display the caret when it receives the keyboard focus, and hide and destroy the caret when it loses the focus. A window can perform these operations in the processing of the [**WM\_SETFOCUS**](wm-setfocus.md) and [**WM\_KILLFOCUS**](wm-killfocus.md) messages. For more information about carets, see [Carets](/windows/desktop/menurc/carets).
 
 ## Displaying Keyboard Input
 
 The example in this section shows how an application can receive characters from the keyboard, display them in the client area of a window, and update the position of the caret with each character typed. It also demonstrates how to move the caret in response to the LEFT ARROW, RIGHT ARROW, HOME, and END keystrokes, and shows how to highlight selected text in response to the SHIFT+RIGHT ARROW key combination.
 
-During processing of the [**WM\_CREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-create) message, the window procedure shown in the example allocates a 64K buffer for storing keyboard input. It also retrieves the metrics of the currently loaded font, saving the height and average width of characters in the font. The height and width are used in processing the [**WM\_SIZE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-size) message to calculate the line length and maximum number of lines, based on the size of the client area.
+During processing of the [**WM\_CREATE**](/windows/desktop/winmsg/wm-create) message, the window procedure shown in the example allocates a 64K buffer for storing keyboard input. It also retrieves the metrics of the currently loaded font, saving the height and average width of characters in the font. The height and width are used in processing the [**WM\_SIZE**](/windows/desktop/winmsg/wm-size) message to calculate the line length and maximum number of lines, based on the size of the client area.
 
 The window procedure creates and displays the caret when processing the [**WM\_SETFOCUS**](wm-setfocus.md) message. It hides and deletes the caret when processing the [**WM\_KILLFOCUS**](wm-killfocus.md) message.
 
@@ -209,7 +170,7 @@ The window procedure performs the left, right, end, and home caret movements whe
 Note that the following code is written so that it can be compiled either as Unicode or as ANSI. If the source code defines UNICODE, strings are handled as Unicode characters; otherwise, they are handled as ANSI characters.
 
 
-```
+```cpp
 #define BUFSIZE 65535 
 #define SHIFTED 0x8000 
  
@@ -553,13 +514,3 @@ LONG APIENTRY MainWndProc(HWND hwndMain, UINT uMsg, WPARAM wParam, LPARAM lParam
     return NULL; 
 } 
 ```
-
-
-
- 
-
- 
-
-
-
-

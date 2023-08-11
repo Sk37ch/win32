@@ -1,5 +1,5 @@
 ---
-Description: This property identifies the retention policy applied to the item.
+description: This property identifies the retention policy applied to the item.
 ms.assetid: 17bd4f09-675f-4e3b-989b-40a0a775e6ba
 title: System.Communication.PolicyTag
 ms.topic: article
@@ -33,51 +33,48 @@ PKEY values are defined in Propkey.h.
 
 <dl> <dt>
 
-[propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx)
+[propertyDescription](./propdesc-schema-propertydescription.md)
 </dt> <dt>
 
-[searchInfo](https://msdn.microsoft.com/library/Bb773885(v=VS.85).aspx)
+[searchInfo](./propdesc-schema-searchinfo.md)
 </dt> <dt>
 
-[labelInfo](https://msdn.microsoft.com/library/Bb773876(v=VS.85).aspx)
+[labelInfo](./propdesc-schema-labelinfo.md)
 </dt> <dt>
 
-[typeInfo](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx)
+[typeInfo](./propdesc-schema-typeinfo.md)
 </dt> <dt>
 
-[displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx)
+[displayInfo](./propdesc-schema-displayinfo.md)
 </dt> <dt>
 
-[stringFormat](https://msdn.microsoft.com/library/Bb773886(v=VS.85).aspx)
+[stringFormat](./propdesc-schema-stringformat.md)
 </dt> <dt>
 
-[booleanFormat](https://msdn.microsoft.com/library/Bb773862(v=VS.85).aspx)
+[booleanFormat](./propdesc-schema-booleanformat.md)
 </dt> <dt>
 
-[numberFormat](https://msdn.microsoft.com/library/Bb773877(v=VS.85).aspx)
+[numberFormat](./propdesc-schema-numberformat.md)
 </dt> <dt>
 
-[dateTimeFormat](https://msdn.microsoft.com/library/Bb773863(v=VS.85).aspx)
+[dateTimeFormat](./propdesc-schema-datetimeformat.md)
 </dt> <dt>
 
-[enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx)
+[enumeratedList](./propdesc-schema-enumeratedlist.md)
 </dt> <dt>
 
-[drawControl](https://msdn.microsoft.com/library/Bb773866(v=VS.85).aspx)
+[drawControl](./propdesc-schema-drawcontrol.md)
 </dt> <dt>
 
-[editControl](https://msdn.microsoft.com/library/Bb773868(v=VS.85).aspx)
+[editControl](./propdesc-schema-editcontrol.md)
 </dt> <dt>
 
-[filterControl](https://msdn.microsoft.com/library/Bb773874(v=VS.85).aspx)
+[filterControl](./propdesc-schema-filtercontrol.md)
 </dt> <dt>
 
-[queryControl](https://msdn.microsoft.com/library/Bb773883(v=VS.85).aspx)
+[queryControl](./propdesc-schema-querycontrol.md)
 </dt> </dl>
 
  
 
  
-
-
-

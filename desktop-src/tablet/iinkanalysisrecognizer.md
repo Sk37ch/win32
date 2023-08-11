@@ -1,5 +1,5 @@
 ---
-Description: Provides access to handwriting recognizers for use with ink analysis.
+description: Provides access to handwriting recognizers for use with ink analysis.
 ms.assetid: de536cca-889e-413e-a6f7-c2229a77c801
 title: IInkAnalysisRecognizer interface (IACom.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ Provides access to handwriting recognizers for use with ink analysis.
 
 ## Members
 
-The **IInkAnalysisRecognizer** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IInkAnalysisRecognizer** also has these types of members:
+The **IInkAnalysisRecognizer** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IInkAnalysisRecognizer** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -56,7 +56,7 @@ The [**IInkAnalyzer**](iinkanalyzer.md) maintains a list of available recognizer
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -85,9 +85,4 @@ The [**IInkAnalyzer**](iinkanalyzer.md) maintains a list of available recognizer
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction.IsInTransaction property"
 title: Transaction.IsInTransaction property 
 TOCTitle: 'IsInTransaction property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Transaction.IsInTransaction
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets a value indicating whether this object is currently in a transaction.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -53,15 +54,14 @@ public bool IsInTransaction { get; }
 
 #### Property value
 
-Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
+Type: [System.Boolean](/dotnet/api/system.boolean)  
 
 ## See also
 
 #### Reference
 
-[Transaction class](dn351174\(v=exchg.10\).md)
+[Transaction class](./transaction-class.md)
 
-[Transaction members](dn351240\(v=exchg.10\).md)
+[Transaction members](./transaction-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

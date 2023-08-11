@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a service access point and the logical device that implements it.
+description: Msvm_FcDeviceSAPImplementation class - Represents an association between a service access point and the logical device that implements it.
 ms.assetid: 5510c179-09e6-4762-b9b3-68ed49eafd66
 title: Msvm_FcDeviceSAPImplementation class
 ms.topic: reference
@@ -55,7 +55,7 @@ Data type: **CIM\_FCPort**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A reference to a class derived from **CIM\_FCPort** that represents the logical device.
@@ -71,7 +71,7 @@ Data type: **Msvm\_FcEndpoint**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A reference to an instance of the [**Msvm\_FcEndpoint**](msvm-fcendpoint.md) class that represents the SAP that is using the **Antecedent**.
@@ -82,7 +82,7 @@ A reference to an instance of the [**Msvm\_FcEndpoint**](msvm-fcendpoint.md) cla
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -93,9 +93,4 @@ A reference to an instance of the [**Msvm\_FcEndpoint**](msvm-fcendpoint.md) cla
 
 
  
-
- 
-
-
-
 

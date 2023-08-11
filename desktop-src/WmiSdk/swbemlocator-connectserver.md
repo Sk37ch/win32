@@ -1,5 +1,5 @@
 ---
-Description: Connects to the namespace on the computer that is specified in the strServer parameter.
+description: Connects to the namespace on the computer that is specified in the strServer parameter.
 ms.assetid: 31364c68-b031-4cf0-851f-b4e302f077e0
 ms.tgt_platform: multiple
 title: SWbemLocator.ConnectServer method (Wbemdisp.h)
@@ -55,7 +55,7 @@ Computer name to which you are connecting. If the remote computer is in a differ
 
 Example: `server1.network.fabrikam`
 
-You also can use an IP address in this parameter. If the IP address is in IPv6 format, the target computer must be running IPv6. An address in IPv4 looks like `111.222.333.444`
+You also can use an IP address in this parameter. If the IP address is in IPv6 format, the target computer must be running IPv6. An address in IPv4 looks like `123.123.123.123`
 
 An IP address in IPv6 format looks like `2010:836B:4179::836B:4179`
 
@@ -177,7 +177,7 @@ If successful, WMI returns an [**SWbemServices**](swbemservices.md) object that 
 
 ## Error codes
 
-After the completion of the **ConnectServer** method, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
+After the completion of the **ConnectServer** method, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
 
 <dl> <dt>
 
@@ -231,7 +231,7 @@ Using an IPv4 address to connect to a remote server may result in unexpected beh
 
 ## Examples
 
-The following VBScript code example describes how to connect to a remote computer to obtain [**Win32\_IP4RouteTable**](https://docs.microsoft.com/previous-versions/windows/desktop/wmiiprouteprov/win32-ip4routetable) data. The domain name that is specified in *strDomain* is used in *strAuthority*.
+The following VBScript code example describes how to connect to a remote computer to obtain [**Win32\_IP4RouteTable**](/previous-versions/windows/desktop/wmiiprouteprov/win32-ip4routetable) data. The domain name that is specified in *strDomain* is used in *strAuthority*.
 
 
 ```VB
@@ -293,7 +293,7 @@ $WbemClasses
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -322,9 +322,4 @@ $WbemClasses
 </dt> </dl>
 
  
-
- 
-
-
-
 

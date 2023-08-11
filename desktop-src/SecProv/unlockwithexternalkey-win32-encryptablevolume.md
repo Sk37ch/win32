@@ -1,5 +1,5 @@
 ---
-Description: Uses a provided external key to access the contents of a data volume.
+description: Uses a provided external key to access the contents of a data volume.
 ms.assetid: e383767e-8557-469c-bc44-f67591c46f23
 title: UnlockWithExternalKey method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -74,13 +74,13 @@ If the volume is already unlocked, this method returns 0.
 
 ## Remarks
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/Aa823192(v=VS.85).aspx).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |
@@ -99,7 +99,3 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: To enhance the security of the Windows Management Instrumentation (WMI) shared provider host process (wmiprvse.exe), changes were made to Windows platforms that secure the provider host process with a service security identifier (SID).
+description: To enhance the security of the Windows Management Instrumentation (WMI) shared provider host process (wmiprvse.exe), changes were made to Windows platforms that secure the provider host process with a service security identifier (SID).
 ms.assetid: f93ac155-512c-4efa-8168-ca2d56fe6f01
 ms.tgt_platform: multiple
 title: Registry Keys and Values for Controlling Provider Security
@@ -119,9 +119,9 @@ The following list lists the possible registry settings and the associated runni
 
 ## Configuring a Provider to Run in Secure or Compatible Mode
 
-The registry keys can be modified using the Group Policy Management Console (GPMC). For more information, see [Group Policy Management Console](https://msdn.microsoft.com/library/aa814316.aspx).
+The registry keys can be modified using the Group Policy Management Console (GPMC). For more information, see [Group Policy Management Console](/previous-versions/windows/desktop/gpmc/group-policy-management-console-portal).
 
-The following procedures illustrate how to manage secure and compatible mode settings by using group policy preferences. For more information about group policy preferences, see the [Group Policy Preferences Overview](https://www.microsoft.com/downloads/details.aspx?FamilyID=42e30e3f-6f01-4610-9d6e-f6e0fb7a0790&DisplayLang=en).
+The following procedures illustrate how to manage secure and compatible mode settings by using group policy preferences. For more information about group policy preferences, see the [Group Policy Preferences Overview](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn581922(v=ws.11)).
 
 **To add a provider to either the secure or compatible mode by using Group Policy**
 
@@ -137,7 +137,7 @@ The following procedures illustrate how to manage secure and compatible mode set
 
     **Compatible Mode:  HKEY\_LOCAL\_MACHINE**\\**SOFTWARE**\\**Microsoft**\\**WBEM**\\**CIMOM**\\**CompatibleHostProviders**
 
-8.  In the **name** field, enter the name of the provider you want to add to this key. The provider name must be in the following format: <namespace>:<\_\_RELPATH>. For example, root\\cimv2:\_\_win32provider.name="MyProvider".
+8.  In the **name** field, enter the name of the provider you want to add to this key. The provider name must be in the following format: &lt;namespace&gt;:<\_\_RELPATH>. For example, root\\cimv2:\_\_win32provider.name="MyProvider".
 9.  In the **data** field, enter 0.
 10. Click OK.
 
@@ -177,6 +177,3 @@ The following procedure provides details about how to modify the behavior of pro
  
 
  
-
-
-

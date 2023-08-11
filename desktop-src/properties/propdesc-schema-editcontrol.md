@@ -1,5 +1,5 @@
 ---
-Description: Specifies what control to use when editing the property.
+description: Specifies what control to use when editing the property.
 ms.assetid: cef6d76f-664a-4808-a224-e82a5adb2d70
 title: editControl
 ms.topic: article
@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # editControl
 
-Specifies what control to use when editing the property. There should be only one [editControl](https://msdn.microsoft.com/library/Bb773868(v=VS.85).aspx) element for each [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) element.
+Specifies what control to use when editing the property. There should be only one [editControl]() element for each [displayInfo](./propdesc-schema-displayinfo.md) element.
 
-If there are multiple elements, the last one is used. If no [editControl](https://msdn.microsoft.com/library/Bb773868(v=VS.85).aspx) element is provided, then the default attribute settings are applied to the property description.
+If there are multiple elements, the last one is used. If no [editControl]() element is provided, then the default attribute settings are applied to the property description.
 
-If <typeInfo isInnate="true">, this element is ignored because an innate property cannot be edited.
+If \<typeInfo isInnate="true"\>, this element is ignored because an innate property cannot be edited.
 
 ## Syntax
 
@@ -48,7 +48,7 @@ If <typeInfo isInnate="true">, this element is ignored because an innate propert
 
 | Parent Element                                   | Child Elements |
 |--------------------------------------------------|----------------|
-| [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) | None           |
+| [displayInfo](./propdesc-schema-displayinfo.md) | None           |
 
 
 
@@ -60,8 +60,8 @@ If <typeInfo isInnate="true">, this element is ignored because an innate propert
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -75,8 +75,8 @@ If <typeInfo isInnate="true">, this element is ignored because an innate propert
 <td>Public. Optional. Default is &quot;Default&quot;. The following are valid values. 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -87,7 +87,7 @@ If <typeInfo isInnate="true">, this element is ignored because an innate propert
 <tbody>
 <tr class="odd">
 <td>Default</td>
-<td>Default. Uses the default control, based upon the <typeInfo type=&quot;&quot;> attribute. The default types are listed below. Any other type results in using the &quot;Text&quot; control. 
+<td>Default. Uses the default control, based upon the &lt;typeInfo type=&quot;&quot;&gt; attribute. The default types are listed below. Any other type results in using the &quot;Text&quot; control. &lt;&gt;
 <table>
 <thead>
 <tr class="header">
@@ -160,6 +160,3 @@ If <typeInfo isInnate="true">, this element is ignored because an innate propert
  
 
  
-
-
-

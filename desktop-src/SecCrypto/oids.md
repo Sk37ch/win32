@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of OID objects.
+description: Represents a collection of OID objects.
 ms.assetid: 2c4ff87a-58e1-46aa-9680-29062b05308c
 title: OIDs object
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # OIDs object
 
-\[The **OIDs** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**OidCollection Class**](https://msdn.microsoft.com/library/023e15dk(v=VS.100).aspx) in the [**System.Security.Cryptography**](https://msdn.microsoft.com/library/9eat8fht(v=VS.100).aspx) namespace.\]
+\[The **OIDs** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**OidCollection Class**](/dotnet/api/system.security.cryptography.oidcollection) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **OIDs** object represents a collection of [**OID**](oid.md) objects. Each [**OID**](oid.md) object represents a single object identifier.
 
@@ -62,7 +62,7 @@ The **OIDs** object has these properties.
 
 | Property                                     | Access type          | Description                                                                                                                                                                                                                     |
 |:---------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](oids-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
+| [**\_NewEnum**](oids-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
 | [**Count**](oids-count.md)<br/>       | Read-only<br/> | Retrieves the number of [**OID**](oid.md) objects in the collection.<br/>                                                                                                                                                |
 | [**Item**](oids-item.md)<br/>         | Read-only<br/> | Retrieves an indexed [**OID**](oid.md) object from the collection. This is the default property.<br/>                                                                                                                    |
 
@@ -83,7 +83,7 @@ The **OIDs** object is used by the following properties:
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
@@ -93,7 +93,3 @@ The **OIDs** object is used by the following properties:
  
 
  
-
-
-
-

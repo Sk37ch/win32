@@ -1,5 +1,5 @@
 ---
-Description: Loads a patch mesh from an ID3DXFileData object.
+description: Loads a patch mesh from an ID3DXFileData object.
 ms.assetid: 8054e33e-6bf8-4a56-9f66-30600732c84f
 title: D3DXLoadPatchMeshFromXof function (D3DX9Mesh.h)
 ms.topic: reference
@@ -53,16 +53,16 @@ Pointer to an [**ID3DXFileData**](id3dxfiledata.md) interface, representing the 
 *Options* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
-Combination of one or more [**D3DXMESH**](https://msdn.microsoft.com/library/Bb205370(v=VS.85).aspx) flags, specifying creation options for the mesh.
+Combination of one or more [**D3DXMESH**](./d3dxmesh.md) flags, specifying creation options for the mesh.
 
 </dd> <dt>
 
 *pD3DDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
 Pointer to the device that the mesh is created from.
 
@@ -120,7 +120,7 @@ The default texture name is also filled in, but is handled differently. The name
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -143,7 +143,3 @@ The default texture name is also filled in, but is handled differently. The name
  
 
  
-
-
-
-

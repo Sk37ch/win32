@@ -22,7 +22,7 @@ Indicates whether the account that this attribute references has been locked out
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-User-Account-Auto-Locked       |
 | Ldap-Display-Name | ms-DS-UserAccountAutoLocked          |
@@ -43,7 +43,7 @@ Indicates whether the account that this attribute references has been locked out
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -62,13 +62,7 @@ Indicates whether the account that this attribute references has been locked out
 
 ## Remarks
 
-In ADAM, this attribute replaces the [**ADS\_UF\_LOCKOUT**](https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-ads_user_flag) flag of the [**userAccountControl**](a-useraccountcontrol.md) attribute.
+In ADAM, this attribute replaces the [**ADS\_UF\_LOCKOUT**](/windows/desktop/api/iads/ne-iads-ads_user_flag_enum) flag of the [**userAccountControl**](a-useraccountcontrol.md) attribute.
 
  
-
- 
-
-
-
-
 

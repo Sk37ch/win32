@@ -1,5 +1,5 @@
 ---
-Description: Gets the vertices and weights that a bone influences.
+description: Gets the vertices and weights that a bone influences.
 ms.assetid: 84cb064b-b6b2-402d-81cc-8c02de6f8b52
 title: ID3DXSkinInfo::GetBoneInfluence method (D3DX9Mesh.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ HRESULT GetBoneInfluence(
 *Bone* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Bone number.
 
@@ -49,7 +49,7 @@ Bone number.
 *vertices* \[in, out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Get the array of vertices influenced by a bone.
 
@@ -58,7 +58,7 @@ Get the array of vertices influenced by a bone.
 *weights* \[in, out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Get the array of weights influenced by a bone.
 
@@ -78,7 +78,7 @@ Use [**ID3DXSkinInfo::GetNumBoneInfluences**](id3dxskininfo--getnumboneinfluence
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -98,7 +98,3 @@ Use [**ID3DXSkinInfo::GetNumBoneInfluences**](id3dxskininfo--getnumboneinfluence
  
 
  
-
-
-
-

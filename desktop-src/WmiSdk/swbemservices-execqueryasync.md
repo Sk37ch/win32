@@ -1,5 +1,5 @@
 ---
-Description: Executes a query to retrieve objects.
+description: SWbemServices.ExecQueryAsync method - Executes a query to retrieve objects.
 ms.assetid: 50c7f62b-dd83-4117-b10e-acee1690ce8c
 ms.tgt_platform: multiple
 title: SWbemServices.ExecQueryAsync method (Wbemdisp.h)
@@ -138,7 +138,7 @@ This method has no return values. If successful, the sink receives an [**OnObjec
 
 ## Error codes
 
-After the completion of the **ExecQueryAsync** method, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object can contain one of the error codes in the following list.
+After the completion of the **ExecQueryAsync** method, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object can contain one of the error codes in the following list.
 
 <dl> <dt>
 
@@ -198,7 +198,7 @@ There are limits to the number of **AND** and **OR** keywords that can be used i
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -224,9 +224,4 @@ There are limits to the number of **AND** and **OR** keywords that can be used i
 </dt> </dl>
 
  
-
- 
-
-
-
 

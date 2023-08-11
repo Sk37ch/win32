@@ -1,5 +1,5 @@
 ---
-Description: Creates an instance of BoundingOrientedBox.
+description: Creates an instance of BoundingOrientedBox.
 ms.assetid: 3f4278ac-09ce-4249-b5ec-fca1519e9efc
 title: BoundingOrientedBox constructors
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 
 # BoundingOrientedBox constructors
 
-Creates an instance of [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).
+Creates an instance of [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox).
 
 ### Overload list
 
@@ -23,9 +23,9 @@ Creates an instance of [**BoundingOrientedBox**](https://msdn.microsoft.com/libr
 
 | Constructor                                                                                                 | Description                                                                           |
 |:------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|
-| [**BoundingOrientedBox ()**](https://msdn.microsoft.com/library/Hh855902(v=VS.85).aspx)                                                | Creates an instance of [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).<br/> |
-| [**BoundingOrientedBox (const BoundingOrientedBox&)**](https://msdn.microsoft.com/library/Hh855904(v=VS.85).aspx)                      | Creates an instance of [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).<br/> |
-| [**BoundingOrientedBox (const XMFLOAT3&,const XMFLOAT3&,const XMFLOAT4&)**](https://msdn.microsoft.com/library/Hh855898(v=VS.85).aspx) | Creates an instance of [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).<br/> |
+| [**BoundingOrientedBox ()**](/windows/win32/api/directxcollision/nf-directxcollision-boundingorientedbox-boundingorientedbox(boundingorientedbox__))                                                | Creates an instance of [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox).<br/> |
+| [**BoundingOrientedBox (const BoundingOrientedBox&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingorientedbox-boundingorientedbox(constboundingorientedbox_))                      | Creates an instance of [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox).<br/> |
+| [**BoundingOrientedBox (const XMFLOAT3&,const XMFLOAT3&,const XMFLOAT4&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingorientedbox-boundingorientedbox(constxmfloat3__constxmfloat3__constxmfloat4_)) | Creates an instance of [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox).<br/> |
 
 
 
@@ -36,13 +36,9 @@ Creates an instance of [**BoundingOrientedBox**](https://msdn.microsoft.com/libr
 **Reference**
 </dt> <dt>
 
-[**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx)
+[**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox)
 </dt> </dl>
 
  
 
  
-
-
-
-

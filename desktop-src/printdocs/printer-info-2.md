@@ -1,5 +1,5 @@
 ---
-Description: The PRINTER\_INFO\_2 structure specifies detailed printer information.
+description: The PRINTER\_INFO\_2 structure specifies detailed printer information.
 ms.assetid: 944cbfcd-9edf-4b60-a45c-9bb1839f8141
 title: PRINTER_INFO_2 structure (Winspool.h)
 ms.topic: reference
@@ -143,7 +143,7 @@ A pointer to a null-terminated string that specifies the default print-processor
 **pSecurityDescriptor**
 </dt> <dd>
 
-A pointer to a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure for the printer. This member may be **NULL**.
+A pointer to a [**SECURITY\_DESCRIPTOR**](/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure for the printer. This member may be **NULL**.
 
 </dd> <dt>
 
@@ -292,7 +292,7 @@ The average number of pages per minute that have been printed on the printer.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -326,13 +326,8 @@ The average number of pages per minute that have been printed on the printer.
 [**PRINTER\_INFO\_4**](printer-info-4.md)
 </dt> <dt>
 
-[**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor)
+[**SECURITY\_DESCRIPTOR**](/windows/desktop/api/winnt/ns-winnt-security_descriptor)
 </dt> </dl>
 
  
-
- 
-
-
-
 

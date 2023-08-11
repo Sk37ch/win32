@@ -1,5 +1,5 @@
 ---
-Description: Attempts to place the service managed by the logical system driver in the paused state.
+description: Attempts to place the service managed by the logical system driver in the paused state.
 ms.assetid: f5e960c1-868b-4b7b-9ea5-0fb8a9cfbafa
 ms.tgt_platform: multiple
 title: PauseService method of the Win32_SystemDriver class
@@ -18,9 +18,9 @@ api_location:
 
 # PauseService method of the Win32\_SystemDriver class
 
-The **PauseService** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method attempts to place the service managed by the logical system driver in the paused state.
+The **PauseService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method attempts to place the service managed by the logical system driver in the paused state.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -234,7 +234,7 @@ $Return = $usbPrintDriver.PauseService()
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -248,16 +248,11 @@ $Return = $usbPrintDriver.PauseService()
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_SystemDriver**](win32-systemdriver.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

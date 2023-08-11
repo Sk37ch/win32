@@ -1,5 +1,5 @@
 ---
-Description: Contains miscellaneous flags for an MPEG-2 video media type.
+description: Contains miscellaneous flags for an MPEG-2 video media type.
 ms.assetid: 2e1bf3e3-c005-418b-b9fd-1d43c42dad6f
 title: MF_MT_MPEG2_FLAGS attribute (Mfapi.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ Contains miscellaneous flags for an MPEG-2 video media type.
 
 ## Remarks
 
-This attribute corresponds to the **dwFlags** member of the [**MPEG2VIDEOINFO**](https://msdn.microsoft.com/library/Dd390707(v=VS.85).aspx) structure. For a list of valid flags, see the documentation for **MPEG2VIDEOINFO**.
+This attribute corresponds to the **dwFlags** member of the [**MPEG2VIDEOINFO**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo) structure. For a list of valid flags, see the documentation for **MPEG2VIDEOINFO**.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -24,7 +24,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |
@@ -54,7 +54,3 @@ The GUID constant for this attribute is exported from mfuuid.lib.
  
 
  
-
-
-
-

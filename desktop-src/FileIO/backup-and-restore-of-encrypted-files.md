@@ -1,5 +1,5 @@
 ---
-Description: The raw encryption functions enable backup of encrypted files.
+description: The raw encryption functions enable backup of encrypted files.
 ms.assetid: 00f9b00e-305d-4554-8b43-7061228c92c3
 title: Backup and Restore of Encrypted Files
 ms.topic: article
@@ -14,7 +14,7 @@ The raw encryption functions are provided to solve this problem. Backup applicat
 
 | Raw Encryption API                                     | Description                                                                                                                                                                                                                                                                   |
 |--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**OpenEncryptedFileRaw**](/windows/desktop/api/WinBase/nf-winbase-openencryptedfilerawa)   | Open an encrypted file with access to data in encrypted format. If the caller does not have access to the key for the file, the caller needs [SeBackupPrivilege](https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants) to export encrypted files or SeRestorePrivilege to import encrypted files. |
+| [**OpenEncryptedFileRaw**](/windows/desktop/api/WinBase/nf-winbase-openencryptedfilerawa)   | Open an encrypted file with access to data in encrypted format. If the caller does not have access to the key for the file, the caller needs [SeBackupPrivilege](/windows/desktop/SecAuthZ/authorization-constants) to export encrypted files or SeRestorePrivilege to import encrypted files. |
 | [**CloseEncryptedFileRaw**](/windows/desktop/api/WinBase/nf-winbase-closeencryptedfileraw) | Close an encrypted file opened with [**OpenEncryptedFileRaw**](/windows/desktop/api/WinBase/nf-winbase-openencryptedfilerawa)                                                                                                                                                                                      |
 | [**ReadEncryptedFileRaw**](/windows/desktop/api/WinBase/nf-winbase-readencryptedfileraw)   | Read an encrypted file leaving its data in encrypted format                                                                                                                                                                                                                   |
 | [**WriteEncryptedFileRaw**](/windows/desktop/api/WinBase/nf-winbase-writeencryptedfileraw) | Write an encrypted file leaving its data in encrypted format                                                                                                                                                                                                                  |
@@ -28,6 +28,3 @@ The raw encryption functions are provided to solve this problem. Backup applicat
  
 
  
-
-
-

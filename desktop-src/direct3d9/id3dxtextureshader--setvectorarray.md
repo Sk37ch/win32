@@ -1,5 +1,5 @@
 ---
-Description: Sets an array of 4D vectors.
+description: ID3DXTextureShader::SetVectorArray method - Sets an array of 4D vectors.
 ms.assetid: 45bc5cb1-b44a-468b-8c80-a639da8a033f
 title: ID3DXTextureShader::SetVectorArray method (D3DX9Shader.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Array of 4D vectors. See [**D3DXVECTOR4**](d3dxvector4.md).
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of vectors in the array.
 
@@ -74,7 +74,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -91,7 +91,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

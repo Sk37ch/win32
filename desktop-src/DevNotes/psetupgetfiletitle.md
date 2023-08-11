@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the file title for the specified file path.
+description: Retrieves the file title for the specified file path.
 ms.assetid: 9a559d71-4883-4905-b3ad-64b256a2f51e
 title: pSetupGetFileTitle function
 ms.topic: reference
@@ -49,13 +49,13 @@ A pointer to string that receives the file title.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Setupapi.dll</dt> </dl> |
 
@@ -64,7 +64,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

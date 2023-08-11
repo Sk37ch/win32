@@ -50,8 +50,8 @@ The input interpreted as a floating-point number.
 
 | Name  | [**Template Type**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Component Type**](dx-graphics-hlsl-intrinsic-functions.md)                                                         | Size                           |
 |-------|----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|--------------------------------|
-| *x*   | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md), **vector**, or **matrix** | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types), [**int**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types), [**uint**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types) | any                            |
-| *ret* | same as input *x*                                                                                              | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                                                                                | same dimension(s) as input *x* |
+| *x*   | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md), **vector**, or **matrix** | [**float**](/windows/desktop/WinProg/windows-data-types), [**int**](/windows/desktop/WinProg/windows-data-types), [**uint**](/windows/desktop/WinProg/windows-data-types) | any                            |
+| *ret* | same as input *x*                                                                                              | [**float**](/windows/desktop/WinProg/windows-data-types)                                                                                | same dimension(s) as input *x* |
 
 
 
@@ -59,9 +59,9 @@ The input interpreted as a floating-point number.
 
 ## Function Overloads
 
-<dl> `float<x> asfloat(float<x> value);`  
-`float<x> asfloat(int<x> value);`  
-`float<x> asfloat(uint<x> value);`  
+<dl> `float&lt;x&gt; asfloat(float&lt;x&gt; value);`  
+`float&lt;x&gt; asfloat(int&lt;x&gt; value);`  
+`float&lt;x&gt; asfloat(uint&lt;x&gt; value);`  
 </dl>
 
 ## Minimum Shader Model
@@ -93,10 +93,4 @@ Older compilers incorrectly allowed `asfloat(bool)`, but note that bool inputs a
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

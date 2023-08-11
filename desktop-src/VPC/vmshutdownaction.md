@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # VMShutdownAction enumeration
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Specifies how to shut down a virtual machine (VM) when the host shuts down or the vpc.exe process exits.
 
@@ -64,7 +64,7 @@ Shut down the guest operating system on the VM without undoing the drives if the
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
@@ -85,10 +85,4 @@ Shut down the guest operating system on the VM without undoing the drives if the
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: A callback function that must be implemented by a user to set an array of vertex shader integer constants.
+description: ID3DXEffectStateManager::SetVertexShaderConstantI method - A callback function that must be implemented by a user to set an array of vertex shader integer constants.
 ms.assetid: 0035c97a-1b17-4665-9032-7b3b9a9d2cff
 title: ID3DXEffectStateManager::SetVertexShaderConstantI method (D3DX9Effect.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ HRESULT SetVertexShaderConstantI(
 *StartRegister* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The zero-based index of the first constant register.
 
@@ -49,7 +49,7 @@ The zero-based index of the first constant register.
 *pConstantData* \[out\]
 </dt> <dd>
 
-Type: **const [**INT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**INT**](../winprog/windows-data-types.md)\***
 
 An array of integer constants.
 
@@ -58,7 +58,7 @@ An array of integer constants.
 *RegisterCount* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The number of registers in pConstantData.
 
@@ -71,13 +71,13 @@ Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).asp
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 
 -   The effect will fail during [**ID3DXEffect::BeginPass**](id3dxeffect--beginpass.md).
--   The dynamic effect state call (such as [**IDirect3DDevice9::SetVertexShaderConstantI**](https://msdn.microsoft.com/library/Bb174468(v=VS.85).aspx)) will fail.
+-   The dynamic effect state call (such as [**IDirect3DDevice9::SetVertexShaderConstantI**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstanti)) will fail.
 
 ## Requirements
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -94,7 +94,3 @@ The user-implemented method should return S\_OK. If the callback fails when sett
  
 
  
-
-
-
-

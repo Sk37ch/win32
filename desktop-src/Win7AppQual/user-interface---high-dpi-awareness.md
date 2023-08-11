@@ -1,5 +1,5 @@
 ---
-Description: .
+description: User Interface - High DPI Awareness
 ms.assetid: 5b753340-366c-44b3-87e9-19c580f1c5d5
 title: User Interface - High DPI Awareness
 ms.topic: article
@@ -10,14 +10,12 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Clients** - Windows XP \| Windows Vista \| Windows 7  
-</dl>
+ **Clients** - Windows XP \| Windows Vista \| Windows 7  
 
 ## Feature Impact
 
-<dl> **Severity** - Medium  
+**Severity** - Medium  
 **Frequency** - Medium  
-</dl>
 
 ## Description
 
@@ -69,14 +67,9 @@ Re-run the DPI Awareness assessment and verify the issues are fixed.
 
 ## Links to Other Resources
 
--   [Writing DPI-Aware Win32 Applications white paper](https://go.microsoft.com/fwlink/p/?linkid=129586) (PDF version)
--   [Writing DPI-Aware Win32 Applications white paper](https://go.microsoft.com/fwlink/p/?linkid=129588) (XPS version)
--   [Writing DPI-Aware Win32 Applications white paper](https://msdn.microsoft.com/library/Dd464646(v=VS.85).aspx) (MSDN online version)
+-   [High DPI Desktop Application Development on Windows](../hidpi/high-dpi-desktop-application-development-on-windows.md)
 -   **Contact for technical questions:** <disup@microsoft.com>
 
  
 
  
-
-
-

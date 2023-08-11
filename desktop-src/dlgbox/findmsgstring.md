@@ -53,7 +53,7 @@ This message has no return value.
 
 ## Remarks
 
-You must specify the **FINDMSGSTRING** constant in a call to the [**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) function to get the identifier for the message sent by the dialog box.
+You must specify the **FINDMSGSTRING** constant in a call to the [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) function to get the identifier for the message sent by the dialog box.
 
 When you create the dialog box, use the **hwndOwner** member of the [**FINDREPLACE**](/windows/win32/api/commdlg/ns-commdlg-findreplacea) structure to identify the window to receive **FINDMSGSTRING** messages.
 
@@ -90,7 +90,7 @@ For a **Find Next** or **Replace All** message, the **Flags** member can include
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -109,7 +109,7 @@ For a **Find Next** or **Replace All** message, the **Flags** member can include
 [**FINDREPLACE**](/windows/win32/api/commdlg/ns-commdlg-findreplacea)
 </dt> <dt>
 
-[**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)
+[**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)
 </dt> <dt>
 
 **Conceptual**
@@ -119,10 +119,4 @@ For a **Find Next** or **Replace All** message, the **Flags** member can include
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

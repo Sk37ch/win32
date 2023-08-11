@@ -1,5 +1,5 @@
 ---
-Description: Holds the security rights for the namespace in the form of a security descriptor.
+description: Holds the security rights for the namespace in the form of a security descriptor.
 ms.assetid: 84e514f5-b114-4bfc-ab0b-9745f249168b
 ms.tgt_platform: multiple
 title: '__thisNAMESPACE class'
@@ -54,7 +54,7 @@ Data type: **uint8** array
 Access type: Read-only
 </dt> </dl>
 
-Security descriptor describing who can access the namespace and who can read from or write to the namespace. This property is inherited from [**\_\_Event**](--event.md). For more information about the format of security descriptors, see [Security Descriptors](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptors) in the Security section of the Windows SDK.
+Security descriptor describing who can access the namespace and who can read from or write to the namespace. This property is inherited from [**\_\_Event**](--event.md). For more information about the format of security descriptors, see [Security Descriptors](/windows/desktop/SecAuthZ/security-descriptors) in the Security section of the Windows SDK.
 
 </dd> </dl>
 
@@ -66,7 +66,7 @@ The singleton instance of **\_\_thisNAMESPACE** is read-only. To change the sett
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -78,16 +78,11 @@ The singleton instance of **\_\_thisNAMESPACE** is read-only. To change the sett
 
 <dl> <dt>
 
-[**\_\_SystemClass**](https://docs.microsoft.com/windows/desktop/WmiSdk/--systemclass)
+[**\_\_SystemClass**](/windows/desktop/WmiSdk/--systemclass)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

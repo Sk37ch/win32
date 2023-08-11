@@ -1,5 +1,5 @@
 ---
-Description: Creates a precomputed radiance transfer (PRT) buffer that can be compressed or filled by a simulator. This function should be used to create per-pixel buffers.
+description: Creates a precomputed radiance transfer (PRT) buffer that can be compressed or filled by a simulator. This function should be used to create per-pixel buffers.
 ms.assetid: 41e65674-e5e1-4df9-aab8-1530ebf85f25
 title: D3DXCreatePRTBufferTex function (D3DX9Mesh.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ HRESULT D3DXCreatePRTBufferTex(
 *Width* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Width of the texture, in pixels.
 
@@ -51,7 +51,7 @@ Width of the texture, in pixels.
 *Height* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Height of the texture, in pixels.
 
@@ -60,7 +60,7 @@ Height of the texture, in pixels.
 *NumCoeffs* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of coefficients per sample location. When using spherical harmonic (SH) PRT, the number of coefficients should be Order², where Order is the order of the SH evaluation. Order must be in the range of [D3DXSH\_MINORDER](other-d3dx-constants.md) to D3DXSH\_MAXORDER, inclusive. The degree of the evaluation is Order - 1.
 
@@ -69,7 +69,7 @@ Number of coefficients per sample location. When using spherical harmonic (SH) P
 *NumChannels* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of color channels to set in the mesh. Set to 1 to specify gray materials (R = G = B), or 3 to enable color bleeding effects.
 
@@ -98,7 +98,7 @@ When the buffer is created, all values are initialized to zero.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -118,7 +118,3 @@ When the buffer is created, all values are initialized to zero.
  
 
  
-
-
-
-

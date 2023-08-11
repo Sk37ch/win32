@@ -1,5 +1,5 @@
 ---
-Description: Represents an association in which a bridge service is a component of a switch service.
+description: Represents an association in which a bridge service is a component of a switch service.
 ms.assetid: 737d5ba1-0759-40cf-bc46-a059d19902c8
 title: CIM_SwitchServiceTransparentBridging class
 ms.topic: reference
@@ -53,7 +53,7 @@ Data type: **CIM\_SwitchService**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 A [**CIM\_SwitchService**](cim-switchservice.md) reference to the switch service.
@@ -69,7 +69,7 @@ Data type: **CIM\_TransparentBridgingService**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
 </dt> </dl>
 
 A [**CIM\_TransparentBridgingService**](cim-transparentbridgingservice.md) reference to the component bridging service.
@@ -80,7 +80,7 @@ A [**CIM\_TransparentBridgingService**](cim-transparentbridgingservice.md) refer
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
@@ -98,9 +98,4 @@ A [**CIM\_TransparentBridgingService**](cim-transparentbridgingservice.md) refer
 </dt> </dl>
 
  
-
- 
-
-
-
 

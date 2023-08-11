@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the cipher suite information for a specified protocol, cipher suite, and key type set.
+description: Retrieves the cipher suite information for a specified protocol, cipher suite, and key type set.
 ms.assetid: ab995d9a-48fa-491a-95b1-d15c5b92f1da
 title: SslLookupCipherSuiteInfo function (Sslprovider.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ SECURITY_STATUS WINAPI SslLookupCipherSuiteInfo(
 *hSslProvider* \[in\]
 </dt> <dd>
 
-The handle to the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
+The handle to the [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
 
 </dd> <dt>
 
@@ -103,7 +103,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
@@ -113,9 +113,4 @@ Possible return codes include, but are not limited to, the following.
 
 
  
-
- 
-
-
-
 

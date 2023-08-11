@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentErrorException.GetObjectData method"
 title: EsentErrorException.GetObjectData method 
 TOCTitle: 'GetObjectData method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentErrorException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentErrorException.GetObjectData method
 
-When overridden in a derived class, sets the [SerializationInfo](https://docs.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo?redirectedfrom=MSDN) with information about the exception.
+When overridden in a derived class, sets the [SerializationInfo](/dotnet/api/system.runtime.serialization.serializationinfo) with information about the exception.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,51 +60,37 @@ public override void GetObjectData(
 #### Parameters
 
   - info  
-    Type: [System.Runtime.Serialization.SerializationInfo](https://docs.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo?redirectedfrom=MSDN)  
+    Type: [System.Runtime.Serialization.SerializationInfo](/dotnet/api/system.runtime.serialization.serializationinfo)  
     
-    The [SerializationInfo](https://docs.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo?redirectedfrom=MSDN) that holds the serialized object data about the exception being thrown.
+    The [SerializationInfo](/dotnet/api/system.runtime.serialization.serializationinfo) that holds the serialized object data about the exception being thrown.
 
 <!-- end list -->
 
   - context  
-    Type: [System.Runtime.Serialization.StreamingContext](https://docs.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext?redirectedfrom=MSDN)  
+    Type: [System.Runtime.Serialization.StreamingContext](/dotnet/api/system.runtime.serialization.streamingcontext)  
     
-    The [StreamingContext](https://docs.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext?redirectedfrom=MSDN) that contains contextual information about the source or destination.
+    The [StreamingContext](/dotnet/api/system.runtime.serialization.streamingcontext) that contains contextual information about the source or destination.
 
 #### Implements
 
-[ISerializable.GetObjectData(SerializationInfo, StreamingContext)](https://docs.microsoft.com/dotnet/api/system.runtime.serialization.iserializable.getobjectdata?redirectedfrom=MSDN#System_Runtime_Serialization_ISerializable_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_)  
-[_Exception.GetObjectData(SerializationInfo, StreamingContext)](https://docs.microsoft.com/dotnet/api/system.runtime.interopservices._exception.getobjectdata?redirectedfrom=MSDN#System_Runtime_InteropServices__Exception_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_)  
+[ISerializable.GetObjectData(SerializationInfo, StreamingContext)](/dotnet/api/system.runtime.serialization.iserializable.getobjectdata#System_Runtime_Serialization_ISerializable_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_)  
+[_Exception.GetObjectData(SerializationInfo, StreamingContext)](/dotnet/api/system.runtime.interopservices._exception.getobjectdata#System_Runtime_InteropServices__Exception_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_)  
 
 ## Exceptions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Exception</th>
-<th>Condition</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception?redirectedfrom=MSDN">ArgumentNullException</a></td>
-<td><p>The info parameter is a null reference (Nothing in Visual Basic).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Exception | Condition | 
+|-----------|-----------|
+| <a href="/dotnet/api/system.argumentnullexception">ArgumentNullException</a> | <p>The info parameter is a null reference (Nothing in Visual Basic).</p> | 
+
 
 
 ## See also
 
 #### Reference
 
-[EsentErrorException class](dn274314\(v=exchg.10\).md)
+[EsentErrorException class](./esenterrorexception-class.md)
 
-[EsentErrorException members](dn274255\(v=exchg.10\).md)
+[EsentErrorException members](./esenterrorexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

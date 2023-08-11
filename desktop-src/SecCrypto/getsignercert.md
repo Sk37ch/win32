@@ -1,5 +1,5 @@
 ---
-Description: The GetSignerCert function goes through (enumerates) the certificates in a certificate store until a certificate with a signature key is found.
+description: The GetSignerCert function goes through (enumerates) the certificates in a certificate store until a certificate with a signature key is found.
 ms.assetid: a3279492-a154-418d-ab25-45ec458ad483
 title: GetSignerCert
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # GetSignerCert
 
-The **GetSignerCert** function goes through (enumerates) the certificates in a [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) until a certificate with a signature key is found. If a certificate is found, a pointer to the certificate is returned. This code demonstrates:
+The **GetSignerCert** function goes through (enumerates) the certificates in a [*certificate store*](../secgloss/c-gly.md) until a certificate with a signature key is found. If a certificate is found, a pointer to the certificate is returned. This code demonstrates:
 
 -   Finding a certificate with a certificate property.
 -   Checking that property.
@@ -119,6 +119,3 @@ return (pCertContext);
  
 
  
-
-
-

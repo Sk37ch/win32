@@ -1,5 +1,5 @@
 ---
-Description: Sent prior to the WM\_CREATE message when a window is first created.
+description: Sent prior to the WM\_CREATE message when a window is first created.
 ms.assetid: 5dd0eda3-83a6-4077-a7a3-e371c9413b0f
 title: WM_NCCREATE message (Winuser.h)
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Sent prior to the [**WM\_CREATE**](wm-create.md) message when a window is first created.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -33,7 +33,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to the [**CREATESTRUCT**](https://msdn.microsoft.com/library/ms632603(v=VS.85).aspx) structure that contains information about the window being created. The members of **CREATESTRUCT** are identical to the parameters of the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function.
+A pointer to the [**CREATESTRUCT**](/windows/win32/api/winuser/ns-winuser-createstructa) structure that contains information about the window being created. The members of **CREATESTRUCT** are identical to the parameters of the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function.
 
 </dd> </dl>
 
@@ -41,13 +41,13 @@ A pointer to the [**CREATESTRUCT**](https://msdn.microsoft.com/library/ms632603(
 
 Type: **LRESULT**
 
-If an application processes this message, it should return **TRUE** to continue creation of the window. If the application returns **FALSE**, the [**CreateWindow**](https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx) or [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function will return a **NULL** handle.
+If an application processes this message, it should return **TRUE** to continue creation of the window. If the application returns **FALSE**, the [**CreateWindow**](/windows/win32/api/winuser/nf-winuser-createwindowa) or [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function will return a **NULL** handle.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -62,16 +62,16 @@ If an application processes this message, it should return **TRUE** to continue 
 **Reference**
 </dt> <dt>
 
-[**CreateWindow**](https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx)
+[**CreateWindow**](/windows/win32/api/winuser/nf-winuser-createwindowa)
 </dt> <dt>
 
-[**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx)
+[**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa)
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
+[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**CREATESTRUCT**](https://msdn.microsoft.com/library/ms632603(v=VS.85).aspx)
+[**CREATESTRUCT**](/windows/win32/api/winuser/ns-winuser-createstructa)
 </dt> <dt>
 
 [**WM\_CREATE**](wm-create.md)
@@ -86,7 +86,3 @@ If an application processes this message, it should return **TRUE** to continue 
  
 
  
-
-
-
-

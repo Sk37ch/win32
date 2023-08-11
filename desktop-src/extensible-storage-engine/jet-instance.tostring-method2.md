@@ -1,5 +1,6 @@
 ---
-title: JET_INSTANCE.ToString method 
+description: "Learn more about: JET_INSTANCE.ToString method overload list"
+title: JET_INSTANCE.ToString method overload list
 TOCTitle: 'ToString method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_INSTANCE.ToString
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_instance.tostring(v=EXCHG.10)
@@ -34,7 +35,7 @@ Include inherited members
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh577403(v=exchg.10).md">ToString()</a></td>
-<td>Generate a string representation of the structure. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.valuetype.tostring?redirectedfrom=MSDN#System_ValueType_ToString">ValueType.ToString()</a>.)</td>
+<td>Generate a string representation of the structure. (Overrides <a href="/dotnet/api/system.valuetype.tostring#System_ValueType_ToString">ValueType.ToString()</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
@@ -51,9 +52,8 @@ Top
 
 #### Reference
 
-[JET_INSTANCE structure](hh564593\(v=exchg.10\).md)
+[JET_INSTANCE structure](./jet-instance-structure.md)
 
-[JET_INSTANCE members](hh565454\(v=exchg.10\).md)
+[JET_INSTANCE members](./jet-instance-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Uses a user-provided function to fill each texel of each mip level of a given texture.
+description: Uses a user-provided function to fill each texel of each mip level of a given texture.
 ms.assetid: 9c822472-2bbf-4629-bdb3-6491573e8de2
 title: D3DXFillTexture function (D3dx9tex.h)
 ms.topic: reference
@@ -40,9 +40,9 @@ HRESULT D3DXFillTexture(
 *pTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9)**
 
-Pointer to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx) interface, representing the filled texture.
+Pointer to an [**IDirect3DTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9) interface, representing the filled texture.
 
 </dd> <dt>
 
@@ -58,7 +58,7 @@ Pointer to a user-provided evaluator function, which will be used to compute the
 *pData* \[in\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](../winprog/windows-data-types.md)**
 
 Pointer to an arbitrary block of user-defined data. This pointer will be passed to the function provided in *pFunction*.
 
@@ -97,7 +97,7 @@ if (FAILED (hr = D3DXFillTexture (m_pTexture, ColorFill, NULL)))
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |
@@ -114,7 +114,3 @@ if (FAILED (hr = D3DXFillTexture (m_pTexture, ColorFill, NULL)))
  
 
  
-
-
-
-

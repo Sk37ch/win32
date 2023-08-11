@@ -24,7 +24,7 @@ propertyDescription
 
 UI\_PKEY\_FontProperties\_Strikethrough is used by an application to query the state of the **Strikethrough** button.
 
-The property value is from the [**UI\_FONTPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_fontproperties) enumeration.
+The property value is from the [**UI\_FONTPROPERTIES**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_fontproperties) enumeration.
 
 The default value is `UI_FONTPROPERTIES_NOTSET`.
 
@@ -36,7 +36,7 @@ The following table describes the properties and the UI result.
 
 
 
-|                                  |                                                                              |
+|   Property                       |    UI Result                                                                 |
 |----------------------------------|------------------------------------------------------------------------------|
 | `UI_FONTPROPERTIES_NOTAVAILABLE` | **Strikethrough** button is disabled and can only be set by the application. |
 | `UI_FONTPROPERTIES_NOTSET`       | **Strikethrough** button is not selected.                                    |
@@ -53,7 +53,7 @@ The following table describes the properties and the UI result.
 [Font Control Properties](windowsribbon-reference-properties-fontcontrol.md)
 </dt> <dt>
 
-[**UI\_FONTPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_fontproperties)
+[**UI\_FONTPROPERTIES**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_fontproperties)
 </dt> <dt>
 
 [Font Control](windowsribbon-controls-fontcontrol.md)
@@ -62,7 +62,3 @@ The following table describes the properties and the UI result.
  
 
  
-
-
-
-

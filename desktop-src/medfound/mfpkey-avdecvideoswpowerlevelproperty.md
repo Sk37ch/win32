@@ -1,5 +1,5 @@
 ---
-Description: Specifies the power level for the decoder.
+description: Specifies the power level for the decoder.
 ms.assetid: c4ede790-e7ef-4ed0-bdbe-a635350d92f3
 title: MFPKEY_AVDecVideoSWPowerLevel Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Specifies the power level for the decoder.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -42,7 +42,7 @@ This property must be set to one of the following values.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
@@ -60,7 +60,3 @@ This property must be set to one of the following values.
  
 
  
-
-
-
-

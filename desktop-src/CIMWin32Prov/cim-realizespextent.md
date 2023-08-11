@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_RealizesPExtent association represents the relationship in which physical extents are realized on a physical media. In addition, the starting address of the physical extent on the physical media is specified.
+description: The CIM\_RealizesPExtent association represents the relationship in which physical extents are realized on a physical media. In addition, the starting address of the physical extent on the physical media is specified.
 ms.assetid: 9abe1a7d-8463-4d48-8cec-52bf934ad08b
 ms.tgt_platform: multiple
 title: CIM_RealizesPExtent class
@@ -63,7 +63,7 @@ Data type: **CIM\_PhysicalMedia**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 A [**CIM\_PhysicalMedia**](cim-physicalmedia.md) that describes the physical media on which the extent is realized.
@@ -79,7 +79,7 @@ Data type: **CIM\_PhysicalExtent**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_PhysicalExtent**](cim-physicalextent.md) that describes the physical extent that is located on the media.
@@ -97,7 +97,7 @@ Access type: Read-only
 
 Starting address on the physical media where the physical extent begins. The ending address of the physical extent is determined using the **NumberOfBlocks** and **BlockSize** properties of the [**CIM\_PhysicalExtent**](cim-physicalextent.md) object.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> </dl>
 
@@ -113,7 +113,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -131,9 +131,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

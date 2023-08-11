@@ -1,5 +1,5 @@
 ---
-Description: Applications use the methods of the ID3DXFile interface to create instances of the ID3DXFileEnumObject and ID3DXFileSaveObject interfaces, and to register templates.
+description: Applications use the methods of the ID3DXFile interface to create instances of the ID3DXFileEnumObject and ID3DXFileSaveObject interfaces, and to register templates.
 ms.assetid: 472d45b1-5c03-4417-a005-91f802667919
 title: ID3DXFile interface (D3DX9Xof.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ Applications use the methods of the ID3DXFile interface to create instances of t
 
 ## Members
 
-The **ID3DXFile** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXFile** also has these types of members:
+The **ID3DXFile** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ID3DXFile** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -66,7 +66,7 @@ typedef interface ID3DXFile *LPD3DXFILE;
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |
@@ -83,7 +83,3 @@ typedef interface ID3DXFile *LPD3DXFILE;
  
 
  
-
-
-
-

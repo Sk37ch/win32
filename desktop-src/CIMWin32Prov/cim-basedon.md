@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_BasedOn class represents an association that describes how storage extents can be assembled from lower-level extents.
+description: The CIM\_BasedOn class represents an association that describes how storage extents can be assembled from lower-level extents.
 ms.assetid: 82132012-5851-4be8-82db-edbdb50b70e5
 ms.tgt_platform: multiple
 title: CIM_BasedOn class (CIMWin32 WMI Providers)
@@ -20,7 +20,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_BasedOn class
+# CIM_BasedOn class (CIMWin32 WMI Providers)
 
 The **CIM\_BasedOn** class represents an association that describes how storage extents can be assembled from lower-level extents. For example, physical extents include protected space extents. Thus, volume sets are assembled from one or more physical or protected space extents. Cache memory can be defined independently and realized in a physical element, or it can be based on volatile or non-volatile storage extents.
 
@@ -65,7 +65,7 @@ Data type: **CIM\_StorageExtent**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_StorageExtent**](cim-storageextent.md) that describes the lower level storage extent.
@@ -81,7 +81,7 @@ Data type: **CIM\_StorageExtent**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_StorageExtent**](cim-storageextent.md) that describes the higher level storage extent.
@@ -99,7 +99,7 @@ Access type: Read-only
 
 Indicates the end of the high-level extent in lower-level storage. This property is useful when mapping non-contiguous extents into a higher-level grouping.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> <dt>
 
@@ -114,7 +114,7 @@ Access type: Read-only
 
 Indicates the beginning of the high-level extent in lower-level storage.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> </dl>
 
@@ -130,7 +130,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -148,9 +148,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

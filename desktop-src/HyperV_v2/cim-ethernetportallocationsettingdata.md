@@ -1,5 +1,5 @@
 ---
-Description: Represents settings for the allocation of the ethernet port, in addition to the settings provided by the CIM\_EthernetPort class. These settings are used to provide information specific to the resource itself.
+description: Represents settings for the allocation of the ethernet port, in addition to the settings provided by the CIM\_EthernetPort class. These settings are used to provide information specific to the resource itself.
 ms.assetid: f59ebaf1-60dd-49bd-b48e-d7a6c2650909
 title: CIM_EthernetPortAllocationSettingData class
 ms.topic: reference
@@ -53,7 +53,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_VLANEndpoint**](cim-vlanendpoint.md).**OperationalEndpointMode**", "**CIM\_VLANEndpoint**.**DesiredEndpointMode**", "**CIM\_EthernetPortAllocationSettingData**.**OtherEndpointMode**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_VLANEndpoint**](cim-vlanendpoint.md).**OperationalEndpointMode**", "**CIM\_VLANEndpoint**.**DesiredEndpointMode**", "**CIM\_EthernetPortAllocationSettingData**.**OtherEndpointMode**")
 </dt> </dl>
 
 The requested VLAN mode. This property is used to set the initial **OperationalEndpointMode** property value in the instance of **CIM\_VLANEndpoint** associated with the ethernet port.
@@ -134,7 +134,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_EthernetPortAllocationSettingData**.**DesiredVLANEndpointMode**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_EthernetPortAllocationSettingData**.**DesiredVLANEndpointMode**")
 </dt> </dl>
 
 The type of VLAN endpoint model that is supported by this VLAN endpoint, when the value of the mode property is set to "1" (Other). This property should be set to **NULL** when the mode property is any value other than "1".
@@ -145,7 +145,7 @@ The type of VLAN endpoint model that is supported by this VLAN endpoint, when th
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -163,9 +163,4 @@ The type of VLAN endpoint model that is supported by this VLAN endpoint, when th
 </dt> </dl>
 
  
-
- 
-
-
-
 

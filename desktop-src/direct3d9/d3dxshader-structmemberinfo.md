@@ -1,5 +1,5 @@
 ---
-Description: A helper structure containing member structure information.
+description: A helper structure containing member structure information.
 ms.assetid: 2fbe5e97-047e-48bf-9413-dd297632288a
 title: D3DXSHADER_STRUCTMEMBERINFO structure (D3dx9shader.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ typedef struct D3DXSHADER_STRUCTMEMBERINFO {
 **Name**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -49,7 +49,7 @@ Offset from the beginning of this structure, in bytes, to the string that contai
 **TypeInfo**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -61,7 +61,7 @@ Offset from the beginning of this structure, in bytes, to the string that contai
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9shader.h</dt> </dl> |
 
@@ -80,7 +80,3 @@ Offset from the beginning of this structure, in bytes, to the string that contai
  
 
  
-
-
-
-

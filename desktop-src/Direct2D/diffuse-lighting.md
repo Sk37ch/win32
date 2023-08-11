@@ -19,7 +19,6 @@ The CLSID for this effect is CLSID\_D2D1SpotDiffuse.
 -   [Example image](#example-image)
 -   [Effect properties](#effect-properties)
 -   [Scale modes](#scale-modes)
--   [Sample code](#sample-code)
 -   [Requirements](#requirements)
 -   [Related topics](#related-topics)
 
@@ -81,15 +80,11 @@ L<sub>r</sub>, L<sub>g</sub>, L<sub>b</sub> = the light color in RGB components.
 
  
 
-## Sample code
-
-For an example of this effect, download the [Direct2D lighting effects sample](https://code.msdn.microsoft.com/windowsapps/Direct2D-lighting-effects-e0801da3).
-
 ## Requirements
 
 
 
-|                          |                                                                                    |
+| Requirement | Value |
 |--------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
@@ -104,14 +99,8 @@ For an example of this effect, download the [Direct2D lighting effects sample](h
 
 <dl> <dt>
 
-[**ID2D1Effect**](https://msdn.microsoft.com/library/Hh404566(v=VS.85).aspx)
+[**ID2D1Effect**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1effect)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

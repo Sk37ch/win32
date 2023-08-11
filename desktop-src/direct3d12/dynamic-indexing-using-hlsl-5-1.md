@@ -2,7 +2,6 @@
 title: Dynamic Indexing using HLSL 5.1
 description: The D3D12DynamicIndexing sample demonstrates some of the new HLSL features available in Shader Model 5.1 - particularly dynamic indexing and unbounded arrays - to render the same mesh multiple times, each time rendering it with a dynamically selected material. With dynamic indexing, shaders can now index into an array without knowing the value of the index at compile time. When combined with unbounded arrays, this adds another level of indirection and flexibility for shader authors and art pipelines.
 ms.assetid: 9821AEDF-E83D-4034-863A-2B820D9B7455
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -52,7 +51,7 @@ float4 PSSceneMain(PSSceneIn input) : SV_Target
 
 The unbounded array feature is illustrated by the `g_txMats[]` array as it does not specify an array size. Dynamic indexing is used to index into `g_txMats[]` with `matIndex`, which is defined as a root constant. The shader has no knowledge of the size or the array or the value of the index at compile-time. Both attributes are defined in the root signature of the pipeline state object used with the shader.
 
-To take advantage of the dynamic indexing features in HLSL requires that the shader be compiled with SM 5.1. Additionally, to make use of unbounded arrays, the **/enable\_unbounded\_descriptor\_tables** flag must also be used. The following command line options are used to compile this shader with the [Effect-Compiler Tool](https://docs.microsoft.com/windows/desktop/direct3dtools/fxc) (FXC):
+To take advantage of the dynamic indexing features in HLSL requires that the shader be compiled with SM 5.1. Additionally, to make use of unbounded arrays, the **/enable\_unbounded\_descriptor\_tables** flag must also be used. The following command line options are used to compile this shader with the [Effect-Compiler Tool](/windows/desktop/direct3dtools/fxc) (FXC):
 
 ``` syntax
 fxc /Zi /E"PSSceneMain" /Od /Fo"dynamic_indexing_pixel.cso" /ps"_5_1" /nologo /enable_unbounded_descriptor_tables
@@ -93,7 +92,7 @@ Now, let's look at the root signature definition, particularly, how we define th
 | [**CD3DX12\_DESCRIPTOR\_RANGE**](cd3dx12-descriptor-range.md)        | [**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_range_type) |
 | [**CD3DX12\_ROOT\_PARAMETER**](cd3dx12-root-parameter.md)            | [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility)          |
 | [**CD3DX12\_ROOT\_SIGNATURE\_DESC**](cd3dx12-root-signature-desc.md) | [**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_signature_flags)   |
-| [**ID3DBlob**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85))                                   |                                                                       |
+| [**ID3DBlob**](/previous-versions/windows/desktop/legacy/ff728743(v=vs.85))                                   |                                                                       |
 | [**D3D12SerializeRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-d3d12serializerootsignature)    | [**D3D\_ROOT\_SIGNATURE\_VERSION**](/windows/desktop/api/d3d12/ne-d3d12-d3d_root_signature_version)   |
 | [**CreateRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrootsignature)       |                                                                       |
 
@@ -131,8 +130,9 @@ The contents of `g_txMats[]` are procedurally generated textures created in **Lo
             cityTextureData.resize(CityMaterialCount);
             for (int i = 0; i < CityMaterialCount; ++i)
             {
+                CD3DX12_HEAP_PROPERTIES heapProps(D3D12_HEAP_TYPE_DEFAULT);
                 ThrowIfFailed(m_device->CreateCommittedResource(
-                    &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
+                    &heapProps,
                     D3D12_HEAP_FLAG_NONE,
                     &textureDesc,
                     D3D12_RESOURCE_STATE_COPY_DEST,
@@ -178,7 +178,7 @@ The contents of `g_txMats[]` are procedurally generated textures created in **Lo
 <tbody>
 <tr class="odd">
 <td><a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_desc"><strong>D3D12_RESOURCE_DESC</strong></a></td>
-<td><dl><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format"><strong>DXGI_FORMAT</strong></a><br />
+<td><dl><a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format"><strong>DXGI_FORMAT</strong></a><br />
 <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_flags"><strong>D3D12_RESOURCE_FLAGS</strong></a><br />
 <a href=""></a>[<strong>D3D12_RESOURCE_DIMENSION</strong>](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_dimension)<br />
 </dl></td>
@@ -193,9 +193,9 @@ The contents of `g_txMats[]` are procedurally generated textures created in **Lo
 </dl></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type"><strong>XMVECTOR</strong></a></td>
-<td><dl><a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorset"><strong>XMVectorSet</strong></a><br />
-<a href=""></a>[<strong>XMColorHSLToRGB</strong>](https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmcolorhsltorgb)<br />
+<td><a href="/windows/desktop/dxmath/xmvector-data-type"><strong>XMVECTOR</strong></a></td>
+<td><dl><a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorset"><strong>XMVectorSet</strong></a><br />
+<a href=""></a>[<strong>XMColorHSLToRGB</strong>](/windows/desktop/api/directxmath/nf-directxmath-xmcolorhsltorgb)<br />
 </dl></td>
 </tr>
 </tbody>
@@ -215,10 +215,12 @@ Texture data is uploaded to the GPU via an upload heap and SRVs are created for 
                 const UINT subresourceCount = textureDesc.DepthOrArraySize * textureDesc.MipLevels;
                 const UINT64 uploadBufferStep = GetRequiredIntermediateSize(m_cityMaterialTextures[0].Get(), 0, subresourceCount); // All of our textures are the same size in this case.
                 const UINT64 uploadBufferSize = uploadBufferStep * CityMaterialCount;
+                CD3DX12_HEAP_PROPERTIES uploadHeap(D3D12_HEAP_TYPE_UPLOAD);
+                auto uploadDesc = CD3DX12_RESOURCE_DESC::Buffer(uploadBufferSize);
                 ThrowIfFailed(m_device->CreateCommittedResource(
-                    &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_UPLOAD),
+                    &uploadHeap,
                     D3D12_HEAP_FLAG_NONE,
-                    &CD3DX12_RESOURCE_DESC::Buffer(uploadBufferSize),
+                    &uploadDesc,
                     D3D12_RESOURCE_STATE_GENERIC_READ,
                     nullptr,
                     IID_PPV_ARGS(&materialsUploadHeap)));
@@ -233,7 +235,8 @@ Texture data is uploaded to the GPU via an upload heap and SRVs are created for 
                     textureData.SlicePitch = textureData.RowPitch * textureDesc.Height;
 
                     UpdateSubresources(m_commandList.Get(), m_cityMaterialTextures[i].Get(), materialsUploadHeap.Get(), i * uploadBufferStep, 0, subresourceCount, &textureData);
-                    m_commandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_cityMaterialTextures[i].Get(), D3D12_RESOURCE_STATE_COPY_DEST, D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE));
+                    auto barrier = CD3DX12_RESOURCE_BARRIER::Transition(m_cityMaterialTextures[i].Get(), D3D12_RESOURCE_STATE_COPY_DEST, D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE);
+                    m_commandList->ResourceBarrier(1, &barrier);
                 }
             }
 ```
@@ -302,8 +305,9 @@ The diffuse texture, g\_`txDiffuse`, is uploaded in a similar manner and also ge
             textureDesc.SampleDesc.Quality = 0;
             textureDesc.Dimension = D3D12_RESOURCE_DIMENSION_TEXTURE2D;
 
+            CD3DX12_HEAP_PROPERTIES heapProps(D3D12_HEAP_TYPE_DEFAULT);
             ThrowIfFailed(m_device->CreateCommittedResource(
-                &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
+                &heapProps,
                 D3D12_HEAP_FLAG_NONE,
                 &textureDesc,
                 D3D12_RESOURCE_STATE_COPY_DEST,
@@ -312,10 +316,12 @@ The diffuse texture, g\_`txDiffuse`, is uploaded in a similar manner and also ge
 
             const UINT subresourceCount = textureDesc.DepthOrArraySize * textureDesc.MipLevels;
             const UINT64 uploadBufferSize = GetRequiredIntermediateSize(m_cityDiffuseTexture.Get(), 0, subresourceCount);
+            CD3DX12_HEAP_PROPERTIES uploadHeap(D3D12_HEAP_TYPE_UPLOAD);
+            auto uploadDesc = CD3DX12_RESOURCE_DESC::Buffer(uploadBufferSize);
             ThrowIfFailed(m_device->CreateCommittedResource(
-                &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_UPLOAD),
+                &uploadHeap,
                 D3D12_HEAP_FLAG_NONE,
-                &CD3DX12_RESOURCE_DESC::Buffer(uploadBufferSize),
+                &uploadDesc,
                 D3D12_RESOURCE_STATE_GENERIC_READ,
                 nullptr,
                 IID_PPV_ARGS(&textureUploadHeap)));
@@ -328,7 +334,8 @@ The diffuse texture, g\_`txDiffuse`, is uploaded in a similar manner and also ge
             textureData.SlicePitch = SampleAssets::Textures[0].Data[0].Size;
 
             UpdateSubresources(m_commandList.Get(), m_cityDiffuseTexture.Get(), textureUploadHeap.Get(), 0, 0, subresourceCount, &textureData);
-            m_commandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_cityDiffuseTexture.Get(), D3D12_RESOURCE_STATE_COPY_DEST, D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE));
+            auto barrier = CD3DX12_RESOURCE_BARRIER::Transition(m_cityDiffuseTexture.Get(), D3D12_RESOURCE_STATE_COPY_DEST, D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE);
+            m_commandList->ResourceBarrier(1, &barrier);
         }
 ```
 
@@ -468,7 +475,7 @@ D3D12_FLOAT32_MAX (<a href="constants.md"><strong>Constants</strong></a>)<br />
 <tr class="even">
 <td><a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_shader_resource_view_desc"><strong>D3D12_SHADER_RESOURCE_VIEW_DESC</strong></a></td>
 <td><dl><a href="constants.md">D3D12_DEFAULT_SHADER_4_COMPONENT_MAPPING</a><br />
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format"><strong>DXGI_FORMAT</strong></a><br />
+<a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format"><strong>DXGI_FORMAT</strong></a><br />
 <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_srv_dimension"><strong>D3D12_SRV_DIMENSION</strong></a><br />
 </dl></td>
 </tr>
@@ -532,16 +539,16 @@ Now when we render the scene, each city will have a different value for `matInde
 [D3D12 Code Walk-Throughs](d3d12-code-walk-throughs.md)
 </dt> <dt>
 
-[Effect-Compiler Tool](https://docs.microsoft.com/windows/desktop/direct3dtools/fxc)
+[Effect-Compiler Tool](/windows/desktop/direct3dtools/fxc)
 </dt> <dt>
 
-[HLSL Shader Model 5.1 Features for Direct3D 12](https://docs.microsoft.com/windows/desktop/direct3dhlsl/hlsl-shader-model-5-1-features-for-direct3d-12)
+[HLSL Shader Model 5.1 Features for Direct3D 12](/windows/desktop/direct3dhlsl/hlsl-shader-model-5-1-features-for-direct3d-12)
 </dt> <dt>
 
 [Resource Binding in HLSL](resource-binding-in-hlsl.md)
 </dt> <dt>
 
-[Shader Model 5.1](https://docs.microsoft.com/windows/desktop/direct3dhlsl/shader-model-5-1)
+[Shader Model 5.1](/windows/desktop/direct3dhlsl/shader-model-5-1)
 </dt> <dt>
 
 [Specifying Root Signatures in HLSL](specifying-root-signatures-in-hlsl.md)

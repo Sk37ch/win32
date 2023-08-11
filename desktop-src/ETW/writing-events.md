@@ -1,5 +1,5 @@
 ---
-Description: How you write events to a trace session is determined by the type of your provider.
+description: How you write events to a trace session is determined by the type of your provider.
 ms.assetid: 346f9c96-9ea8-41ea-8953-a1dc23732215
 title: Writing Events
 ms.topic: article
@@ -16,11 +16,8 @@ For [WPP](about-event-tracing.md) providers, see [Writing WPP Events](windows-so
 
 For [manifest-based](about-event-tracing.md) providers, see [Writing Manifest-based Events](writing-manifest-based-events.md).
 
-For [TraceLogging](about-event-tracing.md) providers, see [Using TraceLogging](https://msdn.microsoft.com/library/Dn904630(v=VS.85).aspx).
+For [TraceLogging](about-event-tracing.md) providers, see [Using TraceLogging](../tracelogging/tracelogging-using-tracelogging.md).
 
  
 
  
-
-
-

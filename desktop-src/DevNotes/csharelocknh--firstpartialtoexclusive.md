@@ -1,5 +1,5 @@
 ---
-Description: Changes a partial lock to an exclusive lock.
+description: Changes a partial lock to an exclusive lock.
 ms.assetid: 4999b539-620e-4fb3-b8d4-92767da1225f
 title: CShareLockNH::FirstPartialToExclusive method
 ms.topic: reference
@@ -38,13 +38,13 @@ This method does not return a value.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                     |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Rwnh.dll</dt> </dl> |
 
@@ -53,7 +53,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

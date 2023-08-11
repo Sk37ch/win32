@@ -1,5 +1,5 @@
 ---
-Description: If the current configuration is a result of the Undo/Redo/Restore, marks it as if it has been set explicitly, so that the history will preserve the time when it was set, and a backup file will be created for it on the next configuration change.
+description: If the current configuration is a result of the Undo/Redo/Restore, marks it as if it has been set explicitly, so that the history will preserve the time when it was set, and a backup file will be created for it on the next configuration change.
 ms.assetid: 1b3d398a-c7f9-4e21-9e43-1245a13fe564
 ms.tgt_platform: multiple
 title: Checkpoint method of the Control class (Srrestoreptapi.h)
@@ -43,14 +43,14 @@ Uint32 Checkpoint(
 *OldTimestampLow* \[in\]
 </dt> <dd>
 
-The timestamp of when the current configuration was set. If not 0, enables the atomicity check: the action will be applied only if the timestamp of the old configuration matches (i.e. the configuration was not changed in between). This is the low part of [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
+The timestamp of when the current configuration was set. If not 0, enables the atomicity check: the action will be applied only if the timestamp of the old configuration matches (i.e. the configuration was not changed in between). This is the low part of [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
 
 </dd> <dt>
 
 *OldTimestampHigh* \[in\]
 </dt> <dd>
 
-The timestamp of when the current configuration was set. If not 0, enables the atomicity check: the action will be applied only if the timestamp of the old configuration matches (i.e. the configuration was not changed in between). This is the high part of [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
+The timestamp of when the current configuration was set. If not 0, enables the atomicity check: the action will be applied only if the timestamp of the old configuration matches (i.e. the configuration was not changed in between). This is the high part of [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
 
 </dd> <dt>
 
@@ -150,7 +150,7 @@ Success
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
@@ -169,9 +169,4 @@ Success
 </dt> </dl>
 
  
-
- 
-
-
-
 

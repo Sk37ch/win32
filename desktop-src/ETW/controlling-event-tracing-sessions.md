@@ -1,5 +1,5 @@
 ---
-Description: Event tracing sessions record events from one or more providers.
+description: Event tracing sessions record events from one or more providers.
 ms.assetid: 43841d2f-5a4c-493d-9531-21941311ffbc
 title: Controlling Event Tracing Sessions
 ms.topic: article
@@ -19,7 +19,7 @@ The following topics demonstrate how to define and update a session, and enable 
 -   [Updating an Event Tracing Session](updating-an-event-tracing-session.md)
 -   [Retrieving Additional Event Tracing Data](retrieving-additional-event-tracing-data.md)
 
-For information on flushing and querying sessions, see [**ControlTrace**](controltrace.md) and [**QueryAllTraces**](queryalltraces.md), respectively.
+For information on flushing and querying sessions, see [**ControlTrace**](/windows/win32/api/evntrace/nf-evntrace-controltracea) and [**QueryAllTraces**](/windows/win32/api/evntrace/nf-evntrace-queryalltracesa), respectively.
 
 Only users running with elevated administrative privileges, users in the Performance Log Users group, and applications running as LocalSystem, LocalService or NetworkService can control event tracing sessions. To grant a restricted user the ability to control trace sessions, add them to the Performance Log Users group.
 
@@ -28,6 +28,3 @@ Only users running with elevated administrative privileges, users in the Perform
  
 
  
-
-
-

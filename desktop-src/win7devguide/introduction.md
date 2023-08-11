@@ -1,12 +1,12 @@
 ---
 title: Introduction (Windows 7 Developer Guide)
 ms.assetid: ce331fe5-b28a-49b7-9854-4312dc18bba4
-description: 
+description: "Learn more about: Introduction (Windows 7 Developer Guide)"
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Introduction
+# Introduction (Windows 7 Developer Guide)
 
 Developing software has never been more exciting. The world has never been more connected, interactive and mobile. User experiences and content have never had higher fidelity. Advances in connectivity, mobility, natural interfaces, graphics and media are enabling new scenarios and opportunities for developers. At the same time, expectations have never been higher for performance, flexibility and interoperability. A world-class developer platform must provide a flexible and complete foundation for developers and their solutions, empowering them to build applications that set them apart from the competition while maximizing their investments.
 
@@ -18,7 +18,7 @@ This guide summarizes the key developer advances in each of the following three 
 
 Great user experiences start with a solid foundation. Windows 7 delivers a solid development platform and innovative tools that give you more options, increased application compatibility, better performance, and sophisticated document support. This results in a simple, more reliable environment for your applications and a familiar, intuitive one for your users.
 
-We've kept the user interface consistent, predictable and easy to use, while adding multi-touch support, scrolling, and other intuitive interaction features that take advantage of the latest PC and mobile device capabilities. With Windows 7, developers have the power to build the right user experiences for their applications. (See [Windows User Experience Interaction Guidelines](https://msdn.microsoft.com/library/aa511258.aspx).)
+We've kept the user interface consistent, predictable and easy to use, while adding multi-touch support, scrolling, and other intuitive interaction features that take advantage of the latest PC and mobile device capabilities. With Windows 7, developers have the power to build the right user experiences for their applications. (See [Windows User Experience Interaction Guidelines](/windows/apps/desktop/).)
 
 [Richer Application Experiences](richer-application-experiences.md)
 
@@ -31,7 +31,3 @@ With Windows 7, it's easy to get connected and stay connected. Windows networki
  
 
  
-
-
-
-

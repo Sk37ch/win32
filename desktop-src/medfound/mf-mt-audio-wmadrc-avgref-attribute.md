@@ -1,5 +1,5 @@
 ---
-Description: Reference average volume level of a Windows Media Audio file.
+description: Reference average volume level of a Windows Media Audio file.
 ms.assetid: ea7d4ed1-2a96-4372-9936-abdd6473b57e
 title: MF_MT_AUDIO_WMADRC_AVGREF attribute (Mfapi.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ Reference average volume level of a Windows Media Audio file.
 
 This attribute applies to audio media types for Windows Media Audio codecs. It specifies the original average volume level of the content. The decoder can use this value to perform dynamic range control.
 
-The [**IMFASFContentInfo::ParseHeader**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-parseheader) method adds this attribute to the media type if the ASF header contains the [**WM/WMADRCAverageReference**](https://msdn.microsoft.com/library/Dd758015(v=VS.85).aspx) attribute. This attribute is documented in the Windows Media Format SDK documentation.
+The [**IMFASFContentInfo::ParseHeader**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-parseheader) method adds this attribute to the media type if the ASF header contains the [**WM/WMADRCAverageReference**](../wmformat/wm-wmadrcaveragereference.md) attribute. This attribute is documented in the Windows Media Format SDK documentation.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -26,7 +26,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |
@@ -56,7 +56,3 @@ The GUID constant for this attribute is exported from mfuuid.lib.
  
 
  
-
-
-
-

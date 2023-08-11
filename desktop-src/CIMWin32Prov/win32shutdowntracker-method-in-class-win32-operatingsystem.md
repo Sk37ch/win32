@@ -1,5 +1,5 @@
 ---
-Description: The Win32ShutdownTracker method provides the same set of shutdown options supported by the Win32Shutdown method in Win32\_OperatingSystem, but it also allows you to specify comments, a reason for shutdown, or a timeout.
+description: The Win32ShutdownTracker method provides the same set of shutdown options supported by the Win32Shutdown method in Win32\_OperatingSystem, but it also allows you to specify comments, a reason for shutdown, or a timeout.
 ms.assetid: 2c5502c9-9ec0-4f9e-b661-1f8015556008
 ms.tgt_platform: multiple
 title: Win32ShutdownTracker method of the Win32_OperatingSystem class
@@ -124,7 +124,7 @@ Forced Power Off (8 + 4)
 
 ## Return value
 
-Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/library/Aa394559(v=VS.85).aspx) or [**WbemErrorEnum**](https://msdn.microsoft.com/library/Aa393978(v=VS.85).aspx). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/library/ms681381(v=VS.85).aspx).
+Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](../wmisdk/wmi-error-constants.md) or [**WbemErrorEnum**](/windows/win32/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](../debug/system-error-codes.md).
 
 <dl> <dt>
 
@@ -168,7 +168,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -182,7 +182,7 @@ Next
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](./operating-system-classes.md)
 </dt> <dt>
 
 [**Win32\_OperatingSystem**](win32-operatingsystem.md)
@@ -194,7 +194,3 @@ Next
  
 
  
-
-
-
-

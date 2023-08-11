@@ -1,10 +1,10 @@
 ---
-Description: ModemDMConfigProfile\/...\/Password (v4)
+description: ModemDMConfigProfile\/...\/Password (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_Password
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
-title: Password
+title: Password (v4)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 6345870c-631e-42cc-9487-14d37215d1d2
@@ -23,7 +23,7 @@ topic_type:
 
 Specifies the password used to authenticate a user.
 
-For more information, see the documentation for the v1 [**Password**](https://msdn.microsoft.com/library/Dd323292(v=VS.85).aspx) element.
+For more information, see the documentation for the v1 [**Password**](./schema-password-userlogoncred-element.md) element.
 
 ## Element hierarchy
 
@@ -59,45 +59,22 @@ None.
 
 ### <span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Parent Elements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-1-userlogoncred.md">UserLogonCred</a></td>
-<td><p>Logon credentials for a connection.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Parent Element | Description | 
+|----------------|-------------|
+| <a href="element-1-userlogoncred.md">UserLogonCred</a> | <p>Logon credentials for a connection.</p> | 
+
 
  
 
 ## Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p>Namespace</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 
  
-
-
-

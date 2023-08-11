@@ -59,13 +59,13 @@ If the selection is not empty, the return value is a set of flags containing one
 
 ## Remarks
 
-This message is useful during [**WM\_SIZE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-size) processing for the parent of a bottomless rich edit control.
+This message is useful during [**WM\_SIZE**](/windows/desktop/winmsg/wm-size) processing for the parent of a bottomless rich edit control.
 
 ## Requirements
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -77,14 +77,8 @@ This message is useful during [**WM\_SIZE**](https://docs.microsoft.com/windows/
 
 <dl> <dt>
 
-[**WM\_SIZE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-size)
+[**WM\_SIZE**](/windows/desktop/winmsg/wm-size)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

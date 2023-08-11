@@ -1,5 +1,5 @@
 ---
-Description: Forwards the events of the specified ShellFolderView object to the corresponding ShellFolderViewOC event handler.
+description: Forwards the events of the specified ShellFolderView object to the corresponding ShellFolderViewOC event handler.
 ms.assetid: 44a2a0a5-aa87-43ae-b4ea-0d301fcb8464
 title: ShellFolderViewOC.SetFolderView method (Shldisp.h)
 ms.topic: reference
@@ -37,7 +37,7 @@ iRetVal = ShellFolderViewOC.SetFolderView(
 *oShellFolderView* \[in\]
 </dt> <dd>
 
-Type: **[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)\***
+Type: **[**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)\***
 
 A [**ShellFolderView**](shellfolderview.md) object. Its [**EnumDone**](shellfolderviewoc-enumdone.md) and [**SelectionChanged**](shellfolderview-selectionchanged.md) events will be forwarded to the corresponding [**ShellFolderViewOC**](shellfolderviewoc-object.md) event handler.
 
@@ -47,7 +47,7 @@ A [**ShellFolderView**](shellfolderview.md) object. Its [**EnumDone**](shellfold
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |
@@ -60,7 +60,3 @@ A [**ShellFolderView**](shellfolderview.md) object. Its [**EnumDone**](shellfold
  
 
  
-
-
-
-

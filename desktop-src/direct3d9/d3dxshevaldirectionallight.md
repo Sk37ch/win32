@@ -1,22 +1,28 @@
 ---
-Description: Evaluates a directional light and returns spectral spherical harmonic (SH) data.
+description: D3DXSHEvalDirectionalLight function (D3dx9math.h) - Evaluates a directional light and returns spectral spherical harmonic (SH) data.
 ms.assetid: 6e2e9b02-13bb-4cef-ae9d-343fbf64e5d7
 title: D3DXSHEvalDirectionalLight function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXSHEvalDirectionalLight
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXSHEvalDirectionalLight function
+# D3DXSHEvalDirectionalLight function (D3dx9math.h)
+
+> [!Note]
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated and is not supported for Windows Store apps.
+
+> [!Note]
+> Instead of using this function, we recommend that you use the [Spherical Harmonics Math](https://github.com/Microsoft/DirectXMath/tree/main/SHMath) library function **XMSHEvalDirectionalLight**.
 
 Evaluates a [directional light](light-types.md) and returns spectral spherical harmonic (SH) data.
 
@@ -45,7 +51,7 @@ HRESULT D3DXSHEvalDirectionalLight(
 *Order* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Order of the SH evaluation. Must be in the range of [D3DXSH\_MINORDER](other-d3dx-constants.md) to D3DXSH\_MAXORDER, inclusive. The evaluation generates Order² coefficients. The degree of the evaluation is Order - 1.
 
@@ -63,7 +69,7 @@ Pointer to the (x, y, z) hemisphere axis direction vector in which to evaluate t
 *RIntensity* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The red intensity of the light.
 
@@ -72,7 +78,7 @@ The red intensity of the light.
 *GIntensity* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The green intensity of the light.
 
@@ -81,7 +87,7 @@ The green intensity of the light.
 *BIntensity* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The blue intensity of the light.
 
@@ -90,7 +96,7 @@ The blue intensity of the light.
 *pROut* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to the output SH vector for the red component.
 
@@ -99,7 +105,7 @@ Pointer to the output SH vector for the red component.
 *pGOut* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Optional pointer to the output SH vector for the green component.
 
@@ -108,7 +114,7 @@ Optional pointer to the output SH vector for the green component.
 *pBOut* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Optional pointer to the output SH vector for the blue component.
 
@@ -136,7 +142,7 @@ The following equations show the relationship between Cartesian (x, y, z) and sp
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -156,7 +162,3 @@ The following equations show the relationship between Cartesian (x, y, z) and sp
  
 
  
-
-
-
-

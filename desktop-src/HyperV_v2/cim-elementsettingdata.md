@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a managed element and its associated setting data. This association also describes whether this is a default or current setting.
+description: Represents an association between a managed element and its associated setting data. This association also describes whether this is a default or current setting.
 ms.assetid: 0df2b235-76d9-4899-938b-274ec5471324
 title: CIM_ElementSettingData class
 ms.topic: reference
@@ -178,7 +178,7 @@ Data type: **CIM\_ManagedElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The managed element.
@@ -194,7 +194,7 @@ Data type: **CIM\_SettingData**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The setting data associated with the element.
@@ -205,7 +205,7 @@ The setting data associated with the element.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -216,9 +216,4 @@ The setting data associated with the element.
 
 
  
-
- 
-
-
-
 

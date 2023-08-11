@@ -1,5 +1,5 @@
 ---
-Description: The CounterType qualifier contains the integer value for the property counter type for properties in Win32\_PerfRawData classes. The CookingType contains the constants for property formula types in Win32\_PerfFormattedData classes.
+description: The CounterType qualifier contains the integer value for the property counter type for properties in Win32\_PerfRawData classes. The CookingType contains the constants for property formula types in Win32\_PerfFormattedData classes.
 ms.assetid: aa79fcdb-503f-4928-b2b7-f07baeaf9fb5
 ms.tgt_platform: multiple
 title: CounterType Qualifier
@@ -17,9 +17,9 @@ api_location:
 
 # CounterType Qualifier
 
-The **CounterType** qualifier contains the integer value for the property counter type for properties in [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata) classes. The **CookingType** contains the constants for property formula types in [**Win32\_PerfFormattedData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfformatteddata) classes.
+The **CounterType** qualifier contains the integer value for the property counter type for properties in [**Win32\_PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata) classes. The **CookingType** contains the constants for property formula types in [**Win32\_PerfFormattedData**](/windows/desktop/CIMWin32Prov/win32-perfformatteddata) classes.
 
-For more information and a breakdown of counter types by function, see [Counter Types](https://technet.microsoft.com/library/cc785636(WS.10).aspx).
+For more information and a breakdown of counter types by function, see [Counter Types](/previous-versions/windows/it-pro/windows-server-2003/cc785636(v=ws.10)).
 
 
 
@@ -74,7 +74,7 @@ For more information and a breakdown of counter types by function, see [Counter 
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -89,9 +89,4 @@ For more information and a breakdown of counter types by function, see [Counter 
 </dt> </dl>
 
  
-
- 
-
-
-
 

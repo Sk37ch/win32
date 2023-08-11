@@ -1,5 +1,5 @@
 ---
-Description: The Windows Media MPEG4 V1/V2 decoder decodes MPEG4 V1/V2 video streams.
+description: The Windows Media MPEG4 V1/V2 decoder decodes MPEG4 V1/V2 video streams.
 ms.assetid: 63b32972-1003-4291-bfdd-cc0cb8d65430
 title: Windows Media MPEG4 V1/V2 Decoder (Wmcodecdsp.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ The Windows Media MPEG4 V1/V2 decoder supports the following output media subtyp
 
 ## Remarks
 
-The Windows Media MPEG4 V1/V2 decoder object exposes the [**IMediaObject**](https://msdn.microsoft.com/library/Dd406926(v=VS.85).aspx) interface so that the object can be used as a DirectX Media Object (DMO), and it exposes the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) interface so that the object can be used as a Media Foundation Transform (MFT). The object has the same class identifier (CLSID) regardless of whether it acts as a DMO or an MFT.
+The Windows Media MPEG4 V1/V2 decoder object exposes the [**IMediaObject**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject) interface so that the object can be used as a DirectX Media Object (DMO), and it exposes the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) interface so that the object can be used as a Media Foundation Transform (MFT). The object has the same class identifier (CLSID) regardless of whether it acts as a DMO or an MFT.
 
 An MPEG4 V1/V2 decoder behaves as a DMO or an MFT depending on which interfaces you obtain and which version of Windows is running. The following table shows the conditions under which an MPEG4 V1/V2 decoder behaves as a DMO or an MFT.
 
@@ -66,7 +66,7 @@ The globally unique identifiers (GUIDs) for RGB media subtypes differ depending 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -85,7 +85,3 @@ The globally unique identifiers (GUIDs) for RGB media subtypes differ depending 
  
 
  
-
-
-
-

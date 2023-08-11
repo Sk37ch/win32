@@ -1,6 +1,6 @@
 ---
-title: SampleCmpLevelZero::SampleCmpLevelZero(S,float,float,int,uint) function
-description: Samples a Texture2D on mipmap level 0 only and compares the result to a comparison value. Returns status about the operation.
+title: SampleCmpLevelZero::SampleCmpLevelZero(S,float,float,int,uint) function for Texture2D
+description: Samples a Texture2D on mipmap level 0 only and compares the result to a comparison value, and then returns status about the operation. For Texture2D.
 ms.assetid: AEFE424F-2C77-434C-B9C0-8173778CB108
 keywords:
 - SampleCmpLevelZero function HLSL
@@ -15,20 +15,20 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# SampleCmpLevelZero(S,float,float,int,uint) function
+# SampleCmpLevelZero::SampleCmpLevelZero(S,float,float,int,uint) function for Texture2D
 
 Samples a [**Texture2D**](sm5-object-texture2d.md) on mipmap level 0 only and compares the result to a comparison value. Returns status about the operation.
 
 ## Syntax
 
 
-```C++
+``` syntax
 DXGI_FORMAT SampleCmpLevelZero(
-  _In_  SamplerState S,
-  _In_  float        Location,
-  _In_  float        CompareValue,
-  _In_  int          Offset,
-  _Out_ uint         Status
+  in  SamplerState S,
+  in  float        Location,
+  in  float        CompareValue,
+  in  int          Offset,
+  out uint         Status
 );
 ```
 
@@ -105,15 +105,15 @@ An optional texture coordinate offset, which can be used for any texture-object 
 
 Type: **uint**
 
-The status of the operation. You can't access the status directly; instead, pass the status to the [**CheckAccessFullyMapped**](checkaccessfullymapped.md) intrinsic function. **CheckAccessFullyMapped** returns **TRUE** if all values from the corresponding **Sample**, **Gather**, or **Load** operation accessed mapped tiles in a [tiled resource](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-2-features). If any values were taken from an unmapped tile, **CheckAccessFullyMapped** returns **FALSE**.
+The status of the operation. You can't access the status directly; instead, pass the status to the [**CheckAccessFullyMapped**](checkaccessfullymapped.md) intrinsic function. **CheckAccessFullyMapped** returns **TRUE** if all values from the corresponding **Sample**, **Gather**, or **Load** operation accessed mapped tiles in a [tiled resource](/windows/desktop/direct3d11/direct3d-11-2-features). If any values were taken from an unmapped tile, **CheckAccessFullyMapped** returns **FALSE**.
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
+Type: **[**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
 
-The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
+The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
 ## See also
 
@@ -125,7 +125,3 @@ The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**
  
 
  
-
-
-
-

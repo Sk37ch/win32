@@ -1,5 +1,5 @@
 ---
-Description: Sent to cancel certain modes, such as mouse capture.
+description: Sent to cancel certain modes, such as mouse capture.
 ms.assetid: c801233a-c4d8-4fd9-aaf0-3d4503bbce26
 title: WM_CANCELMODE message (Winuser.h)
 ms.topic: reference
@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # WM\_CANCELMODE message
 
-Sent to cancel certain modes, such as mouse capture. For example, the system sends this message to the active window when a dialog box or message box is displayed. Certain functions also send this message explicitly to the specified window regardless of whether it is the active window. For example, the [**EnableWindow**](https://msdn.microsoft.com/library/ms646291(v=VS.85).aspx) function sends this message when disabling the specified window.
+Sent to cancel certain modes, such as mouse capture. For example, the system sends this message to the active window when a dialog box or message box is displayed. Certain functions also send this message explicitly to the specified window regardless of whether it is the active window. For example, the [**EnableWindow**](/windows/win32/api/winuser/nf-winuser-enablewindow) function sends this message when disabling the specified window.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -45,13 +45,13 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-When the **WM\_CANCELMODE** message is sent, the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function cancels internal processing of standard scroll bar input, cancels internal menu processing, and releases the mouse capture.
+When the **WM\_CANCELMODE** message is sent, the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function cancels internal processing of standard scroll bar input, cancels internal menu processing, and releases the mouse capture.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -66,13 +66,13 @@ When the **WM\_CANCELMODE** message is sent, the [**DefWindowProc**](https://msd
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
+[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**EnableWindow**](https://msdn.microsoft.com/library/ms646291(v=VS.85).aspx)
+[**EnableWindow**](/windows/win32/api/winuser/nf-winuser-enablewindow)
 </dt> <dt>
 
-[**ReleaseCapture**](https://msdn.microsoft.com/library/ms646261(v=VS.85).aspx)
+[**ReleaseCapture**](/windows/win32/api/winuser/nf-winuser-releasecapture)
 </dt> <dt>
 
 **Conceptual**
@@ -84,7 +84,3 @@ When the **WM\_CANCELMODE** message is sent, the [**DefWindowProc**](https://msd
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Restore all render targets and, if needed, compose all the rendered faces into the environment map surface.
+description: Restore all render targets and, if needed, compose all the rendered faces into the environment map surface.
 ms.assetid: 57c73787-36e7-4088-b5ff-78894e3a5d90
 title: ID3DXRenderToEnvMap::End method (D3dx9core.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT End(
 *MipFilter* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 A valid combination of one or more [D3DX\_FILTER](d3dx-filter.md) flags.
 
@@ -54,7 +54,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -74,7 +74,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

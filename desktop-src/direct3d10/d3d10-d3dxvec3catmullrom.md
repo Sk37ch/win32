@@ -1,21 +1,24 @@
 ---
-Description: Performs a Catmull-Rom interpolation, using the specified 3D vectors.
+description: D3DXVec3CatmullRom function (D3DX10Math.h) - Performs a Catmull-Rom interpolation, using the specified 3D vectors.
 ms.assetid: 324bd4b5-b0df-4dd3-b370-3c365c9f2db1
 title: D3DXVec3CatmullRom function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec3CatmullRom
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3DX10Math.h
 ---
 
-# D3DXVec3CatmullRom function
+# D3DXVec3CatmullRom function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Performs a Catmull-Rom interpolation, using the specified 3D vectors.
 
@@ -42,7 +45,7 @@ D3DXVECTOR3* D3DXVec3CatmullRom(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to the [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that is the result of the operation.
 
@@ -51,7 +54,7 @@ Pointer to the [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that is the result of the
 *pV0* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to a source D3DXVECTOR3 structure, a position vector.
 
@@ -60,7 +63,7 @@ Pointer to a source D3DXVECTOR3 structure, a position vector.
 *pV1* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to a source D3DXVECTOR3 structure, a position vector.
 
@@ -69,7 +72,7 @@ Pointer to a source D3DXVECTOR3 structure, a position vector.
 *pV2* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to a source D3DXVECTOR3 structure, a position vector.
 
@@ -78,7 +81,7 @@ Pointer to a source D3DXVECTOR3 structure, a position vector.
 *pV3* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to a source D3DXVECTOR3 structure, a position vector.
 
@@ -87,7 +90,7 @@ Pointer to a source D3DXVECTOR3 structure, a position vector.
 *s* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Weighting factor. See Remarks.
 
@@ -95,7 +98,7 @@ Weighting factor. See Remarks.
 
 ## Return value
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to a D3DXVECTOR3 structure that is the result of the Catmull-Rom interpolation.
 
@@ -105,10 +108,10 @@ Given four points (p1, p2, p3, p4), find a function Q(s) such that:
 
 
 ```
-Q(s) is a cubic function. 
-Q(s) interpolates between p2 and p3 as s ranges from 0 to 1. 
-Q(s) is parallel to the line joining p1 to p3 when s is 0. 
-Q(s) is parallel to the line joining p2 to p4 when s is 1. 
+Q(s) is a cubic function.
+Q(s) interpolates between p2 and p3 as s ranges from 0 to 1.
+Q(s) is parallel to the line joining p1 to p3 when s is 0.
+Q(s) is parallel to the line joining p2 to p4 when s is 1.
 ```
 
 
@@ -166,7 +169,7 @@ Q(s) = [(-s3 + 2s2 - s)p1 + (3s3 - 5s2 + 2)p2 + (-3s3 + 4s2 + s)p3 + (s3 - s2)p4
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 
@@ -182,7 +185,3 @@ Q(s) = [(-s3 + 2s2 - s)p1 + (3s3 - 5s2 + 2)p2 + (-3s3 + 4s2 + s)p3 + (s3 - s2)p4
  
 
  
-
-
-
-

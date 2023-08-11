@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates how to write a handler used to display a file preview inside the Windows Explorer preview pane or other preview handler hosts.
+description: Demonstrates how to write a handler used to display a file preview inside the Windows Explorer preview pane or other preview handler hosts.
 title: Recipe Preview Handler Sample
 ms.topic: article
 ms.date: 05/31/2018
@@ -40,20 +40,9 @@ This topic contains the following sections:
 
 ## Downloading the Sample
 
-This sample is available in the following locations.
-
-
-
-| Location      | Link                                                                                                 |
+| Location      | Path URL                                                                                             |
 |---------------|------------------------------------------------------------------------------------------------------|
-| Code Gallery  | [Windows Shell Integration Samples on Code Gallery](https://code.msdn.microsoft.com/shellintegration) |
-| Windows 7 SDK | [Download Windows 7 SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)                            |
-
-
-
- 
-
-In the case of the Windows SDK, once you have downloaded and installed it, you will find the samples in the installed directory. For example, use of the default installation path for the Windows 7 SDK results in the samples being placed under `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\`.
+| GitHub  | [RecipePreviewHandler sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/appshellintegration/RecipePreviewHandler) |
 
 ## Building the Sample
 
@@ -101,16 +90,16 @@ To make both the 32-bit (x86) and 64-bit (x64) output work on a 64-bit version o
 
 ## Unregistering the Sample Preview Handler DLL
 
--   Open the command prompt window and enter `regsvr32.dll /u PreviewHandlerSDKSample.dll` to unregister the handler.
+-   Open the command prompt window and enter `regsvr32.exe /u PreviewHandlerSDKSample.dll` to unregister the handler.
 
 ## Related topics
 
 <dl> <dt>
 
-[**IPreviewHandler**](https://msdn.microsoft.com/library/Bb775315(v=VS.85).aspx)
+[**IPreviewHandler**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipreviewhandler)
 </dt> <dt>
 
-[**IPreviewHandlerFrame**](https://msdn.microsoft.com/library/Bb775309(v=VS.85).aspx)
+[**IPreviewHandlerFrame**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlerframe)
 </dt> <dt>
 
 [Application User Model IDs (AppUserModelIDs)](appids.md)
@@ -119,6 +108,3 @@ To make both the 32-bit (x86) and 64-bit (x64) output work on a 64-bit version o
  
 
  
-
-
-

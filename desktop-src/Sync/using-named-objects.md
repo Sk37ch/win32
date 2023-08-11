@@ -1,5 +1,5 @@
 ---
-Description: The following example illustrates the use of object names by creating and opening a named mutex.
+description: The following example illustrates the use of object names by creating and opening a named mutex.
 ms.assetid: 06199f83-8fe0-42b9-9db1-58fe1443db4e
 title: Using Named Objects
 ms.topic: article
@@ -12,7 +12,7 @@ The following example illustrates the use of [object names](object-names.md) by 
 
 ## First Process
 
-The first process uses the [**CreateMutex**](https://msdn.microsoft.com/library/ms682411(v=VS.85).aspx) function to create the mutex object. Note that this function succeeds even if there is an existing object with the same name.
+The first process uses the [**CreateMutex**](/windows/win32/api/synchapi/nf-synchapi-createmutexa) function to create the mutex object. Note that this function succeeds even if there is an existing object with the same name.
 
 
 ```C++
@@ -94,6 +94,3 @@ int main(void)
  
 
  
-
-
-

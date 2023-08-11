@@ -1,5 +1,5 @@
 ---
-Description: The IScanProfileUI interface enables applications to display a dialog box so that users can create, modify, and delete scan profiles.
+description: The IScanProfileUI interface enables applications to display a dialog box so that users can create, modify, and delete scan profiles.
 ms.assetid: d0c7edcc-00d8-49b2-a0f7-fe4bbba90bfb
 title: IScanProfileUI interface (Scanprofileui.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ The **IScanProfileUI** interface enables applications to display a dialog box so
 
 ## Members
 
-The **IScanProfileUI** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IScanProfileUI** also has these types of members:
+The **IScanProfileUI** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **IScanProfileUI** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -47,7 +47,7 @@ The dialog box is modal; the user cannot switch to the parent window until the d
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                        |
@@ -60,7 +60,7 @@ The dialog box is modal; the user cannot switch to the parent window until the d
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
+[**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)
 </dt> <dt>
 
 [Scan Profile Schema](-wia-scan-profile-schema.md)
@@ -69,7 +69,3 @@ The dialog box is modal; the user cannot switch to the parent window until the d
  
 
  
-
-
-
-

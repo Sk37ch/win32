@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 ## Platforms
 
-<dl> **Clients** – Windows 8  
+**Clients** – Windows 8  
 **Servers** – Windows Server 2012  
-</dl>
+
 
 ## Description
 
@@ -20,7 +20,7 @@ In Windows 8 and Windows Server 2012, including WinPE, the kernel has been loc
 
 This change affects all kernel-mode drivers for devices that support unified extensible firmware interface (UEFI) Secure Boot; UEFI Secure Boot is required for Windows 8 certification for client machines, and optional for servers. It does not affect user-mode drivers.
 
-Standard development for kernel-mode drivers involves either the use of kernel mode debugging or the boot configuration data (BCD) <testsigning> setting. Both of these are disabled when Secured Boot is on.
+Standard development for kernel-mode drivers involves either the use of kernel mode debugging or the boot configuration data (BCD) &lt;testsigning&gt; setting. Both of these are disabled when Secured Boot is on.
 
 ## Manifestation
 
@@ -34,12 +34,8 @@ When distributing drivers more widely they must be properly signed by a trusted 
 
 ## Resources
 
--   [Signing Drivers](https://msdn.microsoft.com/windows/hardware/gg487317.aspx)
+-   [Signing Drivers](/previous-versions/windows/hardware/design/dn653563(v=vs.85))
 
  
 
  
-
-
-
-

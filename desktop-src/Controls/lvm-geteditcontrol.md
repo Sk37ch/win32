@@ -40,7 +40,7 @@ When label editing begins, an edit control is created, positioned, and initializ
 
 To customize label editing, implement a handler for [LVN\_BEGINLABELEDIT](lvn-beginlabeledit.md) and have it send an **LVM\_GETEDITCONTROL** message to the list-view control. If a label is being edited, the return value will be a handle to the edit control. Use this handle to customize the edit control by sending the usual **EM\_XXX** messages.
 
-When the user completes or cancels editing, the edit control is destroyed and the handle is no longer valid. You can subclass the edit control, but you should not destroy it. To cancel editing, send the list-view control a [**WM\_CANCELMODE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-cancelmode) message.
+When the user completes or cancels editing, the edit control is destroyed and the handle is no longer valid. You can subclass the edit control, but you should not destroy it. To cancel editing, send the list-view control a [**WM\_CANCELMODE**](/windows/desktop/winmsg/wm-cancelmode) message.
 
 The list-view item being edited is the currently focused item that is, the item in the focused state. To find an item based on its state, use the [**LVM\_GETNEXTITEM**](lvm-getnextitem.md) message.
 
@@ -48,7 +48,7 @@ The list-view item being edited is the currently focused item that is, the item 
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -64,10 +64,4 @@ The list-view item being edited is the currently focused item that is, the item 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

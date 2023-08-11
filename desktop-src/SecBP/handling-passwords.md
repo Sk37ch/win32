@@ -1,5 +1,5 @@
 ---
-Description: Currently, user name and password credentials are the most common credentials used for authentication.
+description: Currently, user name and password credentials are the most common credentials used for authentication.
 ms.assetid: 1d810f71-9bf5-4c5c-a573-c35081f604cf
 title: Handling Passwords
 ms.topic: article
@@ -24,13 +24,10 @@ Given that passwords must usually be stored on the software system, it becomes i
 -   [Threat Mitigation Techniques](threat-mitigation-techniques.md)
 
 > [!Note]  
-> When you have finished using passwords in applications, clear the sensitive information from memory by calling the [**SecureZeroMemory**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)) function.
+> When you have finished using passwords in applications, clear the sensitive information from memory by calling the [**SecureZeroMemory**](/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)) function.
 
  
 
  
 
  
-
-
-

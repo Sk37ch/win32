@@ -1,5 +1,5 @@
 ---
-Description: Define for applications well-known capabilities by using the AllocateAndInitializeSid function.
+description: Define for applications well-known capabilities by using the AllocateAndInitializeSid function.
 ms.assetid: CD27774F-0B70-4D97-96C9-B247536CC88E
 title: Capability SID Constants (Winnt.h)
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Capability SID Constants
 
-The capability SID constants define for applications well-known capabilities by using the [**AllocateAndInitializeSid**](https://msdn.microsoft.com/library/Aa375213(v=VS.85).aspx) function.
+The capability SID constants define for applications well-known capabilities by using the [**AllocateAndInitializeSid**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-allocateandinitializesid) function.
 
 <dl> <dt>
 
@@ -144,13 +144,13 @@ An account has access to removable storage.
 
 ## Remarks
 
-When constructing a capability SID, you need to include the package authority, SECURITY\_APP\_PACKAGE\_AUTHORITY {0,0,0,0,0,15}, in the call to the [**AllocateAndInitializeSid**](https://msdn.microsoft.com/library/Aa375213(v=VS.85).aspx) function. Additionally, you need the base RID and RID count for the built-in capabilities, SECURITY\_CAPABILITY\_BASE\_RID (0x00000003L) and SECURITY\_BUILTIN\_CAPABILITY\_RID\_COUNT (2L).
+When constructing a capability SID, you need to include the package authority, SECURITY\_APP\_PACKAGE\_AUTHORITY {0,0,0,0,0,15}, in the call to the [**AllocateAndInitializeSid**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-allocateandinitializesid) function. Additionally, you need the base RID and RID count for the built-in capabilities, SECURITY\_CAPABILITY\_BASE\_RID (0x00000003L) and SECURITY\_BUILTIN\_CAPABILITY\_RID\_COUNT (2L).
 
 ## Requirements
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |
@@ -159,9 +159,4 @@ When constructing a capability SID, you need to include the package authority, S
 
 
  
-
- 
-
-
-
 

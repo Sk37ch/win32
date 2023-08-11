@@ -1,5 +1,5 @@
 ---
-Description: Returns the identifiers of any relevant context nodes that are associated with this warning.
+description: Returns the identifiers of any relevant context nodes that are associated with this warning.
 ms.assetid: 8c418f48-3903-47c1-82e2-085de39574d4
 title: IAnalysisWarning::GetNodeIds method (IACom.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 If *ppNodeIds* is passed as **NULL**, the **GetNodeIds** method returns **S\_OK** and the number of rectangles is returned in *pulCount*.
 
 > [!Caution]  
-> To avoid a memory leak, use [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to release the memory from \**ppNodeIds* when you no longer need the information.
+> To avoid a memory leak, use [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to release the memory from \**ppNodeIds* when you no longer need the information.
 
  
 
@@ -88,7 +88,7 @@ warning->GetNodeIds(&number, NULL);
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -114,9 +114,4 @@ warning->GetNodeIds(&number, NULL);
 </dt> </dl>
 
  
-
- 
-
-
-
 

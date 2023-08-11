@@ -1,22 +1,25 @@
 ---
-Description: Scales a color value.
+description: Scales a color value.
 ms.assetid: 35e8adee-7ce5-4db5-8276-f0e408748e78
 title: D3DXColorScale function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXColorScale
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXColorScale function
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Scales a color value.
 
@@ -58,7 +61,7 @@ Pointer to a source [**D3DXCOLOR**](d3dxcolor.md) structure.
 *s* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Scale factor. It scales the color, treating it like a 4D vector. There are no limits on the value of s. If s is 1, the resulting color is the original color.
 
@@ -87,7 +90,7 @@ pOut->r = pC->r * s;
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -113,7 +116,3 @@ pOut->r = pC->r * s;
  
 
  
-
-
-
-

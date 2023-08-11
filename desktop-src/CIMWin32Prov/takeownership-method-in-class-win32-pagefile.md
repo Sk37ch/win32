@@ -1,5 +1,5 @@
 ---
-Description: The TakeOwnerShip&\#8194;WMI class method obtains ownership of the logical file specified in the object path.
+description: TakeOwnerShip method of the Win32_PageFile class - The TakeOwnerShip&\#8194;WMI class method obtains ownership of the logical file specified in the object path.
 ms.assetid: c4f42d54-562c-4163-a5ec-e94f76932631
 ms.tgt_platform: multiple
 title: TakeOwnerShip method of the Win32_PageFile class
@@ -18,9 +18,9 @@ api_location:
 
 # TakeOwnerShip method of the Win32\_PageFile class
 
-The **TakeOwnerShip** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method obtains ownership of the logical file specified in the object path. If the logical file is actually a directory, then **TakeOwnerShip** acts recursively, taking ownership of all of the files and subdirectories the directory contains.
+The **TakeOwnerShip** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method obtains ownership of the logical file specified in the object path. If the logical file is actually a directory, then **TakeOwnerShip** acts recursively, taking ownership of all of the files and subdirectories the directory contains.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -136,7 +136,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -150,16 +150,11 @@ A parameter specified is not valid.
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_PageFile**](win32-pagefile.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

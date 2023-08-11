@@ -1,5 +1,5 @@
 ---
-Description: IUserIdentityManager is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+description: IUserIdentityManager is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: 3d24b858-bbaf-455c-83cd-3f6f93aba2a8
 title: IUserIdentityManager interface (Msident.h)
 ms.topic: reference
@@ -23,7 +23,7 @@ Exposes methods that identify, enumerate, and manage user identities on the syst
 
 ## Members
 
-The **IUserIdentityManager** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IUserIdentityManager** also has these types of members:
+The **IUserIdentityManager** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IUserIdentityManager** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -49,7 +49,7 @@ The **IUserIdentityManager** interface has these methods.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
@@ -80,7 +80,3 @@ The **IUserIdentityManager** interface has these methods.
  
 
  
-
-
-
-

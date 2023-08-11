@@ -1,5 +1,5 @@
 ---
-Description: Initiate the drawing of each face of an environment map.
+description: Initiate the drawing of each face of an environment map.
 ms.assetid: c100e138-c5a8-49bb-9a91-e7f70410470f
 title: ID3DXRenderToEnvMap::Face method (D3dx9core.h)
 ms.topic: reference
@@ -39,16 +39,16 @@ HRESULT Face(
 *Face* \[in\]
 </dt> <dd>
 
-Type: **[**D3DCUBEMAP\_FACES**](https://msdn.microsoft.com/library/Bb172528(v=VS.85).aspx)**
+Type: **[**D3DCUBEMAP\_FACES**](./d3dcubemap-faces.md)**
 
-The first face of the environmental cube map. See [**D3DCUBEMAP\_FACES**](https://msdn.microsoft.com/library/Bb172528(v=VS.85).aspx).
+The first face of the environmental cube map. See [**D3DCUBEMAP\_FACES**](./d3dcubemap-faces.md).
 
 </dd> <dt>
 
 *MipFilter* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 A valid combination of one or more [D3DX\_FILTER](d3dx-filter.md) flags.
 
@@ -68,7 +68,7 @@ This method must be called once for each type of environment map. The only excep
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -85,7 +85,3 @@ This method must be called once for each type of environment map. The only excep
  
 
  
-
-
-
-

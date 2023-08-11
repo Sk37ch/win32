@@ -1,5 +1,5 @@
 ---
-Description: The Dolby audio decoder is an MFT that decodes Dolby Digital (AC-3) and Dolby Digital Plus.
+description: The Dolby audio decoder is an MFT that decodes Dolby Digital (AC-3) and Dolby Digital Plus.
 ms.assetid: A968914A-E4C5-4472-8776-C73F5910089A
 title: Dolby Audio Decoder
 ms.topic: reference
@@ -35,7 +35,7 @@ The Dolby audio decoder supports the following input subtypes.
 | Subtype                                 | Description                                                                                                                                                 | Header       |
 |-----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
 | **MEDIASUBTYPE\_DOLBY\_AC3**            | Dolby Digital audio.                                                                                                                                        | mfapi.h      |
-| **MEDIASUBTYPE\_DVM**                   | Dolby Digital audio; see [**Audio Subtypes**](https://msdn.microsoft.com/library/Dd317599(v=VS.85).aspx). This subtype can be used interchangeably with **MEDIASUBTYPE\_DOLBY\_AC3**.<br/> | wmcodecdsp.h |
+| **MEDIASUBTYPE\_DVM**                   | Dolby Digital audio; see [**Audio Subtypes**](../directshow/audio-subtypes.md). This subtype can be used interchangeably with **MEDIASUBTYPE\_DOLBY\_AC3**.<br/> | wmcodecdsp.h |
 | **MFAudioFormat\_Dolby\_Digital\_Plus** | Dolby Digital Plus audio.                                                                                                                                   | mfapi.h      |
 
 
@@ -46,52 +46,15 @@ The following table lists the requires and optional attributes for the input med
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-<th>Remarks</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a></td>
-<td>Major type.</td>
-<td>Required. Must be <strong>MFMediaType_Audio</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a></td>
-<td>Audio subtype.</td>
-<td>Required. See the previous table for details.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
-<td>Sample rate, in samples per second.</td>
-<td>Optional. Valid values are: 48000, 44100, 32000, 24000, 22050, and 16000. If this attribute is not set, the default value is 48000. <br/>
-<blockquote>
-[!Note]<br />
-Dolby AC-3 streams are limited to the three highest rates in this list.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a></td>
-<td>Number of channels, including the low frequency (LFE) channel, if present.</td>
-<td>Optional. Valid values are in the range 1 (mono) to 8 (7.1 channel configuration). If this attribute is not set, the default value is 2 (stereo).</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
-<td>Specifies the assignment of audio channels to speaker positions.</td>
-<td>Optional. If specified, the value must be consistent with the number of audio channels. If the attribute is not set, the decoder uses a default channel mask, based on the number of channels.</td>
-</tr>
-</tbody>
-</table>
+
+| Attribute | Description | Remarks | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a> | Major type. | Required. Must be <strong>MFMediaType_Audio</strong>. | 
+| <a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a> | Audio subtype. | Required. See the previous table for details. | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a> | Sample rate, in samples per second. | Optional. Valid values are: 48000, 44100, 32000, 24000, 22050, and 16000. If this attribute is not set, the default value is 48000. <br /><blockquote>[!Note]<br />Dolby AC-3 streams are limited to the three highest rates in this list.</blockquote><br /> | 
+| <a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a> | Number of channels, including the low frequency (LFE) channel, if present. | Optional. Valid values are in the range 1 (mono) to 8 (7.1 channel configuration). If this attribute is not set, the default value is 2 (stereo). | 
+| <a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a> | Specifies the assignment of audio channels to speaker positions. | Optional. If specified, the value must be consistent with the number of audio channels. If the attribute is not set, the decoder uses a default channel mask, based on the number of channels. | 
+
 
 
 
@@ -101,72 +64,19 @@ The following table lists the supported Dolby channel configurations.
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Channel configuration</th>
-<th>Number of channels</th>
-<th>Channel masks</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1/0 (mono)</td>
-<td>1</td>
-<td>0x4 (<strong>SPEAKER_FRONT_CENTER</strong>)</td>
-</tr>
-<tr class="even">
-<td>2/0 (stereo) or 1+1 (dual mono)</td>
-<td>2</td>
-<td>0x3 (<strong>SPEAKER_FRONT_LEFT</strong> | <strong>SPEAKER_FRONT_RIGHT</strong>)</td>
-</tr>
-<tr class="odd">
-<td>3/0</td>
-<td>3</td>
-<td>0x7 (<strong>SPEAKER_FRONT_LEFT</strong> | <strong>SPEAKER_FRONT_RIGHT</strong> | SPEAKER_FRONT_CENTER)</td>
-</tr>
-<tr class="even">
-<td>2/1</td>
-<td>3</td>
-<td>0x103 (<strong>SPEAKER_FRONT_LEFT</strong> | <strong>SPEAKER_FRONT_RIGHT</strong> | <strong>SPEAKER_BACK_CENTER</strong>)</td>
-</tr>
-<tr class="odd">
-<td>3/1</td>
-<td>4</td>
-<td>0x107 (<strong>SPEAKER_FRONT_LEFT</strong> | <strong>SPEAKER_FRONT_RIGHT</strong> | <strong>SPEAKER_FRONT_CENTER</strong> | <strong>SPEAKER_BACK_CENTER</strong>)</td>
-</tr>
-<tr class="even">
-<td>2/2</td>
-<td>4</td>
-<td>0x33 (<strong>SPEAKER_FRONT_LEFT</strong> | <strong>SPEAKER_FRONT_RIGHT</strong> | <strong>SPEAKER_BACK_LEFT</strong> | <strong>SPEAKER_BACK_RIGHT</strong>)<br/> or<br/> 0x603 (<strong>SPEAKER_FRONT_LEFT</strong> | <strong>SPEAKER_FRONT_RIGHT</strong> | <strong>SPEAKER_SIDE_LEFT</strong> | <strong>SPEAKER_SIDE_RIGHT</strong>) <br/></td>
-</tr>
-<tr class="odd">
-<td>3/2</td>
-<td>5</td>
-<td>0x37 (<strong>SPEAKER_FRONT_LEFT</strong> | <strong>SPEAKER_FRONT_RIGHT</strong> | <strong>SPEAKER_FRONT_CENTER</strong> | <strong>SPEAKER_BACK_LEFT</strong> | <strong>SPEAKER_BACK_RIGHT</strong>)<br/> or<br/> 0x607 (<strong>SPEAKER_FRONT_LEFT</strong> | <strong>SPEAKER_FRONT_RIGHT</strong> | <strong>SPEAKER_FRONT_CENTER</strong> | <strong>SPEAKER_SIDE_LEFT</strong> | <strong>SPEAKER_SIDE_RIGHT</strong>) <br/></td>
-</tr>
-<tr class="even">
-<td>3/2 + LFE</td>
-<td>6</td>
-<td>0x3F (<strong>SPEAKER_FRONT_LEFT</strong> | <strong>SPEAKER_FRONT_RIGHT</strong> | <strong>SPEAKER_FRONT_CENTER</strong> | <strong>SPEAKER_LOW_FREQUENCY</strong> | <strong>SPEAKER_BACK_LEFT</strong> | <strong>SPEAKER_BACK_RIGHT</strong>)<br/> or<br/> 0x60F (<strong>SPEAKER_FRONT_LEFT</strong> | <strong>SPEAKER_FRONT_RIGHT</strong> | <strong>SPEAKER_FRONT_CENTER</strong> | <strong>SPEAKER_LOW_FREQUENCY</strong> | <strong>SPEAKER_SIDE_LEFT</strong> | <strong>SPEAKER_SIDE_RIGHT</strong>)<br/></td>
-</tr>
-<tr class="odd">
-<td>3/2/2 + LFE
-<blockquote>
-[!Note]<br />
-Dolby Digital Plus only.
-</blockquote>
-<br/> <br/></td>
-<td>8</td>
-<td>0x63F (<strong>SPEAKER_FRONT_LEFT</strong> | <strong>SPEAKER_FRONT_RIGHT</strong> | <strong>SPEAKER_FRONT_CENTER</strong> | <strong>SPEAKER_LOW_FREQUENCY</strong> | <strong>SPEAKER_BACK_LEFT</strong> | <strong>SPEAKER_BACK_RIGHT</strong> | SPEAKER_SIDE_LEFT | SPEAKER_SIDE_RIGHT)</td>
-</tr>
-</tbody>
-</table>
+
+| Channel configuration | Number of channels | Channel masks | 
+|-----------------------|--------------------|---------------|
+| 1/0 (mono) | 1 | 0x4 (<strong>SPEAKER_FRONT_CENTER</strong>) | 
+| 2/0 (stereo) or 1+1 (dual mono) | 2 | 0x3 (<strong>SPEAKER_FRONT_LEFT</strong> <strong>SPEAKER_FRONT_RIGHT</strong>) | 
+| 3/0 | 3 | 0x7 (<strong>SPEAKER_FRONT_LEFT</strong> <strong>SPEAKER_FRONT_RIGHT</strong> <strong>SPEAKER_FRONT_CENTER</strong>) | 
+| 2/1 | 3 | 0x103 (<strong>SPEAKER_FRONT_LEFT</strong> <strong>SPEAKER_FRONT_RIGHT</strong> <strong>SPEAKER_BACK_CENTER</strong>) | 
+| 3/1 | 4 | 0x107 (<strong>SPEAKER_FRONT_LEFT</strong> <strong>SPEAKER_FRONT_RIGHT</strong> <strong>SPEAKER_FRONT_CENTER</strong> <strong>SPEAKER_BACK_CENTER</strong>) | 
+| 2/2 | 4 | 0x33 (<strong>SPEAKER_FRONT_LEFT</strong> <strong>SPEAKER_FRONT_RIGHT</strong> <strong>SPEAKER_BACK_LEFT</strong>  <strong>SPEAKER_BACK_RIGHT</strong>)<br /> or<br /> 0x603 (<strong>SPEAKER_FRONT_LEFT</strong> <strong>SPEAKER_FRONT_RIGHT</strong> <strong>SPEAKER_SIDE_LEFT</strong> <strong>SPEAKER_SIDE_RIGHT</strong>) <br /> | 
+| 3/2 | 5 | 0x37 (<strong>SPEAKER_FRONT_LEFT</strong> <strong>SPEAKER_FRONT_RIGHT</strong> <strong>SPEAKER_FRONT_CENTER</strong> <strong>SPEAKER_BACK_LEFT</strong> <strong>SPEAKER_BACK_RIGHT</strong>)<br /> or<br /> 0x607 (<strong>SPEAKER_FRONT_LEFT</strong> <strong>SPEAKER_FRONT_RIGHT</strong> <strong>SPEAKER_FRONT_CENTER</strong> <strong>SPEAKER_SIDE_LEFT</strong> <strong>SPEAKER_SIDE_RIGHT</strong>) <br /> | 
+| 3/2 + LFE | 6 | 0x3F (<strong>SPEAKER_FRONT_LEFT</strong> <strong>SPEAKER_FRONT_RIGHT</strong> <strong>SPEAKER_FRONT_CENTER</strong> <strong>SPEAKER_LOW_FREQUENCY</strong> <strong>SPEAKER_BACK_LEFT</strong> <strong>SPEAKER_BACK_RIGHT</strong>)<br /> or<br /> 0x60F (<strong>SPEAKER_FRONT_LEFT</strong> <strong>SPEAKER_FRONT_RIGHT</strong> <strong>SPEAKER_FRONT_CENTER</strong> <strong>SPEAKER_LOW_FREQUENCY</strong> <strong>SPEAKER_SIDE_LEFT</strong> <strong>SPEAKER_SIDE_RIGHT</strong>)<br /> | 
+| 3/2/2 + LFE<blockquote>[!Note]<br />Dolby Digital Plus only.</blockquote><br /><br /> | 8 | 0x63F (<strong>SPEAKER_FRONT_LEFT</strong> <strong>SPEAKER_FRONT_RIGHT</strong> <strong>SPEAKER_FRONT_CENTER</strong> <strong>SPEAKER_LOW_FREQUENCY</strong> <strong>SPEAKER_BACK_LEFT</strong> <strong>SPEAKER_BACK_RIGHT</strong> <strong>SPEAKER_SIDE_LEFT</strong> <strong>SPEAKER_SIDE_RIGHT</strong>) | 
+
 
 
 
@@ -195,78 +105,19 @@ The following table lists the required and optional attributes for the output me
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-<th>Remarks</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a></td>
-<td>Major type.</td>
-<td>Required. Must be <strong>MFMediaType_Audio</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a></td>
-<td>Audio subtype.</td>
-<td>Required. See the previous table for details.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
-<td>Sample rate, in samples per second.</td>
-<td>Required. Valid values are: 48000, 44100, 32000, 24000, 22050, and 16000. The output sample rate must be identical to the input sample rate. The decoder cannot change the sampling rate of the stream.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a></td>
-<td>Number of channels, including the low frequency (LFE) channel, if present.</td>
-<td>Required for PCM output. <br/> Not needed for digital output. <br/> If the input type is mono, stereo, or dual-mono (all without LFE channel), the only valid value is 2, for stereo output. Otherwise, the value can be: <br/>
-<ul>
-<li>2 for stereo downmix</li>
-<li>6 for 5.1 channel configurations</li>
-<li>8 for 7.1 channel configurations</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
-<td>Specifies the assignment of audio channels to speaker positions.</td>
-<td>Required for PCM output if the number of channels is greater than 2. The value must be:<br/>
-<ul>
-<li>0x3 for stereo output</li>
-<li>0x3F for 5.1 channel output</li>
-<li>0x63F for 7.1 channel output</li>
-</ul>
-Not needed for digital output. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a></td>
-<td>Number of bits per audio sample.</td>
-<td>Required for PCM output. The value must be 32 for <strong>MFAudioFormat_Float</strong>, and 16 for <strong>MFAudioFormat_PCM</strong>.<br/> Not needed for digital output.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-valid-bits-per-sample-attribute.md">MF_MT_AUDIO_VALID_BITS_PER_SAMPLE</a></td>
-<td>Number of valid bits of audio data in each audio sample.</td>
-<td>Optional for PCM output. If set, the value must be identical to <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a>.<br/> Not needed for the digital output subtypes.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-block-alignment-attribute.md">MF_MT_AUDIO_BLOCK_ALIGNMENT</a></td>
-<td>Block alignment, in bytes.</td>
-<td>Optional for PCM output. Not needed for digital output.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a></td>
-<td>Average number of bytes per second.</td>
-<td>Optional for PCM output. Not needed for digital output.</td>
-</tr>
-</tbody>
-</table>
+
+| Attribute | Description | Remarks | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a> | Major type. | Required. Must be <strong>MFMediaType_Audio</strong>. | 
+| <a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a> | Audio subtype. | Required. See the previous table for details. | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a> | Sample rate, in samples per second. | Required. Valid values are: 48000, 44100, 32000, 24000, 22050, and 16000. The output sample rate must be identical to the input sample rate. The decoder cannot change the sampling rate of the stream. | 
+| <a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a> | Number of channels, including the low frequency (LFE) channel, if present. | Required for PCM output. <br /> Not needed for digital output. <br /> If the input type is mono, stereo, or dual-mono (all without LFE channel), the only valid value is 2, for stereo output. Otherwise, the value can be: <br /><ul><li>2 for stereo downmix</li><li>6 for 5.1 channel configurations</li><li>8 for 7.1 channel configurations</li></ul> | 
+| <a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a> | Specifies the assignment of audio channels to speaker positions. | Required for PCM output if the number of channels is greater than 2. The value must be:<br /><ul><li>0x3 for stereo output</li><li>0x3F for 5.1 channel output</li><li>0x63F for 7.1 channel output</li></ul>Not needed for digital output. <br /> | 
+| <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a> | Number of bits per audio sample. | Required for PCM output. The value must be 32 for <strong>MFAudioFormat_Float</strong>, and 16 for <strong>MFAudioFormat_PCM</strong>.<br /> Not needed for digital output.<br /> | 
+| <a href="mf-mt-audio-valid-bits-per-sample-attribute.md">MF_MT_AUDIO_VALID_BITS_PER_SAMPLE</a> | Number of valid bits of audio data in each audio sample. | Optional for PCM output. If set, the value must be identical to <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a>.<br /> Not needed for the digital output subtypes.<br /> | 
+| <a href="mf-mt-audio-block-alignment-attribute.md">MF_MT_AUDIO_BLOCK_ALIGNMENT</a> | Block alignment, in bytes. | Optional for PCM output. Not needed for digital output. | 
+| <a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a> | Average number of bytes per second. | Optional for PCM output. Not needed for digital output. | 
+
 
 
 
@@ -280,12 +131,12 @@ The Dolby audio decoder implements the [**IMFTransform::GetAttributes**](/window
 
 | Attribute                                                                                | Description                                                                                                                                                                                                                                                                              |
 |------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [CODECAPI\_AVDecAudioDualMono](https://msdn.microsoft.com/library/Dd317616(v=VS.85).aspx)                        | Specifies whether a 2-channel Dolby audio stream is encoded as stereo or dual-mono. Before the first Dolby frame is decoded, the value is **eAVDecAudioDualMono\_UnSpecified**. After decoding begins, the value reflects the most recent Dolby frame.<br/> Read-only. <br/> |
-| [CODECAPI\_AVDecAudioDualMonoReproMode](https://msdn.microsoft.com/library/Dd317614(v=VS.85).aspx)      | Specifies how the decoder reproduces dual-mono audio. The default value is **eAVDecAudioDualMonoReproMode\_LEFT\_MONO**. The application can set this property at any time.<br/> Read/write.<br/>                                                                            |
-| [CODECAPI\_AVDecCommonMeanBitRate](https://msdn.microsoft.com/library/Dd742710(v=VS.85).aspx)                         | For Dolby Digital (AC-3) streams, specifies the bit rate of the input stream in bits per second. For Dolby Digital Plus (E-AC3), the value is always zero.<br/> Read only.<br/>                                                                                              |
-| [CODECAPI\_AVDecDDDynamicRangeScaleHigh](https://msdn.microsoft.com/library/Dd317621(v=VS.85).aspx)    | The high-level cut when the decoder performs dynamic range control.<br/> Read/write.<br/>                                                                                                                                                                                    |
-| [CODECAPI\_AVDecDDDynamicRangeScaleLow](https://msdn.microsoft.com/library/Dd317623(v=VS.85).aspx)      | The low-level boost when the decoder performs dynamic range control.<br/> Read/write.<br/>                                                                                                                                                                                   |
-| [CODECAPI\_AVDecDDOperationalMode](https://msdn.microsoft.com/library/Dd317625(v=VS.85).aspx)                | The compression control mode.<br/> Read/write.<br/>                                                                                                                                                                                                                          |
+| [CODECAPI\_AVDecAudioDualMono](../directshow/avdecaudiodualmono-property.md)                        | Specifies whether a 2-channel Dolby audio stream is encoded as stereo or dual-mono. Before the first Dolby frame is decoded, the value is **eAVDecAudioDualMono\_UnSpecified**. After decoding begins, the value reflects the most recent Dolby frame.<br/> Read-only. <br/> |
+| [CODECAPI\_AVDecAudioDualMonoReproMode](../directshow/avdecaudiodualmonorepromode-property.md)      | Specifies how the decoder reproduces dual-mono audio. The default value is **eAVDecAudioDualMonoReproMode\_LEFT\_MONO**. The application can set this property at any time.<br/> Read/write.<br/>                                                                            |
+| [CODECAPI\_AVDecCommonMeanBitRate](../directshow/avdeccommonmeanbitrate.md)                         | For Dolby Digital (AC-3) streams, specifies the bit rate of the input stream in bits per second. For Dolby Digital Plus (E-AC3), the value is always zero.<br/> Read only.<br/>                                                                                              |
+| [CODECAPI\_AVDecDDDynamicRangeScaleHigh](../directshow/avdecdddynamicrangescalehigh-property.md)    | The high-level cut when the decoder performs dynamic range control.<br/> Read/write.<br/>                                                                                                                                                                                    |
+| [CODECAPI\_AVDecDDDynamicRangeScaleLow](../directshow/avdecdddynamicrangescalelow-property.md)      | The low-level boost when the decoder performs dynamic range control.<br/> Read/write.<br/>                                                                                                                                                                                   |
+| [CODECAPI\_AVDecDDOperationalMode](../directshow/avdecddoperationalmode-property.md)                | The compression control mode.<br/> Read/write.<br/>                                                                                                                                                                                                                          |
 | [CODECAPI\_AVDecDDStereoDownMixMode](codecapi-avdecddstereodownmixmode.md)              | The type of stereo downmix. This property applies when the input is a multichannel stream and the output is a stereo stream.<br/> Read/write.<br/>                                                                                                                           |
 | [MFT\_SUPPORT\_DYNAMIC\_FORMAT\_CHANGE](mft-support-dynamic-format-change-attribute.md) | This attribute returns **FALSE**, indicating that the decoder must be drained before a new input type is set.<br/> Read/write.<br/>                                                                                                                                          |
 
@@ -315,7 +166,7 @@ The decoder MFT is registered with the flag **MFT\_ENUM\_FLAG\_FIELDOFUSE**, whi
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                          |
 | Minimum supported server<br/> | None supported<br/>                                                                  |
@@ -333,7 +184,3 @@ The decoder MFT is registered with the flag **MFT\_ENUM\_FLAG\_FIELDOFUSE**, whi
  
 
  
-
-
-
-

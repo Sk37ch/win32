@@ -1,5 +1,5 @@
 ---
-Description: Computes the key block used by the Extensible Authentication Protocol (EAP).
+description: Computes the key block used by the Extensible Authentication Protocol (EAP).
 ms.assetid: 0f382668-6fc6-440f-ba61-70b1db0f3987
 title: SslComputeEapKeyBlock function (Sslprovider.h)
 ms.topic: reference
@@ -44,14 +44,14 @@ SECURITY_STATUS WINAPI SslComputeEapKeyBlock(
 *hSslProvider* \[in\]
 </dt> <dd>
 
-The handle of the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
+The handle of the [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
 
 </dd> <dt>
 
 *hMasterKey* \[in\]
 </dt> <dd>
 
-The handle of the [*master key*](https://docs.microsoft.com/windows/desktop/SecGloss/m-gly) object.
+The handle of the [*master key*](/windows/desktop/SecGloss/m-gly) object.
 
 </dd> <dt>
 
@@ -117,7 +117,7 @@ If the function fails, it returns a nonzero error value.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
@@ -127,9 +127,4 @@ If the function fails, it returns a nonzero error value.
 
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Deprecated. Converts a specified SYSTEMTIME structure to a CALDATETIME structure.
+description: Deprecated. Converts a specified SYSTEMTIME structure to a CALDATETIME structure.
 ms.assetid: d21f75bc-1a93-4cb9-8b9b-6fa0e81886bf
 title: ConvertSystemTimeToCalDateTime function
 ms.topic: reference
@@ -19,14 +19,14 @@ api_location:
 
 # ConvertSystemTimeToCalDateTime function
 
-Deprecated. Converts a specified [**SYSTEMTIME**](https://msdn.microsoft.com/library/ms724950(v=VS.85).aspx) structure to a [**CALDATETIME**](caldatetime.md) structure.
+Deprecated. Converts a specified [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime) structure to a [**CALDATETIME**](caldatetime.md) structure.
 
 ## Syntax
 
 
 ```C++
 BOOL ConvertSystemTimeToCalDateTime(
-  _In_  const SYSTEMTIME    lpSysTime,
+  _In_  const SYSTEMTIME   *lpSysTime,
   _In_        CALID         calId,
   _Out_       LPCALDATETIME lpCalDateTime
 
@@ -42,7 +42,7 @@ BOOL ConvertSystemTimeToCalDateTime(
 *lpSysTime* \[in\]
 </dt> <dd>
 
-Pointer to the [**SYSTEMTIME**](https://msdn.microsoft.com/library/ms724950(v=VS.85).aspx) structure to convert.
+Pointer to the [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime) structure to convert.
 
 </dd> <dt>
 
@@ -62,7 +62,7 @@ Pointer to the equivalent [**CALDATETIME**](caldatetime.md) structure.
 
 ## Return value
 
-Returns **TRUE** if successful or **FALSE** otherwise. To get extended error information, the application can call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx), which can return one of the following error codes:
+Returns **TRUE** if successful or **FALSE** otherwise. To get extended error information, the application can call [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror), which can return one of the following error codes:
 
 -   ERROR\_INVALID\_PARAMETER. Any of the parameter values was invalid.
 
@@ -70,13 +70,13 @@ Returns **TRUE** if successful or **FALSE** otherwise. To get extended error inf
 
 The earliest date supported by this function is January 1, 1601.
 
-This function does not have an associated header file or library file. The application can call [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) with the DLL name (Kernel32.dll) to obtain a module handle. It can then call [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) with the module handle and the name of this function to get the function address.
+This function does not have an associated header file or library file. The application can call [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) with the DLL name (Kernel32.dll) to obtain a module handle. It can then call [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) with the module handle and the name of this function to get the function address.
 
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
@@ -100,7 +100,3 @@ This function does not have an associated header file or library file. The appli
  
 
  
-
-
-
-

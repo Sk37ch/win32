@@ -1,5 +1,5 @@
 ---
-Description: Validates the Enhanced Key Usage (EKU) object identifier (OID) of the provided certificate.
+description: ProtectKeyWithCertificateFile method of the Win32_EncryptableVolume class - Validates the Enhanced Key Usage (EKU) object identifier (OID) of the provided certificate.
 ms.assetid: cc716524-f976-4d75-84f3-693e277030e6
 title: ProtectKeyWithCertificateFile method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # ProtectKeyWithCertificateFile method of the Win32\_EncryptableVolume class
 
-The **ProtectKeyWithCertificateFile** method of the [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) class validates the Enhanced Key Usage (EKU) [*object identifier*](https://msdn.microsoft.com/library/ms721599(v=VS.85).aspx) (OID) of the provided certificate.
+The **ProtectKeyWithCertificateFile** method of the [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) class validates the Enhanced Key Usage (EKU) [*object identifier*](../secgloss/o-gly.md) (OID) of the provided certificate.
 
 ## Syntax
 
@@ -50,7 +50,7 @@ A string that specifies a user-assigned string identifier for this key protector
 
 Type: **string**
 
-A string that specifies the location and name of the .cer file used to enable BitLocker. An encryption certificate must be exported in .cer format ([*Distinguished Encoding Rules*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx) (DER)-encoded binary [*X.509*](https://msdn.microsoft.com/library/ms721636(v=VS.85).aspx) or Base-64 encoded X.509). The encryption certificate may be generated from Microsoft PKI, third-party PKI, or self-signed.
+A string that specifies the location and name of the .cer file used to enable BitLocker. An encryption certificate must be exported in .cer format ([*Distinguished Encoding Rules*](../secgloss/d-gly.md) (DER)-encoded binary [*X.509*](../secgloss/x-gly.md) or Base-64 encoded X.509). The encryption certificate may be generated from Microsoft PKI, third-party PKI, or self-signed.
 
 </dd> <dt>
 
@@ -94,7 +94,7 @@ If the OID does not match the one associated with the service controller in the 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 Enterprise, Windows 7 Ultimate \[desktop apps only\]<br/>                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                 |
@@ -113,7 +113,3 @@ If the OID does not match the one associated with the service controller in the 
  
 
  
-
-
-
-

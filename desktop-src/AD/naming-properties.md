@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # User Naming Attributes
 
-User naming attributes identify user objects, such as logon names and IDs used for security purposes. The **cn**, **name**, and **distinguishedName** attributes are examples of user naming attributes. A user object is a security principle, so it also includes the following user naming attributes:
+User naming attributes identify user objects, such as logon names and IDs used for security purposes. The **cn**, **name**, and **distinguishedName** attributes are examples of user naming attributes. A user object is a security principal object, so it also includes the following user naming attributes:
 
 -   [userPrincipalName](#userprincipalname) — the logon name for the user
 -   [objectGUID](#objectguid) — the unique identifier of a user
@@ -47,9 +47,9 @@ When a user uses a UPN to log on to a domain, the UPN is validated by searching 
 
 ## objectGUID
 
-The **objectGUID** attribute is the unique identifier of a user. The attribute is a single-valued 128-bit Globally Unique Identifier (GUID), and is stored as an [**ADS\_OCTET\_STRING**](https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_octet_string) structure. The GUID is created by the Active Directory server when a user object is created.
+The **objectGUID** attribute is the unique identifier of a user. The attribute is a single-valued 128-bit Globally Unique Identifier (GUID), and is stored as an [**ADS\_OCTET\_STRING**](/windows/win32/api/iads/ns-iads-ads_octet_string) structure. The GUID is created by the Active Directory server when a user object is created.
 
-Because an object's distinguished name changes if the object is renamed or moved, the distinguished name is not a reliable identifier of an object. In Active Directory Domain Services, an object's **objectGUID** attribute never changes, even if the object is renamed or moved. You can retrieve the string form of the **objectGUID** using the **GUID** property method in [IADs Property Methods](https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods).
+Because an object's distinguished name changes if the object is renamed or moved, the distinguished name is not a reliable identifier of an object. In Active Directory Domain Services, an object's **objectGUID** attribute never changes, even if the object is renamed or moved. You can retrieve the string form of the **objectGUID** using the **GUID** property method in [IADs Property Methods](/windows/desktop/ADSI/iads-property-methods).
 
 ## sAMAccountName
 
@@ -75,7 +75,3 @@ The **sIDHistory** attribute contains the previous SIDs for the user object. Thi
  
 
  
-
-
-
-

@@ -10,14 +10,17 @@ keywords:
 - DrawDibGetPalette function
 - DrawDibChangePalette function
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Palettes
 
-The DrawDib functions require that an application respond to two palette-oriented messages: [**WM\_QUERYNEWPALETTE**](https://docs.microsoft.com/windows/desktop/gdi/wm-querynewpalette) and [**WM\_PALETTECHANGED**](https://docs.microsoft.com/windows/desktop/gdi/wm-palettechanged). If your application is not palette-aware, you will need to add a handler for each of these messages. For more information about processing the **WM\_QUERYNEWPALETTE** and **WM\_PALETTECHANGED** messages, see [Adding Palette Message Handlers](adding-palette-message-handlers.md).
+\[The feature associated with this page, [DrawDib](/windows/win32/multimedia/drawdib), is a legacy feature. It has been superseded by [MediaComposition class](/uwp/api/Windows.Media.Editing.MediaComposition). **MediaComposition class** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaComposition class** instead of **DrawDib**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
-You can realize the current DrawDib palette to the DC by using the [**DrawDibRealize**](/windows/desktop/api/Vfw/nf-vfw-drawdibrealize) function. You should realize the palette in response to the [**WM\_QUERYNEWPALETTE**](https://docs.microsoft.com/windows/desktop/gdi/wm-querynewpalette) or [**WM\_PALETTECHANGED**](https://docs.microsoft.com/windows/desktop/gdi/wm-palettechanged) message, or when you prepare to display an image sequence by using the [**DrawDibDraw**](/windows/desktop/api/Vfw/nf-vfw-drawdibdraw) function.
+The DrawDib functions require that an application respond to two palette-oriented messages: [**WM\_QUERYNEWPALETTE**](/windows/desktop/gdi/wm-querynewpalette) and [**WM\_PALETTECHANGED**](/windows/desktop/gdi/wm-palettechanged). If your application is not palette-aware, you will need to add a handler for each of these messages. For more information about processing the **WM\_QUERYNEWPALETTE** and **WM\_PALETTECHANGED** messages, see [Adding Palette Message Handlers](adding-palette-message-handlers.md).
+
+You can realize the current DrawDib palette to the DC by using the [**DrawDibRealize**](/windows/desktop/api/Vfw/nf-vfw-drawdibrealize) function. You should realize the palette in response to the [**WM\_QUERYNEWPALETTE**](/windows/desktop/gdi/wm-querynewpalette) or [**WM\_PALETTECHANGED**](/windows/desktop/gdi/wm-palettechanged) message, or when you prepare to display an image sequence by using the [**DrawDibDraw**](/windows/desktop/api/Vfw/nf-vfw-drawdibdraw) function.
 
 You can draw an image mapped to another palette by using the [**DrawDibSetPalette**](/windows/desktop/api/Vfw/nf-vfw-drawdibsetpalette) function. This function forces the DrawDib DC to use the specified palette, which can affect the image quality. For example, an application that is palette-aware might have realized a palette and needs to prevent DrawDib from realizing its own palette. The application can use **DrawDibSetPalette** to notify DrawDib of the palette to use.
 
@@ -42,7 +45,3 @@ The [**DrawDibEnd**](/windows/desktop/api/Vfw/nf-vfw-drawdibend), [**DrawDibClos
  
 
  
-
-
-
-

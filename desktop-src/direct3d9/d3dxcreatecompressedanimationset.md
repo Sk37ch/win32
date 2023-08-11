@@ -1,5 +1,5 @@
 ---
-Description: Creates a ID3DXCompressedAnimationSet key framed animation set interface that stores key frame data in a compressed format.
+description: Creates a ID3DXCompressedAnimationSet key framed animation set interface that stores key frame data in a compressed format.
 ms.assetid: c3f97d35-5654-4d85-a337-d77819ce3874
 title: D3DXCreateCompressedAnimationSet function (D3dx9anim.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ HRESULT D3DXCreateCompressedAnimationSet(
 *pName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Pointer to the name of the animation set.
 
@@ -53,7 +53,7 @@ Pointer to the name of the animation set.
 *TicksPerSecond* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](../winprog/windows-data-types.md)**
 
 Number of key frame ticks that elapse per second.
 
@@ -62,9 +62,9 @@ Number of key frame ticks that elapse per second.
 *Playback* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXPLAYBACK\_TYPE**](https://msdn.microsoft.com/library/Bb205397(v=VS.85).aspx)**
+Type: **[**D3DXPLAYBACK\_TYPE**](./d3dxplayback-type.md)**
 
-Type of the animation set playback loop. See [**D3DXPLAYBACK\_TYPE**](https://msdn.microsoft.com/library/Bb205397(v=VS.85).aspx).
+Type of the animation set playback loop. See [**D3DXPLAYBACK\_TYPE**](./d3dxplayback-type.md).
 
 </dd> <dt>
 
@@ -80,7 +80,7 @@ Pointer to the [**ID3DXBuffer**](id3dxbuffer.md) buffer that stores the animatio
 *NumCallbackKeys* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of callback keys.
 
@@ -114,7 +114,7 @@ If the function succeeds, the return value is S\_OK. If the function fails, the 
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -131,7 +131,3 @@ If the function succeeds, the return value is S\_OK. If the function fails, the 
  
 
  
-
-
-
-

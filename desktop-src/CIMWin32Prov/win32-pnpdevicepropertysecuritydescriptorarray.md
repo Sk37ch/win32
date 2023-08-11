@@ -1,5 +1,5 @@
 ---
-Description: Represents a PnP device property consisting of an array of Win32\_SecurityDescriptor elements.
+description: Represents a PnP device property consisting of an array of Win32\_SecurityDescriptor elements.
 ms.assetid: EDE24CDA-50C9-49C0-842E-C68891426AD6
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertySecurityDescriptorArray class
@@ -23,7 +23,7 @@ api_location:
 
 # Win32\_PnPDevicePropertySecurityDescriptorArray class
 
-Represents a PnP device property consisting of an array of [**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/library/Aa394402(v=VS.85).aspx) elements.
+Represents a PnP device property consisting of an array of [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) elements.
 
 The following syntax is simplified from MOF code and includes all inherited properties.
 
@@ -55,7 +55,7 @@ The **Win32\_PnPDevicePropertySecurityDescriptorArray** class has these properti
 **Data**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/library/Aa394402(v=VS.85).aspx)** array
+Data type: **[**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)** array
 </dt> <dt>
 
 Access type: Read-only
@@ -497,7 +497,7 @@ The possible values are.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
@@ -517,7 +517,7 @@ The possible values are.
 [**Win32\_PnPDeviceProperty**](win32-pnpdeviceproperty.md)
 </dt> <dt>
 
-[**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/library/Aa394402(v=VS.85).aspx)
+[**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)
 </dt> <dt>
 
 [**GetDeviceProperties**](getdeviceproperties-win32-pnpentity.md)
@@ -526,7 +526,3 @@ The possible values are.
  
 
  
-
-
-
-

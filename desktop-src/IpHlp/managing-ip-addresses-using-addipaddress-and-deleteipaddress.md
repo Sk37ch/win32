@@ -1,6 +1,6 @@
 ---
 title: Manage IP addresses with AddIPAddress, DeleteIPAddress
-Description: The AddIPAddress function adds the specified IPv4 address to the specified adapter.
+description: The AddIPAddress function adds the specified IPv4 address to the specified adapter.
 ms.assetid: 71cf6b4d-192c-4b2a-b534-be0b3da552f9
 ms.topic: article
 ms.date: 05/31/2018
@@ -39,7 +39,7 @@ After [**AddIPAddress**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-addipaddress)
 
      
 
-2.  Declare variables for the IPAddr and IPMask structures named `iaIPAddress` and `iaIPMask`, respectively. These values are simply unsigned integers. Initialize the `iaIPAddress` and `iaIPMask` variables using the [**inet\_addr**](https://msdn.microsoft.com/library/ms738563(v=VS.85).aspx) function.
+2.  Declare variables for the IPAddr and IPMask structures named `iaIPAddress` and `iaIPMask`, respectively. These values are simply unsigned integers. Initialize the `iaIPAddress` and `iaIPMask` variables using the [**inet\_addr**](/windows/win32/api/winsock2/nf-winsock2-inet_addr) function.
     ```C++
     UINT iaIPAddress;
     UINT iaIPMask;
@@ -90,6 +90,3 @@ Previous Step: [Managing DHCP Leases Using IpReleaseAddress and IpRenewAddress](
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Determines if the current user can start and stop the named service.
+description: IShellDispatch2.CanStartStopService method - Determines if the current user can start and stop the named service.
 ms.assetid: cbb54ae9-02e6-4243-a782-e9f125c21c0d
 title: IShellDispatch2.CanStartStopService method (Shldisp.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ Returns **true** if the user can start and stop the service; otherwise, **false*
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.CanStartStopService**](https://msdn.microsoft.com/library/Gg537736(v=VS.85).aspx) method.
+This method is implemented and accessed through the [**Shell.CanStartStopService**](./shell-canstartstopservice.md) method.
 
 This method is not currently available in Microsoft Visual Basic.
 
@@ -118,7 +118,7 @@ VBScript:
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |
@@ -131,7 +131,3 @@ VBScript:
  
 
  
-
-
-
-

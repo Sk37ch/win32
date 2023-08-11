@@ -1,5 +1,5 @@
 ---
-Description: Creates a new service managed by the system driver.
+description: Creates a new service managed by the system driver.
 ms.assetid: 212c88eb-f26d-4b07-b8fe-8508050c97fc
 ms.tgt_platform: multiple
 title: Create method of the Win32_SystemDriver class
@@ -18,9 +18,9 @@ api_location:
 
 # Create method of the Win32\_SystemDriver class
 
-The **Create** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method creates a new service managed by the system driver. The *Win32\_LoadOrderGroup* parameter represents a grouping of system services defining execution dependencies. The services must be initiated in the order specified by the Load Order Group, as the services are dependent on each other. These dependent services require the presence of the antecedent services to function correctly.
+The **Create** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method creates a new service managed by the system driver. The *Win32\_LoadOrderGroup* parameter represents a grouping of system services defining execution dependencies. The services must be initiated in the order specified by the Load Order Group, as the services are dependent on each other. These dependent services require the presence of the antecedent services to function correctly.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -290,7 +290,7 @@ Returns a value of 0 (zero) if the service was successfully created, 1 (one) if 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -304,16 +304,11 @@ Returns a value of 0 (zero) if the service was successfully created, 1 (one) if 
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_SystemDriver**](win32-systemdriver.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

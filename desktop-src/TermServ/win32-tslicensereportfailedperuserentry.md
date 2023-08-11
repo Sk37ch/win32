@@ -196,7 +196,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The name of the user to whom the license issuance was attempted.
@@ -207,7 +207,7 @@ The name of the user to whom the license issuance was attempted.
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
@@ -225,10 +225,4 @@ The name of the user to whom the license issuance was attempted.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

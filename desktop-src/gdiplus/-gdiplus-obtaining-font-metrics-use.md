@@ -1,5 +1,5 @@
 ---
-Description: 'The FontFamily class provides the following methods that retrieve various metrics for a particular family/style combination:'
+description: 'The FontFamily class provides the following methods that retrieve various metrics for a particular family/style combination:'
 ms.assetid: 3be485d0-9e0d-43e0-813e-668102ebc010
 title: Obtaining Font Metrics
 ms.topic: article
@@ -131,11 +131,8 @@ For example, you can convert the ascent from design units to pixels as follows:
 
 ![equation that multiplies 1854 design units by 16 pixels divided by 2048 design units, equaling 14.484375 pixels](images/fontstext9.png)
 
-The preceding code positions text vertically by setting the *y* data member of a [**PointF**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf) object. The y-coordinate is increased by `font.GetHeight(0.0f)` for each new line of text. The [**Font::GetHeight**](https://msdn.microsoft.com/library/ms536202(v=VS.85).aspx) method of a [**Font**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font) object returns the line spacing (in pixels) for that particular **Font** object. In this example, the number returned by **Font::GetHeight** is 18.398438. Note that this is the same as the number obtained by converting the line spacing metric to pixels.
+The preceding code positions text vertically by setting the *y* data member of a [**PointF**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf) object. The y-coordinate is increased by `font.GetHeight(0.0f)` for each new line of text. The [**Font::GetHeight**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-font-getheight(inreal)) method of a [**Font**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font) object returns the line spacing (in pixels) for that particular **Font** object. In this example, the number returned by **Font::GetHeight** is 18.398438. Note that this is the same as the number obtained by converting the line spacing metric to pixels.
 
  
 
  
-
-
-

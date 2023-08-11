@@ -1,5 +1,5 @@
 ---
-Description: Upgrades the virtual system.
+description: Upgrades the virtual system.
 ms.assetid: 4b24aac9-b7b9-460f-9227-fd3c1e960191
 title: UpgradeSystemVersion method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -55,7 +55,7 @@ The upgrade setting data.
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -102,7 +102,7 @@ On success, returns a 0 or 4096; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -120,9 +120,4 @@ On success, returns a 0 or 4096; otherwise, returns an error.
 </dt> </dl>
 
  
-
- 
-
-
-
 

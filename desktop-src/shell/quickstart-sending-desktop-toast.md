@@ -1,5 +1,5 @@
 ---
-Description: This quickstart shows how to raise a toast notification from a desktop app.
+description: This quickstart shows how to raise a toast notification from a desktop app.
 title: Sending a toast notification from the desktop
 ms.topic: article
 ms.date: 05/31/2018
@@ -21,7 +21,7 @@ This quickstart shows how to raise a toast notification from a desktop app.
 -   Libraries
     -   C++: Runtime.object.lib
     -   C\#: Windows.Winmd
--   A shortcut to your app, with a [System.AppUserModel.ID](https://msdn.microsoft.com/library/Dd391569(v=VS.85).aspx), must be installed to the Start screen. Note, however, that it does not need to be pinned to the Start screen. For more information, see [How to enable desktop toast notifications through an AppUserModelID](enable-desktop-toast-with-appusermodelid.md).
+-   A shortcut to your app, with a [System.AppUserModel.ID](../properties/props-system-appusermodel-id.md), must be installed to the Start screen. Note, however, that it does not need to be pinned to the Start screen. For more information, see [How to enable desktop toast notifications through an AppUserModelID](enable-desktop-toast-with-appusermodelid.md).
 -   A version of Microsoft Visual Studio that supports at least Windows 8
 
 ## Instructions
@@ -34,7 +34,7 @@ This quickstart shows how to raise a toast notification from a desktop app.
  
 
 
-```CSharp
+```csharp
 // Get a toast XML template
 XmlDocument toastXml = ToastNotificationManager.GetTemplateContent(ToastTemplateType.ToastImageAndText04);
 
@@ -59,7 +59,7 @@ ToastNotification toast = new ToastNotification(toastXml);
 Register handlers for the toast events: Activated, Dismissed, and Failed. A desktop app must at least subscribe to the Activated event so that it can handle the expected activation of the app from the toast when the user selects it.
 
 
-```CSharp
+```csharp
 toast.Activated += ToastActivated;
 toast.Dismissed += ToastDismissed;
 toast.Failed += ToastFailed;
@@ -70,12 +70,12 @@ toast.Failed += ToastFailed;
 ### 3. Send the toast
 
 > [!IMPORTANT]
-> You must include the [AppUserModelID](https://msdn.microsoft.com/library/Dd391569(v=VS.85).aspx) of your app's shortcut on the Start screen each time that you call [**CreateToastNotifier**](https://msdn.microsoft.com/library/BR208645(v=Win.10).aspx). If you fail to do this, your toast will not be displayed.
+> You must include the [AppUserModelID](../properties/props-system-appusermodel-id.md) of your app's shortcut on the Start screen each time that you call [**CreateToastNotifier**](/uwp/api/Windows.UI.Notifications.ToastNotificationManager). If you fail to do this, your toast will not be displayed.
 
  
 
 
-```CSharp
+```csharp
 ToastNotificationManager.CreateToastNotifier(appID).Show(toast);
 ```
 
@@ -85,60 +85,46 @@ ToastNotificationManager.CreateToastNotifier(appID).Show(toast);
 
 Bring your app's window to the foreground if it receives an "activated" callback from the toast notification. When a user selects a toast, the expectation is that the app will be launched to a view related to the content of that toast..
 
-## Summary and next steps
-
 ## Related topics
 
 <dl> <dt>
 
-[Sending toast notifications from desktop apps sample](https://code.msdn.microsoft.com/windowsdesktop/sending-toast-notifications-71e230a2)
+[Sending toast notifications from desktop apps sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DesktopToasts)
 </dt> <dt>
 
 [How to enable desktop toast notifications through an AppUserModelID](enable-desktop-toast-with-appusermodelid.md)
 </dt> <dt>
 
-[Toast notifications sample](https://code.msdn.microsoft.com/windowsapps/toast-notifications-sample-52eeba29)
+[Toast XML schema](/uwp/schemas/tiles/toastschema/schema-root)
 </dt> <dt>
 
-[Toast XML schema](https://msdn.microsoft.com/library/BR230849(v=Win.10).aspx)
+[Toast notification overview](/previous-versions/windows/apps/hh779727(v=win.10))
 </dt> <dt>
 
-[Toast notification overview](https://msdn.microsoft.com/library/Hh779727(v=WIN.10).aspx)
+[Quickstart: Sending a toast notification](/previous-versions/windows/apps/hh465448(v=win.10))
 </dt> <dt>
 
-[Quickstart: Sending a toast notification](https://msdn.microsoft.com/library/Hh465448(v=Win.10).aspx)
+[Quickstart: Sending a toast push notification](/previous-versions/windows/hh761487(v=win.10))
 </dt> <dt>
 
-[Quickstart: Sending a toast push notification](https://msdn.microsoft.com/library/Hh761487(v=Win.10).aspx)
+[Guidelines and checklist for toast notifications](/windows/uwp/design/shell/tiles-and-notifications/)
 </dt> <dt>
 
-[Guidelines and checklist for toast notifications](https://msdn.microsoft.com/library/Hh465391(v=Win.10).aspx)
+[How to choose and use a toast template](/previous-versions/windows/apps/hh465448(v=win.10))
 </dt> <dt>
 
-[How to add images to a toast template](https://msdn.microsoft.com/library/Hh761480(v=Win.10).aspx)
+[How to handle activation from a toast notification](/previous-versions/windows/apps/hh761468(v=win.10))
 </dt> <dt>
 
-[How to check toast notification settings](https://msdn.microsoft.com/library/Hh761466(v=Win.10).aspx)
+[How to opt in for toast notifications](/previous-versions/windows/apps/hh781238(v=win.10))
 </dt> <dt>
 
-[How to choose and use a toast template](https://msdn.microsoft.com/library/Hh465448(v=Win.10).aspx)
+[Choosing a toast template](/previous-versions/windows/apps/hh761494(v=win.10))
 </dt> <dt>
 
-[How to handle activation from a toast notification](https://msdn.microsoft.com/library/Hh761468(v=WIN.10).aspx)
-</dt> <dt>
-
-[How to opt in for toast notifications](https://msdn.microsoft.com/library/Hh781238(v=WIN.10).aspx)
-</dt> <dt>
-
-[Choosing a toast template](https://msdn.microsoft.com/library/Hh761494(v=WIN.10).aspx)
-</dt> <dt>
-
-[Toast audio options](https://msdn.microsoft.com/library/Hh761492(v=WIN.10).aspx)
+[Toast audio options](/previous-versions/windows/apps/hh761492(v=win.10))
 </dt> </dl>
 
  
 
  
-
-
-

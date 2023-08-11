@@ -24,11 +24,7 @@ api_location:
 
 Use the following syntax rules to declare HLSL variables.
 
-
-
-|                                                                                                                                                                                    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| \[*Storage\_Class*\] \[*Type\_Modifier*\] *Type Name*\[*Index*\]     \[*: Semantic*\]     \[*: Packoffset*\]     \[*: Register*\];    \[*Annotations*\]     \[*= Initial\_Value*\] |
+\[*Storage\_Class*\] \[*Type\_Modifier*\] *Type Name*\[*Index*\]     \[*: Semantic*\]     \[*: Packoffset*\]     \[*: Register*\];    \[*Annotations*\]     \[*= Initial\_Value*\]
 
 
 
@@ -45,57 +41,18 @@ Optional storage-class modifiers that give the compiler hints about variable sco
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>extern</strong></td>
-<td>Mark a global variable as an external input to the shader; this is the default marking for all global variables. Cannot be combined with <strong>static</strong>.</td>
-</tr>
-<tr class="even">
-<td><strong>nointerpolation</strong></td>
-<td>Do not interpolate the outputs of a vertex shader before passing them to a pixel shader.</td>
-</tr>
-<tr class="odd">
-<td><strong>precise</strong></td>
-<td>Prevent the compiler from making IEEE unsafe optimizations that affect this variable. For example, the compiler cannot use fused <a href="dx-graphics-hlsl-mul.md"><strong>mul</strong></a> + <strong>add</strong> as an optimization. Instead, you must explicitly use the <a href="mad.md"><strong>mad</strong></a> intrinsic function. The <strong>precise</strong> modifier also ensures that the compiler preserves the order of operations and that it must account for the possibility of NaN (not a number) and INF (infinite) values from constants and stream inputs. Without the <strong>precise</strong> modifier, the compiler can perform optimizations and mathematical operations that do not account for NaN and INF values. These optimizations and mathematical operations are not IEEE safe. When you use the <strong>precise</strong> keyword, these optimizations are prohibited for all calculations that affect the variable. The ability to control optimizations in this way is useful when you write shaders for tessellation to maintain water-tight patch seams.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>shared</strong></td>
-<td>Mark a variable for sharing between effects; this is a hint to the compiler.</td>
-</tr>
-<tr class="odd">
-<td><strong>groupshared</strong></td>
-<td>Mark a variable for thread-group-shared memory for compute shaders. In D3D10 the maximum total size of all variables with the groupshared storage class is 16kb, in D3D11 the maximum size is 32kb. See examples.</td>
-</tr>
-<tr class="even">
-<td><strong>static</strong></td>
-<td>Mark a local variable so that it is initialized one time and persists between function calls. If the declaration does not include an initializer, the value is set to zero. A global variable marked <strong>static</strong> is not visible to an application.</td>
-</tr>
-<tr class="odd">
-<td><strong>uniform</strong></td>
-<td>Mark a variable whose data is constant throughout the execution of a shader (such as a material color in a vertex shader); global variables are considered <strong>uniform</strong> by default.</td>
-</tr>
-<tr class="even">
-<td><strong>volatile</strong></td>
-<td>Mark a variable that changes frequently; this is a hint to the compiler. This storage class modifier only applies to a local variable.<br/>
-<blockquote>
-[!Note]<br />
-The HLSL compiler currently ignores this storage class modifier.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Value | Description | 
+|-------|-------------|
+| <strong>extern</strong> | Mark a global variable as an external input to the shader; this is the default marking for all global variables. Cannot be combined with <strong>static</strong>. | 
+| <strong>nointerpolation</strong> | Do not interpolate the outputs of a vertex shader before passing them to a pixel shader. | 
+| <strong>precise</strong> | The <strong>precise</strong> keyword when applied to a variable will restrict any calculations used to produce the value assigned to that variable in the following ways:*	Separate operations are kept separate. For example, where a mul and add operation might have been fused into a mad operation, <strong>precise</strong> forces the operations to remain separate. Instead, you must explicitly use the mad intrinsic function.*	Order of operations are maintained. Where the order of instructions might have been shuffled to improve performance, <strong>precise</strong> ensures that the compiler preserves the order as written.*	IEEE unsafe operations are restricted. Where the compiler might have used fast math operations that don't account for NaN (not a number) and INF (infinite) values, <strong>precise</strong> forces IEEE requirements concerning NaN and INF values to be respected. Without <strong>precise</strong>, these optimizations and mathematical operations are not IEEE safe.*	Qualifying a variable <strong>precise</strong> doesn't make operations that use the variable <strong>precise</strong>. Since <strong>precise</strong> propagates only to operations that contribute to the values that are assigned to the <strong>precise</strong>-qualified variable, correctly making desired calculations <strong>precise</strong> can be tricky, so we recommended that you mark the shader outputs <strong>precise</strong> directly where you declare them, whether that's on a structure field, or on an output parameter, or the return type of the entry function.The ability to control optimizations in this way maintains result invariance for the modified output variable by disabling optimizations that might affect final results due to differences in accumulated precision differences. It is useful when you want shaders for tessellation to maintain water-tight patch seams or match depth values over multiple passes.[Sample code](https://github.com/microsoft/DirectXShaderCompiler/blob/master/tools/clang/test/HLSLFileCheck/hlsl/types/modifiers/precise/precise4.hlsl): ```HLSLmatrix g_mWorldViewProjection;void main(in float3 InPos : Position, out precise float4 OutPos : SV_Position){  // operation is precise because it contributes to the precise parameter OutPos  OutPos = mul( float4( InPos, 1.0 ), g_mWorldViewProjection );}``` | 
+| <strong>shared</strong> | Mark a variable for sharing between effects; this is a hint to the compiler. | 
+| <strong>groupshared</strong> | Mark a variable for thread-group-shared memory for compute shaders. In D3D10 the maximum total size of all variables with the groupshared storage class is 16kb, in D3D11 the maximum size is 32kb. See examples. | 
+| <strong>static</strong> | Mark a local variable so that it is initialized one time and persists between function calls. If the declaration does not include an initializer, the value is set to zero. A global variable marked <strong>static</strong> is not visible to an application. | 
+| <strong>uniform</strong> | Mark a variable whose data is constant throughout the execution of a shader (such as a material color in a vertex shader); global variables are considered <strong>uniform</strong> by default. | 
+| <strong>volatile</strong> | Mark a variable that changes frequently; this is a hint to the compiler. This storage class modifier only applies to a local variable.<br /><blockquote>[!Note]<br />The HLSL compiler currently ignores this storage class modifier.</blockquote><br /> | 
+
 
 
 
@@ -165,7 +122,7 @@ Optional keyword for manually assigning a shader variable to a particular regist
 <span id="Annotation_s_"></span><span id="annotation_s_"></span><span id="ANNOTATION_S_"></span>*Annotation(s)*
 </dt> <dd>
 
-Optional metadata, in the form of a string, attached to a global variable. An annotation is used by the effect framework and ignored by HLSL; to see more detailed syntax, see [annotation syntax](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-effect-annotation-syntax).
+Optional metadata, in the form of a string, attached to a global variable. An annotation is used by the effect framework and ignored by HLSL; to see more detailed syntax, see [annotation syntax](/windows/desktop/direct3d10/d3d10-effect-annotation-syntax).
 
 </dd> <dt>
 
@@ -174,9 +131,9 @@ Optional metadata, in the form of a string, attached to a global variable. An an
 
 Optional initial value(s); the number of values should match the number of components in *Type*. Each global variable marked **extern** must be initialized with a literal value; each variable marked **static** must be initialized with a constant.
 
-Global variables that are not marked **static** or **extern** are not compiled into the shader. The compiler does not automatically set default values for global variables and cannot use them in optimizations. To initialize this type of global variable, use reflection to get its value and then copy the value to a constant buffer. For example, you can use the [**ID3D11ShaderReflection::GetVariableByName**](https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflection-getvariablebyname) method to get the variable, use the [**ID3D11ShaderReflectionVariable::GetDesc**](https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectionvariable-getdesc) method to get the shader-variable description, and get the initial value from the **DefaultValue** member of the [**D3D11\_SHADER\_VARIABLE\_DESC**](https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-d3d11_shader_variable_desc) structure. To copy the value to the constant buffer, you must ensure that the buffer was created with CPU write access ([**D3D11\_CPU\_ACCESS\_WRITE**](https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_cpu_access_flag)). For more information about how to create a constant buffer, see [How to: Create a Constant Buffer](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-buffers-constant-how-to).
+Global variables that are not marked **static** or **extern** are not compiled into the shader. The compiler does not automatically set default values for global variables and cannot use them in optimizations. To initialize this type of global variable, use reflection to get its value and then copy the value to a constant buffer. For example, you can use the [**ID3D11ShaderReflection::GetVariableByName**](/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflection-getvariablebyname) method to get the variable, use the [**ID3D11ShaderReflectionVariable::GetDesc**](/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectionvariable-getdesc) method to get the shader-variable description, and get the initial value from the **DefaultValue** member of the [**D3D11\_SHADER\_VARIABLE\_DESC**](/windows/desktop/api/d3d11shader/ns-d3d11shader-d3d11_shader_variable_desc) structure. To copy the value to the constant buffer, you must ensure that the buffer was created with CPU write access ([**D3D11\_CPU\_ACCESS\_WRITE**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_cpu_access_flag)). For more information about how to create a constant buffer, see [How to: Create a Constant Buffer](/windows/desktop/direct3d11/overviews-direct3d-11-resources-buffers-constant-how-to).
 
-You can also use the [effects framework](https://msdn.microsoft.com/library/Ff476136(v=VS.85).aspx) to automatically process the reflecting and setting the initial value. For example, you can use the [**ID3DX11EffectPass::Apply**](https://docs.microsoft.com/windows/desktop/direct3d11/id3dx11effectpass-apply) method.
+You can also use the [effects framework](../direct3d11/d3d11-graphics-programming-guide-effects.md) to automatically process the reflecting and setting the initial value. For example, you can use the [**ID3DX11EffectPass::Apply**](/windows/desktop/direct3d11/id3dx11effectpass-apply) method.
 
 </dd> </dl>
 
@@ -289,10 +246,4 @@ A sample that uses packoffset is: [HLSLWithoutFX10 Sample](https://msdn.microsof
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

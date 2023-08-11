@@ -1,5 +1,5 @@
 ---
-Description: Locks the mesh buffer that contains the mesh attribute data, and returns a pointer to it.
+description: Locks the mesh buffer that contains the mesh attribute data, and returns a pointer to it.
 ms.assetid: 17a321b8-bfb4-4018-869f-6b09e0a811eb
 title: ID3DXMesh::LockAttributeBuffer method (D3DX9Mesh.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT LockAttributeBuffer(
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Combination of zero or more locking flags that describe the type of lock to perform. For this method, the valid flags are:
 
@@ -55,7 +55,7 @@ For a description of the flags, see [D3DLOCK](d3dlock.md).
 *ppData* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\*\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\*\***
 
 Address of a pointer to a buffer containing a DWORD for each face in the mesh.
 
@@ -75,7 +75,7 @@ If [**ID3DXMesh::Optimize**](id3dxmesh--optimize.md) has been called, the mesh w
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -101,7 +101,3 @@ If [**ID3DXMesh::Optimize**](id3dxmesh--optimize.md) has been called, the mesh w
  
 
  
-
-
-
-

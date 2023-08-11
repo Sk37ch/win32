@@ -1,5 +1,5 @@
 ---
-Description: Gets the computer name.
+description: Gets the computer name.
 ms.assetid: 8b6fd61a-dd5a-46b8-920e-cc8a848732b6
 title: '_GetComputerName function'
 ms.topic: reference
@@ -20,7 +20,7 @@ api_location:
 
 \[This function is a wrapper over the **GetComputerName** function. This function may be altered or unavailable in the future. Applications should call **GetComputerName** directly.\]
 
-Gets the computer name. See [**GetComputerName**](https://msdn.microsoft.com/library/ms724295(v=VS.85).aspx).
+Gets the computer name. See [**GetComputerName**](/windows/win32/api/winbase/nf-winbase-getcomputernamea).
 
 ## Syntax
 
@@ -44,7 +44,7 @@ BOOL _GetComputerName(
 
 
 
-|                |                                                                                                                                                             |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Msmdun80.dll; </dt> <dt>Sqlunirl.dll</dt> </dl> |
 
@@ -54,13 +54,9 @@ BOOL _GetComputerName(
 
 <dl> <dt>
 
-[**GetComputerName**](https://msdn.microsoft.com/library/ms724295(v=VS.85).aspx)
+[**GetComputerName**](/windows/win32/api/winbase/nf-winbase-getcomputernamea)
 </dt> </dl>
 
  
 
  
-
-
-
-

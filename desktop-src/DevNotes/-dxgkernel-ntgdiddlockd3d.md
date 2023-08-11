@@ -1,5 +1,5 @@
 ---
-Description: Used to lock a specified area of buffer memory and to provide a valid pointer to a block of memory associated with the buffer.
+description: Used to lock a specified area of buffer memory and to provide a valid pointer to a block of memory associated with the buffer.
 ms.assetid: 6f2ecefa-376c-4f6c-a031-666dd992f96a
 title: NtGdiDdLockD3D function (Ntgdi.h)
 ms.topic: reference
@@ -43,14 +43,14 @@ DWORD APIENTRY NtGdiDdLockD3D(
 *hSurface* \[in\]
 </dt> <dd>
 
-Pointer to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that describes the surface associated with the memory region to be locked down.
+Pointer to a [**DD\_SURFACE\_LOCAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local) structure that describes the surface associated with the memory region to be locked down.
 
 </dd> <dt>
 
 *puLockData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_LOCKDATA**](https://msdn.microsoft.com/library/Ff551637(v=VS.85).aspx) structure that contains the information required to perform the lock down.
+Pointer to a [**DD\_LOCKDATA**](/windows/win32/api/ddrawint/ns-ddrawint-dd_lockdata) structure that contains the information required to perform the lock down.
 
 </dd> </dl>
 
@@ -73,7 +73,7 @@ Pointer to a [**DD\_LOCKDATA**](https://msdn.microsoft.com/library/Ff551637(v=VS
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
@@ -91,7 +91,3 @@ Pointer to a [**DD\_LOCKDATA**](https://msdn.microsoft.com/library/Ff551637(v=VS
  
 
  
-
-
-
-

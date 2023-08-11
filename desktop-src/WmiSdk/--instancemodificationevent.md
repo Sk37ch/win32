@@ -1,5 +1,5 @@
 ---
-Description: Reports an instance modification event, which is a type of intrinsic event generated when an instance changes in the namespace.
+description: Reports an instance modification event, which is a type of intrinsic event generated when an instance changes in the namespace.
 ms.assetid: aa35f349-8b57-435f-bf82-76daf2b43ec9
 ms.tgt_platform: multiple
 title: '__InstanceModificationEvent class'
@@ -100,7 +100,7 @@ Access type: Read-only
 
 Unique value that indicates the time at which the event was generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Times (UTC) format. This property is inherited from [**\_\_Event**](--event.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> </dl>
 
@@ -120,13 +120,13 @@ Notification queries that request notification of the modification of a resource
 
 ## Examples
 
-The [Monitor process modification event](https://Gallery.TechNet.Microsoft.Com/daa06cdd-c1d9-4179-ba67-83aef2b9a079) VBScript sample on TechNet Gallery uses **\_\_InstanceModificationEvent** to monitor the first occurrence of a WMI instance modification event for [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process).
+The [Monitor process modification event](https://Gallery.TechNet.Microsoft.Com/daa06cdd-c1d9-4179-ba67-83aef2b9a079) VBScript sample on TechNet Gallery uses **\_\_InstanceModificationEvent** to monitor the first occurrence of a WMI instance modification event for [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process).
 
 ## Requirements
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -138,16 +138,11 @@ The [Monitor process modification event](https://Gallery.TechNet.Microsoft.Com/d
 
 <dl> <dt>
 
-[**\_\_InstanceOperationEvent**](https://docs.microsoft.com/windows/desktop/WmiSdk/--instanceoperationevent)
+[**\_\_InstanceOperationEvent**](/windows/desktop/WmiSdk/--instanceoperationevent)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

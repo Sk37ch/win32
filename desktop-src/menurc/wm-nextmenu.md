@@ -34,7 +34,7 @@ Sent to an application when the right or left arrow key is used to switch betwee
 *wParam* 
 </dt> <dd>
 
-The virtual-key code of the key. See [**Virtual-Key Codes**](https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes).
+The virtual-key code of the key. See [**Virtual-Key Codes**](/windows/desktop/inputdev/virtual-key-codes).
 
 </dd> <dt>
 
@@ -53,7 +53,7 @@ In responding to this message, the application can specify the menu to switch to
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -78,10 +78,4 @@ In responding to this message, the application can specify the menu to switch to
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

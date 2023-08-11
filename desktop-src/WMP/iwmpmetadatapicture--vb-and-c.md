@@ -14,12 +14,15 @@ api_location:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # IWMPMetadataPicture (VB and C#) interface
 
-Provides properties for getting information about the image contained in a digital media file that is represented by a [**WM/Picture**](https://docs.microsoft.com/windows/desktop/wmformat/wmpicture)metadata attribute. This attribute corresponds to album art images contained in a digital media file, not to album art downloaded over the Internet.
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
+Provides properties for getting information about the image contained in a digital media file that is represented by a [**WM/Picture**](/windows/desktop/wmformat/wmpicture)metadata attribute. This attribute corresponds to album art images contained in a digital media file, not to album art downloaded over the Internet.
 
 The **IWMPMetadataPicture** interface exposes the following properties.
 
@@ -36,7 +39,7 @@ The **IWMPMetadataPicture** interface exposes the following properties.
 
  
 
-Get an **IWMPMetadataPicture** interface by passing in the attribute name [**WM/Picture**](https://docs.microsoft.com/windows/desktop/wmformat/wmpicture) to the following method and casting the object that is returned.
+Get an **IWMPMetadataPicture** interface by passing in the attribute name [**WM/Picture**](/windows/desktop/wmformat/wmpicture) to the following method and casting the object that is returned.
 
 
 
@@ -56,7 +59,7 @@ The **IWMPMetadataPicture (VB and C#)** interface does not define any members.
 
 
 
-|                   |                                                                                  |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmp.h</dt> </dl> |
 
@@ -70,10 +73,4 @@ The **IWMPMetadataPicture (VB and C#)** interface does not define any members.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

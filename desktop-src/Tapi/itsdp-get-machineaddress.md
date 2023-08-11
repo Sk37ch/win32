@@ -1,5 +1,5 @@
 ---
-Description: The get\_MachineAddress method gets the machine address of the originating host.
+description: The get\_MachineAddress method gets the machine address of the originating host.
 ms.assetid: 8a67cc9f-f9fc-4ec3-86f9-ffe34d075830
 title: ITSdp::get_MachineAddress method (Sdpblb.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ This method can return one of these values.
 
 ## Remarks
 
-The application must use [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the memory allocated for the *ppMachineAddress* parameter.
+The application must use [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) to free the memory allocated for the *ppMachineAddress* parameter.
 
 The *ppMachineAddress* parameter can be returned as either a DNS name ("JohnSmith.workinghard.microsoft.com") or an IP address ("10.111.222.111").
 
@@ -62,7 +62,7 @@ The *ppMachineAddress* parameter can be returned as either a DNS name ("JohnSmit
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |
@@ -82,9 +82,4 @@ The *ppMachineAddress* parameter can be returned as either a DNS name ("JohnSmit
 </dt> </dl>
 
  
-
- 
-
-
-
 

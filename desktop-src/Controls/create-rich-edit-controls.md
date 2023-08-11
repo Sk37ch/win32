@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to Create Rich Edit Controls
 
-To create a rich edit control, call the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, specifying the rich edit window class. For Microsoft Rich Edit 4.1 (Msftedit.dll), specify MSFTEDIT\_CLASS as the window class. For all previous versions, specify RICHEDIT\_CLASS. For more information, see [Versions of Rich Edit](about-rich-edit-controls.md).
+To create a rich edit control, call the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, specifying the rich edit window class. For Microsoft Rich Edit 4.1 (Msftedit.dll), specify MSFTEDIT\_CLASS as the window class. For all previous versions, specify RICHEDIT\_CLASS. For more information, see [Versions of Rich Edit](about-rich-edit-controls.md).
 
 Rich edit controls support most of the window styles used with edit controls as well as additional styles. You should specify the [**ES\_MULTILINE**](edit-control-styles.md) window style if you want to allow more than one line of text in the control. For more information, see [Rich Edit Control Styles](rich-edit-control-styles.md).
 
@@ -49,7 +49,7 @@ HWND CreateRichEdit(HWND hwndOwner,        // Dialog box handle.
 
 
 
-In Microsoft Visual Studio 2005 and later, it is possible to add a rich edit control into a dialog template by dragging the control from the toolbox. However, doing this in the dialog editor does not ensure that the required library will be loaded before the control is created. It is necessary to call the [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) function to load Riched32.dll, Riched20.dll, or Msftedit.dll before the dialog is created.
+In Microsoft Visual Studio 2005 and later, it is possible to add a rich edit control into a dialog template by dragging the control from the toolbox. However, doing this in the dialog editor does not ensure that the required library will be loaded before the control is created. It is necessary to call the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) function to load Riched32.dll, Riched20.dll, or Msftedit.dll before the dialog is created.
 
 ## Remarks
 
@@ -62,13 +62,9 @@ To use visual styles with these controls, an application must include a manifest
 [Using Rich Edit Controls](using-rich-edit-controls.md)
 </dt> <dt>
 
-[Windows common controls demo (CppWindowsCommonControls)](https://code.msdn.microsoft.com/CppWindowsCommonControls-9ea0de64)
+[Windows common controls demo (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
  
 
  
-
-
-
-

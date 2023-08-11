@@ -1,5 +1,5 @@
 ---
-Description: Represents an object that is useful for annotation scenarios where users are not concerned with performing recognition on ink but instead are interested in the size, shape, color, and position of the ink.
+description: Represents an object that is useful for annotation scenarios where users are not concerned with performing recognition on ink but instead are interested in the size, shape, color, and position of the ink.
 ms.assetid: 61191ab3-075e-458b-9e0f-4bc255687b3c
 title: InkOverlay class (Msinkaut.h)
 ms.topic: reference
@@ -134,7 +134,7 @@ The **InkOverlay** class has these properties.
 | [**MouseIcon**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_mouseicon)<br/>                                         | Read/write<br/> | Gets or sets the current custom mouse icon.<br/>                                                                                                                                       |
 | [**MousePointer**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_mousepointer)<br/>                                   | Read/write<br/> | Gets or sets a value that indicates the type of mouse pointer that appears when the mouse is over a particular part of the object.<br/>                                                |
 | [**Renderer**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_renderer)<br/>                                           | Read/write<br/> | Gets or sets the [**InkRenderer**](inkrenderer-class.md) object that is used to draw ink.<br/>                                                                                        |
-| [**Selection**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_selection)<br/>                                           | Read/write<br/> | Gets or sets the [InkStrokes](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection that is currently selected inside the **InkOverlay** control.<br/>                                                 |
+| [**Selection**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_selection)<br/>                                           | Read/write<br/> | Gets or sets the [InkStrokes](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) collection that is currently selected inside the **InkOverlay** control.<br/>                                                 |
 | [**SupportHighContrastInk**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_supporthighcontrastink)<br/>               | Read/write<br/> | Gets or sets a value that specifies whether ink is rendered as just one color when the system is in High Contrast mode.<br/>                                                           |
 | [**SupportHighContrastSelectionUI**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_supporthighcontrastselectionui)<br/> | Read/write<br/> | Gets or sets a value that specifies whether all selection UI is drawn in high contrast when the system is in High Contrast mode.<br/>                                                  |
 | [**Tablet**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_tablet)<br/>                                                  | Read-only<br/>  | Gets the tablet device that the **InkOverlay** object is currently using to collect input.<br/>                                                                                        |
@@ -161,7 +161,7 @@ BOOL CRecognitionAlternatesSampleCppView::OnWndMsg(UINT msg, WPARAM wp, PARAM lp
 
 ## Remarks
 
-This object can be instantiated by calling the [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
+This object can be instantiated by calling the [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
 
 The **InkOverlay** object is well suited for note taking and basic scribbling. The primary intended use of this object is to display ink as ink.
 
@@ -199,7 +199,7 @@ BOOL CRecognitionAlternatesSampleCppView::OnWndMsg(UINT msg, WPARAM wp, PARAM lp
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
@@ -222,9 +222,4 @@ BOOL CRecognitionAlternatesSampleCppView::OnWndMsg(UINT msg, WPARAM wp, PARAM lp
 </dt> </dl>
 
  
-
- 
-
-
-
 

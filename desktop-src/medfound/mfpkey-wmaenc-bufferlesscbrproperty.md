@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the encoder should produce 1 WMA packet per frame.
+description: Specifies whether the encoder should produce 1 WMA packet per frame.
 ms.assetid: 5c8a67c0-8c2e-41bc-a9a6-600453d2a100
 title: MFPKEY_WMAENC_BUFFERLESSCBR Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Specifies whether the encoder should produce 1 WMA packet per frame. Read-write.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -26,7 +26,7 @@ Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows Vista or Windows 7<br/>                                                   |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |
@@ -43,7 +43,3 @@ Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/
  
 
  
-
-
-
-

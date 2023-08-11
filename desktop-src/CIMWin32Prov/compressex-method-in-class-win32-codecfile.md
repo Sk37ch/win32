@@ -1,5 +1,5 @@
 ---
-Description: Compresses the logical codec file (or directory) specified in the object path (this method is an extended version of the Compress method).
+description: Compresses the logical codec file (or directory) specified in the object path (this method is an extended version of the Compress method).
 ms.assetid: e1ecf0de-3b81-443e-9936-326d7d2d9210
 ms.tgt_platform: multiple
 title: CompressEx method of the Win32_CodecFile class
@@ -18,9 +18,9 @@ api_location:
 
 # CompressEx method of the Win32\_CodecFile class
 
-The **CompressEx** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method compresses the logical codec file (or directory) specified in the object path (this method is an extended version of the [**Compress**](compress-method-in-class-win32-directory.md) method).
+The **CompressEx** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method compresses the logical codec file (or directory) specified in the object path (this method is an extended version of the [**Compress**](compress-method-in-class-win32-directory.md) method).
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -161,7 +161,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -175,16 +175,11 @@ A parameter specified is not valid.
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_CodecFile**](win32-codecfile.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

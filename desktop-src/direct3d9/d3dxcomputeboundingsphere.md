@@ -1,22 +1,25 @@
 ---
-Description: Computes a bounding sphere for the mesh.
+description: D3DXComputeBoundingSphere function (D3DX9Mesh.h) - Computes a bounding sphere for the mesh.
 ms.assetid: efa1365b-fe3a-4165-a3cb-bc1cd2ba03c0
 title: D3DXComputeBoundingSphere function (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXComputeBoundingSphere
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXComputeBoundingSphere function
+# D3DXComputeBoundingSphere function (D3DX9Mesh.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Computes a bounding sphere for the mesh.
 
@@ -51,7 +54,7 @@ Pointer to first position.
 *NumVertices* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Number of vertices.
 
@@ -60,7 +63,7 @@ Number of vertices.
 *dwStride* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Number of bytes between position vectors. Use [**GetNumBytesPerVertex**](id3dxbasemesh--getnumbytespervertex.md), [**D3DXGetFVFVertexSize**](d3dxgetfvfvertexsize.md), or [**D3DXGetDeclVertexSize**](d3dxgetdeclvertexsize.md) to get the vertex stride.
 
@@ -78,7 +81,7 @@ Type: **[**D3DXVECTOR3**](d3dxvector3.md)\***
 *pRadius* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Radius of the returned bounding sphere.
 
@@ -94,7 +97,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -111,7 +114,3 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
  
 
  
-
-
-
-

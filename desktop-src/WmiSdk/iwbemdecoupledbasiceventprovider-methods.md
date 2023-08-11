@@ -1,5 +1,5 @@
 ---
-Description: The IWbemDecoupledBasicEventProvider interface exposes the following methods.
+description: The IWbemDecoupledBasicEventProvider interface exposes the following methods.
 ms.assetid: 659752BD-B795-451B-B542-B5E362F93364
 ms.tgt_platform: multiple
 title: IWbemDecoupledBasicEventProvider Methods
@@ -15,11 +15,8 @@ The [**IWbemDecoupledBasicEventProvider**](/windows/desktop/api/Wbemprov/nn-wbem
 
 -   [**GetService method**](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemdecoupledbasiceventprovider-getservice)
 -   [**GetSink method**](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemdecoupledbasiceventprovider-getsink)
--   [**Register method**](https://msdn.microsoft.com/library/Aa391480(v=VS.85).aspx)
+-   [**Register method**](/previous-versions/windows/desktop/legacy/aa391480(v=vs.85))
 
  
 
  
-
-
-

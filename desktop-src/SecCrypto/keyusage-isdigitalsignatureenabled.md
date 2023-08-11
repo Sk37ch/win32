@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Boolean value that indicates whether the digitalSignature bit is set.
+description: Retrieves a Boolean value that indicates whether the digitalSignature bit is set.
 ms.assetid: 561eea86-ff23-4a26-adf2-b43009566eaa
 title: KeyUsage.IsDigitalSignatureEnabled property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # KeyUsage.IsDigitalSignatureEnabled property
 
-\[The **IsDigitalSignatureEnabled** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509EnhancedKeyUsageExtension Class**](https://msdn.microsoft.com/library/6f6fz8xs(v=VS.100).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[The **IsDigitalSignatureEnabled** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509EnhancedKeyUsageExtension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509enhancedkeyusageextension) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **IsDigitalSignatureEnabled** property retrieves a Boolean value that indicates whether the digitalSignature bit is set.
 
@@ -38,7 +38,7 @@ If **true**, the digitalSignature bit is set.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
@@ -55,7 +55,3 @@ If **true**, the digitalSignature bit is set.
  
 
  
-
-
-
-

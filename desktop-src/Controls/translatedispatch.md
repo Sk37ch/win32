@@ -40,15 +40,15 @@ BOOL CALLBACK TranslateDispatch(
 *lpmsg* \[in\]
 </dt> <dd>
 
-Type: **const [**MSG**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-msg)\***
+Type: **const [**MSG**](/windows/win32/api/winuser/ns-winuser-msg)\***
 
-A pointer to an [**MSG**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-msg) structure that contains the intercepted message.
+A pointer to an [**MSG**](/windows/win32/api/winuser/ns-winuser-msg) structure that contains the intercepted message.
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**BOOL**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**BOOL**](/windows/desktop/WinProg/windows-data-types)**
 
 **TRUE** if the message was handled by this function; otherwise, **FALSE**. If **FALSE**, the message is handled by the default reader mode implementation. That implementation handles mouse movement and buttons as well as key presses.
 
@@ -80,7 +80,7 @@ TranslateDispatchCallback(LPMSG lpmsg)
 
 
 
-|                                     |                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows Vista \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>          |
@@ -88,10 +88,4 @@ TranslateDispatchCallback(LPMSG lpmsg)
 
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: This section describes how to perform basic programming tasks with the XPS Digital Signature API.
+description: This section describes how to perform basic programming tasks with the XPS Digital Signature API.
 ms.assetid: a25a8d33-000a-4774-8beb-56d3bb39d5ae
 title: Common Digital Signature Programming Tasks
 ms.topic: article
@@ -19,13 +19,10 @@ Tasks
 
 ## Disclaimer
 
-Code examples are not intended to be complete and working programs. The code examples that are referenced on this page, for example, do not perform parameter checking, error checking, complete memory or resource management, or error handling. Use these examples as a starting point, then add the necessary code to create a robust application. For more information about **HRESULT** return values and error handling strategies, see [Error Handling in COM](https://msdn.microsoft.com/library/ms679692(v=VS.85).aspx).
+Code examples are not intended to be complete and working programs. The code examples that are referenced on this page, for example, do not perform parameter checking, error checking, complete memory or resource management, or error handling. Use these examples as a starting point, then add the necessary code to create a robust application. For more information about **HRESULT** return values and error handling strategies, see [Error Handling in COM](../com/error-handling-in-com.md).
 
 For clarity, these code examples use very simple XPS document and signature scenarios, which might not be sufficiently complex to meet your needs.
 
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Helper structure for managing a shader constant table. This can also be done using ID3DXConstantTable.
+description: Helper structure for managing a shader constant table. This can also be done using ID3DXConstantTable.
 ms.assetid: cc6d66e4-c600-420b-b7b5-1bd10ecb22f9
 title: D3DXSHADER_CONSTANTTABLE structure (D3dx9shader.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ typedef struct D3DXSHADER_CONSTANTTABLE {
 **Size**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -54,7 +54,7 @@ Size of the structure. See Remarks.
 **Creator**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -65,7 +65,7 @@ Offset from the beginning of this structure, in bytes, to the string that contai
 **Version**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -76,7 +76,7 @@ Shader version.
 **Constants**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -87,7 +87,7 @@ Number of constants.
 **ConstantInfo**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -98,7 +98,7 @@ Array of constant information, D3DXSHADER\_CONSTANTINFO\[*Constants*\]. See [**D
 **Flags**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -109,7 +109,7 @@ The [D3DXSHADER Flags](d3dxshader-flags.md) flags used to compile the shader.
 **Target**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -137,7 +137,7 @@ constantTable.Size = sizeof(D3DXSHADER_CONSTANTTABLE)
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9shader.h</dt> </dl> |
 
@@ -156,7 +156,3 @@ constantTable.Size = sizeof(D3DXSHADER_CONSTANTTABLE)
  
 
  
-
-
-
-

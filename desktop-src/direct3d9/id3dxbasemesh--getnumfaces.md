@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of faces in the mesh.
+description: ID3DXBaseMesh::GetNumFaces method - Retrieves the number of faces in the mesh.
 ms.assetid: 3f7cffd4-97ae-4f1c-9f91-931b85f07734
 title: ID3DXBaseMesh::GetNumFaces method (D3DX9Mesh.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Returns the number of faces in the mesh.
 
@@ -43,7 +43,7 @@ Returns the number of faces in the mesh.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -60,7 +60,3 @@ Returns the number of faces in the mesh.
  
 
  
-
-
-
-

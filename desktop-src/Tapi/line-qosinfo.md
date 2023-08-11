@@ -1,5 +1,5 @@
 ---
-Description: The TSPI LINE\_QOSINFO message causes TAPI to fire a QOS event. See ITQOSEvent for additional information.
+description: The TSPI LINE\_QOSINFO message causes TAPI to fire a QOS event. See ITQOSEvent for additional information.
 ms.assetid: b2844d12-c524-42ab-aeb9-8daf4e07a436
 title: LINE_QOSINFO message (Tspi.h)
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # LINE\_QOSINFO message
 
-The TSPI **LINE\_QOSINFO** message causes TAPI to fire a QOS event. See [**ITQOSEvent**](https://msdn.microsoft.com/library/ms731442(v=VS.85).aspx) for additional information.
+The TSPI **LINE\_QOSINFO** message causes TAPI to fire a QOS event. See [**ITQOSEvent**](/windows/win32/api/tapi3if/nn-tapi3if-itqosevent) for additional information.
 
 
 ```C++
@@ -45,14 +45,14 @@ The value LINE\_QOSINFO.
 *dwParam1* 
 </dt> <dd>
 
-A member of the [**QOS\_EVENT**](https://msdn.microsoft.com/library/ms734166(v=VS.85).aspx) enumerator that identifies the type of event.
+A member of the [**QOS\_EVENT**](/windows/win32/api/tapi3if/ne-tapi3if-qos_event) enumerator that identifies the type of event.
 
 </dd> <dt>
 
 *dwParam2* 
 </dt> <dd>
 
-A [media type](https://msdn.microsoft.com/library/ms734212(v=VS.85).aspx) constant that identifies the media of the call associated with this event.
+A [media type](./tapiprotocol--constants.md) constant that identifies the media of the call associated with this event.
 
 </dd> <dt>
 
@@ -67,7 +67,7 @@ Unused.
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.2<br/>                                                      |
 | Header<br/>       | <dl> <dt>Tspi.h</dt> </dl> |
@@ -78,16 +78,11 @@ Unused.
 
 <dl> <dt>
 
-[**QOS\_EVENT**](https://msdn.microsoft.com/library/ms734166(v=VS.85).aspx)
+[**QOS\_EVENT**](/windows/win32/api/tapi3if/ne-tapi3if-qos_event)
 </dt> <dt>
 
-[**ITQOSEvent**](https://msdn.microsoft.com/library/ms731442(v=VS.85).aspx)
+[**ITQOSEvent**](/windows/win32/api/tapi3if/nn-tapi3if-itqosevent)
 </dt> </dl>
 
  
-
- 
-
-
-
 

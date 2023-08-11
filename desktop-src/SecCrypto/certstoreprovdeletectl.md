@@ -1,5 +1,5 @@
 ---
-Description: Called by CertDeleteCTLFromStore before deleting a CTL from the store.
+description: Called by CertDeleteCTLFromStore before deleting a CTL from the store.
 ms.assetid: 6cda772f-7e94-414d-99fc-a90451ac0ccf
 title: CertStoreProvDeleteCTL callback function
 ms.topic: reference
@@ -38,7 +38,7 @@ BOOL WINAPI CertStoreProvDeleteCTL(
 *hStoreProv* \[in\]
 </dt> <dd>
 
-**HCERTSTOREPROV** handle to a [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
+**HCERTSTOREPROV** handle to a [*certificate store*](../secgloss/c-gly.md).
 
 </dd> <dt>
 
@@ -64,7 +64,7 @@ Returns **TRUE** if a CTL can be deleted from the store.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
@@ -74,7 +74,3 @@ Returns **TRUE** if a CTL can be deleted from the store.
  
 
  
-
-
-
-

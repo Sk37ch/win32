@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_USERDEFINEDDEFAULT Structure"
 title: JET_USERDEFINEDDEFAULT Structure
 TOCTitle: JET_USERDEFINEDDEFAULT Structure
 ms:assetid: 1f0a5419-9fae-4a93-a271-2f9772ecc996
@@ -45,7 +46,7 @@ The export name of the function that implements the callback in "module\!functio
 
 The callback persists as a part of the column schema. The actual host executable and export name of the function must persist to enable the lookup of the true address of the function at run time.
 
-The module name is the name of the host binary that contains the function. The function name is the name of the export for that function. These two pieces of information will be used by the database engine at runtime to locate the true address of the callback by executing a [LoadLibrary](https://msdn.microsoft.com/library/ms684175(VS.85).aspx) call on the module name followed by a [GetProcAddress](https://msdn.microsoft.com/library/ms683212(VS.85).aspx) call on the function name.
+The module name is the name of the host binary that contains the function. The function name is the name of the export for that function. These two pieces of information will be used by the database engine at runtime to locate the true address of the callback by executing a [LoadLibrary](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) call on the module name followed by a [GetProcAddress](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) call on the function name.
 
 For example, if the callback were implemented in a DLL called MyCallback.DLL and that DLL were stored in C:\\MyApplication and the function implementing the callback were exported from the DLL as UserDefinedDefaultCallback, then the required string would be "C:\\MyApplication\\MyCallback.DLL\!UserDefinedDefaultCallback".
 
@@ -75,35 +76,18 @@ This member should always be set to NULL.
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implemented as <strong>JET_ USERDEFINEDDEFAULT_W</strong> (Unicode) and <strong>JET_ USERDEFINEDDEFAULT_A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implemented as <strong>JET_ USERDEFINEDDEFAULT_W</strong> (Unicode) and <strong>JET_ USERDEFINEDDEFAULT_A</strong> (ANSI).</p> | 
+
 
 
 ### See Also
 
-[JET_CBTYP](gg294071\(v=exchg.10\).md)  
-[JET_COLUMNCREATE](gg269252\(v=exchg.10\).md)  
-[JET_COLUMNDEF](gg294130\(v=exchg.10\).md)
-
+[JET_CBTYP](./jet-cbtyp.md)  
+[JET_COLUMNCREATE](./jet-columncreate-structure.md)  
+[JET_COLUMNDEF](./jet-columndef-structure.md)

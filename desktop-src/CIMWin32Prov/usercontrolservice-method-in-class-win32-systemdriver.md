@@ -1,5 +1,5 @@
 ---
-Description: Attempts to send a user-defined control code to a service managed by a system driver.
+description: Attempts to send a user-defined control code to a service managed by a system driver.
 ms.assetid: 62e66c35-f264-43d0-9e94-fb5e85f936e0
 ms.tgt_platform: multiple
 title: UserControlService method of the Win32_SystemDriver class
@@ -18,9 +18,9 @@ api_location:
 
 # UserControlService method of the Win32\_SystemDriver class
 
-The **UserControlService** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method attempts to send a user-defined control code to a service managed by a system driver.
+The **UserControlService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method attempts to send a user-defined control code to a service managed by a system driver.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -52,7 +52,7 @@ Returns a value of 0 (zero) if the **UserControlService** request was accepted, 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -66,16 +66,11 @@ Returns a value of 0 (zero) if the **UserControlService** request was accepted, 
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_SystemDriver**](win32-systemdriver.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

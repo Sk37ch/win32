@@ -12,7 +12,6 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 ---
@@ -49,7 +48,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_SU
 **CD3DX12\_PIPELINE\_STATE\_STREAM\_SUBOBJECT(**InnerStructType** const &i)**
 </dt> <dd>
 
-Creates a new CD3DX12\_PIPELINE\_STATE\_STREAM\_SUBOBJECT template instance, initialized with a subobject type of [**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_pipeline_state_subobject_type) and subobject data copied from *i*. Both the subobject type and subobject data type are given as template parameters, **Type** and **InnerStructType**, respectively. For more information, see Remarks below.
+Creates a new CD3DX12\_PIPELINE\_STATE\_STREAM\_SUBOBJECT template instance, initialized with a subobject type of [**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_pipeline_state_subobject_type) and subobject data copied from *i*. Both the subobject type and subobject data type are given as template parameters, **Type** and **InnerStructType**, respectively. For more information, see Remarks below.
 
 </dd> <dt>
 
@@ -123,7 +122,7 @@ The [**CD3DX12\_PIPELINE\_STATE\_STREAM\_BLEND\_DESC**](cd3dx12-pipeline-state-s
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx12.h</dt> </dl> |
 
@@ -136,14 +135,8 @@ The [**CD3DX12\_PIPELINE\_STATE\_STREAM\_BLEND\_DESC**](cd3dx12-pipeline-state-s
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)
 </dt> <dt>
 
-[**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_pipeline_state_subobject_type)
+[**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_pipeline_state_subobject_type)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

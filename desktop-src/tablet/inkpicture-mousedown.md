@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the mouse pointer is over the InkPicture control and a mouse button is pressed.
+description: Occurs when the mouse pointer is over the InkPicture control and a mouse button is pressed.
 ms.assetid: ff776b2b-7dd8-4d3d-b0f6-714b186d447e
 title: InkPicture.MouseDown event (Msinkaut.h)
 ms.topic: reference
@@ -80,13 +80,13 @@ This event does not return a value.
 
  
 
-This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IPEMouseDown.
+This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface with an identifier of DISPID\_IPEMouseDown.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
@@ -103,9 +103,4 @@ This event method is defined in the **\_IInkPictureEvents** interface. The **\_I
 </dt> </dl>
 
  
-
- 
-
-
-
 

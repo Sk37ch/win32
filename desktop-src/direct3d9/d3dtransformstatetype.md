@@ -1,5 +1,5 @@
 ---
-Description: Defines constants that describe transformation state values.
+description: Defines constants that describe transformation state values.
 ms.assetid: 53535d9f-246a-42cf-82a2-fb3cf6d4ebac
 title: D3DTRANSFORMSTATETYPE enumeration (D3D9Types.h)
 ms.topic: reference
@@ -127,7 +127,7 @@ The transform states in the range 256 through 511 are reserved to store up to 25
 
 
 
-| Macros                                                  |                                                                                                                                                                       |
+| Macros                                                  | Description                                                                                                                                                                      |
 |---------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**D3DTS\_WORLD**](d3dts-world.md)                     | Equivalent to D3DTS\_WORLDMATRIX(0).                                                                                                                                  |
 | [**D3DTS\_WORLDMATRIX**](d3dts-worldmatrix.md) (index) | Identifies the transform matrix to set for the world matrix at index. Multiple world matrices are used only for vertex blending. Otherwise only D3DTS\_WORLD is used. |
@@ -140,7 +140,7 @@ The transform states in the range 256 through 511 are reserved to store up to 25
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 
@@ -153,13 +153,13 @@ The transform states in the range 256 through 511 are reserved to store up to 25
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::GetTransform**](https://msdn.microsoft.com/library/Bb174414(v=VS.85).aspx)
+[**IDirect3DDevice9::GetTransform**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-gettransform)
 </dt> <dt>
 
-[**IDirect3DDevice9::MultiplyTransform**](https://msdn.microsoft.com/library/Bb174422(v=VS.85).aspx)
+[**IDirect3DDevice9::MultiplyTransform**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-multiplytransform)
 </dt> <dt>
 
-[**IDirect3DDevice9::SetTransform**](https://msdn.microsoft.com/library/Bb174463(v=VS.85).aspx)
+[**IDirect3DDevice9::SetTransform**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settransform)
 </dt> <dt>
 
 [**D3DTS\_WORLD**](d3dts-world.md)
@@ -174,7 +174,3 @@ The transform states in the range 256 through 511 are reserved to store up to 25
  
 
  
-
-
-
-

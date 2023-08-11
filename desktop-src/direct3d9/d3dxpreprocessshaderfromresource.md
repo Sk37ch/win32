@@ -1,5 +1,5 @@
 ---
-Description: Preprocesses a shader resource without performing compilation. This resolves all \#defines and \#includes, providing a self-contained shader for subsequent compilation.
+description: Preprocesses a shader resource without performing compilation. This resolves all \#defines and \#includes, providing a self-contained shader for subsequent compilation.
 ms.assetid: a00c2db9-d7ba-48ab-80e3-dc20774e1b1e
 title: D3DXPreprocessShaderFromResource function (D3DX9Shader.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ api_location:
 Preprocesses a shader resource without performing compilation. This resolves all \#defines and \#includes, providing a self-contained shader for subsequent compilation.
 
 > [!Note]  
-> Instead of using this legacy function, we recommend that you use the [**D3DPreprocess**](https://msdn.microsoft.com/library/Dd607332(v=VS.85).aspx) API.
+> Instead of using this legacy function, we recommend that you use the [**D3DPreprocess**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dpreprocess) API.
 
  
 
@@ -48,7 +48,7 @@ HRESULT D3DXPreprocessShaderFromResource(
 *hSrcModule* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**HMODULE**](../winprog/windows-data-types.md)**
 
 Handle to the module that holds the shader resource. If this value is **NULL**, the current module will be used.
 
@@ -57,7 +57,7 @@ Handle to the module that holds the shader resource. If this value is **NULL**, 
 *pSrcResource* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 String that represents the name of the resource in the module.
 
@@ -109,7 +109,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -132,7 +132,3 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
  
 
  
-
-
-
-

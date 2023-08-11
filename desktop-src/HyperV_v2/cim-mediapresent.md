@@ -1,5 +1,5 @@
 ---
-Description: Represents a relationship in which a storage extent must be accessed through a media access device.
+description: Represents a relationship in which a storage extent must be accessed through a media access device.
 ms.assetid: 436a7e2d-2c14-4058-aca0-669373b8004a
 title: CIM_MediaPresent class (Hyper-V management)
 ms.topic: reference
@@ -18,7 +18,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_MediaPresent class
+# CIM_MediaPresent class (Hyper-V management)
 
 Represents a relationship in which a storage extent must be accessed through a media access device.
 
@@ -55,7 +55,7 @@ Data type: **CIM\_MediaAccessDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 The media access device.
@@ -71,7 +71,7 @@ Data type: **CIM\_StorageExtent**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The storage extent that is accessed when using the media access device.
@@ -95,7 +95,7 @@ Access type: Read-only
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -113,9 +113,4 @@ Access type: Read-only
 </dt> </dl>
 
  
-
- 
-
-
-
 

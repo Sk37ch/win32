@@ -1,5 +1,5 @@
 ---
-Description: Returns the vertical blank status of the device.
+description: Returns the vertical blank status of the device.
 ms.assetid: d09b684b-3482-424d-8a60-d123a65f9053
 title: NtGdiDdWaitForVerticalBlank function (Ntgdi.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ Handle to previously created kernel-mode DirectDraw object.
 *puWaitForVerticalBlankData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_WAITFORVERTICALBLANKDATA**](https://msdn.microsoft.com/library/Ff551765(v=VS.85).aspx) structure that contains the information required to obtain the vertical blank status.
+Pointer to a [**DD\_WAITFORVERTICALBLANKDATA**](/windows/win32/api/ddrawi/ns-ddrawi-ddhal_waitforverticalblankdata) structure that contains the information required to obtain the vertical blank status.
 
 </dd> </dl>
 
@@ -73,7 +73,7 @@ Pointer to a [**DD\_WAITFORVERTICALBLANKDATA**](https://msdn.microsoft.com/libra
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
@@ -91,7 +91,3 @@ Pointer to a [**DD\_WAITFORVERTICALBLANKDATA**](https://msdn.microsoft.com/libra
  
 
  
-
-
-
-

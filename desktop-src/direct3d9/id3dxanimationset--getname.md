@@ -1,5 +1,5 @@
 ---
-Description: Gets the animation set name.
+description: Gets the animation set name.
 ms.assetid: 08549ce7-9913-49d3-9e0f-0f680db3f8d5
 title: ID3DXAnimationSet::GetName method (D3dx9anim.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Name of the animation set.
 
@@ -43,7 +43,7 @@ Name of the animation set.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -60,7 +60,3 @@ Name of the animation set.
  
 
  
-
-
-
-

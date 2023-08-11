@@ -41,7 +41,7 @@ ID3DX11EffectVariable* GetVariableByIndex(
 *Index* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 A zero-based index.
 
@@ -68,7 +68,7 @@ The method returns a pointer to an [**effect-variable interface**](id3dx11effect
 
 
 
-|                    |                                                                                                                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
 | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |
@@ -83,10 +83,4 @@ The method returns a pointer to an [**effect-variable interface**](id3dx11effect
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

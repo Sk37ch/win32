@@ -1,5 +1,5 @@
 ---
-Description: Represents a virtual device service of the Microsoft Windows Hyper-V platform.
+description: Represents a virtual device service of the Microsoft Windows Hyper-V platform.
 ms.assetid: 865D83E1-0FC6-4F96-94BB-AA5116890127
 title: Msvm_VirtualSystemResourceComponent class
 ms.topic: reference
@@ -66,7 +66,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-An array of strings containing additional non-association classes surfaced by this **Msvm\_VirtualSystemResourceComponent** instance. These classes must derive from neither [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice) nor [**CIM\_ResourceAllocationSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
+An array of strings containing additional non-association classes surfaced by this **Msvm\_VirtualSystemResourceComponent** instance. These classes must derive from neither [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice) nor [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
 </dd> <dt>
 
@@ -92,7 +92,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-The context in which the newly created object will run. This value is passed in the *dwClsContext* parameter to [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance). This property is inherited from [**Msvm\_VirtualizationComponent**](msvm-virtualizationcomponent.md), and it is always set to 1.
+The context in which the newly created object will run. This value is passed in the *dwClsContext* parameter to [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance). This property is inherited from [**Msvm\_VirtualizationComponent**](msvm-virtualizationcomponent.md), and it is always set to 1.
 
 </dd> <dt>
 
@@ -179,13 +179,13 @@ The relationship of the WMI object that is described here with the virtual devic
 
 ## Remarks
 
-Access to the **Msvm\_VirtualSystemResourceComponent** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_VirtualSystemResourceComponent** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -201,16 +201,11 @@ Access to the **Msvm\_VirtualSystemResourceComponent** class might be restricted
 
 <dl> <dt>
 
-[**Msvm\_VirtualizationComponent**](https://docs.microsoft.com/windows/desktop/HyperV_v2/msvm-virtualizationcomponent)
+[**Msvm\_VirtualizationComponent**](/windows/desktop/HyperV_v2/msvm-virtualizationcomponent)
 </dt> <dt>
 
 [**Msvm\_VirtualizationComponent**](msvm-virtualizationcomponent.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

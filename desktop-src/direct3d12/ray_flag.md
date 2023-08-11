@@ -1,8 +1,7 @@
 ---
-Description: Flags passed to the TraceRay function to override transparency, culling, and early-out behavior.
+description: Flags passed to the TraceRay function to override transparency, culling, and early-out behavior.
 ms.assetid: 
 title: RAY_FLAG enumeration
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -33,6 +32,8 @@ enum RAY_FLAG : uint
     RAY_FLAG_CULL_FRONT_FACING_TRIANGLES     = 0x20,
     RAY_FLAG_CULL_OPAQUE                     = 0x40,
     RAY_FLAG_CULL_NON_OPAQUE                 = 0x80,
+    RAY_FLAG_SKIP_TRIANGLES                  = 0x100,
+    RAY_FLAG_SKIP_PROCEDURAL_PRIMITIVES      = 0x200,
 }; 
 ```
 
@@ -42,7 +43,7 @@ enum RAY_FLAG : uint
 
 <dl> <dt>
 
-<span id="RAY_FLAG_NONE"></span><span id="ray_flag_none"></span>**RAYFLAG\_NONE**
+<span id="RAY_FLAG_NONE"></span><span id="ray_flag_none"></span>**RAY\_FLAG\_NONE**
 </dt> <dd>
 
 No options selected.

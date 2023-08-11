@@ -1,21 +1,24 @@
 ---
-Description: Transforms a 4D vector by a given matrix.
+description: D3DXVec4Transform function (D3DX10Math.h) - Transforms a 4D vector by a given matrix.
 ms.assetid: ccbf33bc-1f94-4cf8-b048-220d54516e00
 title: D3DXVec4Transform function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec4Transform
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3DX10Math.h
 ---
 
-# D3DXVec4Transform function
+# D3DXVec4Transform function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Transforms a 4D vector by a given matrix.
 
@@ -39,7 +42,7 @@ D3DXVECTOR4* D3DXVec4Transform(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointer to the [**D3DXVECTOR4**](d3d10-d3dxvector4.md) that is the result of the operation.
 
@@ -48,7 +51,7 @@ Pointer to the [**D3DXVECTOR4**](d3d10-d3dxvector4.md) that is the result of the
 *pV* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointer to the source D3DXVECTOR4 structure.
 
@@ -57,7 +60,7 @@ Pointer to the source D3DXVECTOR4 structure.
 *pM* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **const [**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure.
 
@@ -65,7 +68,7 @@ Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure.
 
 ## Return value
 
-Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointer to a D3DXVECTOR4 structure that is the transformed 4D vector.
 
@@ -77,7 +80,7 @@ The return value for this function is the same value returned in the pOut parame
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 
@@ -93,7 +96,3 @@ The return value for this function is the same value returned in the pOut parame
  
 
  
-
-
-
-

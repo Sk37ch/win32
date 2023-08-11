@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.ToString method"
 title: InstanceParameters.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.InstanceParameters.ToString
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # InstanceParameters.ToString method
 
-Returns a [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) that represents the current [InstanceParameters](dn350942\(v=exchg.10\).md).
+Returns a [String](/dotnet/api/system.string) that represents the current [InstanceParameters](./instanceparameters-class.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,16 +52,15 @@ public override string ToString()
 
 #### Return value
 
-Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
-A [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) that represents the current [InstanceParameters](dn350942\(v=exchg.10\).md).  
+Type: [System.String](/dotnet/api/system.string)  
+A [String](/dotnet/api/system.string) that represents the current [InstanceParameters](./instanceparameters-class.md).  
 
 ## See also
 
 #### Reference
 
-[InstanceParameters class](dn350942\(v=exchg.10\).md)
+[InstanceParameters class](./instanceparameters-class.md)
 
-[InstanceParameters members](dn350943\(v=exchg.10\).md)
+[InstanceParameters members](./instanceparameters-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

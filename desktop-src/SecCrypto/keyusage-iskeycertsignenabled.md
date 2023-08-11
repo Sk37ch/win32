@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Boolean value that indicates whether the keyCertSign bit is set.
+description: Retrieves a Boolean value that indicates whether the keyCertSign bit is set.
 ms.assetid: c0331293-4a65-40f0-a404-87d8546349c2
 title: KeyUsage.IsKeyCertSignEnabled property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # KeyUsage.IsKeyCertSignEnabled property
 
-\[The **IsKeyCertSignEnabled** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509EnhancedKeyUsageExtension Class**](https://msdn.microsoft.com/library/6f6fz8xs(v=VS.100).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[The **IsKeyCertSignEnabled** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509EnhancedKeyUsageExtension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509enhancedkeyusageextension) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **IsKeyCertSignEnabled** property retrieves a Boolean value that indicates whether the keyCertSign bit is set.
 
@@ -38,7 +38,7 @@ If **true**, the keyCertSign bit is set.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
@@ -55,7 +55,3 @@ If **true**, the keyCertSign bit is set.
  
 
  
-
-
-
-

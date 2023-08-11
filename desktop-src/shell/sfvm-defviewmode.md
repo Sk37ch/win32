@@ -1,5 +1,5 @@
 ---
-Description: Allows the callback object to specify the view mode. Used by IShellFolderViewCB::MessageSFVCB.
+description: Allows the callback object to specify the view mode. Used by IShellFolderViewCB::MessageSFVCB.
 title: SFVM_DEFVIEWMODE message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -18,7 +18,7 @@ topic_type:
 
 # SFVM\_DEFVIEWMODE message
 
-Allows the callback object to specify the view mode. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/library/Bb774968(v=VS.85).aspx).
+Allows the callback object to specify the view mode. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb).
 
 
 ```C++
@@ -46,7 +46,7 @@ One of the values from the [**FOLDERVIEWMODE**](/windows/desktop/api/shobjidl_co
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
@@ -57,7 +57,3 @@ One of the values from the [**FOLDERVIEWMODE**](/windows/desktop/api/shobjidl_co
  
 
  
-
-
-
-

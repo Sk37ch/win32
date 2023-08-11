@@ -40,7 +40,7 @@ sddl = .GetSecurityDescriptor( _
 *securityInformation* 
 </dt> <dd>
 
-The security information from [**SECURITY\_INFORMATION**](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information).
+The security information from [**SECURITY\_INFORMATION**](/windows/desktop/SecAuthZ/security-information).
 
 </dd> </dl>
 
@@ -52,7 +52,7 @@ The security descriptor for the registered task.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
@@ -75,10 +75,4 @@ The security descriptor for the registered task.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

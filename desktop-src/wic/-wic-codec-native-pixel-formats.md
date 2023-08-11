@@ -1,5 +1,5 @@
 ---
-Description: This topic introduces the pixel formats provided by the Windows Imaging Component (WIC).
+description: This topic introduces the pixel formats provided by the Windows Imaging Component (WIC).
 ms.assetid: 348b6d15-e339-4dce-99f3-4d639ee9bf7d
 title: Native Pixel Formats Overview
 ms.topic: article
@@ -56,6 +56,12 @@ In some formats, the bit depth is not a multiple of 8. These formats are called 
 For the majority of today's digital images, unsigned bytes and unsigned short integers are used to describe the numerical range of each color channel. The minimum value (0) represents zero intensity in a single color channel, and black is achieved when all color channels are zero. Similarly, the maximum value represents full intensity, and white is achieved when all color channels are at full intensity. At a bit depth of 8, a UINT provides 256 unique values per color channel (0 - 255). A 16-bit UINT provides 65,536 unique values per color channel (0 - 65,535).
 
 In addition, WIC supports fixed-point and floating-point formats. These formats support larger dynamic ranges, because the entire numerical range of each color channel is larger than the visible range. As a result, colors can be adjusted above or below the visible range, during the intermediate steps of image processing, without loss of image information.
+
+### Fixed-Point Numerical Encoding
+
+16-bit fixed-point values are interpreted as s2.13: sign bit, two integer bits, and thirteen fractional bits. Using this interpretation, a numerical range of −4.0 to +3.999... can be represented, with the value of 1.0 represented by the signed integer value 8192 (0x2000).
+
+32-bit fixed-point values are interpreted as s7.24: sign bit, seven integer bits, and twenty-four fractional bits. Using this interpretation, a numerical range of −128.0 to +127.999... can be represented, with the value of 1.0 represented by the signed integer value 16777216 (0x01000000).
 
 ## Color Channels
 
@@ -178,7 +184,7 @@ The following table lists the packed bit formats provided by WIC. In these forma
 | GUID\_WICPixelFormat32bppR10G10B10A2      | 4             | 10(R)/10(G)/10(B)/2(A) | 32             | UINT         |
 | GUID\_WICPixelFormat32bppR10G10B10A2HDR10 | 4             | 10(R)/10(G)/10(B)/2(A) | 32             | UINT         |
 
-For the GUID\_WICPixelFormat32bppBGR101010 and GUID\_WICPixelFormat32bppRGBA1010102 formats, the red channel is stored in the least significant bits. For the GUID\_WICPixelFormat32bppR10G10B10A2 and GUID\_WICPixelFormat32bppR10G10B10A2HDR10 formats, the red channel is defined in the most significant bits, the same layout as [DXGI_FORMAT_R10G10B10A2_UNORM](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
+For the GUID\_WICPixelFormat32bppBGR101010 and GUID\_WICPixelFormat32bppRGBA1010102 formats, the red channel is stored in the least significant bits. For the GUID\_WICPixelFormat32bppR10G10B10A2 and GUID\_WICPixelFormat32bppR10G10B10A2HDR10 formats, the red channel is defined in the most significant bits, the same layout as [DXGI_FORMAT_R10G10B10A2_UNORM](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
 The GUID\_WICPixelFormat32bppR10G10B10A2HDR10 format is the 10 bit pixel format for HDR10 (BT.2020 color space and SMPTE ST.2084 EOTF).
 
@@ -250,7 +256,7 @@ The following table lists the RGB/BGR formats provided by WIC. These formats sep
 
  
 
-Starting with Windows 8 and the [Platform Update for Windows 7](https://docs.microsoft.com/windows/desktop/direct3darticles/platform-update-for-windows-7), WIC provides additional formats, shown in the table here.
+Starting with Windows 8 and the [Platform Update for Windows 7](/windows/desktop/direct3darticles/platform-update-for-windows-7), WIC provides additional formats, shown in the table here.
 
 
 
@@ -391,7 +397,7 @@ The following tables show the pixel formats supported by each of the Windows pro
  
 
 > [!Note]  
-> GUID\_WICPixelFormat32bppBGRA is only supported in Windows 8, the [Platform Update for Windows 7](https://docs.microsoft.com/windows/desktop/direct3darticles/platform-update-for-windows-7), and above.
+> GUID\_WICPixelFormat32bppBGRA is only supported in Windows 8, the [Platform Update for Windows 7](/windows/desktop/direct3darticles/platform-update-for-windows-7), and above.
 >
 > -   To encode to this format, use the **EnableV5Header32bppBGRA** encoder option. The BMP will be written with a BITMAPV5HEADER header.
 > -   If a file has a BITMAPV5HEADER, it decodes as GUID\_WICPixelFormat32bppBGRA.
@@ -495,7 +501,7 @@ The following tables show the pixel formats supported by each of the Windows pro
  
 
 > [!Note]  
-> GUID\_ WICPixelFormat96bppRGBFloat is only supported in Windows 8, the [Platform Update for Windows 7](https://docs.microsoft.com/windows/desktop/direct3darticles/platform-update-for-windows-7), and above.
+> GUID\_ WICPixelFormat96bppRGBFloat is only supported in Windows 8, the [Platform Update for Windows 7](/windows/desktop/direct3darticles/platform-update-for-windows-7), and above.
 
  
 
@@ -614,6 +620,3 @@ Custom image formats can use pixel formats that are not natively provided by WIC
  
 
  
-
-
-

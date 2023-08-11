@@ -1,5 +1,5 @@
 ---
-Description: Tests the network connectivity of a VM in a Windows network virtualization environment.
+description: Tests the network connectivity of a VM in a Windows network virtualization environment.
 ms.assetid: 37d4c34d-406e-4c52-afce-b0eef754eeb3
 title: TestNetworkConnection method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -101,7 +101,7 @@ The round trip time.
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -142,7 +142,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
@@ -160,9 +160,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

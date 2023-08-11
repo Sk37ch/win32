@@ -1,5 +1,5 @@
 ---
-Description: 'Consider the following when deciding when and how to use the Divider object in an application:'
+description: 'Consider the following when deciding when and how to use the Divider object in an application:'
 ms.assetid: 17404789-7f08-4cf1-88f8-e1f70296c163
 title: Other Divider Considerations
 ms.topic: article
@@ -33,12 +33,9 @@ You may be able to record the analysis results as application data, and implemen
 [**InkDivider Class**](inkdivider-class.md)
 </dt> <dt>
 
-[Microsoft.Ink.Divider Class](https://msdn.microsoft.com/library/ms583616(v=VS.100).aspx)
+[Microsoft.Ink.Divider Class](/previous-versions/ms583616(v=vs.100))
 </dt> </dl>
 
  
 
  
-
-
-

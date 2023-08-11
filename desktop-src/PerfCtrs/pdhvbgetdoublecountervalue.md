@@ -1,5 +1,5 @@
 ---
-Description: The PdhVbGetDoubleCounterValue function returns the current value of the specified counter as a double-precision floating point value.
+description: The PdhVbGetDoubleCounterValue function returns the current value of the specified counter as a double-precision floating point value.
 ms.assetid: a2ee63dd-da39-4104-921d-371172bcb45c
 title: PdhVbGetDoubleCounterValue function
 ms.topic: reference
@@ -19,7 +19,10 @@ api_location:
 
 The **PdhVbGetDoubleCounterValue** function returns the current value of the specified counter as a double-precision floating point value. You should check *CounterStatus* before using the returned number, because the counter may not be valid when it is read. To check the counter status, call the [**PdhVbIsGoodStatus**](pdhvbisgoodstatus.md) function.
 
-Function PdhVbGetDoubleCounterValue( \_ ByVal CounterHandle As Long, \_ ByVal CounterStatus As Long \_ ) As Double
+> [!IMPORTANT]
+> The function that this topic describes may be altered or unavailable in the future. Instead, Microsoft recommends that you use the functions described in [Performance Counters Functions](performance-counters-functions.md).
+
+Function PdhVbGetDoubleCounterValue( \_ ByVal CounterHandle As Long, \_ ByRef CounterStatus As Long \_ ) As Double
 
 ## Parameters
 
@@ -47,7 +50,7 @@ The function returns the double-precision floating point value of the current co
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |

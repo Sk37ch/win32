@@ -1,5 +1,5 @@
 ---
-Description: Represents a relationship in which a managed element is a member of and is aggregated by a collection.
+description: Represents a relationship in which a managed element is a member of and is aggregated by a collection.
 ms.assetid: 324284fa-ece6-41df-9891-040a7561dce4
 title: CIM_MemberOfCollection class
 ms.topic: reference
@@ -53,7 +53,7 @@ Data type: **CIM\_Collection**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 The collection that aggregates members.
@@ -69,7 +69,7 @@ Data type: **CIM\_ManagedElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The member of the collection.
@@ -80,7 +80,7 @@ The member of the collection.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -91,9 +91,4 @@ The member of the collection.
 
 
  
-
- 
-
-
-
 

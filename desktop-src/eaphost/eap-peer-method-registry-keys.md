@@ -1,6 +1,6 @@
 ---
 title: EAP Peer Method Registry Values
-description: Specific registry values are required for EAP peer methods.
+description: Learn about the specific registry values that are required for EAP peer methods. See a list of registry values and view additional available resources.
 ms.assetid: 16bdd6bf-9eab-40a8-a2d3-8942d2f5f37a
 ms.topic: article
 ms.date: 05/31/2018
@@ -34,7 +34,7 @@ For example, an EAP method installation registration path given an **AuthorId** 
 **HKLM\\System\\CCS\\Services\\Eaphost\\Methods\\311\\254\\311\\40**
 
 > [!Note]  
-> For more information on the allocation of EAP method types, see section 6.2 of [RFC 3748](Http://go.microsoft.com/fwlink/p/?linkid=84016).
+> For more information on the allocation of EAP method types, see section 6.2 of [RFC 3748](https://go.microsoft.com/fwlink/p/?linkid=84016).
 
  
 
@@ -130,7 +130,7 @@ The following AP peer method registry values are optional.
 | Constant Value | PeerInvokePasswordDialog                                                                                                                                                                                                                         |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type           | REG\_DWORD                                                                                                                                                                                                                                       |
-| Description    | 1- to get credentials using the generic EAPHost password and domain dialog box. 0 - to use a custom dialog box. If the generic dialog box is used, credentials are set by the [**EapPeerSetCredentials**](https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetcredentials) method. |
+| Description    | 1- to get credentials using the generic EAPHost password and domain dialog box. 0 - to use a custom dialog box. If the generic dialog box is used, credentials are set by the [**EapPeerSetCredentials**](/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetcredentials) method. |
 
 
 
@@ -140,32 +140,12 @@ The following AP peer method registry values are optional.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Constant Value</th>
-<th>PeerInvokeUsernameDialog</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Type</td>
-<td>REG_DWORD</td>
-</tr>
-<tr class="even">
-<td>Description</td>
-<td><ul>
-<li>1 - to get credentials using the generic EAPHost user name dialog box.</li>
-<li>0- to use a custom dialog box.</li>
-</ul>
-If the generic dialog box is used, credentials are set by the [<strong>EapPeerSetCredentials</strong>](https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetcredentials) method.</td>
-</tr>
-</tbody>
-</table>
+
+| Constant Value | PeerInvokeUsernameDialog | 
+|----------------|--------------------------|
+| Type | REG_DWORD | 
+| Description | <ul><li>1 - to get credentials using the generic EAPHost user name dialog box.</li><li>0- to use a custom dialog box.</li></ul>If the generic dialog box is used, credentials are set by the [<strong>EapPeerSetCredentials</strong>](/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetcredentials) method. | 
+
 
 
 
@@ -210,13 +190,9 @@ If the generic dialog box is used, credentials are set by the [<strong>EapPeerSe
 [Using EAPHost](using-eap-host.md)
 </dt> <dt>
 
-[RFC 3748](Http://go.microsoft.com/fwlink/p/?linkid=84016)
+[RFC 3748](https://go.microsoft.com/fwlink/p/?linkid=84016)
 </dt> </dl>
 
  
 
  
-
-
-
-

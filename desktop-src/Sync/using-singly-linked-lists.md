@@ -1,5 +1,5 @@
 ---
-Description: The following example uses the InitializeSListHead function to initialize a singly linked list and the InterlockedPushEntrySList function to insert 10 items.
+description: The following example uses the InitializeSListHead function to initialize a singly linked list and the InterlockedPushEntrySList function to insert 10 items.
 ms.assetid: 5608f84f-9211-4043-bb53-60339191ee29
 title: Using Singly Linked Lists
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using Singly Linked Lists
 
-The following example uses the [**InitializeSListHead**](https://msdn.microsoft.com/library/ms683482(v=VS.85).aspx) function to initialize a [singly linked list](interlocked-singly-linked-lists.md) and the [**InterlockedPushEntrySList**](https://msdn.microsoft.com/library/ms684020(v=VS.85).aspx) function to insert 10 items. The example uses the [**InterlockedPopEntrySList**](https://msdn.microsoft.com/library/ms683648(v=VS.85).aspx) function to remove 10 items and the [**InterlockedFlushSList**](https://msdn.microsoft.com/library/ms683612(v=VS.85).aspx) function to verify that the list is empty.
+The following example uses the [**InitializeSListHead**](/windows/win32/api/interlockedapi/nf-interlockedapi-initializeslisthead) function to initialize a [singly linked list](interlocked-singly-linked-lists.md) and the [**InterlockedPushEntrySList**](/windows/win32/api/interlockedapi/nf-interlockedapi-interlockedpushentryslist) function to insert 10 items. The example uses the [**InterlockedPopEntrySList**](/windows/win32/api/interlockedapi/nf-interlockedapi-interlockedpopentryslist) function to remove 10 items and the [**InterlockedFlushSList**](/windows/win32/api/interlockedapi/nf-interlockedapi-interlockedflushslist) function to verify that the list is empty.
 
 
 ```C++
@@ -101,6 +101,3 @@ int main( )
  
 
  
-
-
-

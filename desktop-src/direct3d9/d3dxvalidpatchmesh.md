@@ -1,5 +1,5 @@
 ---
-Description: Validates a patch mesh, returning the number of degenerate vertices and patches.
+description: Validates a patch mesh, returning the number of degenerate vertices and patches.
 ms.assetid: a95ff9d9-d476-42ac-8d7e-1dc42418f763
 title: D3DXValidPatchMesh function (D3DX9Mesh.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ Pointer to an [**ID3DXPatchMesh**](id3dxpatchmesh.md) interface, representing th
 *pNumDegenerateVertices* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Returns the number of degenerate vertices in the patch mesh.
 
@@ -59,7 +59,7 @@ Returns the number of degenerate vertices in the patch mesh.
 *pNumDegeneratePatches* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Returns the number of degenerate patches in the patch mesh.
 
@@ -88,7 +88,7 @@ This method validates the mesh by checking for invalid indices. Error informatio
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -105,7 +105,3 @@ This method validates the mesh by checking for invalid indices. Error informatio
  
 
  
-
-
-
-

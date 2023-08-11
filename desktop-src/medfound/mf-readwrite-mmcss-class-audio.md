@@ -1,5 +1,5 @@
 ---
-Description: Specifies a Multimedia Class Scheduler Service (MMCSS) class for audio-processing threads in the Source Reader or Sink Writer.
+description: Specifies a Multimedia Class Scheduler Service (MMCSS) class for audio-processing threads in the Source Reader or Sink Writer.
 ms.assetid: F1B8A8C8-2E41-4321-A94D-C50447C69941
 title: MF_READWRITE_MMCSS_CLASS_AUDIO attribute (Mfreadwrite.h)
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MF\_READWRITE\_MMCSS\_CLASS\_AUDIO attribute
 
-Specifies a [Multimedia Class Scheduler Service](https://msdn.microsoft.com/library/ms684247(v=VS.85).aspx) (MMCSS) class for audio-processing threads in the Source Reader or Sink Writer.
+Specifies a [Multimedia Class Scheduler Service](../procthread/multimedia-class-scheduler-service.md) (MMCSS) class for audio-processing threads in the Source Reader or Sink Writer.
 
 ## Data type
 
@@ -36,7 +36,7 @@ For most applications, audio glitching is much more noticeable to the user than 
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                              |
@@ -54,7 +54,3 @@ For most applications, audio glitching is much more noticeable to the user than 
  
 
  
-
-
-
-

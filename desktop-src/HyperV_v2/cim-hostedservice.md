@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a service and the system that hosts the service. A System can host many services, however this class does not represent services hosted across multiple systems.
+description: Represents an association between a service and the system that hosts the service. A System can host many services, however this class does not represent services hosted across multiple systems.
 ms.assetid: ede67a81-cf1b-41aa-b907-5b635cf80423
 title: CIM_HostedService class (Hyper-V management)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_HostedService class
+# CIM_HostedService class (Hyper-V management)
 
 Represents an association between a service and the system that hosts the service. A System can host many services, however this class does not represent services hosted across multiple systems.
 
@@ -53,7 +53,7 @@ Data type: **CIM\_System**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 The hosting System.
@@ -69,7 +69,7 @@ Data type: **CIM\_Service**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**Weak**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**Weak**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 The Service hosted on the System.
@@ -80,7 +80,7 @@ The Service hosted on the System.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -98,9 +98,4 @@ The Service hosted on the System.
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: The ITFormatControl interface exposes methods that allow an application to retrieve information concerning the format of a receive or transmit stream for a call.
+description: The ITFormatControl interface exposes methods that allow an application to retrieve information concerning the format of a receive or transmit stream for a call.
 ms.assetid: a3d15561-229e-4eb6-a0ac-2d69f170bced
 title: ITFormatControl interface (Ipmsp.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ This interface is implemented by the [H323 MSP](h323-msp.md) and is exposed only
 
 ## Members
 
-The **ITFormatControl** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITFormatControl** also has these types of members:
+The **ITFormatControl** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITFormatControl** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -42,7 +42,7 @@ The **ITFormatControl** interface has these methods.
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.1<br/>                                                         |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |
@@ -52,9 +52,4 @@ The **ITFormatControl** interface has these methods.
 
 
  
-
- 
-
-
-
 

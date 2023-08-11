@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE methods"
 title: JET_INDEXCREATE methods
 TOCTitle: JET_INDEXCREATE methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_INDEXCREATE](dn335112\(v=exchg.10\).md) type exposes the following members.
+The [JET_INDEXCREATE](./jet-indexcreate-class.md) type exposes the following members.
 
 ## Methods
 
@@ -38,33 +39,33 @@ The [JET_INDEXCREATE](dn335112\(v=exchg.10\).md) type exposes the following memb
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.object.equals?redirectedfrom=MSDN#System_Object_Equals_System_Object_">Equals</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
+<td><a href="/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Equals</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.object.finalize?redirectedfrom=MSDN#System_Object_Finalize">Finalize</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
+<td><a href="/dotnet/api/system.object.finalize#System_Object_Finalize">Finalize</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode?redirectedfrom=MSDN#System_Object_GetHashCode">GetHashCode</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
+<td><a href="/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">GetHashCode</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.object.gettype?redirectedfrom=MSDN#System_Object_GetType">GetType</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
+<td><a href="/dotnet/api/system.object.gettype#System_Object_GetType">GetType</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone?redirectedfrom=MSDN#System_Object_MemberwiseClone">MemberwiseClone</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
+<td><a href="/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">MemberwiseClone</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn335154(v=exchg.10).md">ToString</a></td>
-<td>Generate a string representation of the instance. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.object.tostring?redirectedfrom=MSDN#System_Object_ToString">Object.ToString()</a>.)</td>
+<td>Generate a string representation of the instance. (Overrides <a href="/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>.)</td>
 </tr>
 </tbody>
 </table>
@@ -76,7 +77,6 @@ Top
 
 #### Reference
 
-[JET_INDEXCREATE class](dn335112\(v=exchg.10\).md)
+[JET_INDEXCREATE class](./jet-indexcreate-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

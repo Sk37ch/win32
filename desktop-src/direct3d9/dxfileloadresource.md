@@ -1,5 +1,5 @@
 ---
-Description: Identifies resource data. Deprecated.
+description: Identifies resource data. Deprecated.
 ms.assetid: acb379c7-ac80-412f-8891-d5917b3f8da4
 title: DXFILELOADRESOURCE structure (DXFile.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ typedef struct DXFILELOADRESOURCE {
 **hModule**
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**HMODULE**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -50,7 +50,7 @@ Handle of the module containing the resource to be loaded. If this member is **N
 **lpName**
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -61,7 +61,7 @@ Pointer to a string specifying the name of the resource to be loaded. For exampl
 **lpType**
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -77,7 +77,7 @@ This structure identifies a resource to be loaded when an application uses the [
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>DXFile.h</dt> </dl> |
 
@@ -99,7 +99,3 @@ This structure identifies a resource to be loaded when an application uses the [
  
 
  
-
-
-
-

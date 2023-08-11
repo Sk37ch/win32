@@ -1,12 +1,15 @@
 ---
-Description: 'YUV formats are categorized according to the following information:'
+description: 'YUV formats are categorized according to the following information:'
 ms.assetid: 452f017c-81ce-4be4-9962-4b9c1a9ce849
 title: YUV Video Subtypes (Dshow.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # YUV Video Subtypes
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 YUV formats are categorized according to the following information:
 
@@ -43,7 +46,7 @@ YUV formats are categorized according to the following information:
 
  
 
-For a description of theses YUV formats for video rendering on Windows, see [Recommended 8-Bit YUV Formats for Video Rendering](https://msdn.microsoft.com/library/Dd206750(v=VS.85).aspx) .
+For a description of theses YUV formats for video rendering on Windows, see [Recommended 8-Bit YUV Formats for Video Rendering](../medfound/recommended-8-bit-yuv-formats-for-video-rendering.md) .
 
 **Other YUV Format Types**
 
@@ -84,7 +87,7 @@ For a description of theses YUV formats for video rendering on Windows, see [Rec
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 
@@ -94,7 +97,7 @@ For a description of theses YUV formats for video rendering on Windows, see [Rec
 
 <dl> <dt>
 
-[Recommended 8-Bit YUV Formats for Video Rendering](https://msdn.microsoft.com/library/Dd206750(v=VS.85).aspx)
+[Recommended 8-Bit YUV Formats for Video Rendering](../medfound/recommended-8-bit-yuv-formats-for-video-rendering.md)
 </dt> <dt>
 
 [Video Subtypes](video-subtypes.md)
@@ -106,7 +109,3 @@ For a description of theses YUV formats for video rendering on Windows, see [Rec
  
 
  
-
-
-
-

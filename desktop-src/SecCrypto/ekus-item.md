@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the EKU object that represents the indexed extended key usage (EKU) property.
+description: Retrieves the EKU object that represents the indexed extended key usage (EKU) property.
 ms.assetid: b8c12a7a-e836-48c2-958c-937b3723f85b
 title: IEKUs::Item property
 ms.topic: reference
@@ -19,7 +19,7 @@ api_location:
 
 # IEKUs::Item property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509ExtensionCollection Class**](https://msdn.microsoft.com/library/bs5ba18k(v=VS.90).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509ExtensionCollection Class**](/dotnet/api/system.security.cryptography.x509certificates.x509extensioncollection) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **Item** property retrieves the [**EKU**](eku.md) object that represents the indexed extended key usage (EKU) property.
 
@@ -44,7 +44,7 @@ An [**EKU**](eku.md) object that represents the indexed extended key usage (EKU)
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |
@@ -63,7 +63,3 @@ An [**EKU**](eku.md) object that represents the indexed extended key usage (EKU)
  
 
  
-
-
-
-

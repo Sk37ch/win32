@@ -1,5 +1,5 @@
 ---
-Description: The Bitmap control displays a bitmap or JPEG static picture file. The Windows Installer will automatically determine the format of the binary data and display the picture. The control does not support animation.
+description: The Bitmap control displays a bitmap or JPEG static picture file. The Windows Installer will automatically determine the format of the binary data and display the picture. The control does not support animation.
 ms.assetid: 4b511d8a-1819-4a9b-a942-dc32fade75c6
 title: Bitmap Control
 ms.topic: article
@@ -32,12 +32,7 @@ You can use the following attributes with this control. To change the value of a
 
 ## Remarks
 
-This control can be created from the STATIC class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the **SS\_BITMAP**, **SS\_CENTERIMAGE**, **WS\_CHILD**, and **WS\_GROUP** styles.
+This control can be created from the STATIC class by using the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function. It has the **SS\_BITMAP**, **SS\_CENTERIMAGE**, **WS\_CHILD**, and **WS\_GROUP** styles.
 
  
-
- 
-
-
-
 

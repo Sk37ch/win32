@@ -1,5 +1,5 @@
 ---
-Description: The following example shows typical RSA/Schannel server-side code for creating a master key.
+description: The following example shows typical RSA/Schannel server-side code for creating a master key.
 ms.assetid: 617cda1e-0619-4162-85eb-d1f5aa35fd1c
 title: RSA Server Code for Creating the Master Key
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # RSA Server Code for Creating the Master Key
 
-The following example shows typical RSA/Schannel server-side code for creating a [*master key*](https://msdn.microsoft.com/library/ms721594(v=VS.85).aspx).
+The following example shows typical RSA/Schannel server-side code for creating a [*master key*](../secgloss/m-gly.md).
 
 
 ```C++
@@ -93,6 +93,3 @@ CryptDestroyKey(hPublicKey);
  
 
  
-
-
-

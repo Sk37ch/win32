@@ -1,5 +1,5 @@
 ---
-Description: The following globally unique identifiers (GUIDs) are used by Windows Journal to identify custom properties on strokes or drawing attributes.
+description: The following globally unique identifiers (GUIDs) are used by Windows Journal to identify custom properties on strokes or drawing attributes.
 ms.assetid: a7488c26-b61f-47d8-a19b-d630a8c00875
 title: Custom Property GUIDs
 ms.topic: article
@@ -19,7 +19,7 @@ GUID_STROKE_TIMESTAMP = {4EA66C4-F33A-461B-B8FE-68070D9C7575}
 
 
 
-This is a [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime) structure that indicates the time at which the stroke was created or added to the document.
+This is a [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime) structure that indicates the time at which the stroke was created or added to the document.
 
 
 ```C++
@@ -40,7 +40,7 @@ GUID_STROKE_TIMEID = {50B6BC8-3B7D-4816-8C61-BC7E905B2132}
 
 
 
-This is a **TIMEID** structure. It allows stroke order to be maintained across paste and drop operations. Without the **TIMEID** structure, the timestamp for all [**IInkStrokeDisp Interface**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) objects cut and pasted in a [InkStrokes Collection](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) will be the same.
+This is a **TIMEID** structure. It allows stroke order to be maintained across paste and drop operations. Without the **TIMEID** structure, the timestamp for all [**IInkStrokeDisp Interface**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) objects cut and pasted in a [InkStrokes Collection](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) will be the same.
 
 
 ```C++
@@ -95,6 +95,3 @@ GUID_INK_STYLE_ITALICS = {05253B51-49C6-4A04-8993-64DD9ABD842A}
  
 
  
-
-
-

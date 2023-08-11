@@ -1,5 +1,5 @@
 ---
-Description: Represents the settings for the metric service. The properties for this class cannot be modified directly. The client must call the ModifyServiceSettings method to modify any of these properties.
+description: Represents the settings for the metric service. The properties for this class cannot be modified directly. The client must call the ModifyServiceSettings method to modify any of these properties.
 ms.assetid: 578ddda7-4c8e-498e-8612-29c392390b73
 title: Msvm_MetricServiceSettingData class
 ms.topic: reference
@@ -61,7 +61,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Hyper-V Metric Service Settings".
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Hyper-V Metric Service Settings".
 
 </dd> <dt>
 
@@ -74,7 +74,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Defines Hyper-V Metric Service Settings".
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Defines Hyper-V Metric Service Settings".
 
 </dd> <dt>
 
@@ -87,7 +87,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Hyper-V Metric Service Settings".
+A display name for the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Hyper-V Metric Service Settings".
 
 </dd> <dt>
 
@@ -103,7 +103,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Uniquely identifies an instance of this class. This property is inherited from [**CIM\_SettingData**](https://docs.microsoft.com/previous-versions//cc136911(v=vs.85)).
+Uniquely identifies an instance of this class. This property is inherited from [**CIM\_SettingData**](/previous-versions//cc136911(v=vs.85)).
 
 </dd> <dt>
 
@@ -124,7 +124,7 @@ Defines the interval at which metrics should be flushed to disk.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -145,9 +145,4 @@ Defines the interval at which metrics should be flushed to disk.
 </dt> </dl>
 
  
-
- 
-
-
-
 

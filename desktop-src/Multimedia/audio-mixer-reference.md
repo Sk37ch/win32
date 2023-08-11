@@ -11,54 +11,57 @@ keywords:
 - mixers,reference
 - reference for audio mixers,about
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Audio Mixer Reference
+
+\[The feature associated with this page, [Audio Mixers](/windows/win32/multimedia/audio-mixers), is a legacy feature. It has been superseded by [Volume Controls](/windows/win32/coreaudio/volume-controls). **Volume Controls** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Volume Controls** instead of **Audio Mixers**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This section describes the functions, structures, and messages associated with audio mixers. These elements are grouped as follows.
 
 ## Querying Devices
 
--   [**MIXERCAPS**](https://msdn.microsoft.com/library/Dd757291(v=VS.85).aspx)
--   [**mixerGetDevCaps**](https://msdn.microsoft.com/library/Dd757300(v=VS.85).aspx)
--   [**mixerGetNumDevs**](https://msdn.microsoft.com/library/Dd757304(v=VS.85).aspx)
+-   [**MIXERCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-mixercaps)
+-   [**mixerGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-mixergetdevcaps)
+-   [**mixerGetNumDevs**](/windows/win32/api/mmeapi/nf-mmeapi-mixergetnumdevs)
 
 ## Opening and Closing
 
--   [**mixerClose**](https://msdn.microsoft.com/library/Dd757292(v=VS.85).aspx)
--   [**mixerOpen**](https://msdn.microsoft.com/library/Dd757308(v=VS.85).aspx)
+-   [**mixerClose**](/windows/win32/api/mmeapi/nf-mmeapi-mixerclose)
+-   [**mixerOpen**](/windows/win32/api/mmeapi/nf-mmeapi-mixeropen)
 
 ## Retrieving Mixer Identifiers
 
--   [**mixerGetID**](https://msdn.microsoft.com/library/Dd757301(v=VS.85).aspx)
+-   [**mixerGetID**](/windows/win32/api/mmeapi/nf-mmeapi-mixergetid)
 
 ## Retrieving Line Controls
 
--   [**MIXERCONTROL**](https://msdn.microsoft.com/library/Dd757293(v=VS.85).aspx)
--   [**mixerGetLineControls**](https://msdn.microsoft.com/library/Dd757302(v=VS.85).aspx)
--   [**MIXERLINECONTROLS**](https://msdn.microsoft.com/library/Dd757306(v=VS.85).aspx)
+-   [**MIXERCONTROL**](/windows/win32/api/mmeapi/ns-mmeapi-mixercontrol)
+-   [**mixerGetLineControls**](/windows/win32/api/mmeapi/nf-mmeapi-mixergetlinecontrols)
+-   [**MIXERLINECONTROLS**](/windows/win32/api/mmeapi/ns-mmeapi-mixerlinecontrols)
 
 ## Changing Control Attributes
 
 -   [**MIXERCONTROLDETAILS**](/windows/win32/api/mmeapi/ns-mmeapi-mixercontroldetails_listtexta)
--   [**MIXERCONTROLDETAILS\_BOOLEAN**](https://msdn.microsoft.com/library/Dd757295(v=VS.85).aspx)
--   [**MIXERCONTROLDETAILS\_LISTTEXT**](https://msdn.microsoft.com/library/Dd757296(v=VS.85).aspx)
--   [**MIXERCONTROLDETAILS\_SIGNED**](https://msdn.microsoft.com/library/Dd757297(v=VS.85).aspx)
--   [**MIXERCONTROLDETAILS\_UNSIGNED**](https://msdn.microsoft.com/library/Dd757298(v=VS.85).aspx)
--   [**mixerGetControlDetails**](https://msdn.microsoft.com/library/Dd757299(v=VS.85).aspx)
--   [**mixerSetControlDetails**](https://msdn.microsoft.com/library/Dd757309(v=VS.85).aspx)
+-   [**MIXERCONTROLDETAILS\_BOOLEAN**](/previous-versions//dd757295(v=vs.85))
+-   [**MIXERCONTROLDETAILS\_LISTTEXT**](/previous-versions//dd757296(v=vs.85))
+-   [**MIXERCONTROLDETAILS\_SIGNED**](/previous-versions//dd757297(v=vs.85))
+-   [**MIXERCONTROLDETAILS\_UNSIGNED**](/previous-versions//dd757298(v=vs.85))
+-   [**mixerGetControlDetails**](/windows/win32/api/mmeapi/nf-mmeapi-mixergetcontroldetails)
+-   [**mixerSetControlDetails**](/windows/win32/api/mmeapi/nf-mmeapi-mixersetcontroldetails)
 
 ## Retrieving Line Information
 
--   [**mixerGetLineInfo**](https://msdn.microsoft.com/library/Dd757303(v=VS.85).aspx)
--   [**MIXERLINE**](https://msdn.microsoft.com/library/Dd757305(v=VS.85).aspx)
+-   [**mixerGetLineInfo**](/windows/win32/api/mmeapi/nf-mmeapi-mixergetlineinfo)
+-   [**MIXERLINE**](/windows/win32/api/mmeapi/ns-mmeapi-mixerline)
 -   [**MM\_MIXM\_CONTROL\_CHANGE**](mm-mixm-control-change.md)
 -   [**MM\_MIXM\_LINE\_CHANGE**](mm-mixm-line-change.md)
 
 ## Sending User-Defined Messages
 
--   [**mixerMessage**](https://msdn.microsoft.com/library/Dd757307(v=VS.85).aspx)
+-   [**mixerMessage**](/windows/win32/api/mmeapi/nf-mmeapi-mixermessage)
 
 ## Related topics
 
@@ -70,7 +73,3 @@ This section describes the functions, structures, and messages associated with a
  
 
  
-
-
-
-

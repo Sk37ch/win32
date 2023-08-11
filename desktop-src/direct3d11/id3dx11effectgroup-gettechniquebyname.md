@@ -1,6 +1,6 @@
 ---
 title: ID3DX11EffectGroup GetTechniqueByName method (D3dx11effect.h)
-description: Get a technique by name.
+description: Get a technique by name. | ID3DX11EffectGroup GetTechniqueByName method (D3dx11effect.h)
 ms.assetid: 160c6d57-bec4-4718-8fad-fc9c0746736c
 keywords:
 - GetTechniqueByName method Direct3D 11
@@ -41,7 +41,7 @@ ID3DX11EffectTechnique* GetTechniqueByName(
 *Name* 
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 The name of the technique.
 
@@ -64,7 +64,7 @@ A pointer to an [**ID3DX11EffectTechnique**](id3dx11effecttechnique.md), or **NU
 
 
 
-|                    |                                                                                                                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
 | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |
@@ -79,10 +79,4 @@ A pointer to an [**ID3DX11EffectTechnique**](id3dx11effecttechnique.md), or **NU
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Registers for notification when a DLL is first loaded. This notification occurs before dynamic linking takes place.
+description: Registers for notification when a DLL is first loaded. This notification occurs before dynamic linking takes place.
 ms.assetid: c2757aa0-76fa-427a-a4f6-cb26e7f7d0d1
 title: LdrRegisterDllNotification function
 ms.topic: reference
@@ -75,13 +75,13 @@ The forms and significance of **NTSTATUS** error codes are listed in the Ntstatu
 
 ## Remarks
 
-This function has no associated header file. The associated import library, Ntdll.lib, is available in the WDK. You can also use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Ntdll.dll.
+This function has no associated header file. The associated import library, Ntdll.lib, is available in the WDK. You can also use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Ntdll.dll.
 
 ## Requirements
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
@@ -102,7 +102,3 @@ This function has no associated header file. The associated import library, Ntdl
  
 
  
-
-
-
-

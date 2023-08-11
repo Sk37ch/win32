@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_AssociatedProcessorMemory class associates the processor and system memory, or a processor's cache.
+description: The CIM\_AssociatedProcessorMemory class associates the processor and system memory, or a processor's cache.
 ms.assetid: a4c28a0a-e4cc-4db2-bd77-b7b5023eace6
 ms.tgt_platform: multiple
 title: CIM_AssociatedProcessorMemory class
@@ -78,7 +78,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("megahertz")
+Qualifiers: [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("megahertz")
 </dt> </dl>
 
 Speed of the bus, in megahertz (MHz), between the processor and memory.
@@ -94,7 +94,7 @@ Data type: **CIM\_Processor**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_Processor**](cim-processor.md) describing the processor that accesses the memory or uses the cache.
@@ -113,7 +113,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -131,9 +131,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

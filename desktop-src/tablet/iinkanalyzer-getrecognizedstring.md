@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the best-result string of the recognition operation for the entire context node tree in the IInkAnalyzer.
+description: Retrieves the best-result string of the recognition operation for the entire context node tree in the IInkAnalyzer.
 ms.assetid: 4aa57f41-3122-47a9-a60d-4a229e23f63c
 title: IInkAnalyzer::GetRecognizedString method (IACom.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) for *pbstrRecognizedString* when you no longer need to use the string.
+> To avoid a memory leak, call [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) for *pbstrRecognizedString* when you no longer need to use the string.
 
  
 
@@ -120,7 +120,7 @@ HRESULT CMyClass::ExploreAnalysisResults(
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -140,9 +140,4 @@ HRESULT CMyClass::ExploreAnalysisResults(
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -7,14 +7,17 @@ keywords:
 - digital rights management (DRM),features
 - DRM (digital rights management),features
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Digital Rights Management Features
 
-\[The Windows Media DRM feature is deprecated and should not be used. Use [Microsoft PlayReady](https://docs.microsoft.com/windows/uwp/audio-video-camera/playready-client-sdk) instead.\]
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
-Digital rights management (DRM) is a technology that content owners can use to protect digital media files by encrypting them with a key (a piece of data that locks and unlocks the content). To play a protected ASF file, a consumer must obtain a separate license containing the key. Each license also contains rights, determined by the content owner or license issuer, which specify how the consumer can use the file. Using DRM technology, content owners can deliver songs, videos, and other digital media files over the Internet in a protected file format and control the use of their digital content. Microsoft DRM technology is also supported by the Windows Media Rights Manager, the Windows Media Encoder, and Windows Media Player. For more background information on Microsoft's DRM technology, see the [Microsoft Windows Media Web site](https://go.microsoft.com/fwlink/?linkid=5912).
+\[The Windows Media DRM feature is deprecated and should not be used. Use [Microsoft PlayReady](/windows/uwp/audio-video-camera/playready-client-sdk) instead.\]
+
+Digital rights management (DRM) is a technology that content owners can use to protect digital media files by encrypting them with a key (a piece of data that locks and unlocks the content). To play a protected ASF file, a consumer must obtain a separate license containing the key. Each license also contains rights, determined by the content owner or license issuer, which specify how the consumer can use the file. Using DRM technology, content owners can deliver songs, videos, and other digital media files over the Internet in a protected file format and control the use of their digital content. Microsoft DRM technology is also supported by the Windows Media Rights Manager, the Windows Media Encoder, and Windows Media Player. For more background information on Microsoft's DRM technology, see the [Microsoft Windows Media Web site](https://support.microsoft.com/help/17946/windows-media).
 
 > [!Note]  
 > DRM is not supported by the x64-based version of this SDK.
@@ -56,7 +59,3 @@ The following sections discuss the main DRM-related features of the Windows Medi
  
 
  
-
-
-
-

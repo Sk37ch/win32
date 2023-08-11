@@ -1,5 +1,5 @@
 ---
-Description: The following example shows the steps to obtain a CERT\_CONTEXT structure that contains a certificate; you should select a certificate and certificate store that are appropriate for your application.
+description: The following example shows the steps to obtain a CERT\_CONTEXT structure that contains a certificate; you should select a certificate and certificate store that are appropriate for your application.
 ms.assetid: 31d7a8bd-729f-4db7-8e22-25d14296c0c4
 title: Getting a Certificate for Schannel
 ms.topic: article
@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Getting a Certificate for Schannel
 
-The following example shows the steps to obtain a [**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) structure that contains a certificate; you should select a certificate and certificate store that are appropriate for your application.
+The following example shows the steps to obtain a [**CERT\_CONTEXT**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) structure that contains a certificate; you should select a certificate and certificate store that are appropriate for your application.
 
-This example demonstrates opening a [*certificate store*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) and locating a certificate that will be passed to the [**AcquireCredentialsHandle**](https://msdn.microsoft.com/library/Aa374712(v=VS.85).aspx) function, by means of the [**SCHANNEL\_CRED**](/windows/desktop/api/Schannel/ns-schannel-schannel_cred) structure.
+This example demonstrates opening a [*certificate store*](/windows/desktop/SecGloss/c-gly) and locating a certificate that will be passed to the [**AcquireCredentialsHandle**](/windows/win32/api/sspi/nf-sspi-acquirecredentialshandlea) function, by means of the [**SCHANNEL\_CRED**](/windows/desktop/api/Schannel/ns-schannel-schannel_cred) structure.
 
 
 ```C++
@@ -75,6 +75,3 @@ cleanup:
  
 
  
-
-
-

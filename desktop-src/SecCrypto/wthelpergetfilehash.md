@@ -1,5 +1,5 @@
 ---
-Description: Verifies the signature of a signed file and obtains the hash value and algorithm identifier for the file.
+description: Verifies the signature of a signed file and obtains the hash value and algorithm identifier for the file.
 ms.assetid: 130b3c3e-cc67-44ec-acc7-daa87b714299
 title: WTHelperGetFileHash function
 ms.topic: reference
@@ -22,7 +22,7 @@ api_location:
 The **WTHelperGetFileHash** function verifies the signature of a signed file and obtains the hash value and algorithm identifier for the file.
 
 > [!Note]  
-> This function is not declared in a published header file. To use this function, declare it in the exact format shown. This function also has no associated import library. You must use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Wintrust.dll.
+> This function is not declared in a published header file. To use this function, declare it in the exact format shown. This function also has no associated import library. You must use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Wintrust.dll.
 
  
 
@@ -116,7 +116,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -127,7 +127,3 @@ Possible return codes include, but are not limited to, the following.
  
 
  
-
-
-
-

@@ -1,12 +1,15 @@
 ---
-Description: Learning When an Event Occurs
+description: Learning When an Event Occurs
 ms.assetid: 4e44089b-676b-4220-9721-54ddf56bf760
 title: Learning When an Event Occurs
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Learning When an Event Occurs
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 To process DirectShow events, an application needs a way to find out when events are waiting in the queue. The Filter Graph Manager provides two ways to do this:
 
@@ -59,11 +62,11 @@ Before you release the [**IMediaEventEx**](/windows/desktop/api/Control/nn-contr
 The Filter Graph Manager keeps a manual-reset event that reflects the state of the event queue. If the queue contains pending event notifications, the Filter Graph Manager signals the manual-reset event. If the queue is empty, a call to the [**IMediaEvent::GetEvent**](/windows/desktop/api/Control/nf-control-imediaevent-getevent) method resets the event. An application can use this event to determine the state of the queue.
 
 > [!Note]  
-> The terminology can be confusing here. The manual-reset event is the type of event created by the Windows [**CreateEvent**](https://msdn.microsoft.com/library/ms682396(v=VS.85).aspx) function; it has nothing to do with the events defined by DirectShow.
+> The terminology can be confusing here. The manual-reset event is the type of event created by the Windows [**CreateEvent**](/windows/win32/api/synchapi/nf-synchapi-createeventa) function; it has nothing to do with the events defined by DirectShow.
 
  
 
-Call the [**IMediaEvent::GetEventHandle**](/windows/desktop/api/Control/nf-control-imediaevent-geteventhandle) method to get a handle to the manual-reset event. Wait for the event to be signaled by calling a function such as [**WaitForMultipleObjects**](https://msdn.microsoft.com/library/ms684242(v=VS.85).aspx). Once the event is signaled, call [**IMediaEvent::GetEvent**](/windows/desktop/api/Control/nf-control-imediaevent-getevent) to get the DirectShow event.
+Call the [**IMediaEvent::GetEventHandle**](/windows/desktop/api/Control/nf-control-imediaevent-geteventhandle) method to get a handle to the manual-reset event. Wait for the event to be signaled by calling a function such as [**WaitForMultipleObjects**](/windows/win32/api/winuser/nf-winuser-msgwaitformultipleobjects). Once the event is signaled, call [**IMediaEvent::GetEvent**](/windows/desktop/api/Control/nf-control-imediaevent-getevent) to get the DirectShow event.
 
 The following code example illustrates this approach. It gets the event handle, then waits in 100-millisecond intervals for the event to be signaled. If the event is signaled, it calls **GetEvent** and prints the event code and event parameters to the console window. The loop terminates when the [**EC\_COMPLETE**](ec-complete.md) event occurs, indicating that playback has completed.
 
@@ -100,6 +103,3 @@ Because the filter graph automatically sets or resets the event when appropriate
  
 
  
-
-
-

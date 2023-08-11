@@ -225,13 +225,13 @@
       - name: "PSAM_PASSWORD_FILTER_ROUTINE"
         href: /windows/desktop/api/Ntsecapi/nc-ntsecapi-psam_password_filter_routine
       - name: "PFSCE_FREE_INFO"
-        href: https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_free_info
+        href: /windows/desktop/api/scesvc/nc-scesvc-pfsce_free_info
       - name: "PFSCE_LOG_INFO"
-        href: https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_log_info
+        href: /windows/desktop/api/scesvc/nc-scesvc-pfsce_log_info
       - name: "PFSCE_QUERY_INFO"
-        href: https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_query_info
+        href: /windows/desktop/api/scesvc/nc-scesvc-pfsce_query_info
       - name: "PFSCE_SET_INFO"
-        href: https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_set_info
+        href: /windows/desktop/api/scesvc/nc-scesvc-pfsce_set_info
       - name: "SaferCloseLevel"
         href: /windows/desktop/api/WinSafer/nf-winsafer-safercloselevel
       - name: "SaferComputeTokenFromLevel"
@@ -332,7 +332,7 @@
       - name: "LSA_OBJECT_ATTRIBUTES"
         href: /windows/win32/api/LsaLookup/ns-lsalookup-lsa_object_attributes
       - name: "LSA_REFERENCED_DOMAIN_LIST"
-        href: https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_referenced_domain_list
+        href: /windows/desktop/api/lsalookup/ns-lsalookup-lsa_referenced_domain_list
       - name: "LSA_TRANSLATED_NAME"
         href: /windows/win32/api/LsaLookup/ns-lsalookup-lsa_translated_name
       - name: "LSA_TRANSLATED_SID"
@@ -372,21 +372,21 @@
       - name: "SAFER_URLZONE_IDENTIFICATION"
         href: /windows/win32/api/WinSafer/ns-winsafer-safer_urlzone_identification
       - name: "SCESVC_ANALYSIS_INFO"
-        href: /windows/desktop/api/Scesvc/ns-scesvc-_scesvc_analysis_info_
+        href: /windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_info
       - name: "SCESVC_ANALYSIS_LINE"
-        href: /windows/desktop/api/Scesvc/ns-scesvc-_scesvc_analysis_line_
+        href: /windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_line
       - name: "SCESVC_CALLBACK_INFO"
-        href: /windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_
+        href: /windows/win32/api/scesvc/ns-scesvc-scesvc_callback_info
       - name: "SCESVC_CONFIGURATION_INFO"
-        href: /windows/desktop/api/Scesvc/ns-scesvc-_scesvc_configuration_info_
+        href: /windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_info
       - name: "SCESVC_CONFIGURATION_LINE"
-        href: /windows/desktop/api/Scesvc/ns-scesvc-_scesvc_configuration_line_
+        href: /windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_line
       - name: "TRUSTED_DOMAIN_AUTH_INFORMATION"
         href: /windows/win32/api/Ntsecapi/ns-ntsecapi-trusted_domain_auth_information
       - name: "TRUSTED_DOMAIN_FULL_INFORMATION"
         href: /windows/win32/api/Ntsecapi/ns-ntsecapi-trusted_domain_full_information
       - name: "TRUSTED_DOMAIN_INFORMATION_BASIC"
-        href: trusted-domain-information-basic.md
+        href: /previous-versions/windows/desktop/legacy/ms722475(v=vs.85)
       - name: "TRUSTED_DOMAIN_INFORMATION_EX"
         href: /windows/win32/api/Ntsecapi/ns-ntsecapi-trusted_domain_information_ex
       - name: "TRUSTED_DOMAIN_NAME_INFO"

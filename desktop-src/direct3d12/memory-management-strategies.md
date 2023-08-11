@@ -2,7 +2,6 @@
 title: Memory Management Strategies
 description: A memory manager for Direct3D 12 could get very complicated quickly with all the different tiers of support, for UMA or discrete (non-UMA) adapters, and with a considerable range of architecture differences between GPU adapters.The recommended strategy for Direct3D 12 memory management , described in this section, is \ 0034;classify, budget and stream \ 0034;.
 ms.assetid: BC9894F7-D496-46F2-A5C3-C7CA31FD4BA8
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -38,7 +37,7 @@ In Direct3D 12 when you allocate a heap you are creating the physical memory asp
 
 GPUs do not support page faulting, so developers must be conscious that they do not over commit, especially to systems say with only 1Gb of system memory. If an app does over commit, then the OS uses coarser-grained scheduling of processes by their demand on physical memory. The scheduler will freeze foreground processes and essentially page some of it out, in order to page-in a background process that wants to run. Available physical memory can vary considerably depending on what the user is doing in the background (such as running a browser or watching a video).
 
-The API for memory budget is [**QueryVideoMemoryInfo**](https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiadapter3-queryvideomemoryinfo). For discrete adapters "local" is video memory, "non-local" is system memory. For UMA adapters non-local is always zero. One design question is whether your engine will manage both budgets or just the local budget. Managing only the local budget is simpler but has some caveats; for example say there is a maximum local budget of 1Gb, then all heaps will come from that 1Gb in a UMA system and there is no overflow to system memory (clearly, as there is none).
+The API for memory budget is [**QueryVideoMemoryInfo**](/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiadapter3-queryvideomemoryinfo). For discrete adapters "local" is video memory, "non-local" is system memory. For UMA adapters non-local is always zero. One design question is whether your engine will manage both budgets or just the local budget. Managing only the local budget is simpler but has some caveats; for example say there is a maximum local budget of 1Gb, then all heaps will come from that 1Gb in a UMA system and there is no overflow to system memory (clearly, as there is none).
 
 Since Direct3D11 managed memory for applications, unused resources would essentially be paged out.
 
@@ -87,10 +86,4 @@ Other problem areas are middleware components, user controls, and intra-frame st
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

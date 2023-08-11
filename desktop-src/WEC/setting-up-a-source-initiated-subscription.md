@@ -121,6 +121,10 @@ Both the event source computers and the event collector computer must be configu
 2. On the event source computer, raise the events that match the query from the event subscription. The DeliveryMaxItems number of events must be raised for the events to be forwarded.
 3. On the event collector computer, validate that the events have been forwarded to the ForwardedEvents log or to the log specified in the subscription.
 
+## Forwarding the security log
+
+To be able to forward the Security log you need to add the NETWORK SERVICE account to the EventLog Readers group.
+
 ## Setting up a source initiated subscription where the event sources are not in the same domain as the event collector computer
 
 > [!Note]  
@@ -152,6 +156,8 @@ The following prerequisites must be met before the subscription is created.
 - If the client certificate was issued by an Intermediate certification authority and the collector is running Windows 2012 or later you will have to configure the following registry key:
 
     **HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\Schannel\ClientAuthTrustMode (DWORD) = 2**
+ 
+- Verify that both the server and client are able to successfully check revocation status on all certificates. Use of the **certutil** command can assist in troubleshooting any errors.
 
 Find more information in this article: https://technet.microsoft.com/library/dn786429(v=ws.11).aspx
 
@@ -175,10 +181,10 @@ Find more information in this article: https://technet.microsoft.com/library/dn7
 
 ### Configure certificate mapping on the Event Collector
 
-1. Create new local user and add it to the local Administrators group.
+1. Create new local user.
 2. Create the certificate mapping using a certificate that is present in the machine’s “Trusted Root Certification Authorities” or “Intermediate Certification Authorities”.
 
-    This is the certificate of the Root or Intermediate CA that issued the certificates installed on the Event Source computers:
+    This is the certificate of the Root or Intermediate CA that issued the certificates installed on the Event Source computers *(to avoid confusion, this is the CA immediately above the certificate in the certificate chain)*:
 
     **winrm create winrm/config/service/certmapping?Issuer**=&lt;_Thumbprint of the issuing CA certificate_&gt;**+Subject=&#42;+URI=&#42; @{UserName="**&lt;_username_&gt;**";Password="**&lt;_password_&gt;**"} -remote:localhost**
 
@@ -200,6 +206,30 @@ Find more information in this article: https://technet.microsoft.com/library/dn7
 4. List the configured certmapping entries with the command:
   **winrm enum winrm/config/service/certmapping**
 
+### Event Source computer Configuration
+
+1. Logon with an administrator account and open the Local Group Policy Editor (gpedit.msc)
+2. Navigate to the Local Computer Policy\Computer Configuration\Administrative Templates\Windows Components\Event Forwarding.
+3. Open “Configure the server address, refresh interval, and issuer certificate authority of a target Subscription Manager” policy.
+4. Enable the policy and click the SubscriptionManagers “Show...” button.
+5. In the SubscriptionManagers window enter the following string:
+
+    **Server=HTTPS://**&lt;_FQDN of the Event Collector server_&gt;**:5986/wsman/SubscriptionManager/WEC,Refresh=** &lt;_Refresh interval in seconds_&gt;**,IssuerCA=**&lt;_Thumbprint of the issuing CA certificate_&gt;
+
+6. Run the following command line to refresh Local Group Policy settings:Gpupdate /force
+7. These steps should produce event 104 in your source computer Event Viewer Applications and Services Logs\Microsoft\Windows\Eventlog-ForwardingPlugin\Operational log with the following message:
+
+    "The forwarder has successfully connected to the subscription manager at address &lt;FQDN&gt;followed by event 100 with the message: "The subscription &lt;sub_name&gt; is created successfully."
+
+8. On the Event Collector, the Subscription Runtime Status will show now 1 Active computer.
+9. Open the ForwardedEvents log on the Event Collector and check if you have the events forwarded from the Source computers.
+
+### Grant permission on the private key of the client certificate on the Event Source
+
+1. Open the Certificates management console for Local machine on the Event Source computer.
+2. Right click on the client certificate then Manage Private keys.
+3. Grant Read permission to the NETWORK SERVICE user.
+
 ### Event subscription configuration
 
 1. Open Event Viewer in the Event Collector and navigate to the Subscriptions node.
@@ -219,31 +249,3 @@ Find more information in this article: https://technet.microsoft.com/library/dn7
 13. Change the Protocol to HTTPS and click OK.
 14. Click OK to create the new subscription.
 15. Check the runtime status of the Subscription by right-clicking and choosing “Runtime Status”
-
-### Grant permission on the private key of the client certificate on the Event Source
-
-1. Open the Certificates management console for Local machine on the Event Source computer.
-2. Right click on the client certificate then Manage Private keys.
-3. Grant Read permission to the NETWORK SERVICE user.
-
-## Forwarding the security log
-
-To be able to forward the Security log you need to add the NETWORK SERVICE account to the EventLog Readers group.
-
-### Event Source computer Configuration
-
-1. Logon with an administrator account and open the Local Group Policy Editor (gpedit.msc)
-2. Navigate to the Local Computer Policy\Computer Configuration\Administrative Templates\Windows Components\Event Forwarding.
-3. Open “Configure the server address, refresh interval, and issuer certificate authority of a target Subscription Manager” policy.
-4. Enable the policy and click the SubscriptionManagers “Show...” button.
-5. In the SubscriptionManagers window enter the following string:
-
-    **Server=HTTPS://**&lt;_FQDN of the Event Collector server_&gt;**:5986/wsman/SubscriptionManager/WEC,Refresh=** &lt;_Refresh interval in seconds_&gt;**,IssuerCA=**&lt;_Thumbprint of the issuing CA certificate_&gt;
-
-6. Run the following command line to refresh Local Group Policy settings:Gpupdate /force
-7. These steps should produce event 104 in your source computer Event Viewer Applications and Services Logs\Microsoft\Windows\Eventlog-ForwardingPlugin\Operational log with the following message:
-
-    "The forwarder has successfully connected to the subscription manager at address &lt;FQDN&gt;followed by event 100 with the message: "The subscription &lt;sub_name&gt; is created successfully."
-
-8. On the Event Collector, the Subscription Runtime Status will show now 1 Active computer.
-9. Open the ForwardedEvents log on the Event Collector and check if you have the events forwarded from the Source computers.

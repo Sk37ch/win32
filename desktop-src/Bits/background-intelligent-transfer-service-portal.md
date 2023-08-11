@@ -31,11 +31,11 @@ Use BITS for applications that need to:
 -   Automatically resume file transfers after network disconnects and computer restarts.
 -   Preserve the responsiveness of other network applications.
 -   Be mindful of the network cost on e.g. roaming networks
--   Optionally work with [BranchCache](https://docs.microsoft.com/windows-server/networking/branchcache/branchcache) to optimize wide area network (WAN) traffic
+-   Optionally work with [BranchCache](/windows-server/networking/branchcache/branchcache) to optimize wide area network (WAN) traffic
 
 ## Developer audience
 
-BITS is a COM interface designed for C and C++ developers that can also be used by .NET developers. UWP developers should use the [Windows.Networking.BackgroundTransfer](https://docs.microsoft.com/uwp/api/Windows.Networking.BackgroundTransfer) API and not the BITS API.
+BITS is a COM interface designed for C and C++ developers that can also be used by .NET developers. UWP developers should use the [Windows.Networking.BackgroundTransfer](/uwp/api/Windows.Networking.BackgroundTransfer) API and not the BITS API.
 
 ## BITS versions
 
@@ -62,7 +62,7 @@ For complete version history and information on earlier operating system, see [W
 The following are additional resources.
 
 
-|             |                                                                                                                                                 |
+|    Resource         |    Description                                                                                                                                     |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | .NET Reference DLL   | For information on using BITS from .NET using reference DLLs, see [Calling into BITS from .NET using Reference DLLs](/windows/desktop/Bits/bits-dot-net)      |
 | .NET Wrapper   | For other .NET wrappers for BITS, you can search [nuget](https://www.nuget.org/packages?q=Tags%3A%22BITS%22) for projects tagged with the BITS tag.        |
@@ -72,10 +72,4 @@ The following are additional resources.
  
 
  
-
- 
-
-
-
-
 

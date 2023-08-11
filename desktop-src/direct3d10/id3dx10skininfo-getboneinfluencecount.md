@@ -1,5 +1,5 @@
 ---
-Description: Get the number of vertices that a given bone influences.
+description: Get the number of vertices that a given bone influences.
 ms.assetid: e92361ea-4269-4d63-a8d1-560a486b6563
 title: ID3DX10SkinInfo::GetBoneInfluenceCount method (D3DX10.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ UINT GetBoneInfluenceCount(
 *BoneIndex* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 An index that specifies an existing bone. Must be between 0 and the value returned by [**ID3DX10SkinInfo::GetNumBones**](id3dx10skininfo-getnumbones.md).
 
@@ -46,7 +46,7 @@ An index that specifies an existing bone. Must be between 0 and the value return
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be: E\_INVALIDARG.
 
@@ -54,7 +54,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -74,7 +74,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

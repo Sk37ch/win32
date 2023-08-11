@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a non-color style has an underline style.
+description: Specifies whether a non-color style has an underline style.
 ms.assetid: 452dda6e-b12b-457c-9a01-c5363359c9f5
 title: FUlIMEStyle function
 ms.topic: reference
@@ -47,13 +47,13 @@ TRUE if the style has an underline style.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Imeshare.dll</dt> </dl> |
 
@@ -69,7 +69,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

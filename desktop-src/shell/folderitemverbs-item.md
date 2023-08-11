@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the FolderItemVerb object for a specified item in the collection.
+description: Retrieves the FolderItemVerb object for a specified item in the collection.
 ms.assetid: 65871926-0920-4ad6-82da-7aba0a3c0fab
 title: FolderItemVerbs.Item method (Shldisp.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ The zero-based index of the item to retrieve. This value must be less than the v
 
 ## Return value
 
-Type: **[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)\*\***
+Type: **[**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)\*\***
 
 Object that receives the [**FolderItemVerb**](folderitemverb.md) object.
 
@@ -169,7 +169,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
@@ -182,7 +182,3 @@ End Sub
  
 
  
-
-
-
-

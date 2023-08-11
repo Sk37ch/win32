@@ -1,5 +1,5 @@
 ---
-Description: Windows Imaging Component (WIC) proxy function for IPropertyBag2::Write.
+description: Windows Imaging Component (WIC) proxy function for IPropertyBag2::Write.
 ms.assetid: b97caba6-298a-4b36-9f39-9b5440b866c3
 title: IPropertyBag2_Write_Proxy function
 ms.topic: reference
@@ -41,7 +41,7 @@ HRESULT IPropertyBag2_Write_Proxy(
 *THIS\_PTR* \[in\]
 </dt> <dd>
 
-Type: **[IPropertyBag2](https://msdn.microsoft.com/library/Aa768192(VS.85).aspx)\***
+Type: **[IPropertyBag2](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85))\***
 
 PARAMDESC
 
@@ -57,7 +57,7 @@ Type: **ULONG**
 *ppropBag* \[in\]
 </dt> <dd>
 
-Type: **[PROPBAG2](https://msdn.microsoft.com/library/Aa768188(VS.85).aspx)\***
+Type: **[PROPBAG2](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768188(v=vs.85))\***
 
 </dd> <dt>
 
@@ -80,7 +80,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
@@ -89,9 +89,4 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Adds a string to the top of the most recently used (MRU) list.
+description: Adds a string to the top of the most recently used (MRU) list.
 title: AddMRUStringW function
 ms.topic: reference
 ms.date: 05/31/2018
@@ -14,16 +14,6 @@ api_type:
 api_location: 
 - Comctl32.dll
 ms.assetid: ad94a442-8492-412c-a4f2-ac6e7c5327d7
-api_name: 
- - AddMRUStringW
- - AddMRUStringW
-api_type: 
- - DllExport
-api_location: 
- - Comctl32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -75,13 +65,13 @@ Returns a non-negative value if successful, -1 otherwise.
 
 ## Remarks
 
-This function is not included in a public header or library. It can be accessed through [**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) or extracted from comctl32.dll by its ordinal, which is 401 for **AddMRUStringW**.
+This function is not included in a public header or library. It can be accessed through [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) or extracted from comctl32.dll by its ordinal, which is 401 for **AddMRUStringW**.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
@@ -91,9 +81,4 @@ This function is not included in a public header or library. It can be accessed 
 
 
  
-
- 
-
-
-
 

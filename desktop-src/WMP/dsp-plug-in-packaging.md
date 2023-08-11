@@ -24,10 +24,13 @@ keywords:
 - DSP plug-ins,dual-mode
 - dual-mode DSP plug-ins
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # DSP Plug-in Packaging
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Windows Media Player renders audio and video by using one of the following pipelines.
 
@@ -48,7 +51,7 @@ A DSP plug-in that implements custom interfaces and runs in the Media Foundation
 
 DSP plug-in objects must not be created as singletons. Windows Media Player must be able to create multiple separate instances of a particular DSP plug-in.
 
-DSP plug-ins that run in the Windows Vista Protected Media Path (PMP) must be signed. For more information, see [Code Signing for Protected Media Components in Windows Vista](https://docs.microsoft.com/windows-hardware/test/hlk/).
+DSP plug-ins that run in the Windows Vista Protected Media Path (PMP) must be signed. For more information, see [Code Signing for Protected Media Components in Windows Vista](/windows-hardware/test/hlk/).
 
 ## Related topics
 
@@ -60,7 +63,3 @@ DSP plug-ins that run in the Windows Vista Protected Media Path (PMP) must be si
  
 
  
-
-
-
-

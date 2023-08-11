@@ -1,5 +1,5 @@
 ---
-Description: The CInstance::SetCHString method sets a string property.
+description: The CInstance::SetCHString method sets a string property.
 ms.assetid: a75b574d-9ee7-4930-a003-5d71c5f1d687
 ms.tgt_platform: multiple
 title: CInstance::SetCHString methods (Instance.h)
@@ -18,7 +18,7 @@ api_location:
 
 # CInstance::SetCHString methods
 
-\[The [**CInstance**](/windows/desktop/api/Instance/nl-instance-cinstance) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
+\[The [**CInstance**](/windows/desktop/api/Instance/nl-instance-cinstance) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The **CInstance::SetCHString** method sets a string property.
 
@@ -29,7 +29,7 @@ The **CInstance::SetCHString** method sets a string property.
 | Method                                                                                           | Description                        |
 |:-------------------------------------------------------------------------------------------------|:-----------------------------------|
 | [**SetCHString(LPCWSTR, LPCSTR)**](/windows/desktop/api/Instance/nf-instance-cinstance-setchstring(lpcwstr_lpcstr))                   | Sets a string property.<br/> |
-| [**SetCHString(LPCWSTR, const CHString&)**](https://msdn.microsoft.com/library/Aa388996(v=VS.85).aspx) | Sets a string property.<br/> |
+| [**SetCHString(LPCWSTR, const CHString&)**](/windows/win32/api/instance/nf-instance-cinstance-setchstring(lpcwstr_constchstring_)) | Sets a string property.<br/> |
 
 
 
@@ -37,7 +37,7 @@ The **CInstance::SetCHString** method sets a string property.
 
 
 
-|                                     |                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                                                                                |
@@ -55,9 +55,4 @@ The **CInstance::SetCHString** method sets a string property.
 </dt> </dl>
 
  
-
- 
-
-
-
 

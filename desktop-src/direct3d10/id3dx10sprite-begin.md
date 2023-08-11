@@ -1,5 +1,5 @@
 ---
-Description: Prepare a device for drawing sprites.
+description: Prepare a device for drawing sprites.
 ms.assetid: cffe5ac3-eeee-4ece-afcc-04a476b75863
 title: ID3DX10Sprite::Begin method (D3DX10.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT Begin(
 *flags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Flags that control how the sprites will be drawn. See [**D3DX10\_SPRITE\_FLAG**](d3dx10-sprite-flag.md).
 
@@ -58,7 +58,7 @@ Every call to Begin must be matched with a call to [**ID3DX10Sprite::End**](id3d
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -78,7 +78,3 @@ Every call to Begin must be matched with a call to [**ID3DX10Sprite::End**](id3d
  
 
  
-
-
-
-

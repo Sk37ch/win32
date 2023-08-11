@@ -1,5 +1,5 @@
 ---
-Description: The following user-defined structure can be used for vertices that will be blended between two matrices.
+description: The following user-defined structure can be used for vertices that will be blended between two matrices.
 ms.assetid: 6bcabcf9-d14e-446a-8dd2-e741211cc704
 title: Using Geometry Blending (Direct3D 9)
 ms.topic: article
@@ -64,7 +64,7 @@ Setting a blending matrix merely causes the system to cache the matrix for later
 
 ## Enabling Geometry Blending
 
-Geometry blending is disabled by default. To enable geometry blending, call the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api) method to set the D3DRS\_VERTEXBLEND render state to a value from the [**D3DVERTEXBLENDFLAGS**](https://msdn.microsoft.com/library/Bb172628(v=VS.85).aspx) enumerated type. The following code example shows what this call might look like when setting the render state for a blend between two world matrices.
+Geometry blending is disabled by default. To enable geometry blending, call the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api) method to set the D3DRS\_VERTEXBLEND render state to a value from the [**D3DVERTEXBLENDFLAGS**](./d3dvertexblendflags.md) enumerated type. The following code example shows what this call might look like when setting the render state for a blend between two world matrices.
 
 
 ```
@@ -92,6 +92,3 @@ When enabled, the system performs geometry blending for all objects rendered by 
  
 
  
-
-
-

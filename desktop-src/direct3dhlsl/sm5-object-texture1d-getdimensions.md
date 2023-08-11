@@ -1,6 +1,6 @@
 ---
 title: Texture1D::GetDimensions function
-description: Returns the dimensions of the resource.
+description: Returns the dimensions of the resource. | Texture1D::GetDimensions function
 ms.assetid: eb8fc02f-01c8-44b9-9d7e-faf59660c287
 keywords:
 - GetDimensions function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GetDimensions function
+# Texture1D::GetDimensions function
 
 Returns the dimensions of the resource.
 
@@ -36,7 +36,7 @@ void GetDimensions(
 *MipLevel* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 Optional. Mipmap level (must be specified if *NumberOfLevels* is used).
 
@@ -45,7 +45,7 @@ Optional. Mipmap level (must be specified if *NumberOfLevels* is used).
 *Width* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The resource width, in texels.
 
@@ -54,7 +54,7 @@ The resource width, in texels.
 *NumberOfLevels* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The number of mipmap levels (requires *MipLevel* also).
 
@@ -110,7 +110,3 @@ This function is supported for the following types of shaders:
  
 
  
-
-
-
-

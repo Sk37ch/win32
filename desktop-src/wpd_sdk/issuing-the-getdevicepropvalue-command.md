@@ -1,5 +1,5 @@
 ---
-Description: Issuing the GetDevicePropValue Command
+description: Issuing the GetDevicePropValue Command
 ms.assetid: 60294ac6-06e0-4546-bbe9-da48d250e31e
 title: Issuing the GetDevicePropValue Command
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Issuing the GetDevicePropValue Command
 
-The example in this section invokes the **GetDevicePropValue** MTP command to retrieve the **BatteryLevel** device property. (For a complete description of this command and its parameters, see the [MTP specification](http://www.usb.org/developers/devclass_docs/MTPv1_1.zip).)
+The example in this section invokes the **GetDevicePropValue** MTP command to retrieve the **BatteryLevel** device property. (For a complete description of this command and its parameters, see the [MTP specification](https://www.usb.org/sites/default/files/MTPv1_1.zip).)
 
 In the case of **GetDevicePropValue**, the sample code uses the following sequence:
 

@@ -6,12 +6,12 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumerations
+# Enumerations (Structured Storage)
 
 The following enumerations are used to create standard COM objects and property pages.
 
 -   [**GUIDKIND**](/windows/win32/api/ocidl/ne-ocidl-guidkind)
--   [**KEYMODIFIERS**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683763(v=vs.85))
+-   [**KEYMODIFIERS**](/previous-versions/windows/desktop/legacy/ms683763(v=vs.85))
 -   [**PICTUREATTRIBUTES**](/windows/win32/api/ocidl/ne-ocidl-pictureattributes)
 -   [**POINTERINACTIVE**](/windows/win32/api/ocidl/ne-ocidl-pointerinactive)
 -   [**QACONTAINERFLAGS**](/windows/win32/api/ocidl/ne-ocidl-qacontainerflags)
@@ -19,7 +19,3 @@ The following enumerations are used to create standard COM objects and property 
  
 
  
-
-
-
-

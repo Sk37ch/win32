@@ -1,5 +1,5 @@
 ---
-Description: The Pause WMI class method suspends a print job.
+description: The Pause WMI class method suspends a print job.
 ms.assetid: f1e3906f-1ca2-45c0-9863-5762e4e2119a
 ms.tgt_platform: multiple
 title: Pause method of the Win32_PrintJob class
@@ -18,9 +18,9 @@ api_location:
 
 # Pause method of the Win32\_PrintJob class
 
-The **Pause** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method suspends a print job.
+The **Pause** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method suspends a print job.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -81,7 +81,7 @@ Next
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
@@ -102,9 +102,4 @@ Next
 </dt> </dl>
 
  
-
- 
-
-
-
 

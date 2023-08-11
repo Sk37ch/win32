@@ -1,5 +1,5 @@
 ---
-Description: Sets the flexible vertex format (FVF) type.
+description: Sets the flexible vertex format (FVF) type.
 ms.assetid: e581dcd4-7e17-4c36-aac9-c2942924cf51
 title: ID3DXSkinInfo::SetFVF method (D3DX9Mesh.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT SetFVF(
 *FVF* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Flexible vertex format. See [D3DFVF](d3dfvf.md).
 
@@ -54,7 +54,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -71,7 +71,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

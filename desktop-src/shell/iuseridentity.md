@@ -1,5 +1,5 @@
 ---
-Description: IUserIdentity is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+description: IUserIdentity is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: c2f11f8b-f944-445b-b4fc-ac57b0fe3a74
 title: IUserIdentity interface (Msident.h)
 ms.topic: reference
@@ -23,7 +23,7 @@ Exposes methods that provide identification, registry, and folder data for a spe
 
 ## Members
 
-The **IUserIdentity** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IUserIdentity** also has these types of members:
+The **IUserIdentity** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IUserIdentity** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -52,7 +52,7 @@ This interface provides information that corresponds to a specific user identity
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
@@ -80,7 +80,3 @@ This interface provides information that corresponds to a specific user identity
  
 
  
-
-
-
-

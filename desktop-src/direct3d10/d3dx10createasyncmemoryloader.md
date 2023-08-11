@@ -1,5 +1,5 @@
 ---
-Description: Create an asynchronous-memory loader.
+description: Create an asynchronous-memory loader.
 ms.assetid: 92177390-cb09-445e-9828-806a23ef91b5
 title: D3DX10CreateAsyncMemoryLoader function (D3DX10Async.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT D3DX10CreateAsyncMemoryLoader(
 *pData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](../winprog/windows-data-types.md)**
 
 Pointer to the data.
 
@@ -48,7 +48,7 @@ Pointer to the data.
 *cbData* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**SIZE\_T**](../winprog/windows-data-types.md)**
 
 Size of the data.
 
@@ -73,7 +73,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Async.h</dt> </dl> |
 
@@ -89,7 +89,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

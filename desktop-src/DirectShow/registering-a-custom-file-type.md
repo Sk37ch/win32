@@ -1,12 +1,15 @@
 ---
-Description: This article describes how the Filter Graph Manager locates a source filter, given a file name.
+description: This article describes how the Filter Graph Manager locates a source filter, given a file name.
 ms.assetid: bc0d5719-6325-40fe-8261-ad00b91f272c
 title: Registering a Custom File Type
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Registering a Custom File Type
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This article describes how the Filter Graph Manager locates a source filter, given a file name. You can use this mechanism to register your own custom file types. Once the file type is registered, DirectShow will automatically load the correct source filter whenever an application calls [**IGraphBuilder::RenderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile) or [**IGraphBuilder::AddSourceFilter**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-addsourcefilter).
 
@@ -98,7 +101,7 @@ Each entry can have multiple quadruples; all of them must match. In the followin
 Also, there can be multiple entries listed under a single media type. A match to any of them is sufficient. This scheme allows for a set of alternative masks; for instance, .wav files that might or might not have a RIFF header.
 
 > [!Note]  
-> This scheme is similar to the one used by the [**GetClassFile**](https://msdn.microsoft.com/library/ms693715(v=VS.85).aspx) function.
+> This scheme is similar to the one used by the [**GetClassFile**](/windows/win32/api/objbase/nf-objbase-getclassfile) function.
 
  
 
@@ -110,7 +113,7 @@ If the Filter Graph Manager cannot find anything from the registry, it defaults 
 
 ## Custom File Types in Windows Media Player
 
-Windows Media Player uses an additional set of registry entries. For more information, see [File Name Extension Registry Settings](https://msdn.microsoft.com/library/Dd562995(v=VS.85).aspx) in the Windows Media Player SDK.
+Windows Media Player uses an additional set of registry entries. For more information, see [File Name Extension Registry Settings](../wmp/file-name-extension-registry-settings.md) in the Windows Media Player SDK.
 
 ## Related topics
 
@@ -122,6 +125,3 @@ Windows Media Player uses an additional set of registry entries. For more inform
  
 
  
-
-
-

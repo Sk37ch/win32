@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentException class"
 title: EsentException class (Microsoft.Isam.Esent)
 TOCTitle: EsentException class
 ms:assetid: T:Microsoft.Isam.Esent.EsentException
@@ -32,13 +33,13 @@ Base class for ESENT exceptions.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
-  [System.Exception](https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
+  [System.Exception](/dotnet/api/system.exception)  
     Microsoft.Isam.Esent.EsentException  
-      [Microsoft.Isam.Esent.Interop.EsentErrorException](dn274314\(v=exchg.10\).md)  
-      [Microsoft.Isam.Esent.Interop.EsentInvalidColumnException](dn319487\(v=exchg.10\).md)  
+      [Microsoft.Isam.Esent.Interop.EsentErrorException](./esenterrorexception-class.md)  
+      [Microsoft.Isam.Esent.Interop.EsentInvalidColumnException](./esentinvalidcolumnexception-class.md)  
 
-**Namespace:**  [Microsoft.Isam.Esent](dn292085\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent](./microsoft.isam.esent-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -65,7 +66,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[EsentException members](dn292086\(v=exchg.10\).md)
+[EsentException members](./esentexception-members.md)
 
-[Microsoft.Isam.Esent namespace](dn292085\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent namespace](./microsoft.isam.esent-namespace.md)

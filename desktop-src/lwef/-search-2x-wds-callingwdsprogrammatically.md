@@ -8,9 +8,10 @@ ms.date: 05/31/2018
 
 # Calling WDS Programmatically
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://msdn.microsoft.com/library/aa965362(VS.85).aspx).\]
+> [!NOTE]
+> Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003. On later releases, use [Windows Search](../search/-search-3x-wds-overview.md) instead.
 
-Microsoft Windows Desktop Search (WDS) 2.x can be queried programmatically using the **ExecuteQuery** and **ExecuteSQLQuery** methods in the [**ISearchDesktop**](https://msdn.microsoft.com/library/Aa965729(v=VS.85).aspx) interface. The **ExecuteQuery** method returns a record set from the index based on the query text, columns, and restrictions passed as parameters. The **ExecuteSQLQuery** method also returns a record set of results but requires the exact Structured Query Language (SQL) command to be passed in. **ExecuteQuery** should be used in most scenarios.
+Microsoft Windows Desktop Search (WDS) 2.x can be queried programmatically using the **ExecuteQuery** and **ExecuteSQLQuery** methods in the [**ISearchDesktop**](/previous-versions//aa965729(v=vs.85)) interface. The **ExecuteQuery** method returns a record set from the index based on the query text, columns, and restrictions passed as parameters. The **ExecuteSQLQuery** method also returns a record set of results but requires the exact Structured Query Language (SQL) command to be passed in. **ExecuteQuery** should be used in most scenarios.
 
 ## Regular Queries
 
@@ -38,7 +39,11 @@ The method has the form:
 
 The **ISearchDesktop.ExecuteSQLQuery** method is used to send direct WDS database queries. The syntax for the queries is similar to that used for SharePoint Server, along with the ability to use Monarch-style SQL GROUP BY clauses. The query is executed against the index exactly as it is passed in with no additional processing of Advanced Query Syntax as the ExecuteQuery API does.
 
-https://msdn.microsoft.com/library/default.asp?url=/library/spssdk/html/\_tahoe\_search\_sql\_syntax.asp
+<!-- Outdated link
+
+`https://msdn.microsoft.com/library/default.asp?url=/library/spssdk/html/_tahoe_search_sql_syntax.asp`
+
+-->
 
 The method has the form:
 
@@ -52,13 +57,14 @@ The method has the form:
 | Out       | ppiRs      | The resulting record set                       |
 
 
-
- 
+<!-- Outdated links
 
 Resources:
 
 -   Support files for the ISearchDesktop interface: https://addins.msn.com/support/WDSSDK.zip
 -   ISearchDesktop C# Sample: https://addins.msn.com/support/WDSSample.zip
+
+-->
 
 ## Sample C++ Code
 
@@ -143,10 +149,4 @@ extern "C" int __cdecl wmain( int argc, WCHAR * argv[] )
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

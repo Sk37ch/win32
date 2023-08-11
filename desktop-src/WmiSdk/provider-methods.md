@@ -1,5 +1,5 @@
 ---
-Description: The Provider class exposes the following methods.
+description: The Provider class exposes the following methods.
 ms.assetid: AD0BCAC7-6B5C-4BAF-9641-37D315D3E7B1
 ms.tgt_platform: multiple
 title: Provider Methods
@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Provider Methods
 
-\[The [**Provider**](/windows/desktop/api/Provider/nl-provider-provider) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
+\[The [**Provider**](/windows/desktop/api/Provider/nl-provider-provider) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The [**Provider**](/windows/desktop/api/Provider/nl-provider-provider) class exposes the following methods.
 
@@ -42,6 +42,3 @@ The [**Provider**](/windows/desktop/api/Provider/nl-provider-provider) class exp
  
 
  
-
-
-

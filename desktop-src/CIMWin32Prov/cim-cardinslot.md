@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_CardInSlot class associates an adapter card with the container into which it is inserted.
+description: The CIM\_CardInSlot class associates an adapter card with the container into which it is inserted.
 ms.assetid: 253fb444-2a9e-4099-a4d5-352b643d8e32
 ms.tgt_platform: multiple
 title: CIM_CardInSlot class
@@ -61,7 +61,7 @@ Data type: **CIM\_Slot**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_Slot**](cim-slot.md) that describes the slot into which the card is inserted.
@@ -77,7 +77,7 @@ Data type: **CIM\_Card**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 A [**CIM\_Card**](cim-card.md) that describes the card in the slot.
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -114,9 +114,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,6 +1,6 @@
 ---
 title: RWTexture3D::Load(int) function
-description: Reads texture data.
+description: Reads texture data. | RWTexture3D::Load(int) function
 ms.assetid: 93C4FFFF-8695-4BAF-BAE4-A2704332E6A9
 keywords:
 - Load function HLSL
@@ -15,16 +15,16 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Load(int) function
+# RWTexture3D::Load(int) function
 
 Reads texture data.
 
 ## Syntax
 
 
-```C++
+``` syntax
  Load(
-  _In_ int Location
+  in int Location
 );
 ```
 

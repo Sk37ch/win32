@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SystemDriverPNPEntity association WMI class relates a Plug and Play device on the computer system running Windows and the driver that supports the Plug and Play device.
+description: The Win32\_SystemDriverPNPEntity association WMI class relates a Plug and Play device on the computer system running Windows and the driver that supports the Plug and Play device.
 ms.assetid: 2696c8e5-3bc3-42e3-807b-a387607c7c09
 ms.tgt_platform: multiple
 title: Win32_SystemDriverPNPEntity class
@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_SystemDriverPNPEntity class
 
-The **Win32\_SystemDriverPNPEntity** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) relates a Plug and Play device on the computer system running Windows and the driver that supports the Plug and Play device.
+The **Win32\_SystemDriverPNPEntity** association [WMI class](../wmisdk/retrieving-a-class.md) relates a Plug and Play device on the computer system running Windows and the driver that supports the Plug and Play device.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_PNPEntity**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Antecedent"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_PNPEntity")
+Qualifiers: [**Key**](../wmisdk/key-qualifier.md), [**Override**](../wmisdk/standard-qualifiers.md) ("Antecedent"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI\|Win32\_PNPEntity")
 </dt> </dl>
 
 Represents the Plug and Play device controlled by the driver.
@@ -72,7 +72,7 @@ Data type: **Win32\_SystemDriver**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Dependent"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_SystemDriver")
+Qualifiers: [**Key**](../wmisdk/key-qualifier.md), [**Override**](../wmisdk/standard-qualifiers.md) ("Dependent"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI\|Win32\_SystemDriver")
 </dt> </dl>
 
 A [**Win32\_SystemDriver**](win32-systemdriver.md) that represents the driver that supports the Plug and Play device.
@@ -87,7 +87,7 @@ The **Win32\_SystemDriverPNPEntity** class is derived from [**CIM\_Dependency**]
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -110,7 +110,3 @@ The **Win32\_SystemDriverPNPEntity** class is derived from [**CIM\_Dependency**]
  
 
  
-
-
-
-

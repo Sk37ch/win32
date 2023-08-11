@@ -1,5 +1,5 @@
 ---
-Description: Represents an association where a CIM\_ServiceAccessPoint or CIM\_ProtocolEndpoint object depends on an underlying CIM\_LANEndpoint object on the same system.
+description: Represents an association where a CIM\_ServiceAccessPoint or CIM\_ProtocolEndpoint object depends on an underlying CIM\_LANEndpoint object on the same system.
 ms.assetid: 3c015fbd-0611-41e8-a79a-01c980eedfd3
 title: CIM_BindsToLANEndpoint class
 ms.topic: reference
@@ -55,7 +55,7 @@ Data type: **CIM\_LANEndpoint**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 The underlying [**CIM\_LANEndpoint**](cim-lanendpoint.md) object.
@@ -71,7 +71,7 @@ Data type: **CIM\_ServiceAccessPoint**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The [**CIM\_ServiceAccessPoint**](cim-serviceaccesspoint.md) or [**CIM\_ProtocolEndpoint**](cim-protocolendpoint.md) object that is dependent on the [**CIM\_LANEndpoint**](cim-lanendpoint.md).
@@ -137,7 +137,7 @@ The framing method for the upper layer service access point or protocol endpoint
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -155,9 +155,4 @@ The framing method for the upper layer service access point or protocol endpoint
 </dt> </dl>
 
  
-
- 
-
-
-
 

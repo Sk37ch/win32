@@ -1,5 +1,5 @@
 ---
-Description: Attempts to place the service managed by the system driver in the resumed state.
+description: Attempts to place the service managed by the system driver in the resumed state.
 ms.assetid: 16bacf06-4236-4d58-9b09-cb86bb73d78a
 ms.tgt_platform: multiple
 title: ResumeService method of the Win32_SystemDriver class
@@ -18,9 +18,9 @@ api_location:
 
 # ResumeService method of the Win32\_SystemDriver class
 
-The **ResumeService** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method attempts to place the service managed by the system driver in the resumed state.
+The **ResumeService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method attempts to place the service managed by the system driver in the resumed state.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -234,7 +234,7 @@ $Return = $usbPrintDriver.ResumeService()
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -248,16 +248,11 @@ $Return = $usbPrintDriver.ResumeService()
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_SystemDriver**](win32-systemdriver.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

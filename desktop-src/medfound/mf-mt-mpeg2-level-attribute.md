@@ -1,5 +1,5 @@
 ---
-Description: Specifies the MPEG-2 or H.264 level in a video media type.
+description: Specifies the MPEG-2 or H.264 level in a video media type.
 ms.assetid: 8dd8e8c4-5a6f-4a87-a643-73af35c362a9
 title: MF_MT_MPEG2_LEVEL attribute (Mfapi.h)
 ms.topic: reference
@@ -16,11 +16,11 @@ Specifies the MPEG-2 or H.264 level in a video media type.
 
 ## Remarks
 
-For MPEG-2 video, the value of this attribute is a member of the [**AM\_MPEG2Level**](https://msdn.microsoft.com/library/Dd373478(v=VS.85).aspx) enumeration.
+For MPEG-2 video, the value of this attribute is a member of the [**AM\_MPEG2Level**](/previous-versions/windows/desktop/api/dvdmedia/ne-dvdmedia-am_mpeg2level) enumeration.
 
 For H.264 video, the value is a member of the [**eAVEncH264VLevel**](/windows/desktop/api/codecapi/ne-codecapi-eavench264vlevel) enumeration.
 
-This attribute corresponds to the **dwLevel** member of the [**MPEG2VIDEOINFO**](https://msdn.microsoft.com/library/Dd390707(v=VS.85).aspx) structure.
+This attribute corresponds to the **dwLevel** member of the [**MPEG2VIDEOINFO**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo) structure.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -28,7 +28,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |
@@ -58,7 +58,3 @@ The GUID constant for this attribute is exported from mfuuid.lib.
  
 
  
-
-
-
-

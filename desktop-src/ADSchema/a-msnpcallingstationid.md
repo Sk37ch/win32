@@ -21,7 +21,7 @@ The **msNPCallingStationID** attribute is used internally. Do not modify this va
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | msNPCallingStationID                 |
 | Ldap-Display-Name | msNPCallingStationID                 |
@@ -47,7 +47,7 @@ The **msNPCallingStationID** attribute is used internally. Do not modify this va
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -68,7 +68,7 @@ The **msNPCallingStationID** attribute is used internally. Do not modify this va
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -89,7 +89,7 @@ The **msNPCallingStationID** attribute is used internally. Do not modify this va
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -110,7 +110,7 @@ The **msNPCallingStationID** attribute is used internally. Do not modify this va
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -131,7 +131,7 @@ The **msNPCallingStationID** attribute is used internally. Do not modify this va
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -152,7 +152,7 @@ The **msNPCallingStationID** attribute is used internally. Do not modify this va
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -173,14 +173,8 @@ The **msNPCallingStationID** attribute is used internally. Do not modify this va
 
 <dl> <dt>
 
-[RAS Administration Functions](https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-functions)
+[RAS Administration Functions](/windows/desktop/RRAS/ras-administration-functions)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

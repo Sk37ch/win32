@@ -1,5 +1,5 @@
 ---
-Description: .
+description: User Interface - User Account Control Dialog Updates
 ms.assetid: f2d4b82d-a84a-4fc1-b7ad-cdc92a24f889
 title: User Interface - User Account Control Dialog Updates
 ms.topic: article
@@ -10,15 +10,31 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Clients** - Windows 7  
+**Clients** - Windows 7  
 **Servers** - Windows Server 2008 R2  
-</dl>
+
+
+
+
+
+
+
+
 
 ## Feature Impact
 
-<dl> **Severity** - Low  
+**Severity** - Low  
 **Frequency** - Medium  
-</dl>
+
+
+
+
+
+
+
+
+
+
 
 ## Description
 
@@ -30,9 +46,9 @@ The application development requirements in Windows 7 for UAC compatibility are 
 
 ## Links to Other Resources
 
--   [Windows Vista Application Compatibility Cookbook](https://msdn.microsoft.com/library/Bb757005(v=MSDN.10).aspx)
--   [Application Compatibility Toolkit Download](https://www.microsoft.com/downloads/details.aspx?FamilyId=24DA89E9-B581-47B0-B45E-492DD6DA2971)
--   [Standard User Analyzer](https://technet.microsoft.com/library/cc766021(WS.10).aspx)
+-   [Windows Vista Application Compatibility Cookbook](/previous-versions/bb757005(v=msdn.10))
+-   [Application Compatibility Toolkit Download](/windows-hardware/get-started/adk-install)
+-   [Standard User Analyzer](/previous-versions/windows/it-pro/windows-7/cc766021(v=ws.10))
 
 > [!Note]  
 > These resources may not be available in some languages and countries/regions.
@@ -42,6 +58,3 @@ The application development requirements in Windows 7 for UAC compatibility are 
  
 
  
-
-
-

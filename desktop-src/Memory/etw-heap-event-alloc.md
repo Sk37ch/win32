@@ -1,5 +1,5 @@
 ---
-Description: Memory management tracing event for a heap allocation operation.
+description: Memory management tracing event for a heap allocation operation.
 ms.assetid: 572DEC3B-F909-45E5-849F-707AA62F2F5E
 title: ETW_HEAP_EVENT_ALLOC event (Ntwmi.h)
 ms.topic: reference
@@ -33,7 +33,7 @@ typedef struct ETW_HEAP_EVENT_ALLOC
 *HeapHandle* 
 </dt> <dd>
 
-The handle of the heap where the memory was allocated. This is the heap handle an app passed to the [**AllocateHeap**](https://msdn.microsoft.com/library/Aa374721(v=VS.85).aspx) function when the memory was allocated.
+The handle of the heap where the memory was allocated. This is the heap handle an app passed to the [**AllocateHeap**](/previous-versions/windows/desktop/legacy/aa374721(v=vs.85)) function when the memory was allocated.
 
 </dd> <dt>
 
@@ -83,7 +83,7 @@ The **ETW\_HEAP\_EVENT\_ALLOC** event is logged on all heap allocations.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |
@@ -101,7 +101,3 @@ The **ETW\_HEAP\_EVENT\_ALLOC** event is logged on all heap allocations.
  
 
  
-
-
-
-

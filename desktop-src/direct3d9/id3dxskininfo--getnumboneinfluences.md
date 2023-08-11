@@ -1,5 +1,5 @@
 ---
-Description: Gets the number of influences for a bone.
+description: Gets the number of influences for a bone.
 ms.assetid: 6383f990-2989-46b3-a634-b3bb7bd1d65b
 title: ID3DXSkinInfo::GetNumBoneInfluences method (D3DX9Mesh.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ DWORD GetNumBoneInfluences(
 *bone* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Bone number.
 
@@ -46,7 +46,7 @@ Bone number.
 
 ## Return value
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Returns the number of influences for a bone.
 
@@ -54,7 +54,7 @@ Returns the number of influences for a bone.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -71,7 +71,3 @@ Returns the number of influences for a bone.
  
 
  
-
-
-
-

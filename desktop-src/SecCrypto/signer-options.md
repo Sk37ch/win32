@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the signer's certificate option.
+description: Sets or retrieves the signer's certificate option.
 ms.assetid: 2362b9d4-d4d8-46fb-8791-7e856827fb31
 title: Signer.Options property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Signer.Options property
 
-\[The **Options** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsSigner Class**](https://msdn.microsoft.com/library/5x3db70t(v=VS.90).aspx) in the [**System.Security.Cryptography.Pkcs**](https://msdn.microsoft.com/library/6see7k14(v=VS.100).aspx) namespace.\]
+\[The **Options** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsSigner Class**](/dotnet/api/system.security.cryptography.pkcs.cmssigner?view=dotnet-plat-ext-3.1&preserve-view=true) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **Options** property sets or retrieves the signer's certificate option.
 
@@ -52,7 +52,7 @@ A value of the [**CAPICOM\_CERTIFICATE\_INCLUDE\_OPTION**](capicom-certificate-i
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
@@ -69,7 +69,3 @@ A value of the [**CAPICOM\_CERTIFICATE\_INCLUDE\_OPTION**](capicom-certificate-i
  
 
  
-
-
-
-

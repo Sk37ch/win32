@@ -10,13 +10,12 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Message
+# Message (Windows Web Services)
 
 A message is an object that encapsulates data that is transmitted or received. The structure of a message is defined by SOAP and includes a set of headers and a body. The headers are always buffered in memory, but the body is read and written with a streaming API.
 
-![](images/messageenvelope.png)
+![Diagram showing a message with the header being buffered and the body being streamed.](images/messageenvelope.png)
 
-## 
 
 Messages have a set of properties which can be used to specify optional settings that control the behavior of a message, and to provide a way to retrieve additional information about received messages (such as security information). See [**WS\_MESSAGE\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-ws_message_property_id) for a complete list of message properties.
 
@@ -56,7 +55,7 @@ The following API elements are used with messages.
 |------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | [**WS\_ADDRESSING\_VERSION**](/windows/desktop/api/WebServices/ne-webservices-ws_addressing_version)         | The version of the specification used for the addressing headers.                                        |
 | [**WS\_ENVELOPE\_VERSION**](/windows/desktop/api/WebServices/ne-webservices-ws_envelope_version)             | The version of the specification used for the envelope structure.                                        |
-| [**WS\_HEADER\_ATTRIBUTES**](https://msdn.microsoft.com/library/Dd401896(v=VS.85).aspx)           | A set of flags representing the SOAP mustUnderstand and relay attributes of a header.                    |
+| [**WS\_HEADER\_ATTRIBUTES**](/windows/win32/api/webservices/ne-webservices-ws_xml_text_type)           | A set of flags representing the SOAP mustUnderstand and relay attributes of a header.                    |
 | [**WS\_HEADER\_TYPE**](/windows/desktop/api/WebServices/ne-webservices-ws_header_type)                       | The type of the header.                                                                                  |
 | [**WS\_MESSAGE\_INITIALIZATION**](/windows/desktop/api/WebServices/ne-webservices-ws_message_initialization) | Specifies what headers the [**WsInitializeMessage**](/windows/desktop/api/WebServices/nf-webservices-wsinitializemessage) should add to the message. |
 | [**WS\_MESSAGE\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-ws_message_property_id)      | The ID of each message property.                                                                         |
@@ -79,7 +78,7 @@ The following API elements are used with messages.
 | [**WsFreeMessage**](/windows/desktop/api/WebServices/nf-webservices-wsfreemessage)                               | Releases the memory resource associated with a message.                                                                                                |
 | [**WsGetCustomHeader**](/windows/desktop/api/WebServices/nf-webservices-wsgetcustomheader)                       | Finds the application-defined header of the message and deserializes it.                                                                               |
 | [**WsGetHeader**](/windows/desktop/api/WebServices/nf-webservices-wsgetheader)                                   | Finds a particular standard header in the message and deserializes it.                                                                                 |
-| [**WsGetHeaderAttributes**](/windows/desktop/api/WebServices/nf-webservices-wsgetheaderattributes)               | Populates a ULONG parameter with the [**WS\_HEADER\_ATTRIBUTES**](https://msdn.microsoft.com/library/Dd401896(v=VS.85).aspx) from the header element on which the reader is positioned. |
+| [**WsGetHeaderAttributes**](/windows/desktop/api/WebServices/nf-webservices-wsgetheaderattributes)               | Populates a ULONG parameter with the [**WS\_HEADER\_ATTRIBUTES**](/windows/win32/api/webservices/ne-webservices-ws_xml_text_type) from the header element on which the reader is positioned. |
 | [**WsGetMessageProperty**](/windows/desktop/api/WebServices/nf-webservices-wsgetmessageproperty)                 | Retrieves a specified Message object property.                                                                                                         |
 | [**WsInitializeMessage**](/windows/desktop/api/WebServices/nf-webservices-wsinitializemessage)                   | Initializes the headers for the message in preparation for processing.                                                                                 |
 | [**WsMarkHeaderAsUnderstood**](/windows/desktop/api/WebServices/nf-webservices-wsmarkheaderasunderstood)         | Marks a header as understood by the application.                                                                                                       |

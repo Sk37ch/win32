@@ -105,13 +105,13 @@ Defines the rendered messages for the event.
 
 ## Remarks
 
-Only events that have been collected using the [Windows Event Collector](https://docs.microsoft.com/windows/desktop/WEC/windows-event-collector) service will contain this section.
+Only events that have been collected using the [Windows Event Collector](/windows/desktop/WEC/windows-event-collector) service will contain this section.
 
 ## Requirements
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
@@ -119,10 +119,4 @@ Only events that have been collected using the [Windows Event Collector](https:/
 
 
  
-
- 
-
-
-
-
 

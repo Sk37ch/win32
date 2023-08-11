@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.Orientation property.
+description: The photo metadata policy for the System.Photo.Orientation property.
 ms.assetid: 27e6d4f5-39d5-4cb4-88bc-b0d61ccaa2f3
 title: System.Photo.Orientation Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.Orientation Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.Orientation](https://msdn.microsoft.com/library/bb760501(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.Orientation](../properties/props-system-photo-meteringmode.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Photo.Orientation](https://msdn.microsoft.com/library/bb760501(VS.85).aspx)
+[System.Photo.Orientation](../properties/props-system-photo-meteringmode.md)
 </dt> </dl>
 
  
 
  
-
-
-

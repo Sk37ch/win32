@@ -1,5 +1,5 @@
 ---
-Description: A mesh buffer is a buffer that contains data about a mesh.
+description: A mesh buffer is a buffer that contains data about a mesh.
 ms.assetid: a9fdfa22-531d-4da0-89f0-8766c2635e20
 title: ID3DX10MeshBuffer interface (D3DX10.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ A mesh buffer is a buffer that contains data about a mesh. It can contain one of
 
 ## Members
 
-The **ID3DX10MeshBuffer** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DX10MeshBuffer** also has these types of members:
+The **ID3DX10MeshBuffer** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ID3DX10MeshBuffer** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -46,7 +46,7 @@ The **ID3DX10MeshBuffer** interface has these methods.
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -63,7 +63,3 @@ The **ID3DX10MeshBuffer** interface has these methods.
  
 
  
-
-
-
-

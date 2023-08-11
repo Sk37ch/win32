@@ -1,5 +1,5 @@
 ---
-Description: Represents the low-level software that is loaded into non-volatile storage and used to start up and configure a computer system (CIM\_ComputerSystem).
+description: Represents the low-level software that is loaded into non-volatile storage and used to start up and configure a computer system (CIM\_ComputerSystem).
 ms.assetid: e34c9b00-2723-4858-805e-5e3e51a5dfd2
 title: CIM_BIOSElement class (Hyper-V management)
 ms.topic: reference
@@ -25,7 +25,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_BIOSElement class
+# CIM_BIOSElement class (Hyper-V management)
 
 Represents the low-level software that is loaded into non-volatile storage and used to start up and configure a computer system ([**CIM\_ComputerSystem**](cim-computersystem.md)).
 
@@ -69,7 +69,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_BIOSElement**.**ListOfLanguages**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_BIOSElement**.**ListOfLanguages**")
 </dt> </dl>
 
 The currently selected language for the BIOS. This information can be obtained from the System Management BIOS (SMBIOS) using the Current Language attribute of the Type 13 structure to index into the string list that follows the structure. This property is formatted using the ISO 639 Language Name, and may be followed by the ISO 3166 Territory Name and the encoding method.
@@ -98,7 +98,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|System BIOS\|001.6")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|System BIOS\|001.6")
 </dt> </dl>
 
 The ending address of the memory that is occupied by the BIOS.
@@ -114,7 +114,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|System BIOS\|001.5")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|System BIOS\|001.5")
 </dt> </dl>
 
 The starting address of the memory that is occupied by the BIOS.
@@ -130,7 +130,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|System BIOS\|001.7")
+Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|System BIOS\|001.7")
 </dt> </dl>
 
 A free form string that describes the BIOS flash/load utility that is required to update the **CIM\_BIOSElement** object. Version and other information may be indicated in this property.
@@ -146,7 +146,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Manufacturer"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|System BIOS\|001.2")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Manufacturer"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|System BIOS\|001.2")
 </dt> </dl>
 
 The manufacturer of the software element.
@@ -162,7 +162,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|System BIOS\|001.9")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|System BIOS\|001.9")
 </dt> </dl>
 
 True if this is the primary BIOS of the computer system; otherwise, false.
@@ -191,7 +191,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|System BIOS\|001.8")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|System BIOS\|001.8")
 </dt> </dl>
 
 The Date on which this BIOS was released.
@@ -207,13 +207,13 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Version"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|System BIOS\|001.3")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Version"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|System BIOS\|001.3")
 </dt> </dl>
 
 The version of the operation. The version of the operation should be in one of the following forms:
 
--   *<major>*.*<minor>*.*<revision>*
--   *<major>*.*<minor><letter><revision>*
+-   *&lt;major&gt;*.*&lt;minor&gt;*.*&lt;revision&gt;*
+-   *&lt;major&gt;*.*&lt;minor&gt;&lt;letter&gt;&lt;revision&gt;*
 
 </dd> </dl>
 
@@ -221,7 +221,7 @@ The version of the operation. The version of the operation should be in one of t
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -239,9 +239,4 @@ The version of the operation. The version of the operation should be in one of t
 </dt> </dl>
 
  
-
- 
-
-
-
 

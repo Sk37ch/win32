@@ -1,5 +1,5 @@
 ---
-Description: 'Cryptography API: Next Generation (CNG) defines the following functions that are used with the CNG cryptographic configuration system.'
+description: 'Cryptography API: Next Generation (CNG) defines the following functions that are used with the CNG cryptographic configuration system.'
 ms.assetid: 45936528-ee29-4bc5-a609-4ca53cd08da7
 title: CNG Cryptographic Configuration Functions
 ms.topic: article
@@ -27,16 +27,13 @@ Cryptography API: Next Generation (CNG) defines the following functions that are
 -   [**BCryptQueryContextFunctionProperty**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptquerycontextfunctionproperty)
 -   [**BCryptQueryProviderRegistration**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptqueryproviderregistration)
 -   [**BCryptRegisterConfigChangeNotify(HANDLE\*)**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify)
--   [**BCryptRegisterConfigChangeNotify(PRKEVENT)**](https://msdn.microsoft.com/library/Bb394681(v=VS.85).aspx)
+-   [**BCryptRegisterConfigChangeNotify(PRKEVENT)**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify)
 -   [**BCryptRemoveContextFunction**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptremovecontextfunction)
 -   [**BCryptResolveProviders**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptresolveproviders)
 -   [**BCryptSetContextFunctionProperty**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptsetcontextfunctionproperty)
 -   [**BCryptUnregisterConfigChangeNotify(HANDLE)**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptunregisterconfigchangenotify)
--   [**BCryptUnregisterConfigChangeNotify(PRKEVENT)**](https://msdn.microsoft.com/library/Bb394683(v=VS.85).aspx)
+-   [**BCryptUnregisterConfigChangeNotify(PRKEVENT)**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptunregisterconfigchangenotify)
 
  
 
  
-
-
-

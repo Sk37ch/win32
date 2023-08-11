@@ -1,20 +1,13 @@
 ---
 title: IDXCoreAdapterFactory::IsNotificationTypeSupported
 description: Determines whether a specified notification type is supported by the operating system (OS).
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---
 
 # IDXCoreAdapterFactory::IsNotificationTypeSupported method
 
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
-> [!IMPORTANT]
-> The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
-
-Determines whether a specified notification type is supported by the operating system (OS). For programming guidance, and code examples, see [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters).
+Determines whether a specified notification type is supported by the operating system (OS). For programming guidance, and code examples, see [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md).
 
 ## Syntax
 
@@ -27,9 +20,9 @@ virtual bool STDMETHODCALLTYPE IsNotificationTypeSupported(
 
 ### notificationType
 
-Type: **[DXCoreNotificationType](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype)**
+Type: **[DXCoreNotificationType](./ne-dxcore_interface-dxcorenotificationtype.md)**
 
-The type of notification that you're querying about support for. See the table in [DXCoreNotificationType](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype) for info about the notification types.
+The type of notification that you're querying about support for. See the table in [DXCoreNotificationType](./ne-dxcore_interface-dxcorenotificationtype.md) for info about the notification types.
 
 ## Returns
 
@@ -43,4 +36,4 @@ You can call **IsNotificationTypeSupported** to determine whether a given notifi
 
 ## See also
 
-[IDXCoreAdapterFactory](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterfactory), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [DXCore adapter attribute GUIDs](/windows/win32/dxcore/dxcore-adapter-attribute-guids), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
+[IDXCoreAdapterFactory](./nn-dxcore_interface-idxcoreadapterfactory.md), [DXCore Reference](../dxcore-reference.md), [DXCore adapter attribute GUIDs](../dxcore-adapter-attribute-guids.md), [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md)

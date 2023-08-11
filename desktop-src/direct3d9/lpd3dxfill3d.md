@@ -1,5 +1,5 @@
 ---
-Description: Function type used by the texture fill functions.
+description: LPD3DXFILL3D - Function type used by the texture fill functions.
 ms.assetid: ab2f3005-150f-46e1-b75b-75c39e7feed1
 title: LPD3DXFILL3D
 ms.topic: reference
@@ -40,11 +40,11 @@ No return value.
 
 ## Remarks
 
-Be sure to specify the [**Windows Data Types**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx) calling convention when declaring the callback function. Otherwise, stack overflows can occur.
+Be sure to specify the [**Windows Data Types**](../winprog/windows-data-types.md) calling convention when declaring the callback function. Otherwise, stack overflows can occur.
 
 
 
-|                          |            |
+| Requirement                         | Value           |
 |--------------------------|------------|
 | Header                   | d3dx9tex.h |
 | Import Library           | d3dx9.lib  |
@@ -67,6 +67,3 @@ Be sure to specify the [**Windows Data Types**](https://msdn.microsoft.com/libra
  
 
  
-
-
-

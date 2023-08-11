@@ -24,7 +24,7 @@ Use the **IDeliveryOptimizationJob** interface to download ranges of a file.
 
 ## Members
 
-The **IDeliveryOptimizationJob** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDeliveryOptimizationJob** also has these types of members:
+The **IDeliveryOptimizationJob** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDeliveryOptimizationJob** also has these types of members:
 
 - [Methods](#methods)
 
@@ -46,7 +46,7 @@ The **IDeliveryOptimizationJob** interface has these methods.
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
@@ -59,10 +59,4 @@ The **IDeliveryOptimizationJob** interface has these methods.
 
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Sent to the CPlApplet function of a Control Panel application when the user double-clicks the icon of a dialog box supported by the application.
+description: Sent to the CPlApplet function of a Control Panel application when the user double-clicks the icon of a dialog box supported by the application.
 title: CPL_DBLCLK message (Cpl.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -18,7 +18,7 @@ topic_type:
 
 # CPL\_DBLCLK message
 
-Sent to the [**CPlApplet**](https://msdn.microsoft.com/library/Bb776392(v=VS.85).aspx) function of a Control Panel application when the user double-clicks the icon of a dialog box supported by the application.
+Sent to the [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc) function of a Control Panel application when the user double-clicks the icon of a dialog box supported by the application.
 
 ## Parameters
 
@@ -40,7 +40,7 @@ The value that the Control Panel application loaded into the **lpData** member o
 
 ## Return value
 
-If the [**CPlApplet**](https://msdn.microsoft.com/library/Bb776392(v=VS.85).aspx) function processes this message successfully, the return value is zero; otherwise, it is nonzero.
+If the [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc) function processes this message successfully, the return value is zero; otherwise, it is nonzero.
 
 ## Remarks
 
@@ -50,7 +50,7 @@ In response to this message, a Control Panel application must display the corres
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
@@ -68,7 +68,3 @@ In response to this message, a Control Panel application must display the corres
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Use the WHERE clause to narrow the scope of a data, event, or schema query.
+description: Use the WHERE clause to narrow the scope of a data, event, or schema query.
 ms.assetid: b275f8e0-773d-422c-be21-b427e7a1fb6b
 ms.tgt_platform: multiple
 title: WHERE Clause (WMI)
@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# WHERE Clause
+# WHERE Clause (WMI)
 
 Use the WHERE clause to narrow the scope of a data, event, or schema query. For more information, see [Querying with WQL](querying-with-wql.md). The WHERE clause is made up of a property or keyword, an operator, and a constant. All WHERE clauses must specify one of the predefined operators that are included in the Windows Management Instrumentation (WMI) Query Language (WQL). You can append the WHERE clause to the SELECT statement using one of the following forms:
 
@@ -23,13 +23,13 @@ where \* is the item queried about, class is the class in which to query, and co
 
 The value of the constant must be of the correct type for the property. Moreover, the operator must be among the list of valid [WQL operators](wql-operators.md). Either a property name or a constant must appear on either side of the operator in the WHERE clause.
 
-You may use string literals, such as "NTFS", in a WHERE clause. If you wish to include the following special characters in your string, you must first escape the character by prefixing the character with a backslash (\):
+You may use string literals, such as "NTFS", in a WHERE clause. If you wish to include the following special characters in your string, you must first escape the character by prefixing the character with a backslash (\\):
 
--   backslash (\\\)
+-   backslash (\\\\)
 -   double quotes (\\")
 -   single quotes (\\')
 
-Arbitrary arithmetic expressions cannot be used. For example, the following query returns only the instances of the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class that represent NTFS drives:
+Arbitrary arithmetic expressions cannot be used. For example, the following query returns only the instances of the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class that represent NTFS drives:
 
 
 ```sql
@@ -93,7 +93,7 @@ SELECT * FROM win32_computersystem WHERE infraredsupported >= null
 
 
 
-Multiple groups of properties, operators, and constants can be combined in a WHERE clause using logical operators and parenthetical subexpressions. Each group must be joined with the AND, OR, or NOT [operators](wql-operators.md) as is shown in the following queries. The first query retrieves all instances of the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class with the **Name** property set to either C or D:
+Multiple groups of properties, operators, and constants can be combined in a WHERE clause using logical operators and parenthetical subexpressions. Each group must be joined with the AND, OR, or NOT [operators](wql-operators.md) as is shown in the following queries. The first query retrieves all instances of the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class with the **Name** property set to either C or D:
 
 
 ```sql
@@ -168,6 +168,3 @@ In addition to the WMI [DATETIME](date-and-time-format.md) format, the WQL WHERE
  
 
  
-
-
-

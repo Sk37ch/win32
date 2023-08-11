@@ -1,5 +1,5 @@
 ---
-Description: Implemented by the browser. Exposes methods that manage which monitor contains the Windows taskbar on a multiple monitor system.
+description: Implemented by the browser. Exposes methods that manage which monitor contains the Windows taskbar on a multiple monitor system.
 title: IMultiMonitorDockingSite interface
 ms.topic: reference
 ms.date: 05/31/2018
@@ -12,14 +12,6 @@ api_type:
 - COM
 api_location: 
 ms.assetid: af9a7a9e-bd7c-4b17-9cb6-008df5c820d8
-api_name: 
- - IMultiMonitorDockingSite
-api_type: 
- - COM
-api_location: 
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -29,7 +21,7 @@ Implemented by the browser. Exposes methods that manage which monitor contains t
 
 ## Members
 
-The **IMultiMonitorDockingSite** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IMultiMonitorDockingSite** also has these types of members:
+The **IMultiMonitorDockingSite** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IMultiMonitorDockingSite** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -57,7 +49,7 @@ You do not typically implement the **IMultiMonitorDockingSite** interface. The S
 
 
 
-|                                     |                                                                        |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                   |
@@ -67,7 +59,3 @@ You do not typically implement the **IMultiMonitorDockingSite** interface. The S
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: The following code example demonstrates creation of the TAPI object.
+description: The following code example demonstrates creation of the TAPI object.
 ms.assetid: f8566e53-51c9-4424-a8bb-369455f35706
 title: Initialize TAPI
 ms.topic: article
@@ -10,28 +10,28 @@ ms.date: 05/31/2018
 
 The following code example demonstrates creation of the TAPI object.
 
-> [!Note]  
-> This example does not have the error checking and releases appropriate for production code.
+```cpp
+const auto result = ITTAPI::Initialize();
 
- 
+if (result != S_OK) {
+    switch (result) {
+        case S_FALSE: {
+            std::cerr << "TAPI has already been initialized.\n";
+        } break;
 
+        [[fallthrough]]
+        case E_OUTOFMEMORY: {
+            std::cerr << "Insufficient memory exists to perform the operation.\n";
+        }
 
-```C++
-// If (hr != S_OK) process the error here. 
+        default: {
+            // TODO: Handle unrecoverable error here
+        }
+    }
+}
 ```
 
+## See Also
 
-
-## Related topics
-
-<dl> <dt>
-
-[**ITTAPI::Initialize**](/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-initialize)
-</dt> </dl>
-
- 
-
- 
-
-
-
+- [ITTAPI::Initialize](/windows/win32/api/tapi3if/nf-tapi3if-ittapi-initialize)
+- [Common HRESULT Values](../seccrypto/common-hresult-values.md)

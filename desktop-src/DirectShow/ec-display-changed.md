@@ -1,12 +1,15 @@
 ---
-Description: The display mode has changed.
+description: The display mode has changed.
 ms.assetid: 1f5b066b-6d5d-44bb-851a-424b2bd389c0
 title: EC_DISPLAY_CHANGED (Dshow.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # EC\_DISPLAY\_CHANGED
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The display mode has changed.
 
@@ -34,7 +37,7 @@ The filter graph manager temporarily stops the graph, and then disconnects and r
 
 ## Remarks
 
-Video renderers can send this event in response to a [**WM\_DISPLAYCHANGE**](https://docs.microsoft.com/windows/desktop/gdi/wm-displaychange) message. The **WM\_DISPLAYCHANGE** message indicates that the user has changed the display resolution.
+Video renderers can send this event in response to a [**WM\_DISPLAYCHANGE**](/windows/desktop/gdi/wm-displaychange) message. The **WM\_DISPLAYCHANGE** message indicates that the user has changed the display resolution.
 
 During pin connection, most video renderers pick a format based on the current display mode. If the display mode changes, the video renderer might need to choose another format. By sending this message, the renderer signals to the filter graph manager that it needs to be reconnected. During the reconnection, the renderer can select a new format. If the reconnection fails, the filter graph manager sends an [**EC\_ERRORABORT**](ec-errorabort.md) event to the application.
 
@@ -46,7 +49,7 @@ A custom presenter for the [**Enhanced Video Renderer**](enhanced-video-renderer
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 
@@ -63,9 +66,4 @@ A custom presenter for the [**Enhanced Video Renderer**](enhanced-video-renderer
 </dt> </dl>
 
  
-
- 
-
-
-
 

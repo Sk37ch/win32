@@ -1,5 +1,5 @@
 ---
-Description: The following terms are useful in understanding the TAPI technology.
+description: The following terms are useful in understanding the TAPI technology.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: fa94cbaf-8772-4cc6-ad20-f48cbe79a20a
 title: B (Telephony API)
@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# B
+# B (Telephony API)
 
 [A](a-tapgloss.md) B [C](c-tapgloss.md) [D](d-tapgloss.md) [E](e-tapgloss.md) F G [H](h-tapgloss.md) [I](i-tapgloss.md) J [K](k-tapgloss.md) [L](l-tapgloss.md) [M](m-tapgloss.md) N O [P](p-tapgloss.md) Q [R](r-tapgloss.md) [S](s-tapgloss.md) [T](t-tapgloss.md) [U](u-tapgloss.md) [V](v-tapgloss.md) [W](w-tapgloss.md) X Y Z
 
@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 <span id="tapi2.b_channel_tapgloss"></span><span id="TAPI2.B_CHANNEL_TAPGLOSS"></span>**B channel**
 </dt> <dd>
 
-A *bearer* channel that is a fundamental component of ISDN interfaces. It carries 64,000 bits per second (bps) in both directions, is circuit-switched, and is able to carry either voice or data. For additional information, see [Bearer Mode](https://msdn.microsoft.com/library/ms726220(v=VS.85).aspx). See [*D channel*](d-tapgloss.md), [*Integrated Services Digital Network (ISDN)*](i-tapgloss.md).
+A *bearer* channel that is a fundamental component of ISDN interfaces. It carries 64,000 bits per second (bps) in both directions, is circuit-switched, and is able to carry either voice or data. For additional information, see [Bearer Mode](./bearer-mode-ovr.md). See [*D channel*](d-tapgloss.md), [*Integrated Services Digital Network (ISDN)*](i-tapgloss.md).
 
 </dd> <dt>
 
@@ -51,7 +51,7 @@ The standard ISDN line, consisting of two B channels and one D channel. See [*In
 <span id="tapi2.basic_telephony_tapgloss"></span><span id="TAPI2.BASIC_TELEPHONY_TAPGLOSS"></span>**Basic Telephony**
 </dt> <dd>
 
-An elementary level of telephony service, with a minimal subset of features, that provides a minimum set of functions that corresponds to Plain Old Telephone Service (POTS). TAPI service providers are required to support all Basic Telephony functions. See [Assisted Telephony](https://msdn.microsoft.com/library/ms726209(v=VS.85).aspx), [*Extended Telephony*](e-tapgloss.md), [*Supplementary Telephony*](s-tapgloss.md).
+An elementary level of telephony service, with a minimal subset of features, that provides a minimum set of functions that corresponds to Plain Old Telephone Service (POTS). TAPI service providers are required to support all Basic Telephony functions. See [Assisted Telephony](./assisted-telephony-overview.md), [*Extended Telephony*](e-tapgloss.md), [*Supplementary Telephony*](s-tapgloss.md).
 
 </dd> <dt>
 
@@ -79,6 +79,3 @@ Transfer-rate measurement indicating how many bits of computer data are sent in 
  
 
  
-
-
-

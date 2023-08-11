@@ -23,10 +23,13 @@ keywords:
 - samples,new features in Windows Media Player 11
 - versions of Windows Media Player,new features in version 11
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # What Was New in Windows Media Player 11
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This topic lists features that were new in Windows Media Player 11 and the Windows Media Player 11 SDK.
 
@@ -35,8 +38,8 @@ This topic lists features that were new in Windows Media Player 11 and the Windo
 The following interfaces were new in the Windows Media Player 11 ActiveX control.
 
 -   [**IWMPLibrary Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibrary)
--   [**IWMPLibraryServices Interface**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibraryservices)
--   [**IWMPLibrarySharingServices Interface**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibrarysharingservices)
+-   [**IWMPLibraryServices Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibraryservices)
+-   [**IWMPLibrarySharingServices Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibrarysharingservices)
 -   [**IWMPMediaCollection2 Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection2)
 -   [**IWMPQuery Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpquery)
 -   [**IWMPStringCollection2 Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpstringcollection2)

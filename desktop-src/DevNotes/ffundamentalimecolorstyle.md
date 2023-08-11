@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the specified color is a fundamental color.
+description: Specifies whether the specified color is a fundamental color.
 ms.assetid: 9a06fadc-9b97-4f7d-9488-688b72d14bc5
 title: FFundamentalIMEColorStyle function
 ms.topic: reference
@@ -47,13 +47,13 @@ Returns **TRUE** when the color is a fundamental color.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Imeshare.dll</dt> </dl> |
 
@@ -72,7 +72,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # MMIOM\_OPEN message
 
-The **MMIOM\_OPEN** message is sent to an I/O procedure by the [**mmioOpen**](https://msdn.microsoft.com/library/Dd757331(v=VS.85).aspx) function to request that a file be opened or deleted.
+The **MMIOM\_OPEN** message is sent to an I/O procedure by the [**mmioOpen**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioopen) function to request that a file be opened or deleted.
 
 
 ```C++
@@ -53,7 +53,7 @@ Returns MMSYSERR\_NOERROR if successful or an error otherwise. Possible error va
 
 
 
-|                    |                                             |
+| Requirement | Value |
 |--------------------|---------------------------------------------|
 | MMIOM\_CANNOTOPEN  | The file could not be opened.               |
 | MMIOM\_OUTOFMEMORY | Not enough memory to perform the operation. |
@@ -64,17 +64,17 @@ Returns MMSYSERR\_NOERROR if successful or an error otherwise. Possible error va
 
 ## Remarks
 
-The **dwFlags** member of the [**MMIOINFO**](https://msdn.microsoft.com/library/Dd757322(v=VS.85).aspx) structure contains flags passed to the [**mmioOpen**](https://msdn.microsoft.com/library/Dd757331(v=VS.85).aspx) function.
+The **dwFlags** member of the [**MMIOINFO**](/previous-versions//dd757322(v=vs.85)) structure contains flags passed to the [**mmioOpen**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioopen) function.
 
-The **lDiskOffset** member of the [**MMIOINFO**](https://msdn.microsoft.com/library/Dd757322(v=VS.85).aspx) structure is initialized to zero. If this value is incorrect, the I/O procedure must correct it.
+The **lDiskOffset** member of the [**MMIOINFO**](/previous-versions//dd757322(v=vs.85)) structure is initialized to zero. If this value is incorrect, the I/O procedure must correct it.
 
-If the application passed an [**MMIOINFO**](https://msdn.microsoft.com/library/Dd757322(v=VS.85).aspx) structure to [**mmioOpen**](https://msdn.microsoft.com/library/Dd757331(v=VS.85).aspx), the return value is returned in the **wErrorRet** member.
+If the application passed an [**MMIOINFO**](/previous-versions//dd757322(v=vs.85)) structure to [**mmioOpen**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioopen), the return value is returned in the **wErrorRet** member.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -83,10 +83,4 @@ If the application passed an [**MMIOINFO**](https://msdn.microsoft.com/library/D
 
 
  
-
- 
-
-
-
-
 

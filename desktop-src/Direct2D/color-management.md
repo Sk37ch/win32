@@ -28,9 +28,9 @@ The CLSID for this effect is CLSID\_D2D1ColorManagement.
 
 | Display name and index enumeration | Description |
 |-|-|
-| SourceContext<br/> D2D1\_COLORMANAGEMENT\_PROP\_SOURCE\_COLOR\_CONTEXT<br/> | The source color space information. The type is [**ID2D1ColorContext**](https://msdn.microsoft.com/library/Hh404388(v=VS.85).aspx).<br/> The default value is NULL.<br/> |
+| SourceContext<br/> D2D1\_COLORMANAGEMENT\_PROP\_SOURCE\_COLOR\_CONTEXT<br/> | The source color space information. The type is [**ID2D1ColorContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1colorcontext).<br/> The default value is NULL.<br/> |
 | SourceIntent<br/> D2D1\_COLORMANAGEMENT\_PROP\_SOURCE\_RENDERING\_INTENT<br/> | Which ICC rendering intent to use. The type is D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT.<br/> The default value is D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT\_PERCEPTUAL.<br/> |
-| DestinationContext<br/> D2D1\_COLORMANAGEMENT\_PROP\_DESTINATION\_COLOR\_CONTEXT<br/> | The destination color space information. The type is [**ID2D1ColorContext**](https://msdn.microsoft.com/library/Hh404388(v=VS.85).aspx).<br/> The default value is NULL.<br/> |
+| DestinationContext<br/> D2D1\_COLORMANAGEMENT\_PROP\_DESTINATION\_COLOR\_CONTEXT<br/> | The destination color space information. The type is [**ID2D1ColorContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1colorcontext).<br/> The default value is NULL.<br/> |
 | DestinationIntent<br/> D2D1\_COLORMANAGEMENT\_PROP\_DESTINATION\_RENDERING\_INTENT<br/> | Which ICC rendering intent to use. The type is D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT.<br/> The default value is D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT\_PERCEPTUAL.<br/> |
 | AlphaMode<br/> D2D1\_COLORMANAGEMENT\_PROP\_ALPHA\_MODE<br/> | How to interpret alpha data that is contained in the input image. The type is D2D1\_COLORMANAGEMENT\_ALPHA\_MODE.<br/> The default value is D2D1\_COLORMANAGEMENT\_ALPHA\_MODE\_PREMULTIPLIED.<br/> |
 | Quality<br/> D2D1\_COLORMANAGEMENT\_PROP\_QUALITY<br/> | The quality level of the transform. The type is D2D1\_COLORMANAGEMENT\_QUALITY.<br/> The default value is D2D1\_COLORMANAGEMENT\_QUALITY\_NORMAL.<br/> |
@@ -39,10 +39,10 @@ The CLSID for this effect is CLSID\_D2D1ColorManagement.
 
 | Enumeration | Description |
 |-|-|
-| D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT\_PERCEPTUAL | The effect compresses or expands the full color gamut of the image to fill the color gamut of the device, so that gray balance is preserved but colorimetric accuracy may not be preserved. |
-| D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT\_RELATIVE\_COLORIMETRIC | The effect preserves the chroma of colors in the image at the possible expense of hue and lightness. |
-| D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT\_SATURATION | The effect adjusts colors that fall outside the range of colors the output device renders to the closest color available. It does not preserve the white point. |
-| D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT\_ABSOLUTE\_COLORIMETRIC | The effect adjusts any colors that fall outside the range that the output device can render to the closest color that can be rendered. The effect does not change the other colors and preserves the white point. |
+| D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT\_PERCEPTUAL | The effect compresses or expands the full color gamut of the image to fill the color gamut of the device, to produce a perceptually pleasing output that preserves color details but may sacrifice colorimetric accuracy. It is useful for general reproduction of real life content such as photos. |
+| D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT\_RELATIVE\_COLORIMETRIC | The effect adjusts any colors that fall outside the gamut that the output device can render to the closest color that can be rendered. It does not preserve the white point. |
+| D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT\_SATURATION | The effect preserves the saturation of pure colors in the image at the possible expense of hue and lightness. It is useful for graphics like charts and diagrams. |
+| D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT\_ABSOLUTE\_COLORIMETRIC | The effect adjusts any colors that fall outside the gamut that the output device can render to the closest color that can be rendered. The effect does not change the in-gamut colors and preserves the white point. |
 
 ## Input image alpha modes
 
@@ -80,7 +80,7 @@ In general, the effect sets alpha to 1 (opaque) if there is no alpha data in the
 </thead>
 <tbody>
 <tr class="odd">
-<td rowspan="4">1 channel, R pixel format ${REMOVE}$<br />
+<td rowspan="4">1 channel, R pixel format<br />
 </td>
 <td>1 channel, R pixel format</td>
 <td>(No alpha data)</td>
@@ -101,7 +101,7 @@ In general, the effect sets alpha to 1 (opaque) if there is no alpha data in the
 
 </tr>
 <tr class="odd">
-<td rowspan="4">1 channel, RGBA pixel format ${REMOVE}$<br />
+<td rowspan="4">1 channel, RGBA pixel format<br />
 </td>
 <td>1 channel, R pixel format</td>
 <td>Alpha data is discarded</td>
@@ -122,7 +122,7 @@ In general, the effect sets alpha to 1 (opaque) if there is no alpha data in the
 
 </tr>
 <tr class="odd">
-<td rowspan="4">3 channel, RGBA pixel format ${REMOVE}$<br />
+<td rowspan="4">3 channel, RGBA pixel format<br />
 </td>
 <td>1 channel, R pixel format</td>
 <td>Alpha data is discarded</td>
@@ -143,7 +143,7 @@ In general, the effect sets alpha to 1 (opaque) if there is no alpha data in the
 
 </tr>
 <tr class="odd">
-<td rowspan="4">4 channel, RGBA pixel format ${REMOVE}$<br />
+<td rowspan="4">4 channel, RGBA pixel format<br />
 </td>
 <td>1 channel, R pixel format</td>
 <td>(No alpha data)</td>
@@ -174,15 +174,15 @@ In general, the effect sets alpha to 1 (opaque) if there is no alpha data in the
 | D2D1\_COLORMANAGEMENT\_QUALITY\_NORMAL | Normal quality mode. This mode requires feature level 9\_1 or above. |
 | D2D1\_COLORMANAGEMENT\_QUALITY\_BEST | The best quality mode. This mode requires feature level 10\_0 or above, as well as floating point precision buffers. This mode supports floating point precision as well as extended range as defined in the ICC v4.3 specification. |
 
-The color management effect fails when drawing if the application requests a quality mode that is not supported by the hardware. You can determine the feature level when you call [**D3D11CreateDevice**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice). You can check for floating point buffer support by calling [**ID2D1EffectContext::IsBufferPrecisionSupported**](https://msdn.microsoft.com/library/Dn441541(v=VS.85).aspx) with the value [**D2D1\_BUFFER\_PRECISION\_32BPC\_FLOAT**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_buffer_precision).
+The color management effect fails when drawing if the application requests a quality mode that is not supported by the hardware. You can determine the feature level when you call [**D3D11CreateDevice**](/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice). You can check for floating point buffer support by calling [**ID2D1EffectContext::IsBufferPrecisionSupported**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-isbufferprecisionsupported) with the value [**D2D1\_BUFFER\_PRECISION\_32BPC\_FLOAT**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_buffer_precision).
 
 ## Sample code
 
-For an example of this effect, download the [Direct2D effects photo adjustment sample](https://code.msdn.microsoft.com/windowsapps/Direct2D-Image-Effects-2979be08) and see Lesson 4 of the sample.
+For an example of this effect, download the [Direct2D effects photo adjustment sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/D2DPhotoAdjustment), and see Lesson 4 of the sample.
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |

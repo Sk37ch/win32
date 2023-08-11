@@ -1,5 +1,5 @@
 ---
-Description: Constructors exposed by XMINT3.
+description: Constructors exposed by XMINT3.
 ms.assetid: 69eb08b8-a533-40cc-8efb-ccb9106e0e24
 title: XMINT3 constructors (Directxmath.h)
 ms.date: 07/02/2019
@@ -10,7 +10,7 @@ ms.topic: reference
 
 Constructors exposed by `XMINT3`.
 
-Constructs instances of the [**XMINT3**](https://msdn.microsoft.com/library/Hh404659(v=VS.85).aspx) structure.
+Constructs instances of the [**XMINT3**](/windows/win32/api/directxmath/ns-directxmath-xmint3) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -21,47 +21,13 @@ Constructs instances of the [**XMINT3**](https://msdn.microsoft.com/library/Hh40
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Constructor</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">[<strong>XMINT3 (const int32_t*)</strong>](https://msdn.microsoft.com/library/Hh404662(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMINT3</code> from a three element <code>int32_t</code> array argument.<br/> This constructor initializes a new instance of [<strong>XMINT3</strong>](https://msdn.microsoft.com/library/Hh404659(v=VS.85).aspx) from a from a three element <code>int32_t</code> array argument.<br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">[<strong>XMINT3 (int32_t,int32_t,int32_t)</strong>](https://msdn.microsoft.com/library/Hh404661(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMINT3</code> from three <code>int32_t</code> arguments.<br/> This constructor initializes a new instance of [<strong>XMINT3</strong>](https://msdn.microsoft.com/library/Hh404659(v=VS.85).aspx) from three <code>int32_t</code> arguments.<br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">[<strong>XMINT3 ()</strong>](https://msdn.microsoft.com/library/Hh404660(v=VS.85).aspx)</td>
-<td style="text-align: left;">Default constructor for <code>XMINT3</code>.<br/> Default constructor for [<strong>XMINT3</strong>](https://msdn.microsoft.com/library/Hh404659(v=VS.85).aspx).<br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Constructor | Description | 
+|-------------|-------------|
+| [<strong>XMINT3 (const int32_t*)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmint3-xmint3(constint32_t)) | Initializes a new instance of <code>XMINT3</code> from a three element <code>int32_t</code> array argument.<br /> This constructor initializes a new instance of [<strong>XMINT3</strong>](/windows/win32/api/directxmath/ns-directxmath-xmint3) from a from a three element <code>int32_t</code> array argument.<br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| [<strong>XMINT3 (int32_t,int32_t,int32_t)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmint3-xmint3(int32_t_int32_t_int32_t)) | Initializes a new instance of <code>XMINT3</code> from three <code>int32_t</code> arguments.<br /> This constructor initializes a new instance of [<strong>XMINT3</strong>](/windows/win32/api/directxmath/ns-directxmath-xmint3) from three <code>int32_t</code> arguments.<br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| [<strong>XMINT3 ()</strong>](/windows/win32/api/directxmath/nf-directxmath-xmint3-xmint3(constxmint3_)) | Default constructor for <code>XMINT3</code>.<br /> Default constructor for [<strong>XMINT3</strong>](/windows/win32/api/directxmath/ns-directxmath-xmint3).<br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+
 
 
 
@@ -69,7 +35,7 @@ This constructor is only available under C++.
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Directxmath.h</dt> </dl> |
 
@@ -85,13 +51,9 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMINT3**](https://msdn.microsoft.com/library/Hh404659(v=VS.85).aspx)
+[**XMINT3**](/windows/win32/api/directxmath/ns-directxmath-xmint3)
 </dt> </dl>
 
  
 
  
-
-
-
-

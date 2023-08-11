@@ -1,5 +1,5 @@
 ---
-Description: Persistence and interoperability are two vitally important features, especially for applications that use ink.
+description: Persistence and interoperability are two vitally important features, especially for applications that use ink.
 ms.assetid: 71e963d8-2917-40e1-8214-27521cffe340
 title: Ink Interoperability
 ms.topic: article
@@ -22,11 +22,8 @@ The following sections detail ink interoperability.
 -   [Building Blocks](building-blocks.md)
 -   [Storing Ink in HTML](storing-ink-in-html.md)
 
-This document assumes a detailed understanding of the Clipboard. For more information about the Clipboard, see the [Clipboard documentation](https://docs.microsoft.com/windows/desktop/dataxchg/clipboard).
+This document assumes a detailed understanding of the Clipboard. For more information about the Clipboard, see the [Clipboard documentation](/windows/desktop/dataxchg/clipboard).
 
  
 
  
-
-
-

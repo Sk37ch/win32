@@ -1,5 +1,5 @@
 ---
-Description: Represents a single certificate extension.
+description: Represents a single certificate extension.
 ms.assetid: 'cca3121d-0f0f-4de2-a225-6dd3910078d7'
 title: Extension object (Mmcobj.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Extension object
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Extension Class**](https://msdn.microsoft.com/library/x5x51x86(v=VS.100).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Extension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509extension) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **Extension** object represents a single certificate extension.
 
@@ -61,7 +61,7 @@ The **Extension** object is used by the [**Extensions**](extensions.md) collecti
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |
@@ -74,7 +74,3 @@ The **Extension** object is used by the [**Extensions**](extensions.md) collecti
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Lists the interfaces provided by the attachment engine.
+description: Lists the interfaces provided by the attachment engine.
 ms.assetid: 451587bd-a7ab-446b-b647-be98de251915
 title: Security Management Interfaces
 ms.topic: article
@@ -25,11 +25,8 @@ This section contains reference pages for the following groups of interfaces:
 
  
 
-For more information about the COM interfaces that must be implemented by snap-in extensions, see the [Microsoft Management Console](https://docs.microsoft.com/previous-versions/windows/desktop/mmc/microsoft-management-console-start-page) documentation.
+For more information about the COM interfaces that must be implemented by snap-in extensions, see the [Microsoft Management Console](/previous-versions/windows/desktop/mmc/microsoft-management-console-start-page) documentation.
 
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Creates a binary object and adds it as a child object. Deprecated.
+description: Creates a binary object and adds it as a child object. Deprecated.
 ms.assetid: 6164951d-dd87-4318-ac08-b97c22f58d45
 title: IDirectXFileData::AddBinaryObject method (DXFile.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ HRESULT AddBinaryObject(
 *szName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Pointer to the name of the object. Specify **NULL** if the object does not need a name.
 
@@ -60,7 +60,7 @@ Pointer to the GUID representing the object. Specify **NULL** if the object does
 *szMimeType* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Pointer to the object's MIME type.
 
@@ -69,7 +69,7 @@ Pointer to the object's MIME type.
 *pvData* \[in\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](../winprog/windows-data-types.md)**
 
 Pointer to the object's data.
 
@@ -78,7 +78,7 @@ Pointer to the object's data.
 *cbSize* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Size of the buffer pointed to by pvData, in bytes.
 
@@ -94,7 +94,7 @@ If the method succeeds, the return value is DXFILE\_OK. If the method fails, the
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>DXFile.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3dxof.lib</dt> </dl> |
@@ -114,7 +114,3 @@ If the method succeeds, the return value is DXFILE\_OK. If the method fails, the
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Computes a projection of distant lighting into spherical harmonic (SH) basis vectors that represent incident radiance at specified locations.
+description: Computes a projection of distant lighting into spherical harmonic (SH) basis vectors that represent incident radiance at specified locations.
 ms.assetid: 4d07b288-aec1-48eb-8d27-f3d7d8cfb69e
 title: ID3DXPRTEngine::ComputeVolumeSamplesDirectSH method (D3DX9Mesh.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ HRESULT ComputeVolumeSamplesDirectSH(
 *OrderIn* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Order of the SH representation of distant lighting. Must be in the range of [D3DXSH\_MINORDER](other-d3dx-constants.md) to D3DXSH\_MAXORDER, inclusive. The degree of the evaluation is OrderIn - 1.
 
@@ -51,7 +51,7 @@ Order of the SH representation of distant lighting. Must be in the range of [D3D
 *OrderOut* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Order of the SH representation of local lighting. Must be in the range of [D3DXSH\_MINORDER](other-d3dx-constants.md) to D3DXSH\_MAXORDER, inclusive. The degree of the evaluation is OrderOut - 1.
 
@@ -60,7 +60,7 @@ Order of the SH representation of local lighting. Must be in the range of [D3DXS
 *NumVolSamples.xml* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of sample locations.
 
@@ -100,7 +100,7 @@ To use this method successfully, you must set sampling over a sphere with UseSph
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -120,7 +120,3 @@ To use this method successfully, you must set sampling over a sphere with UseSph
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: The following constants are used by applications or UI frameworks to identify how UI feedback is processed when one of the listed pen gestures is detected.
+description: The following constants are used by applications or UI frameworks to identify how UI feedback is processed when one of the listed pen gestures is detected.
 ms.assetid: 434DC272-DC1C-4091-BB38-DDCB1A635D8D
 title: Pen Visualization (Winuser.h)
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following constants are used by applications or UI frameworks to identify how UI feedback is processed when one of the listed pen gestures is detected.
 
-These constants are used with the **SPI\_GETPENVISUALIZATION** and **SPI\_SETPENVISUALIZATION** parameters and the [**SystemParametersInfo**](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx) function.
+These constants are used with the **SPI\_GETPENVISUALIZATION** and **SPI\_SETPENVISUALIZATION** parameters and the [**SystemParametersInfo**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa) function.
 
 <dl> <dt>
 
@@ -83,7 +83,7 @@ Specifies UI feedback for the pen cursor.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                 |
@@ -101,16 +101,11 @@ Specifies UI feedback for the pen cursor.
 [**Contact Visualization**](contact-visualization.md)
 </dt> <dt>
 
-[**SystemParametersInfo**](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx)
+[**SystemParametersInfo**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa)
 </dt> <dt>
 
-[Input Feedback Configuration](https://docs.microsoft.com/previous-versions/windows/desktop/input_feedback/input-feedback-configuration-portal)
+[Input Feedback Configuration](/previous-versions/windows/desktop/input_feedback/input-feedback-configuration-portal)
 </dt> </dl>
 
  
-
- 
-
-
-
 

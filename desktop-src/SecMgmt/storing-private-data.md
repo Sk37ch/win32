@@ -1,5 +1,5 @@
 ---
-Description: LSA Policy provides two functions that you can use to set and retrieve private data.
+description: LSA Policy provides two functions that you can use to set and retrieve private data.
 ms.assetid: 7b6e63d4-ce8f-4279-85d9-da6b2b589afa
 title: Storing Private Data
 ms.topic: article
@@ -16,7 +16,7 @@ To retrieve and decode previously stored private data, call [**LsaRetrievePrivat
 
 Before you can store or retrieve private data, your application must get a handle to the local [**Policy**](policy-object.md) object, as demonstrated in [Opening a Policy Object Handle](opening-a-policy-object-handle.md).
 
-The following example creates a local private data object. Note that the function InitLsaString converts a [*Unicode*](https://docs.microsoft.com/windows/desktop/SecGloss/u-gly) string to an [**LSA\_UNICODE\_STRING**](/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string) structure. The code for this function is shown in [Using LSA Unicode Strings](using-lsa-unicode-strings.md).
+The following example creates a local private data object. Note that the function InitLsaString converts a [*Unicode*](/windows/desktop/SecGloss/u-gly) string to an [**LSA\_UNICODE\_STRING**](/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string) structure. The code for this function is shown in [Using LSA Unicode Strings](using-lsa-unicode-strings.md).
 
 
 ```C++
@@ -63,13 +63,10 @@ BOOL CreatePrivateDataObject(LSA_HANDLE PolicyHandle)
 
 
 > [!Note]  
-> The data stored by the [**LsaStorePrivateData**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsastoreprivatedata) function is not absolutely protected. The key, however, has a [*discretionary access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) (DACL) that allows only the creator and administrators to read the data.
+> The data stored by the [**LsaStorePrivateData**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsastoreprivatedata) function is not absolutely protected. The key, however, has a [*discretionary access control list*](/windows/desktop/SecGloss/d-gly) (DACL) that allows only the creator and administrators to read the data.
 
  
 
  
 
  
-
-
-

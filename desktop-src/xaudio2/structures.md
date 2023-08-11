@@ -1,6 +1,6 @@
 ---
 title: XAudio2 structures
-Description: This section contains information about structures provided by the Microsoft XAudio2 API.
+description: This section contains information about structures provided by the Microsoft XAudio2 API.
 ms.assetid: 3656aaf9-7a3a-2a5b-50f5-d279ce8a9e6c
 ms.topic: article
 ms.date: 05/31/2018
@@ -28,7 +28,7 @@ This section contains information about structures provided by the Microsoft XAu
 | [**XAUDIO2FX\_REVERB\_I3DL2\_PARAMETERS**](/windows/desktop/api/xaudio2fx/ns-xaudio2fx-xaudio2fx_reverb_i3dl2_parameters)         | Describes I3DL2 (Interactive 3D Audio Rendering Guidelines Level 2.0) parameters for use in the ReverbConvertI3DL2ToNative function.           |
 | [**XAUDIO2FX\_REVERB\_PARAMETERS**](/windows/desktop/api/xaudio2fx/ns-xaudio2fx-xaudio2fx_reverb_parameters)                      | Describes parameters for use in the reverb APO.                                                                                                |
 | [**XAUDIO2FX\_VOLUMEMETER\_LEVELS**](/windows/desktop/api/xaudio2fx/ns-xaudio2fx-xaudio2fx_volumemeter_levels)                    | Describes parameters for use with the volume meter APO.                                                                                        |
-| [**XAPO\_LOCKFORPROCESS\_BUFFER\_PARAMETERS**](/windows/desktop/api/xapo/ns-xapo-xapo_lockforprocess_buffer_parameters) | Defines buffer parameters that remain constant while an XAPO is locked.<br/>                                                             |
+| [**XAPO\_LOCKFORPROCESS\_BUFFER\_PARAMETERS**](/windows/win32/api/xapo/ns-xapo-xapo_lockforprocess_parameters) | Defines buffer parameters that remain constant while an XAPO is locked.<br/>                                                             |
 | [**XAPO\_PROCESS\_BUFFER\_PARAMETERS**](/windows/desktop/api/xapo/ns-xapo-xapo_process_buffer_parameters)               | Defines buffer parameters that may change from one call to the next.<br/>                                                                |
 | [**XAPO\_REGISTRATION\_PROPERTIES**](/windows/desktop/api/xapo/ns-xapo-xapo_registration_properties)                    | Describes general characteristics of an XAPO.<br/>                                                                                       |
 | [**FXECHO\_INITDATA**](/windows/desktop/api/xapofx/ns-xapofx-fxecho_initdata)                                               | Initialization parameters for use with the FXECHO XAPO.<br/>                                                                             |

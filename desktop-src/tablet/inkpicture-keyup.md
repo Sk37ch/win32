@@ -1,5 +1,5 @@
 ---
-Description: Occurs when a key is released while the InkPicture control has focus.
+description: Occurs when a key is released while the InkPicture control has focus.
 ms.assetid: e22633b5-40fe-4b94-a660-684c4f5c96f3
 title: InkPicture.KeyUp event (Msinkaut.h)
 ms.topic: reference
@@ -46,13 +46,13 @@ This event does not return a value.
 
 ## Remarks
 
-This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IPEKeyUp.
+This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface with an identifier of DISPID\_IPEKeyUp.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
@@ -69,9 +69,4 @@ This event method is defined in the **\_IInkPictureEvents** interface. The **\_I
 </dt> </dl>
 
  
-
- 
-
-
-
 

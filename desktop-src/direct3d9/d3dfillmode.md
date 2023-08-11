@@ -1,5 +1,5 @@
 ---
-Description: Defines constants describing the fill mode.
+description: Defines constants describing the fill mode.
 ms.assetid: be835432-e8d5-4afb-a810-2dac25bdc9dc
 title: D3DFILLMODE enumeration (D3D9Types.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ The values in this enumerated type are used by the D3DRS\_FILLMODE render state.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 
@@ -86,13 +86,9 @@ The values in this enumerated type are used by the D3DRS\_FILLMODE render state.
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/library/Bb172599(v=VS.85).aspx)
+[**D3DRENDERSTATETYPE**](./d3drenderstatetype.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

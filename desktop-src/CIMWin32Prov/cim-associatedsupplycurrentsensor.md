@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_AssociatedSupplyCurrentSensor class associates a power supply with a current (amperage) sensor that monitors its input frequency.
+description: The CIM\_AssociatedSupplyCurrentSensor class associates a power supply with a current (amperage) sensor that monitors its input frequency.
 ms.assetid: bed4714f-ecf4-4c53-b231-c8fac673371f
 ms.tgt_platform: multiple
 title: CIM_AssociatedSupplyCurrentSensor class
@@ -63,7 +63,7 @@ Data type: **CIM\_CurrentSensor**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_CurrentSensor**](cim-currentsensor.md) that describes the current sensor.
@@ -79,7 +79,7 @@ Data type: **CIM\_PowerSupply**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_PowerSupply**](cim-powersupply.md) that describes the power supply associated with the current sensor.
@@ -152,7 +152,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -170,9 +170,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

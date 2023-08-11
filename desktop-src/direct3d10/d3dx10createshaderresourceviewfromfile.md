@@ -1,5 +1,5 @@
 ---
-Description: Create a shader-resource view from a file.
+description: Create a shader-resource view from a file.
 ms.assetid: 97aa848b-e24c-4ebd-8819-b9741ea12b60
 title: D3DX10CreateShaderResourceViewFromFile function (D3DX10Tex.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ A pointer to the device (see [**ID3D10Device Interface**](/windows/desktop/api/D
 *pSrcFile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 Name of the file that contains the shader-resource view. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the data type resolves to LPCSTR.
 
@@ -108,7 +108,7 @@ For a list of supported image formats, see [**D3DX10\_IMAGE\_FILE\_FORMAT**](d3d
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>  |
@@ -128,7 +128,3 @@ For a list of supported image formats, see [**D3DX10\_IMAGE\_FILE\_FORMAT**](d3d
  
 
  
-
-
-
-

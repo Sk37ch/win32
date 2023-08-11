@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a service access point (SAP) and the system that hosts it.
+description: Represents an association between a service access point (SAP) and the system that hosts it.
 ms.assetid: 82db71d6-6d14-408e-87e0-fe869e454d4d
 title: CIM_HostedAccessPoint class (Hyper-V management)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_HostedAccessPoint class
+# CIM_HostedAccessPoint class (Hyper-V management)
 
 Represents an association between a service access point (SAP) and the system that hosts it. A system can host multiple access points. If the implementation of the SAP is modeled, it must be implemented by a device or software feature that is part of the system that hosts the SAP.
 
@@ -53,7 +53,7 @@ Data type: **CIM\_System**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 The hosting System.
@@ -69,7 +69,7 @@ Data type: **CIM\_ServiceAccessPoint**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**Weak**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**Weak**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 The SAPs that are hosted on the system.
@@ -80,7 +80,7 @@ The SAPs that are hosted on the system.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
@@ -98,9 +98,4 @@ The SAPs that are hosted on the system.
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Opens a handle to a private key.
+description: Opens a handle to a private key.
 ms.assetid: 2406be2c-121c-4475-b193-d370a88641da
 title: SslOpenPrivateKey function (Sslprovider.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # SslOpenPrivateKey function
 
-The **SslOpenPrivateKey** function opens a handle to a [*private key*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly).
+The **SslOpenPrivateKey** function opens a handle to a [*private key*](/windows/desktop/SecGloss/p-gly).
 
 ## Syntax
 
@@ -40,7 +40,7 @@ SECURITY_STATUS WINAPI SslOpenPrivateKey(
 *hSslProvider* \[in\]
 </dt> <dd>
 
-The handle to the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
+The handle to the [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
 
 </dd> <dt>
 
@@ -89,13 +89,13 @@ Possible return codes include, but are not limited to, the following.
 
 ## Remarks
 
-The private key obtained is part of a [*public/private key pair*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) within a [*certificate*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly). This function merely extracts the private key from the certificate specified by the *pCertContext* parameter.
+The private key obtained is part of a [*public/private key pair*](/windows/desktop/SecGloss/p-gly) within a [*certificate*](/windows/desktop/SecGloss/c-gly). This function merely extracts the private key from the certificate specified by the *pCertContext* parameter.
 
 ## Requirements
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
@@ -105,9 +105,4 @@ The private key obtained is part of a [*public/private key pair*](https://docs.m
 
 
  
-
- 
-
-
-
 

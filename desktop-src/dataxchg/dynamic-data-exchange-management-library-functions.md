@@ -1,6 +1,6 @@
 ---
 title: DDEML Functions
-description: .
+description: . | DDEML Functions
 ms.assetid: daaa18e6-2948-4058-9943-e5212c835d54
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 -   [**DdeAbandonTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeabandontransaction)
 -   [**DdeAccessData**](/windows/desktop/api/Ddeml/nf-ddeml-ddeaccessdata)
 -   [**DdeAddData**](/windows/desktop/api/Ddeml/nf-ddeml-ddeadddata)
--   [*DdeCallback*](https://msdn.microsoft.com/library/ms648742(v=VS.85).aspx)
+-   [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback)
 -   [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction)
 -   [**DdeCmpStringHandles**](/windows/desktop/api/Ddeml/nf-ddeml-ddecmpstringhandles)
 -   [**DdeConnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect)
@@ -43,7 +43,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
-

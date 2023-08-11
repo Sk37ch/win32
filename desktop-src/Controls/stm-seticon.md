@@ -46,7 +46,7 @@ The return value is a handle to the icon previously associated with the icon con
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
@@ -67,14 +67,8 @@ The return value is a handle to the icon previously associated with the icon con
 **Other Resources**
 </dt> <dt>
 
-[**LoadIcon**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona)
+[**LoadIcon**](/windows/desktop/api/winuser/nf-winuser-loadicona)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

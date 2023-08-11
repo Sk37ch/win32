@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to Create Status Bars
 
-You can create a status bar by using the [**CreateStatusWindow**](/windows/desktop/api/Commctrl/nf-commctrl-createstatuswindowa) function or by using the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function and specifying the [**STATUSCLASSNAME**](common-control-window-classes.md) window class.
+You can create a status bar by using the [**CreateStatusWindow**](/windows/desktop/api/Commctrl/nf-commctrl-createstatuswindowa) function or by using the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function and specifying the [**STATUSCLASSNAME**](common-control-window-classes.md) window class.
 
 After you create the status bar, you can divide it into parts, set the text for each part, and control the appearance of the window by using status bar messages.
 
@@ -107,13 +107,9 @@ HWND DoCreateStatusBar(HWND hwndParent, int idStatus, HINSTANCE
 [Using Status Bars](using-status-bars.md)
 </dt> <dt>
 
-[Windows common controls demo (CppWindowsCommonControls)](https://code.msdn.microsoft.com/CppWindowsCommonControls-9ea0de64)
+[Windows common controls demo (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
  
 
  
-
-
-
-

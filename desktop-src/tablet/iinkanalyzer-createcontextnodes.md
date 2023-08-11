@@ -1,5 +1,5 @@
 ---
-Description: Creates an IContextNodes object.
+description: Creates an IContextNodes object.
 ms.assetid: d6d37595-307b-4cbc-9d48-ad10f8b272dd
 title: IInkAnalyzer::CreateContextNodes method (IACom.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppContextNodes* when you no longer need to use the object.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppContextNodes* when you no longer need to use the object.
 
  
 
@@ -58,7 +58,7 @@ Use this method to create an empty [**IContextNodes**](icontextnodes.md) collect
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -81,9 +81,4 @@ Use this method to create an empty [**IContextNodes**](icontextnodes.md) collect
 </dt> </dl>
 
  
-
- 
-
-
-
 

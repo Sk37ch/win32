@@ -1,5 +1,5 @@
 ---
-Description: Signs the specified file.
+description: Signs the specified file.
 ms.assetid: 5a59e663-057b-4380-aa14-536030e4051d
 title: SignerSign function
 ms.topic: reference
@@ -20,7 +20,7 @@ api_location:
 The **SignerSign** function signs the specified file.
 
 > [!Note]  
-> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Mssign32.dll.
+> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Mssign32.dll.
 
  
 
@@ -69,7 +69,7 @@ A pointer to a [**SIGNER\_SIGNATURE\_INFO**](signer-signature-info.md) structure
 *pProviderInfo* \[in, optional\]
 </dt> <dd>
 
-A pointer to a [**SIGNER\_PROVIDER\_INFO**](signer-provider-info.md) structure that specifies the [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP) and [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) information used to create the digital signature.
+A pointer to a [**SIGNER\_PROVIDER\_INFO**](signer-provider-info.md) structure that specifies the [*cryptographic service provider*](../secgloss/c-gly.md) (CSP) and [*private key*](../secgloss/p-gly.md) information used to create the digital signature.
 
 If the value of this parameter is **NULL**, the value of the *pSignerCert* parameter must specify a certificate that is associated with a CSP.
 
@@ -106,7 +106,7 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -124,7 +124,3 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
  
 
  
-
-
-
-

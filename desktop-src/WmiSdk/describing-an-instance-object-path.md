@@ -1,5 +1,5 @@
 ---
-Description: An instance object path describes the location of an instance of a given class within a specific namespace.
+description: An instance object path describes the location of an instance of a given class within a specific namespace.
 ms.assetid: 78a194f0-cd21-4622-9242-be7e430b96c0
 ms.tgt_platform: multiple
 title: Describing an Instance Object Path
@@ -67,7 +67,7 @@ The following procedure describes how to retrieve a class instance.
 
 **To retrieve a class instance**
 
-1.  Initialize a string that contains the object path with a call to the [**SysAllocString**](https://msdn.microsoft.com/library/ms221458(v=VS.71).aspx) function.
+1.  Initialize a string that contains the object path with a call to the [**SysAllocString**](/windows/win32/api/oleauto/nf-oleauto-sysallocstring) function.
 2.  Initialize an object that will receive the instance.
 3.  Retrieve the object with a call to [**IWbemServices::GetObject**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobject) or [**IWbemServices::GetObjectAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync).
 
@@ -107,6 +107,3 @@ MyClass.StrVal="AAA",IntVal=33
  
 
  
-
-
-

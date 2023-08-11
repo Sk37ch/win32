@@ -2,7 +2,6 @@
 title: Root Signature Version 1.1
 description: The purpose of Root Signature version 1.1 is to enable applications to indicate to drivers when descriptors in a descriptor heap won’t change or the data descriptors point to won’t change.
 ms.assetid: 8FE42C1C-7F1D-4E70-A7EE-D5EC67237327
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -128,9 +127,8 @@ The following tables summarize the flag combinations that might be employed.
 
 
 
-|                                                                |                                                                                                                                                                                                                                                                                                                                                      |
+| Valid D3D12\_DESCRIPTOR\_RANGE\_FLAGS settings                                                               | Description                                                                                                                                                                                                                                                                                                                                                     |
 |----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Valid D3D12\_DESCRIPTOR\_RANGE\_FLAGS settings**             | **Description**                                                                                                                                                                                                                                                                                                                                      |
 | No flags set                                                   | Descriptors are static (the default). Default assumptions for data: for SRV/CBV: DATA\_STATIC\_WHILE\_SET\_AT\_EXECUTE, and for UAV: DATA\_VOLATILE. These defaults for SRV/CBV will safely fit the usage patterns for the majority of root signatures.                                                                                              |
 | DATA\_STATIC                                                   | Both descriptors and data are static. This maximizes the potential for driver optimization.                                                                                                                                                                                                                                                          |
 | DATA\_VOLATILE                                                 | Descriptors are static and the data is volatile.                                                                                                                                                                                                                                                                                                     |
@@ -145,9 +143,8 @@ The following tables summarize the flag combinations that might be employed.
 
 
 
-|                                                   |                                                                                                                                                                                                                   |
+| Valid D3D12\_ROOT\_DESCRIPTOR\_FLAGS settings                                                  |  Description                                                                                                                                                                                                                 |
 |---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Valid D3D12\_ROOT\_DESCRIPTOR\_FLAGS settings** | **Description**                                                                                                                                                                                                   |
 | No flags set                                      | Default assumptions for data: for SRV/CBV: DATA\_STATIC\_WHILE\_SET\_AT\_EXECUTE, and for UAV: DATA\_VOLATILE. These defaults for SRV/CBV will safely fit the usage patterns for the majority of root signatures. |
 | DATA\_STATIC                                      | Data is static, the best potential for driver optimization.                                                                                                                                                       |
 | DATA\_STATIC\_WHILE\_SET\_AT\_EXECUTE             | Data is static while set at execute.                                                                                                                                                                              |

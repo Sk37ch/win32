@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of vertices in the mesh.
+description: Retrieves the number of vertices in the mesh.
 ms.assetid: 2be2bb34-74fa-438c-913d-e41dd9fa8354
 title: ID3DXBaseMesh::GetNumVertices method (D3DX9Mesh.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Returns the number of vertices in the mesh.
 
@@ -43,7 +43,7 @@ Returns the number of vertices in the mesh.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -60,7 +60,3 @@ Returns the number of vertices in the mesh.
  
 
  
-
-
-
-

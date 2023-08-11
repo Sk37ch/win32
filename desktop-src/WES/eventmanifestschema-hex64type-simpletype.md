@@ -1,6 +1,6 @@
 ---
 title: HexInt64Type Simple Type
-description: Defines an 8-byte hexadecimal type.
+description: Defines an 8-byte hexadecimal type. | HexInt64Type Simple Type
 ms.assetid: 2e81ec2b-cf67-42df-92a0-bf45b6dca051
 keywords:
 - HexInt64Type simple type EventLog
@@ -33,7 +33,7 @@ Defines an 8-byte hexadecimal type.
 
 ## Patterns
 
-The **HexInt64Type** simple type is a [string](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) that is restricted by the following pattern:
+The **HexInt64Type** simple type is a [string](/dotnet/api/system.string) that is restricted by the following pattern:
 
 -   `0[xX][0-9A-Fa-f]{1,16}`
 
@@ -43,7 +43,7 @@ The **HexInt64Type** simple type is a [string](https://docs.microsoft.com/dotnet
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
@@ -51,10 +51,4 @@ The **HexInt64Type** simple type is a [string](https://docs.microsoft.com/dotnet
 
 
  
-
- 
-
-
-
-
 

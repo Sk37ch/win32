@@ -1,5 +1,5 @@
 ---
-Description: Requests that the system driver service update its state to the service manager.
+description: Requests that the system driver service update its state to the service manager.
 ms.assetid: 350d9044-39fd-436f-ab15-b30324b2b2e9
 ms.tgt_platform: multiple
 title: InterrogateService method of the Win32_SystemDriver class
@@ -18,9 +18,9 @@ api_location:
 
 # InterrogateService method of the Win32\_SystemDriver class
 
-The **InterrogateService** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method requests that the system driver service update its state to the service manager.
+The **InterrogateService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method requests that the system driver service update its state to the service manager.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -43,7 +43,7 @@ Returns a value of 0 (zero) if the **InterrogateService** request was accepted, 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -60,16 +60,11 @@ Returns a value of 0 (zero) if the **InterrogateService** request was accepted, 
 [**Win32\_SystemDriver**](win32-systemdriver.md)
 </dt> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_BaseService**](win32-baseservice.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -30,7 +30,7 @@ Sets the currently selected date for a month calendar control. If the specified 
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure that contains the date to be set as the current selection.
+Pointer to a [**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure that contains the date to be set as the current selection.
 
 </dd> </dl>
 
@@ -42,7 +42,7 @@ Returns nonzero if successful, or zero otherwise. This message will fail if appl
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -58,10 +58,4 @@ Returns nonzero if successful, or zero otherwise. This message will fail if appl
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

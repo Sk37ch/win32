@@ -1,5 +1,5 @@
 ---
-Description: Windows Search uses language resources such as word breakers and stemmers to break text in its native locale during index creation and query processing.
+description: Windows Search uses language resources such as word breakers and stemmers to break text in its native locale during index creation and query processing.
 ms.assetid: 6e8ab091-c22c-4425-b8b9-211d53816304
 title: Extending Language Resources
 ms.topic: article
@@ -18,7 +18,7 @@ Windows Search uses language resources such as word breakers and stemmers to bre
 ## Additional Resources
 
 -   For a list of lanuages supported by word breakers, see [Languages Supported by Windows Search](-search-3x-wds-language-support.md).
--   If you need to identify the language of a piece of text, you can use Language Auto-Detection (LAD), which is available in Windows 7 and later. For more information, see [Extended Linguistic Services](https://msdn.microsoft.com/library/Dd317839(v=VS.85).aspx) (ELS).
+-   If you need to identify the language of a piece of text, you can use Language Auto-Detection (LAD), which is available in Windows 7 and later. For more information, see [Extended Linguistic Services](../intl/extended-linguistic-services.md) (ELS).
 -   For applicable reference documentation, see [Data Add-in Interfaces](-search-data-addins-interfaces-entry-page.md).
 
 ## Related topics
@@ -37,6 +37,3 @@ Windows Search uses language resources such as word breakers and stemmers to bre
  
 
  
-
-
-

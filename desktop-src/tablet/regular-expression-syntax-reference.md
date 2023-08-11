@@ -1,5 +1,5 @@
 ---
-Description: You can define and assign custom input scopes using the handwriting regular expression syntax that is understood by some of the Microsoft handwriting recognizers.
+description: You can define and assign custom input scopes using the handwriting regular expression syntax that is understood by some of the Microsoft handwriting recognizers.
 ms.assetid: e3afe735-eca8-4fda-bd5b-cc0ab0b6a872
 title: Regular Expression Syntax Reference
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Regular Expression Syntax Reference
 
-You can define and assign custom input scopes using the handwriting regular expression syntax that is understood by some of the Microsoft handwriting recognizers. The syntax is a subset of the [Regular Expression Language Implementation](https://msdn.microsoft.com/library/default.asp?url=/library/cpgenref/html/cpconRegularExpressionsLanguageElements.asp?frame=true) in the .NET Framework.
+You can define and assign custom input scopes using the handwriting regular expression syntax that is understood by some of the Microsoft handwriting recognizers. The syntax is a subset of the [Regular Expression Language Implementation](/docs/?url=%2flibrary%2fcpgenref%2fhtml%2fcpconRegularExpressionsLanguageElements.asp%3fframe%3dtrue) in the .NET Framework.
 
 There are some differences in the way that handwriting regular expressions are used and the way the other types of regular expressions are used. The handwriting syntax is used to specify an exact string that will be matched by the recognition engine and not a sub-string. For example, the regular expression s(\[a-z\]+)p would return matches for "soup", "stop", "instep", and "esophagus". Whereas, an equivalent handwriting regular expression such as s(!IS\_ONECHAR)+p would match "soup" and "stop", but not "instep" and "esophagus".
 
@@ -45,14 +45,14 @@ Another difference from .NET Framework regular expressions is that handwriting r
 
 ## Using Input Scopes
 
-You can also use the set of regular input scopes that are defined as part of the [**SetInputScope**](https://msdn.microsoft.com/library/ms629025(v=VS.85).aspx) function in your regular expressions. For example, the value for Month (numerical) is IS\_DATE\_MONTH. The syntax for specifying an input scope as part of a regular expression is to prepend the input scope enumerated value with an open parenthesis and an exclamation point, (!, and place a closing parenthesis, ), on the end. For example:
+You can also use the set of regular input scopes that are defined as part of the [**SetInputScope**](/windows/win32/api/inputscope/nf-inputscope-setinputscope) function in your regular expressions. For example, the value for Month (numerical) is IS\_DATE\_MONTH. The syntax for specifying an input scope as part of a regular expression is to prepend the input scope enumerated value with an open parenthesis and an exclamation point, (!, and place a closing parenthesis, ), on the end. For example:
 
 (!IS\_DATE\_MONTH)
 
 If you combine the IS\_DEFAULT input scope by ORing it with any other input scope, the effect is that the recognizer can return either any single expression that the default language model supports (for example, one word from the system dictionary or a date) with or without punctuation, or any value that meets the rest of the regular expression passed in to the recognizer.
 
 > [!Note]  
-> The following members of [**SetInputScope**](https://msdn.microsoft.com/library/ms629025(v=VS.85).aspx) are not supported in regular expressions: IS\_PHRASELIST, IS\_REGULAREXPRESSION, IS\_SRGS, IS\_XML.
+> The following members of [**SetInputScope**](/windows/win32/api/inputscope/nf-inputscope-setinputscope) are not supported in regular expressions: IS\_PHRASELIST, IS\_REGULAREXPRESSION, IS\_SRGS, IS\_XML.
 
  
 
@@ -110,7 +110,3 @@ Another significant difference in writing handwriting regular expressions is tha
  
 
  
-
-
-
-

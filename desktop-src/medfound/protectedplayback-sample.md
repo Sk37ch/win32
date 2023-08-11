@@ -1,5 +1,5 @@
 ---
-Description: Shows how to play protected media content in Microsoft Media Foundation.
+description: Shows how to play protected media content in Microsoft Media Foundation.
 ms.assetid: e4a47e1c-16aa-45c1-8aa8-8929d6e1e653
 title: ProtectedPlayback Sample
 ms.topic: article
@@ -49,12 +49,9 @@ This sample is available in the [Windows classic samples github repository](http
 [Media Foundation SDK Samples](media-foundation-sdk-samples.md)
 </dt> <dt>
 
-[MFPlayer Sample](https://msdn.microsoft.com/library/Bb970516(v=VS.85).aspx)
+[MFPlayer Sample](/previous-versions//bb970516(v=vs.85))
 </dt> </dl>
 
  
 
  
-
-
-

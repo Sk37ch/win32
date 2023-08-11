@@ -40,11 +40,11 @@ Drop-down list box being initialized and a verify or add operation.
 
 
 
-|                                 |                                                                                                                                                                                                                                              |
+| Requirement | Value |
 |---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| FORMATCHOOSE\_CUSTOM\_VERIFY    | The *lParam* parameter is a pointer to a [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd757713(v=VS.85).aspx) structure to be added to the custom Name drop-down list box.                                                                                                   |
-| FORMATCHOOSE\_FORMAT\_ADD       | The *lParam* parameter is a pointer to a buffer that will accept a [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd757713(v=VS.85).aspx) structure to be added to the Format drop-down list box. The application must copy the format structure to be added into this buffer. |
-| FORMATCHOOSE\_FORMAT\_VERIFY    | The *lParam* parameter is a pointer to a [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd757713(v=VS.85).aspx) structure to be added to the Format drop-down list box.                                                                                                        |
+| FORMATCHOOSE\_CUSTOM\_VERIFY    | The *lParam* parameter is a pointer to a [**WAVEFORMATEX**](/windows/win32/api/mmeapi/ns-mmeapi-waveformatex) structure to be added to the custom Name drop-down list box.                                                                                                   |
+| FORMATCHOOSE\_FORMAT\_ADD       | The *lParam* parameter is a pointer to a buffer that will accept a [**WAVEFORMATEX**](/windows/win32/api/mmeapi/ns-mmeapi-waveformatex) structure to be added to the Format drop-down list box. The application must copy the format structure to be added into this buffer. |
+| FORMATCHOOSE\_FORMAT\_VERIFY    | The *lParam* parameter is a pointer to a [**WAVEFORMATEX**](/windows/win32/api/mmeapi/ns-mmeapi-waveformatex) structure to be added to the Format drop-down list box.                                                                                                        |
 | FORMATCHOOSE\_FORMATTAG\_ADD    | The *lParam* parameter is a pointer to a variable that will accept a waveform-audio format tag to be added to the Format Tag drop-down list box.                                                                                             |
 | FORMATCHOOSE\_FORMATTAG\_VERIFY | The *lParam* parameter is a waveform-audio format tag to be listed in the Format Tag drop-down list box.                                                                                                                                     |
 
@@ -77,7 +77,7 @@ If your application is processing an add operation, it can indicate that no more
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
@@ -96,10 +96,4 @@ If your application is processing an add operation, it can indicate that no more
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

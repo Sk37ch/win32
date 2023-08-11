@@ -1,5 +1,5 @@
 ---
-Description: Gets the mesh vertex buffer.
+description: Gets the mesh vertex buffer.
 ms.assetid: 4ea4e99b-5c2c-467b-8b5d-8174c446680a
 title: ID3DXPatchMesh::GetVertexBuffer method (D3DX9Mesh.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT GetVertexBuffer(
 *ppVB* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVERTEXBUFFER9**](https://msdn.microsoft.com/library/Bb205915(v=VS.85).aspx)\***
+Type: **[**LPDIRECT3DVERTEXBUFFER9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvertexbuffer9)\***
 
 Pointer to the vertex buffer.
 
@@ -58,7 +58,7 @@ This method assumes uniform tessellation.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -75,7 +75,3 @@ This method assumes uniform tessellation.
  
 
  
-
-
-
-

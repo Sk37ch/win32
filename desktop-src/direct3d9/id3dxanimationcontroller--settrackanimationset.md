@@ -1,5 +1,5 @@
 ---
-Description: Applies the animation set to the specified track.
+description: Applies the animation set to the specified track.
 ms.assetid: f48bb0f1-3ccd-4db9-8a30-58c79ae0939e
 title: ID3DXAnimationController::SetTrackAnimationSet method (D3dx9anim.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT SetTrackAnimationSet(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Identifier of the track to which the animation set is applied.
 
@@ -68,7 +68,7 @@ This method sets the animation set to the specified track for mixing. The animat
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -85,7 +85,3 @@ This method sets the animation set to the specified track for mixing. The animat
  
 
  
-
-
-
-

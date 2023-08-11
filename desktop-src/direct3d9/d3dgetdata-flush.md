@@ -1,5 +1,5 @@
 ---
-Description: This macro creates the value passed to GetData to flush query data.
+description: This macro creates the value passed to GetData to flush query data.
 ms.assetid: 874fe2d7-d7d8-49eb-8057-e606982527fa
 title: D3DGETDATA_FLUSH (D3d9types.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # D3DGETDATA\_FLUSH
 
-This macro creates the value passed to [**GetData**](https://msdn.microsoft.com/library/Bb205873(v=VS.85).aspx) to flush query data.
+This macro creates the value passed to [**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata) to flush query data.
 
 ``` syntax
 #define D3DGETDATA_FLUSH (1 << 0)
@@ -31,7 +31,7 @@ For more information about using queries, see [Queries (Direct3D 9)](queries.md)
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 
@@ -47,7 +47,3 @@ For more information about using queries, see [Queries (Direct3D 9)](queries.md)
  
 
  
-
-
-
-

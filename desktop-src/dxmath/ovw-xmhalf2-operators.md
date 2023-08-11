@@ -1,5 +1,5 @@
 ---
-Description: The XMHALF2 structure exposes the following operators.
+description: The XMHALF2 structure exposes the following operators.
 ms.assetid: d5f2936e-a795-44e2-9568-ca7f365d9b34
 title: XMHALF2 Operators
 ms.topic: reference
@@ -21,7 +21,7 @@ The [**XMHALF2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvecto
 
 | Methods                                              | Description                                                                                                        |
 |------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://msdn.microsoft.com/library/Ee419662(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMHALF2` to the current instance of `XMHALF2`. <br/> |
+| [**operator =**](/windows/win32/api/directxpackedvector/nf-directxpackedvector-xmhalf2-operator-assign)<br/> | Assigns the vector component data from one instance of `XMHALF2` to the current instance of `XMHALF2`. <br/> |
 
 
 
@@ -43,7 +43,3 @@ The [**XMHALF2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvecto
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Defines a range.
+description: Defines a range.
 ms.assetid: 28e8c478-f6ce-4f75-95c6-ea2d08424238
 title: D3DRANGE structure (D3D9Types.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ typedef struct D3DRANGE {
 **Offset**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -49,7 +49,7 @@ Offset, in bytes.
 **Size**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -61,7 +61,7 @@ Size, in bytes.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 
@@ -77,7 +77,3 @@ Size, in bytes.
  
 
  
-
-
-
-

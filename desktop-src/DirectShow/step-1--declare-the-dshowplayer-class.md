@@ -1,12 +1,15 @@
 ---
-Description: This topic is step 1 of the tutorial Audio/Video Playback in DirectShow.
+description: This topic is step 1 of the tutorial Audio/Video Playback in DirectShow.
 ms.assetid: 3ccd201d-e60d-40bf-a602-6d42df03b36b
 title: 'Step 1: Declare the DShowPlayer Class'
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Step 1: Declare the DShowPlayer Class
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This topic is step 1 of the tutorial [Audio/Video Playback in DirectShow](audio-video-playback-in-directshow.md). The complete code is shown in the topic [DirectShow Playback Example](directshow-playback-example.md).
 
@@ -79,7 +82,7 @@ Notes:
 -   The constant WM\_GRAPH\_EVENT defines a private window message. This message is used to notify the application about filter graph events. See [Step 6: Handle Graph Events](step-6--handle-graph-events.md).
 -   `GraphEventFN` is a pointer to a callback function for handling filter graph events. The application implements this callback function.
 -   The *m\_pVideo* member variable provides a wrapper for the various DirectShow video renderers. See [Step 2: Declare CVideoRenderer and Derived Classes](step-2--declare-cvideorenderer-and-derived-classes.md).
--   Throughout this tutorial, the [SafeRelease](https://msdn.microsoft.com/library/Dd940435(v=VS.85).aspx) function is used to release COM interface pointers.
+-   Throughout this tutorial, the [SafeRelease](../medfound/saferelease.md) function is used to release COM interface pointers.
 
 Next: [Step 2: Declare CVideoRenderer and Derived Classes](step-2--declare-cvideorenderer-and-derived-classes.md).
 
@@ -93,6 +96,3 @@ Next: [Step 2: Declare CVideoRenderer and Derived Classes](step-2--declare-cvide
  
 
  
-
-
-

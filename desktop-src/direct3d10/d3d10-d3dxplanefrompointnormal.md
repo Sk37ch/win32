@@ -1,22 +1,25 @@
 ---
-Description: Constructs a plane from a point and a normal.
+description: D3DXPlaneFromPointNormal function (D3DX10Math.h) - Constructs a plane from a point and a normal.
 ms.assetid: 93c644d2-ab8c-47a1-9a3b-8b9c6a13178b
 title: D3DXPlaneFromPointNormal function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXPlaneFromPointNormal
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXPlaneFromPointNormal function
+# D3DXPlaneFromPointNormal function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Constructs a plane from a point and a normal.
 
@@ -40,7 +43,7 @@ D3DXPLANE* D3DXPlaneFromPointNormal(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXPLANE**](https://msdn.microsoft.com/library/Bb205385(v=VS.85).aspx)\***
+Type: **[**D3DXPLANE**](../direct3d9/d3dxplane.md)\***
 
 Pointer to the [**D3DXPLANE**](d3d10-d3dxplane.md) that is the result of the operation.
 
@@ -49,7 +52,7 @@ Pointer to the [**D3DXPLANE**](d3d10-d3dxplane.md) that is the result of the ope
 *pPoint* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md), defining the point used to construct the plane.
 
@@ -58,7 +61,7 @@ Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md), defining the point used to
 *pNormal* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to a D3DXVECTOR3 structure, defining the normal used to construct the plane.
 
@@ -66,7 +69,7 @@ Pointer to a D3DXVECTOR3 structure, defining the normal used to construct the pl
 
 ## Return value
 
-Type: **[**D3DXPLANE**](https://msdn.microsoft.com/library/Bb205385(v=VS.85).aspx)\***
+Type: **[**D3DXPLANE**](../direct3d9/d3dxplane.md)\***
 
 Pointer to the D3DXPLANE structure constructed from the point and the normal.
 
@@ -78,7 +81,7 @@ The return value for this function is the same value returned in the pOut parame
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -95,7 +98,3 @@ The return value for this function is the same value returned in the pOut parame
  
 
  
-
-
-
-

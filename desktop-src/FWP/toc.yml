@@ -216,7 +216,7 @@
         href: management-types.md
         items: 
         - name: "DL_ADDRESS_TYPE"
-          href: https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-__midl___midl_itf_fwpmtypes_0000_0000_0001
+          href: /windows/win32/api/fwpmtypes/ne-fwpmtypes-dl_address_type
         - name: "FWPM_APPC_NETWORK_CAPABILITY_TYPE"
           href: /windows/win32/api/Fwpmtypes/ne-fwpmtypes-fwpm_appc_network_capability_type
         - name: "FWPM_CHANGE_TYPE"
@@ -241,7 +241,7 @@
         href: shared-types.md
         items: 
         - name: "FWP_AF"
-          href: /windows/desktop/api/Fwptypes/ne-fwptypes-fwp_ne_family_
+          href: /windows/win32/api/fwptypes/ne-fwptypes-fwp_af
         - name: "FWP_CLASSIFY_OPTION_TYPE"
           href: /windows/win32/api/Fwptypes/ne-fwptypes-fwp_classify_option_type
         - name: "FWP_DATA_TYPE"
@@ -308,7 +308,7 @@
         - name: "IPSEC_KEY_MANAGER_NOTIFY_KEY0"
           href: /windows/desktop/api/fwpmu/nc-fwpmu-ipsec_key_manager_notify_key0
         - name: "IPSEC_SA_CONTEXT_CALLBACK0"
-          href: https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-ipsec_sa_context_callback0
+          href: /windows/desktop/api/fwpmu/nc-fwpmu-ipsec_sa_context_callback0
         - name: "IPsecDospGetSecurityInfo0"
           href: /windows/desktop/api/Fwpmu/nf-fwpmu-ipsecdospgetsecurityinfo0
         - name: "IPsecDospGetStatistics0"
@@ -396,7 +396,7 @@
           href: callout-management.md
           items: 
           - name: "FWPM_CALLOUT_CHANGE_CALLBACK0"
-            href: https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_callout_change_callback0
+            href: /windows/desktop/api/fwpmu/nc-fwpmu-fwpm_callout_change_callback0
           - name: "FwpmCalloutAdd0"
             href: /windows/desktop/api/Fwpmu/nf-fwpmu-fwpmcalloutadd0
           - name: "FwpmCalloutCreateEnumHandle0"
@@ -427,7 +427,7 @@
           href: connection-object-management.md
           items: 
           - name: "FWPM_CONNECTION_CALLBACK0"
-            href: https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_connection_callback0
+            href: /windows/desktop/api/fwpmu/nc-fwpmu-fwpm_connection_callback0
           - name: "FwpmConnectionCreateEnumHandle0"
             href: /windows/desktop/api/Fwpmu/nf-fwpmu-fwpmconnectioncreateenumhandle0
           - name: "FwpmConnectionDestroyEnumHandle0"
@@ -450,7 +450,7 @@
           href: event-management.md
           items: 
           - name: "FWPM_NET_EVENT_CALLBACK0"
-            href: https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_net_event_callback0
+            href: /windows/desktop/api/fwpmu/nc-fwpmu-fwpm_net_event_callback0
           - name: "FWPM_NET_EVENT_CALLBACK1"
             href: /windows/desktop/api/fwpmu/nc-fwpmu-fwpm_net_event_callback1
           - name: "FWPM_NET_EVENT_CALLBACK2"
@@ -485,7 +485,7 @@
           href: filter-management.md
           items: 
           - name: "FWPM_FILTER_CHANGE_CALLBACK0"
-            href: https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_filter_change_callback0
+            href: /windows/desktop/api/fwpmu/nc-fwpmu-fwpm_filter_change_callback0
           - name: "FwpmFilterAdd0"
             href: /windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilteradd0
           - name: "FwpmFilterCreateEnumHandle0"
@@ -535,7 +535,7 @@
           href: provider-context-management.md
           items: 
           - name: "FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0"
-            href: https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_provider_context_change_callback0
+            href: /windows/desktop/api/fwpmu/nc-fwpmu-fwpm_provider_context_change_callback0
           - name: "FwpmProviderContextAdd0"
             href: /windows/desktop/api/Fwpmu/nf-fwpmu-fwpmprovidercontextadd0
           - name: "FwpmProviderContextAdd1"
@@ -582,7 +582,7 @@
           href: provider-management.md
           items: 
           - name: "FWPM_PROVIDER_CHANGE_CALLBACK0"
-            href: https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_provider_change_callback0
+            href: /windows/desktop/api/fwpmu/nc-fwpmu-fwpm_provider_change_callback0
           - name: "FwpmProviderAdd0"
             href: /windows/desktop/api/Fwpmu/nf-fwpmu-fwpmprovideradd0
           - name: "FwpmProviderCreateEnumHandle0"
@@ -630,7 +630,7 @@
           href: sub-layer-management.md
           items: 
           - name: "FWPM_SUBLAYER_CHANGE_CALLBACK0"
-            href: https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_sublayer_change_callback0
+            href: /windows/desktop/api/fwpmu/nc-fwpmu-fwpm_sublayer_change_callback0
           - name: "FwpmSubLayerAdd0"
             href: /windows/desktop/api/Fwpmu/nf-fwpmu-fwpmsublayeradd0
           - name: "FwpmSubLayerCreateEnumHandle0"
@@ -657,7 +657,7 @@
           href: system-ports-management.md
           items: 
           - name: "FWPM_SYSTEM_PORTS_CALLBACK0"
-            href: https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_system_ports_callback0
+            href: /windows/desktop/api/fwpmu/nc-fwpmu-fwpm_system_ports_callback0
           - name: "FwpmSystemPortsGet0"
             href: /windows/desktop/api/Fwpmu/nf-fwpmu-fwpmsystemportsget0
           - name: "FwpmSystemPortsSubscribe0"
@@ -677,7 +677,7 @@
           href: vswitch-management.md
           items: 
           - name: "FWPM_VSWITCH_EVENT_CALLBACK0"
-            href: https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_vswitch_event_callback0
+            href: /windows/desktop/api/fwpmu/nc-fwpmu-fwpm_vswitch_event_callback0
           - name: "FwpmvSwitchEventsGetSecurityInfo0"
             href: /windows/desktop/api/Fwpmu/nf-fwpmu-fwpmvswitcheventsgetsecurityinfo0
           - name: "FwpmvSwitchEventsSetSecurityInfo0"
@@ -748,7 +748,7 @@
         - name: "IKEEXT_CREDENTIAL_PAIR2"
           href: /windows/win32/api/iketypes/ns-iketypes-ikeext_credential_pair2
         - name: "IKEEXT_EAP_AUTHENTICATION0"
-          href: /windows/desktop/api/Iketypes/ns-iketypes-ikeext_eap_authentication0__
+          href: /windows/desktop/api/Iketypes/ns-iketypes-ikeext_eap_authentication0
         - name: "IKEEXT_EM_POLICY0"
           href: /windows/win32/api/Iketypes/ns-iketypes-ikeext_em_policy0
         - name: "IKEEXT_EM_POLICY1"
@@ -768,9 +768,9 @@
         - name: "IKEEXT_IPV6_CGA_AUTHENTICATION0"
           href: /windows/win32/api/Iketypes/ns-iketypes-ikeext_ipv6_cga_authentication0
         - name: "IKEEXT_KERBEROS_AUTHENTICATION0"
-          href: /windows/desktop/api/Iketypes/ns-iketypes-ikeext_kerberos_authentication0__
+          href: /windows/desktop/api/Iketypes/ns-iketypes-ikeext_kerberos_authentication0
         - name: "IKEEXT_KERBEROS_AUTHENTICATION1"
-          href: /windows/desktop/api/iketypes/ns-iketypes-ikeext_kerberos_authentication1__
+          href: /windows/desktop/api/iketypes/ns-iketypes-ikeext_kerberos_authentication1
         - name: "IKEEXT_KEYMODULE_STATISTICS0"
           href: /windows/win32/api/Iketypes/ns-iketypes-ikeext_keymodule_statistics0
         - name: "IKEEXT_KEYMODULE_STATISTICS1"
@@ -778,7 +778,7 @@
         - name: "IKEEXT_NAME_CREDENTIAL0"
           href: /windows/win32/api/Iketypes/ns-iketypes-ikeext_name_credential0
         - name: "IKEEXT_NTLM_V2_AUTHENTICATION0"
-          href: /windows/desktop/api/Iketypes/ns-iketypes-ikeext_ntlm_v2_authentication0__
+          href: /windows/desktop/api/Iketypes/ns-iketypes-ikeext_ntlm_v2_authentication0
         - name: "IKEEXT_POLICY0"
           href: /windows/win32/api/Iketypes/ns-iketypes-ikeext_policy0
         - name: "IKEEXT_POLICY1"
@@ -786,13 +786,13 @@
         - name: "IKEEXT_POLICY2"
           href: /windows/win32/api/iketypes/ns-iketypes-ikeext_policy2
         - name: "IKEEXT_PRESHARED_KEY_AUTHENTICATION0"
-          href: /windows/desktop/api/Iketypes/ns-iketypes-ikeext_preshared_key_authentication0__
+          href: /windows/desktop/api/Iketypes/ns-iketypes-ikeext_preshared_key_authentication0
         - name: "IKEEXT_PRESHARED_KEY_AUTHENTICATION1"
-          href: /windows/desktop/api/Iketypes/ns-iketypes-ikeext_preshared_key_authentication1__
+          href: /windows/desktop/api/Iketypes/ns-iketypes-ikeext_preshared_key_authentication1
         - name: "IKEEXT_PROPOSAL0"
           href: /windows/win32/api/Iketypes/ns-iketypes-ikeext_proposal0
         - name: "IKEEXT_RESERVED_AUTHENTICATION0"
-          href: /windows/desktop/api/Iketypes/ns-iketypes-ikeext_reserved_authentication0__
+          href: /windows/desktop/api/Iketypes/ns-iketypes-ikeext_reserved_authentication0
         - name: "IKEEXT_SA_DETAILS0"
           href: /windows/win32/api/Iketypes/ns-iketypes-ikeext_sa_details0
         - name: "IKEEXT_SA_DETAILS1"

@@ -6,10 +6,13 @@ keywords:
 - Video for Windows (VFW),VCM functions
 - VFW (Video for Windows),VCM functions
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Video Compression Functions
+
+\[The feature associated with this page, [Video Compression Manager](/windows/win32/multimedia/video-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 The following functions are used with video compression.
 
@@ -39,7 +42,7 @@ The following functions are used with video compression.
 -   [**ICSeqCompressFrameEnd**](/windows/desktop/api/Vfw/nf-vfw-icseqcompressframeend)
 -   [**ICSeqCompressFrameStart**](/windows/desktop/api/Vfw/nf-vfw-icseqcompressframestart)
 -   [**ICSetStatusProc**](/windows/desktop/api/Vfw/nf-vfw-icsetstatusproc)
--   [**MyStatusProc**](https://msdn.microsoft.com/library/Dd743620(v=VS.85).aspx)
+-   [**MyStatusProc**](/previous-versions//dd743620(v=vs.85))
 
 ## Related topics
 
@@ -51,7 +54,3 @@ The following functions are used with video compression.
  
 
  
-
-
-
-

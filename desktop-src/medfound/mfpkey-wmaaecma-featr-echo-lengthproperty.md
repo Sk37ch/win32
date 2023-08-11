@@ -1,5 +1,5 @@
 ---
-Description: Specifies the duration of echo that the acoustic echo cancellation (AEC) algorithm can handle, in milliseconds.
+description: Specifies the duration of echo that the acoustic echo cancellation (AEC) algorithm can handle, in milliseconds.
 ms.assetid: d451b90f-7ef7-4f66-be83-aca93e3ad894
 title: MFPKEY_WMAAECMA_FEATR_ECHO_LENGTH Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Specifies the duration of echo that the acoustic echo cancellation (AEC) algorit
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -43,7 +43,7 @@ The DSP uses this property only when AEC processing is enabled.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
@@ -64,7 +64,3 @@ The DSP uses this property only when AEC processing is enabled.
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Copies the logical shortcut file or directory specified in the object path to the location specified by the FileName parameter. This method is an extended version of the Copy method.
+description: Copies the logical shortcut file or directory specified in the object path to the location specified by the FileName parameter. This method is an extended version of the Copy method.
 ms.assetid: 06b629bb-d35e-4bc2-b0e5-c6a981b6d968
 ms.tgt_platform: multiple
 title: CopyEx method of the Win32_ShortcutFile class
@@ -18,9 +18,9 @@ api_location:
 
 # CopyEx method of the Win32\_ShortcutFile class
 
-The **CopyEx** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method copies the logical shortcut file or directory specified in the object path to the location specified by the *FileName* parameter. This method is an extended version of the [**Copy**](copy-method-in-class-win32-directory.md) method. A copy is not supported if overwriting an existing logical file is required.
+The **CopyEx** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method copies the logical shortcut file or directory specified in the object path to the location specified by the *FileName* parameter. This method is an extended version of the [**Copy**](copy-method-in-class-win32-directory.md) method. A copy is not supported if overwriting an existing logical file is required.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -176,7 +176,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -190,16 +190,11 @@ A parameter specified is not valid.
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_ShortcutFile**](win32-shortcutfile.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

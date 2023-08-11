@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DirectorySpecificationFile association represents the directory that contains the file specified by referencing the CIM\_DirectorySpecification class.
+description: The CIM\_DirectorySpecificationFile association represents the directory that contains the file specified by referencing the CIM\_DirectorySpecification class.
 ms.assetid: 57fe996e-6bd4-4070-9e99-460b2a36243f
 ms.tgt_platform: multiple
 title: CIM_DirectorySpecificationFile class
@@ -61,7 +61,7 @@ Data type: **CIM\_DirectorySpecification**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0)
+Qualifiers: [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (0)
 </dt> </dl>
 
 Reference to the directory specification.
@@ -77,7 +77,7 @@ Data type: **CIM\_FileSpecification**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0)
+Qualifiers: [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (0)
 </dt> </dl>
 
 Reference to the file specification.
@@ -94,7 +94,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -105,9 +105,4 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
  
-
- 
-
-
-
 

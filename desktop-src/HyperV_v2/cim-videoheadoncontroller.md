@@ -1,5 +1,5 @@
 ---
-Description: Associates a video head with the video adapter that contains it.
+description: Associates a video head with the video adapter that contains it.
 ms.assetid: d15f4350-1529-4246-9ea2-8453e52516c6
 title: CIM_VideoHeadOnController class
 ms.topic: reference
@@ -53,7 +53,7 @@ Data type: **CIM\_DisplayController**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 The video adapter that includes the head.
@@ -69,7 +69,7 @@ Data type: **CIM\_VideoHead**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 The head on the video adapter.
@@ -80,7 +80,7 @@ The head on the video adapter.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -98,9 +98,4 @@ The head on the video adapter.
 </dt> </dl>
 
  
-
- 
-
-
-
 

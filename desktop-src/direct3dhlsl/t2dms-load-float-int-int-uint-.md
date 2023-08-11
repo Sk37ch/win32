@@ -1,6 +1,6 @@
 ---
 title: Texture2DMS::Load(int,int,int,uint) function
-description: Reads texture data and returns status of the operation.
+description: Reads texture data and returns status of the operation. | Texture2DMS::Load(int,int,int,uint) function
 ms.assetid: 4230962C-2968-4030-9770-8318F1760AEB
 keywords:
 - Load function HLSL
@@ -15,19 +15,19 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Load(int,int,int,uint) function
+# Texture2DMS::Load(int,int,int,uint) function
 
 Reads texture data and returns status of the operation.
 
 ## Syntax
 
 
-```C++
+``` syntax
  Load(
-  _In_  int2 Location,
-  _In_  int  sampleindex,
-  _In_  int2 Offset,
-  _Out_ uint Status
+  in  int2 Location,
+  in  int  sampleindex,
+  in  int2 Offset,
+  out uint Status
 );
 ```
 
@@ -49,7 +49,7 @@ The texture coordinates.
 *sampleindex* \[in\]
 </dt> <dd>
 
-Type: **[**int**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**int**](/windows/desktop/WinProg/windows-data-types)**
 
 The sample index.
 
@@ -69,7 +69,7 @@ An offset applied to the texture coordinates before loading.
 
 Type: **uint**
 
-The status of the operation. You can't access the status directly; instead, pass the status to the [**CheckAccessFullyMapped**](checkaccessfullymapped.md) intrinsic function. **CheckAccessFullyMapped** returns **TRUE** if all values from the corresponding **Sample**, **Gather**, or **Load** operation accessed mapped tiles in a [tiled resource](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-2-features). If any values were taken from an unmapped tile, **CheckAccessFullyMapped** returns **FALSE**.
+The status of the operation. You can't access the status directly; instead, pass the status to the [**CheckAccessFullyMapped**](checkaccessfullymapped.md) intrinsic function. **CheckAccessFullyMapped** returns **TRUE** if all values from the corresponding **Sample**, **Gather**, or **Load** operation accessed mapped tiles in a [tiled resource](/windows/desktop/direct3d11/direct3d-11-2-features). If any values were taken from an unmapped tile, **CheckAccessFullyMapped** returns **FALSE**.
 
 </dd> </dl>
 
@@ -92,7 +92,3 @@ The return type matches the type in the declaration for the [**Texture2DMS**](sm
  
 
  
-
-
-
-

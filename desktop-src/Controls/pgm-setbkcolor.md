@@ -40,13 +40,13 @@ Returns a **COLORREF** value that contains the previous background color.
 
 ## Remarks
 
-By default, the pager control will use the system button face color as the background color. This is the same color that can be retrieved by calling [**GetSysColorBrush**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolorbrush) with COLOR\_BTNFACE.
+By default, the pager control will use the system button face color as the background color. This is the same color that can be retrieved by calling [**GetSysColorBrush**](/windows/desktop/api/winuser/nf-winuser-getsyscolorbrush) with COLOR\_BTNFACE.
 
 ## Requirements
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -55,10 +55,4 @@ By default, the pager control will use the system button face color as the backg
 
 
  
-
- 
-
-
-
-
 

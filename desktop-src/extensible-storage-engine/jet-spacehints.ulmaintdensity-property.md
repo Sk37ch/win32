@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SPACEHINTS.ulMaintDensity property"
 title: JET_SPACEHINTS.ulMaintDensity property 
 TOCTitle: 'ulMaintDensity property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS.ulMaintDensity
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the density at which to maintain.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,15 +58,14 @@ public int ulMaintDensity { get; set; }
 
 #### Property value
 
-Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+Type: [System.Int32](/dotnet/api/system.int32)  
 
 ## See also
 
 #### Reference
 
-[JET_SPACEHINTS class](dn351095\(v=exchg.10\).md)
+[JET_SPACEHINTS class](./jet-spacehints-class.md)
 
-[JET_SPACEHINTS members](dn351096\(v=exchg.10\).md)
+[JET_SPACEHINTS members](./jet-spacehints-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

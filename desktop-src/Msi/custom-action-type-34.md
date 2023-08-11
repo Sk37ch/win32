@@ -1,5 +1,5 @@
 ---
-Description: Developers of Windows Installer packages may choose to use a custom action type 34 when the standard actions are insufficient to execute the installation.
+description: Developers of Windows Installer packages may choose to use a custom action type 34 when the standard actions are insufficient to execute the installation.
 ms.assetid: 4d0e4f01-0530-4202-bc78-b6e52670b8e5
 title: Custom Action Type 34
 ms.topic: article
@@ -50,7 +50,7 @@ Custom actions that are [executable files](executable-files.md) must return a va
 
 ## Remarks
 
-A custom action that launches an executable takes a command line, which commonly contains properties that are designated dynamically. If this is also a [deferred execution custom action](deferred-execution-custom-actions.md), the installer uses [**CreateProcessAsUser**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) or [**CreateProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) to create the process when the custom action is invoked from the installation script.
+A custom action that launches an executable takes a command line, which commonly contains properties that are designated dynamically. If this is also a [deferred execution custom action](deferred-execution-custom-actions.md), the installer uses [**CreateProcessAsUser**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) or [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) to create the process when the custom action is invoked from the installation script.
 
 ## Related topics
 
@@ -62,6 +62,3 @@ A custom action that launches an executable takes a command line, which commonly
  
 
  
-
-
-

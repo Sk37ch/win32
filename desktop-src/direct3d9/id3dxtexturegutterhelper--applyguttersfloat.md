@@ -1,5 +1,5 @@
 ---
-Description: Applies gutters to a FLOAT texture buffer.
+description: Applies gutters to a FLOAT texture buffer.
 ms.assetid: 822483d7-ae62-498a-bce7-3a925ab21c04
 title: ID3DXTextureGutterHelper::ApplyGuttersFloat method (D3DX9Mesh.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ HRESULT ApplyGuttersFloat(
 *pDataIn* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to a buffer of FLOAT texture data.
 
@@ -50,7 +50,7 @@ Pointer to a buffer of FLOAT texture data.
 *NumCoeffs* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Number of scalars per color channel used in memory to store samples. Each texel contains NumCoeffs FLOAT values.
 
@@ -59,7 +59,7 @@ Number of scalars per color channel used in memory to store samples. Each texel 
 *Width* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Width of the texture, in pixels, obtained from [**ID3DXTextureGutterHelper::GetWidth**](id3dxtexturegutterhelper--getwidth.md).
 
@@ -68,7 +68,7 @@ Width of the texture, in pixels, obtained from [**ID3DXTextureGutterHelper::GetW
 *Height* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Height of the texture, in pixels, obtained from [**ID3DXTextureGutterHelper::GetHeight**](id3dxtexturegutterhelper--getheight.md).
 
@@ -88,7 +88,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -105,7 +105,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
  
 
  
-
-
-
-

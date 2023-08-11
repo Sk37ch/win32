@@ -65,7 +65,7 @@ The CLSID for this effect is CLSID\_D2D1DpiCompensation.
 
 
 
-|                          |                                                                                    |
+| Requirement | Value |
 |--------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
@@ -80,14 +80,8 @@ The CLSID for this effect is CLSID\_D2D1DpiCompensation.
 
 <dl> <dt>
 
-[**ID2D1Effect**](https://msdn.microsoft.com/library/Hh404566(v=VS.85).aspx)
+[**ID2D1Effect**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1effect)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

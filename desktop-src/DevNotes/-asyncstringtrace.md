@@ -1,5 +1,5 @@
 ---
-Description: Finishes setting up a trace buffer with optional fields for sprintf-style traces.
+description: AsyncStringTrace function - Finishes setting up a trace buffer with optional fields for sprintf-style traces.
 ms.assetid: a5f3ecbe-d335-4fd0-99aa-4d5a748ca4e1
 title: AsyncStringTrace function
 ms.topic: reference
@@ -65,24 +65,19 @@ This function returns the length of the trace statement, in bytes.
 
 Exstrace.dll is an optional component that installs with the Simple Mail Transfer Protocol (SMTP) and the Network News Transfer Protocol (NNTP).
 
-The **va\_list** data type is a standard type that is used to hold information needed by **va\_arg** and **va\_end** macros. For more information, see [Standard Types](https://msdn.microsoft.com/library/323b6b3k.aspx).
+The **va\_list** data type is a standard type that is used to hold information needed by **va\_arg** and **va\_end** macros. For more information, see [Standard Types](/cpp/c-runtime-library/standard-types).
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Exstrace.dll</dt> </dl> |
 
 
 
  
-
- 
-
-
-
 

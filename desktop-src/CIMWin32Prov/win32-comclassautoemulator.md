@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_ComClassAutoEmulator association WMI class relates a Component Object Model (COM) class and another COM class that it automatically emulates.
+description: The Win32\_ComClassAutoEmulator association WMI class relates a Component Object Model (COM) class and another COM class that it automatically emulates.
 ms.assetid: e060ba26-98e7-47cb-bf21-1ca80d0e8a07
 ms.tgt_platform: multiple
 title: Win32_ComClassAutoEmulator class
@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_ComClassAutoEmulator class
 
-The **Win32\_ComClassAutoEmulator** association [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) relates a Component Object Model (COM) class and another COM class that it automatically emulates.
+The **Win32\_ComClassAutoEmulator** association [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) relates a Component Object Model (COM) class and another COM class that it automatically emulates.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_ClassicCOMClass**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_ClassicCOMClass")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_ClassicCOMClass")
 </dt> </dl>
 
 Reference to the instance representing the COM component that can automatically emulate the associated COM component. This information is obtained through the AutoTreatAs registry entry.
@@ -72,7 +72,7 @@ Data type: **Win32\_ClassicCOMClass**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_ClassicCOMClass")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_ClassicCOMClass")
 </dt> </dl>
 
 Reference to the instance representing the COM component that is automatically emulated by another component.
@@ -83,7 +83,7 @@ Reference to the instance representing the COM component that is automatically e
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -97,13 +97,8 @@ Reference to the instance representing the COM component that is automatically e
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
 

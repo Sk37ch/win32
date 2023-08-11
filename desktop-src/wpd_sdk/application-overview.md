@@ -1,5 +1,5 @@
 ---
-Description: Application Overview
+description: Application Overview
 ms.assetid: 14131e33-2b50-4af7-910c-b4cd5267ed34
 title: Application Overview
 ms.topic: article
@@ -18,12 +18,9 @@ The WPD infrastructure offers highly extensible device representation and contro
 
 <dl> <dt>
 
-[**Windows Portable Devices**](https://docs.microsoft.com/windows/desktop/windows-portable-devices)
+[**Windows Portable Devices**](/windows/desktop/windows-portable-devices)
 </dt> </dl>
 
  
 
  
-
-
-

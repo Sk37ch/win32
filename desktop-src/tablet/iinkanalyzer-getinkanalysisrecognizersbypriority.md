@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an ordered collection of IInkAnalysisRecognizer objects.
+description: Retrieves an ordered collection of IInkAnalysisRecognizer objects.
 ms.assetid: 67399237-38e2-4905-a97c-10ca72c7799b
 title: IInkAnalyzer::GetInkAnalysisRecognizersByPriority method (IACom.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppInkAnalysisRecognizers* when you no longer need to use the object.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppInkAnalysisRecognizers* when you no longer need to use the object.
 
  
 
@@ -60,7 +60,7 @@ If more than one [**IInkAnalysisRecognizer**](iinkanalysisrecognizer.md) support
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -86,9 +86,4 @@ If more than one [**IInkAnalysisRecognizer**](iinkanalysisrecognizer.md) support
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves information about other collections related to the collection from which it is called.
+description: Retrieves information about other collections related to the collection from which it is called.
 ms.assetid: daea5b23-6a13-46f4-89c8-0d93b614311e
 title: RelatedCollectionInfo collection
 ms.topic: reference
@@ -22,7 +22,7 @@ This collection does not support the [**Add**](/windows/desktop/api/ComAdmin/nf-
 
 ## Members
 
-The **RelatedCollectionInfo** collection inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
+The **RelatedCollectionInfo** collection inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Related Collections
 
@@ -43,7 +43,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                            |
+| Entry | Value |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The name of the related collection. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) or [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                                                                   |
@@ -65,6 +65,3 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
  
 
  
-
-
-

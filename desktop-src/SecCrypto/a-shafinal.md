@@ -1,5 +1,5 @@
 ---
-Description: Computes the final hash of the data entered by the MD5Update function.
+description: Computes the final hash of the data entered by the A_SHAUpdate function.
 ms.assetid: A0457D26-F4E3-4ED4-B374-0AFCB6F661FB
 title: A_SHAFinal function (Sha.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # A\_SHAFinal function
 
-Computes the final hash of the data entered by the MD5Update function.
+Computes the final hash of the data entered by the A_SHAUpdate function.
 
 ## Syntax
 
@@ -55,13 +55,13 @@ This function does not return a value.
 
 ## Remarks
 
-This function is very similar to SHAFinal, but is called directly from the library, rather than being routed through the cryptography infrastructure. For more information, see [Windows NTCryptographic Providers](https://docs.microsoft.com/previous-versions/tn-archive/cc723484(v=technet.10)).
+This function is very similar to SHAFinal, but is called directly from the library, rather than being routed through the cryptography infrastructure. For more information, see [Windows NTCryptographic Providers](/previous-versions/tn-archive/cc723484(v=technet.10)).
 
 ## Requirements
 
 
 
-|                    |                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Sha.h</dt> </dl>     |
 | Library<br/> | <dl> <dt>Ntdll.dll</dt> </dl> |
@@ -72,7 +72,3 @@ This function is very similar to SHAFinal, but is called directly from the libra
  
 
  
-
-
-
-

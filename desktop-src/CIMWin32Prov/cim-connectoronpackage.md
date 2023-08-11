@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ConnectorOnPackage class represents an association that makes explicit the containment relationship between connectors and packages. Physical packages contain connectors as well as other physical elements.
+description: The CIM\_ConnectorOnPackage class represents an association that makes explicit the containment relationship between connectors and packages. Physical packages contain connectors as well as other physical elements.
 ms.assetid: 67cfb8c7-b952-452c-aeb4-0f06b2b0570b
 ms.tgt_platform: multiple
 title: CIM_ConnectorOnPackage class
@@ -63,7 +63,7 @@ Data type: **CIM\_PhysicalPackage**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 A [**CIM\_PhysicalPackage**](cim-physicalpackage.md) that describes the physical package that has a connector.
@@ -94,7 +94,7 @@ Data type: **CIM\_PhysicalConnector**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
 </dt> </dl>
 
 A [**CIM\_PhysicalConnector**](cim-physicalconnector.md) that describes the physical connector.
@@ -113,7 +113,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -131,9 +131,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

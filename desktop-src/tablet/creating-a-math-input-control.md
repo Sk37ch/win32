@@ -1,5 +1,5 @@
 ---
-Description: Explains how to create a math input control.
+description: Explains how to create a math input control.
 ms.assetid: 59976b01-9032-4226-a160-e9b2d4b8b23b
 title: Creating a Math Input Control
 ms.topic: article
@@ -65,7 +65,7 @@ After calling CoInitialize on the control pointer, you have a reference to the c
 
 ## Show the Control
 
-The control will not automatically appear after you create it. To show the control, call the [**Show**](/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-show) method on the control reference that you created in the previous step. The following code demonstrates how the [**Show**](https://msdn.microsoft.com/library/ms703289(v=VS.85).aspx) method can be called.
+The control will not automatically appear after you create it. To show the control, call the [**Show**](/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-show) method on the control reference that you created in the previous step. The following code demonstrates how the [**Show**](/windows/win32/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_autoshow) method can be called.
 
 
 ```
@@ -84,6 +84,3 @@ Note that I have enabled the extended set of buttons so that **Redo** and **Undo
  
 
  
-
-
-

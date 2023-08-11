@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_DELETE command removes data from the file. Digital-video and waveform-audio devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function with the following parameters.
 
 
 ```C++
@@ -130,7 +130,7 @@ For waveform-audio devices, the *lpDelete* parameter points to an [**MCI\_WAVE\_
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -149,10 +149,4 @@ For waveform-audio devices, the *lpDelete* parameter points to an [**MCI\_WAVE\_
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Defines a set of lighting properties.
+description: Defines a set of lighting properties.
 ms.assetid: 25ce9d72-949c-41fc-8e3b-146d6a2de0dc
 title: D3DLIGHT9 structure (D3D9Types.h)
 ms.topic: reference
@@ -49,11 +49,11 @@ typedef struct D3DLIGHT9 {
 **Type**
 </dt> <dd>
 
-Type: **[**D3DLIGHTTYPE**](https://msdn.microsoft.com/library/Bb172567(v=VS.85).aspx)**
+Type: **[**D3DLIGHTTYPE**](./d3dlighttype.md)**
 
 </dd> <dd>
 
-Type of the light source. This value is one of the members of the [**D3DLIGHTTYPE**](https://msdn.microsoft.com/library/Bb172567(v=VS.85).aspx) enumerated type.
+Type of the light source. This value is one of the members of the [**D3DLIGHTTYPE**](./d3dlighttype.md) enumerated type.
 
 </dd> <dt>
 
@@ -195,7 +195,7 @@ Angle, in radians, defining the outer edge of the spotlight's outer cone. Points
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 
@@ -208,16 +208,12 @@ Angle, in radians, defining the outer edge of the spotlight's outer cone. Points
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetLight**](https://msdn.microsoft.com/library/Bb174392(v=VS.85).aspx)
+[**GetLight**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getlight)
 </dt> <dt>
 
-[**SetLight**](https://msdn.microsoft.com/library/Bb174436(v=VS.85).aspx)
+[**SetLight**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setlight)
 </dt> </dl>
 
  
 
  
-
-
-
-

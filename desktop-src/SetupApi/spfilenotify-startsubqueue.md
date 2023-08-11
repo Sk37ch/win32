@@ -1,5 +1,5 @@
 ---
-Description: The SPFILENOTIFY\_STARTSUBQUEUE notification is sent to the callback function when the queue starts to process the operations in the delete, rename, or copy subqueue.
+description: The SPFILENOTIFY\_STARTSUBQUEUE notification is sent to the callback function when the queue starts to process the operations in the delete, rename, or copy subqueue.
 ms.assetid: 4f971549-8f79-4995-9796-1177c3a3c416
 title: SPFILENOTIFY_STARTSUBQUEUE message (Setupapi.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ Number of file copy, rename, or delete operations in the subqueue.
 
 ## Return value
 
-If an error occurs, the callback routine should call [**SetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror), specifying the error, and then return zero. The [**SetupCommitFileQueue**](/windows/desktop/api/Setupapi/nf-setupapi-setupcommitfilequeuea) function will return **FALSE** and a subsequent call to [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) will return the error code set by the callback routine.
+If an error occurs, the callback routine should call [**SetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror), specifying the error, and then return zero. The [**SetupCommitFileQueue**](/windows/desktop/api/Setupapi/nf-setupapi-setupcommitfilequeuea) function will return **FALSE** and a subsequent call to [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) will return the error code set by the callback routine.
 
 If no error occurs, the callback routine should return a nonzero value.
 
@@ -48,7 +48,7 @@ If no error occurs, the callback routine should return a nonzero value.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -73,9 +73,4 @@ If no error occurs, the callback routine should return a nonzero value.
 </dt> </dl>
 
  
-
- 
-
-
-
 

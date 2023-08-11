@@ -1,12 +1,12 @@
 ---
-Description: The Edit control is an edit field that is associated with a string or integer value property. Enter the property's name into the Property column of the Control table.
+description: The Edit control is an edit field that is associated with a string or integer value property. Enter the property's name into the Property column of the Control table.
 ms.assetid: 1b4fb5d1-49d3-40fb-8557-db16eea880aa
 title: Edit Control (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Edit Control
+# Edit Control (Windows Installer)
 
 The Edit control is an edit field that is associated with a string or integer value property. Enter the property's name into the Property column of the [Control table](control-table.md).
 
@@ -41,7 +41,7 @@ You can use the following attributes with this control. To change the value of a
 
 ## Remarks
 
-This control can be created from the EDIT class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the **WS\_BORDER**, **WS\_CHILD**, **WS\_TABSTOP**, and **WS\_GROUP** styles.
+This control can be created from the EDIT class by using the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function. It has the **WS\_BORDER**, **WS\_CHILD**, **WS\_TABSTOP**, and **WS\_GROUP** styles.
 
 The length of text that can be entered can be limited by putting a number from 0 to 2147483646 in curly braces at the beginning of the Text field in the [Control table](control-table.md). For example, if the text field starts with {80}, the length of the string is limited at 80 characters. If no such limit is supplied in the table, or if 0 is specified, the length is set to the maximum possible (2147483646 characters). A negative or non-numeric value will generate an error.
 
@@ -50,9 +50,4 @@ For compatibility with screen readers, when authoring a dialog box with an Edit 
 The property associated with the Edit control is only set when the control loses focus. Therefore you must tab from the control or select a different control for the property to be updated.
 
  
-
- 
-
-
-
 

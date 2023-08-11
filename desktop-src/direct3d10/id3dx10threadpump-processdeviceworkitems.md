@@ -1,5 +1,5 @@
 ---
-Description: Set work items to the device after they have finished loading and processing.
+description: Set work items to the device after they have finished loading and processing.
 ms.assetid: 67a9fcb2-3513-413d-ac3d-9988ef7b5a1f
 title: ID3DX10ThreadPump::ProcessDeviceWorkItems method (D3DX10.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT ProcessDeviceWorkItems(
 *iWorkItemCount* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The number of work items to set to the device. ProcessDeviceObjectCreation will create at most iWorkItemCount objects. If there are not enough work items in the queue to process iWorkItemCount objects, ProcessDeviceObjectCreation will create as many device objects as there are items in the queue.
 
@@ -58,7 +58,7 @@ As an example of how one might use this API, say you are nearing the end of one 
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -78,7 +78,3 @@ As an example of how one might use this API, say you are nearing the end of one 
  
 
  
-
-
-
-

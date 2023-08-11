@@ -1,5 +1,5 @@
 ---
-Description: Gets a pixel shader.
+description: Gets a pixel shader.
 ms.assetid: 173a20a5-dda0-493f-a161-2dc2881e71f2
 title: ID3DXBaseEffect::GetPixelShader method (D3DX9Shader.h)
 ms.topic: reference
@@ -48,9 +48,9 @@ Unique identifier. See [Handles (Direct3D 9)](handles.md).
 *ppPShader* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DPIXELSHADER9**](https://msdn.microsoft.com/library/Bb205869(v=VS.85).aspx)\***
+Type: **[**LPDIRECT3DPIXELSHADER9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dpixelshader9)\***
 
-Returns a pixel shader object. See [**IDirect3DPixelShader9**](https://msdn.microsoft.com/library/Bb205869(v=VS.85).aspx) object.
+Returns a pixel shader object. See [**IDirect3DPixelShader9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dpixelshader9) object.
 
 </dd> </dl>
 
@@ -64,7 +64,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -81,7 +81,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

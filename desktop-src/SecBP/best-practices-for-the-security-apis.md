@@ -1,5 +1,5 @@
 ---
-Description: Suggestions for application security assessments for app development of Windows security software and secure software development, including application security testing.
+description: Suggestions for application security assessments for app development of Windows security software and secure software development, including application security testing.
 ms.assetid: bb0ddae2-f559-4785-97c7-182fc204fa60
 title: Best Practices for the Security APIs
 ms.topic: article
@@ -12,13 +12,13 @@ To help develop secure software, we recommend that you use the following best pr
 
 ## Security Development Life Cycle
 
-The [Security Development Life Cycle](https://msdn.microsoft.com/library/ms995349.aspx) (SDL) is a process that aligns a series of security-focused activities and deliverables to each phase of software development. These activities and deliverables include:
+The [Security Development Life Cycle](/previous-versions/ms995349(v=msdn.10)) (SDL) is a process that aligns a series of security-focused activities and deliverables to each phase of software development. These activities and deliverables include:
 
 -   Developing threat models
 -   Using code-scanning tools
 -   Conducting code reviews and security testing
 
-For more information about the SDL, see the [SDL Blog](https://blogs.msdn.com/sdl/archive/2007/04/26/welcome-to-the-sdl-blog.aspx).
+For more information about the SDL, see the [Microsoft Security Development Lifecycle](https://www.microsoft.com/en-us/securityengineering/sdl).
 
 ## Threat Models
 
@@ -43,19 +43,14 @@ For more information about best practices, see the following topics.
 | [Running with Special Privileges](running-with-special-privileges.md)<br/>                                            | Discusses security implications of privileges.<br/>                                                                                                                                  |
 | [Avoiding Buffer Overruns](avoiding-buffer-overruns.md)<br/>                                                          | Provides information about avoiding buffer overruns.<br/>                                                                                                                            |
 | [Control Flow Guard (CFG)](control-flow-guard.md)<br/>                                                                | Discusses memory corruption vulnerabilities.<br/>                                                                                                                                    |
-| [Creating a DACL](creating-a-dacl.md)<br/>                                                                            | Shows how to create a discretionary access control list (DACL) by using the [Security Descriptor Definition Language](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-definition-language) (SDDL).<br/> |
+| [Creating a DACL](creating-a-dacl.md)<br/>                                                                            | Shows how to create a discretionary access control list (DACL) by using the [Security Descriptor Definition Language](/windows/desktop/SecAuthZ/security-descriptor-definition-language) (SDDL).<br/> |
 | [Handling Passwords](handling-passwords.md)<br/>                                                                      | Discusses security implications of using passwords.<br/>                                                                                                                             |
 | [How to Optimize Your MSDN Library Search](how-to-optimize-your-msdn-library-search.md)<br/>                          | Discusses options for searching Security SDK content on MSDN Library.<br/>                                                                                                           |
-| [Dynamic Access Control developer extensibility](https://docs.microsoft.com/previous-versions/windows/desktop/dacx/dynamic-access-control-developer-extensibility-roadmap)<br/> | Basic orientation to some of the developer extensibility points for the new Dynamic Access Control solutions.<br/>                                                                   |
+| [Dynamic Access Control developer extensibility](/previous-versions/windows/desktop/dacx/dynamic-access-control-developer-extensibility-roadmap)<br/> | Basic orientation to some of the developer extensibility points for the new Dynamic Access Control solutions.<br/>                                                                   |
 
 
 
  
 
  
-
- 
-
-
-
 

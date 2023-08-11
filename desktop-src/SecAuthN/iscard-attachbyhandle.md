@@ -1,5 +1,5 @@
 ---
-Description: Attaches the ISCard object to an open and configured smart card handle.
+description: Attaches the ISCard object to an open and configured smart card handle.
 ms.assetid: e735d33d-a337-404e-a760-4cf8f19d172a
 title: ISCard::AttachByHandle method (Scardmgr.h)
 ms.topic: reference
@@ -17,9 +17,9 @@ api_location:
 
 # ISCard::AttachByHandle method
 
-\[The **AttachByHandle** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **AttachByHandle** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
-The **AttachByHandle** method attaches the [**ISCard**](iscard.md) object to an open and configured [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) handle.
+The **AttachByHandle** method attaches the [**ISCard**](iscard.md) object to an open and configured [*smart card*](../secgloss/s-gly.md) handle.
 
 ## Syntax
 
@@ -89,7 +89,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -124,7 +124,3 @@ if (FAILED(hr))
  
 
  
-
-
-
-

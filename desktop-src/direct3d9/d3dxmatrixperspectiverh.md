@@ -1,22 +1,25 @@
 ---
-Description: Builds a right-handed perspective projection matrix.
+description: D3DXMatrixPerspectiveRH function (D3dx9math.h) - Builds a right-handed perspective projection matrix.
 ms.assetid: dd9b041b-922b-43df-a6e9-46c97204338a
 title: D3DXMatrixPerspectiveRH function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixPerspectiveRH
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXMatrixPerspectiveRH function
+# D3DXMatrixPerspectiveRH function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a right-handed perspective projection matrix.
 
@@ -51,7 +54,7 @@ Pointer to the [**D3DXMATRIX**](d3dxmatrix.md) structure that is the result of t
 *w* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Width of the view volume at the near view-plane.
 
@@ -60,7 +63,7 @@ Width of the view volume at the near view-plane.
 *h* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Height of the view volume at the near view-plane.
 
@@ -69,7 +72,7 @@ Height of the view volume at the near view-plane.
 *zn* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Z-value of the near view-plane.
 
@@ -78,7 +81,7 @@ Z-value of the near view-plane.
 *zf* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Z-value of the far view-plane.
 
@@ -112,7 +115,7 @@ This function uses the following formula to compute the returned matrix.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -144,7 +147,3 @@ This function uses the following formula to compute the returned matrix.
  
 
  
-
-
-
-

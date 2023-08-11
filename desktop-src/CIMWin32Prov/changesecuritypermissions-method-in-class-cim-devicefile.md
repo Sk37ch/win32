@@ -1,5 +1,5 @@
 ---
-Description: Changes the security permissions for the logical device file specified in the object path.
+description: Changes the security permissions for the logical device file specified in the object path.
 ms.assetid: 4b3e1a0e-3c9e-45bb-8c7b-cbbc8f9d1265
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissions method of the CIM_DeviceFile class
@@ -25,7 +25,7 @@ The **ChangeSecurityPermissions** method changes the security permissions for th
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -49,7 +49,7 @@ uint32 ChangeSecurityPermissions(
 Specifies the security information.
 
 > [!Caution]  
-> A **NULL** access control list (ACL) in the [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure grants unlimited access.
+> A **NULL** access control list (ACL) in the [**SECURITY\_DESCRIPTOR**](/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure grants unlimited access.
 
  
 
@@ -245,7 +245,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -266,9 +266,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

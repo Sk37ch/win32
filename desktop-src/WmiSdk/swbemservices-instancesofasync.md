@@ -1,5 +1,5 @@
 ---
-Description: Retrieves instances of a specified class according to user-specified criteria.
+description: Retrieves instances of a specified class according to user-specified criteria.
 ms.assetid: 631cd749-9a39-4606-9a38-0b4bb5b4b2cd
 ms.tgt_platform: multiple
 title: SWbemServices.InstancesOfAsync method (Wbemdisp.h)
@@ -141,7 +141,7 @@ This method does not return a value. If successful, the sink receives an [**OnOb
 
 ## Error codes
 
-Upon the completion of the **InstancesOfAsync** method, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
+Upon the completion of the **InstancesOfAsync** method, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
 
 <dl> <dt>
 
@@ -192,7 +192,7 @@ The **InstancesOfAsync** method only works for class objects. It is not an error
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -215,9 +215,4 @@ The **InstancesOfAsync** method only works for class objects. It is not an error
 </dt> </dl>
 
  
-
- 
-
-
-
 

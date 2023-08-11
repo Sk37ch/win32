@@ -68,7 +68,7 @@ The following table contains illustrations for each of these transitions.
 
 
 
-|                                                                                                                                                                                                                                                                                                                                                                                                    |
+|    Illustrations                                                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![illustration of an instantaneous transition](images/instantaneoustransition.png)  ![illustration of a constant transition](images/constanttransition.png)  ![illustration of a linear transition](images/lineartransition.png)  ![illustration of a lineat transition from speed](images/lineartransitionfromspeed.png)  ![illustration of a discrete transition](images/discretetransition.png) |
 | ![illustration of a parabolic transition from acceleration](images/parabolictransitionfromacceleration.png)  ![illustration of a cubic transition](images/cubictransition.png)  ![illustration of a smooth stop transition](images/smoothstoptransition.png)                                                                                                                                       |
@@ -130,7 +130,7 @@ Calling [**AddTransition**](/windows/desktop/api/UIAnimation/nf-uianimation-iuia
 
 ### Using Keyframes
 
-To add a transition at an offset from the start of the storyboard, you must first add a keyframe. Keyframes represent instants in time and by themselves have no effect on the behavior of the storyboard. Every storyboard has an implicit keyframe representing the start of the storyboard, [**UI\_ANIMATION\_KEYFRAME\_STORYBOARD\_START**](https://msdn.microsoft.com/library/Dd756780(v=VS.85).aspx); you can add new keyframes at offsets from the start by calling the [**IUIAnimationStoryboard::AddKeyframeAtOffset**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-addkeyframeatoffset) method with **UI\_ANIMATION\_KEYFRAME\_STORYBOARD\_START**.
+To add a transition at an offset from the start of the storyboard, you must first add a keyframe. Keyframes represent instants in time and by themselves have no effect on the behavior of the storyboard. Every storyboard has an implicit keyframe representing the start of the storyboard, [**UI\_ANIMATION\_KEYFRAME\_STORYBOARD\_START**](/previous-versions/windows/desktop/legacy/dd756780(v=vs.85)); you can add new keyframes at offsets from the start by calling the [**IUIAnimationStoryboard::AddKeyframeAtOffset**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-addkeyframeatoffset) method with **UI\_ANIMATION\_KEYFRAME\_STORYBOARD\_START**.
 
 The offset at which you add a keyframe is always relative to another keyframe. The following diagram shows the result of adding keyframe1 and transition T4, which is applied to variable Z, aligned with keyframe1, and created with a fixed duration. Of course, because the durations of the other transitions are not yet known, T4 might not be the last transition to finish.
 
@@ -243,10 +243,4 @@ Once again, the outline of G is now known and is different from the result in th
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

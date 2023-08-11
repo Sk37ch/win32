@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNBASE.ToString method"
 title: JET_COLUMNBASE.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNBASE.ToString
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_COLUMNBASE.ToString method
 
-Returns a [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) that represents the current [JET_COLUMNBASE](dn335045\(v=exchg.10\).md).
+Returns a [String](/dotnet/api/system.string) that represents the current [JET_COLUMNBASE](./jet-columnbase-class.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,16 +52,15 @@ public override string ToString()
 
 #### Return value
 
-Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
-A [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) that represents the current [JET_COLUMNBASE](dn335045\(v=exchg.10\).md).  
+Type: [System.String](/dotnet/api/system.string)  
+A [String](/dotnet/api/system.string) that represents the current [JET_COLUMNBASE](./jet-columnbase-class.md).  
 
 ## See also
 
 #### Reference
 
-[JET_COLUMNBASE class](dn335045\(v=exchg.10\).md)
+[JET_COLUMNBASE class](./jet-columnbase-class.md)
 
-[JET_COLUMNBASE members](dn335046\(v=exchg.10\).md)
+[JET_COLUMNBASE members](./jet-columnbase-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

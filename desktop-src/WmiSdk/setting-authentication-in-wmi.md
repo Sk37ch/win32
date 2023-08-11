@@ -1,5 +1,5 @@
 ---
-Description: When making calls outside of the calling process or to a remote WMI service, WMI uses the distributed version of the Component Object Model (DCOM).
+description: When making calls outside of the calling process or to a remote WMI service, WMI uses the distributed version of the Component Object Model (DCOM).
 ms.assetid: 261b4f18-5de5-4e06-a887-f5afd9c45511
 ms.tgt_platform: multiple
 title: Setting Authentication in WMI
@@ -19,7 +19,7 @@ For more information and code examples of how to set authentication for WMI conn
 
 ## Using Proxies in WMI
 
-To set authentication for a proxy, call the [**CoSetProxyBlanket**](https://msdn.microsoft.com/library/ms692692(v=VS.85).aspx) function. For more information and a code example, see [Setting the Security on IWbemServices and Other Proxies](setting-the-security-on-iwbemservices-and-other-proxies.md).
+To set authentication for a proxy, call the [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket) function. For more information and a code example, see [Setting the Security on IWbemServices and Other Proxies](setting-the-security-on-iwbemservices-and-other-proxies.md).
 
 The following [COM API for WMI](com-api-for-wmi.md) objects use proxies directly in C++ or C# to call out of process or to a remote WMI service:
 
@@ -33,6 +33,3 @@ The scripting objects, such as [**SWbemObject**](swbemobject.md), [**SWbemServic
  
 
  
-
-
-

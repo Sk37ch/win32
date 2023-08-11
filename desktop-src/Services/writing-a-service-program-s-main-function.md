@@ -1,5 +1,5 @@
 ---
-Description: The following example can be used as the entry point for a service program that supports a single service.
+description: The following example can be used as the entry point for a service program that supports a single service.
 ms.assetid: 7fdfc20a-9148-4ae1-8101-7a387c0d0edc
 title: Writing a Service Programs main Function
 ms.topic: article
@@ -37,9 +37,9 @@ The \_tmain function is the entry point. The SvcReportEvent function writes info
 //   None
 // 
 // Return value:
-//   None
+//   None, defaults to 0 (zero)
 //
-void __cdecl _tmain(int argc, TCHAR *argv[]) 
+int __cdecl _tmain(int argc, TCHAR *argv[])
 { 
     // If command-line parameter is "install", install the service. 
     // Otherwise, the service is probably being started by the SCM.

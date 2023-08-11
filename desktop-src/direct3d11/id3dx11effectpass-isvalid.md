@@ -38,7 +38,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**BOOL**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**BOOL**](/windows/desktop/WinProg/windows-data-types)**
 
 **TRUE** if the code syntax is valid; otherwise **FALSE**.
 
@@ -53,7 +53,7 @@ Type: **[**BOOL**](https://docs.microsoft.com/windows/desktop/WinProg/windows-da
 
 
 
-|                    |                                                                                                                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
 | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |
@@ -68,10 +68,4 @@ Type: **[**BOOL**](https://docs.microsoft.com/windows/desktop/WinProg/windows-da
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

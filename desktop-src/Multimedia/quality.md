@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 The quality command defines a custom quality level for either audio, video or still image data compression. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -82,7 +82,7 @@ This command defines a string name for the quality level, which can then be used
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
@@ -106,10 +106,4 @@ This command defines a string name for the quality level, which can then be used
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

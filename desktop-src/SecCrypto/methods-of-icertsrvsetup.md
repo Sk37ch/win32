@@ -1,5 +1,5 @@
 ---
-Description: The following methods are defined by the ICertSrvSetup interface. The property access methods are not shown here. To see the properties for ICertSrvSetup, see Properties of ICertSrvSetup.
+description: The following methods are defined by the ICertSrvSetup interface. The property access methods are not shown here. To see the properties for ICertSrvSetup, see Properties of ICertSrvSetup.
 ms.assetid: cb7f288b-30a0-4c3b-b7bc-3055166d2302
 title: Methods of ICertSrvSetup
 ms.topic: article
@@ -17,7 +17,7 @@ The following methods are defined by the [**ICertSrvSetup**](/windows/desktop/ap
 | [**CAImportPFX**](/windows/desktop/api/Casetup/nf-casetup-icertsrvsetup-caimportpfx)                               | Imports a Certification Authority (CA) certificate and its associated private key into the "LocalMachine" store.                                                                                                                                          |
 | [**GetCASetupProperty**](/windows/desktop/api/Casetup/nf-casetup-icertsrvsetup-getcasetupproperty)                 | Gets a property value for a CA configuration.                                                                                                                                                                                                             |
 | [**GetExistingCACertificates**](/windows/desktop/api/Casetup/nf-casetup-icertsrvsetup-getexistingcacertificates)   | Gets the collection of **CCertSrvSetupKeyInformation** objects that represent valid CA certificates currently installed on the computer.                                                                                                                  |
-| [**GetHashAlgorithmList**](/windows/desktop/api/Casetup/nf-casetup-icertsrvsetup-gethashalgorithmlist)             | Gets the list of hash algorithms supported by the specified [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP) for an asymmetric key signature algorithm. |
+| [**GetHashAlgorithmList**](/windows/desktop/api/Casetup/nf-casetup-icertsrvsetup-gethashalgorithmlist)             | Gets the list of hash algorithms supported by the specified [*cryptographic service provider*](../secgloss/c-gly.md) (CSP) for an asymmetric key signature algorithm. |
 | [**GetKeyLengthList**](/windows/desktop/api/Casetup/nf-casetup-icertsrvsetup-getkeylengthlist)                     | Gets the list of key lengths supported by the specified CSP.                                                                                                                                                                                              |
 | [**GetPrivateKeyContainerList**](/windows/desktop/api/Casetup/nf-casetup-icertsrvsetup-getprivatekeycontainerlist) | Gets the list of key container names stored by the specified CSP for asymmetric signature key algorithms.                                                                                                                                                 |
 | [**GetProviderNameList**](/windows/desktop/api/Casetup/nf-casetup-icertsrvsetup-getprovidernamelist)               | Gets the list of CSPs that provide asymmetric key signature algorithms on the computer.                                                                                                                                                                   |
@@ -40,6 +40,3 @@ The following methods are defined by the [**ICertSrvSetup**](/windows/desktop/ap
  
 
  
-
-
-

@@ -31,12 +31,11 @@ Contents:
     -   [CHS IME version 4.1](#chs-ime-version-41)
     -   [CHS IME version 4.2](#chs-ime-version-42)
 -   [IME Messages](#ime-messages)
-    -   [WM\_INPUTLANGCHANGE](https://docs.microsoft.com/windows)
-    -   [](#using-an-input-method-editor-in-a-game)
-    -   [WM\_IME\_STARTCOMPOSITION](https://docs.microsoft.com/windows)
-    -   [WM\_IME\_COMPOSITION](https://docs.microsoft.com/windows)
-    -   [WM\_IME\_ENDCOMPOSITION](https://docs.microsoft.com/windows)
-    -   [WM\_IME\_NOTIFY](https://docs.microsoft.com/windows)
+    -   [WM\_INPUTLANGCHANGE](#wm_inputlangchange)
+    -   [WM\_IME\_STARTCOMPOSITION](/windows)
+    -   [WM\_IME\_COMPOSITION](/windows)
+    -   [WM\_IME\_ENDCOMPOSITION](/windows)
+    -   [WM\_IME\_NOTIFY](/windows)
 -   [Rendering](#rendering)
     -   [Input Locale Indicator](#input-locale-indicator)
     -   [Composition Window](#composition-window)
@@ -50,7 +49,7 @@ Contents:
 
 ## Default IME Behavior
 
-IMEs map keyboard input to phonetic components or other language elements specific to a selected language. In a typical scenario, the user types keys that represent pronunciation of a complex character. If the IME recognizes the pronunciation as valid, it presents the user with a list of word or phrase candidates from which the user can select a final choice. The chosen word is then sent to the application through a series of Microsoft Windows [**WM\_CHAR**](https://docs.microsoft.com/windows/desktop/inputdev/wm-char) messages. Because the IME works at a level below the application by intercepting keyboard input, the presence of an IME is transparent to the application. Almost all Windows applications can readily take advantage of IMEs without being aware of their existence and without requiring special coding.
+IMEs map keyboard input to phonetic components or other language elements specific to a selected language. In a typical scenario, the user types keys that represent pronunciation of a complex character. If the IME recognizes the pronunciation as valid, it presents the user with a list of word or phrase candidates from which the user can select a final choice. The chosen word is then sent to the application through a series of Microsoft Windows [**WM\_CHAR**](/windows/desktop/inputdev/wm-char) messages. Because the IME works at a level below the application by intercepting keyboard input, the presence of an IME is transparent to the application. Almost all Windows applications can readily take advantage of IMEs without being aware of their existence and without requiring special coding.
 
 A typical IME displays several windows to guide the user through character entry, as shown in the following examples.
 
@@ -61,7 +60,7 @@ A typical IME displays several windows to guide the user through character entry
 | A. Reading Window                                 | Contains keystrokes from the keyboard; typically changes after each keystroke.                                                                                                                                                                                                                                              | reading string                               |
 | B. Composition Window                             | Contains the collection of characters that the user has composed with the IME. These characters are drawn by the IME on top of the application. When the user notifies the IME that the composition string is satisfactory, the IME then sends the composition string to the application via a series of WM\_CHAR messages. | composition string                           |
 | C. Candidate Window                               | When the user has entered a valid pronunciation, the IME displays a list of candidate characters that all match the given pronunciation. The user then selects the intended character from this list, and the IME adds this character to the Composition Window display.                                                    | the next character in the composition string |
-| D. [Input Locale](https://docs.microsoft.com/windows/desktop/Intl/nls-terminology) indicator | Shows the language the user has selected for keyboard input. This indicator is embedded in the Windows taskbar. The input language can be selected by opening the Regional and Language Options Control Panel and then clicking Details on the Languages tab.                                                               | \-                                           |
+| D. [Input Locale](/windows/desktop/Intl/nls-terminology) indicator | Shows the language the user has selected for keyboard input. This indicator is embedded in the Windows taskbar. The input language can be selected by opening the Regional and Language Options Control Panel and then clicking Details on the Languages tab.                                                               | \-                                           |
 
 
 
@@ -79,9 +78,9 @@ CDXUTIMEEditBox is implemented in the following DXUT code:
 
 ## Overriding the Default IME Behavior
 
-Normally an IME uses standard Windows procedures to create a window (see [Using Windows](https://docs.microsoft.com/windows/desktop/winmsg/using-windows)). Under normal circumstances, this produces satisfactory results. However, when the application presents in full-screen mode, as is common for games, standard windows no longer work and may not display on top of the application. To overcome this issue, the application must draw the IME windows itself instead of relying on Windows to perform this task.
+Normally an IME uses standard Windows procedures to create a window (see [Using Windows](/windows/desktop/winmsg/using-windows)). Under normal circumstances, this produces satisfactory results. However, when the application presents in full-screen mode, as is common for games, standard windows no longer work and may not display on top of the application. To overcome this issue, the application must draw the IME windows itself instead of relying on Windows to perform this task.
 
-When the default IME window creation behavior does not provide what an application requires, the application can override the IME window handling. An application can achieve this by processing IME-related messages and calling the [Input Method Manager](https://docs.microsoft.com/windows/desktop/Intl/input-method-manager) (IMM) API.
+When the default IME window creation behavior does not provide what an application requires, the application can override the IME window handling. An application can achieve this by processing IME-related messages and calling the [Input Method Manager](/windows/desktop/Intl/input-method-manager) (IMM) API.
 
 When a user interacts with an IME to input complex characters, the IMM sends messages to the application to notify it of important events, such as starting a composition or showing the candidate window. An application typically ignores these messages and passes them to the default message handler, which causes the IME to handle them. When the application, instead of the default handler, handles the messages, it controls exactly what happens at each of the IME events. Often the message handler retrieves the content of the various IME windows by calling the IMM API. Once the application has this information, it can properly draw the IME windows itself when it needs to render to the display.
 
@@ -93,8 +92,8 @@ An IME needs to get the reading string, hide the reading window, and get the ori
 
 |                    | Getting reading string                                                | Hiding reading window                       | Orientation of reading window                              |
 |--------------------|-----------------------------------------------------------------------|---------------------------------------------|------------------------------------------------------------|
-| Before version 6.0 | A. Reading Window Access IME private data directly. See "4 Structure" | Trap IME private messages. See "3 Messages" | Examine registry information. See "5 Registry Information" |
-| After version 6.0  | [GetReadingString](#getreadingstring)                                 | [ShowReadingWindow](#showreadingwindow)     | [GetReadingString](#getreadingstring)                      |
+| **Before version 6.0** | A. Reading Window Access IME private data directly. See "4 Structure" | Trap IME private messages. See "3 Messages" | Examine registry information. See "5 Registry Information" |
+| **After version 6.0**  | [GetReadingString](#getreadingstring)                                 | [ShowReadingWindow](#showreadingwindow)     | [GetReadingString](#getreadingstring)                      |
 
 
 
@@ -119,11 +118,11 @@ The following examples illustrate how to get reading string information from old
 
 
 
-|              |                                                                                       |
+| Output              | Description                                                                                      |
 |--------------|---------------------------------------------------------------------------------------|
-| DWORD dwlen  | Length of the reading string                                                          |
-| DWORD dwerr  | Index of error char                                                                   |
-| LPWSTR wstr  | Pointer to the reading string                                                         |
+| DWORD dwlen  | Length of the reading string.                                                          |
+| DWORD dwerr  | Index of the error character.                                                                   |
+| LPWSTR wstr  | Pointer to the reading string.                                                         |
 | BOOL unicode | If true, the reading string is in Unicode format. Otherwise it's in multibyte format. |
 
 
@@ -204,7 +203,7 @@ A full-screen application must properly handle the following IME-related message
 
 ### WM\_INPUTLANGCHANGE
 
-The IMM sends a WM\_INPUTLANGCHANGE message to the active window of an application after the input locale has been changed by the user with a key combination (usually ALT+SHIFT), or with the input locale indicator on the taskbar or language bar. The language bar is an on-screen control with which the user can configure a text service. (See [How to show the language bar](https://docs.microsoft.com/windows/desktop/TSF/how-to-set-up-tsf).) The following screen shot shows a language selection list that is displayed when the user clicks on the locale indicator.
+The IMM sends a WM\_INPUTLANGCHANGE message to the active window of an application after the input locale has been changed by the user with a key combination (usually ALT+SHIFT), or with the input locale indicator on the taskbar or language bar. The language bar is an on-screen control with which the user can configure a text service. (See [How to show the language bar](/windows/desktop/TSF/how-to-set-up-tsf).) The following screen shot shows a language selection list that is displayed when the user clicks on the locale indicator.
 
 ![language selection list that is displayed when the user clicks on the locale indicator](images/ime-langselection.png)
 
@@ -240,13 +239,13 @@ The IMM sends a WM\_IME\_STARTCOMPOSITION message to the application when an IME
 
 ### WM\_IME\_COMPOSITION
 
-The IMM sends a WM\_IME\_COMPOSITION message to the application when the user enters a keystroke to change the composition string. The value of lParam indicates what type of information the application can retrieve from the Input Method Manager (IMM). The application should retrieve the available information by calling [**ImmGetCompositionString**](https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immgetcompositionstringa) and then should save the information in its private buffer so that it can render the IME elements later.
+The IMM sends a WM\_IME\_COMPOSITION message to the application when the user enters a keystroke to change the composition string. The value of lParam indicates what type of information the application can retrieve from the Input Method Manager (IMM). The application should retrieve the available information by calling [**ImmGetCompositionString**](/windows/desktop/api/imm/nf-imm-immgetcompositionstringa) and then should save the information in its private buffer so that it can render the IME elements later.
 
 CDXUTIMEEditBox checks for and retrieves the following composition string data:
 
 
 
-| [**WM\_IME\_COMPOSITION**](https://docs.microsoft.com/windows/desktop/Intl/wm-ime-composition) lParam Flag Value | Data                           | Description                                                                                                                                                                                                                                                                                                                                                          |
+| [**WM\_IME\_COMPOSITION**](/windows/desktop/Intl/wm-ime-composition) lParam Flag Value | Data                           | Description                                                                                                                                                                                                                                                                                                                                                          |
 |-----------------------------------------------------------------------|--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GCS\_COMPATTR                                                         | Composition Attribute          | This attribute contains information such as the status of each character in the composition string (for example, converted or non-converted). This information is needed because CDXUTIMEEditBox colors the composition string characters differently based upon their attributes.                                                                                   |
 | GCS\_COMPCLAUSE                                                       | Composition Clause Information | This clause information is used when the Japanese IME is active. When a Japanese composition string is converted, characters may be grouped together as a clause that gets converted to a single entity. When the user moves the cursor, CDXUTIMEEditBox uses this information to highlight the entire clause, instead of just a single character within the clause. |
@@ -270,48 +269,14 @@ The IMM sends a WM\_IME\_NOTIFY message to the application whenever an IME windo
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>IME Command</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/Intl/imn-setopenstatus">IMN_SETOPENSTATUS</a></td>
-<td>This attribute contains information such as the status of each character in the composition string (for example, converted or non-converted). This information is needed because CDXUTIMEEditBox colors the composition string characters differently based upon their attributes.</td>
-</tr>
-<tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a> / <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-changecandidate">IMN_CHANGECANDIDATE</a></td>
-<td>Sent to the application when the candidate window is about to be opened or updated, respectively. The candidate window opens when a user wishes to change the converted text choice. The window is updated when a user moves the selection indicator or changes the page. CDXUTIMEEditBox uses one message handler for both of these commands because the tasks required are exactly the same:<br/>
-<ol>
-<li>CDXUTIMEEditBox sets the bShowWindow member of the candidate list structure s_CandList to TRUE to indicate that the candidate window needs to be drawn during frame rendering.</li>
-<li>CDXUTIMEEditBox retrieves the candidate list by calling <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immgetcandidatelista"><strong>ImmGetCandidateList</strong></a>, first to get the required buffer size, and then again to get the actual data.</li>
-<li>The private candidate list structure s_CandList is initialized with the retrieved candidate data.</li>
-<li>The candidate strings are stored as an array of strings.</li>
-<li>The index of the selected entry, as well as the page index, is saved.</li>
-<li>CDXUTIMEEditBox checks whether the candidate window style is vertical or horizontal. If the window style is horizontal, an additional string buffer, the HoriCand member of s_CandList, must be initialized with all of the candidate strings, with space characters inserted between all adjacent strings. When rendering a vertical candidate window, the individual candidate strings are drawn one at a time, with the y coordinates incremented for each string. However, this HoriCand string should be used when rendering a horizontal candidate window, because the space character is the best way to separate two adjacent strings on the same line.</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/Intl/imn-closecandidate">IMN_CLOSECANDIDATE</a></td>
-<td>Sent to the application when a candidate window is about to close. This happens when a user has made a selection from the candidate list. CDXUTIMEEditBox handles this command by setting the visible flag of the candidate window to FALSE and then clearing the candidate string buffer.</td>
-</tr>
-<tr class="even">
-<td>IMN_PRIVATE</td>
-<td>Sent to the application when the IME has updated its reading string as a result of the user typing or removing characters. The application should retrieve the reading string and save it for rendering. CDXUTIMEEditBox has two methods to retrieve the reading string, based upon how reading strings are supported in the IME: <br/>
-<ul>
-<li>If the IME supports the GetReadingString function, GetReadingString is called to retrieve the reading string.</li>
-<li>If the IME does not implement GetReadingString, CDXUTIMEEditBox retrieves the reading string from the input context content.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| IME Command | Description | 
+|-------------|-------------|
+| <a href="/windows/desktop/Intl/imn-setopenstatus">IMN_SETOPENSTATUS</a> | This attribute contains information such as the status of each character in the composition string (for example, converted or non-converted). This information is needed because CDXUTIMEEditBox colors the composition string characters differently based upon their attributes. | 
+| <a href="/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a> / <a href="/windows/desktop/Intl/imn-changecandidate">IMN_CHANGECANDIDATE</a> | Sent to the application when the candidate window is about to be opened or updated, respectively. The candidate window opens when a user wishes to change the converted text choice. The window is updated when a user moves the selection indicator or changes the page. CDXUTIMEEditBox uses one message handler for both of these commands because the tasks required are exactly the same:<br /><ol><li>CDXUTIMEEditBox sets the bShowWindow member of the candidate list structure s_CandList to TRUE to indicate that the candidate window needs to be drawn during frame rendering.</li><li>CDXUTIMEEditBox retrieves the candidate list by calling <a href="/windows/desktop/api/imm/nf-imm-immgetcandidatelista"><strong>ImmGetCandidateList</strong></a>, first to get the required buffer size, and then again to get the actual data.</li><li>The private candidate list structure s_CandList is initialized with the retrieved candidate data.</li><li>The candidate strings are stored as an array of strings.</li><li>The index of the selected entry, as well as the page index, is saved.</li><li>CDXUTIMEEditBox checks whether the candidate window style is vertical or horizontal. If the window style is horizontal, an additional string buffer, the HoriCand member of s_CandList, must be initialized with all of the candidate strings, with space characters inserted between all adjacent strings. When rendering a vertical candidate window, the individual candidate strings are drawn one at a time, with the y coordinates incremented for each string. However, this HoriCand string should be used when rendering a horizontal candidate window, because the space character is the best way to separate two adjacent strings on the same line.</li></ol> | 
+| <a href="/windows/desktop/Intl/imn-closecandidate">IMN_CLOSECANDIDATE</a> | Sent to the application when a candidate window is about to close. This happens when a user has made a selection from the candidate list. CDXUTIMEEditBox handles this command by setting the visible flag of the candidate window to FALSE and then clearing the candidate string buffer. | 
+| IMN_PRIVATE | Sent to the application when the IME has updated its reading string as a result of the user typing or removing characters. The application should retrieve the reading string and save it for rendering. CDXUTIMEEditBox has two methods to retrieve the reading string, based upon how reading strings are supported in the IME: <br /><ul><li>If the IME supports the GetReadingString function, GetReadingString is called to retrieve the reading string.</li><li>If the IME does not implement GetReadingString, CDXUTIMEEditBox retrieves the reading string from the input context content.</li></ul> | 
+
 
 
 
@@ -404,8 +369,8 @@ If neither condition is met, the reading window is vertical.
 
 For additional information, see the following:
 
--   [Installing and Using Input Method Editors](https://docs.microsoft.com/windows/desktop/DxTechArts/installing-and-using-input-method-editors)
--   [International Text Display](https://docs.microsoft.com/windows/desktop/Intl/creating-your-own-format-selection-user-interface)
+-   [Installing and Using Input Method Editors](/windows/desktop/DxTechArts/installing-and-using-input-method-editors)
+-   [International Text Display](/windows/desktop/Intl/creating-your-own-format-selection-user-interface)
 -   [The Unicode Consortium](https://www.unicode.org/)
 -   Developing International Software. Dr. International. 2nd ed. Redmond, WA: Microsoft Press, 2003.
 
@@ -532,12 +497,3 @@ Declared in Imm.h.
 Use Imm.lib.
 
 </dd> </dl>
-
- 
-
- 
-
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Deletes a subkey and its values from an offline registry hive.
+description: Deletes a subkey and its values from an offline registry hive.
 ms.assetid: 651795d3-4328-4281-9a7f-ba75b4ec4da1
 title: ORDeleteKey function (Offreg.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ Key names are not case sensitive.
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](https://msdn.microsoft.com/library/ms679351.aspx) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error. Possible error codes include the following:
+If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](/windows/win32/api/winbase/nf-winbase-formatmessage) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error. Possible error codes include the following:
 
 -   If the specified subkey does not exist, the function returns ERROR\_FILE\_NOT\_FOUND.
 -   If the specified subkey is the root key of the registry hive, the function returns ERROR\_INVALID\_PARAMETER.
@@ -77,7 +77,7 @@ Only the [**ORCloseKey**](orclosekey.md) function may be called on a deleted key
 
 
 
-|                            |                                                                                       |
+| Requirement | Value |
 |----------------------------|---------------------------------------------------------------------------------------|
 | Redistributable<br/> | Windows Offline Registry library version 1.0 or later<br/>                      |
 | Header<br/>          | <dl> <dt>Offreg.h</dt> </dl>   |
@@ -104,7 +104,3 @@ Only the [**ORCloseKey**](orclosekey.md) function may be called on a deleted key
  
 
  
-
-
-
-

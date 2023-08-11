@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a protocol controller and an exposed logical unit.
+description: Represents an association between a protocol controller and an exposed logical unit.
 ms.assetid: e8bf2b32-b4a6-4963-8a50-2b06776965e8
 title: CIM_ProtocolControllerForUnit class
 ms.topic: reference
@@ -55,7 +55,7 @@ Data type: **CIM\_ProtocolController**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 The protocol controller.
@@ -71,7 +71,7 @@ Data type: **CIM\_LogicalDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The logical unit associated with the protocol controller.
@@ -139,7 +139,7 @@ The access rights granted to the logical unit through the protocol controller.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -157,9 +157,4 @@ The access rights granted to the logical unit through the protocol controller.
 </dt> </dl>
 
  
-
- 
-
-
-
 

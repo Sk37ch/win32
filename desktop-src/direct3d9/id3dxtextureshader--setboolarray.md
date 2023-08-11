@@ -1,5 +1,5 @@
 ---
-Description: Sets an array of BOOL values.
+description: Sets an array of BOOL values.
 ms.assetid: d168d362-86b3-4db4-bc52-748a640ebc18
 title: ID3DXTextureShader::SetBoolArray method (D3DX9Shader.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ Unique identifier to the array of constants. See [D3DXHANDLE](d3dxfx.md).
 *pB* \[in\]
 </dt> <dd>
 
-Type: **const [**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**BOOL**](../winprog/windows-data-types.md)\***
 
 Array of BOOL values.
 
@@ -58,7 +58,7 @@ Array of BOOL values.
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of BOOL values in the array.
 
@@ -74,7 +74,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -91,7 +91,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

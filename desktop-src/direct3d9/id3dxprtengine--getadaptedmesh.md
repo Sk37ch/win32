@@ -1,5 +1,5 @@
 ---
-Description: Returns a mesh with modifications resulting from adaptive spatial sampling. The returned mesh contains only positions, normals, and texture coordinates (if defined).
+description: Returns a mesh with modifications resulting from adaptive spatial sampling. The returned mesh contains only positions, normals, and texture coordinates (if defined).
 ms.assetid: 21447733-b27b-4906-8c0e-7089dec71b5b
 title: ID3DXPRTEngine::GetAdaptedMesh method (D3DX9Mesh.h)
 ms.topic: reference
@@ -42,16 +42,16 @@ HRESULT GetAdaptedMesh(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) device that is used to create the output mesh.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) device that is used to create the output mesh.
 
 </dd> <dt>
 
 *pFaceRemap* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Pointer to the original mesh face that was split to generate the current face.
 
@@ -60,7 +60,7 @@ Pointer to the original mesh face that was split to generate the current face.
 *pVertRemap* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Pointer to a destination array containing the three original mesh vertices that are the parents of the current vertex.
 
@@ -69,7 +69,7 @@ Pointer to a destination array containing the three original mesh vertices that 
 *pfVertWeights* \[in, out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to a destination array containing blending factors for the pVertRemap vertices.
 
@@ -98,7 +98,7 @@ pVertRemap and pfVertWeights can be used to interpolate any per-vertex value ove
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -115,7 +115,3 @@ pVertRemap and pfVertWeights can be used to interpolate any per-vertex value ove
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Implements the IStrokeBuilder Interface.
+description: Implements the IStrokeBuilder Interface.
 ms.assetid: 0d699089-b913-4020-9284-a955f61fd861
 title: StrokeBuilder class (RTSCom.h)
 ms.topic: reference
@@ -23,13 +23,13 @@ Implements the [**IStrokeBuilder Interface**](/windows/desktop/api/RTSCom/nn-rts
 
 This class implements the [**IStrokeBuilder Interface**](/windows/desktop/api/RTSCom/nn-rtscom-istrokebuilder).
 
-This class can be instantiated by calling the [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) method in C++.
+This class can be instantiated by calling the [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                   |
 | Minimum supported server<br/> | None supported<br/>                                                                                       |
@@ -42,7 +42,7 @@ This class can be instantiated by calling the [**CoCreateInstance**](https://msd
 
 <dl> <dt>
 
-[**DynamicRenderer Class**](https://msdn.microsoft.com/library/ms701168(v=VS.85).aspx)
+[**DynamicRenderer Class**](/previous-versions/windows/desktop/legacy/ms701168(v=vs.85))
 </dt> <dt>
 
 [**RealTimeStylus Class**](realtimestylus-class.md)
@@ -57,7 +57,3 @@ This class can be instantiated by calling the [**CoCreateInstance**](https://msd
  
 
  
-
-
-
-

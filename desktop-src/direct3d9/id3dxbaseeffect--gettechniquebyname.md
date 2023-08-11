@@ -1,5 +1,5 @@
 ---
-Description: Gets the handle of a technique by looking up its name.
+description: Gets the handle of a technique by looking up its name.
 ms.assetid: 34871229-ad63-4575-8c60-f27d7f7dddce
 title: ID3DXBaseEffect::GetTechniqueByName method (D3DX9Shader.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ D3DXHANDLE GetTechniqueByName(
 *pName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 String containing the technique name.
 
@@ -54,7 +54,7 @@ Returns the handle of the first technique that has the specified name, or **NULL
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -71,7 +71,3 @@ Returns the handle of the first technique that has the specified name, or **NULL
  
 
  
-
-
-
-

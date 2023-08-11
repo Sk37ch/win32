@@ -1,22 +1,25 @@
 ---
-Description: Calculate the Fresnel term.
+description: D3DXFresnelTerm function (D3DX10Math.h) - Calculate the Fresnel term.
 ms.assetid: eaa2e5ea-9b6f-4216-8b48-7be74501124d
 title: D3DXFresnelTerm function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXFresnelTerm
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXFresnelTerm function
+# D3DXFresnelTerm function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Calculate the Fresnel term.
 
@@ -39,7 +42,7 @@ FLOAT D3DXFresnelTerm(
 *CosTheta* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The value must be between 0 and 1.
 
@@ -48,7 +51,7 @@ The value must be between 0 and 1.
 *RefractionIndex* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The refraction index of a material. The value must be greater than 1.
 
@@ -56,7 +59,7 @@ The refraction index of a material. The value must be greater than 1.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 This function returns the Fresnel term for unpolarized light. CosTheta is the cosine of the incident angle.
 
@@ -91,7 +94,7 @@ F = 0.5 * (g + c)2 / (g - c)2 * ([c(g + c) - 1]2 / [c(g - c) + 1]2 + 1)
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -108,7 +111,3 @@ F = 0.5 * (g + c)2 / (g - c)2 * ([c(g + c) - 1]2 / [c(g - c) + 1]2 + 1)
  
 
  
-
-
-
-

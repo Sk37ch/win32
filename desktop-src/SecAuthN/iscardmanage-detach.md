@@ -1,5 +1,5 @@
 ---
-Description: Releases the attachment to a particular smart card or reader allocated by AttachByHandle and AttachByIFD respectively.
+description: Releases the attachment to a particular smart card or reader allocated by AttachByHandle and AttachByIFD respectively.
 ms.assetid: 601b35a6-9094-4786-b94c-5cd1283feef5
 title: ISCardManage::Detach method
 ms.topic: reference
@@ -16,9 +16,9 @@ api_location:
 
 # ISCardManage::Detach method
 
-\[The **Detach** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **Detach** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
-The **Detach** method releases the attachment to a particular [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) or [*reader*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx) allocated by [**AttachByHandle**](iscardmanage-attachbyhandle.md) and [**AttachByIFD**](iscardmanage-attachbyifd.md) respectively.
+The **Detach** method releases the attachment to a particular [*smart card*](../secgloss/s-gly.md) or [*reader*](../secgloss/r-gly.md) allocated by [**AttachByHandle**](iscardmanage-attachbyhandle.md) and [**AttachByIFD**](iscardmanage-attachbyifd.md) respectively.
 
 ## Syntax
 
@@ -62,7 +62,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
@@ -90,7 +90,3 @@ In addition to the COM error codes listed above, this interface may return a sma
  
 
  
-
-
-
-

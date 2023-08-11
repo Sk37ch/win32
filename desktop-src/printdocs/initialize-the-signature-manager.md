@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to initialize the signature manager for use with an XPS document.
+description: This topic describes how to initialize the signature manager for use with an XPS document.
 ms.assetid: 4c4c6e8f-4ee0-4089-a283-1082baee5054
 title: Initialize the Signature Manager
 ms.topic: article
@@ -21,7 +21,7 @@ To use the Windows 7 features of the Crypto API, define the **CRYPT\_OID\_INFO\
 
 
 
-Next, instantiate an [**IXpsSignatureManager**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturemanager) interface by calling [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx), as shown in the following code example.
+Next, instantiate an [**IXpsSignatureManager**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturemanager) interface by calling [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance), as shown in the following code example.
 
 
 ```C++
@@ -54,7 +54,7 @@ if (SUCCEEDED(hr)) {
 
 
 
-The interface instantiated by [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) can be used by only one XPS document, which must be loaded by calling [**LoadPackageFile**](/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-loadpackagefile) or [**LoadPackageStream**](/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-loadpackagestream) before calling any other method.
+The interface instantiated by [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) can be used by only one XPS document, which must be loaded by calling [**LoadPackageFile**](/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-loadpackagefile) or [**LoadPackageStream**](/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-loadpackagestream) before calling any other method.
 
 After the [**IXpsSignatureManager**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturemanager) interface has been instantiated and an XPS document has been loaded, the signature manager is ready for use.
 
@@ -77,7 +77,7 @@ After the [**IXpsSignatureManager**](/windows/desktop/api/xpsdigitalsignature/nn
 **Used in This Section**
 </dt> <dt>
 
-[**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx)
+[**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance)
 </dt> <dt>
 
 [**IXpsSignatureManager**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturemanager)
@@ -92,12 +92,9 @@ After the [**IXpsSignatureManager**](/windows/desktop/api/xpsdigitalsignature/nn
 [XPS Document Errors](xps-document-errors.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> </dl>
 
  
 
  
-
-
-

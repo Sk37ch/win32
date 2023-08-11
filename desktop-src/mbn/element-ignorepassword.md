@@ -1,5 +1,5 @@
 ---
-Description: MBNProfileExt\/...\/IgnorePassword (v4)
+description: MBNProfileExt\/...\/IgnorePassword (v4)
 MS-HAID: WWAN\_profile\_v4.element\_IgnorePassword
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -15,7 +15,7 @@ Specifies how passwords are handled when upgrading profiles.
 
 If set to **TRUE** and a profile with the same name exists at the time of the update operation, then the password from that profile will be taken and stored in the new profile.
 
-For more details, see the documentation for the v1 [**IgnorePassword**](https://msdn.microsoft.com/library/Dd323287(v=VS.85).aspx) element.
+For more details, see the documentation for the v1 [**IgnorePassword**](./schema-ignorepassword-userlogoncred-element.md) element.
 
 ## Element hierarchy
 
@@ -51,45 +51,22 @@ None.
 
 ### <span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Parent Elements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-userlogoncred.md">UserLogonCred</a></td>
-<td><p>Logon credentials for a connection.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Parent Element | Description | 
+|----------------|-------------|
+| <a href="element-userlogoncred.md">UserLogonCred</a> | <p>Logon credentials for a connection.</p> | 
+
 
  
 
 ## Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p>Namespace</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 
  
-
-
-

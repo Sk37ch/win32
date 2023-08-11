@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # IVMGuestOS::SetParameter method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Sets a named parameter within the guest operating system.
 
@@ -43,7 +43,7 @@ HRESULT SetParameter(
 *inParameterName* \[in\]
 </dt> <dd>
 
-The parameter name. It must be between 1 and 255 characters in length and cannot contain a backslash (\) character.
+The parameter name. It must be between 1 and 255 characters in length and cannot contain a backslash (\\) character.
 
 </dd> <dt>
 
@@ -93,7 +93,7 @@ When the guest operating system starts, the following registry string values are
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
@@ -112,10 +112,4 @@ When the guest operating system starts, the following registry string values are
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

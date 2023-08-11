@@ -1,5 +1,5 @@
 ---
-Description: Returns the size of a vertex for a flexible vertex format (FVF).
+description: Returns the size of a vertex for a flexible vertex format (FVF).
 ms.assetid: 9d8e2b1f-0ec8-46ab-8492-2cadd700225e
 title: D3DXGetFVFVertexSize function (D3dx9mesh.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ UINT D3DXGetFVFVertexSize(
 *FVF* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 FVF to be queried. A combination of [D3DFVF](d3dfvf.md).
 
@@ -46,7 +46,7 @@ FVF to be queried. A combination of [D3DFVF](d3dfvf.md).
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The FVF vertex size, in bytes.
 
@@ -54,7 +54,7 @@ The FVF vertex size, in bytes.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -71,7 +71,3 @@ The FVF vertex size, in bytes.
  
 
  
-
-
-
-

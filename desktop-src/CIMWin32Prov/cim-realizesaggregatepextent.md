@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_RealizesAggregatePExtent association represents the relationship in which the CIM\_AggregatePExtent class is realized on a physical media.
+description: The CIM\_RealizesAggregatePExtent association represents the relationship in which the CIM\_AggregatePExtent class is realized on a physical media.
 ms.assetid: 420dde1d-daa8-4cd3-b3fd-c2aefdc1e217
 ms.tgt_platform: multiple
 title: CIM_RealizesAggregatePExtent class
@@ -61,7 +61,7 @@ Data type: **CIM\_PhysicalMedia**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 A [**CIM\_PhysicalMedia**](cim-physicalmedia.md) that describes the physical media on which the extent is realized.
@@ -77,7 +77,7 @@ Data type: **CIM\_AggregatePExtent**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The [**CIM\_AggregatePExtent**](cim-aggregatepextent.md) that is located on the media.
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -114,9 +114,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

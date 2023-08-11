@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the alpha mode for color media video types is premultiplied or straight.
+description: Specifies whether the alpha mode for color media video types is premultiplied or straight.
 ms.assetid: A263C3F7-357B-426D-B38C-533F9F6A1262
 title: MF_MT_ALPHA_MODE attribute (Mfapi.h)
 ms.topic: reference
@@ -18,13 +18,13 @@ Specifies whether the alpha mode for color media video types is premultiplied or
 
 ## Remarks
 
-This value can be cast to a [**DXGI\_ALPHA\_MODE**](https://msdn.microsoft.com/library/Hh404496(v=VS.85).aspx) value. If this attribute isn’t present, for backward compatibility, the value is **DXGI\_ALPHA\_MODE\_STRAIGHT** for video format supporting alpha channel, such as ARGB32, or **DXGI\_ALPHA\_MODE\_IGNORE** for video format without alpha channel, such as RGB32.
+This value can be cast to a [**DXGI\_ALPHA\_MODE**](/windows/win32/api/dxgi1_2/ne-dxgi1_2-dxgi_alpha_mode) value. If this attribute isn’t present, for backward compatibility, the value is **DXGI\_ALPHA\_MODE\_STRAIGHT** for video format supporting alpha channel, such as ARGB32, or **DXGI\_ALPHA\_MODE\_IGNORE** for video format without alpha channel, such as RGB32.
 
 ## Requirements
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                      |
@@ -35,7 +35,3 @@ This value can be cast to a [**DXGI\_ALPHA\_MODE**](https://msdn.microsoft.com/l
  
 
  
-
-
-
-

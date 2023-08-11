@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_DEVICE\_TRANSPORTS enumeration type specifies the inheritance relationship for a service. This enumeration is used by the WPD\_DEVICE\_TRANSPORT property.
+description: The WPD\_DEVICE\_TRANSPORTS enumeration type specifies the inheritance relationship for a service. This enumeration is used by the WPD\_DEVICE\_TRANSPORT property.
 ms.assetid: a9d48034-3588-4e48-a03a-91cbe679cbc9
 title: WPD_DEVICE_TRANSPORTS enumeration (PortableDevice.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # WPD\_DEVICE\_TRANSPORTS enumeration
 
-The [**WPD\_DEVICE\_TRANSPORTS**](https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-device-transports) enumeration type specifies the inheritance relationship for a service. This enumeration is used by the **WPD\_DEVICE\_TRANSPORT** property.
+The [**WPD\_DEVICE\_TRANSPORTS**](/windows/desktop/wpd_sdk/wpd-device-transports) enumeration type specifies the inheritance relationship for a service. This enumeration is used by the **WPD\_DEVICE\_TRANSPORT** property.
 
 ## Syntax
 
@@ -69,16 +69,11 @@ The device is connected through Bluetooth.
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 
 
 
  
-
- 
-
-
-
 

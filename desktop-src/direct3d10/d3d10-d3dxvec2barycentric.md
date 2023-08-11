@@ -1,22 +1,25 @@
 ---
-Description: Returns a point in Barycentric coordinates, using the specified 2D vectors.
+description: D3DXVec2BaryCentric function (D3DX10Math.h) - Returns a point in Barycentric coordinates, using the specified 2D vectors.
 ms.assetid: 8eceb2c0-26a0-4a7f-9830-85327dcb31ab
 title: D3DXVec2BaryCentric function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec2BaryCentric
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXVec2BaryCentric function
+# D3DXVec2BaryCentric function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Returns a point in Barycentric coordinates, using the specified 2D vectors.
 
@@ -43,7 +46,7 @@ D3DXVECTOR2* D3DXVec2BaryCentric(
 *pOut* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***
 
 Pointer to the [**D3DXVECTOR2**](d3d10-d3dxvector2.md) that is the result of the operation.
 
@@ -52,7 +55,7 @@ Pointer to the [**D3DXVECTOR2**](d3d10-d3dxvector2.md) that is the result of the
 *pV1* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***
 
 Pointer to a source D3DXVECTOR2 structure.
 
@@ -61,7 +64,7 @@ Pointer to a source D3DXVECTOR2 structure.
 *pV2* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***
 
 Pointer to a source D3DXVECTOR2 structure.
 
@@ -70,7 +73,7 @@ Pointer to a source D3DXVECTOR2 structure.
 *pV3* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***
 
 Pointer to a source D3DXVECTOR2 structure.
 
@@ -79,7 +82,7 @@ Pointer to a source D3DXVECTOR2 structure.
 *f* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Weighting factor. See Remarks.
 
@@ -88,7 +91,7 @@ Weighting factor. See Remarks.
 *g* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Weighting factor. See Remarks.
 
@@ -96,7 +99,7 @@ Weighting factor. See Remarks.
 
 ## Return value
 
-Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***
 
 Pointer to a D3DXVECTOR2 structure in Barycentric coordinates.
 
@@ -117,13 +120,13 @@ Barycentric coordinates are a form of general coordinates. In this context, usin
 
 The return value for this function is the same value returned in the pOut parameter. In this way, the D3DXVec2BaryCentric function can be used as a parameter for another function.
 
-Barycentric coordinates define a point inside a triangle in terms of the triangle's vertices. For a more in-depth description of barycentric coordinates, see [Mathworld's Barycentric Coordinates Description](https://mathworld.wolfram.com/BarycentricCoordinates.mdl).
+Barycentric coordinates define a point inside a triangle in terms of the triangle's vertices. For a more in-depth description of barycentric coordinates, see [Mathworld's Barycentric Coordinates Description](https://mathworld.wolfram.com/BarycentricCoordinates.html).
 
 ## Requirements
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -140,7 +143,3 @@ Barycentric coordinates define a point inside a triangle in terms of the triangl
  
 
  
-
-
-
-

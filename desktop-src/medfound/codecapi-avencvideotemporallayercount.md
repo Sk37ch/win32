@@ -1,5 +1,5 @@
 ---
-Description: Sets the video temporal layer count for a video encoder.
+description: Sets the video temporal layer count for a video encoder.
 ms.assetid: 36E1C86B-86D0-40CB-8F96-061FC653E9C3
 title: CODECAPI_AVEncVideoTemporalLayerCount property (Codecapi.h)
 ms.topic: reference
@@ -22,13 +22,13 @@ Sets the video temporal layer count for a video encoder.
 
 This property is also used with [H.264 UVC 1.5 camera encoders](camera-encoder-h264-uvc-1-5.md).
 
-CODECAPI\_AVEncVideoTemporalLayerCount, [CODECAPI\_AVEncVideoUsage](codecapi-avencvideousage.md), and [CODECAPI\_AVEncCommonRateControlMode](https://docs.microsoft.com/windows/desktop/DirectShow/avenccommonratecontrolmode-property) are static encoder properties. Once set, these will only take effect after a set media type is called on the camera s output pin.
+CODECAPI\_AVEncVideoTemporalLayerCount, [CODECAPI\_AVEncVideoUsage](codecapi-avencvideousage.md), and [CODECAPI\_AVEncCommonRateControlMode](/windows/desktop/DirectShow/avenccommonratecontrolmode-property) are static encoder properties. Once set, these will only take effect after a set media type is called on the camera s output pin.
 
 ## Requirements
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
@@ -44,9 +44,4 @@ CODECAPI\_AVEncVideoTemporalLayerCount, [CODECAPI\_AVEncVideoUsage](codecapi-ave
 </dt> </dl>
 
  
-
- 
-
-
-
 

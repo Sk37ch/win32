@@ -69,7 +69,7 @@ The name by which the **dispinterface** is known in the type library. This name 
 
 (Syntax 1) A list comprising a function prototype for each method and property in the **dispinterface**. Any number of function definitions can appear in *methlist*. A function in *methlist* has the following form:
 
-**\[***attributes***\]** *returntype methname type paramname***(***params***);**
+**\[***attributes***\]** *returntype methname type paramname* **(***params***);**
 
 The following attributes are accepted on a method in a **dispinterface**: **\[helpstring\]**, **\[helpcontext\]**, **\[**[**propget**](propget.md)**\]**, **\[**[**propput**](propput.md)**\]**, **\[**[**propputref**](propputref.md)**\]**, **\[**[**string**](string.md)**\]**, and **\[**[**vararg**](vararg.md)**\]**. If **\[vararg\]** is specified, the last parameter must be a safe array of **VARIANT** type.
 
@@ -131,7 +131,7 @@ The preceding example declares all the members of hello and all the members that
 
  
 
-The properties and methods of a dispinterface are not part of the VTBL of the dispinterface. Consequently, [CreateStdDispatch](https://msdn.microsoft.com/library/ms221135(v=VS.71).aspx) and [DispInvoke](https://msdn.microsoft.com/library/ms221366(v=VS.71).aspx) cannot be used to implement IDispatch::Invoke. The dispinterface is used when an application needs to expose existing non-VTBL functions through Automation. These applications can implement IDispatch::Invoke by examining the dispidMember parameter and directly calling the corresponding function.
+The properties and methods of a dispinterface are not part of the VTBL of the dispinterface. Consequently, [CreateStdDispatch](/windows/win32/api/oleauto/nf-oleauto-createstddispatch) and [DispInvoke](/windows/win32/api/oleauto/nf-oleauto-dispinvoke) cannot be used to implement IDispatch::Invoke. The dispinterface is used when an application needs to expose existing non-VTBL functions through Automation. These applications can implement IDispatch::Invoke by examining the dispidMember parameter and directly calling the corresponding function.
 
 ## Examples
 
@@ -197,13 +197,13 @@ dispinterface MyObject
 [**interface**](interface.md)
 </dt> <dt>
 
-[TYPEFLAGS](https://msdn.microsoft.com/library/ms221509(v=VS.71).aspx)
+[TYPEFLAGS](/windows/win32/api/oaidl/ne-oaidl-typeflags)
 </dt> <dt>
 
-[ODL File Syntax](https://msdn.microsoft.com/library/ms221683(v=VS.71).aspx)
+[ODL File Syntax](/previous-versions/windows/desktop/automat/odl-file-syntax)
 </dt> <dt>
 
-[ODL File Example](https://msdn.microsoft.com/library/ms221308(v=VS.71).aspx)
+[ODL File Example](/previous-versions/windows/desktop/automat/odl-file-example)
 </dt> <dt>
 
 [Generating a Type Library With MIDL](generating-a-type-library-with-midl-2.md)
@@ -248,7 +248,3 @@ dispinterface MyObject
  
 
  
-
-
-
-

@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # IVMGuestOS::InstallIntegrationComponents method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Locates and installs the latest Integration Components into the guest operating system.
 
@@ -61,7 +61,7 @@ This method can return one of these values.
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
@@ -80,10 +80,4 @@ This method can return one of these values.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

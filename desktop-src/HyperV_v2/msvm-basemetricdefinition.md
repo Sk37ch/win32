@@ -1,5 +1,5 @@
 ---
-Description: Represents the definition aspects of a metric.
+description: Represents the definition aspects of a metric.
 ms.assetid: 861a69f6-a3bf-4e18-a9c2-931632e3cccc
 title: Msvm_BaseMetricDefinition class
 ms.topic: reference
@@ -32,7 +32,7 @@ api_location:
 
 # Msvm\_BaseMetricDefinition class
 
-Represents the definition aspects of a metric. The **Msvm\_BaseMetricDefinition** class should be associated with the [**CIM\_ManagedElements**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement) to which it applies.
+Represents the definition aspects of a metric. The **Msvm\_BaseMetricDefinition** class should be associated with the [**CIM\_ManagedElements**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement) to which it applies.
 
 The following syntax is simplified Managed Object Format (MOF) code, and it includes all of the inherited properties.
 
@@ -119,7 +119,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -217,7 +217,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -230,7 +230,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A display name for the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -290,7 +290,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-A string that uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A string that uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -378,7 +378,7 @@ Identifies the specific units of a value, for example, "megabytes". This propert
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -389,9 +389,4 @@ Identifies the specific units of a value, for example, "megabytes". This propert
 
 
  
-
- 
-
-
-
 

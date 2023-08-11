@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of virtual systems.
+description: Represents a collection of virtual systems.
 ms.assetid: acf51beb-1103-43a4-8dc5-1a7f2a0482be
 title: Msvm_VirtualSystemCollection class
 ms.topic: reference
@@ -67,7 +67,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CollectionID"), [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (256)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("CollectionID"), [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (256)
 </dt> </dl>
 
 The unique identification of the collection object.
@@ -83,7 +83,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("ElementName")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("ElementName")
 </dt> </dl>
 
 An user-defined name for the collection. Note this is not guaranteed to be unique.
@@ -418,7 +418,7 @@ Replication state for the virtual system collection.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -436,9 +436,4 @@ Replication state for the virtual system collection.
 </dt> </dl>
 
  
-
- 
-
-
-
 

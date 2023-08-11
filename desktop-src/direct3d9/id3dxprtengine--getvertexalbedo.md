@@ -1,5 +1,5 @@
 ---
-Description: Retrieves albedo values of the mesh vertices.
+description: Retrieves albedo values of the mesh vertices.
 ms.assetid: 12b8d6d1-c806-4dcd-80ac-f3963215dcf4
 title: ID3DXPRTEngine::GetVertexAlbedo method (D3DX9Mesh.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Pointer to a destination array of albedo values of the mesh vertices. See [**D3D
 *NumVerts* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of vertices in the mesh.
 
@@ -64,7 +64,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -81,7 +81,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

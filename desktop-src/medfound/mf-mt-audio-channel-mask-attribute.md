@@ -1,5 +1,5 @@
 ---
-Description: In an audio media type, specifies the assignment of audio channels to speaker positions.
+description: In an audio media type, specifies the assignment of audio channels to speaker positions.
 ms.assetid: fa5f6baa-0a21-4162-8870-38e71763aba0
 title: MF_MT_AUDIO_CHANNEL_MASK attribute (Mfapi.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ The value of this attribute is a bitwise **OR** of the following flags, which ar
 
 ## Remarks
 
-This attribute corresponds to the **dwChannelMask** member of the [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/library/Dd757714(v=VS.85).aspx) structure.
+This attribute corresponds to the **dwChannelMask** member of the [**WAVEFORMATEXTENSIBLE**](/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) structure.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -82,7 +82,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |
@@ -112,7 +112,3 @@ The GUID constant for this attribute is exported from mfuuid.lib.
  
 
  
-
-
-
-

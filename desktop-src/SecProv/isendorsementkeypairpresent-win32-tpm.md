@@ -1,5 +1,5 @@
 ---
-Description: The IsEndorsementKeyPairPresent method of the Win32\_Tpm class indicates whether the endorsement key pair exists on the device.
+description: The IsEndorsementKeyPairPresent method of the Win32\_Tpm class indicates whether the endorsement key pair exists on the device.
 ms.assetid: c36cd0b5-1ac2-4fcf-b140-c5ecb0b3b211
 title: IsEndorsementKeyPairPresent method of the Win32_Tpm class
 ms.topic: reference
@@ -65,13 +65,13 @@ Common return codes are listed below.
 
 ## Remarks
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/Aa823192(v=VS.85).aspx).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## Requirements
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                      |
@@ -97,7 +97,3 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
  
 
  
-
-
-
-

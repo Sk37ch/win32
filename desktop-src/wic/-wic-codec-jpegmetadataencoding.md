@@ -1,12 +1,12 @@
 ---
-Description: The following example demonstrates how to re-encode an image and its metadata to a new file of the same format.
+description: The following example demonstrates how to re-encode an image and its metadata to a new file of the same format.
 ms.assetid: a7cfaa6d-e17d-458a-ae63-72963615bef8
-title: 'How-to: Re-encode a JPEG Image with Metadata'
+title: 'How-to re-encode a JPEG image with metadata'
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# How-to: Re-encode a JPEG Image with Metadata
+# How-to re-encode a JPEG image with metadata
 
 The following example demonstrates how to re-encode an image and its metadata to a new file of the same format. In addition, this example adds metadata to demonstrate a single-item expression used by a query writer.
 
@@ -244,7 +244,7 @@ Again, this operation works only when the source and destination images have the
 
 ## Part 5: Add Additional Metadata
 
-The following example demonstrates how to add metadata to the destination image. This is done by calling the query writer's **SetMetadataByName** method using a query expression and the data stored in a [PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(VS.85).aspx).
+The following example demonstrates how to add metadata to the destination image. This is done by calling the query writer's **SetMetadataByName** method using a query expression and the data stored in a [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant).
 
 
 ```C++
@@ -606,6 +606,3 @@ int main()
  
 
  
-
-
-

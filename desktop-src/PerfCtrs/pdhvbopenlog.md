@@ -1,5 +1,5 @@
 ---
-Description: The PdhVbOpenLog function opens the specified log file for reading and writing. This function calls PdhOpenLog.
+description: The PdhVbOpenLog function opens the specified log file for reading and writing. This function calls PdhOpenLog.
 ms.assetid: d9b8d98c-64f2-4319-8ab2-67b776143cf7
 title: PdhVbOpenLog function
 ms.topic: reference
@@ -18,6 +18,9 @@ api_location:
 # PdhVbOpenLog function
 
 The **PdhVbOpenLog** function opens the specified log file for reading and writing. This function calls [**PdhOpenLog**](/windows/desktop/api/Pdh/nf-pdh-pdhopenloga).
+
+> [!IMPORTANT]
+> The function that this topic describes may be altered or unavailable in the future. Instead, Microsoft recommends that you use the functions described in [Performance Counters Functions](performance-counters-functions.md).
 
 Function PdhVbOpenLog( \_ ByVal szLogFileName As LPCTSTR, \_ ByVal dwAccessFlags As DWORD, \_ ByVal lpdwLogType As LPDWORD, \_ ByVal hQuery As PDH\_HQUERY, \_ ByVal dwMaxSize As DWORD, \_ ByVal szUserCaption As LPCSTR, \_ ByRef phLog As PDH\_HLOG \_ ) As DWORD
 
@@ -124,7 +127,7 @@ Pointer to a buffer that receives a handle to the opened log file.
 
 If the function succeeds, it returns 0.
 
-If the function fails, the return value is a [system error code](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes) or a [PDH error code](pdh-error-codes.md). The following are possible values.
+If the function fails, the return value is a [system error code](/windows/desktop/Debug/system-error-codes) or a [PDH error code](pdh-error-codes.md). The following are possible values.
 
 
 
@@ -152,7 +155,7 @@ Note that log files in the Perfmon format can only be opened for reading.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
@@ -175,9 +178,4 @@ Note that log files in the Perfmon format can only be opened for reading.
 </dt> </dl>
 
  
-
- 
-
-
-
 

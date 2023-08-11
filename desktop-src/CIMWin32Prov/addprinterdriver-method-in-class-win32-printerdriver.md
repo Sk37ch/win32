@@ -1,5 +1,5 @@
 ---
-Description: Creates a new printer driver.
+description: Creates a new printer driver.
 ms.assetid: 23d9ec50-235a-4bf8-ab6b-be3509c3869f
 ms.tgt_platform: multiple
 title: AddPrinterDriver method of the Win32_PrinterDriver class
@@ -20,7 +20,7 @@ api_location:
 
 The **AddPrinterDriver** class method creates a new printer driver.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -46,7 +46,7 @@ An instance of the [**Win32\_PrinterDriver**](win32-printerdriver.md) class that
 
 ## Return value
 
-Returns one of the values listed in the following list or any other value to indicate an error. For values different from those listed in the following list, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants).
+Returns one of the values listed in the following list or any other value to indicate an error. For values different from those listed in the following list, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants).
 
 <dl> <dt>
 
@@ -113,7 +113,7 @@ intResult = objDriver.AddPrinterDriver(objDriver)
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
@@ -134,9 +134,4 @@ intResult = objDriver.AddPrinterDriver(objDriver)
 </dt> </dl>
 
  
-
- 
-
-
-
 

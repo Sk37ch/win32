@@ -1,5 +1,5 @@
 ---
-Description: Retrieves either an attribute table for a mesh, or the number of entries stored in an attribute table for a mesh.
+description: ID3DXBaseMesh::GetAttributeTable method - Retrieves either an attribute table for a mesh, or the number of entries stored in an attribute table for a mesh.
 ms.assetid: 15b24137-0ff9-4299-971b-90fa4ef2686d
 title: ID3DXBaseMesh::GetAttributeTable method (D3DX9Mesh.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Pointer to an array of [**D3DXATTRIBUTERANGE**](d3dxattributerange.md) structure
 *pAttribTableSize* \[in, out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to either the number of entries stored in pAttribTable or a value to be filled in with the number of entries stored in the attribute table for the mesh.
 
@@ -70,7 +70,7 @@ An attribute table is used to identify areas of the mesh that need to be drawn w
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -87,7 +87,3 @@ An attribute table is used to identify areas of the mesh that need to be drawn w
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Identifies memory data. Deprecated.
+description: Identifies memory data. Deprecated.
 ms.assetid: fe791e13-d5de-425f-b68f-80db8b332cc6
 title: DXFILELOADMEMORY structure (DXFile.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ typedef struct DXFILELOADMEMORY {
 **lpMemory**
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -49,7 +49,7 @@ Pointer to a block of memory to be loaded.
 **dSize**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -65,7 +65,7 @@ This structure identifies a resource to be loaded when an application uses the [
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>DXFile.h</dt> </dl> |
 
@@ -87,7 +87,3 @@ This structure identifies a resource to be loaded when an application uses the [
  
 
  
-
-
-
-

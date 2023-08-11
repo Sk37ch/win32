@@ -1,5 +1,5 @@
 ---
-Description: Driver capability flags.
+description: See a list of D3DCAPS2 driver capability flags. Includes the definitions, values, and descriptions with links to APIs.
 ms.assetid: 0c0c65fc-f953-4379-a6d0-6ce447a0c183
 title: D3DCAPS2
 ms.topic: article
@@ -14,9 +14,9 @@ Driver capability flags.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -37,7 +37,7 @@ Driver capability flags.
 <tr class="even">
 <td>D3DCAPS2_CANSHARERESOURCE</td>
 <td>0x80000000L</td>
-<td>The device can create sharable resources. Methods that create resources can set non-NULL values for their <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiresource-getsharedhandle"><strong>pSharedHandle</strong></a> parameters. 
+<td>The device can create sharable resources. Methods that create resources can set non-NULL values for their <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiresource-getsharedhandle"><strong>pSharedHandle</strong></a> parameters. 
 <table>
 <tbody>
 <tr class="odd">
@@ -81,7 +81,7 @@ These constants are used by the D3CAPS2 member of [**D3DCAPS9**](/windows/deskto
 
 
 
-|                          |            |
+|  Requirement                        | Value           |
 |--------------------------|------------|
 | Header                   | d3d9caps.h |
 | Minimum operating system | Windows 98 |
@@ -100,7 +100,3 @@ These constants are used by the D3CAPS2 member of [**D3DCAPS9**](/windows/deskto
  
 
  
-
-
-
-

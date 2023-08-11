@@ -1,22 +1,25 @@
 ---
-Description: Builds a rotation matrix from a quaternion.
+description: D3DXMatrixRotationQuaternion function (D3DX10Math.h) - Builds a rotation matrix from a quaternion.
 ms.assetid: dcbf8696-b959-4475-a250-6094dd5fe358
 title: D3DXMatrixRotationQuaternion function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixRotationQuaternion
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXMatrixRotationQuaternion function
+# D3DXMatrixRotationQuaternion function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a rotation matrix from a quaternion.
 
@@ -39,7 +42,7 @@ D3DXMATRIX* D3DXMatrixRotationQuaternion(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the result of the operation.
 
@@ -48,7 +51,7 @@ Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the resul
 *pQ* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to the source D3DXQUATERNION structure.
 
@@ -56,7 +59,7 @@ Pointer to the source D3DXQUATERNION structure.
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to a D3DXMATRIX structure built from the source quaternion.
 
@@ -70,7 +73,7 @@ For information about how to calculate quaternion values from a direction vector
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -87,7 +90,3 @@ For information about how to calculate quaternion values from a direction vector
  
 
  
-
-
-
-

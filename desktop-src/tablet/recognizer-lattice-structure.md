@@ -1,5 +1,5 @@
 ---
-Description: Recognizers created for use with Windows Vista and Windows XP Tablet PC Edition use a set of structures, each of which is called a lattice, to pass recognition results back to Tablet PC platform libraries.
+description: Recognizers created for use with Windows Vista and Windows XP Tablet PC Edition use a set of structures, each of which is called a lattice, to pass recognition results back to Tablet PC platform libraries.
 ms.assetid: 628ca677-31eb-47d9-bcc6-d7777f8aaf7c
 title: Recognizer Lattice Structure
 ms.topic: article
@@ -52,13 +52,10 @@ In this case, a recognizer might create the following lattice structure.
 ![lattice structure for the word "together"](images/2496c3dd-8b08-4f86-9fe3-f118be49a8c8.gif)
 
 > [!Note]  
-> Each column shares the same stroke order because they all refer to the same [InkStrokes](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection.
+> Each column shares the same stroke order because they all refer to the same [InkStrokes](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) collection.
 
  
 
  
 
  
-
-
-

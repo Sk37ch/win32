@@ -1,5 +1,5 @@
 ---
-Description: Creates an ISCardFileAccess interface.
+description: Creates an ISCardFileAccess interface.
 ms.assetid: 06a5948f-c7bd-49bf-9032-f40f3d0d330c
 title: ISCardManage::CreateFileAccess method
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 
 # ISCardManage::CreateFileAccess method
 
-\[The **CreateFileAccess** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **CreateFileAccess** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
 The **CreateFileAccess** method creates an [**ISCardFileAccess**](iscardfileaccess.md) interface.
 
@@ -63,13 +63,13 @@ The method returns one of the following possible values.
 
 For a list of all the methods defined by this interface, see [**ISCardManage**](iscardmanage.md).
 
-In addition to the COM error codes listed above, this interface may return a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md).
+In addition to the COM error codes listed above, this interface may return a [*smart card*](../secgloss/s-gly.md) error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md).
 
 ## Requirements
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
@@ -91,7 +91,3 @@ In addition to the COM error codes listed above, this interface may return a [*s
  
 
  
-
-
-
-

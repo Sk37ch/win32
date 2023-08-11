@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance properties"
 title: Instance properties
 TOCTitle: Instance properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Instance
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [Instance](dn350923\(v=exchg.10\).md) type exposes the following members.
+The [Instance](./instance-class.md) type exposes the following members.
 
 ## Properties
 
@@ -28,13 +29,13 @@ The [Instance](dn350923\(v=exchg.10\).md) type exposes the following members.
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle.isclosed?redirectedfrom=MSDN#System_Runtime_InteropServices_SafeHandle_IsClosed">IsClosed</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle?redirectedfrom=MSDN">SafeHandle</a>.)</td>
+<td><a href="/dotnet/api/system.runtime.interopservices.safehandle.isclosed#System_Runtime_InteropServices_SafeHandle_IsClosed">IsClosed</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.runtime.interopservices.safehandle">SafeHandle</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/microsoft.win32.safehandles.safehandlezeroorminusoneisinvalid.isinvalid?redirectedfrom=MSDN#Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid_IsInvalid">IsInvalid</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/microsoft.win32.safehandles.safehandlezeroorminusoneisinvalid?redirectedfrom=MSDN">SafeHandleZeroOrMinusOneIsInvalid</a>.)</td>
+<td><a href="/dotnet/api/microsoft.win32.safehandles.safehandlezeroorminusoneisinvalid.isinvalid#Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid_IsInvalid">IsInvalid</a></td>
+<td>(Inherited from <a href="/dotnet/api/microsoft.win32.safehandles.safehandlezeroorminusoneisinvalid">SafeHandleZeroOrMinusOneIsInvalid</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
@@ -61,7 +62,6 @@ Top
 
 #### Reference
 
-[Instance class](dn350923\(v=exchg.10\).md)
+[Instance class](./instance-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

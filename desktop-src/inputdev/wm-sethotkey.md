@@ -70,8 +70,8 @@ The return value is one of the following.
 
 | Return value                                                                  | Description                                                                             |
 |-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| <dl> <dt>-1</dt> </dl> | The function is unsuccessful the hot key is invalid.<br/>                         |
-| <dl> <dt>0</dt> </dl>  | The function is unsuccessful the window is invalid.<br/>                          |
+| <dl> <dt>-1</dt> </dl> | The function is unsuccessful; the hot key is invalid.<br/>                        |
+| <dl> <dt>0</dt> </dl>  | The function is unsuccessful; the window is invalid.<br/>                         |
 | <dl> <dt>1</dt> </dl>  | The function is successful, and no other window has the same hot key.<br/>        |
 | <dl> <dt>2</dt> </dl>  | The function is successful, but another window already has the same hot key.<br/> |
 
@@ -85,17 +85,17 @@ A hot key cannot be associated with a child window.
 
 **VK\_ESCAPE**, **VK\_SPACE**, and **VK\_TAB** are invalid hot keys.
 
-When the user presses the hot key, the system generates a [**WM\_SYSCOMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand) message with *wParam* equal to **SC\_HOTKEY** and *lParam* equal to the window's handle. If this message is passed on to [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca), the system will bring the window's last active popup (if it exists) or the window itself (if there is no popup window) to the foreground.
+When the user presses the hot key, the system generates a [**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand) message with *wParam* equal to **SC\_HOTKEY** and *lParam* equal to the window's handle. If this message is passed on to [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca), the system will bring the window's last active popup (if it exists) or the window itself (if there is no popup window) to the foreground.
 
 A window can only have one hot key. If the window already has a hot key associated with it, the new hot key replaces the old one. If more than one window has the same hot key, the window that is activated by the hot key is random.
 
-These hot keys are unrelated to the hot keys set by [**RegisterHotKey**](https://msdn.microsoft.com/library/ms646309(v=VS.85).aspx).
+These hot keys are unrelated to the hot keys set by [**RegisterHotKey**](/windows/win32/api/winuser/nf-winuser-registerhotkey).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -110,13 +110,13 @@ These hot keys are unrelated to the hot keys set by [**RegisterHotKey**](https:/
 **Reference**
 </dt> <dt>
 
-[**RegisterHotKey**](https://msdn.microsoft.com/library/ms646309(v=VS.85).aspx)
+[**RegisterHotKey**](/windows/win32/api/winuser/nf-winuser-registerhotkey)
 </dt> <dt>
 
 [**WM\_GETHOTKEY**](wm-gethotkey.md)
 </dt> <dt>
 
-[**WM\_SYSCOMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand)
+[**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand)
 </dt> <dt>
 
 **Conceptual**
@@ -126,10 +126,4 @@ These hot keys are unrelated to the hot keys set by [**RegisterHotKey**](https:/
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

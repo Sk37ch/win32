@@ -1,5 +1,5 @@
 ---
-Description: Turns on or off all D3DX debug output.
+description: Turns on or off all D3DX debug output.
 ms.assetid: e35cbfd2-401e-47ec-9f5b-e2ed63ea1fcd
 title: D3DXDebugMute function (D3dx9core.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ BOOL D3DXDebugMute(
 *Mute* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 If **TRUE**, debugger output is halted; if **FALSE**, debug output is enabled.
 
@@ -46,7 +46,7 @@ If **TRUE**, debugger output is halted; if **FALSE**, debug output is enabled.
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 Returns the previous value of Mute.
 
@@ -54,7 +54,7 @@ Returns the previous value of Mute.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -71,7 +71,3 @@ Returns the previous value of Mute.
  
 
  
-
-
-
-

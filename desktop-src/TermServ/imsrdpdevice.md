@@ -24,7 +24,7 @@ Contains information about a device object.
 
 ## Members
 
-The **IMsRdpDevice** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMsRdpDevice** also has these types of members:
+The **IMsRdpDevice** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMsRdpDevice** also has these types of members:
 
 -   [Properties](#properties)
 
@@ -49,7 +49,7 @@ The **IMsRdpDevice** interface has these properties.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
@@ -70,10 +70,4 @@ The **IMsRdpDevice** interface has these properties.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

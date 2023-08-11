@@ -1,5 +1,5 @@
 ---
-Description: Represents an address in the master file table (MFT). The address is tagged with a circularly reused sequence number that is set at the time the MFT segment reference was valid.
+description: Represents an address in the master file table (MFT). The address is tagged with a circularly reused sequence number that is set at the time the MFT segment reference was valid.
 ms.assetid: 59d83b95-83fb-4630-8ce4-f58441c748ab
 title: MFT_SEGMENT_REFERENCE structure
 ms.topic: reference
@@ -62,7 +62,7 @@ The nonzero sequence number. The value 0 is reserved.
 
 Note that there is no associated header file for this structure.
 
-This structure definition is valid only for major version 3 and minor version 0 or 1, as reported by [**FSCTL\_GET\_NTFS\_VOLUME\_DATA**](https://msdn.microsoft.com/library/Aa364569(v=VS.85).aspx).
+This structure definition is valid only for major version 3 and minor version 0 or 1, as reported by [**FSCTL\_GET\_NTFS\_VOLUME\_DATA**](/windows/win32/api/winioctl/ni-winioctl-fsctl_get_ntfs_volume_data).
 
 The **FILE\_REFERENCE** data type is defined as follows.
 
@@ -80,6 +80,3 @@ typedef MFT_SEGMENT_REFERENCE FILE_REFERENCE, *PFILE_REFERENCE;
  
 
  
-
-
-

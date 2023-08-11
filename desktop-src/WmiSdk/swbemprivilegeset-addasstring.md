@@ -1,5 +1,5 @@
 ---
-Description: You can use the AddAsString method of the SWbemPrivilegeSet object to add a privilege to an SWbemPrivilegeSet collection using a privilege string.
+description: You can use the AddAsString method of the SWbemPrivilegeSet object to add a privilege to an SWbemPrivilegeSet collection using a privilege string.
 ms.assetid: 729ed4e3-2c5c-4bb4-acc6-cf9ad0d5eaf1
 ms.tgt_platform: multiple
 title: SWbemPrivilegeSet.AddAsString method (Wbemdisp.h)
@@ -73,7 +73,7 @@ Unspecified error.
 
 ## Examples
 
-The following VBScript code example creates a new port for a print server using [**Win32\_TCPIPPrinterPort**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-tcpipprinterport). The **SeLoadDriverPrivilege** is required for this operation. See [Executing Privileged Operations](executing-privileged-operations.md).
+The following VBScript code example creates a new port for a print server using [**Win32\_TCPIPPrinterPort**](/windows/desktop/CIMWin32Prov/win32-tcpipprinterport). The **SeLoadDriverPrivilege** is required for this operation. See [Executing Privileged Operations](executing-privileged-operations.md).
 
 
 ```VB
@@ -98,7 +98,7 @@ A code example using this method is also described in the [**SWbemPrivilegeSet**
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -136,9 +136,4 @@ A code example using this method is also described in the [**SWbemPrivilegeSet**
 </dt> </dl>
 
  
-
- 
-
-
-
 

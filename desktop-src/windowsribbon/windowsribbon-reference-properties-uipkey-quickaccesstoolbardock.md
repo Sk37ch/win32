@@ -24,11 +24,11 @@ propertyDescription
 
 UI\_PKEY\_QuickAccessToolbarDock is used by an application to query the dock-state of the Quick Access Toolbar (QAT).
 
-The property value is from the [**UI\_CONTROLDOCK**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_controldock) enumeration.
+The property value is from the [**UI\_CONTROLDOCK**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_controldock) enumeration.
 
 
 
-|                         |                                                                                                                                                                                                                                                       |
+|    Enumeration                     |    Description                                                                                                                                                                                                                                                   |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | UI\_CONTROLDOCK\_TOP    | The QAT is docked in the nonclient area of the Ribbon host application, as shown in the following screen shot.![screen shot of the quick access toolbar docked above the ribbon in the nonclient area.](images/properties/qat-docktop.png)<br/> |
 | UI\_CONTROLDOCK\_BOTTOM | The QAT is docked as a visually integral band below the Ribbon, as shown in the following screen shot. ![screen shot of the quick access toolbar docked below the ribbon.](images/properties/qat-dockbottom.png)<br/>                           |
@@ -45,10 +45,4 @@ The property value is from the [**UI\_CONTROLDOCK**](https://docs.microsoft.com/
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

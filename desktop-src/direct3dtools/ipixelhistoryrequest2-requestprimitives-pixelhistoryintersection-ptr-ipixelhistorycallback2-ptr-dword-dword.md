@@ -1,5 +1,5 @@
 ---
-Description: Requests a list of primitives from a particular intersection. For more information, see the RequestIntersections member function.
+description: Requests a list of primitives from a particular intersection. For more information, see the RequestIntersections member function.
 MS-HAID: vspixengine.IPixelHistoryRequest2\_RequestPrimitives\_PixelHistoryIntersection\_ptr\_IPixelHistoryCallback2\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -56,15 +56,12 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
 ## <span id="see_also"></span>See also
 
-[**IPixelHistoryRequest2**](https://docs.microsoft.com/windows/desktop/direct3dtools/ipixelhistoryrequest2)
+[**IPixelHistoryRequest2**](/windows/desktop/direct3dtools/ipixelhistoryrequest2)
 
  
 
  
-
-
-

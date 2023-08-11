@@ -1,5 +1,5 @@
 ---
-Description: Example code that shows how to test for the end of file during a synchronous read operation and during an asynchronous read operation.
+description: Example code that shows how to test for the end of file during a synchronous read operation and during an asynchronous read operation.
 ms.assetid: 93fa9e29-1ff1-496d-9551-99ae88ba7253
 title: Testing for the End of a File
 ms.topic: article
@@ -26,7 +26,7 @@ The following C++ example shows how to test for the end of a file during a synch
 
 
 
-The test for end-of-file during an asynchronous read operation is slightly more involved than for a similar synchronous read operation. The end-of-file indicator for asynchronous read operations is when [**GetOverlappedResult**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult) returns **FALSE** and [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns **ERROR\_HANDLE\_EOF**.
+The test for end-of-file during an asynchronous read operation is slightly more involved than for a similar synchronous read operation. The end-of-file indicator for asynchronous read operations is when [**GetOverlappedResult**](/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult) returns **FALSE** and [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns **ERROR\_HANDLE\_EOF**.
 
 The following C++ example shows how to test for the end of file during an asynchronous read operation.
 
@@ -236,7 +236,7 @@ DWORD AsyncTestForEnd( HANDLE hEvent, HANDLE hFile )
     return stOverlapped.Offset;
 }
 
-void __cdecl _tmain(int argc, TCHAR *argv[])
+int __cdecl _tmain(int argc, TCHAR *argv[])
 
 // To force an EOF condition, execute this application specifying a
 // zero-length file. This is because the offset (file pointer) must be
@@ -312,6 +312,3 @@ Complete. Bytes read: 541
  
 
  
-
-
-

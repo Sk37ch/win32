@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Configuration object allows the grouping of parameter sets (defined in CIM\_Setting objects) and dependencies for one or more managed system elements.
+description: The CIM\_Configuration object allows the grouping of parameter sets (defined in CIM\_Setting objects) and dependencies for one or more managed system elements.
 ms.assetid: f597fe78-be50-4d31-b1eb-d219acaf1751
 ms.tgt_platform: multiple
 title: CIM_Configuration class
@@ -63,7 +63,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64)
+Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64)
 </dt> </dl>
 
 Short textual description of the **CIM\_Configuration** object.
@@ -92,7 +92,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (256)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (256)
 </dt> </dl>
 
 Label by which the **CIM\_Configuration** object is known.
@@ -109,7 +109,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -120,9 +120,4 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
  
-
- 
-
-
-
 

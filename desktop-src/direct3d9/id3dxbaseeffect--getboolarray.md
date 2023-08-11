@@ -1,5 +1,5 @@
 ---
-Description: Gets an array of BOOL values.
+description: Gets an array of BOOL values.
 ms.assetid: 4a5e2f48-fa82-47dc-a388-02a8679585d2
 title: ID3DXBaseEffect::GetBoolArray method (D3DX9Shader.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ Unique identifier. See [Handles (Direct3D 9)](handles.md).
 *pB* \[out\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**BOOL**](../winprog/windows-data-types.md)\***
 
 Returns an array of Boolean values.
 
@@ -58,7 +58,7 @@ Returns an array of Boolean values.
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of Boolean values in the array.
 
@@ -74,7 +74,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -94,7 +94,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

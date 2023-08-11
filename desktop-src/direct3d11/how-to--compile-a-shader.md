@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # How To: Compile a Shader
 
-You typically use the [fxc.exe](https://docs.microsoft.com/windows/desktop/direct3dtools/fxc) HLSL code compiler as part of the build process to compile shader code. For more info about this, see [Compiling Shaders](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-part1). This topic shows how to use the [**D3DCompileFromFile**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompilefromfile) function at run time to compile shader code.
+You typically use the [fxc.exe](/windows/desktop/direct3dtools/fxc) HLSL code compiler as part of the build process to compile shader code. For more info about this, see [Compiling Shaders](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-part1). This topic shows how to use the [**D3DCompileFromFile**](/windows/desktop/direct3dhlsl/d3dcompilefromfile) function at run time to compile shader code.
 
 **To compile a shader:**
 
--   Compile HLSL shader code by calling [**D3DCompileFromFile**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompilefromfile).
+-   Compile HLSL shader code by calling [**D3DCompileFromFile**](/windows/desktop/direct3dhlsl/d3dcompilefromfile).
     ```C++
         UINT flags = D3DCOMPILE_ENABLE_STRICTNESS;
     #if defined( DEBUG ) || defined( _DEBUG )
@@ -37,7 +37,7 @@ You typically use the [fxc.exe](https://docs.microsoft.com/windows/desktop/direc
 The following code example shows how to compile various shaders.
 
 > [!Note]  
-> For this example code, you need the Windows SDK 8.0 and the d3dcompiler\_44.dll file from the %PROGRAM\_FILE%\\Windows Kits\\8.0\\Redist\\D3D\\<arch> folder in your path. Windows Store apps support run time compilation for development but not for deployment.
+> For this example code, you need the Windows SDK 8.0 and the d3dcompiler\_44.dll file from the %PROGRAM\_FILE%\\Windows Kits\\8.0\\Redist\\D3D\\&lt;arch&gt; folder in your path. Windows Store apps support run time compilation for development but not for deployment.
 
  
 
@@ -248,7 +248,3 @@ VS_OUTPUT VSMain( VS_INPUT Input )
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Initiates sharing for a server resource.
+description: Initiates sharing for a server resource.
 ms.assetid: 36530e1b-9109-4a6c-bba9-d9358101f5e2
 ms.tgt_platform: multiple
 title: Create method of the Win32_Share class
@@ -18,9 +18,9 @@ api_location:
 
 # Create method of the Win32\_Share class
 
-The **Create**   [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method initiates sharing for a server resource.
+The **Create**   [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method initiates sharing for a server resource.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -150,13 +150,13 @@ Password (when the server is running with share-level security) for the shared r
 *Access* \[in, optional\]
 </dt> <dd>
 
-Security descriptor for user level permissions. A security descriptor contains information about the permissions, owner, and access capabilities of the resource. If this parameter is not supplied or is **NULL**, then Everyone has read access to the share. For more information, see [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) and [Changing Access Security on Securable Objects](https://docs.microsoft.com/windows/desktop/WmiSdk/changing-access-security-on-securable-objects).
+Security descriptor for user level permissions. A security descriptor contains information about the permissions, owner, and access capabilities of the resource. If this parameter is not supplied or is **NULL**, then Everyone has read access to the share. For more information, see [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) and [Changing Access Security on Securable Objects](/windows/desktop/WmiSdk/changing-access-security-on-securable-objects).
 
 </dd> </dl>
 
 ## Return value
 
-Returns one of the values listed in the following list, or any other value to indicate an error. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+Returns one of the values listed in the following list, or any other value to indicate an error. For additional error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -305,7 +305,7 @@ catch (SystemException e)
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -319,16 +319,11 @@ catch (SystemException e)
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_Share**](win32-share.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: The KEYSVC\_UNICODE\_STRING structure defines a Unicode string and a maximum length for the string. This structure is used by the RKeyPFXInstall function.
+description: The KEYSVC\_UNICODE\_STRING structure defines a Unicode string and a maximum length for the string. This structure is used by the RKeyPFXInstall function.
 ms.assetid: 12142543-5c53-4638-9fd7-f523594142c8
 title: KEYSVC_UNICODE_STRING structure (Rkeysvcc.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # KEYSVC\_UNICODE\_STRING structure
 
-The **KEYSVC\_UNICODE\_STRING** structure defines a [*Unicode*](https://msdn.microsoft.com/library/ms721629(v=VS.85).aspx) string and a maximum length for the string. This structure is used by the [**RKeyPFXInstall**](rkeypfxinstall.md) function.
+The **KEYSVC\_UNICODE\_STRING** structure defines a [*Unicode*](../secgloss/u-gly.md) string and a maximum length for the string. This structure is used by the [**RKeyPFXInstall**](rkeypfxinstall.md) function.
 
 ## Syntax
 
@@ -61,7 +61,7 @@ A pointer to a **USHORT** that represents the Unicode string.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -82,7 +82,3 @@ A pointer to a **USHORT** that represents the Unicode string.
  
 
  
-
-
-
-

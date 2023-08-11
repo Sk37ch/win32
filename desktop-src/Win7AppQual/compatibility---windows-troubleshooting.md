@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Windows Troubleshooting
 ms.assetid: fb2c487a-d395-45eb-9010-936a61a414d0
 title: Windows Troubleshooting
 ms.topic: article
@@ -10,9 +10,16 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Clients** - Windows 7  
+**Clients** - Windows 7  
 **Servers** - Windows Server 2008 R2  
-</dl>
+
+
+
+
+
+
+
+
 
 ## Description
 

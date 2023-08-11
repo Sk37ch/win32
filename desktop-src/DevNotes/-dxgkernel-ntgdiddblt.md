@@ -1,5 +1,5 @@
 ---
-Description: Performs a bit-block transfer.
+description: Performs a bit-block transfer.
 ms.assetid: 90cc02af-96af-4913-ae7d-62f39cd6ddd7
 title: NtGdiDdBlt function (Ntgdi.h)
 ms.topic: reference
@@ -44,21 +44,21 @@ DWORD APIENTRY NtGdiDdBlt(
 *hSurfaceDest* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that describes the surface on which to blit.
+Handle to a [**DD\_SURFACE\_LOCAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local) structure that describes the surface on which to blit.
 
 </dd> <dt>
 
 *hSurfaceSrc* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that describes the source surface.
+Handle to a [**DD\_SURFACE\_LOCAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local) structure that describes the source surface.
 
 </dd> <dt>
 
 *puBltData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_BLTDATA**](https://msdn.microsoft.com/library/Ff550474(v=VS.85).aspx) structure that contains the information required for the driver to perform the blit.
+Pointer to a [**DD\_BLTDATA**](/windows/win32/api/ddrawint/ns-ddrawint-dd_bltdata) structure that contains the information required for the driver to perform the blit.
 
 </dd> </dl>
 
@@ -81,7 +81,7 @@ Pointer to a [**DD\_BLTDATA**](https://msdn.microsoft.com/library/Ff550474(v=VS.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
@@ -99,7 +99,3 @@ Pointer to a [**DD\_BLTDATA**](https://msdn.microsoft.com/library/Ff550474(v=VS.
  
 
  
-
-
-
-

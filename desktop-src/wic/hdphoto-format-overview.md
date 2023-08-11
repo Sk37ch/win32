@@ -1,5 +1,5 @@
 ---
-Description: This topic provides information about the native HD Photo codec available through the Windows Imaging Component (WIC).
+description: This topic provides information about the native HD Photo codec available through the Windows Imaging Component (WIC).
 ms.assetid: C73752AB-3D6E-4D92-9FDE-CB68B6A9743C
 title: HD Photo Format Overview
 ms.topic: article
@@ -30,7 +30,7 @@ The following table provides codec identification information.
 
 
 
-|                        |                                                                                 |
+|   Component            | Description                                                                     |
 |------------------------|---------------------------------------------------------------------------------|
 | Formal Name(s)         | HD Photo, Windows Media Photo                                                   |
 | File Name Extension(s) | wdp                                                                             |
@@ -61,165 +61,38 @@ The WIC encoding API are designed to be codec-independent and image encoding for
 
 ### Encoder Options
 
-WIC-enabled codecs differ at the encoding option level. Encoder options reflect the capabilities of an image encoder and each native codec supports a set of these encoder options. Encoder options can be basic WIC supported options available to all WIC enabled codes (though not necessarily supported) or codec-specific options designed by the image format codec. To manage these encoding options during the encoding process, WIC uses the [**IPropertyBag2**](https://msdn.microsoft.com/library/Aa768192(v=VS.85).aspx) interface . For more information about using the **IPropertyBag2** interface for WIC encoding, see the [Encoding Overview](-wic-creating-encoder.md).
+WIC-enabled codecs differ at the encoding option level. Encoder options reflect the capabilities of an image encoder and each native codec supports a set of these encoder options. Encoder options can be basic WIC supported options available to all WIC enabled codes (though not necessarily supported) or codec-specific options designed by the image format codec. To manage these encoding options during the encoding process, WIC uses the [**IPropertyBag2**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85)) interface . For more information about using the **IPropertyBag2** interface for WIC encoding, see the [Encoding Overview](-wic-creating-encoder.md).
 
 The HD Photo codec uses both basic WIC options and provides several HD Photo specific encoding options. The following table lists the encoder options supported by the native HD Photo codec.
 
-
-
 Basic WIC Encoder Options
 
-Property Name
-
-VARTYPE
-
-Value Range
-
-Default Value
-
-[ImageQuality](#imagequality-option)
-
-VT\_R4
-
-0 - 1.0
-
-0.9
-
-[Lossless](#lossless-option)
-
-VT\_BOOL
-
-**TRUE**, **FALSE**
-
-**FALSE**
-
-[BitmapTransform](#bitmaptransform-option)
-
-VT\_UI1
-
-[**WICBitmapTransformOptions**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmaptransformoptions)
-
-[**WICBitmapTransformRotate0**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmaptransformoptions)
+| Property Name | VARTYPE | Value Range | Default Value |
+|---------------|---------|-------------|---------------|
+| [ImageQuality](#imagequality-option) | VT\_R4 | 0 - 1.0 | 0.9 |
+| [Lossless](#lossless-option) | VT\_BOOL | **TRUE**, **FALSE** | **FALSE** |
+| [BitmapTransform](#bitmaptransform-option) | VT\_UI1 | [**WICBitmapTransformOptions**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmaptransformoptions) |   [**WICBitmapTransformRotate0**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmaptransformoptions) |
 
 HD Photo Specific Encoder Options
 
-Property Name
-
-VARTYPE
-
-Value Range
-
-Default Value
-
-[UseCodecOptions](#usecodecoptions-option)
-
-VT\_BOOL
-
-**TRUE**, **FALSE**
-
-**FALSE**
-
-[Quality](#quality-option)
-
-VT\_UI1
-
-1 - 255
-
-10
-
-[Overlap](#overlap-option)
-
-VT\_UI1
-
-0 - 2
-
-1
-
-[Subsampling](#subsampling-option)
-
-VT\_UI1
-
-0 - 3
-
-3 if ImageQuality > 0.8; otherwise 1;
-
-[HorizontalTileSlices](#horizontaltileslices-verticaltileslices-options)
-
-VT\_UI2
-
-0 - 4095
-
-(image width – 1) >> 8
-
-[VerticalTileSlices](#horizontaltileslices-verticaltileslices-options)
-
-VT\_UI2
-
-0 - 4095
-
-(image height – 1) >> 8
-
-[FrequencyOrder](#frequencyorder-option)
-
-VT\_BOOL
-
-**TRUE**, **FALSE**
-
-**TRUE**
-
-[InterleavedAlpha](#interleavedalpha-option)
-
-VT\_BOOL
-
-**TRUE**, **FALSE**
-
-**FALSE**
-
-[AlphaQuality](#alphaquality-option)
-
-VT\_UI1
-
-1 - 255
-
-1
-
-[CompressedDomainTranscode](#compresseddomaintranscode-option)
-
-VT\_BOOL
-
-**TRUE**, **FALSE**
-
-**TRUE**
-
-[ImageDataDiscard](#imagedatadiscard-option)
-
-VT\_UI1
-
-0 - 3
-
-0
-
-[AlphaDataDiscard](#alphadatadiscard-option)
-
-VT\_UI1
-
-0 - 4
-
-Not Used.
-
-[IgnoreOverlap](#ignoreoverlap-option)
-
-VT\_BOOL
-
-**TRUE**, **FALSE**
-
-**FALSE**
+| Property Name | VARTYPE | Value Range | Default Value |
+|---------------|---------|-------------|---------------|
+| [UseCodecOptions](#usecodecoptions-option) | VT\_BOOL | **TRUE**, **FALSE** | **FALSE** |
+| [Quality](#quality-option) | VT\_UI1 | 1 - 255 | 10 |
+| [Overlap](#overlap-option) | VT\_UI1 | 0 - 2 | 1 |
+| [Subsampling](#subsampling-option) | VT\_UI1 | 0 - 3 | 3 if ImageQuality > 0.8; otherwise 1; |
+| [HorizontalTileSlices](#horizontaltileslices-verticaltileslices-options) | VT\_UI2 | 0 - 4095 | (image width – 1) >> 8 |
+| [VerticalTileSlices](#horizontaltileslices-verticaltileslices-options) | VT\_UI2 | 0 - 4095 | (image height – 1) >> 8 |
+| [FrequencyOrder](#frequencyorder-option) | VT\_BOOL | **TRUE**, **FALSE** | **TRUE** |
+| [InterleavedAlpha](#interleavedalpha-option) | VT\_BOOL | **TRUE**, **FALSE** | **FALSE** |
+| [AlphaQuality](#alphaquality-option) | VT\_UI1 | 1 - 255 | 1 |
+| [CompressedDomainTranscode](#compresseddomaintranscode-option) | VT\_BOOL | **TRUE**, **FALSE** | **TRUE** |
+| [ImageDataDiscard](#imagedatadiscard-option) | VT\_UI1 | 0 - 3 | 0 |
+| [AlphaDataDiscard](#alphadatadiscard-option) | VT\_UI1 | 0 - 4 | Not Used. |
+| [IgnoreOverlap](#ignoreoverlap-option) | VT\_BOOL | **TRUE**, **FALSE** | **FALSE** |
 
 
-
- 
-
-If an encoder option is present in the [**IPropertyBag2**](https://msdn.microsoft.com/library/Aa768192(v=VS.85).aspx) option list that the codec does not support, it is ignored.
+If an encoder option is present in the [**IPropertyBag2**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85)) option list that the codec does not support, it is ignored.
 
 ### ImageQuality Option
 
@@ -231,7 +104,7 @@ The default value is 0.9.
 
 Specifies the desired compression quality. 0.0 indicates the efficient compression schema available. Typically, this schema produces a faster encode but larger output. A value of 1.0 specifies the most efficient compression schema available, which typically produces a longer encode but a smaller output.
 
-HD Photo does not support this encoder option. This value is ignored if present in the [**IPropertyBag2**](https://msdn.microsoft.com/library/Aa768192(v=VS.85).aspx) parameter list.
+HD Photo does not support this encoder option. This value is ignored if present in the [**IPropertyBag2**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85)) parameter list.
 
 ### Lossless Option
 
@@ -302,9 +175,9 @@ The default value is 3 if [ImageQuality](#imagequality-option) > 0.8; otherwise 
 
 Specify the horizontal and vertical tiling of the image before you perform compression encoding for the optimal performance of region decode . By dividing the image into rectangular tiles during encoding you can decode regions of the image without processing the entire compressed data stream. The default value of 0 specifies no subdivision, so the entire image is treated as a single tile. A value of 1 for each parameter creates a single horizontal and a single vertical division, effectively dividing the image into four equally sized tiles. The maximum value of 4095 for each parameter divides the image into 4096 tile rows with 4096 tiles per row. In other words, the parameter values equal the number of horizontal and vertical tiles (respectively) minus 1. A tile can never be smaller than 16 pixels in width or height, so the HD Photo encoder might adjust this parameter to maintain the required minimum tile size. Because there is storage and processing overhead associated with each tile, you should choose these values carefully to meet the specific scenario.
 
-[HorizontalTileSlices](https://docs.microsoft.com/windows): The default value is (Image Width – 1) >> 8.
+[HorizontalTileSlices](/windows): The default value is (Image Width – 1) >> 8.
 
-[VerticalTileSlices](https://docs.microsoft.com/windows): The default value is (Image Height – 1) >> 8.
+[VerticalTileSlices](/windows): The default value is (Image Height – 1) >> 8.
 
 ### FrequencyOrder Option
 
@@ -341,10 +214,10 @@ The HD Photo encoder performs a compressed domain transcode operation when it en
 
 When the codec performs a compressed domain operation, only certain encoder parameter and property settings are allowed.
 
--   The basic encoder options [ImageQuality](#imagequality-option), [CompressionQuality](https://docs.microsoft.com/windows) and [Lossless](#lossless-option) are ignored.
+-   The basic encoder options [ImageQuality](#imagequality-option), [CompressionQuality](/windows) and [Lossless](#lossless-option) are ignored.
 -   The HD Photo-specific encoder options [Quality](#quality-option), [Overlap](#overlap-option), [InterleavedAlpha](#interleavedalpha-option) and [AlphaQuality](#alphaquality-option) are ignored.
--   If present, the [HorizontalTileSlices](https://docs.microsoft.com/windows) and [VerticalTileSlices](https://docs.microsoft.com/windows) options must be set to zero. The tile size of an image cannot be changed as part of a compressed domain transcode.
--   You can change the image organization between frequency and spatial ordering by specifying the appropriate value of the [FrequencyOrdering](https://docs.microsoft.com/windows) options.
+-   If present, the [HorizontalTileSlices](/windows) and [VerticalTileSlices](/windows) options must be set to zero. The tile size of an image cannot be changed as part of a compressed domain transcode.
+-   You can change the image organization between frequency and spatial ordering by specifying the appropriate value of the [FrequencyOrdering](/windows) options.
 -   A cardinal rotation and/or horizontal/vertical flip operation can be performed based on the value specified in the [BitmapTransform](#bitmaptransform-option) encoder option.
 -   The image can be cropped by specifying the desired region using the [**WICRect**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-writesource) parameter of the **WriteSource** encoder method.
 -   Image and/or alpha data can be discarded by specifying the appropriate values in the [ImageDataDiscard](#imagedatadiscard-option) and/or [AlphaDataDiscard](#alphadatadiscard-option) options, reducing the encoded file size and effectively reducing the resolution of the new image.
@@ -440,6 +313,3 @@ HD Photo accepts any allowable value for the *dstTransform* parameter. Note that
  
 
  
-
-
-

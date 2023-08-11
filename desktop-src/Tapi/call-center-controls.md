@@ -1,5 +1,5 @@
 ---
-Description: A call center is a location with agents or operators at banks of telephones either making outgoing telephone calls or fielding incoming ones. For example, a bank or credit card company uses a call center to process account inquiries.
+description: A call center is a location with agents or operators at banks of telephones either making outgoing telephone calls or fielding incoming ones. For example, a bank or credit card company uses a call center to process account inquiries.
 ms.assetid: '2d4e962a-809c-4d64-9549-4383b0c3b5dd'
 title: Call Center Controls
 ms.topic: article
@@ -14,11 +14,8 @@ TAPI 3.x implements objects, interfaces, and methods that assist the programmer 
 
 ![call center operations using tapi](images/callcent.png)
 
-A programmer interested in creating call center applications may also want to consult the TAPI 2.2 functions that can enable portions of a call center suite. See TAPI 2.2 [Call Center Control](https://msdn.microsoft.com/library/ms734836(v=VS.85).aspx).
+A programmer interested in creating call center applications may also want to consult the TAPI 2.2 functions that can enable portions of a call center suite. See TAPI 2.2 [Call Center Control](./call-center-control.md).
 
  
 
  
-
-
-

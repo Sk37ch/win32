@@ -1,5 +1,5 @@
 ---
-Description: Contains a Machine Check Architecture (MCA) event. This class is available only in 64-bit Windows systems.
+description: Contains a Machine Check Architecture (MCA) event. This class is available only in 64-bit Windows systems.
 ms.assetid: d1806b91-43a3-4329-8fe5-de1e4755740f
 title: MSMCAInfo_RawMCAEvent class
 ms.topic: reference
@@ -84,7 +84,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 String that uniquely identifies this instance of the **MSMCAInfo\_RawMCAEvent** class.
@@ -112,7 +112,7 @@ The **MSMCAInfo\_RawMCAEvent** class is derived from [**WMIEvent**](wmievent.md)
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
@@ -133,9 +133,4 @@ The **MSMCAInfo\_RawMCAEvent** class is derived from [**WMIEvent**](wmievent.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

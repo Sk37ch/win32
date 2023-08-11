@@ -1,5 +1,5 @@
 ---
-Description: The GetResponse method constructs an application protocol data unit (APDU) command that transmits APDU commands (or part of an APDU command) which otherwise could not be transmitted by the available protocols.
+description: The GetResponse method constructs an application protocol data unit (APDU) command that transmits APDU commands (or part of an APDU command) which otherwise could not be transmitted by the available protocols.
 ms.assetid: 1aa83d38-d46d-4d3b-8f57-0256e5875e35
 title: ISCardISO7816::GetResponse method (Scardssp.h)
 ms.topic: reference
@@ -17,9 +17,9 @@ api_location:
 
 # ISCardISO7816::GetResponse method
 
-\[The **GetResponse** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **GetResponse** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
-The **GetResponse** method constructs an [*application protocol data unit*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (APDU) command that transmits APDU commands (or part of an APDU command) which otherwise could not be transmitted by the available protocols.
+The **GetResponse** method constructs an [*application protocol data unit*](../secgloss/a-gly.md) (APDU) command that transmits APDU commands (or part of an APDU command) which otherwise could not be transmitted by the available protocols.
 
 ## Syntax
 
@@ -65,7 +65,7 @@ Length of data transmitted.
 
 On input, a pointer to an [**ISCardCmd**](iscardcmd.md) interface object or **NULL**.
 
-On return, it is filled with the APDU command constructed by this operation. If *ppCmd* was set to **NULL**, a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) [**ISCardCmd**](iscardcmd.md) object is internally created and returned via the *ppCmd* pointer.
+On return, it is filled with the APDU command constructed by this operation. If *ppCmd* was set to **NULL**, a [*smart card*](../secgloss/s-gly.md) [**ISCardCmd**](iscardcmd.md) object is internally created and returned via the *ppCmd* pointer.
 
 </dd> </dl>
 
@@ -96,7 +96,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -119,7 +119,3 @@ In addition to the COM error codes listed above, this interface may return a sma
  
 
  
-
-
-
-

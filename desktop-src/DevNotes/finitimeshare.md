@@ -1,5 +1,5 @@
 ---
-Description: Initializes IME Share.
+description: Initializes IME Share.
 ms.assetid: 7f58564e-d660-4936-b74c-af4eb93e2442
 title: FInitIMEShare function
 ms.topic: reference
@@ -38,7 +38,7 @@ The function returns **TRUE** on success or **FALSE** otherwise.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 This function should be called before any other IME Share functions are called.
 
@@ -46,7 +46,7 @@ This function should be called before any other IME Share functions are called.
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Imeshare.dll</dt> </dl> |
 
@@ -62,7 +62,3 @@ This function should be called before any other IME Share functions are called.
  
 
  
-
-
-
-

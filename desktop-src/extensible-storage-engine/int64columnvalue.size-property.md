@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Int64ColumnValue.Size property"
 title: Int64ColumnValue.Size property 
 TOCTitle: 'Size property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Int64ColumnValue.Size
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the size of the value in the column. This returns 0 for variable sized columns (i.e. binary and string).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,15 +53,14 @@ protected override int Size { get; }
 
 #### Property value
 
-Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+Type: [System.Int32](/dotnet/api/system.int32)  
 
 ## See also
 
 #### Reference
 
-[Int64ColumnValue class](dn351016\(v=exchg.10\).md)
+[Int64ColumnValue class](./int64columnvalue-class.md)
 
-[Int64ColumnValue members](dn351003\(v=exchg.10\).md)
+[Int64ColumnValue members](./int64columnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

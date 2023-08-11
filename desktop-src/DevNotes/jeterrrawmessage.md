@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an error code identifier (IDA) and an unformatted message string when a Jet error is provided.
+description: Retrieves an error code identifier (IDA) and an unformatted message string when a Jet error is provided.
 ms.assetid: f90b6986-a8d5-430e-94b3-176012c7e282
 title: JetErrRawMessage function
 ms.topic: reference
@@ -95,13 +95,13 @@ If the function succeeds, it returns **JET\_errSuccess**; otherwise, it returns 
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Msjter40.dll</dt> </dl> |
 
@@ -110,7 +110,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

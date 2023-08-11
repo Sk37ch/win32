@@ -1,5 +1,5 @@
 ---
-Description: Represents an association where a CIM\_ServiceAccessPoint object requests protocol services from a CIM\_ProtocolEndpoint object.
+description: Represents an association where a CIM\_ServiceAccessPoint object requests protocol services from a CIM\_ProtocolEndpoint object.
 ms.assetid: d1ef774d-f0e0-43e7-8a9d-63c2fad5ca4a
 title: CIM_BindsTo class
 ms.topic: reference
@@ -53,7 +53,7 @@ Data type: **CIM\_ProtocolEndpoint**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 The lower level endpoint that is accessed by the service access point.
@@ -69,7 +69,7 @@ Data type: **CIM\_ServiceAccessPoint**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The access point or protocol endpoint that is dependent on the lower level endpoint.
@@ -80,7 +80,7 @@ The access point or protocol endpoint that is dependent on the lower level endpo
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -98,9 +98,4 @@ The access point or protocol endpoint that is dependent on the lower level endpo
 </dt> </dl>
 
  
-
- 
-
-
-
 

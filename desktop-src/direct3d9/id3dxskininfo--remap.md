@@ -1,5 +1,5 @@
 ---
-Description: Updates bone influence information to match vertices after they are reordered. This method should be called if the target vertex buffer has been reordered externally.
+description: Updates bone influence information to match vertices after they are reordered. This method should be called if the target vertex buffer has been reordered externally.
 ms.assetid: bff5229f-e547-4ab3-84c6-58b15a7825e9
 title: ID3DXSkinInfo::Remap method (D3DX9Mesh.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT Remap(
 *NumVertices* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Number of vertices to remap.
 
@@ -48,7 +48,7 @@ Number of vertices to remap.
 *pVertexRemap* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Array of DWORDS whose length is specified by NumVertices.
 
@@ -68,7 +68,7 @@ Each element in pVertexRemap specifies the previous vertex index for that positi
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -85,7 +85,3 @@ Each element in pVertexRemap specifies the previous vertex index for that positi
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_VideoBIOSFeatureVideoBIOSElements class associates a video BIOS feature and its aggregated video BIOS elements.
+description: The CIM\_VideoBIOSFeatureVideoBIOSElements class associates a video BIOS feature and its aggregated video BIOS elements.
 ms.assetid: f1419505-213f-450e-8c96-45f547dd71da
 ms.tgt_platform: multiple
 title: CIM_VideoBIOSFeatureVideoBIOSElements class
@@ -61,7 +61,7 @@ Data type: **CIM\_VideoBIOSFeature**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
 </dt> </dl>
 
 A [**CIM\_VideoBIOSFeature**](cim-videobiosfeature.md) that describes the video BIOS feature.
@@ -77,7 +77,7 @@ Data type: **CIM\_VideoBIOSElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
 </dt> </dl>
 
 A [**CIM\_VideoBIOSElement**](cim-videobioselement.md) that describes the video BIOS element that implements the capabilities described by video BIOS feature.
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -114,9 +114,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

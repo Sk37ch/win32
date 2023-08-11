@@ -1,5 +1,5 @@
 ---
-Description: Indicates a request to terminate an application, and is generated when the application calls the PostQuitMessage function. This message causes the GetMessage function to return zero.
+description: Indicates a request to terminate an application, and is generated when the application calls the PostQuitMessage function. This message causes the GetMessage function to return zero.
 ms.assetid: a9bff5dc-cab8-4e08-838e-d92c87c265d6
 title: WM_QUIT message (Winuser.h)
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WM\_QUIT message
 
-Indicates a request to terminate an application, and is generated when the application calls the [**PostQuitMessage**](https://msdn.microsoft.com/library/ms644945(v=VS.85).aspx) function. This message causes the [**GetMessage**](https://msdn.microsoft.com/library/ms644936(v=VS.85).aspx) function to return zero.
+Indicates a request to terminate an application, and is generated when the application calls the [**PostQuitMessage**](/windows/win32/api/winuser/nf-winuser-postquitmessage) function. This message causes the [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) function to return zero.
 
 
 ```C++
@@ -24,7 +24,7 @@ Indicates a request to terminate an application, and is generated when the appli
 *wParam* 
 </dt> <dd>
 
-The exit code given in the [**PostQuitMessage**](https://msdn.microsoft.com/library/ms644945(v=VS.85).aspx) function.
+The exit code given in the [**PostQuitMessage**](/windows/win32/api/winuser/nf-winuser-postquitmessage) function.
 
 </dd> <dt>
 
@@ -43,15 +43,15 @@ This message does not have a return value because it causes the message loop to 
 
 ## Remarks
 
-The **WM\_QUIT** message is not associated with a window and therefore will never be received through a window's window procedure. It is retrieved only by the [**GetMessage**](https://msdn.microsoft.com/library/ms644936(v=VS.85).aspx) or [**PeekMessage**](https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx) functions.
+The **WM\_QUIT** message is not associated with a window and therefore will never be received through a window's window procedure. It is retrieved only by the [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) or [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagea) functions.
 
-Do not post the **WM\_QUIT** message using the [**PostMessage**](https://msdn.microsoft.com/library/ms644944(v=VS.85).aspx) function; use [**PostQuitMessage**](https://msdn.microsoft.com/library/ms644945(v=VS.85).aspx).
+Do not post the **WM\_QUIT** message using the [**PostMessage**](/windows/win32/api/winuser/nf-winuser-postmessagea) function; use [**PostQuitMessage**](/windows/win32/api/winuser/nf-winuser-postquitmessage).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -66,13 +66,13 @@ Do not post the **WM\_QUIT** message using the [**PostMessage**](https://msdn.mi
 **Reference**
 </dt> <dt>
 
-[**GetMessage**](https://msdn.microsoft.com/library/ms644936(v=VS.85).aspx)
+[**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage)
 </dt> <dt>
 
-[**PeekMessage**](https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx)
+[**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagea)
 </dt> <dt>
 
-[**PostQuitMessage**](https://msdn.microsoft.com/library/ms644945(v=VS.85).aspx)
+[**PostQuitMessage**](/windows/win32/api/winuser/nf-winuser-postquitmessage)
 </dt> <dt>
 
 **Conceptual**
@@ -84,7 +84,3 @@ Do not post the **WM\_QUIT** message using the [**PostMessage**](https://msdn.mi
  
 
  
-
-
-
-

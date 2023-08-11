@@ -1,5 +1,5 @@
 ---
-Description: The DllGetMonitorObject function must be implemented by the monitor. The MCSVC calls this function to create an instance of the monitor.
+description: The DllGetMonitorObject function must be implemented by the monitor. The MCSVC calls this function to create an instance of the monitor.
 ms.assetid: 2c39f752-264c-4ab9-8710-a0d660c4772f
 title: DllGetMonitorObject callback function (Netmon.h)
 ms.topic: reference
@@ -57,17 +57,17 @@ Pointer to a pointer that receives the interface requested in *riid*.
 
 If the function is successful, the return value is S\_OK (which is the same as NOERROR).
 
-If the function is unsuccessful, the return value is a failure code. When a failure code is returned, the MCSVC does not create the monitor object, and the [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method is not called on the interface pointer.
+If the function is unsuccessful, the return value is a failure code. When a failure code is returned, the MCSVC does not create the monitor object, and the [IUnknown::Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) method is not called on the interface pointer.
 
 ## Remarks
 
-The **DllGetMonitorObject** function is called each time the MCSVC tries to create an instance of the monitor. This function intentionally bears a strong resemblance to the more common [**DllGetClassObject**](https://msdn.microsoft.com/library/ms680760(v=VS.85).aspx) function. The main difference is that a CLSID is not passed in to **DllGetMonitorObject**.
+The **DllGetMonitorObject** function is called each time the MCSVC tries to create an instance of the monitor. This function intentionally bears a strong resemblance to the more common [**DllGetClassObject**](/windows/win32/api/combaseapi/nf-combaseapi-dllgetclassobject) function. The main difference is that a CLSID is not passed in to **DllGetMonitorObject**.
 
 ## Requirements
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
@@ -76,9 +76,4 @@ The **DllGetMonitorObject** function is called each time the MCSVC tries to crea
 
 
  
-
- 
-
-
-
 

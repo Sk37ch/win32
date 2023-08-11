@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the error objects for the job, if any exist.
+description: GetErrorEx method of the Msvm_ConcreteJob class - Retrieves the error objects for the job, if any exist.
 ms.assetid: B4B4F60C-9221-4125-8D42-F0F1D32C3E79
 title: GetErrorEx method of the Msvm_ConcreteJob class
 ms.topic: reference
@@ -89,13 +89,13 @@ This method returns one of the following values.
 
 ## Remarks
 
-Access to the [**Msvm\_ConcreteJob**](msvm-concretejob.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the [**Msvm\_ConcreteJob**](msvm-concretejob.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -113,9 +113,4 @@ Access to the [**Msvm\_ConcreteJob**](msvm-concretejob.md) class might be restri
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates how to implement a Shell verb using the DropTarget method.
+description: Demonstrates how to implement a Shell verb using the DropTarget method.
 title: DropTarget Verb Sample
 ms.topic: article
 ms.date: 05/31/2018
@@ -26,7 +26,7 @@ This topic contains the following sections.
 
 ## Description
 
-This sample shows how to implement a Shell verb using the DropTarget method. This method is preferred for verb implementations that must work on Windows XP. This sample implements a standalone local server Component Object Model (COM) object but it is expected that the verb implementation will be integrated into existing applications. To do so, your main application object registers a class factory for itself. That object implements [**IDropTarget**](https://msdn.microsoft.com/library/ms679679(v=VS.85).aspx) for your application's verbs. Note that COM launches your application if it is not already running but connects to a running instance of your application if one is present.
+This sample shows how to implement a Shell verb using the DropTarget method. This method is preferred for verb implementations that must work on Windows XP. This sample implements a standalone local server Component Object Model (COM) object but it is expected that the verb implementation will be integrated into existing applications. To do so, your main application object registers a class factory for itself. That object implements [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) for your application's verbs. Note that COM launches your application if it is not already running but connects to a running instance of your application if one is present.
 
 ## Requirements
 
@@ -43,20 +43,9 @@ This sample shows how to implement a Shell verb using the DropTarget method. Thi
 
 ## Downloading the Sample
 
-This sample is available in the following locations.
-
-
-
 | Location      | Path URL                                                                                             |
 |---------------|------------------------------------------------------------------------------------------------------|
-| Code Gallery  | [Windows Shell Integration Samples on Code Gallery](https://code.msdn.microsoft.com/shellintegration) |
-| Windows 7 SDK | [Download Windows 7 SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)                            |
-
-
-
- 
-
-In the case of the Windows SDK, once you have downloaded and installed it, you will find the samples in the installed directory. For example, use of the default installation path for the Windows 7 SDK results in the samples being placed under `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\`.
+| GitHub  | [DropTargetVerb sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/appshellintegration/DropTargetVerb) |
 
 ## Building the Sample
 
@@ -80,6 +69,3 @@ To build the sample using Microsoft Visual Studio (preferred):
  
 
  
-
-
-

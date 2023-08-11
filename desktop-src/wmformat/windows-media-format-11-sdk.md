@@ -11,10 +11,13 @@ keywords:
 - Windows Media Format SDK,features
 - Windows Media Format SDK,key features
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Windows Media Format 11 SDK
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This documentation describes the Microsoft Windows Media Format Software Development Kit (SDK) and applies to the 32-bit and x64-based versions of the SDK.
 
@@ -35,7 +38,7 @@ The key features of the Windows Media Format SDK are:
 -   Support for reading and editing metadata in MP3 files. This SDK provides integrated support for reading MP3 files with the same methods used to read ASF files. Applications built with the Windows Media Format SDK can also edit metadata attributes in MP3 files using built-in support for the most common ID3 tags used by content creators.
 -   Support for Digital Rights Management protection. This SDK provides methods for reading and writing ASF files and network streams that are protected by Digital Rights Management to prevent unauthorized playback or copying of the content.
 
-To download the Windows Media Format SDK, see the [Windows Media Downloads](https://msdn.microsoft.com/en-US/windows/desktop/aa904949) page at the Microsoft Web site.
+To download the Windows Media Format SDK, see the [Windows Media Downloads](https://msdn.microsoft.com/windows/desktop/aa904949) page at the Microsoft Web site.
 
 This document describes how you can develop digital media applications using the Windows Media Format SDK. It is divided into the following sections.
 

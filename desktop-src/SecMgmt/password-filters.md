@@ -1,5 +1,5 @@
 ---
-Description: Password Filters
+description: Password Filters
 ms.assetid: 777edb4d-1fb4-4269-8382-8fe73c0c3b23
 title: Password Filters
 ms.topic: article
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Password filters provide a way for you to implement password policy and change notification.
 
-When a password change request is made, the [*Local Security Authority*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LSA) calls the password filters registered on the system. Each password filter is called twice: first to validate the new password and then, after all filters have validated the new password, to notify the filters that the change has been made. The following illustration shows this process.
+When a password change request is made, the [*Local Security Authority*](/windows/desktop/SecGloss/l-gly) (LSA) calls the password filters registered on the system. Each password filter is called twice: first to validate the new password and then, after all filters have validated the new password, to notify the filters that the change has been made. The following illustration shows this process.
 
 ![password change request](images/pswdfilte.png)
 
@@ -30,6 +30,3 @@ The following topics provide more information about password filters:
  
 
  
-
-
-

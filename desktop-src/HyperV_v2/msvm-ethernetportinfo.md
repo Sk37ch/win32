@@ -1,5 +1,5 @@
 ---
-Description: An association between an instance of the Msvm\_EthernetSwitchPort class and an instance of the Msvm\_EthernetPortData class that represents data gathered about the port by a switch extension.
+description: An association between an instance of the Msvm\_EthernetSwitchPort class and an instance of the Msvm\_EthernetPortData class that represents data gathered about the port by a switch extension.
 ms.assetid: 08677914-af09-47b7-9d4d-406696e1f504
 title: Msvm_EthernetPortInfo class
 ms.topic: reference
@@ -55,7 +55,7 @@ Data type: **Msvm\_EthernetSwitchPort**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_Dependency.Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_Dependency.Antecedent")
 </dt> </dl>
 
 An instance of the [**Msvm\_EthernetSwitchPort**](msvm-ethernetswitchport.md) class that represents the switch port.
@@ -71,7 +71,7 @@ Data type: **Msvm\_EthernetPortData**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_Dependency.Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_Dependency.Dependent")
 </dt> </dl>
 
 An instance of the [**Msvm\_EthernetPortData**](msvm-ethernetportdata.md) class that represents the port data.
@@ -82,7 +82,7 @@ An instance of the [**Msvm\_EthernetPortData**](msvm-ethernetportdata.md) class 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -93,9 +93,4 @@ An instance of the [**Msvm\_EthernetPortData**](msvm-ethernetportdata.md) class 
 
 
  
-
- 
-
-
-
 

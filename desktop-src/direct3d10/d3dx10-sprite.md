@@ -1,5 +1,5 @@
 ---
-Description: Defines position, texture, and color information about a sprite.
+description: Defines position, texture, and color information about a sprite.
 ms.assetid: 4b8d1ed1-75d5-418c-b809-410c6a44d425
 title: D3DX10_SPRITE structure (D3DX10.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ typedef struct D3DX10_SPRITE {
 **matWorld**
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)**
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)**
 
 </dd> <dd>
 
@@ -53,7 +53,7 @@ The sprite's model-world transformation. This defines the position and orientati
 **TexCoord**
 </dt> <dd>
 
-Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)**
+Type: **[**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)**
 
 </dd> <dd>
 
@@ -64,7 +64,7 @@ Offset from the upper-left corner of the texture indicating where the sprite ima
 **TexSize**
 </dt> <dd>
 
-Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)**
+Type: **[**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)**
 
 </dd> <dd>
 
@@ -75,7 +75,7 @@ A vector containing the width and height of the sprite in texture coordinates.
 **ColorModulate**
 </dt> <dd>
 
-Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/library/Bb172721(v=VS.85).aspx)**
+Type: **[**D3DXCOLOR**](../direct3d9/d3dxcolor.md)**
 
 </dd> <dd>
 
@@ -97,7 +97,7 @@ Pointer to a shader-resource view representing the sprite's texture. See [**ID3D
 **TextureIndex**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -109,7 +109,7 @@ The index of the texture. If pTexture does not represent a texture array, then t
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10.h</dt> </dl> |
 
@@ -125,7 +125,3 @@ The index of the texture. If pTexture does not represent a texture array, then t
  
 
  
-
-
-
-

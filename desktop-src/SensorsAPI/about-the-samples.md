@@ -1,5 +1,5 @@
 ---
-Description: The Windows SDK includes useful code samples and tools to help you understand and use the Windows Sensor and Location platform and related APIs.
+description: The Windows SDK includes useful code samples and tools to help you understand and use the Windows Sensor and Location platform and related APIs.
 ms.assetid: e31174f6-1c2b-4d97-b6b6-e54825ff47f5
 title: About the Samples and Tools
 ms.topic: article
@@ -26,7 +26,7 @@ The Windows SDK includes the following Sensor API samples. You can find the Sens
 
 For more information, see the file named ReadMe.txt that is included with the sample.
 
-You can also download the AmbientLightAware sample from Code Gallery. For more information, see the [Ambient Light Aware](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples) download page.
+You can also download the AmbientLightAware sample from Code Gallery. For more information, see the [Ambient Light Aware](/samples/browse/?redirectedfrom=MSDN-samples) download page.
 
 ## Tools
 
@@ -77,9 +77,4 @@ The following image shows the virtual light sensor user interface in its ready s
 </dt> </dl>
 
  
-
- 
-
-
-
 

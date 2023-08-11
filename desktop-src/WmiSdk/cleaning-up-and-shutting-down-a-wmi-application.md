@@ -1,5 +1,5 @@
 ---
-Description: After you set the security levels for your IWbemServices pointer, you can access the various capabilities of WMI. After you finish using WMI, you must shut down your application.
+description: After you set the security levels for your IWbemServices pointer, you can access the various capabilities of WMI. After you finish using WMI, you must shut down your application.
 ms.assetid: 32bc7dd8-cb05-4354-bf46-f4359ac1f0d8
 ms.tgt_platform: multiple
 title: Cleaning up and Shutting Down a WMI Application
@@ -19,9 +19,9 @@ The following procedure describes how to clean up and shut down a WMI applicatio
 
     The two primary interfaces you must remember to release are [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) and [**IWbemLocator**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator).
 
-2.  Call [**CoUninitialize**](https://msdn.microsoft.com/library/ms688715(v=VS.85).aspx).
+2.  Call [**CoUninitialize**](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize).
 
-    As with all COM applications, you must call [**CoUninitialize**](https://msdn.microsoft.com/library/ms688715(v=VS.85).aspx) at the end of your application.
+    As with all COM applications, you must call [**CoUninitialize**](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize) at the end of your application.
 
 3.  Exit your application.
 
@@ -62,6 +62,3 @@ You have now successfully initialized COM, accessed WMI, and exited your applica
  
 
  
-
-
-

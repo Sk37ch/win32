@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a job and the managed element responsible for the creation of the job.
+description: Represents an association between a job and the managed element responsible for the creation of the job.
 ms.assetid: 1a100c7e-7e17-47dd-b730-c05c5e4dccda
 title: Msvm_OwningJobElement class
 ms.topic: reference
@@ -62,7 +62,7 @@ The job created by the managed element.
 **OwningElement**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
+Data type: **[**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
 </dt> <dt>
 
 Access type: Read-only
@@ -76,7 +76,7 @@ The managed element responsible for the creation of the job.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -87,9 +87,4 @@ The managed element responsible for the creation of the job.
 
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Sets an array of pointers to transposed matrices.
+description: ID3DXConstantTable::SetMatrixTransposePointerArray method - Sets an array of pointers to transposed matrices.
 ms.assetid: f2db10cb-a146-412d-8de8-f093253470fd
 title: ID3DXConstantTable::SetMatrixTransposePointerArray method (D3DX9Shader.h)
 ms.topic: reference
@@ -41,9 +41,9 @@ HRESULT SetMatrixTransposePointerArray(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, representing the device associated with the constant table.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface, representing the device associated with the constant table.
 
 </dd> <dt>
 
@@ -68,7 +68,7 @@ Array of pointers to transposed matrices. See [**D3DXMATRIX**](d3dxmatrix.md).
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of matrices in the array.
 
@@ -88,7 +88,7 @@ A transposed matrix contains column-major data; that is, each vector is containe
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -105,7 +105,3 @@ A transposed matrix contains column-major data; that is, each vector is containe
  
 
  
-
-
-
-

@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # Profiling DirectX Apps
 
-This shows you how to measure some of the most important performance time measurements for a [DirectX](https://docs.microsoft.com/previous-versions/windows/apps/jj262109(v=win.10)) app using the **XPerf** and **GPUView** tools that ship as part of the Windows Performance Toolkit. This is not a comprehensive guide for understanding the tools, rather their specific applicability for analyzing DirectX app performance. While most of the techniques discussed here are relevant to all DirectX apps, it is most relevant to apps that use swap chains and not to DirectX applications built on XAML that use SIS/VSIS and XAML animations. We walk you through key performance time measurements, how to acquire and install the tools, and take performance measurement traces then analyze them to understand app bottlenecks.
+This shows you how to measure some of the most important performance time measurements for a [DirectX](/previous-versions/windows/apps/jj262109(v=win.10)) app using the **XPerf** and **GPUView** tools that ship as part of the Windows Performance Toolkit. This is not a comprehensive guide for understanding the tools, rather their specific applicability for analyzing DirectX app performance. While most of the techniques discussed here are relevant to all DirectX apps, it is most relevant to apps that use swap chains and not to DirectX applications built on XAML that use SIS/VSIS and XAML animations. We walk you through key performance time measurements, how to acquire and install the tools, and take performance measurement traces then analyze them to understand app bottlenecks.
 
 ## About the Tools
 
 ### **XPerf**
 
-**XPerf** is a set of performance analysis tools built on top of Event Tracing for Windows (ETW) designed for measuring and analyzing detailed system and app performance and resource usage. Starting in Windows 8 this command line tool has a graphical user interface and is called the Windows Performance Recorder (WPR) and Windows Performance Analyzer (WPA). More information about these tools can be found at the web page for [Windows Performance Toolkit](https://msdn.microsoft.com/library/hh162945) (WPT): [Windows Performance Toolkit](https://msdn.microsoft.com/library/hh162945).
+**XPerf** is a set of performance analysis tools built on top of Event Tracing for Windows (ETW) designed for measuring and analyzing detailed system and app performance and resource usage. Starting in Windows 8 this command line tool has a graphical user interface and is called the Windows Performance Recorder (WPR) and Windows Performance Analyzer (WPA). More information about these tools can be found at the web page for [Windows Performance Toolkit](/previous-versions/windows/it-pro/windows-8.1-and-8/hh162945(v=win.10)) (WPT): [Windows Performance Toolkit](/previous-versions/windows/it-pro/windows-8.1-and-8/hh162945(v=win.10)).
 
 An ETW collects requested kernel events and saves them into a file called an event trace log (ETL) file. These kernel events provide extensive information about an app and system characteristics when running the app. Data is collected by enabling trace capture, performing the desired app scenario that needs analysis, stopping the capture which saves the data in an ETL file. You can then analyze the file on the same or a different machine using either the command line tool **xperf.exe** or the visual trace analysis tool **xperfview.exe**.
 
@@ -22,7 +22,7 @@ An ETW collects requested kernel events and saves them into a file called an eve
 
 **GPUView** is a development tool for determining the performance of the graphics processing unit (GPU) and CPU. It looks at performance with regard to direct memory access (DMA) buffer processing and all other video processing on the video hardware.
 
-For [DirectX](https://docs.microsoft.com/previous-versions/windows/apps/jj262109(v=win.10)) apps that rely heavily on the GPU, **GPUView** is a powerful tool for understanding the relationship between work done on the CPU vs. GPU. For more info about **GPUView**see [Using GPUView](https://docs.microsoft.com/windows-hardware/drivers/display/using-gpuview).
+For [DirectX](/previous-versions/windows/apps/jj262109(v=win.10)) apps that rely heavily on the GPU, **GPUView** is a powerful tool for understanding the relationship between work done on the CPU vs. GPU. For more info about **GPUView**see [Using GPUView](/windows-hardware/drivers/display/using-gpuview).
 
 Similar to **XPerf**, an ETW trace is first taken by starting the tracing service, exercising the scenario that needs analysis for the app under consideration, stopping the service and saving the information in an ETL file. **GPUView** presents the data present in the ETL file in a graphical format.
 
@@ -34,7 +34,7 @@ Both **XPerf** and **GPUView** are included in the Windows Performance Toolkit (
 
 **XPerf** ships as part of the Windows Software Development Kit (SDK) for Windows. [Download the Windows SDK](https://dev.windows.com/downloads).
 
-**GPUView** is available in the Windows Assessment and Deployment Kit (Windows ADK). [Download the Windows ADK](https://msdn.microsoft.com/windows/hardware/dn913721.aspx).
+**GPUView** is available in the Windows Assessment and Deployment Kit (Windows ADK). [Download the Windows ADK](/windows-hardware/get-started/adk-install).
 
 After installation, you must add the directories that contain **XPerf** and **GPUView** to the system "Path" variable.
 
@@ -78,7 +78,6 @@ Perform these steps to take a trace:
 
 ## Measurements
 
-This section uses the [Direct2D Geometry Realization Sample](https://code.msdn.microsoft.com/windowsapps/Geometry-Realization-963be8b7) as an example for capturing traces and analyzing data.
 
 > [!Note]  
 > The measurements for geometry realization sample are taken on a Quad Core machine with an integrated DirectX11 graphics card. The measurements vary depending upon the machine configuration.
@@ -102,11 +101,11 @@ The startup-time measurement is best taken by following the steps listed in the 
 
 1.  In **GPUView**, scroll down to the relevant process, in this case GeometryRealization.exe.
 
-    ![gpuview screenshot.](images/profile1.png)
+    ![Screenshot that shows an example of processes in GPUView.](images/profile1.png)
 
 2.  The context CPU queue represents the graphics workload queued to the hardware, but not necessarily being processed by the hardware. When the trace file is opened, it shows all the events logged between the time the trace was taken. In order to calculate the startup-time, select the region of interest, zoom into the initial portion of the first Context CPU Queue (this is the one that shows activity) using Ctrl +Z. More information about **GPUView** Controls can be found in the **GPUView** Help file section "Summary of **GPUView** Controls". The figure below only shows the GeometryRealization.exe process zoomed in to the first part of the Context CPU Queue. The color of the Context CPU Queue is denoted by the rectangle right below the queue and same color data packets in the queue show GPU work queued up on the hardware. The hatch pattern packet in the context queue shows the present packet which means that the app wants the hardware to present the content on the screen.
 
-    ![gpuview screenshot.](images/profile2.png)
+    ![Screenshot that shows examples of the 'Context C P U Queue'.](images/profile2.png)
 
 3.  The startup-time is the time when the app first starts (in this case UI thread entry point module SHCORE.dll) till the time the context first appears (marked by a hatch packet). The figure here highlights the area of interest.
 
@@ -117,7 +116,7 @@ The startup-time measurement is best taken by following the steps listed in the 
 
     The complete status bar is not visible in the figure below which also shows the elapsed time between the highlighted portions. This is the startup-time of the app. In this case for the machine mentioned above, it came out to be around 240ms.
 
-    ![gpuview screenshot.](images/profile3.png)
+    ![Screenshot that shows areas of interest regarding startup-time in the 'Context C P U Queue'.](images/profile3.png)
 
 ### CPU and GPU Time per frame
 
@@ -136,39 +135,39 @@ In both the cases, it was observed that the frame rate dropped drastically. Meas
 2.  Scroll down to the GeometryRealization.exe process.
 3.  Select an area for calculating CPU time and zoom into it using CTRL + Z.
 
-    ![gpuview screenshot.](images/profile4.png)
+    ![Screenshot that shows an area selected for calculating C P U time in the 'Context CPU Queue'.](images/profile4.png)
 
 4.  Show v-sync information by toggling between F8. Keeping zooming in till it is easy to see one vsync worth of data clearly. The blue lines are where the v-sync times. Usually, these occur once every 16 ms (60 fps), but if DWM is encountering a performance problem, it runs slower so they will occur once every 32 ms (30 fps). To get a sense of time, select from one blue bar to the next and then look at the number of ms reported in the lower right hand corner of the **GPUView** window.
 
-    ![gpuview screenshot.](images/profile5.png)
+    ![Screenshot that shows an example of v-sync times.](images/profile5.png)
 
 5.  To measure the CPU time per frame, measure the length of time taken by all the threads involved in rendering. It might be worthwhile to narrow down the thread that is expected to be most relevant from a performance standpoint. For instance in the geometry realization sample, the content is animating and needs to be rendered on the screen every frame making the UI thread the important one. Once you determine which thread to look at, measure the length of the bars on this thread. Averaging a few of these yields CPU time per frame. The figure below shows time taken up on the UI thread. It also shows that this time fits well between two consecutive v-syncs which mean that it is hitting 60FPS.
 
-    ![gpuview screenshot.](images/profile6.png)
+    ![Screenshot that shows the time taken up on the U I thread.](images/profile6.png)
 
     You can also verify by looking at the flip queue for the corresponding time frame which shows that DWM is able to present every frame.
 
-    ![gpuview screenshot.](images/profile7.png)
+    ![Screenshot that shows an example of the 'Flip Queue'.](images/profile7.png)
 
 6.  The GPU time can be measured in the same way as the CPU time. Zoom into the relevant area as in the case of measuring CPU time. Measure the length of the bars in the GPU hardware Queue with the same color as the color of the Context CPU Queue. As long as the bars fit within consecutive v-syncs, the app is running smoothly at 60FPS.
 
-    ![gpuview screenshot.](images/profile8.png)
+    ![Screenshot that shows an example of the 'GPU Hardware Queue' displaying information that an app is running at 60 F P S.](images/profile8.png)
 
 ### Calculating CPU and GPU time when 8192 primitives are being rendered unrealized
 
 1.  If you follow the same steps again, the trace shows that all the CPU work for one frame does not fit between one v-sync and the next. This means that the app is CPU bound. The UI thread is saturating the CPU.
 
-    ![gpuview screenshot.](images/profile9.png)
+    ![Screenshot that shows an example of the UI thread saturating the C P U.](images/profile9.png)
 
     Looking at the flip queue, it is also clear that DWM is not able to present every frame.
 
-    ![gpuview screenshot.](images/profile10.png)
+    ![Screenshot that shows an example of the D W M unable to present every frame.](images/profile10.png)
 
 2.  In order to analyze where the time is getting spent, open the trace in **XPerf**. To analyze startup time in **XPerf**, first find the time interval in **GPUView**. Mouse over the left of the interval and the right and take note of the absolute time shown in the bottom of the **GPUView** window. Then open the same .etl file in **XPerf** and, scroll down to the "CPU Sampling by CPU" graph, right click and select "Select Interval…" This allows for typing in the interval of interest which was discovered by looking at the GPU trace.
 
-    ![gpuview screenshot.](images/profile11.png)
+    ![Screenshot that shows 'C P U sampling by C P U' in 'Windows Performance Analysis'.](images/profile11.png)
 
-3.  Go to the Trace menu, and make sure "Load Symbols" is checked. Also, go to Trace -> Configure Symbol Paths, and type in the app symbol path. A symbol file contains debugging information about a compiled executable in a separate database (.pdb). This file is commonly referred to as a PDB. More on symbol files can be found here: [Symbol Files](https://docs.microsoft.com/windows/desktop/Debug/symbol-files). This file can be located in the "Debug" folder of the app directory.
+3.  Go to the Trace menu, and make sure "Load Symbols" is checked. Also, go to Trace -> Configure Symbol Paths, and type in the app symbol path. A symbol file contains debugging information about a compiled executable in a separate database (.pdb). This file is commonly referred to as a PDB. More on symbol files can be found here: [Symbol Files](/windows/desktop/Debug/symbol-files). This file can be located in the "Debug" folder of the app directory.
 
 4.  In order to get the breakdown of where the time is being spent in the app, right click on the interval selected in the previous step and click Summary Table. To get an overview of how much time is spent in each dll, uncheck "Stack" from the "Columns" menu. Note that the "Count" column here shows how many samples are within the given dll/function. Because approximately one sample is taken per ms, this number can be used as a best guess for how much time is spent in each dll/function. Checking the "Stack" from Columns menu will give the inclusive time spent in each function in the call graph. This will help to break down the problem points further.
 
@@ -176,13 +175,13 @@ In both the cases, it was observed that the frame rate dropped drastically. Meas
 
 6.  Stack trace information for 8192 unrealized primitives reveals that around 60% of the CPU time (4 cores) is spent in the geometry realization.
 
-    ![gpuview screenshot.](images/profile12.png)
+    ![Screenshot that shows stack trace information for C P U time.](images/profile12.png)
 
 ### Calculating CPU time when 8192 primitives are being rendered realized
 
 It is clear from the profiles that the app is CPU bound. In order to reduce the time spent by the CPU, geometries can be created once and cached. The cached content can be rendered every frame without incurring the geometry tessellation cost per frame. When looking at the trace in **GPUView** for the realized part of the app, it is clear that DWM is able to present every frame and the CPU time has reduced drastically.
 
-![gpuview screenshot.](images/profile13.png)
+![Screenshot that shows an example of a trace in GPUView showing D W M is able to present every frame.](images/profile13.png)
 
 The first part of the graph shows realized 8192 primitives. The corresponding CPU time per frame is able to fit within two consecutive v-syncs. In the later part of the graph this is not true.
 
@@ -192,12 +191,8 @@ Looking in **XPerf**, CPU is sitting idle for the longest time with only about 2
 
 ## Summary
 
-Both **GPUView** and **XPerf** and powerful tools for analyzing performance of [DirectX](https://docs.microsoft.com/previous-versions/windows/apps/jj262109(v=win.10)) apps. This article is a primer for using these tools and understanding basic performance measurements and app characteristics. Apart from understanding usage of tools, it is first important to understand the app being analyzed. Start with finding answers to questions like what is the app trying to achieve? Which threads in the system are most important? What trade-offs are you willing to make? When analyzing performance traces, start by looking at obvious problematic places. Is the app CPU or GPU bound? Is the app able to present every frame? Tools together with an understanding of the app can give very useful information in understanding, finding and finally solving performance problems.
+Both **GPUView** and **XPerf** and powerful tools for analyzing performance of [DirectX](/previous-versions/windows/apps/jj262109(v=win.10)) apps. This article is a primer for using these tools and understanding basic performance measurements and app characteristics. Apart from understanding usage of tools, it is first important to understand the app being analyzed. Start with finding answers to questions like what is the app trying to achieve? Which threads in the system are most important? What trade-offs are you willing to make? When analyzing performance traces, start by looking at obvious problematic places. Is the app CPU or GPU bound? Is the app able to present every frame? Tools together with an understanding of the app can give very useful information in understanding, finding and finally solving performance problems.
 
  
 
  
-
-
-
-

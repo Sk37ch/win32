@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Removal of Windows Mail
 ms.assetid: 356f0d79-12dd-49f0-b756-a46f20177efa
 title: Removal of Windows Mail
 ms.topic: article
@@ -10,15 +10,29 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Clients** - Windows 7  
+**Clients** - Windows 7  
 **Servers** - Windows Server 2008 R2  
-</dl>
+
+
+
+
+
+
+
+
 
 ## Feature Impact
 
-<dl> **Severity** - High  
+**Severity** - High  
 **Frequency** - High  
-</dl>
+
+
+
+
+
+
+
+
 
 ## Description
 
@@ -60,12 +74,9 @@ Do not design code that calls the Windows Mail UI API, since it will not work. Y
 
 <dl>
 
-[Application Compatibility Toolkit Download](https://www.microsoft.com/downloads/details.aspx?FamilyId=24DA89E9-B581-47B0-B45E-492DD6DA2971)  
+[Application Compatibility Toolkit Download](/windows-hardware/get-started/adk-install)  
 </dl>
 
  
 
  
-
-
-

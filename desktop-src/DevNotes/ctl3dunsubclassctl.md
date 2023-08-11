@@ -1,5 +1,5 @@
 ---
-Description: Turns off subclassing for the specified control.
+description: Turns off subclassing for the specified control.
 ms.assetid: d4d34624-7d85-4c53-8318-b3e5d6f95f7a
 title: Ctl3dUnsubclassCtl function
 ms.topic: reference
@@ -47,13 +47,13 @@ Returns **TRUE** if the control is successfully subclassed; otherwise, it return
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ctl3d32.dll</dt> </dl> |
 
@@ -69,7 +69,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

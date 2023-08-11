@@ -1,5 +1,5 @@
 ---
-Description: Clones, or copies, an animation controller.
+description: Clones, or copies, an animation controller.
 ms.assetid: 9836653c-9ea5-4fbc-89ac-0b46054a12d7
 title: ID3DXAnimationController::CloneAnimationController method (D3dx9anim.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ HRESULT CloneAnimationController(
 *MaxNumAnimationOutputs* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Maximum number of animation outputs the controller can support.
 
@@ -51,7 +51,7 @@ Maximum number of animation outputs the controller can support.
 *MaxNumAnimationSets* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Maximum number of animation sets the controller can support.
 
@@ -60,7 +60,7 @@ Maximum number of animation sets the controller can support.
 *MaxNumTracks* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Maximum number of tracks the controller can support.
 
@@ -69,7 +69,7 @@ Maximum number of tracks the controller can support.
 *MaxNumEvents* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Maximum number of events the controller can support.
 
@@ -94,7 +94,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -111,7 +111,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

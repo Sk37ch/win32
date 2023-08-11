@@ -1,5 +1,5 @@
 ---
-Description: Invoking Service Methods Asynchronously
+description: Invoking Service Methods Asynchronously
 ms.assetid: d3072e34-65f2-4eeb-bcfa-e2db2d34e680
 title: Invoking Service Methods Asynchronously
 ms.topic: article
@@ -12,13 +12,12 @@ The WpdServiceApiSample application includes code that demonstrates how an appli
 
 
 
-|                                                                                         |                                                                                                                                                                         |
+| Interface    | Description          |
 |-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Interface                                                                               | Description                                                                                                                                                             |
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)                                | Used to retrieve the **IPortableDeviceServiceMethods** interface to invoke methods on a given service.                                                                  |
 | [**IPortableDeviceServiceMethods**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemethods)                  | Used to invoke a service method.                                                                                                                                        |
 | [**IPortableDeviceValues**](iportabledevicevalues.md)                                  | Used to hold the outgoing method parameters, and the incoming method results. This can be **NULL** if the method does not require any parameters or return any results. |
-| [**IPortableDeviceServiceMethodCallback**](https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemethodcallback) | Implemented by the application to receive the method results when a method has completed.                                                                               |
+| [**IPortableDeviceServiceMethodCallback**](/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemethodcallback) | Implemented by the application to receive the method results when a method has completed.                                                                               |
 
 
 
@@ -196,6 +195,3 @@ private:
  
 
  
-
-
-

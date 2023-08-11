@@ -1,5 +1,5 @@
 ---
-Description: The Windows operating system includes a set of VSS writers that are responsible for enumerating the data that is required by various Windows features. These are referred to as &\#0034;in-box&\#0034; writers.
+description: The Windows operating system includes a set of VSS writers that are responsible for enumerating the data that is required by various Windows features. These are referred to as &\#0034;in-box&\#0034; writers.
 ms.assetid: e20a303d-9440-42be-b383-85f6fad89157
 title: In-Box VSS Writers
 ms.topic: article
@@ -187,7 +187,7 @@ The writer ID for the writer is 6F5B15B5-DA24-4D88-B737-63063E3A1F86.
 
 ## Cluster Service Writer
 
-The Cluster Service VSS writer is documented in the [Cluster Service](https://msdn.microsoft.com/library/Dd264602(v=VS.85).aspx) API documentation.
+The Cluster Service VSS writer is documented in the [Cluster Service](/previous-versions/windows/desktop/mscs/backing-up-and-restoring-the-failover-cluster-configuration-using-vss) API documentation.
 
 **Windows Vista, Windows Server 2003 and Windows XP:** This writer is not supported until Windows Vista with Service Pack 1 (SP1) and Windows Server 2008.
 
@@ -209,7 +209,7 @@ This writer is responsible for the contents of the %SystemRoot%\\Registration di
 
 The COM+ class registration database depends on a registry key being backed up and hence needs to be backed up and restored together with the registry.
 
-To restore the COM+ Registration Database, a backup application (requester) must call the [**ICOMAdminCatalog::RestoreREGDB**](https://msdn.microsoft.com/library/ms683256(v=VS.85).aspx) method.
+To restore the COM+ Registration Database, a backup application (requester) must call the [**ICOMAdminCatalog::RestoreREGDB**](/windows/win32/api/comadmin/nf-comadmin-icomadmincatalog-restoreregdb) method.
 
 The writer name string for this writer is "COM+ REGDB Writer".
 
@@ -217,13 +217,13 @@ The writer ID for the COM+ class registration database writer is 542DA469-D3E1-4
 
 ## Data Deduplication Writer
 
-The Data Deduplication VSS writer is documented in the [Data Deduplication](https://msdn.microsoft.com/library/Hh769304(v=VS.85).aspx) API documentation. This writer is an in-box writer for Windows Server operating system versions; it does not ship in Windows Client.
+The Data Deduplication VSS writer is documented in the [Data Deduplication](/previous-versions/windows/desktop/dedup/backup-and-restore-of-data-deduplication-enabled-volumes) API documentation. This writer is an in-box writer for Windows Server operating system versions; it does not ship in Windows Client.
 
 **Windows Server 2008 R2, Windows Server 2008 and Windows Server 2003:** This writer is not supported.
 
 ## Distributed File System Replication (DFSR)
 
-The following component includes a VSS writer: [Distributed File System Replication (DFSR)](https://msdn.microsoft.com/library/Bb540026(v=VS.85).aspx)
+The following component includes a VSS writer: [Distributed File System Replication (DFSR)](/previous-versions/windows/desktop/dfsr/dfsr-replicated-folders)
 
 **Windows Vista, Windows Server 2003 and Windows XP:** This writer is not supported until Windows Vista with SP1 and Windows Server 2008.
 
@@ -253,7 +253,7 @@ The writer ID for this writer is 12CE4370-5BB7-4C58-A76A-E5D5097E3674.
 
 ## Hyper-V Writer
 
-The Hyper-V VSS writer is documented in the [Hyper-V](https://msdn.microsoft.com/library/Dd405549(v=VS.85).aspx) API documentation. This writer is an in-box writer for Windows Server operating system versions; it does not ship in Windows Client.
+The Hyper-V VSS writer is documented in the [Hyper-V](/previous-versions/windows/desktop/virtual/backing-up-and-restoring-virtual-machines) API documentation. This writer is an in-box writer for Windows Server operating system versions; it does not ship in Windows Client.
 
 **Windows Server 2003:** This writer is not supported until Windows Server 2008.
 
@@ -297,7 +297,7 @@ To install this writer on the server, you must install the File Services role an
 
 The writer name string for this writer is "MSSearch Service Writer".
 
-The writer ID for the MSSearch service writer is CD3F2362-8BEF-46C7-9181-D62844CDC062.
+The writer ID for the MSSearch service writer is CD3F2362-8BEF-46C7-9181-D62844CDC0B2.
 
 ## NPS VSS Writer
 
@@ -471,6 +471,3 @@ The writer ID for this writer is A6AD56C2-B509-4E6C-BB19-49D8F43532F0.
  
 
  
-
-
-

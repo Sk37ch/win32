@@ -1,5 +1,5 @@
 ---
-Description: Shortcut menu handlers, also known as context menu handlers or verb handlers, are a type of file type handler. Like all such handlers, they are in-process Component Object Model (COM) objects implemented as DLLs.
+description: Shortcut menu handlers, also known as context menu handlers or verb handlers, are a type of file type handler. Like all such handlers, they are in-process Component Object Model (COM) objects implemented as DLLs.
 ms.assetid: cff79cdc-8a01-4575-9af7-2a485c6a8e46
 title: Creating Shortcut Menu Handlers
 ms.topic: article
@@ -8,17 +8,16 @@ ms.date: 05/31/2018
 
 # Creating Shortcut Menu Handlers
 
-Shortcut menu handlers, also known as context menu handlers or verb handlers, are a type of file type handler. Like all such handlers, they are in-process Component Object Model (COM) objects implemented as DLLs.
+Shortcut menu handlers, also known as context menu handlers or verb handlers, are a type of file type handler. These handlers may be impelmented in a way that causes them to load in their own process or in the explorer, or other 3rd party processes. Take care when creating in-process handlers as they can cause harm to the process that loads them.
 
 > [!Note]  
-> There are special considerations for 64-bit Windows when registering handlers that work in the context of 32-bit applications: when Shell verbs are invoked in the context of a 32-bit application, the WOW64 subsystem redirects file system access to some paths. If your .exe handler is stored in one of those paths, it is not accessible in this context. Therefore, as a work around, either store your .exe in a path that does not get redirected, or store a stub version of your .exe that launches the real version.
-
- 
+> There are special considerations for 64-bit based versions of Windows when registering handlers that work in the context of 32-bit applications: when invoked in the context of an application of different bitness, the WOW64 subsystem redirects file system access to some paths. If your .exe handler is stored in one of those paths, it is not accessible in this context. Therefore, as a work around, either store your .exe in a path that does not get redirected, or store a stub version of your .exe that launches the real version.
 
 This topic is organized as follows:
 
 -   [Canonical Verbs](#canonical-verbs)
 -   [Extended Verbs](#extended-verbs)
+-   [Programmatic Access Only Verbs](#programmatic-access-only-verbs)
 -   [Customizing a Shortcut Menu Using Static Verbs](#customizing-a-shortcut-menu-using-static-verbs)
     -   [Activating Your Handler Using the IDropTarget Interface](#activating-your-handler-using-the-idroptarget-interface)
     -   [Specifying the Position and Order of Static Verbs](#specifying-the-position-and-order-of-static-verbs)
@@ -40,7 +39,6 @@ This topic is organized as follows:
 Applications are generally responsible for providing localized display strings for the verbs they define. However, to provide a degree of language independence, the system defines a standard set of commonly used verbs called canonical verbs. A canonical verb is never displayed to the user, and can be used with any UI language. The system uses the canonical name to automatically generate a properly localized display string. For instance, the open verb's display string is set to **Open** on an English system, and to the German equivalent on a German system.
 
 
-
 | Canonical verb | Description                                                          |
 |----------------|----------------------------------------------------------------------|
 | Open           | Opens the file or folder.                                            |
@@ -50,20 +48,20 @@ Applications are generally responsible for providing localized display strings f
 | Explore        | Opens Windows Explorer with the folder selected.                     |
 | Properties     | Opens the object's property sheet.                                   |
 
-
-
- 
-
 > [!Note]  
 > The **Printto** verb is also canonical, but it is never displayed. Its inclusion enables the user to print a file by dragging it to a printer object.
-
- 
 
 Shortcut menu handlers can provide their own canonical verbs through [**IContextMenu::GetCommandString**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring) with **GCS\_VERBW**, or **GCS\_VERBA**. The system will use the canonical verbs as the second parameter (*lpOperation*) passed to [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea), and is the [**CMINVOKECOMMANDINFO**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-cminvokecommandinfo).**lpVerb** member passed to the [**IContextMenu::InvokeCommand**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand) method.
 
 ## Extended Verbs
 
 When the user right-clicks an object, the shortcut menu displays the default verbs. You might want to add and support commands on some shortcut menus that are not displayed on every shortcut menu. For example, you could have commands that are not commonly used or that are intended for experienced users. For this reason, you can also define one or more extended verbs. These verbs are similar to normal verbs, but are distinguished from normal verbs by the way they are registered. To have access to extended verbs, the user must right-click an object while pressing the SHIFT key. When the user does so, the extended verbs are displayed in addition to the default verbs.
+
+You can use the registry to define one or more extended verbs. The associated commands will be displayed only when the user right-clicks an object while also pressing the SHIFT key. To define a verb as extended, add an "extended" **REG\_SZ** value to the verb's subkey. The value should not have any data associated with it.
+
+## Programmatic Access Only Verbs
+
+These verbs are never displayed in a context menu. These can be accessed by using [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) and specifying the **lpVerb** field of the *pExecInfo* parameter (a [SHELLEXECUTEINFO](/windows/win32/api/shellapi/ns-shellapi-shellexecuteinfoa) object). To define a verb as programmatic access only, add a "ProgrammaticAccessOnly" **REG\_SZ** value to the verb's subkey. The value should not have any data associated with it.
 
 You can use the registry to define one or more extended verbs. The associated commands will be displayed only when the user right-clicks an object while also pressing the SHIFT key. To define a verb as extended, add an "extended" **REG\_SZ** value to the verb's subkey. The value should not have any data associated with it.
 
@@ -94,23 +92,23 @@ In the following registry example, note that:
 HKEY_CLASSES_ROOT
    .myp-ms
       (Default) = MyProgram.1
-      MyProgram.1
-         (Default) = My Program Application
-         Shell
-            (Default) = doit
-            doit
-               (Default) = &Do It
-               command
-                  (Default) = c:\MyDir\MyProgram.exe /d "%1"
-            open
-               command
-                  (Default) = c:\MyDir\MyProgram.exe /d "%1"
-            print
-               command
-                  (Default) = c:\MyDir\MyProgram.exe /p "%1"
-            printto
-               command
-                  (Default) = c:\MyDir\MyProgram.exe /p "%1" "%2"
+   MyProgram.1
+      (Default) = My Program Application
+      Shell
+         (Default) = doit
+         doit
+            (Default) = &Do It
+            command
+               (Default) = c:\MyDir\MyProgram.exe /d "%1"
+         open
+            command
+               (Default) = c:\MyDir\MyProgram.exe /d "%1"
+         print
+            command
+               (Default) = c:\MyDir\MyProgram.exe /p "%1"
+         printto
+            command
+               (Default) = c:\MyDir\MyProgram.exe /p "%1" "%2"
 ```
 
 The following diagram illustrates the extension of the shortcut menu in accordance with the registry entries above. This shortcut menu has **Open**, **Do It**, and **Print** verbs on its menu, with **Do It** as the default verb.
@@ -119,9 +117,9 @@ The following diagram illustrates the extension of the shortcut menu in accordan
 
 ### Activating Your Handler Using the IDropTarget Interface
 
-Dynamic Data Exchange (DDE) is deprecated; use [**IDropTarget**](https://msdn.microsoft.com/library/ms679679(v=VS.85).aspx) instead. **IDropTarget** is more robust and has better activation support because it uses COM activation of the handler. In the case of multiple item selection, **IDropTarget** is not subject to the buffer size restrictions found in both DDE and the [**CreateProcess**](https://msdn.microsoft.com/library/ms682425(v=VS.85).aspx). Also, items are passed to the application as a data object that can be converted to an item array by using the [**SHCreateShellItemArrayFromDataObject**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromdataobject) function. Doing so is simpler, and does not lose namespace information as occurs when the item is converted to a path for command-line or DDE protocols.
+Dynamic Data Exchange (DDE) is deprecated; use [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) instead. **IDropTarget** is more robust and has better activation support because it uses COM activation of the handler. In the case of multiple item selection, **IDropTarget** is not subject to the buffer size restrictions found in both DDE and the [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa). Also, items are passed to the application as a data object that can be converted to an item array by using the [**SHCreateShellItemArrayFromDataObject**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromdataobject) function. Doing so is simpler, and does not lose namespace information as occurs when the item is converted to a path for command-line or DDE protocols.
 
-For more information about [**IDropTarget**](https://msdn.microsoft.com/library/ms679679(v=VS.85).aspx) and Shell queries for file association attributes, see [Perceived Types and Application Registration](fa-perceivedtypes.md).
+For more information about [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) and Shell queries for file association attributes, see [Perceived Types and Application Registration](fa-perceivedtypes.md).
 
 ### Specifying the Position and Order of Static Verbs
 
@@ -167,7 +165,7 @@ Position=Top | Bottom
 
 ### Creating Static Cascading Menus
 
-In Windows 7 and later, cascading menu implementation is supported through registry settings. Prior to Windows 7, the creation of cascading menus was possible only through the implementation of the [**IContextMenu**](https://msdn.microsoft.com/library/Bb776095(v=VS.85).aspx) interface. In Windows 7 and later, you should resort to COM code-based solutions only when the static methods are insufficient.
+In Windows 7 and later, cascading menu implementation is supported through registry settings. Prior to Windows 7, the creation of cascading menus was possible only through the implementation of the [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) interface. In Windows 7 and later, you should resort to COM code-based solutions only when the static methods are insufficient.
 
 The following screen shot provides an example of a cascading menu.
 
@@ -314,11 +312,11 @@ The following screen shot is an illustration of the previous registry key entry 
 
 ### Creating Cascading Menus with the IExplorerCommand Interface
 
-Another option for adding verbs to a cascading menu is through [**IExplorerCommand::EnumSubCommands**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-enumsubcommands). This method enables data sources that provide their command module commands through [**IExplorerCommandProvider**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider) to use those commands as verbs on a shortcut menu. In Windows 7 and later, you can provide the same verb implementation using [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) as you can with [**IContextMenu**](https://msdn.microsoft.com/library/Bb776095(v=VS.85).aspx).
+Another option for adding verbs to a cascading menu is through [**IExplorerCommand::EnumSubCommands**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-enumsubcommands). This method enables data sources that provide their command module commands through [**IExplorerCommandProvider**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider) to use those commands as verbs on a shortcut menu. In Windows 7 and later, you can provide the same verb implementation using [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) as you can with [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu).
 
 The following two screen shots illustrate the use of cascading menus in the **Devices** folder.
 
-![screen shot showing an example of a cascading menu in the devices folder](images/file-assoc/filecascademenu.png)
+![Screenshot that shows an example of a cascading menu in the devices folder.](images/file-assoc/filecascademenu.png)
 
 The following screen shot illustrates another implementation of a cascading menu in the **Devices** folder.
 
@@ -373,15 +371,15 @@ In the Windows 7 registry, see **HKEY\_CLASSES\_ROOT**\\**drive** as an example
 -   AppliesTo = System.Volume.BitlockerProtection:=2
 -   System.Volume.BitlockerRequiresAdmin:=System.StructuredQueryType.Boolean\#True
 
-For more information about AQS, see [Advanced Query Syntax](https://msdn.microsoft.com/library/Bb266512(v=VS.85).aspx).
+For more information about AQS, see [Advanced Query Syntax](../search/-search-3x-advancedquerysyntax.md).
 
 ### Deprecated: Associating Verbs with Dynamic Data Exchange Commands
 
-DDE is deprecated; use [**IDropTarget**](https://msdn.microsoft.com/library/ms679679(v=VS.85).aspx) instead. DDE is deprecated because it relies on a broadcast window message to discover the DDE server. A DDE server hang stalls the broadcast window message and thus hangs DDE conversations for other applications. It is common for a single stuck application to cause subsequent hangs all across the user's experience.
+DDE is deprecated; use [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) instead. DDE is deprecated because it relies on a broadcast window message to discover the DDE server. A DDE server hang stalls the broadcast window message and thus hangs DDE conversations for other applications. It is common for a single stuck application to cause subsequent hangs all across the user's experience.
 
-The [**IDropTarget**](https://msdn.microsoft.com/library/ms679679(v=VS.85).aspx) method is more robust and has better activation support because it uses COM activation of the handler. In the case of multiple item selection, **IDropTarget** is not subject to the buffer size restrictions found in both DDE and the [**CreateProcess**](https://msdn.microsoft.com/library/ms682425(v=VS.85).aspx). Also, items are passed to the application as a data object that can be converted to an item array by using the [**SHCreateShellItemArrayFromDataObject**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromdataobject) function. Doing so is simpler, and does not lose namespace information as occurs when the item is converted to a path for command-line or DDE protocols.
+The [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) method is more robust and has better activation support because it uses COM activation of the handler. In the case of multiple item selection, **IDropTarget** is not subject to the buffer size restrictions found in both DDE and the [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa). Also, items are passed to the application as a data object that can be converted to an item array by using the [**SHCreateShellItemArrayFromDataObject**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromdataobject) function. Doing so is simpler, and does not lose namespace information as occurs when the item is converted to a path for command-line or DDE protocols.
 
-For more information about [**IDropTarget**](https://msdn.microsoft.com/library/ms679679(v=VS.85).aspx) and Shell queries for file association attributes, see [Perceived Types and Application Registration](fa-perceivedtypes.md).
+For more information about [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) and Shell queries for file association attributes, see [Perceived Types and Application Registration](fa-perceivedtypes.md).
 
 ## Completing Verb Implementation Tasks
 
@@ -431,7 +429,7 @@ The screen shot illustrates the **New** submenu. When a user selects **MyProgram
 
 ### Creating Drag-and-Drop Handlers
 
-The basic procedure for implementing a drag-and-drop handler is the same as for conventional shortcut menu handlers. However, shortcut menu handlers normally use only the [**IDataObject**](https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx) pointer passed to the handler's [**IShellExtInit::Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize) method to extract the object's name. A drag-and-drop handler could implement a more sophisticated data handler to modify the behavior of the dragged object.
+The basic procedure for implementing a drag-and-drop handler is the same as for conventional shortcut menu handlers. However, shortcut menu handlers normally use only the [**IDataObject**](/windows/win32/api/objidl/nn-objidl-idataobject) pointer passed to the handler's [**IShellExtInit::Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize) method to extract the object's name. A drag-and-drop handler could implement a more sophisticated data handler to modify the behavior of the dragged object.
 
 When a user right-clicks a Shell object to drag an object, a shortcut menu is displayed when the user attempts to drop the object. The following screen shot illustrates a typical drag-and-drop shortcut menu.
 
@@ -580,6 +578,3 @@ In Windows 7 and later, you can add verbs to a folder through Desktop.ini. For 
  
 
  
-
-
-

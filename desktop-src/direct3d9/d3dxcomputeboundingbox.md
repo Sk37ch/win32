@@ -1,22 +1,25 @@
 ---
-Description: Computes a coordinate-axis oriented bounding box.
+description: D3DXComputeBoundingBox function (D3DX9Mesh.h) - Computes a coordinate-axis oriented bounding box.
 ms.assetid: 74e1b84e-1264-49eb-9172-7842af7e25e0
 title: D3DXComputeBoundingBox function (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXComputeBoundingBox
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXComputeBoundingBox function
+# D3DXComputeBoundingBox function (D3DX9Mesh.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Computes a coordinate-axis oriented bounding box.
 
@@ -51,7 +54,7 @@ Pointer to the first position.
 *NumVertices* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Number of vertices.
 
@@ -60,7 +63,7 @@ Number of vertices.
 *dwStride* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Count or number of bytes between vertices.
 
@@ -96,7 +99,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -113,7 +116,3 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
  
 
  
-
-
-
-

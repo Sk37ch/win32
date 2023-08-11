@@ -1,5 +1,5 @@
 ---
-Description: Saves an object asynchronously to a namespace. When successful, this method sends an OnCompleted event to the SWbemSink object that is specified as an input parameter.
+description: Saves an object asynchronously to a namespace. When successful, this method sends an OnCompleted event to the SWbemSink object that is specified as an input parameter.
 ms.assetid: 27da0c60-6dae-482d-a9bf-1aab016d3ae8
 ms.tgt_platform: multiple
 title: SWbemServicesEx.PutAsync method (Wbemdisp.h)
@@ -187,7 +187,7 @@ This method does not return a value. If the call is successful, the [**OnObjectP
 
 ## Error codes
 
-After the completion of the **PutAsync** method, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
+After the completion of the **PutAsync** method, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
 
 <dl> <dt>
 
@@ -264,7 +264,7 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -277,9 +277,4 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 
 
  
-
- 
-
-
-
 

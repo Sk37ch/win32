@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 A Dynamic Data Exchange (DDE) application (client or server) posts a **WM\_DDE\_TERMINATE** message to terminate a conversation.
 
-To post this message, call the [**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea) function with the following parameters.
+To post this message, call the [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) function with the following parameters.
 
 
 ```C++
@@ -61,7 +61,7 @@ The client or server application should respond by posting a **WM\_DDE\_TERMINAT
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |
@@ -76,10 +76,10 @@ The client or server application should respond by posting a **WM\_DDE\_TERMINAT
 **Reference**
 </dt> <dt>
 
-[**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea)
+[**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea)
 </dt> <dt>
 
-[**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage)
+[**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage)
 </dt> <dt>
 
 [**WM\_DDE\_DATA**](wm-dde-data.md)
@@ -95,10 +95,4 @@ The client or server application should respond by posting a **WM\_DDE\_TERMINAT
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

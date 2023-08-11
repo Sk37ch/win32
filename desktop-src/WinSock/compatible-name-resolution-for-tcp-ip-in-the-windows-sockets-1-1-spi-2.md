@@ -1,5 +1,5 @@
 ---
-Description: Windows Sockets 1.1 defined a number of routines that were used for IPv4 name resolution with TCP/IP networks. These are customarily called the GetXbyY functions and include the following.
+description: Windows Sockets 1.1 defined a number of routines that were used for IPv4 name resolution with TCP/IP networks. These are customarily called the GetXbyY functions and include the following.
 ms.assetid: 7a3ff7f3-d4b9-4900-8fd8-708a89c78c0a
 title: Compatible Name Resolution for TCP/IP in the Windows Sockets 1.1 SPI
 ms.topic: article
@@ -12,9 +12,9 @@ Windows Sockets 1.1 defined a number of routines that were used for IPv4 name re
 
 [**gethostname**](/windows/desktop/api/winsock/nf-winsock-gethostname)
 
-[**gethostbyaddr**](https://msdn.microsoft.com/library/ms738521(v=VS.85).aspx)
+[**gethostbyaddr**](/windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyaddr)
 
-[**gethostbyname**](https://msdn.microsoft.com/library/ms738524(v=VS.85).aspx)
+[**gethostbyname**](/windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyname)
 
 [**getprotobyname**](/windows/desktop/api/winsock/nf-winsock-getprotobyname)
 
@@ -26,9 +26,9 @@ Windows Sockets 1.1 defined a number of routines that were used for IPv4 name re
 
 Asynchronous versions of these functions were also defined.
 
-[**WSAAsyncGetHostByAddr**](https://msdn.microsoft.com/library/ms741519(v=VS.85).aspx)
+[**WSAAsyncGetHostByAddr**](/windows/win32/api/winsock/nf-winsock-wsaasyncgethostbyaddr)
 
-[**WSAAsyncGetHostByName**](https://msdn.microsoft.com/library/ms741522(v=VS.85).aspx)
+[**WSAAsyncGetHostByName**](/windows/win32/api/winsock/nf-winsock-wsaasyncgethostbyname)
 
 [**WSAAsyncGetProtoByName**](/windows/desktop/api/winsock/nf-winsock-wsaasyncgetprotobyname)
 
@@ -45,6 +45,3 @@ The *Ws2\_32.dll* implements these compatibility functions in terms of the new, 
  
 
  
-
-
-

@@ -1,22 +1,25 @@
 ---
-Description: Transforms a 2D vector by a given matrix, projecting the result back into w = 1.
+description: D3DXVec2TransformCoord function (D3DX10Math.h) - Transforms a 2D vector by a given matrix, projecting the result back into w = 1.
 ms.assetid: bb24204f-0c8e-4dc5-bcae-12e3033d1a39
 title: D3DXVec2TransformCoord function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec2TransformCoord
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXVec2TransformCoord function
+# D3DXVec2TransformCoord function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Transforms a 2D vector by a given matrix, projecting the result back into w = 1.
 
@@ -40,7 +43,7 @@ D3DXVECTOR2* D3DXVec2TransformCoord(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***
 
 Pointer to the [**D3DXVECTOR2**](d3d10-d3dxvector2.md) that is the result of the operation.
 
@@ -49,7 +52,7 @@ Pointer to the [**D3DXVECTOR2**](d3d10-d3dxvector2.md) that is the result of the
 *pV* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***
 
 Pointer to the source D3DXVECTOR2 structure.
 
@@ -58,7 +61,7 @@ Pointer to the source D3DXVECTOR2 structure.
 *pM* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **const [**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure.
 
@@ -66,7 +69,7 @@ Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure.
 
 ## Return value
 
-Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***
 
 Pointer to a D3DXVECTOR2 structure that is the transformed vector.
 
@@ -80,7 +83,7 @@ The return value for this function is the same value returned in the pOut parame
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -97,7 +100,3 @@ The return value for this function is the same value returned in the pOut parame
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Uses a compiled high-level shader language (HLSL) function to fill each texel of each mipmap level of a texture.
+description: D3DXFillVolumeTextureTX function - Uses a compiled high-level shader language (HLSL) function to fill each texel of each mipmap level of a texture.
 ms.assetid: f082e1d2-c433-482c-9288-58e5c558cdc5
 title: D3DXFillVolumeTextureTX function (D3dx9tex.h)
 ms.topic: reference
@@ -39,9 +39,9 @@ HRESULT D3DXFillVolumeTextureTX(
 *pTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVOLUMETEXTURE9**](https://msdn.microsoft.com/library/Bb205941(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DVOLUMETEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvolumetexture9)**
 
-Pointer to an [**IDirect3DVolumeTexture9**](https://msdn.microsoft.com/library/Bb205941(v=VS.85).aspx) object, representing the texture to be filled.
+Pointer to an [**IDirect3DVolumeTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvolumetexture9) object, representing the texture to be filled.
 
 </dd> <dt>
 
@@ -74,7 +74,7 @@ The input parameters can be in any order. For an example, see [**D3DXFillTexture
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |
@@ -97,7 +97,3 @@ The input parameters can be in any order. For an example, see [**D3DXFillTexture
  
 
  
-
-
-
-

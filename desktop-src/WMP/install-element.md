@@ -11,11 +11,14 @@ api_name:
 api_type:
 - NA
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 api_location: 
+ms.custom: UpdateFrequency5
 ---
 
 # Install Element
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
@@ -49,7 +52,7 @@ Fully qualified URL for a file with a .txt file name extension that Windows Medi
 <span id="CodeURL__required_"></span><span id="codeurl__required_"></span><span id="CODEURL__REQUIRED_"></span>**CodeURL** (required)
 </dt> <dd>
 
-Fully qualified URL for a package, with a .cab file name extension, that is used to install the online store. The package and all code modules in the package must be signed. For information about code signing, see [Introduction to Code Signing](https://msdn.microsoft.com/library/ms537361(v=VS.85).aspx) in the MSDN Library.
+Fully qualified URL for a package, with a .cab file name extension, that is used to install the online store. The package and all code modules in the package must be signed. For information about code signing, see [Introduction to Code Signing](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85)) in the MSDN Library.
 
 </dd> <dt>
 
@@ -107,7 +110,7 @@ If any of the required attributes are missing or not available, Windows Media Pl
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 10 or later.<br/> |
 
@@ -127,10 +130,4 @@ If any of the required attributes are missing or not available, Windows Media Pl
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

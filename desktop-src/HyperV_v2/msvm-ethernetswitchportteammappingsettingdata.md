@@ -1,5 +1,5 @@
 ---
-Description: Represents the port team mapping feature setting data.
+description: Represents the port team mapping feature setting data.
 ms.assetid: 7c9a392d-c95e-4b0d-8201-e50adabd21b2
 title: Msvm_EthernetSwitchPortTeamMappingSettingData class
 ms.topic: reference
@@ -55,7 +55,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (127), **WmiDataId** (2), **InterfaceVersion** (1), **InterfaceRevision** (0)
+Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (127), **WmiDataId** (2), **InterfaceVersion** (1), **InterfaceRevision** (0)
 </dt> </dl>
 
 Device ID of the preferred mapped physical adapter.
@@ -71,7 +71,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (127), **WmiDataId** (1), **InterfaceVersion** (1), **InterfaceRevision** (0)
+Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (127), **WmiDataId** (1), **InterfaceVersion** (1), **InterfaceRevision** (0)
 </dt> </dl>
 
 Name of the preferred mapped physical adapter.
@@ -82,7 +82,7 @@ Name of the preferred mapped physical adapter.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -100,9 +100,4 @@ Name of the preferred mapped physical adapter.
 </dt> </dl>
 
  
-
- 
-
-
-
 

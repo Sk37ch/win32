@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.Equals method"
 title: JET_DBINFOMISC.Equals method 
 TOCTitle: 'Equals method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.Equals
@@ -34,7 +35,7 @@ Include inherited members
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh557934(v=exchg.10).md">Equals(Object)</a></td>
-<td>Determines whether the specified <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a> is equal to the current <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.object.equals?redirectedfrom=MSDN#System_Object_Equals_System_Object_">Object.Equals(Object)</a>.)</td>
+<td>Determines whether the specified <a href="/dotnet/api/system.object">Object</a> is equal to the current <a href="/dotnet/api/system.object">Object</a>. (Overrides <a href="/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
@@ -51,9 +52,8 @@ Top
 
 #### Reference
 
-[JET_DBINFOMISC class](hh538867\(v=exchg.10\).md)
+[JET_DBINFOMISC class](./jet-dbinfomisc-class.md)
 
-[JET_DBINFOMISC members](hh566148\(v=exchg.10\).md)
+[JET_DBINFOMISC members](./jet-dbinfomisc-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

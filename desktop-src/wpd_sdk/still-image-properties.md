@@ -1,5 +1,5 @@
 ---
-Description: Windows Portable Devices supports the following still-image properties.
+description: Windows Portable Devices supports the following still-image properties.
 ms.assetid: 0b5a126c-5064-48e5-a635-00c3e9ab6a2c
 title: Still Image Properties (PortableDevice.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ Windows Portable Devices supports the following still-image properties.
 | <span id="wpd_still_image_exposure_program_mode"></span><span id="WPD_STILL_IMAGE_EXPOSURE_PROGRAM_MODE"></span>**WPD\_STILL\_IMAGE\_EXPOSURE\_PROGRAM\_MODE** | **VT\_UI4**    | A [**WPD\_EXPOSURE\_PROGRAM\_MODES**](wpd-exposure-program-modes.md) enumerator that specifies the exposure program to use when capturing an image.                                                                                                                                                                         |
 | **WPD\_STILL\_IMAGE\_EXPOSURE\_TIME**                                                                                                                          | **VT\_UI4**    | The shutter speed to use when capturing an image, in seconds x 10,000.                                                                                                                                                                                                                                                       |
 | **WPD\_STILL\_IMAGE\_FLASH\_MODE**                                                                                                                             | **VT\_UI4**    | A [**WPD\_FLASH\_MODES**](wpd-flash-modes.md) enumerator that specifies the flash mode to use when capturing an image.                                                                                                                                                                                                      |
-| **WPD\_STILL\_IMAGE\_FNUMBER**                                                                                                                                 | **VT\_UI4**    | A number that specifies the aperture of the lens when capturing an image. The number is the f-stop number 100 (so 14 would indicate f/1.4).This property is typically only valid when [WPD\_STILL\_IMAGE\_EXPOSURE\_PROGRAM\_MODE](https://docs.microsoft.com/windows) is set to manual or aperture priority.<br/> |
+| **WPD\_STILL\_IMAGE\_FNUMBER**                                                                                                                                 | **VT\_UI4**    | A number that specifies the aperture of the lens when capturing an image. The number is the f-stop number 100 (so 14 would indicate f/1.4).This property is typically only valid when [WPD\_STILL\_IMAGE\_EXPOSURE\_PROGRAM\_MODE](/windows) is set to manual or aperture priority.<br/> |
 | **WPD\_STILL\_IMAGE\_FOCAL\_LENGTH**                                                                                                                           | **VT\_UI4**    | The focal length, in millimeters x 100, to use when capturing an image. So, for example, 35mm would be 3500.                                                                                                                                                                                                                 |
 | **WPD\_STILL\_IMAGE\_FOCUS\_DISTANCE**                                                                                                                         | **VT\_UI4**    | The focus distance that a device should use, in millimeters. A value of 0xFFFF indicates infinite focus (more than 655 meters).                                                                                                                                                                                              |
 | **WPD\_STILL\_IMAGE\_FOCUS\_METERING\_MODE**                                                                                                                   | **VT\_UI4**    | A [**WPD\_FOCUS\_METERING\_MODES**](wpd-focus-metering-modes.md) enumerator that specifies which focus mode an image capture device should use when deciding how to focus on a subject.                                                                                                                                     |
@@ -60,7 +60,7 @@ Windows Portable Devices supports the following still-image properties.
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 
@@ -74,9 +74,4 @@ Windows Portable Devices supports the following still-image properties.
 </dt> </dl>
 
  
-
- 
-
-
-
 

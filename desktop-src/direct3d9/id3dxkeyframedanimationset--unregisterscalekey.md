@@ -1,5 +1,5 @@
 ---
-Description: Removes the scale data at the specified key frame.
+description: Removes the scale data at the specified key frame.
 ms.assetid: b0bf5665-ccfb-4b87-8e88-9a717ef57955
 title: ID3DXKeyframedAnimationSet::UnregisterScaleKey method (D3dx9anim.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT UnregisterScaleKey(
 *Animation* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Animation identifier.
 
@@ -48,7 +48,7 @@ Animation identifier.
 *Key* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Key frame.
 
@@ -68,7 +68,7 @@ This method is slow and should not be used after an animation has begun to play.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -85,7 +85,3 @@ This method is slow and should not be used after an animation has begun to play.
  
 
  
-
-
-
-

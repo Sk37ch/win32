@@ -1,5 +1,5 @@
 ---
-Description: Adds a connection to the specified printer for the current user and specifies connection details.
+description: Adds a connection to the specified printer for the current user and specifies connection details.
 ms.assetid: 5ae98157-5978-449e-beb1-4787110925fa
 title: AddPrinterConnection2 function (Winspool.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ A pointer to a [**PRINTER\_CONNECTION\_INFO\_1**](printer-connection-info-1.md) 
 
 If the function succeeds, the return value is a nonzero value.
 
-If the function fails, the return value is zero. For extended error information, call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+If the function fails, the return value is zero. For extended error information, call [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 
@@ -79,7 +79,7 @@ If the function fails, the return value is zero. For extended error information,
 
  
 
-When Windows Vista makes a connection to a printer, it may need to copy printer driver files from the server to which the printer is attached. If the user does not have permission to copy files to the appropriate location, the **AddPrinterConnection2** function fails and [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns ERROR\_ACCESS\_DENIED.
+When Windows Vista makes a connection to a printer, it may need to copy printer driver files from the server to which the printer is attached. If the user does not have permission to copy files to the appropriate location, the **AddPrinterConnection2** function fails and [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns ERROR\_ACCESS\_DENIED.
 
 If the printer driver files must be copied from the print server but cannot be copied silently due to the group policies that are in effect and PRINTER\_CONNECTION\_NO\_UI is set in *pConnectionInfo->dwFlags*, no dialog boxes will be displayed and the call will fail.
 
@@ -93,7 +93,7 @@ The ANSI version of this function, **AddPrinterConnection2A**, is not supported 
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                      |
@@ -124,9 +124,4 @@ The ANSI version of this function, **AddPrinterConnection2A**, is not supported 
 </dt> </dl>
 
  
-
- 
-
-
-
 

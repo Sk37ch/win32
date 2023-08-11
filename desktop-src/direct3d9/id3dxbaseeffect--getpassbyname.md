@@ -1,5 +1,5 @@
 ---
-Description: Gets the handle of a pass by looking up its name.
+description: Gets the handle of a pass by looking up its name.
 ms.assetid: 24d043a2-5c87-4a59-80d4-0c81bd7a0b3e
 title: ID3DXBaseEffect::GetPassByName method (D3DX9Effect.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Handle of the parent technique. See [Handles (Direct3D 9)](handles.md).
 *pName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 String containing the pass name.
 
@@ -64,7 +64,7 @@ Returns the handle of the first pass inside the specified technique that has the
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -81,7 +81,3 @@ Returns the handle of the first pass inside the specified technique that has the
  
 
  
-
-
-
-

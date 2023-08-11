@@ -1,6 +1,6 @@
 ---
 title: IVMVirtualMachineEvents OnStateChange method (VPCCOMInterfaces.h)
-description: Receives notification that a virtual machine's state has changed.
+description: Receives notification that a virtual machine's state has changed. | IVMVirtualMachineEvents OnStateChange method (VPCCOMInterfaces.h)
 ms.assetid: 1737bb5e-078d-4ebe-9558-de083aae1baa
 keywords:
 - OnStateChange method Virtual PC
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualMachineEvents::OnStateChange method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Receives notification that a virtual machine's state has changed.
 
@@ -58,7 +58,7 @@ This method is called when the state for this virtual machine changes. The clien
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
@@ -77,10 +77,4 @@ This method is called when the state for this virtual machine changes. The clien
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

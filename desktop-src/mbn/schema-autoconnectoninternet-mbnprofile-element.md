@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the Mobile Broadband device will automatically connect to a network.
+description: Specifies whether the Mobile Broadband device will automatically connect to a network.
 ms.assetid: a2673ac7-6d70-4005-9ac4-cf670eba26ae
 title: AutoConnectOnInternet (MBNProfile) Element
 ms.topic: reference
@@ -19,7 +19,7 @@ The **AutoConnectOnInternet (MBNProfile)** element specifies whether the Mobile 
 
 If set to **FALSE**, then the Mobile Broadband service's auto connect logic will not be used if there is any other network connectivity available to the system. If set to **TRUE**, then the Mobile Broadband service will try to automatically connect the device to the network based on the auto connection setting defined in the [**ConnectionMode**](schema-connectionmode-mbnprofile-element.md) element.
 
-**Windows 8 and later:** This element is deprecated. Use the [**WcmSetProperty**](https://docs.microsoft.com/windows/desktop/api/wcmapi/nf-wcmapi-wcmsetproperty) method with the *Property* parameter set to **wcm\_global\_property\_minimize\_policy** instead.
+**Windows 8 and later:** This element is deprecated. Use the [**WcmSetProperty**](/windows/desktop/api/wcmapi/nf-wcmapi-wcmsetproperty) method with the *Property* parameter set to **wcm\_global\_property\_minimize\_policy** instead.
 
 ``` syntax
 <xs:element name="AutoConnectOnInternet"
@@ -33,7 +33,7 @@ The **AutoConnectOnInternet** element is defined by the [**MBNProfile**](schema-
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |
@@ -57,9 +57,4 @@ The **AutoConnectOnInternet** element is defined by the [**MBNProfile**](schema-
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Gets information about a specific callback in the animation set.
+description: ID3DXKeyframedAnimationSet::GetCallbackKey method - Gets information about a specific callback in the animation set.
 ms.assetid: a1d3ca96-2852-420a-aa5c-a434970e5523
 title: ID3DXKeyframedAnimationSet::GetCallbackKey method (D3dx9anim.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT GetCallbackKey(
 *Animation* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Animation index.
 
@@ -64,7 +64,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -81,7 +81,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
  
 
  
-
-
-
-

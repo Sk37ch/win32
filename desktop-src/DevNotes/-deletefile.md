@@ -1,5 +1,5 @@
 ---
-Description: Deletes a file. See DeleteFile.
+description: Deletes a file. See DeleteFile.
 ms.assetid: 8c1f4368-8b0e-41af-9bf8-f3d9f58c3700
 title: '_DeleteFile function'
 ms.topic: reference
@@ -19,7 +19,7 @@ api_location:
 
 \[This function is a wrapper over the **DeleteFile** function. This function may be altered or unavailable in the future. Applications should call **DeleteFile** directly.\]
 
-Deletes a file. See [**DeleteFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea).
+Deletes a file. See [**DeleteFile**](/windows/desktop/api/fileapi/nf-fileapi-deletefilea).
 
 ## Syntax
 
@@ -43,7 +43,7 @@ BOOL _DeleteFile(
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Msmdun80.dll</dt> </dl> |
 
@@ -53,13 +53,8 @@ BOOL _DeleteFile(
 
 <dl> <dt>
 
-[**DeleteFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea)
+[**DeleteFile**](/windows/desktop/api/fileapi/nf-fileapi-deletefilea)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves all of the IContextNode objects of the specified type that contain the specified strokes.
+description: Retrieves all of the IContextNode objects of the specified type that contain the specified strokes.
 ms.assetid: c674a03b-841c-4a9c-8268-302bc4038934
 title: IInkAnalyzer::FindNodesOfTypeForStrokes method (IACom.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ For a description of return values, see [Classes and Interfaces - Ink Analysis](
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppContextNodesFound* when you no longer need to use the object.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppContextNodesFound* when you no longer need to use the object.
 
  
 
@@ -86,7 +86,7 @@ If the [**IInkAnalyzer**](iinkanalyzer.md) contains no such [**IContextNode**](i
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -130,9 +130,4 @@ If the [**IInkAnalyzer**](iinkanalyzer.md) contains no such [**IContextNode**](i
 </dt> </dl>
 
  
-
- 
-
-
-
 

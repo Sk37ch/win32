@@ -1,12 +1,12 @@
 ---
 title: HelpContextID Property (Command Object)
-description: HelpContextID Property
+description: Learn about the HelpContextID property of the Command object. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: 9e30e3f7-1d12-4aa1-af0d-5a3b30f57e83
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# HelpContextID Property
+# HelpContextID Property (Command Object)
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Description**
 </dt> <dd>
 
-Returns or sets an associated context number for the [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object. Used to provide context-sensitive Help for the **Command** object.
+Returns or sets an associated context number for the [**Command**](/windows/desktop/lwef/the-command-object) object. Used to provide context-sensitive Help for the **Command** object.
 
 </dd> <dt>
 
@@ -55,7 +55,3 @@ This property applies only to your client application's use of the character; th
  
 
  
-
-
-
-

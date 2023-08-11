@@ -1,5 +1,5 @@
 ---
-Description: The center of the BoundingSphere.
+description: The center of the BoundingSphere.
 ms.assetid: 5e8a6cd6-a38b-406c-a759-8685bfecc0e6
 title: BoundingSphere.Center (DirectXCollision.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-|                      |                                                                                               |
+| Requirement | Value |
 |----------------------|-----------------------------------------------------------------------------------------------|
 | Namespace<br/> | Use DirectX.<br/>                                                                       |
 | Header<br/>    | <dl> <dt>DirectXCollision.h</dt> </dl> |
@@ -45,13 +45,9 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingSphere**](https://msdn.microsoft.com/library/Hh449592(v=VS.85).aspx)
+[**BoundingSphere**](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere)
 </dt> </dl>
 
  
 
  
-
-
-
-

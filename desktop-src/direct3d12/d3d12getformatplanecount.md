@@ -12,7 +12,6 @@ api_location:
 - D3D12.dll
 api_type:
 - DllExport
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 ---
@@ -49,9 +48,9 @@ The virtual adapter (an [**ID3D12Device**](/windows/desktop/api/d3d12/nn-d3d12-i
 *Format* 
 </dt> <dd>
 
-Type: **[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
+Type: **[**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
 
-The [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) for which to get the plane count.
+The [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) for which to get the plane count.
 
 </dd> </dl>
 
@@ -65,7 +64,7 @@ The plane count for the specified format on the specified virtual adapter.
 
 
 
-|                    |                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx12.h</dt> </dl>  |
 | Library<br/> | <dl> <dt>D3D12.lib</dt> </dl> |
@@ -87,10 +86,4 @@ The plane count for the specified format on the specified virtual adapter.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

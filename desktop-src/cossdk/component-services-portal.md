@@ -1,5 +1,5 @@
 ---
-Description: Extends applications written using COM-based technologies.
+description: Extends applications written using COM-based technologies.
 ms.assetid: b21a6b08-c17c-4fcc-bc60-39037bc9902f
 title: COM+ (Component Services)
 ms.topic: article
@@ -38,12 +38,9 @@ COM+ version 1.5 is included in Windows starting with Windows XP and Windows Se
 
 <dl> <dt>
 
-[COM](https://docs.microsoft.com/windows/desktop/com/component-object-model--com--portal)
+[COM](/windows/desktop/com/component-object-model--com--portal)
 </dt> </dl>
 
  
 
  
-
-
-

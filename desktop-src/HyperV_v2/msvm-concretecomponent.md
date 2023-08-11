@@ -1,5 +1,5 @@
 ---
-Description: A generic association used to establish part of relationships between managed elements.
+description: A generic association used to establish part of relationships between managed elements.
 ms.assetid: 4D237D68-0A63-4A19-B6AD-E3C781090994
 title: Msvm_ConcreteComponent class
 ms.topic: reference
@@ -19,7 +19,7 @@ api_location:
 
 # Msvm\_ConcreteComponent class
 
-A generic association used to establish 'part of' relationships between managed elements. [**CIM\_ConcreteComponent**](https://docs.microsoft.com/previous-versions//cc150665(v=vs.85)) is defined as a concrete subclass of the abstract [**CIM\_Component**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-component) class, to be used in place of many specific subclasses of component that add no semantics (that is subclasses that do not clarify the type of composition, update cardinalities, or add or remove qualifiers.)
+A generic association used to establish 'part of' relationships between managed elements. [**CIM\_ConcreteComponent**](/previous-versions//cc150665(v=vs.85)) is defined as a concrete subclass of the abstract [**CIM\_Component**](/windows/desktop/CIMWin32Prov/cim-component) class, to be used in place of many specific subclasses of component that add no semantics (that is subclasses that do not clarify the type of composition, update cardinalities, or add or remove qualifiers.)
 
 The following syntax is simplified Managed Object Format (MOF) code, and it includes all of the inherited properties.
 
@@ -49,38 +49,38 @@ The **Msvm\_ConcreteComponent** class has these properties.
 **GroupComponent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
+Data type: **[**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-The parent element in the association. This property is inherited from [**CIM\_ConcreteComponent**](https://docs.microsoft.com/previous-versions//cc150665(v=vs.85)).
+The parent element in the association. This property is inherited from [**CIM\_ConcreteComponent**](/previous-versions//cc150665(v=vs.85)).
 
 </dd> <dt>
 
 **PartComponent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
+Data type: **[**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-The child element in the association. This property is inherited from [**CIM\_ConcreteComponent**](https://docs.microsoft.com/previous-versions//cc150665(v=vs.85)).
+The child element in the association. This property is inherited from [**CIM\_ConcreteComponent**](/previous-versions//cc150665(v=vs.85)).
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_ConcreteComponent** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_ConcreteComponent** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -97,16 +97,11 @@ Access to the **Msvm\_ConcreteComponent** class might be restricted by UAC Filte
 [**CIM\_ConcreteComponent**](cim-concretecomponent.md)
 </dt> <dt>
 
-[**CIM\_ConcreteComponent**](https://docs.microsoft.com/previous-versions//cc150665(v=vs.85))
+[**CIM\_ConcreteComponent**](/previous-versions//cc150665(v=vs.85))
 </dt> <dt>
 
 [Virtual System Classes](virtual-system-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

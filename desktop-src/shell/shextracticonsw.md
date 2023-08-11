@@ -1,5 +1,5 @@
 ---
-Description: Creates an array of handles to icons extracted from a specified file.
+description: Creates an array of handles to icons extracted from a specified file.
 title: SHExtractIconsW function
 ms.topic: reference
 ms.date: 05/31/2018
@@ -14,24 +14,15 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 9f138b4e-6a84-4c7e-9521-5f8ffe0eaebf
-api_name: 
- - SHExtractIconsW
- - SHExtractIconsW
-api_type: 
- - DllExport
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
 # SHExtractIconsW function
 
-\[**SHExtractIconsW** is available through Windows XP Service Pack 2 (SP2). It might be altered or unavailable in subsequent versions.\]
-
 Creates an array of handles to icons extracted from a specified file.
+
+> [!NOTE]
+> This function is available through Windows XP Service Pack 2 (SP2). It might be altered or unavailable in subsequent versions. Use <a href="/windows/win32/api/shlobj_core/nf-shlobj_core-shdefextracticonw">SHDefExtractIcon</a> function instead.
 
 ## Syntax
 
@@ -123,7 +114,7 @@ The number of icons to extract from the resource named in *pszFileName*. This pa
 
 Type: **UINT**
 
-The flags that control this function. For possible values, see the *fuLoad* parameter of the [**LoadImage**](https://msdn.microsoft.com/library/ms648045(v=VS.85).aspx) function.
+The flags that control this function. For possible values, see the *fuLoad* parameter of the [**LoadImage**](/windows/win32/api/winuser/nf-winuser-loadimagea) function.
 
 </dd> </dl>
 
@@ -146,17 +137,17 @@ A nonzero value if successful; otherwise, zero.
 
 Extractions from Windows 3.*x* 16-bit executable files (.exe or .dll) are also supported.
 
-The *cxIcon* and *cyIcon* parameters specify the size of the icons to extract. Two sizes can be extracted through each parameter by splitting the value between its LOWORD and HIWORD. Put the first desired size in the LOWORD of the parameter and the second size in the HIWORD. For example, [**MAKELONG**](https://msdn.microsoft.com/library/ms632660(v=VS.85).aspx)(24, 48) for both *cxIcon* and *cyIcon* extracts both 24 and 48 sized icons.
+The *cxIcon* and *cyIcon* parameters specify the size of the icons to extract. Two sizes can be extracted through each parameter by splitting the value between its LOWORD and HIWORD. Put the first desired size in the LOWORD of the parameter and the second size in the HIWORD. For example, [**MAKELONG**](/previous-versions/windows/desktop/legacy/ms632660(v=vs.85))(24, 48) for both *cxIcon* and *cyIcon* extracts both 24 and 48 sized icons.
 
-The calling process is responsible for destroying all icons extracted through this function by calling the [**DestroyIcon**](https://msdn.microsoft.com/library/ms648063(v=VS.85).aspx) function.
+The calling process is responsible for destroying all icons extracted through this function by calling the [**DestroyIcon**](/windows/win32/api/winuser/nf-winuser-destroyicon) function.
 
-**SHExtractIconsW** is not exported by name or declared in a public header file. To use it, you must declare a matching prototype and use [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) to request a function pointer from Shell32.dll that can be used to call this function.
+**SHExtractIconsW** is not exported by name or declared in a public header file. To use it, you must declare a matching prototype and use [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) to request a function pointer from Shell32.dll that can be used to call this function.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |
@@ -168,7 +159,3 @@ The calling process is responsible for destroying all icons extracted through th
  
 
  
-
-
-
-

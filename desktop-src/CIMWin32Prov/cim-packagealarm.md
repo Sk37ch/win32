@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PackageAlarm association represents the relationship in which an alarm device is installed as part of a package. The installation indicates issues with the package's environment&\#8212;its security state or its overall health.
+description: The CIM\_PackageAlarm association represents the relationship in which an alarm device is installed as part of a package. The installation indicates issues with the package's environment&\#8212;its security state or its overall health.
 ms.assetid: 4911502a-de9c-46b4-91f6-a042c69fd052
 ms.tgt_platform: multiple
 title: CIM_PackageAlarm class
@@ -20,7 +20,7 @@ api_location:
 
 # CIM\_PackageAlarm class
 
-The [**CIM\_PackageAlarm**](https://docs.microsoft.com/windows/desktop/SecCrypto/extendedproperties-newenum) association represents the relationship in which an alarm device is installed as part of a package. The installation indicates issues with the package's environment its security state or its overall health.
+The [**CIM\_PackageAlarm**](/windows/desktop/SecCrypto/extendedproperties-newenum) association represents the relationship in which an alarm device is installed as part of a package. The installation indicates issues with the package's environment its security state or its overall health.
 
 > [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).
@@ -61,7 +61,7 @@ Data type: **CIM\_AlarmDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_AlarmDevice**](cim-alarmdevice.md) that describes the alarm device for the package.
@@ -77,7 +77,7 @@ Data type: **CIM\_PhysicalPackage**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_PhysicalPackage**](cim-physicalpackage.md) describing the physical package whose health, security, environment, etc. is alarmed.
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -114,9 +114,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

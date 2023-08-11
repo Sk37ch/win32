@@ -1,5 +1,5 @@
 ---
-Description: Represents an association in which a service is a component of a parent service, which together, form a higher-level service.
+description: Represents an association in which a service is a component of a parent service, which together, form a higher-level service.
 ms.assetid: c629d59d-d9d3-4019-a378-cd1d4d31a5d9
 title: CIM_ServiceComponent class
 ms.topic: reference
@@ -53,7 +53,7 @@ Data type: **CIM\_Service**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
+Qualifiers: [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
 </dt> </dl>
 
 The parent service.
@@ -69,7 +69,7 @@ Data type: **CIM\_Service**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
 </dt> </dl>
 
 The component service.
@@ -80,7 +80,7 @@ The component service.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
@@ -98,9 +98,4 @@ The component service.
 </dt> </dl>
 
  
-
- 
-
-
-
 

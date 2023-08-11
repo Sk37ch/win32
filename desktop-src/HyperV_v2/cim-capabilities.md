@@ -1,5 +1,5 @@
 ---
-Description: An abstract class for subclasses that describes the abilities of an associated managed element, and the potential of the abilities.
+description: An abstract class for subclasses that describes the abilities of an associated managed element, and the potential of the abilities.
 ms.assetid: f0ffddf5-99d4-49be-ac0a-c2cfd4a92d96
 title: CIM_Capabilities class
 ms.topic: reference
@@ -53,7 +53,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Required**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("ElementName")
+Qualifiers: [**Required**](/windows/desktop/WmiSdk/standard-qualifiers), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("ElementName")
 </dt> </dl>
 
 The user friendly name for this class instance. In addition, the user friendly name can be used as a index property for a query. This value does not have to be unique within its namespace.
@@ -69,7 +69,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("InstanceID")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("InstanceID")
 </dt> </dl>
 
 Uniquely and opaquely identifies an instance of this class within the scope of the containing namespace.
@@ -94,7 +94,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -112,9 +112,4 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 </dt> </dl>
 
  
-
- 
-
-
-
 

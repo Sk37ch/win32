@@ -1,5 +1,5 @@
 ---
-Description: Provides information about an app suspending operation.
+description: Provides information about an app suspending operation.
 ms.assetid: B380AEA2-6486-46CC-AD0A-CF25C144DC01
 title: ISuspendingOperation interface (Windows.ApplicationModel.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ Provides information about an app suspending operation.
 
 ## Members
 
-The **ISuspendingOperation** interface inherits from [**IInspectable**](https://msdn.microsoft.com/library/BR205821(v=VS.85).aspx). **ISuspendingOperation** also has these types of members:
+The **ISuspendingOperation** interface inherits from [**IInspectable**](/windows/win32/api/inspectable/nn-inspectable-iinspectable). **ISuspendingOperation** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -58,7 +58,7 @@ The **ISuspendingOperation** interface has these properties.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -71,7 +71,7 @@ The **ISuspendingOperation** interface has these properties.
 
 <dl> <dt>
 
-[**IInspectable**](https://msdn.microsoft.com/library/BR205821(v=VS.85).aspx)
+[**IInspectable**](/windows/win32/api/inspectable/nn-inspectable-iinspectable)
 </dt> <dt>
 
 [**ISuspendingDeferral**](isuspendingdeferral.md)
@@ -83,7 +83,3 @@ The **ISuspendingOperation** interface has these properties.
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: The following example shows typical Diffie-Hellman/Schannel client-side code for creating a master key.
+description: The following example shows typical Diffie-Hellman/Schannel client-side code for creating a master key.
 ms.assetid: 37b35cd6-b3c9-4a75-83a9-129bcf7a84a3
 title: Diffie-Hellman Client Code for Creating the Master Key
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Diffie-Hellman Client Code for Creating the Master Key
 
-The following example shows typical [*Diffie-Hellman*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx)/Schannel client-side code for creating a [*master key*](https://msdn.microsoft.com/library/ms721594(v=VS.85).aspx).
+The following example shows typical [*Diffie-Hellman*](../secgloss/d-gly.md)/Schannel client-side code for creating a [*master key*](../secgloss/m-gly.md).
 
 
 ```C++
@@ -141,6 +141,3 @@ CryptDestroyKey(hClientDHKey);
  
 
  
-
-
-

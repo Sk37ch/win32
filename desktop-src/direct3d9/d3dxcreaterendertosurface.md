@@ -1,5 +1,5 @@
 ---
-Description: Creates a render surface.
+description: Creates a render surface.
 ms.assetid: 35e0007e-c405-46e1-a52b-625adc84732b
 title: D3DXCreateRenderToSurface function (D3dx9core.h)
 ms.topic: reference
@@ -44,16 +44,16 @@ HRESULT D3DXCreateRenderToSurface(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, the device to be associated with the render surface.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface, the device to be associated with the render surface.
 
 </dd> <dt>
 
 *Width* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Width of the render surface, in pixels.
 
@@ -62,7 +62,7 @@ Width of the render surface, in pixels.
 *Height* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Height of the render surface, in pixels.
 
@@ -80,7 +80,7 @@ Member of the [D3DFORMAT](d3dformat.md) enumerated type, describing the pixel fo
 *DepthStencil* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 If **TRUE**, the render surface supports a depth-stencil surface. Otherwise, this member is set to **FALSE**. This function will create a new depth buffer.
 
@@ -114,7 +114,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -131,7 +131,3 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
  
 
  
-
-
-
-

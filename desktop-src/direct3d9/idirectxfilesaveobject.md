@@ -1,5 +1,5 @@
 ---
-Description: Applications use the methods of the IDirectXFileSaveObject interface to create data objects and to save templates and data objects.
+description: Applications use the methods of the IDirectXFileSaveObject interface to create data objects and to save templates and data objects.
 ms.assetid: 7948a7d2-b150-45cf-a1fc-5dca21d74770
 title: IDirectXFileSaveObject interface (DXFile.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ Applications use the methods of the IDirectXFileSaveObject interface to create d
 
 ## Members
 
-The **IDirectXFileSaveObject** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IDirectXFileSaveObject** also has these types of members:
+The **IDirectXFileSaveObject** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IDirectXFileSaveObject** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -61,7 +61,7 @@ typedef interface IDirectXFileSaveObject *LPDIRECTXFILESAVEOBJECT;
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>DXFile.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3dxof.lib</dt> </dl> |
@@ -78,7 +78,3 @@ typedef interface IDirectXFileSaveObject *LPDIRECTXFILESAVEOBJECT;
  
 
  
-
-
-
-

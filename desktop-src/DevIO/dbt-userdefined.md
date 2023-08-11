@@ -1,5 +1,5 @@
 ---
-Description: The DBT\_USERDEFINED device event identifies a user-defined event.
+description: The DBT\_USERDEFINED device event identifies a user-defined event.
 ms.assetid: b42feda9-5fe7-4e54-aad9-28c61d2f29b6
 title: DBT_USERDEFINED event (Dbt.h)
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The DBT\_USERDEFINED device event identifies a user-defined event.
 
-To broadcast this device event, call the [**BroadcastSystemMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessage) function with the [**WM\_DEVICECHANGE**](wm-devicechange.md) message. Set *wParam* to DBT\_USERDEFINED and set *lParam* as described following.
+To broadcast this device event, call the [**BroadcastSystemMessage**](/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessage) function with the [**WM\_DEVICECHANGE**](wm-devicechange.md) message. Set *wParam* to DBT\_USERDEFINED and set *lParam* as described following.
 
 
 ```C++
@@ -62,7 +62,7 @@ Return **TRUE**.
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                   |
@@ -86,13 +86,8 @@ Return **TRUE**.
 [**WM\_DEVICECHANGE**](wm-devicechange.md)
 </dt> <dt>
 
-[**BroadcastSystemMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessage)
+[**BroadcastSystemMessage**](/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessage)
 </dt> </dl>
 
  
-
- 
-
-
-
 

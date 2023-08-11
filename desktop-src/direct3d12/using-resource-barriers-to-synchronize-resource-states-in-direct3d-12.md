@@ -2,7 +2,6 @@
 title: Using Resource Barriers to Synchronize Resource States in Direct3D 12
 description: To reduce overall CPU usage and enable driver multi-threading and pre-processing, Direct3D 12 moves the responsibility of per-resource state management from the graphics driver to the application.
 ms.assetid: 3AB3BF34-433C-400B-921A-55B23CCDA44F
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -41,7 +40,7 @@ There are three types of resource barriers:
 
 -   **Aliasing barrier** - An aliasing barrier indicates a transition between usages of two different resources which have overlapping mappings into the same heap. This applies to both reserved and placed resources. A [**D3D12\_RESOURCE\_ALIASING\_BARRIER**](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_aliasing_barrier) structure is used to specify both the *before* resource and the *after* resource.
 
-    Note that one or both resources can be NULL, which indicates that any tiled resource could cause aliasing. For more information about using tiled resources, see [Tiled resources](/windows/win32/direct3d11/tiled-resources) and [Volume Tiled Resources](volume-tiled-resources.md).
+    Note that one or both resources can be NULL, which indicates that any tiled resource could cause aliasing. For more information about using tiled resources, see [Tiled resources](../direct3d11/tiled-resources.md) and [Volume Tiled Resources](volume-tiled-resources.md).
 
 -   **Unordered access view (UAV) barrier** - A UAV barrier indicates that all UAV accesses, both read or write, to a particular resource must complete between any future UAV accesses, both read or write. It's not necessary for an app to put a UAV barrier between two draw or dispatch calls that only read from a UAV. Also, it's not necessary to put a UAV barrier between two draw or dispatch calls that write to the same UAV if the application knows that it is safe to execute the UAV access in any order. A [**D3D12\_RESOURCE\_UAV\_BARRIER**](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_uav_barrier) structure is used to specify the UAV resource to which the barrier applies. The application can specify NULL for the barrier's UAV, which indicates that any UAV access could require the barrier.
 
@@ -107,9 +106,8 @@ Resources can be promoted from the COMMON state based on the following table:
 
 
 
-| State flag                    | Promotable State                             |                                      |
+| State flag                    | Buffers and Simultaneous-Access Textures                             | Non-Simultaneous-Access Textures                                     |
 |-------------------------------|----------------------------------------------|--------------------------------------|
-|                               | **Buffers and Simultaneous-Access Textures** | **Non-Simultaneous-Access Textures** |
 | VERTEX\_AND\_CONSTANT\_BUFFER | Yes                                          | No                                   |
 | INDEX\_BUFFER                 | Yes                                          | No                                   |
 | RENDER\_TARGET                | Yes                                          | No                                   |
@@ -132,7 +130,9 @@ Resources can be promoted from the COMMON state based on the following table:
 
 <sup>\*</sup>Depth-stencil resources must be non-simultaneous-access textures and thus can never be implicitly promoted.
 
-When this access occurs the promotion acts like an implicit resource barrier. For subsequent accesses, resource barriers will be required to change the resource state if necessary. For example, if a resource in the common state is promoted to PIXEL\_SHADER\_RESOURCE in a Draw call and is then used as a copy source, a resource state transition barrier from PIXEL\_SHADER\_RESOURCE to COPY\_SOURCE is needed.
+When this access occurs the promotion acts like an implicit resource barrier. For subsequent accesses, resource barriers will be required to change the resource state if necessary. Note that promotion from one promoted read state into multiple read state is valid, but this is not the case for write states.  
+For example, if a resource in the common state is promoted to PIXEL\_SHADER\_RESOURCE in a Draw call, it can still be promoted to NON_PIXEL\_SHADER\_RESOURCE | PIXEL\_SHADER\_RESOURCE in another Draw call. However, if it is used in a write operation, such as a copy destination, a resource state transition barrier from the combined promoted read states, here NON_PIXEL\_SHADER\_RESOURCE | PIXEL\_SHADER\_RESOURCE, to COPY\_DEST is needed.  
+Similarly, if promoted from COMMON to COPY\_DEST, a barrier is still required to transition from COPY\_DEST to RENDER\_TARGET.
 
 Note that common state promotion is "free" in that there is no need for the GPU to perform any synchronization waits. The promotion represents the fact that resources in the COMMON state should not require additional GPU work or driver tracking to support certain accesses.
 
@@ -585,6 +585,9 @@ D3D12_RESOURCE_BARRIER BarrierDesc = {};
 
 [DirectX advanced learning video tutorials : Resource Barriers and State Tracking](https://www.youtube.com/watch?v=nmB2XMasz2o)
 
-[Multi-engine synchronization](/windows/win32/direct3d12/user-mode-heap-synchronization)
+[Multi-engine synchronization](./user-mode-heap-synchronization.md)
 
 [Work Submission in Direct3D 12](command-queues-and-command-lists.md)
+
+[A Look Inside D3D12 Resource State Barriers](https://devblogs.microsoft.com/directx/a-look-inside-d3d12-resource-state-barriers/)
+

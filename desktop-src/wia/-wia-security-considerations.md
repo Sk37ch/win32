@@ -1,5 +1,5 @@
 ---
-Description: This document provides information about security considerations related to Windows Image Acquisition (WIA).
+description: This document provides information about security considerations related to Windows Image Acquisition (WIA).
 ms.assetid: 35455320-7d08-49de-938d-40dc0873917b
 title: 'Security Considerations: Windows Image Acquisition'
 ms.topic: article
@@ -34,11 +34,8 @@ WIA uses several directories and registry keys internally to store data or infor
 -   [Security How-to Resources](https://www.microsoft.com/technet/solutionaccelerators/howto/sechow.mspx)
 -   [TechNet Security Resources](https://technet.microsoft.com/security/default.aspx)
 -   [Security Considerations for Windows XP Embedded Developers](/previous-versions/ms838345(v=msdn.10))
--   [Security Best Practices](https://msdn.microsoft.com/library/ms717796(v=VS.85).aspx)
+-   [Security Best Practices](../secbp/best-practices-for-the-security-apis.md)
 
  
 
  
-
-
-

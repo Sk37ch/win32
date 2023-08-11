@@ -53,13 +53,9 @@ The following steps show how applications can get an error report for a non-fata
 
 To exclude your application from Windows error reporting, use the [**WerAddExcludedApplication**](/windows/desktop/api/Werapi/nf-werapi-weraddexcludedapplication) function. To restore error reporting for your application, use the [**WerRemoveExcludedApplication**](/windows/desktop/api/Werapi/nf-werapi-werremoveexcludedapplication) function.
 
-## Windows Error Reporting Samples
-
-For samples that use the WER functions, see [Windows Error Reporting (WER) Code Samples](https://code.msdn.microsoft.com/WERCodeSamples/Release/ProjectReleases.aspx?ReleaseId=121).
-
 ## Automatically recovering data and restarting a faulted application
 
-An application can use Application Recovery and Restart to save data and state information before the application exits due to an unhandled exception or when the application stops responding. The application is also restarted, if requested. For details, see [Application Recovery and Restart](https://docs.microsoft.com/windows/desktop/Recovery/application-recovery-and-restart-portal).
+An application can use Application Recovery and Restart to save data and state information before the application exits due to an unhandled exception or when the application stops responding. The application is also restarted, if requested. For details, see [Application Recovery and Restart](/windows/desktop/Recovery/application-recovery-and-restart-portal).
 
 ## Legacy API
 
@@ -86,10 +82,4 @@ The error reporting system supports the following operation modes.
 To exclude your application from error reporting, use the [**AddERExcludedApplication**](/windows/desktop/api/ErrorRep/nf-errorrep-adderexcludedapplicationa) function.
 
  
-
- 
-
-
-
-
 

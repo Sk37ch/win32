@@ -1,5 +1,5 @@
 ---
-Description: Determines if the engine is from Windows 10.
+description: Determines if the engine is from Windows 10.
 MS-HAID: vspixengine.IPixEngineWin10
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -26,15 +26,12 @@ Determines if the engine is from Windows 10.
 
 ## Members
 
-The **IPixEngineWin10** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
+The **IPixEngineWin10** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 
  
-
-
-

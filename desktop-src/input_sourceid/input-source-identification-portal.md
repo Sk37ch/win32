@@ -1,5 +1,5 @@
 ---
-Description: The topics in this section provide an overview of support for Input Source Identification in Windows 8.
+description: The topics in this section provide an overview of support for Input Source Identification in Windows 8.
 ms.assetid: 37E878DC-962F-4E30-8D11-99975BB9EBA4
 title: Input Source Identification
 ms.topic: article
@@ -26,4 +26,4 @@ The Input Source Identification APIs are designed for developers who are buildi
 
 ## Related topics
 
-[User Interaction](https://msdn.microsoft.com/053003a1-8c04-42d1-9b1c-bbbb58248376)
+[User Interaction](../user-interaction.md)

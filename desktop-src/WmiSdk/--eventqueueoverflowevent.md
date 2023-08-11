@@ -1,5 +1,5 @@
 ---
-Description: Reports when an event is dropped as a result of delivery queue overflow.
+description: Reports when an event is dropped as a result of delivery queue overflow.
 ms.assetid: 7cb1ef3b-3b0a-4f72-96de-862022fd6db8
 ms.tgt_platform: multiple
 title: '__EventQueueOverflowEvent class'
@@ -115,7 +115,7 @@ Access type: Read-only
 
 Unique value that indicates the time at which the event was generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Time (UTC) format. This property is inherited from [**\_\_Event**](--event.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> </dl>
 
@@ -123,13 +123,13 @@ For more information about using **uint64** values in scripts, see [Scripting in
 
 Only users with administrator privileges are able to receive this event. The **\_\_EventQueueOverflowEvent** class is derived from [**\_\_EventDroppedEvent**](--eventdroppedevent.md).
 
-For more information, see the [**MaximumQueueSize**](--eventconsumer.md) property in the [**\_\_EventConsumer**](--eventconsumer.md) class and the [**HighThresholdOnEvents**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-wmisetting) property in the **Win32\_WMISetting** class.
+For more information, see the [**MaximumQueueSize**](--eventconsumer.md) property in the [**\_\_EventConsumer**](--eventconsumer.md) class and the [**HighThresholdOnEvents**](/windows/desktop/CIMWin32Prov/win32-wmisetting) property in the **Win32\_WMISetting** class.
 
 ## Requirements
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -141,16 +141,11 @@ For more information, see the [**MaximumQueueSize**](--eventconsumer.md) propert
 
 <dl> <dt>
 
-[**\_\_EventDroppedEvent**](https://docs.microsoft.com/windows/desktop/WmiSdk/--eventdroppedevent)
+[**\_\_EventDroppedEvent**](/windows/desktop/WmiSdk/--eventdroppedevent)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # UI Automation Specification
 
-This topic provides an overview of the Microsoft UI Automation Specification, which forms the basis of the Windows implementation of UI Automation. The UI Automation Specification can be supported across platforms other than Microsoft Windows. For more information, see [UI Automation Specification](/windows/win32/winauto/uiauto-specandcommunitypromise)
+This topic provides an overview of the Microsoft UI Automation Specification, which forms the basis of the Windows implementation of UI Automation. The UI Automation Specification can be supported across platforms other than Microsoft Windows. For more information, see [UI Automation Specification](./uiauto-specandcommunitypromise.md)
 
 This topic contains the following sections:
 
@@ -95,7 +95,7 @@ A control type is an automation element property that specifies a well-known con
 
 Before you can assign a control type to an element, the element needs to meet certain conditions, including a particular automation tree structure, property values, control patterns, and events. However, you are not limited to these. You can extend a control with custom patterns and properties, as well as with the predefined ones.
 
-The total number of predefined control types is significantly lower than Microsoft Active Accessibility [object roles](object-roles.md), because UI Automation control types can be combined to express a larger set of features while Microsoft Active Accessibility roles cannot.
+The total number of predefined control types is significantly lower than Microsoft Active Accessibility [object roles](object-roles.md), because UI Automation control patterns can be combined to express a larger set of features while Microsoft Active Accessibility roles cannot.
 
 For more information, see [UI Automation Control Types Overview](uiauto-controltypesoverview.md).
 
@@ -107,4 +107,4 @@ For more information, see [UI Automation Events Overview](uiauto-eventsoverview.
 
 ## Related topics
 
-[UI Automation Specification](/windows/win32/winauto/uiauto-specandcommunitypromise), [Windows Automation API Overview](windows-automation-api-overview.md)
+[UI Automation Specification](./uiauto-specandcommunitypromise.md), [Windows Automation API Overview](windows-automation-api-overview.md)

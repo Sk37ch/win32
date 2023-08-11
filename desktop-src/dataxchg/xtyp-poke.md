@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # XTYP\_POKE transaction
 
-A client uses the **XTYP\_POKE** transaction to send unsolicited data to the server. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](https://msdn.microsoft.com/library/ms648742(v=VS.85).aspx), receives this transaction when a client specifies **XTYP\_POKE** in the [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) function.
+A client uses the **XTYP\_POKE** transaction to send unsolicited data to the server. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), receives this transaction when a client specifies **XTYP\_POKE** in the [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) function.
 
 
 ```C++
@@ -100,7 +100,7 @@ This transaction is filtered if the server application specified the **CBF\_FAIL
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
@@ -128,10 +128,4 @@ This transaction is filtered if the server application specified the **CBF\_FAIL
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

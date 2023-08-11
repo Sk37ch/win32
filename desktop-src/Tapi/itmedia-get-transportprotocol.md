@@ -1,5 +1,5 @@
 ---
-Description: The get\_TransportProtocol method gets the transport protocol.
+description: The get\_TransportProtocol method gets the transport protocol.
 ms.assetid: d270d6f4-bdcf-4cf4-970b-65f0be706171
 title: ITMedia::get_TransportProtocol method (Sdpblb.h)
 ms.topic: reference
@@ -54,13 +54,13 @@ This method can return one of these values.
 
 ## Remarks
 
-The application must use [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the memory allocated for the *ppProtocol* parameter.
+The application must use [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) to free the memory allocated for the *ppProtocol* parameter.
 
 ## Requirements
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |
@@ -80,9 +80,4 @@ The application must use [**SysFreeString**](https://msdn.microsoft.com/library/
 </dt> </dl>
 
  
-
- 
-
-
-
 

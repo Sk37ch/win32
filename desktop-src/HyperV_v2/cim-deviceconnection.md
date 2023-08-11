@@ -1,5 +1,5 @@
 ---
-Description: A relationship that indicates that two or more devices are connected together.
+description: A relationship that indicates that two or more devices are connected together.
 ms.assetid: 84282740-f60f-46fa-95b7-b52a7e6efcc4
 title: CIM_DeviceConnection class (Hyper-V management)
 ms.topic: reference
@@ -19,7 +19,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_DeviceConnection class
+# CIM_DeviceConnection class (Hyper-V management)
 
 A relationship that indicates that two or more devices are connected together.
 
@@ -57,7 +57,7 @@ Data type: **CIM\_LogicalDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A device.
@@ -73,7 +73,7 @@ Data type: **CIM\_LogicalDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A second device that is connected to the other device.
@@ -89,7 +89,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Bits"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Bus Port Association\|001.3"), **PUnit** ("bit")
+Qualifiers: [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("Bits"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Bus Port Association\|001.3"), **PUnit** ("bit")
 </dt> </dl>
 
 When several bus and connection data widths are possible, the NegotiatedDataWidth property defines the one that is in use between the Devices. Data width is specified in bits. If data width is not negotiated, or if this information is not available or not important to Device management, the property should be set to 0.
@@ -105,7 +105,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Bits per Second"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Bus Port Association\|001.2"), **PUnit** ("bit / second")
+Qualifiers: [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("Bits per Second"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Bus Port Association\|001.2"), **PUnit** ("bit / second")
 </dt> </dl>
 
 When several bus and connection speeds are possible, this property defines the speed that is in use between the devices, in bits per second. If connection or bus speeds are not negotiated, or if this information is not available, or not important to device management, the property should be set to "0".
@@ -116,7 +116,7 @@ When several bus and connection speeds are possible, this property defines the s
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -134,9 +134,4 @@ When several bus and connection speeds are possible, this property defines the s
 </dt> </dl>
 
  
-
- 
-
-
-
 

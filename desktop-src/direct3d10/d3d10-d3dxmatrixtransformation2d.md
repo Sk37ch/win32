@@ -1,22 +1,25 @@
 ---
-Description: Builds a 2D transformation matrix that represents transformations in the xy plane. NULL arguments are treated as identity transformations.
+description: D3DXMatrixTransformation2D function (D3DX10Math.h) - Builds a 2D transformation matrix that represents transformations in the xy plane. NULL arguments are treated as identity transformations.
 ms.assetid: 5b894c3b-a532-458a-bcbc-48fcd5c73c34
 title: D3DXMatrixTransformation2D function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixTransformation2D
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXMatrixTransformation2D function
+# D3DXMatrixTransformation2D function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a 2D transformation matrix that represents transformations in the xy plane. **NULL** arguments are treated as identity transformations.
 
@@ -44,7 +47,7 @@ D3DXMATRIX* D3DXMatrixTransformation2D(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that contains the result of the transformations.
 
@@ -53,7 +56,7 @@ Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that contains the
 *pScalingCenter* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***
 
 Pointer to a [**D3DXVECTOR2**](d3d10-d3dxvector2.md), a point identifying the scaling center. If this argument is **NULL**, an identity M<sub>sc</sub> matrix is applied to the formula in Remarks.
 
@@ -62,7 +65,7 @@ Pointer to a [**D3DXVECTOR2**](d3d10-d3dxvector2.md), a point identifying the sc
 *ScalingRotation* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Pointer to the scaling rotation factor.
 
@@ -71,7 +74,7 @@ Pointer to the scaling rotation factor.
 *pScaling* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***
 
 Pointer to a D3DXVECTOR2 structure, a point identifying the scale. If this argument is **NULL**, an identity Mₛ matrix is applied to the formula in Remarks.
 
@@ -80,7 +83,7 @@ Pointer to a D3DXVECTOR2 structure, a point identifying the scale. If this argum
 *pRotationCenter* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***
 
 Pointer to a D3DXVECTOR2 structure, a point identifying the rotation center. If this argument is **NULL**, an identity M<sub>rc</sub> matrix is applied to the formula in Remarks.
 
@@ -89,7 +92,7 @@ Pointer to a D3DXVECTOR2 structure, a point identifying the rotation center. If 
 *Rotation* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The angle of rotation in radians.
 
@@ -98,7 +101,7 @@ The angle of rotation in radians.
 *pTranslation* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***
 
 Pointer to a D3DXVECTOR2 structure, identifying the translation. If this argument is **NULL**, an identity Mₜ matrix is applied to the formula in Remarks.
 
@@ -106,7 +109,7 @@ Pointer to a D3DXVECTOR2 structure, identifying the translation. If this argumen
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to a D3DXMATRIX structure that contains the transformation matrix.
 
@@ -140,7 +143,7 @@ For 3D transformations, use [**D3DXMatrixTransformation**](d3d10-d3dxmatrixtrans
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -157,7 +160,3 @@ For 3D transformations, use [**D3DXMatrixTransformation**](d3d10-d3dxmatrixtrans
  
 
  
-
-
-
-

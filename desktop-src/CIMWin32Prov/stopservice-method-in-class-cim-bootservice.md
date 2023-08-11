@@ -1,5 +1,5 @@
 ---
-Description: Stops the service represented by the object derived from CIM\_BootService.
+description: Stops the service represented by the object derived from CIM\_BootService.
 ms.assetid: 443a2afa-ed46-4378-a06f-5f9f94af51c9
 ms.tgt_platform: multiple
 title: StopService method of the CIM_BootService class (Sdoias.h)
@@ -25,7 +25,7 @@ The **StopService** method stops the service represented by the object derived f
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -54,7 +54,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -76,9 +76,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

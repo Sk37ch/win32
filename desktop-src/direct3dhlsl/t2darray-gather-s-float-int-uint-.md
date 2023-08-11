@@ -1,6 +1,6 @@
 ---
 title: Texture2DArray::Gather(S,float,int,uint) function
-description: Samples a texture and returns all four components along with status about the operation.
+description: Returns the four texel values that would be used in a bi-linear filtering operation. | Texture2DArray::Gather(S,float,int,uint) function
 ms.assetid: 311A5042-19AA-41C7-8B22-2E34E4554250
 keywords:
 - Gather function HLSL
@@ -15,19 +15,19 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Gather(S,float,int,uint) function
+# Texture2DArray::Gather(S,float,int,uint) function
 
-Samples a texture and returns all four components along with status about the operation.
+Returns the four texel values that would be used in a bi-linear filtering operation.
 
 ## Syntax
 
 
-```C++
+``` syntax
 TemplateType Gather(
-  _In_  SamplerState S,
-  _In_  float        Location,
-  _In_  int          Offset,
-  _Out_ uint         Status
+  in  SamplerState S,
+  in  float3       Location,
+  in  int          Offset,
+  out uint         Status
 );
 ```
 
@@ -69,7 +69,7 @@ The offset applied to the texture coordinates before sampling.
 
 Type: **uint**
 
-The status of the operation. You can't access the status directly; instead, pass the status to the [**CheckAccessFullyMapped**](checkaccessfullymapped.md) intrinsic function. **CheckAccessFullyMapped** returns **TRUE** if all values from the corresponding **Sample**, **Gather**, or **Load** operation accessed mapped tiles in a [tiled resource](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-2-features). If any values were taken from an unmapped tile, **CheckAccessFullyMapped** returns **FALSE**.
+The status of the operation. You can't access the status directly; instead, pass the status to the [**CheckAccessFullyMapped**](checkaccessfullymapped.md) intrinsic function. **CheckAccessFullyMapped** returns **TRUE** if all values from the corresponding **Sample**, **Gather**, or **Load** operation accessed mapped tiles in a [tiled resource](/windows/desktop/direct3d11/direct3d-11-2-features). If any values were taken from an unmapped tile, **CheckAccessFullyMapped** returns **FALSE**.
 
 </dd> </dl>
 
@@ -93,7 +93,7 @@ This function is supported for the following types of shaders:
 
 
 
- 
+
 
 ## See also
 
@@ -101,10 +101,6 @@ This function is supported for the following types of shaders:
 
 [Gather methods](texture2darray-gather.md)
 </dt> </dl>
-
- 
-
- 
 
 
 

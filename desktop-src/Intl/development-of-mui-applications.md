@@ -1,5 +1,5 @@
 ---
-Description: This topic summarizes the main programming considerations to keep in mind when adding MUI functionality to your applications.
+description: This topic summarizes the main programming considerations to keep in mind when adding MUI functionality to your applications.
 ms.assetid: 10064f5c-5563-44f8-afb5-c6c77991e13c
 title: Development of MUI Applications
 ms.topic: article
@@ -18,7 +18,7 @@ Your MUI application can run under any language or locale setting, and the user 
 
 ## Supported Programming Environments
 
-You can add MUI functionality to a globalized Win32 forms application or console application as described in this SDK. In addition, you can create managed applications using .NET Framework, which is compatible with MUI. For more information, see [.NET Development](https://msdn.microsoft.com/library/Ff361664(v=VS.100).aspx).
+You can add MUI functionality to a globalized Win32 forms application or console application as described in this SDK. In addition, you can create managed applications using .NET Framework, which is compatible with MUI. For more information, see [.NET Development](/previous-versions/ff361664(v=vs.100)).
 
 ## User Interface Language Settings
 
@@ -73,6 +73,3 @@ To support the user interface languages for your MUI application, you must have 
  
 
  
-
-
-

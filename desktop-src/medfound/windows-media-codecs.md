@@ -1,5 +1,5 @@
 ---
-Description: The Windows Media Audio and Video codecs are a collection of objects that you can use to compress and decompress digital media data.
+description: The Windows Media Audio and Video codecs are a collection of objects that you can use to compress and decompress digital media data.
 ms.assetid: '74de2e75-b1ee-436d-8d78-efe366ab7aa6'
 title: Windows Media Codecs
 ms.topic: article
@@ -24,7 +24,7 @@ Every codec object implements two separate but similar interfaces:
 | Interface                              | Description                                 |
 |----------------------------------------|---------------------------------------------|
 | [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)   | Compatible with Microsoft Media Foundation. |
-| [**IMediaObject**](https://msdn.microsoft.com/library/Dd406926(v=VS.85).aspx) | Compatible with DirectShow.                 |
+| [**IMediaObject**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject) | Compatible with DirectShow.                 |
 
 
 
@@ -85,12 +85,9 @@ For older codecs, use the same procedures as when using the current codecs; howe
 [Media Foundation Programming Guide](media-foundation-programming-guide.md)
 </dt> <dt>
 
-[Media Technologies for Windows](https://msdn.microsoft.com/windows/bb190307)
+[Media Technologies for Windows](/previous-versions/bg125389(v=msdn.10))
 </dt> </dl>
 
  
 
  
-
-
-

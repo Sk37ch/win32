@@ -1,5 +1,5 @@
 ---
-Description: Contains the verb's name.
+description: Contains the verb's name.
 ms.assetid: d18fddac-eb51-4031-a572-1bfef2f757a9
 title: FolderItemVerb.Name property (Shldisp.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ strName = FolderItemVerb.Name
 
 ## Property value
 
-A variable of type [**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx) that receives the Name property.
+A variable of type [**BSTR**](/previous-versions/windows/desktop/automat/bstr) that receives the Name property.
 
 ## Examples
 
@@ -140,7 +140,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
@@ -153,7 +153,3 @@ End Sub
  
 
  
-
-
-
-

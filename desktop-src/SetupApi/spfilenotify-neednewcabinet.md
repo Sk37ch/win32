@@ -1,5 +1,5 @@
 ---
-Description: The SPFILENOTIFY\_NEEDNEWCABINET notification is sent by SetupIterateCabinet to indicate that the current file continues in another cabinet.
+description: The SPFILENOTIFY\_NEEDNEWCABINET notification is sent by SetupIterateCabinet to indicate that the current file continues in another cabinet.
 ms.assetid: 01207429-11fb-4e2c-89ba-54321992e953
 title: SPFILENOTIFY_NEEDNEWCABINET message (Setupapi.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ Your routine should return one of the following values.
 | Return code                                                                                 | Description                                                                                                                                                                                                                                  |
 |---------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**NO\_ERROR**</dt> </dl>    | No error was encountered, continue processing the cabinet.<br/>                                                                                                                                                                        |
-| <dl> <dt>**ERROR\_*XXX***</dt> </dl> | An error of the specified type occurred. The [**SetupIterateCabinet**](/windows/desktop/api/Setupapi/nf-setupapi-setupiteratecabineta) function will return **FALSE**, and the specified error code will be returned by a call to [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).<br/> |
+| <dl> <dt>**ERROR\_*XXX***</dt> </dl> | An error of the specified type occurred. The [**SetupIterateCabinet**](/windows/desktop/api/Setupapi/nf-setupapi-setupiteratecabineta) function will return **FALSE**, and the specified error code will be returned by a call to [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).<br/> |
 
 
 
@@ -68,7 +68,7 @@ Your callback function should ensure that the cabinet is accessible before it re
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -93,9 +93,4 @@ Your callback function should ensure that the cabinet is accessible before it re
 </dt> </dl>
 
  
-
- 
-
-
-
 

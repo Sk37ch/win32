@@ -1,5 +1,5 @@
 ---
-Description: The ITConnection interface functionality is shown below.
+description: The ITConnection interface functionality is shown below.
 ms.assetid: 44dc39cf-3222-41ed-b29c-df2d32615500
 title: ITConnection interface (Sdpblb.h)
 ms.topic: reference
@@ -20,7 +20,7 @@ The **ITConnection** interface is created by calling **QueryInterface** on [**IT
 
 ## Members
 
-The **ITConnection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ITConnection** also has these types of members:
+The **ITConnection** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **ITConnection** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -38,7 +38,7 @@ The **ITConnection** interface has these methods.
 | [**get\_NetworkType**](itconnection-get-networktype.md)             | Gets the network type.<br/>                                                                                                              |
 | [**get\_NumAddresses**](itconnection-get-numaddresses.md)           | Gets the number of addresses to be used for the session.<br/>                                                                            |
 | [**get\_StartAddress**](itconnection-get-startaddress.md)           | Gets the first address to be used for the session.<br/>                                                                                  |
-| [**get\_Ttl**](itconnection-get-ttl.md)                             | Gets the [*time to live*](../tapi2/t_tapgloss.md) (TTL) scope for transmissions on the addresses.<br/> |
+| [**get\_Ttl**](itconnection-get-ttl.md)                             | Gets the [*time to live*](t-tapgloss.md) (TTL) scope for transmissions on the addresses.<br/> |
 | [**GetEncryptionKey**](itconnection-getencryptionkey.md)            | Gets the encryption key.<br/>                                                                                                            |
 | [**put\_AddressType**](itconnection-put-addresstype.md)             | Sets the address type.<br/>                                                                                                              |
 | [**put\_NetworkType**](itconnection-put-networktype.md)             | Sets the network type.<br/>                                                                                                              |
@@ -54,7 +54,7 @@ The **ITConnection** interface has these methods.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |
@@ -64,9 +64,4 @@ The **ITConnection** interface has these methods.
 
 
  
-
- 
-
-
-
 

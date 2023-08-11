@@ -1,5 +1,5 @@
 ---
-Description: Changes the settings of a child pool that are not allocation related.
+description: Changes the settings of a child pool that are not allocation related.
 ms.assetid: f60068e0-f333-41e2-8f11-78aa48dfa260
 title: ModifyPoolSettings method of the Msvm_ResourcePoolConfigurationService class
 ms.topic: reference
@@ -53,7 +53,7 @@ An embedded instance of the [**Msvm\_ResourcePoolSettingData**](msvm-resourcepoo
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -127,7 +127,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -145,9 +145,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

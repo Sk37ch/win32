@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreateDecoderFromFilename method.
+description: Proxy function for the CreateDecoderFromFilename method.
 ms.assetid: 12c60899-0fe0-47d0-9026-48c74df328ef
 title: IWICImagingFactory_CreateDecoderFromFilename_Proxy function
 ms.topic: reference
@@ -72,7 +72,7 @@ Type: **DWORD**
 
 The access to the object, which can be read, write, or both.
 
-For more information, see [File Security and Access Rights \[Files\]](https://msdn.microsoft.com/library/Aa364399(VS.85).aspx).
+For more information, see [File Security and Access Rights \[Files\]](../fileio/file-security-and-access-rights.md).
 
 </dd> <dt>
 
@@ -106,7 +106,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
@@ -115,9 +115,4 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
  
-
- 
-
-
-
 

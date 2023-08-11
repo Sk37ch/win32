@@ -43,7 +43,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The number of work items queued in the thread pump.
 
@@ -51,7 +51,7 @@ The number of work items queued in the thread pump.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX11core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX11.lib</dt> </dl>   |
@@ -69,10 +69,4 @@ The number of work items queued in the thread pump.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

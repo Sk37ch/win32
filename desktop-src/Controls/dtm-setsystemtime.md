@@ -45,7 +45,7 @@ A value specifying the action that should be performed. This value must be set t
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure containing the system time used to set the DTP control.
+A pointer to a [**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure containing the system time used to set the DTP control.
 
 </dd> </dl>
 
@@ -57,7 +57,7 @@ Returns nonzero if successful, or zero otherwise.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -66,10 +66,4 @@ Returns nonzero if successful, or zero otherwise.
 
 
  
-
- 
-
-
-
-
 

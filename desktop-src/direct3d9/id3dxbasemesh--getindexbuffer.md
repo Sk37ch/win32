@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the data in an index buffer.
+description: ID3DXBaseMesh::GetIndexBuffer method - Retrieves the data in an index buffer.
 ms.assetid: 8e14a047-a8a6-4763-88c7-3b439044eeb4
 title: ID3DXBaseMesh::GetIndexBuffer method (D3DX9Mesh.h)
 ms.topic: reference
@@ -38,9 +38,9 @@ HRESULT GetIndexBuffer(
 *ppIB* \[out, retval\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DINDEXBUFFER9**](https://msdn.microsoft.com/library/Bb205865(v=VS.85).aspx)\***
+Type: **[**LPDIRECT3DINDEXBUFFER9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dindexbuffer9)\***
 
-Address of a pointer to an [**IDirect3DIndexBuffer9**](https://msdn.microsoft.com/library/Bb205865(v=VS.85).aspx) interface, representing the index buffer object associated with the mesh.
+Address of a pointer to an [**IDirect3DIndexBuffer9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dindexbuffer9) interface, representing the index buffer object associated with the mesh.
 
 </dd> </dl>
 
@@ -54,7 +54,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -71,7 +71,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

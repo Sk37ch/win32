@@ -1,5 +1,5 @@
 ---
-Description: The Windows Imaging Component (WIC) provides a Component Object Model (COM) based API for use in C and C++.
+description: The Windows Imaging Component (WIC) provides a Component Object Model (COM) based API for use in C and C++.
 ms.assetid: 74b14b5e-70e9-410f-a6e6-d8873a5f4fa4
 title: WIC API Overview
 ms.topic: article
@@ -76,7 +76,7 @@ The following table describes the two COM class factories the WIC APIs provide f
 
  
 
-To create either class factory, use the [CoCreateInstance](https://msdn.microsoft.com/library/ms686615(VS.85).aspx) COM function. The following example demonstrates the creation of the WIC imaging factory.
+To create either class factory, use the [CoCreateInstance](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) COM function. The following example demonstrates the creation of the WIC imaging factory.
 
 
 ```C++
@@ -128,6 +128,3 @@ The WIC APIs provide several types of imaging components. The following table de
  
 
  
-
-
-

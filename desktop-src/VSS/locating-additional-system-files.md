@@ -1,5 +1,5 @@
 ---
-Description: When performing a VSS backup or restore, the Windows system state is defined as being a collection of several key operating system elements and their files. These elements should always be treated as a unit by backup and restore operations.
+description: When performing a VSS backup or restore, the Windows system state is defined as being a collection of several key operating system elements and their files. These elements should always be treated as a unit by backup and restore operations.
 ms.assetid: 48721358-8450-462f-8f99-23e207311041
 title: Backing Up and Restoring System State
 ms.topic: article
@@ -31,7 +31,7 @@ In addition to the enumerated operating system and driver binary files that are 
 
 All the components reported by a VSS system state writer are part of system state except those for which the VSS\_CF\_NOT\_SYSTEM\_STATE flag is set.
 
-Backup programs should also set the **LastRestoreId** registry key. For more information, see [Registry Keys and Values for Backup and Restore](https://msdn.microsoft.com/library/Bb891959(v=VS.85).aspx).
+Backup programs should also set the **LastRestoreId** registry key. For more information, see [Registry Keys and Values for Backup and Restore](../backup/registry-keys-for-backup-and-restore.md).
 
 > [!Note]  
 > In Windows Vista, Windows Server 2008, and later, the names and locations of some system files have been changed as follows.
@@ -115,6 +115,3 @@ The task scheduler's task files must be backed up. The files are located in one 
  
 
  
-
-
-

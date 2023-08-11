@@ -1,5 +1,5 @@
 ---
-Description: Not used. Formerly a callback to return all pixel history results at once.
+description: Not used. Formerly a callback to return all pixel history results at once.
 MS-HAID: vspixengine.IPixelHistoryCallback
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -26,7 +26,7 @@ Not used. Formerly a callback to return all pixel history results at once.
 
 ## Members
 
-The **IPixelHistoryCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixelHistoryCallback** also has these types of members:
+The **IPixelHistoryCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixelHistoryCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,17 +34,14 @@ The **IPixelHistoryCallback** interface inherits from the [**IUnknown**](https:/
 
 The **IPixelHistoryCallback** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/ipixelhistorycallback-resultcallback-dword-pixelhistoryoperation-arr"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>A callback that notifies the host of pixel history request results.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Method</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/ipixelhistorycallback-resultcallback-dword-pixelhistoryoperation-arr"><strong>ResultCallback</strong></a></td><td ><p>A callback that notifies the host of pixel history request results.</p></td></tr></tbody></table>
 
  
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 
  
-
-
-

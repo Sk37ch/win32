@@ -1,5 +1,5 @@
 ---
-Description: Removes an existing snapshot, and all its children, of a virtual machine.
+description: Removes an existing snapshot, and all its children, of a virtual machine.
 ms.assetid: d7a6442a-41a5-4e82-8ec8-dbc8e14d9a89
 title: DestroySnapshotTree method of the Msvm_VirtualSystemSnapshotService class
 ms.topic: reference
@@ -38,14 +38,14 @@ uint32 DestroySnapshotTree(
 *SnapshotSettingData* \[in\]
 </dt> <dd>
 
-A [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)) reference that represents the virtual machine snapshot tree to destroy.
+A [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)) reference that represents the virtual machine snapshot tree to destroy.
 
 </dd> <dt>
 
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -98,7 +98,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -115,13 +115,8 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemSnapshotService**](msvm-virtualsystemsnapshotservice.md)
 </dt> <dt>
 
-[**RemoveVirtualSystemSnapshotTree (V1)**](https://docs.microsoft.com/previous-versions/windows/desktop/virtual/removevirtualsystemsnapshottree-msvm-virtualsystemmanagementservice)
+[**RemoveVirtualSystemSnapshotTree (V1)**](/previous-versions/windows/desktop/virtual/removevirtualsystemsnapshottree-msvm-virtualsystemmanagementservice)
 </dt> </dl>
 
  
-
- 
-
-
-
 

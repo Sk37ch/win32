@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IJET_LOGTIME.ToDateTime method"
 title: IJET_LOGTIME.ToDateTime method 
 TOCTitle: 'ToDateTime method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.IJET_LOGTIME.ToDateTime
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Generate a DateTime representation of this IJET_LOGTIME.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,16 +52,15 @@ Nullable<DateTime> ToDateTime()
 
 #### Return value
 
-Type: [System.Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1?redirectedfrom=MSDN)\<[DateTime](https://docs.microsoft.com/dotnet/api/system.datetime?redirectedfrom=MSDN)\>  
+Type: [System.Nullable](/dotnet/api/system.nullable-1)\<[DateTime](/dotnet/api/system.datetime)\>  
 A DateTime representing the IJET_LOGTIME. If the IJET_LOGTIME is null then null is returned.  
 
 ## See also
 
 #### Reference
 
-[IJET_LOGTIME interface](hh596687\(v=exchg.10\).md)
+[IJET_LOGTIME interface](./ijet-logtime-interface.md)
 
-[IJET_LOGTIME members](hh578100\(v=exchg.10\).md)
+[IJET_LOGTIME members](./ijet-logtime-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

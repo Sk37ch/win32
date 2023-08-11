@@ -1,5 +1,5 @@
 ---
-Description: Represents the configured state of a PCI Express port.
+description: Represents the configured state of a PCI Express port.
 ms.assetid: adb03dd7-5a47-47e6-a4e4-28224164150c
 title: Msvm_PciExpressSettingData class
 ms.topic: reference
@@ -68,12 +68,12 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed")
+Qualifiers: [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed")
 </dt> </dl>
 
 A free-form string array of identifiers of this resource presented to the virtual computer system's operating system. The indexes and values per index are defined on a per resource basis (that is, for each enumerated **ResourceType** value). This property is set to "GUID".
 
-This is a read-only property, but it can be changed using the [**ModifyVirtualSystemResources**](https://docs.microsoft.com/previous-versions/windows/desktop/virtual/modifyvirtualsystemresources-msvm-virtualsystemmanagementservice) method of the sd class.
+This is a read-only property, but it can be changed using the [**ModifyVirtualSystemResources**](/previous-versions/windows/desktop/virtual/modifyvirtualsystemresources-msvm-virtualsystemmanagementservice) method of the sd class.
 
 </dd> </dl>
 
@@ -81,7 +81,7 @@ This is a read-only property, but it can be changed using the [**ModifyVirtualSy
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -99,9 +99,4 @@ This is a read-only property, but it can be changed using the [**ModifyVirtualSy
 </dt> </dl>
 
  
-
- 
-
-
-
 

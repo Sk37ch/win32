@@ -1,5 +1,5 @@
 ---
-Description: To save an image to a disk file, call the Save method of the Image class.
+description: To save an image to a disk file, call the Save method of the Image class.
 ms.assetid: a95fa3ea-2013-45d5-bdec-61eddcefc2fa
 title: Converting a BMP Image to a PNG Image
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Converting a BMP Image to a PNG Image
 
-To save an image to a disk file, call the [Save](https://msdn.microsoft.com/library/ms535399(v=VS.85).aspx) method of the [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) class. The following console application loads a BMP image from a disk file, converts the image to the PNG format, and saves the converted image to a new disk file. The main function relies on the helper function GetEncoderClsid, which is shown in [Retrieving the Class Identifier for an Encoder](-gdiplus-retrieving-the-class-identifier-for-an-encoder-use.md).
+To save an image to a disk file, call the [Save](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-save(inistream_inconstclsid_inconstencoderparameters)) method of the [**Image**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-image) class. The following console application loads a BMP image from a disk file, converts the image to the PNG format, and saves the converted image to a new disk file. The main function relies on the helper function GetEncoderClsid, which is shown in [Retrieving the Class Identifier for an Encoder](-gdiplus-retrieving-the-class-identifier-for-an-encoder-use.md).
 
 
 ```

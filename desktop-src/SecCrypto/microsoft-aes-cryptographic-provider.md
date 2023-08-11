@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft Enhanced RSA and AES Cryptographic Provider supports the same capabilities as the Microsoft Base Cryptographic Provider, called the Base Provider.
+description: The Microsoft Enhanced RSA and AES Cryptographic Provider supports the same capabilities as the Microsoft Base Cryptographic Provider, called the Base Provider.
 ms.assetid: a01bc5db-17b9-44fe-adf8-0c2954fcd369
 title: Microsoft AES Cryptographic Provider
 ms.topic: article
@@ -14,16 +14,16 @@ The Microsoft Enhanced RSA and AES Cryptographic Provider supports the same capa
 
 To maintain backward compatibility with earlier provider versions, the provider name, as defined in the Wincrypt.h header file, retains the version 1.0 designation even though newer versions of this provider have been shipped. To determine the version of the provider in use, call [**CryptGetProvParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetprovparam) with the *dwParam* parameter set to PP\_VERSION. Version 2.0 is in use if 0x0200 is returned.
 
-|                |                             |
-|----------------|-----------------------------|
-| Provider type: | **PROV\_RSA\_AES**          |
-| Provider name: | **MS\_ENH\_RSA\_AES\_PROV** |
+|                   | Value                    |
+|-------------------|--------------------------|
+| **Provider type** | PROV\_RSA\_AES           |
+| **Provider name** | MS\_ENH\_RSA\_AES\_PROV  |
 
 
 
  
 
-The following table highlights differences between the Base Provider, Strong Provider, and AES Provider. The [*key lengths*](https://msdn.microsoft.com/library/ms721590(v=VS.85).aspx) shown are the default key lengths.
+The following table highlights differences between the Base Provider, Strong Provider, and AES Provider. The [*key lengths*](../secgloss/k-gly.md) shown are the default key lengths.
 
 
 
@@ -34,7 +34,7 @@ The following table highlights differences between the Base Provider, Strong Pro
 | RC2 block encryption algorithm                                                           | 40 bits                  | 128 bits                   | 128 bits Salt length can be set.<br/> |
 | RC4 stream encryption algorithm                                                          | 40 bits                  | 128 bits                   | 128 bits Salt length can be set.<br/> |
 | DES                                                                                      | 56 bits                  | 56 bits                    | 56 bits                                     |
-| [*Triple DES*](https://msdn.microsoft.com/library/ms721627(v=VS.85).aspx) (2 key) | Not supported            | 112 bits                   | 112 bits                                    |
+| [*Triple DES*](../secgloss/t-gly.md) (2 key) | Not supported            | 112 bits                   | 112 bits                                    |
 | Triple DES (3 key)                                                                       | Not supported            | 168 bits                   | 168 bits                                    |
 
 
@@ -48,7 +48,3 @@ The Strong Provider, Enhanced Provider, and AES Provider are backward-compatible
  
 
  
-
-
-
-

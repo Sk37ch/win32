@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the data object that has the specified GUID.
+description: Retrieves the data object that has the specified GUID.
 ms.assetid: c3d598bd-0646-4f99-8517-4475ef7cd8c9
 title: ID3DXFileEnumObject::GetDataObjectById method (D3DX9Xof.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT GetDataObjectById(
 *rguid* \[in\]
 </dt> <dd>
 
-Type: **[REFGUID](https://msdn.microsoft.com/library/cc237815(PROT.13).aspx)**
+Type: **[REFGUID](/openspecs/windows_protocols/ms-oaut/6e7d7108-c213-40bc-8294-ac13fe68fd50)**
 
 Reference to the requested GUID.
 
@@ -68,7 +68,7 @@ Obtain the GUID rguid of the current file data object with the [**ID3DXFileData:
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |
@@ -85,7 +85,3 @@ Obtain the GUID rguid of the current file data object with the [**ID3DXFileData:
  
 
  
-
-
-
-

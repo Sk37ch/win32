@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_JobDestinationJobs association describes where a job is submitted for processing (that is, to which job destination).
+description: The CIM\_JobDestinationJobs association describes where a job is submitted for processing (that is, to which job destination).
 ms.assetid: 6f732d34-2284-4909-a966-6b4066780cb0
 ms.tgt_platform: multiple
 title: CIM_JobDestinationJobs class
@@ -61,7 +61,7 @@ Data type: **CIM\_JobDestination**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_JobDestination**](cim-jobdestination.md) describing the job destination, possibly a queue.
@@ -77,7 +77,7 @@ Data type: **CIM\_Job**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_Job**](cim-job.md) describing the job that is in the job queue/Destination.
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -114,9 +114,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

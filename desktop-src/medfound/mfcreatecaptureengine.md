@@ -1,5 +1,5 @@
 ---
-Description: Creates an instance of the capture engine.
+description: Creates an instance of the capture engine.
 ms.assetid: 4B0C9DD6-135D-4412-A585-7E98A84101B5
 title: MFCreateCaptureEngine function
 ms.topic: reference
@@ -49,13 +49,13 @@ If the function succeeds, it returns S\_OK. Otherwise, it returns an **HRESULT**
 
 ## Remarks
 
-This function has no associated import library and is not declared in a public header file. You must use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to MFCaptureEngine.dll.
+This function has no associated import library and is not declared in a public header file. You must use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to MFCaptureEngine.dll.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                     |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                        |
@@ -73,7 +73,3 @@ This function has no associated import library and is not declared in a public h
  
 
  
-
-
-
-

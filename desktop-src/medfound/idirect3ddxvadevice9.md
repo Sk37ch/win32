@@ -1,5 +1,5 @@
 ---
-Description: Represents a hardware accelerator for DirectX Video Acceleration (DXVA) 1.0.
+description: Represents a hardware accelerator for DirectX Video Acceleration (DXVA) 1.0.
 ms.assetid: 63f77cf9-4c04-4ddb-9582-cfcf86f66a2a
 title: IDirect3DDXVADevice9 interface (Dxva.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ Represents a hardware accelerator for DirectX Video Acceleration (DXVA) 1.0.
 
 ## Members
 
-The **IDirect3DDXVADevice9** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IDirect3DDXVADevice9** also has these types of members:
+The **IDirect3DDXVADevice9** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IDirect3DDXVADevice9** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -50,7 +50,7 @@ To get a pointer to this interface, call [**IDirect3DVideoDevice9::CreateDXVADev
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                              |
@@ -68,7 +68,3 @@ To get a pointer to this interface, call [**IDirect3DVideoDevice9::CreateDXVADev
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: ModuleFiles property of the GetFiles object returns all the primary keys of the File table for the currently open module.
+description: ModuleFiles property of the GetFiles object returns all the primary keys of the File table for the currently open module.
 ms.assetid: e1c8049c-b271-4def-abde-89ea99393574
 title: GetFiles.ModuleFiles property (Mergemod.h)
 ms.topic: reference
@@ -41,13 +41,13 @@ If the module has no File table, or contains no files in the particular language
 
 ### C++
 
-See [**get\_ModuleFiles**](https://msdn.microsoft.com/library/Aa369258(v=VS.85).aspx) function.
+See [**get\_ModuleFiles**](/windows/win32/api/mergemod/nf-mergemod-imsmgetfiles-get_modulefiles) function.
 
 ## Requirements
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 1.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |
@@ -58,7 +58,3 @@ See [**get\_ModuleFiles**](https://msdn.microsoft.com/library/Aa369258(v=VS.85).
  
 
  
-
-
-
-

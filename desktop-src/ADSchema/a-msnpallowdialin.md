@@ -17,11 +17,11 @@ ms.date: 05/31/2018
 
 # msNPAllowDialin attribute
 
-Indicates whether the account has permission to dial in to the RAS server. Do not modify this value directly. Use the appropriate [RAS administration function](https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-functions) to modify this value.
+Indicates whether the account has permission to dial in to the RAS server. Do not modify this value directly. Use the appropriate [RAS administration function](/windows/desktop/RRAS/ras-administration-functions) to modify this value.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | msNPAllowDialin                      |
 | Ldap-Display-Name | msNPAllowDialin                      |
@@ -47,7 +47,7 @@ Indicates whether the account has permission to dial in to the RAS server. Do no
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -68,7 +68,7 @@ Indicates whether the account has permission to dial in to the RAS server. Do no
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -89,7 +89,7 @@ Indicates whether the account has permission to dial in to the RAS server. Do no
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -110,7 +110,7 @@ Indicates whether the account has permission to dial in to the RAS server. Do no
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -131,7 +131,7 @@ Indicates whether the account has permission to dial in to the RAS server. Do no
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -152,7 +152,7 @@ Indicates whether the account has permission to dial in to the RAS server. Do no
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -173,14 +173,8 @@ Indicates whether the account has permission to dial in to the RAS server. Do no
 
 <dl> <dt>
 
-[RAS Administration Functions](https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-functions)
+[RAS Administration Functions](/windows/desktop/RRAS/ras-administration-functions)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

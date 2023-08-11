@@ -12,11 +12,14 @@ api_name:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 api_location: 
+ms.custom: UpdateFrequency5
 ---
 
 # IWMDRMLicenseQuery interface
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The **IWMDRMLicenseQuery** interface enables applications to query the rights and license state for a protected file. This interface uses the Key ID to perform queries on the local license store.
 
@@ -24,7 +27,7 @@ To obtain an instance of this interface, call [**IWMDRMProvider::CreateObject**]
 
 ## Members
 
-The **IWMDRMLicenseQuery** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMDRMLicenseQuery** also has these types of members:
+The **IWMDRMLicenseQuery** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMDRMLicenseQuery** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -56,10 +59,4 @@ The methods of **IWMDRMLicenseQuery** do not provide information about individua
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

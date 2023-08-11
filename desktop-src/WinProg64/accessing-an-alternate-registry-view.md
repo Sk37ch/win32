@@ -18,7 +18,7 @@ By default, a 32-bit application running on WOW64 accesses the 32-bit registry v
 | Flag name         | Value  | Description                                                                                                                                                                                                                                       |
 |-------------------|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | KEY\_WOW64\_64KEY | 0x0100 | Access a 64-bit key from either a 32-bit or 64-bit application.                                                                                                                                                                                   |
-| KEY\_WOW64\_32KEY | 0x0200 | Access a 32-bit key from either a 32-bit or 64-bit application.**Windows 10 on ARM:** This refers to the 32-bit ARM registry view for 32-bit ARM processes and the 32-bit x86 registry view for 32-bit x86 and 64-bit ARM64 processes.<br/> |
+| KEY\_WOW64\_32KEY | 0x0200 | Access a 32-bit key from either a 32-bit or 64-bit application.<br/>**Windows 10 on ARM:** This refers to the 32-bit ARM registry view for 32-bit ARM processes and the 32-bit x86 registry view for 32-bit x86 and 64-bit ARM64 processes. |
 
 
 
@@ -26,15 +26,15 @@ By default, a 32-bit application running on WOW64 accesses the 32-bit registry v
 
 These flags can be specified in the *samDesired* parameter of the following registry functions:
 
--   [**RegCreateKeyEx**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa)
--   [**RegDeleteKeyEx**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regdeletekeyexa)
--   [**RegOpenKeyEx**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa)
+-   [**RegCreateKeyEx**](/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa)
+-   [**RegDeleteKeyEx**](/windows/desktop/api/winreg/nf-winreg-regdeletekeyexa)
+-   [**RegOpenKeyEx**](/windows/desktop/api/winreg/nf-winreg-regopenkeyexa)
 
 Either KEY\_WOW64\_32KEY or KEY\_WOW64\_64KEY can be specified. If both flags are specified, the function fails with ERROR\_INVALID\_PARAMETER.
 
 **Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** If both flags are specified, the function s behavior is undefined.
 
-The [**RegDeleteKey**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regdeletekeya) function cannot be used to access an alternate registry view.
+The [**RegDeleteKey**](/windows/desktop/api/winreg/nf-winreg-regdeletekeya) function cannot be used to access an alternate registry view.
 
 The following are best practices when accessing the registry from an application:
 
@@ -46,7 +46,7 @@ The following are best practices when accessing the registry from an application
 
  
 
-For information about accessing the alternate registry view through WMI, see [Requesting WMI Data on a 64-bit Platform](https://docs.microsoft.com/windows/desktop/WmiSdk/requesting-wmi-data-on-a-64-bit-platform).
+For information about accessing the alternate registry view through WMI, see [Requesting WMI Data on a 64-bit Platform](/windows/desktop/WmiSdk/requesting-wmi-data-on-a-64-bit-platform).
 
 ## Related topics
 
@@ -59,10 +59,4 @@ For information about accessing the alternate registry view through WMI, see [Re
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

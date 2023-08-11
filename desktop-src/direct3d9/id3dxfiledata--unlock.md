@@ -1,5 +1,5 @@
 ---
-Description: Ends the lifespan of the ppData pointer returned by ID3DXFileData::Lock.
+description: Ends the lifespan of the ppData pointer returned by ID3DXFileData::Lock.
 ms.assetid: 6032ea1f-3c73-4157-ba3f-41ce9e73d64c
 title: ID3DXFileData::Unlock method (D3DX9Xof.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 The return value is S\_OK.
 
@@ -47,7 +47,7 @@ You must ensure that the number of [**ID3DXFileData::Lock**](id3dxfiledata--lock
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |
@@ -64,7 +64,3 @@ You must ensure that the number of [**ID3DXFileData::Lock**](id3dxfiledata--lock
  
 
  
-
-
-
-

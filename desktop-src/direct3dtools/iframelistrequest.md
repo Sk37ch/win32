@@ -1,5 +1,5 @@
 ---
-Description: Request for the list of frames with their event id and frame number.
+description: Request for the list of frames with their event id and frame number.
 MS-HAID: vspixengine.IFrameListRequest
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -26,7 +26,7 @@ Request for the list of frames with their event id and frame number.
 
 ## Members
 
-The **IFrameListRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IFrameListRequest** also has these types of members:
+The **IFrameListRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IFrameListRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,17 +34,14 @@ The **IFrameListRequest** interface inherits from the [**IUnknown**](https://doc
 
 The **IFrameListRequest** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/iframelistrequest-requestasync-iframelistcallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>An asynchronous request to get the list frames captured in the graphics log.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Method</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/iframelistrequest-requestasync-iframelistcallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td ><p>An asynchronous request to get the list frames captured in the graphics log.</p></td></tr></tbody></table>
 
  
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: An asynchronous request to get information about what columns (fields) this frame events request type supports.
+description: An asynchronous request to get information about what columns (fields) this frame events request type supports.
 MS-HAID: vspixengine.IFrameEventsRequest\_RequestSupportedColumnsAsync\_IFrameEventsCallback\_ptr\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -48,15 +48,12 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
 ## <span id="see_also"></span>See also
 
-[**IFrameEventsRequest**](https://docs.microsoft.com/windows/desktop/direct3dtools/iframeeventsrequest)
+[**IFrameEventsRequest**](/windows/desktop/direct3dtools/iframeeventsrequest)
 
  
 
  
-
-
-

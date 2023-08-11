@@ -1,5 +1,5 @@
 ---
-Description: SafeRelease
+description: SafeRelease
 ms.assetid: 2e9af7bc-f478-4a9c-b28f-b0a72fa9ec75
 title: SafeRelease
 ms.topic: article
@@ -8,7 +8,6 @@ ms.date: 05/31/2018
 
 # SafeRelease
 
-## 
 
 Many of the code examples in this documentation use the following function to release COM interface pointers.
 
@@ -42,12 +41,9 @@ Another option is to use a smart pointer class, such as **CComPtr**, which is de
 [About Media Foundation](about-the-media-foundation-sdk.md)
 </dt> <dt>
 
-[**IUnknown::Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx)
+[**IUnknown::Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release)
 </dt> </dl>
 
  
 
  
-
-
-

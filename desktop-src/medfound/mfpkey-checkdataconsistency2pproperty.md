@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether whether the encoder should check for data consistency across passes when performing two-pass VBR encoding. Read-write.
+description: Specifies whether whether the encoder should check for data consistency across passes when performing two-pass VBR encoding. Read-write.
 ms.assetid: 68750820-e931-41c2-9d12-89ab83b4b97e
 title: MFPKEY_CHECKDATACONSISTENCY2P Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Specifies whether whether the encoder should check for data consistency across p
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -30,7 +30,7 @@ If you leave this property at its default value of **VARIANT\_TRUE**, the encode
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows Vista or Windows 7<br/>                                                   |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |
@@ -47,7 +47,3 @@ If you leave this property at its default value of **VARIANT\_TRUE**, the encode
  
 
  
-
-
-
-

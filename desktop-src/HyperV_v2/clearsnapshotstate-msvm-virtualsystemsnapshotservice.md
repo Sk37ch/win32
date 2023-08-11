@@ -1,5 +1,5 @@
 ---
-Description: Clears save state from an existing snapshot.
+description: Clears save state from an existing snapshot.
 ms.assetid: abb0ed4a-7f89-4d32-93d2-7491d2f2aa83
 title: ClearSnapshotState method of the Msvm_VirtualSystemSnapshotService class
 ms.topic: reference
@@ -38,14 +38,14 @@ uint32 ClearSnapshotState(
 *SnapshotSettingData* \[in\]
 </dt> <dd>
 
-A reference to the [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)) instance that represents the snapshot whose state is to be cleared.
+A reference to the [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)) instance that represents the snapshot whose state is to be cleared.
 
 </dd> <dt>
 
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -98,7 +98,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -116,9 +116,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

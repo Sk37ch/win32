@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Rating property.
+description: The photo metadata policy for the System.Rating property.
 ms.assetid: e4d2c12e-617a-431e-9062-62acf6ef21c8
 title: System.Rating Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Rating Photo Metadata Policy
 
-The photo metadata policy for the [System.Rating](https://msdn.microsoft.com/library/bb787554(VS.85).aspx) property.
+The photo metadata policy for the [System.Rating](../properties/props-system-rating.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Rating](https://msdn.microsoft.com/library/bb787554(VS.85).aspx)
+[System.Rating](../properties/props-system-rating.md)
 </dt> </dl>
 
  
 
  
-
-
-

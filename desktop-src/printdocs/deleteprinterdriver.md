@@ -1,5 +1,5 @@
 ---
-Description: The DeletePrinterDriver function removes the specified printer-driver name from the list of names of supported drivers on a server.
+description: The DeletePrinterDriver function removes the specified printer-driver name from the list of names of supported drivers on a server.
 ms.assetid: b159bd8b-3416-44a5-91bf-c0447ed6b465
 title: DeletePrinterDriver function (Winspool.h)
 ms.topic: reference
@@ -76,7 +76,7 @@ If the function fails, the return value is zero.
 
  
 
-The caller must have the [SeLoadDriverPrivilege](https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants).
+The caller must have the [SeLoadDriverPrivilege](/windows/desktop/SecAuthZ/authorization-constants).
 
 The **DeletePrinterDriver** function does not delete the associated files, it merely removes the driver name from the list returned by the [**EnumPrinterDrivers**](enumprinterdrivers.md) function.
 
@@ -86,7 +86,7 @@ Before calling **DeletePrinterDriver**, you must delete all printer objects that
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -114,9 +114,4 @@ Before calling **DeletePrinterDriver**, you must delete all printer objects that
 </dt> </dl>
 
  
-
- 
-
-
-
 

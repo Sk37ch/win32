@@ -1,5 +1,5 @@
 ---
-Description: Gets the mesh index buffer.
+description: Gets the mesh index buffer.
 ms.assetid: d9152f3b-c8e6-4def-8cf1-a517ca4d34e7
 title: ID3DXPatchMesh::GetIndexBuffer method (D3DX9Mesh.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT GetIndexBuffer(
 *ppIB* \[out, retval\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DINDEXBUFFER9**](https://msdn.microsoft.com/library/Bb205865(v=VS.85).aspx)\***
+Type: **[**LPDIRECT3DINDEXBUFFER9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dindexbuffer9)\***
 
 Pointer to the index buffer.
 
@@ -58,7 +58,7 @@ The index buffer contains the vertex ordering in the vertex buffer. The index bu
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -75,7 +75,3 @@ The index buffer contains the vertex ordering in the vertex buffer. The index bu
  
 
  
-
-
-
-

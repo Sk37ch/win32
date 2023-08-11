@@ -1,5 +1,5 @@
 ---
-Description: Determines whether a virtual hard disk file is valid.
+description: Determines whether a virtual hard disk file is valid.
 ms.assetid: 5F7C99DB-0C81-46D5-A965-B6D87647ABF6
 title: ValidateVirtualHardDisk method of the Msvm_ImageManagementService class
 ms.topic: reference
@@ -47,9 +47,9 @@ A fully qualified path that specifies the location of the virtual hard disk file
 *Job* \[out\]
 </dt> <dd>
 
-Type: **[**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85))**
+Type: **[**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85))**
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -110,7 +110,7 @@ This method can return one of the following values.
 
 If the virtual hard disk is a differencing disk, the entire virtual disk chain is opened. If the link is broken in the disk chain, a job object is returned with the appropriate error initialized and the child and parent properties are initialized to the location where the link is broken.
 
-Access to the [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Examples
 
@@ -150,7 +150,7 @@ public static void ValidateVirtualHardDisk(string vhdPath)
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -164,19 +164,14 @@ public static void ValidateVirtualHardDisk(string vhdPath)
 
 <dl> <dt>
 
-[**ValidateVirtualHardDisk (V1)**](https://docs.microsoft.com/previous-versions/windows/desktop/virtual/validatevirtualharddisk-msvm-imagemanagementservice)
+[**ValidateVirtualHardDisk (V1)**](/previous-versions/windows/desktop/virtual/validatevirtualharddisk-msvm-imagemanagementservice)
 </dt> <dt>
 
-[**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85))
+[**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85))
 </dt> <dt>
 
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

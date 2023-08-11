@@ -1,5 +1,5 @@
 ---
-Description: Creates a new Win32\_ClusterShare instance.
+description: Creates a new Win32\_ClusterShare instance.
 ms.assetid: a6fde28d-f19e-4a31-8f0d-35927c75a030
 ms.tgt_platform: multiple
 title: Create method of the Win32_ClusterShare class
@@ -142,7 +142,7 @@ TBD
 *Access* \[in, optional\]
 </dt> <dd>
 
-Optional embedded instance of a [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) class that contains the security descriptor for the new share.
+Optional embedded instance of a [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) class that contains the security descriptor for the new share.
 
 </dd> </dl>
 
@@ -150,7 +150,7 @@ Optional embedded instance of a [**Win32\_SecurityDescriptor**](https://docs.mic
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
@@ -168,9 +168,4 @@ Optional embedded instance of a [**Win32\_SecurityDescriptor**](https://docs.mic
 </dt> </dl>
 
  
-
- 
-
-
-
 

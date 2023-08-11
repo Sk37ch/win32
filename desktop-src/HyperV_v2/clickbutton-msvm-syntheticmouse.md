@@ -1,5 +1,5 @@
 ---
-Description: Simulates a button click of the specified device button.
+description: Simulates a button click of the specified device button.
 ms.assetid: 1153BF91-F1F6-4E0A-8100-7625A3C73BB3
 title: ClickButton method of the Msvm_SyntheticMouse class
 ms.topic: reference
@@ -92,7 +92,7 @@ A return value of zero indicates success. A nonzero value indicates a failure to
 
 ## Remarks
 
-Access to the [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Examples
 
@@ -441,7 +441,7 @@ End Function
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -459,9 +459,4 @@ End Function
 </dt> </dl>
 
  
-
- 
-
-
-
 

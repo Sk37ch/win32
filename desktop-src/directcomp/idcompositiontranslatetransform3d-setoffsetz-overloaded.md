@@ -24,8 +24,8 @@ Changes or animates the value of the OffsetZ property of a 3D translation transf
 
 | Method                                                                                                              | Description                                            |
 |:--------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|
-| [**SetOffsetZ(float)**](https://msdn.microsoft.com/library/Hh449121(v=VS.85).aspx)                                     | Changes the value of the OffsetZ property.<br/>  |
-| [**SetOffsetZ(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh449122(v=VS.85).aspx) | Animates the value of the OffsetZ property.<br/> |
+| [**SetOffsetZ(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositiontranslatetransform3d-setoffsetz(float))                                     | Changes the value of the OffsetZ property.<br/>  |
+| [**SetOffsetZ(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositiontranslatetransform3d-setoffsetz(idcompositionanimation)) | Animates the value of the OffsetZ property.<br/> |
 
 
 
@@ -33,7 +33,7 @@ Changes or animates the value of the OffsetZ property of a 3D translation transf
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows�8 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server�2012 \[desktop apps only\]<br/>                                 |
@@ -47,14 +47,9 @@ Changes or animates the value of the OffsetZ property of a 3D translation transf
 
 <dl> <dt>
 
-[**IDCompositionTranslateTransform3D**](https://msdn.microsoft.com/library/Hh449114(v=VS.85).aspx)
+[**IDCompositionTranslateTransform3D**](/windows/win32/api/dcomp/nn-dcomp-idcompositiontranslatetransform3d)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

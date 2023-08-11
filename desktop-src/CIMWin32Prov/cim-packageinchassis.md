@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PackageInChassis association represents the relationship in which a chassis can contain other packages, such as other chassis and cards.
+description: The CIM\_PackageInChassis association represents the relationship in which a chassis can contain other packages, such as other chassis and cards.
 ms.assetid: 3243bc0f-ce20-4108-b6e3-838bcb8f2fec
 ms.tgt_platform: multiple
 title: CIM_PackageInChassis class
@@ -63,7 +63,7 @@ Data type: **CIM\_Chassis**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 A [**CIM\_Chassis**](cim-chassis.md) describing the chassis that contains other physical packages.
@@ -94,7 +94,7 @@ Data type: **CIM\_PhysicalPackage**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
 </dt> </dl>
 
 A [**CIM\_PhysicalPackage**](cim-physicalpackage.md) describing the physical package which is contained in the chassis.
@@ -113,7 +113,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -131,9 +131,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -6,17 +6,18 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Notifying the Index of Changes
+# Notifying the Index of Changes (Legacy Windows Environment Features)
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://msdn.microsoft.com/library/aa965362(VS.85).aspx).\]
+> [!NOTE]
+> Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003. On later releases, use [Windows Search](../search/-search-3x-wds-overview.md) instead.
 
 With Microsoft Windows Desktop Search (WDS) 2.6, protocol handlers for a given data store can tell the WDS Indexer when data in their store has changed. This improves performance by ensuring the Indexer doesn't crawl the entire store on incremental indexes. Using notification APIs, protocol handlers can notify the Indexer that an item has been moved or deleted, and they can add scopes to the WDS Indexer's crawl queue of URLs requiring indexing. Notification is helpful for applications such as email, where the protocol handler monitors the store and notifies the Indexer that items have changed and require indexing.
 
 ## ISearchItemsChangedSink
 
-Protocol handlers notify the Indexer of changes through the [**ISearchItemsChangedSink**](https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchitemschangedsink) interface. Information about data changes should be collected in SEARCH\_ITEM\_CHANGE structs and SEARCH\_KIND\_OF\_CHANGE enumeration types and then communicated to the Indexer through the **OnItemsChanged** method of the **ISearchItemsChangedSink** interface.
+Protocol handlers notify the Indexer of changes through the [**ISearchItemsChangedSink**](/windows/desktop/api/searchapi/nn-searchapi-isearchitemschangedsink) interface. Information about data changes should be collected in SEARCH\_ITEM\_CHANGE structs and SEARCH\_KIND\_OF\_CHANGE enumeration types and then communicated to the Indexer through the **OnItemsChanged** method of the **ISearchItemsChangedSink** interface.
 
-To access this interface, a custom protocol handlers must first instantiate an [**ISearchManager**](https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchmanager) object to gain access to the [**ISearchCatalogManager**](https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchcatalogmanager) object. From there, one can instantiate an [**ISearchItemsChangedSink**](https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchitemschangedsink) object and notify the Indexer of the data changes.
+To access this interface, a custom protocol handlers must first instantiate an [**ISearchManager**](/windows/desktop/api/searchapi/nn-searchapi-isearchmanager) object to gain access to the [**ISearchCatalogManager**](/windows/desktop/api/searchapi/nn-searchapi-isearchcatalogmanager) object. From there, one can instantiate an [**ISearchItemsChangedSink**](/windows/desktop/api/searchapi/nn-searchapi-isearchitemschangedsink) object and notify the Indexer of the data changes.
 
 The OnItemsChanged method lets you collect and communicate data changes to your customer data store to initiate indexing.
 
@@ -81,7 +82,3 @@ The SEARCH\_NOTIFICATION\_PRIORITY enumeration is defined as follows:
  
 
  
-
-
-
-

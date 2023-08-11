@@ -13,13 +13,16 @@ api_name:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 api_location: 
+ms.custom: UpdateFrequency5
 ---
 
 # IMediaRendererActionInformation::IsSetNextSourceAvailable method
 
-Retrieves a value that indicates whether the DMR is currently accepting the [**SetNextSourceFromUriAsync**](https://msdn.microsoft.com/library/Hh828946(v=VS.85).aspx) method, the [**SetNextSourceFromStreamAsync**](https://msdn.microsoft.com/library/Hh828945(v=VS.85).aspx) method or the [**SetNextSourceFromMediaSourceAsync**](https://msdn.microsoft.com/library/Hh828944(v=VS.85).aspx) method.
+\[The feature associated with this page, [Windows Media Streaming API](/windows/win32/mediastreaming/media-streaming-api-portal), is a legacy feature. It has been superseded by [Media Casting](/windows/uwp/audio-video-camera/media-casting). **Media Casting** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Media Casting** instead of **Windows Media Streaming API**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
+Retrieves a value that indicates whether the DMR is currently accepting the [**SetNextSourceFromUriAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-setnextsourcefromuriasync) method, the [**SetNextSourceFromStreamAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-setnextsourcefromstreamasync) method or the [**SetNextSourceFromMediaSourceAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-setnextsourcefrommediasourceasync) method.
 
 ## Syntax
 
@@ -39,7 +42,7 @@ HRESULT IsSetNextSourceAvailable(
 *value* \[out\]
 </dt> <dd>
 
-A boolean value that is **True** if the DMR is currently accepting the [**SetNextSourceFromUriAsync**](https://msdn.microsoft.com/library/Hh828946(v=VS.85).aspx) method, the [**SetNextSourceFromStreamAsync**](https://msdn.microsoft.com/library/Hh828945(v=VS.85).aspx) method or the [**SetNextSourceFromMediaSourceAsync**](https://msdn.microsoft.com/library/Hh828944(v=VS.85).aspx) method and **False** if it is not.
+A boolean value that is **True** if the DMR is currently accepting the [**SetNextSourceFromUriAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-setnextsourcefromuriasync) method, the [**SetNextSourceFromStreamAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-setnextsourcefromstreamasync) method or the [**SetNextSourceFromMediaSourceAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-setnextsourcefrommediasourceasync) method and **False** if it is not.
 
 </dd> </dl>
 
@@ -61,14 +64,8 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 <dl> <dt>
 
-[**IMediaRendererActionInformation**](https://msdn.microsoft.com/library/Hh828915(v=VS.85).aspx)
+[**IMediaRendererActionInformation**](/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-imediarendereractioninformation)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

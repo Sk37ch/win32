@@ -1,6 +1,6 @@
 ---
 title: Texture2DArray::Sample(S,float,int,float) function
-description: Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to.
+description: Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to. | Texture2DArray::Sample(S,float,int,float) function
 ms.assetid: F6638224-0993-4F55-A8C0-7EC4140204D5
 keywords:
 - Sample function HLSL
@@ -15,19 +15,19 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Sample(S,float,int,float) function
+# Texture2DArray::Sample(S,float,int,float) function
 
 Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to.
 
 ## Syntax
 
 
-```C++
+``` syntax
 DXGI_FORMAT Sample(
-  _In_ SamplerState S,
-  _In_ float        Location,
-  _In_ int          Offset,
-  _In_ float        Clamp
+  in SamplerState S,
+  in float        Location,
+  in int          Offset,
+  in float        Clamp
 );
 ```
 
@@ -93,7 +93,7 @@ An optional value to clamp sample LOD values to. For example, if you pass 2.0f f
 
 ## Return value
 
-The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
+The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
 ## See also
 
@@ -105,7 +105,3 @@ The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**
  
 
  
-
-
-
-

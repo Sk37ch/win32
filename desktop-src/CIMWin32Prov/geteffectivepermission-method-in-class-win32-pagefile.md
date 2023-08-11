@@ -1,5 +1,5 @@
 ---
-Description: Determines whether the user has all of the required permissions specified in the Permissions parameter identified for the Win32\_PageFile object, directory, and share where the paging file is located, if the file or directory are on a share.
+description: Determines whether the user has all of the required permissions specified in the Permissions parameter identified for the Win32\_PageFile object, directory, and share where the paging file is located, if the file or directory are on a share.
 ms.assetid: 1c417ac2-6968-4faf-b596-8df9308f8647
 ms.tgt_platform: multiple
 title: GetEffectivePermission method of the Win32_PageFile class (Aclui.h)
@@ -18,9 +18,9 @@ api_location:
 
 # GetEffectivePermission method of the Win32\_PageFile class
 
-The [**GetEffectivePermission**](geteffectivepermission-method-in-class-win32-shortcutfile.md) [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method determines whether the user has all of the required permissions specified in the *Permissions* parameter identified for the [**Win32\_PageFile**](win32-pagefile.md) object, directory, and share where the paging file is located, if the file or directory are on a share.
+The [**GetEffectivePermission**](geteffectivepermission-method-in-class-win32-shortcutfile.md) [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method determines whether the user has all of the required permissions specified in the *Permissions* parameter identified for the [**Win32\_PageFile**](win32-pagefile.md) object, directory, and share where the paging file is located, if the file or directory are on a share.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -206,7 +206,7 @@ Returns **True** if the caller has the specified permissions, and **false** if t
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -221,16 +221,11 @@ Returns **True** if the caller has the specified permissions, and **false** if t
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_PageFile**](win32-pagefile.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Dropping or disconnecting a session terminates communication. The application has the option of sending user-user information at the time of the disconnect, if the service provider supports it.
+description: Dropping or disconnecting a session terminates communication. The application has the option of sending user-user information at the time of the disconnect, if the service provider supports it.
 ms.assetid: dc348bb2-d564-40f8-afe3-5473c5769fa4
 title: Drop
 ms.topic: article
@@ -18,13 +18,10 @@ In various bridged or party-line configurations when multiple parties are on the
 
 Following a drop operation, the session identifier and most resources associated with the session will remain usable for most query operations. When an application no longer requires these resources, it must [terminate the session](terminate-a-session-ovr.md) in order to avoid memory leaks.
 
-**TAPI 2.x:** See [**lineDrop**](https://msdn.microsoft.com/library/ms735626(v=VS.85).aspx).
+**TAPI 2.x:** See [**lineDrop**](/windows/win32/api/tapi/nf-tapi-linedrop).
 
 **TAPI 3.x:** See [**ITBasicCallControl::Disconnect**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-disconnect).
 
  
 
  
-
-
-

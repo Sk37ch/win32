@@ -52,7 +52,7 @@ A Wordwrap function scans a text buffer that contains text to be sent to the dis
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
@@ -67,7 +67,7 @@ A Wordwrap function scans a text buffer that contains text to be sent to the dis
 **Reference**
 </dt> <dt>
 
-[*EditWordBreakProc*](https://msdn.microsoft.com/library/Bb761709(v=VS.85).aspx)
+[*EditWordBreakProc*](/windows/win32/api/winuser/nc-winuser-editwordbreakproca)
 </dt> <dt>
 
 [**EM\_FMTLINES**](em-fmtlines.md)
@@ -77,10 +77,4 @@ A Wordwrap function scans a text buffer that contains text to be sent to the dis
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

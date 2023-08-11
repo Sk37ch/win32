@@ -1,5 +1,5 @@
 ---
-Description: Microsoft Hyper-V server provides a scalable, reliable, and highly available virtual machine management environment. Hyper-V virtual machine software consolidates servers and development and testing environments.
+description: Microsoft Hyper-V server provides a scalable, reliable, and highly available virtual machine management environment. Hyper-V virtual machine software consolidates servers and development and testing environments.
 ms.assetid: 3359A33F-528B-4955-8B37-30523B8AD33A
 title: Hyper-V WMI provider (V2)
 ms.topic: article
@@ -49,19 +49,14 @@ Hyper-V services require an x64-based system that supports hardware-assisted vir
 
 <dl> <dt>
 
-[Hyper-V (Windows Server 2008 R2 Technical Library)](https://technet.microsoft.com/library/5341cb70-0508-4201-a6da-dcac1a65fd35)
+[Hyper-V (Windows Server 2008 R2 Technical Library)](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753637(v=ws.10))
 </dt> <dt>
 
-[Windows Management Instrumentation](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-start-page)
+[Windows Management Instrumentation](/windows/desktop/WmiSdk/wmi-start-page)
 </dt> <dt>
 
 [Windows Server Virtualization](https://www.microsoft.com/windowsserver2008/virtualization/default.mspx)
 </dt> </dl>
 
  
-
- 
-
-
-
 

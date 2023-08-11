@@ -1,6 +1,6 @@
 ---
 title: TB_SETHOTITEM2 message (Commctrl.h)
-description: Sets the hot item in a toolbar.
+description: TB_SETHOTITEM2 message - Sets the hot item in a toolbar.
 ms.assetid: 43666b1d-1197-452f-aa79-eb0a1a23e5b7
 keywords:
 - TB_SETHOTITEM2 message Windows Controls
@@ -32,7 +32,7 @@ Index of the item that will be made hot. If this value is -1, none of the items 
 </dd> <dt>
 
 *lParam* 
-</dt> <dd>A combination of HICF\_xxx flags. See <a href="/windows/desktop/api/Commctrl/ns-commctrl-tagnmtbhotitem">**NMTBHOTITEM**</a>.</dd> </dl>
+</dt> <dd>A combination of HICF\_xxx flags. See <a href="/windows/win32/api/commctrl/ns-commctrl-nmtbhotitem">**NMTBHOTITEM**</a>.</dd> </dl>
 
 ## Return value
 
@@ -46,7 +46,7 @@ The behavior of this message is not defined for toolbars that do not have the [*
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

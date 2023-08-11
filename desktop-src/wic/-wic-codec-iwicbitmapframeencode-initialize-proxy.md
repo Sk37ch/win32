@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the Initialize method.
+description: IWICBitmapFrameEncode_Initialize_Proxy function - Proxy function for the Initialize method.
 ms.assetid: af9e204c-7072-47b8-84eb-47a754968d5b
 title: IWICBitmapFrameEncode_Initialize_Proxy function
 ms.topic: reference
@@ -48,7 +48,7 @@ Pointer to this [**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-win
 *pIEncoderOptions* \[in\]
 </dt> <dd>
 
-Type: **[IPropertyBag2](https://msdn.microsoft.com/library/Aa768192(VS.85).aspx)\***
+Type: **[IPropertyBag2](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85))\***
 
 The set of properties to use for [**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) initialization.
 
@@ -66,7 +66,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
@@ -75,9 +75,4 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
  
-
- 
-
-
-
 

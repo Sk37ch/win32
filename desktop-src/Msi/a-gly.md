@@ -1,12 +1,12 @@
 ---
-Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: Learn about Windows Installer concepts that begin with the letter A, such as accessibility and acquisition phase.
 ms.assetid: 541fd08c-c21a-4a51-aa1c-d65cc0f5da75
 title: A (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# A
+# A (Windows Installer)
 
 A [B](b-gly.md) [C](c-gly.md) [D](d-gly.md) [E](e-gly.md) [F](f-gly.md) [G](g-gly.md) H [I](i-gly.md) J K L [M](m-gly.md) N [O](o-gly.md) [P](p-gly.md) [Q](q-gly.md) [R](r-gly.md) [S](s-gly.md) [T](t-gly.md) [U](u-gly.md) [V](v-gly.md) W X Y Z
 
@@ -43,7 +43,7 @@ The approval state enabled by User Account Protection (UAC) that runs all users 
 <span id="_msi_advertising_gly"></span><span id="_MSI_ADVERTISING_GLY"></span>**advertising**
 </dt> <dd>
 
-Capability to make the interfaces required for loading and to make an application available without installing the application. When a user or application activates an advertised interface, the installer then proceeds to install the necessary components. The two types of advertising are [*assigning*](https://docs.microsoft.com/windows) and [*publishing*](p-gly.md). For more information, see also [*install-on-demand*](i-gly.md). For more information about how the installer advertises applications, see [Advertisement](advertisement.md).
+Capability to make the interfaces required for loading and to make an application available without installing the application. When a user or application activates an advertised interface, the installer then proceeds to install the necessary components. The two types of advertising are [*assigning*](/windows) and [*publishing*](p-gly.md). For more information, see also [*install-on-demand*](i-gly.md). For more information about how the installer advertises applications, see [Advertisement](advertisement.md).
 
 </dd> <dt>
 
@@ -57,7 +57,7 @@ A system service of Windows Vista that facilitates starting installations that 
 <span id="_msi_assigning_gly"></span><span id="_MSI_ASSIGNING_GLY"></span>**assigning**
 </dt> <dd>
 
-Makes an application available, and makes it appear as if it has been installed to a user, without actually installing it. Assigning adds shortcuts and icons to the **Start** menu, associates appropriate files, and writes registry entries for the application. When a user tries to open an assigned application, then the installer installs the application. Assigning and [*publishing*](p-gly.md) are two methods of [*advertising*](https://docs.microsoft.com/windows). For more information, see [Advertisement](advertisement.md).
+Makes an application available, and makes it appear as if it has been installed to a user, without actually installing it. Assigning adds shortcuts and icons to the **Start** menu, associates appropriate files, and writes registry entries for the application. When a user tries to open an assigned application, then the installer installs the application. Assigning and [*publishing*](p-gly.md) are two methods of [*advertising*](/windows). For more information, see [Advertisement](advertisement.md).
 
 </dd> <dt>
 
@@ -71,6 +71,3 @@ Makes an application available, and makes it appear as if it has been installed 
  
 
  
-
-
-

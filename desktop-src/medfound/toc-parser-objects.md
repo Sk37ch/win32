@@ -1,5 +1,5 @@
 ---
-Description: Table of Contents Parser Objects
+description: Table of Contents Parser Objects
 ms.assetid: 70610ddf-4c0b-4b9b-bd26-82c2753b9fa7
 title: Table of Contents Parser Objects
 ms.topic: article
@@ -15,7 +15,7 @@ This section describes the objects and class identifiers associated with Table o
 | Topic                                                                                  | Description                                                                                  |
 |----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | [Class Identifiers for Table of Contents Parser](class-identifiers-for-toc-parser.md) | Describes the class identifiers of several objects associated with Table of Contents Parser. |
-| [Table of Contents Generator](https://msdn.microsoft.com/library/Ff819466(v=VS.85).aspx)                                       | Describes the TOC Generator object.                                                          |
+| [Table of Contents Generator](/previous-versions/ee264297(v=vs.85))                                       | Describes the TOC Generator object.                                                          |
 
 
 
@@ -31,6 +31,3 @@ This section describes the objects and class identifiers associated with Table o
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: The following example demonstrates how a typical client would obtain Schannel credentials.
+description: The following example demonstrates how a typical client would obtain Schannel credentials.
 ms.assetid: 8f912af8-fd64-467a-b154-28c60cb14929
 title: Getting Schannel Credentials
 ms.topic: article
@@ -58,7 +58,7 @@ void getSchannelClientHandle(PCredHandle ppClientCred)
 
 
 
-The primary difference between the client-side and server-side request for credentials is that the server must provide a certificate using a [**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) structure as follows:
+The primary difference between the client-side and server-side request for credentials is that the server must provide a certificate using a [**CERT\_CONTEXT**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) structure as follows:
 
 
 ```C++
@@ -77,13 +77,10 @@ The primary difference between the client-side and server-side request for crede
 The example function *getServerCertificate* is a placeholder function for this application-specific activity. For an example implementation of the *getServerCertificate* function, see [Getting a Certificate](getting-a-certificate-for-schannel.md).
 
 > [!Note]  
-> When requesting credentials to be used by the server, change the third (*fCredentialUse*) parameter of the [**AcquireCredentialsHandle**](https://msdn.microsoft.com/library/Aa374712(v=VS.85).aspx) function from SECPKG\_CRED\_OUTBOUND to SECPKG\_CRED\_INBOUND.
+> When requesting credentials to be used by the server, change the third (*fCredentialUse*) parameter of the [**AcquireCredentialsHandle**](/windows/win32/api/sspi/nf-sspi-acquirecredentialshandlea) function from SECPKG\_CRED\_OUTBOUND to SECPKG\_CRED\_INBOUND.
 
  
 
  
 
  
-
-
-

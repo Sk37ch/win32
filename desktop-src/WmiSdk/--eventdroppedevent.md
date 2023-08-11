@@ -1,5 +1,5 @@
 ---
-Description: Represents the occurrence of an event that is dropped. A dropped event is an event that is not delivered to an event consumer.
+description: Represents the occurrence of an event that is dropped. A dropped event is an event that is not delivered to an event consumer.
 ms.assetid: fae267a9-e0ec-43fa-a3c3-d50345775a1d
 ms.tgt_platform: multiple
 title: '__EventDroppedEvent class'
@@ -100,7 +100,7 @@ Access type: Read-only
 
 Unique value that indicates the time when an event is generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Time (UTC) format. This property is inherited from [**\_\_Event**](--event.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> </dl>
 
@@ -112,7 +112,7 @@ The **\_\_EventDroppedEvent** class is derived from [**\_\_SystemEvent**](--syst
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -124,16 +124,11 @@ The **\_\_EventDroppedEvent** class is derived from [**\_\_SystemEvent**](--syst
 
 <dl> <dt>
 
-[**\_\_SystemEvent**](https://docs.microsoft.com/windows/desktop/WmiSdk/--systemevent)
+[**\_\_SystemEvent**](/windows/desktop/WmiSdk/--systemevent)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

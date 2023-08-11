@@ -1,5 +1,5 @@
 ---
-Description: Control code sets the redirect record to the new TCP socket used for connecting redirect service.
+description: Control code sets the redirect record to the new TCP socket used for connecting redirect service.
 ms.assetid: 0AC78ED4-A6EC-4D62-919C-1EF7CDE8EE80
 title: SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS Control Code
 ms.topic: reference
@@ -20,31 +20,31 @@ To perform this operation, call the [**WSAIoctl**](/windows/desktop/api/winsock2
 
 ```cpp
 int WSAIoctl(
-  (socket) s,             // descriptor identifying a socket
+  (socket) s,                              // descriptor identifying a socket
   SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS, // dwIoControlCode
-  NULL,                         // lpvInBuffer
-  0,                            // cbInBuffer
-  (LPVOID) lpvOutBuffer,         // output buffer
-  (DWORD) cbOutBuffer,       // size of output buffer
-  (LPDWORD) lpcbBytesReturned,    // number of bytes returned
-  (LPWSAOVERLAPPED) lpOverlapped,   // OVERLAPPED structure
-  (LPWSAOVERLAPPED_COMPLETION_ROUTINE) lpCompletionRoutine,  // completion routine
+  (LPVOID) lpvInputBuffer,                 // lpvInBuffer
+  (DWORD) cbInputBuffer,                   // cbInBuffer
+  NULL,                                    // output buffer
+  0,                                       // size of output buffer
+  (LPDWORD) lpcbBytesReturned,             // number of bytes returned
+  (LPWSAOVERLAPPED) lpOverlapped,          // OVERLAPPED structure
+  (LPWSAOVERLAPPED_COMPLETION_ROUTINE) lpCompletionRoutine, // completion routine
 );
 ```
 
 ```cpp
 int WSPIoctl(
-  (socket) s,             // descriptor identifying a socket
+  (socket) s,                              // descriptor identifying a socket
   SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS, // dwIoControlCode
-  NULL,                         // lpvInBuffer
-  0,                            // cbInBuffer
-  (LPVOID) lpvOutBuffer,         // output buffer
-  (DWORD) cbOutBuffer,       // size of output buffer
-  (LPDWORD) lpcbBytesReturned,    // number of bytes returned
-  (LPWSAOVERLAPPED) lpOverlapped,   // OVERLAPPED structure
+  (LPVOID) lpvInputBuffer,                 // lpvInBuffer
+  (DWORD) cbInputBuffer,                   // cbInBuffer
+  NULL,                                    // output buffer
+  0,                                       // size of output buffer
+  (LPDWORD) lpcbBytesReturned,             // number of bytes returned
+  (LPWSAOVERLAPPED) lpOverlapped,          // OVERLAPPED structure
   (LPWSAOVERLAPPED_COMPLETION_ROUTINE) lpCompletionRoutine,  // completion routine
-  (LPWSATHREADID) lpThreadId,   // a WSATHREADID structure
-  (LPINT) lpErrno   // a pointer to the error code.
+  (LPWSATHREADID) lpThreadId,              // a WSATHREADID structure
+  (LPINT) lpErrno                          // a pointer to the error code.
 );
 ```
 
@@ -103,6 +103,8 @@ For overlapped operations, the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-w
 Otherwise, the function does not return until the operation has been completed or an error occurs.
 
 ### lpCompletionRoutine
+
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](/windows/win32/api/winsock2/nc-winsock2-lpwsaoverlapped_completion_routine)
 
 A pointer to the completion routine called when the operation has been completed (ignored for non-overlapped sockets).
 

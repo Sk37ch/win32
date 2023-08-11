@@ -22,7 +22,7 @@ Returns the bitwise AND of all the values of the expression across all active la
 ## Syntax
 
 
-```C++
+``` syntax
 <int_type> WaveActiveBitAnd(
    <int_type> expr
 );
@@ -47,13 +47,7 @@ The bitwise AND value.
 
 ## Remarks
 
-This function is supported from shader model 6.0, in the following types of shaders:
-
-
-
-| Vertex | Hull | Domain | Geometry | Pixel | Compute |
-|--------|------|--------|----------|-------|---------|
-|        |      |        |          | x     | x       |
+This function is supported from shader model 6.0 in all shader stages. 
 
 
 

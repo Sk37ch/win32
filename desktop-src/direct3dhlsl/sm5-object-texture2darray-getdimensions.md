@@ -1,6 +1,6 @@
 ---
 title: Texture2DArray::GetDimensions function
-description: Returns the dimensions of the resource.
+description: Returns the dimensions of the resource. | Texture2DArray::GetDimensions function
 ms.assetid: 0f6d88b3-195d-4f8c-ac31-ac90129a233e
 keywords:
 - GetDimensions function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GetDimensions function
+# Texture2DArray::GetDimensions function
 
 Returns the dimensions of the resource.
 
@@ -38,7 +38,7 @@ void GetDimensions(
 *MipLevel* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 Optional. The mipmap level (must be specified if *NumberOfLevels* is used).
 
@@ -47,7 +47,7 @@ Optional. The mipmap level (must be specified if *NumberOfLevels* is used).
 *Width* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The resource width, in texels.
 
@@ -56,7 +56,7 @@ The resource width, in texels.
 *Height* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The resource height, in texels.
 
@@ -65,7 +65,7 @@ The resource height, in texels.
 *Elements* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The number of elements in the array.
 
@@ -74,7 +74,7 @@ The number of elements in the array.
 *NumberOfLevels* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The number of mipmap levels (requires *MipLevel* also).
 
@@ -138,7 +138,3 @@ This function is supported for the following types of shaders:
  
 
  
-
-
-
-

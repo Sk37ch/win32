@@ -24,8 +24,8 @@ Changes or animates the value of the AxisY property of a rotation transform. The
 
 | Method                                                                                                       | Description                                          |
 |:-------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------|
-| [**SetAxisY(float)**](https://msdn.microsoft.com/library/Hh448941(v=VS.85).aspx)                                     | Changes the value of the AxisY property.<br/>  |
-| [**SetAxisY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448943(v=VS.85).aspx) | Animates the value of the AxisY property.<br/> |
+| [**SetAxisY(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setaxisy(float))                                     | Changes the value of the AxisY property.<br/>  |
+| [**SetAxisY(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setaxisy(idcompositionanimation)) | Animates the value of the AxisY property.<br/> |
 
 
 
@@ -33,7 +33,7 @@ Changes or animates the value of the AxisY property of a rotation transform. The
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows�8 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server�2012 \[desktop apps only\]<br/>                                 |
@@ -47,14 +47,9 @@ Changes or animates the value of the AxisY property of a rotation transform. The
 
 <dl> <dt>
 
-[**IDCompositionRotateTransform3D**](https://msdn.microsoft.com/library/Hh448927(v=VS.85).aspx)
+[**IDCompositionRotateTransform3D**](/windows/win32/api/dcomp/nn-dcomp-idcompositionrotatetransform3d)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

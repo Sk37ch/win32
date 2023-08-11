@@ -1,12 +1,12 @@
 ---
-Description: 'This section contains information about the following shader interfaces:'
+description: 'This section contains information about the following shader interfaces:'
 ms.assetid: d8770b45-a05c-4dd8-9fa7-08fb4330d734
 title: Shader Interfaces (Direct3D 10 Graphics)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Shader Interfaces
+# Shader Interfaces (Direct3D 10 Graphics)
 
 This section contains information about the following shader interfaces:
 
@@ -16,9 +16,9 @@ Each of these shader interfaces manages a compiled shader. The interface is crea
 
 | Pipeline-Stage Interfaces                                      | Description                                                                                                                                 |
 |----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ID3D10GeometryShader Interface**](https://msdn.microsoft.com/library/Bb173774(v=VS.85).aspx) | A geometry-shader implements per-primitive processing in the [geometry-shader stage](d3d10-graphics-programming-guide-pipeline-stages.md). |
-| [**ID3D10PixelShader Interface**](https://msdn.microsoft.com/library/Bb173821(v=VS.85).aspx)       | A pixel-shader implements per-pixel processing in the [pixel-shader stage](d3d10-graphics-programming-guide-pipeline-stages.md).           |
-| [**ID3D10VertexShader Interface**](https://msdn.microsoft.com/library/Bb173875(v=VS.85).aspx)     | A vertex-shader implements per-vertex processing in the [vertex-shader stage](d3d10-graphics-programming-guide-pipeline-stages.md).        |
+| [**ID3D10GeometryShader Interface**](/windows/win32/api/d3d10/nn-d3d10-id3d10geometryshader) | A geometry-shader implements per-primitive processing in the [geometry-shader stage](d3d10-graphics-programming-guide-pipeline-stages.md). |
+| [**ID3D10PixelShader Interface**](/windows/win32/api/d3d10/nn-d3d10-id3d10pixelshader)       | A pixel-shader implements per-pixel processing in the [pixel-shader stage](d3d10-graphics-programming-guide-pipeline-stages.md).           |
+| [**ID3D10VertexShader Interface**](/windows/win32/api/d3d10/nn-d3d10-id3d10vertexshader)     | A vertex-shader implements per-vertex processing in the [vertex-shader stage](d3d10-graphics-programming-guide-pipeline-stages.md).        |
 
 
 
@@ -52,6 +52,3 @@ Shader reflection APIs implement one COM shader reflection interface ([**ID3D10S
  
 
  
-
-
-

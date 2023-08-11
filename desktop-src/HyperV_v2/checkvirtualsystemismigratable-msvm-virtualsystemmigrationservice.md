@@ -1,5 +1,5 @@
 ---
-Description: Determines whether the specified virtual system can be migrated.
+description: Determines whether the specified virtual system can be migrated.
 ms.assetid: 1bf1b385-162e-41c9-a408-f7ee755a9646
 title: CheckVirtualSystemIsMigratable method of the Msvm_VirtualSystemMigrationService class
 ms.topic: reference
@@ -77,7 +77,7 @@ An array of strings that contain an embedded instance of the [**Msvm\_ResourceAl
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -127,7 +127,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -145,9 +145,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

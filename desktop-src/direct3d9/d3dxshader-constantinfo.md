@@ -1,5 +1,5 @@
 ---
-Description: D3DXSHADER\_CONSTANTINFO structure
+description: D3DXSHADER\_CONSTANTINFO structure
 ms.assetid: 0c42cea7-559e-4475-b66a-e932a9cb42de
 title: D3DXSHADER_CONSTANTINFO structure (D3dx9shader.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ typedef struct D3DXSHADER_CONSTANTINFO {
 **Name**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -52,18 +52,18 @@ Offset from the beginning of this structure, in bytes, to the string that contai
 **RegisterSet**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
-Register set. See [**D3DXREGISTER\_SET**](https://msdn.microsoft.com/library/Bb205424(v=VS.85).aspx).
+Register set. See [**D3DXREGISTER\_SET**](./d3dxregister-set.md).
 
 </dd> <dt>
 
 **RegisterIndex**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -74,7 +74,7 @@ The register index.
 **RegisterCount**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -85,7 +85,7 @@ Number of registers.
 **Reserved**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -96,7 +96,7 @@ Reserved.
 **TypeInfo**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -107,7 +107,7 @@ Offset from the beginning of this structure, in bytes, to the string that contai
 **DefaultValue**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -119,7 +119,7 @@ Offset from the beginning of this structure, in bytes, to the string that contai
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9shader.h</dt> </dl> |
 
@@ -135,7 +135,3 @@ Offset from the beginning of this structure, in bytes, to the string that contai
  
 
  
-
-
-
-

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETINFO.ibLongValue property"
 title: JET_SETINFO.ibLongValue property 
 TOCTitle: 'ibLongValue property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SETINFO.ibLongValue
@@ -30,9 +31,9 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_SETINFO.ibLongValue property
 
-Gets or sets offset to the first byte to be set in a column of type [LongBinary](hh577895\(v=exchg.10\).md) or [LongText](hh577895\(v=exchg.10\).md).
+Gets or sets offset to the first byte to be set in a column of type [LongBinary](./jet-coltyp-enumeration.md) or [LongText](./jet-coltyp-enumeration.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,15 +58,14 @@ public int ibLongValue { get; set; }
 
 #### Property value
 
-Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+Type: [System.Int32](/dotnet/api/system.int32)  
 
 ## See also
 
 #### Reference
 
-[JET_SETINFO class](dn351059\(v=exchg.10\).md)
+[JET_SETINFO class](./jet-setinfo-class.md)
 
-[JET_SETINFO members](dn351029\(v=exchg.10\).md)
+[JET_SETINFO members](./jet-setinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

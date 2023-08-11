@@ -1,5 +1,5 @@
 ---
-Description: Copies the logical shortcut file or directory specified in the object path to the location specified by the input parameter.
+description: Copies the logical shortcut file or directory specified in the object path to the location specified by the input parameter.
 ms.assetid: 1c8e9eac-340b-4c37-a52e-6cfade47ccf6
 ms.tgt_platform: multiple
 title: Copy method of the Win32_ShortcutFile class
@@ -18,9 +18,9 @@ api_location:
 
 # Copy method of the Win32\_ShortcutFile class
 
-The **Copy** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method copies the logical shortcut file or directory specified in the object path to the location specified by the input parameter. A copy is not supported if overwriting an existing logical file is required.
+The **Copy** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method copies the logical shortcut file or directory specified in the object path to the location specified by the input parameter. A copy is not supported if overwriting an existing logical file is required.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -147,7 +147,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -161,16 +161,11 @@ A parameter specified is not valid.
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_ShortcutFile**](win32-shortcutfile.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

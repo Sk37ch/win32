@@ -1,5 +1,5 @@
 ---
-Description: The ITCallQualityControl interface exposes methods that allow an application to get and set parameters for call quality control.
+description: The ITCallQualityControl interface exposes methods that allow an application to get and set parameters for call quality control.
 ms.assetid: 8d33e3b2-6af9-4c2d-bc65-905467f4fc6a
 title: ITCallQualityControl interface (Ipmsp.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ This interface is implemented by the [IPConf MSP](ipconf-msp.md) and the [H323 M
 
 ## Members
 
-The **ITCallQualityControl** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITCallQualityControl** also has these types of members:
+The **ITCallQualityControl** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITCallQualityControl** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -40,7 +40,7 @@ The **ITCallQualityControl** interface has these methods.
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.1<br/>                                                         |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |
@@ -50,9 +50,4 @@ The **ITCallQualityControl** interface has these methods.
 
 
  
-
- 
-
-
-
 

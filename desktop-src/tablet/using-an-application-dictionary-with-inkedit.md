@@ -1,5 +1,5 @@
 ---
-Description: To create an application dictionary, it is necessary to set the WordList property of the RecognizerContext object.
+description: To create an application dictionary, it is necessary to set the WordList property of the RecognizerContext object.
 ms.assetid: 24dbf617-fa16-44f1-ba59-d4d99b8f1375
 title: Using an Application Dictionary with InkEdit
 ms.topic: article
@@ -109,18 +109,15 @@ private void Form1_Closed(object sender, System.EventArgs e)
 
 <dl> <dt>
 
-[InkEdit Control](https://msdn.microsoft.com/library/ms552265(v=VS.100).aspx)
+[InkEdit Control](/previous-versions/ms552265(v=vs.100))
 </dt> <dt>
 
-[Microsoft.Ink.RecognizerContext Class](https://msdn.microsoft.com/library/ms552546(v=VS.100).aspx)
+[Microsoft.Ink.RecognizerContext Class](/previous-versions/ms552546(v=vs.100))
 </dt> <dt>
 
-[Microsoft.Ink.Wordlist Class](https://msdn.microsoft.com/library/ms827589(v=MSDN.10).aspx)
+[Microsoft.Ink.Wordlist Class](/previous-versions/ms827589(v=msdn.10))
 </dt> </dl>
 
  
 
  
-
-
-

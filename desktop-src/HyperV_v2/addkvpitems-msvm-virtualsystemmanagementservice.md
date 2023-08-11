@@ -1,5 +1,5 @@
 ---
-Description: Adds key-value pairs to a virtual machine.
+description: Adds key-value pairs to a virtual machine.
 ms.assetid: D952EC3D-24EB-4A68-8527-5BF522957CB6
 title: AddKvpItems method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -39,9 +39,9 @@ uint32 AddKvpItems(
 *TargetSystem* \[in\]
 </dt> <dd>
 
-Type: **[**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem)**
+Type: **[**CIM\_ComputerSystem**](/windows/desktop/CIMWin32Prov/cim-computersystem)**
 
-A reference to a [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) object that represents the virtual machine on which the key-value pairs will be added.
+A reference to a [**CIM\_ComputerSystem**](/windows/desktop/CIMWin32Prov/cim-computersystem) object that represents the virtual machine on which the key-value pairs will be added.
 
 </dd> <dt>
 
@@ -57,9 +57,9 @@ An array of key-value pairs to be added. Each element of the array is an embedde
 *Job* \[out\]
 </dt> <dd>
 
-Type: **[**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85))**
+Type: **[**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85))**
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -112,7 +112,7 @@ This method returns one of the following values.
 
 ## Remarks
 
-Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Examples
 
@@ -358,7 +358,7 @@ End Function
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -376,9 +376,4 @@ End Function
 </dt> </dl>
 
  
-
- 
-
-
-
 

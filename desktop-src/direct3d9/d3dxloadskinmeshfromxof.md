@@ -1,5 +1,5 @@
 ---
-Description: Loads a skin mesh from a DirectX .x file data object.
+description: Loads a skin mesh from a DirectX .x file data object.
 ms.assetid: db284061-2996-4a5f-972d-24577dd1a6d7
 title: D3DXLoadSkinMeshFromXof function (D3DX9Mesh.h)
 ms.topic: reference
@@ -55,18 +55,18 @@ Pointer to an [**ID3DXFileData**](id3dxfiledata.md) interface, representing the 
 *Options* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
-Combination of one or more flags, from the [**D3DXMESH**](https://msdn.microsoft.com/library/Bb205370(v=VS.85).aspx) enumeration, specifying creation options for the mesh.
+Combination of one or more flags, from the [**D3DXMESH**](./d3dxmesh.md) enumeration, specifying creation options for the mesh.
 
 </dd> <dt>
 
 *pD3DDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, the device object associated with the mesh.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface, the device object associated with the mesh.
 
 </dd> <dt>
 
@@ -100,7 +100,7 @@ Pointer to a buffer containing an array of effect instances, one per attribute g
 *pMatOut* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to the number of [**D3DXMATERIAL**](d3dxmaterial.md) structures in the *ppMaterials* array, when the method returns.
 
@@ -142,7 +142,7 @@ The default texture name is also filled in, but is handled differently. The name
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -165,7 +165,3 @@ The default texture name is also filled in, but is handled differently. The name
  
 
  
-
-
-
-

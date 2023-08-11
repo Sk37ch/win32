@@ -24,8 +24,8 @@ Changes or animates the value of the TopRightRadiusY property of this clip. The 
 
 | Method                                                                                                                       | Description                                                                 |
 |:-----------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------|
-| [**SetTopRightRadiusY(float)**](https://msdn.microsoft.com/library/Hh448919(v=VS.85).aspx)                                     | Changes the value of the TopRightRadiusY property of this clip.<br/>  |
-| [**SetTopRightRadiusY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448920(v=VS.85).aspx) | Animates the value of the TopRightRadiusY property of this clip.<br/> |
+| [**SetTopRightRadiusY(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-settoprightradiusy(idcompositionanimation))                                     | Changes the value of the TopRightRadiusY property of this clip.<br/>  |
+| [**SetTopRightRadiusY(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-settoprightradiusy(idcompositionanimation)) | Animates the value of the TopRightRadiusY property of this clip.<br/> |
 
 
 
@@ -33,7 +33,7 @@ Changes or animates the value of the TopRightRadiusY property of this clip. The 
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows�8 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server�2012 \[desktop apps only\]<br/>                                 |
@@ -47,14 +47,9 @@ Changes or animates the value of the TopRightRadiusY property of this clip. The 
 
 <dl> <dt>
 
-[**IDCompositionRectangleClip**](https://msdn.microsoft.com/library/Hh437434(v=VS.85).aspx)
+[**IDCompositionRectangleClip**](/windows/win32/api/dcomp/nn-dcomp-idcompositionrectangleclip)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

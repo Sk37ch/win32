@@ -13,12 +13,15 @@ keywords:
 - type 2 online stores,BITS job convention
 - BITS job convention
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Windows Media Player BITS Job Convention
 
-Windows Media Player can automatically download and add digital media items to the library if you use [Background Intelligent Transfer Service (BITS)](https://docs.microsoft.com/windows/desktop/Bits/background-intelligent-transfer-service-portal). To take advantage of this feature, you must add your job to the BITS transfer queue and call **IBackgroundCopyJob::SetDescription**, providing a description string that uses the correct format.
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
+Windows Media Player can automatically download and add digital media items to the library if you use [Background Intelligent Transfer Service (BITS)](/windows/desktop/Bits/background-intelligent-transfer-service-portal). To take advantage of this feature, you must add your job to the BITS transfer queue and call **IBackgroundCopyJob::SetDescription**, providing a description string that uses the correct format.
 
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
@@ -99,7 +102,7 @@ You must add only one digital media file for download to each BITS job.
 
 After you start a BITS job using this convention, you must let Windows Media Player complete the job. Windows Media Player will also remove the job from the BITS queue, move the downloaded file to the location where ripped music is saved, and add the downloaded file to the library.
 
-The *serviceId* parameter must contain a nonzero 32-bit value. We recommend that you use the function [**CryptGenRandom**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) to create this value.
+The *serviceId* parameter must contain a nonzero 32-bit value. We recommend that you use the function [**CryptGenRandom**](/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) to create this value.
 
 The file name you specify using the *localName* parameter of **IBackgroundCopyJob::AddFile** must have a .wma, .wmv, .mp3, or .asf file name extension.
 
@@ -133,7 +136,7 @@ When you use the preceding syntax, you must write code to complete the BITS down
 
 <dl> <dt>
 
-[CryptGenRandom](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom)
+[CryptGenRandom](/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom)
 </dt> <dt>
 
 [**DownloadItem.getItemInfo**](downloaditem-getiteminfo.md)
@@ -148,7 +151,3 @@ When you use the preceding syntax, you must write code to complete the BITS down
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Saves a texture to an image file.
+description: Saves a texture to an image file.
 ms.assetid: 8dcfd58a-ae1e-43c3-8ff1-94e3fa398b0f
 title: D3DXSaveTextureToFileInMemory function (D3dx9tex.h)
 ms.topic: reference
@@ -50,18 +50,18 @@ Address of a pointer to an [**ID3DXBuffer**](id3dxbuffer.md) that will store the
 *DestFormat* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/library/Bb172878(v=VS.85).aspx)**
+Type: **[**D3DXIMAGE\_FILEFORMAT**](./d3dximage-fileformat.md)**
 
-[**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/library/Bb172878(v=VS.85).aspx) specifying the file format to use when saving. This function supports saving to all **D3DXIMAGE\_FILEFORMAT** formats except Portable Pixmap (.ppm) and Targa/Truevision Graphics Adapter (.tga).
+[**D3DXIMAGE\_FILEFORMAT**](./d3dximage-fileformat.md) specifying the file format to use when saving. This function supports saving to all **D3DXIMAGE\_FILEFORMAT** formats except Portable Pixmap (.ppm) and Targa/Truevision Graphics Adapter (.tga).
 
 </dd> <dt>
 
 *pSrcTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DBASETEXTURE9**](https://msdn.microsoft.com/library/Bb174322(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DBASETEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9)**
 
-Pointer to [**IDirect3DBaseTexture9**](https://msdn.microsoft.com/library/Bb174322(v=VS.85).aspx) interface containing the image to be saved.
+Pointer to [**IDirect3DBaseTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9) interface containing the image to be saved.
 
 </dd> <dt>
 
@@ -88,7 +88,7 @@ This function handles conversion to and from compressed texture formats.
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |
@@ -111,7 +111,3 @@ This function handles conversion to and from compressed texture formats.
  
 
  
-
-
-
-

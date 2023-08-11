@@ -1,5 +1,5 @@
 ---
-Description: Assemble a shader.
+description: D3DXAssembleShaderFromFile function - Assemble a shader.
 ms.assetid: 2977b64a-b8cc-454b-8e28-291f6f2c6fc1
 title: D3DXAssembleShaderFromFile function (D3DX9Shader.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ HRESULT D3DXAssembleShaderFromFile(
 *pSrcFile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 Pointer to a string that specifies the filename. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the string data type resolves to LPCSTR. See Remarks.
 
@@ -70,7 +70,7 @@ Optional interface pointer, [**ID3DXInclude**](id3dxinclude.md), to use for hand
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Compile options identified by various flags. The Direct3D 10 HLSL compiler is now the default. See [D3DXSHADER Flags](d3dxshader-flags.md) for details.
 
@@ -108,7 +108,7 @@ The compiler setting also determines the function version. If Unicode is defined
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -131,7 +131,3 @@ The compiler setting also determines the function version. If Unicode is defined
  
 
  
-
-
-
-

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COMMIT_ID.Equals method"
 title: JET_COMMIT_ID.Equals method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'Equals method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID.Equals
@@ -34,7 +35,7 @@ Include inherited members
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn335458(v=exchg.10).md">Equals(Object)</a></td>
-<td>Returns a value indicating whether this instance is equal to another instance. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.object.equals?redirectedfrom=MSDN#System_Object_Equals_System_Object_">Object.Equals(Object)</a>.)</td>
+<td>Returns a value indicating whether this instance is equal to another instance. (Overrides <a href="/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
@@ -51,9 +52,8 @@ Top
 
 #### Reference
 
-[JET_COMMIT_ID class](dn335448\(v=exchg.10\).md)
+[JET_COMMIT_ID class](./jet-commit-id-class.md)
 
-[JET_COMMIT_ID members](dn335451\(v=exchg.10\).md)
+[JET_COMMIT_ID members](./jet-commit-id-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Shows how to implement a video effect as a Media Foundation Transform (MFT).
+description: Shows how to implement a video effect as a Media Foundation Transform (MFT).
 ms.assetid: ad7d20bc-5eab-4390-a48b-5ea8e97ead7d
 title: MFT_Grayscale Sample
 ms.topic: article
@@ -20,7 +20,7 @@ This sample demonstrates the following Microsoft Media Foundation interfaces:
 
 The MFT\_GrayScale sample builds a DLL that is a COM server for the MFT. Before using the MFT, you must register the DLL.
 
-To see the grayscale MFT in use, run the [PlaybackFX Sample](https://msdn.microsoft.com/library/Bb970336(v=VS.85).aspx). You can also use the TopoEdit tool to build a topology that includes the grayscale MFT. For more information about TopoEdit, see [TopoEdit](topoedit.md).
+To see the grayscale MFT in use, run the [PlaybackFX Sample](/previous-versions//bb970336(v=vs.85)). You can also use the TopoEdit tool to build a topology that includes the grayscale MFT. For more information about TopoEdit, see [TopoEdit](topoedit.md).
 
 ## Requirements
 
@@ -60,6 +60,3 @@ This sample is available in the [Windows classic samples github repository](http
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether modes enumerated by the encoder are limeted to those that meet a quality requirement given by MFPKEY\_DESIRED\_VBRQUALITY.
+description: Specifies whether modes enumerated by the encoder are limeted to those that meet a quality requirement given by MFPKEY\_DESIRED\_VBRQUALITY.
 ms.assetid: b2f1d5c5-d2bb-4a8a-94ea-fd969e07bb0e
 title: MFPKEY_CONSTRAIN_ENUMERATED_VBRQUALITY Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Specifies whether modes enumerated by the encoder are limeted to those that meet
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -34,7 +34,7 @@ To enumerate VBR modes that meet a certain quality requirement, set the followin
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows Vista or Windows 7<br/>                                                   |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |
@@ -51,7 +51,3 @@ To enumerate VBR modes that meet a certain quality requirement, set the followin
  
 
  
-
-
-
-

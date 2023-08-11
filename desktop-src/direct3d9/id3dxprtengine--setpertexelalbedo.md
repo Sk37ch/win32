@@ -1,5 +1,5 @@
 ---
-Description: Sets an albedo value for each texel, overwriting previous albedo values.
+description: Sets an albedo value for each texel, overwriting previous albedo values.
 ms.assetid: 2928c861-a07e-4099-b04f-cdfa41e70874
 title: ID3DXPRTEngine::SetPerTexelAlbedo method (D3DX9Mesh.h)
 ms.topic: reference
@@ -40,16 +40,16 @@ HRESULT SetPerTexelAlbedo(
 *pAlbedoTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9)**
 
-Pointer to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx) texture object in which to store albedo values.
+Pointer to an [**IDirect3DTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9) texture object in which to store albedo values.
 
 </dd> <dt>
 
 *NumChannels* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of color channels to set. Set to 1 to specify gray materials (R = G = B), or 3 to enable color bleeding effects.
 
@@ -74,7 +74,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -91,7 +91,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

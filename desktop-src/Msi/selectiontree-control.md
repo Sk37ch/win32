@@ -1,5 +1,5 @@
 ---
-Description: This control enables a user to change the selection state of features listed in the Feature table.
+description: This control enables a user to change the selection state of features listed in the Feature table.
 ms.assetid: 0daf5b44-ba07-47f1-95d9-28c59f7cf985
 title: SelectionTree Control
 ms.topic: article
@@ -95,7 +95,7 @@ You can use the following attributes with this control. To change the value of a
 
 ## Remarks
 
-This control can be created from the WC\_TREEVIEW class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the **WS\_BORDER**, **TVS\_HASLINES**, **TVS\_HASBUTTONS**, **TVS\_LINESATROOT**, **TVS\_DISABLEDRAGDROP**, **TVS\_SHOWSELALWAYS**, **WS\_CHILD**, **WS\_TABSTOP**, and **WS\_GROUP** styles.
+This control can be created from the WC\_TREEVIEW class by using the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function. It has the **WS\_BORDER**, **TVS\_HASLINES**, **TVS\_HASBUTTONS**, **TVS\_LINESATROOT**, **TVS\_DISABLEDRAGDROP**, **TVS\_SHOWSELALWAYS**, **WS\_CHILD**, **WS\_TABSTOP**, and **WS\_GROUP** styles.
 
 The selection tree is only populated if the [CostInitialize action](costinitialize-action.md) and [CostFinalize action](costfinalize-action.md) have been called.
 
@@ -157,7 +157,3 @@ The following four localized strings are used in formatting the size of a file:
  
 
  
-
-
-
-

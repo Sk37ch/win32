@@ -1,5 +1,5 @@
 ---
-Description: Contains information about the conditions under which the battery status is to be retrieved.
+description: Contains information about the conditions under which the battery status is to be retrieved.
 ms.assetid: 1750fe0f-ba3d-4118-938c-789c6d62c3f7
 title: BATTERY_WAIT_STATUS structure (Poclass.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ typedef struct _BATTERY_WAIT_STATUS {
 **BatteryTag**
 </dt> <dd>
 
-The current battery tag for the battery. Only information for a battery matching the tag can be returned. Whenever this value does not match the battery's current tag, the [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) operation will fail with an error code of ERROR\_FILE\_NOT\_FOUND, which indicates to the caller that the battery for which it has a tag is no longer installed The caller may opt to use the [**IOCTL\_BATTERY\_QUERY\_TAG**](ioctl-battery-query-tag.md) operation to determine the tag of the newly installed battery, if any. In addition, if the request is in progress when the battery is removed, or the tag changes, the operation is aborted with the status of ERROR\_FILE\_NOT\_FOUND. (See [Battery Tags](battery-information.md) for more information.)
+The current battery tag for the battery. Only information for a battery matching the tag can be returned. Whenever this value does not match the battery's current tag, the [**DeviceIoControl**](/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) operation will fail with an error code of ERROR\_FILE\_NOT\_FOUND, which indicates to the caller that the battery for which it has a tag is no longer installed The caller may opt to use the [**IOCTL\_BATTERY\_QUERY\_TAG**](ioctl-battery-query-tag.md) operation to determine the tag of the newly installed battery, if any. In addition, if the request is in progress when the battery is removed, or the tag changes, the operation is aborted with the status of ERROR\_FILE\_NOT\_FOUND. (See [Battery Tags](battery-information.md) for more information.)
 
 </dd> <dt>
 
@@ -107,7 +107,7 @@ Before using either of the two Capacity conditions, make sure the battery suppor
 
 
 
-|                                     |                                                                                                                                                                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |
@@ -129,9 +129,4 @@ Before using either of the two Capacity conditions, make sure the battery suppor
 </dt> </dl>
 
  
-
- 
-
-
-
 

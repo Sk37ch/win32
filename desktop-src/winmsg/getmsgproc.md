@@ -4,7 +4,7 @@ title: GetMsgProc callback function
 description: The system calls this function when a message function gets a message from an application message queue.
 old-location: 
 ms.assetid: na
-ms.date: 04/05/2019
+ms.date: 06/28/2023
 ms.keywords: 
 ms.topic: reference
 req.header: 
@@ -38,11 +38,9 @@ req.redist:
 
 ## -description
 
-An application-defined or library-defined callback function used with the [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexw) function. The system calls this function whenever the [GetMessage](/windows/desktop/api/winuser/nf-winuser-getmessage) or [PeekMessage](/windows/desktop/api/winuser/nf-winuser-peekmessagew) function has retrieved a message from an application message queue.
-Before returning the retrieved message to the caller, the system passes the message to the hook procedure.
+An application-defined or library-defined callback function used with the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function. The system calls this function whenever the [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) or [**PeekMessageA**](/windows/win32/api/winuser/nf-winuser-peekmessagea)/[**PeekMessageW**](/windows/win32/api/winuser/nf-winuser-peekmessagew) function has retrieved a message from an application message queue. Before returning the retrieved message to the caller, the system passes the message to the hook procedure. Before returning the retrieved message to the caller, the system passes the message to the hook procedure.
 
-The **HOOKPROC** type defines a pointer to this callback function.
-**GetMsgProc** is a placeholder for the application-defined or library-defined function name.
+The **HOOKPROC** type defines a pointer to this callback function. *GetMsgProc* is a placeholder for the application-defined or library-defined function name.
 
 ```cpp
 LRESULT CALLBACK GetMsgProc(
@@ -54,7 +52,7 @@ LRESULT CALLBACK GetMsgProc(
 
 ## -parameters
 
-### -param code [in]
+### code [in]
 
 Type: **int**
 
@@ -62,7 +60,7 @@ Specifies whether the hook procedure must process the message.
 If *code* is **HC_ACTION**, the hook procedure must process the message.
 If *code* is less than zero, the hook procedure must pass the message to the [CallNextHookEx](/windows/desktop/api/winuser/nf-winuser-callnexthookex) function without further processing and should return the value returned by **CallNextHookEx**.
 
-### -param wParam [in]
+### wParam [in]
 
 Type: **WPARAM**
 
@@ -74,7 +72,7 @@ This parameter can be one of the following values.
 | **PM_NOREMOVE** 0x0000 | The message has not been removed from the queue. (An application called the **PeekMessage** function, specifying the **PM_NOREMOVE** flag.) |
 | **PM_REMOVE** 0x0001 | The message has been removed from the queue. (An application called **GetMessage**, or it called the  **PeekMessage** function, specifying the **PM_REMOVE** flag.)|
 
-### -param lParam [in]
+### lParam [in]
 
 Type: **LPARAM**
 
@@ -90,11 +88,12 @@ If the hook procedure does not call **CallNextHookEx**, the return value should 
 ## -remarks
 
 The **GetMsgProc** hook procedure can examine or modify the message.
-After the hook procedure returns control to the system, the **GetMessage** or **PeekMessage** function returns the message, along with any modifications, to the application that originally called it.
 
-An application installs this hook procedure by specifying the **WH_GETMESSAGE** hook type and a pointer to the hook procedure in a call to the **SetWindowsHookEx** function.
+After the hook procedure returns control to the system, the **GetMessage** or [**PeekMessageA**](/windows/win32/api/winuser/nf-winuser-peekmessagea)/[**PeekMessageW**](/windows/win32/api/winuser/nf-winuser-peekmessagew) function returns the message, along with any modifications, to the application that originally called it.
 
-## -see-also
+An application installs this hook procedure by specifying the **WH_GETMESSAGE** hook type and a pointer to the hook procedure in a call to the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function.
+
+## See also
 
 [CallNextHookEx](/windows/desktop/api/winuser/nf-winuser-callnexthookex)
 

@@ -1,5 +1,5 @@
 ---
-Description: Gets the index of an animation, given its name.
+description: Gets the index of an animation, given its name.
 ms.assetid: 6e91a4fe-3202-447b-b486-d29e8da64af2
 title: ID3DXAnimationSet::GetAnimationIndexByName method (D3dx9anim.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT GetAnimationIndexByName(
 *pName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Name of the animation.
 
@@ -48,7 +48,7 @@ Name of the animation.
 *pIndex* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Pointer to the animation index.
 
@@ -58,13 +58,13 @@ Pointer to the animation index.
 
 Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
-The return values of this method are implemented by an application programmer. In general, if no error occurs, program the method to return D3D\_OK. Otherwise, program the method to return an appropriate error message from [D3DERR](d3derr.md) or [**D3DXERR**](https://msdn.microsoft.com/library/Bb172825(v=VS.85).aspx).
+The return values of this method are implemented by an application programmer. In general, if no error occurs, program the method to return D3D\_OK. Otherwise, program the method to return an appropriate error message from [D3DERR](d3derr.md) or [**D3DXERR**](./d3dxerr.md).
 
 ## Requirements
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -81,7 +81,3 @@ The return values of this method are implemented by an application programmer. I
  
 
  
-
-
-
-

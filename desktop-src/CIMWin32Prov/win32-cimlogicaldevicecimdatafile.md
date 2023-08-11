@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_CIMLogicalDeviceCIMDataFile association WMI class relates logical devices and data files, indicating the driver files used by the device. This class is used to discover which device drivers a device uses.
+description: The Win32\_CIMLogicalDeviceCIMDataFile association WMI class relates logical devices and data files, indicating the driver files used by the device. This class is used to discover which device drivers a device uses.
 ms.assetid: 892272de-920d-4fa0-adbc-f584ed6e8748
 ms.tgt_platform: multiple
 title: Win32_CIMLogicalDeviceCIMDataFile class
@@ -22,7 +22,7 @@ api_location:
 
 # Win32\_CIMLogicalDeviceCIMDataFile class
 
-The **Win32\_CIMLogicalDeviceCIMDataFile** association [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) relates logical devices and data files, indicating the driver files used by the device. This class is used to discover which device drivers a device uses.
+The **Win32\_CIMLogicalDeviceCIMDataFile** association [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) relates logical devices and data files, indicating the driver files used by the device. This class is used to discover which device drivers a device uses.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -60,7 +60,7 @@ Data type: **CIM\_LogicalDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\|CIM\_LogicalDevice")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\|CIM\_LogicalDevice")
 </dt> </dl>
 
 A [**CIM\_LogicalDevice**](cim-logicaldevice.md) that represents the properties of the logical device that is being used by the data file.
@@ -76,7 +76,7 @@ Data type: **CIM\_DataFile**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\|CIM\_DataFile")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\|CIM\_DataFile")
 </dt> </dl>
 
 A [**CIM\_DataFile**](cim-datafile.md) that represents the properties of the data file assigned to the logical device.
@@ -92,7 +92,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("CIM")
 </dt> </dl>
 
 Role that the data file plays with regard to its associated logical device.
@@ -159,7 +159,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("CIM")
 </dt> </dl>
 
 Extends the value of the **Purpose** property of this class.
@@ -176,7 +176,7 @@ The **Win32\_CIMLogicalDeviceCIMDataFile** class is derived from [**CIM\_Depende
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -193,13 +193,8 @@ The **Win32\_CIMLogicalDeviceCIMDataFile** class is derived from [**CIM\_Depende
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
 

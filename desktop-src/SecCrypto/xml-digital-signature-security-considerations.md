@@ -1,5 +1,5 @@
 ---
-Description: Applications that sign and verify XML digital signatures should be written according to the following best practices to avoid denial of service attacks, data loss, and compromise of private information.
+description: Applications that sign and verify XML digital signatures should be written according to the following best practices to avoid denial of service attacks, data loss, and compromise of private information.
 ms.assetid: aa972946-9860-49c1-ae94-3f315684c291
 title: XML Digital Signature Security Considerations
 ms.topic: article
@@ -19,7 +19,7 @@ Applications that sign and verify XML digital signatures should be written accor
 
 ## Verify trust of the signing key
 
-Ensure that the signing key is trusted by verifying the corresponding [*X.509*](https://msdn.microsoft.com/library/ms721636(v=VS.85).aspx) certificate (and certificate chain) included in the signed message. Alternately, trust in the signing key can be established in an out-of-band fashion, such as an administrator configuring a set of trusted keys, or an application querying a trusted service over a secure channel.
+Ensure that the signing key is trusted by verifying the corresponding [*X.509*](../secgloss/x-gly.md) certificate (and certificate chain) included in the signed message. Alternately, trust in the signing key can be established in an out-of-band fashion, such as an administrator configuring a set of trusted keys, or an application querying a trusted service over a secure channel.
 
 ## First verify the signing key and validate SignedInfo, then validate references
 
@@ -41,7 +41,7 @@ If the application validates the signing key and the **SignedInfo** and **Refere
 
 Cryptographic algorithms become weaker over time as new attacks are discovered and more computing power becomes available. Do not hard code cryptographic algorithm identifiers or key sizes into your applications. For a more complete list of best cryptographic practices, see Michael Howard and Steve Lipner, "SDL Minimum Cryptographic Standards," in *The Security Development Lifecycle* (Redmond, Washington: Microsoft Press, 2006), 251–258.
 
-Additional best practices can be found on the W3C website: https://www.w3c.org.
+Additional best practices can be found on the W3C website: https://www.w3.org.
 
 > [!Note]  
 > These resources may not be available in some languages and countries or regions.
@@ -51,6 +51,3 @@ Additional best practices can be found on the W3C website: https://www.w3c.org.
  
 
  
-
-
-

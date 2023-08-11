@@ -1,18 +1,21 @@
 ---
-Description: Enumerating Effects and Transitions
+description: Enumerating Effects and Transitions
 ms.assetid: 364b7bfb-5d6e-4ca6-b0c8-7a0180c3f61a
 title: Enumerating Effects and Transitions
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Enumerating Effects and Transitions
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 \[This API is not supported and may be altered or unavailable in the future.\]
 
 DirectShow provides a [System Device Enumerator](system-device-enumerator.md) object for enumerating devices. You can use it to retrieve monikers for effects or transitions installed on the user's system.
 
-The system device enumerator exposes the [**ICreateDevEnum**](/windows/desktop/api/Strmif/nn-strmif-icreatedevenum) interface. It returns category enumerators for specified device categories. A category enumerator, in turn, exposes the [**IEnumMoniker**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienummoniker) interface and returns monikers for each device in the category. For a detailed discussion of using **ICreateDevEnum**, see [Enumerating Devices and Filters](enumerating-devices-and-filters.md). The following is a brief summary, specific to DirectShow Editing Services.
+The system device enumerator exposes the [**ICreateDevEnum**](/windows/desktop/api/Strmif/nn-strmif-icreatedevenum) interface. It returns category enumerators for specified device categories. A category enumerator, in turn, exposes the [**IEnumMoniker**](/windows/desktop/api/objidl/nn-objidl-ienummoniker) interface and returns monikers for each device in the category. For a detailed discussion of using **ICreateDevEnum**, see [Enumerating Devices and Filters](enumerating-devices-and-filters.md). The following is a brief summary, specific to DirectShow Editing Services.
 
 To enumerate effects or transitions, perform the following steps.
 
@@ -96,6 +99,3 @@ pCreateDevEnum->Release();
  
 
  
-
-
-

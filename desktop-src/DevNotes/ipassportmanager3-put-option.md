@@ -1,5 +1,5 @@
 ---
-Description: Sets a specific Microsoft .NET Passport sign-in option.
+description: Sets a specific Microsoft .NET Passport sign-in option.
 ms.assetid: 5ec79faa-1c74-42a4-b964-ea15edacda79
 title: IPassportManager3::put_Option method
 ms.topic: reference
@@ -19,7 +19,7 @@ api_location:
 Sets a specific Microsoft .NET Passport sign-in option.
 
 > [!Note]  
-> The **put\_Option** method belongs to the [**IPassportManager3**](https://msdn.microsoft.com/library/ms817681(v=MSDN.10).aspx) interface. This topic supplements the initial documentation.
+> The **put\_Option** method belongs to the [**IPassportManager3**](/previous-versions/ms817681(v=msdn.10)) interface. This topic supplements the initial documentation.
 
  
 
@@ -64,6 +64,3 @@ This method ships with older versions of the Passport SDK.
  
 
  
-
-
-

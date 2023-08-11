@@ -55,7 +55,7 @@ Returns a positive value if successful, or -1 otherwise. The following return va
 
 ## Remarks
 
-To retrieve extended error information, call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+To retrieve extended error information, call [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 The return value for this message is identical to what [**PropertySheet**](/windows/desktop/api/Prsht/nf-prsht-propertysheeta) returns for a modal property sheet.
 
@@ -72,7 +72,7 @@ For a modeless property sheet, your message loop should use [**PSM\_ISDIALOGMESS
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
@@ -81,10 +81,4 @@ For a modeless property sheet, your message loop should use [**PSM\_ISDIALOGMESS
 
 
  
-
- 
-
-
-
-
 

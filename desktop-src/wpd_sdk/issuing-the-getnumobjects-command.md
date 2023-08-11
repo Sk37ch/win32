@@ -1,5 +1,5 @@
 ---
-Description: Issuing the GetNumObjects Command
+description: Issuing the GetNumObjects Command
 ms.assetid: d06690e4-f592-4b17-a5f1-baec2accc8dd
 title: Issuing the GetNumObjects Command
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Issuing the GetNumObjects Command
 
-The example in this section invokes the **GetNumObjects** MTP command. (For a complete description of this command and its parameters, see the [MTP specification](http://www.usb.org/developers/devclass_docs/MTPv1_1.zip).)
+The example in this section invokes the **GetNumObjects** MTP command. (For a complete description of this command and its parameters, see the [MTP specification](https://www.usb.org/sites/default/files/MTPv1_1.zip).)
 
 Before you invoke this command, you must first set up the command parameters.
 

@@ -1,5 +1,5 @@
 ---
-Description: An application-defined function that handles callback access control entries (ACEs) during an access check.
+description: An application-defined function that handles callback access control entries (ACEs) during an access check.
 ms.assetid: e8a510e6-0739-4765-ad07-3bcb1b9c905c
 title: AuthzAccessCheckCallback callback function
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 
 # AuthzAccessCheckCallback callback function
 
-The **AuthzAccessCheckCallback** function is an application-defined function that handles callback [*access control entries*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACEs) during an access check. **AuthzAccessCheckCallback** is a placeholder for the application-defined function name. The application registers this callback by calling [**AuthzInitializeResourceManager**](/windows/desktop/api/Authz/nf-authz-authzinitializeresourcemanager).
+The **AuthzAccessCheckCallback** function is an application-defined function that handles callback [*access control entries*](/windows/desktop/SecGloss/a-gly) (ACEs) during an access check. **AuthzAccessCheckCallback** is a placeholder for the application-defined function name. The application registers this callback by calling [**AuthzInitializeResourceManager**](/windows/desktop/api/Authz/nf-authz-authzinitializeresourcemanager).
 
 ## Syntax
 
@@ -70,7 +70,7 @@ The results are **TRUE** if the logic determines that the ACE is applicable and 
 
 If the function succeeds, the function returns **TRUE**.
 
-If the function is unable to perform the evaluation, it returns **FALSE**. Use [**SetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) to return an error to the access check function.
+If the function is unable to perform the evaluation, it returns **FALSE**. Use [**SetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) to return an error to the access check function.
 
 ## Remarks
 
@@ -82,7 +82,7 @@ For more information, see the [How AccessCheck Works](how-dacls-control-access-t
 
 
 
-|                                     |                                                                        |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                   |
@@ -116,9 +116,4 @@ For more information, see the [How AccessCheck Works](how-dacls-control-access-t
 </dt> </dl>
 
  
-
- 
-
-
-
 

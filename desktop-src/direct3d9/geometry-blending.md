@@ -1,5 +1,5 @@
 ---
-Description: Direct3D enables an application to increase the realism of its scenes by rendering segmented polygonal objects - especially characters - that have smoothly blended joints.
+description: Direct3D enables an application to increase the realism of its scenes by rendering segmented polygonal objects - especially characters - that have smoothly blended joints.
 ms.assetid: 190d5865-c45b-42ea-8a16-10a4f0bda743
 title: Geometry Blending (Direct3D 9)
 ms.topic: article
@@ -67,7 +67,7 @@ Geometry blending in Direct3D presents an alternative to the classic segmented-m
 
 The [**IDirect3DDevice9::SetTransform**](/windows/desktop/api) method recognizes the [**D3DTS\_WORLD**](d3dts-world.md) and [**D3DTS\_WORLDn**](d3dts-worldn.md) macros, which correspond to values that can be defined by the [**D3DTS\_WORLDMATRIX**](d3dts-worldmatrix.md) macro. These macros are used to identify the matrices between which geometry will be blended.
 
-The [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/library/Bb172599(v=VS.85).aspx) enumerated type includes the D3DRS\_VERTEXBLEND render state to enable and control geometry blending. Valid values for this render state are defined by the [**D3DVERTEXBLENDFLAGS**](https://msdn.microsoft.com/library/Bb172628(v=VS.85).aspx) enumerated type. If geometry blending is enabled, the vertex format must include the appropriate number of blending weights.
+The [**D3DRENDERSTATETYPE**](./d3drenderstatetype.md) enumerated type includes the D3DRS\_VERTEXBLEND render state to enable and control geometry blending. Valid values for this render state are defined by the [**D3DVERTEXBLENDFLAGS**](./d3dvertexblendflags.md) enumerated type. If geometry blending is enabled, the vertex format must include the appropriate number of blending weights.
 
 ## Blending Weights
 
@@ -106,6 +106,3 @@ Additional information is contained in the following topics.
  
 
  
-
-
-

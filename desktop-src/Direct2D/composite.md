@@ -112,13 +112,13 @@ The figure here shows an example of each of the modes with images that have an o
 
 ## Sample code
 
-For an example of this effect, download the [Direct2D composite effect modes sample](https://code.msdn.microsoft.com/windowsapps/Direct2D-Image-Effects-4819dc5b).
+For an example of this effect, download the [Direct2D composite effect modes sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Direct2D%20composite%20effect%20modes%20sample).
 
 ## Requirements
 
 
 
-|                          |                                                                                    |
+| Requirement | Value |
 |--------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
@@ -133,14 +133,8 @@ For an example of this effect, download the [Direct2D composite effect modes sam
 
 <dl> <dt>
 
-[**ID2D1Effect**](https://msdn.microsoft.com/library/Hh404566(v=VS.85).aspx)
+[**ID2D1Effect**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1effect)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Windows 7 introduces libraries, which provide users with a single, coherent view of their files even when those files are stored in different locations.
+description: Windows 7 introduces libraries, which provide users with a single, coherent view of their files even when those files are stored in different locations.
 title: Windows Libraries
 ms.topic: article
 ms.date: 05/31/2018
@@ -37,7 +37,7 @@ This guide describes more about what libraries are, how programs can be made to 
 [**IShellLibrary**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary)
 </dt> <dt>
 
-[Shell Links](https://msdn.microsoft.com/library/Bb776891(v=VS.85).aspx)
+[Shell Links](./links.md)
 </dt> <dt>
 
 [Known Folders](known-folders.md)
@@ -49,6 +49,3 @@ This guide describes more about what libraries are, how programs can be made to 
  
 
  
-
-
-

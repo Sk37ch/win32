@@ -1,5 +1,5 @@
 ---
-Description: Converts a date in the VT\_DATE format to the CIM datetime format.
+description: Converts a date in the VT\_DATE format to the CIM datetime format.
 ms.assetid: 24c39d44-22ac-44ac-9e05-72a5b666ab19
 ms.tgt_platform: multiple
 title: SWbemDateTime.SetVarDate method (Wbemdisp.h)
@@ -61,7 +61,7 @@ This method does not return a value.
 
 ## Error codes
 
-After completing the **SetVarDate** method, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain the error code in the following list.
+After completing the **SetVarDate** method, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain the error code in the following list.
 
 <dl> <dt>
 
@@ -76,7 +76,7 @@ The format of *vdate* is not valid.
 
 After a successful call to **SetVarDate**, the [**DATETIME**](datetime.md) value is interpreted as an absolute datetime value instead of an interval, and the [**IsInterval**](swbemdatetime-isinterval.md) property is set to **FALSE**.
 
-The intrinsic Visual Basic or VBScript function [CDate](https://docs.microsoft.com/previous-versions//2dt118h2(v=vs.85)) provides a [**datetime**](datetime.md) value in the **VT\_DATE** format for input to **SetVarDate**.
+The intrinsic Visual Basic or VBScript function [CDate](/previous-versions//2dt118h2(v=vs.85)) provides a [**datetime**](datetime.md) value in the **VT\_DATE** format for input to **SetVarDate**.
 
 ## Examples
 
@@ -88,7 +88,7 @@ The [Convert Date to WMI Date-Time Format](https://Gallery.TechNet.Microsoft.Com
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -114,9 +114,4 @@ The [Convert Date to WMI Date-Time Format](https://Gallery.TechNet.Microsoft.Com
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Executes a query to retrieve objects.
+description: SWbemServices.ExecQuery method - Executes a query to retrieve objects.
 ms.assetid: 06b9d4c9-cd72-49b2-92b0-d18d94dfbd9f
 ms.tgt_platform: multiple
 title: SWbemServices.ExecQuery method (Wbemdisp.h)
@@ -144,7 +144,7 @@ If no error occurs, this method returns an [**SWbemObjectSet**](swbemobjectset.m
 
 ## Error codes
 
-After the completion of the **ExecQuery** method, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object can contain one of the error codes in the following list.
+After the completion of the **ExecQuery** method, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object can contain one of the error codes in the following list.
 
 <dl> <dt>
 
@@ -231,7 +231,7 @@ Next
 
 Other [**SWbemServices**](swbemservices.md) methods that return an [**SWbemObjectSet**](swbemobjectset.md) include [**AssociatorsOf**](swbemservices-associatorsof.md), [**ReferencesTo**](swbemservices-referencesto.md), and [**SubclassesOf**](swbemservices-subclassesof.md).
 
-It is not an error for the query to return an empty result set. The **ExecQuery** method returns key properties whether or not the key property is requested in the *strQuery* argument. If an error occurs when executing this method and you do not use the **wbemFlagReturnImmediately** flag, the [Err](https://msdn.microsoft.com/library/sbf5ze0e.aspx) object is not set until you attempt to access the returned object set. However, if you use the **wbemFlagReturnWhenComplete** flag, the Err object is set when the **ExecQuery** method is called.
+It is not an error for the query to return an empty result set. The **ExecQuery** method returns key properties whether or not the key property is requested in the *strQuery* argument. If an error occurs when executing this method and you do not use the **wbemFlagReturnImmediately** flag, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object is not set until you attempt to access the returned object set. However, if you use the **wbemFlagReturnWhenComplete** flag, the Err object is set when the **ExecQuery** method is called.
 
 There are limits to the number of **AND** and **OR** keywords that can be used in WQL queries. Large numbers of WQL keywords that are used in a complex query can cause WMI to return the **WBEM\_E\_QUOTA\_VIOLATION** error code as an **HRESULT** value. The limit of WQL keywords depends on how complex the query is.
 
@@ -270,7 +270,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -302,9 +302,4 @@ Next
 </dt> </dl>
 
  
-
- 
-
-
-
 

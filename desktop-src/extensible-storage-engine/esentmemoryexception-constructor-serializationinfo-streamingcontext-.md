@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMemoryException constructor (SerializationInfo, StreamingContext)"
 title: EsentMemoryException constructor (SerializationInfo, StreamingContext)
 TOCTitle: EsentMemoryException constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMemoryException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentMemoryException class. This constructor is used to deserialize a serialized exception.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -54,14 +55,14 @@ protected EsentMemoryException(
 #### Parameters
 
   - info  
-    Type: [System.Runtime.Serialization.SerializationInfo](https://docs.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo?redirectedfrom=MSDN)  
+    Type: [System.Runtime.Serialization.SerializationInfo](/dotnet/api/system.runtime.serialization.serializationinfo)  
     
     The data needed to deserialize the object.
 
 <!-- end list -->
 
   - context  
-    Type: [System.Runtime.Serialization.StreamingContext](https://docs.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext?redirectedfrom=MSDN)  
+    Type: [System.Runtime.Serialization.StreamingContext](/dotnet/api/system.runtime.serialization.streamingcontext)  
     
     The deserialization context.
 
@@ -69,11 +70,10 @@ protected EsentMemoryException(
 
 #### Reference
 
-[EsentMemoryException class](dn334636\(v=exchg.10\).md)
+[EsentMemoryException class](./esentmemoryexception-class.md)
 
-[EsentMemoryException members](dn334695\(v=exchg.10\).md)
+[EsentMemoryException members](./esentmemoryexception-members.md)
 
-[EsentMemoryException overload](dn334697\(v=exchg.10\).md)
+[EsentMemoryException overload](./esentmemoryexception-constructor.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

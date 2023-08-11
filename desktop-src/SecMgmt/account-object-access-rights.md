@@ -1,5 +1,5 @@
 ---
-Description: The Account Object Access Rights type has the following access types.
+description: The Account Object Access Rights type has the following access types.
 ms.assetid: 42fb22bb-8135-4a8f-bce6-e767d6c5aaea
 title: Account Object Access Rights
 ms.topic: article
@@ -14,7 +14,7 @@ The Account Object Access Rights type has the following access types.
 
 | Access type                     | Description                                                                                                                                                                                                                                           |
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ACCOUNT\_VIEW                   | This access type is required to read the account information. This includes the [*privileges*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) assigned to the account, memory quotas assigned, and any special access types granted. |
+| ACCOUNT\_VIEW                   | This access type is required to read the account information. This includes the [*privileges*](/windows/desktop/SecGloss/p-gly) assigned to the account, memory quotas assigned, and any special access types granted. |
 | ACCOUNT\_ADJUST\_PRIVILEGES     | This access type is required to assign privileges to or remove privileges from an account.                                                                                                                                                            |
 | ACCOUNT\_ADJUST\_QUOTAS         | This access type is required to change the system quotas assigned to an account.                                                                                                                                                                      |
 | ACCOUNT\_ADJUST\_SYSTEM\_ACCESS | This access type is required to update the system access flags for the account.                                                                                                                                                                       |
@@ -54,6 +54,3 @@ This object does not support the (optional) SYNCHRONIZE standard access type. Al
  
 
  
-
-
-

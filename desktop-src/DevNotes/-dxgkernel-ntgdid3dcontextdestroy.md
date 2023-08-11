@@ -1,5 +1,5 @@
 ---
-Description: Deletes the specified context.
+description: Deletes the specified context.
 ms.assetid: ac113178-bdb6-4601-940d-6b00b339904d
 title: NtGdiD3DContextDestroy function (Ntgdi.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ DWORD APIENTRY NtGdiD3DContextDestroy(
 *pContextDestroyData* \[in\]
 </dt> <dd>
 
-Pointer to a [**D3DNTHAL\_CONTEXTDESTROYDATA**](https://msdn.microsoft.com/library/Ff549031(v=VS.85).aspx) structure that contains the information required for the driver to destroy the context.
+Pointer to a [**D3DNTHAL\_CONTEXTDESTROYDATA**](/windows-hardware/drivers/ddi/) structure that contains the information required for the driver to destroy the context.
 
 </dd> </dl>
 
@@ -62,7 +62,7 @@ Pointer to a [**D3DNTHAL\_CONTEXTDESTROYDATA**](https://msdn.microsoft.com/libra
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
@@ -80,7 +80,3 @@ Pointer to a [**D3DNTHAL\_CONTEXTDESTROYDATA**](https://msdn.microsoft.com/libra
  
 
  
-
-
-
-

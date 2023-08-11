@@ -1,5 +1,5 @@
 ---
-Description: Determines whether the user has all of the required permissions specified in the Permissions parameter for the Win32\_Directory object, directory, and share where the directory entry file is located (if the file or directory are on a share).
+description: Determines whether the user has all of the required permissions specified in the Permissions parameter for the Win32\_Directory object, directory, and share where the directory entry file is located (if the file or directory are on a share).
 ms.assetid: ece22cb0-a4ca-4ad7-b6d3-213dda4ce5b1
 ms.tgt_platform: multiple
 title: GetEffectivePermission method of the Win32_Directory class (Aclui.h)
@@ -18,9 +18,9 @@ api_location:
 
 # GetEffectivePermission method of the Win32\_Directory class
 
-The [**GetEffectivePermission**](geteffectivepermission-method-in-class-win32-shortcutfile.md) [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method determines whether the user has all of the required permissions specified in the *Permissions* parameter for the [**Win32\_Directory**](win32-directory.md) object, directory, and share where the directory entry file is located (if the file or directory are on a share).
+The [**GetEffectivePermission**](geteffectivepermission-method-in-class-win32-shortcutfile.md) [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method determines whether the user has all of the required permissions specified in the *Permissions* parameter for the [**Win32\_Directory**](win32-directory.md) object, directory, and share where the directory entry file is located (if the file or directory are on a share).
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -206,7 +206,7 @@ Returns **True** when the caller has the specified permissions, and **false** wh
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -221,16 +221,11 @@ Returns **True** when the caller has the specified permissions, and **false** wh
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_Directory**](win32-directory.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

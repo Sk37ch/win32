@@ -1,5 +1,5 @@
 ---
-Description: This topic demonstrates how to modify the pixels of a bitmap source using the IWICBitmap and IWICBitmapLock components.
+description: This topic demonstrates how to modify the pixels of a bitmap source using the IWICBitmap and IWICBitmapLock components.
 ms.assetid: a08af015-bc42-4a31-af03-106714b08d08
 title: How to Modify the Pixels of a Bitmap Source
 ms.topic: article
@@ -75,7 +75,7 @@ To modify the pixels of a bitmap source
     {
        hr = m_pIWICFactory->CreateBitmapFromSource(
           pIDecoderFrame,          // Create a bitmap from the image frame
-          WICBitmapCacheOnDemand,  // Cache metadata when needed
+          WICBitmapCacheOnDemand,  // Cache bitmap pixels on first access
           &pIBitmap);              // Pointer to the bitmap
     }
     ```
@@ -120,7 +120,7 @@ To modify the pixels of a bitmap source
 
     
 
-    To unlock the [**IWICBitmap**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap), call [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(VS.85).aspx) on all [**IWICBitmapLock**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmaplock) objects associated with the **IWICBitmap**.
+    To unlock the [**IWICBitmap**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap), call [IUnknown::Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) on all [**IWICBitmapLock**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmaplock) objects associated with the **IWICBitmap**.
 
 7.  Clean up created objects.
 
@@ -146,6 +146,3 @@ To modify the pixels of a bitmap source
  
 
  
-
-
-

@@ -1,6 +1,6 @@
 ---
 title: Texture3D::GetDimensions function
-description: Returns the dimensions of the resource.
+description: Returns the dimensions of the resource. | Texture3D::GetDimensions function
 ms.assetid: 4a08f14f-7489-4ed1-bf94-4f63f1002eab
 keywords:
 - GetDimensions function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GetDimensions function
+# Texture3D::GetDimensions function
 
 Returns the dimensions of the resource.
 
@@ -38,7 +38,7 @@ void GetDimensions(
 *MipLevel* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 Optional. Mipmap level (must be specified if *NumberOfLevels* is used).
 
@@ -47,7 +47,7 @@ Optional. Mipmap level (must be specified if *NumberOfLevels* is used).
 *Width* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The resource width, in texels.
 
@@ -56,7 +56,7 @@ The resource width, in texels.
 *Height* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The resource height, in texels.
 
@@ -65,7 +65,7 @@ The resource height, in texels.
 *Depth* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The resource depth, in texels.
 
@@ -74,7 +74,7 @@ The resource depth, in texels.
 *NumberOfLevels* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The number of mipmap levels (requires *MipLevel* also).
 
@@ -138,7 +138,3 @@ This function is supported for the following types of shaders:
  
 
  
-
-
-
-

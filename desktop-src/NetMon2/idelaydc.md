@@ -1,5 +1,5 @@
 ---
-Description: The IDelaydC interface provides the methods used to connect to the network, capture network traffic to a capture file, retrieve statistics, and disconnect from the network.
+description: The IDelaydC interface provides the methods used to connect to the network, capture network traffic to a capture file, retrieve statistics, and disconnect from the network.
 ms.assetid: ab275653-2377-4af6-a810-48515962c88c
 title: IDelaydC interface (Netmon.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ This interface captures frames from the network data stream and then copies the 
 
 ## Members
 
-The **IDelaydC** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDelaydC** also has these types of members:
+The **IDelaydC** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDelaydC** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -57,7 +57,7 @@ The **IDelaydC** interface has these methods.
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
@@ -67,9 +67,4 @@ The **IDelaydC** interface has these methods.
 
 
  
-
- 
-
-
-
 

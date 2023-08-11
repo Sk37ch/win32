@@ -1,12 +1,15 @@
 ---
-Description: This topic is step 4 of the tutorial Audio/Video Playback in DirectShow.
+description: This topic is step 4 of the tutorial Audio/Video Playback in DirectShow.
 ms.assetid: 34f35a95-1981-4467-a581-46db96c05224
 title: 'Step 4: Add the Video Renderer'
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Step 4: Add the Video Renderer
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This topic is step 4 of the tutorial [Audio/Video Playback in DirectShow](audio-video-playback-in-directshow.md). The complete code is shown in the topic [DirectShow Playback Example](directshow-playback-example.md).
 
@@ -110,10 +113,10 @@ done:
 
 The `InitializeEVR` function initializes the EVR filter. This function performs the following steps.
 
-1.  Queries the filter for the [**IMFGetService**](https://msdn.microsoft.com/library/ms694261(v=VS.85).aspx) interface.
-2.  Calls [**IMFGetService::GetService**](https://msdn.microsoft.com/library/ms696978(v=VS.85).aspx) to get a pointer to the [**IMFVideoDisplayControl**](https://msdn.microsoft.com/library/ms704002(v=VS.85).aspx) interface.
-3.  Calls [**IMFVideoDisplayControl::SetVideoWindow**](https://msdn.microsoft.com/library/ms697051(v=VS.85).aspx) to set the video window.
-4.  Calls [**IMFVideoDisplayControl::SetAspectRatioMode**](https://msdn.microsoft.com/library/ms704027(v=VS.85).aspx) to configure the EVR to preserve the video aspect ratio.
+1.  Queries the filter for the [**IMFGetService**](/windows/win32/api/mfidl/nn-mfidl-imfgetservice) interface.
+2.  Calls [**IMFGetService::GetService**](/windows/win32/api/mfidl/nf-mfidl-imfgetservice-getservice) to get a pointer to the [**IMFVideoDisplayControl**](/windows/win32/api/evr/nn-evr-imfvideodisplaycontrol) interface.
+3.  Calls [**IMFVideoDisplayControl::SetVideoWindow**](/windows/win32/api/evr/nf-evr-imfvideodisplaycontrol-setvideowindow) to set the video window.
+4.  Calls [**IMFVideoDisplayControl::SetAspectRatioMode**](/windows/win32/api/evr/nf-evr-imfvideodisplaycontrol-setaspectratiomode) to configure the EVR to preserve the video aspect ratio.
 
 The following code shows the `InitializeEVR` function.
 
@@ -463,7 +466,7 @@ done:
 [DirectShow Playback Example](directshow-playback-example.md)
 </dt> <dt>
 
-[Using the DirectShow EVR Filter](https://msdn.microsoft.com/library/Aa965247(v=VS.85).aspx)
+[Using the DirectShow EVR Filter](../medfound/using-the-directshow-evr-filter.md)
 </dt> <dt>
 
 [Using the Video Mixing Renderer](using-the-video-mixing-renderer.md)
@@ -472,6 +475,3 @@ done:
  
 
  
-
-
-

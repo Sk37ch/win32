@@ -14,10 +14,13 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
-# DRM\_LICENSE\_STATE\_DATA structure
+# DRM_LICENSE_STATE_DATA structure (Drmexternals.h)
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The **DRM\_LICENSE\_STATE\_DATA** structure contains [*license*](wmformat-glossary.md) information about a specified [*DRM*](wmformat-glossary.md) right.
 
@@ -105,7 +108,7 @@ Zero or more of the following flags combined with a bitwise **OR**:
 
 ## Remarks
 
-This structure is returned (encapsulated in a [**WM\_LICENSE\_STATE\_DATA**](https://msdn.microsoft.com/library/Dd757942(v=VS.85).aspx) structure) from a call to [**IWMDRMReader::GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty) when you specify one of the DRM license state properties. These properties are:
+This structure is returned (encapsulated in a [**WM\_LICENSE\_STATE\_DATA**](/previous-versions/windows/desktop/legacy/dd757942(v=vs.85)) structure) from a call to [**IWMDRMReader::GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty) when you specify one of the DRM license state properties. These properties are:
 
 -   [**DRM\_LicenseState\_Playback**](drm-licensestate-playback.md)
 -   [**DRM\_LicenseState\_CopyToCD**](drm-licensestate-copytocd.md)
@@ -125,7 +128,7 @@ In some cases, users may have been issued more than one license for a file. For 
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                      |
@@ -142,10 +145,4 @@ In some cases, users may have been issued more than one license for a file. For 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Adds a Certificate object to an open certificate store.
+description: Adds a Certificate object to an open certificate store.
 ms.assetid: 787b8a41-dcdb-4b5b-a1fd-f5424300361b
 title: Store.Add method
 ms.topic: reference
@@ -17,9 +17,9 @@ api_location:
 
 # Store.Add method
 
-\[The **Add** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](https://msdn.microsoft.com/library/Hh424027(v=MSDN.10).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[The **Add** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](/previous-versions/windows/embedded/hh424027(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
-The **Add** method adds a [**Certificate**](certificate.md) object to an open [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx). This method can only be used with a store that has been opened with read/write permission.
+The **Add** method adds a [**Certificate**](certificate.md) object to an open [*certificate store*](../secgloss/c-gly.md). This method can only be used with a store that has been opened with read/write permission.
 
 ## Syntax
 
@@ -62,7 +62,7 @@ If the certificate being added to the store is the same as one that is already t
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
@@ -82,7 +82,3 @@ If the certificate being added to the store is the same as one that is already t
  
 
  
-
-
-
-

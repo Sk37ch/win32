@@ -1,5 +1,5 @@
 ---
-Description: The ID3DXSprite interface provides a set of methods that simplify the process of drawing sprites using Microsoft Direct3D.
+description: The ID3DXSprite interface provides a set of methods that simplify the process of drawing sprites using Microsoft Direct3D.
 ms.assetid: ccf34fac-91a7-4734-bc62-aedaf4d66522
 title: ID3DXSprite interface (D3dx9core.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ The ID3DXSprite interface provides a set of methods that simplify the process of
 
 ## Members
 
-The **ID3DXSprite** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXSprite** also has these types of members:
+The **ID3DXSprite** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ID3DXSprite** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -70,7 +70,7 @@ typedef interface ID3DXSprite *LPD3DXSPRITE;
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -87,7 +87,3 @@ typedef interface ID3DXSprite *LPD3DXSPRITE;
  
 
  
-
-
-
-

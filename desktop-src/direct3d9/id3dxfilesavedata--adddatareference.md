@@ -1,5 +1,5 @@
 ---
-Description: Adds a data reference as a child of this ID3DXFileSaveData file data node. The data reference points to a file data object.
+description: Adds a data reference as a child of this ID3DXFileSaveData file data node. The data reference points to a file data object.
 ms.assetid: 75bfe91e-15ea-41f3-b1f7-071fb7f0093f
 title: ID3DXFileSaveData::AddDataReference method (D3DX9Xof.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT AddDataReference(
 *szName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Pointer to the name of the data object to add by reference. Specify **NULL** if the data object does not have a name.
 
@@ -68,7 +68,7 @@ The file data object being referenced must have either a name or a GUID. The fil
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |
@@ -85,7 +85,3 @@ The file data object being referenced must have either a name or a GUID. The fil
  
 
  
-
-
-
-

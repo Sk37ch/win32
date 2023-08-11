@@ -21,13 +21,13 @@ ms.date: 05/31/2018
 Indicates whether Active Directory will store the password in the reversible encryption format. True if the password is stored in the reversible encryption format; otherwise, False.
 
 > [!Note]  
-> This attribute is not used by [Active Directory Lightweight Directory Services](https://docs.microsoft.com/previous-versions/windows/desktop/adam/active-directory-lightweight-directory-services) and is only included for completeness/parity with userAccountControl. AD LDS does not store passwords with reversible encryption, regardless of this attribute's value on any given object or the computer security policy pertaining to reversible encryption on the computer itself.
+> This attribute is not used by [Active Directory Lightweight Directory Services](/previous-versions/windows/desktop/adam/active-directory-lightweight-directory-services) and is only included for completeness/parity with userAccountControl. AD LDS does not store passwords with reversible encryption, regardless of this attribute's value on any given object or the computer security policy pertaining to reversible encryption on the computer itself.
 
  
 
 
 
-|                   |                                            |
+| Entry | Value |
 |-------------------|--------------------------------------------|
 | CN                | ms-DS-User-Encrypted-Text-Password-Allowed |
 | Ldap-Display-Name | ms-DS-UserEncryptedTextPasswordAllowed     |
@@ -48,7 +48,7 @@ Indicates whether Active Directory will store the password in the reversible enc
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -67,13 +67,7 @@ Indicates whether Active Directory will store the password in the reversible enc
 
 ## Remarks
 
-In ADAM, this attribute replaces the [**ADS\_UF\_ENCRYPTED\_TEXT\_PASSWORD\_ALLOWED**](https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-ads_user_flag) flag of the [**userAccountControl**](a-useraccountcontrol.md) attribute.
+In ADAM, this attribute replaces the [**ADS\_UF\_ENCRYPTED\_TEXT\_PASSWORD\_ALLOWED**](/windows/desktop/api/iads/ne-iads-ads_user_flag_enum) flag of the [**userAccountControl**](a-useraccountcontrol.md) attribute.
 
  
-
- 
-
-
-
-
 

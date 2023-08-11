@@ -1,5 +1,5 @@
 ---
-Description: Get information about an image already loaded into memory.
+description: Get information about an image already loaded into memory.
 ms.assetid: 6750116a-ad4f-4102-aba9-6ef32c367be4
 title: D3DX10GetImageInfoFromMemory function (D3DX10Tex.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ HRESULT D3DX10GetImageInfoFromMemory(
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](../winprog/windows-data-types.md)**
 
 Pointer to the image in memory.
 
@@ -51,7 +51,7 @@ Pointer to the image in memory.
 *SrcDataSize* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**SIZE\_T**](../winprog/windows-data-types.md)**
 
 Size of the image in memory, in bytes.
 
@@ -94,7 +94,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>  |
@@ -111,7 +111,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

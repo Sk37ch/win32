@@ -1,5 +1,5 @@
 ---
-Description: Returns the driver level.
+description: Returns the driver level.
 ms.assetid: e8c85201-7850-4c8d-a124-ceb76d4e24d5
 title: D3DXGetDriverLevel function (D3dx9core.h)
 ms.topic: reference
@@ -38,15 +38,15 @@ UINT D3DXGetDriverLevel(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface representing the device.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface representing the device.
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The driver level. See remarks.
 
@@ -62,7 +62,7 @@ This method returns the driver version, which is one of the following:
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -79,7 +79,3 @@ This method returns the driver version, which is one of the following:
  
 
  
-
-
-
-

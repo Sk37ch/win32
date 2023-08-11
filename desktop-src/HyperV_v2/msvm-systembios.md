@@ -1,5 +1,5 @@
 ---
-Description: Used to associate a virtual machine with its BIOS.
+description: Used to associate a virtual machine with its BIOS.
 ms.assetid: 494E9D9F-64D5-49D5-A6C7-ABE469ABA4CA
 title: Msvm_SystemBIOS class
 ms.topic: reference
@@ -55,7 +55,7 @@ Data type: **[**CIM\_ComputerSystem**](msvm-computersystem.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 The virtual machine that starts from the BIOS.
@@ -71,7 +71,7 @@ Data type: **[**Msvm\_BIOSElement**](msvm-bioselement.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
 </dt> </dl>
 
 The BIOS associated with the virtual machine.
@@ -80,13 +80,13 @@ The BIOS associated with the virtual machine.
 
 ## Remarks
 
-Access to the **Msvm\_SystemBIOS** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_SystemBIOS** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -107,9 +107,4 @@ Access to the **Msvm\_SystemBIOS** class might be restricted by UAC Filtering. F
 </dt> </dl>
 
  
-
- 
-
-
-
 

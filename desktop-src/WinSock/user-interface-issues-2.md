@@ -1,5 +1,5 @@
 ---
-Description: One of the most obvious changes from IPv4 to IPv6 is the size of the IP address. Many user interfaces provide dialog boxes that enable a user to enter an IP address, as exemplified in the following figure.
+description: One of the most obvious changes from IPv4 to IPv6 is the size of the IP address. Many user interfaces provide dialog boxes that enable a user to enter an IP address, as exemplified in the following figure.
 ms.assetid: e2d7fd41-297a-400b-ae59-5d67db2be6f6
 title: User Interface Issues for IPv6 Winsock Applications
 ms.topic: article
@@ -53,7 +53,7 @@ There are other considerations as well, and developers should carefully consider
 Best Practices
 
 -   Developers must consider the appropriate approach to each user interface when modifying their application to support IPv6. Ensuring that the user interface contains sufficient length to display IPv6 addresses is imperative, as is determining whether that address is number or name based.
--   Whenever possible, use existing Winsock and IP Helper functions when using IPv6 addresses rather than re-implementing this logic. For example, the [**RtlIpv6AddressToString**](https://msdn.microsoft.com/library/Aa814460(v=VS.85).aspx), [**RtlIpv6AddressToStringEx**](https://msdn.microsoft.com/library/Aa814461(v=VS.85).aspx), [**RtlIpv6StringToAddress**](https://msdn.microsoft.com/library/Aa814462(v=VS.85).aspx), and [**RtlIpv6StringToAddressEx**](https://msdn.microsoft.com/library/Aa814463(v=VS.85).aspx) functions can be used to convert between IPv6 addresses and string representations of these IPv6 addresses.
+-   Whenever possible, use existing Winsock and IP Helper functions when using IPv6 addresses rather than re-implementing this logic. For example, the [**RtlIpv6AddressToString**](/windows/win32/api/ip2string/nf-ip2string-rtlipv6addresstostringa), [**RtlIpv6AddressToStringEx**](/windows/win32/api/ip2string/nf-ip2string-rtlipv6addresstostringexw), [**RtlIpv6StringToAddress**](/windows/win32/api/ip2string/nf-ip2string-rtlipv6stringtoaddressa), and [**RtlIpv6StringToAddressEx**](/windows/win32/api/ip2string/nf-ip2string-rtlipv6stringtoaddressexw) functions can be used to convert between IPv6 addresses and string representations of these IPv6 addresses.
 
 Code To Avoid
 
@@ -93,6 +93,3 @@ Coding Tasks
  
 
  
-
-
-

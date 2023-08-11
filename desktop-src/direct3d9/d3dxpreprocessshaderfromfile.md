@@ -1,5 +1,5 @@
 ---
-Description: Preprocesses a shader file without performing compilation. This resolves all \#defines and \#includes, providing a self-contained shader for subsequent compilation.
+description: Preprocesses a shader file without performing compilation. This resolves all \#defines and \#includes, providing a self-contained shader for subsequent compilation.
 ms.assetid: 1be68cc0-b4a3-41b4-b956-b96ed439be9e
 title: D3DXPreprocessShaderFromFile function (D3DX9Shader.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ api_location:
 Preprocesses a shader file without performing compilation. This resolves all \#defines and \#includes, providing a self-contained shader for subsequent compilation.
 
 > [!Note]  
-> Instead of using this legacy function, we recommend that you use the [**D3DPreprocess**](https://msdn.microsoft.com/library/Dd607332(v=VS.85).aspx) API.
+> Instead of using this legacy function, we recommend that you use the [**D3DPreprocess**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dpreprocess) API.
 
  
 
@@ -47,7 +47,7 @@ HRESULT D3DXPreprocessShaderFromFile(
 *pSrcFile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Pointer to a string that specifies the filename of the shader.
 
@@ -99,7 +99,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -122,7 +122,3 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
  
 
  
-
-
-
-

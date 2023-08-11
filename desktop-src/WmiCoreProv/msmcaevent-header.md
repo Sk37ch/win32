@@ -1,5 +1,5 @@
 ---
-Description: Represents the common header that all MSMCAEvent classes use. This class is available only in 64-bit Windows systems.
+description: Represents the common header that all MSMCAEvent classes use. This class is available only in 64-bit Windows systems.
 ms.assetid: ff20522c-f805-47dc-bef2-4176211de698
 title: MSMCAEvent_Header class
 ms.topic: reference
@@ -128,7 +128,7 @@ Access type: Read-only
 
 Record identifier of the error record for this error.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/previous-versions//aa393262(v=vs.85)).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> <dt>
 
@@ -149,7 +149,7 @@ Type of event log message. These messages correspond to the event log message co
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
@@ -166,13 +166,8 @@ Type of event log message. These messages correspond to the event log message co
 [MSMCA Classes](msmca-classes.md)
 </dt> <dt>
 
-[WMI C++ Classes](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-c-classes)
+[WMI C++ Classes](/windows/desktop/WmiSdk/wmi-c-classes)
 </dt> </dl>
 
  
-
- 
-
-
-
 

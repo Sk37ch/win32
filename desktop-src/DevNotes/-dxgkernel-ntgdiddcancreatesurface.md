@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the driver can create a surface of the specified surface description.
+description: Indicates whether the driver can create a surface of the specified surface description.
 ms.assetid: 4626163b-3070-4246-9a04-0b3438fc7057
 title: NtGdiDdCanCreateSurface function (Ntgdi.h)
 ms.topic: reference
@@ -43,14 +43,14 @@ DWORD APIENTRY NtGdiDdCanCreateSurface(
 *hDirectDraw* \[in\]
 </dt> <dd>
 
-Handle to the [**DD\_DIRECTDRAW\_GLOBAL**](https://msdn.microsoft.com/library/Ff550586(v=VS.85).aspx) structure representing the DirectDraw object.
+Handle to the [**DD\_DIRECTDRAW\_GLOBAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_directdraw_global) structure representing the DirectDraw object.
 
 </dd> <dt>
 
 *puCanCreateSurfaceData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_CANCREATESURFACEDATA**](https://msdn.microsoft.com/library/Ff550501(v=VS.85).aspx) structure containing the information required for the driver to determine whether a surface can be created.
+Pointer to a [**DD\_CANCREATESURFACEDATA**](/windows/win32/api/ddrawint/ns-ddrawint-dd_cancreatesurfacedata) structure containing the information required for the driver to determine whether a surface can be created.
 
 </dd> </dl>
 
@@ -73,7 +73,7 @@ Pointer to a [**DD\_CANCREATESURFACEDATA**](https://msdn.microsoft.com/library/F
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
@@ -91,7 +91,3 @@ Pointer to a [**DD\_CANCREATESURFACEDATA**](https://msdn.microsoft.com/library/F
  
 
  
-
-
-
-

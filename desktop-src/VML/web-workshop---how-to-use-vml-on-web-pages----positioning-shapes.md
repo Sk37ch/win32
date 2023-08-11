@@ -1,6 +1,6 @@
 ---
 title: Positioning Shapes
-description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
+description: This article describes positioning shapes in VML, a feature that is deprecated as of Windows Internet Explorer 9.
 ms.assetid: dbd68f54-201a-48dc-a3a9-a8dd42178c11
 keywords:
 - Web workshop,positioning shapes
@@ -43,13 +43,13 @@ ms.date: 05/31/2018
 This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).
 
  
 
 You've learned how to draw and color shapes on a Web page using VML. In this topic, you'll use VML to precisely position graphics on a Web page.
 
-VML uses the same syntax defined in the [Box Model](https://www.w3.org/TR/PR-CSS2/box.mdl) and [Visual Rendering Model](https://www.w3.org/TR/PR-CSS2/visuren.mdl) sections of [CSS2](https://www.w3.org/TR/PR-CSS2/) to position shapes on a Web page. You can use [static](#static), [relative](#relative), or [absolute](#absolute) to determine where the base point is located on a Web page. You can then use the **top** and **left** style attributes to specify the offset from the base point at which the containing box for the shape will be positioned.
+VML uses the same syntax defined in the [Box Model](https://www.w3.org/TR/CSS2/box.html) and [Visual Rendering Model](https://www.w3.org/TR/CSS2/visuren.html) sections of [CSS2](https://www.w3.org/TR/PR-CSS2/) to position shapes on a Web page. You can use [static](#static), [relative](#relative), or [absolute](#absolute) to determine where the base point is located on a Web page. You can then use the **top** and **left** style attributes to specify the offset from the base point at which the containing box for the shape will be positioned.
 
 You can also use [z-index](#z-index) to specify the z-order of shapes on a Web page.
 
@@ -237,7 +237,3 @@ Based on what you've learned, you can precisely position a shape on a Web page b
  
 
  
-
-
-
-

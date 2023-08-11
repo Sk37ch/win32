@@ -1,5 +1,5 @@
 ---
-Description: Process some data.
+description: Process some data.
 ms.assetid: c64f6a2d-4512-4028-8ed9-bfc5e9e86758
 title: ID3DX10DataProcessor::Process method (D3DX10.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Pointer to the data to be processed.
 *cBytes* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**SIZE\_T**](../winprog/windows-data-types.md)**
 
 Size of the data to be processed.
 
@@ -64,7 +64,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -84,7 +84,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

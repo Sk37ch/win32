@@ -1,5 +1,5 @@
 ---
-Description: Initiate the rendering of a spherical environment map.
+description: Initiate the rendering of a spherical environment map.
 ms.assetid: b0634120-f5ad-48b3-979a-30b0a53d22a2
 title: ID3DXRenderToEnvMap::BeginSphere method (D3dx9core.h)
 ms.topic: reference
@@ -38,9 +38,9 @@ HRESULT BeginSphere(
 *pTex* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9)**
 
-Pointer to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx) interface that represents the texture to which to render.
+Pointer to an [**IDirect3DTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9) interface that represents the texture to which to render.
 
 </dd> </dl>
 
@@ -58,7 +58,7 @@ See [**ID3DXRenderToEnvMap::Face**](id3dxrendertoenvmap--face.md) to draw the fa
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -78,7 +78,3 @@ See [**ID3DXRenderToEnvMap::Face**](id3dxrendertoenvmap--face.md) to draw the fa
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: COM+ Contexts and Threading Models
+description: COM+ Contexts and Threading Models
 ms.assetid: 50ccf75e-2652-4254-a771-af83cc9248b3
 title: COM+ Contexts and Threading Models
 ms.topic: article
@@ -17,12 +17,9 @@ The following topics discuss COM+ contexts and how COM+ uses the COM threading m
 
 <dl> <dt>
 
-[Processes, Threads, and Apartments](https://docs.microsoft.com/windows/desktop/com/processes--threads--and-apartments)
+[Processes, Threads, and Apartments](/windows/desktop/com/processes--threads--and-apartments)
 </dt> </dl>
 
  
 
  
-
-
-

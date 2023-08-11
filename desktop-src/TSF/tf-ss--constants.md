@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # TF\_SS\_\* Constants
 
-The TF\_SS\_\* constants, defined before run time in the [**TF\_STATUS**](https://msdn.microsoft.com/library/ms629192(v=VS.85).aspx) structure, describe static document states.
+The TF\_SS\_\* constants, defined before run time in the [**TF\_STATUS**](/previous-versions/windows/desktop/legacy/ms629192(v=vs.85)) structure, describe static document states.
 
 
 
@@ -42,7 +42,7 @@ The **dwStaticFlags** member of the TF\_STATUS structure uses these constants.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
@@ -56,14 +56,8 @@ The **dwStaticFlags** member of the TF\_STATUS structure uses these constants.
 
 <dl> <dt>
 
-[**TF\_STATUS**](https://msdn.microsoft.com/library/ms629192(v=VS.85).aspx)
+[**TF\_STATUS**](/previous-versions/windows/desktop/legacy/ms629192(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

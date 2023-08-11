@@ -1,4 +1,5 @@
 ---
+description: Describes a CimMofDeserializer class, which represents a CIM MOF deserializer, and provides its inheritance hierarchy, syntax, and thread safety.
 title: CimMofDeserializer class (Microsoft.Management.Infrastructure.Serialization)
 TOCTitle: CimMofDeserializer class (Microsoft.Management.Infrastructure.Serialization)
 ms:assetid: T:Microsoft.Management.Infrastructure.Serialization.CimMofDeserializer
@@ -28,12 +29,12 @@ ms.topic: reference
 
 Represents a CIM MOF deserializer.
 
-**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](hh832966\(v=vs.85\).md)  
+**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))  
 **Assembly:**  Microsoft.Management.Infrastructure (in Microsoft.Management.Infrastructure.dll)  
 
 ## Inheritance hierarchy
 
-[System.Object](/dotnet/api/system.object?view=netframework-4.8)  
+[System.Object](/dotnet/api/system.object)  
   Microsoft.Management.Infrastructure.Serialization.CimMofDeserializer  
 
 ## Syntax
@@ -64,4 +65,4 @@ Any public static (**Shared** in Visual Basic) members of this type are thread-s
 
 ## See also
 
-[Microsoft.Management.Infrastructure.Serialization](hh832966\(v=vs.85\).md)
+[Microsoft.Management.Infrastructure.Serialization](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))

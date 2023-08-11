@@ -1,5 +1,5 @@
 ---
-Description: Indicates the end of the final phrase in a sequence of alternative phrases that a word breaker generates during index time.
+description: Indicates the end of the final phrase in a sequence of alternative phrases that a word breaker generates during index time.
 ms.assetid: 50E4E208-A290-42B7-9152-9472C01B20D5
 title: IWordSink::EndAltPhrase method (Search.h)
 ms.topic: reference
@@ -48,13 +48,13 @@ This method can return one of these values.
 
 ## Remarks
 
-[**IWordBreaker**](https://msdn.microsoft.com/library/Bb266433(v=VS.85).aspx) implementations call **IWordSink::EndAltPhrase** from the [**IWordBreaker::BreakText**](https://msdn.microsoft.com/library/Bb266429(v=VS.85).aspx) method to terminate a sequence of alternative phrases. The [**IWordSink::StartAltPhrase**](iwordsink-startaltphrase.md) method is called to indicate the end of one phrase and the beginning of another in a sequence of phrases. Only the last phrase in a sequence is terminated with a call to **EndAltPhrase**.
+[**IWordBreaker**](/windows/win32/api/indexsrv/nn-indexsrv-iwordbreaker) implementations call **IWordSink::EndAltPhrase** from the [**IWordBreaker::BreakText**](/windows/win32/api/indexsrv/nf-indexsrv-iwordbreaker-breaktext) method to terminate a sequence of alternative phrases. The [**IWordSink::StartAltPhrase**](iwordsink-startaltphrase.md) method is called to indicate the end of one phrase and the beginning of another in a sequence of phrases. Only the last phrase in a sequence is terminated with a call to **EndAltPhrase**.
 
 ## Requirements
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
@@ -72,7 +72,3 @@ This method can return one of these values.
  
 
  
-
-
-
-

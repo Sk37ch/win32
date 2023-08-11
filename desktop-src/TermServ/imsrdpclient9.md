@@ -51,7 +51,7 @@ The **IMsRdpClient9** interface has these methods.
 | [**SendRemoteAction**](imsrdpclient8-sendremoteaction.md)                         | Causes an action to be performed in the remote session.<br/>                                                                                                                          |
 | [**SetVirtualChannelOptions**](imsrdpclient-setvirtualchanneloptions.md)          | Sets the virtual channel options for the Remote Desktop ActiveX control.<br/>                                                                                                         |
 | [**SyncSessionDisplaySettings**](imsrdpclient9-syncsessiondisplaysettings.md)     | Synchronizes session display settings.<br/>                                                                                                                                           |
-| [**UpdateSessionDisplaySettings**](https://msdn.microsoft.com/library/Mt703457(v=VS.85).aspx) | Updates session display settings.<br/>                                                                                                                                                |
+| [**UpdateSessionDisplaySettings**](/previous-versions/windows/desktop/legacy/mt703457(v=vs.85)) | Updates session display settings.<br/>                                                                                                                                                |
 
 
 
@@ -120,7 +120,7 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 
 
-|                                     |                                                                                                                                                                                                                                                                                                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                                                                                                                                                                                                                                                                                          |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                                                                                                                                                                                                                                                                                               |
@@ -166,10 +166,4 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

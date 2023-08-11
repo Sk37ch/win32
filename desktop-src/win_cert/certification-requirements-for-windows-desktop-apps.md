@@ -56,13 +56,15 @@ The times when an app crashes or stops responding cause much user frustration. A
 
 Using Windows security best practices will help avoid creating exposure to Windows attack surfaces. Attack surfaces are the entry points that a malicious attacker could use to exploit the operating system by taking advantage of vulnerabilities in the target software. One of the worst security vulnerabilities is the elevation of privilege.
 
-Note that tests 2.1   2.6 are applicable only for desktop apps tested on Windows 7, Windows 8 or Windows 8.1.<dl> 2.1 Your app must use strong and appropriate [ACLs](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists) to secure executable files  
-2.2 Your app must use strong and appropriate [ACLs](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists) to secure directories  
-2.3 Your app must use strong and appropriate [ACLs](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists) to secure registry keys  
-2.4 Your app must use strong and appropriate [ACLs](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists) to secure directories that contain objects  
+Note that tests 2.1   2.6 are applicable only for desktop apps tested on Windows 7, Windows 8 or Windows 8.1.<dl> 2.1 Your app must use strong and appropriate [ACLs](/windows/desktop/SecAuthZ/access-control-lists) to secure executable files  
+2.2 Your app must use strong and appropriate [ACLs](/windows/desktop/SecAuthZ/access-control-lists) to secure directories  
+2.3 Your app must use strong and appropriate [ACLs](/windows/desktop/SecAuthZ/access-control-lists) to secure registry keys  
+2.4 Your app must use strong and appropriate [ACLs](/windows/desktop/SecAuthZ/access-control-lists) to secure directories that contain objects  
 2.5 Your app must reduce non-administrator access to services that are vulnerable to tampering  
 2.6 Your app must prevent services with fast restarts from restarting more than twice every 24 hours  
-</dl>**Note: Access should only be granted to the entities that require it.**
+</dl>
+
+**Note: Access should only be granted to the entities that require it.**
 
 The Windows App Certification Program will verify that Windows Attack Surfaces are not exposed by verifying that ACLs and Services are implemented in a way that does not put the Windows system at risk.
 
@@ -84,7 +86,8 @@ Console apps can call SetConsoleCtrlHandler to specify the function that will ha
 At a minimum, app should prepare by saving any user data and state the information that is needed after a restart.  
 </dl> </dd> 4.4 Console apps that receive the CTRL\_C\_EVENT notification should shut down immediately  
 4.5 Drivers must not veto a system shutdown event  
-</dl>**Note: Apps that must block shutdown because of an operation that cannot be interrupted should explain the reason to the user.** Use ShutdownBlockReasonCreate to register a string that explains the reason to the user. When the operation has completed, the app should call ShutdownBlockReasonDestroy to indicate that the system can be shut down.
+</dl>
+<strong>Note: Apps that must block shutdown because of an operation that cannot be interrupted should explain the reason to the user.</strong> Use ShutdownBlockReasonCreate to register a string that explains the reason to the user. When the operation has completed, the app should call ShutdownBlockReasonDestroy to indicate that the system can be shut down.
 
 ## 5. Apps must support a clean, reversible installation
 
@@ -112,7 +115,7 @@ An Authenticode digital signature allows users to be sure that the software is g
 6.3 Exceptions and Waivers <dl> Waivers will be considered only for unsigned third-party redistributables, excluding drivers. A proof of communication requesting a signed version of the redistributable(s) is required for this waiver to be granted.  
 </dl> </dd> </dl>
 
-## 7. Apps don t block installation or app launch based on an operating system version check
+## 7. Apps don't block installation or app launch based on an operating system version check
 
 It is important that customers are not artificially blocked from installing or running their app when there are no technical limitations. In general, if apps were written for Windows Vista or later versions of Windows, they should not have to check the operating system version.<dl> 7.1 Your app must not perform version checks for equality <dl> If you need a specific feature, check whether the feature itself is available. If you need Windows 7, check for Windows 7 or later (>= 6.2). This way, your detection code will continue to work on future versions of Windows. Driver installers and uninstall modules should never check the operating system version.  
 </dl> </dd> 7.2 Exceptions and Waivers will be considered for apps meeting the criteria below:
@@ -124,7 +127,7 @@ It is important that customers are not artificially blocked from installing or r
 
 </dl>
 
-## 8. Apps don t load services or drivers in safe mode
+## 8. Apps don't load services or drivers in safe mode
 
 Safe mode allows users to diagnose and troubleshoot Windows. Drivers and services must not be set to load in safe mode unless they are needed for basic system operations of such as storage device drivers or for diagnostic and recovery purposes, such as anti-virus scanners,. By default, when Windows is in safe mode, it starts only the drivers and services that came preinstalled with Windows.
 
@@ -160,7 +163,7 @@ Users should have a consistent and secure experience with the default installati
 -   Start Menu AllPrograms > STARTUP
 
 </dd> 10.3 Your app data, which must be shared among users on the computer, should be stored within ProgramData  
-10.4 Your app s data that is exclusive to a specific user and that is not to be shared with other users of the computer, must be stored in Users\\<username>\\AppData  
+10.4 Your app s data that is exclusive to a specific user and that is not to be shared with other users of the computer, must be stored in Users\\&lt;username&gt;\\AppData  
 10.5 Your app must never write directly to the "Windows" directory and or subdirectories <dl> Use the correct methods for installing files, such as fonts or drivers.  
 </dl> </dd> 10.6 Your app must write user data at first run and not during the installation in  per-machine  installations <dl> When the app is installed, there is no correct user location in which to store data. Attempts by an app to modify default association behaviors at a machine level after installation will be unsuccessful. Instead, defaults must be claimed on a per-user level, which prevents multiple users from overwriting each other's defaults.  
 </dl> </dd> 10.7 Exceptions and Waivers <dl> A waiver is required for apps that write to the global assembly cache (GAC) .NET apps should keep assembly dependencies private, and store it in the app directory unless sharing an assembly is explicitly required.  
@@ -175,7 +178,8 @@ Windows users should be able to run concurrent sessions without conflict or disr
 </dl> </dd> 11.5 Apps that are installed for multiple users must store data in the correct folder(s) and registry locations <dl> Refer to the UAC requirements.  
 </dl> </dd> 11.6 User apps must be able to run in multiple user sessions (Fast User Switching) for both local and remote access  
 11.7 Your app must check other terminal service (TS) sessions for existing instances of the app  
-</dl>**Note:** If an app does not support multiple user sessions or remote access, it must clearly state this when launched from this kind of session.
+</dl>
+<strong>Note:</strong> If an app does not support multiple user sessions or remote access, it must clearly state this when launched from this kind of session.
 
 ## 12. Apps must support x64 versions of Windows
 
@@ -196,9 +200,8 @@ Thank you again for joining in our commitment to delivering great customer exper
 
 
 
-|               |         |                                        |                                                                                  |
-|---------------|---------|----------------------------------------|----------------------------------------------------------------------------------|
 | Date          | Version | Revision description                   | Link to document                                                                 |
+|---------------|---------|----------------------------------------|----------------------------------------------------------------------------------|
 | Dec 20, 2011  | 1.0     | Initial draft of document for Preview. |                                                                                  |
 | Jan 26, 2012  | 1.1     | Update to section \#2.                 | [1.1](archive--certification-requirements-for-windows-desktop-apps-v1-1.md)     |
 | May 31, 2012  | 1.2     | Added summary test results             | [1.2](archive--certification-requirements-for-windows-desktop-apps-v1-2.md)     |
@@ -218,8 +221,8 @@ Thank you again for joining in our commitment to delivering great customer exper
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -231,8 +234,8 @@ Thank you again for joining in our commitment to delivering great customer exper
 <td>Crashes & hangs are a major disruption to users and cause frustration. Apps are expected to be resilient and stable, eliminating such failures helps ensure that software is more predictable, maintainable, performant and trustworthy.<br/> User facing app entry point must be manifested for compatibility, as well as declaring the right GUID. <br/> User facing app entry points must be manifested for HIGH-DPI awareness and that the proper APIs are being called to support HIGH-DPI.<br/> For more information see:
 <ul>
 <li><a href="https://support.microsoft.com/kb/197571">AppInit DLLs</a></li>
-<li><a href="https://docs.microsoft.com/windows/desktop/w8cookbook/application--executable--manifest">App (executable) manifest</a></li>
-<li><a href="https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows">Writing High-DPI Win32 Applications</a></li>
+<li><a href="/windows/desktop/w8cookbook/application--executable--manifest">App (executable) manifest</a></li>
+<li><a href="/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows">Writing High-DPI Win32 Applications</a></li>
 </ul>
 <br/></td>
 </tr>
@@ -241,7 +244,7 @@ Thank you again for joining in our commitment to delivering great customer exper
 <td>Using Windows security best practices will help avoid creating exposure to Windows attack surfaces. Attack surfaces are the entry points that a malicious attacker could use to exploit the operating system by taking advantage of vulnerabilities in the target software. One of the worst security vulnerabilities is the elevation of privilege.<br/> For more information see:
 <ul>
 <li><a href="https://technet.microsoft.com/security/gg749821">Attack Surface Analyzer</a></li>
-<li><a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists">Access Control Lists</a></li>
+<li><a href="/windows/desktop/SecAuthZ/access-control-lists">Access Control Lists</a></li>
 </ul>
 <br/></td>
 </tr>
@@ -255,7 +258,7 @@ Thank you again for joining in our commitment to delivering great customer exper
 </tr>
 <tr class="even">
 <td>Clean Reversible Installation</td>
-<td>A clean, reversible, installation allows users to successfully manage (deploy and remove) apps on their systems. For more information see, <a href="https://docs.microsoft.com/visualstudio/deployment/how-to-install-prerequisites-with-a-clickonce-application?view=vs-2015">How to: Install Prerequisites with a ClickOnce Application</a>.</td>
+<td>A clean, reversible, installation allows users to successfully manage (deploy and remove) apps on their systems. For more information see, <a href="/visualstudio/deployment/how-to-install-prerequisites-with-a-clickonce-application">How to: Install Prerequisites with a ClickOnce Application</a>.</td>
 </tr>
 <tr class="odd">
 <td>Digitally sign files and drivers</td>
@@ -263,14 +266,13 @@ Thank you again for joining in our commitment to delivering great customer exper
 </tr>
 <tr class="even">
 <td>Do not block installation or app launch based on operating system version check</td>
-<td>It is important that customers are not artificially blocked from installing or running their app when there are no technical limitations. In general, if apps were written for Windows Vista or later releases, they should have no reason to check the operating system version. For more information see, <a href="https://docs.microsoft.com/windows/desktop/Win7AppQual/operating-system-versioning">Operating System Versioning</a>.</td>
+<td>It is important that customers are not artificially blocked from installing or running their app when there are no technical limitations. In general, if apps were written for Windows Vista or later releases, they should have no reason to check the operating system version. For more information see, <a href="/windows/desktop/Win7AppQual/operating-system-versioning">Operating System Versioning</a>.</td>
 </tr>
 <tr class="odd">
 <td>Do not load Services and Drivers in Safe Mode</td>
 <td>Safe mode allows users to diagnose and troubleshoot Windows. Unless needed for basic operations of the system (for example, storage device drivers) or for diagnostic and recovery purposes (for example, anti-virus scanners), drivers and services must not be set to load in safe mode. By default, the safe mode does not start most drivers and services that did not come preinstalled with Windows. They should remain disabled unless the system requires them for basic operations or for diagnostic and recovery purposes.<br/> For more information see:
 <ul>
-<li><a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/determining-whether-the-operating-system-is-running-in-safe-mode">Determining Whether the Operating System Is Running in Safe Mode</a></li>
-<li><a href="https://support.microsoft.com/kb/837643">How to determine whether the system is running in Safe Mode from a device driver</a></li>
+<li><a href="/windows-hardware/drivers/kernel/determining-whether-the-operating-system-is-running-in-safe-mode">Determining Whether the Operating System Is Running in Safe Mode</a></li>
 </ul>
 <br/></td>
 </tr>
@@ -278,7 +280,7 @@ Thank you again for joining in our commitment to delivering great customer exper
 <td>Follow User Account Control (UAC) Guidelines</td>
 <td>Some Windows app run in the security context of an administrator account, and many require excessive user rights and Windows privileges. Controlling access to resources enables users to be in control of their systems against unwanted changes (An unwanted change can be malicious, such as a rootkit stealthily taking over the machine, or an action from people who have limited privileges, for example, an employee installing prohibited software on a work computer). The most important rule for controlling access to resources is to provide the least amount of access  standard user context  necessary for a user to perform his or her necessary tasks. Following UAC guidelines provides app with the necessary permissions when needed, without leaving the system constantly exposed to security risks.<br/> For more information see:
 <ul>
-<li><a href="https://docs.microsoft.com/windows/desktop/uxguide/winenv-uac">User Account Control</a></li>
+<li><a href="/windows/desktop/uxguide/winenv-uac">User Account Control</a></li>
 <li><a href="/previous-versions/aa480152(v=msdn.10)">UAC: Application Update Guidelines</a></li>
 </ul>
 <br/></td>
@@ -289,7 +291,7 @@ Thank you again for joining in our commitment to delivering great customer exper
 </tr>
 <tr class="even">
 <td>Support Multi-User Sessions</td>
-<td>Windows users should be able to run concurrent sessions without conflict or disruption. For more information see, <a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-programming-guidelines">Remote Desktop Services Programming Guidelines</a>.</td>
+<td>Windows users should be able to run concurrent sessions without conflict or disruption. For more information see, <a href="/windows/desktop/TermServ/terminal-services-programming-guidelines">Remote Desktop Services Programming Guidelines</a>.</td>
 </tr>
 <tr class="odd">
 <td>Support x64 versions of Windows</td>
@@ -304,5 +306,5 @@ Thank you again for joining in our commitment to delivering great customer exper
 
 ## See also
 
--   [Windows Hardware Certification Program](https://docs.microsoft.com/previous-versions/windows/hardware/hck/jj124227(v=vs.85))
--   [How to use the Windows App Certification Kit](https://www.microsoft.com/download/details.aspx?id=27414)
+-   [Windows Hardware Certification Program](/previous-versions/windows/hardware/hck/jj124227(v=vs.85))
+-   [How to use the Windows App Certification Kit](./using-the-windows-app-certification-kit.md)

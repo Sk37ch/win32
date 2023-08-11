@@ -1,5 +1,5 @@
 ---
-Description: Explains built-in and account domains on Windows-based systems.
+description: Explains built-in and account domains on Windows-based systems.
 ms.assetid: 306c258b-950e-4506-99e2-67a3714285ff
 title: Built-in and Account Domains
 ms.topic: article
@@ -30,12 +30,7 @@ The Security Accounts Manager (SAM) database resides on each computer and manage
 
 ## Computers that are domain controllers
 
-Domain controllers do not have built-in or account domains. Also, instead of a SAM database, these systems use the Microsoft Active Directory directory service to store account access information. For more information, see [Active Directory](https://docs.microsoft.com/windows/desktop/AD/active-directory-domain-services).
+Domain controllers do not have built-in or account domains. Also, instead of a SAM database, these systems use the Microsoft Active Directory directory service to store account access information. For more information, see [Active Directory](/windows/desktop/AD/active-directory-domain-services).
 
  
-
- 
-
-
-
 

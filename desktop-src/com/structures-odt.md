@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Structures
+# Structures (OLE and Data Transfer)
 
 The following structures are used to implement compound documents and perform data transfer between applications.
 
@@ -20,7 +20,7 @@ The following structures are used to implement compound documents and perform da
 -   [**OLEINPLACEFRAMEINFO**](/windows/win32/api/oleidl/ns-oleidl-oleinplaceframeinfo)
 -   [**OLEMENUGROUPWIDTHS**](/windows/win32/api/oleidl/ns-oleidl-olemenugroupwidths)
 -   [**OLEUIBUSY**](/windows/win32/api/oledlg/ns-oledlg-oleuibusya)
--   [**OLEUICHANGEICON**](/windows/desktop/api/OleDlg/ns-oledlg-tagoleuichangeicona)
+-   [**OLEUICHANGEICON**](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona)
 -   [**OLEUICHANGESOURCE**](/windows/win32/api/oledlg/ns-oledlg-oleuichangesourcea)
 -   [**OLEUICONVERT**](/windows/win32/api/oledlg/ns-oledlg-oleuiconverta)
 -   [**OLEUIEDITLINKS**](/windows/win32/api/oledlg/ns-oledlg-oleuieditlinksa)
@@ -34,7 +34,7 @@ The following structures are used to implement compound documents and perform da
 -   [**OLEVERB**](/windows/win32/api/oleidl/ne-oleidl-oleverbattrib)
 -   [**POINTF**](/windows/win32/api/ocidl/ns-ocidl-pointf)
 -   [**STATDATA**](/windows/desktop/api/ObjIdl/nn-objidl-ienumstatdata)
--   [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1)
+-   [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1)
 
  
 

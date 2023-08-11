@@ -1,5 +1,5 @@
 ---
-Description: Contains a DirectShow format GUID for a media type.
+description: Contains a DirectShow format GUID for a media type.
 ms.assetid: dc532791-39e1-4acb-9e62-21d8f25be870
 title: MF_MT_AM_FORMAT_TYPE attribute (Mfapi.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ Contains a DirectShow format GUID for a media type.
 
 ## Remarks
 
-This attribute might be set when a DirectShow media type is converted into a Media Foundation media type. The attribute indicates the original DirectShow format type. The value corresponds to the formattype member of the [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/library/Dd373477(v=VS.85).aspx) structure.
+This attribute might be set when a DirectShow media type is converted into a Media Foundation media type. The attribute indicates the original DirectShow format type. The value corresponds to the formattype member of the [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) structure.
 
 For an audio format, the [**MF\_MT\_USER\_DATA**](mf-mt-user-data-attribute.md) attribute might contain the original format block, if the DirectShow format type was not recognized.
 
@@ -28,7 +28,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
@@ -67,7 +67,3 @@ The GUID constant for this attribute is exported from mfuuid.lib.
  
 
  
-
-
-
-

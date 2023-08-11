@@ -1,5 +1,5 @@
 ---
-Description: Used to control the collection of metrics for a managed element or elements.
+description: Used to control the collection of metrics for a managed element or elements.
 ms.assetid: 3DC043ED-A790-4322-BF80-55961E9946C2
 title: ControlMetrics method of the Msvm_MetricService class
 ms.topic: reference
@@ -39,7 +39,7 @@ uint32 ControlMetrics(
 *Subject* \[in\]
 </dt> <dd>
 
-A [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement) instance that identifies the managed elements for which metrics will be collected. If this parameter is **Null**, the metrics for all the managed elements associated with the *Definition* parameter will be collected.
+A [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement) instance that identifies the managed elements for which metrics will be collected. If this parameter is **Null**, the metrics for all the managed elements associated with the *Definition* parameter will be collected.
 
 </dd> <dt>
 
@@ -137,7 +137,7 @@ This method will fail in the following instances:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -155,9 +155,4 @@ This method will fail in the following instances:
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Get the number of vertices in ID3DX10SkinInfo.
+description: Get the number of vertices in ID3DX10SkinInfo.
 ms.assetid: c4e6542b-807f-41df-9940-6899ad8f8eb9
 title: ID3DX10SkinInfo::GetNumVertices method (D3DX10.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The number of vertices in ID3DX10SkinInfo.
 
@@ -43,7 +43,7 @@ The number of vertices in ID3DX10SkinInfo.
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -63,7 +63,3 @@ The number of vertices in ID3DX10SkinInfo.
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Describes a vector key for use in key frame animation. It specifies a vector at a given time. This is used for scale and translation keys.
+description: Describes a vector key for use in key frame animation. It specifies a vector at a given time. This is used for scale and translation keys.
 ms.assetid: 7a7ba2ce-c9f3-4a04-b865-39de9070868b
 title: D3DXKEY_VECTOR3 structure (D3dx9anim.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ typedef struct D3DXKEY_VECTOR3 {
 **Time**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -61,7 +61,7 @@ Type: **[**D3DXVECTOR3**](d3dxvector3.md)**
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9anim.h</dt> </dl> |
 
@@ -77,7 +77,3 @@ Type: **[**D3DXVECTOR3**](d3dxvector3.md)**
  
 
  
-
-
-
-

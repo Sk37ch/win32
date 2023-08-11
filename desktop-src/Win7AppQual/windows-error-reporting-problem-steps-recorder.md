@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Windows Error Reporting Problem Steps Recorder
 ms.assetid: ce5db84a-53b6-4a7f-bee4-d198d8a6781e
 title: Windows Error Reporting Problem Steps Recorder
 ms.topic: article
@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Clients** – Windows 7  
+**Clients** – Windows 7  
 **Servers** – Windows Server 2008 R2  
-</dl>
+
 
 ## Description
 
@@ -28,12 +28,8 @@ Currently, a Windows Error Reporting service developer must request PSR enableme
 
 ## Links to Other Resources
 
--   [Windows Error Reporting blog entry](https://blogs.msdn.com/wer/archive/2009/03/30/problem-steps-recorder-psr-exe-windows-error-reporting-another-tool-to-help-find-solutions-to-software-defects.aspx)
--   [Windows Quality Online Services (Winqual)](https://go.microsoft.com/fwlink/p/?linkid=92793)
+-   [Windows Error Reporting blog entry](/archive/blogs/wer/)
 
  
 
  
-
-
-

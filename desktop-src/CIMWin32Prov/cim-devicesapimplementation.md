@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DeviceSAPImplementation class represents an association between a service access point (SAP) and how it is implemented.
+description: The CIM\_DeviceSAPImplementation class represents an association between a service access point (SAP) and how it is implemented.
 ms.assetid: 6c059507-bfc0-4630-9b39-9c4bae2bf138
 ms.tgt_platform: multiple
 title: CIM_DeviceSAPImplementation class (CIMWin32 WMI Providers)
@@ -18,7 +18,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_DeviceSAPImplementation class
+# CIM_DeviceSAPImplementation class (CIMWin32 WMI Providers)
 
 The **CIM\_DeviceSAPImplementation** class represents an association between a service access point (SAP) and how it is implemented. When many logical devices are associated with one SAP, the elements operate in conjunction to provide the access point. If different implementations of a SAP exist, each implementation results in individual instantiations of the SAP object.
 
@@ -61,7 +61,7 @@ Data type: **CIM\_LogicalDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_LogicalDevice**](cim-logicaldevice.md) that describes the logical device.
@@ -77,7 +77,7 @@ Data type: **CIM\_ServiceAccessPoint**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_ServiceAccessPoint**](cim-serviceaccesspoint.md) that describes the service access point implemented using the logical device.
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -114,9 +114,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

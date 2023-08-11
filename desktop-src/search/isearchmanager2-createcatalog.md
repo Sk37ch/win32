@@ -1,5 +1,5 @@
 ---
-Description: Creates a new custom catalog in the Windows Search indexer and returns a reference to it.
+description: Creates a new custom catalog in the Windows Search indexer and returns a reference to it.
 ms.assetid: 2ADC48B8-87A2-4527-9AA8-9B0BA3A12462
 title: ISearchManager2::CreateCatalog method
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT CreateCatalog(
 *pszCatalog* \[in\]
 </dt> <dd>
 
-Type: **[**LPCWSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCWSTR**](../winprog/windows-data-types.md)**
 
 Name of catalog to create. Can be any name selected by the caller, must contain only standard alphanumeric characters and underscore.
 
@@ -80,7 +80,7 @@ Called to create a new catalog in the Windows Search indexer. After creation, th
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>           |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/> |
@@ -97,7 +97,3 @@ Called to create a new catalog in the Windows Search indexer. After creation, th
  
 
  
-
-
-
-

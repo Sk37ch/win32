@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_COMMAND\_MTP\_EXT\_END\_DATA\_TRANSFER command completes a data transfer and read response from the device.
+description: The WPD\_COMMAND\_MTP\_EXT\_END\_DATA\_TRANSFER command completes a data transfer and read response from the device.
 ms.assetid: df2da2e6-ed5a-41a1-be30-844c0d6b409b
 title: WPD_COMMAND_MTP_EXT_END_DATA_TRANSFER Command (WpdMtpExtensions.h)
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WPD\_COMMAND\_MTP\_EXT\_END\_DATA\_TRANSFER Command
 
-The **WPD\_COMMAND\_MTP\_EXT\_END\_DATA\_TRANSFER** command completes a data transfer and read response from the device. The transfer is initiated by either the [**WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITH\_DATA\_TO\_READ**](https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-mtp-ext-execute-command-with-data-to-read) command or the [**WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITH\_DATA\_TO\_WRITE**](https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-mtp-ext-execute-command-with-data-to-write) command.
+The **WPD\_COMMAND\_MTP\_EXT\_END\_DATA\_TRANSFER** command completes a data transfer and read response from the device. The transfer is initiated by either the [**WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITH\_DATA\_TO\_READ**](/windows/desktop/wpd_sdk/wpd-command-mtp-ext-execute-command-with-data-to-read) command or the [**WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITH\_DATA\_TO\_WRITE**](/windows/desktop/wpd_sdk/wpd-command-mtp-ext-execute-command-with-data-to-write) command.
 
 ## Command category
 
@@ -51,7 +51,7 @@ Can only be called directly by using [**IPortableDevice::SendCommand**](/windows
 
 
 
-|                   |                                                                                               |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>WpdMtpExtensions.h</dt> </dl> |
 
@@ -65,9 +65,4 @@ Can only be called directly by using [**IPortableDevice::SendCommand**](/windows
 </dt> </dl>
 
  
-
- 
-
-
-
 

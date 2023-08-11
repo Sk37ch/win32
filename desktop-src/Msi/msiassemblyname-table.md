@@ -1,5 +1,5 @@
 ---
-Description: The MsiAssembly Table and MsiAssemblyName Table specify Windows Installer settings for common language runtime assemblies and Win32 assemblies.
+description: The MsiAssembly Table and MsiAssemblyName Table specify Windows Installer settings for common language runtime assemblies and Win32 assemblies.
 ms.assetid: cfe9a0a3-e40f-4c59-b2e4-ad7654528e3b
 title: MsiAssemblyName Table
 ms.topic: article
@@ -12,7 +12,7 @@ The [MsiAssembly Table](msiassembly-table.md) and MsiAssemblyName Table specify 
 
 The MsiAssemblyName Table specifies the schema for the elements of a strong assembly cache name for a .NET Framework or Win32 assembly. The name is constructed by appending all elements with the same Component\_ key. See the following example.
 
-Windows Installer can install Win32 assemblies as [side-by-side assemblies](side-by-side-assemblies.md). For more information, see the [Side-by-Side Assembly API](https://msdn.microsoft.com/library/Aa376204(v=VS.85).aspx).
+Windows Installer can install Win32 assemblies as [side-by-side assemblies](side-by-side-assemblies.md). For more information, see the [Side-by-Side Assembly API](../sbscs/side-by-side-assembly-api.md).
 
 The MsiAssemblyName Table has the following columns.
 
@@ -102,6 +102,3 @@ In this case, populate the MsiAssemblyName Table as follows.
  
 
  
-
-
-

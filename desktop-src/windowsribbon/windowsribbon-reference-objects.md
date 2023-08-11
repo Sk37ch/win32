@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Objects
+# Objects (Windows Ribbon Framework)
 
 Reference documentation for the Windows Ribbon framework objects.
 
@@ -16,8 +16,8 @@ Reference documentation for the Windows Ribbon framework objects.
 
 | Topic                                                                                            | Contents                                                                                                      |
 |--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| [**UIRibbonFramework**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd742706(v=vs.85))                           | Implements the [**IUIFramework**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework) interface.<br/>             |
-| [**UIRibbonImageFromBitmapFactory**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd742707(v=vs.85)) | Implements the [**IUIImageFromBitmap**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiimagefrombitmap) interface.<br/> |
+| [**UIRibbonFramework**](/previous-versions/windows/desktop/legacy/dd742706(v=vs.85))                           | Implements the [**IUIFramework**](/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework) interface.<br/>             |
+| [**UIRibbonImageFromBitmapFactory**](/previous-versions/windows/desktop/legacy/dd742707(v=vs.85)) | Implements the [**IUIImageFromBitmap**](/windows/desktop/api/uiribbon/nn-uiribbon-iuiimagefrombitmap) interface.<br/> |
 
 
 
@@ -31,10 +31,4 @@ Reference documentation for the Windows Ribbon framework objects.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

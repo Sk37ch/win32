@@ -1,12 +1,12 @@
 ---
 title: Pointers (RPC)
-description: Pointers
+description: Learn about an RPC common pointer, which is defined as everything other than interface pointers and byte count pointers.
 ms.assetid: 9756E637-BCBB-48F1-B962-25AF2C917921
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Pointers
+# Pointers (RPC)
 
 ## Common Pointers
 
@@ -49,7 +49,7 @@ Pointer\_attributes<1> can have any of the flags shown in the following table.
 
 
 
-| Flag | Description              |                                                                                                                                                                                                                                       |
+| Attribute | Flag              | Description                                                                                                                                                                                                                                      |
 |------|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 01   | FC\_ALLOCATE\_ALL\_NODES | The pointer is a part of an allocate(all\_nodes) allocation scheme.                                                                                                                                                                   |
 | 02   | FC\_DONT\_FREE           | An allocate(dont\_free) pointer.                                                                                                                                                                                                      |
@@ -83,7 +83,7 @@ FC_IP FC_PAD
 iid_description<> 
 ```
 
-The iid\_description<> is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://docs.microsoft.com/windows/desktop/Midl/-robust) is used. The value calculated by the **NdrComputeConformance** function is the IID pointer.
+The iid\_description<> is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](/windows/desktop/Midl/-robust) is used. The value calculated by the **NdrComputeConformance** function is the IID pointer.
 
 ## Byte Count Pointers
 
@@ -104,14 +104,10 @@ byte_count_description<>
 pointee_description<>
 ```
 
-The byte\_count\_description<> is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://docs.microsoft.com/windows/desktop/Midl/-robust) is used.
+The byte\_count\_description<> is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](/windows/desktop/Midl/-robust) is used.
 
 The pointee\_description<> is a description of the pointee type.
 
  
 
  
-
-
-
-

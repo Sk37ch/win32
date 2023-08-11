@@ -1,5 +1,5 @@
 ---
-Description: Save a texture to memory.
+description: Save a texture to memory.
 ms.assetid: be541b99-6d07-480e-8f28-b7fc44566e7d
 title: D3DX10SaveTextureToMemory function (D3DX10Tex.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ Address of a pointer to the memory containing the saved texture. See [**ID3D10Bl
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Optional.
 
@@ -84,7 +84,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>  |
@@ -104,7 +104,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

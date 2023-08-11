@@ -1,5 +1,5 @@
 ---
-Description: Returns all association classes or instances that refer to a specific source class or instance.
+description: Returns all association classes or instances that refer to a specific source class or instance.
 ms.assetid: 2ad66ea1-b8f0-4b6b-b68f-29496afbe4bf
 ms.tgt_platform: multiple
 title: SWbemServices.ReferencesToAsync method (Wbemdisp.h)
@@ -159,7 +159,7 @@ This method does not return a value. If successful, the sink receives an [**OnOb
 
 ## Error codes
 
-After the completion of the **ReferencesToAsync** method, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
+After the completion of the **ReferencesToAsync** method, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
 
 > [!Note]  
 > A returned collection with zero elements is not an error.
@@ -206,7 +206,7 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -235,9 +235,4 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 </dt> </dl>
 
  
-
- 
-
-
-
 

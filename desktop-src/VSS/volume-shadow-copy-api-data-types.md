@@ -1,5 +1,5 @@
 ---
-Description: 'The following data types are defined in the Volume Shadow Copy API:'
+description: 'The following data types are defined in the Volume Shadow Copy API:'
 ms.assetid: e64b36d6-4f10-42bd-9ad4-00aba90e9715
 title: Volume Shadow Copy API Data Types
 ms.topic: article
@@ -43,13 +43,10 @@ The **VSS\_PWSZ** definition specifies a null-terminated wide character string (
 typedef LONGLONG VSS_TIMESTAMP;
 ```
 
-The **VSS\_TIMESTAMP** definition holds time-stamp information as a 64-bit integer value containing the number of 100-nanosecond intervals since January 1, 1601 (UTC). This definition is interchangeable with the [**FILETIME**](https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx) structure.
+The **VSS\_TIMESTAMP** definition holds time-stamp information as a 64-bit integer value containing the number of 100-nanosecond intervals since January 1, 1601 (UTC). This definition is interchangeable with the [**FILETIME**](/windows/win32/api/minwinbase/ns-minwinbase-filetime) structure.
 
 </dd> </dl>
 
  
 
  
-
-
-

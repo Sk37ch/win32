@@ -1,12 +1,15 @@
 ---
-Description: This topic describes how to use DirectShow to play media files that are protected with Windows Media Digital Rights Management (DRM).
+description: This topic describes how to use DirectShow to play media files that are protected with Windows Media Digital Rights Management (DRM).
 ms.assetid: a014942a-01e5-49d4-8a25-4604cd40f374
 title: Reading DRM-Protected ASF Files in DirectShow
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Reading DRM-Protected ASF Files in DirectShow
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This topic describes how to use DirectShow to play media files that are protected with Windows Media Digital Rights Management (DRM).
 
@@ -35,20 +38,20 @@ The content provider sets a minimum security level needed to acquire the license
 
 To increase security, an application may update the DRM components on the client's computer. This update, called individualization, differentiates the user's copy of the application from all other copies of the same application. The DRM header of a protected file may specify may specify a minimum individualization level. (For more information, see the documentation for WMRMHeader.IndividualizedVersion in the Windows Media Rights Manager SDK.)
 
-Because the Microsoft Individualization Service handles information from the user, you must display the Microsoft privacy policy or provide a link to that page at the Microsoft website before your application individualizes: <https://go.microsoft.com/fwlink/p/?linkid=10240>.
+The Microsoft Individualization Service handles information from the user. So before your application individualizes, you must display the Microsoft Privacy Statement, or provide a link to it (see [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement)).
 
 ## Provide the Software Certificate
 
-To enable the application to use the DRM license, the application must provide a software certificate or *key* to the Filter Graph Manager. This key is contained in a static library that is individualized for the application. For information about obtaining the individualized library, see [Obtaining the Required DRM Library](https://msdn.microsoft.com/library/Dd757554(v=VS.85).aspx) in the Windows Media Format SDK documentation.
+To enable the application to use the DRM license, the application must provide a software certificate or *key* to the Filter Graph Manager. This key is contained in a static library that is individualized for the application. For information about obtaining the individualized library, see [Obtaining the Required DRM Library](../wmformat/obtaining-the-required-drm-library.md) in the Windows Media Format SDK documentation.
 
 To provide the software key, perform the following steps:
 
 1.  Link to the static library.
 2.  Implement the **IServiceProvider** interface.
-3.  Query the Filter Graph Manager for the [**IObjectWithSite**](https://msdn.microsoft.com/library/ms693765(v=VS.85).aspx) interface.
-4.  Call [**IObjectWithSite::SetSite**](https://msdn.microsoft.com/library/ms683869(v=VS.85).aspx) with a pointer to your implementation of **IServiceProvider**.
+3.  Query the Filter Graph Manager for the [**IObjectWithSite**](/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite) interface.
+4.  Call [**IObjectWithSite::SetSite**](/windows/win32/api/ocidl/nf-ocidl-iobjectwithsite-setsite) with a pointer to your implementation of **IServiceProvider**.
 5.  The Filter Graph Manager will call **IServiceProvider::QueryService**, specifying **IID\_IWMReader** for the service identifier.
-6.  In your implementation of **QueryService**, call [**WMCreateCertificate**](https://msdn.microsoft.com/library/Dd757745(v=VS.85).aspx) to create the software key.
+6.  In your implementation of **QueryService**, call [**WMCreateCertificate**](/previous-versions/windows/desktop/legacy/dd757745(v=vs.85)) to create the software key.
 
 The following code shows how to implement the **QueryService** method:
 
@@ -80,7 +83,7 @@ STDMETHODIMP Player::QueryService(REFIID siid, REFIID riid, void **ppv)
 
 
 
-The following code shows how to call [**SetSite**](https://msdn.microsoft.com/library/ms683869(v=VS.85).aspx) on the Filter Graph Manager:
+The following code shows how to call [**SetSite**](/windows/win32/api/ocidl/nf-ocidl-iobjectwithsite-setsite) on the Filter Graph Manager:
 
 
 ```C++
@@ -119,17 +122,17 @@ done:
 To play a DRM-protected ASF file, perform the following steps:
 
 1.  Create the [Filter Graph Manager](filter-graph-manager.md) and use the [**IMediaEventEx**](/windows/desktop/api/Control/nn-control-imediaeventex) interface to register for graph events.
-2.  Call [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) to create a new instance of the [WM ASF Reader](wm-asf-reader-filter.md) filter.
+2.  Call [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) to create a new instance of the [WM ASF Reader](wm-asf-reader-filter.md) filter.
 3.  Call [**IFilterGraph::AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) to add the filter to the filter graph.
 4.  Query the filter for the [**IFileSourceFilter**](/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter) interface.
 5.  Call [**IFileSourceFilter::Load**](/windows/desktop/api/Strmif/nf-strmif-ifilesourcefilter-load) with the URL of the file.
 6.  Handle [**EC\_WMT\_EVENT**](ec-wmt-event.md) events.
 7.  On the first [**EC\_WMT\_EVENT**](ec-wmt-event.md) event, query the [WM ASF Reader](wm-asf-reader-filter.md) filter for the **IServiceProvider** interface.
-8.  Call **IServiceProvider::QueryService** to get a pointer to the [**IWMDRMReader**](https://msdn.microsoft.com/library/Dd798339(v=VS.85).aspx) interface.
+8.  Call **IServiceProvider::QueryService** to get a pointer to the [**IWMDRMReader**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader) interface.
 9.  Call [**IGraphBuilder::Render**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-render) to render the output pins of the [WM ASF Reader](wm-asf-reader-filter.md) filter.
 
 > [!Note]  
-> When opening a DRM-protected file, do not call [**IGraphBuilder::RenderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile) to create the filter graph. The WM ASF Reader filter cannot connect to any other filters until the DRM license is acquired. This step requires the application to use the [**IWMDRMReader**](https://msdn.microsoft.com/library/Dd798339(v=VS.85).aspx) interface, which must be obtained from the filter, as described in steps 7–8. Therefore, you must create the filter and add it to the graph
+> When opening a DRM-protected file, do not call [**IGraphBuilder::RenderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile) to create the filter graph. The WM ASF Reader filter cannot connect to any other filters until the DRM license is acquired. This step requires the application to use the [**IWMDRMReader**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader) interface, which must be obtained from the filter, as described in steps 7–8. Therefore, you must create the filter and add it to the graph
 
  
 
@@ -192,38 +195,11 @@ HRESULT Player::LoadMediaFile(PCWSTR pwszFile)
 
 
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>            if (FAILED(hr))
-            {
-                goto done;
-            }
+| C++ | 
+|-----|
+| <pre><code>            if (FAILED(hr))            {                goto done;            }            hr = RenderOutputPins(pGraph, m_pReader);    }    else    {        // Not a Windows Media file, so just render the standard way.        hr = pGraph-&gt;RenderFile(pwszFile, NULL);    }done:    return hr;}</code></pre> | 
 
-            hr = RenderOutputPins(pGraph, m_pReader);
-    }
-    else
-    {
-        // Not a Windows Media file, so just render the standard way.
-        hr = pGraph->RenderFile(pwszFile, NULL);
-    }
-
-done:
-    return hr;
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
 
 
 
@@ -277,7 +253,7 @@ done:
 
 
 
-The following code shows how to get a pointer to the [**IWMDRMReader**](https://msdn.microsoft.com/library/Dd798339(v=VS.85).aspx) interface from the [WM ASF Reader](wm-asf-reader-filter.md):
+The following code shows how to get a pointer to the [**IWMDRMReader**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader) interface from the [WM ASF Reader](wm-asf-reader-filter.md):
 
 
 ```C++
@@ -312,6 +288,3 @@ HRESULT DrmManager::Initialize(IBaseFilter *pFilter)
  
 
  
-
-
-

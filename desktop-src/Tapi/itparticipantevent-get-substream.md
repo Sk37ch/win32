@@ -1,5 +1,5 @@
 ---
-Description: The get\_SubStream gets a pointer to an array of ITSubStream interfaces representing the substreams involved in the event.
+description: The get\_SubStream gets a pointer to an array of ITSubStream interfaces representing the substreams involved in the event.
 ms.assetid: 0af9097a-2481-4543-bb3d-35ccd352e992
 title: ITParticipantEvent::get_SubStream method (Confpriv.h)
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[**get\_SubStream** is not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API provides similar functionality.\]
 
-The **get\_SubStream** gets a pointer to an array of [**ITSubStream**](https://msdn.microsoft.com/library/ms732440(v=VS.85).aspx) interfaces representing the substreams involved in the event.
+The **get\_SubStream** gets a pointer to an array of [**ITSubStream**](/windows/win32/api/tapi3if/nn-tapi3if-itsubstream) interfaces representing the substreams involved in the event.
 
 ## Syntax
 
@@ -30,7 +30,7 @@ HRESULT get_SubStream(
 *ppSubStream* \[out\]
 </dt> <dd>
 
-Pointer to array of [**ITSubStream**](https://msdn.microsoft.com/library/ms732440(v=VS.85).aspx) pointers.
+Pointer to array of [**ITSubStream**](/windows/win32/api/tapi3if/nn-tapi3if-itsubstream) pointers.
 
 </dd> </dl>
 
@@ -55,7 +55,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |
@@ -71,13 +71,8 @@ This method can return one of these values.
 [**ITParticipantEvent**](itparticipantevent.md)
 </dt> <dt>
 
-[**ITSubStream**](https://msdn.microsoft.com/library/ms732440(v=VS.85).aspx)
+[**ITSubStream**](/windows/win32/api/tapi3if/nn-tapi3if-itsubstream)
 </dt> </dl>
 
  
-
- 
-
-
-
 

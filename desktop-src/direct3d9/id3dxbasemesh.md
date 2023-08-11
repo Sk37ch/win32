@@ -1,5 +1,5 @@
 ---
-Description: Applications use the methods of the ID3DXBaseMesh interface to manipulate and query mesh and progressive mesh objects.
+description: Applications use the methods of the ID3DXBaseMesh interface to manipulate and query mesh and progressive mesh objects.
 ms.assetid: ec4ccd77-e370-470c-9325-3d794a8f7f16
 title: ID3DXBaseMesh interface (D3DX9Mesh.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ Applications use the methods of the **ID3DXBaseMesh** interface to manipulate an
 
 ## Members
 
-The **ID3DXBaseMesh** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXBaseMesh** also has these types of members:
+The **ID3DXBaseMesh** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ID3DXBaseMesh** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -77,7 +77,7 @@ typedef struct ID3DXBaseMesh *LPD3DXBASEMESH;
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -94,7 +94,3 @@ typedef struct ID3DXBaseMesh *LPD3DXBASEMESH;
  
 
  
-
-
-
-

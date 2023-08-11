@@ -20,10 +20,13 @@ keywords:
 - remoting Windows Media Player ActiveX control
 - embedding,remoting ActiveX control
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Remoting the Windows Media Player Control
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 When you embed the Windows Media Player control in a C++ program, you can use it as a remote extension of the full mode of the Player. This is called "remoting" the Windows Media Player control, and it lets you provide all the features of the full mode Player without implementing them yourself.
 
@@ -33,7 +36,7 @@ When you remote the control, it shares the same playback engine as the full mode
 
 To enable remote embedding of the Windows Media Player control, your program must implement the **IServiceProvider** and [IWMPRemoteMediaServices](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpremotemediaservices) interfaces. **IServiceProvider** is a standard Component Object Model (COM) interface with a single method called **QueryService**. Windows Media Player calls this method to retrieve a pointer to an **IWMPRemoteMediaServices** interface.
 
-**IWMPRemoteMediaServices** has several methods, but only two of them are directly relevant to remoting. In [GetApplicationName](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpremotemediaservices-getapplicationname), you return the name of your program, which Windows Media Player adds to the **Switch to Other Program** list on the **View** menu. In [GetServiceType](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpremotemediaservices-getservicetype), you indicate the embedding mode of the control by returning a value of either "Remote" or "Local". If a remote connection is successfully established, the [get\_isRemote](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayer4-get_isremote) method of the [IWMPPlayer4](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplayer4) interface returns true.
+**IWMPRemoteMediaServices** has several methods, but only two of them are directly relevant to remoting. In [GetApplicationName](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpremotemediaservices-getapplicationname), you return the name of your program, which Windows Media Player adds to the **Switch to Other Program** list on the **View** menu. In [GetServiceType](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpremotemediaservices-getservicetype), you indicate the embedding mode of the control by returning a value of either "Remote" or "Local". If a remote connection is successfully established, the [get\_isRemote](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayer4-get_isremote) method of the [IWMPPlayer4](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplayer4) interface returns true.
 
 ## Specifying an Exclusive Online Store
 
@@ -41,7 +44,7 @@ With Windows Media Player 11, an application that embeds the Player control remo
 
 ## Docking and Undocking
 
-The **IWMPPlayer4** interface also provides access to the [IWMPPlayerApplication](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplayerapplication) interface through the [get\_playerApplication](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayer4-get_playerapplication) method. Use **IWMPPlayerApplication** to switch between the docked and undocked states and to determine the current docked state and the location of the video or visualization display.
+The **IWMPPlayer4** interface also provides access to the [IWMPPlayerApplication](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplayerapplication) interface through the [get\_playerApplication](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayer4-get_playerapplication) method. Use **IWMPPlayerApplication** to switch between the docked and undocked states and to determine the current docked state and the location of the video or visualization display.
 
 The [IWMPPlayerApplication::switchToPlayerApplication](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayerapplication-switchtoplayerapplication) method undocks the control by opening the full mode of Windows Media Player and transferring the video or visualization display to the **Now Playing** pane. The [IWMPPlayerApplication::switchToControl](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayerapplication-switchtocontrol) method docks the control by transferring the video or visualization display to your program and closing the full mode of the Player, if it is open. The control can also be docked by selecting a program from the **Switch to Other Program** list or by closing the full mode of the Player. In both cases, any digital media that is playing continues uninterrupted.
 

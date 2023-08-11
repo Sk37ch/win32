@@ -1,5 +1,5 @@
 ---
-Description: Removes the previously defined virtual machine from the management scope of the host system.
+description: Removes the previously defined virtual machine from the management scope of the host system.
 ms.assetid: 16E6EEB0-CB29-4FFC-AEFF-872E099337FA
 title: DestroySystem method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -40,7 +40,7 @@ uint32 DestroySystem(
 
 Type: **CIM\_ComputerSystem**
 
-A reference to an instance of the [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) that represents the virtual machine instance to be destroyed.
+A reference to an instance of the [**CIM\_ComputerSystem**](/windows/desktop/CIMWin32Prov/cim-computersystem) that represents the virtual machine instance to be destroyed.
 
 </dd> <dt>
 
@@ -49,7 +49,7 @@ A reference to an instance of the [**CIM\_ComputerSystem**](https://docs.microso
 
 Type: **CIM\_ConcreteJob**
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -93,11 +93,11 @@ If this method is executed synchronously, it returns 0 if it succeeds. If this m
 
 ## Remarks
 
-Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Examples
 
-The following C# sample uses the **DestroySystem** method to remove a planned virtual machine. This code is taken from the [Hyper-V planned virtual machines sample](https://code.msdn.microsoft.com/windowsdesktop/Hyper-V-planned-virtual-8c7b7499). The referenced utilities can be found in [Common utilities for the virtualization samples (V2)](common-utilities-for-the-virtualization-samples-v2.md).
+The following C# sample uses the **DestroySystem** method to remove a planned virtual machine. This code is taken from the [Hyper-V planned virtual machines sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Hyper-V/Pvm). The referenced utilities can be found in [Common utilities for the virtualization samples (V2)](common-utilities-for-the-virtualization-samples-v2.md).
 
 > [!IMPORTANT]
 > To function correctly, the following code must be run on the virtual machine host server, and must be run with Administrator privileges.
@@ -142,7 +142,7 @@ RemovePvm(
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -160,9 +160,4 @@ RemovePvm(
 </dt> </dl>
 
  
-
- 
-
-
-
 

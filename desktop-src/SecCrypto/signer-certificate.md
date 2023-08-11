@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the Certificate object that represents the certificate of a signer of the data.
+description: Sets or retrieves the Certificate object that represents the certificate of a signer of the data.
 ms.assetid: 92ac209e-59b5-4a75-922d-d61629ca41b1
 title: Signer.Certificate property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Signer.Certificate property
 
-\[The **Certificate** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsSigner Class**](https://msdn.microsoft.com/library/5x3db70t(v=VS.90).aspx) in the [**System.Security.Cryptography.Pkcs**](https://msdn.microsoft.com/library/6see7k14(v=VS.100).aspx) namespace.\]
+\[The **Certificate** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsSigner Class**](/dotnet/api/system.security.cryptography.pkcs.cmssigner?view=dotnet-plat-ext-3.1&preserve-view=true) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **Certificate** property sets or retrieves the [**Certificate**](certificate.md) object that represents the certificate of a signer of the data. This is the default property.
 
@@ -36,13 +36,13 @@ The [**Certificate**](certificate.md) object that represents the certificate of 
 
 ## Remarks
 
-When the value of this property is reset, directly or indirectly, the whole [*state*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) of the object is reset.
+When the value of this property is reset, directly or indirectly, the whole [*state*](../secgloss/s-gly.md) of the object is reset.
 
 ## Requirements
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
@@ -59,7 +59,3 @@ When the value of this property is reset, directly or indirectly, the whole [*st
  
 
  
-
-
-
-

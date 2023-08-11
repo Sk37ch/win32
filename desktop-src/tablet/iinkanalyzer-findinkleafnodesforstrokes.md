@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the ink leaf nodes that contain the specified strokes.
+description: Retrieves the ink leaf nodes that contain the specified strokes.
 ms.assetid: d9ebc57d-63f5-4175-8bb6-a688b98823d4
 title: IInkAnalyzer::FindInkLeafNodesForStrokes method (IACom.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppContextNodesFound* when you no longer need to use the object.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppContextNodesFound* when you no longer need to use the object.
 
  
 
@@ -76,7 +76,7 @@ If no nodes contain the specified strokes, an empty [**IContextNodes**](icontext
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -120,9 +120,4 @@ If no nodes contain the specified strokes, an empty [**IContextNodes**](icontext
 </dt> </dl>
 
  
-
- 
-
-
-
 

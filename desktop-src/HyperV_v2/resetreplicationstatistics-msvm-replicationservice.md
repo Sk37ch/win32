@@ -1,5 +1,5 @@
 ---
-Description: Resets the replication statistics for a virtual machine and acts on the primary replication relationship of the virtual machine.
+description: Resets the replication statistics for a virtual machine and acts on the primary replication relationship of the virtual machine.
 ms.assetid: da4b60f8-6964-45af-8412-935234c7c0ff
 title: ResetReplicationStatistics method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -43,14 +43,14 @@ uint32 ResetReplicationStatistics(
 *ComputerSystem* \[in\]
 </dt> <dd>
 
-A reference to an instance of the [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) class that represents the virtual machine to reset the replication statistics for.
+A reference to an instance of the [**CIM\_ComputerSystem**](/windows/desktop/CIMWin32Prov/cim-computersystem) class that represents the virtual machine to reset the replication statistics for.
 
 </dd> <dt>
 
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -106,7 +106,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -127,9 +127,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -39,13 +39,13 @@ HRESULT get_Domain(
 
 ## Property value
 
-A pointer to a **BSTR** variable that contains the domain name of the RDC client. When you have finished using the string, free it by calling the [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) function.
+A pointer to a **BSTR** variable that contains the domain name of the RDC client. When you have finished using the string, free it by calling the [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) function.
 
 ## Requirements
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                       |
@@ -61,10 +61,4 @@ A pointer to a **BSTR** variable that contains the domain name of the RDC client
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

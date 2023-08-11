@@ -38,20 +38,16 @@ The following procedure defines how to create the SEL event subscription to retr
 
 2.  Create an event subscription by executing the following command in a command prompt window (the Wecutil.exe program is located in the %SYSTEMROOT%\\System32 directory.):
 
-    **Wecutil cs** *<path>\\wsmanselrg.xml*
+    **Wecutil cs** *&lt;path&gt;\\wsmanselrg.xml*
 
 3.  Ensure that the subscription is active by executing the following command in a command prompt window:
 
     **Wecutil gr** *wsmanselrg*
 
-The BMC is a microcontroller attached locally to a server. BMCs have sensors that monitor the physical state of the server and a separate network connection that can communicate over the network, even if the server is offline. You have access to BMC data through the Intelligent Platform Management Interface (IPMI) WMI Provider. For more information about the IPMI provider, see [IPMI Provider](https://msdn2.microsoft.com/library/aa391402.aspx).
+The BMC is a microcontroller attached locally to a server. BMCs have sensors that monitor the physical state of the server and a separate network connection that can communicate over the network, even if the server is offline. You have access to BMC data through the Intelligent Platform Management Interface (IPMI) WMI Provider. For more information about the IPMI provider, see [IPMI Provider](/previous-versions/windows/desktop/ipmiprv/ipmi-provider).
 
 The computer must have the BMC and the IPMI provider installed for the event subscription to work. For computers running on Windows Server 2008, the IPMI provider is installed by default. If the BMC is not available, then IPMI driver cannot be installed and the subscription runtime status will always display an error (0x8004001 - WMI Generic Failure).
 
  
 
  
-
-
-
-

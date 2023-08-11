@@ -1,5 +1,5 @@
 ---
-Description: The Delete WMI class method will delete the logical file (or directory) specified in the object path.
+description: The Delete WMI class method will delete the logical file (or directory) specified in the object path.
 ms.assetid: 5663b8a8-3089-475b-8a36-454a7315bfca
 ms.tgt_platform: multiple
 title: Delete method of the Win32_Directory class
@@ -18,9 +18,9 @@ api_location:
 
 # Delete method of the Win32\_Directory class
 
-The **Delete** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method will delete the logical file (or directory) specified in the object path.
+The **Delete** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method will delete the logical file (or directory) specified in the object path.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -163,7 +163,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -177,16 +177,11 @@ Next
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_Directory**](win32-directory.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

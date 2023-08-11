@@ -1,5 +1,5 @@
 ---
-Description: WMI provides a standardized system management infrastructure that can be leveraged by a number of different clients.
+description: WMI provides a standardized system management infrastructure that can be leveraged by a number of different clients.
 ms.assetid: 7aa0ead7-010c-4ad2-b6ba-0ef84263d5c6
 ms.tgt_platform: multiple
 title: Creating WMI Clients
@@ -19,8 +19,8 @@ The core functionality of WMI consists of retrieving objects from the WMI reposi
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -34,7 +34,7 @@ The core functionality of WMI consists of retrieving objects from the WMI reposi
 <td>WMI and PowerShell are tightly integrated; as such, retrieving WMI objects with PowerShell is simply a matter of calling the Get-WmiObject cmdlet. Note that for consistency, the first code snippet explicitly states many of the default values; the second assumes that the default values are correct.<br/> <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -62,7 +62,7 @@ Get-WmiObject Win32_ComputerSystem | Format-Table &quot;Name&quot;</code></pre><
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -84,13 +84,13 @@ Next</code></pre></td>
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><span id="Creating_a_client_with_C___Microsoft.Management.Infrastructure_"></span><span id="creating_a_client_with_c___microsoft.management.infrastructure_"></span><span id="CREATING_A_CLIENT_WITH_C___MICROSOFT.MANAGEMENT.INFRASTRUCTURE_"></span>Creating a client with C# (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832958(v=vs.85)">Microsoft.Management.Infrastructure</a>)</p></td>
-<td><p>This namespace contains the current solution for accessing WMI with managed code, and is known as the Windows Management Infrastructure (MI, or WMIv2). Currently, MI is the supported technology for creating managed management clients. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/how-to-implement-a-managed-mi-client">How to Implement a Managed MI Client</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/how-to-implement-a-native-mi-client">How to Implement a Native MI Client</a>.</p>
+<td><p><span id="Creating_a_client_with_C___Microsoft.Management.Infrastructure_"></span><span id="creating_a_client_with_c___microsoft.management.infrastructure_"></span><span id="CREATING_A_CLIENT_WITH_C___MICROSOFT.MANAGEMENT.INFRASTRUCTURE_"></span>Creating a client with C# (<a href="/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832958(v=vs.85)">Microsoft.Management.Infrastructure</a>)</p></td>
+<td><p>This namespace contains the current solution for accessing WMI with managed code, and is known as the Windows Management Infrastructure (MI, or WMIv2). Currently, MI is the supported technology for creating managed management clients. For more information, see <a href="/previous-versions/windows/desktop/wmi_v2/how-to-implement-a-managed-mi-client">How to Implement a Managed MI Client</a> and <a href="/previous-versions/windows/desktop/wmi_v2/how-to-implement-a-native-mi-client">How to Implement a Native MI Client</a>.</p>
 <div class="code">
 <span data-codelanguage="CSharp"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -102,7 +102,7 @@ Next</code></pre></td>
 <td><pre><code>using Microsoft.Management.Infrastructure;
 ...
 CimSession session = CimSession.Create(&quot;localHost&quot;);
-IEnumerable<CimInstance> queryInstance = session.QueryInstances(@&quot;root\cimv2&quot;, &quot;WQL&quot;, &quot;SELECT * FROM Win32_ComputerSystem&quot;);
+IEnumerable&lt;CimInstance&gt; queryInstance = session.QueryInstances(@&quot;root\cimv2&quot;, &quot;WQL&quot;, &quot;SELECT * FROM Win32_ComputerSystem&quot;);
 
 foreach (CimInstance cimObj in queryInstance)
 {
@@ -115,13 +115,13 @@ foreach (CimInstance cimObj in queryInstance)
 </div></td>
 </tr>
 <tr class="even">
-<td><p><span id="Creating_a_client_with_C___System.Management_"></span><span id="creating_a_client_with_c___system.management_"></span><span id="CREATING_A_CLIENT_WITH_C___SYSTEM.MANAGEMENT_"></span>Creating a client with C# (<a href="https://docs.microsoft.com/dotnet/api/system.management?redirectedfrom=MSDN">System.Management</a>)</p></td>
-<td><p>This namespace contains the original solution for accessing WMI with managed code. While the <a href="https://docs.microsoft.com/dotnet/api/system.management?redirectedfrom=MSDN">System.Management</a> classes are still available, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832958(v=vs.85)">Microsoft.Management.Infrastructure</a> classes are generally more efficient and scale better. As such, it is recommended that you use the MI classes, rather than the original WMI classes.</p>
+<td><p><span id="Creating_a_client_with_C___System.Management_"></span><span id="creating_a_client_with_c___system.management_"></span><span id="CREATING_A_CLIENT_WITH_C___SYSTEM.MANAGEMENT_"></span>Creating a client with C# (<a href="/dotnet/api/system.management">System.Management</a>)</p></td>
+<td><p>This namespace contains the original solution for accessing WMI with managed code. While the <a href="/dotnet/api/system.management">System.Management</a> classes are still available, the <a href="/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832958(v=vs.85)">Microsoft.Management.Infrastructure</a> classes are generally more efficient and scale better. As such, it is recommended that you use the MI classes, rather than the original WMI classes.</p>
 <div class="code">
 <span data-codelanguage="CSharp"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -133,7 +133,7 @@ foreach (CimInstance cimObj in queryInstance)
 <td><pre><code>using Microsoft.Management.Infrastructure;
 ...
 CimSession session = CimSession.Create(&quot;localHost&quot;);
-IEnumerable<CimInstance> queryInstance = session.QueryInstances(@&quot;root\cimv2&quot;, &quot;WQL&quot;, &quot;SELECT * FROM Win32_ComputerSystem&quot;);
+IEnumerable&lt;CimInstance&gt; queryInstance = session.QueryInstances(@&quot;root\cimv2&quot;, &quot;WQL&quot;, &quot;SELECT * FROM Win32_ComputerSystem&quot;);
 
 foreach (CimInstance cimObj in queryInstance)
 {
@@ -165,7 +165,7 @@ The following table lists the topics covered in this section.
 | [Receiving a WMI Event](receiving-a-wmi-event.md)                                                           | Describes how to view WMI events.                                                                                                                                                              |
 | [Monitoring Events](monitoring-events.md)                                                                   | Describes how to monitor WMI events.                                                                                                                                                           |
 | [Querying with WQL](querying-with-wql.md)                                                                   | Introduces the WMI Query Language (WQL).                                                                                                                                                       |
-| [Querying the Status of Optional Features](querying-the-status-of-optional-features.md)                     | In Windows 7, WMI implemented the [**Win32\_OptionalFeature**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-optionalfeature) class. This class retrieves the status of the optional features that are present on a computer. |
+| [Querying the Status of Optional Features](querying-the-status-of-optional-features.md)                     | In Windows 7, WMI implemented the [**Win32\_OptionalFeature**](/windows/desktop/CIMWin32Prov/win32-optionalfeature) class. This class retrieves the status of the optional features that are present on a computer. |
 | [Describing the Location of a WMI Object](describing-the-location-of-a-wmi-object.md)                       | Focuses on the syntax for describing the location of a WMI managed entity.                                                                                                                     |
 | [Accessing Other Operating System Features with WMI](accessing-other-operating-system-features-with-wmi.md) | Describes how to write WMI clients that access device drivers, Active Directory, and SNMP devices.                                                                                             |
 | [Accessing Data in the Interop Namespace](accessing-data-in-the-interop-namespace.md)                       | Association providers enable Windows Management Instrumentation (WMI) clients to traverse and retrieve profiles and associated class instances from different namespaces.                      |
@@ -176,11 +176,4 @@ The following table lists the topics covered in this section.
 
 
  
-
- 
-
- 
-
-
-
 

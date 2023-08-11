@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the IContextNode object for a specified globally unique identifier (GUID).
+description: Retrieves the IContextNode object for a specified globally unique identifier (GUID).
 ms.assetid: b8340666-98ab-4d8c-93c7-58ed05ef30d2
 title: IInkAnalyzer::FindNode method (IACom.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppContextNodeFound* when you no longer need to use the object.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppContextNodeFound* when you no longer need to use the object.
 
  
 
@@ -66,7 +66,7 @@ If no such [**IContextNode**](icontextnode.md) object exists as a descendant of 
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -110,9 +110,4 @@ If no such [**IContextNode**](icontextnode.md) object exists as a descendant of 
 </dt> </dl>
 
  
-
- 
-
-
-
 

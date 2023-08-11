@@ -1,5 +1,5 @@
 ---
-Description: Developers of Windows Installer packages may choose to use a custom action type 18 when the standard actions are insufficient to execute the installation.
+description: Developers of Windows Installer packages may choose to use a custom action type 18 when the standard actions are insufficient to execute the installation.
 ms.assetid: 8a7311a6-41c6-431e-982d-60bacf06454e
 title: Custom Action Type 18
 ms.topic: article
@@ -50,7 +50,7 @@ Custom actions that are [executable files](executable-files.md) must return a va
 
 ## Remarks
 
-A custom action that launches an executable takes a command line, which commonly contains properties that are designated dynamically. If this is also a [deferred execution custom action](deferred-execution-custom-actions.md), the installer uses [**CreateProcessAsUser**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) or [**CreateProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) to create the process when the custom action is invoked from the installation script.
+A custom action that launches an executable takes a command line, which commonly contains properties that are designated dynamically. If this is also a [deferred execution custom action](deferred-execution-custom-actions.md), the installer uses [**CreateProcessAsUser**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) or [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) to create the process when the custom action is invoked from the installation script.
 
 Custom actions that reference an installed file as their source, such as Custom Action Type 18 (EXE), must adhere to the following sequencing restrictions:
 
@@ -71,6 +71,3 @@ Custom actions that reference an installed file as their source, such as Custom 
  
 
  
-
-
-

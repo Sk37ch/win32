@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a managed element and its capabilities.
+description: Represents an association between a managed element and its capabilities.
 ms.assetid: 0e080042-4a56-40b7-acc5-cf69eb2a0604
 title: CIM_ElementCapabilities class
 ms.topic: reference
@@ -55,7 +55,7 @@ Data type: **CIM\_Capabilities**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The capabilities associated with the managed element.
@@ -114,7 +114,7 @@ Data type: **CIM\_ManagedElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 The managed element.
@@ -125,7 +125,7 @@ The managed element.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -136,9 +136,4 @@ The managed element.
 
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ReplacementSet class aggregates physical elements that must be replaced together.
+description: The CIM\_ReplacementSet class aggregates physical elements that must be replaced together.
 ms.assetid: db55ae2d-49b3-4cc9-95ee-1e757f58a427
 ms.tgt_platform: multiple
 title: CIM_ReplacementSet class
@@ -74,7 +74,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (256)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (256)
 </dt> </dl>
 
 Free-form string that defines a label for this property. This property is the key for the object.
@@ -91,7 +91,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -102,9 +102,4 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
  
-
- 
-
-
-
 

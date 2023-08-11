@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the virtual flags on the specified open registry key in an offline registry hive.
+description: Retrieves the virtual flags on the specified open registry key in an offline registry hive.
 ms.assetid: 2a04c257-e3b0-415b-97d2-616e12513a0a
 title: ORGetVirtualFlags function (Offreg.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ A pointer to a variable to receive the virtualization flags set for the key. Aft
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](https://msdn.microsoft.com/library/ms679351.aspx) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
+If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](/windows/win32/api/winbase/nf-winbase-formatmessage) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
 
 ## Remarks
 
@@ -79,13 +79,13 @@ Registry virtualization is enabled only for the following:
 -   Keys in **HKEY\_LOCAL\_MACHINE\\Software**
 -   Keys that an administrator can write to
 
-For more information, see [Registry Virtualization](https://msdn.microsoft.com/library/aa965884.aspx).
+For more information, see [Registry Virtualization](../sysinfo/registry-virtualization.md).
 
 ## Requirements
 
 
 
-|                            |                                                                                       |
+| Requirement | Value |
 |----------------------------|---------------------------------------------------------------------------------------|
 | Redistributable<br/> | Windows Offline Registry library version 1.0 or later<br/>                      |
 | Header<br/>          | <dl> <dt>Offreg.h</dt> </dl>   |
@@ -100,13 +100,9 @@ For more information, see [Registry Virtualization](https://msdn.microsoft.com/l
 [**ORSetVirtualFlags**](orsetvirtualflags.md)
 </dt> <dt>
 
-[Registry Virtualization](https://msdn.microsoft.com/library/aa965884.aspx)
+[Registry Virtualization](../sysinfo/registry-virtualization.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

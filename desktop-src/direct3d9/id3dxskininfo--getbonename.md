@@ -1,5 +1,5 @@
 ---
-Description: Gets the bone name, from the bone index.
+description: Gets the bone name, from the bone index.
 ms.assetid: f56faf41-c119-4cdd-bb8a-86fc99ff5893
 title: ID3DXSkinInfo::GetBoneName method (D3DX9Mesh.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ LPCSTR GetBoneName(
 *Bone* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Bone number.
 
@@ -46,7 +46,7 @@ Bone number.
 
 ## Return value
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Returns the bone name. Do not free this string.
 
@@ -54,7 +54,7 @@ Returns the bone name. Do not free this string.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -77,7 +77,3 @@ Returns the bone name. Do not free this string.
  
 
  
-
-
-
-

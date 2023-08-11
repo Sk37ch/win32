@@ -1,21 +1,24 @@
 ---
-Description: Describes a two-component vector including operator overloads and type casts.
+description: D3DXVECTOR2 structure (D3DX10Math.h) - Describes a two-component vector including operator overloads and type casts.
 ms.assetid: 5b7b4847-b994-48c6-ae3c-e48ee1716ddd
 title: D3DXVECTOR2 structure (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVECTOR2
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3DX10Math.h
 ---
 
-# D3DXVECTOR2 structure
+# D3DXVECTOR2 structure (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Describes a two-component vector including operator overloads and type casts.
 
@@ -38,7 +41,7 @@ typedef struct D3DXVECTOR2 {
 **x**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -49,7 +52,7 @@ The x-component.
 **y**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -104,7 +107,7 @@ public:
 #endif //__cplusplus
     FLOAT x, y;
 } D3DXVECTOR2, *LPD3DXVECTOR2;
-        
+
 ```
 
 
@@ -113,7 +116,7 @@ public:
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 
@@ -129,7 +132,3 @@ public:
  
 
  
-
-
-
-

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COMMIT_ID.GetHashCode method"
 title: JET_COMMIT_ID.GetHashCode method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'GetHashCode method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID.GetHashCode
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Returns the hash code for this instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,16 +52,15 @@ public override int GetHashCode()
 
 #### Return value
 
-Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+Type: [System.Int32](/dotnet/api/system.int32)  
 The hash code for this instance.  
 
 ## See also
 
 #### Reference
 
-[JET_COMMIT_ID class](dn335448\(v=exchg.10\).md)
+[JET_COMMIT_ID class](./jet-commit-id-class.md)
 
-[JET_COMMIT_ID members](dn335451\(v=exchg.10\).md)
+[JET_COMMIT_ID members](./jet-commit-id-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

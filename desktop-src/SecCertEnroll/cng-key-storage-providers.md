@@ -1,5 +1,5 @@
 ---
-Description: 'Unlike Cryptography API (CryptoAPI), Cryptography API: Next Generation (CNG) separates cryptographic providers from key storage providers (KSPs).'
+description: 'Unlike Cryptography API (CryptoAPI), Cryptography API: Next Generation (CNG) separates cryptographic providers from key storage providers (KSPs).'
 ms.assetid: bd4aadc5-d953-4971-b862-00f6d4db0572
 title: CNG Key Storage Providers
 ms.topic: article
@@ -49,10 +49,10 @@ Supports smart card key creation and storage and the following algorithms.
 
 <dl> <dt>
 
-[**CNG Algorithm Identifiers**](https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers)
+[**CNG Algorithm Identifiers**](/windows/desktop/SecCNG/cng-algorithm-identifiers)
 </dt> <dt>
 
-[CNG Key Storage Functions](https://docs.microsoft.com/windows/desktop/SecCNG/cng-key-storage-functions)
+[CNG Key Storage Functions](/windows/desktop/SecCNG/cng-key-storage-functions)
 </dt> <dt>
 
 [Understanding Cryptographic Providers](understanding-cryptographic-providers.md)
@@ -61,6 +61,3 @@ Supports smart card key creation and storage and the following algorithms.
  
 
  
-
-
-

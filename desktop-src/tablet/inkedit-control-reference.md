@@ -1,5 +1,5 @@
 ---
-Description: The InkEdit control enables you to collect ink, recognize ink, and display ink as text.
+description: The InkEdit control enables you to collect ink, recognize ink, and display ink as text.
 ms.assetid: 52761cb2-4433-4824-ba19-fe597de2faf0
 title: InkEdit Control Reference
 ms.topic: article
@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 The InkEdit control enables you to collect ink, recognize ink, and display ink as text. This control allows you to enable smart forms, which improves the accuracy of text input.
 
-This control is a superset of the [**RichEdit**](https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditole) control. It extends the **RichEdit** control with the ability to capture, recognize, and display ink.
+This control is a superset of the [**RichEdit**](/windows/desktop/api/richole/nn-richole-iricheditole) control. It extends the **RichEdit** control with the ability to capture, recognize, and display ink.
 
-This object can be instantiated by calling the [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
+This object can be instantiated by calling the [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
 
 Creating the InkEdit control behind a transparent control (such as a GroupBox with the WS\_EX\_TRANSPARENT property set) will prevent InkEdit from collecting ink.
 
@@ -163,43 +163,18 @@ Creating the InkEdit control behind a transparent control (such as a GroupBox wi
 | [**TextRTF**](/windows/desktop/api/inked/nf-inked-iinkedit-get_textrtf)                       | Gets or sets the text of the InkEdit control, including all RTF codes.<br/>                                                                                                     |
 | [**UseMouseForInput**](/windows/desktop/api/inked/nf-inked-iinkedit-get_usemouseforinput)     | Gets or sets a value that indicates whether the mouse can be used as an input device.<br/>                                                                                      |
 
-
-
- 
-
-
-
 | Structure                                                                    | Description                                                                                  |
 |------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | [**IEC\_STROKEINFO**](/windows/desktop/api/inked/ns-inked-iec_strokeinfo)                       | Contains information about a [**Stroke**](inkedit-stroke.md) event (Win32 only).<br/> |
 | [**IEC\_GESTUREINFO**](/windows/desktop/api/inked/ns-inked-iec_gestureinfo)                     | Contains information about a specific gesture (Win32 only).<br/>                       |
 | [**IEC\_RECOGNITIONRESULTINFO**](/windows/desktop/api/inked/ns-inked-iec_recognitionresultinfo) | Contains information about a recognition result (Win32 only).<br/>                     |
 
-
-
- 
-
 ## COM Implementation
 
-This object implements the **IInkEdit** COM interface.
+This object implements the [IInkEdit](/windows/win32/api/inked/nn-inked-iinkedit) COM interface.
 
 ## Related topics
 
-<dl> <dt>
-
-[**InkOverlay Class**](inkoverlay-class.md)
-</dt> <dt>
-
-[InkPicture Control Reference](inkpicture-control-reference.md)
-</dt> <dt>
-
-[**InkRecognizerContext Class**](inkrecognizercontext-class.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+- [**InkOverlay Class**](inkoverlay-class.md), 
+- [InkPicture Control Reference](inkpicture-control-reference.md)
+- [**InkRecognizerContext Class**](inkrecognizercontext-class.md)

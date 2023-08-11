@@ -1,5 +1,5 @@
 ---
-Description: Lists the CSPs available on a computer by using CryptoAPI.
+description: Lists the CSPs available on a computer by using CryptoAPI.
 ms.assetid: 10a5210d-7992-4832-9435-67ac2b851a97
 title: 'Example C Program: Enumerating CSP Providers and Provider Types'
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Example C Program: Enumerating CSP Providers and Provider Types
 
-The following example lists the CSPs available on a computer and uses the following [*CryptoAPI*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) functions:
+The following example lists the CSPs available on a computer and uses the following [*CryptoAPI*](../secgloss/c-gly.md) functions:
 
 -   [**CryptEnumProviderTypes**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumprovidertypesa)
 -   [**CryptEnumProviders**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumprovidersa)
@@ -335,6 +335,3 @@ void Wait(TCHAR *s)
  
 
  
-
-
-

@@ -17,11 +17,11 @@ Vertex shaders and pixel shaders are simplified considerably from earlier shader
 
 The semantics used on vertex shader outputs must be used on pixel shader inputs. The semantics are used to map the vertex shader outputs to the pixel shader inputs, similar to the way the vertex declaration is mapped to the vertex shader input registers and previous shader models. See Match Semantics on vs 3.0 and ps 3.0 Shaders.
 
-Additional wrap mode render states have been added to cover the possibility of additional texture coordinates in this new scheme. Attributes with D3DDECLUSAGE\_TEXCOORD and usage index from 0 to 15 are interpolated in wrap mode when the corresponding [**D3DRS\_WRAP\***](https://docs.microsoft.com/windows/desktop/direct3d9/d3drenderstatetype) is set.
+Additional wrap mode render states have been added to cover the possibility of additional texture coordinates in this new scheme. Attributes with D3DDECLUSAGE\_TEXCOORD and usage index from 0 to 15 are interpolated in wrap mode when the corresponding [**D3DRS\_WRAP\***](/windows/desktop/direct3d9/d3drenderstatetype) is set.
 
 -   [Vertex Shader Model 3 Features](#vertex-shader-model-3-features)
 -   [Pixel Shader Model 3 Features](#pixel-shader-model-3-features)
--   [Match Semantics on vs\_3\_0 and ps\_3\_0 Shaders](https://docs.microsoft.com/windows)
+-   [Match Semantics on vs\_3\_0 and ps\_3\_0 Shaders](/windows)
 -   [Fog, Depth, and Shading Mode Changes](#fog-depth-and-shading-mode-changes)
 -   [Floating Point and Integer Conversions](#floating-point-and-integer-conversions)
 -   [Specifying Full or Partial Precision](#specifying-full-or-partial-precision)
@@ -63,9 +63,9 @@ The pixel shader color and texture registers have been collapsed into ten input 
 
 The shader constant registers can be set using:
 
--   [**SetPixelShaderConstantB**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstantb)
--   [**SetPixelShaderConstantI**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstanti)
--   [**SetPixelShaderConstantF**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstantf)
+-   [**SetPixelShaderConstantB**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstantb)
+-   [**SetPixelShaderConstantI**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstanti)
+-   [**SetPixelShaderConstantF**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstantf)
 
 ## Match Semantics on vs\_3\_0 and ps\_3\_0 Shaders
 
@@ -99,7 +99,7 @@ dcl_texcoord1 o6.yzw
 
 
 
-These two shaders conflict with their use of the [**D3DDECLUSAGE\_TEXCOORD0**](https://docs.microsoft.com/windows/desktop/direct3d9/d3ddeclusage) And **D3DDECLUSAGE\_TEXCOORD1** semantics.
+These two shaders conflict with their use of the [**D3DDECLUSAGE\_TEXCOORD0**](/windows/desktop/direct3d9/d3ddeclusage) And **D3DDECLUSAGE\_TEXCOORD1** semantics.
 
 Rewrite the vertex shader like this to avoid the semantic collision:
 
@@ -205,9 +205,8 @@ Both ps\_3\_0 and ps\_2\_x provide support for two levels of precision:
 
 
 
-|          |          |                   |                      |
-|----------|----------|-------------------|----------------------|
 | ps\_3\_0 | ps\_2\_0 | Precision         | Value                |
+|----------|----------|-------------------|----------------------|
 | x        |          | Full              | fp32 or higher       |
 | x        |          | Partial precision | fp16=s10e5           |
 | x        | x        | Full              | fp24=s16e7 or higher |
@@ -242,9 +241,8 @@ vs\_2\_sw is a relaxation to the maximum caps of vs\_2\_x; similarly, ps\_2\_sw 
 
 
 
-|                                            |                                      |                                                                                                                                   |
+| Shader model                                           |  Resource                                    |  Limit                                                                                                                                  |
 |--------------------------------------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Shader Model                               | Resource                             | Limit                                                                                                                             |
 | vs\_2\_sw, vs\_3\_sw, ps\_2\_sw, ps\_3\_sw | Instruction Counts                   | Unlimited                                                                                                                         |
 | vs\_2\_sw, vs\_3\_sw, ps\_2\_sw, ps\_3\_sw | Float Constant Registers             | 8192                                                                                                                              |
 | vs\_2\_sw, vs\_3\_sw, ps\_2\_sw, ps\_3\_sw | Integer Constant Registers           | 2048                                                                                                                              |
@@ -270,7 +268,3 @@ vs\_2\_sw is a relaxation to the maximum caps of vs\_2\_x; similarly, ps\_2\_sw 
  
 
  
-
-
-
-

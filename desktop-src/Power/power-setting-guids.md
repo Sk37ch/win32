@@ -1,5 +1,5 @@
 ---
-Description: Power setting GUIDs identify power change events.
+description: Power setting GUIDs identify power change events.
 ms.assetid: 39D432A7-54F8-4135-B98C-7290F95B054A
 title: Power Setting GUIDs (WinNT.h)
 ms.topic: reference
@@ -160,7 +160,7 @@ The **Data** member is a **DWORD** that indicates battery saver state.
 0x1 - Battery saver is on. Save energy where possible.
 </dt> </dl>
 
-For general information about battery saver, see [battery saver (in the hardware component guidelines)](https://docs.microsoft.com/windows-hardware/design/component-guidelines/battery-saver).
+For general information about battery saver, see [battery saver (in the hardware component guidelines)](/windows-hardware/design/component-guidelines/battery-saver).
 
 </dl> </dd> <dt>
 
@@ -260,6 +260,24 @@ This notification is sent only to user-mode applications running in an interacti
  
 
 </dl> </dd> <dt>
+ 
+<span id="GUID_LIDSWITCH_STATE_CHANGE"></span><span id="guid_lidswitch_state_change"></span>**GUID\_LIDSWITCH\_STATE\_CHANGE**
+</dt> <dd> <dl> <dt>
+
+BA3E0F4D-B817-4094-A2D1-D56379E6A0F3
+</dt> <dt>
+
+The state of the lid has changed (open or closed). The callback won't be called until a lid device is found and its current state is known.
+
+<dl> <dt>
+
+0x0 - The lid is closed.
+</dt> <dt>
+
+0x1 - The lid is opened.
+</dt> <dt>
+
+</dl> </dd> <dt>
 
 <span id="GUID_SYSTEM_AWAYMODE"></span><span id="guid_system_awaymode"></span>**GUID\_SYSTEM\_AWAYMODE**
 </dt> <dd> <dl> <dt>
@@ -285,16 +303,11 @@ The system is entering or exiting away mode. The **Data** member is a **DWORD** 
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>WinNT.h</dt> </dl> |
 
 
 
  
-
- 
-
-
-
 

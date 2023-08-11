@@ -1,5 +1,5 @@
 ---
-Description: Replaces the current CHV (card holder verification) code with new CHV code.
+description: Replaces the current CHV (card holder verification) code with new CHV code.
 ms.assetid: 8d47d842-67e8-4948-a63b-49bcfc8a69a1
 title: ISCardVerify::ChangeCode method
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 
 # ISCardVerify::ChangeCode method
 
-\[The **ChangeCode** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **ChangeCode** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
 The **ChangeCode** method replaces the current CHV (card holder verification) code with new CHV code.
 
@@ -48,7 +48,7 @@ Pointer to an [**IByteBuffer**](ibytebuffer.md) containing the user's current co
 *pNewCode* \[in\]
 </dt> <dd>
 
-Pointer to an [**IByteBuffer**](ibytebuffer.md) containing the new code that will be presented to the [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) during the change process to authenticate the user.
+Pointer to an [**IByteBuffer**](ibytebuffer.md) containing the new code that will be presented to the [*smart card*](../secgloss/s-gly.md) during the change process to authenticate the user.
 
 </dd> <dt>
 
@@ -105,7 +105,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
@@ -130,7 +130,3 @@ In addition to the COM error codes listed above, this interface may return a sma
  
 
  
-
-
-
-

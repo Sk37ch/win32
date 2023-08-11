@@ -43,13 +43,13 @@ The address of a pointer to the [**IMsRdpWorkspace**](imsrdpworkspace.md) interf
 
 ## Remarks
 
-The [**IMsRdpWorkspace**](imsrdpworkspace.md) interface is not exposed as a custom interface. It is accessible through [IDispatch](https://docs.microsoft.com/windows/desktop/com/exposing-methods-through-idispatch) methods only.
+The [**IMsRdpWorkspace**](imsrdpworkspace.md) interface is not exposed as a custom interface. It is accessible through [IDispatch](/windows/desktop/com/exposing-methods-through-idispatch) methods only.
 
 ## Requirements
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7<br/>                                                                          |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                             |
@@ -65,10 +65,4 @@ The [**IMsRdpWorkspace**](imsrdpworkspace.md) interface is not exposed as a cust
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

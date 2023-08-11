@@ -57,7 +57,7 @@ Interface identifier for the sink interface.
 *punk* \[in\]
 </dt> <dd>
 
-Pointer to [IUnknown](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) for the sink interface specified by *riid*. This parameter cannot be set to **NULL**.
+Pointer to [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) for the sink interface specified by *riid*. This parameter cannot be set to **NULL**.
 
 </dd> <dt>
 
@@ -87,7 +87,7 @@ This method can return one of these values.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
@@ -109,10 +109,4 @@ This method can return one of these values.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Advanced Winsock Samples Using Secure Socket Extensions
+description: Advanced Winsock Samples Using Secure Socket Extensions
 ms.assetid: 9c429363-f9bb-4394-89be-f87507f5cbdd
 title: Advanced Winsock Samples Using Secure Socket Extensions
 ms.topic: article
@@ -26,7 +26,7 @@ The sample code is split into separate directories as described below:
 -   stcpcommon - the folder that contains common library code that is shared between the secure TCP client and server.
 -   stcpserver - the folder that contains the secure TCP server code.
 
-It should be noted that the samples are meant to be run on two different computers running Windows Vista or later. Additionally, IPsec credentials must be provisioned on both the computers for the connection to succeed, because the sample uses IPsec for securing its traffic. Please refer to the documentation on [IPsec Configuration](https://docs.microsoft.com/windows/desktop/FWP/ipsec-configuration) for more information on setting up IPsec credentials.
+It should be noted that the samples are meant to be run on two different computers running Windows Vista or later. Additionally, IPsec credentials must be provisioned on both the computers for the connection to succeed, because the sample uses IPsec for securing its traffic. Please refer to the documentation on [IPsec Configuration](/windows/desktop/FWP/ipsec-configuration) for more information on setting up IPsec credentials.
 
 Building the sample will generate two executable files:
 
@@ -42,7 +42,7 @@ Execute the following command for more usage options for the server:
 
 Then on computer A, start the TCP client by executing the following in a Command Prompt:
 
-**stcpclient.exe <fully-qualified-DNS-name-for-machine-B>**
+**stcpclient.exe &lt;fully-qualified-DNS-name-for-machine-B&gt;**
 
 At this point the connection should get established securely.
 
@@ -54,28 +54,28 @@ Execute the following command for more usage options for the client:
 
 <dl> <dt>
 
-[About Windows Filtering Platform](https://docs.microsoft.com/windows/desktop/FWP/about-windows-filtering-platform)
+[About Windows Filtering Platform](/windows/desktop/FWP/about-windows-filtering-platform)
 </dt> <dt>
 
-[Application Layer Enforcement (ALE)](https://docs.microsoft.com/windows/desktop/FWP/application-layer-enforcement--ale-)
+[Application Layer Enforcement (ALE)](/windows/desktop/FWP/application-layer-enforcement--ale-)
 </dt> <dt>
 
-[IPsec Configuration](https://docs.microsoft.com/windows/desktop/FWP/ipsec-configuration)
+[IPsec Configuration](/windows/desktop/FWP/ipsec-configuration)
 </dt> <dt>
 
-[IPsec Functions](https://docs.microsoft.com/windows/desktop/FWP/fwp-ipsec-functions)
+[IPsec Functions](/windows/desktop/FWP/fwp-ipsec-functions)
 </dt> <dt>
 
 [Using Secure Socket Extensions](using-secure-socket-extensions.md)
 </dt> <dt>
 
-[Security Support Provider Interface (SSPI)](https://docs.microsoft.com/windows/desktop/Rpc/security-support-provider-interface-sspi-)
+[Security Support Provider Interface (SSPI)](/windows/desktop/Rpc/security-support-provider-interface-sspi-)
 </dt> <dt>
 
-[Windows Filtering Platform](https://docs.microsoft.com/windows/desktop/FWP/windows-filtering-platform-start-page)
+[Windows Filtering Platform](/windows/desktop/FWP/windows-filtering-platform-start-page)
 </dt> <dt>
 
-[Windows Filtering Platform API Functions](https://docs.microsoft.com/windows/desktop/FWP/fwp-functions)
+[Windows Filtering Platform API Functions](/windows/desktop/FWP/fwp-functions)
 </dt> <dt>
 
 [Winsock Secure Socket Extensions](winsock-secure-socket-extensions.md)
@@ -84,6 +84,3 @@ Execute the following command for more usage options for the client:
  
 
  
-
-
-

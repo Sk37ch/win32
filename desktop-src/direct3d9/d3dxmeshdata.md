@@ -1,5 +1,5 @@
 ---
-Description: Mesh data structure.
+description: Mesh data structure.
 ms.assetid: 9164b956-95b7-4bc0-bf7e-feed2e3b4a2b
 title: D3DXMESHDATA structure (D3dx9anim.h)
 ms.topic: reference
@@ -41,11 +41,11 @@ typedef struct D3DXMESHDATA {
 **Type**
 </dt> <dd>
 
-Type: **[**D3DXMESHDATATYPE**](https://msdn.microsoft.com/library/Bb205373(v=VS.85).aspx)**
+Type: **[**D3DXMESHDATATYPE**](./d3dxmeshdatatype.md)**
 
 </dd> <dd>
 
-Defines the mesh data type. See [**D3DXMESHDATATYPE**](https://msdn.microsoft.com/library/Bb205373(v=VS.85).aspx).
+Defines the mesh data type. See [**D3DXMESHDATATYPE**](./d3dxmeshdatatype.md).
 
 </dd> <dt>
 
@@ -75,7 +75,7 @@ Pointer to a patch mesh. See [**ID3DXPatchMesh**](id3dxpatchmesh.md).
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9anim.h</dt> </dl> |
 
@@ -94,7 +94,3 @@ Pointer to a patch mesh. See [**ID3DXPatchMesh**](id3dxpatchmesh.md).
  
 
  
-
-
-
-

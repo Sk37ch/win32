@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the current state of the smart card.
+description: Retrieves the current state of the smart card.
 ms.assetid: 0e6e4a8f-ecad-4a82-8804-aaf58f13f7ca
 title: ISCard::get_Status method (Scardmgr.h)
 ms.topic: reference
@@ -17,9 +17,9 @@ api_location:
 
 # ISCard::get\_Status method
 
-\[The **get\_Status** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **get\_Status** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
-The **get\_Status** method retrieves the current [*state*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) of the [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).
+The **get\_Status** method retrieves the current [*state*](../secgloss/s-gly.md) of the [*smart card*](../secgloss/s-gly.md).
 
 ## Syntax
 
@@ -112,7 +112,7 @@ switch (scState)
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -147,7 +147,3 @@ switch (scState)
  
 
  
-
-
-
-

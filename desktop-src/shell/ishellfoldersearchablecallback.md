@@ -1,5 +1,5 @@
 ---
-Description: Exposes callback routines to monitor the search process.
+description: Exposes callback routines to monitor the search process.
 title: IShellFolderSearchableCallback interface
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 3412a01b-d5ea-44e1-819c-f10f81fac391
-api_name: 
- - IShellFolderSearchableCallback
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -31,7 +22,7 @@ Exposes callback routines to monitor the search process.
 
 ## Members
 
-The **IShellFolderSearchableCallback** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IShellFolderSearchableCallback** also has these types of members:
+The **IShellFolderSearchableCallback** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IShellFolderSearchableCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -78,7 +69,7 @@ DECLARE_INTERFACE_IID_(IShellFolderSearchableCallback, IUnknown, "F98D8294-2BBC-
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
@@ -89,7 +80,3 @@ DECLARE_INTERFACE_IID_(IShellFolderSearchableCallback, IUnknown, "F98D8294-2BBC-
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Defines the key length to be used in encryption.
+description: Defines the key length to be used in encryption.
 ms.assetid: a91e75db-f81e-4908-b795-34be7a1c242d
 title: CAPICOM_ENCRYPTION_KEY_LENGTH enumeration (Capicom.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # CAPICOM\_ENCRYPTION\_KEY\_LENGTH enumeration
 
-The **CAPICOM\_ENCRYPTION\_KEY\_LENGTH** enumeration type defines the [*key length*](https://msdn.microsoft.com/library/ms721590(v=VS.85).aspx) to be used in encryption.
+The **CAPICOM\_ENCRYPTION\_KEY\_LENGTH** enumeration type defines the [*key length*](../secgloss/k-gly.md) to be used in encryption.
 
 ## Members
 
@@ -42,7 +42,7 @@ The **CAPICOM\_ENCRYPTION\_KEY\_LENGTH** enumeration type is used by the [**Algo
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |
@@ -52,7 +52,3 @@ The **CAPICOM\_ENCRYPTION\_KEY\_LENGTH** enumeration type is used by the [**Algo
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: A MUI console application can support either system settings or application-specific settings for its user interface languages. This topic discusses the filtering of languages for this type of application.
+description: A MUI console application can support either system settings or application-specific settings for its user interface languages. This topic discusses the filtering of languages for this type of application.
 ms.assetid: 6d3c491f-3f5e-4592-aada-49b8b415b497
 title: Filtering Languages in a MUI Console Application
 ms.topic: article
@@ -25,9 +25,9 @@ These console-related limitations reduce the number of user interface languages 
 
 ## Set the Language for Console Output
 
-On Windows Vista and later, a console application sets the language to support the console display by calling [**SetThreadPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setthreadpreferreduilanguages). In this call, the application passes MUI\_CONSOLE\_FILTER in the *dwFlags* parameter and **NULL** for *pwszLanguagesBuffer*. An alternative is to call [**SetThreadUILanguage**](https://msdn.microsoft.com/library/Dd374053(v=VS.85).aspx) with a language identifier of 0. This setting causes the function to select the language that best supports the console display.
+On Windows Vista and later, a console application sets the language to support the console display by calling [**SetThreadPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setthreadpreferreduilanguages). In this call, the application passes MUI\_CONSOLE\_FILTER in the *dwFlags* parameter and **NULL** for *pwszLanguagesBuffer*. An alternative is to call [**SetThreadUILanguage**](/windows/win32/api/winnls/nf-winnls-setthreaduilanguage) with a language identifier of 0. This setting causes the function to select the language that best supports the console display.
 
-On Windows XP, the application can only set the language for console output by calling [**SetThreadUILanguage**](https://msdn.microsoft.com/library/Dd374053(v=VS.85).aspx) with a language identifier of 0.
+On Windows XP, the application can only set the language for console output by calling [**SetThreadUILanguage**](/windows/win32/api/winnls/nf-winnls-setthreaduilanguage) with a language identifier of 0.
 
 ## Related topics
 
@@ -39,6 +39,3 @@ On Windows XP, the application can only set the language for console output by 
  
 
  
-
-
-

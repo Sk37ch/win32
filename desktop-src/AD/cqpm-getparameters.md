@@ -35,7 +35,7 @@ Not used.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**LPDSQUERYPARAMS**](/windows/desktop/api/Dsquery/ns-dsquery-dsqueryparams) value that receives data about the query performed by the page. If this parameter is **NULL**, the **DSQUERYPARAMS** structure must be allocated by the extension using the [**CoTaskMemAlloc**](https://msdn.microsoft.com/library/ms692727(v=VS.85).aspx) function.
+Pointer to a [**LPDSQUERYPARAMS**](/windows/desktop/api/Dsquery/ns-dsquery-dsqueryparams) value that receives data about the query performed by the page. If this parameter is **NULL**, the **DSQUERYPARAMS** structure must be allocated by the extension using the [**CoTaskMemAlloc**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc) function.
 
 </dd> </dl>
 
@@ -47,7 +47,7 @@ Returns **S\_OK** if successful or a standard **HRESULT** error code otherwise.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
@@ -65,14 +65,8 @@ Returns **S\_OK** if successful or a standard **HRESULT** error code otherwise.
 [**DSQUERYPARAMS**](/windows/desktop/api/Dsquery/ns-dsquery-dsqueryparams)
 </dt> <dt>
 
-[**CoTaskMemAlloc**](https://msdn.microsoft.com/library/ms692727(v=VS.85).aspx)
+[**CoTaskMemAlloc**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

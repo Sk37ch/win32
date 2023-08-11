@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.GPS.AltitudeRef property.
+description: The photo metadata policy for the System.GPS.AltitudeRef property.
 ms.assetid: abbb2441-25ca-484b-a744-620ff2794221
 title: System.GPS.AltitudeRef Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.AltitudeRef Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.AltitudeRef](https://msdn.microsoft.com/library/bb787478(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.AltitudeRef](../properties/props-system-gps-altituderef.md) property.
 
 ### PKEY
 
@@ -126,12 +126,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.GPS.AltitudeRef](https://msdn.microsoft.com/library/bb787478(VS.85).aspx)
+[System.GPS.AltitudeRef](../properties/props-system-gps-altituderef.md)
 </dt> </dl>
 
  
 
  
-
-
-

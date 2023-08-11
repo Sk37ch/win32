@@ -1,5 +1,5 @@
 ---
-Description: Sent to an application when the IME ends composition. A window receives this message through its WindowProc function.
+description: Sent to an application when the IME ends composition. A window receives this message through its WindowProc function.
 ms.assetid: d0f05524-4dfc-45b2-9476-6f1244190de5
 title: WM_IME_ENDCOMPOSITION message (Winuser.h)
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WM\_IME\_ENDCOMPOSITION message
 
-Sent to an application when the IME ends composition. A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+Sent to an application when the IME ends composition. A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -36,13 +36,13 @@ This message has no return value.
 
 An application should process this message if it displays composition characters itself.
 
-If the application has created an IME window, it should pass this message to that window. The [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function processes this message by passing it to the default IME window.
+If the application has created an IME window, it should pass this message to that window. The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)  function processes this message by passing it to the default IME window.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -63,7 +63,3 @@ If the application has created an IME window, it should pass this message to tha
  
 
  
-
-
-
-

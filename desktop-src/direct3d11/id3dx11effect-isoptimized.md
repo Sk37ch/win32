@@ -38,7 +38,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**BOOL**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**BOOL**](/windows/desktop/WinProg/windows-data-types)**
 
 **TRUE** if the effect is optimized; otherwise **FALSE**.
 
@@ -55,7 +55,7 @@ An effect uses memory space two different ways: to store the information require
 
 
 
-|                    |                                                                                                                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
 | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |
@@ -70,10 +70,4 @@ An effect uses memory space two different ways: to store the information require
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

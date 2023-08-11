@@ -1,5 +1,5 @@
 ---
-Description: Generate a list of mesh edges and the patches that share each edge.
+description: Generate a list of mesh edges and the patches that share each edge.
 ms.assetid: 024528c0-2c0d-4448-9b38-05cf8d6ffc63
 title: ID3DXPatchMesh::GenerateAdjacency method (D3DX9Mesh.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT GenerateAdjacency(
 *fTolerance* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Specifies that vertices that differ in position by less than the tolerance should be treated as coincident.
 
@@ -58,7 +58,7 @@ After an application generates adjacency information for a mesh, the mesh data c
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -78,7 +78,3 @@ After an application generates adjacency information for a mesh, the mesh data c
  
 
  
-
-
-
-

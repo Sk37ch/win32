@@ -1,5 +1,5 @@
 ---
-Description: The Directory method retrieves a list of files of the specified type from the current directory.
+description: The Directory method retrieves a list of files of the specified type from the current directory.
 ms.assetid: 0ae89811-7534-497b-af9f-ae37a48bc3e5
 title: ISCardFileAccess::Directory method
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 
 # ISCardFileAccess::Directory method
 
-\[The **Directory** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **Directory** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
 The **Directory** method retrieves a list of files of the specified type from the current directory.
 
@@ -39,7 +39,7 @@ HRESULT Directory(
 *fileType* \[in\]
 </dt> <dd>
 
-Type of [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) files to list.
+Type of [*smart card*](../secgloss/s-gly.md) files to list.
 
 
 
@@ -95,7 +95,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
@@ -114,7 +114,3 @@ In addition to the COM error codes listed above, this interface may return a sma
  
 
  
-
-
-
-

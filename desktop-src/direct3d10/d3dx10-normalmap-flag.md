@@ -1,5 +1,5 @@
 ---
-Description: These flags are used to control how D3DX10ComputeNormalMap generates normal maps. Any number of these flags may be OR'd together in any combination.
+description: These flags are used to control how D3DX10ComputeNormalMap generates normal maps. Any number of these flags may be OR'd together in any combination.
 ms.assetid: 307936c1-3137-41fe-8bea-7a82e6db0867
 title: D3DX10_NORMALMAP_FLAG enumeration (D3DX10Tex.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ Inverts the direction of each normal.
 <span id="D3DX10_NORMALMAP_COMPUTE_OCCLUSION"></span><span id="d3dx10_normalmap_compute_occlusion"></span>**D3DX10\_NORMALMAP\_COMPUTE\_OCCLUSION**
 </dt> <dd>
 
-Computes the per pixel occlusion term and encodes it into the alpha. An Alpha of 1 means that the pixel is not obscured in any way, and an alpha of 0 would mean that the pixel is completly obscured.
+Computes the per pixel occlusion term and encodes it into the alpha. An Alpha of 1 means that the pixel is not obscured in any way, and an alpha of 0 would mean that the pixel is completely obscured.
 
 </dd> </dl>
 
@@ -77,7 +77,7 @@ Computes the per pixel occlusion term and encodes it into the alpha. An Alpha of
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Tex.h</dt> </dl> |
 

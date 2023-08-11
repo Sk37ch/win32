@@ -12,17 +12,20 @@ keywords:
 - Windows Media Player library,location constants
 - library,location constants
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Library Location Constants
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
  
 
-The library location constants are global string variables defined in contentpartner.h. They are used by certain methods of the [IWMPContentPartner](/previous-versions/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner) and [IWMPContentPartnerCallback](/previous-versions/previous-versions/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback) interfaces and by certain methods of the [External](external-object-for-type-1-online-stores.md) object. These constants are used to indicate the following types.
+The library location constants are global string variables defined in contentpartner.h. They are used by certain methods of the [IWMPContentPartner](/previous-versions/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner) and [IWMPContentPartnerCallback](/previous-versions/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback) interfaces and by certain methods of the [External](external-object-for-type-1-online-stores.md) object. These constants are used to indicate the following types.
 
 -   Library location type: This is the type of library view being displayed by Windows Media Player. For example, the Player might be displaying a view of a particular album (g\_szCPAlbumID) or the view of all genres (g\_szAllCPGenreIDs).
 -   Selected item type: This is the type of item selected in the library view. For example, the user might select a particular album (g\_szCPAlbumID) in the view of all albums.

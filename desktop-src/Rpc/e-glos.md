@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# E
+# E (RPC)
 
 [A](a-glos.md) [B](b-glos.md) [C](c-glos.md) [D](d-glos.md) E [F](f-glos.md) G H [I](i-glos.md) J K [L](l-glos.md) [M](m-glos.md) [N](n-glos.md) [O](o-glos.md) [P](p-glos.md) [Q](q.md) [R](r-glos.md) [S](s-glos.md) [T](t-glos.md) [U](u-glos.md) [V](v-glos.md) [W](w-glos.md) X Y Z
 
@@ -37,7 +37,7 @@ Network-specific address of a server process for remote procedure calls. The act
 <span id="_rpc_endpoint_mapper_glos"></span><span id="_RPC_ENDPOINT_MAPPER_GLOS"></span>**endpoint mapper**
 </dt> <dd>
 
-Part of the RPC subsystem (RPCSS) that allows the run-time library to dynamically assign and resolve endpoints. See also [endpoint](https://docs.microsoft.com/windows).
+Part of the RPC subsystem (RPCSS) that allows the run-time library to dynamically assign and resolve endpoints. See also [endpoint](/windows).
 
 </dd> <dt>
 
@@ -58,7 +58,3 @@ Array of pointers to functions that implement the operations specified in the in
  
 
  
-
-
-
-

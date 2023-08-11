@@ -1,5 +1,5 @@
 ---
-Description: Closes a handle to the specified registry key in an offline registry hive.
+description: Closes a handle to the specified registry key in an offline registry hive.
 ms.assetid: 01bb21b1-217b-4716-ae1e-466cf8383155
 title: ORCloseKey function (Offreg.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ A handle to an open registry key in an offline registry hive.
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](https://msdn.microsoft.com/library/ms679351.aspx) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
+If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](/windows/win32/api/winbase/nf-winbase-formatmessage) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
 
 If the specified key is the root key of the registry hive, the function fails with ERROR\_INVALID\_PARAMETER.
 
@@ -59,7 +59,7 @@ Use the [**ORCloseHive**](orclosehive.md) function to close an offline registry 
 
 
 
-|                            |                                                                                       |
+| Requirement | Value |
 |----------------------------|---------------------------------------------------------------------------------------|
 | Redistributable<br/> | Windows Offline Registry library version 1.0 or later<br/>                      |
 | Header<br/>          | <dl> <dt>Offreg.h</dt> </dl>   |
@@ -86,7 +86,3 @@ Use the [**ORCloseHive**](orclosehive.md) function to close an offline registry 
  
 
  
-
-
-
-

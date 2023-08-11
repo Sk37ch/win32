@@ -1,5 +1,5 @@
 ---
-Description: Indicates the user action that is needed to perform the Trusted Platform Module (TPM) physical presence operation. Use the SetPhysicalPresenceRequest method to request an operation.
+description: Indicates the user action that is needed to perform the Trusted Platform Module (TPM) physical presence operation. Use the SetPhysicalPresenceRequest method to request an operation.
 ms.assetid: abbd9702-c3a7-468a-bc83-2b7739d0b7bf
 title: GetPhysicalPresenceTransition method of the Win32_Tpm class
 ms.topic: reference
@@ -77,13 +77,13 @@ The following table lists some of the common return codes.
 
 ## Remarks
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/Aa823192(v=VS.85).aspx).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## Requirements
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                      |
@@ -106,7 +106,3 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Returns the number of animation sets currently registered in the animation controller.
+description: Returns the number of animation sets currently registered in the animation controller.
 ms.assetid: 1aacc84d-5025-4601-9a6c-84b3d9b06012
 title: ID3DXAnimationController::GetNumAnimationSets method (D3dx9anim.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of animation sets.
 
@@ -47,7 +47,7 @@ The controller contains any number of animations sets and tracks. Animation sets
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -64,7 +64,3 @@ The controller contains any number of animations sets and tracks. Animation sets
  
 
  
-
-
-
-

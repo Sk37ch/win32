@@ -1,5 +1,5 @@
 ---
-Description: The <searchConnectorDescriptionType> element is the top level container for the search connector definition.
+description: The &lt;searchConnectorDescriptionType&gt; element is the top level container for the search connector definition.
 ms.assetid: a6b45864-210d-4099-804d-7548fd8eb562
 title: searchConnectorDescriptionType Element (Search Connector Schema)
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # searchConnectorDescriptionType Element (Search Connector Schema)
 
-The <searchConnectorDescriptionType> element is the top level container for the search connector definition.
+The &lt;searchConnectorDescriptionType&gt; element is the top level container for the search connector definition.
 
 -   [Syntax](#syntax)
 -   [Element Information](#element-information)
@@ -160,7 +160,7 @@ The following is an example of a Search Connector Description file for a federat
     <folderType>{8FAF9629-1980-46FF-8023-9DCEAB9C3EE3}</folderType>
   </templateInfo>
   <propertyStore>
-    <property name="OpenSearchHTMLRolloverTemplate">https://social.msdn.microsoft.com/Search/en-US/?Query={searchTerms}</property>
+    <property name="OpenSearchHTMLRolloverTemplate">https://social.msdn.microsoft.com/Search/?Query={searchTerms}</property>
   </propertyStore>
   <locationProvider clsid="{48E277F6-4E74-4cd6-BA6F-FA4F42898223}">
     <propertyBag>

@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Subject property.
+description: The photo metadata policy for the System.Subject property.
 ms.assetid: 5ab7c74b-8a5e-4329-8a49-291470d406cc
 title: System.Subject Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Subject Photo Metadata Policy
 
-The photo metadata policy for the [System.Subject](https://msdn.microsoft.com/library/bb787576(VS.85).aspx) property.
+The photo metadata policy for the [System.Subject](../properties/props-system-subject.md) property.
 
 ### PKEY
 
@@ -120,12 +120,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Subject](https://msdn.microsoft.com/library/bb787576(VS.85).aspx)
+[System.Subject](../properties/props-system-subject.md)
 </dt> </dl>
 
  
 
  
-
-
-

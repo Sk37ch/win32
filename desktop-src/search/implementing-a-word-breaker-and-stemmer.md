@@ -1,5 +1,5 @@
 ---
-Description: Microsoft provides word breakers and stemmers for a number of languages. This topic describes how to implement, and use custom word breakers and stemmers for languages, and locales beyond those provided by Microsoft.
+description: Microsoft provides word breakers and stemmers for a number of languages. This topic describes how to implement, and use custom word breakers and stemmers for languages, and locales beyond those provided by Microsoft.
 ms.assetid: 47768691-7071-440e-bfbf-975713880c00
 title: Implementing a Word Breaker and Stemmer
 ms.topic: article
@@ -9,6 +9,9 @@ ms.date: 05/31/2018
 # Implementing a Word Breaker and Stemmer
 
 Microsoft provides word breakers and stemmers for a number of languages. This topic describes how to implement, and use custom word breakers and stemmers for languages, and locales beyond those provided by Microsoft.
+
+> [!Note]
+> Custom word breakers were temporarily unsupported. In July 2018, a change was made to Windows Server 2019 that prevented DLLs without a Microsoft signature from being loaded by SearchIndexer.exe. This limitation was lifted in January 2021.
 
 This topic is organized as follows:
 
@@ -57,7 +60,7 @@ When a document is included in the index, each word is assigned an integer value
 
 
 
-|       |     |                        |          |       |     |     |                               |
+|&nbsp; | &nbsp;  |      &nbsp;                  |   &nbsp;       |   &nbsp;    | &nbsp;    |  &nbsp;   |      &nbsp;                         |
 |-------|-----|------------------------|----------|-------|-----|-----|-------------------------------|
 | Where | is  | Kyle Kyle's<br/> | document | filed | in  | the | database data base<br/> |
 
@@ -79,7 +82,7 @@ Generating alternative word forms increases the number of ways that queries repr
 
 ### WordSink and PhraseSink
 
-Word breakers use the [**IWordSink**](iwordsink.md) and [**IPhraseSink**](https://msdn.microsoft.com/library/Ff819113(v=VS.85).aspx) objects to collect and store all words and phrases that they extract from text. A word breaker stores words in a form that is as close as possible to the original word form in the document. **IPhraseSink** stores phrases at query time. Phrases improve the relevance of query results because longer sequences of words are rarer and provide greater distinction than smaller phrases. When the indexer places a phrase in the **IPhraseSink** at query time, it creates an instance of the word breaker to break the phrase into words. The indexer then evaluates the phrase by checking whether the words in the phrase occur adjacent to one another in the index. For example, if "ABCD" occurs in the index at positions *x*, *x*+1, *x*+2, and *x*+3, the phrase match will occur if any adjacent substring of "ABCD" is submitted in a query. This strategy is effective for character-based word breakers that split phrases and long words during index creation and that generate phrases during query time.
+Word breakers use the [**IWordSink**](iwordsink.md) and [**IPhraseSink**](/windows/win32/api/indexsrv/nn-indexsrv-iphrasesink) objects to collect and store all words and phrases that they extract from text. A word breaker stores words in a form that is as close as possible to the original word form in the document. **IPhraseSink** stores phrases at query time. Phrases improve the relevance of query results because longer sequences of words are rarer and provide greater distinction than smaller phrases. When the indexer places a phrase in the **IPhraseSink** at query time, it creates an instance of the word breaker to break the phrase into words. The indexer then evaluates the phrase by checking whether the words in the phrase occur adjacent to one another in the index. For example, if "ABCD" occurs in the index at positions *x*, *x*+1, *x*+2, and *x*+3, the phrase match will occur if any adjacent substring of "ABCD" is submitted in a query. This strategy is effective for character-based word breakers that split phrases and long words during index creation and that generate phrases during query time.
 
 ### Breaks
 
@@ -128,7 +131,3 @@ Stemmers for Windows Search run in the Local Security context. They should be wr
  
 
  
-
-
-
-

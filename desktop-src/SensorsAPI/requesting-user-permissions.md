@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to request permissions from the user to use sensors. For background information about permissions in the Sensor API, see Managing User Permissions.
+description: This topic describes how to request permissions from the user to use sensors. For background information about permissions in the Sensor API, see Managing User Permissions.
 ms.assetid: e43ad497-86f1-4804-a67a-0aeb56b80d7f
 title: Requesting User Permissions
 ms.topic: article
@@ -12,7 +12,7 @@ This topic describes how to request permissions from the user to use sensors. Fo
 
 The following examples illustrate some of the common scenarious where you can choose to request user permissions.
 
-The following example code simply requests permissions for all sensors retrieved from the sensor manager, by type, using an asynchronous method call. The platform will open a dialog box to prompt the user only to enable sensors that are not already enabled. To determine whether the user enabled any sensors in this case, you must handle the [**ISensorEvents::OnStateChanged**](https://msdn.microsoft.com/library/Dd318862(v=VS.85).aspx) event.
+The following example code simply requests permissions for all sensors retrieved from the sensor manager, by type, using an asynchronous method call. The platform will open a dialog box to prompt the user only to enable sensors that are not already enabled. To determine whether the user enabled any sensors in this case, you must handle the [**ISensorEvents::OnStateChanged**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensorevents-onstatechanged) event.
 
 
 ```C++
@@ -108,6 +108,3 @@ if(SUCCEEDED(hr))
  
 
  
-
-
-

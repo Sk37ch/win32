@@ -1,5 +1,5 @@
 ---
-Description: Serves as a base class for all intrinsic events that relate to an instance.
+description: Serves as a base class for all intrinsic events that relate to an instance.
 ms.assetid: f6d2b6e5-0dca-4cb5-95a5-33b45cd76807
 ms.tgt_platform: multiple
 title: '__InstanceOperationEvent class'
@@ -85,7 +85,7 @@ Access type: Read-only
 
 Unique value that indicates the time at which the event was generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Times (UTC) format. This property is inherited from [**\_\_Event**](--event.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> </dl>
 
@@ -121,17 +121,17 @@ You register interest in instances of one of these classes by issuing a notifica
 
 `SELECT * FROM __InstanceOperationEventOrDerivedClass WITHIN PollingInterval WHERE TargetInstance ISA WMIClassName AND TargetInstance.WMIClassPropertyName = Value`
 
-For a longer discussion of using the WMI instance events to monitor computer activity, see [How Can I Monitor for Different Types of Events With Just One Script?](https://blogs.technet.com/b/heyscriptingguy/archive/2005/04/04/how-can-i-monitor-for-different-types-of-events-with-just-one-script.aspx)
+For a longer discussion of using the WMI instance events to monitor computer activity, see [How Can I Monitor for Different Types of Events With Just One Script?](https://devblogs.microsoft.com/scripting/how-can-i-monitor-for-different-types-of-events-with-just-one-script/)
 
 ## Examples
 
-The [Monitor process event](https://Gallery.TechNet.Microsoft.Com/94c7dc4c-813a-411d-aa3f-f98982cd2a2f) VBScript code sample on TechNet Gallery uses **\_\_InstanceOperationEvent** to monitors the first WMI instance event for [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process).
+The [Monitor process event](https://Gallery.TechNet.Microsoft.Com/94c7dc4c-813a-411d-aa3f-f98982cd2a2f) VBScript code sample on TechNet Gallery uses **\_\_InstanceOperationEvent** to monitors the first WMI instance event for [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process).
 
 ## Requirements
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -143,7 +143,7 @@ The [Monitor process event](https://Gallery.TechNet.Microsoft.Com/94c7dc4c-813a-
 
 <dl> <dt>
 
-[**\_\_Event**](https://docs.microsoft.com/windows/desktop/WmiSdk/--event)
+[**\_\_Event**](/windows/desktop/WmiSdk/--event)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
@@ -154,11 +154,4 @@ The [Monitor process event](https://Gallery.TechNet.Microsoft.Com/94c7dc4c-813a-
 
 [Writing to a Log File Based on an Event](writing-to-a-log-file-based-on-an-event.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: This section describes schemas used by the Windows Property System.
+description: This section describes schemas used by the Windows Property System.
 ms.assetid: 5f182207-b537-4866-916a-1e1563d796b6
 title: Property Description Schema
 ms.topic: article
@@ -14,7 +14,7 @@ This section describes schemas used by the Windows Property System.
 
 | Topic                                                      | Contents                                                                                           |
 |------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| [Property Description Schema](https://msdn.microsoft.com/library/Bb773879(v=VS.85).aspx) | Elements that comprise the XML schema used to define properties used by the Shell property system. |
+| [Property Description Schema](./propdesc-schema-entry.md) | Elements that comprise the XML schema used to define properties used by the Shell property system. |
 
 
 
@@ -45,6 +45,3 @@ This section describes schemas used by the Windows Property System.
  
 
  
-
-
-

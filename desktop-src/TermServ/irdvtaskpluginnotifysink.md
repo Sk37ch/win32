@@ -23,7 +23,7 @@ The **IRDVTaskPluginNotifySink** interface is used by the task agent to communic
 
 ## Members
 
-The **IRDVTaskPluginNotifySink** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IRDVTaskPluginNotifySink** also has these types of members:
+The **IRDVTaskPluginNotifySink** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IRDVTaskPluginNotifySink** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -52,7 +52,7 @@ Although this interface is supported on the operating systems identified in the 
 
 
 
-|                                     |                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------|
 | Minimum supported client<br/> | Windows 7 Enterprise<br/>   |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/> |
@@ -60,10 +60,4 @@ Although this interface is supported on the operating systems identified in the 
 
 
  
-
- 
-
-
-
-
 

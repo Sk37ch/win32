@@ -1,5 +1,5 @@
 ---
-Description: The Windows UI provides users with access to a wide variety of objects necessary for running applications and managing the operating system.
+description: The Windows UI provides users with access to a wide variety of objects necessary for running applications and managing the operating system.
 title: Windows Shell
 ms.topic: article
 ms.date: 05/31/2018
@@ -49,7 +49,7 @@ This documentation is broken into three major sections:
 
 -   The [Shell Developer's Guide](intro.md) provides conceptual material about how the Shell works and how to use the Shell's API in your application.
 -   The [Shell Reference](shell-reference-bumper.md) section documents programming elements that make up the various Shell APIs.
--   [Shell SDK Samples](samples-entry.md) provides links to Shell samples. Most samples can be downloaded from [MSDN Code Gallery](https://code.msdn.microsoft.com/). All samples are included in the [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+-   [Shell Samples](samples-entry.md) provides links to related code samples.
 
 The following table provides an outline of the Shell Reference section. Unless otherwise noted, all programming elements are documented in unmanaged C++.
 

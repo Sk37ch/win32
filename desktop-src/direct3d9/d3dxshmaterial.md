@@ -1,5 +1,5 @@
 ---
-Description: Spherical harmonic (SH) precomputed radiance transfer (PRT) material characteristics.
+description: Spherical harmonic (SH) precomputed radiance transfer (PRT) material characteristics.
 ms.assetid: 2be49f96-ac61-46aa-8d56-d8eee8dca9ed
 title: D3DXSHMATERIAL structure (D3dx9mesh.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ Diffuse albedo of the surface. This value is ignored if the object is a mirror.
 **bMirror**
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -64,7 +64,7 @@ Must be set to **FALSE**.
 **bSubSurf**
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -75,7 +75,7 @@ Set to **TRUE** to enable subsurface scattering; any object that does subsurface
 **RelativeIndexOfRefraction**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -117,7 +117,7 @@ For more information about PRT see:
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 
@@ -133,7 +133,3 @@ For more information about PRT see:
  
 
  
-
-
-
-

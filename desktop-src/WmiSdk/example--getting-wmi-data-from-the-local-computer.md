@@ -1,5 +1,5 @@
 ---
-Description: You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on the local computer, retrieves data semisynchronously, and then cleans up.
+description: You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on the local computer, retrieves data semisynchronously, and then cleans up.
 ms.assetid: 35dc97aa-dcef-48c1-af8b-ce43e3cf1d3e
 ms.tgt_platform: multiple
 title: 'Example: Getting WMI Data from the Local Computer'
@@ -13,15 +13,15 @@ You can use the procedure and code examples in this topic to create a complete W
 
 The following procedure is used to execute the WMI application. Steps 1 through 5 contain all the steps required to set up and connect to WMI, and steps 6 and 7 are where data is queried and received.
 
-1.  Initialize COM parameters with a call to [**CoInitializeEx**](https://msdn.microsoft.com/library/ms695279(v=VS.85).aspx).
+1.  Initialize COM parameters with a call to [**CoInitializeEx**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex).
 
     For more information, see [Initializing COM for a WMI Application](initializing-com-for-a-wmi-application.md).
 
-2.  Initialize COM process security by calling [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx).
+2.  Initialize COM process security by calling [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity).
 
     For more information, see [Setting the Default Process Security Level Using C++](setting-the-default-process-security-level-using-c-.md).
 
-3.  Obtain the initial locator to WMI by calling [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx).
+3.  Obtain the initial locator to WMI by calling [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance).
 
     For more information, see [Creating a Connection to a WMI Namespace](creating-a-connection-to-a-wmi-namespace.md).
 
@@ -29,7 +29,7 @@ The following procedure is used to execute the WMI application. Steps 1 through 
 
     For more information, see [Creating a Connection to a WMI Namespace](creating-a-connection-to-a-wmi-namespace.md).
 
-5.  Set [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) proxy security so the WMI service can impersonate the client by calling [**CoSetProxyBlanket**](https://msdn.microsoft.com/library/ms692692(v=VS.85).aspx).
+5.  Set [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) proxy security so the WMI service can impersonate the client by calling [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket).
 
     For more information, see [Setting the Security Levels on a WMI Connection](setting-the-security-levels-on-a-wmi-connection.md).
 
@@ -49,14 +49,14 @@ The following procedure is used to execute the WMI application. Steps 1 through 
 
     ```C++
     VARIANT vtProp;
-
+    VariantInit(&vtProp);
     // Get the value of the Name property
     hr = pclsObj->Get(L"Name", 0, &vtProp, 0, 0);
     ```
 
     
 
-    After the value of the Name property is stored in the [**VARIANT**](https://msdn.microsoft.com/library/ms221627(v=VS.71).aspx) variable vtProp, it can then be displayed to the user.
+    After the value of the Name property is stored in the [**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant) variable vtProp, it can then be displayed to the user.
 
     For more information, see [Enumerating WMI](enumerating-wmi.md).
 
@@ -227,6 +227,7 @@ int main(int argc, char **argv)
 
         VARIANT vtProp;
 
+        VariantInit(&vtProp);
         // Get the value of the Name property
         hr = pclsObj->Get(L"Name", 0, &vtProp, 0, 0);
         wcout << " OS Name : " << vtProp.bstrVal << endl;
@@ -253,6 +254,3 @@ int main(int argc, char **argv)
  
 
  
-
-
-

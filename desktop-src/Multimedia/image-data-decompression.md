@@ -7,10 +7,13 @@ keywords:
 - VCM (video compression manager),image-data decompression
 - ICDecompressEx functions
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Image-Data Decompression
+
+\[The feature associated with this page, [Video Compression Manager](/windows/win32/multimedia/video-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 Your application uses a series of [**ICDecompressEx**](/windows/desktop/api/Vfw/nf-vfw-icdecompressex) functions to control the decompressor. The functions can help you perform the following tasks:
 
@@ -27,7 +30,7 @@ The [**ICDecompressEx**](/windows/desktop/api/Vfw/nf-vfw-icdecompressex) functio
 
 If you want to decompress data and your application requires a specific output format, you can use the [**ICDecompressExQuery**](/windows/desktop/api/Vfw/nf-vfw-icdecompressexquery) function to query the decompressor to determine if it supports the input and output formats.
 
-If the output format is not important in your application, you need only find a decompressor that can handle the input format. To determine if a decompressor can handle the input format, use [**ICDecompressExQuery**](/windows/desktop/api/Vfw/nf-vfw-icdecompressexquery) and specify **NULL** for the *lpbiDst* parameter. Your application can determine the buffer size needed for the data specifying the decompression format by sending the [**ICM\_DECOMPRESS\_GET\_FORMAT**](icm-decompress-get-format.md) message (or use the [**ICDecompressGetFormatSize**](/windows/desktop/api/Vfw/nf-vfw-icdecompressgetformatsize) macro). You can also send **ICM\_DECOMPRESS\_GET\_FORMAT** (or the [**ICDecompressGetFormat**](/windows/desktop/api/Vfw/nf-vfw-icdecompressgetformat) macro) to retrieve the format data. The decompressor returns its suggested format in a [**BITMAPINFO**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure. This format typically preserves the most information during decompression. Your application should ensure that the decompressor returns successfully before it decompresses the information.
+If the output format is not important in your application, you need only find a decompressor that can handle the input format. To determine if a decompressor can handle the input format, use [**ICDecompressExQuery**](/windows/desktop/api/Vfw/nf-vfw-icdecompressexquery) and specify **NULL** for the *lpbiDst* parameter. Your application can determine the buffer size needed for the data specifying the decompression format by sending the [**ICM\_DECOMPRESS\_GET\_FORMAT**](icm-decompress-get-format.md) message (or use the [**ICDecompressGetFormatSize**](/windows/desktop/api/Vfw/nf-vfw-icdecompressgetformatsize) macro). You can also send **ICM\_DECOMPRESS\_GET\_FORMAT** (or the [**ICDecompressGetFormat**](/windows/desktop/api/Vfw/nf-vfw-icdecompressgetformat) macro) to retrieve the format data. The decompressor returns its suggested format in a [**BITMAPINFO**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure. This format typically preserves the most information during decompression. Your application should ensure that the decompressor returns successfully before it decompresses the information.
 
 Because your application allocates the memory required for decompression, it needs to determine the maximum memory the decompressor can require for the output format. The **ICM\_DECOMPRESS\_GET\_FORMAT** message obtains the number of bytes the decompressor uses for the default format.
 
@@ -55,7 +58,3 @@ After your application has decompressed the data, it can send the [**ICM\_DECOMP
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: The IWbemBackupRestoreEx interface exposes the following methods.
+description: The IWbemBackupRestoreEx interface exposes the following methods.
 ms.assetid: 799AF420-E60B-499F-A87F-4E0220DC0183
 ms.tgt_platform: multiple
 title: IWbemBackupRestoreEx Methods
@@ -13,14 +13,11 @@ The [**IWbemBackupRestoreEx**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemback
 
 ## In this section
 
--   [**Backup method**](https://msdn.microsoft.com/library/Aa391419(v=VS.85).aspx)
--   [**Restore method**](https://msdn.microsoft.com/library/Aa391421(v=VS.85).aspx)
+-   [**Backup method**](/previous-versions/windows/desktop/legacy/aa391419(v=vs.85))
+-   [**Restore method**](/previous-versions/windows/desktop/legacy/aa391421(v=vs.85))
 -   [**Pause method**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbembackuprestoreex-pause)
 -   [**Resume method**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbembackuprestoreex-resume)
 
  
 
  
-
-
-

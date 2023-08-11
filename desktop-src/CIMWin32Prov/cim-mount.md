@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Mount class represents an association between a file system and a directory to which it is attached.
+description: The CIM\_Mount class represents an association between a file system and a directory to which it is attached.
 ms.assetid: abf1833b-9b39-45c0-8400-2be2bf3a1c3c
 ms.tgt_platform: multiple
 title: CIM_Mount class
@@ -63,7 +63,7 @@ Data type: **CIM\_Directory**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_Directory**](cim-directory.md) describing the directory mounted.
@@ -79,7 +79,7 @@ Data type: **CIM\_NFS**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_NFS**](cim-nfs.md) describing the FileSystem the Directory is mounted on.
@@ -98,7 +98,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -116,9 +116,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

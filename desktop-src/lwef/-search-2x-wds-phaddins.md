@@ -8,7 +8,8 @@ ms.date: 05/31/2018
 
 # Developing Protocol Handler Add-ins
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://msdn.microsoft.com/library/aa965362(VS.85).aspx).\]
+> [!NOTE]
+> Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003. On later releases, use [Windows Search](../search/-search-3x-wds-overview.md) instead.
 
 You can extend Microsoft Windows Desktop Search (WDS) to include new data stores by implementing a custom protocol handler.
 
@@ -18,7 +19,7 @@ A data store is a content source (a database system, a directory, a file system)
 
 Often users need to search other data stores such as legacy databases, email stores or data structures not supported by WDS. You can extend WDS to crawl a new data store by using or implementing a protocol handler specifically for that data store. First, you should first determine if a protocol handler already exists for your data store, perhaps for use with another application like SharePoint Services. If so, you can install that protocol handler on the system. If, however, another protocol handler does not exist, then you need to implement one. WDS protocol handlers use the same design specifications as SharePoint Services, and they can often be used interchangeably.
 
-Furthermore, if the data store contains data or file types other than one of the 200 file types supported by WDS, you also need to implement a filter to access and index the contents of items in the store. WDS 2.x uses the protocol handler and [**IFilter**](https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter)technology used by SharePoint Services. If you already have filters for a specific store and file type installed on the system being indexed, WDS uses the existing interfaces to index this data.
+Furthermore, if the data store contains data or file types other than one of the 200 file types supported by WDS, you also need to implement a filter to access and index the contents of items in the store. WDS 2.x uses the protocol handler and [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)technology used by SharePoint Services. If you already have filters for a specific store and file type installed on the system being indexed, WDS uses the existing interfaces to index this data.
 
  
 
@@ -71,7 +72,3 @@ To extend WDS to crawl new data stores, you can create a protocol handler and on
  
 
  
-
-
-
-

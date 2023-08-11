@@ -1,5 +1,5 @@
 ---
-Description: Locks an index buffer and obtains a pointer to the index buffer memory.
+description: Locks an index buffer and obtains a pointer to the index buffer memory.
 ms.assetid: c8941164-1f2a-4aed-b0bd-8130aac61da4
 title: ID3DXBaseMesh::LockIndexBuffer method (D3DX9Mesh.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT LockIndexBuffer(
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Combination of zero or more locking flags that describe the type of lock to perform. For this method, the valid flags are:
 
@@ -55,7 +55,7 @@ For a description of the flags, see [D3DLOCK](d3dlock.md).
 *ppData* \[out, retval\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**LPVOID**](../winprog/windows-data-types.md)\***
 
 VOID\* pointer to a buffer containing the index data. The count of indices in this buffer will be equal to [**ID3DXBaseMesh::GetNumFaces**](id3dxbasemesh--getnumfaces.md) \* 3.
 
@@ -75,7 +75,7 @@ When working with index buffers, you are allowed to make multiple lock calls. Ho
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -92,7 +92,3 @@ When working with index buffers, you are allowed to make multiple lock calls. Ho
  
 
  
-
-
-
-

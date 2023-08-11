@@ -1,5 +1,5 @@
 ---
-Description: A callback function used to notify the host when a texture render has been completed.
+description: A callback function used to notify the host when a texture render has been completed.
 MS-HAID: vspixengine.IPixEngine5Callbacks\_RenderTextureComplete
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -32,11 +32,8 @@ A callback function used to notify the host when a texture render has been compl
 
 ## <span id="see_also"></span>See also
 
-[**IPixEngine5Callbacks**](https://docs.microsoft.com/windows/desktop/direct3dtools/ipixengine5callbacks)
+[**IPixEngine5Callbacks**](/windows/desktop/direct3dtools/ipixengine5callbacks)
 
  
 
  
-
-
-

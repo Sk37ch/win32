@@ -1,5 +1,5 @@
 ---
-Description: Most string operations can use the same logic for Unicode and for Windows code pages.
+description: Most string operations can use the same logic for Unicode and for Windows code pages.
 ms.assetid: 5364ec09-68e1-444c-9493-ca9426ac9c34
 title: Windows Data Types for Strings
 ms.topic: article
@@ -43,7 +43,7 @@ typedef WCHAR *LPWSTR, *LPWCH;
 
 
 
-The letter "T" in a type definition, for example, TCHAR or LPTSTR, designates a generic type that can be compiled for either Windows code pages or Unicode. The letter "W" in a type definition, for example, WCHAR or LPWSTR, designates a Unicode type. Because Windows code pages are of the older form, they have simple type definitions, such as CHAR and LPSTR. For a complete description of data types in Windows, see [Windows Data Types](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx).
+The letter "T" in a type definition, for example, TCHAR or LPTSTR, designates a generic type that can be compiled for either Windows code pages or Unicode. The letter "W" in a type definition, for example, WCHAR or LPWSTR, designates a Unicode type. Because Windows code pages are of the older form, they have simple type definitions, such as CHAR and LPSTR. For a complete description of data types in Windows, see [Windows Data Types](../winprog/windows-data-types.md).
 
 ## Related topics
 
@@ -55,6 +55,3 @@ The letter "T" in a type definition, for example, TCHAR or LPTSTR, designates a 
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: CIM\_Indication is the abstract base class for all notifications about changes in schema objects, and schema object data, events detected by providers and instrumentation. Subclasses of CIM\_Indication represent specific types of notifications.
+description: CIM\_Indication is the abstract base class for all notifications about changes in schema objects, and schema object data, events detected by providers and instrumentation. Subclasses of CIM\_Indication represent specific types of notifications.
 ms.assetid: 85a70425-7b32-449c-9fc0-1cfbf34d9187
 title: CIM_Indication class
 ms.topic: reference
@@ -65,7 +65,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Recommendation.ITU\|X733.Correlated notifications"), [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_Indication**.**IndicationIdentifier**")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Recommendation.ITU\|X733.Correlated notifications"), [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_Indication**.**IndicationIdentifier**")
 </dt> </dl>
 
 A array that contains **IndicationIdentifier** values of notifications that are related this one.
@@ -81,15 +81,15 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_IndicationFilter.Name")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_IndicationFilter.Name")
 </dt> </dl>
 
 The identifier of the indication filter that processes the indication. The sending service sets this property. This property correlates with the **Name** property of the **CIM\_IndicationFilter** object. The value of **IndicationFilterName** should use the following format:
 
--   *<OrgID>*:*<LocalID>*
--   *<OrgID>* must include a copyrighted, trademarked, or unique name that is owned by the business entity that owns the object.
--   *<OrgID>* must not contain a colon (:)
--   *<LocalID>* a unique identifier chosen by the business entity that owns the object.
+-   *&lt;OrgID&gt;*:*&lt;LocalID&gt;*
+-   *&lt;OrgID&gt;* must include a copyrighted, trademarked, or unique name that is owned by the business entity that owns the object.
+-   *&lt;OrgID&gt;* must not contain a colon (:)
+-   *&lt;LocalID&gt;* a unique identifier chosen by the business entity that owns the object.
 
 </dd> <dt>
 
@@ -102,18 +102,18 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Recommendation.ITU\|X733.Notification identifier")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Recommendation.ITU\|X733.Notification identifier")
 </dt> </dl>
 
 An identifier of the indication. This property can be used as a key value in the **CorrelatedIndications** property array. Therefore, **IndicationIdentifier** should be a unique value within the namespace of this class instance.
 
 To ensure that **IndicationIdentifier** is unique, it should use the following format:
 
--   *<OrgID>*:*<LocalID>*
--   *<OrgID>* must include a copyrighted, trademarked, or unique name that is owned by the business entity that owns the object.
--   *<OrgID>* must not contain a colon (:)
--   *<LocalID>* a unique identifier chosen by the business entity that owns the object.
--   For DMTF-defined instances, *<OrgID>* should be set to "CIM".
+-   *&lt;OrgID&gt;*:*&lt;LocalID&gt;*
+-   *&lt;OrgID&gt;* must include a copyrighted, trademarked, or unique name that is owned by the business entity that owns the object.
+-   *&lt;OrgID&gt;* must not contain a colon (:)
+-   *&lt;LocalID&gt;* a unique identifier chosen by the business entity that owns the object.
+-   For DMTF-defined instances, *&lt;OrgID&gt;* should be set to "CIM".
 
 </dd> <dt>
 
@@ -144,7 +144,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_AlertIndication**](cim-alertindication.md).**PerceivedSeverity**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_AlertIndication**](cim-alertindication.md).**PerceivedSeverity**")
 </dt> </dl>
 
 The severity of the indication from the notifier's point of view when **PerceivedSeverity** is set to "1" (Other).
@@ -160,7 +160,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Recommendation.ITU\|X733.Perceived severity")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Recommendation.ITU\|X733.Perceived severity")
 </dt> </dl>
 
 The severity of the indication from the notifier's point of view.
@@ -273,7 +273,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_Indication**.**SequenceNumber**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_Indication**.**SequenceNumber**")
 </dt> </dl>
 
 The sequence context of the sequence identifier for the indication. If a service does not support sequence identifiers for indications, this property should be set to **NULL**. If the indication is redelivered, this property remains the same.
@@ -301,7 +301,7 @@ Data type: **sint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_Indication**.**SequenceContext**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_Indication**.**SequenceContext**")
 </dt> </dl>
 
 The sequence number of the sequence identifier for the indication.
@@ -324,7 +324,7 @@ The sequence number has the following characteristics:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
@@ -338,13 +338,8 @@ The sequence number has the following characteristics:
 
 <dl> <dt>
 
-[**\_\_ExtrinsicEvent**](https://docs.microsoft.com/windows/desktop/WmiSdk/--extrinsicevent)
+[**\_\_ExtrinsicEvent**](/windows/desktop/WmiSdk/--extrinsicevent)
 </dt> </dl>
 
  
-
- 
-
-
-
 

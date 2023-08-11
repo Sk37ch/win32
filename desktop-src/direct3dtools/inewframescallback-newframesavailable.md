@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host that new frames are available to be processed.
+description: A callback that notifies the host that new frames are available to be processed.
 MS-HAID: vspixengine.INewFramesCallback\_NewFramesAvailable
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -32,11 +32,8 @@ A callback that notifies the host that new frames are available to be processed.
 
 ## <span id="see_also"></span>See also
 
-[**INewFramesCallback**](https://docs.microsoft.com/windows/desktop/direct3dtools/inewframescallback)
+[**INewFramesCallback**](/windows/desktop/direct3dtools/inewframescallback)
 
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: This topic describes troubleshooting tips for using the Web Authentication Broker APIs for your web pages.
+description: This topic describes troubleshooting tips for using the Web Authentication Broker APIs for your web pages.
 ms.assetid: 25A024AA-9A70-40A5-BF5E-452FD148D0D2
 title: Web authentication problems
 ms.topic: article
@@ -66,7 +66,7 @@ The Fiddler web debugger can be used with Windows 8 apps.
 
 3.  Add a firewall rule for incoming traffic to Fiddler.
 
-For more information, see [Blog on using Fiddler web debugger with Windows Store apps](https://blogs.msdn.microsoft.com/fiddler/2011/12/).
+For more information, see [About the Fiddler web debugger tool](/windows/win32/win7appqual/fiddler-web-debugger-tool).
 
 ## Related topics
 
@@ -75,18 +75,15 @@ For more information, see [Blog on using Fiddler web debugger with Windows Store
 [Considerations for the web page development](considerations-for-the-web-page-development.md)
 </dt> <dt>
 
-[FAQ for Web Authentication Broker](faq-for-web-authentication-broker.md)
+[FAQ for Web Authentication Broker](faq-for-web-authentication-broker.yml)
 </dt> <dt>
 
-[Web Authentication Broker SDK sample app](https://code.msdn.microsoft.com/windowsapps/Web-Authentication-d0485122#content)
+[Web Authentication Broker SDK sample app](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)
 </dt> <dt>
 
-[**Windows.Security.Authentication.Web**](https://msdn.microsoft.com/library/BR227044(v=Win.10).aspx)
+[**Windows.Security.Authentication.Web**](/uwp/api/Windows.Security.Authentication.Web?view=winrt-19041&preserve-view=true)
 </dt> </dl>
 
  
 
  
-
-
-

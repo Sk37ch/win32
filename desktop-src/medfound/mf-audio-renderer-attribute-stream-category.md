@@ -1,5 +1,5 @@
 ---
-Description: Specifies the audio stream category for the Streaming Audio Renderer (SAR).
+description: Specifies the audio stream category for the Streaming Audio Renderer (SAR).
 ms.assetid: 88E79DE6-2062-4471-A939-D1D4DD2EC42D
 title: MF_AUDIO_RENDERER_ATTRIBUTE_STREAM_CATEGORY attribute (Mfidl.h)
 ms.topic: reference
@@ -29,13 +29,13 @@ You can use this attribute to configure the audio renderer. The usage depends on
 
  
 
-The value of the attribute is a member of the [**AUDIO\_STREAM\_CATEGORY**](https://msdn.microsoft.com/library/Hh404178(v=VS.85).aspx) enumeration. The audio service uses the stream category to determine audio policies when multiple applications play audio at the same time.
+The value of the attribute is a member of the [**AUDIO\_STREAM\_CATEGORY**](/windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audio_stream_category) enumeration. The audio service uses the stream category to determine audio policies when multiple applications play audio at the same time.
 
 ## Requirements
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |
@@ -53,7 +53,3 @@ The value of the attribute is a member of the [**AUDIO\_STREAM\_CATEGORY**](http
  
 
  
-
-
-
-

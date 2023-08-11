@@ -1,22 +1,25 @@
 ---
-Description: Interpolates between two quaternions, using spherical linear interpolation.
+description: D3DXQuaternionSlerp function (D3DX10Math.h) - Interpolates between two quaternions, using spherical linear interpolation.
 ms.assetid: 487e1df1-bf20-49cb-ad14-61fcf1300904
 title: D3DXQuaternionSlerp function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXQuaternionSlerp
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXQuaternionSlerp function
+# D3DXQuaternionSlerp function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Interpolates between two quaternions, using spherical linear interpolation.
 
@@ -41,7 +44,7 @@ D3DXQUATERNION* D3DXQuaternionSlerp(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **[**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that is the result of the operation.
 
@@ -50,7 +53,7 @@ Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that is the result 
 *pQ1* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to a source D3DXQUATERNION structure.
 
@@ -59,7 +62,7 @@ Pointer to a source D3DXQUATERNION structure.
 *pQ2* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to a source D3DXQUATERNION structure.
 
@@ -68,7 +71,7 @@ Pointer to a source D3DXQUATERNION structure.
 *t* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Parameter that indicates how far to interpolate between the quaternions.
 
@@ -76,7 +79,7 @@ Parameter that indicates how far to interpolate between the quaternions.
 
 ## Return value
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **[**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to a D3DXQUATERNION structure that is the result of the interpolation.
 
@@ -90,7 +93,7 @@ Use [**D3DXQuaternionNormalize**](d3d10-d3dxquaternionnormalize.md) for any quat
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -107,7 +110,3 @@ Use [**D3DXQuaternionNormalize**](d3d10-d3dxquaternionnormalize.md) for any quat
  
 
  
-
-
-
-

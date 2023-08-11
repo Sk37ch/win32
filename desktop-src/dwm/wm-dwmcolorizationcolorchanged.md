@@ -44,7 +44,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-A window receives this message through its [**WindowProc**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 [**DwmGetColorizationColor**](/windows/desktop/api/Dwmapi/nf-dwmapi-dwmgetcolorizationcolor) is used to determine the current color value.
 
@@ -52,7 +52,7 @@ A window receives this message through its [**WindowProc**](https://docs.microso
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
@@ -61,10 +61,4 @@ A window receives this message through its [**WindowProc**](https://docs.microso
 
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of virtual system snapshots.
+description: Represents a collection of virtual system snapshots.
 ms.assetid: c9b64421-232c-4f32-a088-6b98602ca3f4
 title: Msvm_SnapshotCollection class
 ms.topic: reference
@@ -55,7 +55,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CollectionID"), [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (256)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("CollectionID"), [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (256)
 </dt> </dl>
 
 The unique identification of the collection object.
@@ -71,7 +71,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("ElementName")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("ElementName")
 </dt> </dl>
 
 An user-defined name for the collection. Note this is not guaranteed to be unique.
@@ -82,7 +82,7 @@ An user-defined name for the collection. Note this is not guaranteed to be uniqu
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -100,9 +100,4 @@ An user-defined name for the collection. Note this is not guaranteed to be uniqu
 </dt> </dl>
 
  
-
- 
-
-
-
 

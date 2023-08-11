@@ -1,5 +1,5 @@
 ---
-Description: The RKeyPFXInstall function is not supported.
+description: The RKeyPFXInstall function is not supported.
 ms.assetid: 061e3d9d-fc92-4204-92f3-f3425afdbe27
 title: RKeyPFXInstall function (Rkeysvcc.h)
 ms.topic: reference
@@ -49,14 +49,14 @@ A [**KEYSVCC\_HANDLE**](keysvcc-handle.md) handle previously opened by [**RKeyOp
 *pPFX* \[in\]
 </dt> <dd>
 
-A pointer to a [**KEYSVC\_BLOB**](keysvc-blob.md) structure that represents the certificate to install. The BLOB is in [*PKCS \#12*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) format.
+A pointer to a [**KEYSVC\_BLOB**](keysvc-blob.md) structure that represents the certificate to install. The BLOB is in [*PKCS \#12*](../secgloss/p-gly.md) format.
 
 </dd> <dt>
 
 *pPassword* \[in\]
 </dt> <dd>
 
-A pointer to a [**KEYSVC\_UNICODE\_STRING**](keysvc-unicode-string.md) structure that represents the password for the BLOB. When you have finished using the password, clear the password from memory by calling the [**SecureZeroMemory**](https://msdn.microsoft.com/library/Aa366877(v=VS.85).aspx) function. For more information about protecting passwords, see [Handling Passwords](https://msdn.microsoft.com/library/ms717799(v=VS.85).aspx).
+A pointer to a [**KEYSVC\_UNICODE\_STRING**](keysvc-unicode-string.md) structure that represents the password for the BLOB. When you have finished using the password, clear the password from memory by calling the [**SecureZeroMemory**](/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)) function. For more information about protecting passwords, see [Handling Passwords](../secbp/handling-passwords.md).
 
 </dd> <dt>
 
@@ -88,7 +88,7 @@ If the function fails, the return value is a **ULONG** that indicates the error.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -109,7 +109,3 @@ If the function fails, the return value is a **ULONG** that indicates the error.
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: .
+description: image
 ms.assetid: 89893C4E-4F4E-4d85-9623-08607B4383E5
 title: image Element (Property Description Schema)
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # image
 
-There should be only one [image](https://msdn.microsoft.com/library/Dd798383(v=VS.85).aspx) element for each parent element.
+There should be only one [image]() element for each parent element.
 
 ## Syntax
 
@@ -36,7 +36,7 @@ There should be only one [image](https://msdn.microsoft.com/library/Dd798383(v=V
 
 | Parent Elements                                                                  | Child Elements |
 |----------------------------------------------------------------------------------|----------------|
-| [enum](https://msdn.microsoft.com/library/Bb773869(v=VS.85).aspx), [enumRange](https://msdn.microsoft.com/library/Bb773873(v=VS.85).aspx) | None           |
+| [enum](./propdesc-schema-enum.md), [enumRange](./propdesc-schema-enumrange.md) | None           |
 
 
 
@@ -57,6 +57,3 @@ There should be only one [image](https://msdn.microsoft.com/library/Dd798383(v=V
  
 
  
-
-
-

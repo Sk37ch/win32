@@ -1,5 +1,5 @@
 ---
-Description: Represents the transparent bridging aspect of a CIM\_SwitchService object.
+description: Represents the transparent bridging aspect of a CIM\_SwitchService object.
 ms.assetid: 24f650ab-22a1-41c8-8498-c6c30e63c83c
 title: CIM_TransparentBridgingService class
 ms.topic: reference
@@ -53,7 +53,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Seconds"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIB.IETF\|BRIDGE-MIB.dot1dTpAgingTime")
+Qualifiers: [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("Seconds"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIB.IETF\|BRIDGE-MIB.dot1dTpAgingTime")
 </dt> </dl>
 
 The timeout period, in seconds, for aging out dynamically learned forwarding information. The 802.1D-1990 standard recommends a default of 300 seconds.
@@ -77,7 +77,7 @@ Filtering Database Identifier used by VLAN-aware switches that have more than on
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -95,9 +95,4 @@ Filtering Database Identifier used by VLAN-aware switches that have more than on
 </dt> </dl>
 
  
-
- 
-
-
-
 

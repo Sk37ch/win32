@@ -1,5 +1,5 @@
 ---
-Description: Applications use the methods of the ID3DX10Mesh interface to manipulate mesh objects.
+description: Applications use the methods of the ID3DX10Mesh interface to manipulate mesh objects.
 ms.assetid: 1734b8fd-e1a6-4aa4-96a0-8693019a9dac
 title: ID3DX10Mesh interface (D3DX10.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ Applications use the methods of the ID3DX10Mesh interface to manipulate mesh obj
 
 ## Members
 
-The **ID3DX10Mesh** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DX10Mesh** also has these types of members:
+The **ID3DX10Mesh** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ID3DX10Mesh** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -77,7 +77,7 @@ To obtain the ID3DX10Mesh interface, call [**D3DX10CreateMesh**](d3d10-d3dx10cre
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -94,7 +94,3 @@ To obtain the ID3DX10Mesh interface, call [**D3DX10CreateMesh**](d3d10-d3dx10cre
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Determines if a ray intersects with a subset of this mesh.
+description: Determines if a ray intersects with a subset of this mesh.
 ms.assetid: 31f90141-60be-4c7f-8d6a-a1a97ff26d9d
 title: ID3DX10Mesh::IntersectSubset method (D3DX10.h)
 ms.topic: reference
@@ -46,7 +46,7 @@ HRESULT IntersectSubset(
 *AttribId* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Attribute ID identifying the subset of the mesh.
 
@@ -55,7 +55,7 @@ Attribute ID identifying the subset of the mesh.
 *pRayPos* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, specifying the point where the ray begins.
 
@@ -64,7 +64,7 @@ Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, specifying the p
 *pRayDir* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, specifying the direction of the ray.
 
@@ -73,7 +73,7 @@ Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, specifying the d
 *pHitCount* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 The number of times the ray intersected with the mesh.
 
@@ -82,7 +82,7 @@ The number of times the ray intersected with the mesh.
 *pFaceIndex* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Pointer to an index value of the face closest to the ray origin, if pHit is **TRUE**.
 
@@ -118,9 +118,9 @@ Pointer to a ray intersection parameter distance.
 *ppAllHits* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](/windows/desktop/api/D3DCommon/nn-d3dcommon-id3d10blob)\*\***
+Type: **[**ID3D10Blob**](/windows/win32/api/D3DCommon/nn-d3dcommon-id3d10blob)\*\***
 
-Pointer to an [**ID3D10Blob Interface**](/windows/desktop/api/D3DCommon/nn-d3dcommon-id3d10blob), containing an array of [**D3DX10\_INTERSECT\_INFO**](d3dx10-intersect-info.md) structures. This is a list of all the hits that occurred in the intersection test.
+Pointer to an [**ID3D10Blob Interface**](/windows/win32/api/D3DCommon/nn-d3dcommon-id3d10blob), containing an array of [**D3DX10\_INTERSECT\_INFO**](d3dx10-intersect-info.md) structures. This is a list of all the hits that occurred in the intersection test.
 
 </dd> </dl>
 
@@ -138,13 +138,13 @@ Any point in the plane V1V2V3 can be represented by the barycentric coordinate (
 
 Barycentric coordinates are a form of general coordinates. In this context, using barycentric coordinates represents a change in coordinate systems. What holds true for Cartesian coordinates holds true for barycentric coordinates.
 
-Barycentric coordinates define a point inside a triangle in terms of the triangle's vertices. For a more in-depth description of barycentric coordinates, see [Mathworld's Barycentric Coordinates Description](https://mathworld.wolfram.com/BarycentricCoordinates.mdl).
+Barycentric coordinates define a point inside a triangle in terms of the triangle's vertices. For a more in-depth description of barycentric coordinates, see [Mathworld's Barycentric Coordinates Description](https://mathworld.wolfram.com/BarycentricCoordinates.html).
 
 ## Requirements
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -164,7 +164,3 @@ Barycentric coordinates define a point inside a triangle in terms of the triangl
  
 
  
-
-
-
-

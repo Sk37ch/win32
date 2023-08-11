@@ -1,5 +1,5 @@
 ---
-Description: Gets a literal status of a parameter. A literal parameter has a value that doesn't change during the lifetime of an effect.
+description: Gets a literal status of a parameter. A literal parameter has a value that doesn't change during the lifetime of an effect.
 ms.assetid: 417abbee-5193-462e-b0d1-b4928ad0a041
 title: ID3DXEffectCompiler::GetLiteral method (D3DX9Shader.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Unique identifier to a parameter. See [Handles (Direct3D 9)](handles.md).
 *pLiteral* \[out\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**BOOL**](../winprog/windows-data-types.md)\***
 
 Returns True if the parameter is a literal, and False otherwise.
 
@@ -68,7 +68,7 @@ This methods only changes whether the parameter is a literal or not. To change t
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -91,7 +91,3 @@ This methods only changes whether the parameter is a literal or not. To change t
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Indicates a Machine Check Architecture (MCA) invalid error. An invalid MCA error identifies an error format that does not conform to Windows specifications. This class is available only in 64-bit Windows systems.
+description: Indicates a Machine Check Architecture (MCA) invalid error. An invalid MCA error identifies an error format that does not conform to Windows specifications. This class is available only in 64-bit Windows systems.
 ms.assetid: 476ea558-2e0e-480f-b4ba-8d73fdef3308
 title: MSMCAEvent_InvalidError class
 ms.topic: reference
@@ -134,7 +134,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 Unique identifier of this instance of the class.
@@ -178,7 +178,7 @@ Access type: Read-only
 
 Record identifier of the error record for this error.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/previous-versions//aa393262(v=vs.85)).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> <dt>
 
@@ -216,7 +216,7 @@ The **MSMCAEvent\_InvalidError** class is derived from [**WMIEvent**](wmievent.m
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
@@ -237,9 +237,4 @@ The **MSMCAEvent\_InvalidError** class is derived from [**WMIEvent**](wmievent.m
 </dt> </dl>
 
  
-
- 
-
-
-
 

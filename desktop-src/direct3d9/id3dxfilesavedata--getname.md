@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the name of this ID3DXFileSaveData file data node.
+description: Retrieves the name of this ID3DXFileSaveData file data node.
 ms.assetid: ea697d23-42e7-4661-b605-3654f6a31055
 title: ID3DXFileSaveData::GetName method (D3DX9Xof.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT GetName(
 *szName* \[in\]
 </dt> <dd>
 
-Type: **[**LPSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPSTR**](../winprog/windows-data-types.md)**
 
 Address of a pointer to receive the name of this file data node. If this parameter is **NULL**, then *puiSize* will return the size of the string. If szName points to valid memory, the name of this file data node will be copied into szName up to the number of characters given by *puiSize* .
 
@@ -48,7 +48,7 @@ Address of a pointer to receive the name of this file data node. If this paramet
 *puiSize* \[in, out\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**SIZE\_T**](../winprog/windows-data-types.md)\***
 
 Pointer to the size of the string that represents the name of this file data node. This parameter can be **NULL** if szName provides a reference to the name. This parameter will return the size of the string if szName is **NULL**.
 
@@ -68,7 +68,7 @@ For this method to succeed, either *szName* or *puiSize* must be non-**NULL**.
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |
@@ -85,7 +85,3 @@ For this method to succeed, either *szName* or *puiSize* must be non-**NULL**.
  
 
  
-
-
-
-

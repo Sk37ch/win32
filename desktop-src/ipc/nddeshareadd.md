@@ -1,5 +1,5 @@
 ---
-Description: Creates and adds a new DDE share to the DDE share database manager (DSDM).
+description: Creates and adds a new DDE share to the DDE share database manager (DSDM).
 ms.assetid: c9814919-412e-4f13-98cc-373b69545734
 title: NDdeShareAdd function (Nddeapi.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ The information level. This parameter must be 2.
 *pSD* \[in\]
 </dt> <dd>
 
-A pointer to a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure to be associated with this share and against which access checks will be performed on subsequent initiates to this share. This parameter can be **NULL**, in which case the DSDM creates a default security descriptor that grants "Full Control" to the owner and "Read and Link" to everyone.
+A pointer to a [**SECURITY\_DESCRIPTOR**](/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure to be associated with this share and against which access checks will be performed on subsequent initiates to this share. This parameter can be **NULL**, in which case the DSDM creates a default security descriptor that grants "Full Control" to the owner and "Read and Link" to everyone.
 
 </dd> <dt>
 
@@ -91,7 +91,7 @@ Before a client can connect to the DDE share, it must be trusted with [**NDdeSet
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
@@ -119,9 +119,4 @@ Before a client can connect to the DDE share, it must be trusted with [**NDdeSet
 </dt> </dl>
 
  
-
- 
-
-
-
 

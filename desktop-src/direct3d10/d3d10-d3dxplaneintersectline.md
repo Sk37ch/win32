@@ -1,22 +1,25 @@
 ---
-Description: Finds the intersection between a plane and a line.
+description: D3DXPlaneIntersectLine function (D3DX10Math.h) - Finds the intersection between a plane and a line.
 ms.assetid: aea1c4e1-f8c0-46df-bb33-2b517396d69e
 title: D3DXPlaneIntersectLine function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXPlaneIntersectLine
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXPlaneIntersectLine function
+# D3DXPlaneIntersectLine function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Finds the intersection between a plane and a line.
 
@@ -41,7 +44,7 @@ D3DXVECTOR3* D3DXPlaneIntersectLine(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md), identifying the intersection between the specified plane and line.
 
@@ -50,7 +53,7 @@ Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md), identifying the intersecti
 *pP* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXPLANE**](https://msdn.microsoft.com/library/Bb205385(v=VS.85).aspx)\***
+Type: **const [**D3DXPLANE**](../direct3d9/d3dxplane.md)\***
 
 Pointer to the source [**D3DXPLANE**](d3d10-d3dxplane.md).
 
@@ -59,7 +62,7 @@ Pointer to the source [**D3DXPLANE**](d3d10-d3dxplane.md).
 *pV1* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to a source D3DXVECTOR3 structure, defining a line starting point.
 
@@ -68,7 +71,7 @@ Pointer to a source D3DXVECTOR3 structure, defining a line starting point.
 *pV2* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to a source D3DXVECTOR3 structure, defining a line ending point.
 
@@ -76,7 +79,7 @@ Pointer to a source D3DXVECTOR3 structure, defining a line ending point.
 
 ## Return value
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to a D3DXVECTOR3 structure that is the intersection between the specified plane and line.
 
@@ -90,7 +93,7 @@ The return value for this function is the same value returned in the pOut parame
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -107,7 +110,3 @@ The return value for this function is the same value returned in the pOut parame
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Brings up the key manager dialog into the user interface.
+description: Brings up the key manager dialog into the user interface.
 ms.assetid: 65c2763f-42d5-4534-94f7-e753f6486014
 title: KRShowKeyMgr function
 ms.topic: reference
@@ -73,13 +73,13 @@ This function does not return a value.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                       |
+| Requirement | Value |
 |----------------|---------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Keymgr.dll</dt> </dl> |
 
@@ -88,7 +88,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

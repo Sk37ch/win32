@@ -1,5 +1,5 @@
 ---
-Description: 'The following structures are used with bitmaps:'
+description: 'The following structures are used with bitmaps:'
 ms.assetid: 29f8237f-9c7e-41a7-90b1-5f048fcc74a6
 title: Bitmap Structures
 ms.topic: article
@@ -15,7 +15,7 @@ The following structures are used with bitmaps:
 -   [**BITMAPCOREINFO**](/windows/win32/api/wingdi/ns-wingdi-bitmapcoreinfo)
 -   [**BITMAPFILEHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapfileheader)
 -   [**BITMAPINFO**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfo)
--   [**BITMAPINFOHEADER**](https://msdn.microsoft.com/library/Dd183376(v=VS.85).aspx)
+-   [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader)
 -   [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header)
 -   [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header)
 -   [**BLENDFUNCTION**](/windows/desktop/api/Wingdi/ns-wingdi-blendfunction)
@@ -25,12 +25,9 @@ The following structures are used with bitmaps:
 -   [**GRADIENT\_TRIANGLE**](/windows/desktop/api/Wingdi/ns-wingdi-gradient_triangle)
 -   [**RGBQUAD**](/windows/win32/api/wingdi/ns-wingdi-rgbquad)
 -   [**RGBTRIPLE**](/windows/win32/api/wingdi/ns-wingdi-rgbtriple)
--   [**SIZE**](https://msdn.microsoft.com/library/Dd145106(v=VS.85).aspx)
+-   [**SIZE**](/windows/win32/api/windef/ns-windef-size)
 -   [**TRIVERTEX**](/windows/desktop/api/Wingdi/ns-wingdi-trivertex)
 
  
 
  
-
-
-

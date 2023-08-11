@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECPOS.centriesTotal property"
 title: JET_RECPOS.centriesTotal property 
 TOCTitle: 'centriesTotal property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RECPOS.centriesTotal
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the approximate number of entries in the index.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,15 +58,14 @@ public long centriesTotal { get; set; }
 
 #### Property value
 
-Type: [System.Int64](https://docs.microsoft.com/dotnet/api/system.int64?redirectedfrom=MSDN)  
+Type: [System.Int64](/dotnet/api/system.int64)  
 
 ## See also
 
 #### Reference
 
-[JET_RECPOS class](dn335256\(v=exchg.10\).md)
+[JET_RECPOS class](./jet-recpos-class.md)
 
-[JET_RECPOS members](dn335257\(v=exchg.10\).md)
+[JET_RECPOS members](./jet-recpos-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

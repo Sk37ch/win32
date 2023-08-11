@@ -1,5 +1,5 @@
 ---
-Description: Looks for the target of a Shell link, even if the target has been moved or renamed.
+description: Looks for the target of a Shell link, even if the target has been moved or renamed.
 ms.assetid: 60e119be-8e45-4f63-a381-cad048de0765
 title: ShellLinkObject.Resolve method (Shldisp.h)
 ms.topic: reference
@@ -122,7 +122,7 @@ Call the Windows Installer.
 
 ## Remarks
 
-This method is essentially identical in functionality to [**Resolve**](https://msdn.microsoft.com/library/Bb774952(v=VS.85).aspx). For further discussion of link resolution, see the Remarks section of that page.
+This method is essentially identical in functionality to [**Resolve**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishelllinka-resolve). For further discussion of link resolution, see the Remarks section of that page.
 
 ## Examples
 
@@ -234,7 +234,7 @@ End Sub
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional with SP3 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |
@@ -247,7 +247,3 @@ End Sub
  
 
  
-
-
-
-

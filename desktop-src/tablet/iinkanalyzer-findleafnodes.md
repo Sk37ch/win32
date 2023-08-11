@@ -1,5 +1,5 @@
 ---
-Description: Retrieves all of the leaf nodes.
+description: Retrieves all of the leaf nodes.
 ms.assetid: 5534053c-c5b9-4576-857f-c8af39e821a7
 title: IInkAnalyzer::FindLeafNodes method (IACom.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppContextNodesFound* when you no longer need to use the object.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppContextNodesFound* when you no longer need to use the object.
 
  
 
@@ -58,7 +58,7 @@ Leaf nodes do not contain child nodes. Examples of ink leaf nodes are InkWord, T
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -102,9 +102,4 @@ Leaf nodes do not contain child nodes. Examples of ink leaf nodes are InkWord, T
 </dt> </dl>
 
  
-
- 
-
-
-
 

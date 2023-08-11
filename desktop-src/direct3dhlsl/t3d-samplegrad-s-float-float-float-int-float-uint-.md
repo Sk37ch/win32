@@ -1,6 +1,6 @@
 ---
-title: SampleGrad::SampleGrad(S,float,float,float,int,float,uint) function
-description: Samples a texture, using a gradient to influence the way the sample location is calculated, with an optional value to clamp sample level-of-detail (LOD) values to. Returns status about the operation.
+title: SampleGrad::SampleGrad(S,float,float,float,int,float,uint) function for Texture3D
+description: Learn how this function samples a texture, using a gradient to influence the way the sample location is calculated, with an optional value to clamp sample level-of-detail (LOD) values to. For Texture3D.
 ms.assetid: 4B02A3B8-8179-497D-BF87-489BF0B9ECC2
 keywords:
 - SampleGrad function HLSL
@@ -15,22 +15,22 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# SampleGrad(S,float,float,float,int,float,uint) function
+# SampleGrad::SampleGrad(S,float,float,float,int,float,uint) function for Texture3D
 
 Samples a texture, using a gradient to influence the way the sample location is calculated, with an optional value to clamp sample level-of-detail (LOD) values to. Returns status about the operation.
 
 ## Syntax
 
 
-```C++
+``` syntax
 DXGI_FORMAT SampleGrad(
-  _In_  SamplerState S,
-  _In_  float        Location,
-  _In_  float        DDX,
-  _In_  float        DDY,
-  _In_  int          Offset,
-  _In_  float        Clamp,
-  _Out_ uint         Status
+  in  SamplerState S,
+  in  float        Location,
+  in  float        DDX,
+  in  float        DDY,
+  in  int          Offset,
+  in  float        Clamp,
+  out uint         Status
 );
 ```
 
@@ -151,15 +151,15 @@ An optional value to clamp sample LOD values to. For example, if you pass 2.0f f
 
 Type: **uint**
 
-The status of the operation. You can't access the status directly; instead, pass the status to the [**CheckAccessFullyMapped**](checkaccessfullymapped.md) intrinsic function. **CheckAccessFullyMapped** returns **TRUE** if all values from the corresponding **Sample**, **Gather**, or **Load** operation accessed mapped tiles in a [tiled resource](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-2-features). If any values were taken from an unmapped tile, **CheckAccessFullyMapped** returns **FALSE**.
+The status of the operation. You can't access the status directly; instead, pass the status to the [**CheckAccessFullyMapped**](checkaccessfullymapped.md) intrinsic function. **CheckAccessFullyMapped** returns **TRUE** if all values from the corresponding **Sample**, **Gather**, or **Load** operation accessed mapped tiles in a [tiled resource](/windows/desktop/direct3d11/direct3d-11-2-features). If any values were taken from an unmapped tile, **CheckAccessFullyMapped** returns **FALSE**.
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
+Type: **[**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
 
-The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
+The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
 ## See also
 
@@ -174,7 +174,3 @@ The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**
  
 
  
-
-
-
-

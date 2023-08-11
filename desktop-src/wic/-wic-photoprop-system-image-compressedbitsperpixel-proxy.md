@@ -1,5 +1,5 @@
 ---
-Description: The property proxy for the System.Image.CompressedBitsPerPixel photo metadata policy.
+description: The property proxy for the System.Image.CompressedBitsPerPixel photo metadata policy.
 ms.assetid: 422e92d5-2661-43c9-85d5-26f55c8d88d8
 title: System.Image.CompressedBitsPerPixel Proxy
 ms.topic: article
@@ -12,7 +12,7 @@ The property proxy for the System.Image.CompressedBitsPerPixel photo metadata po
 
 ### Description
 
-The property proxy returns a rational pair a through the [PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(VS.85).aspx) uhVal member.
+The property proxy returns a rational pair a through the [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) uhVal member.
 
 ### Containers
 
@@ -38,12 +38,9 @@ LowPart of the uhVal.
 
 <dl> <dt>
 
-[System.Image.CompressedBitsPerPixel](https://msdn.microsoft.com/library/bb787449(VS.85).aspx)
+[System.Image.CompressedBitsPerPixel](../properties/props-system-image-compressedbitsperpixel.md)
 </dt> </dl>
 
  
 
  
-
-
-

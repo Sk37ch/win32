@@ -10,8 +10,7 @@ ms.date: 05/31/2018
 
 ## Platform
 
-<dl> **Servers** – Windows Server 2012  
-</dl>
+**Servers** – Windows Server 2012 
 
 ## Description
 
@@ -58,7 +57,7 @@ HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Server\\S
 
 
 
-|                  | Server Core | Minimal Server Interface | Server Graphical Shell |
+|   &nbsp;         | Server Core | Minimal Server Interface | Server Graphical Shell |
 |------------------|-------------|--------------------------|------------------------|
 | ServerCore=1     | X           | X                        | X                      |
 | Server-GuiMgmt=1 |             | X                        | X                      |
@@ -80,7 +79,7 @@ If you cannot completely discontinue use of these APIs and binaries, ensure that
 
 ## Resources
 
--   [Existing Server Core docs on MSDN](https://msdn.microsoft.com/library/ms723891(v=vs.85).aspx)
+-   [Existing Server Core docs on MSDN](/previous-versions/windows/desktop/legacy/ms723891(v=vs.85))
 
  
 

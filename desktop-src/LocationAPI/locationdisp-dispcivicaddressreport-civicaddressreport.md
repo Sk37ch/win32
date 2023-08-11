@@ -1,5 +1,5 @@
 ---
-Description: The current civic address report.
+description: The current civic address report.
 ms.assetid: a58dd612-bc54-42d1-9960-8c3de1c4fa83
 title: LocationDisp.CivicAddressReportFactory.CivicAddressReport property (Locationapi.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # LocationDisp.CivicAddressReportFactory.CivicAddressReport property
 
-\[The Location API object model is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, to access location from a website, use the [W3C Geolocation API](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). To access location from a desktop application, use the [**Windows.Devices.Geolocation**](https://docs.microsoft.com/uwp/api/Windows.Devices.Geolocation) API.\]
+\[The Location API object model is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, to access location from a website, use the [W3C Geolocation API](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). To access location from a desktop application, use the [**Windows.Devices.Geolocation**](/uwp/api/Windows.Devices.Geolocation) API.\]
 
 The current civic address report.
 
@@ -38,13 +38,13 @@ This property is a read-only [**LocationDisp.CivicAddressReportFactory**](locati
 
 ## Examples
 
-For an example of how to use this property, see [A Simple Civic Address Report Example](https://docs.microsoft.com/uwp/api/Windows.Devices.Geolocation).
+For an example of how to use this property, see [A Simple Civic Address Report Example](/uwp/api/Windows.Devices.Geolocation).
 
 ## Requirements
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | None supported<br/>                                                                |
@@ -60,9 +60,4 @@ For an example of how to use this property, see [A Simple Civic Address Report E
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Uses a left-handed coordinate system to create a mesh containing a teapot.
+description: Uses a left-handed coordinate system to create a mesh containing a teapot.
 ms.assetid: c002d6d4-1829-4293-9a86-d8560d6ec0e9
 title: D3DXCreateTeapot function (D3dx9shape.h)
 ms.topic: reference
@@ -40,9 +40,9 @@ HRESULT D3DXCreateTeapot(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, representing the device associated with the created teapot mesh.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface, representing the device associated with the created teapot mesh.
 
 </dd> <dt>
 
@@ -78,7 +78,7 @@ This function creates a mesh with the D3DXMESH\_MANAGED creation option and [D3D
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9shape.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>    |
@@ -95,7 +95,3 @@ This function creates a mesh with the D3DXMESH\_MANAGED creation option and [D3D
  
 
  
-
-
-
-

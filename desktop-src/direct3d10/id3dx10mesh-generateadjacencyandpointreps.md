@@ -1,5 +1,5 @@
 ---
-Description: Generate a list of mesh edges, as well as a list of faces that share each edge.
+description: ID3DX10Mesh::GenerateAdjacencyAndPointReps method - Generate a list of mesh edges, as well as a list of faces that share each edge.
 ms.assetid: 3932e2b1-031d-4962-ad90-6e9da8cf2e0e
 title: ID3DX10Mesh::GenerateAdjacencyAndPointReps method (D3DX10.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT GenerateAdjacencyAndPointReps(
 *Epsilon* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Specifies that vertices that differ in position by less than epsilon should be treated as coincident.
 
@@ -60,7 +60,7 @@ The order of the entries in the adjacency buffer is determined by the order of t
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -80,7 +80,3 @@ The order of the entries in the adjacency buffer is determined by the order of t
  
 
  
-
-
-
-

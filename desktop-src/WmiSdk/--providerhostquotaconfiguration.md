@@ -1,5 +1,5 @@
 ---
-Description: Allows limits to be set on host process usage of system resources.
+description: Allows limits to be set on host process usage of system resources.
 ms.assetid: 5f5ed1c6-bd1a-406d-a682-7a52059d9450
 ms.tgt_platform: multiple
 title: '__ProviderHostQuotaConfiguration class'
@@ -76,7 +76,7 @@ Access type: Read/write
 
 Combined amount of private memory in bytes that can be held by all hosts.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> <dt>
 
@@ -91,7 +91,7 @@ Access type: Read/write
 
 Amount of private memory that can be held by each host.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> <dt>
 
@@ -138,7 +138,7 @@ The host process polls handle usage and exits the process if the **HandlesPerHos
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -150,16 +150,11 @@ The host process polls handle usage and exits the process if the **HandlesPerHos
 
 <dl> <dt>
 
-[**\_\_SystemClass**](https://docs.microsoft.com/windows/desktop/WmiSdk/--systemclass)
+[**\_\_SystemClass**](/windows/desktop/WmiSdk/--systemclass)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

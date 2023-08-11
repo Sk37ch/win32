@@ -1,5 +1,5 @@
 ---
-Description: Windows Vista introduces a large number of functions that use locale names instead of locale identifiers.
+description: Windows Vista introduces a large number of functions that use locale names instead of locale identifiers.
 ms.assetid: e88c31b2-b1da-40ae-b512-67b8ad409b95
 title: Calling the "Locale Name" Functions
 ms.topic: article
@@ -21,7 +21,7 @@ The following table lists the locale name functions along with the older functio
 
 | Functions using locale names                                     | Functions using locale identifiers                                                             |
 |------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| [**CompareStringEx**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex)                       | [**CompareString**](https://msdn.microsoft.com/library/Dd317759(v=VS.85).aspx)                                                         |
+| [**CompareStringEx**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex)                       | [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw)                                                         |
 | [**EnumCalendarInfoExEx**](/windows/desktop/api/Winnls/nf-winnls-enumcalendarinfoexex)             | [**EnumCalendarInfo**](/windows/desktop/api/Winnls/nf-winnls-enumcalendarinfoa), [**EnumCalendarInfoEx**](/windows/desktop/api/Winnls/nf-winnls-enumcalendarinfoexa) |
 | [**EnumDateFormatsExEx**](/windows/desktop/api/Winnls/nf-winnls-enumdateformatsexex)               | [**EnumDateFormats**](/windows/desktop/api/Winnls/nf-winnls-enumdateformatsa), [**EnumDateFormatsEx**](/windows/desktop/api/Winnls/nf-winnls-enumdateformatsexa)     |
 | [**EnumSystemLocalesEx**](/windows/desktop/api/Winnls/nf-winnls-enumsystemlocalesex)               | [**EnumSystemLocales**](/windows/desktop/api/Winnls/nf-winnls-enumsystemlocalesa)                                                 |
@@ -58,6 +58,3 @@ An example showing the use of several functions based on locale names can be fou
  
 
  
-
-
-

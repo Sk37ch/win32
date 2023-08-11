@@ -1,5 +1,5 @@
 ---
-Description: Specifies attributes for an Authenticode signature.
+description: Specifies attributes for an Authenticode signature.
 ms.assetid: 1c1052c3-c5c5-48ae-8266-0b367800a84a
 title: SIGNER_ATTR_AUTHCODE structure
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 
 # SIGNER\_ATTR\_AUTHCODE structure
 
-The **SIGNER\_ATTR\_AUTHCODE** structure specifies attributes for an [*Authenticode*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) signature.
+The **SIGNER\_ATTR\_AUTHCODE** structure specifies attributes for an [*Authenticode*](../secgloss/a-gly.md) signature.
 
 > [!Note]  
 > This structure is not defined in any header file. To use this structure, you must define it yourself as shown in this topic.
@@ -81,7 +81,7 @@ The display name of the URL of the file upon download.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
@@ -98,7 +98,3 @@ The display name of the URL of the file upon download.
  
 
  
-
-
-
-

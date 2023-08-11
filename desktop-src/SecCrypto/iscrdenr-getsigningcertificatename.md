@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the subject name from the signing certificate.
+description: Retrieves the subject name from the signing certificate.
 ms.assetid: e50b1e12-ec89-4d58-aa57-dc24aa2409ef
 title: ISCrdEnr::getSigningCertificateName method
 ms.topic: reference
@@ -20,7 +20,7 @@ api_location:
 
 The **getSigningCertificateName** method retrieves the subject name from the signing certificate.
 
-This method can also be used to display the certificate in a dialog box. This method calls the [*CryptoAPI*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) function [**CertGetNameString**](/windows/desktop/api/Wincrypt/nf-wincrypt-certgetnamestringa).
+This method can also be used to display the certificate in a dialog box. This method calls the [*CryptoAPI*](../secgloss/c-gly.md) function [**CertGetNameString**](/windows/desktop/api/Wincrypt/nf-wincrypt-certgetnamestringa).
 
 ## Syntax
 
@@ -59,7 +59,7 @@ A value that determines whether the certificate is displayed in a dialog box. If
 *pbstrSigningCertName* \[out\]
 </dt> <dd>
 
-A pointer to a string that returns the name of the signing certificate. The signing certificate will be used to sign the [*certificate request*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
+A pointer to a string that returns the name of the signing certificate. The signing certificate will be used to sign the [*certificate request*](../secgloss/c-gly.md).
 
 </dd> </dl>
 
@@ -73,7 +73,7 @@ If the method fails, it returns an **HRESULT** value that indicates the error. F
 
 ### VB
 
-A string that represents the name of the signing certificate. The signing certificate will be used to sign the [*certificate request*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
+A string that represents the name of the signing certificate. The signing certificate will be used to sign the [*certificate request*](../secgloss/c-gly.md).
 
 ## Remarks
 
@@ -83,7 +83,7 @@ The **getSigningCertificateName** method returns the subject name of the certifi
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -105,7 +105,3 @@ The **getSigningCertificateName** method returns the subject name of the certifi
  
 
  
-
-
-
-

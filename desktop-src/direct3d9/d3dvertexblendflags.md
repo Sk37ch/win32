@@ -1,5 +1,5 @@
 ---
-Description: Defines flags used to control the number or matrices that the system applies when performing multimatrix vertex blending.
+description: Defines flags used to control the number or matrices that the system applies when performing multimatrix vertex blending.
 ms.assetid: 5314f455-ce5f-4ff5-81fc-d3dffc8705b7
 title: D3DVERTEXBLENDFLAGS enumeration (D3D9Types.h)
 ms.topic: reference
@@ -91,7 +91,7 @@ Geometry blending (multimatrix vertex blending) requires that your application u
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 
@@ -104,7 +104,7 @@ Geometry blending (multimatrix vertex blending) requires that your application u
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/library/Bb172599(v=VS.85).aspx)
+[**D3DRENDERSTATETYPE**](./d3drenderstatetype.md)
 </dt> <dt>
 
 [**D3DTS\_WORLD**](d3dts-world.md)
@@ -119,7 +119,3 @@ Geometry blending (multimatrix vertex blending) requires that your application u
  
 
  
-
-
-
-

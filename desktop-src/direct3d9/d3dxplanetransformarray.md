@@ -1,22 +1,25 @@
 ---
-Description: Transforms an array of planes by a matrix. The vectors that describe each plane must be normalized.
+description: D3DXPlaneTransformArray function (D3dx9math.h) - Transforms an array of planes by a matrix. The vectors that describe each plane must be normalized.
 ms.assetid: e82e830b-efbb-4bdc-b370-7bfa4326a669
 title: D3DXPlaneTransformArray function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXPlaneTransformArray
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXPlaneTransformArray function
+# D3DXPlaneTransformArray function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Transforms an array of planes by a matrix. The vectors that describe each plane must be normalized.
 
@@ -52,7 +55,7 @@ Pointer to the [**D3DXPLANE**](d3dxplane.md) structure that contains the resulti
 *OutStride* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The stride of each transformed plane.
 
@@ -70,7 +73,7 @@ Pointer to the input [**D3DXPLANE**](d3dxplane.md) structure, which contains the
 *PStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The stride of each non-transformed plane.
 
@@ -88,7 +91,7 @@ Pointer to the source [**D3DXMATRIX**](d3dxmatrix.md) structure, which contains 
 *n* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The number of planes to transform.
 
@@ -117,10 +120,10 @@ for(int i = 0; i < ARRAYSIZE; i++)
 }
 
 D3DXMATRIX  matrix;
-D3DXMatrixScaling( &matrix, 1.0f, 2.0f, 3.0f ); 
+D3DXMatrixScaling( &matrix, 1.0f, 2.0f, 3.0f );
 D3DXMatrixInverse( &matrix, NULL, &matrix );
 D3DXMatrixTranspose( &matrix, &matrix );
-D3DXPlaneTransformArray( &planeNew, sizeof (D3DXPLANE), &plane, 
+D3DXPlaneTransformArray( &planeNew, sizeof (D3DXPLANE), &plane,
                          sizeof (D3DXPLANE), &matrix, ARRAYSIZE );
 ```
 
@@ -134,7 +137,7 @@ The parameter *pM* contains the inverse transpose of the transformation matrix. 
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -169,7 +172,3 @@ The parameter *pM* contains the inverse transpose of the transformation matrix. 
  
 
  
-
-
-
-

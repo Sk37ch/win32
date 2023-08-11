@@ -1,5 +1,5 @@
 ---
-Description: The JOB\_INFO\_1 structure specifies print-job information such as the job-identifier value, the name of the printer for which the job is spooled, the name of the machine that created the print job, the name of the user that owns the print job, and so on.
+description: The JOB\_INFO\_1 structure specifies print-job information such as the job-identifier value, the name of the printer for which the job is spooled, the name of the machine that created the print job, the name of the user that owns the print job, and so on.
 ms.assetid: 'd42ada89-6bc7-4006-81d9-dbcc0347edd3'
 title: JOB_INFO_1 structure (Winspool.h)
 ms.topic: reference
@@ -170,9 +170,9 @@ The number of pages that have printed. This value may be zero if the print job d
 **Submitted**
 </dt> <dd>
 
-A [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure that specifies the time that this document was spooled.
+A [**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure that specifies the time that this document was spooled.
 
-This time value is in Universal Time Coordinate (UTC) format. You should convert it to a local time value before displaying it. You can use the [**FileTimeToLocalFileTime**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-filetimetolocalfiletime) function to perform the conversion.
+This time value is in Universal Time Coordinate (UTC) format. You should convert it to a local time value before displaying it. You can use the [**FileTimeToLocalFileTime**](/windows/desktop/api/fileapi/nf-fileapi-filetimetolocalfiletime) function to perform the conversion.
 
 </dd> </dl>
 
@@ -184,7 +184,7 @@ Port monitors that do not support TrueEndOfJob will set the job as JOB\_STATUS\_
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -213,9 +213,4 @@ Port monitors that do not support TrueEndOfJob will set the job as JOB\_STATUS\_
 </dt> </dl>
 
  
-
- 
-
-
-
 

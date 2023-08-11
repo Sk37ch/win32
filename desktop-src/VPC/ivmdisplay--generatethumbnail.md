@@ -1,6 +1,6 @@
 ---
 title: IVMDisplay _GenerateThumbnail method (VPCCOMInterfaces.h)
-description: Retrieves an array of pixels representing a thumbnail image of the virtual machine's screen.
+description: Retrieves an array of pixels representing a thumbnail image of the virtual machine's screen. | IVMDisplay _GenerateThumbnail method (VPCCOMInterfaces.h)
 ms.assetid: c97bb0ff-55cd-491f-a706-0ba15c9a6b54
 keywords:
 - _GenerateThumbnail method Virtual PC
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # IVMDisplay::\_GenerateThumbnail method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Retrieves an array of pixels representing a thumbnail image of the virtual machine's screen.
 
@@ -70,7 +70,7 @@ This interface returns the thumbnail more efficiently than the [**Thumbnail**](i
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
@@ -89,10 +89,4 @@ This interface returns the thumbnail more efficiently than the [**Thumbnail**](i
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

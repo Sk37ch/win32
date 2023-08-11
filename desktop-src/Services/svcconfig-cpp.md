@@ -1,5 +1,5 @@
 ---
-Description: The following is a sample service configuration program.
+description: The following is a sample service configuration program.
 ms.assetid: effb469a-020e-4c70-aad6-12a91bd36f68
 title: SvcConfig.cpp
 ms.topic: article
@@ -40,9 +40,9 @@ VOID __stdcall DoDeleteSvc(void);
 //   Command-line syntax is: svcconfig [command] [service_path]
 // 
 // Return value:
-//   None
+//   None, defaults to 0 (zero)
 //
-void __cdecl _tmain(int argc, TCHAR *argv[])
+int __cdecl _tmain(int argc, TCHAR *argv[])
 {
     printf("\n");
     if( argc != 3 )
@@ -424,7 +424,6 @@ VOID __stdcall DoDeleteSvc()
 {
     SC_HANDLE schSCManager;
     SC_HANDLE schService;
-    SERVICE_STATUS ssStatus; 
 
     // Get a handle to the SCM database. 
  

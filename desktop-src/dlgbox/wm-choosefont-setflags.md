@@ -54,13 +54,13 @@ No return value.
 
 The [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) function creates a **Font** dialog box and uses a [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) structure to specify the initial values for the **Flags** member. Use the **WM\_CHOOSEFONT\_SETFLAGS** message to specify different values for the **Flags** member while the **Font** dialog box is open.
 
-Typically, you should send the **WM\_CHOOSEFONT\_SETFLAGS** message from a [**CFHookProc**](https://msdn.microsoft.com/library/ms646909(v=VS.85).aspx) hook procedure.
+Typically, you should send the **WM\_CHOOSEFONT\_SETFLAGS** message from a [**CFHookProc**](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc) hook procedure.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -75,7 +75,7 @@ Typically, you should send the **WM\_CHOOSEFONT\_SETFLAGS** message from a [**CF
 **Reference**
 </dt> <dt>
 
-[**CFHookProc**](https://msdn.microsoft.com/library/ms646909(v=VS.85).aspx)
+[**CFHookProc**](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc)
 </dt> <dt>
 
 [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)
@@ -91,10 +91,4 @@ Typically, you should send the **WM\_CHOOSEFONT\_SETFLAGS** message from a [**CF
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

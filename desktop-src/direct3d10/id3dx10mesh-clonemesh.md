@@ -1,5 +1,5 @@
 ---
-Description: Creates a new mesh and fills it with the data of a previously loaded mesh.
+description: Creates a new mesh and fills it with the data of a previously loaded mesh.
 ms.assetid: 2ce39982-abc0-444b-bc6f-24508f76fe31
 title: ID3DX10Mesh::CloneMesh method (D3DX10.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ HRESULT CloneMesh(
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Creation flags to be applied to the new mesh. See [**D3DX10\_MESH**](d3dx10-mesh.md).
 
@@ -51,7 +51,7 @@ Creation flags to be applied to the new mesh. See [**D3DX10\_MESH**](d3dx10-mesh
 *pPosSemantic* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 The semantic name for the position data.
 
@@ -69,7 +69,7 @@ Array of D3D10\_INPUT\_ELEMENT\_DESC structures, describing the vertex format fo
 *DeclCount* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The number of elements in the pDesc array.
 
@@ -94,7 +94,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -114,7 +114,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

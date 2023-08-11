@@ -1,5 +1,5 @@
 ---
-Description: Uses a left-handed coordinate system to create a mesh containing an n-sided polygon.
+description: Uses a left-handed coordinate system to create a mesh containing an n-sided polygon.
 ms.assetid: f3313f55-3e60-4440-8bea-d2886b636c9a
 title: D3DXCreatePolygon function (D3dx9shape.h)
 ms.topic: reference
@@ -42,16 +42,16 @@ HRESULT D3DXCreatePolygon(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, representing the device associated with the created polygon mesh.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface, representing the device associated with the created polygon mesh.
 
 </dd> <dt>
 
 *Length* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Length of each side.
 
@@ -60,7 +60,7 @@ Length of each side.
 *Sides* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of sides for the polygon. Value must be greater than or equal to 3.
 
@@ -100,7 +100,7 @@ This function creates a mesh with the D3DXMESH\_MANAGED creation option and [D3D
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9shape.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>    |
@@ -117,7 +117,3 @@ This function creates a mesh with the D3DXMESH\_MANAGED creation option and [D3D
  
 
  
-
-
-
-

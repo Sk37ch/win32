@@ -1,5 +1,5 @@
 ---
-Description: This topic describes the internal design of the DirectXMath library.
+description: This topic describes the internal design of the DirectXMath library.
 ms.assetid: 31512657-c413-9e6e-e343-1ea677a02b8c
 title: Library Internals
 ms.topic: article
@@ -25,19 +25,19 @@ To enhance portability and optimize data layout, you need to use the appropriate
 
 **For 32-bit Windows**
 
-For 32-bit Windows, there are two calling conventions available for efficient passing of [\_\_m128](https://docs.microsoft.com/cpp/cpp/m128) values (which implements [**XMVECTOR**](xmvector-data-type.md) on that platform). The standard is [\_\_fastcall](https://msdn.microsoft.com/library/6xa169sk(VS.71).aspx), which can pass the first three [\_\_m128](https://docs.microsoft.com/cpp/cpp/m128) values (**XMVECTOR** instances) as arguments to a function in a *SSE/SSE2* register. [\_\_fastcall](https://msdn.microsoft.com/library/6xa169sk(VS.71).aspx) passes remaining arguments via the stack.
+For 32-bit Windows, there are two calling conventions available for efficient passing of [\_\_m128](/cpp/cpp/m128) values (which implements [**XMVECTOR**](xmvector-data-type.md) on that platform). The standard is [\_\_fastcall](/cpp/cpp/fastcall), which can pass the first three [\_\_m128](/cpp/cpp/m128) values (**XMVECTOR** instances) as arguments to a function in a *SSE/SSE2* register. [\_\_fastcall](/cpp/cpp/fastcall) passes remaining arguments via the stack.
 
-Newer Microsoft Visual Studio compilers support a new calling convention, \_\_vectorcall, which can pass up to six [\_\_m128](https://docs.microsoft.com/cpp/cpp/m128) values ([**XMVECTOR**](xmvector-data-type.md) instances) as arguments to a function in a *SSE/SSE2* register. It can also pass heterogeneous vector aggregates (also known as [**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx)) via *SSE/SSE2* registers if there is sufficient room.
+Newer Microsoft Visual Studio compilers support a new calling convention, \_\_vectorcall, which can pass up to six [\_\_m128](/cpp/cpp/m128) values ([**XMVECTOR**](xmvector-data-type.md) instances) as arguments to a function in a *SSE/SSE2* register. It can also pass heterogeneous vector aggregates (also known as [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix)) via *SSE/SSE2* registers if there is sufficient room.
 
 **For 64-bit editions of Windows**
 
-For 64-bit Windows, there are two calling conventions available for efficient passing of [\_\_m128](https://docs.microsoft.com/cpp/cpp/m128) values. The standard is [\_\_fastcall](https://msdn.microsoft.com/library/6xa169sk(VS.71).aspx), which passes all [\_\_m128](https://docs.microsoft.com/cpp/cpp/m128) values on the stack.
+For 64-bit Windows, there are two calling conventions available for efficient passing of [\_\_m128](/cpp/cpp/m128) values. The standard is [\_\_fastcall](/cpp/cpp/fastcall), which passes all [\_\_m128](/cpp/cpp/m128) values on the stack.
 
-Newer Visual Studio compilers support the \_\_vectorcall calling convention, which can pass up to six [\_\_m128](https://docs.microsoft.com/cpp/cpp/m128) values ([**XMVECTOR**](xmvector-data-type.md) instances) as arguments to a function in a *SSE/SSE2* register. It can also pass heterogeneous vector aggregates (also known as [**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx)) via *SSE/SSE2* registers if there is sufficient room.
+Newer Visual Studio compilers support the \_\_vectorcall calling convention, which can pass up to six [\_\_m128](/cpp/cpp/m128) values ([**XMVECTOR**](xmvector-data-type.md) instances) as arguments to a function in a *SSE/SSE2* register. It can also pass heterogeneous vector aggregates (also known as [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix)) via *SSE/SSE2* registers if there is sufficient room.
 
-**For Windows RT**
+**For Windows on ARM**
 
-The Windows RT operating system supports passing the first four \_\_n128 values ([**XMVECTOR**](xmvector-data-type.md) instances) in-register.
+The Windows on ARM & ARM64 supports passing the first four \_\_n128 values ([**XMVECTOR**](xmvector-data-type.md) instances) in-register.
 
 **DirectXMath solution**
 
@@ -57,7 +57,7 @@ Because of limitations with \_\_vectorcall, we recommend that you not use **GXMV
 
 The **FXMMATRIX** and **CXMMATRIX** aliases help support taking advantage of the HVA argument passing with \_\_vectorcall.
 
--   Use the **FXMMATRIX** alias to pass the first [**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx) as an argument to the function. This assumes you don't have more than two **FXMVECTOR** arguments or more than two float, double, or **FXMVECTOR** arguments to the ‘right’ of the matrix. For info about additional considerations, see the \_\_vectorcall documentation.
+-   Use the **FXMMATRIX** alias to pass the first [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) as an argument to the function. This assumes you don't have more than two **FXMVECTOR** arguments or more than two float, double, or **FXMVECTOR** arguments to the ‘right’ of the matrix. For info about additional considerations, see the \_\_vectorcall documentation.
 -   Use the **CXMMATRIX** alias otherwise.
 
 Because of limitations with \_\_vectorcall, we recommend that you never use **FXMMATRIX** for C++ constructors. Just use **CXMMATRIX**.
@@ -147,7 +147,7 @@ typedef const XMMATRIX& CXMMATRIX;
 
 
 
-**Windows RT**
+**Windows on ARM**
 
 
 ```C++
@@ -167,46 +167,46 @@ typedef const XMMATRIX& CXMMATRIX;
 
 ## Graphics Library Type Equivalence
 
-To support the use of the DirectXMath Library, many DirectXMath Library types and structures are equivalent to the Windows implementations of the **D3DDECLTYPE** and **D3DFORMAT** types, as well as the [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx) types. 
+To support the use of the DirectXMath Library, many DirectXMath Library types and structures are equivalent to the Windows implementations of the **D3DDECLTYPE** and **D3DFORMAT** types, as well as the [**DXGI\_FORMAT**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) types.
 
 | DirectXMath                      | D3DDECLTYPE                                                                           | D3DFORMAT                                                     | DXGI\_FORMAT                                                                                                                                                                                            |
 |----------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**XMBYTE2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyte2)       |                                                                                       |                                                               | DXGI\_FORMAT\_R8G8\_SINT                                                                                                                                                                                |
-| [**XMBYTE4**](https://msdn.microsoft.com/library/Ee419276(v=VS.85).aspx)       | D3DDECLTYPE\_BYTE4 (Xbox Only)                                                        | D3DFMT\_x8x8x8x8                                              | DXGI\_FORMAT\_x8x8x8x8\_SINT                                                                                                                                                                            |
+| [**XMBYTE4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmbyte4)       | D3DDECLTYPE\_BYTE4 (Xbox Only)                                                        | D3DFMT\_x8x8x8x8                                              | DXGI\_FORMAT\_x8x8x8x8\_SINT                                                                                                                                                                            |
 | [**XMBYTEN2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2)     |                                                                                       | D3DFMT\_V8U8                                                  | DXGI\_FORMAT\_R8G8\_SNORM                                                                                                                                                                               |
-| [**XMBYTEN4**](https://msdn.microsoft.com/library/Ee419284(v=VS.85).aspx)     | D3DDECLTYPE\_BYTE4N (Xbox Only)                                                       | D3DFMT\_x8x8x8x8                                              | DXGI\_FORMAT\_x8x8x8x8\_SNORM                                                                                                                                                                           |
+| [**XMBYTEN4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmbyten4)     | D3DDECLTYPE\_BYTE4N (Xbox Only)                                                       | D3DFMT\_x8x8x8x8                                              | DXGI\_FORMAT\_x8x8x8x8\_SNORM                                                                                                                                                                           |
 | [**XMCOLOR**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor)       | D3DDECLTYPE\_D3DCOLOR                                                                 | D3DFMT\_A8R8G8B8                                              | DXGI\_FORMAT\_B8G8R8A8\_UNORM (DXGI 1.1+)                                                                                                                                                               |
-| [**XMDEC4**](https://msdn.microsoft.com/library/Ee419431(v=VS.85).aspx)         | D3DDECLTYPE\_DEC4 (Xbox Only)                                                         | D3DDECLTYPE\_DEC3 (Xbox Only)                                 |                                                                                                                                                                                                         |
-| [**XMDECN4**](https://msdn.microsoft.com/library/Ee419440(v=VS.85).aspx)       | D3DDECLTYPE\_DEC4N (Xbox Only)                                                        | D3DDECLTYPE\_DEC3N (Xbox Only)                                |                                                                                                                                                                                                         |
-| [**XMFLOAT2**](https://msdn.microsoft.com/library/Ee419468(v=VS.85).aspx)     | D3DDECLTYPE\_FLOAT2                                                                   | D3DFMT\_G32R32F                                               | DXGI\_FORMAT\_R32G32\_FLOAT                                                                                                                                                                             |
-| [**XMFLOAT2A**](https://msdn.microsoft.com/library/Ee419469(v=VS.85).aspx)   | D3DDECLTYPE\_FLOAT2                                                                   | D3DFMT\_G32R32F                                               | DXGI\_FORMAT\_R32G32\_FLOAT                                                                                                                                                                             |
-| [**XMFLOAT3**](https://msdn.microsoft.com/library/Ee419475(v=VS.85).aspx)     | D3DDECLTYPE\_FLOAT3                                                                   |                                                               | DXGI\_FORMAT\_R32G32B32\_FLOAT                                                                                                                                                                          |
-| [**XMFLOAT3A**](https://msdn.microsoft.com/library/Ee419476(v=VS.85).aspx)   | D3DDECLTYPE\_FLOAT3                                                                   |                                                               | DXGI\_FORMAT\_R32G32B32\_FLOAT                                                                                                                                                                          |
-| [**XMFLOAT3PK**](https://msdn.microsoft.com/library/Ee419478(v=VS.85).aspx) |                                                                                       |                                                               | DXGI\_FORMAT\_R11G11B10\_FLOAT                                                                                                                                                                          |
-| [**XMFLOAT3SE**](https://msdn.microsoft.com/library/Ee419489(v=VS.85).aspx) |                                                                                       |                                                               | DXGI\_FORMAT\_R9G9B9E5\_SHAREDEXP                                                                                                                                                                       |
-| [**XMFLOAT4**](https://msdn.microsoft.com/library/Ee419608(v=VS.85).aspx)     | D3DDECLTYPE\_FLOAT4                                                                   | D3DFMT\_A32B32G32R32F                                         | DXGI\_FORMAT\_R32G32B32A32\_FLOAT                                                                                                                                                                       |
-| [**XMFLOAT4A**](https://msdn.microsoft.com/library/Ee419609(v=VS.85).aspx)   | D3DDECLTYPE\_FLOAT4                                                                   | D3DFMT\_A32B32G32R32F                                         | DXGI\_FORMAT\_R32G32B32A32\_FLOAT                                                                                                                                                                       |
+| [**XMDEC4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmdec4)         | D3DDECLTYPE\_DEC4 (Xbox Only)                                                         | D3DDECLTYPE\_DEC3 (Xbox Only)                                 |                                                                                                                                                                                                         |
+| [**XMDECN4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmdecn4)       | D3DDECLTYPE\_DEC4N (Xbox Only)                                                        | D3DDECLTYPE\_DEC3N (Xbox Only)                                |                                                                                                                                                                                                         |
+| [**XMFLOAT2**](/windows/win32/api/directxmath/ns-directxmath-xmfloat2)     | D3DDECLTYPE\_FLOAT2                                                                   | D3DFMT\_G32R32F                                               | DXGI\_FORMAT\_R32G32\_FLOAT                                                                                                                                                                             |
+| [**XMFLOAT2A**](/previous-versions/windows/desktop/legacy/ee419469(v=vs.85))   | D3DDECLTYPE\_FLOAT2                                                                   | D3DFMT\_G32R32F                                               | DXGI\_FORMAT\_R32G32\_FLOAT                                                                                                                                                                             |
+| [**XMFLOAT3**](/windows/win32/api/directxmath/ns-directxmath-xmfloat3)     | D3DDECLTYPE\_FLOAT3                                                                   |                                                               | DXGI\_FORMAT\_R32G32B32\_FLOAT                                                                                                                                                                          |
+| [**XMFLOAT3A**](/windows/win32/api/directxmath/ns-directxmath-xmfloat3a)   | D3DDECLTYPE\_FLOAT3                                                                   |                                                               | DXGI\_FORMAT\_R32G32B32\_FLOAT                                                                                                                                                                          |
+| [**XMFLOAT3PK**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk) |                                                                                       |                                                               | DXGI\_FORMAT\_R11G11B10\_FLOAT                                                                                                                                                                          |
+| [**XMFLOAT3SE**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmfloat3se) |                                                                                       |                                                               | DXGI\_FORMAT\_R9G9B9E5\_SHAREDEXP                                                                                                                                                                       |
+| [**XMFLOAT4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4)     | D3DDECLTYPE\_FLOAT4                                                                   | D3DFMT\_A32B32G32R32F                                         | DXGI\_FORMAT\_R32G32B32A32\_FLOAT                                                                                                                                                                       |
+| [**XMFLOAT4A**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4a)   | D3DDECLTYPE\_FLOAT4                                                                   | D3DFMT\_A32B32G32R32F                                         | DXGI\_FORMAT\_R32G32B32A32\_FLOAT                                                                                                                                                                       |
 | [**XMHALF2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf2)       | D3DDECLTYPE\_FLOAT16\_2                                                               | D3DFMT\_G16R16F                                               | DXGI\_FORMAT\_R16G16\_FLOAT                                                                                                                                                                             |
 | [**XMHALF4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4)       | D3DDECLTYPE\_FLOAT16\_4                                                               | D3DFMT\_A16B16G16R16F                                         | DXGI\_FORMAT\_R16G16B16A16\_FLOAT                                                                                                                                                                       |
-| [**XMINT2**](https://msdn.microsoft.com/library/Hh404654(v=VS.85).aspx)         |                                                                                       |                                                               | DXGI\_FORMAT\_R32G32\_SINT                                                                                                                                                                              |
-| [**XMINT3**](https://msdn.microsoft.com/library/Hh404659(v=VS.85).aspx)         |                                                                                       |                                                               | DXGI\_FORMAT\_R32G32B32\_SINT                                                                                                                                                                           |
-| [**XMINT4**](https://msdn.microsoft.com/library/Hh404664(v=VS.85).aspx)         |                                                                                       |                                                               | DXGI\_FORMAT\_R32G32B32A32\_SINT                                                                                                                                                                        |
+| [**XMINT2**](/windows/win32/api/directxmath/ns-directxmath-xmint2)         |                                                                                       |                                                               | DXGI\_FORMAT\_R32G32\_SINT                                                                                                                                                                              |
+| [**XMINT3**](/windows/win32/api/directxmath/ns-directxmath-xmint3)         |                                                                                       |                                                               | DXGI\_FORMAT\_R32G32B32\_SINT                                                                                                                                                                           |
+| [**XMINT4**](/windows/win32/api/directxmath/ns-directxmath-xmint4)         |                                                                                       |                                                               | DXGI\_FORMAT\_R32G32B32A32\_SINT                                                                                                                                                                        |
 | [**XMSHORT2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort2)     | D3DDECLTYPE\_SHORT2                                                                   | D3DFMT\_V16U16                                                | DXGI\_FORMAT\_R16G16\_SINT                                                                                                                                                                              |
 | [**XMSHORTN2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshortn2)   | D3DDECLTYPE\_SHORT2N                                                                  | D3DFMT\_V16U16                                                | DXGI\_FORMAT\_R16G16\_SNORM                                                                                                                                                                             |
 | [**XMSHORT4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort4)     | D3DDECLTYPE\_SHORT4                                                                   | D3DFMT\_x16x16x16x16                                          | DXGI\_FORMAT\_R16G16B16A16\_SINT                                                                                                                                                                        |
 | [**XMSHORTN4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshortn4)   | D3DDECLTYPE\_SHORT4N                                                                  | D3DFMT\_x16x16x16x16                                          | DXGI\_FORMAT\_R16G16B16A16\_SNORM                                                                                                                                                                       |
 | [**XMUBYTE2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmubyte2)     |                                                                                       |                                                               | DXGI\_FORMAT\_R8G8\_UINT                                                                                                                                                                                |
 | [**XMUBYTEN2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmubyten2)   |                                                                                       | D3DFMT\_A8P8, D3DFMT\_A8L8                                    | DXGI\_FORMAT\_R8G8\_UNORM                                                                                                                                                                               |
-| [**XMUINT2**](https://msdn.microsoft.com/library/Hh404745(v=VS.85).aspx)       |                                                                                       |                                                               | DXGI\_FORMAT\_R32G32\_UINT                                                                                                                                                                              |
-| [**XMUINT3**](https://msdn.microsoft.com/library/Hh404750(v=VS.85).aspx)       |                                                                                       |                                                               | DXGI\_FORMAT\_R32G32B32\_UINT                                                                                                                                                                           |
-| [**XMUINT4**](https://msdn.microsoft.com/library/Hh404755(v=VS.85).aspx)       |                                                                                       |                                                               | DXGI\_FORMAT\_R32G32B32A32\_UINT                                                                                                                                                                        |
-| [**XMU555**](https://msdn.microsoft.com/library/Ee420402(v=VS.85).aspx)         |                                                                                       | D3DFMT\_X1R5G5B5, D3DFMT\_A1R5G5B5                            | DXGI\_FORMAT\_B5G5R5A1\_UNORM                                                                                                                                                                           |
-| [**XMU565**](https://msdn.microsoft.com/library/Ee420413(v=VS.85).aspx)         |                                                                                       | D3DFMT\_R5G6B5                                                | DXGI\_FORMAT\_B5G6R5\_UNORM                                                                                                                                                                             |
-| [**XMUBYTE4**](https://msdn.microsoft.com/library/Ee420424(v=VS.85).aspx)     | D3DDECLTYPE\_UBYTE4                                                                   | D3DFMT\_x8x8x8x8                                              | DXGI\_FORMAT\_x8x8x8x8\_UINT                                                                                                                                                                            |
-| [**XMUBYTEN4**](https://msdn.microsoft.com/library/Ee420492(v=VS.85).aspx)   | D3DDECLTYPE\_UBYTE4N                                                                  | D3DFMT\_x8x8x8x8                                              | DXGI\_FORMAT\_x8x8x8x8\_UNORM<br/> DXGI\_FORMAT\_R10G10B10\_XR\_BIAS\_A2\_UNORM (Use [**XMLoadUDecN4\_XR**](https://msdn.microsoft.com/library/Dn322045(v=VS.85).aspx) and [**XMStoreUDecN4\_XR**](https://msdn.microsoft.com/library/Dn322046(v=VS.85).aspx).)<br/> |
-| [**XMUDEC4**](https://msdn.microsoft.com/library/Ee420508(v=VS.85).aspx)       | D3DDECLTYPE\_UDEC4 (Xbox Only)<br/> D3DDECLTYPE\_UDEC3 (Xbox Only)<br/>   | D3DFMT\_A2R10G10B10<br/> D3DFMT\_A2B10G10R10<br/> | DXGI\_FORMAT\_R10G10B10A2\_UINT                                                                                                                                                                         |
-| [**XMUDECN4**](https://msdn.microsoft.com/library/Ee420527(v=VS.85).aspx)     | D3DDECLTYPE\_UDEC4N (Xbox Only)<br/> D3DDECLTYPE\_UDEC3N (Xbox Only)<br/> | D3DFMT\_A2R10G10B10<br/> D3DFMT\_A2B10G10R10<br/> | DXGI\_FORMAT\_R10G10B10A2\_UNORM                                                                                                                                                                        |
-| [**XMUNIBBLE4**](https://msdn.microsoft.com/library/Ee420614(v=VS.85).aspx) |                                                                                       | D3DFMT\_A4R4G4B4, D3DFMT\_X4R4G4B4                            | DXGI\_FORMAT\_B4G4R4A4\_UNORM (DXGI 1.2+)                                                                                                                                                               |
+| [**XMUINT2**](/windows/win32/api/directxmath/ns-directxmath-xmuint2)       |                                                                                       |                                                               | DXGI\_FORMAT\_R32G32\_UINT                                                                                                                                                                              |
+| [**XMUINT3**](/windows/win32/api/directxmath/ns-directxmath-xmuint3)       |                                                                                       |                                                               | DXGI\_FORMAT\_R32G32B32\_UINT                                                                                                                                                                           |
+| [**XMUINT4**](/windows/win32/api/directxmath/ns-directxmath-xmuint4)       |                                                                                       |                                                               | DXGI\_FORMAT\_R32G32B32A32\_UINT                                                                                                                                                                        |
+| [**XMU555**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmu555)         |                                                                                       | D3DFMT\_X1R5G5B5, D3DFMT\_A1R5G5B5                            | DXGI\_FORMAT\_B5G5R5A1\_UNORM                                                                                                                                                                           |
+| [**XMU565**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmu565)         |                                                                                       | D3DFMT\_R5G6B5                                                | DXGI\_FORMAT\_B5G6R5\_UNORM                                                                                                                                                                             |
+| [**XMUBYTE4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmubyte4)     | D3DDECLTYPE\_UBYTE4                                                                   | D3DFMT\_x8x8x8x8                                              | DXGI\_FORMAT\_x8x8x8x8\_UINT                                                                                                                                                                            |
+| [**XMUBYTEN4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmubyten4)   | D3DDECLTYPE\_UBYTE4N                                                                  | D3DFMT\_x8x8x8x8                                              | DXGI\_FORMAT\_x8x8x8x8\_UNORM<br/> DXGI\_FORMAT\_R10G10B10\_XR\_BIAS\_A2\_UNORM (Use [**XMLoadUDecN4\_XR**](/windows/win32/api/directxpackedvector/nf-directxpackedvector-xmloadudecn4_xr) and [**XMStoreUDecN4\_XR**](/windows/win32/api/directxpackedvector/nf-directxpackedvector-xmstoreudecn4_xr).)<br/> |
+| [**XMUDEC4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmudec4)       | D3DDECLTYPE\_UDEC4 (Xbox Only)<br/> D3DDECLTYPE\_UDEC3 (Xbox Only)<br/>   | D3DFMT\_A2R10G10B10<br/> D3DFMT\_A2B10G10R10<br/> | DXGI\_FORMAT\_R10G10B10A2\_UINT                                                                                                                                                                         |
+| [**XMUDECN4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmudecn4)     | D3DDECLTYPE\_UDEC4N (Xbox Only)<br/> D3DDECLTYPE\_UDEC3N (Xbox Only)<br/> | D3DFMT\_A2R10G10B10<br/> D3DFMT\_A2B10G10R10<br/> | DXGI\_FORMAT\_R10G10B10A2\_UNORM                                                                                                                                                                        |
+| [**XMUNIBBLE4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmunibble4) |                                                                                       | D3DFMT\_A4R4G4B4, D3DFMT\_X4R4G4B4                            | DXGI\_FORMAT\_B4G4R4A4\_UNORM (DXGI 1.2+)                                                                                                                                                               |
 | [**XMUSHORT2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushort2)   | D3DDECLTYPE\_USHORT2                                                                  | D3DFMT\_G16R16                                                | DXGI\_FORMAT\_R16G16\_UINT                                                                                                                                                                              |
 | [**XMUSHORTN2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushortn2) | D3DDECLTYPE\_USHORT2N                                                                 | D3DFMT\_G16R16                                                | DXGI\_FORMAT\_R16G16\_UNORM                                                                                                                                                                             |
 | [**XMUSHORT4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushort4)   | D3DDECLTYPE\_USHORT4 (Xbox Only)                                                      | D3DFMT\_x16x16x16x16                                          | DXGI\_FORMAT\_R16G16B16A16\_UINT                                                                                                                                                                        |
@@ -227,7 +227,7 @@ These internal global constants are subject to change in future revisions of the
 The SSE instruction set provides support only for single-precision floating-point vectors. DirectXMath must make use of the SSE2 instruction set to provide integer vector support. SSE2 is supported by all Intel processors since the introduction of the Pentium 4, all AMD K8 and later processors, and all x64-capable processors.
 
 > [!Note]  
-> Windows 8 for x86 requires support for SSE2. All versions of Windows x64 require support for SSE2. Windows RT (also known as Windows on ARM) requires ARM\_NEON.
+> Windows 8 for x86 or later requires support for SSE2. All versions of Windows x64 require support for SSE2. Windows on ARM / ARM64 requires ARM\_NEON.
 
  
 
@@ -236,8 +236,8 @@ The SSE instruction set provides support only for single-precision floating-poin
 There are several variants of DirectXMath functions that make it easier to do your work:
 
 -   Comparison functions to create complicated conditional branching based on a smaller number of vector comparison operations. The name of these functions end in "R" such as XMVector3InBoundsR. The functions return a comparison record as a UINT return value, or as a UINT out parameter. You can use the **XMComparision\*** macros to test the value.
--   Batch functions for performing batch-style operations on larger vector arrays. The name of these functions end in "Stream" such as [**XMVector3TransformStream**](https://msdn.microsoft.com/library/Hh404780(v=VS.85).aspx). The functions operate on an array of inputs, and they generate an array of outputs. Typically, they take an input and output stride.
--   Estimation functions that implement a faster estimation instead of a slower, more accurate result. The name of these functions end in "Est" such as [**XMVector3NormalizeEst**](https://msdn.microsoft.com/library/Ee420829(v=VS.85).aspx). The quality and performance impact of using estimation varies from platform to platform, but we recommend that you use estimation variants for performance-sensitive code.
+-   Batch functions for performing batch-style operations on larger vector arrays. The name of these functions end in "Stream" such as [**XMVector3TransformStream**](/windows/win32/api/directxmath/nf-directxmath-xmvector3transformstream). The functions operate on an array of inputs, and they generate an array of outputs. Typically, they take an input and output stride.
+-   Estimation functions that implement a faster estimation instead of a slower, more accurate result. The name of these functions end in "Est" such as [**XMVector3NormalizeEst**](/windows/win32/api/directxmath/nf-directxmath-xmvector3normalizeest). The quality and performance impact of using estimation varies from platform to platform, but we recommend that you use estimation variants for performance-sensitive code.
 
 ## Platform Inconsistencies
 
@@ -260,7 +260,7 @@ For example, here is a simplified example of leveraging the SSE 4.1 dot-product 
 
 
 ```
-#include <windows.h>
+#include <Windows.h>
 #include <stdio.h>
 
 #include <DirectXMath.h>
@@ -278,12 +278,20 @@ void DetectCPUFeatures()
    // See __cpuid documentation on MSDN for more information
 
    int CPUInfo[4] = {-1};
-   __cpuid( CPUInfo, 0 );
+#if defined(__clang__) || defined(__GNUC__)
+   __cpuid(0, CPUInfo[0], CPUInfo[1], CPUInfo[2], CPUInfo[3]);
+#else
+   __cpuid(CPUInfo, 0);
+#endif
 
    if ( CPUInfo[0] >= 1 )
    {
-       __cpuid(CPUInfo, 1 );
- 
+#if defined(__clang__) || defined(__GNUC__)
+        __cpuid(1, CPUInfo[0], CPUInfo[1], CPUInfo[2], CPUInfo[3]);
+#else
+        __cpuid(CPUInfo, 1);
+#endif
+
        if ( CPUInfo[2] & 0x80000 )
            g_bSSE41 = true;
    }
@@ -319,7 +327,7 @@ int main()
        r4 = XMVector4Dot( v1, v2 );
    }
 
-   ... 
+   ...
 
    return 0;
 }
@@ -331,11 +339,13 @@ For more info about platform-specific extensions, see:
 
 <dl>
 
-[DirectXMath: SSE, SSE2, and ARM-NEON](https://walbourn.github.io/)  
-[DirectXMath: SSE3 and SSSE3](https://walbourn.github.io/)  
-[DirectXMath: SSE4.1 and SSE4.2](https://walbourn.github.io/)  
-[DirectXMath: AVX](https://walbourn.github.io/)  
-[DirectXMath: F16C and FMA](https://walbourn.github.io/)  
+[DirectXMath: SSE, SSE2, and ARM-NEON](https://walbourn.github.io/directxmath-sse-sse2-and-arm-neon/)  
+[DirectXMath: SSE3 and SSSE3](https://walbourn.github.io/directxmath-sse3-and-ssse3/)  
+[DirectXMath: SSE4.1 and SSE4.2](https://walbourn.github.io/directxmath-sse4-1-and-sse4-2/)  
+[DirectXMath: AVX](https://walbourn.github.io/directxmath-avx/)  
+[DirectXMath: F16C and FMA](https://walbourn.github.io/directxmath-f16c-and-fma/)  
+[DirectXMath: AVX2](https://walbourn.github.io/directxmath-avx2/)  
+[DirectXMath: ARM64](https://walbourn.github.io/directxmath-arm64/)  
 </dl>
 
 ## Related topics
@@ -344,11 +354,3 @@ For more info about platform-specific extensions, see:
 
 [DirectXMath Programming Guide](ovw-xnamath-progguide.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-

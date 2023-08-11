@@ -1,5 +1,5 @@
 ---
-Description: Raised by the audio renderer when the audio session display name changes.
+description: Raised by the audio renderer when the audio session display name changes.
 ms.assetid: d180b145-88e1-4f85-b001-b76140ca39d8
 title: MEAudioSessionNameChanged event (Mfobjects.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 ## Remarks
 
-This event is sent by the audio renderer's stream sink. The event is triggered when the audio renderer receives an [**IAudioSessionEvents::OnDisplayNameChanged**](https://msdn.microsoft.com/library/Dd370935(v=VS.85).aspx) event from the audio session.
+This event is sent by the audio renderer's stream sink. The event is triggered when the audio renderer receives an [**IAudioSessionEvents::OnDisplayNameChanged**](/windows/win32/api/audiopolicy/nf-audiopolicy-iaudiosessionevents-ondisplaynamechanged) event from the audio session.
 
 To get the new display name, call [**IMFAudioPolicy::GetDisplayName**](/windows/desktop/api/mfidl/nf-mfidl-imfaudiopolicy-getdisplayname).
 
@@ -34,7 +34,7 @@ To get the new display name, call [**IMFAudioPolicy::GetDisplayName**](/windows/
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |
@@ -58,7 +58,3 @@ To get the new display name, call [**IMFAudioPolicy::GetDisplayName**](/windows/
  
 
  
-
-
-
-

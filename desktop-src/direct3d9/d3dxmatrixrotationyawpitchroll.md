@@ -1,22 +1,25 @@
 ---
-Description: Builds a matrix with a specified yaw, pitch, and roll.
+description: D3DXMatrixRotationYawPitchRoll function (D3dx9math.h) - Builds a matrix with a specified yaw, pitch, and roll.
 ms.assetid: efaab508-34ed-4373-a8d0-3bc459d75f39
 title: D3DXMatrixRotationYawPitchRoll function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixRotationYawPitchRoll
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXMatrixRotationYawPitchRoll function
+# D3DXMatrixRotationYawPitchRoll function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a matrix with a specified yaw, pitch, and roll.
 
@@ -50,7 +53,7 @@ Pointer to the [**D3DXMATRIX**](d3dxmatrix.md) structure that is the result of t
 *Yaw* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Yaw around the y-axis, in radians.
 
@@ -59,7 +62,7 @@ Yaw around the y-axis, in radians.
 *Pitch* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Pitch around the x-axis, in radians.
 
@@ -68,7 +71,7 @@ Pitch around the x-axis, in radians.
 *Roll* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Roll around the z-axis, in radians.
 
@@ -92,7 +95,7 @@ The order of transformations is roll first, then pitch, then yaw. Relative to th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -124,7 +127,3 @@ The order of transformations is roll first, then pitch, then yaw. Relative to th
  
 
  
-
-
-
-

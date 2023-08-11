@@ -1,5 +1,5 @@
 ---
-Description: Properties defined by the ICertSrvSetup interface.
+description: Properties defined by the ICertSrvSetup interface.
 ms.assetid: ffe81266-1787-4883-a99e-5f1a537396b8
 title: Properties of ICertSrvSetup
 ms.topic: article
@@ -14,7 +14,7 @@ The following properties are defined by the [**ICertSrvSetup**](/windows/desktop
 
 | Property                                             | Description                                                                                                                                                                                                  |
 |------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CAErrorId**](/windows/desktop/api/Casetup/nf-casetup-icertsrvsetup-get_caerrorid)         | Gets the ID for additional error information related to a failed [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA) specification. |
+| [**CAErrorId**](/windows/desktop/api/Casetup/nf-casetup-icertsrvsetup-get_caerrorid)         | Gets the ID for additional error information related to a failed [*certification authority*](../secgloss/c-gly.md) (CA) specification. |
 | [**CAErrorString**](/windows/desktop/api/Casetup/nf-casetup-icertsrvsetup-get_caerrorstring) | Gets the string data for additional error information related to a failed CA specification.                                                                                                                  |
 
 
@@ -24,6 +24,3 @@ The following properties are defined by the [**ICertSrvSetup**](/windows/desktop
  
 
  
-
-
-

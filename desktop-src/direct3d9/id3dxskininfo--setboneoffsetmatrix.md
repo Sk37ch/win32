@@ -1,5 +1,5 @@
 ---
-Description: Sets the bone offset matrix.
+description: Sets the bone offset matrix.
 ms.assetid: f8ac1117-510d-42af-a6bf-422cbaaf6b74
 title: ID3DXSkinInfo::SetBoneOffsetMatrix method (D3DX9Mesh.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT SetBoneOffsetMatrix(
 *Bone* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Bone number.
 
@@ -68,7 +68,7 @@ Bone names are returned by [**D3DXLoadMeshFromXof**](d3dxloadmeshfromxof.md).
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -88,7 +88,3 @@ Bone names are returned by [**D3DXLoadMeshFromXof**](d3dxloadmeshfromxof.md).
  
 
  
-
-
-
-

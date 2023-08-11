@@ -1,7 +1,7 @@
 ---
 title: Windows Virtual PC Enumerations
 ms.assetid: a9800f9f-d91f-48be-bbb9-f736132c2fd7
-description: 
+description: "Learn more about: Windows Virtual PC Enumerations"
 keywords:
 - Windows Virtual PC Virtual PC , enumerations
 ms.topic: article
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Windows Virtual PC Enumerations
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 The following enumerations are supported by Windows Virtual PC:
 
@@ -39,7 +39,3 @@ The following enumerations are supported by Windows Virtual PC:
  
 
  
-
-
-
-

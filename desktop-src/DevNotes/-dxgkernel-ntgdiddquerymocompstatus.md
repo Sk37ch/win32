@@ -1,5 +1,5 @@
 ---
-Description: Queries the status of the most recent rendering operation to the specified surface.
+description: Queries the status of the most recent rendering operation to the specified surface.
 ms.assetid: bc7f8f84-119e-4c09-87f5-6b122e9f9821
 title: NtGdiDdQueryMoCompStatus function (Ntgdi.h)
 ms.topic: reference
@@ -43,14 +43,14 @@ DWORD APIENTRY NtGdiDdQueryMoCompStatus(
 *hMoComp* \[in\]
 </dt> <dd>
 
-Pointer to a [**DD\_MOTIONCOMP\_LOCAL**](https://msdn.microsoft.com/library/Ff551663(v=VS.85).aspx) structure that contains a description of the motion compensation being requested.
+Pointer to a [**DD\_MOTIONCOMP\_LOCAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_motioncomp_local) structure that contains a description of the motion compensation being requested.
 
 </dd> <dt>
 
 *puQueryMoCompStatusData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_QUERYMOCOMPSTATUSDATA**](https://msdn.microsoft.com/library/Ff551691(v=VS.85).aspx) structure that contains the information needed to query the status.
+Pointer to a [**DD\_QUERYMOCOMPSTATUSDATA**](/windows/win32/api/ddrawint/ns-ddrawint-dd_querymocompstatusdata) structure that contains the information needed to query the status.
 
 </dd> </dl>
 
@@ -77,7 +77,7 @@ For more information, see the Microsoft DirectX Video Acceleration Driver Develo
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
@@ -95,7 +95,3 @@ For more information, see the Microsoft DirectX Video Acceleration Driver Develo
  
 
  
-
-
-
-

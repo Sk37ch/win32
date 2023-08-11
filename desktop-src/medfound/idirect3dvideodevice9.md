@@ -1,5 +1,5 @@
 ---
-Description: Enables hardware-accelerated decoding from a Direct3D 9 device, using DirectX Video Acceleration (DXVA) version 1.0.
+description: Enables hardware-accelerated decoding from a Direct3D 9 device, using DirectX Video Acceleration (DXVA) version 1.0.
 ms.assetid: abe3beac-f3f8-413d-8b83-9da3340b19ac
 title: IDirect3DVideoDevice9 interface (Dxva.h)
 ms.topic: reference
@@ -21,11 +21,11 @@ Enables hardware-accelerated decoding from a Direct3D 9 device, using DirectX Vi
 
 ## When to use
 
-This interface is not intended for general application use. DirectShow decoder filters should use the [**IAMVideoAccelerator**](https://msdn.microsoft.com/library/Dd375992(v=VS.85).aspx) interface, not **IDirect3DVideoDevice9**. The input pins of the Video Mixing Renderer (VMR) filter and the Overlay Mixer filter expose **IAMVideoAccelerator**.
+This interface is not intended for general application use. DirectShow decoder filters should use the [**IAMVideoAccelerator**](/previous-versions/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator) interface, not **IDirect3DVideoDevice9**. The input pins of the Video Mixing Renderer (VMR) filter and the Overlay Mixer filter expose **IAMVideoAccelerator**.
 
 ## Members
 
-The **IDirect3DVideoDevice9** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IDirect3DVideoDevice9** also has these types of members:
+The **IDirect3DVideoDevice9** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IDirect3DVideoDevice9** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -50,7 +50,7 @@ The **IDirect3DVideoDevice9** interface has these methods.
 
 ## Remarks
 
-To get a pointer to this interface, call **QueryInterface** on an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) or [**IDirect3DDevice9Ex**](https://msdn.microsoft.com/library/Bb174337(v=VS.85).aspx) pointer.
+To get a pointer to this interface, call **QueryInterface** on an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) or [**IDirect3DDevice9Ex**](/windows/win32/api/d3d9/nn-d3d9-idirect3ddevice9ex) pointer.
 
 This interface supports DXVA 1.0 only. It does not support DXVA 2.0.
 
@@ -58,7 +58,7 @@ This interface supports DXVA 1.0 only. It does not support DXVA 2.0.
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                              |
@@ -76,13 +76,9 @@ This interface supports DXVA 1.0 only. It does not support DXVA 2.0.
 [DirectX Video Acceleration 2.0](directx-video-acceleration-2-0.md)
 </dt> <dt>
 
-[DXVA 1.0 specification](https://msdn.microsoft.com/library/windows/hardware/gg463516)
+[DXVA 1.0 specification](/windows-hardware/drivers/display/directx-video-acceleration)
 </dt> </dl>
 
  
 
  
-
-
-
-

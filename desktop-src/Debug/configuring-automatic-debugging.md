@@ -1,5 +1,5 @@
 ---
-Description: Users can configure automatic debugging to help them determine why their system or an application has stopped responding.
+description: Users can configure automatic debugging to help them determine why their system or an application has stopped responding.
 ms.assetid: c3c7aa98-c298-452c-b8d0-10a08b4d82a3
 title: Configuring Automatic Debugging
 ms.topic: article
@@ -72,12 +72,9 @@ HKEY_LOCAL_MACHINE
 
 <dl> <dt>
 
-[Enabling Postmortem Debugging with WinDbg](https://msdn.microsoft.com/library/Ff542967(v=VS.85).aspx)
+[Enabling Postmortem Debugging with WinDbg](/windows-hardware/drivers/debugger/enabling-postmortem-debugging)
 </dt> </dl>
 
  
 
  
-
-
-

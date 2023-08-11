@@ -1,5 +1,5 @@
 ---
-Description: Initializes the filter. Called by Windows Image Acquisition (WIA) 2.0 before each image download.
+description: Initializes the filter. Called by Windows Image Acquisition (WIA) 2.0 before each image download.
 ms.assetid: 0487900d-2103-4314-b18d-58ff97d6f524
 title: IWiaImageFilter::InitializeFilter method (Wia.h)
 ms.topic: reference
@@ -61,13 +61,13 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-This method is called when an application calls [**Download**](-wia-iwiatransfer-download.md) and when an application calls the WIA 2.0 Preview Component's `GetNewPreview` function. **IWiaImageFilter::InitializeFilter** stores the references to *pWiaItem2* and *pWiaTransferCallback* to pass into these functions. These two interface pointers should be stored as member variables and [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx) should be called for each. The interface pointers are also needed in the filter's implementation of [**TransferCallback**](-wia-iwiatransfercallback-transfercallback.md) and [**GetNextStream**](-wia-iwiatransfercallback-getnextstream.md) during image acquisition.
+This method is called when an application calls [**Download**](-wia-iwiatransfer-download.md) and when an application calls the WIA 2.0 Preview Component's `GetNewPreview` function. **IWiaImageFilter::InitializeFilter** stores the references to *pWiaItem2* and *pWiaTransferCallback* to pass into these functions. These two interface pointers should be stored as member variables and [IUnknown::AddRef](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) should be called for each. The interface pointers are also needed in the filter's implementation of [**TransferCallback**](-wia-iwiatransfercallback-transfercallback.md) and [**GetNextStream**](-wia-iwiatransfercallback-getnextstream.md) during image acquisition.
 
 ## Requirements
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
@@ -79,7 +79,3 @@ This method is called when an application calls [**Download**](-wia-iwiatransfer
  
 
  
-
-
-
-

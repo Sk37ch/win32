@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 Use the following functions to implement RAS functionality.
 
-[**CmFree**](cmfree.md)
+**CmFree**
 
-[**CmMalloc**](cmmalloc.md)
+**CmMalloc**
 
 [**ORASADFunc**](/windows/desktop/api/Ras/nc-ras-orasadfunc)
 
@@ -94,11 +94,11 @@ Use the following functions to implement RAS functionality.
 
 [**RasGetNapStatus**](/windows/desktop/api/Ras/nf-ras-rasgetnapstatus)
 
-[**RasGetProjectionInfo**](/windows/win32/api/ras/nf-ras-rasgetprojectioninfow)
+[**RasGetProjectionInfo**](/previous-versions/windows/embedded/ms897107(v=msdn.10))
 
 [**RasGetProjectionInfoEx**](/windows/desktop/api/Ras/nf-ras-rasgetprojectioninfoex)
 
-[**RasGetQuarantineConnectionId**](https://msdn.microsoft.com/library/Aa377552(v=VS.85).aspx)
+[**RasGetQuarantineConnectionId**](/previous-versions/windows/desktop/legacy/aa377552(v=vs.85))
 
 [**RasGetSubEntryHandle**](/windows/desktop/api/Ras/nf-ras-rasgetsubentryhandlea)
 
@@ -108,7 +108,7 @@ Use the following functions to implement RAS functionality.
 
 [**RasInvokeEapUI**](/windows/desktop/api/Ras/nf-ras-rasinvokeeapui)
 
-[**RasMonitorDlg**](https://msdn.microsoft.com/library/Aa377584(v=VS.85).aspx)
+[**RasMonitorDlg**](/previous-versions/windows/desktop/legacy/aa377584(v=vs.85))
 
 [**RasPBDlgFunc**](/windows/desktop/api/Rasdlg/nc-rasdlg-raspbdlgfunca)
 
@@ -145,7 +145,3 @@ Use the following functions to implement RAS functionality.
  
 
  
-
-
-
-

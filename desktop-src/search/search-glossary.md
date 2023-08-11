@@ -1,5 +1,5 @@
 ---
-Description: Glossary page
+description: Glossary page
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 8e9b45de-c81b-4324-b00b-b11ee6749920
 title: Windows Search Glossary
@@ -331,7 +331,7 @@ An XML file that describes available server connections and result formats for a
 
 **OpenSearch standard**
 
-A collection of simple formats and protocols used for sharing search results. For more information, see the OpenSearch website (https://www.opensearch.org/Home).
+A collection of simple formats and protocols used for sharing search results. For more information, see the OpenSearch website (https://github.com/dewitt/opensearch).
 
 ## P
 

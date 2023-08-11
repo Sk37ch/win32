@@ -1,5 +1,5 @@
 ---
-Description: The distributed link tracking service enables client applications to track link sources that have moved.
+description: The distributed link tracking service enables client applications to track link sources that have moved.
 ms.assetid: 6f438c72-f23d-4ca4-83bd-fe3bc433ceeb
 title: Distributed Link Tracking and Object Identifiers
 ms.topic: article
@@ -47,15 +47,15 @@ OLE linking includes the same heuristic link tracking. Windows also includes the
 
  
 
-For more information about shell shortcuts, see [**IShellLink**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka).
+For more information about shell shortcuts, see [**IShellLink**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka).
 
-For more information about OLE links, see [**IOleLink**](https://msdn.microsoft.com/library/ms682297(v=VS.85).aspx).
+For more information about OLE links, see [**IOleLink**](/windows/win32/api/oleidl/nn-oleidl-iolelink).
 
 If a link is made to a file on NTFS 3.0 or later, and the file is moved to any other volume with NTFS 3.0 or later within the same domain, the file can be found by the tracking service, subject to time considerations. Additionally, if the file is moved outside the domain or within a workgroup, it is found.
 
 To obtain the NTFS version of a volume, open a command prompt with Administrator access rights and execute the following command:
 
-**fsutil fsinfo ntfsinfo** *X***:**
+**fsutil fsinfo ntfsinfo** *X*__:__
 
 where *X* is the drive letter of the volume.
 
@@ -70,7 +70,7 @@ The distributed link tracking service maintains file links for the following sit
 
 The distributed link tracking service also attempts to maintain links in the preceding situations even when they do not occur within a domain, that is, they are cross domain or within a workgroup. Links can always be maintained in these situations when the network share on the link source computer is changed. They can also be maintained when a link source is moved within a computer. Links can usually be maintained when the link source is moved to another computer, but this form of tracking is less reliable over time.
 
-## Link Tracking Features
+## Link Tracking Functionality
 
 Link tracking functionality is primarily implemented in the form of the following two system services:
 
@@ -95,7 +95,7 @@ This server service maintains information in the domain controllers about volume
 
 </dd> </dl>
 
-The link tracking services are exposed by the [**IShellLink**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka) and [**IOleLink**](https://msdn.microsoft.com/library/ms682297(v=VS.85).aspx) interfaces. Therefore, they are used by shell shortcuts. When the [**IShellLink::Resolve**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-resolve) method is called and the referent file cannot be found, for example, when the user activates a shell shortcut, the tracking service is called automatically to find the file. Similarly, when the [**IOleLink**](https://msdn.microsoft.com/library/ms682297(v=VS.85).aspx) implementation cannot find a file, for example, in its [**BindToSource**](https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-bindtosource) method, it automatically calls on the tracking service.
+The link tracking services are exposed by the [**IShellLink**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka) and [**IOleLink**](/windows/win32/api/oleidl/nn-oleidl-iolelink) interfaces. Therefore, they are used by shell shortcuts. When the [**IShellLink::Resolve**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-resolve) method is called and the referent file cannot be found, for example, when the user activates a shell shortcut, the tracking service is called automatically to find the file. Similarly, when the [**IOleLink**](/windows/win32/api/oleidl/nn-oleidl-iolelink) implementation cannot find a file, for example, in its [**BindToSource**](/windows/desktop/api/oleidl/nf-oleidl-iolelink-bindtosource) method, it automatically calls on the tracking service.
 
 ## Link Tracking Limitations
 
@@ -103,7 +103,7 @@ The distributed link tracking services are available only on the NTFS file syste
 
 To obtain the NTFS version of a volume, open a command prompt with Administrator access rights and execute the following command:
 
-**fsutil fsinfo ntfsinfo** *X***:**
+**fsutil fsinfo ntfsinfo** *X*__:__
 
 where *X* is the drive letter of the volume.
 
@@ -112,6 +112,3 @@ Links to files on removable media are not maintained. Also, the tracking service
  
 
  
-
-
-

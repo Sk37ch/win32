@@ -1,22 +1,25 @@
 ---
-Description: Builds a customized, left-handed orthographic projection matrix.
+description: D3DXMatrixOrthoOffCenterLH function (D3dx9math.h) - Builds a customized, left-handed orthographic projection matrix.
 ms.assetid: e4f087e5-63d9-49ca-9d8e-3a25070e1a51
 title: D3DXMatrixOrthoOffCenterLH function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixOrthoOffCenterLH
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXMatrixOrthoOffCenterLH function
+# D3DXMatrixOrthoOffCenterLH function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a customized, left-handed orthographic projection matrix.
 
@@ -46,14 +49,14 @@ D3DXMATRIX* D3DXMatrixOrthoOffCenterLH(
 
 Type: **[**D3DXMATRIX**](d3dxmatrix.md)\***
 
-Pointer to the resulting [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb204929(v=VS.85).aspx).
+Pointer to the resulting [**D3DXMATRIX**](../direct3d10/d3d10-d3dxmatrix.md).
 
 </dd> <dt>
 
 *l* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Minimum x-value of view volume.
 
@@ -62,7 +65,7 @@ Minimum x-value of view volume.
 *r* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Maximum x-value of view volume.
 
@@ -71,7 +74,7 @@ Maximum x-value of view volume.
 *b* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Minimum y-value of view volume.
 
@@ -80,7 +83,7 @@ Minimum y-value of view volume.
 *t* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Maximum y-value of view volume.
 
@@ -89,7 +92,7 @@ Maximum y-value of view volume.
 *zn* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Minimum z-value of the view volume.
 
@@ -98,7 +101,7 @@ Minimum z-value of the view volume.
 *zf* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Maximum z-value of the view volume.
 
@@ -108,7 +111,7 @@ Maximum z-value of the view volume.
 
 Type: **[**D3DXMATRIX**](d3dxmatrix.md)\***
 
-Pointer to the resulting [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb204929(v=VS.85).aspx).
+Pointer to the resulting [**D3DXMATRIX**](../direct3d10/d3d10-d3dxmatrix.md).
 
 ## Remarks
 
@@ -134,7 +137,7 @@ This function uses the following formula to compute the returned matrix.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -160,7 +163,3 @@ This function uses the following formula to compute the returned matrix.
  
 
  
-
-
-
-

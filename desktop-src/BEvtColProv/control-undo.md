@@ -1,5 +1,5 @@
 ---
-Description: Restore the active configuration of the collector from the previous backup file (determined by going back from the current original timestamp).
+description: Restore the active configuration of the collector from the previous backup file (determined by going back from the current original timestamp).
 ms.assetid: 150fa554-9efd-483e-a177-5fc7766a6a6c
 ms.tgt_platform: multiple
 title: Undo method of the Control class
@@ -47,42 +47,42 @@ Uint32 Undo(
 *OldTimestampLow* \[in\]
 </dt> <dd>
 
-The timestamp of when the previous configuration was set. If not 0, enables the atomicity check: the new configuration will be applied only if the timestamp of the old configuration matches (i.e. the configuration was not changed in between). This is the low part of [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
+The timestamp of when the previous configuration was set. If not 0, enables the atomicity check: the new configuration will be applied only if the timestamp of the old configuration matches (i.e. the configuration was not changed in between). This is the low part of [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
 
 </dd> <dt>
 
 *OldTimestampHigh* \[in\]
 </dt> <dd>
 
-The timestamp of when the previous configuration was set. If not 0, enables the atomicity check: the new configuration will be applied only if the timestamp of the old configuration matches (i.e. the configuration was not changed in between). This is the high part of [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
+The timestamp of when the previous configuration was set. If not 0, enables the atomicity check: the new configuration will be applied only if the timestamp of the old configuration matches (i.e. the configuration was not changed in between). This is the high part of [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
 
 </dd> <dt>
 
 *NewTimestampLow* \[out\]
 </dt> <dd>
 
-The timestamp of when the new configuration was set, if the call succeeds. This is the low part of [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
+The timestamp of when the new configuration was set, if the call succeeds. This is the low part of [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
 
 </dd> <dt>
 
 *NewTimestampHigh* \[out\]
 </dt> <dd>
 
-The timestamp of when the new configuration was set, if the call succeeds. This is the high part of [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
+The timestamp of when the new configuration was set, if the call succeeds. This is the high part of [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
 
 </dd> <dt>
 
 *OriginalTimestampLow* \[out\]
 </dt> <dd>
 
-The original timestamp of when the restored configuration was set for the first time. This is the low part of [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
+The original timestamp of when the restored configuration was set for the first time. This is the low part of [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
 
 </dd> <dt>
 
 *OriginalTimestampHigh* \[out\]
 </dt> <dd>
 
-The original timestamp of when the restored configuration was set for the first time. This is the high part of [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
+The original timestamp of when the restored configuration was set for the first time. This is the high part of [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
 
 </dd> <dt>
 
@@ -182,7 +182,7 @@ Success
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
@@ -200,9 +200,4 @@ Success
 </dt> </dl>
 
  
-
- 
-
-
-
 

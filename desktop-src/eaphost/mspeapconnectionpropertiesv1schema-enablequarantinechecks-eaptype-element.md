@@ -1,6 +1,6 @@
 ---
 title: EnableQuarantineChecks (EapType) Element
-description: Indicates whether to perform Network Access Protection (NAP) checks.
+description: Learn about the EnableQuarantineChecks (EapType) element. This element indicates whether to perform Network Access Protection (NAP) checks.
 ms.assetid: bd5c7efc-f857-4e21-9cd8-0a1cbe5a87d8
 keywords:
 - EnableQuarantineChecks element EAPHost
@@ -17,6 +17,9 @@ ROBOTS: INDEX,FOLLOW
 ---
 
 # EnableQuarantineChecks (EapType) Element
+
+> [!NOTE]  
+> Starting with Windows 10 and Windows Server 2016, the **EnableQuarantineChecks** element can be included in the profile but will do nothing as the **Network Access Protection (NAP)** platform is not available.
 
 The **EnableQuarantineChecks (EapType)** element indicates whether to perform Network Access Protection (NAP) checks.
 
@@ -36,10 +39,10 @@ If the **EnableQuarantineChecks** element is TRUE, then PEAP will perform NAP ch
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

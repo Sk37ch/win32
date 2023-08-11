@@ -1,14 +1,14 @@
 ---
-Description: Windows Events provides a standard, centralized way for applications (and the operating system) to record important software and hardware events.
+description: Windows Events provides a standard, centralized way for applications (and the operating system) to record important software and hardware events.
 ms.assetid: 1f28cbce-b759-4293-8af2-15f86f23228c
 title: Event Logging (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Event Logging
+# Event Logging (Windows Installer)
 
-[Windows Events](https://msdn.microsoft.com/library/Aa964766(v=VS.85).aspx) provides a standard, centralized way for applications (and the operating system) to record important software and hardware events. The event-logging service stores events from various sources in a single collection called an *event log*. Prior to Windows Vista, you would use either [Event Tracing for Windows](https://msdn.microsoft.com/library/Bb968803(v=VS.85).aspx) (ETW) or [Event Logging](https://msdn.microsoft.com/library/Aa363652(v=VS.85).aspx) to log events. Windows Vista introduced a new eventing model that unifies both ETW and the [Windows Event Log](https://msdn.microsoft.com/library/Aa385780(v=VS.85).aspx) API.
+[Windows Events](../events/windows-events.md) provides a standard, centralized way for applications (and the operating system) to record important software and hardware events. The event-logging service stores events from various sources in a single collection called an *event log*. Prior to Windows Vista, you would use either [Event Tracing for Windows](../etw/event-tracing-portal.md) (ETW) or [Event Logging](../eventlog/event-logging.md) to log events. Windows Vista introduced a new eventing model that unifies both ETW and the [Windows Event Log](../wes/windows-event-log.md) API.
 
 The installer also writes entries into the event log. These record events such as following:
 
@@ -61,7 +61,7 @@ For information about how to enable verbose logging on a user's computer when tr
 <tr class="even">
 <td>1006</td>
 <td>Verification of the digital signature for cabinet '%1' cannot be performed. WinVerifyTrust is not available on the computer.</td>
-<td>Warning message. A cabinet was authored in the <a href="msidigitalsignature-table.md">MsiDigitalSignature table</a> to have a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust"><strong>WinVerifyTrust</strong></a> check performed. This action could not be performed because the computer does not have the proper cryptography DLLs installed.</td>
+<td>Warning message. A cabinet was authored in the <a href="msidigitalsignature-table.md">MsiDigitalSignature table</a> to have a <a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytrust"><strong>WinVerifyTrust</strong></a> check performed. This action could not be performed because the computer does not have the proper cryptography DLLs installed.</td>
 </tr>
 <tr class="odd">
 <td>1007</td>
@@ -215,6 +215,11 @@ For information about how to enable verbose logging on a user's computer when tr
 <strong>msirbRebootCustomActionReason</strong> (4)- A custom action called the <a href="/windows/desktop/api/Msiquery/nf-msiquery-msisetmode"><strong>MsiSetMode</strong></a> function.<br />
 </dl> </dd> </dl> <strong><a href="not-supported-in-windows-installer-version-3-1.md">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/> Field 6 - <a href="manufacturer.md"><strong>Manufacturer</strong></a><br/> <strong><a href="not-supported-in-windows-installer-4-5.md">Windows Installer 4.5 and earlier</a>:</strong> Field 6 not available.<br/></td>
 </tr>
+<tr class="odd">
+<td>1044</td>
+<td>%1 is not Microsoft signed. So, rejecting per the Windows Lockdown Policy.</td>
+<td>Error message indicating that binary is not signed by Microsoft and is not allowed as per Windows Lockdown Policy.</td>
+</tr>
 <tr class="even">
 <td>10005</td>
 <td>The installer has encountered an unexpected error installing this package. This may indicate a problem with this package. The error code is [1]. {{The arguments are: [2], [3], [4]}}</td>
@@ -247,7 +252,3 @@ You can import localized errors strings for events into your database by using M
  
 
  
-
-
-
-

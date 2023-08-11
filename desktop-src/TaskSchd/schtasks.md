@@ -11,12 +11,15 @@ api_name:
 api_type:
 - NA
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 05/31/2018
 ---
 
 # Schtasks.exe
 
-Enables an administrator to create, delete, query, change, run, and end scheduled tasks on a local or remote computer. Running Schtasks.exe without arguments displays the status and next run time for each registered task.
+Enables an administrator to create, delete, query, change, run, and end scheduled tasks on a local or remote computer. Running Schtasks.exe without arguments displays the status and next run time for each registered task. 
+
+For more information on Task Scheduler, see this introduction: [Task Scheduler for developers](task-scheduler-start-page.md).
 
 ## Creating a Task
 
@@ -31,7 +34,7 @@ schtasks /Create
 [/XML xmlfile] [/V1]] [/SD startdate] [/ED enddate] [/IT] [/Z] [/F]
 ```
 
-## Parameters
+### Parameters
 
 <dl> <dt>
 
@@ -73,7 +76,7 @@ A value that specifies the password for the user specified with the /RU paramete
 <span id="_SC_schedule"></span><span id="_sc_schedule"></span><span id="_SC_SCHEDULE"></span>**/SC** **schedule**
 </dt> <dd>
 
-A value that specifies the schedule frequency. Valid values are: MINUTE, HOURLY, DAILY, WEEKLY, MONTHLY, ONCE, ONLOGON, ONIDLE, and ONEVENT.
+A value that specifies the schedule frequency. Valid values are: MINUTE, HOURLY, DAILY, WEEKLY, MONTHLY, ONCE, ONSTART, ONLOGON, ONIDLE, and ONEVENT.
 
 </dd> <dt>
 
@@ -291,7 +294,7 @@ schtasks /Delete
 [/TN taskname] [/F]
 ```
 
-## Parameters
+### Parameters
 
 <dl> <dt>
 
@@ -347,7 +350,7 @@ schtasks /Run
 /TN taskname
 ```
 
-## Parameters
+### Parameters
 
 <dl> <dt>
 
@@ -401,7 +404,7 @@ schtasks /End
 /TN taskname
 ```
 
-## Parameters
+### Parameters
 
 <dl> <dt>
 
@@ -450,7 +453,7 @@ schtasks /Query
 [/FO format | /XML] [/NH] [/V] [/TN taskname] [/?]
 ```
 
-## Parameters
+### Parameters
 
 <dl> <dt>
 
@@ -538,7 +541,7 @@ schtasks /Change
 [/SD startdate] [/ED enddate] [/ENABLE | /DISABLE] [/IT] [/Z] }
 ```
 
-## Parameters
+### Parameters
 
 <dl> <dt>
 
@@ -724,7 +727,7 @@ A value that displays the Help message for Schtasks.exe.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

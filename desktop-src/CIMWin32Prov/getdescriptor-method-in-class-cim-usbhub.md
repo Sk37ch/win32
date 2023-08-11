@@ -1,5 +1,5 @@
 ---
-Description: The GetDescriptor method returns the USB hub descriptor as specified by the input parameters.
+description: The GetDescriptor method returns the USB hub descriptor as specified by the input parameters.
 ms.assetid: 0090da35-0de1-4ea5-b983-bd9bf9997009
 ms.tgt_platform: multiple
 title: GetDescriptor method of the CIM_USBHub class (Wmcodecdsp.h)
@@ -25,7 +25,7 @@ The **GetDescriptor** method returns the USB hub descriptor as specified by the 
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -97,7 +97,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -119,9 +119,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

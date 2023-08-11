@@ -1,5 +1,5 @@
 ---
-Description: Used in the QueryGuestClusterInformation method in the Msvm\_VssService class to retrieve information about the guest cluster the VM is part of.
+description: Used in the QueryGuestClusterInformation method in the Msvm\_VssService class to retrieve information about the guest cluster the VM is part of.
 ms.assetid: c484b38d-9137-44da-a368-a2a673b94ef8
 title: Msvm_GuestClusterInformation class
 ms.topic: reference
@@ -95,7 +95,7 @@ Data type: **boolean** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed")
+Qualifiers: [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed")
 </dt> </dl>
 
 An array of booleans corresponding to each shared virtual hard disk indicating if the corresponding disk resource in the guest cluster is shared between VMs in active/active mode.
@@ -111,7 +111,7 @@ Data type: **boolean** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed")
+Qualifiers: [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed")
 </dt> </dl>
 
 An array of booleans corresponding to each shared virtual hard disk indicating if the corresponding disk is a cluster resource in the guest cluster.
@@ -127,7 +127,7 @@ Data type: **boolean** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed")
+Qualifiers: [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed")
 </dt> </dl>
 
 An array of booleans corresponding to each shared virtual hard disk indicating if the corresponding disk resource in the guest cluster is online.
@@ -143,7 +143,7 @@ Data type: **boolean** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed")
+Qualifiers: [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed")
 </dt> </dl>
 
 An array of booleans corresponding to each shared virtual hard disk indicating if the corresponding disk resource in the guest cluster is currenly owned by this VM.
@@ -177,7 +177,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed")
+Qualifiers: [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed")
 </dt> </dl>
 
 An array of shared virtual hard disk paths connected to the VM.
@@ -193,7 +193,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed")
+Qualifiers: [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed")
 </dt> </dl>
 
 An array of Resource Allocation Setting Data (RASD) representing the shared virtual hard disks connected to the VM.
@@ -204,7 +204,7 @@ An array of Resource Allocation Setting Data (RASD) representing the shared virt
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -215,9 +215,4 @@ An array of Resource Allocation Setting Data (RASD) representing the shared virt
 
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SystemResources association WMI class relates a system resource and the computer system it resides on.
+description: The Win32\_SystemResources association WMI class relates a system resource and the computer system it resides on.
 ms.assetid: 90bff0b0-7c1d-44bf-b67e-aefeaa4b4a83
 ms.tgt_platform: multiple
 title: Win32_SystemResources class
@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_SystemResources class
 
-The **Win32\_SystemResources** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) relates a system resource and the computer system it resides on.
+The **Win32\_SystemResources** association [WMI class](../wmisdk/retrieving-a-class.md) relates a system resource and the computer system it resides on.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_ComputerSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("GroupComponent"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_ComputerSystem")
+Qualifiers: [**key**](../wmisdk/key-qualifier.md), [**Override**](../wmisdk/standard-qualifiers.md) ("GroupComponent"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI\|Win32\_ComputerSystem")
 </dt> </dl>
 
 Reference to the instance representing the computer system where the resource is located.
@@ -72,7 +72,7 @@ Data type: **CIM\_SystemResource**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("PartComponent"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("CIM\|CIM\_SystemResource")
+Qualifiers: [**key**](../wmisdk/key-qualifier.md), [**Override**](../wmisdk/standard-qualifiers.md) ("PartComponent"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("CIM\|CIM\_SystemResource")
 </dt> </dl>
 
 Reference to the instance representing the resource (such as I/O services and memory resources) available on the computer system.
@@ -87,7 +87,7 @@ The **Win32\_SystemResources** class is derived from [**CIM\_ComputerSystemResou
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -104,13 +104,9 @@ The **Win32\_SystemResources** class is derived from [**CIM\_ComputerSystemResou
 [**CIM\_ComputerSystemResource**](cim-computersystemresource.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](./operating-system-classes.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

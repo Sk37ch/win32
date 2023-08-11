@@ -1,5 +1,5 @@
 ---
-Description: Notifies an appbar when an event has occurred that may affect the appbar's size and position.
+description: Notifies an appbar when an event has occurred that may affect the appbar's size and position.
 ms.assetid: 1016a362-4d2b-410e-aec9-c1cc8f497778
 title: ABN_POSCHANGED message (Shellapi.h)
 ms.topic: reference
@@ -27,13 +27,13 @@ No return value.
 
 ## Remarks
 
-An appbar should respond to this notification message by sending the [**ABM\_QUERYPOS**](abm-querypos.md) and [**ABM\_SETPOS**](abm-setpos.md) messages. If its position has changed, the appbar should call the [**MoveWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-movewindow) function to move itself to the new position.
+An appbar should respond to this notification message by sending the [**ABM\_QUERYPOS**](abm-querypos.md) and [**ABM\_SETPOS**](abm-setpos.md) messages. If its position has changed, the appbar should call the [**MoveWindow**](/windows/desktop/api/winuser/nf-winuser-movewindow) function to move itself to the new position.
 
 ## Requirements
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
@@ -42,9 +42,4 @@ An appbar should respond to this notification message by sending the [**ABM\_QUE
 
 
  
-
- 
-
-
-
 

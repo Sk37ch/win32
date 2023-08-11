@@ -1,5 +1,5 @@
 ---
-Description: To prevent name collisions among properties created by different objects, the shared property manager (SPM) uses shared property groups.
+description: To prevent name collisions among properties created by different objects, the shared property manager (SPM) uses shared property groups.
 ms.assetid: f73d631e-2552-4358-903a-739e2df3657d
 title: Shared Property Groups
 ms.topic: article
@@ -12,11 +12,11 @@ To prevent name collisions among properties created by different objects, the sh
 
 The SPM object model is shown in the following illustration.
 
-![](images/1df31cd9-2fc4-48d3-ae68-cae38afb75a6.png)
+![Diagram that shows the SPM object model: ISharedPropertyGroupManager, ISharedPropertyGroup, to ISharedProperty.](images/1df31cd9-2fc4-48d3-ae68-cae38afb75a6.png)
 
 The following are interfaces of the shared property manager:
 
--   [**ISharedPropertyGroupManager**](/windows/desktop/api/ComSvcs/nn-comsvcs-isharedpropertygroupmanager) is used to create shared property groups and to obtain access to existing shared property groups. You can access the **ISharedPropertyGroupManager** interface by creating an instance of the [**SharedPropertyGroupManager**](sharedpropertygroupmanager.md) object by using either [**IObjectContext::CreateInstance**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-createinstance) or [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).
+-   [**ISharedPropertyGroupManager**](/windows/desktop/api/ComSvcs/nn-comsvcs-isharedpropertygroupmanager) is used to create shared property groups and to obtain access to existing shared property groups. You can access the **ISharedPropertyGroupManager** interface by creating an instance of the [**SharedPropertyGroupManager**](sharedpropertygroupmanager.md) object by using either [**IObjectContext::CreateInstance**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-createinstance) or [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).
 
 -   [**ISharedPropertyGroup**](/windows/desktop/api/ComSvcs/nn-comsvcs-isharedpropertygroup) is used to create and access the shared properties in a shared property group. You can access the **ISharedPropertyGroup** interface by creating a [**SharedPropertyGroup**](sharedpropertygroup.md) object with the [**ISharedPropertyGroupManager::CreatePropertyGroup**](/windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroupmanager-createpropertygroup) method. As with any COM object, you must release a **SharedPropertyGroup** object when you have finished using it.
 
@@ -32,6 +32,3 @@ The following are interfaces of the shared property manager:
  
 
  
-
-
-

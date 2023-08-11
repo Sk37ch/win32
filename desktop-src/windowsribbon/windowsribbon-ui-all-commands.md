@@ -20,13 +20,13 @@ Specifies a constant that identifies the collection of Commands declared in the 
 
 ## Remarks
 
-**UI\_ALL\_COMMANDS** is useful when it is necessary to access similar properties across all Commands. For example, **UI\_ALL\_COMMANDS** can be passed to [**IUIFramework::InvalidateUICommand**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand) to invalidate and refresh all Ribbon Commands by querying the host application for new property values.
+**UI\_ALL\_COMMANDS** is useful when it is necessary to access similar properties across all Commands. For example, **UI\_ALL\_COMMANDS** can be passed to [**IUIFramework::InvalidateUICommand**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand) to invalidate and refresh all Ribbon Commands by querying the host application for new property values.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps only\]<br/> |
@@ -43,10 +43,4 @@ Specifies a constant that identifies the collection of Commands declared in the 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

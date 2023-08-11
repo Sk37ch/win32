@@ -1,5 +1,5 @@
 ---
-Description: Makes the specified file (EF or DF) not valid. A file that is not valid cannot be accessed by other methods prior to using Rehabilitate.
+description: Makes the specified file (EF or DF) not valid. A file that is not valid cannot be accessed by other methods prior to using Rehabilitate.
 ms.assetid: 5600fcf0-091c-437e-a45c-4de5b0a47d68
 title: ISCardFileAccess::Invalidate method
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 
 # ISCardFileAccess::Invalidate method
 
-\[The **Invalidate** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **Invalidate** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
 The **Invalidate** method makes the specified file (EF or DF) not valid. A file that is not valid cannot be accessed by other methods prior to using [**Rehabilitate**](iscardfileaccess-rehabilitate.md).
 
@@ -74,13 +74,13 @@ The method returns one of the following possible values.
 
 For a list of all the methods defined by this interface, see [**ISCardFileAccess**](iscardfileaccess.md).
 
-In addition to the COM error codes listed above, this interface may return a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md).
+In addition to the COM error codes listed above, this interface may return a [*smart card*](../secgloss/s-gly.md) error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md).
 
 ## Requirements
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
@@ -102,7 +102,3 @@ In addition to the COM error codes listed above, this interface may return a [*s
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Audio-Tapered Volume Controls
+description: Audio-Tapered Volume Controls
 ms.assetid: 3b1adef5-40e9-4527-aa79-5a71f201fdfc
 title: Audio-Tapered Volume Controls
 ms.topic: article
@@ -60,7 +60,7 @@ The following interfaces use linear-tapered curves for their volume settings:
 -   [**IChannelAudioVolume**](/windows/desktop/api/Audioclient/nn-audioclient-ichannelaudiovolume)
 -   [**IAudioStreamVolume**](/windows/desktop/api/Audioclient/nn-audioclient-iaudiostreamvolume)
 
-For more information about these interfaces, see [Session Volume Controls](session-volume-controls.md). And for information about the volume ranges and the default volume levels in the various versions of Windows, see [Default Audio Volume Settings](https://docs.microsoft.com/windows-hardware/drivers/audio/default-audio-volume-settings).
+For more information about these interfaces, see [Session Volume Controls](session-volume-controls.md). And for information about the volume ranges and the default volume levels in the various versions of Windows, see [Default Audio Volume Settings](/windows-hardware/drivers/audio/default-audio-volume-settings).
 
 ## Related topics
 
@@ -72,6 +72,3 @@ For more information about these interfaces, see [Session Volume Controls](sessi
  
 
  
-
-
-

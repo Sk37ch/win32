@@ -1,12 +1,15 @@
 ---
-Description: Step 3 Implement the Frame-Grabbing Function
+description: Step 3 Implement the Frame-Grabbing Function
 ms.assetid: 4ec2e4a4-3ab0-45f1-b29a-313599fe9e7d
 title: Step 3 Implement the Frame-Grabbing Function
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Step 3: Implement the Frame-Grabbing Function
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 \[This API is not supported and may be altered or unavailable in the future.\]
 
@@ -19,7 +22,7 @@ The next step is to implement the GetBitmap function, which uses the Media Detec
 3.  Examine each stream in the file. If it is a video stream, get the native dimensions of the video.
 4.  Obtain a poster frame, specifying the seek time and the target dimension.
 
-Create the Media Detector object by calling [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx):
+Create the Media Detector object by calling [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance):
 
 
 ```C++
@@ -222,6 +225,3 @@ Next: [Step 4: Draw the Bitmap on the Client Area](step-4--draw-the-bitmap-on-th
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.ExposureTime property.
+description: The photo metadata policy for the System.Photo.ExposureTime property.
 ms.assetid: 26f6ff27-b326-46f8-b4be-b091acbec575
 title: System.Photo.ExposureTime Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.ExposureTime Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.ExposureTime](https://msdn.microsoft.com/library/bb760438(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.ExposureTime](../properties/props-system-photo-exposuretime.md) property.
 
 ### PKEY
 
@@ -118,12 +118,9 @@ This value is generated from System.Photo.ExposureTimeNumerator and System.Photo
 
 <dl> <dt>
 
-[System.Photo.ExposureTime](https://msdn.microsoft.com/library/bb760438(VS.85).aspx)
+[System.Photo.ExposureTime](../properties/props-system-photo-exposuretime.md)
 </dt> </dl>
 
  
 
  
-
-
-

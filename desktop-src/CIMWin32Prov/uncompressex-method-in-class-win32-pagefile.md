@@ -1,5 +1,5 @@
 ---
-Description: Uncompresses the logical paging file (or directory) specified in the object path. This method is an extended version of the Uncompress method.
+description: Uncompresses the logical paging file (or directory) specified in the object path. This method is an extended version of the Uncompress method.
 ms.assetid: d4cfa42e-7f05-4d12-b629-14195fc04e77
 ms.tgt_platform: multiple
 title: UncompressEx method of the Win32_PageFile class
@@ -18,9 +18,9 @@ api_location:
 
 # UncompressEx method of the Win32\_PageFile class
 
-The **UncompressEx** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method uncompresses the logical paging file (or directory) specified in the object path. This method is an extended version of the [**Uncompress**](uncompress-method-in-class-win32-directory.md) method.
+The **UncompressEx** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method uncompresses the logical paging file (or directory) specified in the object path. This method is an extended version of the [**Uncompress**](uncompress-method-in-class-win32-directory.md) method.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -166,7 +166,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -180,16 +180,11 @@ A parameter specified is not valid.
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_PageFile**](win32-pagefile.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

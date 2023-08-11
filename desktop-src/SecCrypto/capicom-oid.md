@@ -1,5 +1,5 @@
 ---
-Description: Provides the names for CAPICOM object identifiers.
+description: Provides the names for CAPICOM object identifiers.
 ms.assetid: 6c1eb2cc-84ac-4920-99ba-56ac8de4a851
 title: CAPICOM_OID enumeration (Capicom.h)
 ms.topic: reference
@@ -64,8 +64,8 @@ This enumeration is used by the [**OID.Name**](oid-name.md) property.
 | **CAPICOM\_OID\_TIME\_STAMPING\_EKU**                         | The object is an [**EKU**](eku.md) object that specifies that the certificate can be used for time stamping.<br/>                                                                                                                       | 107   |
 | **CAPICOM\_OID\_CTL\_USAGE\_SIGNING\_EKU**                    | The object is an [**EKU**](eku.md) object that specifies that the certificate can be used to sign the certificate trust list (CTL).<br/>                                                                                                | 108   |
 | **CAPICOM\_OID\_TIME\_STAMP\_SIGNING\_EKU**                   | The object is an [**EKU**](eku.md) object that specifies that the certificate can be used to sign a time stamp.<br/>                                                                                                                    | 109   |
-| **CAPICOM\_OID\_SERVER\_GATED\_CRYPTO\_EKU**                  | The object is an [**EKU**](eku.md) object that specifies that the certificate can be used for [*server-gated cryptography*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SGC).<br/> | 110   |
-| **CAPICOM\_OID\_ENCRYPTING\_FILE\_SYSTEM\_EKU**               | The object is an [**EKU**](eku.md) object that specifies that the certificate can be used for the [*Encrypting File System*](https://msdn.microsoft.com/library/ms721575(v=VS.85).aspx) (EFS).<br/>      | 111   |
+| **CAPICOM\_OID\_SERVER\_GATED\_CRYPTO\_EKU**                  | The object is an [**EKU**](eku.md) object that specifies that the certificate can be used for [*server-gated cryptography*](../secgloss/s-gly.md) (SGC).<br/> | 110   |
+| **CAPICOM\_OID\_ENCRYPTING\_FILE\_SYSTEM\_EKU**               | The object is an [**EKU**](eku.md) object that specifies that the certificate can be used for the [*Encrypting File System*](../secgloss/e-gly.md) (EFS).<br/>      | 111   |
 | **CAPICOM\_OID\_EFS\_RECOVERY\_EKU**                          | The object is an [**EKU**](eku.md) object that specifies that the certificate can be used for recovery of the EFS.<br/>                                                                                                                 | 112   |
 | **CAPICOM\_OID\_WHQL\_CRYPTO\_EKU**                           | The object is an [**EKU**](eku.md) object that specifies that the certificate can be used for Windows Hardware Quality Labs (WHQL) cryptography.<br/>                                                                                   | 113   |
 | **CAPICOM\_OID\_NT5\_CRYPTO\_EKU**                            | The object is an [**EKU**](eku.md) object that specifies that the certificate can be used for Windows Server 2003 and Windows XP cryptography.<br/>                                                                                     | 114   |
@@ -87,7 +87,7 @@ This enumeration is used by the [**OID.Name**](oid-name.md) property.
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |
@@ -97,7 +97,3 @@ This enumeration is used by the [**OID.Name**](oid-name.md) property.
  
 
  
-
-
-
-

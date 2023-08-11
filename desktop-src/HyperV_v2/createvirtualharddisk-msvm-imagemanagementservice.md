@@ -1,5 +1,5 @@
 ---
-Description: Creates a virtual hard disk file.
+description: Creates a virtual hard disk file.
 ms.assetid: 6c136000-1df2-4456-833c-094671408338
 title: CreateVirtualHardDisk method of the Msvm_ImageManagementService class
 ms.topic: reference
@@ -99,13 +99,13 @@ This method returns one of the following values.
 
 ## Remarks
 
-Access to the [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -123,9 +123,4 @@ Access to the [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

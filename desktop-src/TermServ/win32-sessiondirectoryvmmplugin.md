@@ -101,7 +101,7 @@ Data type: **sint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The priority of the plug-in. The higher the value, the higher the priority of the plug-in. The priority is zero by default.
@@ -164,7 +164,7 @@ The service location that the plug-in should contact.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
@@ -175,10 +175,4 @@ The service location that the plug-in should contact.
 
 
  
-
- 
-
-
-
-
 

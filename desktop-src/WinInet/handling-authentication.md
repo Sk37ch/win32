@@ -16,7 +16,7 @@ If authentication is required, the client application receives a status code 401
 
 Each authenticate response header contains an available authentication scheme and a realm. If multiple authentication schemes are supported, the server returns multiple authenticate response headers. The realm value is case-sensitive and defines a protection space on the proxy or server. For example, the header "WWW-Authenticate: Basic Realm="example"" would be an example of a header returned when server authentication is required.
 
-The client application that sent the request can authenticate itself by including an Authorization header field with the request. The Authorization header would contain the authentication scheme and the appropriate response required by that scheme. For example, the header "Authorization: Basic <username:password>" would be added to the request and re-sent to the server if the client received the authenticate response header "WWW-Authenticate: Basic Realm="example"".
+The client application that sent the request can authenticate itself by including an Authorization header field with the request. The Authorization header would contain the authentication scheme and the appropriate response required by that scheme. For example, the header "Authorization: Basic \<username:password>" would be added to the request and re-sent to the server if the client received the authenticate response header "WWW-Authenticate: Basic Realm="example"".
 
 There are two general types of authentication schemes:
 
@@ -38,7 +38,7 @@ The following table lists authentication schemes, the authentication type, the D
 | NT LAN Manager (NTLM)                     | challenge-response | Winsspi.dll          | A challenge-response scheme that bases the challenge on the user name.                                                                                                                                                                                                                                                                             |
 | Microsoft Network (MSN)                   | challenge-response | Msnsspc.dll          | The Microsoft Network's authentication scheme.                                                                                                                                                                                                                                                                                                     |
 | Distributed Password Authentication (DPA) | challenge-response | Msapsspc.dll         | Similar to MSN authentication and is also used by the Microsoft Network.                                                                                                                                                                                                                                                                           |
-| Remote Passphrase Authentication (RPA)    | CompuServe         | Rpawinet.dll, da.dll | CompuServe authentication scheme. For more information, see the [RPA Mechanism Specifications](http://www.compuserve.com/rpa/rpa1.htm).                                                                                                                                                                                                    |
+| Remote Passphrase Authentication (RPA)    | CompuServe         | Rpawinet.dll, da.dll | CompuServe authentication scheme. For more information, see the [RPA Mechanism Specifications](https://www.compuserve.com/).                                                                                                                                                                                                    |
 
 
 
@@ -237,14 +237,10 @@ switch (dwStatus)
 
 
 > [!Note]  
-> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 
  
 
  
-
-
-
-

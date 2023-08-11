@@ -1,5 +1,5 @@
 ---
-Description: Video auxiliary (VAUX) source control pack in a digital video (DV) media type.
+description: Video auxiliary (VAUX) source control pack in a digital video (DV) media type.
 ms.assetid: 14098435-5033-489c-908f-cbb814a0349c
 title: MF_MT_DV_VAUX_CTRL_PACK attribute (Mfapi.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ Video auxiliary (VAUX) source control pack in a digital video (DV) media type.
 
 ## Remarks
 
-This attribute corresponds to the **dwDVVAuxCtl** member of the DirectShow [**DVINFO**](https://msdn.microsoft.com/library/Dd388639(v=VS.85).aspx) structure.
+This attribute corresponds to the **dwDVVAuxCtl** member of the DirectShow [**DVINFO**](/windows/win32/api/strmif/ns-strmif-dvinfo) structure.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -24,7 +24,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |
@@ -54,7 +54,3 @@ The GUID constant for this attribute is exported from mfuuid.lib.
  
 
  
-
-
-
-

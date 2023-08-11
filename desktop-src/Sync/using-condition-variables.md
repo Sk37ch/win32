@@ -1,5 +1,5 @@
 ---
-Description: The following code implements a producer/consumer queue.
+description: The following code implements a producer/consumer queue.
 ms.assetid: 0f79de15-6ce9-4d89-afb5-b4a2f0cf2fe3
 title: Using Condition Variables
 ms.topic: article
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following code implements a producer/consumer queue. The queue is represented as a bounded circular buffer, and is protected by a critical section. The code uses two condition variables: one used by producers (`BufferNotFull`) and one used by consumers (`BufferNotEmpty`).
 
-The code calls the [**InitializeConditionVariable**](https://msdn.microsoft.com/library/ms683469(v=VS.85).aspx) function to create the condition variables. The consumer threads call the [**SleepConditionVariableCS**](https://msdn.microsoft.com/library/ms686301(v=VS.85).aspx) function to wait for items to be added to the queue and the [**WakeConditionVariable**](https://msdn.microsoft.com/library/ms687080(v=VS.85).aspx) function to signal the producer that it is ready for more items. The producer threads call **SleepConditionVariableCS** to wait for the consumer to remove items from the queue and **WakeConditionVariable** to signal the consumer that there are more items in the queue.
+The code calls the [**InitializeConditionVariable**](/windows/win32/api/synchapi/nf-synchapi-initializeconditionvariable) function to create the condition variables. The consumer threads call the [**SleepConditionVariableCS**](/windows/win32/api/synchapi/nf-synchapi-sleepconditionvariablecs) function to wait for items to be added to the queue and the [**WakeConditionVariable**](/windows/win32/api/synchapi/nf-synchapi-wakeconditionvariable) function to signal the producer that it is ready for more items. The producer threads call **SleepConditionVariableCS** to wait for the consumer to remove items from the queue and **WakeConditionVariable** to signal the consumer that there are more items in the queue.
 
 **Windows Server 2003 and Windows XP:** Condition variables are not supported.
 
@@ -178,6 +178,3 @@ int main ( void )
  
 
  
-
-
-

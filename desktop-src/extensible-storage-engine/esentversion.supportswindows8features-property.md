@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersion.SupportsWindows8Features property"
 title: EsentVersion.SupportsWindows8Features property 
 TOCTitle: 'SupportsWindows8Features property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentVersion.SupportsWindows8Features
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets a value that indicates whether the current version of ESENT supports features available in the Windows 8 version of ESENT.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,15 +53,14 @@ public static bool SupportsWindows8Features { get; }
 
 #### Property value
 
-Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
+Type: [System.Boolean](/dotnet/api/system.boolean)  
 
 ## See also
 
 #### Reference
 
-[EsentVersion class](dn335007\(v=exchg.10\).md)
+[EsentVersion class](./esentversion-class.md)
 
-[EsentVersion members](dn350854\(v=exchg.10\).md)
+[EsentVersion members](./esentversion-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

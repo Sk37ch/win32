@@ -1,18 +1,18 @@
 ---
-Description: .
+description: Application Verifier (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
 ms.assetid: edf719b7-9bd9-4e23-9bba-d0d7c3c5dbf5
 title: Application Verifier (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Application Verifier
+# Application Verifier (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
 
 ## Affected Platforms
 
-<dl> **Clients** - Windows XP \| Windows Vista \| Windows 7  
-**Servers** - Windows Server 2003 \| Windows Server 2008 \| Windows Server 2008 R2  
-</dl>
+**Clients** - Windows XP, Windows Vista, Windows 7  
+**Servers** - Windows Server 2003, Windows Server 2008, Windows Server 2008 R2  
+
 
 ## Description
 
@@ -114,25 +114,21 @@ One further note: Application Verifier is only as good as the code paths you run
 **Debugging Tools for Windows:**
 
 -   [Overview and download site](https://msdn.microsoft.com/windows/hardware/bg127145)
--   [MSDN online documentation](https://msdn.microsoft.com/library/Ff551063(v=VS.85).aspx)
+-   [MSDN online documentation](/windows-hardware/drivers/debugger/)
 
 **Application Verifier:**
 
--   [Overview](https://msdn.microsoft.com/library/ms220948(v=VS.80).aspx)
+-   [Overview](/previous-versions/ms220948(v=vs.80))
 -   [Download](https://www.microsoft.com/downloads/details.aspx?FamilyID=c4a25ab9-649d-4a1b-b4a7-c9d8b095df18&amp;DisplayLang=en)
--   [Application Verifier for Microsoft Visual Studio 2008/.NET Framework 3.5](https://msdn.microsoft.com/library/ms220948(v=VS.80).aspx)
+-   [Application Verifier for Microsoft Visual Studio 2008/.NET Framework 3.5](/previous-versions/ms220948(v=vs.80))
 
     **Note:** the Application Verifier version that ships in Visual Studio is quite dated. If possible, use the standalone package instead. For this reason, future versions of Visual Studio will no longer have embedded Application Verifier.
 
 **WinQual:**
 
--   [Windows Quality Online Services (Winqual)](https://go.microsoft.com/fwlink/p/?linkid=92793)
--   [Windows Error Reporting: Getting Started](https://docs.microsoft.com/windows/win32/wer/using-wer)
+-   [Create a WLK hardware submission package - Winqual tool](/windows-hardware/drivers/dashboard/hardware-submission-wlk)
+-   [Windows Error Reporting: Getting Started](../wer/using-wer.md)
 
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Saves analysis results for a specific context node collection associated with an IInkAnalyzer.
+description: Saves analysis results for a specific context node collection associated with an IInkAnalyzer.
 ms.assetid: 671bdb11-6e30-4254-b320-208face1f593
 title: IInkAnalyzer::SaveResultsForNodes method (IACom.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) on \**ppbSerializedData* when you no longer need the information.
+> To avoid a memory leak, call [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) on \**ppbSerializedData* when you no longer need the information.
 
  
 
@@ -76,7 +76,7 @@ If the [**IContextNode**](icontextnode.md) object to be saved is only partially 
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -108,9 +108,4 @@ If the [**IContextNode**](icontextnode.md) object to be saved is only partially 
 </dt> </dl>
 
  
-
- 
-
-
-
 

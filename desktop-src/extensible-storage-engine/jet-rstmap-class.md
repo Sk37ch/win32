@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTMAP class"
 title: JET_RSTMAP class
 TOCTitle: JET_RSTMAP class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_RSTMAP
@@ -32,10 +33,10 @@ Enables the remapping of database file paths that are stored in the transaction 
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.JET_RSTMAP  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,7 +64,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_RSTMAP members](dn335249\(v=exchg.10\).md)
+[JET_RSTMAP members](./jet-rstmap-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

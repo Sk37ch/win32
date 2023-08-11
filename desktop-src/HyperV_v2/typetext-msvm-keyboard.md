@@ -1,5 +1,5 @@
 ---
-Description: Simulates a series of typed characters.
+description: Simulates a series of typed characters.
 ms.assetid: 5D4C9F27-84AA-4131-A9A3-2C72DB2E8909
 title: TypeText method of the Msvm_Keyboard class
 ms.topic: reference
@@ -103,7 +103,7 @@ A return value of zero indicates success. A return value of one indicates a fail
 
 ## Remarks
 
-Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Examples
 
@@ -321,7 +321,7 @@ End Function
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -339,9 +339,4 @@ End Function
 </dt> </dl>
 
  
-
- 
-
-
-
 

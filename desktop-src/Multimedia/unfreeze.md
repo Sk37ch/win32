@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 The unfreeze command reenables video acquisition to the frame buffer after it has been disabled by the [freeze](freeze.md) command. Digital-video, VCR, and video-overlay devices recognize this command.
 
-To send this command, call the [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -97,7 +97,7 @@ unfreeze vboard at 10 20 90 165
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
@@ -118,10 +118,4 @@ unfreeze vboard at 10 20 90 165
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

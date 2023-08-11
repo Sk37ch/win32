@@ -1,5 +1,5 @@
 ---
-Description: The Initialize method prepares the IByteBuffer object for use. This method must be called prior to calling any other methods in the IByteBuffer interface.
+description: The Initialize method prepares the IByteBuffer object for use. This method must be called prior to calling any other methods in the IByteBuffer interface.
 ms.assetid: 1b22e693-0add-4b80-a2c4-925ebd3ab3a6
 title: IByteBuffer::Initialize method (Scardssp.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # IByteBuffer::Initialize method
 
-\[The **Initialize** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later. The [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) interface provides similar functionality.\]
+\[The **Initialize** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later. The [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) interface provides similar functionality.\]
 
 The **Initialize** method prepares the [**IByteBuffer**](ibytebuffer.md) object for use. This method must be called prior to calling any other methods in the **IByteBuffer** interface.
 
@@ -80,7 +80,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -94,9 +94,4 @@ if (FAILED(hr))
 
 
  
-
- 
-
-
-
 

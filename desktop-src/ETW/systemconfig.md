@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for hardware configuration events. The following syntax is simplified from MOF code.
+description: SystemConfig class - This class is the parent class for hardware configuration events. The following syntax is simplified from MOF code.
 ms.assetid: 720c2366-bd68-4895-bfaf-74aa9b64ba4a
 title: SystemConfig class
 ms.topic: reference
@@ -39,7 +39,7 @@ These events provide the hardware configuration of the computer. Unlike other NT
 
 For hardware configuration events on Windows XP, see the [HWConfig](hwconfig.md) class.
 
-Event trace consumers can implement special processing for hardware configuration events by calling the [**SetTraceCallback**](settracecallback.md) function and specifying [**EventTraceConfigGuid**](nt-kernel-logger-constants.md) as the *pGuid* parameter. Use the following event types to identify the actual hardware configuration event when consuming events.
+Event trace consumers can implement special processing for hardware configuration events by calling the [**SetTraceCallback**](/windows/win32/api/evntrace/nf-evntrace-settracecallback) function and specifying [**EventTraceConfigGuid**](nt-kernel-logger-constants.md) as the *pGuid* parameter. Use the following event types to identify the actual hardware configuration event when consuming events.
 
 
 
@@ -65,7 +65,7 @@ Event trace consumers can implement special processing for hardware configuratio
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
@@ -118,7 +118,3 @@ Event trace consumers can implement special processing for hardware configuratio
  
 
  
-
-
-
-

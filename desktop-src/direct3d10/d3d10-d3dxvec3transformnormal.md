@@ -1,21 +1,24 @@
 ---
-Description: Transforms the 3D vector normal by the given matrix.
+description: D3DXVec3TransformNormal function (D3DX10Math.h) - Transforms the 3D vector normal by the given matrix.
 ms.assetid: 8068b80f-6222-4f23-8b1c-2ff5592fa898
 title: D3DXVec3TransformNormal function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec3TransformNormal
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3DX10Math.h
 ---
 
-# D3DXVec3TransformNormal function
+# D3DXVec3TransformNormal function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Transforms the 3D vector normal by the given matrix.
 
@@ -39,7 +42,7 @@ D3DXVECTOR3* D3DXVec3TransformNormal(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to the [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that is the result of the operation.
 
@@ -48,7 +51,7 @@ Pointer to the [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that is the result of the
 *pV* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to the source D3DXVECTOR3 structure.
 
@@ -57,7 +60,7 @@ Pointer to the source D3DXVECTOR3 structure.
 *pM* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **const [**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure.
 
@@ -65,7 +68,7 @@ Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure.
 
 ## Return value
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to a D3DXVECTOR3 structure that is the transformed vector.
 
@@ -81,7 +84,7 @@ The return value for this function is the same value returned in the pOut parame
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 
@@ -97,7 +100,3 @@ The return value for this function is the same value returned in the pOut parame
  
 
  
-
-
-
-

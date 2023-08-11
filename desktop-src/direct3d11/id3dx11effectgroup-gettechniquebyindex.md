@@ -1,6 +1,6 @@
 ---
 title: ID3DX11EffectGroup GetTechniqueByIndex method (D3dx11effect.h)
-description: Get a technique by index.
+description: Get a technique by index. | ID3DX11EffectGroup GetTechniqueByIndex method (D3dx11effect.h)
 ms.assetid: b0962957-20d1-4ec6-9f8e-acc7a62c5f4e
 keywords:
 - GetTechniqueByIndex method Direct3D 11
@@ -41,7 +41,7 @@ ID3DX11EffectTechnique* GetTechniqueByIndex(
 *Index* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 A zero-based index.
 
@@ -64,7 +64,7 @@ A pointer to an [**ID3DX11EffectTechnique**](id3dx11effecttechnique.md).
 
 
 
-|                    |                                                                                                                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
 | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |
@@ -79,10 +79,4 @@ A pointer to an [**ID3DX11EffectTechnique**](id3dx11effecttechnique.md).
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

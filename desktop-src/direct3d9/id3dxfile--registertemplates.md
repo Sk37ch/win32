@@ -1,5 +1,5 @@
 ---
-Description: Registers custom templates.
+description: Registers custom templates.
 ms.assetid: e142a0f2-d0ef-4479-82cd-ba8d5059d1d2
 title: ID3DXFile::RegisterTemplates method (D3DX9Xof.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT RegisterTemplates(
 *pvData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](../winprog/windows-data-types.md)**
 
 Pointer to a buffer consisting of a .x file in text or binary format that contains templates.
 
@@ -48,7 +48,7 @@ Pointer to a buffer consisting of a .x file in text or binary format that contai
 *cbSize* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**SIZE\_T**](../winprog/windows-data-types.md)**
 
 Size of the buffer pointed to by pvData, in bytes.
 
@@ -114,7 +114,7 @@ This method calls the [**RegisterEnumTemplates**](id3dxfile--registerenumtemplat
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |
@@ -134,7 +134,3 @@ This method calls the [**RegisterEnumTemplates**](id3dxfile--registerenumtemplat
  
 
  
-
-
-
-

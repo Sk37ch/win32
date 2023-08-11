@@ -1,5 +1,5 @@
 ---
-Description: You create a timer event by creating an instance of classes derived from the \_\_TimerInstruction class in any WMI namespace.
+description: You create a timer event by creating an instance of classes derived from the \_\_TimerInstruction class in any WMI namespace.
 ms.assetid: 3df2a75a-5231-40d7-ae9d-a7a735fbf316
 ms.tgt_platform: multiple
 title: Creating a Timer Event with __TimerInstruction
@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Creating a Timer Event with \_\_TimerInstruction
 
-You create a timer event by creating an instance of classes derived from the [**\_\_TimerInstruction**](--timerinstruction.md) class in any WMI namespace. WMI then generates the timer event at the appropriate time. If you miss a timer event due to computer downtime, WMI notifies you about the missed event. WMI supports timer events for backward compatibility and for scenarios where you must know how many events you have missed since the last delivered event. For most timer events, however, you should create an event filter for [**Win32\_LocalTime**](https://docs.microsoft.com/previous-versions/windows/desktop/wmitimepprov/win32-localtime) or [**Win32\_UTCTime**](https://docs.microsoft.com/previous-versions/windows/desktop/wmitimepprov/win32-utctime). For more information, see [Creating a Timer Event with Win32\_LocalTime or Win32\_UTCTime](creating-a-timer-event-with-win32-localtime-or-win32-utctime.md).
+You create a timer event by creating an instance of classes derived from the [**\_\_TimerInstruction**](--timerinstruction.md) class in any WMI namespace. WMI then generates the timer event at the appropriate time. If you miss a timer event due to computer downtime, WMI notifies you about the missed event. WMI supports timer events for backward compatibility and for scenarios where you must know how many events you have missed since the last delivered event. For most timer events, however, you should create an event filter for [**Win32\_LocalTime**](/previous-versions/windows/desktop/wmitimepprov/win32-localtime) or [**Win32\_UTCTime**](/previous-versions/windows/desktop/wmitimepprov/win32-utctime). For more information, see [Creating a Timer Event with Win32\_LocalTime or Win32\_UTCTime](creating-a-timer-event-with-win32-localtime-or-win32-utctime.md).
 
 The following procedure describes how to create and receive a timer event with \_\_TimerInstruction.
 
@@ -28,6 +28,3 @@ The following procedure describes how to create and receive a timer event with \
  
 
  
-
-
-

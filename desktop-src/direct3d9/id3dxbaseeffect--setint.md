@@ -1,5 +1,5 @@
 ---
-Description: Sets an integer.
+description: Sets an integer.
 ms.assetid: 1090d4a6-b4f5-4e15-a49f-e2724f1c3f95
 title: ID3DXBaseEffect::SetInt method (D3DX9Shader.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Unique identifier. See [Handles (Direct3D 9)](handles.md).
 *n* \[in\]
 </dt> <dd>
 
-Type: **[**INT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**INT**](../winprog/windows-data-types.md)**
 
 Integer value.
 
@@ -64,7 +64,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -84,7 +84,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

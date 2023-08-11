@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Comment property.
+description: The photo metadata policy for the System.Comment property.
 ms.assetid: 02a6ac18-ad69-4880-a267-8330d648c0d9
 title: System.Comment Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Comment Photo Metadata Policy
 
-The photo metadata policy for the [System.Comment](https://msdn.microsoft.com/library/bb760658(VS.85).aspx) property.
+The photo metadata policy for the [System.Comment](../properties/props-system-comment.md) property.
 
 ### PKEY
 
@@ -44,7 +44,7 @@ Values from different schemas are reconciled.
 |-------|-------------------------------------|----------------|
 | 1     | /app1/ifd/{ushort=40092}            | unicode\_bytes |
 | 2     | /app1/ifd/{ushort=37510}            | unicode        |
-| 3     | /xmp/<xmpalt>exif:UserComment | unicode        |
+| 3     | /xmp/&lt;xmpalt&gt;exif:UserComment | unicode        |
 
 
 
@@ -86,7 +86,7 @@ Values from different schemas are reconciled.
 |-------|-----------------------------------------|----------------|
 | 1     | /ifd/{ushort=40092}                     | unicode\_bytes |
 | 2     | /ifd/{ushort=37510}                     | unicode        |
-| 3     | /ifd/xmp/<xmpalt>exif:UserComment | unicode        |
+| 3     | /ifd/xmp/&lt;xmpalt&gt;exif:UserComment | unicode        |
 
 
 
@@ -124,12 +124,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Comment](https://msdn.microsoft.com/library/bb760658(VS.85).aspx)
+[System.Comment](../properties/props-system-comment.md)
 </dt> </dl>
 
  
 
  
-
-
-

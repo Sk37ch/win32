@@ -1,12 +1,15 @@
 ---
-Description: Using Windows Media in DirectShow
+description: Using Windows Media in DirectShow
 ms.assetid: 2fae0504-d1da-413a-80dd-de7818f506ef
 title: Using Windows Media in DirectShow
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Using Windows Media in DirectShow
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This section describes how to use DirectShow to play and write Advanced Systems Format (ASF) files. ASF files commonly contain audio and video content encoded using the Windows Media Audio and Video codecs. However, ASF can contain any type of data.
 
@@ -32,7 +35,7 @@ To get the latest version of QASF, always download the latest Windows Media Form
 
 In Windows XP Service Pack 1 and earlier, the default source filter for ASF files (.asf, .wmv, and .wma file extensions) is the obsolete [Windows Media Source Filter](windows-media-source-filter.md). This behavior was maintained to ensure backward compatibility with applications that used the Windows Media Player 6.4. New applications should use the newer versions of QASF, which make the WM ASF Reader filter the default filter for playing ASF files.
 
-For more information on the Windows Media suite of software development kits, see the [Audio and Video](https://msdn.microsoft.com/library/ee663260(VS.85).aspx) section of the MDSN Library.
+For more information on the Windows Media suite of software development kits, see the [Audio and Video](../audio-and-video.md) section of the MDSN Library.
 
 This article contains the following topics:
 
@@ -49,6 +52,3 @@ This article contains the following topics:
  
 
  
-
-
-

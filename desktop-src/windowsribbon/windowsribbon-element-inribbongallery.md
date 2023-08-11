@@ -44,10 +44,10 @@ Represents the [In-Ribbon Gallery](windowsribbon-controls-inribbongallery.md), a
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -164,7 +164,7 @@ Applies only to galleries where the value of the <em>Type</em> attribute is equa
 | [**CheckBox**](windowsribbon-element-checkbox.md)<br/>                                     | May occur one or more times<br/> <br/> |
 | [**InRibbonGallery.MenuGroups**](windowsribbon-element-inribbongallery-menugroups.md)<br/> | Must occur exactly once<br/> <br/>     |
 | [**InRibbonGallery.MenuLayout**](windowsribbon-element-inribbongallery-menulayout.md)<br/> | May occur at most once<br/> <br/>      |
-| [**Spinner**](windowsribbon-element-spinner.md)<br/>                                       | May occur one or more times<br/> <br/> |
+| [**Button**](windowsribbon-element-button.md)<br/>                                       | May occur one or more times<br/> <br/> |
 | [**SplitButton**](windowsribbon-element-splitbutton.md)<br/>                               | May occur one or more times<br/> <br/> |
 | [**ToggleButton**](windowsribbon-element-togglebutton.md)<br/>                             | May occur one or more times<br/> <br/> |
 
@@ -176,8 +176,8 @@ Applies only to galleries where the value of the <em>Type</em> attribute is equa
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -272,11 +272,8 @@ This section of code shows the **InRibbonGallery** control declarations.
 ## Element information
 
 
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
-| Can be empty                        | No        |
+* **Minimum supported system**: Windows 7
+* **Can be empty**: No
 
 
 

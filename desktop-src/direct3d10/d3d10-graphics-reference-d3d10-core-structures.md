@@ -1,5 +1,5 @@
 ---
-Description: 'This section contains information about the following core structures:'
+description: 'This section contains information about the following core structures:'
 ms.assetid: 84769515-3f3b-4464-9620-7b806bf905b3
 title: Direct3D 10 core structures
 ms.topic: article
@@ -53,7 +53,7 @@ typedef RECT D3D10_RECT;
 
 
 
-For documentation, see [RECT](https://msdn2.microsoft.com/en-us/library/ms536136.aspx).
+For documentation, see [RECT](/previous-versions//ms536136(v=vs.85)).
 
 ## Related topics
 
@@ -65,6 +65,3 @@ For documentation, see [RECT](https://msdn2.microsoft.com/en-us/library/ms536136
  
 
  
-
-
-

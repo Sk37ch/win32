@@ -40,13 +40,13 @@ Returns an **HPALETTE** that specifies the rebar control's previous palette.
 
 ## Remarks
 
-It is the responsibility of the application sending this message to delete the **HPALETTE** passed in this message (see [**DeleteObject**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject)). The rebar control will not delete an **HPALETTE** set with this message.
+It is the responsibility of the application sending this message to delete the **HPALETTE** passed in this message (see [**DeleteObject**](/windows/desktop/api/wingdi/nf-wingdi-deleteobject)). The rebar control will not delete an **HPALETTE** set with this message.
 
 ## Requirements
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -62,10 +62,4 @@ It is the responsibility of the application sending this message to delete the *
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

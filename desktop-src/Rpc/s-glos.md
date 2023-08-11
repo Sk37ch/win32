@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# S
+# S (RPC)
 
 [A](a-glos.md) [B](b-glos.md) [C](c-glos.md) [D](d-glos.md) [E](e-glos.md) [F](f-glos.md) G H [I](i-glos.md) J K [L](l-glos.md) [M](m-glos.md) [N](n-glos.md) [O](o-glos.md) [P](p-glos.md) [Q](q.md) [R](r-glos.md) S [T](t-glos.md) [U](u-glos.md) [V](v-glos.md) [W](w-glos.md) X Y Z
 
@@ -58,7 +58,7 @@ Established relationship between a client application and a server application. 
 <span id="_rpc_static_callback_function_glos"></span><span id="_RPC_STATIC_CALLBACK_FUNCTION_GLOS"></span>**static callback function**
 </dt> <dd>
 
-Remote procedure that is part of the client side of a distributed application, that a server can call to obtain information from the client. The \[ [callback](https://docs.microsoft.com/windows/desktop/Midl/callback)\] attribute designates a static callback function.
+Remote procedure that is part of the client side of a distributed application, that a server can call to obtain information from the client. The \[ [callback](/windows/desktop/Midl/callback)\] attribute designates a static callback function.
 
 </dd> <dt>
 
@@ -86,7 +86,3 @@ Compiler enforcement of strict control over data types. In MIDL and RPC, strong 
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: A superclass for miscellaneous control-related devices that provide a classic bus master interface.
+description: A superclass for miscellaneous control-related devices that provide a classic bus master interface.
 ms.assetid: eaa8711b-11e9-4f69-b81e-49a3c8a99fa7
 title: CIM_Controller class (Hyper-V management)
 ms.topic: reference
@@ -19,7 +19,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_Controller class
+# CIM_Controller class (Hyper-V management)
 
 A superclass for miscellaneous control-related devices that provide a classic bus master interface. The controller class is an abstraction for devices with a single protocol stack, and exist to control communications (data, control, and reset) to downstream devices.
 
@@ -57,7 +57,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Bus Port\|004.9")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Bus Port\|004.9")
 </dt> </dl>
 
 The maximum number of devices supported that can be managed by the controller. A "0" value indicates that the number is unknown or unlimited.
@@ -73,7 +73,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Bus Port\|004.3"), [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_Controller**.**ProtocolSupported**")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Bus Port\|004.3"), [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_Controller**.**ProtocolSupported**")
 </dt> </dl>
 
 A free-form string that provides more information that is related to the protocol supported by the controller.
@@ -89,7 +89,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Bus Port\|004.2", "MIF.DMTF\|Disks\|003.3"), [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_Controller**.**ProtocolDescription**")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Bus Port\|004.2", "MIF.DMTF\|Disks\|003.3"), [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_Controller**.**ProtocolDescription**")
 </dt> </dl>
 
 The protocol used by the controller to access controlled devices.
@@ -451,7 +451,7 @@ The last time when the controller was reset.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -469,9 +469,4 @@ The last time when the controller was reset.
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates how to use the IShellLibrary interface to create a command-line application that provides programmatic access for inspecting and manipulating libraries and library files.
+description: Demonstrates how to use the IShellLibrary interface to create a command-line application that provides programmatic access for inspecting and manipulating libraries and library files.
 title: Shell Library Command Line Sample
 ms.topic: article
 ms.date: 05/31/2018
@@ -40,20 +40,9 @@ For additional requirements, see the Readme file included with the sample.
 
 ## Downloading the Sample
 
-This sample is available in the following locations.
-
-
-
 | Location      | Path URL                                                                                             |
 |---------------|------------------------------------------------------------------------------------------------------|
-| Code Gallery  | [Windows Shell Application Samples on Code Gallery](https://code.msdn.microsoft.com/shellapplication) |
-| Windows 7 SDK | [Download Windows 7 SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)                            |
-
-
-
- 
-
-In the case of the Windows SDK, once you have downloaded and installed it, you will find the samples in the installed directory. For example, use of the default installation path for the Windows 7 SDK results in the samples being placed under `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\`.
+| GitHub  | [ShellLibraryCommandLine sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/appplatform/ShellLibraryCommandLine) |
 
 ## Building the Sample
 

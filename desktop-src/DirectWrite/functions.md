@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # DirectWrite functions
 
-DirectWrite provides the following function. All other operations are performed by using DirectWrite interface objects that are created by the [**IDWriteFactory**](https://msdn.microsoft.com/library/Dd368183(v=VS.85).aspx) object that is created with the function below.
+DirectWrite provides the following function. All other operations are performed by using DirectWrite interface objects that are created by the [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) object that is created with the function below.
 
 ## In this section
 
@@ -19,16 +19,4 @@ DirectWrite provides the following function. All other operations are performed 
 | Topic                                                         | Description                                                                                                             |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | [**DWriteCreateFactory**](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory)<br/> | Creates a DirectWrite factory object that is used for subsequent creation of individual DirectWrite objects.<br/> |
-
-
-
- 
-
- 
-
- 
-
-
-
-
-
+| [**DWriteCoreCreateFactory (DWriteCore)**](/windows/windows-app-sdk/api/win32/dwrite_core/nf-dwrite_core-dwritecorecreatefactory)<br/> | Creates a DirectWrite factory object that is used for subsequent creation of individual DWriteCore objects.<br/> |

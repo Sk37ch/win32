@@ -1,5 +1,5 @@
 ---
-Description: Video Samples
+description: Video Samples
 ms.assetid: 1ee2ad6f-5e84-45ba-9849-cd3bd8e7eb29
 title: Video Samples
 ms.topic: article
@@ -20,7 +20,7 @@ The video sample object implements the following interfaces:
 
 -   [**IMFDesiredSample**](/windows/desktop/api/evr/nn-evr-imfdesiredsample)
 
--   [**IMFTrackedSample**](https://msdn.microsoft.com/library/ms697026(v=VS.85).aspx)
+-   [**IMFTrackedSample**](/windows/win32/api/mfidl/nn-mfidl-imftrackedsample)
 
 If the *pUnkSurface* parameter of [**MFCreateVideoSampleFromSurface**](/windows/desktop/api/evr/nc-evr-mfcreatevideosamplefromsurface) is non-**NULL**, the resulting video sample contains a single media buffer that encapsulates the Direct3D surface. This buffer object has limited functionality:
 
@@ -53,6 +53,3 @@ Use this approach if you need the surface memory to be accessible through the [*
  
 
  
-
-
-

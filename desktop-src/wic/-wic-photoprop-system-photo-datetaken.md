@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.DateTaken property.
+description: The photo metadata policy for the System.Photo.DateTaken property.
 ms.assetid: 800aa01b-6064-45df-a40e-6537819df4d7
 title: System.Photo.DateTaken Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.DateTaken Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.DateTaken](https://msdn.microsoft.com/library/bb760410(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.DateTaken](../properties/props-system-photo-datetaken.md) property.
 
 ### PKEY
 
@@ -190,12 +190,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Photo.DateTaken](https://msdn.microsoft.com/library/bb760410(VS.85).aspx)
+[System.Photo.DateTaken](../properties/props-system-photo-datetaken.md)
 </dt> </dl>
 
  
 
  
-
-
-

@@ -1,6 +1,6 @@
 ---
 title: MENU resource
-description: Defines the contents of a menu resource.
+description: Defines the contents of a menu resource. | MENU resource
 ms.assetid: fcb420b6-d42e-4044-89ee-028eed1f21ee
 keywords:
 - MENU resource Menus and Other Resources
@@ -81,7 +81,7 @@ sample MENU
 
 <dl> <dt>
 
-[Using Menus](https://msdn.microsoft.com/library/ms647558(v=VS.85).aspx)
+[Using Menus](./using-menus.md)
 </dt> <dt>
 
 [**ACCELERATORS**](accelerators-resource.md)
@@ -114,7 +114,3 @@ sample MENU
  
 
  
-
-
-
-

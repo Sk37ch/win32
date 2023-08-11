@@ -1,5 +1,5 @@
 ---
-Description: XAudio2 is a cross-platform API that has shipped for use on Xbox 360 as well as versions of Windows, including Windows XP, Windows Vista, Windows 7, and Windows 8.
+description: XAudio2 is a cross-platform API that has shipped for use on Xbox 360 as well as versions of Windows, including Windows XP, Windows Vista, Windows 7, and Windows 8.
 ms.assetid: 875b44c4-30d6-8a6e-0cfc-9beb8c46f1b4
 title: XAudio2 Versions
 ms.topic: article
@@ -31,8 +31,8 @@ XAudio2 2.8 has been updated with the following changes:
 -   This version supports Windows Store app development; the XAudio2 API can be used in C++/DirectX Windows Store apps.
 -   [**XAudio2Create**](/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create) is a flat Win32 API call and no longer creates an XAudio2 CLSID. Support for instantiating XAudio2 by CoCreateInstance has been removed.
 -   The Initialize function is now implicitly called by the creation process and has been removed from the [**IXAudio2**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2) interface.
--   Device enumeration functionality has been removed from XAudio2; the GetDeviceDetails and GetDeviceCount functions have been removed from the [**IXAudio2**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2) interface. Apps that want to render to other audio devices on the system must pass a device identifier string to [**CreateMasteringVoice**](https://msdn.microsoft.com/library/Hh405048(v=VS.85).aspx) instead of a device index. The default audio render device can still be created without enumeration.
--   [**IXAudio2MasteringVoice**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2masteringvoice) has an added function [**IXAudio2MasteringVoice::GetChannelMask**](https://msdn.microsoft.com/library/Hh405046(v=VS.85).aspx) for that returns the channel mask for the destination output device.
+-   Device enumeration functionality has been removed from XAudio2; the GetDeviceDetails and GetDeviceCount functions have been removed from the [**IXAudio2**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2) interface. Apps that want to render to other audio devices on the system must pass a device identifier string to [**CreateMasteringVoice**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice) instead of a device index. The default audio render device can still be created without enumeration.
+-   [**IXAudio2MasteringVoice**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2masteringvoice) has an added function [**IXAudio2MasteringVoice::GetChannelMask**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2masteringvoice-getchannelmask) for that returns the channel mask for the destination output device.
 -   The [X3DAudio](x3daudio.md) and [XAPOFX](xapofx-overview.md) libraries are merged into XAudio2. App code still uses separate headers, X3DAUDIO.H and XPOFX.H, but now links to a single import library, XAUDIO2\_8.LIB.
 -   xWMA support is not available in this version of XAudio2; xWMA will not be supported as an audio buffer format when calling CreateSourceVoice. We now recommend the Media Foundation Source Reader object for decoding a wide variety of media formats into in-memory PCM buffers.
 -   [**CreateFX**](/windows/desktop/api/XAPOFX/nf-xapofx-createfx) now takes four parameters rather than two. The newer parameters specify initial data as part of [XAPOFX](xapofx-overview.md) creation.
@@ -41,9 +41,7 @@ XAudio2 2.8 has been updated with the following changes:
 
 All previous versions of XAudio2 for use in apps have been provided as redistributable DLLs in the DirectX SDK. The first version of XAudio2, XAudio2 2.0, shipped in the March 2008 release of the DirectX SDK. The last version to ship in the DirectX SDK was XAudio2 2.7, available in the last release of the DirectX SDK in June 2010.
 
-For access to historical versions of XAudio2, download the DirectX SDK from the Microsoft Download Center. The June 2010 release of the DirectX SDK is available at:
-
-<http://www.microsoft.com/download/en/details.aspx?id=6812>
+The legacy DirectX SDK is no longer available on Microsoft Downloads due to the retirement of all SHA-1 signed content. June 2010 was the end-of-life release.
 
 Previous versions of XAudio2 cannot be used to build Windows Store apps for Windows 8.
 
@@ -62,6 +60,3 @@ Previous versions of XAudio2 cannot be used to build Windows Store apps for Wind
  
 
  
-
-
-

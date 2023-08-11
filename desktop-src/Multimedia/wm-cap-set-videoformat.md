@@ -43,7 +43,7 @@ Size, in bytes, of the structure referenced by **s**.
 <span id="psVideoFormat"></span><span id="psvideoformat"></span><span id="PSVIDEOFORMAT"></span>*psVideoFormat*
 </dt> <dd>
 
-Pointer to a [**BITMAPINFO**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure.
+Pointer to a [**BITMAPINFO**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure.
 
 </dd> </dl>
 
@@ -59,7 +59,7 @@ Because video formats are device-specific, applications should check the return 
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
@@ -78,10 +78,4 @@ Because video formats are device-specific, applications should check the return 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

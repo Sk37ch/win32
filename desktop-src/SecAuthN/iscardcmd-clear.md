@@ -1,5 +1,5 @@
 ---
-Description: The Clear method clears the application protocol data unit (APDU) and reply APDU message buffers.
+description: The Clear method clears the application protocol data unit (APDU) and reply APDU message buffers.
 ms.assetid: 5fd3ebb9-b492-4668-9dd8-3ffbcfceb12c
 title: ISCardCmd::Clear method (Scarddat.h)
 ms.topic: reference
@@ -17,9 +17,9 @@ api_location:
 
 # ISCardCmd::Clear method
 
-\[The **Clear** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **Clear** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
-The **Clear** method clears the [*application protocol data unit*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (APDU) and [*reply APDU*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx) message buffers.
+The **Clear** method clears the [*application protocol data unit*](../secgloss/a-gly.md) (APDU) and [*reply APDU*](../secgloss/r-gly.md) message buffers.
 
 ## Syntax
 
@@ -79,7 +79,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -105,7 +105,3 @@ if (FAILED(hr))
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: You can use the WMI scripting type library to call WMI Scripting API methods from Microsoft Visual Studio and in Windows Script Host WSF files.
+description: You can use the WMI scripting type library to call WMI Scripting API methods from Microsoft Visual Studio and in Windows Script Host WSF files.
 ms.assetid: 6ef4e210-0733-4f2a-89c1-1a7aca5a19d9
 ms.tgt_platform: multiple
 title: Using the WMI Scripting Type Library
@@ -41,7 +41,7 @@ You can include the reference to the **WbemScripting.SWbemLocator** in a Windows
 
 Scripts can connect with the Scripting API for WMI type library using the following methods:
 
--   Specifying the WbemScripting GUID in the VBScript methods [CreateObject](https://docs.microsoft.com/previous-versions//xzysf6hc(v=vs.85)) and [**GetObject**](https://msdn.microsoft.com/library/e9waz863(v=VS.71).aspx).
+-   Specifying the WbemScripting GUID in the VBScript methods [CreateObject](/previous-versions//xzysf6hc(v=vs.85)) and [**GetObject**](https://msdn.microsoft.com/library/e9waz863(v=VS.71).aspx).
 
     This alerts Windows Script Host to connect to the WMI object set.
 
@@ -55,7 +55,7 @@ Scripts can connect with the Scripting API for WMI type library using the follow
 
 -   Using the [Moniker string](constructing-a-moniker-string.md) "winmgmts:" when obtaining a new or existing object.
 
-    The following VBScript code example uses the "winmgmts:" moniker to get the instance of [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) with a **Handle** property of 0 (zero). **Handle** is the key property for this class.
+    The following VBScript code example uses the "winmgmts:" moniker to get the instance of [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process) with a **Handle** property of 0 (zero). **Handle** is the key property for this class.
 
     ```VB
     Set Process = GetObject("winmgmts:Win32_Process.Handle=0")
@@ -63,7 +63,7 @@ Scripts can connect with the Scripting API for WMI type library using the follow
 
     
 
--   Referencing the WMI type library using the <reference> tag of the WSH 2.0 XML file format. If you use the <reference> tag, the tag must have either a **uuid** attribute whose value is the **GUID** of the WMI type library, or (recommended) an object attribute whose value is the **PROGID** of any of the WMI scripting objects you can create.
+-   Referencing the WMI type library using the &lt;reference&gt; tag of the WSH 2.0 XML file format. If you use the &lt;reference&gt; tag, the tag must have either a **uuid** attribute whose value is the **GUID** of the WMI type library, or (recommended) an object attribute whose value is the **PROGID** of any of the WMI scripting objects you can create.
 
     The following VBScript code example uses the PROGID of "WbemScripting" . To run the script, save the text in a file with a .wsf extension.
 
@@ -111,7 +111,7 @@ Scripts can connect with the Scripting API for WMI type library using the follow
 
 <dl> <dt>
 
-[Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script)
+[Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script)
 </dt> <dt>
 
 [Scripting API for WMI](scripting-api-for-wmi.md)
@@ -120,6 +120,3 @@ Scripts can connect with the Scripting API for WMI type library using the follow
  
 
  
-
-
-

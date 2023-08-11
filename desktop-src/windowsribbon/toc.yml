@@ -261,8 +261,6 @@
           href: windowsribbon-element-controlnamemap.md
         - name: "ControlSizeDefinition"
           href: windowsribbon-element-controlsizedefinition.md
-        - name: "DynamicUI"
-          href: windowsribbon-element-dynamicui.md
         - name: "FlowMenuLayout"
           href: windowsribbon-element-flowmenulayout.md
         - name: "GroupSizeDefinition"
@@ -290,7 +288,7 @@
       - name: "UI_COLLECTIONCHANGE"
         href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_collectionchange
       - name: "UI_COMMANDCATEGORY"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448736(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/hh448736(v=vs.85)
       - name: "UI_COMMANDTYPE"
         href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_commandtype
       - name: "UI_CONTEXTAVAILABILITY"
@@ -378,7 +376,7 @@
         href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuieventlogger
         items: 
         - name: "OnUIEvent"
-          href: https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuieventlogger-onuievent
+          href: /windows/desktop/api/uiribbon/nf-uiribbon-iuieventlogger-onuievent
       - name: "IUIFramework"
         href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuiframework
         items: 
@@ -428,9 +426,9 @@
       href: windowsribbon-reference-objects.md
       items: 
       - name: "UIRibbonFramework"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd742706(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/dd742706(v=vs.85)
       - name: "UIRibbonImageFromBitmapFactory"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd742707(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/dd742707(v=vs.85)
     - name: "Property Keys"
       href: windowsribbon-reference-properties.md
       items: 
@@ -589,8 +587,6 @@
   - name: "Ribbon Framework Samples"
     href: windowsribbon-samples-entry.md
     items: 
-    - name: "Ribbon Development Introductory Tutorial"
-      href: windowsribbon-hol.md
     - name: "SimpleRibbon Sample"
       href: windowsribbon-sample1.md
     - name: "ContextPopup Sample"
@@ -603,7 +599,5 @@
       href: windowsribbon-htmleditribbonsample.md
     - name: "FontControl Sample"
       href: windowsribbon-fontcontrolsample.md
-    - name: "Preview Ribbon Sample"
-      href: windowsribbon-previewribbon.md
   - name: "Ribbon Framework Glossary"
     href: windowsribbon-glossary.md

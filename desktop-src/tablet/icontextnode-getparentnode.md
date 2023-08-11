@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the parent node of this IContextNode in the context node tree.
+description: Retrieves the parent node of this IContextNode in the context node tree.
 ms.assetid: 782fd973-f8f3-4902-b8e0-cc5e70a66d28
 title: IContextNode::GetParentNode method (IACom.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppParentContextNode* when you no longer need to use the parent context node.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppParentContextNode* when you no longer need to use the parent context node.
 
  
 
@@ -139,7 +139,7 @@ HRESULT CMyClass::GetNodeInformation(
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -162,9 +162,4 @@ HRESULT CMyClass::GetNodeInformation(
 </dt> </dl>
 
  
-
- 
-
-
-
 

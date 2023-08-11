@@ -1,5 +1,5 @@
 ---
-Description: Represents the status of the ink analysis operation by describing whether the analysis was completed successfully and whether any warnings occurred.
+description: Represents the status of the ink analysis operation by describing whether the analysis was completed successfully and whether any warnings occurred.
 ms.assetid: 57910a1d-3472-4689-ba0d-a220145e77c4
 title: IAnalysisStatus interface (IACom.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ Represents the status of the ink analysis operation by describing whether the an
 
 ## Members
 
-The **IAnalysisStatus** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IAnalysisStatus** also has these types of members:
+The **IAnalysisStatus** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IAnalysisStatus** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -128,7 +128,7 @@ STDMETHODIMP CMyClass::Results(
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -151,9 +151,4 @@ STDMETHODIMP CMyClass::Results(
 </dt> </dl>
 
  
-
- 
-
-
-
 

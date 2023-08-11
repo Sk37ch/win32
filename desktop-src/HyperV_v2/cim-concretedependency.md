@@ -1,5 +1,5 @@
 ---
-Description: Represents a generic association in which a managed element depends on another. CIM\_ConcreteDependency subclasses CIM\_Dependency to provide a concrete class version of CIM\_Dependency.
+description: Represents a generic association in which a managed element depends on another. CIM\_ConcreteDependency subclasses CIM\_Dependency to provide a concrete class version of CIM\_Dependency.
 ms.assetid: c0e1527d-d350-410d-9b5f-c9d4dedf7393
 title: CIM_ConcreteDependency class
 ms.topic: reference
@@ -53,7 +53,7 @@ Data type: **CIM\_ManagedElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 The independent object in the association.
@@ -69,7 +69,7 @@ Data type: **CIM\_ManagedElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The dependent object in the association.
@@ -80,7 +80,7 @@ The dependent object in the association.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -98,9 +98,4 @@ The dependent object in the association.
 </dt> </dl>
 
  
-
- 
-
-
-
 

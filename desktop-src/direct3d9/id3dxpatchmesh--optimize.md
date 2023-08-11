@@ -1,5 +1,5 @@
 ---
-Description: Optimizes the patch mesh for efficient tessellation.
+description: Optimizes the patch mesh for efficient tessellation.
 ms.assetid: 0049e649-5fe5-45b4-9b09-14b7f99b4988
 title: ID3DXPatchMesh::Optimize method (D3DX9Mesh.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT Optimize(
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Currently unused.
 
@@ -60,7 +60,7 @@ Adjacency information is also used to optimize tessellation. Generate adjacency 
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -80,7 +80,3 @@ Adjacency information is also used to optimize tessellation. Generate adjacency 
  
 
  
-
-
-
-

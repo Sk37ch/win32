@@ -1,5 +1,5 @@
 ---
-Description: Describes error codes 500-999 defined in the WinError.h header file and is intended for developers.
+description: Describes error codes 500-999 defined in the WinError.h header file and is intended for developers.
 ms.assetid: 8d8b427b-b761-4023-a834-a6eff96d6ba1
 title: System Error Codes (500-999) (WinError.h)
 ms.topic: reference
@@ -751,7 +751,7 @@ A volume has been accessed for which a file system driver is required that has n
 
 
 
-{Unexpected Failure in [**DebugActiveProcess**](https://msdn.microsoft.com/library/ms679295(v=VS.85).aspx)} An unexpected failure occurred while processing a **DebugActiveProcess** API request. You may choose OK to terminate the process, or Cancel to ignore the error.
+{Unexpected Failure in [**DebugActiveProcess**](/windows/win32/api/debugapi/nf-debugapi-debugactiveprocess)} An unexpected failure occurred while processing a **DebugActiveProcess** API request. You may choose OK to terminate the process, or Cancel to ignore the error.
 
 
 </dt> </dl> </dd> <dt>
@@ -3530,7 +3530,7 @@ Error performing inpage operation.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -3548,7 +3548,3 @@ Error performing inpage operation.
  
 
  
-
-
-
-

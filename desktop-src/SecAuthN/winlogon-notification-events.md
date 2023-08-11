@@ -1,5 +1,5 @@
 ---
-Description: Lists Winlogon notification events.
+description: Lists Winlogon notification events.
 ms.assetid: 48b0f389-5b3c-4b13-ad23-a8bc6bcd1850
 title: Winlogon Notification Events
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Winlogon Notification Events
 
-[*Winlogon*](https://msdn.microsoft.com/library/ms721635(v=VS.85).aspx) can inform your notification package of the following events.
+[*Winlogon*](../secgloss/w-gly.md) can inform your notification package of the following events.
 
 
 
@@ -32,7 +32,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
-

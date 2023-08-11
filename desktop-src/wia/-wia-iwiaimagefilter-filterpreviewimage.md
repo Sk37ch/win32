@@ -1,5 +1,5 @@
 ---
-Description: Filters the preview image.
+description: Filters the preview image.
 ms.assetid: 1710211a-a35c-4a51-b3bb-6f03f234f247
 title: IWiaImageFilter::FilterPreviewImage method (Wia.h)
 ms.topic: reference
@@ -67,9 +67,9 @@ The coordinates (on the physical acquisition area) of the image that the preview
 *pInputStream* \[in\]
 </dt> <dd>
 
-Type: **[IStream](https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx)\***
+Type: **[IStream](/windows/win32/api/objidl/nn-objidl-istream)\***
 
-A pointer to the [IStream](https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx) interface for the cached image data that is filtered.
+A pointer to the [IStream](/windows/win32/api/objidl/nn-objidl-istream) interface for the cached image data that is filtered.
 
 </dd> </dl>
 
@@ -93,7 +93,7 @@ An application must ensure that *pWiaChildItem2* has the same image format (WIA\
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
@@ -105,7 +105,3 @@ An application must ensure that *pWiaChildItem2* has the same image format (WIA\
  
 
  
-
-
-
-

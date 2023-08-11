@@ -1,5 +1,5 @@
 ---
-Description: Deletes a resource pool.
+description: Deletes a resource pool.
 ms.assetid: bc3111a4-9687-49ec-890e-190358230c53
 title: DeletePool method of the Msvm_ResourcePoolConfigurationService class
 ms.topic: reference
@@ -45,7 +45,7 @@ A reference to an instance of the [**CIM\_ResourcePool**](cim-resourcepool.md) c
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -119,7 +119,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -137,9 +137,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

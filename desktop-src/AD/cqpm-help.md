@@ -35,7 +35,7 @@ Not used.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**HELPINFO**](https://msdn.microsoft.com/library/Bb773313(v=VS.85).aspx) structure that contains additional data about the menu item, control, dialog box, or window for which context-sensitive help is requested.
+Pointer to a [**HELPINFO**](/windows/win32/api/winuser/ns-winuser-helpinfo) structure that contains additional data about the menu item, control, dialog box, or window for which context-sensitive help is requested.
 
 </dd> </dl>
 
@@ -47,7 +47,7 @@ The return value for this message is ignored.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
@@ -62,14 +62,8 @@ The return value for this message is ignored.
 [**CQPageProc**](/windows/desktop/api/Cmnquery/nc-cmnquery-lpcqpageproc)
 </dt> <dt>
 
-[**HELPINFO**](https://msdn.microsoft.com/library/Bb773313(v=VS.85).aspx)
+[**HELPINFO**](/windows/win32/api/winuser/ns-winuser-helpinfo)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

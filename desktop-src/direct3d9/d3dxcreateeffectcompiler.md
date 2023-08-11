@@ -1,5 +1,5 @@
 ---
-Description: Creates an effect compiler from an ASCII effect description.
+description: D3DXCreateEffectCompiler function - Creates an effect compiler from an ASCII effect description.
 ms.assetid: 96e883f4-4055-4b8b-940a-164bbf893af4
 title: D3DXCreateEffectCompiler function (D3DX9Effect.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ HRESULT D3DXCreateEffectCompiler(
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Pointer to a buffer containing an effect description.
 
@@ -53,7 +53,7 @@ Pointer to a buffer containing an effect description.
 *SrcDataLen* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Length, in bytes, of the effect data.
 
@@ -80,9 +80,9 @@ Optional interface pointer, [**ID3DXInclude**](id3dxinclude.md), to use for hand
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
-Compile options identified by various flags (see [D3DXSHADER Flags](d3dxshader-flags.md)). The Direct3D 10 HLSL compiler is now the default. See [Effect-Compiler Tool](https://msdn.microsoft.com/library/Bb232919(v=VS.85).aspx) for details.
+Compile options identified by various flags (see [D3DXSHADER Flags](d3dxshader-flags.md)). The Direct3D 10 HLSL compiler is now the default. See [Effect-Compiler Tool](../direct3dtools/fxc.md) for details.
 
 </dd> <dt>
 
@@ -114,7 +114,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -137,7 +137,3 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
  
 
  
-
-
-
-

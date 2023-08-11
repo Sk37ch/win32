@@ -1,5 +1,5 @@
 ---
-Description: Returns a string that describes the status code.
+description: Returns a string that describes the status code.
 ms.assetid: d3007f3e-46e1-4ab6-8ce3-c4e38f87ce61
 title: IWiaErrorHandler::GetStatusDescription method (Wia.h)
 ms.topic: reference
@@ -42,9 +42,9 @@ HRESULT GetStatusDescription(
 *punkItem* \[in\]
 </dt> <dd>
 
-Type: **[IUnknown](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx)\***
+Type: **[IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***
 
-Pointer to the [IUnknown](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) of the item being transferred. This object minimally implements [**IWiaItem2**](-wia-iwiaitem2.md) and [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer).
+Pointer to the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) of the item being transferred. This object minimally implements [**IWiaItem2**](-wia-iwiaitem2.md) and [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer).
 
 </dd> <dt>
 
@@ -80,7 +80,7 @@ Pointer to the data buffer as received by [**BandedDataCallback**](/windows/desk
 
 Type: **BSTR\***
 
-**BSTR** that receives a description of the status or error encountered during the data transfer. This parameter cannot be **NULL**. The caller must free the string using [SysFreeString](https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring), and the implementor must allocate the string using [SysAllocString](https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring).
+**BSTR** that receives a description of the status or error encountered during the data transfer. This parameter cannot be **NULL**. The caller must free the string using [SysFreeString](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring), and the implementor must allocate the string using [SysAllocString](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring).
 
 </dd> </dl>
 
@@ -105,7 +105,7 @@ Returns one of the following values.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |
@@ -118,7 +118,3 @@ Returns one of the following values.
  
 
  
-
-
-
-

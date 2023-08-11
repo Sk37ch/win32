@@ -32,7 +32,7 @@ For legacy support, the default gesture handler maps some gestures to Windows me
 |----------------|----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
 | Pan            | The pan gesture maps to using the scroll wheel.                  | **WM_VSCROLL**<br/> **WM_HSCROLL**<br/>       |
 | Press and Hold | The press and hold gesture maps to right clicking the mouse.     | **WM_RBUTTONDOWN**<br/> **WM_RBUTTONUP**<br/> |
-| Zoom           | The zoom gesture triggers messages that are similar to holding the CTRL key, and spinning the mouse wheel to scroll. | **WM_MOUSEWHEEL** with **MK_CONTROL** set in the *lParam* |
+| Zoom           | The zoom gesture triggers messages that are similar to holding the CTRL key, and spinning the mouse wheel to scroll. | **WM_MOUSEWHEEL** with **MK_CONTROL** set in the *wParam* |
 
 ## Interpreting Windows Touch Gestures
 
@@ -49,7 +49,7 @@ The following flags indicate the various states of the gestures and are stored i
 | GF_END     | 0x00000004 | A gesture has finished.          |
 
 > [!Note]  
-> Most applications should ignore the **GID_BEGIN** and **GID_END** and pass them to [DefWindowProc](https://msdn.microsoft.com/library/ms633572.aspx). These messages are used by the default gesture handler. Application behavior is undefined when the **GID_BEGIN** and **GID_END** messages are consumed by a third-party application.
+> Most applications should ignore the **GID_BEGIN** and **GID_END** and pass them to [DefWindowProc](/windows/win32/api/winuser/nf-winuser-defwindowproca). These messages are used by the default gesture handler. Application behavior is undefined when the **GID_BEGIN** and **GID_END** messages are consumed by a third-party application.
 
 The following table indicates the various identifiers for gestures. 
 

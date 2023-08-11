@@ -24,7 +24,7 @@ propertyDescription
 
 UI\_PKEY\_FontProperties\_VerticalPositioning is used by an application to query the value of the **Superscript** and **Subscript** controls.
 
-The property value is from the [**UI\_FONTVERTICALPOSITION**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_fontverticalposition) enumeration.
+The property value is from the [**UI\_FONTVERTICALPOSITION**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_fontverticalposition) enumeration.
 
 The default value is `UI_FONTVERTICALPOSITION_NOTSET`.
 
@@ -36,7 +36,7 @@ The following table describes the properties and the UI result.
 
 
 
-|                                        |                                                                                                |
+|     Property                           |          UI Result                                                                             |
 |----------------------------------------|------------------------------------------------------------------------------------------------|
 | `UI_FONTVERTICALPOSITION_NOTAVAILABLE` | **Superscript** and **Subscript** buttons are disabled and can only be set by the application. |
 | `UI_FONTVERTICALPOSITION_NOTSET`       | **Superscript** and **Subscript** buttons are not selected.                                    |
@@ -59,7 +59,7 @@ The following table describes the properties and the UI result.
 [Font Control Properties](windowsribbon-reference-properties-fontcontrol.md)
 </dt> <dt>
 
-[**UI\_FONTVERTICALPOSITION**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_fontverticalposition)
+[**UI\_FONTVERTICALPOSITION**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_fontverticalposition)
 </dt> <dt>
 
 [Font Control](windowsribbon-controls-fontcontrol.md)
@@ -68,7 +68,3 @@ The following table describes the properties and the UI result.
  
 
  
-
-
-
-

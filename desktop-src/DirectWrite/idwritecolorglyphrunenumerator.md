@@ -35,7 +35,7 @@ The **IDWriteColorGlyphRunEnumerator** interface has these methods.
 
 | Method                                                                | Description                                                 |
 |:----------------------------------------------------------------------|:------------------------------------------------------------|
-| [**GetCurrentRun**](https://msdn.microsoft.com/library/Dn280446(v=VS.85).aspx) | Returns the current glyph run of the enumerator.<br/> |
+| [**GetCurrentRun**](/windows/win32/api/dwrite_2/nf-dwrite_2-idwritecolorglyphrunenumerator-getcurrentrun) | Returns the current glyph run of the enumerator.<br/> |
 | [**MoveNext**](idwritecolorglyphrunenumerator-movenext.md)           | Move to the next glyph run in the enumerator.<br/>    |
 
 
@@ -46,7 +46,7 @@ The **IDWriteColorGlyphRunEnumerator** interface has these methods.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                          |
@@ -57,10 +57,4 @@ The **IDWriteColorGlyphRunEnumerator** interface has these methods.
 
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: The CHString assignment (=) operator reinitializes an existing CHString object with new data.
+description: The CHString assignment (=) operator reinitializes an existing CHString object with new data.
 ms.assetid: 6864aacf-ac18-4b5a-be3e-3a0d8bb31e74
 ms.tgt_platform: multiple
 title: CHString::operator= (ChString.h)
@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # CHString::operator=
 
-\[The [**CHString**](chstring.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
+\[The [**CHString**](chstring.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The [**CHString**](chstring.md) assignment (=) operator reinitializes an existing CHString object with new data.
 
@@ -92,7 +92,7 @@ s1 = 'x';               // Or just individual characters
 
 
 
-|                                     |                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                                                                                |
@@ -110,9 +110,4 @@ s1 = 'x';               // Or just individual characters
 </dt> </dl>
 
  
-
- 
-
-
-
 

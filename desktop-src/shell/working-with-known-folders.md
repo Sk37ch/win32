@@ -1,5 +1,5 @@
 ---
-Description: The Known Folder system provides a way to interact with certain high-profile folders that are present by default in Windows.
+description: The Known Folder system provides a way to interact with certain high-profile folders that are present by default in Windows.
 ms.assetid: 8b6163b5-e152-47c2-99f1-43e80cf0713e
 title: Working with Known Folders in Applications
 ms.topic: article
@@ -59,12 +59,9 @@ If a folder is redirected to a network location, the [**IKnownFolder**](/windows
 
 <dl> <dt>
 
-[Known Folders Sample](https://msdn.microsoft.com/library/Dd940364(v=VS.85).aspx)
+[Known Folders Sample](/previous-versions/windows/desktop/legacy/dd940364(v=vs.85))
 </dt> </dl>
 
  
 
  
-
-
-

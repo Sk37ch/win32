@@ -1,5 +1,5 @@
 ---
-Description: When you set an impersonation level for an application, you determine what degree of authority the application grants other applications to use its identity when it calls them.
+description: When you set an impersonation level for an application, you determine what degree of authority the application grants other applications to use its identity when it calls them.
 ms.assetid: 5b5b2c2d-dc3d-4edd-9e13-e6cb13022ceb
 title: Setting an Impersonation Level
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Setting an Impersonation Level
 
-When you set an impersonation level for an application, you determine what degree of authority the application grants other applications to use its identity when it calls them. You can set this only for COM+ server applications—library applications run under the identity of the hosting process and use the impersonation level that it specifies. For more detail, see [Impersonation Levels](https://docs.microsoft.com/windows/desktop/com/impersonation-levels).
+When you set an impersonation level for an application, you determine what degree of authority the application grants other applications to use its identity when it calls them. You can set this only for COM+ server applications—library applications run under the identity of the hosting process and use the impersonation level that it specifies. For more detail, see [Impersonation Levels](/windows/desktop/com/impersonation-levels).
 
 **To select an impersonation level**
 
@@ -44,6 +44,3 @@ When you set an impersonation level for an application, you determine what degre
  
 
  
-
-
-

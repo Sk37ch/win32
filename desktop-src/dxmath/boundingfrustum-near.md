@@ -1,5 +1,5 @@
 ---
-Description: The distance of the near plane of the BoundingFrustum from its origin.
+description: The distance of the near plane of the BoundingFrustum from its origin.
 ms.assetid: e94d30e5-a63a-4dab-8947-d0c77e7db044
 title: BoundingFrustum.Near (DirectXCollision.h)
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # BoundingFrustum.Near
 
-The distance of the near plane of the [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx) from its origin.
+The distance of the near plane of the [**BoundingFrustum**](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) from its origin.
 
 
 ```C++
@@ -28,7 +28,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-|                   |                                                                                               |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>DirectXCollision.h</dt> </dl> |
 
@@ -44,13 +44,9 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx)
+[**BoundingFrustum**](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum)
 </dt> </dl>
 
  
 
  
-
-
-
-

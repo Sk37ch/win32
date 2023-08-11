@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.GPS.DestLongitude property.
+description: The photo metadata policy for the System.GPS.DestLongitude property.
 ms.assetid: 885a522d-e1bf-43fb-a996-97e725b6cf0c
 title: System.GPS.DestLongitude Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.DestLongitude Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.DestLongitude](https://msdn.microsoft.com/library/bb787508(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.DestLongitude](../properties/props-system-gps-destlongitude.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ This value is generated from System.GPS.DestLongitudeNumerator and System.GPS.De
 
 <dl> <dt>
 
-[System.GPS.DestLongitude](https://msdn.microsoft.com/library/bb787508(VS.85).aspx)
+[System.GPS.DestLongitude](../properties/props-system-gps-destlongitude.md)
 </dt> </dl>
 
  
 
  
-
-
-

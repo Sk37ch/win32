@@ -1,6 +1,6 @@
 ---
 title: RWTexture2DArray::Load(int) function
-description: Reads texture data.
+description: Reads texture data. | RWTexture2DArray::Load(int) function
 ms.assetid: BC247B2A-1744-4E37-A501-22E4A592A32D
 keywords:
 - Load function HLSL
@@ -15,16 +15,16 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Load(int) function
+# RWTexture2DArray::Load(int) function
 
 Reads texture data.
 
 ## Syntax
 
 
-```C++
+``` syntax
  Load(
-  _In_ int Location
+  in int Location
 );
 ```
 

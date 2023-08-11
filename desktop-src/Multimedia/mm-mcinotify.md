@@ -40,7 +40,7 @@ Reason for the notification. The following values are defined:
 
 
 
-|                         |                                                                                                                                                                                                                                                                                |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | MCI\_NOTIFY\_ABORTED    | The device received a command that prevented the current conditions for initiating the callback function from being met. If a new command interrupts the current command and it also requests notification, the device sends this message only and not MCI\_NOTIFY\_SUPERSEDED |
 | MCI\_NOTIFY\_FAILURE    | A device error occurred while the device was executing the command.                                                                                                                                                                                                            |
@@ -72,13 +72,13 @@ A device returns the MCI\_NOTIFY\_SUCCESSFUL flag with **MM\_MCINOTIFY** when th
 
 A device returns the MCI\_NOTIFY\_ABORTED flag with **MM\_MCINOTIFY** only when it receives a command that prevents it from meeting the notification conditions. For example, the [**play**](play.md) command would not abort notification for a previous **play** command provided that the new command does not change the play direction or change the ending position. The [**seek**](seek.md) and [**record**](record.md) commands behave similarly. MCI also does not send MCI\_NOTIFY\_ABORTED when playback or recording is paused with the [**pause**](pause.md) ( [**MCI\_PAUSE**](mci-pause.md)) command. Sending the [**resume**](resume.md) ( [**MCI\_RESUME**](mci-resume.md)) command allows them to continue to meet the callback conditions.
 
-When your application requests notification for a command, check the error return of the [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) or [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) functions. If these functions encounter an error and return a nonzero value, MCI will not set notification for the command.
+When your application requests notification for a command, check the error return of the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) or [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) functions. If these functions encounter an error and return a nonzero value, MCI will not set notification for the command.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -112,10 +112,4 @@ When your application requests notification for a command, check the error retur
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

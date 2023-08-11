@@ -1,5 +1,5 @@
 ---
-Description: Used to define private messages for use by private window classes, usually of the form OCM\_\_BASE+x, where x is an integer value.
+description: Used to define private messages for use by private window classes, usually of the form OCM\_\_BASE+x, where x is an integer value.
 ms.assetid: b1a9c0ca-349d-49d2-9b8b-ae7d3bf94c10
 title: OCM__BASE (Olectl.h)
 ms.topic: reference
@@ -23,7 +23,7 @@ The following are the ranges of message numbers.
 
 | Range                                                 | Meaning                                                        |
 |-------------------------------------------------------|----------------------------------------------------------------|
-| 0 through [**WM\_USER**](wm-user.md)  1<br/>   | Messages reserved for use by the system.<br/>            |
+| 0 through [**WM\_USER**](wm-user.md)-1<br/>   | Messages reserved for use by the system.<br/>            |
 | [**WM\_USER**](wm-user.md) through 0x7FFF<br/> | Integer messages for use by private window classes.<br/> |
 | [**WM\_APP**](wm-app.md) through 0xBFFF<br/>   | Messages available for use by applications.<br/>         |
 | 0xC000 through 0xFFFF<br/>                      | String messages for use by applications.<br/>            |
@@ -39,7 +39,7 @@ Message numbers in the second range ([**WM\_USER**](wm-user.md) through 0x7FFF) 
 
 Message numbers in the third range (0x8000 through 0xBFFF) are available for applications to use as private messages. Messages in this range do not conflict with system messages.
 
-Message numbers in the fourth range (0xC000 through 0xFFFF) are defined at run time when an application calls the [**RegisterWindowMessage**](https://msdn.microsoft.com/library/ms644947(v=VS.85).aspx) function to retrieve a message number for a string. All applications that register the same string can use the associated message number for exchanging messages. The actual message number, however, is not a constant and cannot be assumed to be the same between different sessions.
+Message numbers in the fourth range (0xC000 through 0xFFFF) are defined at run time when an application calls the [**RegisterWindowMessage**](/windows/win32/api/winuser/nf-winuser-registerwindowmessagea) function to retrieve a message number for a string. All applications that register the same string can use the associated message number for exchanging messages. The actual message number, however, is not a constant and cannot be assumed to be the same between different sessions.
 
 Message numbers in the fifth range (greater than 0xFFFF) are reserved by the system.
 
@@ -47,7 +47,7 @@ Message numbers in the fifth range (greater than 0xFFFF) are reserved by the sys
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
@@ -62,7 +62,7 @@ Message numbers in the fifth range (greater than 0xFFFF) are reserved by the sys
 **Reference**
 </dt> <dt>
 
-[**RegisterWindowMessage**](https://msdn.microsoft.com/library/ms644947(v=VS.85).aspx)
+[**RegisterWindowMessage**](/windows/win32/api/winuser/nf-winuser-registerwindowmessagea)
 </dt> <dt>
 
 [**WM\_APP**](wm-app.md)
@@ -75,9 +75,4 @@ Message numbers in the fifth range (greater than 0xFFFF) are reserved by the sys
 </dt> </dl>
 
  
-
- 
-
-
-
 

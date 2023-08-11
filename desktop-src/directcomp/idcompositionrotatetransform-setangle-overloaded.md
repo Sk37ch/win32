@@ -24,8 +24,8 @@ Changes or animates the value of the Angle property of a rotation transform. The
 
 | Method                                                                                                     | Description                                          |
 |:-----------------------------------------------------------------------------------------------------------|:-----------------------------------------------------|
-| [**SetAngle(float)**](https://msdn.microsoft.com/library/Hh448972(v=VS.85).aspx)                                     | Changes the value of the Angle property.<br/>  |
-| [**SetAngle(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448974(v=VS.85).aspx) | Animates the value of the Angle property.<br/> |
+| [**SetAngle(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform-setangle(float))                                     | Changes the value of the Angle property.<br/>  |
+| [**SetAngle(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform-setangle(idcompositionanimation)) | Animates the value of the Angle property.<br/> |
 
 
 
@@ -33,7 +33,7 @@ Changes or animates the value of the Angle property of a rotation transform. The
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows�8 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server�2012 \[desktop apps only\]<br/>                                 |
@@ -47,14 +47,9 @@ Changes or animates the value of the Angle property of a rotation transform. The
 
 <dl> <dt>
 
-[**IDCompositionRotateTransform**](https://msdn.microsoft.com/library/Hh448924(v=VS.85).aspx)
+[**IDCompositionRotateTransform**](/windows/win32/api/dcomp/nn-dcomp-idcompositionrotatetransform)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

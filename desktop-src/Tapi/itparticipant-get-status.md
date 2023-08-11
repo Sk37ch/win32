@@ -1,5 +1,5 @@
 ---
-Description: The get\_Status method returns a VARIANT\_BOOL indicating participant status.
+description: The get\_Status method returns a VARIANT\_BOOL indicating participant status.
 ms.assetid: 03ad763b-5223-41b5-b0cf-1f13c761f5c2
 title: ITParticipant::get_Status method (Ipmsp.h)
 ms.topic: reference
@@ -31,7 +31,7 @@ HRESULT get_Status(
 *pITStream* \[in\]
 </dt> <dd>
 
-Pointer to [**ITStream**](https://msdn.microsoft.com/library/ms732390(v=VS.85).aspx) interface.
+Pointer to [**ITStream**](/windows/win32/api/tapi3if/nn-tapi3if-itstream) interface.
 
 </dd> <dt>
 
@@ -68,7 +68,7 @@ Enabling or disabling a participant's status on a stream allows an application t
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |
@@ -84,16 +84,11 @@ Enabling or disabling a participant's status on a stream allows an application t
 [**ITParticipant**](itparticipant.md)
 </dt> <dt>
 
-[**ITStream**](https://msdn.microsoft.com/library/ms732390(v=VS.85).aspx)
+[**ITStream**](/windows/win32/api/tapi3if/nn-tapi3if-itstream)
 </dt> <dt>
 
 [**put\_Status**](itparticipant-put-status.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

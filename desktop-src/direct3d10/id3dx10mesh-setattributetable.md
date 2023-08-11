@@ -1,5 +1,5 @@
 ---
-Description: Sets the attribute table for a mesh and the number of entries stored in the table.
+description: ID3DX10Mesh::SetAttributeTable method - Sets the attribute table for a mesh and the number of entries stored in the table.
 ms.assetid: 629fd31b-d88a-4650-82ed-ab7c40690986
 title: ID3DX10Mesh::SetAttributeTable method (D3DX10.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Pointer to an array of D3DX10\_ATTRIBUTE\_RANGE structures, representing the ent
 *cAttribTableSize* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of attributes in the mesh attribute table.
 
@@ -68,7 +68,7 @@ If an application keeps track of the information in an attribute table, and rear
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -88,7 +88,3 @@ If an application keeps track of the information in an attribute table, and rear
  
 
  
-
-
-
-

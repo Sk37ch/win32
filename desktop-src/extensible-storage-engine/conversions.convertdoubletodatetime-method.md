@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Conversions.ConvertDoubleToDateTime method"
 title: Conversions.ConvertDoubleToDateTime method 
 TOCTitle: 'ConvertDoubleToDateTime method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Conversions.ConvertDoubleToDateTime(System.Double)
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Convert a double (OA date time format) to a DateTime. Unlike DateTime.FromOADate this doesn't throw exceptions.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -56,22 +57,21 @@ public static DateTime ConvertDoubleToDateTime(
 #### Parameters
 
   - d  
-    Type: [System.Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN)  
+    Type: [System.Double](/dotnet/api/system.double)  
     
     The double value.
 
 #### Return value
 
-Type: [System.DateTime](https://docs.microsoft.com/dotnet/api/system.datetime?redirectedfrom=MSDN)  
+Type: [System.DateTime](/dotnet/api/system.datetime)  
 A DateTime.  
 
 ## See also
 
 #### Reference
 
-[Conversions class](dn334230\(v=exchg.10\).md)
+[Conversions class](./conversions-class.md)
 
-[Conversions members](dn334184\(v=exchg.10\).md)
+[Conversions members](./conversions-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

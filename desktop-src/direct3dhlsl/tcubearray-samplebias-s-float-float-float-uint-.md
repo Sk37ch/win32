@@ -1,6 +1,6 @@
 ---
-title: SampleBias::SampleBias(S,float,float,float,uint) function
-description: Samples a texture, after applying the bias value to the mipmap level, with an optional value to clamp sample level-of-detail (LOD) values to. Returns status about the operation.
+title: SampleBias::SampleBias(S,float,float,float,uint) function for TextureCubeArray
+description: The SampleBias::SampleBias(S,float,float,float,uint) function for TextureCubeArray samples a texture after applying the bias value to the mipmap level.
 ms.assetid: 376F11E6-4FFF-4685-9285-9D6143C77F2D
 keywords:
 - SampleBias function HLSL
@@ -15,20 +15,20 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# SampleBias(S,float,float,float,uint) function
+# SampleBias::SampleBias(S,float,float,float,uint) function for TextureCubeArray
 
 Samples a texture, after applying the bias value to the mipmap level, with an optional value to clamp sample level-of-detail (LOD) values to. Returns status about the operation.
 
 ## Syntax
 
 
-```C++
+``` syntax
 DXGI_FORMAT SampleBias(
-  _In_  SamplerState S,
-  _In_  float        Location,
-  _In_  float        Bias,
-  _In_  float        Clamp,
-  _Out_ uint         Status
+  in  SamplerState S,
+  in  float        Location,
+  in  float        Bias,
+  in  float        Clamp,
+  out uint         Status
 );
 ```
 
@@ -92,15 +92,15 @@ An optional value to clamp sample LOD values to. For example, if you pass 2.0f f
 
 Type: **uint**
 
-The status of the operation. You can't access the status directly; instead, pass the status to the [**CheckAccessFullyMapped**](checkaccessfullymapped.md) intrinsic function. **CheckAccessFullyMapped** returns **TRUE** if all values from the corresponding **Sample**, **Gather**, or **Load** operation accessed mapped tiles in a [tiled resource](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-2-features). If any values were taken from an unmapped tile, **CheckAccessFullyMapped** returns **FALSE**.
+The status of the operation. You can't access the status directly; instead, pass the status to the [**CheckAccessFullyMapped**](checkaccessfullymapped.md) intrinsic function. **CheckAccessFullyMapped** returns **TRUE** if all values from the corresponding **Sample**, **Gather**, or **Load** operation accessed mapped tiles in a [tiled resource](/windows/desktop/direct3d11/direct3d-11-2-features). If any values were taken from an unmapped tile, **CheckAccessFullyMapped** returns **FALSE**.
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
+Type: **[**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
 
-The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
+The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
 ## See also
 
@@ -115,7 +115,3 @@ The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**
  
 
  
-
-
-
-

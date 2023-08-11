@@ -1,5 +1,5 @@
 ---
-Description: Add child data to the mesh.
+description: Add child data to the mesh.
 ms.assetid: cf3e2015-c4b0-4d98-8346-c74fbdd37310
 title: ID3DXSaveUserData::AddMeshChildData method (D3dx9anim.h)
 ms.topic: reference
@@ -68,13 +68,13 @@ Pointer to a .x file data node. Use the pointer to call [**ID3DXFileSaveData::Ad
 
 Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
-The return values of this method are implemented by an application programmer. In general, if no error occurs, program the method to return D3D\_OK. Otherwise, program the method to return an appropriate error message from [D3DERR](d3derr.md) or [**D3DXERR**](https://msdn.microsoft.com/library/Bb172825(v=VS.85).aspx), as this will cause [**D3DXLoadMeshHierarchyFromX**](d3dxloadmeshhierarchyfromx.md) to fail also, and return the error.
+The return values of this method are implemented by an application programmer. In general, if no error occurs, program the method to return D3D\_OK. Otherwise, program the method to return an appropriate error message from [D3DERR](d3derr.md) or [**D3DXERR**](./d3dxerr.md), as this will cause [**D3DXLoadMeshHierarchyFromX**](d3dxloadmeshhierarchyfromx.md) to fail also, and return the error.
 
 ## Requirements
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -91,7 +91,3 @@ The return values of this method are implemented by an application programmer. I
  
 
  
-
-
-
-

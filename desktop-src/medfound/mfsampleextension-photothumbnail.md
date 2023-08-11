@@ -1,5 +1,5 @@
 ---
-Description: Contains the photo thumbnail of a IMFSample.
+description: Contains the photo thumbnail of a IMFSample.
 ms.assetid: 510706A3-92FB-4188-97B9-6E8E0B4B175F
 title: MFSampleExtension_PhotoThumbnail attribute (Mfapi.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ The thumbnail is configured using the **KSPROPERTYSETID\_ExtendedCameraControl**
 
 ## Remarks
 
-This attribute is set on the [**IMFSample**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample) provided by the MFT0 and is the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface of the [**IMFMediaBuffer**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer) associated with the photo thumbnail.
+This attribute is set on the [**IMFSample**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample) provided by the MFT0 and is the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface of the [**IMFMediaBuffer**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer) associated with the photo thumbnail.
 
 The format of the photo thumbnail can be JPEG (major type image), NV12 or ARGB32.
 
@@ -28,7 +28,7 @@ The [MFSampleExtension\_PhotoThumbnailMediaType](mfsampleextension-photothumbnai
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                     |
@@ -49,7 +49,3 @@ The [MFSampleExtension\_PhotoThumbnailMediaType](mfsampleextension-photothumbnai
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Creates a byte-stream handler for the MP3 media source.
+description: Creates a byte-stream handler for the MP3 media source.
 ms.assetid: A213BAEF-D98F-485B-8840-BE131E9B26C0
 title: MFCreateMP3ByteStreamPlugin function
 ms.topic: reference
@@ -56,13 +56,13 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 ## Remarks
 
-This function has no associated import library. To call this function, you must use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to mf.dll.
+This function has no associated import library. To call this function, you must use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to mf.dll.
 
 ## Requirements
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
@@ -87,7 +87,3 @@ This function has no associated import library. To call this function, you must 
  
 
  
-
-
-
-

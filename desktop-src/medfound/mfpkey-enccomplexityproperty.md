@@ -1,5 +1,5 @@
 ---
-Description: Specifies the complexity of the encoding algorithm.
+description: Specifies the complexity of the encoding algorithm.
 ms.assetid: 5dd34818-f282-4859-b423-97e9c4944aec
 title: MFPKEY_ENCCOMPLEXITY Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Specifies the complexity of the encoding algorithm. The value is an integer betw
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -53,7 +53,7 @@ If the [**MFPKEY\_CONSTRAINECOMPLEXITY**](mfpkey-constrainenccomplexityproperty.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
@@ -71,7 +71,3 @@ If the [**MFPKEY\_CONSTRAINECOMPLEXITY**](mfpkey-constrainenccomplexityproperty.
  
 
  
-
-
-
-

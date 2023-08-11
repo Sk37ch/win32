@@ -1,5 +1,5 @@
 ---
-Description: Sets the track description.
+description: Sets the track description.
 ms.assetid: bc3324b3-ca23-4035-958d-9763a70071f2
 title: ID3DXAnimationController::SetTrackDesc method (D3dx9anim.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT SetTrackDesc(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Identifier of the track to modify.
 
@@ -64,7 +64,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -81,7 +81,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Creates a new patch mesh with the specified vertex declaration.
+description: Creates a new patch mesh with the specified vertex declaration.
 ms.assetid: cc488cd3-fb38-468f-8aec-17c6ed842582
 title: ID3DXPatchMesh::CloneMesh method (D3DX9Mesh.h)
 ms.topic: reference
@@ -40,9 +40,9 @@ HRESULT CloneMesh(
 *Options* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
-Combination of one or more [**D3DXMESH**](https://msdn.microsoft.com/library/Bb205370(v=VS.85).aspx) flags that specify creation options for the mesh.
+Combination of one or more [**D3DXMESH**](./d3dxmesh.md) flags that specify creation options for the mesh.
 
 </dd> <dt>
 
@@ -78,7 +78,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -95,7 +95,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Sets the value of specified child properties in the <Properties> element of a scan profile.
+description: Sets the value of specified child properties in the <Properties> element of a scan profile.
 ms.assetid: 3cf7b723-4004-49e5-b3bd-49a84432ede3
 title: IScanProfile::SetProperty method (Scanprofile.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ A pointer to an array of identification numbers of the properties to be set. Eac
 *pvar* \[in\]
 </dt> <dd>
 
-Type: **[PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx)\***
+Type: **[PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant)\***
 
 A pointer to an array of values to be assigned to the properties.
 
@@ -81,7 +81,7 @@ If two applications create scan profile objects from the same XML file, and each
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                        |
@@ -112,7 +112,3 @@ If two applications create scan profile objects from the same XML file, and each
  
 
  
-
-
-
-

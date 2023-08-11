@@ -1,5 +1,5 @@
 ---
-Description: Begins a search for a specified search string.
+description: Begins a search for a specified search string.
 ms.assetid: 6ecad03c-e8e0-45ba-8def-b55a029992f2
 title: IShellFolderSearchable::FindString method (Mmc.h)
 ms.topic: reference
@@ -58,9 +58,9 @@ No flags are currently defined; set to **NULL**.
 *punkOnAsyncSearch* \[in\]
 </dt> <dd>
 
-Type: **[**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx)\***
+Type: **[**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***
 
-A pointer to an object of type [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx). This object must support the [**IShellFolderSearchableCallback**](ishellfoldersearchablecallback.md) interface. Set to **NULL** if no callback is necessary.
+A pointer to an object of type [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown). This object must support the [**IShellFolderSearchableCallback**](ishellfoldersearchablecallback.md) interface. Set to **NULL** if no callback is necessary.
 
 </dd> <dt>
 
@@ -83,7 +83,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
@@ -95,7 +95,3 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
  
 
  
-
-
-
-

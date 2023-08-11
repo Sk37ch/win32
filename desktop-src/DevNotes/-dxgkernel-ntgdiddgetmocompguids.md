@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of GUIDs the driver supports.
+description: Retrieves the number of GUIDs the driver supports.
 ms.assetid: ed6b81bc-3f83-4983-97b6-32fdeb1c901e
 title: NtGdiDdGetMoCompGuids function (Ntgdi.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ Handle to previously created kernel-mode DirectDraw object.
 *puGetMoCompGuidsData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_GETMOCOMPGUIDSDATA**](https://msdn.microsoft.com/library/Ff551587(v=VS.85).aspx) structure that contains the **GUID** information.
+Pointer to a [**DD\_GETMOCOMPGUIDSDATA**](/windows/win32/api/ddrawint/ns-ddrawint-dd_getmocompguidsdata) structure that contains the **GUID** information.
 
 </dd> </dl>
 
@@ -77,7 +77,7 @@ For more information, see the Microsoft DirectX Video Acceleration Driver Develo
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
@@ -95,7 +95,3 @@ For more information, see the Microsoft DirectX Video Acceleration Driver Develo
  
 
  
-
-
-
-

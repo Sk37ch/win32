@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_OperatingSystemSoftwareFeature class represents the software features that make up the operating system.
+description: The CIM\_OperatingSystemSoftwareFeature class represents the software features that make up the operating system.
 ms.assetid: 9ffc709c-213e-4252-9662-76f01e1685e5
 ms.tgt_platform: multiple
 title: CIM_OperatingSystemSoftwareFeature class
@@ -61,7 +61,7 @@ Data type: **CIM\_OperatingSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
 </dt> </dl>
 
 A [**CIM\_OperatingSystem**](cim-operatingsystem.md) describing the operating system.
@@ -77,7 +77,7 @@ Data type: **CIM\_SoftwareFeature**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
 </dt> </dl>
 
 A [**CIM\_SoftwareFeature**](cim-softwarefeature.md) describing the software features that make up the operating system.
@@ -94,7 +94,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -112,9 +112,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

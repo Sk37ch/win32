@@ -1,5 +1,5 @@
 ---
-Description: This topic shows you how you can set groups of voices to send their output to the same submix voice. This enables a single change to a submix voice to affect a whole group of voices.
+description: This topic shows you how you can set groups of voices to send their output to the same submix voice. This enables a single change to a submix voice to affect a whole group of voices.
 ms.assetid: 76c1c138-4846-9c4f-7875-446867436ee9
 title: 'How to: Use Submix Voices'
 ms.topic: article
@@ -38,7 +38,7 @@ This topic shows you how you can set groups of voices to send their output to th
 
 4.  Apply changes to all sound effect voices by adjusting the submix voice.
 
-    In this example, changing the volume of the submix voice with the [**SetVolume**](https://msdn.microsoft.com/library/Ee418600(v=VS.85).aspx) function effectively changes the volume of all voices that output to it.
+    In this example, changing the volume of the submix voice with the [**SetVolume**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voice-setvolume) function effectively changes the volume of all voices that output to it.
 
     ```
     pSFXSubmixVoice->SetVolume(0.1);
@@ -62,6 +62,3 @@ This topic shows you how you can set groups of voices to send their output to th
  
 
  
-
-
-

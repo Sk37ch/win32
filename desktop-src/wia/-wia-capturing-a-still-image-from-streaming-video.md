@@ -1,5 +1,5 @@
 ---
-Description: The following example uses the IWiaVideo interface to create a streaming video preview and get a still image from that streaming video. The example assumes that you have a valid handle to a window (HWND).
+description: The following example uses the IWiaVideo interface to create a streaming video preview and get a still image from that streaming video. The example assumes that you have a valid handle to a window (HWND).
 ms.assetid: bca00825-32a7-40b2-9ca9-23475e3218a8
 title: Capturing a Still Image from Streaming Video
 ms.topic: article
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 The following example uses the [**IWiaVideo**](/windows/desktop/api/Wiavideo/nn-wiavideo-iwiavideo) interface to create a streaming video preview and get a still image from that streaming video. The example assumes that you have a valid handle to a window (HWND).
 
 > [!Note]  
-> Windows Image Acquisition (WIA) does not support video devices in Windows Server 2003, Windows Vista, or later. For those versions of the Windows, use [DirectShow](https://msdn.microsoft.com/library/ms783323(VS.85).aspx) to acquire images from video.
+> Windows Image Acquisition (WIA) does not support video devices in Windows Server 2003, Windows Vista, or later. For those versions of the Windows, use [DirectShow](/previous-versions//ms783323(v=vs.85)) to acquire images from video.
 
  
 
@@ -318,6 +318,3 @@ The following example uses the [**IWiaVideo**](/windows/desktop/api/Wiavideo/nn-
  
 
  
-
-
-

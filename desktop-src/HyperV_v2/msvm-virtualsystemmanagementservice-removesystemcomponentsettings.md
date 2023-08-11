@@ -1,5 +1,5 @@
 ---
-Description: Removes generic component settings from a virtual system configuration.
+description: Removes generic component settings from a virtual system configuration.
 ms.assetid: 54ddb960-65b7-409d-ad80-f3685562a1a1
 title: RemoveSystemComponentSettings method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -45,7 +45,7 @@ Array of [**Msvm\_SystemComponentSettingData**](msvm-systemcomponentsettingdata.
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -89,7 +89,7 @@ Returns 0 or 4096 on a success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -107,9 +107,4 @@ Returns 0 or 4096 on a success; otherwise, returns an error.
 </dt> </dl>
 
  
-
- 
-
-
-
 

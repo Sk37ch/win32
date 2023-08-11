@@ -18,13 +18,10 @@ ms.date: 05/31/2018
 
 In Direct3D 10, you specify the samplers and textures independently; texture sampling is implemented by using a templated-texture object. This templated-texture object has a specific format, returns a specific type, and implements several methods.
 
-## 
+Differences between Direct3D9 and Direct3D10:
 
-
-
-|                                                                                                                                                                                                                                                                                                                   |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D9 and Direct3D10: In Direct3D 9, samplers are bound to specific textures; in Direct3D 10, textures and samplers are independent objects. Each templated-texture object implements texture sampling methods that take both the texture and the sampler as input parameters.<br/> |
+- In Direct3D 9, samplers are bound to specific textures.
+- In Direct3D 10, textures and samplers are independent objects. Each templated-texture object implements texture sampling methods that take both the texture and the sampler as input parameters.
 
 
 
@@ -58,8 +55,8 @@ Multisampled objects (Texture2DMS and Texture2DMSArray) require the texture size
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -152,7 +149,7 @@ Multisampled objects (Texture2DMS and Texture2DMSArray) require the texture size
 
  
 
-## Example
+## Example 1
 
 Here is an example of declaring a texture object.
 
@@ -194,17 +191,17 @@ Each texture object implements certain methods; here's the table that lists all 
 
 ### Return Type
 
-The return type of a texture object method is float4 unless specified otherwise, with the exception of the multisampled anti-aliased texture objects that always need the type and sample count specified. The return type is the same as the texture resource type ([**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)). In other words, it can be any of the following types.
+The return type of a texture object method is float4 unless specified otherwise, with the exception of the multisampled anti-aliased texture objects that always need the type and sample count specified. The return type is the same as the texture resource type ([**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)). In other words, it can be any of the following types.
 
 
 
 | Type                       | Description                                                                                                                                                             |
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| float                      | 32-bit float (see [Floating-Point Rules](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-float-rules) for differences from IEEE float)                            |
+| float                      | 32-bit float (see [Floating-Point Rules](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-float-rules) for differences from IEEE float)                            |
 | int                        | 32-bit signed integer                                                                                                                                                   |
 | unsigned int               | 32-bit unsigned integer                                                                                                                                                 |
-| snorm                      | 32-bit float in range -1 to 1 inclusive (see [Floating-Point Rules](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-float-rules) for differences from IEEE float) |
-| unorm                      | 32-bit float in range 0 to 1 inclusive (see [Floating-Point Rules](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-float-rules) for differences from IEEE float)  |
+| snorm                      | 32-bit float in range -1 to 1 inclusive (see [Floating-Point Rules](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-float-rules) for differences from IEEE float) |
+| unorm                      | 32-bit float in range 0 to 1 inclusive (see [Floating-Point Rules](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-float-rules) for differences from IEEE float)  |
 | any texture type or struct | The number of components returned must be between 1 and 3 inclusive.                                                                                                    |
 
 
@@ -217,9 +214,9 @@ In addition, the return type can be any texture type including a structure but, 
 
 The default value for missing components in a texture resource type is zero for any component except the alpha component (A); the default value for the missing A is one. The way that this one appears to the shader depends on the texture resource type. It takes the form of the first typed component that is actually present in the texture resource type (starting from the left in RGBA order). If this form is UNORM or FLOAT, the default value for the missing A is 1.0f. If the form is SINT or UINT, the default value for the missing A is 0x1.
 
-For example, when a shader reads the [**DXGI\_FORMAT\_R24\_UNORM\_X8\_TYPELESS**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) texture resource type, the default values for G and B are zero and the default value for A is 1.0f; when a shader reads the [**DXGI\_FORMAT\_R16G16\_UINT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) texture resource type, the default value for B is zero and the default value for A is 0x00000001; when a shader reads the [**DXGI\_FORMAT\_R16\_SINT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) texture resource type, the default values for G and B are zero and the default value for A is 0x00000001.
+For example, when a shader reads the [**DXGI\_FORMAT\_R24\_UNORM\_X8\_TYPELESS**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) texture resource type, the default values for G and B are zero and the default value for A is 1.0f; when a shader reads the [**DXGI\_FORMAT\_R16G16\_UINT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) texture resource type, the default value for B is zero and the default value for A is 0x00000001; when a shader reads the [**DXGI\_FORMAT\_R16\_SINT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) texture resource type, the default values for G and B are zero and the default value for A is 0x00000001.
 
-## Example
+## Example 2
 
 Here is an example of texture sampling using a texture method.
 
@@ -258,10 +255,4 @@ This object is supported in the following shader models.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

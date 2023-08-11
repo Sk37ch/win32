@@ -1,5 +1,5 @@
 ---
-Description: Your filter handler must be registered. You can also locate an existing filter handler for a given file name extension either through the registry or by using the ILoadFilter interface.
+description: Your filter handler must be registered. You can also locate an existing filter handler for a given file name extension either through the registry or by using the ILoadFilter interface.
 ms.assetid: 3478b948-73c7-4533-974a-d9b5186a651b
 title: Registering Filter Handlers
 ms.topic: article
@@ -20,7 +20,7 @@ This topic is organized as follows:
 - [Related topics](#related-topics)
 
 > [!NOTE]  
-> A filter handler is an implementation of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface.
+> A filter handler is an implementation of the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface.
 
 ## Registering Filters Handlers for Windows Search
 
@@ -28,7 +28,7 @@ The GUIDs you need for registering a new protocol handler or to find an existing
 
 | GUID                                     | User or application defined | Description                                                                                               |
 |------------------------------------------|-----------------------------|-----------------------------------------------------------------------------------------------------------|
-| **89BCB740-6119-101A-BCB7-00DD010655AF** | Application                 | The [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface GUID is a registry key constant for all filter handlers. |
+| **89BCB740-6119-101A-BCB7-00DD010655AF** | Application                 | The [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface GUID is a registry key constant for all filter handlers. |
 | **{PersistentHandlerGUID}**              | User                        | This is the GUID for the persistent handler.                                                              |
 | **{FilterHandlerCLSID}**                 | User                        | This is the class identifier (CLSID) for the filter handler.                                              |
 | **{ApplicationGUID}**                    | User                        | This is an intermediate (aggregated) GUID.                                                                |
@@ -54,12 +54,11 @@ When you register a new filter handler, we recommend that you use a descriptive 
     HKEY_LOCAL_MACHINE
        Software
           Classes
-             .txt
-                CLSID
-                   {PersistentHandlerGUID}
-                      PersistentAddinsRegistered
-                         {89BCB740-6119-101A-BCB7-00DD010655AF}l
-                            (Default) = {FilterHandlerCLSID}
+             CLSID
+                {PersistentHandlerGUID}
+                   PersistentAddinsRegistered
+                      {89BCB740-6119-101A-BCB7-00DD010655AF}l
+                         (Default) = {FilterHandlerCLSID}
 ```
 
 2. Register your filter handler with the following keys and values:
@@ -68,13 +67,12 @@ When you register a new filter handler, we recommend that you use a descriptive 
     HKEY_LOCAL_MACHINE
        Software
           Classes
-             .txt
-                CLSID
-                   {FilterHandlerCLSID}
-                      (Default) = {DescriptiveFilterHandlerName}
-                      InprocServer32
-                         (Default) = DLL Install Path
-                         ThreadingModel = Both
+             CLSID
+                {FilterHandlerCLSID}
+                   (Default) = {DescriptiveFilterHandlerName}
+                   InprocServer32
+                      (Default) = DLL Install Path
+                      ThreadingModel = Both
 ```
 
 ### Obsolete Approach for Registering Filters Handlers
@@ -183,10 +181,10 @@ You can use the [**ILoadFilter**](/windows/desktop/api/filtereg/nn-filtereg-iloa
 
 ## Additional Resources
 
-- The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), demonstrates how to create an [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) base class for implementing the **IFilter** interface.
+- The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), demonstrates how to create an [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) base class for implementing the **IFilter** interface.
 - For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
-- For an overview of file types, see [File Types](https://msdn.microsoft.com/library/cc144148(VS.85).aspx).
-- To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](https://msdn.microsoft.com/library/cc144150(VS.85).aspx).
+- For an overview of file types, see [File Types](../shell/fa-file-types.md).
+- To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](/previous-versions/windows/desktop/legacy/cc144150(v=vs.85)).
 
 ## Related topics
 

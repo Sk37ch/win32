@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum reference frames supported by the encoder.
+description: Specifies the maximum reference frames supported by the encoder.
 ms.assetid: 023FD791-BD43-41F6-95D0-8BE800F51579
 title: CODECAPI_AVEncVideoMaxNumRefFrame property (Codecapi.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ For H.264, this maps to the Sequence Parameter Set variable **max\_num\_ref\_fra
 
 Encoders may use fewer reference frames in order to obey the level specified in the bitstream.
 
-Encoders shall support [**GetValue**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue), [**SetValue**](https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-setvalue), and [**GetParameterRangee**](https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-getparameterrange).
+Encoders shall support [**GetValue**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue), [**SetValue**](/windows/desktop/api/strmif/nf-strmif-icodecapi-setvalue), and [**GetParameterRangee**](/windows/desktop/api/strmif/nf-strmif-icodecapi-getparameterrange).
 
 This is a static property meaning that it can only be set before the encoding session starts.
 
@@ -36,7 +36,7 @@ Recommended default value is 2.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                   |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                        |
@@ -52,9 +52,4 @@ Recommended default value is 2.
 </dt> </dl>
 
  
-
- 
-
-
-
 

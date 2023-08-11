@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft Web Services on Devices API (WSDAPI) supports the implementation of client-controlled devices and services, and device hosts conforming to the Devices Profile for Web Services (DPWS).
+description: Learn to use the Microsoft Web Services on Devices (WSD) API (WSDAPI) to implement client-controlled devices and services, and device hosts conforming to DPWS.
 ms.assetid: 88de8dea-56d5-4bfc-8837-03da81b7d0f9
 title: WSD Application Development on Windows
 ms.topic: article
@@ -14,6 +14,6 @@ Quite often, WSDAPI code for these applications is generated using [WsdCodeGen](
 
 The Windows SDK includes some sample WSDL files, WsdCodeGen configuration files, and generated code. For more information, see [WSDAPI Samples](wsdapi-samples.md).
 
-If you want to enumerate devices using the WSD protocol and query WSD device metadata, you can use the [Function Discovery](https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/fd-portal) API instead.
+If you want to enumerate devices using the WSD protocol and query WSD device metadata, you can use the [Function Discovery](/previous-versions/windows/desktop/fundisc/fd-portal) API instead.
 
 If you want to implement a WSD device that does not run Windows, see [WSD Device Development](wsd-device-development.md).

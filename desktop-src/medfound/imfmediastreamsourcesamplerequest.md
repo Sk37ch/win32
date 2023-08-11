@@ -1,5 +1,5 @@
 ---
-Description: Represents a request for a sample from a MediaStreamSource.
+description: Describes the IMFMediaStreamSourceSampleRequest interface and provides its members, methods, remarks, and requirements.
 ms.assetid: 43617cda-84b1-405f-8a20-be793413c186
 title: IMFMediaStreamSourceSampleRequest interface
 ms.topic: reference
@@ -21,7 +21,7 @@ Represents a request for a sample from a MediaStreamSource.
 
 ## Members
 
-The **IMFMediaStreamSourceSampleRequest** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IMFMediaStreamSourceSampleRequest** also has these types of members:
+The **IMFMediaStreamSourceSampleRequest** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IMFMediaStreamSourceSampleRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -41,13 +41,13 @@ The **IMFMediaStreamSourceSampleRequest** interface has these methods.
 
 ## Remarks
 
-**MFMediaStreamSourceSampleRequest** is implemented by the [**Windows.Media.Core.MediaStreamSourceSampleRequest**](https://msdn.microsoft.com/library/Dn282723(v=WIN.10).aspx) runtime class.
+**MFMediaStreamSourceSampleRequest** is implemented by the [**Windows.Media.Core.MediaStreamSourceSampleRequest**](/uwp/api/Windows.Media.Core.MediaStreamSourceSampleRequest) runtime class.
 
 ## Requirements
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                       |
@@ -65,7 +65,3 @@ The **IMFMediaStreamSourceSampleRequest** interface has these methods.
  
 
  
-
-
-
-

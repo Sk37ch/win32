@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an array of bytes that contains the application-specific and internal property data for this IContextNode.
+description: Retrieves an array of bytes that contains the application-specific and internal property data for this IContextNode.
 ms.assetid: f26d71a7-fe71-48a8-9c8f-9c4d99261df1
 title: IContextNode::SavePropertiesData method (IACom.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, use [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to release the memory from \**ppbPropertiesData* when you no longer need the information.
+> To avoid a memory leak, use [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to release the memory from \**ppbPropertiesData* when you no longer need the information.
 
  
 
@@ -68,7 +68,7 @@ For more information about synchronizing your application data with the [**IInkA
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -106,9 +106,4 @@ For more information about synchronizing your application data with the [**IInkA
 </dt> </dl>
 
  
-
- 
-
-
-
 

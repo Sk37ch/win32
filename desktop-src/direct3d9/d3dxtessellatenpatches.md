@@ -1,5 +1,5 @@
 ---
-Description: Tessellates the given mesh using the N-patch tessellation scheme.
+description: Tessellates the given mesh using the N-patch tessellation scheme.
 ms.assetid: e804905d-ee0b-484f-a621-58b197bd370b
 title: D3DXTessellateNPatches function (D3DX9Mesh.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ Pointer to an array of three DWORDs per face that specify the three neighbors fo
 *NumSegs* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Number of segments per edge to tessellate.
 
@@ -70,7 +70,7 @@ Number of segments per edge to tessellate.
 *QuadraticInterpNormals* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 Set to **TRUE** to use quadratic interpolation for normals; set to **FALSE** for linear interpolation.
 
@@ -108,7 +108,7 @@ This function tessellates by using the N-patch algorithm.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -125,7 +125,3 @@ This function tessellates by using the N-patch algorithm.
  
 
  
-
-
-
-

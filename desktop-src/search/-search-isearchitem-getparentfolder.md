@@ -1,5 +1,5 @@
 ---
-Description: Gets the ISearchItem object if the URL represents an actual Shell data source (also known as a Shell namespace extension).
+description: Gets the ISearchItem object if the URL represents an actual Shell data source (also known as a Shell namespace extension).
 ms.assetid: 7da6344d-b433-48c3-8f75-7bef0295b9ea
 title: ISearchItem::GetParentFolder method
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT GetParentFolder(
 
 Type: **ppShellFolder\*\***
 
-On return, contains the address of a pointer to the folder that contains the current URL. [IShellFolder Interface](https://msdn.microsoft.com/library/bb775075(VS.85).aspx) is exposed by all Shell namespace folder objects, and its methods are used to manage folders.
+On return, contains the address of a pointer to the folder that contains the current URL. [IShellFolder Interface](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder) is exposed by all Shell namespace folder objects, and its methods are used to manage folders.
 
 </dd> <dt>
 
@@ -68,7 +68,7 @@ To preview attachments with a third-party protocol handler on computers running 
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
@@ -86,7 +86,3 @@ To preview attachments with a third-party protocol handler on computers running 
  
 
  
-
-
-
-

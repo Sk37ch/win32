@@ -1,5 +1,5 @@
 ---
-Description: Contains a collection of objects that implement the IInkAnalysisRecognizer interface and that represent the ability to recognize handwriting, objects, or gestures.
+description: Contains a collection of objects that implement the IInkAnalysisRecognizer interface and that represent the ability to recognize handwriting, objects, or gestures.
 ms.assetid: d9264c9f-bf75-493e-8e41-57ea69955e6b
 title: IInkAnalysisRecognizers interface (IACom.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ Contains a collection of objects that implement the [**IInkAnalysisRecognizer**]
 
 ## Members
 
-The **IInkAnalysisRecognizers** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IInkAnalysisRecognizers** also has these types of members:
+The **IInkAnalysisRecognizers** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IInkAnalysisRecognizers** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -50,7 +50,7 @@ For a language recognizer, the [**IInkAnalysisRecognizer::GetLanguages**](iinkan
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -73,9 +73,4 @@ For a language recognizer, the [**IInkAnalysisRecognizer::GetLanguages**](iinkan
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: The WSAQUERYSET structure is used to form queries for the NSPLookupServiceBegin function, and used to deliver query results for the NSPLookupServiceNext function.
+description: The WSAQUERYSET structure is used to form queries for the NSPLookupServiceBegin function, and used to deliver query results for the NSPLookupServiceNext function.
 ms.assetid: 017b5828-bc6e-42b7-aba7-21648b2dd707
 title: Query-Related Data Structures in the SPI
 ms.topic: article
@@ -32,11 +32,8 @@ The **lpszQueryString** member is used to supply additional, namespace-specific 
 
 The [**AFPROTOCOLS**](/windows/desktop/api/Winsock2/ns-winsock2-afprotocols) structure referenced by **lpafpProtocols** is used for query purposes only, and supplies a list of protocols to constrain the query. These protocols are represented as (address family, protocol) pairs, because protocol values only have meaning within the context of an address family.
 
-The array of [**CSADDR\_INFO**](https://msdn.microsoft.com/library/ms737640(v=VS.85).aspx) structure referenced by **lpcsaBuffer** contains all of the information required for either a service to use in establishing a listen, or a client to use in establishing a connection to the service. The **LocalAddr** and **RemoteAddr** members both directly contain a [**SOCKET\_ADDRESS**](/windows/desktop/api/Ws2def/ns-ws2def-socket_address) structure. A service would create a socket using the tuple (LocalAddr.lpSockaddr->sa\_family, iSocketType, iProtocol). It would bind the socket to a local address using LocalAddr.lpSockaddr, and LocalAddr.lpSockaddrLength. The client creates its socket with the tuple (RemoteAddr.lpSockaddr->sa\_family, iSocketType, iProtocol), and uses the combination of RemoteAddr.lpSockaddr, and RemoteAddr.lpSockaddrLength when making a remote connection.
+The array of [**CSADDR\_INFO**](/windows/win32/api/ws2def/ns-ws2def-csaddr_info) structure referenced by **lpcsaBuffer** contains all of the information required for either a service to use in establishing a listen, or a client to use in establishing a connection to the service. The **LocalAddr** and **RemoteAddr** members both directly contain a [**SOCKET\_ADDRESS**](/windows/desktop/api/Ws2def/ns-ws2def-socket_address) structure. A service would create a socket using the tuple (LocalAddr.lpSockaddr->sa\_family, iSocketType, iProtocol). It would bind the socket to a local address using LocalAddr.lpSockaddr, and LocalAddr.lpSockaddrLength. The client creates its socket with the tuple (RemoteAddr.lpSockaddr->sa\_family, iSocketType, iProtocol), and uses the combination of RemoteAddr.lpSockaddr, and RemoteAddr.lpSockaddrLength when making a remote connection.
 
  
 
  
-
-
-

@@ -1,6 +1,6 @@
 ---
 title: Texture2D::GatherCmpRed(S,float,float,int2,int2,int2,int2,uint) function
-description: Samples a texture, tests the samples against a compare value, and returns the red component along with status about the operation.
+description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their red component against a compare value along with tile-mapping status. | Texture2D::GatherCmpRed(S,float,float,int2,int2,int2,int2,uint) function
 ms.assetid: 69B1F8FF-CE29-49DD-B756-3308E11D866D
 keywords:
 - GatherCmpRed function HLSL
@@ -15,23 +15,23 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherCmpRed(S,float,float,int2,int2,int2,int2,uint) function
+# Texture2D::GatherCmpRed(S,float,float,int2,int2,int2,int2,uint) function
 
-Samples a texture, tests the samples against a compare value, and returns the red component along with status about the operation.
+For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their red component against a compare value along with tile-mapping status.
 
 ## Syntax
 
 
-```C++
+``` syntax
 TemplateType GatherCmpRed(
-  _In_  SamplerState S,
-  _In_  float        Location,
-  _In_  float        CompareValue,
-  _In_  int2         Offset1,
-  _In_  int2         Offset2,
-  _In_  int2         Offset3,
-  _In_  int2         Offset4,
-  _Out_ uint         Status
+  in  SamplerState S,
+  in  float        Location,
+  in  float        CompareValue,
+  in  int2         Offset1,
+  in  int2         Offset2,
+  in  int2         Offset3,
+  in  int2         Offset4,
+  out uint         Status
 );
 ```
 
@@ -109,7 +109,7 @@ The fourth offset component applied to the texture coordinates before sampling.
 
 Type: **uint**
 
-The status of the operation. You can't access the status directly; instead, pass the status to the [**CheckAccessFullyMapped**](checkaccessfullymapped.md) intrinsic function. **CheckAccessFullyMapped** returns **TRUE** if all values from the corresponding **Sample**, **Gather**, or **Load** operation accessed mapped tiles in a [tiled resource](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-2-features). If any values were taken from an unmapped tile, **CheckAccessFullyMapped** returns **FALSE**.
+The status of the operation. You can't access the status directly; instead, pass the status to the [**CheckAccessFullyMapped**](checkaccessfullymapped.md) intrinsic function. **CheckAccessFullyMapped** returns **TRUE** if all values from the corresponding **Sample**, **Gather**, or **Load** operation accessed mapped tiles in a [tiled resource](/windows/desktop/direct3d11/direct3d-11-2-features). If any values were taken from an unmapped tile, **CheckAccessFullyMapped** returns **FALSE**.
 
 </dd> </dl>
 
@@ -145,7 +145,3 @@ This function is supported for the following types of shaders:
  
 
  
-
-
-
-

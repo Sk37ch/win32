@@ -1,5 +1,5 @@
 ---
-Description: The ITParticipantControl interface is implemented by the IPConf MSP.
+description: The ITParticipantControl interface is implemented by the IPConf MSP.
 ms.assetid: e617f2a4-6be8-4cb1-9f03-470c5100b834
 title: ITParticipantControl interface (Confpriv.h)
 ms.topic: reference
@@ -14,7 +14,7 @@ The **ITParticipantControl** interface is implemented by the IPConf MSP. This in
 
 ## Members
 
-The **ITParticipantControl** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITParticipantControl** also has these types of members:
+The **ITParticipantControl** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITParticipantControl** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -37,7 +37,7 @@ The **ITParticipantControl** interface has these methods.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |
@@ -47,9 +47,4 @@ The **ITParticipantControl** interface has these methods.
 
 
  
-
- 
-
-
-
 

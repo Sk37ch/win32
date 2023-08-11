@@ -41,14 +41,14 @@ HRESULT GetSoftKeyboardColors(
 *colorType* \[in\]
 </dt> <dd>
 
-A value specifying the color type to retrieve for the soft keyboard. Possible values are defined for the [**COLORTYPE**](colortype.md) enumeration.
+A value specifying the color type to retrieve for the soft keyboard. Possible values are defined for the [**COLORTYPE**](/windows/win32/api/icm/ne-icm-colortype) enumeration.
 
 </dd> <dt>
 
 *lpColor* \[out\]
 </dt> <dd>
 
-Pointer to a buffer in which this method retrieves a 32-bit [**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) value specifying an RGB color.
+Pointer to a buffer in which this method retrieves a 32-bit [**COLORREF**](/windows/desktop/gdi/colorref) value specifying an RGB color.
 
 </dd> </dl>
 
@@ -71,7 +71,7 @@ This method can return one of these values.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
@@ -89,20 +89,14 @@ This method can return one of these values.
 [**ISoftKbd**](isoftkbd.md)
 </dt> <dt>
 
-[**ISoftKbd::SetSoftKeyboardColors**](https://docs.microsoft.com/windows/desktop/TSF/isoftkbd-setsoftkeyboardcolors)
+[**ISoftKbd::SetSoftKeyboardColors**](/windows/desktop/TSF/isoftkbd-setsoftkeyboardcolors)
 </dt> <dt>
 
-[**COLORTYPE**](colortype.md)
+[**COLORTYPE**](/windows/win32/api/icm/ne-icm-colortype)
 </dt> <dt>
 
-[**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref)
+[**COLORREF**](/windows/desktop/gdi/colorref)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

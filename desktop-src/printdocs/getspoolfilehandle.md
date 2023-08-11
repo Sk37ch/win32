@@ -1,5 +1,5 @@
 ---
-Description: The GetSpoolFileHandle function retrieves a handle for the spool file associated with the job currently submitted by the application.
+description: The GetSpoolFileHandle function retrieves a handle for the spool file associated with the job currently submitted by the application.
 ms.assetid: df6f28b3-66a6-4fb7-bdde-40cd7d934c5f
 title: GetSpoolFileHandle function (Winspool.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ If the function fails, it returns **INVALID\_HANDLE\_VALUE**.
 
 ## Remarks
 
-With the handle to the spool file, your application can write to the spool file with calls to [**WriteFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile) followed by [**CommitSpoolData**](commitspooldata.md).
+With the handle to the spool file, your application can write to the spool file with calls to [**WriteFile**](/windows/desktop/api/fileapi/nf-fileapi-writefile) followed by [**CommitSpoolData**](commitspooldata.md).
 
 Your application must not call [**ClosePrinter**](closeprinter.md) on *hPrinter* until after it has accessed the spool file for the last time. Then it should call [**CloseSpoolFileHandle**](closespoolfilehandle.md) followed by **ClosePrinter**. Attempts to access the spool file handle after the original *hPrinter* has been closed will fail even if the file handle itself has not been closed. **CloseSpoolFileHandle** will itself fail if **ClosePrinter** is called first.
 
@@ -61,7 +61,7 @@ This function will fail if it is called before the print job has finished spooli
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                      |
@@ -98,9 +98,4 @@ This function will fail if it is called before the print job has finished spooli
 </dt> </dl>
 
  
-
- 
-
-
-
 

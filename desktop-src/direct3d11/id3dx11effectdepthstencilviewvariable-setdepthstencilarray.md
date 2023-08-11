@@ -52,7 +52,7 @@ A pointer to an array of depth-stencil-view interfaces. See [**ID3D11DepthStenci
 *Offset* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The zero-based array index to set the first interface.
 
@@ -61,7 +61,7 @@ The zero-based array index to set the first interface.
 *Count* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The number of elements in the array.
 
@@ -84,7 +84,7 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 
 
 
-|                    |                                                                                                                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
 | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |
@@ -99,10 +99,4 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

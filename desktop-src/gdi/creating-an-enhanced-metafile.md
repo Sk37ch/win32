@@ -1,5 +1,5 @@
 ---
-Description: This section contains an example that demonstrates the creation of an enhanced metafile that is stored on a disk, using a file name specified by the user.
+description: This section contains an example that demonstrates the creation of an enhanced metafile that is stored on a disk, using a file name specified by the user.
 ms.assetid: 084b2737-eb55-4587-b8e8-3eb3fa3688c4
 title: Creating an Enhanced Metafile
 ms.topic: article
@@ -12,7 +12,7 @@ This section contains an example that demonstrates the creation of an enhanced m
 
 The example uses a device context for the application window as the reference device context. (The system stores the resolution data for this device in the enhanced-metafile's header.) The application retrieves a handle identifying this device context by calling the [**GetDC**](/windows/desktop/api/Winuser/nf-winuser-getdc) function.
 
-The example uses the dimensions of the application's client area to define the dimensions of the picture frame. Using the rectangle dimensions returned by the [**GetClientRect**](https://msdn.microsoft.com/library/ms633503(v=VS.85).aspx) function, the application converts the device units to .01-millimeter units and passes the converted values to the [**CreateEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-createenhmetafilea) function.
+The example uses the dimensions of the application's client area to define the dimensions of the picture frame. Using the rectangle dimensions returned by the [**GetClientRect**](/windows/win32/api/winuser/nf-winuser-getclientrect) function, the application converts the device units to .01-millimeter units and passes the converted values to the [**CreateEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-createenhmetafilea) function.
 
 The example displays a **Save As** common dialog box that enables the user to specify the file name of the new enhanced metafile. The system appends the three-character .emf extension to this file name and passes the name to the [**CreateEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-createenhmetafilea) function.
 
@@ -125,6 +125,3 @@ ReleaseDC(hWnd, hdcRef);
  
 
  
-
-
-

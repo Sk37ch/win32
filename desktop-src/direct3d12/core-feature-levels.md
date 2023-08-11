@@ -7,12 +7,6 @@ ms.date: 11/05/2019
 
 # The Direct3D 12 Core 1.0 Feature Level
 
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
-> [!IMPORTANT]
-> The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
-
 The Core 1.0 Feature Level is a subset of the full Direct3D 12 feature set. Core 1.0 Feature Level can be exposed by a category of devices known as *compute-only devices*. The overall driver model for compute-only devices is the Microsoft Compute Driver Model (MCDM). MCDM is a scaled-down peer of the Windows Device Driver Model (WDDM), which has a larger scope.
 
 A device that supports *only* the features within a Core Feature Level is known as a *Core device*.
@@ -56,7 +50,7 @@ The runtime performs conversion of 5.x non DXIL shader models to 6.0 DXIL. So th
 
 - Support for resource binding tier 1 only
 - Exceptions:
-  - No support texture samplers
+  - No support for texture samplers
   - Support for 64 UAVs like Feature Level 11.1+ (as opposed to only 8)
   - Implementations do not have to implement bounds checking on shader accesses to resources through descriptors, out of bounds accesses produce undefined behavior.
     - As a byproduct, the descriptor range flag D3D12_DESCRIPTOR_RANGE_FLAG_DESCRIPTORS_STATIC_KEEPING_BUFFER_BOUNDS_CHECKS in root signatures is not supported.
@@ -112,11 +106,11 @@ The list below represents the supported subset of the full application programmi
 * [ID3D12Device::Evict](/windows/win32/api/d3d12/nf-d3d12-id3d12device-evict)
 * [ID3D12Device::GetAdapterLuid](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getadapterluid)
 * [ID3D12Device::GetCopyableFootprints](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getcopyablefootprints)
-* [ID3D12Device::GetCustomHeapProperties](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties)
+* [ID3D12Device::GetCustomHeapProperties](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties(uint_d3d12_heap_type))
 * [ID3D12Device::GetDescriptorHandleIncrementSize](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getdescriptorhandleincrementsize)
 * [ID3D12Device::GetDeviceRemovedReason](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getdeviceremovedreason)
 * [ID3D12Device::GetNodeCount](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getnodecount)
-* [ID3D12Device::GetResourceAllocationInfo](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo)
+* [ID3D12Device::GetResourceAllocationInfo](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo(uint_uint_constd3d12_resource_desc))
 * [ID3D12Device::MakeResident](/windows/win32/api/d3d12/nf-d3d12-id3d12device-makeresident)
 * [ID3D12Device::OpenSharedHandle](/windows/win32/api/d3d12/nf-d3d12-id3d12device-opensharedhandle)
 * [ID3D12Device::OpenSharedHandleByName](/windows/win32/api/d3d12/nf-d3d12-id3d12device-opensharedhandlebyname)
@@ -140,7 +134,7 @@ The list below represents the supported subset of the full application programmi
 
 ### ID3D12Device4 methods
 
-* [ID3D12Device4::GetResourceAllocationInfo1](/windows/win32/api/d3d12/nf-d3d12-id3d12device4-getresourceallocationinfo1)
+* [ID3D12Device4::GetResourceAllocationInfo1](/windows/win32/api/d3d12/nf-d3d12-id3d12device4-getresourceallocationinfo1(uint_uint_constd3d12_resource_desc_d3d12_resource_allocation_info1))
 
 ### ID3D12Device5 methods
 

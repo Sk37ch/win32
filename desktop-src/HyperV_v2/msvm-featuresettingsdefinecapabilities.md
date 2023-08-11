@@ -1,5 +1,5 @@
 ---
-Description: Provides a link between the Ethernet switch feature capabilities instance and the minimum, maximum, incremental, and default settings for a resource.
+description: Provides a link between the Ethernet switch feature capabilities instance and the minimum, maximum, incremental, and default settings for a resource.
 ms.assetid: 5abd8b2a-9f72-4875-be5c-ce5a2f526e9a
 title: Msvm_FeatureSettingsDefineCapabilities class
 ms.topic: reference
@@ -61,10 +61,10 @@ Data type: **[**Msvm\_EthernetSwitchFeatureCapabilities**](msvm-ethernetswitchfe
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
 </dt> </dl>
 
-A reference to an instance of the [**Msvm\_EthernetSwitchFeatureCapabilities**](msvm-ethernetswitchfeaturecapabilities.md) class that represents the Ethernet switch feature capabilities. This property is inherited from [**CIM\_Component**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-component).
+A reference to an instance of the [**Msvm\_EthernetSwitchFeatureCapabilities**](msvm-ethernetswitchfeaturecapabilities.md) class that represents the Ethernet switch feature capabilities. This property is inherited from [**CIM\_Component**](/windows/desktop/CIMWin32Prov/cim-component).
 
 </dd> <dt>
 
@@ -77,10 +77,10 @@ Data type: **[**Msvm\_FeatureSettingData**](msvm-featuresettingdata.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
 </dt> </dl>
 
-A reference to an instance of the [**Msvm\_FeatureSettingData**](msvm-featuresettingdata.md) class that represents the resource settings. This property is inherited from [**CIM\_Component**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-component).
+A reference to an instance of the [**Msvm\_FeatureSettingData**](msvm-featuresettingdata.md) class that represents the resource settings. This property is inherited from [**CIM\_Component**](/windows/desktop/CIMWin32Prov/cim-component).
 
 </dd> <dt>
 
@@ -95,7 +95,7 @@ Access type: Read-only
 
 Specifies whether the non-**Null**, non-key properties of the **PartComponent** are treated independently or as a correlated set. For example, an independent set of maximum properties might be defined, yet there is no relationship between each property. On the other hand, several correlated sets of maximum properties might need to be defined when the maximum values of each are dependent on some of the others.
 
-This property is inherited from [**CIM\_SettingsDefineCapabilities**](https://docs.microsoft.com/previous-versions//cc136913(v=vs.85)).
+This property is inherited from [**CIM\_SettingsDefineCapabilities**](/previous-versions//cc136913(v=vs.85)).
 
 <dl> <dt>
 
@@ -123,7 +123,7 @@ Indicates further semantics on the interpretation of all non-**Null**, non-key p
 
 The values below are only evaluated against non-**Null**, non-key, non-enumerated, non-Boolean, numeric properties of the setting data. Each property of that set must be mathematically comparable to other instances of that property.
 
-This property is inherited from [**CIM\_SettingsDefineCapabilities**](https://docs.microsoft.com/previous-versions//cc136913(v=vs.85)).
+This property is inherited from [**CIM\_SettingsDefineCapabilities**](/previous-versions//cc136913(v=vs.85)).
 
 
 
@@ -152,7 +152,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Specifies further semantics on the interpretation of the non-**Null**, non-key properties of the setting data. This property is inherited from [**CIM\_SettingsDefineCapabilities**](https://docs.microsoft.com/previous-versions//cc136913(v=vs.85)).
+Specifies further semantics on the interpretation of the non-**Null**, non-key properties of the setting data. This property is inherited from [**CIM\_SettingsDefineCapabilities**](/previous-versions//cc136913(v=vs.85)).
 
 
 
@@ -173,7 +173,7 @@ Specifies further semantics on the interpretation of the non-**Null**, non-key p
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -184,9 +184,4 @@ Specifies further semantics on the interpretation of the non-**Null**, non-key p
 
 
  
-
- 
-
-
-
 

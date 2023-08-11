@@ -1,5 +1,5 @@
 ---
-Description: Used with the BCryptGetProperty and BCryptSetProperty functions to identify a property.
+description: Used with the BCryptGetProperty and BCryptSetProperty functions to identify a property.
 ms.assetid: ebcc8202-94b4-47ad-9918-e5bc843a258f
 title: Cryptography Primitive Property Identifiers (Bcrypt.h)
 ms.topic: reference
@@ -78,10 +78,10 @@ A pointer to a null-terminated Unicode string that represents the chaining mode 
 
 | Identifier                   | Value                         | Description                                                                                                                                                                    |
 |------------------------------|-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **BCRYPT\_CHAIN\_MODE\_CBC** | L"ChainingModeCBC"<br/> | Sets the algorithm's chaining mode to [*cipher block chaining*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly).<br/>            |
+| **BCRYPT\_CHAIN\_MODE\_CBC** | L"ChainingModeCBC"<br/> | Sets the algorithm's chaining mode to [*cipher block chaining*](/windows/desktop/SecGloss/c-gly).<br/>            |
 | **BCRYPT\_CHAIN\_MODE\_CCM** | L"ChainingModeCCM"<br/> | Sets the algorithm's chaining mode to counter with CBC-MAC mode (CCM).**Windows Vista:** This value is supported beginning with Windows Vista with SP1.<br/> <br/> |
-| **BCRYPT\_CHAIN\_MODE\_CFB** | L"ChainingModeCFB"<br/> | Sets the algorithm's chaining mode to [*cipher feedback*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly).<br/>                              |
-| **BCRYPT\_CHAIN\_MODE\_ECB** | L"ChainingModeECB"<br/> | Sets the algorithm's chaining mode to [*electronic codebook*](https://docs.microsoft.com/windows/desktop/SecGloss/e-gly).<br/>                  |
+| **BCRYPT\_CHAIN\_MODE\_CFB** | L"ChainingModeCFB"<br/> | Sets the algorithm's chaining mode to [*cipher feedback*](/windows/desktop/SecGloss/c-gly).<br/>                              |
+| **BCRYPT\_CHAIN\_MODE\_ECB** | L"ChainingModeECB"<br/> | Sets the algorithm's chaining mode to [*electronic codebook*](/windows/desktop/SecGloss/e-gly).<br/>                  |
 | **BCRYPT\_CHAIN\_MODE\_GCM** | L"ChainingModeGCM"<br/> | Sets the algorithm's chaining mode to Galois/counter mode (GCM).**Windows Vista:** This value is supported beginning with Windows Vista with SP1.<br/> <br/>       |
 | **BCRYPT\_CHAIN\_MODE\_NA**  | L"ChainingModeN/A"<br/> | The algorithm does not support chaining.<br/>                                                                                                                            |
 
@@ -167,7 +167,7 @@ L"HashOIDList"
 
 
 
-The list of [*DER*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly)-encoded hashing [*object identifiers*](https://docs.microsoft.com/windows/desktop/SecGloss/o-gly) (OIDs). This property is a [**BCRYPT\_OID\_LIST**](/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_oid_list) structure. This property can only be read.
+The list of [*DER*](/windows/desktop/SecGloss/d-gly)-encoded hashing [*object identifiers*](/windows/desktop/SecGloss/o-gly) (OIDs). This property is a [**BCRYPT\_OID\_LIST**](/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_oid_list) structure. This property can only be read.
 
 
 </dt> </dl> </dd> <dt>
@@ -180,7 +180,7 @@ L"IV"
 
 
 
-Contains the [*initialization vector*](https://docs.microsoft.com/windows/desktop/SecGloss/i-gly) (IV) for a key. This property only applies to keys.
+Contains the [*initialization vector*](/windows/desktop/SecGloss/i-gly) (IV) for a key. This property only applies to keys.
 
 
 </dt> </dl> </dd> <dt>
@@ -245,7 +245,7 @@ L"MessageBlockLength"
 
 
 
-This can be set on any key handle that has the CFB chaining mode set. By default, this property is set to 1 for 8-bit CFB. Setting it to the block size in bytes causes full-block CFB to be used.
+This can be set on any key handle that has the CFB chaining mode set. By default, this property is set to 1 for 8-bit CFB. Setting it to the block size in bytes causes full-block CFB to be used. For XTS keys it is used to set the size, in bytes, of the XTS Data Unit (commonly 512 or 4096).
 
 
 </dt> </dl> </dd> <dt>
@@ -333,7 +333,7 @@ The size, in bytes, of the length of a signature for a key. This data type is a 
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |
@@ -342,9 +342,4 @@ The size, in bytes, of the length of a signature for a key. This data type is a 
 
 
  
-
- 
-
-
-
 

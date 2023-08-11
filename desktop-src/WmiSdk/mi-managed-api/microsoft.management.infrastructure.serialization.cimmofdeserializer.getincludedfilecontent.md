@@ -1,4 +1,5 @@
 ---
+description: Describes the **CimMofDeserializer.GetIncludedFileContent** delegate, and documents its syntax, parameters, and return value.
 title: CimMofDeserializer.GetIncludedFileContent delegate (Microsoft.Management.Infrastructure.Serialization)
 TOCTitle: CimMofDeserializer.GetIncludedFileContent delegate (Microsoft.Management.Infrastructure.Serialization)
 ms:assetid: T:Microsoft.Management.Infrastructure.Serialization.CimMofDeserializer.GetIncludedFileContent
@@ -32,7 +33,7 @@ ms.topic: reference
 
 Represents a callback to retrieve the file's contents in the form of a byte array.
 
-**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](hh832966\(v=vs.85\).md)  
+**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))  
 **Assembly:**  Microsoft.Management.Infrastructure (in Microsoft.Management.Infrastructure.dll)  
 
 ## Syntax
@@ -64,16 +65,16 @@ Public Delegate Function GetIncludedFileContent (
 #### Parameters
 
   - fileName  
-    Type: [System.String](/dotnet/api/system.string?view=netframework-4.8)
+    Type: [System.String](/dotnet/api/system.string)
     
     File name, including path.
 
 #### Return Value
 
-Type: [System.Byte](/dotnet/api/system.byte?view=netframework-4.8)\[\]
+Type: [System.Byte](/dotnet/api/system.byte)\[\]
 
 Returns the file's contents in the form of a byte array.
 
 ## See Also
 
-[Microsoft.Management.Infrastructure.Serialization](hh832966\(v=vs.85\).md)
+[Microsoft.Management.Infrastructure.Serialization](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))

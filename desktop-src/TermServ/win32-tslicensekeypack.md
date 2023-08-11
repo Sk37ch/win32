@@ -106,7 +106,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**BitMap**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("0", "1", "2", "3"), [**BitValues**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("RD Session", "VDI Session", "Calista", "VDI Partners")
+Qualifiers: [**BitMap**](/windows/desktop/WmiSdk/standard-qualifiers) ("0", "1", "2", "3"), [**BitValues**](/windows/desktop/WmiSdk/standard-qualifiers) ("RD Session", "VDI Session", "Calista", "VDI Partners")
 </dt> </dl>
 
 Qualifier for TS Licensing key pack access rights
@@ -142,7 +142,7 @@ Description of the Remote Desktop Services license key pack.
 **ExpirationDate**
 </dt> <dd> <dl> <dt>
 
-Data type: **[DATETIME](https://docs.microsoft.com/windows/desktop/WmiSdk/datetime)**
+Data type: **[DATETIME](/windows/desktop/WmiSdk/datetime)**
 </dt> <dt>
 
 Access type: Read-only
@@ -174,7 +174,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifier for the Remote Desktop Services license key pack.
@@ -192,58 +192,15 @@ Access type: Read-only
 
 Type of key pack for the Remote Desktop license server.
 
-<dt>
-
-0
-</dt> <dd>
-
-The Remote Desktop Services license key pack type is unknown.
-
-</dd> <dt>
-
-1
-</dt> <dd>
-
-The Remote Desktop Services license key pack type is a retail purchase.
-
-</dd> <dt>
-
-2
-</dt> <dd>
-
-The Remote Desktop Services license key pack type is a volume purchase.
-
-</dd> <dt>
-
-3
-</dt> <dd>
-
-The Remote Desktop Services license key pack type is a concurrent license.
-
-</dd> <dt>
-
-4
-</dt> <dd>
-
-The Remote Desktop Services license key pack type is temporary.
-
-</dd> <dt>
-
-5
-</dt> <dd>
-
-The Remote Desktop Services license key pack type is an open license.
-
-</dd> <dt>
-
-6
-</dt> <dd>
-
-Not supported.
-
-</dd> </dl>
-
-</dd> <dt>
+| Value | Description |
+|-------|-------------|
+| 0 | The Remote Desktop Services license key pack type is unknown. |
+| 1 | The Remote Desktop Services license key pack type is a retail purchase. |
+| 2 | The Remote Desktop Services license key pack type is a volume purchase. |
+| 3 | The Remote Desktop Services license key pack type is a concurrent license. |
+| 4 | The Remote Desktop Services license key pack type is temporary. |
+| 5 | The Remote Desktop Services license key pack type is an open license. |
+| 6 | Not supported. |
 
 **ProductType**
 </dt> <dd> <dl> <dt>
@@ -256,30 +213,12 @@ Access type: Read-only
 
 Product type of the Remote Desktop Services license key pack.
 
-<dt>
-
-0
-</dt> <dd>
-
-The Remote Desktop Services license key pack product type is per device. Therefore, each device that connects to the RD Session Host server must have a license.
-
-</dd> <dt>
-
-1
-</dt> <dd>
-
-The Remote Desktop Services license key pack product type is per user. Therefore, each user who connects to the RD Session Host server must have a license.
-
-</dd> <dt>
-
-2
-</dt> <dd>
-
-This product type is not valid.
-
-</dd> </dl>
-
-</dd> <dt>
+| Value | Description |
+|-------|-------------|
+| 0 | The Remote Desktop Services license key pack product type is per device. Therefore, each device that connects to the RD Session Host server must have a license. |
+| 1 | The Remote Desktop Services license key pack product type is per user. Therefore, each user who connects to the RD Session Host server must have a license. |
+| 2 | This product type is not valid. |
+| 3 | BuiltIn product type |
 
 **ProductVersion**
 </dt> <dd> <dl> <dt>
@@ -292,30 +231,14 @@ Access type: Read-only
 
 Product version for the Remote Desktop Services license key pack.
 
-<dt>
-
-"Windows Server 2012"
-</dt> <dd>
-
-Only servers running Windows Server 2012, Windows Server 2008 R2, or Windows Server 2008 are supported with this license.
-
-</dd> <dt>
-
-"Windows Server 7"
-</dt> <dd>
-
-Only servers running Windows Server 2008 R2, or Windows Server 2008 are supported with this license.
-
-</dd> <dt>
-
-"Windows Server 2008"
-</dt> <dd>
-
-Only servers running Windows Server 2008 are supported by this key pack.
-
-</dd> </dl>
-
-</dd> <dt>
+| Value | Description |
+|-------|-------------|
+| "Windows Server 2022" | Only servers running Windows Server 2022 or lower are supported with this license. |
+| "Windows Server 2019" | Only servers running Windows Server 2019 or lower are supported with this license. |
+| "Windows Server 2016" | Only servers running Windows Server 2016 or lower are supported with this license. |
+| "Windows Server 2012" | Only servers running Windows Server 2012, Windows Server 2008 R2, or Windows Server 2008 are supported with this license. |
+| "Windows Server 7" | Only servers running Windows Server 2008 R2, or Windows Server 2008 are supported with this license. |
+| "Windows Server 2008" | Only servers running Windows Server 2008 are supported by this key pack. |
 
 **ProductVersionID**
 </dt> <dd> <dl> <dt>
@@ -328,44 +251,16 @@ Access type: Read-only
 
 Product version identifier for the Remote Desktop Services license key pack.
 
-<dt>
-
-4
-</dt> <dd>
-
-Windows Server 2012
-
-</dd> <dt>
-
-3
-</dt> <dd>
-
-Windows Server 2008 R2
-
-</dd> <dt>
-
-2
-</dt> <dd>
-
-Windows Server 2008
-
-</dd> <dt>
-
-1
-</dt> <dd>
-
-Not supported.
-
-</dd> <dt>
-
-0
-</dt> <dd>
-
-Not supported.
-
-</dd> </dl>
-
-</dd> <dt>
+| Value | Description |
+|-------|-------------|
+| 0 | Not supported |
+| 1 | Not supported |
+| 2 | Windows Server 2008 |
+| 3 | Windows Server 2008 R2 |
+| 4 | Windows Server 2012/Windows Server 2012 R2 |
+| 5 | Windows Server 2016 |
+| 6 | Windows Server 2019 |
+| 7 | Windows Server 2022 |
 
 **TotalLicenses**
 </dt> <dd> <dl> <dt>
@@ -397,13 +292,13 @@ Qualifier for TS Licensing key pack type and model. Examples: VDI Per Device sub
 
 You must be a member of the Administrators group to use this class.
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Microsoft Windows Software Development Kit (SDK). They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://docs.microsoft.com/windows/desktop/WmiSdk/managed-object-format--mof-).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Microsoft Windows Software Development Kit (SDK). They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## Requirements
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
@@ -430,10 +325,4 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Sent by an application to direct the IME window to carry out the requested command.
+description: Sent by an application to direct the IME window to carry out the requested command.
 ms.assetid: 5d3b7f8a-57c9-41e3-8022-9a3f515fc32e
 title: WM_IME_CONTROL message (Winuser.h)
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WM_IME_CONTROL message
 
-Sent by an application to direct the IME window to carry out the requested command. The application uses this message to control the IME window that it has created. To send this message, the application calls the [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx) function with the following parameters.
+Sent by an application to direct the IME window to carry out the requested command. The application uses this message to control the IME window that it has created. To send this message, the application calls the [**SendMessage**](/windows/win32/api/winuser/nf-winuser-sendmessage) function with the following parameters.
 
 
 ```C++
@@ -69,7 +69,7 @@ The message returns a command-specific value.
 
 
 
-|                                     |                                                                                                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                                                      |
@@ -120,7 +120,3 @@ The message returns a command-specific value.
  
 
  
-
-
-
-

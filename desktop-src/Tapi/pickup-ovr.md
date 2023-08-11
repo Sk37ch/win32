@@ -1,5 +1,5 @@
 ---
-Description: The pickup operation allows an application to answer a session that is alerting at another address. The application identifies the target of the pickup and is returned a session identifier for the picked-up call.
+description: The pickup operation allows an application to answer a session that is alerting at another address. The application identifies the target of the pickup and is returned a session identifier for the picked-up call.
 ms.assetid: 3dfbb5c0-b533-403f-ad6c-b9e1b52ab47a
 title: Pickup
 ms.topic: article
@@ -22,13 +22,10 @@ When a session has been picked up successfully, the application receives a state
 
 Not all service providers support use of this operation.
 
-**TAPI 2.x:** See [**linePickup**](https://msdn.microsoft.com/library/ms736009(v=VS.85).aspx).
+**TAPI 2.x:** See [**linePickup**](/windows/win32/api/tapi/nf-tapi-linepickup).
 
 **TAPI 3.x:** See [**ITBasicCallControl::Pickup**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-pickup).
 
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: The IsOwnershipAllowed method of the Win32\_Tpm class indicates whether the ability to install an owner for the device is permitted.
+description: The IsOwnershipAllowed method of the Win32\_Tpm class indicates whether the ability to install an owner for the device is permitted.
 ms.assetid: dfeb5afe-4169-470b-b5e4-cf1e5781271e
 title: IsOwnershipAllowed method of the Win32_Tpm class
 ms.topic: reference
@@ -65,13 +65,13 @@ Common return codes are listed below.
 
 ## Remarks
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/Aa823192(v=VS.85).aspx).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## Requirements
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                      |
@@ -91,7 +91,3 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
  
 
  
-
-
-
-

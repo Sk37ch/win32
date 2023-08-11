@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.EventSourceKey property"
 title: InstanceParameters.EventSourceKey property 
 TOCTitle: 'EventSourceKey property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.EventSourceKey
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the name of the event log the database engine uses for its event log messages. By default, all event log messages will go to the Application event log. If the registry key name for another event log is configured then the event log messages will go there instead.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,15 +58,14 @@ public string EventSourceKey { get; set; }
 
 #### Property value
 
-Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+Type: [System.String](/dotnet/api/system.string)  
 
 ## See also
 
 #### Reference
 
-[InstanceParameters class](dn350942\(v=exchg.10\).md)
+[InstanceParameters class](./instanceparameters-class.md)
 
-[InstanceParameters members](dn350943\(v=exchg.10\).md)
+[InstanceParameters members](./instanceparameters-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

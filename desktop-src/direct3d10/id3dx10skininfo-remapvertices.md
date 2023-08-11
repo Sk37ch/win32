@@ -1,5 +1,5 @@
 ---
-Description: Change which vertices are influenced by which bones.
+description: Change which vertices are influenced by which bones.
 ms.assetid: b0d71f3e-9a2d-469d-808b-2fa768cf14b0
 title: ID3DX10SkinInfo::RemapVertices method (D3DX10.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT RemapVertices(
 *NewVertexCount* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The new number of vertices.
 
@@ -48,7 +48,7 @@ The new number of vertices.
 *pVertexRemap* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 A pointer to an array of vertex indices, which describe the remapping. For example, say SkinInfo contains some vertices such that bone0 is mapped to v0, bone1 to v1, and bone2 to v2, and array with 2,1,0 is specified for pBoneRemap. This will cause bone0 to be mapped to v2, bone1 to v1, and bone2 to v0.
 
@@ -64,7 +64,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -84,7 +84,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

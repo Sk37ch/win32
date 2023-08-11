@@ -1,5 +1,5 @@
 ---
-Description: The Commit method ensures that any changes made to an object open in transacted mode are reflected in the parent storage.
+description: The Commit method ensures that any changes made to an object open in transacted mode are reflected in the parent storage.
 ms.assetid: 00986e48-c5b9-4ac9-a204-a0774cb5e03e
 title: IByteBuffer::Commit method (Scardssp.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # IByteBuffer::Commit method
 
-\[The **Commit** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) interface provides similar functionality.\]
+\[The **Commit** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) interface provides similar functionality.\]
 
 The **Commit** method ensures that any changes made to an object open in transacted mode are reflected in the parent storage.
 
@@ -71,7 +71,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -85,9 +85,4 @@ if (FAILED(hr))
 
 
  
-
- 
-
-
-
 

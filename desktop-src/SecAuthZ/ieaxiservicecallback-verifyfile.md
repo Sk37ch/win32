@@ -1,5 +1,5 @@
 ---
-Description: Performs security checks on the specified ActiveX object and returns the location where the corresponding .cab file was downloaded.
+description: Performs security checks on the specified ActiveX object and returns the location where the corresponding .cab file was downloaded.
 ms.assetid: ba8e4f9b-1569-43f9-b27c-a987044fff41
 title: IeAxiServiceCallback::VerifyFile method
 ms.topic: reference
@@ -52,13 +52,13 @@ The name of the file where the .cab file associated with the ActiveX object was 
 
 If the method succeeds, the method returns S\_OK.
 
-If the method fails, it returns an **HRESULT** value that indicates the error. For a list of common error codes, see [Common HRESULT Values](https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values).
+If the method fails, it returns an **HRESULT** value that indicates the error. For a list of common error codes, see [Common HRESULT Values](/windows/desktop/SecCrypto/common-hresult-values).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                                 |
@@ -74,9 +74,4 @@ If the method fails, it returns an **HRESULT** value that indicates the error. F
 </dt> </dl>
 
  
-
- 
-
-
-
 

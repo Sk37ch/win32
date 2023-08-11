@@ -1,6 +1,6 @@
 ---
 title: ID3DX11EffectTechnique GetAnnotationByIndex method (D3dx11effect.h)
-description: Get an annotation by index.
+description: Get an annotation by index. | ID3DX11EffectTechnique GetAnnotationByIndex method (D3dx11effect.h)
 ms.assetid: 703663b0-ee00-4686-a038-6c99ce61266b
 keywords:
 - GetAnnotationByIndex method Direct3D 11
@@ -41,7 +41,7 @@ ID3DX11EffectVariable* GetAnnotationByIndex(
 *Index* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The zero-based index of the interface pointer.
 
@@ -66,7 +66,7 @@ Use an annotation to attach a piece of metadata to a technique.
 
 
 
-|                    |                                                                                                                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
 | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |
@@ -81,10 +81,4 @@ Use an annotation to attach a piece of metadata to a technique.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

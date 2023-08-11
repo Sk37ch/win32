@@ -1,5 +1,5 @@
 ---
-Description: Association class between a guest service interface component and the guest service resource.
+description: Association class between a guest service interface component and the guest service resource.
 ms.assetid: 4c16c3ab-4137-40ab-be2e-f385d8e36a41
 title: Msvm_GuestServiceInterfaceSettingDataComponent class
 ms.topic: reference
@@ -55,7 +55,7 @@ Data type: **Msvm\_GuestServiceInterfaceComponentSettingData**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
 </dt> </dl>
 
 A [**Msvm\_GuestServiceInterfaceComponentSettingData**](msvm-guestserviceinterfacecomponentsettingdata.md) referencing the guest service interface component.
@@ -71,7 +71,7 @@ Data type: **CIM\_SettingData**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
 </dt> </dl>
 
 A [**CIM\_SettingData**](cim-settingdata.md) that references the guest service resource.
@@ -82,7 +82,7 @@ A [**CIM\_SettingData**](cim-settingdata.md) that references the guest service r
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -100,9 +100,4 @@ A [**CIM\_SettingData**](cim-settingdata.md) that references the guest service r
 </dt> </dl>
 
  
-
- 
-
-
-
 

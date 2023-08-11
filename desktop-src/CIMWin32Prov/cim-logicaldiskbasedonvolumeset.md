@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_LogicalDiskBasedOnVolumeSet association relates logical disks with the volume on which they are found. Logical disks can be based on a single volume (for example, exposed by a software volume manager) or a disk partition.
+description: The CIM\_LogicalDiskBasedOnVolumeSet association relates logical disks with the volume on which they are found. Logical disks can be based on a single volume (for example, exposed by a software volume manager) or a disk partition.
 ms.assetid: 15a588c9-a6b0-4393-927f-8e8818315542
 ms.tgt_platform: multiple
 title: CIM_LogicalDiskBasedOnVolumeSet class
@@ -65,7 +65,7 @@ Data type: **CIM\_VolumeSet**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_VolumeSet**](cim-volumeset.md) that describes the volume set.
@@ -81,7 +81,7 @@ Data type: **CIM\_LogicalDisk**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_LogicalDisk**](cim-logicaldisk.md) that describes the logical disk which is built on the volume set.
@@ -99,7 +99,7 @@ Access type: Read-only
 
 Indicates the end of the high-level extent in lower-level storage. This property is useful when mapping non-contiguous extents into a higher-level grouping.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 This property is inherited from [**CIM\_BasedOn**](cim-basedon.md).
 
@@ -116,7 +116,7 @@ Access type: Read-only
 
 Indicates the beginning of the high-level extent in lower-level storage.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 This property is inherited from [**CIM\_BasedOn**](cim-basedon.md).
 
@@ -134,7 +134,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -152,9 +152,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

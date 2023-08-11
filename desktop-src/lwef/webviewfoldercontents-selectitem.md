@@ -1,6 +1,6 @@
 ---
 title: WebViewFolderContents.SelectItem method (Shldisp.h)
-description: Sets the selection state of an item in the view.
+description: WebViewFolderContents.SelectItem method - Sets the selection state of an item in the view.
 ms.assetid: c0e163ee-1951-476c-807a-781e26766d99
 keywords:
 - SelectItem method Legacy Windows Environment Features
@@ -43,7 +43,7 @@ WebViewFolderContents.SelectItem(
 
 Type: **Variant\***
 
-The [**FolderItem**](https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-folderitem) object for which the selection state will be set.
+The [**FolderItem**](../shell/folderitem.md) object for which the selection state will be set.
 
 </dd> <dt>
 
@@ -166,7 +166,7 @@ The following example shows the proper usage of this method for JScript embedded
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
@@ -177,10 +177,4 @@ The following example shows the proper usage of this method for JScript embedded
 
 
  
-
- 
-
-
-
-
 

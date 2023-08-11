@@ -1,5 +1,5 @@
 ---
-Description: Communicating with a network device using the WMI SNMP interface requires the configuration of the device, SNMP, and WMI services. The information in this topic explains how to set up the WMI SNMP environment.
+description: Communicating with a network device using the WMI SNMP interface requires the configuration of the device, SNMP, and WMI services. The information in this topic explains how to set up the WMI SNMP environment.
 ms.assetid: 8074175a-af66-49b2-9723-dfb38a08fb63
 ms.tgt_platform: multiple
 title: Setting up the WMI SNMP Environment
@@ -82,11 +82,11 @@ As a provider, the SNMP provider acts as a bridge between SNMP data and WMI clas
 
 The compiler runs in the command-line mode, using one MIB file as input. The following command loads the specified MIB file into the SMIR.
 
-**smi2smir /a** *<MIB file>*
+**smi2smir /a** *\<MIB file>*
 
 ## Setting Up SNMP Communities
 
-As a security measure, the SNMP "public" community is not created by default. You can create the community as described in [Communities Registry Settings](https://msdn.microsoft.com/library/ms907028.aspx). If you do not have any community, then create the "public" community to access the SNMP provider.
+As a security measure, the SNMP "public" community is not created by default. You can create the community as described in [Communities Registry Settings](/previous-versions/windows/embedded/ms907028(v=msdn.10)). If you do not have any community, then create the "public" community to access the SNMP provider.
 
 ## Generating MOF Files from MIB Files
 
@@ -162,6 +162,3 @@ The following commands are an example of how to add the MOF files that are gener
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Defines values that determine how to fetch the credential of a Group Managed Service Account (gMSA).
+description: Defines values that determine how to fetch the credential of a Group Managed Service Account (gMSA).
 ms.assetid: 90891448-22F6-497A-A612-3DAB8622C325
 title: CRED_FETCH enumeration (Secpkg.h)
 ms.topic: reference
@@ -46,7 +46,7 @@ Signifies that the operating system should first attempt to retrieve the passwor
 <span id="CredFetchDPAPI"></span><span id="credfetchdpapi"></span><span id="CREDFETCHDPAPI"></span>**CredFetchDPAPI**
 </dt> <dd>
 
-Returns the local DPAPI credential to the caller. [*Security support providers*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSPs) generally would not require the use of this enumeration.
+Returns the local DPAPI credential to the caller. [*Security support providers*](/windows/desktop/SecGloss/s-gly) (SSPs) generally would not require the use of this enumeration.
 
 </dd> <dt>
 
@@ -61,7 +61,7 @@ Forces the operating system to attempt to read the password from the domain cont
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                |
@@ -70,9 +70,4 @@ Forces the operating system to attempt to read the password from the domain cont
 
 
  
-
- 
-
-
-
 

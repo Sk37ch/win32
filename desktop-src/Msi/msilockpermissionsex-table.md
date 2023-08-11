@@ -1,5 +1,5 @@
 ---
-Description: The MsiLockPermissionsEx Table can be used to secure services, files, registry keys, and created folders.
+description: The MsiLockPermissionsEx Table can be used to secure services, files, registry keys, and created folders.
 ms.assetid: c642f02d-07fa-463f-8151-769c28a71a5c
 title: MsiLockPermissionsEx Table
 ms.topic: article
@@ -58,7 +58,7 @@ This column and the LockObject column specify the file, directory, registry key,
 <span id="SDDLText"></span><span id="sddltext"></span><span id="SDDLTEXT"></span>SDDLText
 </dt> <dd>
 
-Enter the SDDL string to indicate permissions to apply to selected object. The SDDL must be provided in [Security Descriptor String Format](https://msdn.microsoft.com/library/Aa379570(v=VS.85).aspx).
+Enter the SDDL string to indicate permissions to apply to selected object. The SDDL must be provided in [Security Descriptor String Format](../secauthz/security-descriptor-string-format.md).
 
 This does not support private or public properties.
 
@@ -99,6 +99,3 @@ If the user does not have sufficient privileges to set the security descriptor s
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-title: StopService method of the Win32_Service class (Sdoias.h)
+title: StopService method of the Win32_Service class (Sdoias.h) (Terminal Service)
 description: Places the service, represented by the Win32\_TerminalService object, in the stopped state.
 ms.assetid: 228711DC-369B-48B6-96EE-DF4026904E26
 ms.tgt_platform: multiple
@@ -19,11 +19,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# StopService method of the Win32\_Service class
+# StopService method of the Win32_Service class (Sdoias.h) for the Terminal service
 
-The **StopService** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method places the service, represented by the [**Win32\_TerminalService**](win32-terminalservice.md) object, in the stopped state.
+The **StopService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method places the service, represented by the [**Win32\_TerminalService**](win32-terminalservice.md) object, in the stopped state.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -40,7 +40,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns one of the values listed in the following list, or any other value to indicate an error. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+Returns one of the values listed in the following list, or any other value to indicate an error. For additional error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -82,7 +82,7 @@ The requested control code is not valid, or it is unacceptable to the service.
 **5**
 </dt> <dd>
 
-The requested control code cannot be sent to the service because the state of the service ([**Win32\_BaseService**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-baseservice).**State** property) is equal to 0, 1, or 2.
+The requested control code cannot be sent to the service because the state of the service ([**Win32\_BaseService**](/windows/desktop/CIMWin32Prov/win32-baseservice).**State** property) is equal to 0, 1, or 2.
 
 </dd> <dt>
 
@@ -243,7 +243,7 @@ The [Stop a Service and Its Dependents](https://Gallery.TechNet.Microsoft.Com/ae
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -258,26 +258,20 @@ The [Stop a Service and Its Dependents](https://Gallery.TechNet.Microsoft.Com/ae
 
 <dl> <dt>
 
-[**Win32\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service)
+[**Win32\_Service**](/windows/desktop/CIMWin32Prov/win32-service)
 </dt> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/operating-system-classes)
+[Operating System Classes](/windows/desktop/CIMWin32Prov/operating-system-classes)
 </dt> <dt>
 
 [**Win32\_TerminalService**](win32-terminalservice.md)
 </dt> <dt>
 
-[WMI Tasks: Services](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--services)
+[WMI Tasks: Services](/windows/desktop/WmiSdk/wmi-tasks--services)
 </dt> <dt>
 
-[**PauseService**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/pauseservice-method-in-class-win32-systemdriver)
+[**PauseService**](/windows/desktop/CIMWin32Prov/pauseservice-method-in-class-win32-systemdriver)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

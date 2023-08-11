@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the decoder should perform Lt-Rt fold down.
+description: Specifies whether the decoder should perform Lt-Rt fold down.
 ms.assetid: ce1dc4ea-4326-40ab-bb30-ff1a34f06d79
 title: MFPKEY_WMADEC_LTRTOUTPUT Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Specifies whether the decoder should perform Lt-Rt fold down.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -34,7 +34,7 @@ On Windows Vista, if you obtain an **IPropertyStore** interface on an audio deco
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -52,7 +52,3 @@ On Windows Vista, if you obtain an **IPropertyStore** interface on an audio deco
  
 
  
-
-
-
-

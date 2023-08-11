@@ -1,5 +1,5 @@
 ---
-Description: Creates a skin mesh from another mesh.
+description: Creates a skin mesh from another mesh.
 ms.assetid: 4c69377e-61ef-42b8-8864-c116164d4b22
 title: D3DXCreateSkinInfoFromBlendedMesh function (D3DX9Mesh.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ Pointer to an [**ID3DXBaseMesh**](id3dxbasemesh.md) object, the mesh from which 
 *NumBones* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 The length of the array attached to the BoneId. See [**D3DXBONECOMBINATION**](d3dxbonecombination.md).
 
@@ -84,7 +84,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -101,7 +101,3 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
  
 
  
-
-
-
-

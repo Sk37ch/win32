@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTLIST class"
 title: JET_OBJECTLIST class
 TOCTitle: JET_OBJECTLIST class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_OBJECTLIST
@@ -32,10 +33,10 @@ Information about a temporary table containing information about all tables for 
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.JET_OBJECTLIST  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,7 +60,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_OBJECTLIST members](dn335204\(v=exchg.10\).md)
+[JET_OBJECTLIST members](./jet-objectlist-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

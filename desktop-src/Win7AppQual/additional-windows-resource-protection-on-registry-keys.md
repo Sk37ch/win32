@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Additional Windows Resource Protection on Registry Keys
 ms.assetid: 25d07e42-b5eb-4f72-b4b1-0ebb881644ba
 title: Additional Windows Resource Protection on Registry Keys
 ms.topic: article
@@ -10,15 +10,22 @@ ms.date: 05/31/2018
 
 ## Platform
 
-<dl> **Clients** - Windows 7  
+**Clients** - Windows 7  
 **Servers** - Windows Server 2008 R2  
-</dl>
+
+
+
+
+
+
+
+
 
 ## Feature Impact
 
-<dl> **Severity** - Medium  
+**Severity** - Medium  
 **Frequency** - Low  
-</dl>
+
 
 ## Description
 
@@ -59,12 +66,9 @@ How to detect if an application had WRP mitigation applied to it:
 
 <dl>
 
-[Windows Resource Protection](https://docs.microsoft.com/windows/desktop/Wfp/windows-resource-protection-portal)  
+[Windows Resource Protection](/windows/desktop/Wfp/windows-resource-protection-portal)  
 </dl>
 
  
 
  
-
-
-

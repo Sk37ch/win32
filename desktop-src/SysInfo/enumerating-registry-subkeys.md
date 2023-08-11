@@ -1,5 +1,5 @@
 ---
-Description: The following example uses the RegQueryInfoKey, RegEnumKeyEx, and RegEnumValue functions to enumerate the subkeys of the specified key.
+description: The following example uses the RegQueryInfoKey, RegEnumKeyEx, and RegEnumValue functions to enumerate the subkeys of the specified key.
 ms.assetid: 3730180a-52bc-4382-83ca-39f162273ba5
 title: Enumerating Registry Subkeys
 ms.topic: article
@@ -106,7 +106,7 @@ void QueryKey(HKEY hKey)
     }
 }
 
-void __cdecl _tmain(void)
+int __cdecl _tmain()
 {
    HKEY hTestKey;
 

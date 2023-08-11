@@ -1,12 +1,14 @@
 ---
-Description: The topics in this section provide the reference specifications for Pointer Device Input Stack functions.
+description: The topics in this section provide the reference specifications for Pointer Device Input Stack functions.
 ms.assetid: 44942954-3EA6-4C33-8CF1-E8BF72A914CB
-title: Functions
+
+title: Functions (Pointer Device Input Stack)
+
 ms.topic: article
 ms.date: 02/05/2020
 ---
 
-# Functions
+# Pointer Device Input Stack functions
 
 The topics in this section provide the reference specifications for [Pointer Device Input Stack](pointer-device-stack-portal.md) functions.
 
@@ -23,7 +25,7 @@ The topics in this section provide the reference specifications for [Pointer Dev
 | [**GetPointerDevices**](/windows/win32/api/winuser/nf-winuser-getpointerdevices)<br/> | Gets information about the pointer devices attached to the system.<br/> |
 | [**GetRawPointerDeviceData**](/windows/win32/api/winuser/nf-winuser-getrawpointerdevicedata)<br/> | Gets the raw input data from the pointer device. <br/> |
 | [**InjectSyntheticPointerInput**](/windows/win32/api/winuser/nf-winuser-injectsyntheticpointerinput)<br/> | Simulates pointer input (pen or touch).<br/> |
-| [**RegisterPointerDeviceNotifications**](/windows/win32/api/winuser/nf-winuser-registerpointerdevicenotifications)<br/> | Registers a window to process the [**WM_POINTERDEVICECHANGE**](/windows/win32/inputmsg/wm-pointerdevicechange), [**WM_POINTERDEVICEINRANGE**](/windows/win32/inputmsg/wm-pointerdeviceinrange), and [**WM_POINTERDEVICEOUTOFRANGE**](/windows/win32/inputmsg/wm-pointerdeviceoutofrange) pointer device notifications.<br/> |
+| [**RegisterPointerDeviceNotifications**](/windows/win32/api/winuser/nf-winuser-registerpointerdevicenotifications)<br/> | Registers a window to process the [**WM_POINTERDEVICECHANGE**](../inputmsg/wm-pointerdevicechange.md), [**WM_POINTERDEVICEINRANGE**](../inputmsg/wm-pointerdeviceinrange.md), and [**WM_POINTERDEVICEOUTOFRANGE**](../inputmsg/wm-pointerdeviceoutofrange.md) pointer device notifications.<br/> |
 
 ## Related topics
 

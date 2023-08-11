@@ -1,5 +1,5 @@
 ---
-Description: Access to the keys from the LocalService or NetworkService accounts can be obtained programmatically by using the CryptSetProvParam function to modify the PP\_KEYSET\_SEC\_DESCR parameter.
+description: Access to the keys from the LocalService or NetworkService accounts can be obtained programmatically by using the CryptSetProvParam function to modify the PP\_KEYSET\_SEC\_DESCR parameter.
 ms.assetid: 22e8a153-c218-426a-bd81-7bdbb504c96f
 title: Modifying Key Container Access
 ms.topic: article
@@ -185,21 +185,22 @@ SECURITY_DESCRIPTOR* GetProvSecurityDesc(HCRYPTPROV hProv)
     unsigned long ulSize = 0;
 
     // Get the size of the security descriptor.
-    CryptGetProvParam(
+    if(!CryptGetProvParam(
         hProv,
         PP_KEYSET_SEC_DESCR,
         0,
         &ulSize,
-        DACL_SECURITY_INFORMATION);
-
-    int ret = GetLastError();
-    if (ret != ERROR_INSUFFICIENT_BUFFER) 
+        DACL_SECURITY_INFORMATION))
     {
-        fprintf(
-            stderr, 
-            "Error getting file security DACL: %d.\n", 
-            ret);
-        goto Error_Occurred;
+        int ret = GetLastError();
+        if (ret != ERROR_INSUFFICIENT_BUFFER) 
+        {
+            fprintf(
+                stderr, 
+                "Error getting file security DACL: %d.\n", 
+                ret);
+            goto Error_Occurred;
+        }
     }
 
     // Allocate the memory for the security descriptor.

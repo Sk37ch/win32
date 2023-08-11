@@ -1,5 +1,5 @@
 ---
-Description: Load formatted text into video memory to improve the efficiency of rendering to the device. This method supports ANSI and Unicode strings.
+description: Load formatted text into video memory to improve the efficiency of rendering to the device. This method supports ANSI and Unicode strings.
 ms.assetid: 0e5380fc-7a01-4e09-9c18-22087be56780
 title: ID3DX10Font::PreloadText method (D3DX10.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT PreloadText(
 *pString* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Pointer to a string of characters to be loaded into video memory. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR; otherwise, the data type resolves to LPCSTR. See Remarks.
 
@@ -48,7 +48,7 @@ Pointer to a string of characters to be loaded into video memory. If the compile
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**INT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**INT**](../winprog/windows-data-types.md)**
 
 Number of characters in the text string.
 
@@ -68,13 +68,13 @@ This method generates textures that contain glyphs that represent the input text
 
 Text will not be rendered to the device; ID3DX10Font::DrawText must still be called to render the text. However, by preloading text into video memory, ID3DX10Font::DrawText will use substantially fewer CPU resources.
 
-This method internally converts characters to glyphs using the GDI function [GetCharacterPlacement](https://msdn2.microsoft.com/library/ms534004.aspx).
+This method internally converts characters to glyphs using the GDI function [GetCharacterPlacement](/previous-versions//ms534004(v=vs.85)).
 
 ## Requirements
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -94,7 +94,3 @@ This method internally converts characters to glyphs using the GDI function [Get
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: After you have set the standard calls to COM, you must then connect to WMI through a call to the IWbemLocator::ConnectServer method.
+description: After you have set the standard calls to COM, you must then connect to WMI through a call to the IWbemLocator::ConnectServer method.
 ms.assetid: f0b33ff0-47b0-4aea-ab0f-9220ae367f67
 ms.tgt_platform: multiple
 title: Creating a Connection to a WMI Namespace
@@ -29,9 +29,9 @@ The following procedure describes how to create a connection to a WMI namespace.
 
 **To create a connection to a WMI namespace**
 
--   Initialize the [**IWbemLocator**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator) interface through a call to [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx).
+-   Initialize the [**IWbemLocator**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator) interface through a call to [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance).
 
-    WMI does not require that you perform any additional procedures when calling [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) on [**IWbemLocator**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator).
+    WMI does not require that you perform any additional procedures when calling [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) on [**IWbemLocator**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator).
 
     The following code example describes how to initialize [**IWbemLocator**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator).
 
@@ -103,6 +103,3 @@ After you have received a pointer to the [**IWbemServices**](/windows/desktop/ap
  
 
  
-
-
-

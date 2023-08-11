@@ -10,8 +10,7 @@ ms.date: 05/31/2018
 
 ## Platform
 
-<dl> **Servers** – Windows Server 2012 \| Windows Server 2012 R2  
-</dl>
+ **Servers** – Windows Server 2012 \| Windows Server 2012 R2  
 
 ## Description
 
@@ -45,15 +44,11 @@ To test your apps:
 
 ## Resources
 
--   [Requirements for Windows Server App Certification Program](https://go.microsoft.com/fwlink/p/?linkid=225718)
--   [Microsoft Platform Ready (MPR) Test Tool](https://www.microsoft.com/download/details.aspx?id=37143)
+-   [Requirements for Windows Server App Certification Program](../win_cert/certification-requirements-for-windows-desktop-apps.md)
+-   [Microsoft Platform Ready (MPR) Test Tool](https://www.microsoft.com/en-us/download/details.aspx?id=52048)
 -   [Windows Server 2012 Application Certification Program](https://azure.microsoft.com/overview/commercial-marketplace/)
 -   [Windows Server Logo Feedback](mailto:WSLogoFB@microsoft.com)
 
  
 
  
-
-
-
-

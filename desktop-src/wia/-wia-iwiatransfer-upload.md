@@ -1,5 +1,5 @@
 ---
-Description: Initiates a data upload of a single item from the caller.
+description: Initiates a data upload of a single item from the caller.
 ms.assetid: 301ac5d9-b864-4c3c-bd4b-143cc4032dcb
 title: IWiaTransfer::Upload method (Wia.h)
 ms.topic: reference
@@ -49,9 +49,9 @@ Currently unused. Should be set to zero.
 *pSource* \[in\]
 </dt> <dd>
 
-Type: **[IStream](https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx)\***
+Type: **[IStream](/windows/win32/api/objidl/nn-objidl-istream)\***
 
-Specifies a pointer to the [IStream](https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx) data.
+Specifies a pointer to the [IStream](/windows/win32/api/objidl/nn-objidl-istream) data.
 
 </dd> <dt>
 
@@ -74,7 +74,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |
@@ -87,7 +87,3 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
  
 
  
-
-
-
-

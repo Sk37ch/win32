@@ -1,5 +1,5 @@
 ---
-Description: Returns a property from the IPropertyStore within the IDList.
+description: Returns a property from the IPropertyStore within the IDList.
 ms.assetid: D0BE2A9A-5832-4C0E-BFB6-96EB467C3D9D
 title: CItemIDFactory::GetPropertyFromIDList methods (Shidfact.h)
 ms.date: 07/02/2019
@@ -8,7 +8,7 @@ ms.topic: reference
 
 # CItemIDFactory::GetPropertyFromIDList methods
 
-Returns a property from the [**IPropertyStore**](properties.IPropertyStore.md) within the IDList.
+Returns a property from the [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) within the IDList.
 
 ### Overload list
 
@@ -16,10 +16,10 @@ Returns a property from the [**IPropertyStore**](properties.IPropertyStore.md) w
 
 | Method                                                                        | Description                                                                                                                                   |
 |:------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetPropertyFromIDList**](https://msdn.microsoft.com/library/Hh289341(v=VS.85).aspx)     | Gets a property from the [**IPropertyStore**](properties.IPropertyStore.md) within the IDList as a variant, using the key.<br/>            |
-| [**GetPropertyFromIDList**](https://msdn.microsoft.com/library/Hh289344(v=VS.85).aspx)    | Gets a property from the [**IPropertyStore**](properties.IPropertyStore.md) within the IDList as a variant, using the named property.<br/> |
-| [**GetPropertyFromIDList**](https://msdn.microsoft.com/library/Hh289342(v=VS.85).aspx)  | Gets a property from the [**IPropertyStore**](properties.IPropertyStore.md) within the IDList, using the key.<br/>                         |
-| [**GetPropertyFromIDList**](https://msdn.microsoft.com/library/Hh289345(v=VS.85).aspx) | Gets a property from the [**IPropertyStore**](properties.IPropertyStore.md) within the IDList, using the named property.<br/>              |
+| [**GetPropertyFromIDList**](/windows/win32/api/shidfact/nf-shidfact-citemidfactory-getpropertyfromidlist(pcuidlist_relative_pcwstr_propvariant))     | Gets a property from the [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) within the IDList as a variant, using the key.<br/>            |
+| [**GetPropertyFromIDList**](/windows/win32/api/shidfact/nf-shidfact-citemidfactory-getpropertyfromidlist(pcuidlist_relative_pcwstr_propvariant))    | Gets a property from the [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) within the IDList as a variant, using the named property.<br/> |
+| [**GetPropertyFromIDList**]/windows/win32/api/shidfact/nf-shidfact-citemidfactory-getpropertyfromidlist(pcuidlist_relative_pcwstr_propvariant))  | Gets a property from the [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) within the IDList, using the key.<br/>                         |
+| [**GetPropertyFromIDList**](/windows/win32/api/shidfact/nf-shidfact-citemidfactory-getpropertyfromidlist(pcuidlist_relative_pcwstr_propvariant)) | Gets a property from the [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) within the IDList, using the named property.<br/>              |
 
 
 
@@ -27,7 +27,7 @@ Returns a property from the [**IPropertyStore**](properties.IPropertyStore.md) w
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
@@ -39,13 +39,9 @@ Returns a property from the [**IPropertyStore**](properties.IPropertyStore.md) w
 
 <dl> <dt>
 
-[**CItemIDFactory**](https://msdn.microsoft.com/library/Hh289338(v=VS.85).aspx)
+[**CItemIDFactory**](/windows/win32/api/shidfact/nl-shidfact-citemidfactory)
 </dt> </dl>
 
  
 
  
-
-
-
-

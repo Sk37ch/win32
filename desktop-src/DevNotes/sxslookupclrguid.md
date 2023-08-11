@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the class name and other information associated with a given GUID in a component's manifest.
+description: Retrieves the class name and other information associated with a given GUID in a component's manifest.
 ms.assetid: af7c6e56-604d-4a1b-8fbf-71a372ba1ae7
 title: SxsLookupClrGuid function
 ms.topic: reference
@@ -18,7 +18,7 @@ api_location:
 
 # SxsLookupClrGuid function
 
-Retrieves the class name and other information associated with a given GUID in a component's manifest. This function is used only when implementing low-level managed-unmanaged interoperability in the .NET Framework. For more information about managed-unmanaged interoperability, see "Interoperating with Unmanaged Code" in the .NET Framework SDK and also [Isolated Applications and Side-by-side Assemblies](https://msdn.microsoft.com/library/Dd408052(v=VS.85).aspx).
+Retrieves the class name and other information associated with a given GUID in a component's manifest. This function is used only when implementing low-level managed-unmanaged interoperability in the .NET Framework. For more information about managed-unmanaged interoperability, see "Interoperating with Unmanaged Code" in the .NET Framework SDK and also [Isolated Applications and Side-by-side Assemblies](../sbscs/isolated-applications-and-side-by-side-assemblies-portal.md).
 
 ## Syntax
 
@@ -49,7 +49,7 @@ A combination of zero or more of the following flags.
 
 | Value                                                                                                                                                                                                                                                                                             | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="SXS_LOOKUP_CLR_GUID_USE_ACTCTX"></span><span id="sxs_lookup_clr_guid_use_actctx"></span><dl> <dt>**SXS\_LOOKUP\_CLR\_GUID\_USE\_ACTCTX**</dt> <dt>0x00000001</dt> </dl>              | If this flag is set, then the *hActCtx* parameter must contain an activation-context handle returned by the [**CreateActCtx**](https://msdn.microsoft.com/library/Aa375125(v=VS.85).aspx) function. If this flag is not set, the *hActCtx* parameter is ignored and **SxsLookupClrGuid** searches the activation context that is currently active (the [**ActivateActCtx**](https://msdn.microsoft.com/library/Aa374151(v=VS.85).aspx) function is used to make an activation context active).<br/> |
+| <span id="SXS_LOOKUP_CLR_GUID_USE_ACTCTX"></span><span id="sxs_lookup_clr_guid_use_actctx"></span><dl> <dt>**SXS\_LOOKUP\_CLR\_GUID\_USE\_ACTCTX**</dt> <dt>0x00000001</dt> </dl>              | If this flag is set, then the *hActCtx* parameter must contain an activation-context handle returned by the [**CreateActCtx**](/windows/win32/api/winbase/nf-winbase-createactctxa) function. If this flag is not set, the *hActCtx* parameter is ignored and **SxsLookupClrGuid** searches the activation context that is currently active (the [**ActivateActCtx**](/windows/win32/api/winbase/nf-winbase-activateactctx) function is used to make an activation context active).<br/> |
 | <span id="SXS_LOOKUP_CLR_GUID_FIND_SURROGATE"></span><span id="sxs_lookup_clr_guid_find_surrogate"></span><dl> <dt>**SXS\_LOOKUP\_CLR\_GUID\_FIND\_SURROGATE**</dt> <dt>0x00010000</dt> </dl>  | If this flag is set, **SxsLookupClrGuid** searches for a surrogate.<br/>                                                                                                                                                                                                                                                                                                                                                |
 | <span id="SXS_LOOKUP_CLR_GUID_FIND_CLR_CLASS"></span><span id="sxs_lookup_clr_guid_find_clr_class"></span><dl> <dt>**SXS\_LOOKUP\_CLR\_GUID\_FIND\_CLR\_CLASS**</dt> <dt>0x00020000</dt> </dl> | If this flag is set, **SxsLookupClrGuid** searches for a class.<br/>                                                                                                                                                                                                                                                                                                                                                    |
 | <span id="SXS_LOOKUP_CLR_GUID_FIND_ANY"></span><span id="sxs_lookup_clr_guid_find_any"></span><dl> <dt>**SXS\_LOOKUP\_CLR\_GUID\_FIND\_ANY**</dt> <dt>0x00030000</dt> </dl>                    | This is a combination of the **SXS\_LOOKUP\_CLR\_GUID\_FIND\_SURROGATE** and **SXS\_LOOKUP\_CLR\_GUID\_FIND\_CLR\_CLASS** flags; if both are set, **SxsLookupClrGuid** searches for a surrogate first, and only if it does not find one, then searches for a class.<br/>                                                                                                                                                |
@@ -70,7 +70,7 @@ A pointer to the GUID about which to search the activation context for interoper
 *hActCtx* \[in, optional\]
 </dt> <dd>
 
-If the **SXS\_LOOKUP\_CLR\_GUID\_USE\_ACTCTX** flag is set in the *dwFlags* parameter, then *hActCtx* must contain an activation-context handle returned by the [**CreateActCtx**](https://msdn.microsoft.com/library/Aa375125(v=VS.85).aspx) function. Otherwise, *hActCtx* is ignored.
+If the **SXS\_LOOKUP\_CLR\_GUID\_USE\_ACTCTX** flag is set in the *dwFlags* parameter, then *hActCtx* must contain an activation-context handle returned by the [**CreateActCtx**](/windows/win32/api/winbase/nf-winbase-createactctxa) function. Otherwise, *hActCtx* is ignored.
 
 </dd> <dt>
 
@@ -91,21 +91,21 @@ Size in bytes of the buffer pointed to by the *pvOutputBuffer* parameter.
 *pcbOutputBuffer* \[out\]
 </dt> <dd>
 
-Pointer to a variable where the size, in bytes, of the return information is placed on exit. If the *cbOutputBuffer* parameter is zero, or if the size of the output buffer is smaller than the size of the return information, then **SxsLookupClrGuid** fails and [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx) returns an error of **ERROR\_INSUFFICIENT\_BUFFER**. In this case, use the value in the variable pointed to by *pcbOutputBuffer* to allocate a large enough buffer, and then call **SxsLookupClrGuid** again to retrieve the desired information.
+Pointer to a variable where the size, in bytes, of the return information is placed on exit. If the *cbOutputBuffer* parameter is zero, or if the size of the output buffer is smaller than the size of the return information, then **SxsLookupClrGuid** fails and [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns an error of **ERROR\_INSUFFICIENT\_BUFFER**. In this case, use the value in the variable pointed to by *pcbOutputBuffer* to allocate a large enough buffer, and then call **SxsLookupClrGuid** again to retrieve the desired information.
 
 </dd> </dl>
 
 ## Return value
 
-Returns **TRUE** if successful, or **FALSE** otherwise. For more error information, call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx)
+Returns **TRUE** if successful, or **FALSE** otherwise. For more error information, call [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror)
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
-Managed components may declare themselves as supporting managed "interop assemblies" so as to allow an unmanaged Win32 component consumer to reference the declaring assembly. The component consumer can interact with the managed component by calling [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) on a GUID. The interoperation layer routes the object creation request to .NET Framework, creates an instance of the managed object, and returns an interface pointer.
+Managed components may declare themselves as supporting managed "interop assemblies" so as to allow an unmanaged Win32 component consumer to reference the declaring assembly. The component consumer can interact with the managed component by calling [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) on a GUID. The interoperation layer routes the object creation request to .NET Framework, creates an instance of the managed object, and returns an interface pointer.
 
-**SxsLookupClrGuid** allows the frameworks to retrieve information associated with a given GUID in the component's manifest, such as what its .NET class name is, what version of the .NET Framework it requires, and what host assembly it is located in. Managed components publish an interop assembly that contains a number of statements associating GUIDs with assembly and type names, and the .NET runtime brokers the construction of managed object instances when [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) is called.
+**SxsLookupClrGuid** allows the frameworks to retrieve information associated with a given GUID in the component's manifest, such as what its .NET class name is, what version of the .NET Framework it requires, and what host assembly it is located in. Managed components publish an interop assembly that contains a number of statements associating GUIDs with assembly and type names, and the .NET runtime brokers the construction of managed object instances when [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) is called.
 
 The following is a sample component manifest declaring a CLR GUID and a CLR surrogate that **SxsLookupClrGuid** can look up:
 
@@ -143,44 +143,15 @@ The members of this structure contain the following information.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Member</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="cbSize"></span><span id="cbsize"></span><span id="CBSIZE"></span><strong>cbSize</strong><br/></td>
-<td>Contains the size of the SXS_GUID_INFORMATION_CLR structure (this allows the structure to grow in later versions).<br/></td>
-</tr>
-<tr class="even">
-<td><span id="dwFlags"></span><span id="dwflags"></span><span id="DWFLAGS"></span><strong>dwFlags</strong><br/></td>
-<td>Contains one of the following two flag values: <br/>
-<ul>
-<li>SXS_GUID_INFORMATION_CLR_FLAG_IS_SURROGATE (0x00000001): Indicates that the specified GUID was associated with a &quot;surrogate.&quot;</li>
-<li>SXS_GUID_INFORMATION_CLR_FLAG_IS_CLASS (0x00000002): Indicates that the specified GUID was associated with a &quot;class.&quot;</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><span id="pcwszRuntimeVersion"></span><span id="pcwszruntimeversion"></span><span id="PCWSZRUNTIMEVERSION"></span><strong>pcwszRuntimeVersion</strong><br/></td>
-<td>Points to a zero-terminated wide-character string that identifies the version of the runtime specified in the host manifest for this class.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="pcwszTypeName"></span><span id="pcwsztypename"></span><span id="PCWSZTYPENAME"></span><strong>pcwszTypeName</strong><br/></td>
-<td>Points to a zero-terminated wide-character string that contains the name of the .NET class associated with the specified GUID.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="pcwszAssemblyIdentity"></span><span id="pcwszassemblyidentity"></span><span id="PCWSZASSEMBLYIDENTITY"></span><strong>pcwszAssemblyIdentity</strong><br/></td>
-<td>Points to a zero-terminated wide-character string that contains the textual identity of the assembly that hosts this class. For more information about textual identity, see &quot;Specifying Fully Qualified Type Names&quot; under &quot;Discovering Type Information at Run Time&quot; under &quot;Programming with the .NET Framework&quot; in the .NET Framework SDK.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Member | Description | 
+|--------|-------------|
+| <span id="cbSize"></span><span id="cbsize"></span><span id="CBSIZE"></span><strong>cbSize</strong><br /> | Contains the size of the SXS_GUID_INFORMATION_CLR structure (this allows the structure to grow in later versions).<br /> | 
+| <span id="dwFlags"></span><span id="dwflags"></span><span id="DWFLAGS"></span><strong>dwFlags</strong><br /> | Contains one of the following two flag values: <br /><ul><li>SXS_GUID_INFORMATION_CLR_FLAG_IS_SURROGATE (0x00000001): Indicates that the specified GUID was associated with a "surrogate."</li><li>SXS_GUID_INFORMATION_CLR_FLAG_IS_CLASS (0x00000002): Indicates that the specified GUID was associated with a "class."</li></ul> | 
+| <span id="pcwszRuntimeVersion"></span><span id="pcwszruntimeversion"></span><span id="PCWSZRUNTIMEVERSION"></span><strong>pcwszRuntimeVersion</strong><br /> | Points to a zero-terminated wide-character string that identifies the version of the runtime specified in the host manifest for this class.<br /> | 
+| <span id="pcwszTypeName"></span><span id="pcwsztypename"></span><span id="PCWSZTYPENAME"></span><strong>pcwszTypeName</strong><br /> | Points to a zero-terminated wide-character string that contains the name of the .NET class associated with the specified GUID.<br /> | 
+| <span id="pcwszAssemblyIdentity"></span><span id="pcwszassemblyidentity"></span><span id="PCWSZASSEMBLYIDENTITY"></span><strong>pcwszAssemblyIdentity</strong><br /> | Points to a zero-terminated wide-character string that contains the textual identity of the assembly that hosts this class. For more information about textual identity, see "Specifying Fully Qualified Type Names" under "Discovering Type Information at Run Time" under "Programming with the .NET Framework" in the .NET Framework SDK.<br /> | 
+
 
 
 
@@ -296,7 +267,7 @@ void main()
 
 
 
-|                |                                                                                                                                                       |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Mscoree.dll; </dt> <dt>Sxs.dll</dt> </dl> |
 
@@ -306,22 +277,18 @@ void main()
 
 <dl> <dt>
 
-[Isolated Applications and Side-by-side Assemblies](https://msdn.microsoft.com/library/Dd408052(v=VS.85).aspx)
+[Isolated Applications and Side-by-side Assemblies](../sbscs/isolated-applications-and-side-by-side-assemblies-portal.md)
 </dt> <dt>
 
-[**CreateActCtx**](https://msdn.microsoft.com/library/Aa375125(v=VS.85).aspx)
+[**CreateActCtx**](/windows/win32/api/winbase/nf-winbase-createactctxa)
 </dt> <dt>
 
-[**ActivateActCtx**](https://msdn.microsoft.com/library/Aa374151(v=VS.85).aspx)
+[**ActivateActCtx**](/windows/win32/api/winbase/nf-winbase-activateactctx)
 </dt> <dt>
 
-[**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx)
+[**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance)
 </dt> </dl>
 
  
 
  
-
-
-
-

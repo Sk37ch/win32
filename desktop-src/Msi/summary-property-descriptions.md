@@ -1,5 +1,5 @@
 ---
-Description: Summary properties for installation packages, transforms, and patches are described in the following tables.
+description: Summary properties for installation packages, transforms, and patches are described in the following tables.
 ms.assetid: b44b24b7-7fc4-4c3c-9d10-7e2f3c43cf36
 title: Summary Property Descriptions
 ms.topic: article
@@ -16,8 +16,8 @@ Summary properties for installation packages, transforms, and patches are descri
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -140,8 +140,8 @@ The value of this property must be 200 or greater with <a href="64-bit-windows-i
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

@@ -90,9 +90,9 @@ Defines a channel to which providers can log events.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -105,7 +105,7 @@ Defines a channel to which providers can log events.
 <tr class="odd">
 <td>access</td>
 <td>string</td>
-<td>A <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-definition-language">Security Descriptor Definition Language</a> (SDDL) access descriptor that controls access to the log file that backs the channel. If the <strong>isolation</strong> attribute is set to Application or System, the access descriptor controls read access to the file (the write permissions are ignored). If the <strong>isolation</strong> attribute is set to Custom, the access descriptor controls write access to the channel and read access to the file.<br/></td>
+<td>A <a href="/windows/desktop/SecAuthZ/security-descriptor-definition-language">Security Descriptor Definition Language</a> (SDDL) access descriptor that controls access to the log file that backs the channel. If the <strong>isolation</strong> attribute is set to Application or System, the access descriptor controls read access to the file (the write permissions are ignored). If the <strong>isolation</strong> attribute is set to Custom, the access descriptor controls write access to the channel and read access to the file.<br/></td>
 </tr>
 <tr class="even">
 <td>chid</td>
@@ -129,7 +129,7 @@ Defines a channel to which providers can log events.
 The default isolation is <strong>Application</strong>. The default permissions for <strong>Application</strong> are (shown using SDDL): <br/> <span data-codelanguage="Text"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -156,7 +156,7 @@ The default isolation is <strong>Application</strong>. The default permissions f
 <span data-codelanguage="Text"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -234,7 +234,7 @@ If the channel's name follows the channel naming convention, the Windows Event V
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

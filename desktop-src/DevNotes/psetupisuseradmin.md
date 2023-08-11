@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the current user is an administrator.
+description: Indicates whether the current user is an administrator.
 ms.assetid: e759a6b9-19c3-4a2e-b8cf-1398037f88ee
 title: pSetupIsUserAdmin function
 ms.topic: reference
@@ -40,13 +40,13 @@ This function has no parameters.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Setupapi.dll</dt> </dl> |
 
@@ -55,7 +55,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

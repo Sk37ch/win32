@@ -1,5 +1,5 @@
 ---
-Description: Saves analysis results for the specified strokes associated with an IInkAnalyzer.
+description: Saves analysis results for the specified strokes associated with an IInkAnalyzer.
 ms.assetid: 6ff29b95-6c76-4e3d-b4c0-5e7cb6a9ddf9
 title: IInkAnalyzer::SaveResultsForStrokes method (IACom.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) on \**ppbSerializedData* when you no longer need the information.
+> To avoid a memory leak, call [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) on \**ppbSerializedData* when you no longer need the information.
 
  
 
@@ -84,7 +84,7 @@ This method returns an error code when an [**IContextNode**](icontextnode.md) ob
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -116,9 +116,4 @@ This method returns an error code when an [**IContextNode**](icontextnode.md) ob
 </dt> </dl>
 
  
-
- 
-
-
-
 

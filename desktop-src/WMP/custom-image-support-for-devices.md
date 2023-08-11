@@ -9,10 +9,13 @@ keywords:
 - custom image support for devices
 - image support for devices
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Custom Image Support for Devices
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 > [!Note]  
 > This section documents a feature of Windows Media Player 10 that is available when using the Windows XP operating system. It may be unavailable in subsequent versions.
@@ -39,7 +42,7 @@ The following guidelines apply to custom image support in general:
 
 ## Creating the Device Icon Image
 
-The device icon image file, DevIcon.fil, must contain a file in Windows icon format. The MSDN article [Icons in Win32](https://msdn.microsoft.com/library/ms997538(v=MSDN.10).aspx) describes how to create such a file. The MSDN article [Creating Windows XP Icons](https://msdn.microsoft.com/library/ms997636(v=MSDN.10).aspx) provides style guidelines for Windows XP icons. The device icon image file incorporates twelve images in a single file by providing four different sizes with three different color depths each.
+The device icon image file, DevIcon.fil, must contain a file in Windows icon format. The MSDN article [Icons in Win32](/previous-versions/ms997538(v=msdn.10)) describes how to create such a file. The MSDN article [Creating Windows XP Icons](/previous-versions/ms997636(v=msdn.10)) provides style guidelines for Windows XP icons. The device icon image file incorporates twelve images in a single file by providing four different sizes with three different color depths each.
 
 Be certain to pay particular attention to the following guidelines:
 
@@ -68,7 +71,3 @@ Once you have created the corporate logo file, simply rename it DevLogo.fil.
  
 
  
-
-
-
-

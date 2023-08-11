@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LOGTIME.Equality operator"
 title: JET_LOGTIME.Equality operator 
 TOCTitle: 'Equality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_LOGTIME.op_Equality(Microsoft.Isam.Esent.Interop.JET_LOGTIME,Microsoft.Isam.Esent.Interop.JET_LOGTIME)
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Determines whether two specified instances of JET_LOGTIME are equal.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -60,29 +61,28 @@ public static bool operator ==(
 #### Parameters
 
   - lhs  
-    Type: [Microsoft.Isam.Esent.Interop.JET_LOGTIME](hh557188\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_LOGTIME](./jet-logtime-structure2.md)  
     
     The first instance to compare.
 
 <!-- end list -->
 
   - rhs  
-    Type: [Microsoft.Isam.Esent.Interop.JET_LOGTIME](hh557188\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_LOGTIME](./jet-logtime-structure2.md)  
     
     The second instance to compare.
 
 #### Return value
 
-Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
+Type: [System.Boolean](/dotnet/api/system.boolean)  
 True if the two instances are equal.  
 
 ## See also
 
 #### Reference
 
-[JET_LOGTIME structure](hh557188\(v=exchg.10\).md)
+[JET_LOGTIME structure](./jet-logtime-structure2.md)
 
-[JET_LOGTIME members](hh579151\(v=exchg.10\).md)
+[JET_LOGTIME members](./jet-logtime-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

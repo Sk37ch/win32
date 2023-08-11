@@ -1,5 +1,5 @@
 ---
-Description: Sets an array of Boolean values.
+description: ID3DXBaseEffect::SetBoolArray method - Sets an array of Boolean values.
 ms.assetid: 920b3482-cc30-4ab2-bfce-59f03afe11da
 title: ID3DXBaseEffect::SetBoolArray method (D3DX9Shader.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ Unique identifier. See [Handles (Direct3D 9)](handles.md).
 *pB* \[in\]
 </dt> <dd>
 
-Type: **const [**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**BOOL**](../winprog/windows-data-types.md)\***
 
 Array of Boolean values.
 
@@ -58,7 +58,7 @@ Array of Boolean values.
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of Boolean values in the array.
 
@@ -74,7 +74,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -94,7 +94,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

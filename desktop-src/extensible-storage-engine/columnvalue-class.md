@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValue class"
 title: ColumnValue class
 TOCTitle: ColumnValue class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.ColumnValue
@@ -32,13 +33,13 @@ Base class for objects that represent a column value to be set.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.ColumnValue  
-    [Microsoft.Isam.Esent.Interop.BytesColumnValue](dn334170\(v=exchg.10\).md)  
-    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct\<T\>](dn334171\(v=exchg.10\).md)  
-    [Microsoft.Isam.Esent.Interop.StringColumnValue](dn351135\(v=exchg.10\).md)  
+    [Microsoft.Isam.Esent.Interop.BytesColumnValue](./bytescolumnvalue-class.md)  
+    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct\<T\>](./columnvalueofstruct-t-class.md)  
+    [Microsoft.Isam.Esent.Interop.StringColumnValue](./stringcolumnvalue-class.md)  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,7 +63,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[ColumnValue members](dn334156\(v=exchg.10\).md)
+[ColumnValue members](./columnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

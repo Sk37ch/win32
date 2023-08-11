@@ -1,5 +1,5 @@
 ---
-Description: When it installs a network provider, your application should create the registry keys and values described in this topic.
+description: When it installs a network provider, your application should create the registry keys and values described in this topic.
 ms.assetid: cc5a4a7b-02b5-4ecd-967c-de0656f00846
 title: Authentication Registry Keys
 ms.topic: article
@@ -61,7 +61,7 @@ You must also create a subkey of *ProviderName*, **networkprovider**. This key c
 | Value                       | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Name**<br/>         | Contains the name of the provider. This name is displayed to the user as the name of the network in the browse dialog boxes and should match the **lpProvider** field returned in [**NETRESOURCE**](/windows/desktop/api/Winnetwk/ns-winnetwk-netresourcea) structures. This name should be some variation of the product name, preferably with some indication of the company as well, so that it is clear and unique. "MS-LanMan" for example is a good name, whereas "The Net" would be a poor choice.<br/> |
-| **ProviderPath**<br/> | Contains the full path of the DLL that implements the network provider. MPR calls [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) on this path.<br/>                                                                                                                                                                                                                                                                                                                                |
+| **ProviderPath**<br/> | Contains the full path of the DLL that implements the network provider. MPR calls [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) on this path.<br/>                                                                                                                                                                                                                                                                                                                                |
 
 
 
@@ -128,9 +128,4 @@ The following example shows the registry keys for a system that has two network 
 *AuthentProviderPath* = "c:\\another\\anetCM.dll"
 
  
-
- 
-
-
-
 

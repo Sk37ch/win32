@@ -1,5 +1,5 @@
 ---
-Description: This document contains an example that demonstrates how to use the XState context functions to retrieve and set extended features on a thread.
+description: This document contains an example that demonstrates how to use the XState context functions to retrieve and set extended features on a thread.
 ms.assetid: F7937402-1173-4647-B9FF-856C0925C1C3
 title: Working with XState Context
 ms.topic: article
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This document contains an example that demonstrates how to use the XState context functions to retrieve and set extended features on a thread. The following examples manipulate Intel Advanced Vector Extensions (AVX) state which is defined by FeatureId 2 (Feature Mask 4). Intel AVX is defined in the "Intel Advanced Vector Extensions Programming Reference" available from <https://go.microsoft.com/fwlink/p/?linkid=212716>.
 
-**Windows 7 with SP1:** The [AVX API](avx-support-portal.md) is first implemented on Windows 7 with SP1. Since there is no SDK for Windows 7 with SP1, that means there are no available headers and library files to work with. In this situation, a caller must declare the needed functions from this documentation and get pointers to them using [**GetModuleHandle**](https://msdn.microsoft.com/library/ms683199(v=VS.85).aspx) on "Kernel32.dll", followed by calls to [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx).
+**Windows 7 with SP1:** The [AVX API](avx-support-portal.md) is first implemented on Windows 7 with SP1. Since there is no SDK for Windows 7 with SP1, that means there are no available headers and library files to work with. In this situation, a caller must declare the needed functions from this documentation and get pointers to them using [**GetModuleHandle**](/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandlea) on "Kernel32.dll", followed by calls to [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress).
 
 
 ```C++
@@ -75,7 +75,7 @@ PrintThreadAvxState (
     PM128A Ymm;
 
     // If this function was called before and we were not running on 
-    // at least Windws 7 SP1, then bail.
+    // at least Windows 7 SP1, then bail.
     if (pfnGetEnabledXStateFeatures == (PGETENABLEDXSTATEFEATURES)-1)
     {
         _tprintf(_T("This needs to run on Windows 7 SP1 or greater.\n"));
@@ -235,6 +235,3 @@ Cleanup:
  
 
  
-
-
-

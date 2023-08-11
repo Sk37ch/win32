@@ -1,5 +1,5 @@
 ---
-Description: Calculates per-triangle IMT's from a texture mapped onto a mesh, to be used optionally as input to the D3DX UVAtlas Functions.
+description: Calculates per-triangle IMT's from a texture mapped onto a mesh, to be used optionally as input to the D3DX UVAtlas Functions.
 ms.assetid: 6671edc4-e494-4847-ae99-b9e56651a875
 title: D3DXComputeIMTFromTexture function (D3DX9Mesh.h)
 ms.topic: reference
@@ -53,16 +53,16 @@ A pointer to an input mesh (see [**ID3DXMesh**](id3dxmesh.md)) which contains th
 *pTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9)**
 
-A pointer to the texture (see [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx)) that is mapped to the mesh.
+A pointer to the texture (see [**IDirect3DTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9)) that is mapped to the mesh.
 
 </dd> <dt>
 
 *dwTextureIndex* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Zero-based texture coordinate index that identifies which set of texture coordinates to use.
 
@@ -71,9 +71,9 @@ Zero-based texture coordinate index that identifies which set of texture coordin
 *dwOptions* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
-Texture wrap options. This is a combination of one or more [**D3DXIMT FLAGS**](https://msdn.microsoft.com/library/Bb172880(v=VS.85).aspx).
+Texture wrap options. This is a combination of one or more [**D3DXIMT FLAGS**](./d3dximt-flags.md).
 
 </dd> <dt>
 
@@ -89,7 +89,7 @@ A pointer to a callback function to monitor IMT computation progress.
 *pUserContext* 
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](../winprog/windows-data-types.md)**
 
 A pointer to a user-defined variable which is passed to the status callback function. Typically used by an application to pass a pointer to a data structure that provides context information for the callback function.
 
@@ -118,7 +118,7 @@ Given a texture that maps over the surface of the mesh, the algorithm computes t
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -138,7 +138,3 @@ Given a texture that maps over the surface of the mesh, the algorithm computes t
  
 
  
-
-
-
-

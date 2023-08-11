@@ -1,5 +1,5 @@
 ---
-Description: Enables the application to override the default settings on various properties of the Voice Capture DSP.
+description: Enables the application to override the default settings on various properties of the Voice Capture DSP.
 ms.assetid: 1c11e817-36bd-4a5d-9c2b-6a91e86f623f
 title: MFPKEY_WMAAECMA_FEATURE_MODE Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Enables the application to override the default settings on various properties o
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -47,7 +47,7 @@ If this property is VARIANT\_FALSE, the DSP ignores these properties and uses it
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
@@ -68,7 +68,3 @@ If this property is VARIANT\_FALSE, the DSP ignores these properties and uses it
  
 
  
-
-
-
-

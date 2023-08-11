@@ -1,5 +1,5 @@
 ---
-Description: The following hyperlinked summary of TAPI functions is organized by category of operation. For additional information, see the overviews for Assisted Telephony and Service Levels.
+description: The following hyperlinked summary of TAPI functions is organized by category of operation. For additional information, see the overviews for Assisted Telephony and Service Levels.
 ms.assetid: 7a817997-bfa8-41f9-8a07-c3884b9a48b0
 title: TAPI Quick Function Reference
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # TAPI Quick Function Reference
 
-The following hyperlinked summary of TAPI functions is organized by category of operation. For additional information, see the overviews for [Assisted Telephony](https://msdn.microsoft.com/library/ms726209(v=VS.85).aspx) and [Service Levels](https://msdn.microsoft.com/library/ms734248(v=VS.85).aspx).
+The following hyperlinked summary of TAPI functions is organized by category of operation. For additional information, see the overviews for [Assisted Telephony](./assisted-telephony-overview.md) and [Service Levels](./tapi-levels-of-service.md).
 
 
 
@@ -26,6 +26,3 @@ The following hyperlinked summary of TAPI functions is organized by category of 
  
 
  
-
-
-

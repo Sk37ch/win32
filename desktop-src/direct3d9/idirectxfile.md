@@ -1,5 +1,5 @@
 ---
-Description: Applications use the methods of the IDirectXFile interface to create instances of the IDirectXFileEnumObject and IDirectXFileSaveObject interfaces, and to register templates. Deprecated.
+description: Applications use the methods of the IDirectXFile interface to create instances of the IDirectXFileEnumObject and IDirectXFileSaveObject interfaces, and to register templates. Deprecated.
 ms.assetid: c4e800dc-72a9-4b91-9c89-ee76764b1bb9
 title: IDirectXFile interface (DXFile.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ Applications use the methods of the IDirectXFile interface to create instances o
 
 ## Members
 
-The **IDirectXFile** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IDirectXFile** also has these types of members:
+The **IDirectXFile** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IDirectXFile** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -61,7 +61,7 @@ typedef interface IDirectXFile *LPDIRECTXFILE;
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>DXFile.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3dxof.lib</dt> </dl> |
@@ -78,7 +78,3 @@ typedef interface IDirectXFile *LPDIRECTXFILE;
  
 
  
-
-
-
-

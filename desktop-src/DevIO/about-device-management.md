@@ -1,5 +1,5 @@
 ---
-Description: The system uses messages to notify applications of device changes and power changes.
+description: The system uses messages to notify applications of device changes and power changes.
 ms.assetid: 07cfde25-6e46-47fa-a810-0f6b482981fd
 title: About Device Management
 ms.topic: article
@@ -16,11 +16,8 @@ The system uses messages to notify applications of device changes and power chan
 -   [Device Events](device-events.md)
 -   [Device Input and Output Control (IOCTL)](device-input-and-output-control-ioctl-.md)
 
-For more information about power messages, see [Power Management](https://docs.microsoft.com/windows/desktop/Power/power-management-portal).
+For more information about power messages, see [Power Management](/windows/desktop/Power/power-management-portal).
 
  
 
  
-
-
-

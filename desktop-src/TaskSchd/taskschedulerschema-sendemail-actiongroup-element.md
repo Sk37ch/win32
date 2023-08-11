@@ -58,21 +58,21 @@ The **SendEmail** element is defined by the [**actionGroup**](taskschedulerschem
 
 ## Remarks
 
-For C++ development, see the [**IEmailAction**](/windows/desktop/api/taskschd/nn-taskschd-iemailaction) interface.
+For C++ development, see the [**IEmailAction**](/windows/win32/api/taskschd/nn-taskschd-iemailaction) interface.
 
 For script development, see the [**EmailAction**](emailaction.md) object.
 
-**Windows 8 and Windows Server 2012:** This element has been removed. Please use IExecAction with the powershell [**Send-MailMessage**](https://msdn.microsoft.com/library/Hh849925(v=WPS.620).aspx) cmdlet as a workaround.
+**Windows 8 and Windows Server 2012:** This element has been removed. Please use IExecAction with the powershell [**Send-MailMessage**](/powershell/module/microsoft.powershell.utility/send-mailmessage) cmdlet as a workaround.
 
 ## Examples
 
-For a complete example of the XML for a task that specifies an email action, see [Event Trigger Example (XML)](https://msdn.microsoft.com/library/Aa446889(v=VS.85).aspx).
+For a complete example of the XML for a task that specifies an email action, see [Event Trigger Example (XML)](/previous-versions//aa446889(v=vs.85)).
 
 ## Requirements
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
@@ -82,10 +82,4 @@ For a complete example of the XML for a task that specifies an email action, see
 
 
  
-
- 
-
-
-
-
 

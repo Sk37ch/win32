@@ -1,5 +1,5 @@
 ---
-Description: The park operation allows an application to send a session to a special address where it will be held until unparked.
+description: The park operation allows an application to send a session to a special address where it will be held until unparked.
 ms.assetid: 6a82f03e-d8fd-4d0b-8f5d-f7934ba86759
 title: Park
 ms.topic: article
@@ -22,13 +22,10 @@ Some service providers can remind the user after a session has been parked for s
 
 Not all service providers support use of this operation.
 
-**TAPI 2.x:** See [**linePark**](https://msdn.microsoft.com/library/ms736007(v=VS.85).aspx), [**lineUnpark**](https://msdn.microsoft.com/library/ms736480(v=VS.85).aspx).
+**TAPI 2.x:** See [**linePark**](/windows/win32/api/tapi/nf-tapi-linepark), [**lineUnpark**](/windows/win32/api/tapi/nf-tapi-lineunpark).
 
 **TAPI 3:** See [**ITBasicCallControl::ParkDirect**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-parkdirect), [**ITBasicCallControl::ParkIndirect**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-parkindirect), [**ITBasicCallControl::Unpark**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-unpark).
 
  
 
  
-
-
-

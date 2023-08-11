@@ -1,5 +1,5 @@
 ---
-Description: This class represents a collection reference point export operation job.
+description: This class represents a collection reference point export operation job.
 ms.assetid: c752ff1d-163c-4aa9-b29e-76478a18a08c
 title: Msvm_CollectionReferencePointExportJob class
 ms.topic: reference
@@ -131,7 +131,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_Job**](cim-job.md).**ErrorCode**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_Job**](cim-job.md).**ErrorCode**")
 </dt> </dl>
 
 Contains an error summary description.
@@ -251,7 +251,7 @@ GUID of the virtual machines for which export operation has been performed.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -269,9 +269,4 @@ GUID of the virtual machines for which export operation has been performed.
 </dt> </dl>
 
  
-
- 
-
-
-
 

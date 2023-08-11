@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.RelatedSoundFile property.
+description: The photo metadata policy for the System.Photo.RelatedSoundFile property.
 ms.assetid: 3b212d90-7ae2-4b7c-b77a-2017490aca40
 title: System.Photo.RelatedSoundFile Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.RelatedSoundFile Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.RelatedSoundFile](https://msdn.microsoft.com/library/bb760524(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.RelatedSoundFile](../properties/props-system-photo-relatedsoundfile.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Photo.RelatedSoundFile](https://msdn.microsoft.com/library/bb760524(VS.85).aspx)
+[System.Photo.RelatedSoundFile](../properties/props-system-photo-relatedsoundfile.md)
 </dt> </dl>
 
  
 
  
-
-
-

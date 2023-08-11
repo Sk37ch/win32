@@ -1,5 +1,5 @@
 ---
-Description: The IMulticastControl interface is implemented by the IPConf MSP and available only on multicast call objects.
+description: The IMulticastControl interface is implemented by the IPConf MSP and available only on multicast call objects.
 ms.assetid: 9bdb4ab9-30b3-46fb-b13a-de9c294c8046
 title: IMulticastControl interface (Confpriv.h)
 ms.topic: reference
@@ -20,7 +20,7 @@ The MM\_SELECTIVE\_LOOPBACK mode is used to enable multiple applications on one 
 
 ## Members
 
-The **IMulticastControl** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMulticastControl** also has these types of members:
+The **IMulticastControl** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMulticastControl** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -43,7 +43,7 @@ The **IMulticastControl** interface has these methods.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |
@@ -60,9 +60,4 @@ The **IMulticastControl** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: WpdServicesApiSample Application
+description: WpdServicesApiSample Application
 ms.assetid: 857753f7-bca1-4f4a-a8f9-0b2232e2f0dc
 title: WpdServicesApiSample Application
 ms.topic: article
@@ -32,7 +32,6 @@ The WpdServicesApiSample sample application includes the following files:
 
  
 
-In addition to the Windows SDK, you can also download this sample from [Code Gallery](https://code.msdn.microsoft.com/WpdServicesApiSample/Release/ProjectReleases.aspx?ReleaseId=3300).
 
 ## Related topics
 

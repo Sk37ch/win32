@@ -51,13 +51,13 @@ This method does not return a value.
 
 ## Remarks
 
-For more information about system messages, see [Configure Messaging for a Remote Desktop Gateway Server](https://TechNet.Microsoft.Com/library/dd834700.aspx).
+For more information about system messages, see [Configure Messaging for a Remote Desktop Gateway Server](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd834700(v=ws.11)).
 
 ## Requirements
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
@@ -75,10 +75,4 @@ For more information about system messages, see [Configure Messaging for a Remot
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

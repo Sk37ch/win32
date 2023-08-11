@@ -1,5 +1,5 @@
 ---
-Description: The File Type Verifier is a tool that enables independent software vendors (ISVs) to verify that their unique file types are implemented correctly.
+description: The File Type Verifier is a tool that enables independent software vendors (ISVs) to verify that their unique file types are implemented correctly.
 ms.assetid: 1BD7452B-2DF5-44e9-9B09-C29ABFFA5F93
 title: File Type Verifier
 ms.topic: article
@@ -22,12 +22,12 @@ The File Type Verifier tests the following things:
 
 -   [Preview Handlers](building-preview-handlers.md)
 -   [Thumbnail Handlers](building-thumbnail-providers.md)
--   [Property Handlers](https://msdn.microsoft.com/library/Bb266532(v=VS.85).aspx)
+-   [Property Handlers](../search/-search-3x-wds-extidx-propertyhandlers.md)
 -   [Verb Handlers](fa-verbs.md)
--   [Filters (IFilter)](https://msdn.microsoft.com/library/Bb266533(v=VS.85).aspx)
--   [Kind Associations](https://msdn.microsoft.com/library/Cc144136(v=VS.85).aspx)
+-   [Filters (IFilter)](../search/-search-3x-wds-extidx-filters.md)
+-   [Kind Associations](../properties/building-property-handlers-user-friendly-kind-names.md)
 -   [Perceived Types](fa-perceivedtypes.md)
--   [Important Properties](https://msdn.microsoft.com/library/Dd368864(v=VS.85).aspx)
+-   [Important Properties](../search/-shell-systemdefinedpropertiesforfileformats.md)
 
 ## Related topics
 
@@ -63,6 +63,3 @@ The File Type Verifier tests the following things:
  
 
  
-
-
-

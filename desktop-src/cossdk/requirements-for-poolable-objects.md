@@ -1,5 +1,5 @@
 ---
-Description: Poolable objects must meet certain requirements to enable a single object instance to be used by multiple clients.
+description: Poolable objects must meet certain requirements to enable a single object instance to be used by multiple clients.
 ms.assetid: 2cd4211e-be12-4197-8b43-5cb9f2321016
 title: Requirements for Poolable Objects
 ms.topic: article
@@ -25,7 +25,7 @@ Poolable objects cannot be bound to a particular thread; otherwise, performance 
 
 ## Aggregatable
 
-Poolable objects must support aggregation—that is, they must support being created by invoking [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) with a non-NULL *pUnkOuter* argument. When COM+ activates a pooled object, it creates an aggregate to manage the lifetime of the pooled object and to call methods on [**IObjectControl**](/windows/desktop/api/ComSvcs/nn-comsvcs-iobjectcontrol). For details on writing aggregatable objects, see [Aggregation](https://docs.microsoft.com/windows/desktop/com/aggregation).
+Poolable objects must support aggregation—that is, they must support being created by invoking [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) with a non-NULL *pUnkOuter* argument. When COM+ activates a pooled object, it creates an aggregate to manage the lifetime of the pooled object and to call methods on [**IObjectControl**](/windows/desktop/api/ComSvcs/nn-comsvcs-iobjectcontrol). For details on writing aggregatable objects, see [Aggregation](/windows/desktop/com/aggregation).
 
 ## Transactional Components
 
@@ -65,6 +65,3 @@ As long as they are non-transactional and conform to the appropriate preceding r
  
 
  
-
-
-

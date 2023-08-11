@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.WhiteBalance property.
+description: The photo metadata policy for the System.Photo.WhiteBalance property.
 ms.assetid: 7b3a31e6-a929-41e4-b7f0-c5b3beac2519
 title: System.Photo.WhiteBalance Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.WhiteBalance Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.WhiteBalance](https://msdn.microsoft.com/library/bb787282(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.WhiteBalance](../properties/props-system-photo-whitebalance.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Photo.WhiteBalance](https://msdn.microsoft.com/library/bb787282(VS.85).aspx)
+[System.Photo.WhiteBalance](../properties/props-system-photo-whitebalance.md)
 </dt> </dl>
 
  
 
  
-
-
-

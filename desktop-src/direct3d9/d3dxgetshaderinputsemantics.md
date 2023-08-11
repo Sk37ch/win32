@@ -1,5 +1,5 @@
 ---
-Description: Gets the semantics for the shader inputs. Use this method to determine the input vertex format.
+description: Gets the semantics for the shader inputs. Use this method to determine the input vertex format.
 ms.assetid: e94b2b14-3830-4a13-8c23-7841a56d6730
 title: D3DXGetShaderInputSemantics function (D3DX9Shader.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ HRESULT D3DXGetShaderInputSemantics(
 *pFunction* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to the shader function DWORD stream.
 
@@ -58,7 +58,7 @@ Pointer to an array of [**D3DXSEMANTIC**](d3dxsemantic.md) structures. The funct
 *pCount* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Returns the number of elements in pSemantics.
 
@@ -78,7 +78,7 @@ Use **D3DXGetShaderInputSemantics** to return a list of input semantics required
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -95,7 +95,3 @@ Use **D3DXGetShaderInputSemantics** to return a list of input semantics required
  
 
  
-
-
-
-

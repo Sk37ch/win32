@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_FromDirectorySpecification association identifies the source directory for the file action.
+description: The CIM\_FromDirectorySpecification association identifies the source directory for the file action.
 ms.assetid: 031ff95f-aa68-4b05-92a6-97a5e0d8956f
 ms.tgt_platform: multiple
 title: CIM_FromDirectorySpecification class
@@ -61,7 +61,7 @@ Data type: **CIM\_FileAction**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0)
+Qualifiers: [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (0)
 </dt> </dl>
 
 Reference to the file name.
@@ -77,7 +77,7 @@ Data type: **CIM\_DirectorySpecification**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0)
+Qualifiers: [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (0)
 </dt> </dl>
 
 Reference to the source directory.
@@ -94,7 +94,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -105,9 +105,4 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
  
-
- 
-
-
-
 

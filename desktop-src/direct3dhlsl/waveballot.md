@@ -1,6 +1,6 @@
 ---
 title: WaveActiveBallot function
-description: Returns a 4-bit unsigned integer bitmask of the evaluation of the Boolean expression for all active lanes in the specified wave.
+description: Returns a uint4 containing a bitmask of the evaluation of the Boolean expression for all active lanes in the current wave. 
 ms.assetid: 67FE28E0-F397-431A-8CF8-64E4AD88CDBC
 keywords:
 - WaveActiveBallot function HLSL
@@ -17,12 +17,12 @@ api_location:
 
 # WaveActiveBallot function
 
-Returns a 4-bit unsigned integer bitmask of the evaluation of the Boolean expression for all active lanes in the specified wave.
+Returns a uint4 containing a bitmask of the evaluation of the Boolean expression for all active lanes in the current wave. 
 
 ## Syntax
 
 ``` syntax
-uint4 WaveBallot(
+uint4 WaveActiveBallot(
    bool expr
 );
 ```
@@ -56,13 +56,7 @@ Instead of:
 uint result = countbits( WaveActiveBallot( bBit ) );
 ```
 
-This function is supported from shader model 6.0, in the following types of shaders:
-
-
-
-| Vertex | Hull | Domain | Geometry | Pixel | Compute |
-|--------|------|--------|----------|-------|---------|
-|        |      |        |          | x     | x       |
+This function is supported from shader model 6.0 in all shader stages. 
 
 
 

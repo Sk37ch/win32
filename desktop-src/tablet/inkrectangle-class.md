@@ -1,5 +1,5 @@
 ---
-Description: Represents access to a rectangle.
+description: Represents access to a rectangle.
 ms.assetid: 78e6c29c-0f43-46a5-9d30-948de5f369c8
 title: InkRectangle class (Msinkaut.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ The **InkRectangle** class has these properties.
 
  
 
-This object can be instantiated by calling the [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method.
+This object can be instantiated by calling the [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method.
 
 > [!Note]  
 > An **InkRectangle** cannot be used if it is larger than LONG\_MAX (2^31 - 1) in either dimension.
@@ -92,7 +92,7 @@ This object can be instantiated by calling the [**CoCreateInstance**](https://do
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
@@ -102,9 +102,4 @@ This object can be instantiated by calling the [**CoCreateInstance**](https://do
 
 
  
-
- 
-
-
-
 

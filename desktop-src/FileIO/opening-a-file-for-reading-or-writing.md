@@ -1,5 +1,5 @@
 ---
-Description: Example code that shows how to use the CreateFile function to create a new file or open an existing file.
+description: Example code that shows how to use the CreateFile function to create a new file or open an existing file.
 ms.assetid: 04e089a7-c559-4a35-a38b-e1acdf3438d1
 title: Opening a File for Reading or Writing
 ms.topic: article
@@ -25,7 +25,7 @@ A subsequent call to open this file with [**CreateFile**](/windows/desktop/api/F
 
 void DisplayError(LPTSTR lpszFunction);
 
-void __cdecl _tmain(int argc, TCHAR *argv[])
+int __cdecl _tmain(int argc, TCHAR *argv[])
 {
     HANDLE hFile; 
     char DataBuffer[] = "This is some test data to write to the file.";
@@ -175,7 +175,7 @@ VOID CALLBACK FileIOCompletionRoutine(
 // do not use parameters to differentiate between text and binary file types.
 //
 
-void __cdecl _tmain(int argc, TCHAR *argv[])
+int __cdecl _tmain(int argc, TCHAR *argv[])
 {
     HANDLE hFile; 
     DWORD  dwBytesRead = 0;

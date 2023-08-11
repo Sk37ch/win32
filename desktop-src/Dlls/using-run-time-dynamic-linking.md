@@ -1,5 +1,5 @@
 ---
-Description: You can use the same DLL in both load-time and run-time dynamic linking.
+description: You can use the same DLL in both load-time and run-time dynamic linking.
 ms.assetid: 0ffce2b1-ce50-4550-aa68-6628fdcac01a
 title: Using Run-Time Dynamic Linking
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using Run-Time Dynamic Linking
 
-You can use the same DLL in both load-time and run-time dynamic linking. The following example uses the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) function to get a handle to the Myputs DLL (see [Creating a Simple Dynamic-Link Library](creating-a-simple-dynamic-link-library.md)). If **LoadLibrary** succeeds, the program uses the returned handle in the [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) function to get the address of the DLL's myPuts function. After calling the DLL function, the program calls the [**FreeLibrary**](https://msdn.microsoft.com/library/ms683152(v=VS.85).aspx) function to unload the DLL.
+You can use the same DLL in both load-time and run-time dynamic linking. The following example uses the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) function to get a handle to the Myputs DLL (see [Creating a Simple Dynamic-Link Library](creating-a-simple-dynamic-link-library.md)). If **LoadLibrary** succeeds, the program uses the returned handle in the [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) function to get the address of the DLL's myPuts function. After calling the DLL function, the program calls the [**FreeLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-freelibrary) function to unload the DLL.
 
 Because the program uses run-time dynamic linking, it is not necessary to link the module with an import library for the DLL.
 
@@ -22,7 +22,7 @@ This example illustrates an important difference between run-time and load-time 
 #include <windows.h> 
 #include <stdio.h> 
  
-typedef int (__cdecl *MYPROC)(LPWSTR); 
+typedef int (__cdecl *MYPROC)(LPCWSTR); 
  
 int main( void ) 
 { 
@@ -73,6 +73,3 @@ int main( void )
  
 
  
-
-
-

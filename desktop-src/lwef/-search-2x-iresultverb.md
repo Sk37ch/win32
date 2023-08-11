@@ -19,13 +19,14 @@ ms.date: 05/31/2018
 
 # IResultVerb interface
 
-\[Windows Search 2.x is available for use in the operating system specified in the Requirements section. It might be altered or unavailable in later versions. Use the [Windows Search API](https://docs.microsoft.com/windows/desktop/search/-search-reference-entry-page) instead.\]
+> [!NOTE]
+> Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003. On later releases, use the [Windows Search API](../search/-search-reference-entry-page.md) instead. 
 
 Exposes verb properties.
 
 ## Members
 
-The **IResultVerb** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IResultVerb** also has these types of members:
+The **IResultVerb** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IResultVerb** also has these types of members:
 
 -   [Properties](#properties)
 
@@ -56,7 +57,7 @@ These methods expose properties and actions applicable to verbs.
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
@@ -66,10 +67,4 @@ These methods expose properties and actions applicable to verbs.
 
 
  
-
- 
-
-
-
-
 

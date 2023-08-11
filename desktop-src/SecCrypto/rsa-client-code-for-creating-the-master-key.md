@@ -1,5 +1,5 @@
 ---
-Description: The following example shows typical RSA/Schannel client-side code for creating a master key.
+description: The following example shows typical RSA/Schannel client-side code for creating a master key.
 ms.assetid: 9ce4877f-e6e6-4b94-9503-092d2702b31f
 title: RSA Client Code for Creating the Master Key
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # RSA Client Code for Creating the Master Key
 
-The following example shows typical RSA/Schannel client-side code for creating a [*master key*](https://msdn.microsoft.com/library/ms721594(v=VS.85).aspx).
+The following example shows typical RSA/Schannel client-side code for creating a [*master key*](../secgloss/m-gly.md).
 
 
 ```C++
@@ -84,6 +84,3 @@ CryptExportKey(
  
 
  
-
-
-

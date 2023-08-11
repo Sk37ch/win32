@@ -1,5 +1,5 @@
 ---
-Description: Attempts to send a user-defined control code to the referenced service.
+description: UserControlService method of the Win32_Service class (CIMWin32 WMI Providers) - Attempts to send a user-defined control code to the referenced service.
 ms.assetid: a7132c9b-6faf-4182-a5b8-3f2334c1a74b
 ms.tgt_platform: multiple
 title: UserControlService method of the Win32_Service class (CIMWin32 WMI Providers)
@@ -16,11 +16,11 @@ api_location:
 - CIMWin32.dll
 ---
 
-# UserControlService method of the Win32\_Service class
+# UserControlService method of the Win32_Service class (CIMWin32 WMI Providers)
 
-The **UserControlService** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method attempts to send a user-defined control code to the referenced service.
+The **UserControlService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method attempts to send a user-defined control code to the referenced service.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -46,7 +46,7 @@ Specifies defined values (from 128 to 255) that provide control commands specifi
 
 ## Return value
 
-Returns one of the values listed in the following list, or any other value to indicate an error. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+Returns one of the values listed in the following list, or any other value to indicate an error. For additional error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -229,7 +229,7 @@ The service is currently paused in the system.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -243,16 +243,11 @@ The service is currently paused in the system.
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_Service**](win32-service.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

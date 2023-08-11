@@ -1,5 +1,5 @@
 ---
-Description: Revokes access to the interactive session of the virtual machine from the specified list of trustees.
+description: Revokes access to the interactive session of the virtual machine from the specified list of trustees.
 ms.assetid: c6d3df04-c31e-404a-9a04-3e8653bdc14f
 title: RevokeInteractiveSessionAccess method of the Msvm_TerminalService class
 ms.topic: reference
@@ -53,7 +53,7 @@ An array of strings, each identifying a trustee whose access rights will be revo
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -100,7 +100,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -118,9 +118,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

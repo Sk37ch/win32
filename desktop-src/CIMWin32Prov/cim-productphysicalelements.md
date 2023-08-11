@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ProductPhysicalElements class represents the physical elements that make up a product.
+description: The CIM\_ProductPhysicalElements class represents the physical elements that make up a product.
 ms.assetid: cf23098a-f61e-4778-883e-1a5138af3da0
 ms.tgt_platform: multiple
 title: CIM_ProductPhysicalElements class
@@ -74,7 +74,7 @@ Data type: **CIM\_Product**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 Reference to the product.
@@ -91,7 +91,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -102,9 +102,4 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
  
-
- 
-
-
-
 

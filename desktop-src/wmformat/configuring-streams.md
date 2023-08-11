@@ -11,10 +11,13 @@ keywords:
 - streams,IWMStreamConfig interface
 - IWMStreamConfig
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Configuring Streams
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The only thing that is required in a profile is at least one stream. The other options provide access to more advanced features, but with the minimum of one stream you can make an ASF file. It is essential that you understand how to configure streams before creating complex profiles.
 
@@ -31,9 +34,9 @@ The following list summarizes the process of configuring a stream.
     -   Arbitrary streams have varying configuration requirements by type. All require a bit rate and buffer window.
 3.  Add the stream to the profile by calling [**IWMProfile::AddStream**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-addstream).
 
-All streams are defined using stream configuration objects. The main interface for a stream configuration object is [**IWMStreamConfig**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig), which provides methods for setting the basic settings of a stream, such as the stream number, bit rate, and so on. **IWMStreamConfig** is inherited by the newer interfaces, [**IWMStreamConfig2**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig2) and [**IWMStreamConfig3**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig3). As with all numbered interface revisions, you should always retrieve the most recent version using the **QueryInterface** method.
+All streams are defined using stream configuration objects. The main interface for a stream configuration object is [**IWMStreamConfig**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig), which provides methods for setting the basic settings of a stream, such as the stream number, bit rate, and so on. **IWMStreamConfig** is inherited by the newer interfaces, [**IWMStreamConfig2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig2) and [**IWMStreamConfig3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig3). As with all numbered interface revisions, you should always retrieve the most recent version using the **QueryInterface** method.
 
-Most settings in a stream are accessed through [**IWMMediaProps**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops). These settings are encapsulated in a [**WM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type) structure. For audio and video, the **WM\_MEDIA\_TYPE** structure points to another structure with further information specific to the type of media. This secondary structure is typically [**WAVEFORMATEX**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd757720(v=vs.85)) for audio and [**WMVIDEOINFOHEADER**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmvideoinfoheader) for video. In addition, video streams have a tertiary structure, **BITMAPINFOHEADER**, which describes the characteristics of an individual frame of video. **BITMAPINFOHEADER** is a common structure and can be found in the Graphics Device Interface (GDI) section of the Platform SDK.
+Most settings in a stream are accessed through [**IWMMediaProps**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops). These settings are encapsulated in a [**WM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type) structure. For audio and video, the **WM\_MEDIA\_TYPE** structure points to another structure with further information specific to the type of media. This secondary structure is typically [**WAVEFORMATEX**](/previous-versions/windows/desktop/legacy/dd757720(v=vs.85)) for audio and [**WMVIDEOINFOHEADER**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmvideoinfoheader) for video. In addition, video streams have a tertiary structure, **BITMAPINFOHEADER**, which describes the characteristics of an individual frame of video. **BITMAPINFOHEADER** is a common structure and can be found in the Graphics Device Interface (GDI) section of the Platform SDK.
 
 The following sections describe how to configure streams.
 
@@ -71,7 +74,3 @@ The following sections describe how to configure streams.
  
 
  
-
-
-
-

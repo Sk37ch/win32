@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Boolean value that indicates whether the encipherOnly bit is set.
+description: Retrieves a Boolean value that indicates whether the encipherOnly bit is set.
 ms.assetid: 60d79ea4-4968-49e0-8d16-873fbcbd951c
 title: KeyUsage.IsEncipherOnlyEnabled property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # KeyUsage.IsEncipherOnlyEnabled property
 
-\[The **IsEncipherOnlyEnabled** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509EnhancedKeyUsageExtension Class**](https://msdn.microsoft.com/library/6f6fz8xs(v=VS.100).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[The **IsEncipherOnlyEnabled** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509EnhancedKeyUsageExtension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509enhancedkeyusageextension) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **IsEncipherOnlyEnabled** property retrieves a Boolean value that indicates whether the encipherOnly bit is set.
 
@@ -38,7 +38,7 @@ If **true**, the encipherOnly bit is set.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
@@ -55,7 +55,3 @@ If **true**, the encipherOnly bit is set.
  
 
  
-
-
-
-

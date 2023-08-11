@@ -28,7 +28,7 @@ Determines whether the user clicked the specified link.
 </dt> <dd>Must be **NULL**.</dd> <dt>
 
 *lParam* 
-</dt> <dd>Pointer to a <a href="/windows/desktop/api/Commctrl/ns-commctrl-taglhittestinfo">**LHITTESTINFO**</a> structure to be filled with information about the link the user clicked, if any exists. </dd> </dl>
+</dt> <dd>Pointer to a <a href="/windows/win32/api/commctrl/ns-commctrl-lhittestinfo">**LHITTESTINFO**</a> structure to be filled with information about the link the user clicked, if any exists. </dd> </dl>
 
 ## Return value
 
@@ -47,7 +47,7 @@ If the **LM\_HITTEST** message succeeds, the system fills in [**LITEM.iLink**](/
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

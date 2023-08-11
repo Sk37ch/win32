@@ -1,5 +1,5 @@
 ---
-Description: The Reboot&\#8194;WMI class method shuts down the computer system, then restarts it.
+description: The Reboot&\#8194;WMI class method shuts down the computer system, then restarts it.
 ms.assetid: 23b70f2a-28ce-4463-9d22-29de52349ab6
 ms.tgt_platform: multiple
 title: Reboot method of the Win32_OperatingSystem class
@@ -18,9 +18,9 @@ api_location:
 
 # Reboot method of the Win32\_OperatingSystem class
 
-The **Reboot** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method shuts down the computer system, then restarts it.
+The **Reboot** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method shuts down the computer system, then restarts it.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -37,7 +37,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -174,7 +174,7 @@ else
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -188,7 +188,7 @@ else
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_OperatingSystem**](win32-operatingsystem.md)
@@ -197,13 +197,8 @@ else
 [**CIM\_OperatingSystem.Shutdown method**](shutdown-method-in-class-cim-operatingsystem.md)
 </dt> <dt>
 
-[WMI Tasks: Desktop Management](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--desktop-management)
+[WMI Tasks: Desktop Management](/windows/desktop/WmiSdk/wmi-tasks--desktop-management)
 </dt> </dl>
 
  
-
- 
-
-
-
 

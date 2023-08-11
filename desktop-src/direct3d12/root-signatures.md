@@ -2,7 +2,6 @@
 title: Root Signatures
 description: The root signature defines what types of resources are bound to the graphics pipeline.
 ms.assetid: 'ee32a222-8469-4af5-b688-afa70cf77c6a'
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -35,7 +34,7 @@ The root signature defines what types of resources are bound to the graphics pip
 
 <dl> <dt>
 
-[**ID3D12RootSignature**](https://msdn.microsoft.com/library/Dn788714(v=VS.85).aspx)
+[**ID3D12RootSignature**](/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignature)
 </dt> <dt>
 
 [**ID3D12RootSignatureDeserializer**](/windows/desktop/api/d3d12/nn-d3d12-id3d12rootsignaturedeserializer)
@@ -45,10 +44,4 @@ The root signature defines what types of resources are bound to the graphics pip
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

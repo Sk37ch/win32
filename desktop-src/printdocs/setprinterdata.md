@@ -1,5 +1,5 @@
 ---
-Description: The SetPrinterData function sets the configuration data for a printer or print server.
+description: The SetPrinterData function sets the configuration data for a printer or print server.
 ms.assetid: 16072de9-98fb-4ada-8216-180b64cf44c8
 title: SetPrinterData function (Winspool.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ For print servers, this string is one of the predefined strings listed in the fo
 *Type* \[in\]
 </dt> <dd>
 
-A code that indicates the type of data that the *pData* parameter points to. For a list of the possible type codes, see [Registry Value Types](https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types).
+A code that indicates the type of data that the *pData* parameter points to. For a list of the possible type codes, see [Registry Value Types](/windows/desktop/SysInfo/registry-value-types).
 
 </dd> <dt>
 
@@ -143,7 +143,7 @@ The time specified in **SPLREG\_RESTART\_JOB\_ON\_POOL\_ERROR** is a minimum tim
 
 **HKLM\\SYSTEM\\CurrentControlSet\\Control\\Print\\Monitors\\<*MonitorName*>\\Ports**
 
-Call the [**RegSetValueEx**](https://msdn.microsoft.com/library/ms724922(v=VS.85).aspx) function to set these values.
+Call the [**RegSetValueEx**](/windows/win32/api/winreg/nf-winreg-regsetvaluea) function to set these values.
 
 
 
@@ -173,7 +173,7 @@ In Windows 7 and later versions of Windows, print jobs that are sent to a print 
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -210,9 +210,4 @@ In Windows 7 and later versions of Windows, print jobs that are sent to a print 
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the bounding rectangle of the Windows taskbar.
+description: Retrieves the bounding rectangle of the Windows taskbar.
 ms.assetid: 8072bb2d-05e6-4baa-a7f4-1377b94fdd45
 title: ABM_GETTASKBARPOS message (Shellapi.h)
 ms.topic: reference
@@ -34,13 +34,13 @@ Returns **TRUE** if successful; otherwise, **FALSE**.
 
 ## Remarks
 
-Note that this applies only to the system taskbar. Other objects, particularly toolbars supplied with third-party software, also can be present. As a result, some of the screen area not covered by the Windows taskbar might not be visible to the user. To retrieve the area of the screen not covered by both the taskbar and other app bars the working area available to your application , use the [**GetMonitorInfo**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa) function.
+Note that this applies only to the system taskbar. Other objects, particularly toolbars supplied with third-party software, also can be present. As a result, some of the screen area not covered by the Windows taskbar might not be visible to the user. To retrieve the area of the screen not covered by both the taskbar and other app bars the working area available to your application , use the [**GetMonitorInfo**](/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa) function.
 
 ## Requirements
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
@@ -49,9 +49,4 @@ Note that this applies only to the system taskbar. Other objects, particularly t
 
 
  
-
- 
-
-
-
 

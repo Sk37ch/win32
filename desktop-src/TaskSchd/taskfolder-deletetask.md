@@ -48,7 +48,7 @@ The name of the task that is specified when the task was registered. The '.' cha
 *flags* \[in\]
 </dt> <dd>
 
-Not supported.
+Not supported. Value is 0
 
 </dd> </dl>
 
@@ -60,7 +60,7 @@ This method does not return a value.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

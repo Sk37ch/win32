@@ -53,6 +53,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 05/31/2018
 ---
 
@@ -61,6 +62,28 @@ ms.date: 05/31/2018
 If an error occurs, the Task Scheduler APIs can return one of the following error codes as an **HRESULT** value.
 
 The constants that begin with SCHED\_S\_ are success constants, and the constants that begin with SCHED\_E\_ are error constants.
+
+```cpp
+  HRESULT phrStatus;
+  hr = pITask->GetStatus(&phrStatus);
+  
+  // Release the ITask interface.
+  pITask->Release();
+    
+  switch(phrStatus)
+  {
+  case SCHED_S_TASK_READY:
+       wprintf(L"  SCHED_S_TASK_READY\n");
+       break;
+  case SCHED_S_TASK_RUNNING:
+       wprintf(L"  SCHED_S_TASK_RUNNING\n");
+       break;
+
+  //...
+  }
+```
+
+Example from [C/C++ Code Example: Retrieving Task Status](c-c-code-example-retrieving-task-status.md).
 
 > [!Note]  
 > Some Task Scheduler APIs can return system and network error codes (64 for example). You can check the definition of these types of error codes by using the **net helpmsg** command in the command prompt window. For example, the command **net helpmsg 64** returns the message: The specified network name is no longer available.
@@ -608,7 +631,7 @@ The task settings do not allow the task to start on demand.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |

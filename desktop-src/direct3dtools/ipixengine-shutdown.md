@@ -1,5 +1,5 @@
 ---
-Description: Shuts down the engine.
+description: Shuts down the engine.
 MS-HAID: vspixengine.IPixEngine\_ShutDown
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -32,11 +32,8 @@ Shuts down the engine.
 
 ## <span id="see_also"></span>See also
 
-[**IPixEngine**](https://docs.microsoft.com/windows/desktop/direct3dtools/ipixengine)
+[**IPixEngine**](/windows/desktop/direct3dtools/ipixengine)
 
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a service access point (SAP) and a logical device that implements it.
+description: Represents an association between a service access point (SAP) and a logical device that implements it.
 ms.assetid: 40c8111a-d439-4c0f-805e-9c10d7182eb4
 title: CIM_DeviceSAPImplementation class (Hyper-V management)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_DeviceSAPImplementation class
+# CIM_DeviceSAPImplementation class (Hyper-V management)
 
 Represents an association between a service access point (SAP) and a logical device that implements it.
 
@@ -53,7 +53,7 @@ Data type: **CIM\_LogicalDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 The logical device.
@@ -69,7 +69,7 @@ Data type: **CIM\_ServiceAccessPoint**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The SAP implemented by the logical device.
@@ -80,7 +80,7 @@ The SAP implemented by the logical device.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -98,9 +98,4 @@ The SAP implemented by the logical device.
 </dt> </dl>
 
  
-
- 
-
-
-
 

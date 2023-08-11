@@ -1,5 +1,5 @@
 ---
-Description: The ASF media sink is the final component in the encoding pipeline that enables an application to write an ASF file.
+description: The ASF media sink is the final component in the encoding pipeline that enables an application to write an ASF file.
 ms.assetid: 65bb8822-5eb0-46a3-ab9e-c55ae466e982
 title: ASF Media Sinks
 ms.topic: article
@@ -23,7 +23,7 @@ ASF media sinks contain one or more stream sinks, which represents the data to w
 
 ## ASF Media Sink Object Model
 
-ASF media sinks implement the [**IMFMediaSink**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasink) interface and exposes the following interfaces. An application can get a reference to these interfaces by calling [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) on the ASF media sink it is using for generating output samples.
+ASF media sinks implement the [**IMFMediaSink**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasink) interface and exposes the following interfaces. An application can get a reference to these interfaces by calling [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) on the ASF media sink it is using for generating output samples.
 
 
 
@@ -73,6 +73,3 @@ The following topics contain detailed information about working with the ASF fil
  
 
  
-
-
-

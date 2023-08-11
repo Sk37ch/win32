@@ -1,5 +1,5 @@
 ---
-Description: The IWiaDevMgr2 interface is used to create and manage image acquisition devices and to register to receive device events.
+description: The IWiaDevMgr2 interface is used to create and manage image acquisition devices and to register to receive device events.
 ms.assetid: 0e9fb3a1-bbe3-4dba-ba8c-b79f202d5a38
 title: IWiaDevMgr2 interface (Wia.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ The **IWiaDevMgr2** interface is used to create and manage image acquisition dev
 
 ## Members
 
-The **IWiaDevMgr2** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IWiaDevMgr2** also has these types of members:
+The **IWiaDevMgr2** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IWiaDevMgr2** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -48,15 +48,15 @@ The **IWiaDevMgr2** interface has these methods.
 
 ## Remarks
 
-The **IWiaDevMgr2** interface, like all Component Object Model (COM) interfaces, inherits the [IUnknown](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface methods.
+The **IWiaDevMgr2** interface, like all Component Object Model (COM) interfaces, inherits the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface methods.
 
 
 
 | IUnknown Methods                                        | Description                               |
 |---------------------------------------------------------|-------------------------------------------|
-| [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) | Returns pointers to supported interfaces. |
-| [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx)                 | Increments reference count.               |
-| [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx)               | Decrements reference count.               |
+| [IUnknown::QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) | Returns pointers to supported interfaces. |
+| [IUnknown::AddRef](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref)                 | Increments reference count.               |
+| [IUnknown::Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release)               | Decrements reference count.               |
 
 
 
@@ -66,7 +66,7 @@ The **IWiaDevMgr2** interface, like all Component Object Model (COM) interfaces,
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
@@ -78,7 +78,3 @@ The **IWiaDevMgr2** interface, like all Component Object Model (COM) interfaces,
  
 
  
-
-
-
-

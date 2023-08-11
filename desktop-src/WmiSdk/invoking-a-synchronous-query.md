@@ -1,5 +1,5 @@
 ---
-Description: A synchronous query is a query that maintains control over the process of your application for the duration of the query.
+description: A synchronous query is a query that maintains control over the process of your application for the duration of the query.
 ms.assetid: 628e9a31-7b0d-4099-bfa5-56330bb4eb6b
 ms.tgt_platform: multiple
 title: Invoking a Synchronous Query
@@ -15,7 +15,7 @@ The following procedure describes how to issue a synchronous data query using Po
 
 **To issue a synchronous data query in PowerShell**
 
--   Describe your query to WMI using the WMI [Get-WmiObject](https://technet.microsoft.com/library/dd315379.aspx) cmdlet and the *-query* parameter. The cmdlet returns either a single object, or a collection of objects, depending on how many objects fit the query.
+-   Describe your query to WMI using the WMI [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject) cmdlet and the *-query* parameter. The cmdlet returns either a single object, or a collection of objects, depending on how many objects fit the query.
 
     ```PowerShell
     Get-WmiObject -query "SELECT * FROM Win32_logicalDisk WHERE DeviceID = 'C:'"
@@ -55,9 +55,9 @@ The following procedure describes how to issue a synchronous data query using C#
 
 **To issue a synchronous data query in C# (System.Management)**
 
-1.  Create the query with a [ManagementObjectSearcher](https://docs.microsoft.com/dotnet/api/system.management.managementobjectsearcher?redirectedfrom=MSDN) object, and retrieve the information with a call to [ManagementObjectSearcher.Get](https://docs.microsoft.com/dotnet/api/system.management.managementobjectsearcher.get?redirectedfrom=MSDN#System_Management_ManagementObjectSearcher_Get).
+1.  Create the query with a [ManagementObjectSearcher](/dotnet/api/system.management.managementobjectsearcher) object, and retrieve the information with a call to [ManagementObjectSearcher.Get](/dotnet/api/system.management.managementobjectsearcher.get#System_Management_ManagementObjectSearcher_Get).
 
-    This method returns a [ManagementObjectCollection](https://docs.microsoft.com/dotnet/api/system.management.managementobjectcollection?redirectedfrom=MSDN) object.
+    This method returns a [ManagementObjectCollection](/dotnet/api/system.management.managementobjectcollection) object.
 
     ```CSharp
     using System.Management;
@@ -195,6 +195,3 @@ The following procedure describes how to issue a synchronous data query using C+
  
 
  
-
-
-

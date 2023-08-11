@@ -1,5 +1,5 @@
 ---
-Description: Exposes a method to evaluate whether an IContextNode object meets or fails a specified criteria.
+description: Exposes a method to evaluate whether an IContextNode object meets or fails a specified criteria.
 ms.assetid: 8b094882-e739-4088-87de-6ef4719b0b5b
 title: IMatchesCriteriaCallBack interface (IACom.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ Exposes a method to evaluate whether an [**IContextNode**](icontextnode.md) obje
 
 ## Members
 
-The **IMatchesCriteriaCallBack** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMatchesCriteriaCallBack** also has these types of members:
+The **IMatchesCriteriaCallBack** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMatchesCriteriaCallBack** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -47,7 +47,7 @@ To use [**IInkAnalyzer::FindNodesWithCallBack Method**](iinkanalyzer-findnodeswi
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -70,9 +70,4 @@ To use [**IInkAnalyzer::FindNodesWithCallBack Method**](iinkanalyzer-findnodeswi
 </dt> </dl>
 
  
-
- 
-
-
-
 

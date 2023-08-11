@@ -29,7 +29,7 @@ endpoint("ncalrpc:[port-name]")
 *port-name* 
 </dt> <dd>
 
-A character string that specifies the communication port (an application, a service, or an instance of a service) that a client uses to make interprocess calls to a server. The string can contain up to 53 characters and should not contain any backslash (\) characters. The computer name must not be used with the **ncalrpc** keyword.
+A character string that specifies the communication port (an application, a service, or an instance of a service) that a client uses to make interprocess calls to a server. The string can contain up to 53 characters and should not contain any backslash (\\) characters. The computer name must not be used with the **ncalrpc** keyword.
 
 </dd> </dl>
 
@@ -94,13 +94,9 @@ interface iface
 [**ncadg\_ipx**](ncadg-ipx.md)
 </dt> <dt>
 
-[String Binding](https://docs.microsoft.com/windows/desktop/Rpc/string-binding)
+[String Binding](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
  
 
  
-
-
-
-

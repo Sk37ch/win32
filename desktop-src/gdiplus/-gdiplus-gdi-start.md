@@ -1,5 +1,5 @@
 ---
-Description: Windows GDI+ is a class-based API for C/C++ programmers.
+description: Windows GDI+ is a class-based API for C/C++ programmers.
 ms.assetid: ed1396b2-2fc5-4a77-bea2-7bcc971214ae
 title: GDI+
 ms.topic: article
@@ -39,17 +39,17 @@ GDI+ can be used in all Windows-based applications. GDI+ was introduced in Windo
 
 <dl> <dt>
 
-[Windows GDI](https://msdn.microsoft.com/library/gdi/wingdistart_9ezp.asp)
+[Windows GDI](../gdi/windows-gdi.md)
 </dt> <dt>
 
-[DirectX](https://msdn.microsoft.com/directx/)
+[DirectX](/previous-versions/windows/apps/hh452744(v=win.10))
 </dt> <dt>
 
-[Windows Image Acquisition](https://msdn.microsoft.com/library/wia/wia/overviews/startpage.asp)
+[Windows Image Acquisition](../wia/-wia-startpage.md)
 </dt> <dt>
 
-[OpenGL](https://msdn.microsoft.com/library/opengl/openglstart_9uw5.asp)
+[OpenGL](../opengl/opengl.md)
 </dt> <dt>
 
-[Windows Multimedia](https://msdn.microsoft.com/library/Dd743883(v=VS.85).aspx)
+[Windows Multimedia](../multimedia/windows-multimedia-start-page.md)
 </dt> </dl>

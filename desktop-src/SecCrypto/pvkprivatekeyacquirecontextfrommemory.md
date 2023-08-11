@@ -1,5 +1,5 @@
 ---
-Description: Creates a temporary container in the cryptographic service provider (CSP) and loads a private key from memory into the container.
+description: Creates a temporary container in the cryptographic service provider (CSP) and loads a private key from memory into the container.
 ms.assetid: 9388b49b-fad4-4499-a391-fe58ed672552
 title: PvkPrivateKeyAcquireContextFromMemory function
 ms.topic: reference
@@ -22,10 +22,10 @@ api_location:
 
  
 
-The **PvkPrivateKeyAcquireContextFromMemory** function creates a temporary container in the [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP) and loads a [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) from memory into the container.
+The **PvkPrivateKeyAcquireContextFromMemory** function creates a temporary container in the [*cryptographic service provider*](../secgloss/c-gly.md) (CSP) and loads a [*private key*](../secgloss/p-gly.md) from memory into the container.
 
 > [!Note]  
-> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Mssign32.dll.
+> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Mssign32.dll.
 
  
 
@@ -123,7 +123,7 @@ Upon success, this function returns **TRUE**. The **PvkPrivateKeyAcquireContextF
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -134,7 +134,3 @@ Upon success, this function returns **TRUE**. The **PvkPrivateKeyAcquireContextF
  
 
  
-
-
-
-

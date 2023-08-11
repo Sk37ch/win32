@@ -1,5 +1,5 @@
 ---
-Description: Represents a service of the Microsoft Windows Hyper-V platform.
+description: Represents a service of the Microsoft Windows Hyper-V platform.
 ms.assetid: 309EFE4C-EEA4-454C-943D-CBF99D64FE15
 title: Msvm_VirtualizationComponent class
 ms.topic: reference
@@ -75,7 +75,7 @@ Access type: Read-only
 Qualifiers: **Experimental**
 </dt> </dl>
 
-The context in which the newly created object will run. This value is passed in the *dwClsContext* parameter to [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance). This property is always set to 1.
+The context in which the newly created object will run. This value is passed in the *dwClsContext* parameter to [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance). This property is always set to 1.
 
 </dd> <dt>
 
@@ -110,13 +110,13 @@ A language-neutral string that uniquely identifies the service. The following fo
 
 ## Remarks
 
-Access to the **Msvm\_VirtualizationComponent** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_VirtualizationComponent** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -129,9 +129,4 @@ Access to the **Msvm\_VirtualizationComponent** class might be restricted by UAC
 
 
  
-
- 
-
-
-
 

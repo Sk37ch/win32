@@ -1,5 +1,5 @@
 ---
-Description: This section describes how to use the XPS Document API to perform programming tasks.
+description: This section describes how to use the XPS Document API to perform programming tasks.
 ms.assetid: 05b3d7b6-7628-4a5f-87b7-9d51ead51c79
 title: Using XPS Document API
 ms.topic: article
@@ -18,14 +18,14 @@ For information about how to use the XPS Object Model and how it is implemented 
 
 Before you start using the XPS Document API, make sure that you are familiar with the following programming topics:<dl>
 
-[COM Programming](https://docs.microsoft.com/windows/desktop/com/component-object-model--com--portal)  
-[Error Handling in COM](https://docs.microsoft.com/windows/desktop/com/error-handling-in-com)  
+[COM Programming](/windows/desktop/com/component-object-model--com--portal)  
+[Error Handling in COM](/windows/desktop/com/error-handling-in-com)  
 </dl>
 
 When using the XPS Document API, you might also want to use the following technologies:<dl>
 
-[DirectWrite](https://docs.microsoft.com/windows/desktop/DirectWrite/direct-write-portal)  
-[XPS Print API](https://msdn.microsoft.com/library/Ff728890(v=VS.85).aspx)  
+[DirectWrite](/windows/desktop/DirectWrite/direct-write-portal)  
+[XPS Print API](./printing-with-the-xpsprint-api.md)  
 [XPS Digital Signature API](xps-digital-signatures.md)  
 </dl>
 
@@ -69,12 +69,9 @@ The [Advanced XPS Document Programming Tasks](advanced-xps-document-tasks.md) in
 [XPS Document API Reference](xps-programming-reference.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> </dl>
 
  
 
  
-
-
-

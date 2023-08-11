@@ -1,5 +1,5 @@
 ---
-Description: In the WMI infrastructure, the WMI service (Winmgmt) is the operating system component that acts as the mediator between management applications and WMI data providers. The WMI repository is a storage area for WMI-related static data.
+description: In the WMI infrastructure, the WMI service (Winmgmt) is the operating system component that acts as the mediator between management applications and WMI data providers. The WMI repository is a storage area for WMI-related static data.
 ms.assetid: 6ef157be-fb75-4453-bc20-4568a3dc18c0
 ms.tgt_platform: multiple
 title: WMI Infrastructure
@@ -19,7 +19,7 @@ The WMI service interacts with management applications through the COM interface
 
 Providers register their location with the WMI service, which allows WMI to route data requests. A provider also registers support for particular operations, such as data retrieval, modification, deletion, enumeration, or query processing. The WMI service uses the provider registration information to match application requests with the appropriate provider. WMI also uses the registration information to load and unload providers, as necessary. When a provider finishes processing a request, the provider returns the result back to the WMI service. WMI then forwards the result on to the application through the COM interface. For more information, see [Providing Data to WMI](providing-data-to-wmi.md).
 
-WMI uses [Event Tracing](https://docs.microsoft.com/windows/desktop/ETW/event-tracing-portal) (ETW) to record WMI service activity.
+WMI uses [Event Tracing](/windows/desktop/ETW/event-tracing-portal) (ETW) to record WMI service activity.
 
 Because the infrastructure handles all traffic between the providers and the management applications, the infrastructure provides the following features:
 
@@ -49,6 +49,3 @@ Because the infrastructure handles all traffic between the providers and the man
  
 
  
-
-
-

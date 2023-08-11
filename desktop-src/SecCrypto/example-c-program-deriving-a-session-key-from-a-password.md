@@ -1,5 +1,5 @@
 ---
-Description: The following example demonstrates creating a session cryptographic key from the hash of a password as well as the use of the function CryptDeriveKey and related functions.
+description: The following example demonstrates creating a session cryptographic key from the hash of a password as well as the use of the function CryptDeriveKey and related functions.
 ms.assetid: f4748725-2a47-487c-b18c-7b27112d1090
 title: 'Example C Program: Deriving a Session Key from a Password'
 ms.topic: article
@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Example C Program: Deriving a Session Key from a Password
 
-The following example demonstrates creating a [*session cryptographic key*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) from the [*hash*](https://msdn.microsoft.com/library/ms721586(v=VS.85).aspx) of a password as well as the use of the function [**CryptDeriveKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptderivekey) and related functions.
+The following example demonstrates creating a [*session cryptographic key*](../secgloss/s-gly.md) from the [*hash*](../secgloss/h-gly.md) of a password as well as the use of the function [**CryptDeriveKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptderivekey) and related functions.
 
 This example illustrates the following tasks and CryptoAPI functions:
 
--   Calling [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) to acquiring a handle for the default CSP and the default [*key container*](https://msdn.microsoft.com/library/ms721590(v=VS.85).aspx).
+-   Calling [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) to acquiring a handle for the default CSP and the default [*key container*](../secgloss/k-gly.md).
 -   Using [**CryptCreateHash**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcreatehash) to create an empty hash object.
 -   Hashing the text of a password using [**CryptHashData**](/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashdata).
 -   Deriving a session key from the hashed password using [**CryptDeriveKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptderivekey).
@@ -206,6 +206,3 @@ void GetConsoleInput(char* strInput,
  
 
  
-
-
-

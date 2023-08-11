@@ -34,7 +34,7 @@ ms.date: 02/03/2020
 
 # Pointer Flags
 
-Values that can appear in the **pointerFlags** field of the [**POINTER_INFO**](/previous-versions/windows/desktop/api) structure.
+Values that can appear in the **pointerFlags** field of the [**POINTER_INFO**](/windows/win32/api/winuser/ns-winuser-pointer_info) structure.
 
 <dl> <dt>
 
@@ -275,7 +275,7 @@ Indicates that this pointer transitioned to an up state; that is, contact with t
 
 
 
-Indicates input associated with a pointer wheel. For mouse pointers, this is equivalent to the action of the mouse scroll wheel ([**WM_MOUSEHWHEEL**](https://msdn.microsoft.com/library/windows/desktop/ms645614)).
+Indicates input associated with a pointer wheel. For mouse pointers, this is equivalent to the action of the mouse scroll wheel ([**WM_MOUSEHWHEEL**](../inputdev/wm-mousehwheel.md)).
 
 
 </dt> </dl> </dd> <dt>
@@ -288,7 +288,7 @@ Indicates input associated with a pointer wheel. For mouse pointers, this is equ
 
 
 
-Indicates input associated with a pointer h-wheel. For mouse pointers, this is equivalent to the action of the mouse horizontal scroll wheel ([**WM_MOUSEHWHEEL**](https://msdn.microsoft.com/library/windows/desktop/ms645614)).
+Indicates input associated with a pointer h-wheel. For mouse pointers, this is equivalent to the action of the mouse horizontal scroll wheel ([**WM_MOUSEHWHEEL**](../inputdev/wm-mousehwheel.md)).
 
 
 </dt> </dl> </dd> <dt>
@@ -327,7 +327,7 @@ XBUTTON1 and XBUTTON2 are additional buttons used on many mouse devices. They re
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
@@ -342,17 +342,11 @@ XBUTTON1 and XBUTTON2 are additional buttons used on many mouse devices. They re
 [Constants](constants.md)
 </dt> <dt>
 
-[**POINTER_INFO**](/previous-versions/windows/desktop/api)
+[**POINTER_INFO**](/windows/win32/api/winuser/ns-winuser-pointer_info)
 </dt> <dt>
 
-[**POINTER_BUTTON_CHANGE_TYPE**](/previous-versions/windows/desktop/api)
+[**POINTER_BUTTON_CHANGE_TYPE**](/windows/win32/api/winuser/ne-winuser-pointer_button_change_type)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

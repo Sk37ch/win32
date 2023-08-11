@@ -1,5 +1,5 @@
 ---
-Description: Sets a new reply APDU.
+description: Sets a new reply APDU.
 ms.assetid: 1d058c89-0de9-4809-b008-ae24c62acc5b
 title: ISCardCmd::put_ApduReply method (Scarddat.h)
 ms.topic: reference
@@ -17,9 +17,9 @@ api_location:
 
 # ISCardCmd::put\_ApduReply method
 
-\[The **put\_ApduReply** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **put\_ApduReply** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
-The **put\_ApduReply** method sets a new [*reply APDU*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx).
+The **put\_ApduReply** method sets a new [*reply APDU*](../secgloss/r-gly.md).
 
 ## Syntax
 
@@ -70,7 +70,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 ## Examples
 
-The following example shows how to set a new [*reply APDU*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx). The example assumes that pIByteReply is a valid pointer to an instance of [**IByteBuffer**](ibytebuffer.md), and that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
+The following example shows how to set a new [*reply APDU*](../secgloss/r-gly.md). The example assumes that pIByteReply is a valid pointer to an instance of [**IByteBuffer**](ibytebuffer.md), and that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
 
 
 ```C++
@@ -91,7 +91,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -120,7 +120,3 @@ if (FAILED(hr))
  
 
  
-
-
-
-

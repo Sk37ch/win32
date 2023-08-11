@@ -1,5 +1,5 @@
 ---
-Description: Gets an object that represents the parent of the item.
+description: Gets an object that represents the parent of the item.
 ms.assetid: 612e76d8-d8bc-419c-b319-75b1f324840a
 title: FolderItem.Parent property (Shldisp.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ objParent = FolderItem.Parent
 
 ## Property value
 
-A variable of type [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) that receives the parent object.
+A variable of type [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) that receives the parent object.
 
 ## Examples
 
@@ -144,7 +144,7 @@ Visual Basic:
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
@@ -157,7 +157,3 @@ Visual Basic:
  
 
  
-
-
-
-

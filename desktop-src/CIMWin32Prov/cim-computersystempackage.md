@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ComputerSystemPackage class represents an association that explicitly defines the relationship between unitary computer systems and one or more physical packages.
+description: The CIM\_ComputerSystemPackage class represents an association that explicitly defines the relationship between unitary computer systems and one or more physical packages.
 ms.assetid: a91bf09d-0768-4d2a-a0e5-16237b2e6ddc
 ms.tgt_platform: multiple
 title: CIM_ComputerSystemPackage class
@@ -61,7 +61,7 @@ Data type: **CIM\_PhysicalPackage**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_PhysicalPackage**](cim-physicalpackage.md) that describes the physical package(s) that realize a unitary computer system.
@@ -77,7 +77,7 @@ Data type: **CIM\_UnitaryComputerSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_UnitaryComputerSystem**](cim-unitarycomputersystem.md) that describes the unitary computer system.
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -114,9 +114,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

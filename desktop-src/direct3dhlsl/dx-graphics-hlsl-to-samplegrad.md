@@ -1,6 +1,6 @@
 ---
 title: SampleGrad (DirectX HLSL Texture Object)
-description: Samples a texture using a gradient to influence the way the sample location is calculated.
+description: Samples a texture using a gradient to influence the way the sample location is calculated. | SampleGrad (DirectX HLSL Texture Object)
 ms.assetid: f3d73296-23c4-4178-b89e-6f84cfcb48a5
 ms.topic: reference
 ms.date: 05/31/2018
@@ -15,11 +15,7 @@ api_location:
 
 Samples a texture using a gradient to influence the way the sample location is calculated.
 
-
-
-|                                                                                                            |
-|------------------------------------------------------------------------------------------------------------|
-| <Template Type> Object.SampleGrad( sampler\_state S, float Location, float DDX, float DDY \[, int Offset\] ); |
+&lt;Template Type&gt; Object.SampleGrad( sampler\_state S, float Location, float DDX, float DDY \[, int Offset\] );
 
 
 
@@ -31,8 +27,8 @@ Samples a texture using a gradient to influence the way the sample location is c
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -197,7 +193,7 @@ Samples a texture using a gradient to influence the way the sample location is c
 
 ## Return Value
 
-The texture's template type, which may be a single- or multi-component vector. The format is based on the texture's [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
+The texture's template type, which may be a single- or multi-component vector. The format is based on the texture's [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
 ## Minimum Shader Model
 
@@ -263,10 +259,4 @@ float4 PSSceneMain( VSSceneOut Input ) : SV_TARGET
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

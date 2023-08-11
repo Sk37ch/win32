@@ -1,5 +1,5 @@
 ---
-Description: Gets a FolderItem object that represents the item that has the input focus.
+description: ShellFolderView.FocusedItem property - Gets a FolderItem object that represents the item that has the input focus.
 ms.assetid: ca88801d-c8fa-4c1c-9294-f52eada40ff6
 title: ShellFolderView.FocusedItem property (Shldisp.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ objFocusedItem = ShellFolderView.FocusedItem
 
 ## Property value
 
-A variable of type [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) that receives the focused item object.
+A variable of type [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) that receives the focused item object.
 
 ## Remarks
 
@@ -92,7 +92,7 @@ The following example shows the proper use of this method in JScript embedded in
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
@@ -105,7 +105,3 @@ The following example shows the proper use of this method in JScript embedded in
  
 
  
-
-
-
-

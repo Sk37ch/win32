@@ -1,5 +1,5 @@
 ---
-Description: This association establishes a service access point (SAP) as a requester of protocol services from a protocol endpoint.
+description: This association establishes a service access point (SAP) as a requester of protocol services from a protocol endpoint.
 ms.assetid: 14edefd8-d59b-4925-8b78-a979fb9a975f
 title: Msvm_BindsToLANEndpoint class
 ms.topic: reference
@@ -57,10 +57,10 @@ Data type: **[**Msvm\_LANEndpoint**](msvm-lanendpoint.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
-A reference to an [**Msvm\_LANEndpoint**](msvm-lanendpoint.md) class that represents the switch port. This property is inherited from [**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency).
+A reference to an [**Msvm\_LANEndpoint**](msvm-lanendpoint.md) class that represents the switch port. This property is inherited from [**CIM\_Dependency**](/windows/desktop/CIMWin32Prov/cim-dependency).
 
 </dd> <dt>
 
@@ -73,10 +73,10 @@ Data type: **[**Msvm\_VLANEndpoint**](msvm-vlanendpoint.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
-A reference to the [**Msvm\_VLANEndpoint**](msvm-vlanendpoint.md) associated with the switch port. This property is inherited from [**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency).
+A reference to the [**Msvm\_VLANEndpoint**](msvm-vlanendpoint.md) associated with the switch port. This property is inherited from [**CIM\_Dependency**](/windows/desktop/CIMWin32Prov/cim-dependency).
 
 </dd> <dt>
 
@@ -97,7 +97,7 @@ Describes the framing method for the upper layer SAP or endpoint that is bound t
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -108,9 +108,4 @@ Describes the framing method for the upper layer SAP or endpoint that is bound t
 
 
  
-
- 
-
-
-
 

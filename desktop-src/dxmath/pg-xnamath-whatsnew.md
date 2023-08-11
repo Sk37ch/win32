@@ -1,14 +1,14 @@
 ---
-Description: The DirectXMath library is based on the XNA Math C++ SIMD library version 2.x. Here we describe how DirectXMath differs from XNA Math and how DirectXMath versions differ.
+description: The DirectXMath library is based on the XNA Math C++ SIMD library version 2.x. Here we describe how DirectXMath differs from XNA Math and how DirectXMath versions differ.
 ms.assetid: 105800d3-a191-c78f-316a-bf2daf7b27a6
 title: What's New (DirectXMath)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# What's New
+# What's New (DirectXMath)
 
-The DirectXMath library is based on the [XNA Math C++ SIMD library version 2.04](https://walbourn.github.io/). Here we describe how DirectXMath differs from XNA Math and how DirectXMath versions differ.
+The DirectXMath library is based on the [XNA Math C++ SIMD library version 2.04](https://walbourn.github.io/xna-math-version-2-04/). Here we describe how DirectXMath differs from XNA Math and how DirectXMath versions differ.
 
 -   [Rlease history](#release-history)
 -   [DirectXMath differences from XNA Math](#directxmath-differences-from-xna-math)
@@ -17,6 +17,12 @@ The DirectXMath library is based on the [XNA Math C++ SIMD library version 2.04]
 ## Release history
 
 <table>
+ <tr>
+  <td>Windows 10 SDK (20348), version 2104</td><td>DirectXMath 3.16</td>
+ </td>
+ <tr>
+  <td>Windows 10 May 2020 Update SDK</td><td>DirectXMath 3.14</td>
+ </tr>
  <tr>
   <td>Windows 10 October 2018 Update SDK</td><td>DirectXMath 3.13</td>
  </tr>
@@ -55,8 +61,8 @@ Here is how the DirectXMath library primarily differs from the XNA Math library:
 -   New color functionality (color space conversions, .NET color constants).
 -   Bounding volume types (a version of which was previously in the XNACollision header in the DirectX SDK Collision sample).
 -   No Xbox 360 version is available. The Xbox 360 XDK continues to ship XNAMath v2.x; removal of Xbox 360 specific data types and function variants.
--   Reworked [**XMVectorPermute**](https://msdn.microsoft.com/library/Hh855956(v=VS.85).aspx) for improved optimization for SSE and ARM-NEON intrinsics.
--   The [**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx) type is fully opaque. To access individual elements of **XMMATRIX**, use other types such as [**XMFLOAT4X4**](https://msdn.microsoft.com/library/Ee419621(v=VS.85).aspx).
+-   Reworked [**XMVectorPermute**](/windows/win32/api/directxmath/nf-directxmath-xmvectorpermute) for improved optimization for SSE and ARM-NEON intrinsics.
+-   The [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) type is fully opaque. To access individual elements of **XMMATRIX**, use other types such as [**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4).
 
 ## Related topics
 
@@ -71,6 +77,3 @@ Here is how the DirectXMath library primarily differs from the XNA Math library:
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: An assembly manifest is an XML file that describes a side-by-side assembly.
+description: An assembly manifest is an XML file that describes a side-by-side assembly.
 ms.assetid: f7973019-0a80-498e-adf1-c66267c813f4
 title: Assembly Manifests
 ms.topic: article
@@ -44,7 +44,7 @@ Assembly manifests have the following elements and attributes.
 |                                   | **miscStatusIcon**        | No       |
 |                                   | **miscStatusContent**     | No       |
 |                                   | **miscStatusDocPrint**    | No       |
-|                                   | **miscStatusDocPrint**    | No       |
+|                                   | **miscStatusThumbnail**   | No       |
 | **typelib**                       |                           | No       |
 |                                   | **tlbid**                 | Yes      |
 |                                   | **version**               | Yes      |
@@ -77,18 +77,16 @@ Assembly manifests have the following elements and attributes.
 
 Assembly manifests can be installed in three locations:
 
--   As manifests that accompany [shared assemblies](https://docs.microsoft.com/windows/desktop/Msi/shared-assemblies), assembly manifests should be installed as a separate file in the side-by-side assembly cache. This is usually the WinSxS folder in the Windows directory.
--   As manifests that accompany [private assemblies](https://docs.microsoft.com/windows/desktop/Msi/private-assemblies), assembly manifests should installed in the directory structure of the application. This is usually a separate file in the same folder as the application's executable file.
+-   As manifests that accompany [shared assemblies](/windows/desktop/Msi/shared-assemblies), assembly manifests should be installed as a separate file in the side-by-side assembly cache. This is usually the WinSxS folder in the Windows directory.
+-   As manifests that accompany [private assemblies](/windows/desktop/Msi/private-assemblies), assembly manifests should installed in the directory structure of the application. This is usually a separate file in the same folder as the application's executable file.
 -   As a resource in a DLL, the assembly is available for the private use of the DLL. An assembly manifest cannot be included as a resource in an EXE. An EXE file may include an [application manifest](application-manifests.md) as a resource.
 
 ## File Name Syntax
 
-The name of an assembly manifest is any valid file name followed by .manifest.
+The name of an assembly manifest is any valid file name followed by `.manifest`.
 
-For example, an assembly manifest that refers to myassembly would use the following file name syntax. You can omit the <*resource ID*> field if the assembly manifest is being installed as a separate file or if the resource ID is 1.
-
-<dl> myassembly.<resource ID>.manifest  
-</dl>
+For example, an assembly manifest that refers to myassembly would use the following file name syntax: `myassembly.<resource ID>.manifest`.
+You can omit the `<resource ID>` field if the assembly manifest is being installed as a separate file or if the resource ID is 1.
 
 > [!Note]  
 > Because of the way side-by-side searches for private assemblies, the following naming restrictions apply when packaging a DLL as a private assembly. A recommended way of doing this is to put the assembly manifest in the DLL as a resource. In this case, the resource ID must equal 1 and the name of the private assembly may be the same as the name of the DLL. For example, if the name of the DLL is Microsoft.Windows.mysample.dll, the value of the name attribute used in the **assemblyIdentity** element of the manifest may also be Microsoft.Windows.mysample. An alternate way is to put the assembly manifest in a separate file. In this case, the name of the assembly and its manifest must be different than the name of the DLL. For example, Microsoft.Windows.mysampleAsm, Microsoft.Windows.mysampleAsm.manifest, and Microsoft.Windows.Mysample.dll. For more information about how side-by-side searches for private assemblies, see [Assembly Searching Sequence](assembly-searching-sequence.md).
@@ -218,7 +216,7 @@ The **comClass** element has the following attributes.
 
  
 
-The **comClass** element can have <progid>...</progid> elements as children, which list the version dependent progids.
+The **comClass** element can have &lt;progid&gt;...</progid> elements as children, which list the version dependent progids.
 
 The following example shows a **comClass** element included in a **file** element.
 
@@ -234,7 +232,7 @@ The following example shows a **comClass** element included in a **file** elemen
     </file>
 ```
 
-If your COM class is an OCX class that requires the MiscStatus registry subkey to specify how to create and display an object, you can enable the object by duplicating this information in the assembly manifest. Specify the object's characteristics by using the **miscStatus**, **miscStatusIcon**, **miscStatusContent**, **miscStatusDocprint**, and **miscStatusThumbnail** attributes of the **comClass** element. Set these attributes to a comma-separated list of attribute values from the following table. These attributes duplicate the information that would be provided by a DVASPECT enumeration. If a no value is found for **miscStatusIcon**, **miscStatusContent**, **miscStatusDocprint**, or **miscStatusThumbnail**, the default values specified in **miscStatus** is used. Use attribute values from the following table. These correspond to the bit flags of a [**OLEMISC**](https://msdn.microsoft.com/library/ms678497(v=VS.85).aspx) enumeration.
+If your COM class is an OCX class that requires the MiscStatus registry subkey to specify how to create and display an object, you can enable the object by duplicating this information in the assembly manifest. Specify the object's characteristics by using the **miscStatus**, **miscStatusIcon**, **miscStatusContent**, **miscStatusDocprint**, and **miscStatusThumbnail** attributes of the **comClass** element. Set these attributes to a comma-separated list of attribute values from the following table. These attributes duplicate the information that would be provided by a DVASPECT enumeration. If a no value is found for **miscStatusIcon**, **miscStatusContent**, **miscStatusDocprint**, or **miscStatusThumbnail**, the default values specified in **miscStatus** is used. Use attribute values from the following table. These correspond to the bit flags of a [**OLEMISC**](/windows/win32/api/oleidl/ne-oleidl-olemisc) enumeration.
 
 
 
@@ -283,8 +281,8 @@ The **typelib** element has the attributes shown in the following table.
 | **tlbid**      | The unique ID of the type library. Required.                                                                                                                                                                                                                                                                                                                                                                                    |
 | **version**    | The two-part version number of the type library. If only the minor version number increases, all the features of the previous type library are supported in a compatible way. If the major version number changes, code that compiled against the type library must be recompiled. The version number of the type library may differ from the version number of the application. Required.                                      |
 | **helpdir**    | The directory where the Help file for the types in the type library is located. If the application supports type libraries for multiple languages, the libraries may refer to different file names in the Help file directory. If no value, then specify "". Required.                                                                                                                                                          |
-| **resourceid** | The hexadecimal string representation of the locale identifier (LCID). It is one to four hexadecimal digits with no 0x prefix and no leading zeros. The LCID may have a neutral sublanguage identifier. For more information, see [Locale Identifiers](https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers). Optional.                                                                                                                                      |
-| **flags**      | The string representation of the type library flags for this type library. Specifically, it should be one of "RESTRICTED", "CONTROL", "HIDDEN" and "HASDISKIMAGE". These are the values of the [**LIBFLAGS**](https://msdn.microsoft.com/library/ms221149(v=VS.71).aspx) enumeration, and are the same flags specified in the *uLibFlags* parameter of the [**ICreateTypeLib::SetLibFlags**](https://msdn.microsoft.com/library/ms221704(v=VS.71).aspx) method. Optional. |
+| **resourceid** | The hexadecimal string representation of the locale identifier (LCID). It is one to four hexadecimal digits with no 0x prefix and no leading zeros. The LCID may have a neutral sublanguage identifier. For more information, see [Locale Identifiers](/windows/desktop/Intl/locale-identifiers). Optional.                                                                                                                                      |
+| **flags**      | The string representation of the type library flags for this type library. Specifically, it should be one of "RESTRICTED", "CONTROL", "HIDDEN" and "HASDISKIMAGE". These are the values of the [**LIBFLAGS**](/windows/win32/api/oaidl/ne-oaidl-libflags) enumeration, and are the same flags specified in the *uLibFlags* parameter of the [**ICreateTypeLib::SetLibFlags**](/windows/win32/api/oaidl/nf-oaidl-icreatetypelib-setlibflags) method. Optional. |
 
 
 
@@ -304,9 +302,9 @@ The following example shows a **typelib** element included in a **file** element
 <span id="comInterfaceExternalProxyStub"></span><span id="cominterfaceexternalproxystub"></span><span id="COMINTERFACEEXTERNALPROXYSTUB"></span>**comInterfaceExternalProxyStub**
 </dt> <dd>
 
-The **comInterfaceExternalProxyStub** is a subelement of an **assembly** element and is used for automation interfaces. For example, [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) and its derived interfaces. Optional.
+The **comInterfaceExternalProxyStub** is a subelement of an **assembly** element and is used for automation interfaces. For example, [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) and its derived interfaces. Optional.
 
-The default proxy-stub implementation is adequate for most automation interfaces, such as interfaces derived from [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx). The interface proxy stub, and all other external proxy-stub interface implementations, must be listed in the **comInterfaceExternalProxyStub**. The **comInterfaceExternalProxyStub** element has the attributes shown in the following table.
+The default proxy-stub implementation is adequate for most automation interfaces, such as interfaces derived from [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch). The interface proxy stub, and all other external proxy-stub interface implementations, must be listed in the **comInterfaceExternalProxyStub**. The **comInterfaceExternalProxyStub** element has the attributes shown in the following table.
 
 
 
@@ -416,9 +414,4 @@ manifestVersion="1.0">
 ```
 
  
-
- 
-
-
-
 

@@ -28,7 +28,7 @@ The **INapEnforcementClientBinding** provides methods that enforcement clients u
 
 ## Members
 
-The **INapEnforcementClientBinding** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapEnforcementClientBinding** also has these types of members:
+The **INapEnforcementClientBinding** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapEnforcementClientBinding** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -60,7 +60,7 @@ All the APIs in this interface will return RPC\_E\_DISCONNECTED if the NapAgent 
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
@@ -81,10 +81,4 @@ All the APIs in this interface will return RPC\_E\_DISCONNECTED if the NapAgent 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

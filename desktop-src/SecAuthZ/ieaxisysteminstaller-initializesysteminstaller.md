@@ -1,5 +1,5 @@
 ---
-Description: Installs the specified ActiveX object.
+description: Installs the specified ActiveX object.
 ms.assetid: c5d460d8-0df4-437a-a59e-707bf868a339
 title: IeAxiSystemInstaller::InitializeSystemInstaller method
 ms.topic: reference
@@ -68,13 +68,13 @@ A context that can be used to share state information in calls to other methods 
 
 If the method succeeds, the method returns S\_OK.
 
-If the method fails, it returns an **HRESULT** value that indicates the error. For a list of common error codes, see [Common HRESULT Values](https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values).
+If the method fails, it returns an **HRESULT** value that indicates the error. For a list of common error codes, see [Common HRESULT Values](/windows/desktop/SecCrypto/common-hresult-values).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                                 |
@@ -90,9 +90,4 @@ If the method fails, it returns an **HRESULT** value that indicates the error. F
 </dt> </dl>
 
  
-
- 
-
-
-
 

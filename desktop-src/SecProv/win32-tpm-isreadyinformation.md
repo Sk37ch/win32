@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the TPM is ready and provides additional information on the state of the TPM.
+description: Indicates whether the TPM is ready and provides additional information on the state of the TPM.
 ms.assetid: 1E348D77-979C-42FC-824D-7C57F7BAABE5
 title: Win32_Tpm::IsReadyInformation method
 ms.topic: reference
@@ -63,7 +63,7 @@ The *Information* parameter may consist of the following values.
 | <span id="INFORMATION_TPM_TAKE_OWNERSHIP"></span><span id="information_tpm_take_ownership"></span><dl> <dt>**INFORMATION\_TPM\_TAKE\_OWNERSHIP**</dt> <dt>0x00000040</dt> </dl>                 | The TPM ownership was taken.<br/>                                                                                                                                                                                                |
 | <span id="INFORMATION_TPM_CREATE_EK"></span><span id="information_tpm_create_ek"></span><dl> <dt>**INFORMATION\_TPM\_CREATE\_EK**</dt> <dt>0x00000080</dt> </dl>                                | An Endorsement Key (EK) exists in the TPM. <br/>                                                                                                                                                                                 |
 | <span id="INFORMATION_TPM_OWNERAUTH"></span><span id="information_tpm_ownerauth"></span><dl> <dt>**INFORMATION\_TPM\_OWNERAUTH**</dt> <dt>0x00000100</dt> </dl>                                 | The TPM owner authorization is not properly stored in the registry.<br/>                                                                                                                                                         |
-| <span id="INFORMATION_TPM_SRK_AUTH"></span><span id="information_tpm_srk_auth"></span><dl> <dt>**INFORMATION\_TPM\_SRK\_AUTH**</dt> <dt>0x000000200</dt> </dl>                                  | The Storage Root Key (SRK) authorization value is not all zeros.<br/>                                                                                                                                                            |
+| <span id="INFORMATION_TPM_SRK_AUTH"></span><span id="information_tpm_srk_auth"></span><dl> <dt>**INFORMATION\_TPM\_SRK\_AUTH**</dt> <dt>0x00000200</dt> </dl>                                  | The Storage Root Key (SRK) authorization value is not all zeros.<br/>                                                                                                                                                            |
 | <span id="INFORMATION_TPM_DISABLE_OWNER_CLEAR"></span><span id="information_tpm_disable_owner_clear"></span><dl> <dt>**INFORMATION\_TPM\_DISABLE\_OWNER\_CLEAR**</dt> <dt>0x00000400</dt> </dl> | If the operating system is configured to disable clearing of the TPM with the TPM owner authorization value and the TPM has not yet been configured to prevent clearing of the TPM with the TPM owner authorization value .<br/> |
 | <span id="INFORMATION_TPM_SRKPUB"></span><span id="information_tpm_srkpub"></span><dl> <dt>**INFORMATION\_TPM\_SRKPUB**</dt> <dt>0x00000800</dt> </dl>                                          | The operating system's registry information about the TPM’s Storage Root Key does not match the TPM Storage Root Key.<br/>                                                                                                       |
 | <span id="INFORMATION_TPM_READ_SRKPUB"></span><span id="information_tpm_read_srkpub"></span><dl> <dt>**INFORMATION\_TPM\_READ\_SRKPUB**</dt> <dt>0x00001000</dt> </dl>                          | The TPM permanent flag to allow reading of the Storage Root Key public value is not set.<br/>                                                                                                                                    |
@@ -78,7 +78,7 @@ The *Information* parameter may consist of the following values.
 | <span id="INFORMATION_GENERIC_ERROR"></span><span id="information_generic_error"></span><dl> <dt>**INFORMATION\_GENERIC\_ERROR**</dt> <dt>0x00200000</dt> </dl>                                 | An error occurred, but not specific to a particular task.<br/>                                                                                                                                                                   |
 | <span id="INFORMATION_DEVICE_LOCK_COUNTER"></span><span id="information_device_lock_counter"></span><dl> <dt>**INFORMATION\_DEVICE\_LOCK\_COUNTER**</dt> <dt>0x00400000</dt> </dl>              | The device lock counter has not been created.<br/>                                                                                                                                                                               |
 | <span id="INFORMATION_DEVICEID"></span><span id="information_deviceid"></span><dl> <dt>**INFORMATION\_DEVICEID**</dt> <dt> 0x00800000</dt> </dl>                                                | The device identifier has not been created.<br/>                                                                                                                                                                                 |
-
+| <span id="INFORMATION_ATTESTATION_VULNERABILITY"></span><span id="information_attestation_vulnerability"></span><dl> <dt>**INFORMATION\_ATTESTATION\_VULNERABILITY**</dt> <dt> 0x01000000</dt> </dl>                                                | The TPM has a Health Attestation related vulnerability.<br/>                                                                                                                                                                                 |
 
 
  
@@ -87,7 +87,7 @@ The *Information* parameter may consist of the following values.
 
 ## Return value
 
-All TPM errors as well as errors specific to [TPM Base Services](https://msdn.microsoft.com/library/Aa446795(v=VS.85).aspx) can be returned.
+All TPM errors as well as errors specific to [TPM Base Services](../tbs/tbs-return-codes.md) can be returned.
 
 Common return codes are listed below.
 
@@ -103,13 +103,13 @@ Common return codes are listed below.
 
 ## Remarks
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/Aa823192(v=VS.85).aspx).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## Requirements
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
@@ -129,7 +129,3 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
  
 
  
-
-
-
-

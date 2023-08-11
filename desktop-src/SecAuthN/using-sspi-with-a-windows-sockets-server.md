@@ -1,5 +1,5 @@
 ---
-Description: This sample program works with the client program Using SSPI with a Windows Sockets Client. Both sample programs use the header file SspiExample.h which can be found in Header File for SSPI Client and Server Samples.
+description: This sample program works with the client program Using SSPI with a Windows Sockets Client. Both sample programs use the header file SspiExample.h which can be found in Header File for SSPI Client and Server Samples.
 ms.assetid: 4fa044c7-cce2-4a43-8f68-16cf3a4daaee
 title: Using SSPI with a Windows Sockets Server
 ms.topic: article
@@ -15,7 +15,7 @@ This program includes calls to functions in Secur32.lib and Ws2\_32.lib, which m
 This program demonstrates the following:
 
 -   Establishing a Windows Sockets connection with a client.
--   Initializing an session.
+-   Initializing a session.
 -   Connecting with a client and establishing a secure communication session. The server here offers the Negotiate SSP which can respond to the client with either NTLM or Kerberos.
 -   Uses client impersonation and reverting to self.
 -   Sends the client an encrypted message.

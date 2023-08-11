@@ -1,5 +1,5 @@
 ---
-Description: Represents the tablet context.
+description: Represents the tablet context.
 ms.assetid: d518c42d-c2f6-4776-bea5-fecdfe48e260
 title: ITabletContextP interface
 ms.topic: reference
@@ -22,7 +22,7 @@ Represents the tablet context.
 
 ## Members
 
-The **ITabletContextP** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITabletContextP** also has these types of members:
+The **ITabletContextP** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITabletContextP** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -94,7 +94,7 @@ interface ITabletContextP : ITabletContext
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
@@ -103,9 +103,4 @@ interface ITabletContextP : ITabletContext
 
 
  
-
- 
-
-
-
 

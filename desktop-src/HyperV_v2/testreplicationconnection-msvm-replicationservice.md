@@ -1,5 +1,5 @@
 ---
-Description: Verifies if the replication can be enabled from the current host system to the specified recovery system.
+description: Verifies if the replication can be enabled from the current host system to the specified recovery system.
 ms.assetid: 404855d5-9a1f-4079-b46d-b378fafff5bb
 title: TestReplicationConnection method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -99,7 +99,7 @@ Bypass the proxy server when connecting to the replica server.
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -155,7 +155,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -173,9 +173,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

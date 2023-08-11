@@ -1,5 +1,5 @@
 ---
-Description: Returns the number of passes where the hardware can perform the blending operations specified in the current state.
+description: Returns the number of passes where the hardware can perform the blending operations specified in the current state.
 ms.assetid: 355dae78-cd65-4fc9-8f08-8e5ae123064b
 title: NtGdiD3DValidateTextureStageState function (Ntgdi.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ DWORD APIENTRY NtGdiD3DValidateTextureStageState(
 *pData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**D3DNTHAL\_VALIDATETEXTURESTAGESTATEDATA**](https://msdn.microsoft.com/library/Ff549031(v=VS.85).aspx) structure that contains the information required for the driver to determine and return the number of passes required to perform the blending operations.
+Pointer to a [**D3DNTHAL\_VALIDATETEXTURESTAGESTATEDATA**](/windows-hardware/drivers/ddi/) structure that contains the information required for the driver to determine and return the number of passes required to perform the blending operations.
 
 </dd> </dl>
 
@@ -62,7 +62,7 @@ Pointer to a [**D3DNTHAL\_VALIDATETEXTURESTAGESTATEDATA**](https://msdn.microsof
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
@@ -80,7 +80,3 @@ Pointer to a [**D3DNTHAL\_VALIDATETEXTURESTAGESTATEDATA**](https://msdn.microsof
  
 
  
-
-
-
-

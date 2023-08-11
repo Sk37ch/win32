@@ -1,22 +1,25 @@
 ---
-Description: Scales a 3D vector.
+description: Scales a 3D vector.
 ms.assetid: b2483d6e-56e4-4557-a603-d59c0767774d
 title: D3DXVec3Scale function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec3Scale
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXVec3Scale function
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Scales a 3D vector.
 
@@ -58,7 +61,7 @@ Pointer to the source [**D3DXVECTOR3**](d3dxvector3.md) structure.
 *s* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Scaling value.
 
@@ -78,7 +81,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -101,7 +104,3 @@ The return value for this function is the same value returned in the *pOut* para
  
 
  
-
-
-
-

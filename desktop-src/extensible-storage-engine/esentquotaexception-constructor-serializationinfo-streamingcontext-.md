@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentQuotaException constructor (SerializationInfo, StreamingContext)"
 title: EsentQuotaException constructor (SerializationInfo, StreamingContext)
 TOCTitle: EsentQuotaException constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentQuotaException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentQuotaException class. This constructor is used to deserialize a serialized exception.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -54,14 +55,14 @@ protected EsentQuotaException(
 #### Parameters
 
   - info  
-    Type: [System.Runtime.Serialization.SerializationInfo](https://docs.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo?redirectedfrom=MSDN)  
+    Type: [System.Runtime.Serialization.SerializationInfo](/dotnet/api/system.runtime.serialization.serializationinfo)  
     
     The data needed to deserialize the object.
 
 <!-- end list -->
 
   - context  
-    Type: [System.Runtime.Serialization.StreamingContext](https://docs.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext?redirectedfrom=MSDN)  
+    Type: [System.Runtime.Serialization.StreamingContext](/dotnet/api/system.runtime.serialization.streamingcontext)  
     
     The deserialization context.
 
@@ -69,11 +70,10 @@ protected EsentQuotaException(
 
 #### Reference
 
-[EsentQuotaException class](dn319806\(v=exchg.10\).md)
+[EsentQuotaException class](./esentquotaexception-class.md)
 
-[EsentQuotaException members](dn319869\(v=exchg.10\).md)
+[EsentQuotaException members](./esentquotaexception-members.md)
 
-[EsentQuotaException overload](dn319803\(v=exchg.10\).md)
+[EsentQuotaException overload](./esentquotaexception-constructor.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

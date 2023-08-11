@@ -1,5 +1,5 @@
 ---
-Description: The PushButton control displays a basic push button, also known as a command button.
+description: The PushButton control displays a basic push button, also known as a command button.
 ms.assetid: ae4a142d-a813-4fbb-9136-6f2d0c962847
 title: PushButton Control (Windows Installer)
 ms.topic: article
@@ -36,12 +36,8 @@ You can use the following attributes with this control. To change the value of a
 
 ## Remarks
 
-This control can be created from the BUTTON class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the **BS\_MULTILINE**, **WS\_CHILD**, **WS\_TABSTOP**, and **WS\_GROUP** styles.
+This control can be created from the BUTTON class by using the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function. It has the **BS\_MULTILINE**, **WS\_CHILD**, **WS\_TABSTOP**, and **WS\_GROUP** styles.
 
  
 
  
-
-
-
-

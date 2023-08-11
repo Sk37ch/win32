@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the InitializeFromIStream method.
+description: Proxy function for the InitializeFromIStream method.
 ms.assetid: 3ab780bb-7fe7-4abe-9ea7-86f54ea15d91
 title: IWICStream_InitializeFromIStream_Proxy function
 ms.topic: reference
@@ -48,7 +48,7 @@ Pointer to this [**IWICStream**](/windows/desktop/api/Wincodec/nn-wincodec-iwics
 *pIStream* \[in\]
 </dt> <dd>
 
-Type: **[IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream)\***
+Type: **[IStream](/windows/desktop/api/objidl/nn-objidl-istream)\***
 
 The initialize stream.
 
@@ -66,7 +66,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
@@ -75,9 +75,4 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
  
-
- 
-
-
-
 

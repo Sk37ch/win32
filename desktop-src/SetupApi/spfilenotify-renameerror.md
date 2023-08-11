@@ -1,5 +1,5 @@
 ---
-Description: The SPFILENOTIFY\_RENAMEERROR notification is sent to the callback routine if an error occurs during a file rename operation.
+description: The SPFILENOTIFY\_RENAMEERROR notification is sent to the callback routine if an error occurs during a file rename operation.
 ms.assetid: b7016cbe-2987-477f-958b-52b7a31c54c2
 title: SPFILENOTIFY_RENAMEERROR message (Setupapi.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ The callback routine should return one of the following.
 |----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**FILEOP\_RETRY**</dt> </dl> | The user chose to attempt the rename operation again.<br/>                                                                                                                                                                                                  |
 | <dl> <dt>**FILEOP\_SKIP**</dt> </dl>  | The user chose to skip the file rename operation.<br/>                                                                                                                                                                                                      |
-| <dl> <dt>**FILEOP\_ABORT**</dt> </dl> | Stop the queue commit. [**SetupCommitFileQueue**](/windows/desktop/api/Setupapi/nf-setupapi-setupcommitfilequeuea) returns **FALSE**. [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns extended error information such as ERROR\_CANCELLED (if the user canceled) or ERROR\_NOT\_ENOUGH\_MEMORY.<br/> |
+| <dl> <dt>**FILEOP\_ABORT**</dt> </dl> | Stop the queue commit. [**SetupCommitFileQueue**](/windows/desktop/api/Setupapi/nf-setupapi-setupcommitfilequeuea) returns **FALSE**. [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns extended error information such as ERROR\_CANCELLED (if the user canceled) or ERROR\_NOT\_ENOUGH\_MEMORY.<br/> |
 
 
 
@@ -58,7 +58,7 @@ The callback routine should return one of the following.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -86,9 +86,4 @@ The callback routine should return one of the following.
 </dt> </dl>
 
  
-
- 
-
-
-
 

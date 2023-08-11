@@ -1,5 +1,5 @@
 ---
-Description: Specifies the device role for the audio stream.
+description: Specifies the device role for the audio stream.
 ms.assetid: E4B7660D-5F41-495A-B77D-94B7981F4C2C
 title: MF_MEDIA_ENGINE_AUDIO_ENDPOINT_ROLE attribute
 ms.topic: reference
@@ -12,11 +12,11 @@ Specifies the device role for the audio stream.
 
 ## Data type
 
-**[**ERole**](https://msdn.microsoft.com/library/Dd370842(v=VS.85).aspx)** stored as **UINT32**
+**[**ERole**](/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole)** stored as **UINT32**
 
 ## Remarks
 
-The value of this attribute is a member of the [**ERole**](https://msdn.microsoft.com/library/Dd370842(v=VS.85).aspx) enumeration.
+The value of this attribute is a member of the [**ERole**](/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole) enumeration.
 
 This attribute is used with the [**IMFMediaEngineClassFactory::CreateInstance**](/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance) method to initialize the Media Engine. The attribute is optional.
 
@@ -24,7 +24,7 @@ This attribute is used with the [**IMFMediaEngineClassFactory::CreateInstance**]
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                                  |
@@ -42,7 +42,3 @@ This attribute is used with the [**IMFMediaEngineClassFactory::CreateInstance**]
  
 
  
-
-
-
-

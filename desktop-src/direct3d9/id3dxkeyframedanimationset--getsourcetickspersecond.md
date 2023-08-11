@@ -1,5 +1,5 @@
 ---
-Description: Gets the number of animation key frame ticks that occur per second.
+description: ID3DXKeyframedAnimationSet::GetSourceTicksPerSecond method - Gets the number of animation key frame ticks that occur per second.
 ms.assetid: b3e8d399-f1a7-4bc6-a35c-373b686aa24a
 title: ID3DXKeyframedAnimationSet::GetSourceTicksPerSecond method (D3dx9anim.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](../winprog/windows-data-types.md)**
 
 Number of animation key frame ticks that occur per second.
 
@@ -43,7 +43,7 @@ Number of animation key frame ticks that occur per second.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -60,7 +60,3 @@ Number of animation key frame ticks that occur per second.
  
 
  
-
-
-
-

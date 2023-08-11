@@ -1,5 +1,5 @@
 ---
-Description: The IFilterSample code sample demonstrates how to create an IFilter base class for implementing the IFilter interface.
+description: The IFilterSample code sample demonstrates how to create an IFilter base class for implementing the IFilter interface.
 ms.assetid: 4c0df747-627d-4937-a117-d43137d5d081
 title: IFilterSample
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # IFilterSample
 
-The IFilterSample code sample demonstrates how to create an IFilter base class for implementing the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface.
+The IFilterSample code sample demonstrates how to create an IFilter base class for implementing the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface.
 
 This topic contains the following sections.
 
@@ -55,7 +55,7 @@ This sample is available in the following location.
 
 ### Reference
 
-[**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx)
+[**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)
 
 ### Conceptual
 

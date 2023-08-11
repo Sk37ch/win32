@@ -1,5 +1,5 @@
 ---
-Description: XAudio2 can call functions provided by the client to notify it asynchronously of certain events taking place in the audio processing thread.
+description: XAudio2 can call functions provided by the client to notify it asynchronously of certain events taking place in the audio processing thread.
 ms.assetid: 4fbd4229-f7ac-33b3-b4b7-f09150a60598
 title: XAudio2 Callbacks
 ms.topic: article
@@ -21,11 +21,11 @@ If the client design requires a callback to trigger actions such as those listed
 
 ## IXAudio2EngineCallback
 
-The [**IXAudio2EngineCallback**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2enginecallback) class contains methods that notify the client when certain events happen in the XAudio2 engine. These methods should be implemented by the XAudio2 client. XAudio2 calls these methods by means of an interface pointer provided by the client using the [**IXAudio2::RegisterForCallbacks**](https://msdn.microsoft.com/library/Ee418620(v=VS.85).aspx) method. All these methods return **void**, rather than an **HRESULT**.
+The [**IXAudio2EngineCallback**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2enginecallback) class contains methods that notify the client when certain events happen in the XAudio2 engine. These methods should be implemented by the XAudio2 client. XAudio2 calls these methods by means of an interface pointer provided by the client using the [**IXAudio2::RegisterForCallbacks**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-registerforcallbacks) method. All these methods return **void**, rather than an **HRESULT**.
 
 ## IXAudio2VoiceCallback
 
-The [**IXAudio2VoiceCallback**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voicecallback) class contains methods that notify the client when certain events happen in a specific XAudio2 source voice. XAudio2 calls these methods by means of an interface pointer provided by the client in [**IXAudio2::CreateSourceVoice**](https://msdn.microsoft.com/library/Ee418607(v=VS.85).aspx). As with [**IXAudio2EngineCallback**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2enginecallback), these methods should be implemented by the XAudio2 client, and return **void** rather than an **HRESULT**.
+The [**IXAudio2VoiceCallback**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voicecallback) class contains methods that notify the client when certain events happen in a specific XAudio2 source voice. XAudio2 calls these methods by means of an interface pointer provided by the client in [**IXAudio2::CreateSourceVoice**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice). As with [**IXAudio2EngineCallback**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2enginecallback), these methods should be implemented by the XAudio2 client, and return **void** rather than an **HRESULT**.
 
 As mentioned previously, it is crucial that the client-provided implementations of these callbacks return as quickly as possible, preferably within a millisecond. The callbacks are executed in the audio processing thread, and all processing is interrupted until the callback returns. A delay in a callback can easily cause an audio problem.
 
@@ -51,6 +51,3 @@ As mentioned previously, it is crucial that the client-provided implementations 
  
 
  
-
-
-

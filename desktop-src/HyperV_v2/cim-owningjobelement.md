@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a job and the managed element that created the job.
+description: Represents an association between a job and the managed element that created the job.
 ms.assetid: 08c33a81-0a3f-4545-9812-96a854a7509e
 title: CIM_OwningJobElement class
 ms.topic: reference
@@ -53,7 +53,7 @@ Data type: **CIM\_Job**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 A reference to the job created by the managed element.
@@ -69,7 +69,7 @@ Data type: **CIM\_ManagedElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 A reference to the managed element that created the job.
@@ -80,7 +80,7 @@ A reference to the managed element that created the job.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -91,9 +91,4 @@ A reference to the managed element that created the job.
 
 
  
-
- 
-
-
-
 

@@ -14,16 +14,19 @@ keywords:
 - ACM structures
 - ACM functions
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Audio Compression Manager Functions and Structures
+
+\[The feature associated with this page, [﻿Audio Compression Manager](/windows/win32/multimedia/audio-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 The ACM functions fall into several categories. Naming conventions for the functions make it easy to identify these categories. Function names (with two exceptions) are of the form *acmGroupFunction*, where *Group* designates the ACM category (such as "Driver," "Format," "FormatTag," "Filter," "FilterTag," or "Stream"), and *Function* describes the action performed by the function.
 
 The functions in the filter and format groups are very similar. Almost every function that acts on filters has a parallel function that acts on formats.
 
-In the format group, some functions use waveform-audio format tags (the **wFormatTag** member of a [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd757713(v=VS.85).aspx) structure) while others require full waveform-audio formats (the full **WAVEFORMATEX** structure). (For reference information about the **WAVEFORMATEX** structure, see [Error](error.md).)
+In the format group, some functions use waveform-audio format tags (the **wFormatTag** member of a [**WAVEFORMATEX**](/windows/win32/api/mmeapi/ns-mmeapi-waveformatex) structure) while others require full waveform-audio formats (the full **WAVEFORMATEX** structure). (For reference information about the **WAVEFORMATEX** structure, see [Error](error.md).)
 
 In the filter group, some functions use waveform-audio filter tags (the **dwFilterTag** member of a [**WAVEFILTER**](/windows/desktop/api/Mmreg/ns-mmreg-wavefilter) structure), while others require full waveform-audio filters (the full **WAVEFILTER** structure).
 
@@ -32,7 +35,3 @@ The functions in the stream group represent the many steps involved in a convers
  
 
  
-
-
-
-

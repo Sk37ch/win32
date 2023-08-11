@@ -1,22 +1,25 @@
 ---
-Description: Determines the product of the current matrix and the computed translation matrix determined by the given factors (x, y, and z).
+description: ID3DXMATRIXStack::Translate method (D3DX10.h) - Determines the product of the current matrix and the computed translation matrix determined by the given factors (x, y, and z).
 ms.assetid: d6e347a5-bb66-451d-b66e-49ea8eff70b3
 title: ID3DXMATRIXStack::Translate method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXMATRIXStack.Translate
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# ID3DXMATRIXStack::Translate method
+# ID3DXMATRIXStack::Translate method (D3DX10.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/directxmath-portal.md) instead along with this header from [GitHub](https://github.com/microsoft/DirectXMath/tree/main/MatrixStack).
 
 Determines the product of the current matrix and the computed translation matrix determined by the given factors (x, y, and z).
 
@@ -40,7 +43,7 @@ HRESULT Translate(
 *x* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The translation factor in the x-direction.
 
@@ -49,7 +52,7 @@ The translation factor in the x-direction.
 *y* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The translation factor in the y-direction.
 
@@ -58,7 +61,7 @@ The translation factor in the y-direction.
 *z* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The translation factor in the z-direction.
 
@@ -87,7 +90,7 @@ m_stack[m_currentPos] = m_stack[m_currentPos] * tmp;
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -107,7 +110,3 @@ m_stack[m_currentPos] = m_stack[m_currentPos] * tmp;
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: This tutorial highlights the different aspects that web developers should care about when designing pages for the web authorization flow for Windows 8. This section This sample demonstrates a two-page authorization flow.
+description: This tutorial highlights the different aspects that web developers should care about when designing pages for the web authorization flow for Windows 8. This section This sample demonstrates a two-page authorization flow.
 ms.assetid: A26E09EF-6C7A-4F75-89A7-76086F63F3B1
 title: Tutorial for authenticating web pages
 ms.topic: article
@@ -32,15 +32,12 @@ Next [Authentication for web pages](authentication-for-web-pages.md)
 [Considerations for the web page development](considerations-for-the-web-page-development.md)
 </dt> <dt>
 
-[Web Authentication Broker SDK sample app](https://code.msdn.microsoft.com/windowsapps/Web-Authentication-d0485122#content)
+[Web Authentication Broker SDK sample app](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)
 </dt> <dt>
 
-[**Windows.Security.Authentication.Web**](https://msdn.microsoft.com/library/BR227044(v=Win.10).aspx)
+[**Windows.Security.Authentication.Web**](/uwp/api/Windows.Security.Authentication.Web)
 </dt> </dl>
 
  
 
  
-
-
-

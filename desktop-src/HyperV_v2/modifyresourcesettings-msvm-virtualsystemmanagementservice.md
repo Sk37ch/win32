@@ -1,5 +1,5 @@
 ---
-Description: Modifies virtual resource settings.
+description: ModifyResourceSettings method of the Msvm_VirtualSystemManagementService class - Modifies virtual resource settings.
 ms.assetid: 3fb2a65f-9f40-4eb9-99e8-8fe1451427d9
 title: ModifyResourceSettings method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -39,21 +39,21 @@ uint32 ModifyResourceSettings(
 *ResourceSettings* \[in\]
 </dt> <dd>
 
-An array of strings that contain an embedded instance of a class derived from [**CIM\_ResourceAllocationSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata), that contain the modified aspects of existing virtual resources. The **InstanceID** property of each instance identifies the virtual resource setting to be modified.
+An array of strings that contain an embedded instance of a class derived from [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata), that contain the modified aspects of existing virtual resources. The **InstanceID** property of each instance identifies the virtual resource setting to be modified.
 
 </dd> <dt>
 
 *ResultingResourceSettings* \[out\]
 </dt> <dd>
 
-An array of references to instances of objects derived from [**CIM\_ResourceAllocationSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata) representing virtual aspects of the modified virtual resources.
+An array of references to instances of objects derived from [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata) representing virtual aspects of the modified virtual resources.
 
 </dd> <dt>
 
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -100,7 +100,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -114,16 +114,11 @@ This method returns one of the following values.
 
 <dl> <dt>
 
-[**ModifyVirtualSystemResources (V1)**](https://docs.microsoft.com/previous-versions/windows/desktop/virtual/modifyvirtualsystemresources-msvm-virtualsystemmanagementservice)
+[**ModifyVirtualSystemResources (V1)**](/previous-versions/windows/desktop/virtual/modifyvirtualsystemresources-msvm-virtualsystemmanagementservice)
 </dt> <dt>
 
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

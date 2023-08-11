@@ -1,5 +1,5 @@
 ---
-Description: The Result property retrieves a value that indicates whether the certificate is valid. This is the default property.
+description: The Result property retrieves a value that indicates whether the certificate is valid. This is the default property.
 ms.assetid: b1edfbde-9d54-4e9c-ba9b-33e4c354c23f
 title: CertificateStatus.Result property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # CertificateStatus.Result property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509ChainStatus Structure**](https://msdn.microsoft.com/library/s1yyxyx9(v=VS.90).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509ChainStatus Structure**](/dotnet/api/system.security.cryptography.x509certificates.x509chainstatus) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **Result** property retrieves a value that indicates whether the certificate is valid. This is the default property.
 
@@ -38,7 +38,7 @@ If **true**, the certificate is valid. The certificate's validity is checked usi
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |
@@ -50,7 +50,3 @@ If **true**, the certificate is valid. The certificate's validity is checked usi
  
 
  
-
-
-
-

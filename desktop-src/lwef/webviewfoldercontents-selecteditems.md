@@ -1,6 +1,6 @@
 ---
 title: WebViewFolderContents.SelectedItems method (Shldisp.h)
-description: Gets a FolderItems object that represents all of the selected items in the view.
+description: WebViewFolderContents.SelectedItems method - Gets a FolderItems object that represents all of the selected items in the view.
 ms.assetid: 683acac4-f157-4a75-a3f8-c693887c1ea5
 keywords:
 - SelectedItems method Legacy Windows Environment Features
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # WebViewFolderContents.SelectedItems method
 
-Gets a [**FolderItems**](https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-folderitems) object that represents all of the selected items in the view.
+Gets a [**FolderItems**](../shell/folderitems.md) object that represents all of the selected items in the view.
 
 ## Syntax
 
@@ -37,9 +37,9 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**FolderItems**](https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-folderitems)\*\***
+Type: **[**FolderItems**](../shell/folderitems.md)\*\***
 
-An object reference to the [**FolderItems**](https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-folderitems) object.
+An object reference to the [**FolderItems**](../shell/folderitems.md) object.
 
 ## Examples
 
@@ -81,7 +81,7 @@ The following example shows the proper usage of this method for JScript embedded
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
@@ -92,10 +92,4 @@ The following example shows the proper usage of this method for JScript embedded
 
 
  
-
- 
-
-
-
-
 

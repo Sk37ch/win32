@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to verify that the system supports a digest method.
+description: This topic describes how to verify that the system supports a digest method.
 ms.assetid: dd1b53cd-66b9-46b3-89ad-ee84b4690e1e
 title: Verify the System Supports a Digest Method
 ms.topic: article
@@ -154,10 +154,10 @@ SupportsDigestAlgorithm (
 **For More Information**
 </dt> <dt>
 
-[Cryptography API](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-portal)
+[Cryptography API](/windows/desktop/SecCrypto/cryptography-portal)
 </dt> <dt>
 
-[Cryptography Functions](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions)
+[Cryptography Functions](/windows/desktop/SecCrypto/cryptography-functions)
 </dt> <dt>
 
 [XPS Digital Signature API Errors](xps-digital-signatures-errors.md)
@@ -166,12 +166,9 @@ SupportsDigestAlgorithm (
 [XPS Document Errors](xps-document-errors.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> </dl>
 
  
 
  
-
-
-

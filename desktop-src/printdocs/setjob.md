@@ -1,5 +1,5 @@
 ---
-Description: The SetJob function pauses, resumes, cancels, or restarts a print job on a specified printer. You can also use the SetJob function to set print job parameters, such as the print job priority and the document name.
+description: The SetJob function pauses, resumes, cancels, or restarts a print job on a specified printer. You can also use the SetJob function to set print job parameters, such as the print job priority and the document name.
 ms.assetid: 21947c69-c517-4962-8eb7-b45ed4211d9a
 title: SetJob function (WinSpool.h)
 ms.topic: reference
@@ -149,13 +149,13 @@ If you link print jobs, note the following:
     -   Pause the first job in the chain until the chain is completely linked. The paused state of the first job governs the state of all jobs in the chain.
     -   Keep the first job incomplete, that is, do not call [**EndDoc**](/windows/desktop/api/Wingdi/nf-wingdi-enddoc) or [**ScheduleJob**](schedulejob.md) for the first job. However, if 'print while spooling' is enabled (the default), this method blocks the port while the chain is built, which also prevents the printing of non-related jobs.
 
--   The application must handle the case where the user deletes a job in the chain before the chain finishes printing. [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns **INVALID\_PARAMETER** when a JobID does not exist.
+-   The application must handle the case where the user deletes a job in the chain before the chain finishes printing. [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns **INVALID\_PARAMETER** when a JobID does not exist.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -201,9 +201,4 @@ If you link print jobs, note the following:
 </dt> </dl>
 
  
-
- 
-
-
-
 

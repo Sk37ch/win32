@@ -1,5 +1,5 @@
 ---
-Description: Specifies the protection scheme for encrypted samples.
+description: Specifies the protection scheme for encrypted samples.
 ms.assetid: 04E9F908-C61C-43DC-8CF5-9A629FCDD82C
 title: MFSampleExtension_Encryption_ProtectionScheme attribute (Mfidl.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ Specifies the protection scheme for encrypted samples.
 
 ## Remarks
 
-The value of this attribute is a member of the [**MFSampleEncryptionProtectionScheme**](https://msdn.microsoft.com/library/Mt804350(v=VS.85).aspx) enumeration. In cases where the media source is MP4-based, the value is set based off the value of the **scheme\_type** field within the scheme type box (‘schm’) in the MP4 header (‘moov’ or ‘moof’).
+The value of this attribute is a member of the [**MFSampleEncryptionProtectionScheme**](/windows/win32/api/mfapi/ne-mfapi-mfsampleencryptionprotectionscheme) enumeration. In cases where the media source is MP4-based, the value is set based off the value of the **scheme\_type** field within the scheme type box (‘schm’) in the MP4 header (‘moov’ or ‘moof’).
 
 If the **scheme\_type** field in an MP4-based file, or stream, is set to ‘cenc’ or ‘cbc1’, then the **MFSampleExtension\_Encryption\_ProtectionScheme** attribute should be set to **PROTECTION\_SCHEME\_AES\_CTR** or **PROTECTION\_SCHEME\_CBC**, respectively, and no values should be set for [MFSampleExtension\_Encryption\_CryptByteBlock](mfsampleextension-encryption-cryptbyteblock.md) and [MFSampleExtension\_Encryption\_SkipByteBlock](mfsampleextension-encryption-skipbyteblock.md).
 
@@ -67,7 +67,7 @@ HRESULT AddEncryptionAttributes(_In_ IMFSample* pSample, _In_ bool fIsEncrypted)
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                          |
@@ -78,7 +78,3 @@ HRESULT AddEncryptionAttributes(_In_ IMFSample* pSample, _In_ bool fIsEncrypted)
  
 
  
-
-
-
-

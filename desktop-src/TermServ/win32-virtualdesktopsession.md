@@ -139,7 +139,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Gets the ID of the virtual desktop session.
@@ -168,7 +168,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Gets the name of the Remote Desktop virtualization host server that hosts the virtual machine.
@@ -192,7 +192,7 @@ Gets the name of the virtual machine that is assigned to the session.
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
@@ -210,10 +210,4 @@ Gets the name of the virtual machine that is assigned to the session.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

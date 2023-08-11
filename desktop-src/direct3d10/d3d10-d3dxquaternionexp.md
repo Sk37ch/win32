@@ -1,22 +1,25 @@
 ---
-Description: Calculates the exponential.
+description: D3DXQuaternionExp function (D3DX10Math.h) - Calculates the exponential.
 ms.assetid: bd70c432-ac61-4c38-b10b-3b103e49ead8
 title: D3DXQuaternionExp function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXQuaternionExp
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXQuaternionExp function
+# D3DXQuaternionExp function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Calculates the exponential.
 
@@ -39,7 +42,7 @@ D3DXQUATERNION* D3DXQuaternionExp(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **[**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that is the result of the operation.
 
@@ -48,7 +51,7 @@ Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that is the result 
 *pQ* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to the source D3DXQUATERNION structure.
 
@@ -56,7 +59,7 @@ Pointer to the source D3DXQUATERNION structure.
 
 ## Return value
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **[**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to a D3DXQUATERNION structure that is the exponential.
 
@@ -67,8 +70,8 @@ This method converts a pure quaternion to a unit quaternion. D3DXQuaternionExp e
 
 ```
 Given a pure quaternion defined by:
-q = (0, theta * v); 
-    
+q = (0, theta * v);
+
 This method calculates the exponential result.
 exp(Q) = (cos(theta), sin(theta) * v)
 ```
@@ -87,7 +90,7 @@ Use [**D3DXQuaternionNormalize**](d3d10-d3dxquaternionnormalize.md) for any quat
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -104,7 +107,3 @@ Use [**D3DXQuaternionNormalize**](d3d10-d3dxquaternionnormalize.md) for any quat
  
 
  
-
-
-
-

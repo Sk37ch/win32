@@ -1,5 +1,5 @@
 ---
-Description: Gets the line antialiasing state.
+description: Gets the line antialiasing state.
 ms.assetid: 5a38cb74-37e6-4fa0-aa37-f10beceda49e
 title: ID3DXLine::GetAntialias method (D3dx9core.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 Returns the antialiasing switch value. **TRUE** means antialiasing is on, and **FALSE** means antialiasing is off.
 
@@ -43,7 +43,7 @@ Returns the antialiasing switch value. **TRUE** means antialiasing is on, and **
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -60,7 +60,3 @@ Returns the antialiasing switch value. **TRUE** means antialiasing is on, and **
  
 
  
-
-
-
-

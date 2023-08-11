@@ -1,5 +1,5 @@
 ---
-Description: Describes how to find the correct WMI class and procedures to use in scripts and applications that perform common computer and network administration tasks.
+description: Describes how to find the correct WMI class and procedures to use in scripts and applications that perform common computer and network administration tasks.
 ms.assetid: fe15b67c-8ae6-4360-a2ee-1eda292dd05a
 ms.tgt_platform: multiple
 title: WMI Tasks for Scripts and Applications
@@ -26,7 +26,7 @@ The following table lists the categories of tasks.
 
 | Task Categories                                                               | Description                                                                                                                                                                                                                                                                                                                                               |
 |-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Accounts and Domains](wmi-tasks--accounts-and-domains.md)                   | Obtain information such as the computer domain or the currently logged-on user. Many domain- or account-related tasks are best performed with [ADSI](https://docs.microsoft.com/windows/desktop/ADSI/active-directory-service-interfaces-adsi) scripts. For examples, see the TechNet ScriptCenter at [https://www.microsoft.com/technet](https://technet.microsoft.com/default.aspx). |
+| [Accounts and Domains](wmi-tasks--accounts-and-domains.md)                   | Obtain information such as the computer domain or the currently logged-on user. Many domain- or account-related tasks are best performed with [ADSI](/windows/desktop/ADSI/active-directory-service-interfaces-adsi) scripts. For examples, see the TechNet ScriptCenter at [https://www.microsoft.com/technet](https://technet.microsoft.com/default.aspx). |
 | [Computer Hardware](wmi-tasks--computer-hardware.md)                         | Obtain information about the presence, state, or properties of hardware components. For example, you can determine whether a computer is a desktop or laptop.                                                                                                                                                                                             |
 | [Computer Software](wmi-tasks--computer-software.md)                         | Obtain information such as which software is installed by the Windows Installer (MSI) and software versions.                                                                                                                                                                                                                                              |
 | [Connecting to the WMI Service](wmi-tasks--connecting-to-the-wmi-service.md) | To get data from WMI, either on the local computer or from a remote computer, you must connect to the WMI service by connecting to a specific [*namespace*](gloss-n.md). In most cases, use either the shorthand [moniker](creating-a-wmi-script.md) connection or the [**Locator**](swbemlocator-connectserver.md) connection.    |
@@ -51,6 +51,3 @@ The following table lists the categories of tasks.
  
 
  
-
-
-

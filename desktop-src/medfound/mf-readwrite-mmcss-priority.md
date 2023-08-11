@@ -1,5 +1,5 @@
 ---
-Description: Sets the base thread priority for the Source Reader or Sink Writer.
+description: Sets the base thread priority for the Source Reader or Sink Writer.
 ms.assetid: 9513AE28-2AF4-45EC-AC19-C0718540E26F
 title: MF_READWRITE_MMCSS_PRIORITY attribute (Mfreadwrite.h)
 ms.topic: reference
@@ -24,13 +24,13 @@ To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/desktop/api/
 
 Optionally set this attribute when you create an instance of the [Source Reader](source-reader.md) or [Sink Writer](sink-writer.md). If you set this attribute, also set the [MF\_READWRITE\_MMCSS\_CLASS](mf-readwrite-mmcss-class.md) attribute. Otherwise, this attribute is ignored.
 
-When the Source Reader or Sink Writer registers threads with the [Multimedia Class Scheduler Service](https://msdn.microsoft.com/library/ms684247(v=VS.85).aspx), the value of this attribute specifies the base thread priority. If this attribute is not set, the default value is zero.
+When the Source Reader or Sink Writer registers threads with the [Multimedia Class Scheduler Service](../procthread/multimedia-class-scheduler-service.md), the value of this attribute specifies the base thread priority. If this attribute is not set, the default value is zero.
 
 ## Requirements
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                              |
@@ -48,7 +48,3 @@ When the Source Reader or Sink Writer registers threads with the [Multimedia Cla
  
 
  
-
-
-
-

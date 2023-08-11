@@ -1,5 +1,5 @@
 ---
-Description: Saves all analysis results for an IInkAnalyzer.
+description: Saves all analysis results for an IInkAnalyzer.
 ms.assetid: 538eb781-d831-475b-ba09-271d71f6a6bf
 title: IInkAnalyzer::SaveResults method (IACom.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, use [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to release the memory from \**ppbSerializedData* when you no longer need the information.
+> To avoid a memory leak, use [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to release the memory from \**ppbSerializedData* when you no longer need the information.
 
  
 
@@ -68,7 +68,7 @@ This method returns an error code when an [**IContextNode**](icontextnode.md) ob
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -100,9 +100,4 @@ This method returns an error code when an [**IContextNode**](icontextnode.md) ob
 </dt> </dl>
 
  
-
- 
-
-
-
 

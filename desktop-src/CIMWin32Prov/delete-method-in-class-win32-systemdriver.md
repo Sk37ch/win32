@@ -1,5 +1,5 @@
 ---
-Description: The Delete&\#8194;WMI class method deletes an existing service.
+description: Delete method of the Win32_SystemDriver class - The Delete&\#8194;WMI class method deletes an existing service.
 ms.assetid: 5e437d36-3582-448c-b568-45f7fb13b096
 ms.tgt_platform: multiple
 title: Delete method of the Win32_SystemDriver class
@@ -18,9 +18,9 @@ api_location:
 
 # Delete method of the Win32\_SystemDriver class
 
-The **Delete** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method deletes an existing service.
+The **Delete** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method deletes an existing service.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -43,7 +43,7 @@ Returns a value of 0 (zero) if the service was successfully deleted, 1 (one) if 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -57,16 +57,11 @@ Returns a value of 0 (zero) if the service was successfully deleted, 1 (one) if 
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_SystemDriver**](win32-systemdriver.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

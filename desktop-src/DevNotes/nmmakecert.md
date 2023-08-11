@@ -1,5 +1,5 @@
 ---
-Description: Creates a user certificate for use with NetMeeting conferencing.
+description: Creates a user certificate for use with NetMeeting conferencing.
 ms.assetid: 22acdcbe-c9c9-4f1b-a62d-44a35e101eec
 title: NmMakeCert function
 ms.topic: reference
@@ -99,13 +99,13 @@ Returns 1 if the function succeeds and –1 if the function fails.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Nmmkcert.dll</dt> </dl> |
 
@@ -114,7 +114,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Initiates a failover for a virtual machine to an application or standard replication point image.
+description: Initiates a failover for a virtual machine to an application or standard replication point image.
 ms.assetid: cd7e9398-c234-4637-906d-69b46ebf3f51
 title: InitiateFailover method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -39,21 +39,21 @@ uint32 InitiateFailover(
 *ComputerSystem* \[in\]
 </dt> <dd>
 
-A reference to a [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) instance that represents the virtual machine for which to initiate a failover.
+A reference to a [**CIM\_ComputerSystem**](/windows/desktop/CIMWin32Prov/cim-computersystem) instance that represents the virtual machine for which to initiate a failover.
 
 </dd> <dt>
 
 *SnapshotSettingData* \[in\]
 </dt> <dd>
 
-A reference to a [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)) instance that represents the snapshot used for the failover. If this parameter is **Null**, the failover is to be performed to the latest point in time.
+A reference to a [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)) instance that represents the snapshot used for the failover. If this parameter is **Null**, the failover is to be performed to the latest point in time.
 
 </dd> <dt>
 
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -109,7 +109,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -133,9 +133,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

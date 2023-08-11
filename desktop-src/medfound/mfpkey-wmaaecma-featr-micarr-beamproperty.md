@@ -1,5 +1,5 @@
 ---
-Description: Specifies which beam the Voice Capture DSP uses for microphone array processing.
+description: Specifies which beam the Voice Capture DSP uses for microphone array processing.
 ms.assetid: 9ed761da-3f1b-47e8-b71f-becc56fe8801
 title: MFPKEY_WMAAECMA_FEATR_MICARR_BEAM Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Specifies which beam the Voice Capture DSP uses for microphone array processing.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -54,7 +54,7 @@ This property can have the following values. Values are in degrees horizontal.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
@@ -75,7 +75,3 @@ This property can have the following values. Values are in degrees horizontal.
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Modifies guest service settings.
+description: Modifies guest service settings.
 ms.assetid: a308aa59-bd43-4dd5-a690-c435102e8043
 title: ModifyGuestServiceSettings method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -55,7 +55,7 @@ On success, contiains an array of [**CIM\_SettingData**](cim-settingdata.md) tha
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -102,7 +102,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -120,9 +120,4 @@ This method returns one of the following values:
 </dt> </dl>
 
  
-
- 
-
-
-
 

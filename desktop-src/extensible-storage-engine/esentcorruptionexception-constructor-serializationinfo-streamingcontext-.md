@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCorruptionException constructor (SerializationInfo, StreamingContext)"
 title: EsentCorruptionException constructor (SerializationInfo, StreamingContext)
 TOCTitle: EsentCorruptionException constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCorruptionException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentCorruptionException class. This constructor is used to deserialize a serialized exception.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -54,14 +55,14 @@ protected EsentCorruptionException(
 #### Parameters
 
   - info  
-    Type: [System.Runtime.Serialization.SerializationInfo](https://docs.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo?redirectedfrom=MSDN)  
+    Type: [System.Runtime.Serialization.SerializationInfo](/dotnet/api/system.runtime.serialization.serializationinfo)  
     
     The data needed to deserialize the object.
 
 <!-- end list -->
 
   - context  
-    Type: [System.Runtime.Serialization.StreamingContext](https://docs.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext?redirectedfrom=MSDN)  
+    Type: [System.Runtime.Serialization.StreamingContext](/dotnet/api/system.runtime.serialization.streamingcontext)  
     
     The deserialization context.
 
@@ -69,11 +70,10 @@ protected EsentCorruptionException(
 
 #### Reference
 
-[EsentCorruptionException class](dn274225\(v=exchg.10\).md)
+[EsentCorruptionException class](./esentcorruptionexception-class.md)
 
-[EsentCorruptionException members](dn334328\(v=exchg.10\).md)
+[EsentCorruptionException members](./esentcorruptionexception-members.md)
 
-[EsentCorruptionException overload](dn274226\(v=exchg.10\).md)
+[EsentCorruptionException overload](./esentcorruptionexception-constructor.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

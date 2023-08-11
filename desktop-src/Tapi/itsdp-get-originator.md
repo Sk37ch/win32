@@ -1,5 +1,5 @@
 ---
-Description: The get\_Originator method gets the conference originator.
+description: The get\_Originator method gets the conference originator.
 ms.assetid: a324098d-ae22-42e9-901e-b277433af199
 title: ITSdp::get_Originator method (Sdpblb.h)
 ms.topic: reference
@@ -54,13 +54,13 @@ This method can return one of these values.
 
 ## Remarks
 
-The application must use [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the memory allocated for the *ppOriginator* parameter.
+The application must use [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) to free the memory allocated for the *ppOriginator* parameter.
 
 ## Requirements
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |
@@ -80,9 +80,4 @@ The application must use [**SysFreeString**](https://msdn.microsoft.com/library/
 </dt> </dl>
 
  
-
- 
-
-
-
 

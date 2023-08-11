@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Microsoft Message Queuing (MSMQ) - Removal of Windows 2000 Client Support Service
 ms.assetid: e29b477e-f7e9-413c-8eb9-2e764b7dd910
 title: Microsoft Message Queuing (MSMQ) - Removal of Windows 2000 Client Support Service
 ms.topic: article
@@ -10,14 +10,14 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Servers** - Windows Server 2008 R2  
-</dl>
+**Servers** - Windows Server 2008 R2  
+
+
 
 ## Feature Impact
 
-<dl> **Severity** - High  
+ **Severity** - High  
 **Frequency** - Low  
-</dl>
 
 ## Description
 

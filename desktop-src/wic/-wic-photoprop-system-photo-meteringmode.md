@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.MeteringMode property.
+description: The photo metadata policy for the System.Photo.MeteringMode property.
 ms.assetid: cb0bf0d5-eccf-4345-a242-76769c34e02d
 title: System.Photo.MeteringMode Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.MeteringMode Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.MeteringMode](https://msdn.microsoft.com/library/bb760501(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.MeteringMode](../properties/props-system-photo-meteringmode.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Photo.MeteringMode](https://msdn.microsoft.com/library/bb760501(VS.85).aspx)
+[System.Photo.MeteringMode](../properties/props-system-photo-meteringmode.md)
 </dt> </dl>
 
  
 
  
-
-
-

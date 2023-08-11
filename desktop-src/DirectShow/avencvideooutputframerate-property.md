@@ -1,12 +1,15 @@
 ---
-Description: Specifies the frame rate on the encoder's output stream, in frames per second.
+description: Specifies the frame rate on the encoder's output stream, in frames per second.
 ms.assetid: 72e16c7d-977e-4269-9576-afc789e31826
 title: AVEncVideoOutputFrameRate property (Codecapi.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # AVEncVideoOutputFrameRate property
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Specifies the frame rate on the encoder's output stream, in frames per second.
 
@@ -45,13 +48,13 @@ The value of this property is a ratio that defines the frame rate. The upper 32 
 
 Applications can set this property to specify the output frame rate. Encoders can also return this property as a capability. Depending on the encoder, the value might be restricted to the input frame rate. If not, the encoder is able to convert the frame rate internally. See [**AVEncVideoOutputFrameRateConversion Property**](avencvideooutputframerateconversion-property.md).
 
-This property is also used with [H.264 UVC 1.5 camera encoders](https://docs.microsoft.com/windows/desktop/medfound/camera-encoder-h264-uvc-1-5).
+This property is also used with [H.264 UVC 1.5 camera encoders](/windows/desktop/medfound/camera-encoder-h264-uvc-1-5).
 
 ## Requirements
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
@@ -70,9 +73,4 @@ This property is also used with [H.264 UVC 1.5 camera encoders](https://docs.mic
 </dt> </dl>
 
  
-
- 
-
-
-
 

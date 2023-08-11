@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for disk I/O events. The following syntax is simplified from MOF code.
+description: This class is the event type class for disk I/O events. The following syntax is simplified from MOF code.
 ms.assetid: fe7d4efa-3d39-4438-a1a6-af3f65ea3deb
 title: DiskIo_TypeGroup1 class
 ms.topic: reference
@@ -119,7 +119,7 @@ Access type: Read-only
 Qualifiers: [**WmiDataId**](event-tracing-mof-qualifiers.md) (8)
 </dt> </dl>
 
-The time between I/O initiation and completion as measured by the partition manager (in the [**KeQueryPerformanceCounter**](https://msdn.microsoft.com/library/Ff553053(v=VS.85).aspx) tick units).
+The time between I/O initiation and completion as measured by the partition manager (in the [**KeQueryPerformanceCounter**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-kequeryperformancecounter) tick units).
 
 **Windows Server 2003:** This property has a [**WmiDataId**](event-tracing-mof-qualifiers.md) value of 7.
 
@@ -306,7 +306,7 @@ The **HighResResponseTime** property is supported. The property contains the tim
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
@@ -323,7 +323,3 @@ The **HighResResponseTime** property is supported. The property contains the tim
  
 
  
-
-
-
-

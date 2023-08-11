@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKLOGTIME.ToDateTime method"
 title: JET_BKLOGTIME.ToDateTime method 
 TOCTitle: 'ToDateTime method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_BKLOGTIME.ToDateTime
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Generate a DateTime representation of this JET_BKLOGTIME.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,20 +52,19 @@ public Nullable<DateTime> ToDateTime()
 
 #### Return value
 
-Type: [System.Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1?redirectedfrom=MSDN)\<[DateTime](https://docs.microsoft.com/dotnet/api/system.datetime?redirectedfrom=MSDN)\>  
+Type: [System.Nullable](/dotnet/api/system.nullable-1)\<[DateTime](/dotnet/api/system.datetime)\>  
 A DateTime representing the JET_BKLOGTIME. If the JET_BKLOGTIME is null then null is returned.  
 
 #### Implements
 
-[IJET_LOGTIME.ToDateTime()](hh577639\(v=exchg.10\).md)  
+[IJET_LOGTIME.ToDateTime()](./ijet-logtime.todatetime-method.md)  
 
 ## See also
 
 #### Reference
 
-[JET_BKLOGTIME structure](hh557662\(v=exchg.10\).md)
+[JET_BKLOGTIME structure](./jet-bklogtime-structure2.md)
 
-[JET_BKLOGTIME members](hh565503\(v=exchg.10\).md)
+[JET_BKLOGTIME members](./jet-bklogtime-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

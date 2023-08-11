@@ -1,6 +1,6 @@
 ---
-title: tex3D (HLSL reference)
-description: Samples a 3D texture using a gradient to select the mip level.
+title: tex3D (HLSL reference) - Select the mip level
+description: Samples a 3D texture using a gradient to select the mip level. | tex3D (HLSL reference)
 ms.assetid: b48a6791-61b7-4a13-9357-923910515164
 keywords:
 - tex3D HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# tex3D (HLSL reference)
+# tex3D (HLSL reference) - Select the mip level
 
 Samples a 3D texture using a gradient to select the mip level.
 
@@ -54,10 +54,10 @@ The value of the texture data.
 | Name | In/Out | [**Template Type**](dx-graphics-hlsl-intrinsic-functions.md)                       | [**Component Type**](dx-graphics-hlsl-intrinsic-functions.md) | Size |
 |------|--------|-------------------------------------------------------------------------------------|----------------------------------------------------------------|------|
 | s    | in     | [**object**](dx-graphics-hlsl-intrinsic-functions.md) | [sampler3D](dx-graphics-hlsl-sampler.md)                      | 1    |
-| t    | in     | [**vector**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                        | 3    |
-| ddx  | in     | [**vector**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                        | 3    |
-| ddy  | in     | [**vector**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                        | 3    |
-| ret  | out    | [**vector**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                        | 4    |
+| t    | in     | [**vector**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](/windows/desktop/WinProg/windows-data-types)                        | 3    |
+| ddx  | in     | [**vector**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](/windows/desktop/WinProg/windows-data-types)                        | 3    |
+| ddy  | in     | [**vector**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](/windows/desktop/WinProg/windows-data-types)                        | 3    |
+| ret  | out    | [**vector**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](/windows/desktop/WinProg/windows-data-types)                        | 4    |
 
 
 
@@ -95,10 +95,4 @@ When flow control is present in a shader, the result of a gradient calculation r
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Adds a string and extra data to a table.
+description: Adds a string and extra data to a table.
 ms.assetid: e6f29cb0-4468-435d-9ae3-217d4f69e87e
 title: pSetupStringTableAddStringEx function
 ms.topic: reference
@@ -88,13 +88,13 @@ The size of the extra data.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Setupapi.dll</dt> </dl> |
 
@@ -103,7 +103,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

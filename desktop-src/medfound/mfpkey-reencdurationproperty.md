@@ -1,5 +1,5 @@
 ---
-Description: For segment re-encoding, specifies the duration of the segment to be re-encoded.
+description: For segment re-encoding, specifies the duration of the segment to be re-encoded.
 ms.assetid: 89e1d182-67f3-4906-b4b2-c94264a8e9b4
 title: MFPKEY_REENCDURATION Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ For segment re-encoding, specifies the duration of the segment to be re-encoded.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -22,7 +22,7 @@ Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows Vista or Windows 7<br/>                                                   |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |
@@ -39,7 +39,3 @@ Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Describes an off-screen render target used by an instance of ID3DXRenderToEnvMap.
+description: Describes an off-screen render target used by an instance of ID3DXRenderToEnvMap.
 ms.assetid: 805df4da-e882-4d54-bf2c-49cfcbc59ac6
 title: D3DXRTE_DESC structure (D3dx9core.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ typedef struct D3DXRTE_DESC {
 **Size**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -52,7 +52,7 @@ Width and height in pixels.
 **MipLevels**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -74,7 +74,7 @@ Color buffer format.
 **DepthStencil**
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -101,7 +101,7 @@ This method is used to return the creation parameters used when creating an [**I
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9core.h</dt> </dl> |
 
@@ -117,7 +117,3 @@ This method is used to return the creation parameters used when creating an [**I
  
 
  
-
-
-
-

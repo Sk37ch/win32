@@ -86,7 +86,7 @@ Standard HRESULT error code.
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Library<br/> | <dl> <dt>Dwrite.lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>Dwrite.dll</dt> </dl> |
@@ -97,17 +97,11 @@ Standard HRESULT error code.
 
 <dl> <dt>
 
-[**IDWriteFontFace**](https://msdn.microsoft.com/library/Dd370983(v=VS.85).aspx)
+[**IDWriteFontFace**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface)
 </dt> <dt>
 
 [**IDWriteFontFace**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

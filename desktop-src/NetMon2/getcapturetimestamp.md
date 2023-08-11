@@ -1,5 +1,5 @@
 ---
-Description: The GetCaptureTimeStamp function returns the time and date when the capture started recording frames.
+description: The GetCaptureTimeStamp function returns the time and date when the capture started recording frames.
 ms.assetid: a7120a7c-5031-4c71-a177-f08c41037b3c
 title: GetCaptureTimeStamp function (Netmon.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Handle to the capture. For information about obtaining the capture handle, see t
 
 ## Return value
 
-If the function is successful, the return value is a pointer to a [SYSTEMTIME](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure.
+If the function is successful, the return value is a pointer to a [SYSTEMTIME](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure.
 
 If the function is unsuccessful, the return value is **NULL**.
 
@@ -59,7 +59,7 @@ Do not overwrite the data in the **SYSTEMTIME** structure. The data is part of t
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
@@ -73,13 +73,8 @@ Do not overwrite the data in the **SYSTEMTIME** structure. The data is part of t
 
 <dl> <dt>
 
-[SYSTEMTIME](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime)
+[SYSTEMTIME](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime)
 </dt> </dl>
 
  
-
- 
-
-
-
 

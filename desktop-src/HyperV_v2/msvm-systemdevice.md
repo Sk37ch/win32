@@ -1,5 +1,5 @@
 ---
-Description: Associates a logical device with the parent system.
+description: Associates a logical device with the parent system.
 ms.assetid: 2BEAAEC8-F8F2-4CC7-A209-EE3EE3C6FA90
 title: Msvm_SystemDevice class
 ms.topic: reference
@@ -49,41 +49,41 @@ The **Msvm\_SystemDevice** class has these properties.
 **GroupComponent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_System**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-system)**
+Data type: **[**CIM\_System**](/windows/desktop/CIMWin32Prov/cim-system)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ( 1 ), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ( 1 )
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) ( 1 ), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) ( 1 )
 </dt> </dl>
 
-The parent system in the association. This property is inherited from [**CIM\_Component**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-component).
+The parent system in the association. This property is inherited from [**CIM\_Component**](/windows/desktop/CIMWin32Prov/cim-component).
 
 </dd> <dt>
 
 **PartComponent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice)**
+Data type: **[**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-The logical device that is an element of a system. This property is inherited from [**CIM\_Component**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-component).
+The logical device that is an element of a system. This property is inherited from [**CIM\_Component**](/windows/desktop/CIMWin32Prov/cim-component).
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_SystemDevice** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_SystemDevice** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -100,16 +100,11 @@ Access to the **Msvm\_SystemDevice** class might be restricted by UAC Filtering.
 [**CIM\_SystemDevice**](cim-systemdevice.md)
 </dt> <dt>
 
-[**CIM\_SystemDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-systemdevice)
+[**CIM\_SystemDevice**](/windows/desktop/CIMWin32Prov/cim-systemdevice)
 </dt> <dt>
 
 [Virtual System Classes](virtual-system-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Modifies the start mode of a Win32\_SystemDriver service.
+description: Modifies the start mode of a Win32\_SystemDriver service.
 ms.assetid: 34f4e0ac-d8a0-4be7-8c84-0252e50db441
 ms.tgt_platform: multiple
 title: ChangeStartMode method of the Win32_SystemDriver class
@@ -18,9 +18,9 @@ api_location:
 
 # ChangeStartMode method of the Win32\_SystemDriver class
 
-The **ChangeStartMode** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method modifies the start mode of a [**Win32\_SystemDriver**](win32-systemdriver.md) service.
+The **ChangeStartMode** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method modifies the start mode of a [**Win32\_SystemDriver**](win32-systemdriver.md) service.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -187,7 +187,7 @@ Returns a value of 0 (zero) if the service was successfully modified, 1 (one) if
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -201,16 +201,11 @@ Returns a value of 0 (zero) if the service was successfully modified, 1 (one) if
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_SystemDriver**](win32-systemdriver.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

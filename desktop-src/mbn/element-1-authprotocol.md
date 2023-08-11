@@ -1,10 +1,10 @@
 ---
-Description: ModemDMConfigProfile\/...\/AuthProtocol (v4)
+description: ModemDMConfigProfile\/...\/AuthProtocol (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_AuthProtocol
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
-title: AuthProtocol
+title: AuthProtocol (v4)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 5e6c5a25-fe9e-4d0a-8b5b-4ff585f562af
@@ -25,7 +25,7 @@ topic_type:
 
 Note that in v4, a new enumeration value is available for this element. **AutoSelection** means that an auth protocol is to be picked by lower layer(s).
 
-For further information, see the documentation for the v1 [**AuthProtocol**](https://msdn.microsoft.com/library/Dd323274(v=VS.85).aspx) element.
+For further information, see the documentation for the v1 [**AuthProtocol**](./schema-authprotocol-contexttype-element.md) element.
 
 ## Element hierarchy
 
@@ -59,45 +59,22 @@ None.
 
 ### <span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Parent Elements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-1-context.md">Context</a></td>
-<td><p>Specifies the parameters required to establish a data connection.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Parent Element | Description | 
+|----------------|-------------|
+| <a href="element-1-context.md">Context</a> | <p>Specifies the parameters required to establish a data connection.</p> | 
+
 
  
 
 ## Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p>Namespace</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Use this method to re-acquire resources and save initial state.
+description: ID3DXRenderToSurface::OnResetDevice method - Use this method to re-acquire resources and save initial state.
 ms.assetid: a326a465-ee90-466d-8e46-22e082e9533c
 title: ID3DXRenderToSurface::OnResetDevice method (D3dx9core.h)
 ms.topic: reference
@@ -41,13 +41,13 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 ## Remarks
 
-ID3DXRenderToSurface::OnResetDevice should be called each time the device is reset (using [**IDirect3DDevice9::Reset**](https://msdn.microsoft.com/library/Bb174425(v=VS.85).aspx)), before any other methods are called. This is a good place to re-acquire video-memory resources and capture state blocks.
+ID3DXRenderToSurface::OnResetDevice should be called each time the device is reset (using [**IDirect3DDevice9::Reset**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-reset)), before any other methods are called. This is a good place to re-acquire video-memory resources and capture state blocks.
 
 ## Requirements
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -64,7 +64,3 @@ ID3DXRenderToSurface::OnResetDevice should be called each time the device is res
  
 
  
-
-
-
-

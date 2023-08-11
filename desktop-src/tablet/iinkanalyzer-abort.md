@@ -1,5 +1,5 @@
 ---
-Description: Cancels the current analysis operation.
+description: Cancels the current analysis operation.
 ms.assetid: 909bfa66-b6df-4730-95b7-809fc2170e85
 title: IInkAnalyzer::Abort method (IACom.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 ## Remarks
 
-Call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppAbortedRegion* when you no longer need to use the object.
+Call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppAbortedRegion* when you no longer need to use the object.
 
 This method cancels the current analysis operation.
 
@@ -73,7 +73,7 @@ For more information about synchronizing your application data with the ink anal
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -105,9 +105,4 @@ For more information about synchronizing your application data with the ink anal
 </dt> </dl>
 
  
-
- 
-
-
-
 

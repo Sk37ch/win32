@@ -1,5 +1,5 @@
 ---
-Description: Describes preprocessor definitions used by an effect object.
+description: Describes preprocessor definitions used by an effect object.
 ms.assetid: 43413b79-e331-4466-b288-bd4439c135a2
 title: D3DXMACRO structure (D3dx9shader.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ typedef struct D3DXMACRO {
 **Name**
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -49,7 +49,7 @@ Preprocessor name.
 **Definition**
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -78,7 +78,7 @@ Notice the 3 backslash characters at the end of the line. The first two are requ
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9shader.h</dt> </dl> |
 
@@ -97,7 +97,3 @@ Notice the 3 backslash characters at the end of the line. The first two are requ
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Provides information about the native DDS codec available through the Windows Imaging Component (WIC).
+description: Provides information about the native DDS codec available through the Windows Imaging Component (WIC).
 ms.assetid: 6CFDD674-C8AE-4F29-B2E5-C9C9431CB85A
 title: DDS Format Overview
 ms.topic: article
@@ -16,11 +16,11 @@ The following table provides codec identification information.
 
 
 
-|                        |                    |
+| Component              | Description        |
 |------------------------|--------------------|
 | Formal Name(s)         | DirectDraw Surface |
 | File Name Extension(s) | dds                |
-| MIME type              | image/vnd-ms.dds   |
+| MIME type              | image/vnd.ms-dds   |
 
 
 
@@ -42,7 +42,7 @@ The following table lists the GUIDs used to identify the native DDS codec compon
 
 ## Pixel Format Support
 
-Note that the DDS format supports any valid [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx) value. However, the WIC DDS codec only supports decoding and encoding files containing the following formats:
+Note that the DDS format supports any valid [**DXGI\_FORMAT**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) value. However, the WIC DDS codec only supports decoding and encoding files containing the following formats:
 
 -   DXGI\_FORMAT\_BC1\_UNORM
 -   DXGI\_FORMAT\_BC2\_UNORM
@@ -65,6 +65,3 @@ In addition to supporting the standard WIC codec interfaces, the DDS decoder pro
  
 
  
-
-
-

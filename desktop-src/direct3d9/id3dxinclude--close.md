@@ -1,5 +1,5 @@
 ---
-Description: A user-implemented method for closing a shader \#include file.
+description: A user-implemented method for closing a shader \#include file.
 ms.assetid: de54ce56-3884-443a-9879-4e7290bcfb8d
 title: ID3DXInclude::Close method (D3DX9Shader.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT Close(
 *pData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](../winprog/windows-data-types.md)**
 
 Pointer to the returned buffer that contains the include directives. This is the pointer that was returned by the corresponding [**ID3DXInclude::Open**](id3dxinclude--open.md) call.
 
@@ -62,7 +62,7 @@ If [**ID3DXInclude::Open**](id3dxinclude--open.md) was successful, **ID3DXInclud
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -82,7 +82,3 @@ If [**ID3DXInclude::Open**](id3dxinclude--open.md) was successful, **ID3DXInclud
  
 
  
-
-
-
-

@@ -8,7 +8,8 @@ ms.date: 05/31/2018
 
 # Content Indexing Services Protocol
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://msdn.microsoft.com/library/aa965362(VS.85).aspx).\]
+> [!NOTE]
+> Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003. On later releases, use [Windows Search](../search/-search-3x-wds-overview.md) instead.
 
 Protocol Specification, Version 0.12
 
@@ -120,7 +121,7 @@ A WSPP protocol specification does not require the use of Microsoft programming 
 
 ### 1.2.1 Normative References
 
-\[IEEE754\] Institute of Electrical and Electronics Engineers, "Standard for Binary Floating-Point Arithmetic", IEEE 754-1985, October 1985, https://grouper.ieee.org/groups/754/
+\[IEEE754\] Institute of Electrical and Electronics Engineers, "Standard for Binary Floating-Point Arithmetic", IEEE 754-1985, October 1985, https://standards.ieee.org/standard/754-1985.html
 
 \[MS-DCOM\] Microsoft Corporation, "Distributed Component Object Model Remote Protocols", June 2006.
 
@@ -920,16 +921,35 @@ vData is marshaled similarly to VT\_VECTOR, as specified in Section 2.2.1.1.1.2,
 
 The following diagram visually represents a sample two-dimensional array. The first dimension has cElements equal to 4 (represented horizontally) and lLbound equal to 0, and the second dimension has cElements equal to 2 (represented vertically) and lLbound equal to 0.
 
+:::row:::
+    :::column:::
+        0x00000001
+    :::column-end:::
+    :::column:::
+        0x00000002
+    :::column-end:::
+    :::column:::
+        0x00000003
+    :::column-end:::
+    :::column:::
+        0x00000005
+    :::column-end:::
+:::row-end:::
 
-
-|            |            |            |            |
-|------------|------------|------------|------------|
-| 0x00000001 | 0x00000002 | 0x00000003 | 0x00000005 |
-| 0x00000007 | 0x00000011 | 0x00000013 | 0x00000017 |
-
-
-
- 
+::row:::
+    :::column:::
+        0x00000007
+    :::column-end:::
+    :::column:::
+        0x00000011
+    :::column-end:::
+    :::column:::
+        0x00000013
+    :::column-end:::
+    :::column:::
+        0x00000017
+    :::column-end:::
+:::row-end:::
 
 Using the diagram above, vData will contain the following sequence: 0x00000001, 0x00000007, 0x00000002, 0x00000011, 0x00000003, 0x00000013, 0x00000005, 0x00000017 (iterating through the rightmost dimension first, then incrementing the next dimension). The preceding Rgsabound (which records cElements and Lbound) would be: 0x00000004, 0x00000000, 0x00000002, 0x00000000.
 
@@ -6318,7 +6338,7 @@ PropSpec (variable)
 
  
 
-**\_wid**: A 32-bit unsigned integer representing the document ID identifying the document for which a property should be fetched.
+**\_wid**: A 32-bit unsigned integer containing information about the document ID identifying the document for which a property should be fetched.
 
 **\_cbSoFar**: A 32-bit unsigned integer containing the number of bytes previously transferred for this property. MUST be set to 0x00000000 in the first message.
 

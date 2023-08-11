@@ -1,5 +1,5 @@
 ---
-Description: An event provider is a COM object that supplies WMI with notifications of intrinsic and extrinsic events.
+description: An event provider is a COM object that supplies WMI with notifications of intrinsic and extrinsic events.
 ms.assetid: 075bdc65-4ea3-4f91-9823-1d2d0dc13423
 ms.tgt_platform: multiple
 title: Writing an Event Provider
@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Writing an Event Provider
 
-An event provider is a COM object that supplies WMI with notifications of intrinsic and extrinsic events. An intrinsic event reports an internal data change to WMI, while an extrinsic event reports a user-defined event not described by an intrinsic event. For example, an event in response to changes, creation, or deletion of the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class would classify as an intrinsic event. An event that is generated on the basis of something other than the modification, creation, or deletion of an existing WMI object is an extrinsic event. Regardless of the supported class, you can implement all event providers in the same manner.
+An event provider is a COM object that supplies WMI with notifications of intrinsic and extrinsic events. An intrinsic event reports an internal data change to WMI, while an extrinsic event reports a user-defined event not described by an intrinsic event. For example, an event in response to changes, creation, or deletion of the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class would classify as an intrinsic event. An event that is generated on the basis of something other than the modification, creation, or deletion of an existing WMI object is an extrinsic event. Regardless of the supported class, you can implement all event providers in the same manner.
 
 The following procedure describes how to implement an event provider.
 
@@ -52,6 +52,3 @@ A client application can request an event by registering itself with WMI as an e
  
 
  
-
-
-

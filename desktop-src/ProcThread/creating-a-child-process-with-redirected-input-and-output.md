@@ -1,5 +1,5 @@
 ---
-Description: The example in this topic demonstrates how to create a child process using the CreateProcess function from a console process.
+description: The example in this topic demonstrates how to create a child process using the CreateProcess function from a console process.
 ms.assetid: a4e37069-2b3a-4b6d-9cfd-eb1700ab3bc6
 title: Creating a Child Process with Redirected Input and Output
 ms.topic: article
@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Creating a Child Process with Redirected Input and Output
 
-The example in this topic demonstrates how to create a child process using the [**CreateProcess**](https://msdn.microsoft.com/library/ms682425(v=VS.85).aspx) function from a console process. It also demonstrates a technique for using anonymous pipes to redirect the child process's standard input and output handles. Note that named pipes can also be used to redirect process I/O.
+The example in this topic demonstrates how to create a child process using the [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa) function from a console process. It also demonstrates a technique for using anonymous pipes to redirect the child process's standard input and output handles. Note that named pipes can also be used to redirect process I/O.
 
-The [**CreatePipe**](https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-createpipe) function uses the [**SECURITY\_ATTRIBUTES**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) structure to create inheritable handles to the read and write ends of two pipes. The read end of one pipe serves as standard input for the child process, and the write end of the other pipe is the standard output for the child process. These pipe handles are specified in the [**STARTUPINFO**](https://msdn.microsoft.com/library/ms686331(v=VS.85).aspx) structure, which makes them the standard handles inherited by the child process.
+The [**CreatePipe**](/windows/desktop/api/namedpipeapi/nf-namedpipeapi-createpipe) function uses the [**SECURITY\_ATTRIBUTES**](/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) structure to create inheritable handles to the read and write ends of two pipes. The read end of one pipe serves as standard input for the child process, and the write end of the other pipe is the standard output for the child process. These pipe handles are specified in the [**STARTUPINFO**](/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa) structure, which makes them the standard handles inherited by the child process.
 
-The parent process uses the opposite ends of these two pipes to write to the child process's input and read from the child process's output. As specified in the [**STARTUPINFO**](https://msdn.microsoft.com/library/ms686331(v=VS.85).aspx) structure, these handles are also inheritable. However, these handles must not be inherited. Therefore, before creating the child process, the parent process uses the [**SetHandleInformation**](https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-sethandleinformation) function to ensure that the write handle for the child process's standard input and the read handle for the child process's standard output cannot be inherited. For more information, see [Pipes](https://docs.microsoft.com/windows/desktop/ipc/pipes).
+The parent process uses the opposite ends of these two pipes to write to the child process's input and read from the child process's output. As specified in the [**SECURITY\_ATTRIBUTES**](/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) structure, these handles are also inheritable. However, these handles must not be inherited. Therefore, before creating the child process, the parent process uses the [**SetHandleInformation**](/windows/desktop/api/handleapi/nf-handleapi-sethandleinformation) function to ensure that the write handle for the child process's standard input and the read handle for the child process's standard output cannot be inherited. For more information, see [Pipes](/windows/desktop/ipc/pipes).
 
 The following is the code for the parent process. It takes a single command-line argument: the name of a text file.
 
@@ -96,11 +96,11 @@ int _tmain(int argc, TCHAR *argv[])
 // until the child process is running before writing data.
  
    WriteToPipe(); 
-   printf( "\n->Contents of %s written to child STDIN pipe.\n", argv[1]);
+   printf( "\n->Contents of %S written to child STDIN pipe.\n", argv[1]);
  
 // Read from pipe that is the standard output for child process. 
  
-   printf( "\n->Contents of child process STDOUT:\n\n", argv[1]);
+   printf( "\n->Contents of child process STDOUT:\n\n");
    ReadFromPipe(); 
 
    printf("\n->End of parent execution.\n");
@@ -301,6 +301,3 @@ int main(void)
  
 
  
-
-
-

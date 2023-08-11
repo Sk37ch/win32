@@ -1,5 +1,5 @@
 ---
-Description: Contains the methods used for negotiating which type of token is used for authenticating the endpoint of a service.
+description: Contains the methods used for negotiating which type of token is used for authenticating the endpoint of a service.
 ms.assetid: F6177B24-C166-4BEC-83D6-3AD5B5B3CF08
 title: IUpdateEndpointAuthProvider interface (UpdateEndpointAuth.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ The **IUpdateEndpointAuthProvider** interface contains the methods used for nego
 
 ## Members
 
-The **IUpdateEndpointAuthProvider** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IUpdateEndpointAuthProvider** also has these types of members:
+The **IUpdateEndpointAuthProvider** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IUpdateEndpointAuthProvider** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -48,7 +48,7 @@ WUA calls the [**GetPreferredEndpointTokenType**](iupdateendpointauthprovider-ge
 
 
 
-|                                     |                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>                   |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>                |
@@ -62,7 +62,3 @@ WUA calls the [**GetPreferredEndpointTokenType**](iupdateendpointauthprovider-ge
  
 
  
-
-
-
-

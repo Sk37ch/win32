@@ -1,5 +1,5 @@
 ---
-Description: Provides access to the programmable features of Tablet PC Input Panel.
+description: Provides access to the programmable features of Tablet PC Input Panel.
 ms.assetid: 867f2d6f-e63a-4c02-9370-3848a3b5c40a
 title: Text Input Panel Reference
 ms.topic: article
@@ -20,7 +20,7 @@ Provides access to the programmable features of Tablet PC Input Panel.
 
 The topic includes references for the Text Input Panel COM interfaces and enumerations.
 
-These interfaces can be instantiated by calling the [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) method in C++.
+These interfaces can be instantiated by calling the [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
 
 ## Remarks
 
@@ -41,6 +41,3 @@ These elements are declared in Peninputpanel.h.
  
 
  
-
-
-

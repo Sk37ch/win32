@@ -1,5 +1,5 @@
 ---
-Description: Gets the handle of an annotation.
+description: Gets the handle of an annotation.
 ms.assetid: 433d73b7-9371-4d76-8b34-a64c608eb1a3
 title: ID3DXBaseEffect::GetAnnotation method (D3DX9Effect.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Handle of a technique, pass, or top-level parameter. See [Handles (Direct3D 9)](
 *Index* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Annotation index.
 
@@ -68,7 +68,7 @@ Annotations are user-specific data that can be attached to any technique, pass, 
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -85,7 +85,3 @@ Annotations are user-specific data that can be attached to any technique, pass, 
  
 
  
-
-
-
-

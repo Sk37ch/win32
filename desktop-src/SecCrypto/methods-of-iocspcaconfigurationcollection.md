@@ -1,5 +1,5 @@
 ---
-Description: The following methods are defined by the IOCSPCAConfigurationCollection interface. The property access methods are not shown here. To see the properties for IOCSPCAConfigurationCollection, see Properties of IOCSPCAConfigurationCollection.
+description: The following methods are defined by the IOCSPCAConfigurationCollection interface. The property access methods are not shown here. To see the properties for IOCSPCAConfigurationCollection, see Properties of IOCSPCAConfigurationCollection.
 ms.assetid: 362737ac-9ae2-49d4-8eb9-b52930d4fe9f
 title: Methods of IOCSPCAConfigurationCollection
 ms.topic: article
@@ -14,7 +14,7 @@ The following methods are defined by the [**IOCSPCAConfigurationCollection**](/w
 
 | Method                                                                                       | Description                                                                                                                                                                                    |
 |----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateCAConfiguration**](/windows/desktop/api/Certadm/nf-certadm-iocspcaconfigurationcollection-createcaconfiguration) | Creates a new [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA) configuration and adds it to the configuration set. |
+| [**CreateCAConfiguration**](/windows/desktop/api/Certadm/nf-certadm-iocspcaconfigurationcollection-createcaconfiguration) | Creates a new [*certification authority*](../secgloss/c-gly.md) (CA) configuration and adds it to the configuration set. |
 | [**DeleteCAConfiguration**](/windows/desktop/api/Certadm/nf-certadm-iocspcaconfigurationcollection-deletecaconfiguration) | Removes a named CA configuration from the configuration set.                                                                                                                                   |
 
 
@@ -24,6 +24,3 @@ The following methods are defined by the [**IOCSPCAConfigurationCollection**](/w
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ElementsLinked association represents physical elements that are cabled together by a physical link.
+description: The CIM\_ElementsLinked association represents physical elements that are cabled together by a physical link.
 ms.assetid: b9e1d11e-6f89-4d7a-9b5c-01161e7c1bdf
 ms.tgt_platform: multiple
 title: CIM_ElementsLinked class
@@ -61,7 +61,7 @@ Data type: **CIM\_PhysicalLink**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_PhysicalLink**](cim-physicallink.md) that describes the physical link.
@@ -77,7 +77,7 @@ Data type: **CIM\_PhysicalElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_PhysicalElement**](cim-physicalelement.md) that describes the physical element that is linked.
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -114,9 +114,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

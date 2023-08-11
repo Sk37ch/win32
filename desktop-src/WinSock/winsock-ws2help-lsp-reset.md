@@ -1,5 +1,5 @@
 ---
-Description: Winsock catalog change event for a Winsock catalog reset operation.
+description: Winsock catalog change event for a Winsock catalog reset operation.
 ms.assetid: BE8DC0DB-0F96-4015-87F5-ECF25AE164AA
 title: WINSOCK_WS2HELP_LSP_RESET event
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 # WINSOCK\_WS2HELP\_LSP\_RESET event
 
 > [!Note]  
-> Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](https://msdn.microsoft.com/library/Aa366510(v=VS.85).aspx).
+> Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](../fwp/windows-filtering-platform-start-page.md).
 
  
 
@@ -49,7 +49,7 @@ The **WINSOCK\_WS2HELP\_LSP\_RESET** event is traced for an Winsock Layered Serv
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
@@ -75,7 +75,3 @@ The **WINSOCK\_WS2HELP\_LSP\_RESET** event is traced for an Winsock Layered Serv
  
 
  
-
-
-
-

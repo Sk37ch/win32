@@ -1,5 +1,5 @@
 ---
-Description: Computes a projection of the direct lighting from the previous light bounce into spherical harmonic (SH) basis vectors that represent incident radiance at specified locations.
+description: Computes a projection of the direct lighting from the previous light bounce into spherical harmonic (SH) basis vectors that represent incident radiance at specified locations.
 ms.assetid: ccde7c59-cb82-4d61-822a-e1e9ecea0a28
 title: ID3DXPRTEngine::ComputeVolumeSamples method (D3DX9Mesh.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ Pointer to an input [**ID3DXPRTBuffer**](id3dxprtbuffer.md) object that represen
 *Order* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Order of the SH evaluation. Must be in the range of [D3DXSH\_MINORDER](other-d3dx-constants.md) to D3DXSH\_MAXORDER, inclusive. The evaluation generates Order² coefficients. The degree of the evaluation is Order - 1.
 
@@ -60,7 +60,7 @@ Order of the SH evaluation. Must be in the range of [D3DXSH\_MINORDER](other-d3d
 *NumVolSamples.xml* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of sample locations.
 
@@ -98,7 +98,7 @@ This method computes how the light from the source radiance function is reflecte
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -118,7 +118,3 @@ This method computes how the light from the source radiance function is reflecte
  
 
  
-
-
-
-

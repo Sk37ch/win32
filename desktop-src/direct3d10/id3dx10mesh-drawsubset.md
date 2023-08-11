@@ -1,5 +1,5 @@
 ---
-Description: Draws a subset of a mesh.
+description: ID3DX10Mesh::DrawSubset method - Draws a subset of a mesh.
 ms.assetid: e785949e-fcda-4ef9-b50a-193cd954e97d
 title: ID3DX10Mesh::DrawSubset method (D3DX10.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT DrawSubset(
 *AttribId* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Specifies which subset of the mesh to draw. This value is used to differentiate faces in a mesh as belonging to one or more attribute groups.
 
@@ -58,7 +58,7 @@ An attribute table is used to identify areas of the mesh that need to be drawn w
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -78,7 +78,3 @@ An attribute table is used to identify areas of the mesh that need to be drawn w
  
 
  
-
-
-
-

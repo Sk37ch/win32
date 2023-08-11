@@ -1,5 +1,5 @@
 ---
-Description: Sets a wildcard filter to apply to the items returned.
+description: Sets a wildcard filter to apply to the items returned.
 ms.assetid: 19ca82c5-16ff-46c7-8ea1-ddbfc2ce3ac9
 title: FolderItems3.Filter method (Shldisp.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This parameter can be one of the flags listed in [**SHCONTF**](/windows/win32/ap
 *bstrFilter* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A filter string that specifies what should be listed in the [**FolderItems**](folderitems.md) collection.
 
@@ -164,7 +164,7 @@ End Sub
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |
@@ -190,7 +190,3 @@ End Sub
  
 
  
-
-
-
-

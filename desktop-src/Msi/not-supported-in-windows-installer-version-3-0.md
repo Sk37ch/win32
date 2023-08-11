@@ -1,5 +1,5 @@
 ---
-Description: The Windows Installer functions, tables, and properties listed on this page are not supported by Windows Installer&\#160;3.0 and earlier versions.
+description: The Windows Installer functions, tables, and properties listed on this page are not supported by Windows Installer&\#160;3.0 and earlier versions.
 ms.assetid: 35be6da4-2a20-4a7a-9f6e-0420cd5a227e
 title: Not Supported in Windows Installer 3.0
 ms.topic: article
@@ -21,7 +21,7 @@ The following features are not supported in Windows Installer 3.0 and earlier v
 
 Callback Function Prototype
 
--   [**INSTALLUI\_HANDLER\_RECORD**](https://msdn.microsoft.com/library/Aa369545(v=VS.85).aspx)
+-   [**INSTALLUI\_HANDLER\_RECORD**](/windows/win32/api/msi/nc-msi-installui_handler_record)
 
 [Database Tables](database-tables.md)
 
@@ -42,6 +42,3 @@ Callback Function Prototype
  
 
  
-
-
-

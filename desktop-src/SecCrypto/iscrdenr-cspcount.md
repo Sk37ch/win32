@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of cryptographic service providers (CSPs).
+description: Retrieves the number of cryptographic service providers (CSPs).
 ms.assetid: 7e0c1613-85ad-4f25-837e-d7b0f11e654a
 title: ISCrdEnr::CSPCount property
 ms.topic: reference
@@ -19,7 +19,7 @@ api_location:
 
 # ISCrdEnr::CSPCount property
 
-The **CSPCount** property retrieves the number of [*cryptographic service providers*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSPs).
+The **CSPCount** property retrieves the number of [*cryptographic service providers*](../secgloss/c-gly.md) (CSPs).
 
 This property is read-only.
 
@@ -48,7 +48,7 @@ If the method fails, it returns an **HRESULT** value that indicates the error. F
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -73,7 +73,3 @@ If the method fails, it returns an **HRESULT** value that indicates the error. F
  
 
  
-
-
-
-

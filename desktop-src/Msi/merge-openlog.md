@@ -1,5 +1,5 @@
 ---
-Description: The OpenLog method of the Merge object opens a log file that receives progress and error messages. If the log file already exists, the installer appends new messages. If the log file does not exist, the installer creates a log file.
+description: The OpenLog method of the Merge object opens a log file that receives progress and error messages. If the log file already exists, the installer appends new messages. If the log file does not exist, the installer creates a log file.
 ms.assetid: '97d01ea3-43b6-4529-9706-97b3b0132d9c'
 title: Merge.OpenLog method (Mergemod.h)
 ms.topic: reference
@@ -52,13 +52,13 @@ Clients may send their own messages to this log file through the [**Log**](merge
 
 ### C++
 
-See [**OpenLog**](https://msdn.microsoft.com/library/Aa369277(v=VS.85).aspx) function.
+See [**OpenLog**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-openlog) function.
 
 ## Requirements
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 1.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |
@@ -69,7 +69,3 @@ See [**OpenLog**](https://msdn.microsoft.com/library/Aa369277(v=VS.85).aspx) fun
  
 
  
-
-
-
-

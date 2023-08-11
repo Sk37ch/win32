@@ -1,5 +1,5 @@
 ---
-Description: The InkEdit control is a super class of the RichEdit control.
+description: The InkEdit control is a super class of the RichEdit control.
 ms.assetid: 26023012-9ab1-4bd9-beff-41587bc74f5e
 title: InkEdit Messages (Win32 Only)
 ms.topic: article
@@ -8,32 +8,17 @@ ms.date: 05/31/2018
 
 # InkEdit Messages (Win32 Only)
 
-The [InkEdit](inkedit-control-reference.md) control is a super class of the [**RichEdit**](https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditole) control. Every **RichEdit** message is passed on, directly in most cases, and has exactly the same effect as in **RichEdit**. This also applies to event notification messages.
+The [InkEdit](inkedit-control-reference.md) control is a super class of the [**RichEdit**](/windows/desktop/api/richole/nn-richole-iricheditole) control. Every **RichEdit** message is passed on, directly in most cases, and has exactly the same effect as in **RichEdit**. This also applies to event notification messages.
 
 To send these messages, call the SendMessage function with the following parameters:
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre data-space="preserve"><code>LRESULT SendMessage(
-  HWND hWnd,      // handle to destination window
-  UINT Msg,       // message
-  WPARAM wParam,  // first message parameter
-  LPARAM lParam   // second message parameter
-);</code></pre></td>
-</tr>
-</tbody>
-</table>
+
+| C++ | 
+|-----|
+| <pre data-space="preserve"><code>LRESULT SendMessage(  HWND hWnd,      // handle to destination window  UINT Msg,       // message  WPARAM wParam,  // first message parameter  LPARAM lParam   // second message parameter);</code></pre> | 
+
 
 
 
@@ -150,9 +135,4 @@ LRESULT CALLBACK WindowProc(
 </dt> </dl>
 
  
-
- 
-
-
-
 

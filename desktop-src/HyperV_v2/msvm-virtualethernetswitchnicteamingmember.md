@@ -1,5 +1,5 @@
 ---
-Description: Represents the association between a team ExternalEthernetPort and a member ExternalEthernetPort.
+description: Represents the association between a team ExternalEthernetPort and a member ExternalEthernetPort.
 ms.assetid: e21bea94-d6a8-4788-958e-78ce255837aa
 title: Msvm_VirtualEthernetSwitchNicTeamingMember class
 ms.topic: reference
@@ -55,7 +55,7 @@ Data type: **Msvm\_ExternalEthernetPort**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 An [**Msvm\_ExternalEthernetPort**](msvm-externalethernetport.md) that references the team external ethernet port instance.
@@ -71,7 +71,7 @@ Data type: **Msvm\_ExternalEthernetPort**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 Reference to the member [**Msvm\_ExternalEthernetPort**](msvm-externalethernetport.md) instance.
@@ -82,7 +82,7 @@ Reference to the member [**Msvm\_ExternalEthernetPort**](msvm-externalethernetpo
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -100,9 +100,4 @@ Reference to the member [**Msvm\_ExternalEthernetPort**](msvm-externalethernetpo
 </dt> </dl>
 
  
-
- 
-
-
-
 

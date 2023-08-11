@@ -1,5 +1,5 @@
 ---
-Description: Retrieves all of the analysis hint IContextNode objects that are attached to the IInkAnalyzer and that have the specified name.
+description: Retrieves all of the analysis hint IContextNode objects that are attached to the IInkAnalyzer and that have the specified name.
 ms.assetid: 15269ee0-055c-424e-be49-945f47e8a77e
 title: IInkAnalyzer::GetAnalysisHintsByName method (IACom.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppAnalysisHints* when you no longer need to use the object.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppAnalysisHints* when you no longer need to use the object.
 
  
 
@@ -72,7 +72,7 @@ To find which property values are set on a context node, use [**IContextNode::Ge
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -104,9 +104,4 @@ To find which property values are set on a context node, use [**IContextNode::Ge
 </dt> </dl>
 
  
-
- 
-
-
-
 

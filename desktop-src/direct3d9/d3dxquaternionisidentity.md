@@ -1,22 +1,25 @@
 ---
-Description: Determines if a quaternion is an identity quaternion.
+description: Determines if a quaternion is an identity quaternion.
 ms.assetid: 1cd39e1b-9b68-434d-b7b0-3ec6cddb8757
 title: D3DXQuaternionIsIdentity function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXQuaternionIsIdentity
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXQuaternionIsIdentity function
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Determines if a quaternion is an identity quaternion.
 
@@ -46,7 +49,7 @@ Pointer to the [**D3DXQUATERNION**](d3dxquaternion.md) structure that will be te
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 If the quaternion is an identity quaternion, this function returns **TRUE**. Otherwise, this function returns **FALSE**.
 
@@ -58,7 +61,7 @@ Use [**D3DXQuaternionNormalize**](d3dxquaternionnormalize.md) for any quaternion
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -78,7 +81,3 @@ Use [**D3DXQuaternionNormalize**](d3dxquaternionnormalize.md) for any quaternion
  
 
  
-
-
-
-

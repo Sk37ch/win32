@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_MethodParameterClass abstract, base WMI class derives any class defined as a container of parameter values that will be passed to a method.
+description: The Win32\_MethodParameterClass abstract, base WMI class derives any class defined as a container of parameter values that will be passed to a method.
 ms.assetid: 293fa378-432d-4e97-a8ab-8dc4917d5476
 ms.tgt_platform: multiple
 title: Win32_MethodParameterClass class
@@ -18,7 +18,7 @@ api_location:
 
 # Win32\_MethodParameterClass class
 
-The **Win32\_MethodParameterClass** abstract, base [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) derives any class defined as a container of parameter values that will be passed to a method. Having no properties of its own, this class serves as a classification node. A similar example is [**CIM\_PhysicalElement**](cim-physicalelement.md). Derivation from **CIM\_PhysicalElement** indicates that the class describes a physical rather than logical entity. In the case of **Win32\_MethodParameterClass**, classes derived from it are created specifically to pass parameters to a method.
+The **Win32\_MethodParameterClass** abstract, base [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) derives any class defined as a container of parameter values that will be passed to a method. Having no properties of its own, this class serves as a classification node. A similar example is [**CIM\_PhysicalElement**](cim-physicalelement.md). Derivation from **CIM\_PhysicalElement** indicates that the class describes a physical rather than logical entity. In the case of **Win32\_MethodParameterClass**, classes derived from it are created specifically to pass parameters to a method.
 
 ## Syntax
 
@@ -30,7 +30,7 @@ The **Win32\_MethodParameterClass** class does not define any members.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -44,13 +44,8 @@ The **Win32\_MethodParameterClass** class does not define any members.
 
 <dl> <dt>
 
-[WMI Service Management Classes](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/wmi-service-management-classes)
+[WMI Service Management Classes](/windows/desktop/CIMWin32Prov/wmi-service-management-classes)
 </dt> </dl>
 
  
-
- 
-
-
-
 

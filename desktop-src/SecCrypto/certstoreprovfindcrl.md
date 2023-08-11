@@ -1,5 +1,5 @@
 ---
-Description: Enumerates or finds the first or next CRL in an external store that matches specified criteria.
+description: Enumerates or finds the first or next CRL in an external store that matches specified criteria.
 ms.assetid: caf218f5-f379-4cb6-bb4b-4767b846d45c
 title: CertStoreProvFindCRL callback function
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 
 # CertStoreProvFindCRL callback function
 
-The **CertStoreProvFindCRL** callback function enumerates or finds the first or next [*CRL*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) in an external [*store*](https://msdn.microsoft.com/library/ms721575(v=VS.85).aspx) that matches specified criteria.
+The **CertStoreProvFindCRL** callback function enumerates or finds the first or next [*CRL*](../secgloss/c-gly.md) in an external [*store*](../secgloss/e-gly.md) that matches specified criteria.
 
 ## Syntax
 
@@ -41,7 +41,7 @@ BOOL WINAPI CertStoreProvFindCRL(
 *hStoreProv* \[in\]
 </dt> <dd>
 
-**HCERTSTOREPROV** handle to a [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
+**HCERTSTOREPROV** handle to a [*certificate store*](../secgloss/c-gly.md).
 
 </dd> <dt>
 
@@ -88,7 +88,7 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
@@ -111,7 +111,3 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
  
 
  
-
-
-
-

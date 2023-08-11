@@ -1,5 +1,5 @@
 ---
-Description: Returns an NCRYPT\_SSL\_CIPHER\_LENGTHS structure that contains the header and trailer lengths of the input protocol, cipher suite, and key type.
+description: Returns an NCRYPT\_SSL\_CIPHER\_LENGTHS structure that contains the header and trailer lengths of the input protocol, cipher suite, and key type.
 ms.assetid: 44d0d803-16d7-4bdf-9638-afbdaf9e1802
 title: SslLookupCipherLengths function (Sslprovider.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ SECURITY_STATUS WINAPI SslLookupCipherLengths(
 *hSslProvider* \[in\]
 </dt> <dd>
 
-The handle of the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
+The handle of the [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
 
 </dd> <dt>
 
@@ -64,7 +64,7 @@ One of the [**CNG SSL Provider Cipher Suite Identifier**](https://msdn.microsoft
 *dwKeyType* \[in\]
 </dt> <dd>
 
-One of the [**CNG SSL Provider Key Type Identifier**](https://msdn.microsoft.com/library/Hh971256(v=VS.85).aspx) values. For key types that are not [*elliptic curve cryptography*](https://docs.microsoft.com/windows/desktop/SecGloss/e-gly) (ECC), set this parameter to zero.
+One of the [**CNG SSL Provider Key Type Identifier**](https://msdn.microsoft.com/library/Hh971256(v=VS.85).aspx) values. For key types that are not [*elliptic curve cryptography*](/windows/desktop/SecGloss/e-gly) (ECC), set this parameter to zero.
 
 </dd> <dt>
 
@@ -111,13 +111,13 @@ Possible return codes include, but are not limited to, the following.
 
 ## Remarks
 
-The **SslLookupCipherLengths** function is called for [*Transport Layer Security protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/t-gly) (TLS) 1.1 or later conversations to query the header and trailer lengths for the requested protocol, cipher suite, and key type.
+The **SslLookupCipherLengths** function is called for [*Transport Layer Security protocol*](/windows/desktop/SecGloss/t-gly) (TLS) 1.1 or later conversations to query the header and trailer lengths for the requested protocol, cipher suite, and key type.
 
 ## Requirements
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |
@@ -127,9 +127,4 @@ The **SslLookupCipherLengths** function is called for [*Transport Layer Security
 
 
  
-
- 
-
-
-
 

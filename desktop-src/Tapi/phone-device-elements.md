@@ -1,5 +1,5 @@
 ---
-Description: A phone device is a device that supports the phone device class and that includes hookswitches, handsets, speakerphones, and headsets.
+description: A phone device is a device that supports the phone device class and that includes hookswitches, handsets, speakerphones, and headsets.
 ms.assetid: c2660d77-0265-49d4-bd04-1cddd674b760
 title: Phone Device Elements
 ms.topic: article
@@ -14,10 +14,10 @@ A phone device is a device that supports the phone device class and that include
 
     Telephony identifies three types of hookswitch devices common to many phone sets:
 
-    <dl> **Handset**: The traditional mouth-and-ear piece combination that must be manually lifted from a cradle and held against the user's ear.  
+     **Handset**: The traditional mouth-and-ear piece combination that must be manually lifted from a cradle and held against the user's ear.  
     **Speakerphone**: Enables the user to conduct calls hands-free. The speakerphone may be internal or external to the phone device. The speaker part of a speakerphone allows multiple listeners.  
     **Headset**: Enables the user to conduct calls hands-free.  
-    </dl>
+    
 
     A hookswitch must be offhook to allow audio data to be sent to and/or received by the corresponding transducer.
 

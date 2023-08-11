@@ -1,6 +1,6 @@
 ---
 title: Querying the Index (WDS 2.x)
-description: .
+description: Querying the Index (WDS 2.x)
 ms.assetid: e3f790be-40f7-4796-bae8-5c12983f92c5
 ms.topic: article
 ms.date: 05/31/2018
@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Querying the Index (WDS 2.x)
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://msdn.microsoft.com/library/aa965362(VS.85).aspx).\]
+> [!NOTE]
+> Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003. On later releases, use [Windows Search](../search/-search-3x-wds-overview.md) instead.
 
-## 
 
 [Calling WDS from Web Pages](-search-2x-wds-browserhelpobject.md)
 

@@ -1,5 +1,5 @@
 ---
-Description: Represents the capabilities of a CIM\_VirtualSystemManagementService object.
+description: Represents the capabilities of a CIM\_VirtualSystemManagementService object.
 ms.assetid: 484b0378-b354-49c4-b98b-a960a7b07b92
 title: CIM_VirtualSystemManagementCapabilities class
 ms.topic: reference
@@ -291,7 +291,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_VirtualSystemSettingData**](cim-virtualsystemsettingdata.md).**VirtualSystemType**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_VirtualSystemSettingData**](cim-virtualsystemsettingdata.md).**VirtualSystemType**")
 </dt> </dl>
 
 The type of virtual systems supported by the implementation.
@@ -302,7 +302,7 @@ The type of virtual systems supported by the implementation.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -320,9 +320,4 @@ The type of virtual systems supported by the implementation.
 </dt> </dl>
 
  
-
- 
-
-
-
 

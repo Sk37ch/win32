@@ -18,7 +18,7 @@ ms.date: 02/03/2020
 
 # Touch Hit Testing Window Constants
 
-Indicates how messages for touch hit testing are processed by windows that are registered through the [**RegisterTouchHitTestingWindow**](https://msdn.microsoft.com/library/windows/desktop/hh437252) function.
+Indicates how messages for touch hit testing are processed by windows that are registered through the [**RegisterTouchHitTestingWindow**](/windows/win32/api/winuser/nf-winuser-registertouchhittestingwindow) function.
 
 
 
@@ -34,7 +34,7 @@ Indicates how messages for touch hit testing are processed by windows that are r
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
@@ -49,14 +49,8 @@ Indicates how messages for touch hit testing are processed by windows that are r
 [Constants](constants.md)
 </dt> <dt>
 
-[**POINTER_INFO**](/previous-versions/windows/desktop/api)
+[**POINTER_INFO**](/windows/win32/api/winuser/ns-winuser-pointer_info)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

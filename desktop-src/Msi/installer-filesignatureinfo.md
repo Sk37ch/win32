@@ -1,5 +1,5 @@
 ---
-Description: The FileSignatureInfo method of the Installer object takes the path to a file and returns a SAFEARRAY of bytes that represent the hash or the encoded certificate.
+description: The FileSignatureInfo method of the Installer object takes the path to a file and returns a SAFEARRAY of bytes that represent the hash or the encoded certificate.
 ms.assetid: ab34bc46-8a8f-4b48-a1d1-d824ff36a9cc
 title: Installer.FileSignatureInfo method
 ms.topic: reference
@@ -19,7 +19,7 @@ api_location:
 
 The **FileSignatureInfo** method of the [**Installer**](installer-object.md) object takes the path to a file and returns a SAFEARRAY of bytes that represent the hash or the encoded certificate. The values can then be used to populate the [MsiDigitalSignature](msidigitalsignature-table.md), [MsiPatchCertificate](msipatchcertificate-table.md), and [MsiDigitalCertificate](msidigitalcertificate-table.md) tables.
 
-For more information, see the [**SAFEARRAY Data Type**](https://msdn.microsoft.com/library/ms221482(v=VS.71).aspx).
+For more information, see the [**SAFEARRAY Data Type**](/windows/win32/api/oaidl/ns-oaidl-safearray).
 
 ## Syntax
 
@@ -84,7 +84,7 @@ The requested signature information.
 
 ## Return value
 
-If successful, the method returns a [SAFEARRAY](https://msdn.microsoft.com/library/ms221482(v=VS.71).aspx) of bytes that contain either the hash or encoded certificate.
+If successful, the method returns a [SAFEARRAY](/windows/win32/api/oaidl/ns-oaidl-safearray) of bytes that contain either the hash or encoded certificate.
 
 ## Remarks
 
@@ -94,7 +94,7 @@ To author a fully verified signed installation by using automation, use the **Fi
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
@@ -118,7 +118,3 @@ To author a fully verified signed installation by using automation, use the **Fi
  
 
  
-
-
-
-

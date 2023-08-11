@@ -1,13 +1,15 @@
 ---
-Description: Lists sources of WMI examples, code samples, books, TechNet ScriptCenter, and other websites. Download sources for CIM Studio, WMI Tools, WMI Event Viewer, WMI Event Registration, Object Browser, WMI SDK.
+description: Lists sources of WMI examples, code samples, books, TechNet ScriptCenter, and other websites. Download sources for CIM Studio, WMI Tools, WMI Event Viewer, WMI Event Registration, Object Browser, WMI SDK.
 ms.assetid: 40216c7d-e359-4102-b990-334ba355ca77
 ms.tgt_platform: multiple
-title: Further Information
+
+title: Further Information (WMI)
+
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Further Information
+# Further Information for WMI
 
 You can find resources and examples for using WMI in the following print and online sources:
 
@@ -82,15 +84,11 @@ The following online documentation and examples are available to help you learn 
 
     Articles about the basics of WMI administrator scripting. Each article provides examples.
 
-    [WMI Scripting Primer: Part 1](https://msdn.microsoft.com/library/ms974579.aspx)
+    [WMI Scripting Primer: Part 1](/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/ms974579(v=msdn.10))
 
-    [WMI Scripting Primer: Part 2](https://msdn.microsoft.com/library/ms974592.aspx)
+    [WMI Scripting Primer: Part 2](/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/ms974592(v=msdn.10))
 
-    [WMI Scripting Primer: Part 3](https://msdn.microsoft.com/library/ms974547.aspx)
-
--   WMI Blog
-
-    You can search for posts on WMI at [https://blogs.msdn.com/wmi/default.aspx](https://blogs.msdn.com/wmi/default.aspx).
+    [WMI Scripting Primer: Part 3](/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/ms974547(v=msdn.10))
 
 -   [Scripting Guide](https://technet.microsoft.com/library/ee692931.aspx)
 
@@ -98,7 +96,7 @@ The following online documentation and examples are available to help you learn 
 
 ## MSDN Scripting
 
-The Scripting Clinic under [Columns](https://msdn.microsoft.com/library/aa902519.aspx) includes advanced scripting topics besides the WMI Scripting Primers, such as [Creating user accounts](https://msdn.microsoft.com/library/ms974568.aspx) from Excel data.
+The Scripting Clinic under [Columns](https://msdn.microsoft.com/library/aa902519.aspx) includes advanced scripting topics besides the WMI Scripting Primers, such as [Creating user accounts](/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/ms974568(v=msdn.10)) from Excel data.
 
 ## Downloads
 
@@ -107,7 +105,7 @@ The Scripting Clinic under [Columns](https://msdn.microsoft.com/library/aa902519
 | SDK name                                                                              | Windows Server version | URL (download link)                                               | Location                                               |
 |---------------------------------------------------------------------------------------|------------------------|-------------------------------------------------------------------|--------------------------------------------------------|
 | Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0 | Windows Server 2008 R2 | <https://www.microsoft.com/download/en/confirmation.aspx?id=8279>  | %Install Path%\\Microsoft SDKs\\Windows\\v7.1\\Samples |
-| Microsoft Windows Software Development Kit (SDK)                                      | Windows Server 2008    | <https://www.microsoft.com/download/en/confirmation.aspx?id=11310> | %Install Path%\\Microsoft SDKs\\Windows\\v6.1          |
+| Microsoft Windows Software Development Kit (SDK)                                      | Windows Server 2008    | <https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/> | %Install Path%\\Microsoft SDKs\\Windows\\v6.1          |
 
 
 
@@ -133,7 +131,7 @@ The WMI tools include:
 
 -   WMI Object Browser
 
-    The Object Browser allows you to view the WMI objects present on your computer. The root of the hierarchy is the instance of [**Win32\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-computersystem) that represents your computer system. Using the Object Browser, you can edit property values and qualifiers and run methods.
+    The Object Browser allows you to view the WMI objects present on your computer. The root of the hierarchy is the instance of [**Win32\_ComputerSystem**](/windows/desktop/CIMWin32Prov/win32-computersystem) that represents your computer system. Using the Object Browser, you can edit property values and qualifiers and run methods.
 
 -   WMI Event Registration
 
@@ -160,6 +158,3 @@ You can download PowerShell RC1 and documentation at [https://www.microsoft.com/
  
 
  
-
-
-

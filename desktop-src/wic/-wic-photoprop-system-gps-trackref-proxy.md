@@ -1,5 +1,5 @@
 ---
-Description: The property proxy for the System.GPS.TrackRef photo metadata policy.
+description: The property proxy for the System.GPS.TrackRef photo metadata policy.
 ms.assetid: 5e5b2ba3-32f9-49f5-bd8e-dc9a820e1d43
 title: System.GPS.TrackRef Proxy
 ms.topic: article
@@ -12,7 +12,7 @@ The property proxy for the System.GPS.TrackRef photo metadata policy.
 
 ### Description
 
-The property proxy returns a rational pair a through the [PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(VS.85).aspx) uhVal member.
+The property proxy returns a rational pair a through the [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) uhVal member.
 
 ### Containers
 
@@ -38,12 +38,9 @@ LowPart of the uhVal.
 
 <dl> <dt>
 
-[System.GPS.TrackRef](https://msdn.microsoft.com/library/bb760597(VS.85).aspx)
+[System.GPS.TrackRef](../properties/props-system-gps-trackref.md)
 </dt> </dl>
 
  
 
  
-
-
-

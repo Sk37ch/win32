@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Int32ColumnValue class"
 title: Int32ColumnValue class
 TOCTitle: Int32ColumnValue class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Int32ColumnValue
@@ -28,16 +29,16 @@ ROBOTS: INDEX,FOLLOW
 
 # Int32ColumnValue class
 
-An [Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN) column value.
+An [Int32](/dotnet/api/system.int32) column value.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
-  [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  
-    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)\>  
+[System.Object](/dotnet/api/system.object)  
+  [Microsoft.Isam.Esent.Interop.ColumnValue](./columnvalue-class.md)  
+    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](./columnvalueofstruct-t-class.md)\<[Int32](/dotnet/api/system.int32)\>  
       Microsoft.Isam.Esent.Interop.Int32ColumnValue  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,7 +63,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[Int32ColumnValue members](dn351013\(v=exchg.10\).md)
+[Int32ColumnValue members](./int32columnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

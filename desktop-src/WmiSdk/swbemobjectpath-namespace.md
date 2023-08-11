@@ -1,5 +1,5 @@
 ---
-Description: The Namespace property of the SWbemObjectPath object contains the name of the namespace that is part of the object path.
+description: The Namespace property of the SWbemObjectPath object contains the name of the namespace that is part of the object path.
 ms.assetid: be88670d-6f0d-4b9d-886f-3e70bf4758ed
 ms.tgt_platform: multiple
 title: SWbemObjectPath.Namespace property (Wbemdisp.h)
@@ -44,7 +44,7 @@ SWbemObjectPath.Namespace As String
 
 ## Examples
 
-The following example shows you how to obtain the namespace name from instances of [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) that are hard disks. The script connects to the default namespace.
+The following example shows you how to obtain the namespace name from instances of [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) that are hard disks. The script connects to the default namespace.
 
 
 ```VB
@@ -69,7 +69,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -82,9 +82,4 @@ Next
 
 
  
-
- 
-
-
-
 

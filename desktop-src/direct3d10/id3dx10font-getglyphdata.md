@@ -1,5 +1,5 @@
 ---
-Description: Return information about the placement and orientation of a glyph in a character cell.
+description: Return information about the placement and orientation of a glyph in a character cell.
 ms.assetid: 1114b06a-c0f0-4c2a-86ad-2ed72bee4049
 title: ID3DX10Font::GetGlyphData method (D3DX10.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ HRESULT GetGlyphData(
 *Glyph* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Glyph identifier.
 
@@ -59,9 +59,9 @@ Address of a pointer to a ID3D10Texture object that contains the glyph.
 *pBlackBox* \[in\]
 </dt> <dd>
 
-Type: **[**RECT**](https://msdn.microsoft.com/library/Dd162897(v=VS.85).aspx)\***
+Type: **[**RECT**](/windows/win32/api/windef/ns-windef-rect)\***
 
-Pointer to the smallest rectangle object that completely encloses the glyph. See [RECT](https://msdn2.microsoft.com/library/ms536136.aspx).
+Pointer to the smallest rectangle object that completely encloses the glyph. See [RECT](/previous-versions//ms536136(v=vs.85)).
 
 </dd> <dt>
 
@@ -70,7 +70,7 @@ Pointer to the smallest rectangle object that completely encloses the glyph. See
 
 Type: **POINT\***
 
-Pointer to the two-dimensional vector that connects the origin of the current character cell to the origin of the next character cell. See [POINT](https://msdn2.microsoft.com/library/ms536119.aspx).
+Pointer to the two-dimensional vector that connects the origin of the current character cell to the origin of the next character cell. See [POINT](/previous-versions//ms536119(v=vs.85)).
 
 </dd> </dl>
 
@@ -84,7 +84,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -104,7 +104,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

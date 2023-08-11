@@ -1,5 +1,5 @@
 ---
-Description: Enable an existing bone to influence a group of vertices and define how much influence the bone has on each vertex.
+description: Enable an existing bone to influence a group of vertices and define how much influence the bone has on each vertex.
 ms.assetid: 37ba97a8-ba40-4700-b8b8-fa7cc9118307
 title: ID3DX10SkinInfo::AddBoneInfluences method (D3DX10.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ HRESULT AddBoneInfluences(
 *BoneIndex* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 An index that specifies an existing bone. Must be between 0 and the value returned by [**ID3DX10SkinInfo::GetNumBones**](id3dx10skininfo-getnumbones.md).
 
@@ -50,7 +50,7 @@ An index that specifies an existing bone. Must be between 0 and the value return
 *InfluenceCount* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of vertices to add to the bone's influence.
 
@@ -59,7 +59,7 @@ Number of vertices to add to the bone's influence.
 *pIndices* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Pointer to an array of vertex indices. Each member of this array has a corresponding member in pWeights, such that pIndices\[i\] corresponds to pWeights\[i\]. The corresponding value in pWeights\[i\] determines how much influence BoneIndex will have on the vertex indexed by pIndices\[i\]. The size of the pIndices array must be equal to or greater than InfluenceCount.
 
@@ -84,7 +84,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -104,7 +104,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

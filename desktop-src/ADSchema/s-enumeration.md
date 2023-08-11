@@ -1,6 +1,6 @@
 ---
 title: Enumeration syntax
-description: Enumeration(delivery-mechanism) syntax.
+description: Enumeration(delivery-mechanism) syntax. | Enumeration syntax
 ms.assetid: 26779fc3-de38-42c4-9e8a-21af6f01f123
 ms.tgt_platform: multiple
 keywords:
@@ -21,7 +21,7 @@ Enumeration(delivery-mechanism) syntax.
 
 
 
-|              |                                                                           |
+| Entry | Value |
 |--------------|---------------------------------------------------------------------------|
 | Name         | Enumeration                                                               |
 | Syntax ID    | 2.5.5.9                                                                   |
@@ -29,7 +29,7 @@ Enumeration(delivery-mechanism) syntax.
 | MAPI Type    | LONG                                                                      |
 | ADS Type     | ADSTYPE\_INTEGER                                                          |
 | Variant Type | VT\_I4                                                                    |
-| SDS Type     | [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN) |
+| SDS Type     | [System.Int32](/dotnet/api/system.int32) |
 
 
 
@@ -41,13 +41,9 @@ Defined by the ITU. Active Directory treats this as an integer.
 
 <dl> <dt>
 
-[System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)
+[System.Int32](/dotnet/api/system.int32)
 </dt> </dl>
 
  
 
  
-
-
-
-

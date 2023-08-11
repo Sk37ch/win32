@@ -1,5 +1,5 @@
 ---
-Description: Shifts a vector left by a given number of 32-bit elements, filling the vacated elements with elements from a second vector.
+description: Shifts a vector left by a given number of 32-bit elements, filling the vacated elements with elements from a second vector.
 ms.assetid: 'm:microsoft.directx_sdk.template.xmvectorshiftleft(xmvector,xmvector)'
 title: XMVectorShiftLeft template (DirectXMath.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the shifted and filled in [**XMVECTOR**](xmvector-data-type.md).
 
 ## Remarks
 
-This function is a template version of [**XMVectorShiftLeft**](https://msdn.microsoft.com/library/Hh404823(v=VS.85).aspx) where the *Elements* argument is a template value.
+This function is a template version of [**XMVectorShiftLeft**](/windows/win32/api/directxmath/nf-directxmath-xmvectorshiftleft) where the *Elements* argument is a template value.
 
 > [!Note]  
 > The `XMVectorShiftLeft` template is new for DirectXMath and is not available for XNAMath 2.x.
@@ -60,7 +60,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>DirectXMath.h</dt> </dl> |
 
@@ -85,7 +85,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
  
 
  
-
-
-
-

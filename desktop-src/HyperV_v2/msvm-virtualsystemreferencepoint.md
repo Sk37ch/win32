@@ -1,5 +1,5 @@
 ---
-Description: Represents a reference point for a virtual system.
+description: Represents a reference point for a virtual system.
 ms.assetid: b3ba4fa7-3b77-4a1d-ab8f-d38af12ab5dd
 title: Msvm_VirtualSystemReferencePoint class
 ms.topic: reference
@@ -76,7 +76,7 @@ The consistency level of the reference point.
 
 </dt> <dd>
 
-The reference point indicates a point in time when the virtual system was in crash consistent state.
+The reference point indicates a point in time when the virtual system was in application consistent state.
 
 </dd> <dt>
 
@@ -87,7 +87,7 @@ The reference point indicates a point in time when the virtual system was in cra
 
 </dt> <dd>
 
-The reference point indicates a point in time when the virtual system was in application consistent state.
+The reference point indicates a point in time when the virtual system was in crash consistent state.
 
 </dd> </dl>
 
@@ -115,7 +115,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("InstanceID"), [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (256)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("InstanceID"), [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (256)
 </dt> </dl>
 
 Unique identification of a reference point object.
@@ -194,7 +194,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_ComputerSystem**](cim-computersystem.md).**Name**")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_ComputerSystem**](cim-computersystem.md).**Name**")
 </dt> </dl>
 
 The name of the [**CIM\_ComputerSystem**](cim-computersystem.md) to which this reference point belongs
@@ -205,7 +205,7 @@ The name of the [**CIM\_ComputerSystem**](cim-computersystem.md) to which this r
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -223,9 +223,4 @@ The name of the [**CIM\_ComputerSystem**](cim-computersystem.md) to which this r
 </dt> </dl>
 
  
-
- 
-
-
-
 

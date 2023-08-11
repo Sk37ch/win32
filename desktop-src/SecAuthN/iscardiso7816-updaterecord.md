@@ -1,5 +1,5 @@
 ---
-Description: The UpdateRecord method constructs an application protocol data unit (APDU) command that updates a specific record with the bits given in the APDU command.
+description: The UpdateRecord method constructs an application protocol data unit (APDU) command that updates a specific record with the bits given in the APDU command.
 ms.assetid: 66039afd-5d73-41b3-b87b-b5d598c6f3db
 title: ISCardISO7816::UpdateRecord method (Scardssp.h)
 ms.topic: reference
@@ -17,9 +17,9 @@ api_location:
 
 # ISCardISO7816::UpdateRecord method
 
-\[The **UpdateRecord** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **UpdateRecord** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
-The **UpdateRecord** method constructs an [*application protocol data unit*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (APDU) command that updates a specific record with the bits given in the APDU command.
+The **UpdateRecord** method constructs an [*application protocol data unit*](../secgloss/a-gly.md) (APDU) command that updates a specific record with the bits given in the APDU command.
 
 > [!Note]  
 > When using current record addressing, the command sets the record pointer on the successfully updated record.
@@ -90,7 +90,7 @@ Pointer to the record to be updated.
 
 On input, a pointer to an [**ISCardCmd**](iscardcmd.md) interface object or **NULL**.
 
-On return, it is filled with the APDU command constructed by this operation. If *ppCmd* was set to **NULL**, a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) [**ISCardCmd**](iscardcmd.md) object is internally created and returned via the *ppCmd* pointer.
+On return, it is filled with the APDU command constructed by this operation. If *ppCmd* was set to **NULL**, a [*smart card*](../secgloss/s-gly.md) [**ISCardCmd**](iscardcmd.md) object is internally created and returned via the *ppCmd* pointer.
 
 </dd> </dl>
 
@@ -113,7 +113,7 @@ The method returns one of the following possible values.
 
 ## Remarks
 
-The encapsulated command can only be performed if the security status of the [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) satisfies the security attributes of the elementary file being processed.
+The encapsulated command can only be performed if the security status of the [*smart card*](../secgloss/s-gly.md) satisfies the security attributes of the elementary file being processed.
 
 When the command contains a valid short elementary identifier, it sets the file as current elementary file. If another elementary file is currently selected at the time of issuing this command, this command may be processed without identification of the currently selected file.
 
@@ -133,7 +133,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -165,7 +165,3 @@ In addition to the COM error codes listed above, this interface may return a sma
  
 
  
-
-
-
-

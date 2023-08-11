@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Best Practices for Minimizing Unresponsive Services
 ms.assetid: 51df3fb9-416d-46b8-b3a7-0281401fb390
 title: Best Practices for Minimizing Unresponsive Services
 ms.topic: article
@@ -10,8 +10,7 @@ ms.date: 05/31/2018
 
 ## Affected Platform
 
-<dl> **Clients** – Windows Vista \| Windows 7  
-</dl>
+ **Clients** – Windows Vista \| Windows 7  
 
 ## Description
 

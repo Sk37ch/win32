@@ -41,7 +41,7 @@ HRESULT GetBool(
 *pValue* 
 </dt> <dd>
 
-Type: **[**BOOL**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)\***
+Type: **[**BOOL**](/windows/desktop/WinProg/windows-data-types)\***
 
 A pointer to the variable.
 
@@ -64,7 +64,7 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 
 
 
-|                    |                                                                                                                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
 | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |
@@ -79,10 +79,4 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: The OnObjectPut event of an SWbemSink object is triggered when an asynchronous Put operation is complete. This event returns the object path of the instance or the saved class.
+description: The OnObjectPut event of an SWbemSink object is triggered when an asynchronous Put operation is complete. This event returns the object path of the instance or the saved class.
 ms.assetid: 2046dd03-ac2c-49fa-b1ad-a458967709e5
 ms.tgt_platform: multiple
 title: ISWbemSinkEvents::OnObjectPut event (Wbemdisp.h)
@@ -59,7 +59,7 @@ This event does not return a value.
 
 ## Error codes
 
-After the completion of the **OnObjectPut** event, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes below.
+After the completion of the **OnObjectPut** event, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes below.
 
 <dl> <dt>
 
@@ -95,7 +95,7 @@ Networking error occurred, preventing normal operation.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -115,9 +115,4 @@ Networking error occurred, preventing normal operation.
 </dt> </dl>
 
  
-
- 
-
-
-
 

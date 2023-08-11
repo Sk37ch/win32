@@ -196,7 +196,7 @@ HRESULT ShowACEInACL(LPWSTR guestPath,LPWSTR user,LPWSTR passwd)
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
@@ -213,7 +213,7 @@ HRESULT ShowACEInACL(LPWSTR guestPath,LPWSTR user,LPWSTR passwd)
 [**IADsAccessControlList**](/windows/desktop/api/Iads/nn-iads-iadsaccesscontrollist)
 </dt> <dt>
 
-[**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx)
+[**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant)
 </dt> <dt>
 
 [**IADsAccessControlEntry**](/windows/desktop/api/Iads/nn-iads-iadsaccesscontrolentry)
@@ -223,10 +223,4 @@ HRESULT ShowACEInACL(LPWSTR guestPath,LPWSTR user,LPWSTR passwd)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

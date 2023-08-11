@@ -1,5 +1,5 @@
 ---
-Description: Let you track cards within readers. These routines typically use the SCARD\_READERSTATE structure within an array.
+description: Let you track cards within readers. These routines typically use the SCARD\_READERSTATE structure within an array.
 ms.assetid: b26b26bf-85ff-435f-a679-7529f19b1c1b
 title: Smart Card Tracking Functions
 ms.topic: article
@@ -14,7 +14,7 @@ The following functions let you track cards within readers. These routines typic
 
 | Topic                                                | Description                                                                                                                            |
 |------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| [**SCardLocateCards**](/windows/desktop/api/Winscard/nf-winscard-scardlocatecardsa)         | Search for a card whose [*ATR string*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) matches a supplied card name. |
+| [**SCardLocateCards**](/windows/desktop/api/Winscard/nf-winscard-scardlocatecardsa)         | Search for a card whose [*ATR string*](../secgloss/a-gly.md) matches a supplied card name. |
 | [**SCardGetStatusChange**](/windows/desktop/api/Winscard/nf-winscard-scardgetstatuschangea) | Block execution until the current availability of cards changes.                                                                       |
 | [**SCardCancel**](/windows/desktop/api/Winscard/nf-winscard-scardcancel)                   | Terminate outstanding actions.                                                                                                         |
 
@@ -25,6 +25,3 @@ The following functions let you track cards within readers. These routines typic
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of EKU objects.
+description: Represents a collection of EKU objects.
 ms.assetid: 04b9f0bf-e1d4-4a2c-be5d-bae7c1090bdb
 title: EKUs object
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # EKUs object
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509ExtensionCollection Class**](https://msdn.microsoft.com/library/bs5ba18k(v=VS.90).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509ExtensionCollection Class**](/dotnet/api/system.security.cryptography.x509certificates.x509extensioncollection) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **EKUs** object represents a collection of [**EKU**](eku.md) objects. Each [**EKU**](eku.md) object represents a single extended key usage (EKU) property of a certificate.
 
@@ -43,7 +43,7 @@ The **EKUs** object has these properties.
 
 | Property                                     | Access type          | Description                                                                                                                                                                                                                     |
 |:---------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](ekus-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
+| [**\_NewEnum**](ekus-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
 | [**Count**](ekus-count.md)<br/>       | Read-only<br/> | Retrieves the number of [**EKU**](eku.md) objects in the collection.<br/>                                                                                                                                                |
 | [**Item**](ekus-item.md)<br/>         | Read-only<br/> | Retrieves the [**EKU**](eku.md) object that represents the indexed EKU property. This is the default property.<br/>                                                                                                      |
 
@@ -61,7 +61,7 @@ The **EKUs** object cannot be created.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |
@@ -73,7 +73,3 @@ The **EKUs** object cannot be created.
  
 
  
-
-
-
-

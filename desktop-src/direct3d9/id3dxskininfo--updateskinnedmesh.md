@@ -1,5 +1,5 @@
 ---
-Description: Applies software skinning to the target vertices based on the current matrices.
+description: Applies software skinning to the target vertices based on the current matrices.
 ms.assetid: 4858dfd4-dc0d-4852-9165-8ae1b40386d4
 title: ID3DXSkinInfo::UpdateSkinnedMesh method (D3DX9Mesh.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ Inverse transpose of the bone transform matrix.
 *pVerticesSrc* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](../winprog/windows-data-types.md)**
 
 Pointer to the buffer containing the source vertices.
 
@@ -68,7 +68,7 @@ Pointer to the buffer containing the source vertices.
 *pVerticesDst* \[in\]
 </dt> <dd>
 
-Type: **[**PVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**PVOID**](../winprog/windows-data-types.md)**
 
 Pointer to the buffer containing the destination vertices.
 
@@ -88,7 +88,7 @@ When used to skin vertices with two position elements, this method skins the sec
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -105,7 +105,3 @@ When used to skin vertices with two position elements, this method skins the sec
  
 
  
-
-
-
-

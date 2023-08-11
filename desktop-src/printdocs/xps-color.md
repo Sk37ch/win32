@@ -1,5 +1,5 @@
 ---
-Description: A structure that describes a single color value.
+description: A structure that describes a single color value.
 ms.assetid: 710f3ef1-bbc3-416d-9faf-aa4a716007c2
 title: XPS_COLOR (Xpsobjectmodel.h)
 ms.topic: reference
@@ -35,8 +35,8 @@ The structure's format depends on the value of *colorType*.
 
 <dl>
 
-[**XPS\_COLOR\_TYPE\_SRGB**](https://msdn.microsoft.com/library/Dd372944(v=VS.85).aspx)  
-[**XPS\_COLOR\_TYPE\_SCRGB**](https://msdn.microsoft.com/library/Dd372943(v=VS.85).aspx)  
+[**XPS\_COLOR\_TYPE\_SRGB**](/previous-versions/windows/desktop/dd372944(v=vs.85))  
+[**XPS\_COLOR\_TYPE\_SCRGB**](/previous-versions/windows/desktop/dd372943(v=vs.85))  
 [**XPS\_COLOR\_TYPE\_CONTEXT**](/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_color)  
 </dl>
 
@@ -44,7 +44,7 @@ The structure's format depends on the value of *colorType*.
 
 
 
-|                                     |                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
 | Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
@@ -57,13 +57,8 @@ The structure's format depends on the value of *colorType*.
 
 <dl> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> </dl>
 
  
-
- 
-
-
-
 

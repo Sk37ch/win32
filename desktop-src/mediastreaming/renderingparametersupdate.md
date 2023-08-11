@@ -11,10 +11,13 @@ api_name:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # RenderingParametersUpdate event
+
+\[The feature associated with this page, [Windows Media Streaming API](/windows/win32/mediastreaming/media-streaming-api-portal), is a legacy feature. It has been superseded by [Media Casting](/windows/uwp/audio-video-camera/media-casting). **Media Casting** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Media Casting** instead of **Windows Media Streaming API**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Occurs whenever any of a set of rendering control parameters are updated on the DMR.
 
@@ -37,12 +40,8 @@ This event does not return a value.
 
 ## Remarks
 
-To handle notifications from this event, register a [**RenderingParametersUpdateHandler**](https://msdn.microsoft.com/library/Hh828994(v=VS.85).aspx) event handler function using the [**add\_RenderingParametersUpdate**](https://msdn.microsoft.com/library/Hh828928(v=VS.85).aspx) method. To unregister the event handler, use the [**remove\_RenderingParametersUpdate**](https://msdn.microsoft.com/library/Hh828940(v=VS.85).aspx) method.
+To handle notifications from this event, register a [**RenderingParametersUpdateHandler**](/previous-versions/windows/desktop/legacy/hh828994(v=vs.85)) event handler function using the [**add\_RenderingParametersUpdate**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-add_renderingparametersupdate) method. To unregister the event handler, use the [**remove\_RenderingParametersUpdate**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-remove_renderingparametersupdate) method.
 
  
 
  
-
-
-
-

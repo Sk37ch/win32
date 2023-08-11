@@ -1,5 +1,5 @@
 ---
-Description: This topic shows you how you can change the volume of a voice at an overall level, at each output channel, or between each channel of a voice and another voice in its sendlist.
+description: This topic shows you how you can change the volume of a voice at an overall level, at each output channel, or between each channel of a voice and another voice in its sendlist.
 ms.assetid: 40004128-4abb-4bcd-fe76-91276be8abec
 title: 'How to: Change Voice Volume'
 ms.topic: article
@@ -12,7 +12,7 @@ This topic shows you how you can change the volume of a voice at an overall leve
 
 ## To set an overall volume level for the voice's input
 
--   Use the [**SetVolume**](https://msdn.microsoft.com/library/Ee418600(v=VS.85).aspx) function.
+-   Use the [**SetVolume**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voice-setvolume) function.
 
     ```
     pSourceVoice->SetVolume(1.0);
@@ -32,7 +32,7 @@ This topic shows you how you can change the volume of a voice at an overall leve
 
     
 
-2.  Use the [**SetChannelVolumes**](https://msdn.microsoft.com/library/Ee418593(v=VS.85).aspx) function to set the volume of the output channels.
+2.  Use the [**SetChannelVolumes**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voice-setchannelvolumes) function to set the volume of the output channels.
 
     ```
     hr = pSourceVoice->SetChannelVolumes(1,SourceVoiceChannelVolumes);
@@ -57,7 +57,7 @@ Set the connection volume between the voice and a voice in its [**sendlist**](/w
 
     
 
-2.  Use the [**SetOutputMatrix**](https://msdn.microsoft.com/library/Ee418598(v=VS.85).aspx) function to set the output matrix.
+2.  Use the [**SetOutputMatrix**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputmatrix) function to set the output matrix.
 
     ```
     pSourceVoice->SetOutputMatrix(pSubmixVoice,1,2,outputMatrix);
@@ -81,6 +81,3 @@ Set the connection volume between the voice and a voice in its [**sendlist**](/w
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: You can change audio graphs at any time to add or remove voices or entire subgraphs.
+description: You can change audio graphs at any time to add or remove voices or entire subgraphs.
 ms.assetid: b2f9ec6a-4b5b-e618-759b-d7dbc0d97ac4
 title: 'How to: Dynamically Add or Remove Voices From an Audio Graph'
 ms.topic: article
@@ -16,7 +16,7 @@ Adding and removing voices from an audio graph is very similar to adding or remo
 
 -   To add a voice or subgraph to an audio graph
 
-    Set the output of a voice in the graph, the parent voice, to the voice to be added using the [**SetOutputVoices**](https://msdn.microsoft.com/library/Ee418599(v=VS.85).aspx) function. Set the output of the new voice to the original child of the parent voice.
+    Set the output of a voice in the graph, the parent voice, to the voice to be added using the [**SetOutputVoices**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputvoices) function. Set the output of the new voice to the original child of the parent voice.
 
     ```
     XAUDIO2_SEND_DESCRIPTOR send = {0, pNewVoice};
@@ -64,6 +64,3 @@ Note that for clarity each parent only has one child in these examples. If a par
  
 
  
-
-
-

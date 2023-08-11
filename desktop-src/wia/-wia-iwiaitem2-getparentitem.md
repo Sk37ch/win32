@@ -1,5 +1,5 @@
 ---
-Description: Gets the parent item in the tree that represents a Windows Image Acquisition (WIA) 2.0 hardware device.
+description: Gets the parent item in the tree that represents a Windows Image Acquisition (WIA) 2.0 hardware device.
 ms.assetid: c6fdaf1d-9875-4852-893c-813894d89f6c
 title: IWiaItem2::GetParentItem method (Wia.h)
 ms.topic: reference
@@ -53,13 +53,13 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 Given any [**IWiaItem2**](-wia-iwiaitem2.md) object in the object tree of a WIA 2.0 hardware device, the application retrieves a pointer to the parent item by calling this function.
 
-Applications must call the [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method on the interface pointers they receive through the *ppIWiaItem2* parameter if these pointers are not **NULL**.
+Applications must call the [IUnknown::Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) method on the interface pointers they receive through the *ppIWiaItem2* parameter if these pointers are not **NULL**.
 
 ## Requirements
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
@@ -71,7 +71,3 @@ Applications must call the [IUnknown::Release](https://msdn.microsoft.com/librar
  
 
  
-
-
-
-

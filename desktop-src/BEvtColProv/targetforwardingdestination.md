@@ -1,5 +1,5 @@
 ---
-Description: The known destinations containing the collected data. Available only if the collector is running with the status log enabled.
+description: The known destinations containing the collected data. Available only if the collector is running with the status log enabled.
 ms.assetid: ab0d2949-9808-49c3-8a0c-f2ce9c300a2a
 ms.tgt_platform: multiple
 title: TargetForwardingDestination class
@@ -76,7 +76,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Fixed**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
+Qualifiers: [**Fixed**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 The host:port information of the endpoint on the collector side.
@@ -92,7 +92,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Fixed**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
+Qualifiers: [**Fixed**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 Target computer name, as determined by the collector according to its configuration.
@@ -108,7 +108,7 @@ Data type: **DATETIME**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Fixed**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
+Qualifiers: [**Fixed**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 Timestamp of when the connection was established.
@@ -124,7 +124,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Fixed**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Fixed**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 Destination of the data. The meaning depends on the forwarder type. May be a file name or some other identification.
@@ -140,7 +140,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Fixed**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
+Qualifiers: [**Fixed**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 Pattern used to generate the destination of the data. The meaning depends on the forwarder type and configuration. For a fixed destination, would be the same as the destination itself. For the destination with rotation of the files would contain the pattern characters that will be replaced with the actual index in the destination.
@@ -156,7 +156,7 @@ Data type: **DATETIME**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Fixed**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
+Qualifiers: [**Fixed**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 Timestamp of when the connection was dropped.
@@ -172,7 +172,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Fixed**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
+Qualifiers: [**Fixed**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 Error message if an error was encountered. Otherwise will be empty.
@@ -188,7 +188,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Fixed**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Fixed**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 Type of the forwarder (such as 'etl').
@@ -204,7 +204,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Fixed**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
+Qualifiers: [**Fixed**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 The endpoint information of the target computer, in human-readable format. This property is formatted as a *host*:*port* string. For example, "127.0.0.1:50000".
@@ -220,7 +220,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Fixed**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
+Qualifiers: [**Fixed**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 The target computer's SMBIOS GUID (if known).
@@ -236,7 +236,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Fixed**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
+Qualifiers: [**Fixed**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 The target computer's MAC address (if known).
@@ -252,7 +252,7 @@ Data type: **DATETIME**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Fixed**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
+Qualifiers: [**Fixed**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 Timestamp of when this state change was recorded.
@@ -263,7 +263,7 @@ Timestamp of when this state change was recorded.
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
@@ -274,9 +274,4 @@ Timestamp of when this state change was recorded.
 
 
  
-
- 
-
-
-
 

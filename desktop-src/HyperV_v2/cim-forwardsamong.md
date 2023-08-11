@@ -1,5 +1,5 @@
 ---
-Description: Represents an association in which protocol endpoints depend on a forwarding service to forward data.
+description: Represents an association in which protocol endpoints depend on a forwarding service to forward data.
 ms.assetid: b63dbd2c-2842-498a-a352-b7ab7f7c841a
 title: CIM_ForwardsAmong class
 ms.topic: reference
@@ -53,7 +53,7 @@ Data type: **CIM\_ProtocolEndpoint**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 The protocol endpoints send and receive the forwarded data.
@@ -69,7 +69,7 @@ Data type: **CIM\_ForwardingService**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The forwarding service that forwards the data.
@@ -80,7 +80,7 @@ The forwarding service that forwards the data.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
@@ -98,9 +98,4 @@ The forwarding service that forwards the data.
 </dt> </dl>
 
  
-
- 
-
-
-
 

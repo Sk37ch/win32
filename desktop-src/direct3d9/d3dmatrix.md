@@ -1,5 +1,5 @@
 ---
-Description: Describes a matrix.
+description: Describes a matrix.
 ms.assetid: d6b98a32-e745-4724-b8ce-a81a3f5416f3
 title: D3DMATRIX (D3D9Types.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ In Direct3D, the \_34 element of a projection matrix cannot be a negative number
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 
@@ -69,13 +69,13 @@ In Direct3D, the \_34 element of a projection matrix cannot be a negative number
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetTransform**](https://msdn.microsoft.com/library/Bb174414(v=VS.85).aspx)
+[**GetTransform**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-gettransform)
 </dt> <dt>
 
-[**MultiplyTransform**](https://msdn.microsoft.com/library/Bb174422(v=VS.85).aspx)
+[**MultiplyTransform**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-multiplytransform)
 </dt> <dt>
 
-[**SetTransform**](https://msdn.microsoft.com/library/Bb174463(v=VS.85).aspx)
+[**SetTransform**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settransform)
 </dt> <dt>
 
 **SetTransform**
@@ -90,7 +90,3 @@ In Direct3D, the \_34 element of a projection matrix cannot be a negative number
  
 
  
-
-
-
-

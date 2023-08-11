@@ -1,5 +1,5 @@
 ---
-Description: Glossary of Network Monitor terms that begin with the letter D.
+description: Glossary of Network Monitor terms that begin with the letter D.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 04cc5c5d-7049-43ca-ad06-4080f5fe68cd
 title: D (Network Monitor)
@@ -7,14 +7,14 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# D
+# D (Network Monitor)
 
 <dl> <dt>
 
 <span id="_netmon_delayed_capture_gly"></span><span id="_NETMON_DELAYED_CAPTURE_GLY"></span>**delayed capture**
 </dt> <dd>
 
-Collected network traffic that is stored in a capture file. A network packet provider (NPP) performs a delayed capture. Parsers and experts use delayed captures. See also [*capture*](c.md), and [*real-time capture*](https://docs.microsoft.com/windows)
+Collected network traffic that is stored in a capture file. A network packet provider (NPP) performs a delayed capture. Parsers and experts use delayed captures. See also [*capture*](c.md), and [*real-time capture*](/windows)
 
 </dd> <dt>
 
@@ -42,6 +42,3 @@ A filter used to limit the amount of captured data that is displayed in the fram
  
 
  
-
-
-

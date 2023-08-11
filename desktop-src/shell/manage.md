@@ -1,5 +1,5 @@
 ---
-Description: The Shell provides a number of ways to manage file systems.
+description: The Shell provides a number of ways to manage file systems.
 ms.assetid: d9ffda6f-adc0-44a3-b410-e23bf5f4f165
 title: Managing the File System
 ms.topic: article
@@ -69,14 +69,88 @@ For some languages, it is possible to use a localized equivalent of "\_files" to
 
 
 
-|              |               |                 |               |
-|--------------|---------------|-----------------|---------------|
-| "\_archivos" | "\_arquivos"  | "\_bestanden"   | "\_bylos"     |
-| "-Dateien"   | "\_datoteke"  | "\_dosyalar"    | "\_elemei"    |
-| "\_failid"   | "\_fails"     | "\_fajlovi"     | "\_ficheiros" |
-| "\_fichiers" | "-filer"      | ".files"        | "\_files"     |
-| "\_file"     | "\_fitxers"   | "\_fitxategiak" | "\_pliki"     |
-| "\_soubory"  | "\_tiedostot" |                 |               |
+:::row:::
+   :::column span="":::
+      "\_archivos"
+   :::column-end:::
+   :::column span="":::
+      "\_arquivos"
+   :::column-end:::
+   :::column span="":::
+      "\_bestanden"
+   :::column-end:::
+   :::column span="":::
+      "\_bylos"
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      "-Dateien"
+   :::column-end:::
+   :::column span="":::
+      "\_datoteke"
+   :::column-end:::
+   :::column span="":::
+      "\_dosyalar"
+   :::column-end:::
+   :::column span="":::
+      "\_elemei"
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      "\_failid"
+   :::column-end:::
+   :::column span="":::
+      "\_fails"
+   :::column-end:::
+   :::column span="":::
+      "\_fajlovi"
+   :::column-end:::
+   :::column span="":::
+      "\_ficheiros"
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      "\_fichiers"
+   :::column-end:::
+   :::column span="":::
+      "-filer"
+   :::column-end:::
+   :::column span="":::
+      ".files"
+   :::column-end:::
+   :::column span="":::
+      "\_files"
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      "\_file"
+   :::column-end:::
+   :::column span="":::
+      "\_fitxers"
+   :::column-end:::
+   :::column span="":::
+      "\_fitxategiak"
+   :::column-end:::
+   :::column span="":::
+      "\_pliki"
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      "\_soubory"
+   :::column-end:::
+   :::column span="":::
+      "\_tiedostot"
+   :::column-end:::
+   :::column span="":::
+   :::column-end:::
+   :::column span="":::
+   :::column-end:::
+:::row-end:::
 
 
 
@@ -224,7 +298,7 @@ int main(void)
 
 
 
-The application first retrieves a pointer to the desktop's [**IShellFolder**](https://msdn.microsoft.com/library/Bb775075(v=VS.85).aspx) interface. It then retrieves the source directory's PIDL by passing its fully qualified path to [**IShellFolder::ParseDisplayName**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname). Note that **IShellFolder::ParseDisplayName** requires the directory's path to be a Unicode string. The application then binds to the source directory and uses its **IShellFolder** interface to retrieve an enumerator object's [**IEnumIDList**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist) interface.
+The application first retrieves a pointer to the desktop's [**IShellFolder**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder) interface. It then retrieves the source directory's PIDL by passing its fully qualified path to [**IShellFolder::ParseDisplayName**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname). Note that **IShellFolder::ParseDisplayName** requires the directory's path to be a Unicode string. The application then binds to the source directory and uses its **IShellFolder** interface to retrieve an enumerator object's [**IEnumIDList**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist) interface.
 
 As each file in the source directory is enumerated, [**IShellFolder::GetDisplayNameOf**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof) is used to retrieve its name. The SHGDN\_FORPARSING flag is set, which causes **IShellFolder::GetDisplayNameOf** to return the file's fully qualified path. The file paths, including the terminating **NULL** characters, are concatenated into a single array, *szSourceFiles*. A second **NULL** character is appended to the final path to terminate the array properly.
 
@@ -239,6 +313,3 @@ Your application can enumerate the contents of the Recent folder using the techn
  
 
  
-
-
-

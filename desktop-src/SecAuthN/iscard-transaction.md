@@ -1,5 +1,5 @@
 ---
-Description: Executes a write and read operation on the smart card command (application protocol data unit) object.
+description: Executes a write and read operation on the smart card command (application protocol data unit) object.
 ms.assetid: 4dc8ed56-97e0-4c05-a70a-ea2ffd976d47
 title: ISCard::Transaction method (Scardmgr.h)
 ms.topic: reference
@@ -17,9 +17,9 @@ api_location:
 
 # ISCard::Transaction method
 
-\[The **Transaction** method is available for use in the operating systems specified in the Requirements section. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **Transaction** method is available for use in the operating systems specified in the Requirements section. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
-The **Transaction** method executes a write and read operation on the [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) command ([*application protocol data unit*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx)) object. The reply string from the smart card for the command string defined in the card that was sent to the smart card will be accessible after this function returns.
+The **Transaction** method executes a write and read operation on the [*smart card*](../secgloss/s-gly.md) command ([*application protocol data unit*](../secgloss/a-gly.md)) object. The reply string from the smart card for the command string defined in the card that was sent to the smart card will be accessible after this function returns.
 
 ## Syntax
 
@@ -89,7 +89,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -145,7 +145,3 @@ if (FAILED(hr))
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Exposed properties for the WOWLegacyServers collection are intended to be identical to the LegacyServers collection except that the WOWLegacyServers collection is drawn from the 32-bit registry on 64-bit computers.
+description: Exposed properties for the WOWLegacyServers collection are intended to be identical to the LegacyServers collection except that the WOWLegacyServers collection is drawn from the 32-bit registry on 64-bit computers.
 ms.assetid: 72380276-214c-4f12-b575-deb975d846d3
 title: WOWLegacyServers collection
 ms.topic: reference
@@ -22,7 +22,7 @@ This collection does not support the [**Add**](/windows/desktop/api/ComAdmin/nf-
 
 ## Members
 
-The **WOWLegacyServers** collection inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
+The **WOWLegacyServers** collection inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Related Collections
 
@@ -50,7 +50,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                        |
+| Entry | Value |
 |----------------|------------------------|
 | Description    | The name of the class. |
 | Access         | ReadOnly               |
@@ -66,7 +66,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                           |
+| Entry | Value |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | A GUID for the component. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                  |
@@ -82,7 +82,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                  |
+| Entry | Value |
 |----------------|----------------------------------|
 | Description    | The file path for the component. |
 | Access         | ReadOnly                         |
@@ -98,7 +98,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                               |
+| Entry | Value |
 |----------------|---------------------------------------------------------------|
 | Description    | Specifies the full path to a 32-bit local server application. |
 | Access         | ReadOnly                                                      |
@@ -114,7 +114,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                     |
+| Entry | Value |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | A name identifying the component. This property is returned when the [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                            |
@@ -136,6 +136,3 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
  
 
  
-
-
-

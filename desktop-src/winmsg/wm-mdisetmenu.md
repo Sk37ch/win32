@@ -1,5 +1,5 @@
 ---
-Description: An application sends the WM\_MDISETMENU message to a multiple-document interface (MDI) client window to replace the entire menu of an MDI frame window, to replace the window menu of the frame window, or both.
+description: An application sends the WM\_MDISETMENU message to a multiple-document interface (MDI) client window to replace the entire menu of an MDI frame window, to replace the window menu of the frame window, or both.
 ms.assetid: 5cc85032-5378-44a0-abd4-d583deaa3294
 title: WM_MDISETMENU message (Winuser.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ If the message fails, the return value is zero.
 
 ## Remarks
 
-After sending this message, an application must call the [**DrawMenuBar**](https://msdn.microsoft.com/library/ms647633(v=VS.85).aspx) function to update the menu bar.
+After sending this message, an application must call the [**DrawMenuBar**](/windows/win32/api/winuser/nf-winuser-drawmenubar) function to update the menu bar.
 
 If this message replaces the window menu, the MDI child window menu items are removed from the previous window menu and added to the new window menu.
 
@@ -55,7 +55,7 @@ If an MDI child window is maximized and this message replaces the MDI frame wind
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -70,7 +70,7 @@ If an MDI child window is maximized and this message replaces the MDI frame wind
 **Reference**
 </dt> <dt>
 
-[**DrawMenuBar**](https://msdn.microsoft.com/library/ms647633(v=VS.85).aspx)
+[**DrawMenuBar**](/windows/win32/api/winuser/nf-winuser-drawmenubar)
 </dt> <dt>
 
 [**WM\_MDIREFRESHMENU**](wm-mdirefreshmenu.md)
@@ -85,7 +85,3 @@ If an MDI child window is maximized and this message replaces the MDI frame wind
  
 
  
-
-
-
-

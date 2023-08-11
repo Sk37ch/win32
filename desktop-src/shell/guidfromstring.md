@@ -1,5 +1,5 @@
 ---
-Description: Converts a string to a GUID.
+description: Converts a string to a GUID.
 ms.assetid: 109b99e6-7409-44e0-932c-658be66651f4
 title: GUIDFromString function
 ms.topic: reference
@@ -21,7 +21,7 @@ api_location:
 
 # GUIDFromString function
 
-\[**GUIDFromString** is available through Windows XP with Service Pack 2 (SP2) or Windows Vista. It might be altered or unavailable in subsequent versions. Applications should use [**CLSIDFromString**](https://msdn.microsoft.com/library/ms680589(v=VS.85).aspx) or [**IIDFromString**](https://msdn.microsoft.com/library/ms687262(v=VS.85).aspx) in place of this function.\]
+\[**GUIDFromString** is available through Windows XP with Service Pack 2 (SP2) or Windows Vista. It might be altered or unavailable in subsequent versions. Applications should use [**CLSIDFromString**](/windows/win32/api/combaseapi/nf-combaseapi-clsidfromstring) or [**IIDFromString**](/windows/win32/api/combaseapi/nf-combaseapi-iidfromstring) in place of this function.\]
 
 Converts a string to a GUID.
 
@@ -77,7 +77,7 @@ It can also be accessed from Shlwapi.dll as ordinal 269 for **GUIDFromStringA** 
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
@@ -89,7 +89,3 @@ It can also be accessed from Shlwapi.dll as ordinal 269 for **GUIDFromStringA** 
  
 
  
-
-
-
-

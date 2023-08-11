@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.LightSource property.
+description: The photo metadata policy for the System.Photo.LightSource property.
 ms.assetid: 051a49ad-bb4c-459f-ae52-dc359a03a14a
 title: System.Photo.LightSource Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.LightSource Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.LightSource](https://msdn.microsoft.com/library/bb760489(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.LightSource](../properties/props-system-photo-lightsource.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Photo.LightSource](https://msdn.microsoft.com/library/bb760489(VS.85).aspx)
+[System.Photo.LightSource](../properties/props-system-photo-lightsource.md)
 </dt> </dl>
 
  
 
  
-
-
-

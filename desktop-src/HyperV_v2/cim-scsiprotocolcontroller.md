@@ -1,5 +1,5 @@
 ---
-Description: Represents a protocol controller that manages a SCSI interface.
+description: Represents a protocol controller that manages a SCSI interface.
 ms.assetid: 01ef85fc-2f05-4453-b524-7d63b647f6fb
 title: CIM_SCSIProtocolController class
 ms.topic: reference
@@ -53,7 +53,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_SCSIProtocolController**.**Name**", "**CIM\_SCSIProtocolController**.**OtherNameFormat**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_SCSIProtocolController**.**Name**", "**CIM\_SCSIProtocolController**.**OtherNameFormat**")
 </dt> </dl>
 
 The format of the **Name** property of the **CIM\_SCSIProtocolController**.
@@ -99,7 +99,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_SCSIProtocolController**.**Name**", "**CIM\_SCSIProtocolController**.**NameFormat**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_SCSIProtocolController**.**Name**", "**CIM\_SCSIProtocolController**.**NameFormat**")
 </dt> </dl>
 
 A description of the **NameFormat** property when **NameFormat** is set to "1" (other).
@@ -110,7 +110,7 @@ A description of the **NameFormat** property when **NameFormat** is set to "1" (
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -128,9 +128,4 @@ A description of the **NameFormat** property when **NameFormat** is set to "1" (
 </dt> </dl>
 
  
-
- 
-
-
-
 

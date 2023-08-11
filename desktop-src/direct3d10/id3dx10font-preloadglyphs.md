@@ -1,5 +1,5 @@
 ---
-Description: Load a series of glyphs into video memory to improve the efficiency of rendering to the device.
+description: Load a series of glyphs into video memory to improve the efficiency of rendering to the device.
 ms.assetid: 7d063d52-af2c-44a6-9019-3d546acfbd4a
 title: ID3DX10Font::PreloadGlyphs method (D3DX10.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT PreloadGlyphs(
 *First* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 ID of the first glyph to be loaded into video memory.
 
@@ -48,7 +48,7 @@ ID of the first glyph to be loaded into video memory.
 *Last* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 ID of the last glyph to be loaded into video memory.
 
@@ -70,7 +70,7 @@ Glyphs will not be rendered to the device; ID3DX10Font::DrawText must still be c
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -90,7 +90,3 @@ Glyphs will not be rendered to the device; ID3DX10Font::DrawText must still be c
  
 
  
-
-
-
-

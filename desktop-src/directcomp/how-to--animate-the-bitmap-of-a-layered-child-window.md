@@ -18,8 +18,8 @@ This topic describes how to create and animate a visual that uses the bitmap of 
 ### Technologies
 
 -   [DirectComposition](directcomposition-portal.md)
--   [Direct3D 11 Graphics](https://docs.microsoft.com/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11)
--   [DirectX Graphics Infrastructure (DXGI)](https://docs.microsoft.com/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
+-   [Direct3D 11 Graphics](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11)
+-   [DirectX Graphics Infrastructure (DXGI)](/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
 
 ### Prerequisites
 
@@ -33,7 +33,7 @@ This topic describes how to create and animate a visual that uses the bitmap of 
 
 Use the following steps to create a layered child window.
 
-1.  Register the child window class and create a child window that has the [**WS\_EX\_LAYERED**](https://docs.microsoft.com/windows/desktop/winmsg/extended-window-styles) style. In the following example, `m_dpiX` and `m_dpiY` specify the screen resolution in pixels per logical inch, and `m_hwndMain` is the handle of the main application window.
+1.  Register the child window class and create a child window that has the [**WS\_EX\_LAYERED**](/windows/desktop/winmsg/extended-window-styles) style. In the following example, `m_dpiX` and `m_dpiY` specify the screen resolution in pixels per logical inch, and `m_hwndMain` is the handle of the main application window.
 ```C++
     HWND m_hwndLayeredChild;
 
@@ -49,9 +49,9 @@ HRESULT hr = S_OK;
     wcex.hInstance      = HINST_THISCOMPONENT;
     wcex.hIcon          = NULL;
     wcex.hCursor        = LoadCursor(NULL, IDC_ARROW);
-    wcex.hbrBackground  = (HBRUSH) GetStockObject (GRAY_BRUSH);
+    wcex.hbrBackground  = (HBRUSH) GetStockObject(GRAY_BRUSH);
     wcex.lpszMenuName   = NULL;
-    wcex.lpszClassName  = L&quot;DCompLayeredChildWindow&quot;;
+    wcex.lpszClassName  = L"DCompLayeredChildWindow";
     wcex.hIconSm        = NULL;
 
     if (!RegisterClassExW(&wcex))
@@ -60,24 +60,24 @@ HRESULT hr = S_OK;
     }
 
     m_hwndLayeredChild = CreateWindowEx(WS_EX_LAYERED,
-        L&quot;DCompLayeredChildWindow&quot;,                
-        NULL,                                    
-        WS_CHILD | WS_CLIPSIBLINGS,             
-        0, 
-        0, 
+        L"DCompLayeredChildWindow",
+        NULL,
+        WS_CHILD | WS_CLIPSIBLINGS,
+        0,
+        0,
         static_cast<UINT>(ceil(640.0f * m_dpiX / 96.0f)),
-        static_cast<UINT>(ceil(480.0f * m_dpiY / 96.0f)),                                  
-        m_hwndMain,                               
-        NULL,                                     
-        HINST_THISCOMPONENT,                    
-        this);                                   
+        static_cast<UINT>(ceil(480.0f * m_dpiY / 96.0f)),
+        m_hwndMain,
+        NULL,
+        HINST_THISCOMPONENT,
+        this);
 ```
 
 
 
     
 
-2.  Call the [**SetLayeredWindowAttributes**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setlayeredwindowattributes) function to set the transparency color key and opacity of the layered child window. The following code sets the transparency color key to zero and the opacity to 255 (opaque).
+2.  Call the [**SetLayeredWindowAttributes**](/windows/desktop/api/winuser/nf-winuser-setlayeredwindowattributes) function to set the transparency color key and opacity of the layered child window. The following code sets the transparency color key to zero and the opacity to 255 (opaque).
 
 ```C++
     if (!SetLayeredWindowAttributes(m_hwndLayeredChild, 0, 255, LWA_ALPHA))
@@ -98,10 +98,10 @@ Create the device object and the composition target object. For more information
 
 Use the following steps to create a visual, set its content property to use the layered child window's bitmap, and then add the visual to the visual tree.
 
-1.  Call [**IDCompositionDevice::CreateVisual**](https://msdn.microsoft.com/library/Hh437414(v=VS.85).aspx) to create a visual object.
-2.  Create a Microsoft DirectComposition surface for the layered child window by passing the child window's handle to the [**CreateSurfaceFromHwnd**](https://msdn.microsoft.com/library/Hh437407(v=VS.85).aspx) function.
-3.  Call the visual object's [**IDCompositionVisual::SetContent**](https://msdn.microsoft.com/library/Hh449157(v=VS.85).aspx) method to set the new surface as the visual content of the layered child window.
-4.  Add the visual object to the visual tree. To add the visual to the root of the tree, call the [**IDCompositionTarget::SetRoot**](https://msdn.microsoft.com/library/Hh449109(v=VS.85).aspx) method. To add the visual as a child of another visual, use the [**IDCompositionVisual::AddVisual**](https://msdn.microsoft.com/library/Hh449141(v=VS.85).aspx) method of the parent visual.
+1.  Call [**IDCompositionDevice::CreateVisual**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-createvisual) to create a visual object.
+2.  Create a Microsoft DirectComposition surface for the layered child window by passing the child window's handle to the [**CreateSurfaceFromHwnd**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-createsurfacefromhwnd) function.
+3.  Call the visual object's [**IDCompositionVisual::SetContent**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setcontent) method to set the new surface as the visual content of the layered child window.
+4.  Add the visual object to the visual tree. To add the visual to the root of the tree, call the [**IDCompositionTarget::SetRoot**](/windows/win32/api/dcomp/nf-dcomp-idcompositiontarget-setroot) method. To add the visual as a child of another visual, use the [**IDCompositionVisual::AddVisual**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-addvisual) method of the parent visual.
 
 The following example creates a visual object, sets its Content property to use the layered child window's bitmap, and adds the visual to the root of the visual tree.
 
@@ -131,7 +131,7 @@ if (SUCCEEDED(hr))
 
 ### Step 4: Create an animation object and a scale transform object
 
-Use the [**IDCompositionDevice::CreateAnimation**](https://msdn.microsoft.com/library/Hh437394(v=VS.85).aspx) method to create an animation object, and the [**IDCompositionDevice::CreateScaleTransform**](https://msdn.microsoft.com/library/Hh437402(v=VS.85).aspx) method to create a scale transform object.
+Use the [**IDCompositionDevice::CreateAnimation**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-createanimation) method to create an animation object, and the [**IDCompositionDevice::CreateScaleTransform**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-createscaletransform) method to create a scale transform object.
 
 
 ```C++
@@ -173,7 +173,7 @@ pAnimateScale->End(1.0f, 1.0f);
 
 ### Step 6: Apply the animation object to properties of the scale transform object
 
-Use the [**IDCompositionScale::SetScaleX**](https://msdn.microsoft.com/library/Hh449046(v=VS.85).aspx) and [**SetScaleY**](https://msdn.microsoft.com/library/Hh449053(v=VS.85).aspx) methods to apply the animation object to the ScaleX and ScaleY properties of the scale transform object.
+Use the [**IDCompositionScale::SetScaleX**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform-setscalex(idcompositionanimation)) and [**SetScaleY**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform-setscaley(idcompositionanimation)) methods to apply the animation object to the ScaleX and ScaleY properties of the scale transform object.
 
 
 ```C++
@@ -197,7 +197,7 @@ pScale->SetScaleY(pAnimateScale);
 
 ### Step 7: Apply the scale transform object to the transform property of the visual
 
-Use the [**IDCompositionVisual::SetTransform**](https://msdn.microsoft.com/library/Hh449176(v=VS.85).aspx) method to apply the scale transform object to the Transform property of the visual.
+Use the [**IDCompositionVisual::SetTransform**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-settransform(idcompositiontransform)) method to apply the scale transform object to the Transform property of the visual.
 
 
 ```C++
@@ -208,7 +208,7 @@ hr = pVisual->SetTransform(pScale);
 
 ### Step 8: Cloak the layered child window
 
-Before committing the animation, use the [**DwmSetWindowAttribute**](https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute) function with the [**DWMWA\_CLOAK**](https://docs.microsoft.com/windows/desktop/api/dwmapi/ne-dwmapi-dwmwindowattribute) flag to "cloak" the layered child window. Cloaking removes the layered child window from view while the animated version of the window's bitmap view is being rendered to the screen.
+Before committing the animation, use the [**DwmSetWindowAttribute**](/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute) function with the [**DWMWA\_CLOAK**](/windows/desktop/api/dwmapi/ne-dwmapi-dwmwindowattribute) flag to "cloak" the layered child window. Cloaking removes the layered child window from view while the animated version of the window's bitmap view is being rendered to the screen.
 
 
 ```C++
@@ -223,15 +223,15 @@ DwmSetWindowAttribute(pDemoApp->m_hwndLayeredChild,
 
 ### Step 9: Commit the composition
 
-Use the [**IDCompositionDevice::Commit**](https://msdn.microsoft.com/library/Hh437393(v=VS.85).aspx) method to commit the batch of commands to Microsoft DirectComposition for processing. The animation will appear in the target window.
+Use the [**IDCompositionDevice::Commit**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-commit) method to commit the batch of commands to Microsoft DirectComposition for processing. The animation will appear in the target window.
 
 ### Step 10: Uncloak the layered child window
 
-After the animation is finished, use the [**DwmSetWindowAttribute**](https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute) function with the **DWMWA\_CLOAK** flag to uncloak the layered child window.
+After the animation is finished, use the [**DwmSetWindowAttribute**](/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute) function with the **DWMWA\_CLOAK** flag to uncloak the layered child window.
 
 ### Step 11: Release DirectComposition objects
 
-Be sure to release all DirectComposition objects when you no longer need them. The following example calls the application-defined [**SafeRelease**](https://docs.microsoft.com/windows/desktop/medfound/saferelease) macro to free the DirectComposition objects.
+Be sure to release all DirectComposition objects when you no longer need them. The following example calls the application-defined [**SafeRelease**](/windows/desktop/medfound/saferelease) macro to free the DirectComposition objects.
 
 
 ```C++
@@ -392,7 +392,7 @@ private:
 //
 // AnimateLayeredChildWindow.cpp
 //
-// THIS CODE AND INFORMATION IS PROVIDED &quot;AS IS&quot; WITHOUT WARRANTY OF
+// THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF
 // ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO
 // THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
 // PARTICULAR PURPOSE.
@@ -403,7 +403,7 @@ private:
 //   of the child window from thumbsize to fullsize. Click the child
 //   window again to reset.
 
-#include &quot;AnimateLayeredChildWindow.h&quot;
+#include "AnimateLayeredChildWindow.h"
 
 #define TIMER_ID 100
 
@@ -501,10 +501,10 @@ HRESULT DemoApp::InitializeMainWindow()
         wcex.cbClsExtra    = 0;
         wcex.cbWndExtra    = sizeof(LONG_PTR);
         wcex.hInstance     = HINST_THISCOMPONENT;
-        wcex.hbrBackground = (HBRUSH)(COLOR_WINDOW+1);;
+        wcex.hbrBackground = (HBRUSH)(COLOR_WINDOW + 1);
         wcex.lpszMenuName  = NULL;
         wcex.hCursor       = LoadCursor(NULL, IDC_ARROW);
-        wcex.lpszClassName = L&quot;DirectCompDemoApp&quot;;
+        wcex.lpszClassName = L"DirectCompDemoApp";
 
         RegisterClassEx(&wcex);
 
@@ -529,8 +529,8 @@ HRESULT DemoApp::InitializeMainWindow()
         float height = static_cast<float>(rect.bottom - rect.top);
 
         m_hwndMain = CreateWindow(
-            L&quot;DirectCompDemoApp&quot;,
-            L&quot;DirectComposition Demo Application&quot;,
+            L"DirectCompDemoApp",
+            L"DirectComposition Demo Application",
             WS_OVERLAPPED | WS_SYSMENU,
             CW_USEDEFAULT,
             CW_USEDEFAULT,
@@ -583,7 +583,7 @@ HRESULT DemoApp::InitializeLayeredChildWindow()
     wcex.hCursor        = LoadCursor(NULL, IDC_ARROW);
     wcex.hbrBackground  = (HBRUSH) GetStockObject (GRAY_BRUSH);
     wcex.lpszMenuName   = NULL;
-    wcex.lpszClassName  = L&quot;DCompLayeredChildWindow&quot;;
+    wcex.lpszClassName  = L"DCompLayeredChildWindow";
     wcex.hIconSm        = NULL;
     
     if (!RegisterClassExW(&wcex))
@@ -592,17 +592,17 @@ HRESULT DemoApp::InitializeLayeredChildWindow()
     }
 
     m_hwndLayeredChild = CreateWindowEx(WS_EX_LAYERED,
-        L&quot;DCompLayeredChildWindow&quot;,                
-        NULL,                                    
-        WS_CHILD | WS_CLIPSIBLINGS,             
-        0, 
-        0, 
+        L"DCompLayeredChildWindow",
+        NULL,
+        WS_CHILD | WS_CLIPSIBLINGS,
+        0,
+        0,
         static_cast<UINT>(ceil(640.0f * m_dpiX / 96.0f)),
-        static_cast<UINT>(ceil(480.0f * m_dpiY / 96.0f)),                                  
-        m_hwndMain,                               
-        NULL,                                     
-        HINST_THISCOMPONENT,                    
-        this);                                   
+        static_cast<UINT>(ceil(480.0f * m_dpiY / 96.0f)),
+        m_hwndMain,
+        NULL,
+        HINST_THISCOMPONENT,
+        this);
 
     hr = m_hwndLayeredChild ? S_OK : E_FAIL;
     if (SUCCEEDED(hr))
@@ -720,8 +720,8 @@ HRESULT DemoApp::CreateDeviceResources()
         hr = LoadResourceD2DBitmap(
             m_pRenderTarget,
             m_pWICFactory,
-            L&quot;WhiteFlowers&quot;,
-            L&quot;Image&quot;,
+            L"WhiteFlowers",
+            L"Image",
             &m_pBitmap
             );
     }
@@ -1279,13 +1279,9 @@ HRESULT DemoApp::LoadResourceD2DBitmap(
 [Bitmap objects](bitmap-surfaces.md)
 </dt> <dt>
 
-[DirectComposition layered child window sample](https://code.msdn.microsoft.com/windowsdesktop/DirectComposition-layered-d3e4732c)
+[DirectComposition layered child window sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DirectCompositionLayeredChildWindow)
 </dt> </dl>
 
  
 
  
-
-
-
-

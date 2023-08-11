@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidColumnException constructor (SerializationInfo, StreamingContext)"
 title: EsentInvalidColumnException constructor (SerializationInfo, StreamingContext)
 TOCTitle: EsentInvalidColumnException constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidColumnException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInvalidColumnException class. This constructor is used to deserialize a serialized exception.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -54,14 +55,14 @@ protected EsentInvalidColumnException(
 #### Parameters
 
   - info  
-    Type: [System.Runtime.Serialization.SerializationInfo](https://docs.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo?redirectedfrom=MSDN)  
+    Type: [System.Runtime.Serialization.SerializationInfo](/dotnet/api/system.runtime.serialization.serializationinfo)  
     
     The data needed to deserialize the object.
 
 <!-- end list -->
 
   - context  
-    Type: [System.Runtime.Serialization.StreamingContext](https://docs.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext?redirectedfrom=MSDN)  
+    Type: [System.Runtime.Serialization.StreamingContext](/dotnet/api/system.runtime.serialization.streamingcontext)  
     
     The deserialization context.
 
@@ -69,11 +70,10 @@ protected EsentInvalidColumnException(
 
 #### Reference
 
-[EsentInvalidColumnException class](dn319487\(v=exchg.10\).md)
+[EsentInvalidColumnException class](./esentinvalidcolumnexception-class.md)
 
-[EsentInvalidColumnException members](dn319449\(v=exchg.10\).md)
+[EsentInvalidColumnException members](./esentinvalidcolumnexception-members.md)
 
-[EsentInvalidColumnException overload](dn319490\(v=exchg.10\).md)
+[EsentInvalidColumnException overload](./esentinvalidcolumnexception-constructor2.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

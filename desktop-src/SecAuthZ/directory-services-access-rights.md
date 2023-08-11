@@ -1,5 +1,5 @@
 ---
-Description: Each Active Directory object has a security descriptor assigned to it.
+description: Each Active Directory object has a security descriptor assigned to it.
 ms.assetid: 2e4ed13f-f09e-43b4-9862-95a79c229f0c
 title: Directory Services Access Rights
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Directory Services Access Rights
 
-Each Active Directory object has a [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) assigned to it. A set of trustee rights specific to directory service objects can be set within these security descriptors. These rights are listed in the following table. For more information, see [Control Access Rights](https://docs.microsoft.com/windows/desktop/AD/control-access-rights).
+Each Active Directory object has a [*security descriptor*](/windows/desktop/SecGloss/s-gly) assigned to it. A set of trustee rights specific to directory service objects can be set within these security descriptors. These rights are listed in the following table. For more information, see [Control Access Rights](/windows/desktop/AD/control-access-rights).
 
 
 
@@ -30,9 +30,4 @@ Each Active Directory object has a [*security descriptor*](https://docs.microsof
  
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Obtains ownership of the logical file specified in the object path. This method is an extended version of the TakeOwnerShip method.
+description: Obtains ownership of the logical file specified in the object path. This method is an extended version of the TakeOwnerShip method.
 ms.assetid: c01ab071-86e4-484d-aaed-4783b6c3bebf
 ms.tgt_platform: multiple
 title: TakeOwnerShipEx method of the CIM_LogicalFile class
@@ -25,7 +25,7 @@ The **TakeOwnerShipEx** method obtains ownership of the logical file specified i
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -54,7 +54,7 @@ String that represents the name of the file (or directory) where the method fail
 *StartFileName* \[in, optional\]
 </dt> <dd>
 
-String that names the child file (or directory) to use as a starting point for the method. Typically, this parameter is the *StopFileName* parameter specifying the file or directory at which an error occurred from the previous method call. If this parameter is **null**, the operation is performed on the file (or directory) specified in the [**ExecMethod**](https://docs.microsoft.com/windows/desktop/WmiSdk/swbemservices-execmethod) call.
+String that names the child file (or directory) to use as a starting point for the method. Typically, this parameter is the *StopFileName* parameter specifying the file or directory at which an error occurred from the previous method call. If this parameter is **null**, the operation is performed on the file (or directory) specified in the [**ExecMethod**](/windows/desktop/WmiSdk/swbemservices-execmethod) call.
 
 </dd> <dt>
 
@@ -198,7 +198,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -219,9 +219,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

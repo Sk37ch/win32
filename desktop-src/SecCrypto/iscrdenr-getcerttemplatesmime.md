@@ -1,5 +1,5 @@
 ---
-Description: Used to determine whether a certificate template contains the szOID\_PKIX\_KP\_EMAIL\_PROTECTION key usage.
+description: Used to determine whether a certificate template contains the szOID\_PKIX\_KP\_EMAIL\_PROTECTION key usage.
 ms.assetid: 1f0512e0-68b6-4b79-84bd-614babb4151d
 title: ISCrdEnr::getCertTemplateSMIME method
 ms.topic: reference
@@ -20,7 +20,7 @@ api_location:
 
 The **getCertTemplateSMIME** method is used to determine whether a certificate template contains the szOID\_PKIX\_KP\_EMAIL\_PROTECTION key usage.
 
-If this key usage is part of the certificate template, the certificate template supports [*Secure/Multipurpose Internet Mail Extensions*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (S/MIME) operations.
+If this key usage is part of the certificate template, the certificate template supports [*Secure/Multipurpose Internet Mail Extensions*](../secgloss/s-gly.md) (S/MIME) operations.
 
 ## Syntax
 
@@ -83,7 +83,7 @@ The constant for szOID\_PKIX\_KP\_EMAIL\_PROTECTION is defined in Wincrypt.h.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -99,13 +99,9 @@ The constant for szOID\_PKIX\_KP\_EMAIL\_PROTECTION is defined in Wincrypt.h.
 [**ISCrdEnr**](iscrdenr.md)
 </dt> <dt>
 
-[**ISCrdEnr::enroll**](https://msdn.microsoft.com/library/Aa386564(v=VS.85).aspx)
+[**ISCrdEnr::enroll**](/previous-versions/windows/desktop/legacy/aa386564(v=vs.85))
 </dt> </dl>
 
  
 
  
-
-
-
-

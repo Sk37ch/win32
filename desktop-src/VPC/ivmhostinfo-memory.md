@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IVMHostInfo::Memory property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Retrieves the total amount of physical memory in the host machine, in megabytes.
 
@@ -58,7 +58,7 @@ The total amount of physical memory, in megabytes. This value is a **VARIANT** o
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
@@ -77,10 +77,4 @@ The total amount of physical memory, in megabytes. This value is a **VARIANT** o
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

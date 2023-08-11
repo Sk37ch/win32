@@ -1,5 +1,5 @@
 ---
-Description: Provides an interface that allows an application to access and manage the print document package.
+description: Provides an interface that allows an application to access and manage the print document package.
 ms.assetid: 2A975374-F224-49F9-9AB8-FF983DEB0B01
 title: Print Document Package API
 ms.topic: article
@@ -28,12 +28,7 @@ The Windows Store app printing API is available with Windows 8 and later version
 
 ## See also
 
-For more info about printing from Windows Store apps that are written in JavaScript and HTML, see [Printing (Windows Store apps using JavaScript and HTML)](https://docs.microsoft.com/previous-versions/windows/apps/hh465225(v=win.10)). For more info about printing from Windows Store apps that are written in C#, Microsoft Visual Basic, or C++ and XAML, see [Printing (Windows Store apps using C)](https://docs.microsoft.com/previous-versions/windows/apps/hh465196(v=win.10)).
+For more info about printing from Windows Store apps that are written in JavaScript and HTML, see [Printing (Windows Store apps using JavaScript and HTML)](/previous-versions/windows/apps/hh465225(v=win.10)). For more info about printing from Windows Store apps that are written in C#, Microsoft Visual Basic, or C++ and XAML, see [Printing (Windows Store apps using C)](/previous-versions/windows/apps/hh465196(v=win.10)).
 
  
-
- 
-
-
-
 

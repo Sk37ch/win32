@@ -1,5 +1,5 @@
 ---
-Description: Represents a class deletion event, which is a type of intrinsic event generated when a class is removed from the namespace.
+description: Represents a class deletion event, which is a type of intrinsic event generated when a class is removed from the namespace.
 ms.assetid: dd44c03e-4d0d-4750-942d-495893d21650
 ms.tgt_platform: multiple
 title: '__ClassDeletionEvent class'
@@ -85,7 +85,7 @@ Access type: Read-only
 
 Unique value that indicates the time at which the event was generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Times (UTC) format. This property is inherited from [**\_\_Event**](--event.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> </dl>
 
@@ -97,7 +97,7 @@ The **\_\_ClassDeletionEvent** class is derived from [**\_\_ClassOperationEvent*
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -109,16 +109,11 @@ The **\_\_ClassDeletionEvent** class is derived from [**\_\_ClassOperationEvent*
 
 <dl> <dt>
 
-[**\_\_ClassOperationEvent**](https://docs.microsoft.com/windows/desktop/WmiSdk/--classoperationevent)
+[**\_\_ClassOperationEvent**](/windows/desktop/WmiSdk/--classoperationevent)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

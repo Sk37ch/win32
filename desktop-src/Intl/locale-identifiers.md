@@ -1,5 +1,5 @@
 ---
-Description: Each locale has a unique identifier, a 32-bit value that consists of a language identifier and a sort order identifier.
+description: Each locale has a unique identifier, a 32-bit value that consists of a language identifier and a sort order identifier.
 ms.assetid: ea45b0e5-7df7-47fb-8dad-fccfbe53fec0
 title: Locale Identifiers
 ms.topic: article
@@ -26,7 +26,7 @@ The following illustration shows the format of the bits in a locale identifier.
 
 ## Predefined Locale Identifiers
 
-The predefined locale identifiers supported by NLS are defined in the [National Language Support (NLS) API Reference](https://docs.microsoft.com/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c).
+The predefined locale identifiers supported by NLS are defined in the [National Language Support (NLS) API Reference](/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c).
 
 NLS uses the following locale information constants to represent locale identifiers.
 
@@ -79,6 +79,3 @@ An application can retrieve the current locale identifiers by using the [**GetSy
  
 
  
-
-
-

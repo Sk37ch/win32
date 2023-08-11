@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft Windows Journal Note Reader component provides programmatic read access to files in the Journal format.
+description: The Microsoft Windows Journal Note Reader component provides programmatic read access to files in the Journal format.
 ms.assetid: 85dcda59-2972-48e3-a9f5-5cce0b60a1f1
 title: Using the Journal Reader Component
 ms.topic: article
@@ -38,7 +38,7 @@ The Journal Note Reader component is useful for extracting the ink data and othe
 
 The Journal Note Reader COM component is in the file Journal.dll, which is installed and registered when you download and run the Journal Note Reader installation file.
 
-The COM component does not support the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface.
+The COM component does not support the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface.
 
 ### Managed
 
@@ -59,6 +59,3 @@ Add a reference to the assembly to use it in your managed project.
  
 
  
-
-
-

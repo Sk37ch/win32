@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.ExposureBias property.
+description: The photo metadata policy for the System.Photo.ExposureBias property.
 ms.assetid: 00ebe037-0116-4d75-868b-d75b3e58a84d
 title: System.Photo.ExposureBias Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.ExposureBias Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.ExposureBias](https://msdn.microsoft.com/library/bb760423(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.ExposureBias](../properties/props-system-photo-exposurebias.md) property.
 
 ### PKEY
 
@@ -118,12 +118,9 @@ This value is generated from System.Photo.ExposureBiasNumerator and System.Photo
 
 <dl> <dt>
 
-[System.Photo.ExposureBias](https://msdn.microsoft.com/library/bb760423(VS.85).aspx)
+[System.Photo.ExposureBias](../properties/props-system-photo-exposurebias.md)
 </dt> </dl>
 
  
 
  
-
-
-

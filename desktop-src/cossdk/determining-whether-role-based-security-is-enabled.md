@@ -1,5 +1,5 @@
 ---
-Description: Determining Whether Role-Based Security Is Enabled
+description: Determining Whether Role-Based Security Is Enabled
 ms.assetid: b5e6ab7e-5a77-4c6f-9bec-02942bba389d
 title: Determining Whether Role-Based Security Is Enabled
 ms.topic: article
@@ -23,7 +23,7 @@ boolSecEn = objSecCallCtx.IsSecurityEnabled()
 
 
 
-Microsoft Visual C++ developers can call [**ISecurityCallContext::IsSecurityEnabled**](/windows/desktop/api/ComSvcs/nf-comsvcs-isecuritycallcontext-issecurityenabled) by calling [**CoGetCallContext**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext) to obtain a pointer to [**ISecurityCallContext**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext) and then calling **IsSecurityEnabled**. A brief example follows:
+Microsoft Visual C++ developers can call [**ISecurityCallContext::IsSecurityEnabled**](/windows/desktop/api/ComSvcs/nf-comsvcs-isecuritycallcontext-issecurityenabled) by calling [**CoGetCallContext**](/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext) to obtain a pointer to [**ISecurityCallContext**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext) and then calling **IsSecurityEnabled**. A brief example follows:
 
 
 ```C++
@@ -61,6 +61,3 @@ Although the preferred way to call [**IsSecurityEnabled**](/windows/desktop/api/
  
 
  
-
-
-

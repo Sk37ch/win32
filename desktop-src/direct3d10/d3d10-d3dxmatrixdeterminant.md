@@ -1,22 +1,25 @@
 ---
-Description: Returns the determinant of a matrix.
+description: D3DXMatrixDeterminant function (D3DX10Math.h) - Returns the determinant of a matrix.
 ms.assetid: b0155c91-1554-42ef-b219-c6cdd2a905b5
 title: D3DXMatrixDeterminant function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixDeterminant
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXMatrixDeterminant function
+# D3DXMatrixDeterminant function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Returns the determinant of a matrix.
 
@@ -38,7 +41,7 @@ FLOAT D3DXMatrixDeterminant(
 *pM* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **const [**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to the source D3DXMATRIX structure.
 
@@ -46,7 +49,7 @@ Pointer to the source D3DXMATRIX structure.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Returns the determinant of the matrix.
 
@@ -54,7 +57,7 @@ Returns the determinant of the matrix.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -71,7 +74,3 @@ Returns the determinant of the matrix.
  
 
  
-
-
-
-

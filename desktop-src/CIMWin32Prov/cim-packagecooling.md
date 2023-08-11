@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PackageCooling association represents the relationship in which a cooling device is installed in a package, such as a chassis or rack, to assist with the package's cooling.
+description: The CIM\_PackageCooling association represents the relationship in which a cooling device is installed in a package, such as a chassis or rack, to assist with the package's cooling.
 ms.assetid: 0aaae8e1-6e70-4b26-8e56-dac5657e58c1
 ms.tgt_platform: multiple
 title: CIM_PackageCooling class
@@ -61,7 +61,7 @@ Data type: **CIM\_CoolingDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_CoolingDevice**](cim-coolingdevice.md) that describes the cooling device for the package.
@@ -77,7 +77,7 @@ Data type: **CIM\_PhysicalPackage**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_PhysicalPackage**](cim-physicalpackage.md) that describes the physical package whose environment is cooled.
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -114,9 +114,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

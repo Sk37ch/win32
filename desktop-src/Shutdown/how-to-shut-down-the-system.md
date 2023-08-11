@@ -1,5 +1,5 @@
 ---
-Description: The following example uses the ExitWindowsEx function to shut down the system.
+description: The following example uses the ExitWindowsEx function to shut down the system.
 ms.assetid: bf8723aa-1c7f-4761-9034-d5a9447a4bc4
 title: How to Shut Down the System
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to Shut Down the System
 
-The following example uses the [**ExitWindowsEx**](/windows/desktop/api/Winuser/nf-winuser-exitwindowsex) function to shut down the system. Shutting down flushes file buffers to disk and brings the system to a condition in which it is safe to turn off the computer. The application must first enable the SE\_SHUTDOWN\_NAME privilege. For more information, see [Privileges](https://msdn.microsoft.com/library/Aa379306(v=VS.85).aspx).
+The following example uses the [**ExitWindowsEx**](/windows/desktop/api/Winuser/nf-winuser-exitwindowsex) function to shut down the system. Shutting down flushes file buffers to disk and brings the system to a condition in which it is safe to turn off the computer. The application must first enable the SE\_SHUTDOWN\_NAME privilege. For more information, see [Privileges](../secauthz/privileges.md).
 
 
 ```C++
@@ -71,6 +71,3 @@ The final parameter in the call to [**ExitWindowsEx**](/windows/desktop/api/Winu
  
 
  
-
-
-

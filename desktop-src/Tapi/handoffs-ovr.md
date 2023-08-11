@@ -1,5 +1,5 @@
 ---
-Description: When an application has owner privilege for a communications session, the application may choose to hand off ownership to another application.
+description: When an application has owner privilege for a communications session, the application may choose to hand off ownership to another application.
 ms.assetid: d6d188c9-9cbd-45af-93f0-b78850374919
 title: Handoffs
 ms.topic: article
@@ -28,7 +28,7 @@ If the current owner application is told to change media types, it does so by ha
 
 Not all service providers support use of this operation.
 
-**TAPI 2.x:** See [**lineHandoff**](https://msdn.microsoft.com/library/ms735980(v=VS.85).aspx), with *lpszFileName* set to the application name for a direct handoff or *dwMediaMode* set to one media type for an indirect handoff.
+**TAPI 2.x:** See [**lineHandoff**](/windows/win32/api/tapi/nf-tapi-linehandoff), with *lpszFileName* set to the application name for a direct handoff or *dwMediaMode* set to one media type for an indirect handoff.
 
 **TAPI 3.x:** See [**ITBasicCallControl::HandoffDirect**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-handoffdirect), [**ITBasicCallControl::HandoffIndirect**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-handoffindirect).
 
@@ -59,6 +59,3 @@ The application should then set the correct media type and clear all other media
  
 
  
-
-
-

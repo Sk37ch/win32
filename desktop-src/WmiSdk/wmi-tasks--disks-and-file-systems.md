@@ -1,5 +1,5 @@
 ---
-Description: WMI tasks for disks and file systems obtain information about disk drive hardware state and logical volumes. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
+description: WMI tasks for disks and file systems obtain information about disk drive hardware state and logical volumes. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
 ms.assetid: d310e5e6-3b67-41bc-b5f2-cea33d0a7a2b
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Disks and File Systems'
@@ -18,7 +18,6 @@ WMI tasks for disks and file systems obtain information about disk drive hardwar
 
 The script examples shown in this topic obtain data only from the local computer. For more information about how to use the script to obtain data from remote computers, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
-## 
 
 The following procedure describes how to run a script.
 
@@ -40,8 +39,8 @@ The following table lists script examples that can be used to obtain various typ
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -52,10 +51,10 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...find out how much disk space each user is currently using on a computer?</td>
-<td>If you are using disk quotas, then use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmipdskq/win32-diskquota"><strong>Win32_DiskQuota</strong></a> class and retrieve the values of the <strong>User</strong> and <strong>DiskSpaceUsed</strong> properties.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>If you are using disk quotas, then use the <a href="/previous-versions/windows/desktop/wmipdskq/win32-diskquota"><strong>Win32_DiskQuota</strong></a> class and retrieve the values of the <strong>User</strong> and <strong>DiskSpaceUsed</strong> properties.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -78,7 +77,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -102,12 +101,12 @@ foreach ($objQuota in $colItems)
 </tr>
 <tr class="even">
 <td>...determine when a removable drive has been added to or removed from a computer?</td>
-<td><p>Use a monitoring script that queries the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-volumechangeevent"><strong>Win32_VolumeChangeEvent</strong></a> class.</p>
+<td><p>Use a monitoring script that queries the <a href="/windows/desktop/CIMWin32Prov/win32-volumechangeevent"><strong>Win32_VolumeChangeEvent</strong></a> class.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -133,12 +132,12 @@ Loop</code></pre></td>
 </tr>
 <tr class="odd">
 <td>...determine if a CD is in a CD-ROM drive?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-cdromdrive"><strong>Win32_CDROMDrive</strong></a> class and the <strong>MediaLoaded</strong> property.</p>
+<td><p>Use the <a href="/windows/desktop/CIMWin32Prov/win32-cdromdrive"><strong>Win32_CDROMDrive</strong></a> class and the <strong>MediaLoaded</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -160,7 +159,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -184,12 +183,12 @@ foreach ($objItem in $colItems)
 </tr>
 <tr class="even">
 <td>...determine if a disk is in the floppy drive?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk"><strong>Win32_LogicalDisk</strong></a> class and check the <strong>FreeSpace</strong> property. If the value is Null, then no disk is in the drive.</p>
+<td><p>Use the <a href="/windows/desktop/CIMWin32Prov/win32-logicaldisk"><strong>Win32_LogicalDisk</strong></a> class and check the <strong>FreeSpace</strong> property. If the value is Null, then no disk is in the drive.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -216,7 +215,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -243,12 +242,12 @@ foreach ($objItem in $colItems)
 </tr>
 <tr class="odd">
 <td>...distinguish between a fixed hard disk and a removable hard disk?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk"><strong>Win32_LogicalDisk</strong></a> class and check the value of the <strong>DriveType</strong> property.</p>
+<td><p>Use the <a href="/windows/desktop/CIMWin32Prov/win32-logicaldisk"><strong>Win32_LogicalDisk</strong></a> class and check the value of the <strong>DriveType</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -289,7 +288,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -313,7 +312,6 @@ foreach ($objDisk in $colDisks)
         &#39;5&#39; { &quot;DriveType: Compact disk.&quot; }
         &#39;6&#39; { &quot;DriveType: RAM disk.&quot; }
         default: { &quot;Drive type could not be determined.&quot; }
-
     }
 }</code></pre></td>
 </tr>
@@ -324,12 +322,12 @@ foreach ($objDisk in $colDisks)
 </tr>
 <tr class="even">
 <td>...determine what file system is in use on a drive?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk"><strong>Win32_LogicalDisk</strong></a> class and the <strong>FileSystem</strong> property.</p>
+<td><p>Use the <a href="/windows/desktop/CIMWin32Prov/win32-logicaldisk"><strong>Win32_LogicalDisk</strong></a> class and the <strong>FileSystem</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -353,12 +351,12 @@ Next</code></pre></td>
 </tr>
 <tr class="odd">
 <td>...determine how much free space is available on a drive?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk"><strong>Win32_LogicalDisk</strong></a> class and the <strong>FreeSpace</strong> property.</p>
+<td><p>Use the <a href="/windows/desktop/CIMWin32Prov/win32-logicaldisk"><strong>Win32_LogicalDisk</strong></a> class and the <strong>FreeSpace</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -382,12 +380,12 @@ Next</code></pre></td>
 </tr>
 <tr class="even">
 <td>...determine the size of a drive?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk"><strong>Win32_LogicalDisk</strong></a> class, and the <strong>Size</strong> property.</p>
+<td><p>Use the <a href="/windows/desktop/CIMWin32Prov/win32-logicaldisk"><strong>Win32_LogicalDisk</strong></a> class, and the <strong>Size</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -411,12 +409,12 @@ Next</code></pre></td>
 </tr>
 <tr class="odd">
 <td>...find out what drives are mapped on a computer?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-mappedlogicaldisk"><strong>Win32_MappedLogicalDisk</strong></a> class.</p>
+<td><p>Use the <a href="/windows/desktop/CIMWin32Prov/win32-mappedlogicaldisk"><strong>Win32_MappedLogicalDisk</strong></a> class.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -442,12 +440,12 @@ Next</code></pre></td>
 </tr>
 <tr class="even">
 <td>...defragment a hard disk?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa394515(v=vs.85)"><strong>Win32_Volume</strong></a> class and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/vdswmi/defrag-method-in-class-win32-volume"><strong>Defrag</strong></a> method.</p>
+<td><p>Use the <a href="/previous-versions/windows/desktop/legacy/aa394515(v=vs.85)"><strong>Win32_Volume</strong></a> class and the <a href="/previous-versions/windows/desktop/vdswmi/defrag-method-in-class-win32-volume"><strong>Defrag</strong></a> method.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -471,15 +469,15 @@ Next</code></pre></td>
 <tr class="odd">
 <td>...detect which drive letter is associated with a logical disk partition?</td>
 <td><ol>
-<li>Start with the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-diskdrive"><strong>Win32_DiskDrive</strong></a> class and query for instances of <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-diskpartition"><strong>Win32_DiskPartition</strong></a> using the <strong>DeviceID</strong> property and the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-diskdrivetodiskpartition"><strong>Win32_DiskDriveToDiskPartition</strong></a> association class. Now you have a collection of the partitions on the physical drive.</li>
-<li>Query for the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk"><strong>Win32_LogicalDisk</strong></a> that represents the partition using the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-diskpartition"><strong>Win32_DiskPartition.DeviceID</strong></a> property and <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisktopartition"><strong>Win32_LogicalDiskToPartition</strong></a> association class.</li>
-<li>Get the drive letter from the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk"><strong>Win32_LogicalDisk.DeviceID</strong></a>.</li>
+<li>Start with the <a href="/windows/desktop/CIMWin32Prov/win32-diskdrive"><strong>Win32_DiskDrive</strong></a> class and query for instances of <a href="/windows/desktop/CIMWin32Prov/win32-diskpartition"><strong>Win32_DiskPartition</strong></a> using the <strong>DeviceID</strong> property and the <a href="/windows/desktop/CIMWin32Prov/win32-diskdrivetodiskpartition"><strong>Win32_DiskDriveToDiskPartition</strong></a> association class. Now you have a collection of the partitions on the physical drive.</li>
+<li>Query for the <a href="/windows/desktop/CIMWin32Prov/win32-logicaldisk"><strong>Win32_LogicalDisk</strong></a> that represents the partition using the <a href="/windows/desktop/CIMWin32Prov/win32-diskpartition"><strong>Win32_DiskPartition.DeviceID</strong></a> property and <a href="/windows/desktop/CIMWin32Prov/win32-logicaldisktopartition"><strong>Win32_LogicalDiskToPartition</strong></a> association class.</li>
+<li>Get the drive letter from the <a href="/windows/desktop/CIMWin32Prov/win32-logicaldisk"><strong>Win32_LogicalDisk.DeviceID</strong></a>.</li>
 </ol>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -497,28 +495,28 @@ Set wmiDiskDrives =  wmiServices.ExecQuery ( &quot;SELECT Caption, DeviceID FROM
 For Each wmiDiskDrive In wmiDiskDrives
     WScript.Echo &quot;Disk drive Caption: &quot; & wmiDiskDrive.Caption & VbNewLine & &quot;DeviceID: &quot; & &quot; (&quot; & wmiDiskDrive.DeviceID & &quot;)&quot;
 
-    &#39;Use the disk drive device id to
-    &#39; find associated partition
-    query = &quot;ASSOCIATORS OF {Win32_DiskDrive.DeviceID=&#39;&quot; _
+&#39;Use the disk drive device id to
+&#39; find associated partition
+query = &quot;ASSOCIATORS OF {Win32_DiskDrive.DeviceID=&#39;&quot; _
         & wmiDiskDrive.DeviceID & &quot;&#39;} WHERE AssocClass = Win32_DiskDriveToDiskPartition&quot;    
-    Set wmiDiskPartitions = wmiServices.ExecQuery(query)
+Set wmiDiskPartitions = wmiServices.ExecQuery(query)
 
-    For Each wmiDiskPartition In wmiDiskPartitions
-        &#39;Use partition device id to find logical disk
-        Set wmiLogicalDisks = wmiServices.ExecQuery _
-            (&quot;ASSOCIATORS OF {Win32_DiskPartition.DeviceID=&#39;&quot; _
-             & wmiDiskPartition.DeviceID & &quot;&#39;} WHERE AssocClass = Win32_LogicalDiskToPartition&quot;) 
+For Each wmiDiskPartition In wmiDiskPartitions
+    &#39;Use partition device id to find logical disk
+    Set wmiLogicalDisks = wmiServices.ExecQuery _
+        (&quot;ASSOCIATORS OF {Win32_DiskPartition.DeviceID=&#39;&quot; _
+             & wmiDiskPartition.DeviceID & &quot;&#39;} WHERE AssocClass = Win32_LogicalDiskToPartition&quot;)
 
-        For Each wmiLogicalDisk In wmiLogicalDisks
-            WScript.Echo &quot;Drive letter associated&quot; _
-                & &quot; with disk drive = &quot; _ 
-                & wmiDiskDrive.Caption _
-                & wmiDiskDrive.DeviceID _
-                & VbNewLine & &quot; Partition = &quot; _
-                & wmiDiskPartition.DeviceID _
-                & VbNewLine & &quot; is &quot; _
-                & wmiLogicalDisk.DeviceID
-        Next      
+For Each wmiLogicalDisk In wmiLogicalDisks
+    WScript.Echo &quot;Drive letter associated&quot; _
+        & &quot; with disk drive = &quot; _ 
+        & wmiDiskDrive.Caption _
+        & wmiDiskDrive.DeviceID _
+        & VbNewLine & &quot; Partition = &quot; _
+        & wmiDiskPartition.DeviceID _
+        & VbNewLine & &quot; is &quot; _
+        & wmiLogicalDisk.DeviceID
+    Next
     Next
 Next</code></pre></td>
 </tr>

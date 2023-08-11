@@ -1,14 +1,17 @@
 ---
-Description: This topic lists the HRESULT return codes that are defined for DirectShow.
+description: This topic lists the HRESULT return codes that are defined for DirectShow.
 ms.assetid: 369c2bd1-9c11-4524-b999-6a3b73c45261
 title: DirectShow Error and Success Codes (Vfwmsgs.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # DirectShow Error and Success Codes
 
-This topic lists the **HRESULT** return codes that are defined for DirectShow. Note that DirectShow APIs can return other **HRESULT** values not shown here. For additional **HRESULT** values, see [COM Error Codes](https://docs.microsoft.com/windows/desktop/com/com-error-codes).
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
+This topic lists the **HRESULT** return codes that are defined for DirectShow. Note that DirectShow APIs can return other **HRESULT** values not shown here. For additional **HRESULT** values, see [COM Error Codes](/windows/desktop/com/com-error-codes).
 
 The following table contains DirectShow-specific error and success codes in numerical order. Return codes beginning with VFW\_S\_ indicate success. An operation might partially succeed and still have a successful return value. For example, **VFW\_S\_SOME\_DATA\_IGNORED** indicates that a file was rendered by ignoring some of its property settings. Return codes beginning with VFW\_E\_ indicate an error.
 
@@ -193,7 +196,7 @@ In addition to the values listed previously, DirectShow Editing Services defines
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Vfwmsgs.h</dt> </dl> |
 
@@ -203,16 +206,11 @@ In addition to the values listed previously, DirectShow Editing Services defines
 
 <dl> <dt>
 
-[**AMGetErrorText**](https://msdn.microsoft.com/library/Dd373430(v=VS.85).aspx)
+[**AMGetErrorText**](/windows/win32/api/errors/nf-errors-amgeterrortexta)
 </dt> <dt>
 
 [Constants and GUIDs](constants-and-guids.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -6,7 +6,6 @@ keywords:
 - command list
 - synchronization
 - execution
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -67,8 +66,9 @@ The runtime will validate the submitted command list and will drop the call to [
 
 There are a couple of rules imposed by the runtime that restrict the access of resources from multiple command queues. These rules are as follows:
 
-<dl> 1. A resource cannot be written to from multiple command queues simultaneously. When a resource has transitioned to a writeable state on a queue, it is considered exclusively owned by that queue, and must transition to a read or COMMON state (refer to <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">**D3D12\_RESOURCE\_STATES**</a>) before it can be accessed by another queue.  </dl>
-<dl> 2. When in a read state, a resource can be read from multiple command queues simultaneously, including across processes, based on its read state. </dl>
+1. A resource cannot be written to from multiple command queues simultaneously. When a resource has transitioned to a writeable state on a queue, it is considered exclusively owned by that queue, and must transition to a read or COMMON state (refer to [**D3D12_RESOURCE_STATES**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states)) before it can be accessed by another queue.
+
+2. When in a read state, a resource can be read from multiple command queues simultaneously, including across processes, based on its read state.
 
 For more information about resource access restrictions and using resource barriers to synchronize access to resources, see [Using resource barriers to synchronize resource states](using-resource-barriers-to-synchronize-resource-states-in-direct3d-12.md).
 
@@ -86,7 +86,7 @@ For more information about synchronizing resource state, see [Using resource bar
 
 ## Command queue support for tiled resources
 
-Methods for managing tiled resources, which were exposed through the [**ID3D11DeviceContext2**](https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2) interface in Direct3D 11, are provided by the [**ID3D12CommandQueue**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue) interface in Direct3D 12. These methods include:
+Methods for managing tiled resources, which were exposed through the [**ID3D11DeviceContext2**](/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2) interface in Direct3D 11, are provided by the [**ID3D12CommandQueue**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue) interface in Direct3D 12. These methods include:
 
 
 
@@ -99,7 +99,7 @@ Methods for managing tiled resources, which were exposed through the [**ID3D11De
 
  
 
-For more information about using tiled resources in Direct3D 12 apps, refer to [Direct3D11 Tiled Resources](https://docs.microsoft.com/windows/desktop/direct3d11/tiled-resources).
+For more information about using tiled resources in Direct3D 12 apps, refer to [Direct3D11 Tiled Resources](/windows/desktop/direct3d11/tiled-resources).
 
 ## Related topics
 
@@ -109,10 +109,4 @@ For more information about using tiled resources in Direct3D 12 apps, refer to [
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

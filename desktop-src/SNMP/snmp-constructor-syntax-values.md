@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # SNMP Constructor Syntax Values
 
-\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](https://docs.microsoft.com/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
+\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
 
 The SNMP Constructor Syntax Values describe types that are compliant with the Abstract Syntax Notation One (ASN.1) encoding standard.
 
@@ -34,7 +34,7 @@ The SNMP Constructor Syntax Values describe types that are compliant with the Ab
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                        |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                              |
@@ -56,10 +56,4 @@ The SNMP Constructor Syntax Values describe types that are compliant with the Ab
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

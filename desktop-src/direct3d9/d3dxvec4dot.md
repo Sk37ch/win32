@@ -1,22 +1,25 @@
 ---
-Description: Determines the dot product of two 4D vectors.
+description: Determines the dot product of two 4D vectors.
 ms.assetid: 565dede8-6cc8-4313-9480-2f252cac94f2
 title: D3DXVec4Dot function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec4Dot
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXVec4Dot function
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Determines the dot product of two 4D vectors.
 
@@ -56,7 +59,7 @@ Pointer to a source [**D3DXVECTOR4**](d3dxvector4.md) structure.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The dot product.
 
@@ -64,7 +67,7 @@ The dot product.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -84,7 +87,3 @@ The dot product.
  
 
  
-
-
-
-

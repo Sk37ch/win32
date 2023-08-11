@@ -19,10 +19,13 @@ keywords:
 - methods,deprecated in Windows Media Player 11 and not 12
 - versions of Windows Media Player,new features in version 12
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # What's New in Windows Media Player 12
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This topic lists features that are new in Windows Media Player 12.
 
@@ -35,7 +38,7 @@ This topic lists features that are new in Windows Media Player 12.
 
 ## New Attributes
 
-The following new attributes for media items are available through the [**IWMPMedia**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmedia) and [**IWMPMedia3**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmedia3) interfaces.
+The following new attributes for media items are available through the [**IWMPMedia**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmedia) and [**IWMPMedia3**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmedia3) interfaces.
 
 -   [**AlbumCoverURL**](wm-albumcoverurl-attribute.md)
 -   [**AlternateSourceURL**](alternatesourceurl-attribute.md)
@@ -64,7 +67,7 @@ The following new device metadata items can be set by calling [**IWMPSyncDevice2
 
 ## New Enumeration Member
 
-The [**WMPSyncState**](https://docs.microsoft.com/windows/desktop/api/wmp/ne-wmp-wmpsyncstate) enumeration has the following new member.
+The [**WMPSyncState**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpsyncstate) enumeration has the following new member.
 
 -   **wmpssEstimating**
 

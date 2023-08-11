@@ -42,13 +42,13 @@ A pointer to the null-terminated string to be inserted. If you create the combo 
 
 The return value is the index of the position at which the string was inserted. If an error occurs, the return value is CB\_ERR. If there is insufficient space available to store the new string, it is CB\_ERRSPACE.
 
-If the combo box has [**WS\_HSCROLL**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) style and you insert a string wider than the combo box, you should send a [**LB\_SETHORIZONTALEXTENT**](lb-sethorizontalextent.md) message to ensure the horizontal scroll bar appears.
+If the combo box has [**WS\_HSCROLL**](/windows/desktop/winmsg/window-styles) style and you insert a string wider than the combo box, you should send a [**LB\_SETHORIZONTALEXTENT**](lb-sethorizontalextent.md) message to ensure the horizontal scroll bar appears.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
@@ -73,10 +73,4 @@ If the combo box has [**WS\_HSCROLL**](https://docs.microsoft.com/windows/deskto
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: The PROPERTYINST structure defines an instance of a property in a piece of recognized data. Network Monitor allocates and fills in a PROPERTYINST structure when a property is attached to the capture.
+description: The PROPERTYINST structure defines an instance of a property in a piece of recognized data. Network Monitor allocates and fills in a PROPERTYINST structure when a property is attached to the capture.
 ms.assetid: d8382a38-b634-4c65-b56b-44fee067a0fe
 title: PROPERTYINST structure (Netmon.h)
 ms.topic: reference
@@ -100,7 +100,7 @@ Pointer to the [**LARGEINT**](largeint.md) data.
 **lpSysTime**
 </dt> <dd>
 
-Pointer to the [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) data.
+Pointer to the [**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) data.
 
 </dd> <dt>
 
@@ -149,7 +149,7 @@ The **PROPERTYINST** structure defines an instance of an attached property. The 
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
@@ -168,9 +168,4 @@ The **PROPERTYINST** structure defines an instance of an attached property. The 
 </dt> </dl>
 
  
-
- 
-
-
-
 

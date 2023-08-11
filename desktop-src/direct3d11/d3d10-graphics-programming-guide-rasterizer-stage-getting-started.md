@@ -36,7 +36,7 @@ Tutorial 1 creates a 640 × 480 viewport using [**D3D11\_VIEWPORT**](/windows/de
     vp[0].MaxDepth = 1;
     vp[0].TopLeftX = 0;
     vp[0].TopLeftY = 0;
-    g_pd3dDevice->RSSetViewports( 1, vp );
+    g_pd3dContext->RSSetViewports( 1, vp );
 ```
 
 
@@ -49,7 +49,7 @@ The maximum number of viewports (and scissor rectangles) that can be bound to th
 
 ## Set the Scissor Rectangle
 
-A scissor rectangle gives you another opportunity to reduce the number of pixels that will be sent to the output merger stage. Pixels outside of the scissor rectangle are discarded. The size of the scissor rectangle is specified in integers. Only one scissor rectangle (based on *ViewportArrayIndex* in [system value semantics](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics)) can be applied to a triangle during rasterization.
+A scissor rectangle gives you another opportunity to reduce the number of pixels that will be sent to the output merger stage. Pixels outside of the scissor rectangle are discarded. The size of the scissor rectangle is specified in integers. Only one scissor rectangle (based on *ViewportArrayIndex* in [system value semantics](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics)) can be applied to a triangle during rasterization.
 
 To enable the scissor rectangle, use the *ScissorEnable* member (in [**D3D11\_RASTERIZER\_DESC1**](/windows/desktop/api/D3D11_1/ns-d3d11_1-cd3d11_rasterizer_desc1)). The default scissor rectangle is an empty rectangle; that is, all rect values are 0. In other words, if you do not set up the scissor rectangle and scissor is enabled, you will not send any pixels to the output-merger stage. The most common setup is to initialize the scissor rectangle to the size of the viewport.
 
@@ -57,13 +57,13 @@ To set an array of scissor rectangles to the device, call [**ID3D11DeviceContext
 
 
 ```
-D3D11_RECT rects[1];
+  D3D11_RECT rects[1];
   rects[0].left = 0;
   rects[0].right = 640;
   rects[0].top = 0;
   rects[0].bottom = 480;
 
-  D3DDevice->RSSetScissorRects( 1, rects );
+  g_pd3dContext->RSSetScissorRects( 1, rects );
 ```
 
 
@@ -94,7 +94,7 @@ Use [**ID3D11Device1::CreateRasterizerState1**](/windows/desktop/api/D3D11_1/nf-
     rasterizerState.MultisampleEnable = false;
     rasterizerState.AntialiasedLineEnable = false;
     rasterizerState.ForcedSampleCount = 0;
-    pd3dDevice->CreateRasterizerState1( &rasterizerState, &g_pRasterState );
+    g_pd3dDevice->CreateRasterizerState1( &rasterizerState, &g_pRasterState );
 ```
 
 
@@ -110,7 +110,7 @@ In addition, basic rasterizer operations, always include the following: clipping
 
 
 ```
-    pd3dDevice->RSSetState(g_pRasterState);
+    g_pd3dContext->RSSetState(g_pRasterState);
 ```
 
 
@@ -140,7 +140,3 @@ There are no restrictions for mixing multisampled and non-multisampled rendering
  
 
  
-
-
-
-

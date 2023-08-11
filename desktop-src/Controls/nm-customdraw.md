@@ -100,13 +100,13 @@ The value your application can return depends on the current drawing stage. The 
 
 Currently, the following controls support custom draw functionality: header, list view, rebar, toolbar, tooltip, trackbar, and tree view. Custom draw is also supported for button controls if you have an application manifest to ensure that Comctl32.dll version 6 is available.
 
-If this message is handled in a dialog procedure, you must set the return value as part of the window data before returning **TRUE**. For more information, see [**DialogProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-dlgproc).
+If this message is handled in a dialog procedure, you must set the return value as part of the window data before returning **TRUE**. For more information, see [**DialogProc**](/windows/desktop/api/winuser/nc-winuser-dlgproc).
 
 ## Requirements
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -125,10 +125,4 @@ If this message is handled in a dialog procedure, you must set the return value 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

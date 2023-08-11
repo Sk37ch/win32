@@ -1,5 +1,5 @@
 ---
-Description: Specifies the name of the certification authority (CA).
+description: Specifies the name of the certification authority (CA).
 ms.assetid: 224c2a51-8a25-4b66-b86b-c87531475145
 title: ISCrdEnr::setCAName method
 ms.topic: reference
@@ -18,7 +18,7 @@ api_location:
 
 # ISCrdEnr::setCAName method
 
-The **setCAName** method specifies the name of the [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA).
+The **setCAName** method specifies the name of the [*certification authority*](../secgloss/c-gly.md) (CA).
 
 ## Syntax
 
@@ -84,7 +84,7 @@ Use this method to specify a CA for a certificate template.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -109,7 +109,3 @@ Use this method to specify a CA for a certificate template.
  
 
  
-
-
-
-

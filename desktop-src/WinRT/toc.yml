@@ -56,7 +56,7 @@
     - name: "RO_INIT_TYPE"
       href: /windows/win32/api/roapi/ne-roapi-ro_init_type
     - name: "RO_ERROR_REPORTING_FLAGS"
-      href: /windows/win32/api/roerrorapi/ne-roerrorapi-ro_error_reporting_flags
+      href: /windows/win32/api/roerrorapi/ne-roerrorapi-roerrorreportingflags
   - name: "Functions"
     href: functions.md
     items: 
@@ -127,7 +127,7 @@
     - name: "RoFailFastWithErrorContext"
       href: /windows/win32/api/roerrorapi/nf-roerrorapi-rofailfastwitherrorcontext
     - name: "RoFailFastWithErrorContextInternal2"
-      href: /windows/win32/winrt/roerrorapi/nf-roerrorapi-rofailfastwitherrorcontextinternal2
+      href: ./roerrorapi/nf-roerrorapi-rofailfastwitherrorcontextinternal2.md
     - name: "RoFreeParameterizedTypeExtra"
       href: /windows/win32/api/roparameterizediid/nf-roparameterizediid-rofreeparameterizedtypeextra
     - name: "RoGetActivatableClassRegistration"
@@ -376,10 +376,10 @@
       - name: "Close method"
         href: /windows/win32/api/windows.foundation/nf-windows-foundation-iclosable-close
     - name: "ICompositionDrawingSurfaceInterop2"
-      href: /windows/win32/winrt/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop2
+      href: /windows/win32/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop2
       items: 
       - name: "CopySurface method"
-        href: /windows/win32/winrt/windows.ui.composition.interop/nf-windows-ui-composition-interop-icompositiondrawingsurfaceinterop2-copysurface
+        href: /windows/win32/api/windows.ui.composition.interop/nf-windows-ui-composition-interop-icompositiondrawingsurfaceinterop2-copysurface
     - name: "IContactManagerInterop"
       href: /previous-versions//dn302109(v=vs.85)
       items: 
@@ -1364,13 +1364,13 @@
       - name: "SetEnum method"
         href: /previous-versions/hh438408(v%3Dvs.85)
       - name: "SetInterfaceGroupParameterizedDefault method"
-        href: /ie/hh438409(v=vs.100)
+        href: /previous-versions/hh438409(v=vs.85)
       - name: "SetInterfaceGroupSimpleDefault method"
         href: /previous-versions/hh438410(v=vs.85)
       - name: "SetParameterizedDelegate method"
         href: /previous-versions/hh438411(v%3Dvs.85)
       - name: "SetParameterizedInterface method"
-        href: /security/hh438412(v=vs.90)
+        href: /previous-versions/hh438412(v=vs.85)
       - name: "SetRuntimeClassParameterizedDefault method"
         href: /previous-versions/hh438413(v%3Dvs.85)
       - name: "SetRuntimeClassSimpleDefault method"
@@ -1380,10 +1380,10 @@
       - name: "SetWinRtInterface method"
         href: /previous-versions/hh438416(v%3Dvs.85)
     - name: "IRoMetaDataLocator"
-      href: irometadatalocator-struct.md
+      href: /windows/win32/api/roparameterizediid/ns-roparameterizediid-irometadatalocator
       items: 
       - name: "Locate method"
-        href: irometadatalocator-locate.md
+        href: /previous-versions//hh438405(v=vs.85)
     - name: "Point"
       href: /windows/win32/api/windows.foundation/ns-windows-foundation-point
     - name: "PDF_RENDER_PARAMS"

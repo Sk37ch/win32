@@ -1,5 +1,5 @@
 ---
-Description: The CloseLog method of the Merge object closes the current log file.
+description: The CloseLog method of the Merge object closes the current log file.
 ms.assetid: '09a40de4-d92f-4fc8-8556-a50f5dbe856b'
 title: Merge.CloseLog method (Mergemod.h)
 ms.topic: reference
@@ -39,13 +39,13 @@ This method does not return a value.
 
 ## C++
 
-See [**CloseLog**](https://msdn.microsoft.com/library/Aa369266(v=VS.85).aspx) function.
+See [**CloseLog**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-closelog) function.
 
 ## Requirements
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 1.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |
@@ -56,7 +56,3 @@ See [**CloseLog**](https://msdn.microsoft.com/library/Aa369266(v=VS.85).aspx) fu
  
 
  
-
-
-
-

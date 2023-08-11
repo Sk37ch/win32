@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Component association represents the parts of a relationship between MSEs.
+description: The CIM\_Component association represents the parts of a relationship between MSEs.
 ms.assetid: a074e2f7-b092-4d3c-be5e-2069b643431b
 ms.tgt_platform: multiple
 title: CIM_Component class (CIMWin32 WMI Providers)
@@ -18,7 +18,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_Component class
+# CIM_Component class (CIMWin32 WMI Providers)
 
 The **CIM\_Component** association represents the parts of a relationship between MSEs.
 
@@ -61,7 +61,7 @@ Data type: **CIM\_ManagedSystemElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 A [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md) that describes the parent element in the association.
@@ -91,7 +91,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -102,9 +102,4 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
  
-
- 
-
-
-
 

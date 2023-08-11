@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a service access point and the logical device that implements it.
+description: Msvm_EthernetDeviceSAPImplementation class - Represents an association between a service access point and the logical device that implements it.
 ms.assetid: C0DDB199-AD97-4DD7-8056-BD6BD0CECFA8
 title: Msvm_EthernetDeviceSAPImplementation class
 ms.topic: reference
@@ -49,16 +49,16 @@ The **Msvm\_EthernetDeviceSAPImplementation** class has these properties.
 **Antecedent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_EthernetPort**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-ethernetport)**
+Data type: **[**CIM\_EthernetPort**](/previous-versions/windows/desktop/iscsitarg/cim-ethernetport)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
-A reference to a class derived from [**CIM\_EthernetPort**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-ethernetport) that represents the logical device.
+A reference to a class derived from [**CIM\_EthernetPort**](/previous-versions/windows/desktop/iscsitarg/cim-ethernetport) that represents the logical device.
 
 </dd> <dt>
 
@@ -71,7 +71,7 @@ Data type: **[**Msvm\_LANEndpoint**](msvm-lanendpoint.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A reference to an instance of the [**Msvm\_LANEndpoint**](msvm-lanendpoint.md) class that represents the SAP that is using the **Antecedent**.
@@ -82,7 +82,7 @@ A reference to an instance of the [**Msvm\_LANEndpoint**](msvm-lanendpoint.md) c
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -93,9 +93,4 @@ A reference to an instance of the [**Msvm\_LANEndpoint**](msvm-lanendpoint.md) c
 
 
  
-
- 
-
-
-
 

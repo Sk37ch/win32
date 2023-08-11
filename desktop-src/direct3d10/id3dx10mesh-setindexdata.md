@@ -1,5 +1,5 @@
 ---
-Description: Set the mesh's index data.
+description: Set the mesh's index data.
 ms.assetid: f3e7e166-94b5-45f6-9d43-8d7e32b7b523
 title: ID3DX10Mesh::SetIndexData method (D3DX10.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ The index data.
 *cIndices* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The number of indices in pData.
 
@@ -64,7 +64,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -84,7 +84,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

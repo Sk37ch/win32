@@ -1,5 +1,5 @@
 ---
-Description: Gets the security descriptor that controls access to the WMI namespace to which you are connected. The security descriptor is returned as an instance of\_\_SecurityDescriptor.
+description: Gets the security descriptor that controls access to the WMI namespace to which you are connected. The security descriptor is returned as an instance of\_\_SecurityDescriptor.
 ms.assetid: b031af45-9237-434d-91db-69222306c615
 ms.tgt_platform: multiple
 title: GetSecurityDescriptor method of the __SystemSecurity class
@@ -85,7 +85,7 @@ A parameter specified in the method call is not valid.
 
 ## Remarks
 
-The [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) instance represents a [**SECURITY\_DESCRIPTOR\_CONTROL**](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-control) data type and contains a [*discretionary access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) (DACL) and a [*system access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SACL). For more information, see [Access Control Lists](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists).
+The [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) instance represents a [**SECURITY\_DESCRIPTOR\_CONTROL**](/windows/desktop/SecAuthZ/security-descriptor-control) data type and contains a [*discretionary access control list*](/windows/desktop/SecGloss/d-gly) (DACL) and a [*system access control list*](/windows/desktop/SecGloss/s-gly) (SACL). For more information, see [Access Control Lists](/windows/desktop/SecAuthZ/access-control-lists).
 
 If the **SeSecurityPrivilege** is not granted or enabled when getting a security descriptor, then only the DACL is returned in the returned security descriptor. For more information, see [**Privilege Constants**](privilege-constants.md) and [Executing Privileged Operations](executing-privileged-operations.md).
 
@@ -93,7 +93,7 @@ If the **SeSecurityPrivilege** is not granted or enabled when getting a security
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -112,9 +112,4 @@ If the **SeSecurityPrivilege** is not granted or enabled when getting a security
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Applies a stipple pattern to the line.
+description: Applies a stipple pattern to the line.
 ms.assetid: 53548a9f-cf09-4ab9-9327-d5053645fc1b
 title: ID3DXLine::SetPattern method (D3dx9core.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT SetPattern(
 *dwPattern* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Describes the stipple pattern: 1 is opaque, 0 is transparent.
 
@@ -54,7 +54,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -71,7 +71,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.GPS.SpeedRef property.
+description: The photo metadata policy for the System.GPS.SpeedRef property.
 ms.assetid: 45fea6be-1e63-4244-a93d-d446e315ddd4
 title: System.GPS.SpeedRef Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.SpeedRef Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.SpeedRef](https://msdn.microsoft.com/library/bb760587(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.SpeedRef](../properties/props-system-gps-speedref.md) property.
 
 ### PKEY
 
@@ -81,10 +81,10 @@ Values from different schemas are reconciled.
 
 
 
-| Order | Path                      |         |
-|-------|---------------------------|---------|
-| 1     | /ifd/gps/{ushort=12}      | ascii   |
-| 2     | /ifd/xmp/exif:GPSSpeedRef | unicode |
+| Order | Path                      | Disk Format |
+|-------|---------------------------|-------------|
+| 1     | /ifd/gps/{ushort=12}      | ascii       |
+| 2     | /ifd/xmp/exif:GPSSpeedRef | unicode     |
 
 
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.GPS.SpeedRef](https://msdn.microsoft.com/library/bb760587(VS.85).aspx)
+[System.GPS.SpeedRef](../properties/props-system-gps-speedref.md)
 </dt> </dl>
 
  
 
  
-
-
-

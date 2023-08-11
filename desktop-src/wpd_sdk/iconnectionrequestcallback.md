@@ -1,5 +1,5 @@
 ---
-Description: Defines a single callback method.
+description: Defines a single callback method.
 ms.assetid: 579f7a29-cd98-4d97-9f8e-9b786897df1c
 title: IConnectionRequestCallback interface (Devpkey.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ The **IConnectionRequestCallback** interface defines a single callback method. A
 
 ## Members
 
-The **IConnectionRequestCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IConnectionRequestCallback** also has these types of members:
+The **IConnectionRequestCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IConnectionRequestCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -44,7 +44,7 @@ The **IConnectionRequestCallback** interface has these methods.
 
 
 
-|                                     |                                                                                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                                                                             |
 | Minimum supported server<br/> | None supported<br/>                                                                                                                                              |
@@ -55,9 +55,4 @@ The **IConnectionRequestCallback** interface has these methods.
 
 
  
-
- 
-
-
-
 

@@ -1,12 +1,12 @@
 ---
 title: Enabled Property (Command Object)
-description: Enabled Property
+description: Learn about the Enabled Command object property. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: d9dcbdf0-ba35-4ebd-b6f2-f3c8bdfc0431
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enabled Property
+# Enabled Property (Command Object)
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 
@@ -38,13 +38,7 @@ Returns or sets whether the **Command** is enabled in the specified character's 
 
 ## Remarks
 
-If the [**Enabled**](enabled-property.md) property is set to **True**, the [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) objects's caption appears as normal text in the character's pop-up menu when the client application is input-active. If the **Enabled** property is **False**, the caption appears as unavailable (disabled) text. A disabled **Command** is also not accessible for voice input.
+If the [**Enabled**](enabled-property.md) property is set to **True**, the [**Command**](/windows/desktop/lwef/the-command-object) objects's caption appears as normal text in the character's pop-up menu when the client application is input-active. If the **Enabled** property is **False**, the caption appears as unavailable (disabled) text. A disabled **Command** is also not accessible for voice input.
 
  
-
- 
-
-
-
-
 

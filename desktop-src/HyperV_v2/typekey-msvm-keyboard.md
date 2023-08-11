@@ -1,5 +1,5 @@
 ---
-Description: Simulates a press-release key sequence.
+description: Simulates a press-release key sequence.
 ms.assetid: 4166BA71-315D-41BD-857C-48AFB702911E
 title: TypeKey method of the Msvm_Keyboard class
 ms.topic: reference
@@ -39,7 +39,7 @@ uint32 TypeKey(
 
 Type: **uint32**
 
-The virtual key code of the key to press. For the list for virtual-key codes, see [**Virtual-Key Codes**](https://msdn.microsoft.com/library/Dd375731(v=VS.85).aspx).
+The virtual key code of the key to press. For the list for virtual-key codes, see [**Virtual-Key Codes**](../inputdev/virtual-key-codes.md).
 
 </dd> </dl>
 
@@ -92,13 +92,13 @@ A return value of zero indicates success. A nonzero value indicates a failure to
 
 ## Remarks
 
-Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -115,13 +115,8 @@ Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted b
 [**Msvm\_Keyboard**](msvm-keyboard.md)
 </dt> <dt>
 
-[**Virtual-Key Codes**](https://msdn.microsoft.com/library/Dd375731(v=VS.85).aspx)
+[**Virtual-Key Codes**](../inputdev/virtual-key-codes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

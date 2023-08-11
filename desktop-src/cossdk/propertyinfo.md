@@ -1,5 +1,5 @@
 ---
-Description: Retrieves information about the properties that a specified collection supports.
+description: Retrieves information about the properties that a specified collection supports.
 ms.assetid: 5e3963c0-6769-4b5b-8636-2d8c98a8776b
 title: PropertyInfo collection
 ms.topic: reference
@@ -20,7 +20,7 @@ Retrieves information about the properties that a specified collection supports.
 
 ## Members
 
-The **PropertyInfo** collection inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
+The **PropertyInfo** collection inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Related Collections
 
@@ -41,7 +41,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                  |
+| Entry | Value |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The name of the property. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) or [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                                                         |
@@ -63,6 +63,3 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
  
 
  
-
-
-

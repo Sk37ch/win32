@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the mouse wheel moves while the InkPicture control has focus.
+description: Occurs when the mouse wheel moves while the InkPicture control has focus.
 ms.assetid: f56a8af9-7618-4fa3-8dd5-aa81a7f817e4
 title: InkPicture.MouseWheel event (Msinkaut.h)
 ms.topic: reference
@@ -83,13 +83,13 @@ This event does not return a value.
 
  
 
-This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IPEMouseWheel.
+This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface with an identifier of DISPID\_IPEMouseWheel.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
@@ -106,9 +106,4 @@ This event method is defined in the **\_IInkPictureEvents** interface. The **\_I
 </dt> </dl>
 
  
-
- 
-
-
-
 

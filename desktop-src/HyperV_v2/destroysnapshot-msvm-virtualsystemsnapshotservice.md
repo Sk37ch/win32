@@ -1,5 +1,5 @@
 ---
-Description: Destroys an existing virtual machine snapshot.
+description: Destroys an existing virtual machine snapshot.
 ms.assetid: 84752bb3-cae1-4a93-89bc-e735c058feda
 title: DestroySnapshot method of the Msvm_VirtualSystemSnapshotService class
 ms.topic: reference
@@ -38,14 +38,14 @@ uint32 DestroySnapshot(
 *AffectedSnapshot* \[in\]
 </dt> <dd>
 
-A [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)) reference that represents the virtual machine snapshot to destroy.
+A [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)) reference that represents the virtual machine snapshot to destroy.
 
 </dd> <dt>
 
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -92,7 +92,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -109,13 +109,8 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemSnapshotService**](msvm-virtualsystemsnapshotservice.md)
 </dt> <dt>
 
-[**RemoveVirtualSystemSnapshot (V1)**](https://docs.microsoft.com/previous-versions/windows/desktop/virtual/removevirtualsystemsnapshot-msvm-virtualsystemmanagementservice)
+[**RemoveVirtualSystemSnapshot (V1)**](/previous-versions/windows/desktop/virtual/removevirtualsystemsnapshot-msvm-virtualsystemmanagementservice)
 </dt> </dl>
 
  
-
- 
-
-
-
 

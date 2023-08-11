@@ -1,5 +1,5 @@
 ---
-Description: Saves a private key and its corresponding public key to a specified file.
+description: Saves a private key and its corresponding public key to a specified file.
 ms.assetid: 491a128a-b4aa-4cca-a835-d0e8d7df6720
 title: PvkPrivateKeySave function
 ms.topic: reference
@@ -22,10 +22,10 @@ api_location:
 
  
 
-The **PvkPrivateKeySave** function saves a [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) and its corresponding [*public key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) to a specified file.
+The **PvkPrivateKeySave** function saves a [*private key*](../secgloss/p-gly.md) and its corresponding [*public key*](../secgloss/p-gly.md) to a specified file.
 
 > [!Note]  
-> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Mssign32.dll.
+> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Mssign32.dll.
 
  
 
@@ -52,7 +52,7 @@ BOOL WINAPI PvkPrivateKeySave(
 *hCryptProv* \[in\]
 </dt> <dd>
 
-A handle to a [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP).
+A handle to a [*cryptographic service provider*](../secgloss/c-gly.md) (CSP).
 
 </dd> <dt>
 
@@ -99,7 +99,7 @@ Upon success, this function returns **TRUE**. The **PvkPrivateKeySave** function
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -110,7 +110,3 @@ Upon success, this function returns **TRUE**. The **PvkPrivateKeySave** function
  
 
  
-
-
-
-

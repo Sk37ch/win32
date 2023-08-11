@@ -1,5 +1,5 @@
 ---
-Description: To add an item to the Programs submenu, follow these steps.
+description: To add an item to the Programs submenu, follow these steps.
 ms.assetid: F8793C33-2281-4E4A-9659-4189E1C8279A
 title: How to Add Shortcuts to the Start Menu
 ms.topic: article
@@ -14,7 +14,7 @@ To add an item to the **Programs** submenu, follow these steps.
 
 ### Step 1:
 
-Create a [shell link](https://msdn.microsoft.com/library/Bb776891(v=VS.85).aspx) by using the [**IShellLink**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka) interface.
+Create a [shell link](./links.md) by using the [**IShellLink**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka) interface.
 
 ### Step 2:
 
@@ -27,6 +27,3 @@ Add the Shell link to the Programs folder. You can also create a folder in the P
  
 
  
-
-
-

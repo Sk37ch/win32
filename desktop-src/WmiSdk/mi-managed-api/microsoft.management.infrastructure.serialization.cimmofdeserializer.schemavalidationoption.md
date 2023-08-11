@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CimMofDeserializer.SchemaValidationOption property"
 title: CimMofDeserializer.SchemaValidationOption property (Microsoft.Management.Infrastructure.Serialization)
 TOCTitle: CimMofDeserializer.SchemaValidationOption property (Microsoft.Management.Infrastructure.Serialization)
 ms:assetid: P:Microsoft.Management.Infrastructure.Serialization.CimMofDeserializer.SchemaValidationOption
@@ -30,7 +31,7 @@ ms.topic: reference
 
 Gets or sets the schema validation option for deserialization.
 
-**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](hh832966\(v=vs.85\).md)  
+**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))  
 **Assembly:**  Microsoft.Management.Infrastructure (in Microsoft.Management.Infrastructure.dll)  
 
 ## Syntax
@@ -64,4 +65,4 @@ The schema validation option for deserialization.
 ## See also
 
 [CimMofDeserializer class](microsoft.management.infrastructure.serialization.cimmofdeserializer.md)
-[Microsoft.Management.Infrastructure.Serialization namespace](hh832966\(v=vs.85\).md)
+[Microsoft.Management.Infrastructure.Serialization namespace](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))

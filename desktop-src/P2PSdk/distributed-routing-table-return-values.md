@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Distributed Routing Table Return Values"
 ms.assetid: 7f5f925a-b3ce-4829-b9a4-cfc68ec6b50e
 title: Distributed Routing Table Return Values (Drt.h)
 ms.topic: reference
@@ -10,7 +11,7 @@ ms.date: 05/31/2018
 The following error codes are commonly returned by the Distributed Routing Technology:
 
 > [!Note]  
-> The DRT can also return [Winsock Error Codes](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2).
+> The DRT can also return [Winsock Error Codes](/windows/desktop/WinSock/windows-sockets-error-codes-2).
 
  
 
@@ -68,7 +69,7 @@ The following error codes are commonly returned by the Distributed Routing Techn
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                          |
@@ -77,9 +78,4 @@ The following error codes are commonly returned by the Distributed Routing Techn
 
 
  
-
- 
-
-
-
 

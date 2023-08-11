@@ -1,5 +1,5 @@
 ---
-Description: A base class for all intrinsic events that relate to a namespace.
+description: A base class for all intrinsic events that relate to a namespace.
 ms.assetid: 168637b1-217e-4b6d-bd07-25127b9e9f6c
 ms.tgt_platform: multiple
 title: '__NamespaceOperationEvent class'
@@ -85,7 +85,7 @@ Access type: Read-only
 
 Unique value that indicates the time at which the event was generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Times (UTC) format. This property is inherited from [**\_\_Event**](--event.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> </dl>
 
@@ -105,7 +105,7 @@ Instances of this class are not created. WMI creates instances of one of the fol
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -117,7 +117,7 @@ Instances of this class are not created. WMI creates instances of one of the fol
 
 <dl> <dt>
 
-[**\_\_Event**](https://docs.microsoft.com/windows/desktop/WmiSdk/--event)
+[**\_\_Event**](/windows/desktop/WmiSdk/--event)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
@@ -127,9 +127,4 @@ Instances of this class are not created. WMI creates instances of one of the fol
 </dt> </dl>
 
  
-
- 
-
-
-
 

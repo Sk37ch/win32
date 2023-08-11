@@ -1,5 +1,5 @@
 ---
-Description: Re-enables a Microsoft DirectDraw kernel-mode device object after a mode switch.
+description: Re-enables a Microsoft DirectDraw kernel-mode device object after a mode switch.
 ms.assetid: 26451881-cebf-4db1-aeed-365f0dae6704
 title: NtGdiDdReenableDirectDrawObject function (Ntgdi.h)
 ms.topic: reference
@@ -62,13 +62,13 @@ If successful (the device can be re-enabled), this function returns **TRUE**. Ot
 
 Once the object has been re-enabled, the capabilities for the device can be re-queried via a call to [**NtGdiDdQueryDirectDrawObject**](-dxgkernel-ntgdiddquerydirectdrawobject.md).
 
-Applications are advised to use the DirectDraw or [Direct3D](https://msdn.microsoft.com/library/bb205147(VS.85).aspx) version 8 APIs, which automate and abstract this process in a manner independent of the operating system.
+Applications are advised to use the DirectDraw or [Direct3D](../direct3d10/d3d10-graphics-reference.md) version 8 APIs, which automate and abstract this process in a manner independent of the operating system.
 
 ## Requirements
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
@@ -89,7 +89,3 @@ Applications are advised to use the DirectDraw or [Direct3D](https://msdn.micros
  
 
  
-
-
-
-

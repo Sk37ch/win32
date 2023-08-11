@@ -1,5 +1,5 @@
 ---
-Description: Specifies the number of video frames encoded by the codec that actually contain data.
+description: Specifies the number of video frames encoded by the codec that actually contain data.
 ms.assetid: f96fd0b2-8c81-4318-b44c-4b794b3945a3
 title: MFPKEY_CODEDNONZEROFRAMES Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Specifies the number of video frames encoded by the codec that actually contain 
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -26,7 +26,7 @@ This value is equal to [MFPKEY\_TOTALFRAMES](mfpkey-totalframesproperty.md) minu
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -44,7 +44,3 @@ This value is equal to [MFPKEY\_TOTALFRAMES](mfpkey-totalframesproperty.md) minu
  
 
  
-
-
-
-

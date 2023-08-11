@@ -1,5 +1,5 @@
 ---
-Description: A WMI provider creates a group of supported classes, instances, and events to pass data to WMI. In turn, a management application or script can call provider methods to manipulate provider-supplied data.
+description: A WMI provider creates a group of supported classes, instances, and events to pass data to WMI. In turn, a management application or script can call provider methods to manipulate provider-supplied data.
 ms.assetid: 919dfa7c-4a36-4e59-8377-72cf9735eaec
 ms.tgt_platform: multiple
 title: Supplying Data to WMI by Writing a Provider
@@ -90,7 +90,7 @@ The following procedure describes how to create a simple provider that supports 
 
 5.  Define a COM object to contain your provider. The example code for this step is located in a complete example at the end of this topic.
 
-    1.  As with any COM object, you must implement a constructor and a deconstructor, as well as the [**QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx), [**AddRef**](https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx), and [**Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) methods.
+    1.  As with any COM object, you must implement a constructor and a deconstructor, as well as the [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)), [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref), and [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) methods.
 
     2.  Implement the [**IWbemProviderInit::Initialize**](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemproviderinit-initialize) method in your COM object.
 
@@ -1296,6 +1296,3 @@ STDAPI DllUnregisterServer(void)
  
 
  
-
-
-

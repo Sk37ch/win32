@@ -1,14 +1,14 @@
 ---
 title: Enabling a Built-in Accessibility Feature
 ms.assetid: f97a445d-f93d-4462-bce5-d853f5076b9c
-description: 
+description: "Learn more about: Enabling a Built-in Accessibility Feature"
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
 # Enabling a Built-in Accessibility Feature
 
-The following code fragment uses the [**SystemParametersInfo**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function to enable the FilterKeys feature:
+The following code fragment uses the [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function to enable the FilterKeys feature:
 
 
 ```C++
@@ -37,7 +37,3 @@ bSuccess = SystemParametersInfo(SPI_SETFILTERKEYS, 0, (LPVOID)
  
 
  
-
-
-
-

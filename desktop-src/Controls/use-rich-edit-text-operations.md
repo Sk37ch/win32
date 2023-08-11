@@ -67,7 +67,7 @@ BOOL FindTextInSelection(HWND hRich, WCHAR* target)
 
 ## Remarks
 
-Microsoft Rich Edit 3.0 also supports the HexToUnicode Input Method Editor (IME) function, which allows a user to convert between hexadecimal and Unicode by using hot keys. For more information, see [HexToUnicode IME](https://docs.microsoft.com/windows/desktop/Intl/hextounicode-ime).
+Microsoft Rich Edit 3.0 also supports the HexToUnicode Input Method Editor (IME) function, which allows a user to convert between hexadecimal and Unicode by using hot keys. For more information, see [HexToUnicode IME](/windows/desktop/Intl/hextounicode-ime).
 
 ## Related topics
 
@@ -76,13 +76,9 @@ Microsoft Rich Edit 3.0 also supports the HexToUnicode Input Method Editor (IME
 [Using Rich Edit Controls](using-rich-edit-controls.md)
 </dt> <dt>
 
-[Windows common controls demo (CppWindowsCommonControls)](https://code.msdn.microsoft.com/CppWindowsCommonControls-9ea0de64)
+[Windows common controls demo (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
  
 
  
-
-
-
-

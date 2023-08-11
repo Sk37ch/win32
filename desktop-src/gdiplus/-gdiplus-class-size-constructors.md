@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the constructors of the Size class. For a complete class listing, see Size Class.
+description: This topic lists the constructors of the Size class. For a complete class listing, see Size Class.
 ms.assetid: 8e3f7ddd-cac4-4e81-9764-40167ef7d9ef
 title: Size.Size constructors
 ms.topic: reference
@@ -23,16 +23,12 @@ This topic lists the constructors of the [**Size**](/windows/desktop/api/gdiplus
 
 | Constructor                                                     | Description                                                                                                                                          |
 |:----------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Size(Size&)**](https://msdn.microsoft.com/library/ms534755(v=VS.85).aspx)           | Creates a [**Size**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size) object and initializes its members by copying the members of another **Size** object.<br/> |
-| [**Size(INT,INT)**](https://msdn.microsoft.com/library/ms534754(v=VS.85).aspx) | Creates a [**Size**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size) object and initializes its **Width** and **Height** data members.<br/>                     |
-| [**Size()**](https://msdn.microsoft.com/library/ms534753(v=VS.85).aspx)                     | Creates a new [**Size**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size) object and initializes the members to zero. This is the default constructor.<br/>      |
+| [**Size(Size&)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-size-size(inconstsize_))           | Creates a [**Size**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size) object and initializes its members by copying the members of another **Size** object.<br/> |
+| [**Size(INT,INT)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-size-size(inint_inint)) | Creates a [**Size**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size) object and initializes its **Width** and **Height** data members.<br/>                     |
+| [**Size()**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-size-size)                     | Creates a new [**Size**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size) object and initializes the members to zero. This is the default constructor.<br/>      |
 
 
 
  
 
  
-
-
-
-

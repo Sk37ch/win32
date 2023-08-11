@@ -1,5 +1,5 @@
 ---
-Description: Adds data to a specified hash object.
+description: Adds data to a specified hash object.
 ms.assetid: 8E32BBC4-C2DD-4174-9FF1-9001E4A7D87B
 title: A_SHAUpdate function (Sha.h)
 ms.topic: reference
@@ -25,7 +25,7 @@ Adds data to a specified hash object.
 ```C++
 void RSA32API A_SHAUpdate(
   _Inout_ A_SHA_CTX     *Context,
-  _Out_   UNSIGNED CHAR *Buffer,
+  _In_    UNSIGNED CHAR *Buffer,
           UNSIGNED INT  BufferSize
 );
 ```
@@ -43,10 +43,10 @@ The SHA context.
 
 </dd> <dt>
 
-*Buffer* \[out\]
+*Buffer* \[in\]
 </dt> <dd>
 
-The hash table.
+A pointer to a buffer that contains the data to be added to the hash object.
 
 </dd> <dt>
 
@@ -65,13 +65,13 @@ This function does not return a value.
 
 This function can be called multiple times to compute the hash on long data streams or discontinuous data streams. The [**A\_SHAFinal**](a-shafinal.md) function must be called before retrieving the hash value.
 
-This function is very similar to SHAUpdate, but is called directly from the library, rather than being routed through the cryptography infrastructure. For more information, see [Windows NTCryptographic Providers](https://docs.microsoft.com/previous-versions/tn-archive/cc723484(v=technet.10)).
+This function is very similar to SHAUpdate, but is called directly from the library, rather than being routed through the cryptography infrastructure. For more information, see [Windows NTCryptographic Providers](/previous-versions/tn-archive/cc723484(v=technet.10)).
 
 ## Requirements
 
 
 
-|                    |                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Sha.h</dt> </dl>     |
 | Library<br/> | <dl> <dt>Ntdll.dll</dt> </dl> |
@@ -82,7 +82,3 @@ This function is very similar to SHAUpdate, but is called directly from the libr
  
 
  
-
-
-
-

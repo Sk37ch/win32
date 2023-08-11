@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ToDirectorySpecification association identifies the target directory for the file action.
+description: The CIM\_ToDirectorySpecification association identifies the target directory for the file action.
 ms.assetid: ab31101f-1948-4b3d-baef-0d61d5898b21
 ms.tgt_platform: multiple
 title: CIM_ToDirectorySpecification class
@@ -61,7 +61,7 @@ Data type: **CIM\_DirectorySpecification**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0)
+Qualifiers: [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (0)
 </dt> </dl>
 
 Reference to the destination directory.
@@ -77,7 +77,7 @@ Data type: **CIM\_CopyFileAction**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0)
+Qualifiers: [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (0)
 </dt> </dl>
 
 Reference to the file name.
@@ -94,7 +94,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -105,9 +105,4 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
  
-
- 
-
-
-
 

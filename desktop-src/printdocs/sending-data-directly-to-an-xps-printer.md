@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to send printer control data directly to printers that use XPSDrv printer drivers.
+description: This topic describes how to send printer control data directly to printers that use XPSDrv printer drivers.
 ms.assetid: 7e98e08a-d572-451d-befb-18fc86f0e505
 title: 'How To: Send Data Directly to an XPS Printer'
 ms.topic: article
@@ -13,7 +13,7 @@ This topic describes how to send printer control data directly to printers that 
 The following steps describe how to send data directly to a printer. These steps are also illustrated in the code example that follows.
 
 1.  Call [**OpenPrinter**](openprinter.md) to get a handle to the printer.
-2.  Initialize a [**DOCINFO**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-docinfoa) structure with the printer data.
+2.  Initialize a [**DOCINFO**](/windows/desktop/api/wingdi/ns-wingdi-docinfoa) structure with the printer data.
 3.  Call [**StartDocPrinter**](startdocprinter.md) to indicate that the application will be sending document data to the printer.
 4.  Call [**WritePrinter**](writeprinter.md) to send the data.
 5.  Call [**EndDocPrinter**](enddocprinter.md) to indicate that all data for this document has been sent.
@@ -119,6 +119,3 @@ BOOL RawDataToXpsPrinter (LPTSTR szPrinterName, LPBYTE lpData, DWORD dwCount)
  
 
  
-
-
-

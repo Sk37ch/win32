@@ -1,5 +1,5 @@
 ---
-Description: Control code notifies an application when the ideal send backlog value changes for the connection.
+description: Control code notifies an application when the ideal send backlog value changes for the connection.
 ms.assetid: 337883a5-7ceb-40d3-b318-b86dd488b94a
 title: SIO_IDEAL_SEND_BACKLOG_CHANGE Control Code
 ms.topic: reference
@@ -96,6 +96,8 @@ For overlapped operations, the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-w
 Otherwise, the function does not return until the operation has been completed or an error occurs.
 
 ### lpCompletionRoutine
+
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](/windows/win32/api/winsock2/nc-winsock2-lpwsaoverlapped_completion_routine)
 
 A pointer to the completion routine called when the operation has been completed (ignored for non-overlapped sockets).
 

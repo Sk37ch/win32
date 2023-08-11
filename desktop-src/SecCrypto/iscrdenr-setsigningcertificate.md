@@ -1,5 +1,5 @@
 ---
-Description: Specifies a signing certificate (also known as the enrollment agent certificate).
+description: Specifies a signing certificate (also known as the enrollment agent certificate).
 ms.assetid: db2437a9-46f6-48c3-9630-82ec556df645
 title: ISCrdEnr::setSigningCertificate method
 ms.topic: reference
@@ -20,7 +20,7 @@ api_location:
 
 The **setSigningCertificate** method specifies a signing certificate (also known as the *enrollment agent certificate*).
 
-Before enrolling on behalf of users, you must select or set a signing certificate. The [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) associated with this signing certificate is used to sign a PKCS \#7 request. The PKCS \#7, in turn, contains the user's PKCS \#10 request (which is signed with the user's private key).
+Before enrolling on behalf of users, you must select or set a signing certificate. The [*private key*](../secgloss/p-gly.md) associated with this signing certificate is used to sign a PKCS \#7 request. The PKCS \#7, in turn, contains the user's PKCS \#10 request (which is signed with the user's private key).
 
 ## Syntax
 
@@ -83,7 +83,7 @@ After a signing certificate is set, its name can be retrieved by calling [**ISCr
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -105,7 +105,3 @@ After a signing certificate is set, its name can be retrieved by calling [**ISCr
  
 
  
-
-
-
-

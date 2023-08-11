@@ -1,5 +1,5 @@
 ---
-Description: Handles status and error messages during image data transfers and displays them to the user.
+description: Handles status and error messages during image data transfers and displays them to the user.
 ms.assetid: 23e85c63-80b9-4510-854d-289c8d23be2d
 title: IWiaErrorHandler::ReportStatus method (Wia.h)
 ms.topic: reference
@@ -51,9 +51,9 @@ Type: **HWND**
 *punkItem* \[in\]
 </dt> <dd>
 
-Type: **[IUnknown](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx)\***
+Type: **[IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***
 
-Pointer to the [IUnknown](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface of the item being transferred. This object minimally implements [**IWiaItem2**](-wia-iwiaitem2.md) and [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer).
+Pointer to the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface of the item being transferred. This object minimally implements [**IWiaItem2**](-wia-iwiaitem2.md) and [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer).
 
 </dd> <dt>
 
@@ -114,7 +114,7 @@ If *hrStatus* is SEVERITY\_SUCCESS, the user should be allowed to cancel the tra
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |
@@ -127,7 +127,3 @@ If *hrStatus* is SEVERITY\_SUCCESS, the user should be allowed to cancel the tra
  
 
  
-
-
-
-

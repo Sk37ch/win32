@@ -1,5 +1,5 @@
 ---
-Description: Returns a flexible vertex format (FVF) code from a declarator.
+description: Returns a flexible vertex format (FVF) code from a declarator.
 ms.assetid: 4f30087e-0042-44bc-a7a5-5386b18fcad7
 title: D3DXFVFFromDeclarator function (D3DX9Mesh.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Array of [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) elements, describing the 
 *pFVF* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to a DWORD value, representing the returned combination of [D3DFVF](d3dfvf.md) that describes the vertex format returned from the declarator.
 
@@ -68,7 +68,7 @@ This function will fail for any declarator that does not map directly to an FVF.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -88,7 +88,3 @@ This function will fail for any declarator that does not map directly to an FVF.
  
 
  
-
-
-
-

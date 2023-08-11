@@ -1,5 +1,5 @@
 ---
-Description: WMI supplies a set of troubleshooting classes that scripts and applications can use to get information about WMI internal state during WMI core and provider operations.
+description: WMI supplies a set of troubleshooting classes that scripts and applications can use to get information about WMI internal state during WMI core and provider operations.
 ms.assetid: 631e0cce-0e83-42e5-a381-e96b1f70d6f9
 ms.tgt_platform: multiple
 title: WMI Troubleshooting Classes
@@ -13,15 +13,15 @@ WMI supplies a set of troubleshooting classes that scripts and applications can 
 
 WMI has several basic troubleshooting classes for WMI core and provider operations:
 
--   [**MSFT\_WmiProvider\_Counters**](https://docs.microsoft.com/previous-versions/windows/desktop/wmisystemprov/msft-wmiprovider-counters)
+-   [**MSFT\_WmiProvider\_Counters**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiprovider-counters)
 
     Only one of these classes is found on each computer system. It provides counts of various kind of provider operations on that system.
 
--   [**MSFT\_WmiSelfEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/wmisystemprov/msft-wmiselfevent)
+-   [**MSFT\_WmiSelfEvent**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiselfevent)
 
-    The event troubleshooting classes derive from [**MSFT\_WmiSelfEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/wmisystemprov/msft-wmiselfevent). Queries of this class return instances of event classes such as [**MSFT\_WmiThreadPoolCreated**](https://docs.microsoft.com/previous-versions/windows/desktop/wmisystemprov/msft-wmithreadpoolcreated) or [**MSFT\_WmiProvider\_CreateInstanceEnumAsyncEvent\_Post**](https://docs.microsoft.com/previous-versions/windows/desktop/wmisystemprov/msft-wmiprovider-createinstanceenumasyncevent-post).
+    The event troubleshooting classes derive from [**MSFT\_WmiSelfEvent**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiselfevent). Queries of this class return instances of event classes such as [**MSFT\_WmiThreadPoolCreated**](/previous-versions/windows/desktop/wmisystemprov/msft-wmithreadpoolcreated) or [**MSFT\_WmiProvider\_CreateInstanceEnumAsyncEvent\_Post**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiprovider-createinstanceenumasyncevent-post).
 
-    The following list provides links to different categories of event classes derived from [**MSFT\_WmiSelfEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/wmisystemprov/msft-wmiselfevent):
+    The following list provides links to different categories of event classes derived from [**MSFT\_WmiSelfEvent**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiselfevent):
 
     -   [Provider Event Troubleshooting Classes](provider-event-troubleshooting-classes.md)
     -   [ConsumerProvider Troubleshooting Classes](consumerprovider-troubleshooting-classes.md)
@@ -40,6 +40,3 @@ WMI has several basic troubleshooting classes for WMI core and provider operatio
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Specifies a certificate used to sign a document. The certificate can be stored in a Software Publisher Certificate (SPC) file or in a certificate store.
+description: Specifies a certificate used to sign a document. The certificate can be stored in a Software Publisher Certificate (SPC) file or in a certificate store.
 ms.assetid: 9a99ce98-237d-4223-ab3d-0576041038e3
 title: SIGNER_CERT structure
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 
 # SIGNER\_CERT structure
 
-The **SIGNER\_CERT** structure specifies a [*certificate*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) used to sign a document. The certificate can be stored in a [*Software Publisher Certificate*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SPC) file or in a [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
+The **SIGNER\_CERT** structure specifies a [*certificate*](../secgloss/c-gly.md) used to sign a document. The certificate can be stored in a [*Software Publisher Certificate*](../secgloss/s-gly.md) (SPC) file or in a [*certificate store*](../secgloss/c-gly.md).
 
 > [!Note]  
 > This structure is not defined in any header file. To use this structure, you must define it yourself as shown in this topic.
@@ -103,7 +103,7 @@ The handle of the window to use as the owner of any dialog boxes that are displa
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
@@ -123,7 +123,3 @@ The handle of the window to use as the owner of any dialog boxes that are displa
  
 
  
-
-
-
-

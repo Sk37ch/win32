@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the input stream is interlaced.
+description: MFPKEY_COLORCONV_MODE Property - Specifies whether the input stream is interlaced.
 ms.assetid: d0d93151-5b0d-44a7-8497-f11b3e23a031
 title: MFPKEY_COLORCONV_MODE Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Specifies whether the input stream is interlaced.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -47,7 +47,7 @@ If this property is not set, the DSP uses the input media type to determine whet
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -65,7 +65,3 @@ If this property is not set, the DSP uses the input media type to determine whet
  
 
  
-
-
-
-

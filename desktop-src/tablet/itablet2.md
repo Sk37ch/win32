@@ -1,5 +1,5 @@
 ---
-Description: Extends the ITablet Interface.
+description: Extends the ITablet Interface.
 ms.assetid: dd4f3b2e-7f63-4d5b-b50e-64458719c17a
 title: ITablet2 interface
 ms.topic: reference
@@ -22,7 +22,7 @@ Extends the [**ITablet Interface**](itablet.md).
 
 ## Members
 
-The **ITablet2** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITablet2** also has these types of members:
+The **ITablet2** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITablet2** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -66,7 +66,7 @@ interface ITablet2 : IUnknown
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | None supported<br/>                                                              |
@@ -75,9 +75,4 @@ interface ITablet2 : IUnknown
 
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: The GetPrinterDataEx function retrieves configuration data for the specified printer or print server.
+description: The GetPrinterDataEx function retrieves configuration data for the specified printer or print server.
 ms.assetid: 5d9183a7-97cc-46de-848e-e37ce51396eb
 title: GetPrinterDataEx function (Winspool.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ For print servers, this string is one of the predefined strings listed in the fo
 *pType* \[out\]
 </dt> <dd>
 
-A pointer to a variable that receives the type of data stored in the value. The function returns the type specified in the [**SetPrinterDataEx**](setprinterdataex.md) call when the data was stored. This parameter can be **NULL** if you don't need the information. **GetPrinterDataEx** passes *pType* on as the *lpdwType* parameter of a [**RegQueryValueEx**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa) function call.
+A pointer to a variable that receives the type of data stored in the value. The function returns the type specified in the [**SetPrinterDataEx**](setprinterdataex.md) call when the data was stored. This parameter can be **NULL** if you don't need the information. **GetPrinterDataEx** passes *pType* on as the *lpdwType* parameter of a [**RegQueryValueEx**](/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa) function call.
 
 </dd> <dt>
 
@@ -174,7 +174,7 @@ The time specified in **SPLREG\_RESTART\_JOB\_ON\_POOL\_ERROR** is a minimum tim
 
 **HKLM\\SYSTEM\\CurrentControlSet\\Control\\Print\\Monitors\\<*MonitorName*>\\Ports**
 
-Call the [**RegQueryValueEx**](https://msdn.microsoft.com/library/ms724911(v=VS.85).aspx) function to query these values.
+Call the [**RegQueryValueEx**](/windows/win32/api/winreg/nf-winreg-regqueryvalueexa) function to query these values.
 
 
 
@@ -206,7 +206,7 @@ In Windows 7 and later versions of Windows, print jobs that are sent to a print 
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -234,9 +234,4 @@ In Windows 7 and later versions of Windows, print jobs that are sent to a print 
 </dt> </dl>
 
  
-
- 
-
-
-
 

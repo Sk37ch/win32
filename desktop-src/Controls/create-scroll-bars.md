@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to Create Scroll Bars
 
-When creating an overlapped, pop-up, or child window, you can add standard scroll bars by using the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function and specifying WS\_HSCROLL, WS\_VSCROLL, or both styles.
+When creating an overlapped, pop-up, or child window, you can add standard scroll bars by using the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function and specifying WS\_HSCROLL, WS\_VSCROLL, or both styles.
 
 ## What you need to know
 
@@ -50,7 +50,7 @@ The following example creates a window with standard horizontal and vertical scr
 
 To process scroll bar messages for these scroll bars, you must include appropriate code in the main window procedure.
 
-You can use the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function to create a scroll bar by specifying the SCROLLBAR window class. This creates a horizontal or vertical scroll bar, depending on whether [**SBS\_HORZ**](scroll-bar-control-styles.md) or [**SBS\_VERT**](scroll-bar-control-styles.md) is specified as the window style. The scroll bar size and its position relative to its parent window can also be specified.
+You can use the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function to create a scroll bar by specifying the SCROLLBAR window class. This creates a horizontal or vertical scroll bar, depending on whether [**SBS\_HORZ**](scroll-bar-control-styles.md) or [**SBS\_VERT**](scroll-bar-control-styles.md) is specified as the window style. The scroll bar size and its position relative to its parent window can also be specified.
 
 The following example creates a horizontal scroll bar that is positioned along the bottom of the parent window's client area.
 
@@ -100,13 +100,9 @@ HWND CreateAHorizontalScrollBar(HWND hwndParent, int sbHeight)
 [Using Scroll Bars](using-scroll-bars.md)
 </dt> <dt>
 
-[Windows common controls demo (CppWindowsCommonControls)](https://code.msdn.microsoft.com/CppWindowsCommonControls-9ea0de64)
+[Windows common controls demo (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
  
 
  
-
-
-
-

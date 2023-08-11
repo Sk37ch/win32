@@ -1,5 +1,5 @@
 ---
-Description: The IH323LineEx interface is implemented by the H323 MSP and is available only on H.323 address objects. This interface exposes methods that enable creation and manipulation of terminals that can communicate between H323 and SDP clients.
+description: The IH323LineEx interface is implemented by the H323 MSP and is available only on H.323 address objects. This interface exposes methods that enable creation and manipulation of terminals that can communicate between H323 and SDP clients.
 ms.assetid: 2ab57343-8cf5-4af2-91f7-46926cfce6dd
 title: IH323LineEx interface (H323priv.h)
 ms.topic: reference
@@ -19,7 +19,7 @@ The **IH323LineEx** interface is implemented by the [H323 MSP](h323-msp.md) and 
 
 ## Members
 
-The **IH323LineEx** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IH323LineEx** also has these types of members:
+The **IH323LineEx** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IH323LineEx** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -43,7 +43,7 @@ The **IH323LineEx** interface has these methods.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>H323priv.h</dt> </dl> |
@@ -60,9 +60,4 @@ The **IH323LineEx** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
 

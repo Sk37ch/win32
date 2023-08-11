@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.EXIFVersion property.
+description: The photo metadata policy for the System.Photo.EXIFVersion property.
 ms.assetid: 0f9c5ea8-918f-4101-8492-3f408145a73e
 title: System.Photo.EXIFVersion Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.EXIFVersion Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.EXIFVersion](https://msdn.microsoft.com/library/bb760420(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.EXIFVersion](../properties/props-system-photo-exifversion.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Photo.EXIFVersion](https://msdn.microsoft.com/library/bb760420(VS.85).aspx)
+[System.Photo.EXIFVersion](../properties/props-system-photo-exifversion.md)
 </dt> </dl>
 
  
 
  
-
-
-

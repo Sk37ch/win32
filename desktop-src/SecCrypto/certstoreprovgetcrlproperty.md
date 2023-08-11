@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a specified property of a CRL.
+description: Retrieves a specified property of a CRL.
 ms.assetid: b02f4f92-952a-4625-a7d4-6e78e542774e
 title: CertStoreProvGetCRLProperty callback function
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 
 # CertStoreProvGetCRLProperty callback function
 
-The **CertStoreProvGetCRLProperty** callback function retrieves a specified property of a [*CRL*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
+The **CertStoreProvGetCRLProperty** callback function retrieves a specified property of a [*CRL*](../secgloss/c-gly.md).
 
 ## Syntax
 
@@ -41,7 +41,7 @@ BOOL WINAPI CertStoreProvGetCRLProperty(
 *hStoreProv* \[in\]
 </dt> <dd>
 
-**HCERTSTOREPROV** handle to a [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
+**HCERTSTOREPROV** handle to a [*certificate store*](../secgloss/c-gly.md).
 
 </dd> <dt>
 
@@ -88,7 +88,7 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
@@ -105,7 +105,3 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves information about an assembly when using managed code in the .NET Framework common language runtime.
+description: Retrieves information about an assembly when using managed code in the .NET Framework common language runtime.
 ms.assetid: 45dcdc6a-74df-4763-ba8b-82f604db78d4
 title: ClrAssemblyLocator class (ComSvcs.h)
 ms.topic: reference
@@ -23,7 +23,7 @@ This class is implemented by COM+.
 
 
 
-|            |                                                       |
+| Requirement | Value |
 |------------|-------------------------------------------------------|
 | CLSID      | GUID\_AssemblyLocator                                 |
 | ProgID     | L"System.EnterpriseServices.Internal.AssemblyLocator" |
@@ -39,7 +39,7 @@ Use this class to access the methods of [**IAssemblyLocator**](/windows/desktop/
 
 ## Remarks
 
-To create this object, call [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).
+To create this object, call [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).
 
 To use this class from Microsoft Visual Basic, add a reference to the COM+ Services Type Library. A ClrAssemblyLocator object can be declared using "COMSVCSLib.ClrAssemblyLocator" as the class name.
 
@@ -47,7 +47,7 @@ To use this class from Microsoft Visual Basic, add a reference to the COM+ Servi
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                 |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
@@ -56,9 +56,4 @@ To use this class from Microsoft Visual Basic, add a reference to the COM+ Servi
 
 
  
-
- 
-
-
-
 

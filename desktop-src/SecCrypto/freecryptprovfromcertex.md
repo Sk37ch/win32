@@ -1,5 +1,5 @@
 ---
-Description: 'Releases the handle either to a cryptographic service provider (CSP) or to a Cryptography API: Next Generation (CNG) key.'
+description: 'Releases the handle either to a cryptographic service provider (CSP) or to a Cryptography API: Next Generation (CNG) key.'
 ms.assetid: 76cbf8ae-c4ab-43d9-b06d-ea0b2a66368a
 title: FreeCryptProvFromCertEx function
 ms.topic: reference
@@ -17,10 +17,10 @@ api_location:
 
 # FreeCryptProvFromCertEx function
 
-The **FreeCryptProvFromCertEx** function releases the handle either to a [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP) or to a Cryptography API: Next Generation (CNG) key.
+The **FreeCryptProvFromCertEx** function releases the handle either to a [*cryptographic service provider*](../secgloss/c-gly.md) (CSP) or to a Cryptography API: Next Generation (CNG) key.
 
 > [!Note]  
-> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Mssign32.dll.
+> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Mssign32.dll.
 
  
 
@@ -47,7 +47,7 @@ void WINAPI FreeCryptProvFromCertEx(
 *fAcquired* \[in\]
 </dt> <dd>
 
-A value that specifies whether the provider handle was acquired from the [*certificate*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
+A value that specifies whether the provider handle was acquired from the [*certificate*](../secgloss/c-gly.md).
 
 </dd> <dt>
 
@@ -106,7 +106,7 @@ This function does not return a value.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
@@ -117,7 +117,3 @@ This function does not return a value.
  
 
  
-
-
-
-

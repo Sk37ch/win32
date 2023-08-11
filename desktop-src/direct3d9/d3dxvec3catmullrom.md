@@ -1,22 +1,25 @@
 ---
-Description: Performs a Catmull-Rom interpolation, using the specified 3D vectors.
+description: D3DXVec3CatmullRom function (D3dx9math.h) - Performs a Catmull-Rom interpolation, using the specified 3D vectors.
 ms.assetid: 779f067c-ac46-4fde-9e18-e31b1504b490
 title: D3DXVec3CatmullRom function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec3CatmullRom
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXVec3CatmullRom function
+# D3DXVec3CatmullRom function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Performs a Catmull-Rom interpolation, using the specified 3D vectors.
 
@@ -88,7 +91,7 @@ Pointer to a source [**D3DXVECTOR3**](d3dxvector3.md) structure, a position vect
 *s* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Weighting factor. See Remarks.
 
@@ -106,10 +109,10 @@ Given four points (p1, p2, p3, p4), find a function Q(s) such that:
 
 
 ```
-Q(s) is a cubic function. 
-Q(s) interpolates between p2 and p3 as s ranges from 0 to 1. 
-Q(s) is parallel to the line joining p1 to p3 when s is 0. 
-Q(s) is parallel to the line joining p2 to p4 when s is 1. 
+Q(s) is a cubic function.
+Q(s) interpolates between p2 and p3 as s ranges from 0 to 1.
+Q(s) is parallel to the line joining p1 to p3 when s is 0.
+Q(s) is parallel to the line joining p2 to p4 when s is 1.
 ```
 
 
@@ -167,7 +170,7 @@ Q(s) = [(-s3 + 2s2 - s)p1 + (3s3 - 5s2 + 2)p2 + (-3s3 + 4s2 + s)p3 + (s3 - s2)p4
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -190,7 +193,3 @@ Q(s) = [(-s3 + 2s2 - s)p1 + (3s3 - 5s2 + 2)p2 + (-3s3 + 4s2 + s)p3 + (s3 - s2)p4
  
 
  
-
-
-
-

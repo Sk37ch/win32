@@ -1,5 +1,5 @@
 ---
-Description: The PNRP Namespace Provider API uses the following functions.
+description: The PNRP Namespace Provider API uses the following functions.
 ms.assetid: 7c9f2dd7-8dbc-4bbe-b53c-8036c79faa8a
 title: PNRP Functions
 ms.topic: article
@@ -14,7 +14,7 @@ The PNRP Namespace Provider API uses the following functions.
 
 | Function                                                             | Description                                                                                                                                                  |
 |----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**PeerNameToPeerHostName**](/windows/desktop/api/P2P/nf-p2p-peernametopeerhostname)             | Encodes the supplied peer name as a format that can be used with a subsequent call to the [**getaddrinfo**](https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo) Windows Sockets function. |
+| [**PeerNameToPeerHostName**](/windows/desktop/api/P2P/nf-p2p-peernametopeerhostname)             | Encodes the supplied peer name as a format that can be used with a subsequent call to the [**getaddrinfo**](/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo) Windows Sockets function. |
 | [**PeerHostNameToPeerName**](/windows/desktop/api/P2P/nf-p2p-peerhostnametopeername)             | Decodes a host name returned by [**PeerNameToPeerHostName**](/windows/desktop/api/P2P/nf-p2p-peernametopeerhostname) into the peer name string it represents.                            |
 | [**PeerPnrpStartup**](/windows/desktop/api/P2P/nf-p2p-peerpnrpstartup)                           | Starts the Peer Name Resolution Protocol (PNRP) service for the calling peer.                                                                                |
 | [**PeerPnrpShutdown**](/windows/desktop/api/P2P/nf-p2p-peerpnrpshutdown)                         | Shuts down a running instance of the Peer Name Resolution Protocol (PNRP) service and releases all resources associated with it.                             |
@@ -38,6 +38,3 @@ The PNRP Namespace Provider API uses the following functions.
  
 
  
-
-
-

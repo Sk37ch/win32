@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: PrereadKeysGrbit enumeration"
 title: PrereadKeysGrbit enumeration (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: PrereadKeysGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows7.PrereadKeysGrbit
@@ -34,9 +35,9 @@ ROBOTS: INDEX,FOLLOW
 
 Options for JetPrereadKeys.
 
-This enumeration has a [FlagsAttribute](https://docs.microsoft.com/dotnet/api/system.flagsattribute?redirectedfrom=MSDN) attribute that allows a bitwise combination of its member values.
+This enumeration has a [FlagsAttribute](/dotnet/api/system.flagsattribute) attribute that allows a bitwise combination of its member values.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows7](hh577573\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows7](./microsoft.isam.esent.interop.windows7-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -83,5 +84,4 @@ public enum PrereadKeysGrbit
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop.Windows7 namespace](hh577573\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows7 namespace](./microsoft.isam.esent.interop.windows7-namespace.md)

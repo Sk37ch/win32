@@ -1,5 +1,5 @@
 ---
-Description: The SPFILENOTIFY\_QUEUESCAN\_SIGNERINFO notification is sent to a callback routine by SetupScanFileQueue for each node in the copy subqueue of the file queue.
+description: The SPFILENOTIFY\_QUEUESCAN\_SIGNERINFO notification is sent to a callback routine by SetupScanFileQueue for each node in the copy subqueue of the file queue.
 ms.assetid: 5b22e8ba-9a18-461b-bad7-b2d76f83d7f3
 title: SPFILENOTIFY_QUEUESCAN_SIGNERINFO message (Setupapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ Pointer to a [**FILEPATHS\_SIGNERINFO**](/windows/desktop/api/Setupapi/ns-setupa
 
 ## Return value
 
-The callback routine should return a [system error code](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+The callback routine should return a [system error code](/windows/desktop/Debug/system-error-codes).
 
 If the callback routine returns NO\_ERROR, the queue scan continues, and returns If the routine returns any other error code, the queue scan aborts and [**SetupScanFileQueue**](/windows/desktop/api/Setupapi/nf-setupapi-setupscanfilequeuea) returns **FALSE**.
 
@@ -45,7 +45,7 @@ If the callback routine returns NO\_ERROR, the queue scan continues, and returns
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -67,9 +67,4 @@ If the callback routine returns NO\_ERROR, the queue scan continues, and returns
 </dt> </dl>
 
  
-
- 
-
-
-
 

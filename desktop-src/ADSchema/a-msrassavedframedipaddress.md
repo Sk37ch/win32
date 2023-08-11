@@ -21,7 +21,7 @@ The **msRASSavedFramedIPAddress** attribute is used internally. Do not modify th
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | msRASSavedFramedIPAddress            |
 | Ldap-Display-Name | msRASSavedFramedIPAddress            |
@@ -47,7 +47,7 @@ The **msRASSavedFramedIPAddress** attribute is used internally. Do not modify th
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -68,7 +68,7 @@ The **msRASSavedFramedIPAddress** attribute is used internally. Do not modify th
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -89,7 +89,7 @@ The **msRASSavedFramedIPAddress** attribute is used internally. Do not modify th
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -110,7 +110,7 @@ The **msRASSavedFramedIPAddress** attribute is used internally. Do not modify th
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -131,7 +131,7 @@ The **msRASSavedFramedIPAddress** attribute is used internally. Do not modify th
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -152,7 +152,7 @@ The **msRASSavedFramedIPAddress** attribute is used internally. Do not modify th
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -173,14 +173,8 @@ The **msRASSavedFramedIPAddress** attribute is used internally. Do not modify th
 
 <dl> <dt>
 
-[RAS Administration Functions](https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-functions)
+[RAS Administration Functions](/windows/desktop/RRAS/ras-administration-functions)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

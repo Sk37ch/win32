@@ -1,5 +1,5 @@
 ---
-Description: The Call ID differs from the Session Identifier in two primary ways the service provider assigns it, and it is the same for every application that handles the session.
+description: The Call ID differs from the Session Identifier in two primary ways the service provider assigns it, and it is the same for every application that handles the session.
 ms.assetid: c9d0d43b-3053-4e3e-b442-57942f3448df
 title: Call ID
 ms.topic: article
@@ -14,13 +14,10 @@ The Call ID is used in operations such as determining whether a group of session
 
 Not all service providers support use of this information.
 
-**TAPI 2.x:** See [**lineGetCallInfo**](https://msdn.microsoft.com/library/ms735720(v=VS.85).aspx) (**dwCallID** member of [**LINECALLINFO**](https://msdn.microsoft.com/library/ms735527(v=VS.85).aspx)).
+**TAPI 2.x:** See [**lineGetCallInfo**](/windows/win32/api/tapi/nf-tapi-linegetcallinfo) (**dwCallID** member of [**LINECALLINFO**](/windows/win32/api/tapi/ns-tapi-linecallinfo)).
 
 **TAPI 3.x:** See [**ITCallInfo::get\_CallInfoLong**](/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfolong) (**CIL\_CALLID** member of [**CALLINFO\_LONG**](/windows/desktop/api/Tapi3if/ne-tapi3if-callinfo_long)).
 
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: The OpenDatabase method of the Merge object opens a Windows Installer installation database, located at a specified path, that is to be merged with a module.
+description: The OpenDatabase method of the Merge object opens a Windows Installer installation database, located at a specified path, that is to be merged with a module.
 ms.assetid: '86f168e5-bc76-476d-9757-9b2a21bb9c4b'
 title: Merge.OpenDatabase method (Mergemod.h)
 ms.topic: reference
@@ -48,13 +48,13 @@ This method does not return a value.
 
 ## C++
 
-See [**OpenDatabase**](https://msdn.microsoft.com/library/Aa369276(v=VS.85).aspx) function.
+See [**OpenDatabase**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-opendatabase) function.
 
 ## Requirements
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 1.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |
@@ -65,7 +65,3 @@ See [**OpenDatabase**](https://msdn.microsoft.com/library/Aa369276(v=VS.85).aspx
  
 
  
-
-
-
-

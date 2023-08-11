@@ -1,5 +1,5 @@
 ---
-Description: Verifies that the monitor is active and available.
+description: Verifies that the monitor is active and available.
 title: IMultiMonitorDockingSite::RequestMonitor method
 ms.topic: reference
 ms.date: 05/31/2018
@@ -12,14 +12,6 @@ api_type:
 - COM
 api_location: 
 ms.assetid: 9aa6eb20-de39-41f7-a17e-183f4088f972
-api_name: 
- - IMultiMonitorDockingSite.RequestMonitor
-api_type: 
- - COM
-api_location: 
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -46,7 +38,7 @@ HRESULT RequestMonitor(
 *punkSrc* \[in\]
 </dt> <dd>
 
-Type: **[**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx)\***
+Type: **[**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***
 
 A pointer to the object implementing the [**IDockingWindow**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow) interface.
 
@@ -71,7 +63,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                        |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                   |
@@ -81,7 +73,3 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
  
 
  
-
-
-
-

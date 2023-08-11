@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates how to use the IFileOperationProgressSink interface methods for monitoring the details of IFileOperation interface actions.
+description: Demonstrates how to use the IFileOperationProgressSink interface methods for monitoring the details of IFileOperation interface actions.
 title: File Operation Progress Sink
 ms.topic: article
 ms.date: 05/31/2018
@@ -38,20 +38,9 @@ This topic contains the following sections.
 
 ## Downloading the Sample
 
-This sample is available in the following locations.
-
-
-
 | Location      | Path URL                                                                                             |
 |---------------|------------------------------------------------------------------------------------------------------|
-| Code Gallery  | [Windows Shell Application Samples on Code Gallery](https://code.msdn.microsoft.com/shellapplication) |
-| Windows 7 SDK | [Download Windows 7 SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)                            |
-
-
-
- 
-
-In the case of the Windows SDK, once you have downloaded and installed it, you will find the samples in the installed directory. For example, use of the default installation path for the Windows 7 SDK results in the samples being placed under `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\`.
+| GitHub  | [FileOperationProgressSink sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/appplatform/FileOperationProgressSink) |
 
 ## Building the Sample
 

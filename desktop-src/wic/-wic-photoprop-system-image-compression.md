@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Image.Compression property.
+description: The photo metadata policy for the System.Image.Compression property.
 ms.assetid: 0fada41f-f6f8-43b3-ad65-79785e859c9c
 title: System.Image.Compression Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Image.Compression Photo Metadata Policy
 
-The photo metadata policy for the [System.Image.Compression](https://msdn.microsoft.com/library/bb787454(VS.85).aspx) property.
+The photo metadata policy for the [System.Image.Compression](../properties/props-system-image-compression.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Image.Compression](https://msdn.microsoft.com/library/bb787454(VS.85).aspx)
+[System.Image.Compression](../properties/props-system-image-compression.md)
 </dt> </dl>
 
  
 
  
-
-
-

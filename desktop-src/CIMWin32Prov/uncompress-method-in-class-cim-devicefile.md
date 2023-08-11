@@ -1,5 +1,5 @@
 ---
-Description: Uncompressed the logical device file (or directory) specified in the object path. This method is inherited from CIM\_LogicalFile.
+description: Uncompressed the logical device file (or directory) specified in the object path. This method is inherited from CIM\_LogicalFile.
 ms.assetid: a9b5e9bc-1c31-4518-ade4-8e9a0106608e
 ms.tgt_platform: multiple
 title: Uncompress method of the CIM_DeviceFile class
@@ -25,7 +25,7 @@ The **Uncompress** method uncompressed the logical device file (or directory) sp
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -147,7 +147,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -168,9 +168,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

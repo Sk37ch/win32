@@ -1,5 +1,5 @@
 ---
-Description: The Read method reads a specified number of bytes from the buffer object into memory starting at the current seek pointer.
+description: The Read method reads a specified number of bytes from the buffer object into memory starting at the current seek pointer.
 ms.assetid: 98c4de75-9ecf-4c57-9075-9d0e3675079f
 title: IByteBuffer::Read method (Scardssp.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # IByteBuffer::Read method
 
-\[The **Read** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) interface provides similar functionality.\]
+\[The **Read** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) interface provides similar functionality.\]
 
 The **Read** method reads a specified number of bytes from the buffer object into memory starting at the current seek pointer.
 
@@ -101,7 +101,7 @@ printf("\n");
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -115,9 +115,4 @@ printf("\n");
 
 
  
-
- 
-
-
-
 

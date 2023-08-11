@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FloatColumnValue class"
 title: FloatColumnValue class
 TOCTitle: FloatColumnValue class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.FloatColumnValue
@@ -28,16 +29,16 @@ ROBOTS: INDEX,FOLLOW
 
 # FloatColumnValue class
 
-A [Single](https://docs.microsoft.com/dotnet/api/system.single?redirectedfrom=MSDN) column value.
+A [Single](/dotnet/api/system.single) column value.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
-  [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  
-    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Single](https://docs.microsoft.com/dotnet/api/system.single?redirectedfrom=MSDN)\>  
+[System.Object](/dotnet/api/system.object)  
+  [Microsoft.Isam.Esent.Interop.ColumnValue](./columnvalue-class.md)  
+    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](./columnvalueofstruct-t-class.md)\<[Single](/dotnet/api/system.single)\>  
       Microsoft.Isam.Esent.Interop.FloatColumnValue  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,7 +63,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[FloatColumnValue members](dn350882\(v=exchg.10\).md)
+[FloatColumnValue members](./floatcolumnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

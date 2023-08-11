@@ -1,5 +1,5 @@
 ---
-Description: Loads a string resource.
+description: Loads a string resource.
 ms.assetid: b6606f7a-6fc7-4772-9971-7a7e8c145e6c
 title: '_LoadString function'
 ms.topic: reference
@@ -20,7 +20,7 @@ api_location:
 
 \[This function is a wrapper over the **LoadString** function. This function may be altered or unavailable in the future. Applications should call **LoadString** directly.\]
 
-Loads a string resource. See [**LoadString**](https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx).
+Loads a string resource. See [**LoadString**](/windows/win32/api/winuser/nf-winuser-loadstringa).
 
 ## Syntax
 
@@ -44,7 +44,7 @@ int _LoadString(
 
 
 
-|                |                                                                                                                                                             |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Msmdun80.dll; </dt> <dt>Sqlunirl.dll</dt> </dl> |
 
@@ -54,13 +54,9 @@ int _LoadString(
 
 <dl> <dt>
 
-[**LoadString**](https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx)
+[**LoadString**](/windows/win32/api/winuser/nf-winuser-loadstringa)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: The CIMType qualifier contains text describing the type of a property.
+description: The CIMType qualifier contains text describing the type of a property.
 ms.assetid: ae65d4c7-2150-489b-a368-fb38c0d1b3be
 ms.tgt_platform: multiple
 title: CIMType Qualifier
@@ -26,7 +26,7 @@ The two exceptions are:
 -   [*Reference properties*](gloss-r.md), which have the type **CIM\_REFERENCE**, that contains the "REF:classname" value. The classname value describes the class type of the reference property.
 -   Embedded object properties, which have the **CIM\_OBJECT** type.
 
-Please note, however, that the **CIMType** qualifier can and should be used to type a reference property more exactly. For example, if the property always refers to instances of the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class, its **CIMType** qualifier should be set to:
+Please note, however, that the **CIMType** qualifier can and should be used to type a reference property more exactly. For example, if the property always refers to instances of the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class, its **CIMType** qualifier should be set to:
 
 
 ```mof
@@ -52,7 +52,7 @@ Because WMI allows more types than can be expressed by standard constants with t
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -73,9 +73,4 @@ Because WMI allows more types than can be expressed by standard constants with t
 </dt> </dl>
 
  
-
- 
-
-
-
 

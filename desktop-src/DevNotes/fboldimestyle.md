@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a non-color style has the bold style.
+description: Specifies whether a non-color style has the bold style.
 ms.assetid: fd34af7f-8847-43aa-9e69-264a08eba98b
 title: FBoldIMEStyle function
 ms.topic: reference
@@ -47,13 +47,13 @@ An **IMESTYLE** structure returned from the [**PIMEStyleFromAttr**](pimestylefro
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Imeshare.dll</dt> </dl> |
 
@@ -69,7 +69,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

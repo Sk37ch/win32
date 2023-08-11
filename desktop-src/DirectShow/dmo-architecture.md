@@ -1,12 +1,15 @@
 ---
-Description: DMO Architecture
+description: DMO Architecture
 ms.assetid: f74b2d0f-b40c-4598-97a4-9c1dc71bbb1a
 title: DMO Architecture
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # DMO Architecture
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This section describes the overall architecture of a DMO.
 
@@ -26,7 +29,7 @@ In the default DMO model, the client allocates separate input buffers and output
 
 Optionally, a DMO can support "in-place" processing. With in-place processing, the DMO writes the output directly into the input buffer, over the original data. In-place processing eliminates the need for separate buffers. On the other hand, it alters the original data, which may not be acceptable for some applications.
 
-The default (non-in-place) buffering model is supported through the [**IMediaObject**](/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediaobject) interface. All DMOs must implement this interface. If a DMO supports in-place processing, it also exposes the [**IMediaObjectInPlace**](/previous-versions/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobjectinplace) interface. The client is responsible for allocating all buffers, both input and output.
+The default (non-in-place) buffering model is supported through the [**IMediaObject**](/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediaobject) interface. All DMOs must implement this interface. If a DMO supports in-place processing, it also exposes the [**IMediaObjectInPlace**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobjectinplace) interface. The client is responsible for allocating all buffers, both input and output.
 
 ## Related topics
 

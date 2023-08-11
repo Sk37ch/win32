@@ -1,5 +1,5 @@
 ---
-Description: Defines a Mobile Broadband Profile.
+description: Defines a Mobile Broadband Profile.
 ms.assetid: bfec0a1d-de17-4ebd-b9fb-570e230da317
 title: Mobile Broadband Profile Schema Reference
 ms.topic: reference
@@ -19,11 +19,8 @@ The Mobile Broadband Profile Schema strictly enforces the order of the nodes. No
 -   [Mobile Broadband Profile Schema v1](mobile-broadband-profile-schema.md)
 -   [Mobile Broadband Profile Schema v2](mobile-broadband-profile-schema-v2.md)
 -   [Mobile Broadband Profile Schema v3](mobile-broadband-profile-schema-v3.md)
--   [Mobile Broadband Profile Schema v4](https://msdn.microsoft.com/library/Mt243438(v=VS.85).aspx)
+-   [Mobile Broadband Profile Schema v4](/previous-versions/windows/desktop/legacy/mt243438(v=vs.85))
 
  
 
  
-
-
-

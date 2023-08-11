@@ -1,5 +1,5 @@
 ---
-Description: Defines a Uniscribe font metric cache.
+description: Defines a Uniscribe font metric cache.
 ms.assetid: 56a98529-6ae9-4b71-bd7d-cf056a1e3683
 title: SCRIPT_CACHE (Usp10.h)
 ms.topic: reference
@@ -25,7 +25,7 @@ Many script functions take a combination of a hardware device context handle and
 
 The hardware device context handle can be passed to Uniscribe as **NULL**. If data required by Uniscribe is already cached, the device context is not accessed, and the operation continues normally.
 
-If the device context is passed as **NULL** and Uniscribe needs to access it for any reason, Uniscribe returns the error code E\_PENDING. This code is returned quickly, allowing the application to avoid time-consuming [**SelectObject**](https://msdn.microsoft.com/library/Dd162957(v=VS.85).aspx) calls.
+If the device context is passed as **NULL** and Uniscribe needs to access it for any reason, Uniscribe returns the error code E\_PENDING. This code is returned quickly, allowing the application to avoid time-consuming [**SelectObject**](/windows/win32/api/wingdi/nf-wingdi-selectobject) calls.
 
 ## Examples
 
@@ -49,7 +49,7 @@ if (hr == E_PENDING)
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
@@ -73,7 +73,3 @@ if (hr == E_PENDING)
  
 
  
-
-
-
-

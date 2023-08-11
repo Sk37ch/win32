@@ -1,5 +1,5 @@
 ---
-Description: Is a base class for all intrinsic events that relate to a class.
+description: Is a base class for all intrinsic events that relate to a class.
 ms.assetid: 554bbabd-2639-40f5-8786-6df2188db0ec
 ms.tgt_platform: multiple
 title: '__ClassOperationEvent class'
@@ -85,7 +85,7 @@ Access type: Read-only
 
 Unique value that indicates the time at which the event was generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Times (UTC) format. This property is inherited from [**\_\_Event**](--event.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> </dl>
 
@@ -105,7 +105,7 @@ Instances of **\_\_ClassOperationEvent** are not created; only instances of its 
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -117,7 +117,7 @@ Instances of **\_\_ClassOperationEvent** are not created; only instances of its 
 
 <dl> <dt>
 
-[**\_\_Event**](https://docs.microsoft.com/windows/desktop/WmiSdk/--event)
+[**\_\_Event**](/windows/desktop/WmiSdk/--event)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
@@ -127,9 +127,4 @@ Instances of **\_\_ClassOperationEvent** are not created; only instances of its 
 </dt> </dl>
 
  
-
- 
-
-
-
 

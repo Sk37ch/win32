@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ComputerSystemMappedIO class represents an association between a computer system and its available memory-mapped I/O ports.
+description: The CIM\_ComputerSystemMappedIO class represents an association between a computer system and its available memory-mapped I/O ports.
 ms.assetid: 5df9db36-67ad-4a94-a7db-150b58977af1
 ms.tgt_platform: multiple
 title: CIM_ComputerSystemMappedIO class
@@ -61,7 +61,7 @@ Data type: **CIM\_ComputerSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (GroupComponent)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) (GroupComponent)
 </dt> </dl>
 
 A [**CIM\_ComputerSystem**](cim-computersystem.md) that describes the computer system mapped to the I/O port.
@@ -79,7 +79,7 @@ Data type: **CIM\_MemoryMappedIO**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent"), [**Weak**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent"), [**Weak**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 A [**CIM\_MemoryMappedIO**](cim-memorymappedio.md) that describes a memory mapped I/O port of the computer system.
@@ -98,7 +98,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -116,9 +116,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

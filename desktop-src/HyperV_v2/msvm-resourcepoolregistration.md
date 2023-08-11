@@ -1,5 +1,5 @@
 ---
-Description: Registers a service that provides global resource pool-related objects.
+description: Registers a service that provides global resource pool-related objects.
 ms.assetid: B602F6E1-2889-43CF-AAF1-40F339231DB4
 title: Msvm_ResourcePoolRegistration class
 ms.topic: reference
@@ -73,13 +73,13 @@ A reference to an instance that describes a resource type supported by the servi
 
 ## Remarks
 
-Access to the **Msvm\_ResourcePoolRegistration** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_ResourcePoolRegistration** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -95,16 +95,11 @@ Access to the **Msvm\_ResourcePoolRegistration** class might be restricted by UA
 
 <dl> <dt>
 
-[**Msvm\_VirtualizationComponentRegistration**](https://docs.microsoft.com/windows/desktop/HyperV_v2/msvm-virtualizationcomponentregistration)
+[**Msvm\_VirtualizationComponentRegistration**](/windows/desktop/HyperV_v2/msvm-virtualizationcomponentregistration)
 </dt> <dt>
 
 [**Msvm\_VirtualizationComponentRegistration**](msvm-virtualizationcomponentregistration.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

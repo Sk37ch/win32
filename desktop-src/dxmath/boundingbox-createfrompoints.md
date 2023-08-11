@@ -1,5 +1,5 @@
 ---
-Description: Creates a BoundingBox from points.
+description: Creates a BoundingBox from points.
 ms.assetid: 3963b11a-2ade-4174-a5ff-fa57eb4d2f50
 title: BoundingBox.CreateFromPoints methods
 ms.topic: reference
@@ -23,8 +23,8 @@ Creates a BoundingBox from points.
 
 | Method                                                                                                                  | Description                                             |
 |:------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------|
-| [**BoundingBox::CreateFromPoints (BoundingBox&,XMVECTOR,XMVECTOR)**](https://msdn.microsoft.com/library/Hh437802(v=VS.85).aspx)                | Creates a BoundingBox from two points.<br/>       |
-| [**BoundingBox::CreateFromPoints (BoundingBox&,size\_t,const XMFLOAT3\*,size\_t)**](https://msdn.microsoft.com/library/Hh437781(v=VS.85).aspx) | Creates a BoundingBox from a list of points.<br/> |
+| [**BoundingBox::CreateFromPoints (BoundingBox&,XMVECTOR,XMVECTOR)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-createfrompoints)                | Creates a BoundingBox from two points.<br/>       |
+| [**BoundingBox::CreateFromPoints (BoundingBox&,size\_t,const XMFLOAT3\*,size\_t)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-createfrompoints(boundingbox__size_t_constxmfloat3_size_t)) | Creates a BoundingBox from a list of points.<br/> |
 
 
 
@@ -44,7 +44,3 @@ Creates a BoundingBox from points.
  
 
  
-
-
-
-

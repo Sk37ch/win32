@@ -1,5 +1,5 @@
 ---
-Description: Ends a scene.
+description: Ends a scene.
 ms.assetid: f721593e-6cba-4569-8276-6a4ffc0fc37a
 title: ID3DXRenderToSurface::EndScene method (D3dx9core.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT EndScene(
 *MipFilter* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Filter options, enumerated in [D3DX\_FILTER](d3dx-filter.md).
 
@@ -54,7 +54,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -74,7 +74,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

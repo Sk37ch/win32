@@ -1,5 +1,5 @@
 ---
-Description: Installs a catalog in a directory.
+description: Installs a catalog in a directory.
 ms.assetid: 9741f8e3-d9db-46cd-886d-587f332b0ab8
 title: InstallCatalog function
 ms.topic: reference
@@ -65,13 +65,13 @@ This function is not currently implemented, so it does not return an actual valu
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Setupapi.dll</dt> </dl> |
 
@@ -80,7 +80,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

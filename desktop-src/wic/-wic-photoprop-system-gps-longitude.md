@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.GPS.Longitude property.
+description: The photo metadata policy for the System.GPS.Longitude property.
 ms.assetid: 36539e20-d00c-4bbb-b9ee-1cf5e4b8df4b
 title: System.GPS.Longitude Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.Longitude Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.Longitude](https://msdn.microsoft.com/library/bb760566(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.Longitude](../properties/props-system-gps-longitude.md) property.
 
 ### PKEY
 
@@ -118,12 +118,9 @@ This value can be written by writing to System.GPS.LongitudeNumerator and System
 
 <dl> <dt>
 
-[System.GPS.Longitude](https://msdn.microsoft.com/library/bb760566(VS.85).aspx)
+[System.GPS.Longitude](../properties/props-system-gps-longitude.md)
 </dt> </dl>
 
  
 
  
-
-
-

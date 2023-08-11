@@ -1,5 +1,5 @@
 ---
-Description: Used to control the ambient light sensor brightness state.
+description: Used to control the ambient light sensor brightness state.
 ms.assetid: ff400d4e-be8c-450b-ad53-d43b0ab84ab3
 title: WmiSetALSBrightnessState method of the WmiMonitorBrightnessMethods class
 ms.topic: reference
@@ -43,13 +43,13 @@ ALS brightness state. False disables the ALS brightness override and true enable
 
 ## Return value
 
-Returns zero (0) to indicate success. Any other number indicates an error. For more information about error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum).
+Returns zero (0) to indicate success. Any other number indicates an error. For more information about error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum).
 
 ## Requirements
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
@@ -70,9 +70,4 @@ Returns zero (0) to indicate success. Any other number indicates an error. For m
 </dt> </dl>
 
  
-
- 
-
-
-
 

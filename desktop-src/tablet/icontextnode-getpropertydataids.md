@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the identifiers for which there is property data.
+description: Retrieves the identifiers for which there is property data.
 ms.assetid: c9c491b7-95e2-421a-8632-f65844cd5ef9
 title: IContextNode::GetPropertyDataIds method (IACom.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, use [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to release the memory from \**ppGuids* when you no longer need the information.
+> To avoid a memory leak, use [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to release the memory from \**ppGuids* when you no longer need the information.
 
  
 
@@ -66,7 +66,7 @@ This method returns the application-specific identifiers for property data that 
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -95,9 +95,4 @@ This method returns the application-specific identifiers for property data that 
 </dt> </dl>
 
  
-
- 
-
-
-
 

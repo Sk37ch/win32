@@ -1,22 +1,25 @@
 ---
-Description: Transforms a plane by a matrix. The input matrix is the inverse transpose of the actual transformation.
+description: D3DXPlaneTransform function (D3DX10Math.h) - Transforms a plane by a matrix. The input matrix is the inverse transpose of the actual transformation.
 ms.assetid: ded06eac-4086-47e8-bc55-c37959afc22d
 title: D3DXPlaneTransform function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXPlaneTransform
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXPlaneTransform function
+# D3DXPlaneTransform function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Transforms a plane by a matrix. The input matrix is the inverse transpose of the actual transformation.
 
@@ -40,7 +43,7 @@ D3DXPLANE* D3DXPlaneTransform(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXPLANE**](https://msdn.microsoft.com/library/Bb205385(v=VS.85).aspx)\***
+Type: **[**D3DXPLANE**](../direct3d9/d3dxplane.md)\***
 
 Pointer to the [**D3DXPLANE**](d3d10-d3dxplane.md) that contains the resulting transformed plane. See example.
 
@@ -49,7 +52,7 @@ Pointer to the [**D3DXPLANE**](d3d10-d3dxplane.md) that contains the resulting t
 *pP* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXPLANE**](https://msdn.microsoft.com/library/Bb205385(v=VS.85).aspx)\***
+Type: **const [**D3DXPLANE**](../direct3d9/d3dxplane.md)\***
 
 Pointer to the input D3DXPLANE structure, which contains the plane that will be transformed. The vector (a,b,c) that describes the plane must be normalized before this function is called. See example.
 
@@ -58,7 +61,7 @@ Pointer to the input D3DXPLANE structure, which contains the plane that will be 
 *pM* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **const [**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure, which contains the transformation values. This matrix must contain the inverse transpose of the transformation values.
 
@@ -66,7 +69,7 @@ Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure, which con
 
 ## Return value
 
-Type: **[**D3DXPLANE**](https://msdn.microsoft.com/library/Bb205385(v=VS.85).aspx)\***
+Type: **[**D3DXPLANE**](../direct3d9/d3dxplane.md)\***
 
 Pointer to a D3DXPLANE structure, representing the transformed plane. This is the same value returned in the pOut parameter so that this function can be used as a parameter for another function.
 
@@ -83,7 +86,7 @@ D3DXPLANE   plane(0,1,1,0);
 D3DXPlaneNormalize(&plane, &plane);
 
 D3DXMATRIX  matrix;
-D3DXMatrixScaling(&matrix, 1.0f,2.0f,3.0f); 
+D3DXMatrixScaling(&matrix, 1.0f,2.0f,3.0f);
 D3DXMatrixInverse(&matrix, NULL, &matrix);
 D3DXMatrixTranspose(&matrix, &matrix);
 D3DXPlaneTransform(&planeNew, &plane, &matrix);
@@ -99,7 +102,7 @@ The parameter pM contains the inverse transpose of the transformation matrix. Th
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -116,7 +119,3 @@ The parameter pM contains the inverse transpose of the transformation matrix. Th
  
 
  
-
-
-
-

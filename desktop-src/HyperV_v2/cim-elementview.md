@@ -1,5 +1,5 @@
 ---
-Description: Represents and association between a view, and an instance that represents the normalized view of a managed resource.
+description: Represents and association between a view, and an instance that represents the normalized view of a managed resource.
 ms.assetid: 9c6eb3d5-7366-4954-9e64-12f889c64114
 title: CIM_ElementView class
 ms.topic: reference
@@ -53,7 +53,7 @@ Data type: **CIM\_ManagedElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 The instance that represents the normalized view of the managed resource.
@@ -69,7 +69,7 @@ Data type: **CIM\_View**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The view that represents a de-normalized or aggregate view of the managed resource.
@@ -80,7 +80,7 @@ The view that represents a de-normalized or aggregate view of the managed resour
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -98,9 +98,4 @@ The view that represents a de-normalized or aggregate view of the managed resour
 </dt> </dl>
 
  
-
- 
-
-
-
 

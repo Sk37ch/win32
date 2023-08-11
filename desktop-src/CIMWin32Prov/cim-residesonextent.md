@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ResidesOnExtent class represents an association between a file system and the storage extent where it is located. Typically, a file system resides on a logical disk.
+description: The CIM\_ResidesOnExtent class represents an association between a file system and the storage extent where it is located. Typically, a file system resides on a logical disk.
 ms.assetid: 911a81e9-3032-41ff-a337-044c06d02307
 ms.tgt_platform: multiple
 title: CIM_ResidesOnExtent class
@@ -61,7 +61,7 @@ Data type: **CIM\_StorageExtent**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_StorageExtent**](cim-storageextent.md) that describes the storage extent.
@@ -77,7 +77,7 @@ Data type: **CIM\_FileSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_FileSystem**](cim-filesystem.md) that describes the file system that is located on the storage extent.
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -114,9 +114,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Creates a snapshot of a virtual machine.
+description: Creates a snapshot of a virtual machine.
 ms.assetid: 2de12fe7-5ec2-49d0-87ff-cd48c34fec46
 title: CreateSnapshot method of the Msvm_VirtualSystemSnapshotService class (Dbdaoint.h)
 ms.topic: reference
@@ -41,14 +41,14 @@ uint32 CreateSnapshot(
 *AffectedSystem* \[in\]
 </dt> <dd>
 
-A reference to a [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) class that represents the virtual machine to create a snapshot of.
+A reference to a [**CIM\_ComputerSystem**](/windows/desktop/CIMWin32Prov/cim-computersystem) class that represents the virtual machine to create a snapshot of.
 
 </dd> <dt>
 
 *SnapshotSettings* \[in\]
 </dt> <dd>
 
-A string that contains an embedded instance of a [**CIM\_SettingData**](https://docs.microsoft.com/previous-versions//cc136911(v=vs.85)) class that contains the parameter settings for the snapshot. This parameter is optional and may be an empty string.
+A string that contains an embedded instance of a [**CIM\_SettingData**](/previous-versions//cc136911(v=vs.85)) class that contains the parameter settings for the snapshot. This parameter is optional and may be an empty string.
 
 </dd> <dt>
 
@@ -98,14 +98,14 @@ Snapshot of virtual machine disks.
 *ResultingSnapshot* \[in, out\]
 </dt> <dd>
 
-A reference to a [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)) object that represents the resulting virtual machine snapshot.
+A reference to a [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)) object that represents the resulting virtual machine snapshot.
 
 </dd> <dt>
 
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -222,7 +222,7 @@ public static void CreateSnapshot(string vmName)
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -240,13 +240,8 @@ public static void CreateSnapshot(string vmName)
 [**Msvm\_VirtualSystemSnapshotService**](msvm-virtualsystemsnapshotservice.md)
 </dt> <dt>
 
-[**CreateVirtualSystemSnapshot (V1)**](https://docs.microsoft.com/previous-versions/windows/desktop/virtual/createvirtualsystemsnapshot-msvm-virtualsystemmanagementservice)
+[**CreateVirtualSystemSnapshot (V1)**](/previous-versions/windows/desktop/virtual/createvirtualsystemsnapshot-msvm-virtualsystemmanagementservice)
 </dt> </dl>
 
  
-
- 
-
-
-
 

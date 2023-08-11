@@ -1,5 +1,5 @@
 ---
-Description: Performs synchronous ink analysis.
+description: Performs synchronous ink analysis.
 ms.assetid: 957845f3-96b4-4184-aaec-e266cbe47e46
 title: IInkAnalyzer::Analyze method (IACom.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppStatus* when you no longer need to use the analysis status.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppStatus* when you no longer need to use the analysis status.
 
  
 
@@ -97,7 +97,7 @@ if (pAnalysisStatus != NULL)
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -129,9 +129,4 @@ if (pAnalysisStatus != NULL)
 </dt> </dl>
 
  
-
- 
-
-
-
 

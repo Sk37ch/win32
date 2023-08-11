@@ -1,5 +1,5 @@
 ---
-Description: Constructors exposed by XMUINT2.
+description: Constructors exposed by XMUINT2.
 ms.assetid: 0336dddd-e87c-4511-8030-9258b8fc3ecd
 title: XMUINT2 constructors (Directxmath.h)
 ms.date: 07/02/2019
@@ -10,7 +10,7 @@ ms.topic: reference
 
 Constructors exposed by `XMUINT2`.
 
-Constructs instances of the [**XMUINT2**](https://msdn.microsoft.com/library/Hh404745(v=VS.85).aspx) structure.
+Constructs instances of the [**XMUINT2**](/windows/win32/api/directxmath/ns-directxmath-xmuint2) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -21,47 +21,13 @@ Constructs instances of the [**XMUINT2**](https://msdn.microsoft.com/library/Hh4
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Constructor</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">[<strong>XMUINT2 ()</strong>](https://msdn.microsoft.com/library/Hh404746(v=VS.85).aspx)</td>
-<td style="text-align: left;">Default constructor for <code>XMUINT2</code>. <br/> Default constructor for [<strong>XMUINT2</strong>](https://msdn.microsoft.com/library/Hh404745(v=VS.85).aspx). <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">[<strong>XMUINT2 (const uint32_t*)</strong>](https://msdn.microsoft.com/library/Hh404748(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUINT2</code> from a two element <code>uint32_t</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMUINT2</strong>](https://msdn.microsoft.com/library/Hh404745(v=VS.85).aspx) from a from a two element <code>uint32_t</code> array argument. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">[<strong>XMUINT2 (uint32_t,uint32_t)</strong>](https://msdn.microsoft.com/library/Hh404747(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUINT2</code> from two <code>uint32_t</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMUINT2</strong>](https://msdn.microsoft.com/library/Hh404745(v=VS.85).aspx) from two <code>uint32_t</code> arguments. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Constructor | Description | 
+|-------------|-------------|
+| [<strong>XMUINT2 ()</strong>](/windows/win32/api/directxmath/nf-directxmath-xmuint2-xmuint2(constuint32_t)) | Default constructor for <code>XMUINT2</code>. <br /> Default constructor for [<strong>XMUINT2</strong>](/windows/win32/api/directxmath/ns-directxmath-xmuint2). <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| [<strong>XMUINT2 (const uint32_t*)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmuint2-xmuint2(constuint32_t)) | Initializes a new instance of <code>XMUINT2</code> from a two element <code>uint32_t</code> array argument. <br /> This constructor initializes a new instance of [<strong>XMUINT2</strong>](/windows/win32/api/directxmath/ns-directxmath-xmuint2) from a from a two element <code>uint32_t</code> array argument. <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+| [<strong>XMUINT2 (uint32_t,uint32_t)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmuint2-xmuint2(uint32_t_uint32_t)) | Initializes a new instance of <code>XMUINT2</code> from two <code>uint32_t</code> arguments. <br /> This constructor initializes a new instance of [<strong>XMUINT2</strong>](/windows/win32/api/directxmath/ns-directxmath-xmuint2) from two <code>uint32_t</code> arguments. <br /><blockquote>[!Note]<br />This constructor is only available under C++.</blockquote><br /> | 
+
 
 
 
@@ -69,7 +35,7 @@ This constructor is only available under C++.
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Directxmath.h</dt> </dl> |
 
@@ -85,13 +51,9 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMUINT2**](https://msdn.microsoft.com/library/Hh404745(v=VS.85).aspx)
+[**XMUINT2**](/windows/win32/api/directxmath/ns-directxmath-xmuint2)
 </dt> </dl>
 
  
 
  
-
-
-
-

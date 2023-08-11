@@ -1,5 +1,5 @@
 ---
-Description: Removes the access restriction on a range of bytes previously restricted by using IByteBuffer::LockRegion.
+description: Removes the access restriction on a range of bytes previously restricted by using IByteBuffer::LockRegion.
 ms.assetid: f2a1162e-7fc7-4a55-befb-0b017edb9fe2
 title: IByteBuffer::UnlockRegion method (Scardssp.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # IByteBuffer::UnlockRegion method
 
-\[The **UnlockRegion** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) interface provides similar functionality.\]
+\[The **UnlockRegion** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) interface provides similar functionality.\]
 
 The **UnlockRegion** method removes the access restriction on a range of bytes previously restricted by using [**IByteBuffer::LockRegion**](ibytebuffer-lockregion.md).
 
@@ -87,7 +87,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -101,9 +101,4 @@ if (FAILED(hr))
 
 
  
-
- 
-
-
-
 

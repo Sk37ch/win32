@@ -1,12 +1,15 @@
 ---
-Description: About Media Types
+description: Learn about media types in DirectShow. The media type is a universal and extensible way to describe digital media formats.
 ms.assetid: 9984ba36-4e43-4886-a073-34b330274c9c
 title: About Media Types (DirectShow)
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
-# About Media Types
+# About Media Types (DirectShow)
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Because DirectShow is modular, it requires a way to describe the format of the data at each point in the filter graph. For example, consider AVI playback. Data enters the graph as a stream of RIFF chunks. These are parsed into video and audio streams. The video stream consists of video frames, which are probably compressed. After decoding, the video stream is a series of uncompressed bitmaps. The audio stream goes through a similar process.
 
@@ -22,7 +25,7 @@ Media types are defined using the [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmi
 -   **Subtype**: The subtype is another GUID, which further defines the format. For example, within the video major type, there are subtypes for RGB-24, RGB-32, UYVY, and so forth. Within audio, there is PCM audio, MPEG-1 payload, and others. The subtype provides more information than the major type, but it does not define everything about the format. For example, video subtypes do not define the image size or the frame rate. These are defined by the format block, described below.
 -   **Format block**: The format block is a block of data that describes the format in detail. The format block is allocated separately from the [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) structure. The **pbFormat** member of the **AM\_MEDIA\_TYPE** structure points to the format block.
 
-    The **pbFormat** member is typed **void\*** because the layout of the format block changes depending on the media type. For example, PCM audio uses a [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx) structure. Video uses various structures, including [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) and [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2). The **formattype** member of the [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) structure is a GUID that specifies which structure is contained in the format block. Each format structure is assigned a GUID. The **cbFormat** member specifies the size of the format block. Always check these values before dereferencing the **pbFormat** pointer.
+    The **pbFormat** member is typed **void\*** because the layout of the format block changes depending on the media type. For example, PCM audio uses a [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85)) structure. Video uses various structures, including [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) and [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2). The **formattype** member of the [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) structure is a GUID that specifies which structure is contained in the format block. Each format structure is assigned a GUID. The **cbFormat** member specifies the size of the format block. Always check these values before dereferencing the **pbFormat** pointer.
 
 If the format block is filled in, then the major type and subtype contain redundant information. The major type and subtype, however, provide a convenient way to identify formats without a complete format block. For example, you can specify a generic 24-bit RGB format (MEDIASUBTYPE\_RGB24), without knowing all of the information required by the [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) structure, such as image size and frame rate.
 
@@ -81,6 +84,3 @@ The [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) str
  
 
  
-
-
-

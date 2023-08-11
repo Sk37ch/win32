@@ -1,5 +1,5 @@
 ---
-Description: Subscribes for service status change notifications using a callback function.
+description: Subscribes for service status change notifications using a callback function.
 ms.assetid: d67113eb-2141-444c-9f09-eaa772bcad8a
 title: SubscribeServiceChangeNotifications function (Winsvcp.h)
 ms.topic: reference
@@ -95,7 +95,7 @@ Returns a pointer to the subscription resulting from the notification callback r
 
 If the function succeeds, the return value is **ERROR\_SUCCESS**.
 
-If the function fails, the return value is one of the [system error codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+If the function fails, the return value is one of the [system error codes](/windows/desktop/Debug/system-error-codes).
 
 ## Remarks
 
@@ -120,7 +120,7 @@ The callback function must not block execution. If you expect the execution of t
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                   |
@@ -149,9 +149,4 @@ The callback function must not block execution. If you expect the execution of t
 </dt> </dl>
 
  
-
- 
-
-
-
 

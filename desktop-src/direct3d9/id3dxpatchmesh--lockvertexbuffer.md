@@ -1,5 +1,5 @@
 ---
-Description: Lock the vertex buffer.
+description: Lock the vertex buffer.
 ms.assetid: f7e4f27d-1b40-4b0d-8173-48a0b15cfc95
 title: ID3DXPatchMesh::LockVertexBuffer method (D3DX9Mesh.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT LockVertexBuffer(
 *flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Combination of zero or more locking flags that describe the type of lock to perform. For this method, the valid flags are:
 
@@ -56,7 +56,7 @@ For a description of the flags, see [D3DLOCK](d3dlock.md).
 *ppData* \[out, retval\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**LPVOID**](../winprog/windows-data-types.md)\***
 
 VOID\* pointer to a memory buffer containing the returned vertex data.
 
@@ -78,7 +78,7 @@ Patch meshes use 16-bit index buffers.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -95,7 +95,3 @@ Patch meshes use 16-bit index buffers.
  
 
  
-
-
-
-

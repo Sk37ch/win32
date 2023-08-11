@@ -1,5 +1,5 @@
 ---
-Description: Contains information about a RemoteFX physical graphics processing unit (GPU).
+description: Contains information about a RemoteFX physical graphics processing unit (GPU).
 ms.assetid: 86B47AAE-DBFF-43EF-88C6-44836D6C3AFA
 title: Msvm_PhysicalGPUInfo class
 ms.topic: reference
@@ -80,7 +80,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -93,7 +93,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -106,7 +106,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A display name for the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -119,7 +119,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MAXLEN**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1024)
+Qualifiers: [**MAXLEN**](/windows/desktop/WmiSdk/standard-qualifiers) (1024)
 </dt> </dl>
 
 The unique identifier of the physical GPU.
@@ -138,7 +138,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-A string that uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A string that uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -151,7 +151,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MAXLEN**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1024)
+Qualifiers: [**MAXLEN**](/windows/desktop/WmiSdk/standard-qualifiers) (1024)
 </dt> </dl>
 
 The display name of the physical GPU.
@@ -175,7 +175,7 @@ The total amount of video memory, in bytes, on the physical GPU that can be used
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -193,9 +193,4 @@ The total amount of video memory, in bytes, on the physical GPU that can be used
 </dt> </dl>
 
  
-
- 
-
-
-
 

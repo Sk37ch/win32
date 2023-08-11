@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the user releases a key while the InkEdit control has focus.
+description: Occurs when the user releases a key while the InkEdit control has focus.
 ms.assetid: 973d99f2-df09-4315-aaab-72877272100b
 title: InkEdit.KeyUp event (Inked.h)
 ms.topic: reference
@@ -58,13 +58,13 @@ If this event succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT
 
 ## Remarks
 
-This event method is defined in the **\_IInkEditEvents** interface. The **\_IInkEditEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IeeKeyUp.
+This event method is defined in the **\_IInkEditEvents** interface. The **\_IInkEditEvents** interface implements the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface with an identifier of DISPID\_IeeKeyUp.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -90,9 +90,4 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 </dt> </dl>
 
  
-
- 
-
-
-
 

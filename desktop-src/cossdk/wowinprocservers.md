@@ -1,5 +1,5 @@
 ---
-Description: Contains a list of the in-process servers registered with the system for 32-bit components on 64-bit computers. It contains an object for each component.
+description: Contains a list of the in-process servers registered with the system for 32-bit components on 64-bit computers. It contains an object for each component.
 ms.assetid: 4dbcf059-b09b-4a65-95c9-3a4735c252c3
 title: WOWInprocServers collection
 ms.topic: reference
@@ -22,7 +22,7 @@ This collection supports the [**Remove**](/windows/desktop/api/ComAdmin/nf-comad
 
 ## Members
 
-The **WOWInprocServers** collection inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
+The **WOWInprocServers** collection inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Related Collections
 
@@ -47,7 +47,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                           |
+| Entry | Value |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | A GUID for the component. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                  |
@@ -63,7 +63,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                  |
+| Entry | Value |
 |----------------|----------------------------------|
 | Description    | The file path for the component. |
 | Access         | ReadOnly                         |
@@ -79,7 +79,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                     |
+| Entry | Value |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | A name identifying the component. This property is returned when the [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                            |
@@ -101,6 +101,3 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
  
 
  
-
-
-

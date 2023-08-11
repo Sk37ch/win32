@@ -1,5 +1,5 @@
 ---
-Description: Sometimes you may need to install a newer version of a provider onto a running system.
+description: Sometimes you may need to install a newer version of a provider onto a running system.
 ms.assetid: 44c4c16a-fd79-483a-81ef-a0f74a2cdf45
 ms.tgt_platform: multiple
 title: Updating a Provider
@@ -38,7 +38,7 @@ The following procedure describes how to update a provider.
 
         For example, use the **regsvr32** **/umyprov.dll** command to unregister the old DLL.
 
-    2.  Mark the old DLL to be deleted on reboot by calling [**MoveFileEx**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefileexa).
+    2.  Mark the old DLL to be deleted on reboot by calling [**MoveFileEx**](/windows/desktop/api/winbase/nf-winbase-movefileexa).
 
 You can take similar steps to upgrade a local server-implemented provider.
 
@@ -58,6 +58,3 @@ You can take similar steps to upgrade a local server-implemented provider.
  
 
  
-
-
-

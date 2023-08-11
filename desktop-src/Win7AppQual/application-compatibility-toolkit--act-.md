@@ -1,18 +1,23 @@
 ---
-Description: Application Compatibility Toolkit (ACT)
+description: Application Compatibility Toolkit (ACT)
 ms.assetid: 9e288a0e-3978-4fd6-b3a7-b36c1bb2b18b
 title: Application Compatibility Toolkit (ACT)
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 06/12/2020
 ---
 
 # Application Compatibility Toolkit (ACT)
 
+> [!IMPORTANT]
+> The Application Compatibility Toolkit versions covered in this article are no longer supported. The last supported version is included in the [Windows 10 Assessment and Deployment Kit](/archive/blogs/yongrhee/download-windows-10-assessment-and-deployment-kit-adk)
+
 ## Affected Platforms
 
-<dl> **Clients:** Windows XP \| Windows Vista \| Windows 7  
+**Clients:** Windows XP \| Windows Vista \| Windows 7  
+
+
 **Servers:** Windows Server 2003 \| Windows Server 2008 \| Windows Server 2008 R2  
-</dl>
+
 
 ## Description
 
@@ -33,14 +38,11 @@ With the ACT, you can:
 
 ## Links to Other Resources
 
--   [Application Compatibility Toolkit Download](https://www.microsoft.com/downloads/details.aspx?FamilyId=24DA89E9-B581-47B0-B45E-492DD6DA2971)
--   [Introduction to the Application Compatibility Toolkit](https://technet.microsoft.com/library/cc722367(WS.10).aspx)
--   [Application Compatibility Toolkit Technical Reference](https://technet.microsoft.com/library/cc749328.aspx)
--   [ACT Walkthrough Exercises](https://technet.microsoft.com/library/cc766493.aspx)
+-   [Application Compatibility Toolkit Download](/archive/blogs/yongrhee/download-windows-10-assessment-and-deployment-kit-adk)
+-   [Introduction to the Application Compatibility Toolkit](/previous-versions/windows/it-pro/windows-7/cc722367(v=ws.10))
+-   [Application Compatibility Toolkit Technical Reference](/previous-versions/windows/it-pro/windows-7/cc749328(v=ws.10))
+-   [ACT Walkthrough Exercises](/previous-versions/windows/it-pro/windows-7/cc766493(v=ws.10))
 
  
 
  
-
-
-

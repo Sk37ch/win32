@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Conversions.CompareOptionsFromLCMapFlags method"
 title: Conversions.CompareOptionsFromLCMapFlags method 
 TOCTitle: 'CompareOptionsFromLCMapFlags method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Conversions.CompareOptionsFromLCMapFlags(System.UInt32)
@@ -32,7 +33,7 @@ Given flags for LCMapFlags, turn them into compare options. Unknown options are 
 
 This API is not CLS-compliant. 
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -60,22 +61,21 @@ public static CompareOptions CompareOptionsFromLCMapFlags(
 #### Parameters
 
   - lcmapFlags  
-    Type: [System.UInt32](https://docs.microsoft.com/dotnet/api/system.uint32?redirectedfrom=MSDN)  
+    Type: [System.UInt32](/dotnet/api/system.uint32)  
     
     LCMapString flags.
 
 #### Return value
 
-Type: [System.Globalization.CompareOptions](https://docs.microsoft.com/dotnet/api/system.globalization.compareoptions?redirectedfrom=MSDN)  
+Type: [System.Globalization.CompareOptions](/dotnet/api/system.globalization.compareoptions)  
 CompareOptions describing the (known) flags.  
 
 ## See also
 
 #### Reference
 
-[Conversions class](dn334230\(v=exchg.10\).md)
+[Conversions class](./conversions-class.md)
 
-[Conversions members](dn334184\(v=exchg.10\).md)
+[Conversions members](./conversions-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

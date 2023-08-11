@@ -1,5 +1,5 @@
 ---
-Description: In some environments, a user is not automatically alerted to an offering call, such as by ringing or by a message on their computer screen.
+description: In some environments, a user is not automatically alerted to an offering call, such as by ringing or by a message on their computer screen.
 ms.assetid: 50684e2a-0799-458b-9402-0958e35026d7
 title: Accept
 ms.topic: article
@@ -14,11 +14,8 @@ If the current service provider supports it, the application has the option to s
 
 Not all service providers support use of this operation.
 
-**TAPI 2.x:** See [**lineAccept**](https://msdn.microsoft.com/library/ms734922(v=VS.85).aspx).
+**TAPI 2.x:** See [**lineAccept**](/windows/win32/api/tapi/nf-tapi-lineaccept).
 
  
 
  
-
-
-

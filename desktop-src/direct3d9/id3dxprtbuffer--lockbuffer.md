@@ -1,5 +1,5 @@
 ---
-Description: Locks a range of vertex or texel sample data and obtains a pointer to the location in buffer memory.
+description: Locks a range of vertex or texel sample data and obtains a pointer to the location in buffer memory.
 ms.assetid: 8de2725f-507e-41ee-828d-2fb19cc2252c
 title: ID3DXPRTBuffer::LockBuffer method (D3DX9Mesh.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ HRESULT LockBuffer(
 *Start* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Index of the sample of vertex or texel data.
 
@@ -49,7 +49,7 @@ Index of the sample of vertex or texel data.
 *NumSamples* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of vertices (or texels) sampled.
 
@@ -58,7 +58,7 @@ Number of vertices (or texels) sampled.
 *ppData* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\*\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\*\***
 
 Pointer to the location in memory where the Start sample begins. The memory layout of the buffer data is:
 
@@ -83,7 +83,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -109,7 +109,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
  
 
  
-
-
-
-

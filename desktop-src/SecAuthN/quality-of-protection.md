@@ -1,5 +1,5 @@
 ---
-Description: The quality of protection, identified by the qop directive, is first specified by the server in the Digest challenge, and then confirmed by the client in the challenge response.
+description: The quality of protection, identified by the qop directive, is first specified by the server in the Digest challenge, and then confirmed by the client in the challenge response.
 ms.assetid: bee4236c-69e5-4281-a6b3-be316bac0a11
 title: Quality of Protection
 ms.topic: article
@@ -17,7 +17,7 @@ The possible values for the qop directive are described in the following table.
 | Value                   | Description                                                                                                                                  |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | "auth"                  | Authentication only.                                                                                                                         |
-| "auth-int"              | Authentication and [*integrity*](https://msdn.microsoft.com/library/ms721588(v=VS.85).aspx) checking using signatures.                  |
+| "auth-int"              | Authentication and [*integrity*](../secgloss/i-gly.md) checking using signatures.                  |
 | (SASL only) "auth-conf" | Authentication, integrity and confidentiality checking by using signatures and encryption. For more information, see [Ciphers](ciphers.md). |
 
 
@@ -52,6 +52,3 @@ For additional client-related information, see [Generating the Digest Challenge 
  
 
  
-
-
-

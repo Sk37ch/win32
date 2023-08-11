@@ -1,5 +1,5 @@
 ---
-Description: Deletes the logical audio or video codec file (or directory) specified in the object path.
+description: Deletes the logical audio or video codec file (or directory) specified in the object path.
 ms.assetid: 70233615-8924-4bd4-8a20-279a18b5c807
 ms.tgt_platform: multiple
 title: Delete method of the Win32_CodecFile class
@@ -18,9 +18,9 @@ api_location:
 
 # Delete method of the Win32\_CodecFile class
 
-The **Delete** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method deletes the logical audio or video codec file (or directory) specified in the object path.
+The **Delete** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method deletes the logical audio or video codec file (or directory) specified in the object path.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -136,7 +136,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -150,16 +150,11 @@ A parameter specified is not valid.
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_CodecFile**](win32-codecfile.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

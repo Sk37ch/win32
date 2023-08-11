@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates a thumbnail toolbar, an active toolbar control embedded in a window's thumbnail preview, used to provide access to a window's key commands without making the user restore or activate the application's window.
+description: Demonstrates a thumbnail toolbar, an active toolbar control embedded in a window's thumbnail preview, used to provide access to a window's key commands without making the user restore or activate the application's window.
 title: Taskbar Thumbnail Toolbar Sample
 ms.topic: article
 ms.date: 05/31/2018
@@ -48,20 +48,9 @@ This sample shows how to provide a simple toolbar to a taskbar thumbnail preview
 
 ## Downloading the Sample
 
-This sample is available in the following locations.
-
-
-
 | Location      | Path URL                                                                                             |
 |---------------|------------------------------------------------------------------------------------------------------|
-| Code Gallery  | [Windows Shell Integration Samples on Code Gallery](https://code.msdn.microsoft.com/shellintegration) |
-| Windows 7 SDK | [Download Windows 7 SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)                            |
-
-
-
- 
-
-In the case of the Windows SDK, once you have downloaded and installed it, you will find the samples in the installed directory. For example, use of the default installation path for the Windows 7 SDK results in this sample being placed under `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\WinUI\Shell\AppShellIntegration\TaskbarThumbnailToolbar`.
+| GitHub  | [TaskbarThumbnailToolbar sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/appshellintegration/TaskbarThumbnailToolbar) |
 
 ## Building the Sample
 

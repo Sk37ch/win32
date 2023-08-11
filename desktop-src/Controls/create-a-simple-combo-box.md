@@ -30,7 +30,7 @@ This topic describes how to create, add items to, and retrieve items from a simp
 
 ### Step 1: Create an instance of the combo box.
 
-The example application calls the [**CreateWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa) function to create a child window of the application window. The [**WC\_COMBOBOX**](common-control-window-classes.md) window style specifies that it is a combo box.
+The example application calls the [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) function to create a child window of the application window. The [**WC\_COMBOBOX**](common-control-window-classes.md) window style specifies that it is a combo box.
 
 
 ```C++
@@ -92,7 +92,7 @@ SendMessage(hWndComboBox, CB_SETCURSEL, (WPARAM)2, (LPARAM)0);
 
 ### Step 3: Detect when the user selects an item and retrieve it from the combo box.
 
-When the user makes a selection from the list, the combo box sends a [CBN\_SELCHANGE](cbn-selchange.md) notification to the parent window via a [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message. The application retrieves the handle to the combo box from the *lParam* field of the notification message and sends a [**CB\_GETCURSEL**](cb-getcursel.md) message to the combo box to retrieve the index of the selected list item. After obtaining the item index, the application sends a [**CB\_GETLBTEXT**](cb-getlbtext.md) message to get the item. It then displays the item in a message box.
+When the user makes a selection from the list, the combo box sends a [CBN\_SELCHANGE](cbn-selchange.md) notification to the parent window via a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message. The application retrieves the handle to the combo box from the *lParam* field of the notification message and sends a [**CB\_GETCURSEL**](cb-getcursel.md) message to the combo box to retrieve the index of the selected list item. After obtaining the item index, the application sends a [**CB\_GETLBTEXT**](cb-getlbtext.md) message to get the item. It then displays the item in a message box.
 
 > [!Note]  
 > The [CBN\_SELCHANGE](cbn-selchange.md) notification is sent and processed before the item is placed in the combo box selection field. As result, in this example, the selected item won't appear in selection field until after the message box is closed.
@@ -113,8 +113,8 @@ switch (message)
         { 
             int ItemIndex = SendMessage((HWND) lParam, (UINT) CB_GETCURSEL, 
                 (WPARAM) 0, (LPARAM) 0);
-            TCHAR  ListItem[256];
-            (TCHAR) SendMessage((HWND) lParam, (UINT) CB_GETLBTEXT, 
+                TCHAR  ListItem[256];
+                (TCHAR) SendMessage((HWND) lParam, (UINT) CB_GETLBTEXT, 
                 (WPARAM) ItemIndex, (LPARAM) ListItem);
             MessageBox(hwnd, (LPCWSTR) ListItem, TEXT("Item Selected"), MB_OK);                        
         }
@@ -245,7 +245,7 @@ int WINAPI WinMain(
 *                                                                 *
 *  DemoApp::DemoApp constructor                                   *
 *                                                                 *
-*  Initialize member data.                                         *
+*  Initialize member data.                                        *
 *                                                                 *
 ******************************************************************/
 
@@ -285,7 +285,7 @@ HRESULT DemoApp::Initialize()
     wcex.hbrBackground = (HBRUSH)(COLOR_WINDOW+1);;
     wcex.lpszMenuName  = NULL;
     wcex.hCursor       = LoadCursor(NULL, IDC_ARROW);
-    wcex.lpszClassName = TEXT(&quot;DemoApp&quot;);
+    wcex.lpszClassName = TEXT("DemoApp");
 
     RegisterClassEx(&wcex);
 
@@ -304,8 +304,8 @@ HRESULT DemoApp::Initialize()
     }
 
     m_hwnd = CreateWindow(
-        TEXT(&quot;DemoApp&quot;),
-        TEXT(&quot;Simple Combo Box Example&quot;),
+        TEXT("DemoApp"),
+        TEXT("Simple Combo Box Example"),
         WS_OVERLAPPEDWINDOW,
         CW_USEDEFAULT,
         CW_USEDEFAULT,
@@ -337,7 +337,7 @@ HRESULT DemoApp::Initialize()
      int nheight = 200;         // Height of the window
      HWND hwndParent =  m_hwnd; // Handle to the parent window
 
-     HWND hWndComboBox = CreateWindow(WC_COMBOBOX, TEXT(&quot;&quot;), 
+     HWND hWndComboBox = CreateWindow(WC_COMBOBOX, TEXT(""), 
          CBS_DROPDOWN | CBS_HASSTRINGS | WS_CHILD | WS_OVERLAPPED | WS_VISIBLE,
          xpos, ypos, nwidth, nheight, hwndParent, NULL, HINST_THISCOMPONENT,
          NULL);
@@ -349,9 +349,9 @@ HRESULT DemoApp::Initialize()
 
     TCHAR Planets[9][10] =  
     {
-        TEXT(&quot;Mercury&quot;), TEXT(&quot;Venus&quot;), TEXT(&quot;Terra&quot;), TEXT(&quot;Mars&quot;), 
-        TEXT(&quot;Jupiter&quot;), TEXT(&quot;Saturn&quot;), TEXT(&quot;Uranus&quot;), TEXT(&quot;Neptune&quot;), 
-        TEXT(&quot;Pluto??&quot;) 
+        TEXT("Mercury"), TEXT("Venus"), TEXT("Terra"), TEXT("Mars"), 
+        TEXT("Jupiter"), TEXT("Saturn"), TEXT("Uranus"), TEXT("Neptune"), 
+        TEXT("Pluto??") 
     };
            
     TCHAR A[16]; 
@@ -376,7 +376,7 @@ HRESULT DemoApp::Initialize()
 
 /******************************************************************
 *                                                                 *
-*  The main window&#39;s message loop.                                *
+*  The main window's message loop.                                *
 *                                                                 *
 ******************************************************************/
 
@@ -394,7 +394,7 @@ void DemoApp::RunMessageLoop()
 
 /******************************************************************
 *                                                                 *
-*  The window&#39;s message handler.                                  *
+*  The window's message handler.                                  *
 *                                                                 *
 ******************************************************************/
 
@@ -439,10 +439,10 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
                     { 
                         int ItemIndex = SendMessage((HWND) lParam, (UINT) CB_GETCURSEL, 
                             (WPARAM) 0, (LPARAM) 0);
-                        TCHAR  ListItem[256];
-                        (TCHAR) SendMessage((HWND) lParam, (UINT) CB_GETLBTEXT, 
+                            TCHAR  ListItem[256];
+                            (TCHAR) SendMessage((HWND) lParam, (UINT) CB_GETLBTEXT, 
                             (WPARAM) ItemIndex, (LPARAM) ListItem);
-                        MessageBox(hwnd, (LPCWSTR) ListItem, TEXT(&quot;Item Selected&quot;), MB_OK);                        
+                        MessageBox(hwnd, (LPCWSTR) ListItem, TEXT("Item Selected"), MB_OK);                        
                     }
                     
                     wasHandled = true;
@@ -496,7 +496,3 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
  
 
  
-
-
-
-

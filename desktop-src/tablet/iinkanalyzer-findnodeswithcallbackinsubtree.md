@@ -1,5 +1,5 @@
 ---
-Description: Retrieves all of the IContextNode objects that match the specified criteria and are descendants of the specified IContextNode object.
+description: Retrieves all of the IContextNode objects that match the specified criteria and are descendants of the specified IContextNode object.
 ms.assetid: 48d0ae97-c4a5-458d-b4c0-fa82f5aed4e5
 title: IInkAnalyzer::FindNodesWithCallBackInSubTree method (IACom.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppContextNodesFound* when you no longer need to use the object.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppContextNodesFound* when you no longer need to use the object.
 
  
 
@@ -76,7 +76,7 @@ If the [**IInkAnalyzer**](iinkanalyzer.md) contains no such [**IContextNode**](i
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -120,9 +120,4 @@ If the [**IInkAnalyzer**](iinkanalyzer.md) contains no such [**IContextNode**](i
 </dt> </dl>
 
  
-
- 
-
-
-
 

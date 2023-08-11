@@ -1,5 +1,5 @@
 ---
-Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: d426673b-dea2-4f8b-9259-6a17543f70c0
 ms.tgt_platform: multiple
@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# P
+# P (WMI)
 
 [A](gloss-a.md) B [C](gloss-c.md) [D](gloss-d.md) [E](gloss-e.md) [F](gloss-f.md) G [H](gloss-h.md) [I](gloss-i.md) J [K](gloss-k.md) [L](gloss-l.md) [M](gloss-m.md) [N](gloss-n.md) [O](gloss-o.md) P [Q](gloss-q.md) [R](gloss-r.md) [S](gloss-s.md) [T](gloss-t.md) U V [W](gloss-w.md) X Y Z
 
@@ -17,14 +17,14 @@ ms.date: 05/31/2018
 <span id="wmi.gloss_performance_counter"></span><span id="WMI.GLOSS_PERFORMANCE_COUNTER"></span>**performance counter**
 </dt> <dd>
 
-A property in a performance class that is derived from [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata) that stores performance data.
+A property in a performance class that is derived from [**Win32\_PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata) that stores performance data.
 
 </dd> <dt>
 
 <span id="wmi.gloss_performance_object"></span><span id="WMI.GLOSS_PERFORMANCE_OBJECT"></span>**performance object**
 </dt> <dd>
 
-An object in a performance library that stores data in counters. These objects are visible in the [*System Monitor*](gloss-s.md) utility. Examples are Cache and Logical Disk objects. When transferred into WMI by the [*ADAP*](gloss-a.md) process, each object becomes two WMI performance classes. One class, containing raw data, derives from [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata). The other class derives from [**Win32\_PerfFormattedData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfformatteddata) and contains the same data visible in System Monitor as calculated by the Cooked Counter provider.
+An object in a performance library that stores data in counters. These objects are visible in the [*System Monitor*](gloss-s.md) utility. Examples are Cache and Logical Disk objects. When transferred into WMI by the [*ADAP*](gloss-a.md) process, each object becomes two WMI performance classes. One class, containing raw data, derives from [**Win32\_PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata). The other class derives from [**Win32\_PerfFormattedData**](/windows/desktop/CIMWin32Prov/win32-perfformatteddata) and contains the same data visible in System Monitor as calculated by the Cooked Counter provider.
 
 </dd> <dt>
 
@@ -73,6 +73,3 @@ A method that a WMI *provider* implements.
  
 
  
-
-
-

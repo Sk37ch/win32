@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SettingContext class associates configuration objects with setting objects.
+description: The CIM\_SettingContext class associates configuration objects with setting objects.
 ms.assetid: 8ed7e150-b4e6-4fd4-809b-32e870b559c4
 ms.tgt_platform: multiple
 title: CIM_SettingContext class
@@ -61,7 +61,7 @@ Data type: **CIM\_Configuration**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 Reference to the configuration object that aggregates the setting.
@@ -91,7 +91,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -102,9 +102,4 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
  
-
- 
-
-
-
 

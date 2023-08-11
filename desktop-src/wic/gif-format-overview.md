@@ -1,5 +1,5 @@
 ---
-Description: This topic provides information about the native GIF codec available through the Windows Imaging Component (WIC).
+description: This topic provides information about the native GIF codec available through the Windows Imaging Component (WIC).
 ms.assetid: CAEC8F92-8971-42B4-BED8-A6A93522D11E
 title: GIF Format Overview
 ms.topic: article
@@ -16,7 +16,7 @@ The following table provides codec identification information.
 
 
 
-|                        |                                       |
+|  Component             | Description                           |
 |------------------------|---------------------------------------|
 | Formal Name(s)         | Graphics Interchange Format 89a (GIF) |
 | File Name Extension(s) | gif                                   |
@@ -47,9 +47,9 @@ The WIC encoding API are designed to be codec-independent and image encoding for
 
 ### Encoder Options
 
-WIC-enabled codecs differ at the encoding option level. Encoder options reflect the capabilities of an image encoder and each native codec supports a set of these encoder options. Encoder options can be basic WIC supported options available to all WIC enabled codes (though not necessarily supported) or codec-specific options designed by the image format codec. To manage these encoding options during the encoding process, WIC uses the [**IPropertyBag2**](https://msdn.microsoft.com/library/Aa768192(v=VS.85).aspx) interface . For more information about using the **IPropertyBag2** interface for WIC encoding , see the [Encoding Overview](-wic-creating-encoder.md).
+WIC-enabled codecs differ at the encoding option level. Encoder options reflect the capabilities of an image encoder and each native codec supports a set of these encoder options. Encoder options can be basic WIC supported options available to all WIC enabled codes (though not necessarily supported) or codec-specific options designed by the image format codec. To manage these encoding options during the encoding process, WIC uses the [**IPropertyBag2**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85)) interface . For more information about using the **IPropertyBag2** interface for WIC encoding , see the [Encoding Overview](-wic-creating-encoder.md).
 
-The GIF encoder does not support any basic WIC options and does not provide custom encoder options. If an encoder option is in the [**IPropertyBag2**](https://msdn.microsoft.com/library/Aa768192(v=VS.85).aspx) option list, it is ignored.
+The GIF encoder does not support any basic WIC options and does not provide custom encoder options. If an encoder option is in the [**IPropertyBag2**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85)) option list, it is ignored.
 
 ## Decoding
 
@@ -58,6 +58,3 @@ The WIC decoding API are designed to be codec-independent and image decoding for
  
 
  
-
-
-

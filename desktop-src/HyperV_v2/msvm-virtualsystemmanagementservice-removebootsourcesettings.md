@@ -1,5 +1,5 @@
 ---
-Description: Removes virtual resource settings from a virtual system configuration.
+description: RemoveBootSourceSettings method of the Msvm_VirtualSystemManagementService class - Removes virtual resource settings from a virtual system configuration.
 ms.assetid: 0deb7719-e605-4ba5-9bb2-037d0cafee24
 title: RemoveBootSourceSettings method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -47,7 +47,7 @@ Reference to an array of [**CIM\_SettingData**](cim-settingdata.md) that describ
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -91,7 +91,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -109,9 +109,4 @@ This method returns one of the following values:
 </dt> </dl>
 
  
-
- 
-
-
-
 

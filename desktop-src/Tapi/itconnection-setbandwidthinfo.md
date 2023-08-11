@@ -1,5 +1,5 @@
 ---
-Description: The SetBandwidthInfo method sets the bandwidth information.
+description: The SetBandwidthInfo method sets the bandwidth information.
 ms.assetid: bf5db456-ea67-4a65-a681-df0741f73fc9
 title: ITConnection::SetBandwidthInfo method (Sdpblb.h)
 ms.topic: reference
@@ -62,13 +62,13 @@ This method can return one of these values.
 
 ## Remarks
 
-The application must use [**SysAllocString**](https://msdn.microsoft.com/library/ms221458(v=VS.71).aspx) to allocate memory for the *pModifier* parameter and use [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the memory when the variable is no longer needed.
+The application must use [**SysAllocString**](/windows/win32/api/oleauto/nf-oleauto-sysallocstring) to allocate memory for the *pModifier* parameter and use [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) to free the memory when the variable is no longer needed.
 
 Reference: RFC 2327.
 
 The bandwidth modifier will normally be either CT or AS:
 
-**CT Conference Total:** An implicit maximum bandwidth is associated with each [*time to live*](../tapi2/t_tapgloss.md) (TTL) on the Mbone or within a particular multicast administrative scope region (the Mbone bandwidth versus TTL limits are given in the MBone FAQ). If the bandwidth of a session or media in a session is different from the bandwidth implicit from the scope, a \`b=CT:...' line should be supplied for the session giving the proposed upper limit to the bandwidth used. The primary purpose of this is to give an approximate idea as to whether two or more conferences can coexist simultaneously.
+**CT Conference Total:** An implicit maximum bandwidth is associated with each [*time to live*](t-tapgloss.md) (TTL) on the Mbone or within a particular multicast administrative scope region (the Mbone bandwidth versus TTL limits are given in the MBone FAQ). If the bandwidth of a session or media in a session is different from the bandwidth implicit from the scope, a \`b=CT:...' line should be supplied for the session giving the proposed upper limit to the bandwidth used. The primary purpose of this is to give an approximate idea as to whether two or more conferences can coexist simultaneously.
 
 **AS Application-Specific Maximum:** The bandwidth is interpreted to be application-specific, i.e., will be the application's concept of maximum bandwidth. Normally this will coincide with what is set on the application's "maximum bandwidth" control, if applicable.
 
@@ -80,7 +80,7 @@ Note that CT gives a total bandwidth figure for all the media at all sites. AS g
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |
@@ -97,9 +97,4 @@ Note that CT gives a total bandwidth figure for all the media at all sites. AS g
 </dt> </dl>
 
  
-
- 
-
-
-
 

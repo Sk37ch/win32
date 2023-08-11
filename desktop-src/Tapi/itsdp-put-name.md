@@ -1,5 +1,5 @@
 ---
-Description: The put\_Name method sets the session name.
+description: The put\_Name method sets the session name.
 ms.assetid: aba05cdb-a870-490e-8bb0-98b11780b112
 title: ITSdp::put_Name method (Sdpblb.h)
 ms.topic: reference
@@ -54,13 +54,13 @@ This method can return one of these values.
 
 ## Remarks
 
-The application must use [**SysAllocString**](https://msdn.microsoft.com/library/ms221458(v=VS.71).aspx) to allocate memory for the *pName* parameter and use [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the memory when the variable is no longer needed.
+The application must use [**SysAllocString**](/windows/win32/api/oleauto/nf-oleauto-sysallocstring) to allocate memory for the *pName* parameter and use [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) to free the memory when the variable is no longer needed.
 
 ## Requirements
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |
@@ -80,9 +80,4 @@ The application must use [**SysAllocString**](https://msdn.microsoft.com/library
 </dt> </dl>
 
  
-
- 
-
-
-
 

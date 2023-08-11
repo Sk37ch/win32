@@ -1,5 +1,5 @@
 ---
-Description: The MP3 file source parses MP3 files.
+description: The MP3 file source parses MP3 files.
 ms.assetid: 37362642-1b8a-4fb3-950d-ed1afe3696e5
 title: MP3 File Source
 ms.topic: reference
@@ -38,7 +38,7 @@ The media type offered by the MP3 file source contains the following attributes.
 | [**MF\_MT\_AUDIO\_BLOCK\_ALIGNMENT**](mf-mt-audio-block-alignment-attribute.md)             | Equal to 1.                                                                                                                                        |
 | [**MF\_MT\_AUDIO\_NUM\_CHANNELS**](mf-mt-audio-num-channels-attribute.md)                   | Number of audio channels.                                                                                                                          |
 | [**MF\_MT\_AUDIO\_SAMPLES\_PER\_SECOND**](mf-mt-audio-samples-per-second-attribute.md)      | Number of audio samples per second.                                                                                                                |
-| [**MF\_MT\_USER\_DATA**](mf-mt-user-data-attribute.md)                                      | Contains the portion of a [**MPEGLAYER3WAVEFORMAT**](https://msdn.microsoft.com/library/Dd390710(v=VS.85).aspx) structure that appears after the **wfx** member of the structure. |
+| [**MF\_MT\_USER\_DATA**](mf-mt-user-data-attribute.md)                                      | Contains the portion of a [**MPEGLAYER3WAVEFORMAT**](/windows/win32/api/mmreg/ns-mmreg-mpeglayer3waveformat) structure that appears after the **wfx** member of the structure. |
 
 
 
@@ -46,7 +46,7 @@ The media type offered by the MP3 file source contains the following attributes.
 
 ## Interfaces
 
-The MP3 file source exposes the following interfaces through [**QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx):
+The MP3 file source exposes the following interfaces through [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)):
 
 -   [**IMFGetService**](/windows/desktop/api/mfidl/nn-mfidl-imfgetservice)
 -   [**IMFMediaEventGenerator**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator)
@@ -56,41 +56,14 @@ In addition, it exposes the following interfaces through [**IMFGetService**](/wi
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Service GUID</th>
-<th>Interface</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>MF_METADATA_PROVIDER_SERVICE</strong></td>
-<td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfmetadataprovider"><strong>IMFMetadataProvider</strong></a></td>
-</tr>
-<tr class="even">
-<td><strong>MF_PROPERTY_HANDLER_SERVICE</strong></td>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore"><strong>IPropertyStore</strong></a>
-<blockquote>
-[!Note]<br />
-See <a href="shell-metadata-providers.md">Shell Metadata Providers</a>.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><strong>MF_RATE_CONTROL_SERVICE</strong></td>
-<td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfratecontrol"><strong>IMFRateControl</strong></a></td>
-</tr>
-<tr class="even">
-<td><strong>MF_RATE_CONTROL_SERVICE</strong></td>
-<td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfratesupport"><strong>IMFRateSupport</strong></a></td>
-</tr>
-</tbody>
-</table>
+
+| Service GUID | Interface | 
+|--------------|-----------|
+| <strong>MF_METADATA_PROVIDER_SERVICE</strong> | <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmetadataprovider"><strong>IMFMetadataProvider</strong></a> | 
+| <strong>MF_PROPERTY_HANDLER_SERVICE</strong> | <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore"><strong>IPropertyStore</strong></a><blockquote>[!Note]<br />See <a href="shell-metadata-providers.md">Shell Metadata Providers</a>.</blockquote><br /><br /> | 
+| <strong>MF_RATE_CONTROL_SERVICE</strong> | <a href="/windows/desktop/api/mfidl/nn-mfidl-imfratecontrol"><strong>IMFRateControl</strong></a> | 
+| <strong>MF_RATE_CONTROL_SERVICE</strong> | <a href="/windows/desktop/api/mfidl/nn-mfidl-imfratesupport"><strong>IMFRateSupport</strong></a> | 
+
 
 
 
@@ -100,7 +73,7 @@ See <a href="shell-metadata-providers.md">Shell Metadata Providers</a>.
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                           |
@@ -127,7 +100,3 @@ See <a href="shell-metadata-providers.md">Shell Metadata Providers</a>.
  
 
  
-
-
-
-

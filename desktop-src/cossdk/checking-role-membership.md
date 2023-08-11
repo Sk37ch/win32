@@ -1,5 +1,5 @@
 ---
-Description: Checking Role Membership
+description: Checking Role Membership
 ms.assetid: 690cab3f-4476-4fce-b842-d63a4d0d5c6f
 title: Checking Role Membership
 ms.topic: article
@@ -27,7 +27,7 @@ End If
 
 
 
-If you are developing a C or C++ application, use [**CoGetCallContext**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext) to retrieve a pointer to the [**ISecurityCallContext**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext) interface. Then you call [**ISecurityCallContext::IsCallerInRole**](/windows/desktop/api/ComSvcs/nf-comsvcs-isecuritycallcontext-iscallerinrole), as shown in the following example:
+If you are developing a C or C++ application, use [**CoGetCallContext**](/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext) to retrieve a pointer to the [**ISecurityCallContext**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext) interface. Then you call [**ISecurityCallContext::IsCallerInRole**](/windows/desktop/api/ComSvcs/nf-comsvcs-isecuritycallcontext-iscallerinrole), as shown in the following example:
 
 
 ```C++
@@ -63,6 +63,3 @@ return hr;
  
 
  
-
-
-

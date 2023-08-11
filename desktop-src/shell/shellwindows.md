@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of the open windows that belong to the Shell. Methods associated with this objects can control and execute commands within the Shell, and obtain other Shell-related objects.
+description: Represents a collection of the open windows that belong to the Shell. Methods associated with this objects can control and execute commands within the Shell, and obtain other Shell-related objects.
 ms.assetid: 'cad1f961-7fb4-4ba1-be48-b664d3de2c60'
 title: ShellWindows object (Exdisp.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ The **ShellWindows** object has these methods.
 | Method                                                 | Description                                                                                                         |
 |:-------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
 | [**\_NewEnum**](shellwindows--newenum-method-7ral.md) | Creates and returns a new **ShellWindows** object that is a copy of this **ShellWindows** object.<br/>        |
-| [**Item**](shellwindows-item.md)                      | Retrieves an [**InternetExplorer**](https://msdn.microsoft.com/library/Aa752084(v=VS.85).aspx) object that represents the Shell window.<br/> |
+| [**Item**](shellwindows-item.md)                      | Retrieves an [**InternetExplorer**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752084(v=vs.85)) object that represents the Shell window.<br/> |
 
 
 
@@ -59,7 +59,7 @@ The **ShellWindows** object has these properties.
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
@@ -71,7 +71,3 @@ The **ShellWindows** object has these properties.
  
 
  
-
-
-
-

@@ -1,21 +1,24 @@
 ---
-Description: Supplies the following operator overloads and type casts for D3DXCOLOR structures.
+description: Supplies the following operator overloads and type casts for D3DXCOLOR structures.
 ms.assetid: 89780c6f-c78b-4ebe-876a-6dbc37b598ef
 title: D3DXCOLOR Extensions (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXCOLOR
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - d3dx9math.h
 ---
 
 # D3DXCOLOR Extensions
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Supplies the following operator overloads and type casts for [**D3DXCOLOR**](d3dxcolor.md) structures.
 
@@ -80,7 +83,7 @@ For more information about structure members, refer to [**D3DXCOLOR**](d3dxcolor
 Operator overloads and type casts for this structure are implemented in d3dx9math.inl.
 
 > [!Note]  
-> The D3DXCOLOR() constructor crashes at runtime when you run it in debug mode in Microsoft Visual Studio 2010 with the [Run-Time Error Checks (/RTCc)](https://msdn.microsoft.com/library/8wtf2dfz(v=vs.100).aspx) compiler option.
+> The D3DXCOLOR() constructor crashes at runtime when you run it in debug mode in Microsoft Visual Studio 2010 with the [Run-Time Error Checks (/RTCc)](/previous-versions/visualstudio/visual-studio-2010/8wtf2dfz(v=vs.100)) compiler option.
 
  
 
@@ -88,7 +91,7 @@ Operator overloads and type casts for this structure are implemented in d3dx9mat
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9math.h</dt> </dl> |
 
@@ -104,7 +107,3 @@ Operator overloads and type casts for this structure are implemented in d3dx9mat
  
 
  
-
-
-
-

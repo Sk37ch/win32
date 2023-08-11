@@ -44,13 +44,13 @@ If this message succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESU
 
 ## Remarks
 
-The extended styles for a tree-view control have nothing to do with the extended styles used with function [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) or function [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga).
+The extended styles for a tree-view control have nothing to do with the extended styles used with function [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) or function [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga).
 
 ## Requirements
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
@@ -59,10 +59,4 @@ The extended styles for a tree-view control have nothing to do with the extended
 
 
  
-
- 
-
-
-
-
 

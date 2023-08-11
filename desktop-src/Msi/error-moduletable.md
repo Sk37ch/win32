@@ -1,5 +1,5 @@
 ---
-Description: The read-only ModuleTable Property returns the name of the table in the module that caused the error.
+description: The read-only ModuleTable Property returns the name of the table in the module that caused the error.
 ms.assetid: 390f5889-d638-4c1c-b95c-76d38c934e7c
 title: Error.ModuleTable property (Mergemod.h)
 ms.topic: reference
@@ -39,13 +39,13 @@ The collection is empty if the values do not apply to the type of the error. You
 
 ### C++
 
-See [**get\_ModuleTable**](https://msdn.microsoft.com/library/Aa369254(v=VS.85).aspx) function.
+See [**get\_ModuleTable**](/windows/win32/api/mergemod/nf-mergemod-imsmerror-get_moduletable) function.
 
 ## Requirements
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 1.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |
@@ -54,9 +54,4 @@ See [**get\_ModuleTable**](https://msdn.microsoft.com/library/Aa369254(v=VS.85).
 
 
  
-
- 
-
-
-
 

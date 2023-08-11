@@ -1,5 +1,5 @@
 ---
-Description: The Windows Media Video 9 Screen decoder decodes streams that were encoded by the Windows Media Video 9 Screen Encoder.
+description: The Windows Media Video 9 Screen decoder decodes streams that were encoded by the Windows Media Video 9 Screen Encoder.
 ms.assetid: 6688a830-7a54-4f58-947e-26013e191b5f
 title: Windows Media Video 9 Screen Decoder (Wmcodecdsp.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ The following output types are supported by the Version 9 Screen decoder when it
 
 ## Remarks
 
-A screen decoder object exposes the [**IMediaObject**](https://msdn.microsoft.com/library/Dd406926(v=VS.85).aspx) interface so that the object can be used as a DirectX Media Object (DMO), and it exposes the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) interface so that the object can be used as a Media Foundation Transform (MFT).
+A screen decoder object exposes the [**IMediaObject**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject) interface so that the object can be used as a DirectX Media Object (DMO), and it exposes the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) interface so that the object can be used as a Media Foundation Transform (MFT).
 
 A screen decoder behaves as a DMO or an MFT depending on which interfaces you obtain and which version of Windows is running. The following table shows the conditions under which a screen decoder behaves as a DMO or an MFT.
 
@@ -65,7 +65,7 @@ You can use the same CLSID (CLSID\_CMSSCDecMediaObject) to create the Version 7 
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows XP, Windows Vista or Windows 7<br/>                                       |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |
@@ -92,7 +92,3 @@ You can use the same CLSID (CLSID\_CMSSCDecMediaObject) to create the Version 7 
  
 
  
-
-
-
-

@@ -1,6 +1,6 @@
 ---
 title: Clipboard Messages
-description: .
+description: . | Clipboard Messages
 ms.assetid: d6c9d2b2-ee77-4c15-a859-989efbf89a31
 ms.topic: reference
 ms.date: 05/31/2018
@@ -19,13 +19,9 @@ ms.date: 05/31/2018
 
 <dl> <dt>
 
-[**WM\_UNDO**](https://docs.microsoft.com/windows/desktop/Controls/wm-undo)
+[**WM\_UNDO**](/windows/desktop/Controls/wm-undo)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the input frame rate as a ratio.
+description: Specifies the input frame rate as a ratio.
 ms.assetid: 8988fc7e-02bd-43ea-8934-e3af44a38bc5
 title: MFPKEY_CONV_INPUTFRAMERATE Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Specifies the input frame rate as a ratio.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -30,7 +30,7 @@ Store the numerator in the higher 4 bytes and the denominator in the lower 4 byt
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -48,7 +48,3 @@ Store the numerator in the higher 4 bytes and the denominator in the lower 4 byt
  
 
  
-
-
-
-

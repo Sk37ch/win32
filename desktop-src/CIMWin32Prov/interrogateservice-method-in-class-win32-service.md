@@ -1,5 +1,5 @@
 ---
-Description: Requests that the referenced service update its state to the service manager.
+description: InterrogateService method of the Win32_Service class (CIMWin32 WMI Providers) - Requests that the referenced service update its state to the service manager.
 ms.assetid: a4ea8753-1859-4d97-b9ca-47598c7e7654
 ms.tgt_platform: multiple
 title: InterrogateService method of the Win32_Service class (CIMWin32 WMI Providers)
@@ -16,11 +16,11 @@ api_location:
 - CIMWin32.dll
 ---
 
-# InterrogateService method of the Win32\_Service class
+# InterrogateService method of the Win32_Service class (CIMWin32 WMI Providers)
 
-The **InterrogateService** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method requests that the referenced service update its state to the service manager.
+The **InterrogateService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method requests that the referenced service update its state to the service manager.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -37,7 +37,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns one of the values listed in the following list or any other value to indicate an error. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+Returns one of the values listed in the following list or any other value to indicate an error. For additional error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -220,7 +220,7 @@ The service is currently paused in the system.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -237,19 +237,14 @@ The service is currently paused in the system.
 [**Win32\_Service**](win32-service.md)
 </dt> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_BaseService**](win32-baseservice.md)
 </dt> <dt>
 
-[WMI Tasks: Services](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--services)
+[WMI Tasks: Services](/windows/desktop/WmiSdk/wmi-tasks--services)
 </dt> </dl>
 
  
-
- 
-
-
-
 

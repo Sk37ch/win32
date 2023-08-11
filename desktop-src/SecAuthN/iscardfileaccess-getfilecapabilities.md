@@ -1,5 +1,5 @@
 ---
-Description: The GetFileCapabilities method retrieves a list of file capabilities from the current file.
+description: The GetFileCapabilities method retrieves a list of file capabilities from the current file.
 ms.assetid: 0d24efd2-d411-4fb3-95c2-4742a58aeb5e
 title: ISCardFileAccess::GetFileCapabilities method
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 
 # ISCardFileAccess::GetFileCapabilities method
 
-\[The **GetFileCapabilities** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **GetFileCapabilities** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
 The **GetFileCapabilities** method retrieves a list of file capabilities from the current file.
 
@@ -57,7 +57,7 @@ typedef struct
 
 
 
-For more information on TLV structures, see [https://www.pcscworkgroup.com/](https://www.pcscworkgroup.com/).
+For more information on TLV structures, see [https://pcscworkgroup.com/](https://pcscworkgroup.com/).
 
 </dd> <dt>
 
@@ -102,13 +102,13 @@ The method returns one of the following possible values.
 
 For a list of all the methods defined by this interface, see [**ISCardFileAccess**](iscardfileaccess.md).
 
-In addition to the COM error codes listed above, this interface may return a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md).
+In addition to the COM error codes listed above, this interface may return a [*smart card*](../secgloss/s-gly.md) error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md).
 
 ## Requirements
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
@@ -127,7 +127,3 @@ In addition to the COM error codes listed above, this interface may return a [*s
  
 
  
-
-
-
-

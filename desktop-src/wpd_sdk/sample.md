@@ -1,6 +1,6 @@
 ---
 title: WPD samples
-Description: Samples
+description: 'The Windows SDK provides two WPD samples: WpdApiSample and WpdServiceApiSample. Both are command-line desktop applications.'
 ms.assetid: f84f22ab-37df-45df-b85b-7cc4887c2550
 ms.topic: article
 ms.date: 05/31/2018
@@ -18,12 +18,9 @@ The WpdServiceApiSample is a command-line desktop application that supports a Co
 
 <dl> <dt>
 
-[**Windows Portable Devices**](https://docs.microsoft.com/windows/desktop/windows-portable-devices)
+[**Windows Portable Devices**](/windows/desktop/windows-portable-devices)
 </dt> </dl>
 
  
 
  
-
-
-

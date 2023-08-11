@@ -1,5 +1,5 @@
 ---
-Description: Serves as the parent class for classes that are used to register class and instance providers in WMI.
+description: Serves as the parent class for classes that are used to register class and instance providers in WMI.
 ms.assetid: f7c569be-8927-42a4-b96a-abe4b7e3e23c
 ms.tgt_platform: multiple
 title: '__ObjectProviderRegistration class'
@@ -301,7 +301,7 @@ Only administrators can register or delete a provider by creating an instance of
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -313,7 +313,7 @@ Only administrators can register or delete a provider by creating an instance of
 
 <dl> <dt>
 
-[**\_\_ProviderRegistration**](https://docs.microsoft.com/windows/desktop/WmiSdk/--providerregistration)
+[**\_\_ProviderRegistration**](/windows/desktop/WmiSdk/--providerregistration)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
@@ -323,9 +323,4 @@ Only administrators can register or delete a provider by creating an instance of
 </dt> </dl>
 
  
-
- 
-
-
-
 

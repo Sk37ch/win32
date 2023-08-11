@@ -1,5 +1,5 @@
 ---
-Description: Audio auxiliary (AAUX) source control pack for the second audio block in a digital video (DV) media type.
+description: Audio auxiliary (AAUX) source control pack for the second audio block in a digital video (DV) media type.
 ms.assetid: e9c17940-beb7-4034-95a3-983aaca0c905
 title: MF_MT_DV_AAUX_CTRL_PACK_1 attribute (Mfapi.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ Audio auxiliary (AAUX) source control pack for the second audio block in a digit
 
 ## Remarks
 
-This attribute corresponds to the **dwDVAAuxCtl1** member of the DirectShow [**DVINFO**](https://msdn.microsoft.com/library/Dd388639(v=VS.85).aspx) structure.
+This attribute corresponds to the **dwDVAAuxCtl1** member of the DirectShow [**DVINFO**](/windows/win32/api/strmif/ns-strmif-dvinfo) structure.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -24,7 +24,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |
@@ -54,7 +54,3 @@ The GUID constant for this attribute is exported from mfuuid.lib.
  
 
  
-
-
-
-

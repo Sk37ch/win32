@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IVMHardDisk::SizeInGuest property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Retrieves the size of the virtual hard disk in the guest operating system.
 
@@ -61,7 +61,7 @@ The size, in bytes, of the hard disk image. This value is a **VARIANT** of type 
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
@@ -80,10 +80,4 @@ The size, in bytes, of the hard disk image. This value is a **VARIANT** of type 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

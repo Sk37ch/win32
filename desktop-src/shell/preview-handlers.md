@@ -1,5 +1,5 @@
 ---
-Description: Preview handlers are called when an item is selected to show a lightweight, rich, read-only preview of the file's contents in the view's reading pane. This is done without launching the file's associated application.
+description: Preview handlers are called when an item is selected to show a lightweight, rich, read-only preview of the file's contents in the view's reading pane. This is done without launching the file's associated application.
 ms.assetid: '166a4001-d237-44a4-a457-e320e995639c'
 title: Preview Handlers and Shell Preview Host
 ms.topic: article
@@ -22,17 +22,17 @@ This topic discusses the following topics:
 
 ## Preview Handler Architecture
 
-A preview handler is a hosted application. Hosts include the Windows Explorer in Windows Vista or Microsoft Outlook 2007. Hosts implement [**IPreviewHandlerFrame**](https://msdn.microsoft.com/library/Bb775309(v=VS.85).aspx) as a method of communication between the preview handler and the host.
+A preview handler is a hosted application. Hosts include the Windows Explorer in Windows Vista or Microsoft Outlook 2007. Hosts implement [**IPreviewHandlerFrame**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlerframe) as a method of communication between the preview handler and the host.
 
 The preview handler itself implements these interfaces:
 
 -   [**IInitializeWithStream**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream)
--   [**IObjectWithSite**](https://msdn.microsoft.com/library/ms693765(v=VS.85).aspx)
--   [**IOleWindow**](https://msdn.microsoft.com/library/ms680102(v=VS.85).aspx)
--   [**IPreviewHandler**](https://msdn.microsoft.com/library/Bb775315(v=VS.85).aspx)
--   [**IPreviewHandlerVisuals**](https://msdn.microsoft.com/library/Bb775299(v=VS.85).aspx) (Optional)
+-   [**IObjectWithSite**](/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite)
+-   [**IOleWindow**](/windows/win32/api/oleidl/nn-oleidl-iolewindow)
+-   [**IPreviewHandler**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipreviewhandler)
+-   [**IPreviewHandlerVisuals**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlervisuals) (Optional)
 
-Your handler is called through its [**IObjectWithSite**](https://msdn.microsoft.com/library/ms693765(v=VS.85).aspx), which returns an [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) pointer through which you request an [**IPreviewHandlerFrame**](https://msdn.microsoft.com/library/Bb775309(v=VS.85).aspx) object to interact with the host.
+Your handler is called through its [**IObjectWithSite**](/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite), which returns an [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) pointer through which you request an [**IPreviewHandlerFrame**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlerframe) object to interact with the host.
 
 ## Server Model Options
 
@@ -105,6 +105,3 @@ By providing a new process, the handler can avoid running under a shared process
  
 
  
-
-
-

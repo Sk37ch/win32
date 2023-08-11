@@ -1,5 +1,5 @@
 ---
-Description: Contains an object for each role assigned to the method to which the collection is related. The roles must already be assigned at the application level.
+description: Contains an object for each role assigned to the method to which the collection is related. The roles must already be assigned at the application level.
 ms.assetid: 3a086163-e367-4dd1-996b-821b3e1111b2
 title: RolesForMethod collection
 ms.topic: reference
@@ -22,7 +22,7 @@ This collection supports the [**Add**](/windows/desktop/api/ComAdmin/nf-comadmin
 
 ## Members
 
-The **RolesForMethod** collection inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
+The **RolesForMethod** collection inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Related Collections
 
@@ -46,7 +46,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                                                                                                                                     |
+| Entry | Value |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The role name. Must already be a role assigned to the application (appearing in the Roles collection). Extra spaces at the beginning and end of the string are stripped out. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) or [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) property method is called on an object of this collection. |
 | Access         | WriteOnce                                                                                                                                                                                                                                                                                                                                           |
@@ -68,6 +68,3 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
  
 
  
-
-
-

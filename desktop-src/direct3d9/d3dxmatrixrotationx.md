@@ -1,22 +1,25 @@
 ---
-Description: Builds a matrix that rotates around the x-axis.
+description: D3DXMatrixRotationX function (D3dx9math.h) - Builds a matrix that rotates around the x-axis.
 ms.assetid: 45a2668d-787f-4354-882a-94a72edaa543
 title: D3DXMatrixRotationX function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixRotationX
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXMatrixRotationX function
+# D3DXMatrixRotationX function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a matrix that rotates around the x-axis.
 
@@ -48,7 +51,7 @@ Pointer to the [**D3DXMATRIX**](d3dxmatrix.md) structure that is the result of t
 *Angle* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Angle of rotation in radians. Angles are measured clockwise when looking along the rotation axis toward the origin.
 
@@ -68,7 +71,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -100,7 +103,3 @@ The return value for this function is the same value returned in the *pOut* para
  
 
  
-
-
-
-

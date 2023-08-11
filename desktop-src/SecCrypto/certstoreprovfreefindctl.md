@@ -1,5 +1,5 @@
 ---
-Description: Called when the certificate returned by the CertStoreProvFindCTL callback was not used, and thus released, in a subsequent call to CertStoreProvFindCTL.
+description: Called when the certificate returned by the CertStoreProvFindCTL callback was not used, and thus released, in a subsequent call to CertStoreProvFindCTL.
 ms.assetid: 04e62a4e-4542-4225-8750-fabbda5adf0d
 title: CertStoreProvFreeFindCTL callback function
 ms.topic: reference
@@ -39,7 +39,7 @@ BOOL CertStoreProvFreeFindCTL(
 *hStoreProv* \[in\]
 </dt> <dd>
 
-**HCERTSTOREPROV** handle to a [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
+**HCERTSTOREPROV** handle to a [*certificate store*](../secgloss/c-gly.md).
 
 </dd> <dt>
 
@@ -72,7 +72,7 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
@@ -92,7 +92,3 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
  
 
  
-
-
-
-

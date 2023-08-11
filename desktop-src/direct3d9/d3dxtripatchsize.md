@@ -1,5 +1,5 @@
 ---
-Description: Gets the size of the triangle patch.
+description: Gets the size of the triangle patch.
 ms.assetid: 3bfbed4c-59af-43eb-a462-478e89cfe9ae
 title: D3DXTriPatchSize function (D3DX9Mesh.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ HRESULT D3DXTriPatchSize(
 *pfNumSegs* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](../winprog/windows-data-types.md)\***
 
 Number of segments per edge to tessellate.
 
@@ -49,7 +49,7 @@ Number of segments per edge to tessellate.
 *pdwTriangles* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to a DWORD that contains the number of triangles in the patch.
 
@@ -58,7 +58,7 @@ Pointer to a DWORD that contains the number of triangles in the patch.
 *pdwVertices* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to a DWORD that contains the number of vertices in the triangle patch.
 
@@ -74,7 +74,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -94,7 +94,3 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
  
 
  
-
-
-
-

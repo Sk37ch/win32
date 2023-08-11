@@ -1,5 +1,5 @@
 ---
-Description: The AuthzGetCentralAccessPolicyCallback function is an application-defined function that retrieves the central access policy. AuthzGetCentralAccessPolicyCallback is a placeholder for the application-defined function name.
+description: The AuthzGetCentralAccessPolicyCallback function is an application-defined function that retrieves the central access policy. AuthzGetCentralAccessPolicyCallback is a placeholder for the application-defined function name.
 ms.assetid: 1D5831EF-ACA8-4EE9-A7C1-E1A3CB74CEC0
 title: AuthzGetCentralAccessPolicyCallback callback function
 ms.topic: reference
@@ -76,13 +76,13 @@ Pointer to the central access policy (CAP) to be used for evaluating access. If 
 
 If the function succeeds, the function returns **TRUE**.
 
-If the function is unable to perform the evaluation, it returns **FALSE**. Use [**SetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) to return an error to the access check function.
+If the function is unable to perform the evaluation, it returns **FALSE**. Use [**SetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) to return an error to the access check function.
 
 ## Requirements
 
 
 
-|                                     |                                                                        |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                   |
@@ -104,9 +104,4 @@ If the function is unable to perform the evaluation, it returns **FALSE**. Use [
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Windows GDI+ exposes a flat API that consists of about 600 functions, which are implemented in Gdiplus.dll and declared in Gdiplusflat.h.
+description: Windows GDI+ exposes a flat API that consists of about 600 functions. These flat API functions are wrapped by the HatchBrush C++ class.
 ms.assetid: c7d9e633-8c3d-4e77-811d-306cd785a7ad
 title: HatchBrush Functions
 ms.topic: article
@@ -18,7 +18,7 @@ The following flat API functions are wrapped by the [**HatchBrush**](/windows/de
 
 | Flat function                                                                                                               | Wrapper method                                                                                                                                                                                   | Remarks                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| GpStatus WINGDIPAPI GdipCreateHatchBrush(GpHatchStyle hatchstyle, ARGB forecol, ARGB backcol, GpHatch \*\*brush)<br/> | [**HatchBrush::HatchBrush(IN HatchStyle hatchStyle, IN const Color& foreColor, IN const Color& backColor = Color())**](https://msdn.microsoft.com/library/ms535446(v=VS.85).aspx) | Creates a [**HatchBrush**](/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-hatchbrush) object based on a hatch style, a foreground color, and a background color. |
+| GpStatus WINGDIPAPI GdipCreateHatchBrush(GpHatchStyle hatchstyle, ARGB forecol, ARGB backcol, GpHatch \*\*brush)<br/> | [**HatchBrush::HatchBrush(IN HatchStyle hatchStyle, IN const Color& foreColor, IN const Color& backColor = Color())**](/windows/win32/api/gdiplusbrush/nf-gdiplusbrush-hatchbrush-hatchbrush(consthatchbrush_)) | Creates a [**HatchBrush**](/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-hatchbrush) object based on a hatch style, a foreground color, and a background color. |
 | GpStatus WINGDIPAPI GdipGetHatchStyle(GpHatch \*brush, GpHatchStyle \*hatchstyle)<br/>                                | [**HatchStyle HatchBrush::GetHatchStyle() const**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-hatchbrush-gethatchstyle)                                                                                                 | Gets the hatch style of this hatch brush.                                                                                                  |
 | GpStatus WINGDIPAPI GdipGetHatchForegroundColor(GpHatch \*brush, ARGB\* forecol)<br/>                                 | [**Status HatchBrush::GetForegroundColor(OUT Color\* color) const**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-hatchbrush-getforegroundcolor)                                                                    | Gets the foreground color of this hatch brush.                                                                                             |
 | GpStatus WINGDIPAPI GdipGetHatchBackgroundColor(GpHatch \*brush, ARGB\* backcol)<br/>                                 | [**Status HatchBrush::GetBackgroundColor(OUT Color \*color) const**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-hatchbrush-getbackgroundcolor)                                                                    | Gets the background color of this hatch brush.                                                                                             |
@@ -30,7 +30,3 @@ The following flat API functions are wrapped by the [**HatchBrush**](/windows/de
  
 
  
-
-
-
-

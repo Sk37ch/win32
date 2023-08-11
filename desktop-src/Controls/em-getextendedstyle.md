@@ -16,7 +16,7 @@ ms.topic: reference
 ms.date: 10/19/2018
 ---
 
-# TVM\_GETEXTENDEDSTYLE message
+# EM_GETEXTENDEDSTYLE message (Commctrl.h)
 
 Retrieves the extended style for a tree-view control. Send this message explicitly or by using the [**Edit\_GetExtendedStyle**](/windows/desktop/api/Commctrl/nf-commctrl-edit_getextendedstyle) macro.
 
@@ -36,13 +36,13 @@ Returns the value of extended style.For more information on styles, see [Edit Co
 
 ## Remarks
 
-The extended styles for an edit control have nothing to do with the extended styles used with function [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) or function [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga).
+The extended styles for an edit control have nothing to do with the extended styles used with function [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) or function [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga).
 
 ## Requirements
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1809 \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows Server 2019 \[desktop apps only\]<br/>                                  |
@@ -51,10 +51,4 @@ The extended styles for an edit control have nothing to do with the extended sty
 
 
  
-
- 
-
-
-
-
 

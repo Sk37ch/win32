@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # RpcTryExcept
 
-The **RpcTryExcept** statement provides structured exception handling for RPC applications. If any of the program statements in the **RpcTryExcept** cause an exception, the statements in the [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept) code block are executed. All **RpcTryExcept** statements must be terminated by the [**RpcEndExcept**](https://msdn.microsoft.com/library/Aa375629(v=VS.80).aspx) statement.
+The **RpcTryExcept** statement provides structured exception handling for RPC applications. If any of the program statements in the **RpcTryExcept** cause an exception, the statements in the [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept) code block are executed. All **RpcTryExcept** statements must be terminated by the [**RpcEndExcept**](/previous-versions/aa375629(v=vs.80)) statement.
 
 For more information, see [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept).
 
@@ -28,7 +28,7 @@ For more information, see [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexc
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
@@ -50,10 +50,4 @@ For more information, see [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexc
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

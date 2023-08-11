@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_PrinterDriverDll association WMI class relates a local printer and its driver file.
+description: The Win32\_PrinterDriverDll association WMI class relates a local printer and its driver file.
 ms.assetid: decbd1de-8091-47f7-94a1-42862070b920
 ms.tgt_platform: multiple
 title: Win32_PrinterDriverDll class
@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_PrinterDriverDll class
 
-The **Win32\_PrinterDriverDll** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) relates a local printer and its driver file.
+The **Win32\_PrinterDriverDll** association [WMI class](../wmisdk/retrieving-a-class.md) relates a local printer and its driver file.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -55,7 +55,7 @@ Data type: **CIM\_DataFile**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx)
+Qualifiers: [**Key**](../wmisdk/standard-qualifiers.md)
 </dt> </dl>
 
 Reference to the [**CIM\_DataFile**](cim-datafile.md) instance representing the driver file for this Windows-based printer.
@@ -73,7 +73,7 @@ Data type: **Win32\_Printer**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx)
+Qualifiers: [**Key**](../wmisdk/standard-qualifiers.md)
 </dt> </dl>
 
 Reference to the [**Win32\_Printer**](win32-printer.md) instance.
@@ -90,7 +90,7 @@ The **Win32\_PrinterDriverDll** class is derived from [**CIM\_Dependency**](cim-
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
@@ -113,7 +113,3 @@ The **Win32\_PrinterDriverDll** class is derived from [**CIM\_Dependency**](cim-
  
 
  
-
-
-
-

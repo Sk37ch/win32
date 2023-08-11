@@ -1,5 +1,5 @@
 ---
-Description: Vertex cache optimization hints.
+description: Vertex cache optimization hints.
 ms.assetid: 891624cd-03dd-4ddd-93f5-4899e1470325
 title: D3DDEVINFO_VCACHE structure (D3D9Types.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ typedef struct D3DDEVINFO_VCACHE {
 **Pattern**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -51,7 +51,7 @@ Bit pattern. Return value must be the FOURCC ('C', 'A', 'C', 'H').
 **OptMethod**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -62,7 +62,7 @@ Optimizations method. Use 0 to get the longest strips. Use 1 to optimize the ver
 **CacheSize**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -73,7 +73,7 @@ Cache size used as a target for optimization. This is required only if OptMethod
 **MagicNumber**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -85,7 +85,7 @@ Used by internal optimization methods to determine when to restart strips. This 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 
@@ -98,13 +98,9 @@ Used by internal optimization methods to determine when to restart strips. This 
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetData**](https://msdn.microsoft.com/library/Bb205873(v=VS.85).aspx)
+[**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata)
 </dt> </dl>
 
  
 
  
-
-
-
-

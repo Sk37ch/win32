@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # EN\_ENDCOMPOSITION notification code
 
-Notifies a rich edit control parent window that the user has entered new data or has finished entering data while using IME or [Text Services Framework](https://docs.microsoft.com/windows/desktop/TSF/text-services-framework).
+Notifies a rich edit control parent window that the user has entered new data or has finished entering data while using IME or [Text Services Framework](/windows/desktop/TSF/text-services-framework).
 
 
 ```C++
@@ -44,7 +44,7 @@ A [**ENDCOMPOSITIONNOTIFY**](/windows/win32/api/richedit/ns-richedit-endcomposit
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
@@ -53,10 +53,4 @@ A [**ENDCOMPOSITIONNOTIFY**](/windows/win32/api/richedit/ns-richedit-endcomposit
 
 
  
-
- 
-
-
-
-
 

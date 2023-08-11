@@ -1,5 +1,5 @@
 ---
-Description: Constants used to set the priority of a resource in SetPriority.
+description: Constants used to set the priority of a resource in SetPriority.
 ms.assetid: 98886349-883f-41c3-870b-e4a639977760
 title: D3D9_RESOURCE_PRIORITY (D3d9types.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ api_location:
 
 # D3D9\_RESOURCE\_PRIORITY
 
-Constants used to set the priority of a resource in [**SetPriority**](https://msdn.microsoft.com/library/Bb205885(v=VS.85).aspx).
+Constants used to set the priority of a resource in [**SetPriority**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dresource9-setpriority).
 
 
 
@@ -45,7 +45,7 @@ You can use priority levels other than the values defined earlier in this topic.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 
@@ -61,7 +61,3 @@ You can use priority levels other than the values defined earlier in this topic.
  
 
  
-
-
-
-

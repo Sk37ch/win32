@@ -1,5 +1,5 @@
 ---
-Description: Gets a pointer to an array of constant descriptions in the constant table.
+description: Gets a pointer to an array of constant descriptions in the constant table.
 ms.assetid: bd407fd6-b1cc-4197-ae98-1c2ca74d2ad0
 title: ID3DXConstantTable::GetConstantDesc method (D3DX9Shader.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Returns a pointer to an array of descriptions. See [**D3DXCONSTANT\_DESC**](d3dx
 *pCount* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 The input supplied must be the maximum size of the array. The output is the number of elements that are filled in the array when the function returns.
 
@@ -80,7 +80,7 @@ Because a sampler can appear more than once in a constant table, this method can
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -100,7 +100,3 @@ Because a sampler can appear more than once in a constant table, this method can
  
 
  
-
-
-
-

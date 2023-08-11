@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a port or connection point and a device.
+description: Represents an association between a port or connection point and a device.
 ms.assetid: b35e741a-7110-4e48-a132-d436f4fbf038
 title: CIM_PortOnDevice class
 ms.topic: reference
@@ -53,7 +53,7 @@ Data type: **CIM\_LogicalDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 The device that includes the port.
@@ -69,7 +69,7 @@ Data type: **CIM\_LogicalPort**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The port on the device.
@@ -80,7 +80,7 @@ The port on the device.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -98,9 +98,4 @@ The port on the device.
 </dt> </dl>
 
  
-
- 
-
-
-
 

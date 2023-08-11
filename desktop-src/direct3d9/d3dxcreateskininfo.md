@@ -1,5 +1,5 @@
 ---
-Description: Creates an empty skin mesh object using a declarator.
+description: D3DXCreateSkinInfo function - Creates an empty skin mesh object using a declarator.
 ms.assetid: c98da2e5-a9eb-4070-8846-b346b5c57fb3
 title: D3DXCreateSkinInfo function (D3DX9Mesh.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ HRESULT D3DXCreateSkinInfo(
 *NumVertices* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Number of vertices for the skin mesh.
 
@@ -59,7 +59,7 @@ Array of [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) elements, describing the 
 *NumBones* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Number of bones for the skin mesh.
 
@@ -88,7 +88,7 @@ Use [**SetBoneInfluence**](id3dxskininfo--setboneinfluence.md) to populate the e
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -108,7 +108,3 @@ Use [**SetBoneInfluence**](id3dxskininfo--setboneinfluence.md) to populate the e
  
 
  
-
-
-
-

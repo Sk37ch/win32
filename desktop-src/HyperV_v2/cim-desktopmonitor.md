@@ -1,5 +1,5 @@
 ---
-Description: Represents a CRT desktop monitor.
+description: Represents a CRT desktop monitor.
 ms.assetid: 26a06320-9fd9-434e-87c8-486e9ca4945c
 title: CIM_DesktopMonitor class (Hyper-V management)
 ms.topic: reference
@@ -19,7 +19,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_DesktopMonitor class
+# CIM_DesktopMonitor class (Hyper-V management)
 
 Represents a CRT desktop monitor.
 
@@ -57,7 +57,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MegaHertz"), **PUnit** ("hertz \* 10^6")
+Qualifiers: [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("MegaHertz"), **PUnit** ("hertz \* 10^6")
 </dt> </dl>
 
 The bandwidth of the display, in MHertz. "0" indicates unknown.
@@ -151,7 +151,7 @@ The logical width of the display, in screen coordinates.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
@@ -169,9 +169,4 @@ The logical width of the display, in screen coordinates.
 </dt> </dl>
 
  
-
- 
-
-
-
 

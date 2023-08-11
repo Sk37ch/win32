@@ -1,5 +1,5 @@
 ---
-Description: Decrypts a message by using NTLM.
+description: Decrypts a message by using NTLM.
 ms.assetid: 44c63152-507d-4769-9c0c-d275d2b0deac
 title: DecryptMessage (NTLM) function
 ms.topic: reference
@@ -8,10 +8,10 @@ ms.date: 07/25/2019
 
 # DecryptMessage (NTLM) function
 
-The **DecryptMessage (NTLM)** function decrypts a message. Some packages do not encrypt and decrypt messages but rather perform and check an integrity [*hash*](https://docs.microsoft.com/windows/win32/secgloss/h-gly).
+The **DecryptMessage (NTLM)** function decrypts a message. Some packages do not encrypt and decrypt messages but rather perform and check an integrity [*hash*](../secgloss/h-gly.md).
 
 > [!Note]  
-> [**EncryptMessage (NTLM)**](encryptmessage--ntlm.md) and **DecryptMessage (NTLM)** can be called at the same time from two different threads in a single [*security support provider interface*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
+> [**EncryptMessage (NTLM)**](encryptmessage--ntlm.md) and **DecryptMessage (NTLM)** can be called at the same time from two different threads in a single [*security support provider interface*](../secgloss/s-gly.md) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
 
 ## Syntax
 
@@ -28,11 +28,11 @@ SECURITY_STATUS SEC_Entry DecryptMessage(
 
 *phContext* \[in\]
 
-A handle to the [*security context*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) to be used to decrypt the message.
+A handle to the [*security context*](../secgloss/s-gly.md) to be used to decrypt the message.
 
 *pMessage* \[in, out\]
 
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-secbuffer) structures. At least one of these must be of type SECBUFFER\_DATA. That buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
+A pointer to a [**SecBufferDesc**](/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](/windows/win32/api/sspi/ns-sspi-secbuffer) structures. At least one of these must be of type SECBUFFER\_DATA. That buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
 
 *MessageSeqNo* \[in\]
 
@@ -44,8 +44,11 @@ A pointer to a variable of type **ULONG** that receives package-specific flags t
 
 This parameter can be the following flag.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Value</th><th>Meaning</th></tr></thead><tbody><tr class="odd"><td><span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl> <dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt> </dl></td><td>The message was not encrypted, but a header or trailer was produced.<br/><blockquote>[!Note]<br />
-KERB_WRAP_NO_ENCRYPT has the same value and the same meaning.</blockquote><br/></td></tr></tbody></table>
+
+| Value | Meaning | 
+|-------|---------|
+| <span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl><dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt></dl> | The message was not encrypted, but a header or trailer was produced.<br /><blockquote>[!Note]<br />KERB_WRAP_NO_ENCRYPT has the same value and the same meaning.</blockquote><br /> | 
+
 
 ## Return value
 
@@ -66,7 +69,7 @@ Sometimes an application will read data from the remote party, attempt to decryp
 
 ## Requirements
 
-|                          |                                           |
+| Requirement | Value |
 |--------------------------|-------------------------------------------|
 | Minimum supported client | Windows XP \[desktop apps only\]          |
 | Minimum supported server | Windows Server 2003 \[desktop apps only\] |
@@ -78,5 +81,5 @@ Sometimes an application will read data from the remote party, attempt to decryp
 
 - [SSPI Functions](authentication-functions.md#sspi-functions)
 - [**EncryptMessage (NTLM)**](encryptmessage--ntlm.md)
-- [**SecBuffer**](https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-secbuffer)
-- [**SecBufferDesc**](https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-secbufferdesc)
+- [**SecBuffer**](/windows/win32/api/sspi/ns-sspi-secbuffer)
+- [**SecBufferDesc**](/windows/win32/api/sspi/ns-sspi-secbufferdesc)

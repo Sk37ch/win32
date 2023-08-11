@@ -1,5 +1,5 @@
 ---
-Description: Create an effect from a file.
+description: Create an effect from a file.
 ms.assetid: 1418857e-bda1-4ffb-bbb9-dfa3709313b1
 title: D3DX10CreateEffectFromFile function (D3DX10Async.h)
 ms.topic: reference
@@ -25,7 +25,7 @@ Create an effect from a file.
 ```C++
 HRESULT D3DX10CreateEffectFromFile(
   _In_        LPCTSTR            pFileName,
-  _In_  const D3D10_SHADER_MACRO *pDefines,
+  _In_  const D3D_SHADER_MACRO *pDefines,
   _In_        ID3D10Include      *pInclude,
   _In_        LPCSTR             pProfile,
   _In_        UINT               HLSLFlags,
@@ -48,7 +48,7 @@ HRESULT D3DX10CreateEffectFromFile(
 *pFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 Name of the ASCII effect file. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the data type resolves to LPCSTR.
 
@@ -57,34 +57,34 @@ Name of the ASCII effect file. If the compiler settings require Unicode, the dat
 *pDefines* \[in\]
 </dt> <dd>
 
-Type: **const [**D3D10\_SHADER\_MACRO**](https://msdn.microsoft.com/library/Bb172436(v=VS.85).aspx)\***
+Type: **const [**D3D\_SHADER\_MACRO**](/windows/win32/api/d3dcommon/ns-d3dcommon-d3d_shader_macro)\***
 
-A NULL-terminated array of shader macros (see [**D3D10\_SHADER\_MACRO**](https://msdn.microsoft.com/library/Bb172436(v=VS.85).aspx)); set this to **NULL** to specify no macros.
+A NULL-terminated array of shader macros (see [**D3D\_SHADER\_MACRO**](/windows/win32/api/d3dcommon/ns-d3dcommon-d3d_shader_macro)); set this to **NULL** to specify no macros.
 
 </dd> <dt>
 
 *pInclude* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10Include**](https://msdn.microsoft.com/library/Bb173775(v=VS.85).aspx)\***
+Type: **[**ID3D10Include**](/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))\***
 
-A pointer to an include interface (see [**ID3D10Include Interface**](https://msdn.microsoft.com/library/Bb173775(v=VS.85).aspx)). This parameter can be **NULL**.
+A pointer to an include interface (see [**ID3D10Include Interface**](/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))). This parameter can be **NULL**.
 
 </dd> <dt>
 
 *pProfile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
-A string that specifies the [shader profile](https://msdn.microsoft.com/library/Bb509626(v=VS.85).aspx), or shader model.
+A string that specifies the [shader profile](../direct3dhlsl/dx-graphics-hlsl-models.md), or shader model.
 
 </dd> <dt>
 
 *HLSLFlags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 HLSL compile options (see [D3D10\_SHADER Constants](d3d10-shader.md)).
 
@@ -93,7 +93,7 @@ HLSL compile options (see [D3D10\_SHADER Constants](d3d10-shader.md)).
 *FXFlags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Effect compile options (see [Compile and Effect Flags](d3d10-graphics-reference-effect-constants.md)).
 
@@ -102,18 +102,18 @@ Effect compile options (see [Compile and Effect Flags](d3d10-graphics-reference-
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10Device**](/windows/desktop/api/D3D10/nn-d3d10-id3d10device)\***
+Type: **[**ID3D10Device**](/windows/win32/api/D3D10/nn-d3d10-id3d10device)\***
 
-A pointer to the device (see [**ID3D10Device Interface**](/windows/desktop/api/D3D10/nn-d3d10-id3d10device)) that will use the resources.
+A pointer to the device (see [**ID3D10Device Interface**](/windows/win32/api/D3D10/nn-d3d10-id3d10device)) that will use the resources.
 
 </dd> <dt>
 
 *pEffectPool* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10EffectPool**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectpool)\***
+Type: **[**ID3D10EffectPool**](/windows/win32/api/D3D10Effect/nn-d3d10effect-id3d10effectpool)\***
 
-Pointer to an effect pool (see [**ID3D10EffectPool Interface**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectpool)) for sharing variables between effects.
+Pointer to an effect pool (see [**ID3D10EffectPool Interface**](/windows/win32/api/D3D10Effect/nn-d3d10effect-id3d10effectpool)) for sharing variables between effects.
 
 </dd> <dt>
 
@@ -129,18 +129,18 @@ A pointer to a thread pump interface (see [**ID3DX10ThreadPump Interface**](id3d
 *ppEffect* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Effect**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effect)\*\***
+Type: **[**ID3D10Effect**](/windows/win32/api/D3D10Effect/nn-d3d10effect-id3d10effect)\*\***
 
-Address of a pointer to the effect (see [**ID3D10Effect Interface**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effect)) that is created.
+Address of a pointer to the effect (see [**ID3D10Effect Interface**](/windows/win32/api/D3D10Effect/nn-d3d10effect-id3d10effect)) that is created.
 
 </dd> <dt>
 
 *ppErrors* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](/windows/desktop/api/D3DCommon/nn-d3dcommon-id3d10blob)\*\***
+Type: **[**ID3D10Blob**](/windows/win32/api/D3DCommon/nn-d3dcommon-id3d10blob)\*\***
 
-The address of a pointer to memory (see [**ID3D10Blob Interface**](/windows/desktop/api/D3DCommon/nn-d3dcommon-id3d10blob)) that contains effect compile errors, if there were any.
+The address of a pointer to memory (see [**ID3D10Blob Interface**](/windows/win32/api/D3DCommon/nn-d3dcommon-id3d10blob)) that contains effect compile errors, if there were any.
 
 </dd> <dt>
 
@@ -163,7 +163,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Async.h</dt> </dl> |
 
@@ -179,7 +179,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

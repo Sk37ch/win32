@@ -1,5 +1,5 @@
 ---
-Description: Returns a description of the original contents of an image file.
+description: D3DXIMAGE_INFO structure - Returns a description of the original contents of an image file.
 ms.assetid: d6cbd5b7-642e-43ce-a2ed-11a400c5bdc1
 title: D3DXIMAGE_INFO structure (D3dx9tex.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ typedef struct D3DXIMAGE_INFO {
 **Width**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -54,7 +54,7 @@ Width of original image in pixels.
 **Height**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -65,7 +65,7 @@ Height of original image in pixels.
 **Depth**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -76,7 +76,7 @@ Depth of original image in pixels.
 **MipLevels**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -98,7 +98,7 @@ A value from the [D3DFORMAT](d3dformat.md) enumerated type that most closely des
 **ResourceType**
 </dt> <dd>
 
-Type: **[**D3DRESOURCETYPE**](https://msdn.microsoft.com/library/Bb172601(v=VS.85).aspx)**
+Type: **[**D3DRESOURCETYPE**](./d3dresourcetype.md)**
 
 </dd> <dd>
 
@@ -109,7 +109,7 @@ Represents the type of the texture stored in the file. It is either D3DRTYPE\_TE
 **ImageFileFormat**
 </dt> <dd>
 
-Type: **[**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/library/Bb172878(v=VS.85).aspx)**
+Type: **[**D3DXIMAGE\_FILEFORMAT**](./d3dximage-fileformat.md)**
 
 </dd> <dd>
 
@@ -121,7 +121,7 @@ Represents the format of the image file.
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9tex.h</dt> </dl> |
 
@@ -137,7 +137,3 @@ Represents the format of the image file.
  
 
  
-
-
-
-

@@ -2,7 +2,6 @@
 title: What's new in Direct3D 12
 description: This topic describes the most significant new Direct3D 12 documentation available for various releases.
 ms.assetid: 38F41E05-FECB-41DE-8D30-09733FBEAC48
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 12/05/2019
 ---
@@ -11,7 +10,25 @@ ms.date: 12/05/2019
 
 This topic describes the most significant new Direct3D 12 documentation available for various releases.
 
-For info about obtaining and installing Direct3D, see [Direct3D 12 programming environment setup](/windows/win32/direct3d12/directx-12-programming-environment-set-up).
+For info about obtaining and installing Direct3D, see [Direct3D 12 programming environment setup](./directx-12-programming-environment-set-up.md).
+
+## Direct3D 12 on Windows 11
+
+- [DirectX Ultimate](https://devblogs.microsoft.com/directx/directx-12-ultimate-getting-started-guide/) a.k.a. **D3D_FEATURE_LEVEL_12_2**.
+- [HLSL shader model 6.6](https://devblogs.microsoft.com/directx/hlsl-shader-model-6-6/)
+- [**ID3D12Device9**](/windows/win32/api/d3d12/nn-d3d12-id3d12device9) interface, and its methods. 
+
+See also the [DirectX Agility SDK 1.4](https://devblogs.microsoft.com/directx/gettingstarted-dx12agility/).
+
+## Windows 10 May 2020 Update
+
+These features and APIs were added or updated for Windows 10, version 2004 (10.0; Build 19041)&mdash;also known as Windows 10 May 2020 Update.
+
+- [**ID3D12Device7**](/windows/win32/api/d3d12/nn-d3d12-id3d12device7) interface, and its methods. 
+- [**ID3D12Device8**](/windows/win32/api/d3d12/nn-d3d12-id3d12device8) interface, and its methods. 
+- HLSL shader model 6.5 features: Direct3D 12 Raytracing (DXR) [Tier 1.1](https://devblogs.microsoft.com/directx/dxr-1-1/), [Mesh & Amplification Shaders](https://devblogs.microsoft.com/directx/coming-to-directx-12-mesh-shaders-and-amplification-shaders-reinventing-the-geometry-pipeline/), and [Sampler Feedback](https://devblogs.microsoft.com/directx/coming-to-directx-12-sampler-feedback-some-useful-once-hidden-data-unlocked/).
+- The [**D3D12_HEAP_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_flags) enumeration has been updated with the addition of **D3D12_HEAP_FLAG_CREATE_NOT_RESIDENT** and **D3D12_HEAP_FLAG_CREATE_NOT_ZEROED**. See [More control over memory allocation](https://devblogs.microsoft.com/directx/coming-to-directx-12-more-control-over-memory-allocation/).
+- The [**D3D_SHADER_MODEL**](/windows/win32/api/d3d12/ne-d3d12-d3d_shader_model) enumeration has been updated with the addition of the **D3D_SHADER_MODEL_6_6** constant (an experimental-level feature).
 
 ## Direct3D 12 on Windows 7
 
@@ -21,8 +38,8 @@ For info about obtaining and installing Direct3D, see [Direct3D 12 programming e
 
 These features and APIs were added or updated for Windows 10, version 1903 (10.0; Build 18362)&mdash;also known as Windows 10 May 2019 Update.
 
-- [Variable-rate shading (VRS)](/windows/win32/direct3d12/vrs). Lets you allocate rendering performance/power at rates that vary across your rendered image.
-- [HLSL shader model 6.4](/windows/win32/direct3dhlsl/hlsl-shader-model-6-4-features-for-direct3d-12). Describes the machine learning intrinsics added to HLSL Shader Model 6.4.
+- [Variable-rate shading (VRS)](./vrs.md). Lets you allocate rendering performance/power at rates that vary across your rendered image.
+- [HLSL shader model 6.4](../direct3dhlsl/hlsl-shader-model-6-4-features-for-direct3d-12.md). Describes the machine learning intrinsics added to HLSL Shader Model 6.4.
 - [**D3D12_DRED_VERSION**](/windows/win32/api/d3d12/ne-d3d12-d3d12_dred_version) enumeration. Defines constants that specify a version of Device Removed Extended Data (DRED).
 - [**D3D12_FEATURE_DATA_D3D12_OPTIONS6**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options6) structure. Indicates the level of support that the adapter provides for metacommands.
 - [**D3D12_FEATURE_DATA_QUERY_META_COMMAND**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_query_meta_command) structure. Indicates the level of support that the adapter provides for metacommands.
@@ -44,8 +61,15 @@ The [**D3D12_RESOURCE_STATES**](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource
 
 These features and APIs were added or updated for Windows 10, version 1809 (10.0; Build 17763)&mdash;also known as Windows 10 October 2018 Update.
 
-- [Direct3D 12 Raytracing](/windows/win32/direct3d12/direct3d-12-raytracing)
-- [Direct3D 12 Render Passes](/windows/win32/direct3d12/direct3d-12-render-passes)
+- [Direct3D 12 Raytracing](./direct3d-12-raytracing.md) which uses HLSL shader model 6.3.
+- [Direct3D 12 Render Passes](./direct3d-12-render-passes.md)
+- [**ID3D12Device5**](/windows/win32/api/d3d12/nn-d3d12-id3d12device5) interface, and its methods.
+
+## Windows 10, version 1803
+
+These features and APIs were added or updated for Windows 10, version 1803 (10.0; Build 17134)&mdash;also known as Windows 10 April 2018 Update.
+
+- [**ID3D12Device4**](/windows/win32/api/d3d12/nn-d3d12-id3d12device4) interface, and its methods.
 
 ## Windows 10, version 1709
 
@@ -72,9 +96,9 @@ These topics have been added to the Direct3D documentation for Windows 10, vers
     -   [**ID3D12Device2**](/windows/win32/api/d3d12/nn-d3d12-id3d12device2)
     -   [**ID3D12Debug2**](/windows/win32/api/D3D12sdklayers/nn-d3d12sdklayers-id3d12debug2)
     -   [**ID3D12Tools**](/windows/win32/api/d3d12/nn-d3d12-id3d12tools)
--   Refer to the [HLSL Shader Model 6.0 Overview](/windows/win32/direct3dhlsl/hlsl-shader-model-6-0-features-for-direct3d-12), which describes the wave intrinsic operations for multi-threaded pixel and compute shaders.
+-   Refer to the [HLSL Shader Model 6.0 Overview](../direct3dhlsl/hlsl-shader-model-6-0-features-for-direct3d-12.md), which describes the wave intrinsic operations for multi-threaded pixel and compute shaders.
 -   The use of [**ID3D12Device::SetStablePowerState**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-setstablepowerstate) has changed.
--   Some new features for Direct3D 11 are described in [Direct3D 11.4 Features](/windows/win32/direct3d11/direct3d-11-4-features).
+-   Some new features for Direct3D 11 are described in [Direct3D 11.4 Features](../direct3d11/direct3d-11-4-features.md).
 -   [**AtomicCopyBufferUINT**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-atomiccopybufferuint) and [**AtomicCopyBufferUINT64**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-atomiccopybufferuint64) enable **late-latch** to reduce pervieved latency.
 -   [**ID3D12Device2::CreatePipelineState**](/windows/win32/api/d3d12/nf-d3d12-id3d12device2-createpipelinestate) and [**OMSetDepthBounds**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-omsetdepthbounds) enable **depth-bounds testing** on supported hardware.
 -   [**ResolveSubresourceRegion**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-resolvesubresourceregion) enables **partial resolution** of subresources to help optimize performance.
@@ -84,7 +108,7 @@ These topics have been added to the Direct3D documentation for Windows 10, vers
 
 -   Revision of the remarks for [**ID3D12GraphicsCommandList::DiscardResource**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-discardresource).
 -   Clarification of "State decay to common" (see [Using Resource Barriers to Synchronize Resource States in Direct3D 12](using-resource-barriers-to-synchronize-resource-states-in-direct3d-12.md)).
--   The D3dx12.h header file, referred to in [Helper Structures and Functions for D3D12](helper-structures-and-functions-for-d3d12.md), can be downloaded directly from [The D3D12 Helper Library](https://github.com/Microsoft/DirectX-Graphics-Samples/tree/master/Libraries/D3DX12).
+-   The D3dx12.h header file, referred to in [Helper Structures and Functions for D3D12](helper-structures-and-functions-for-d3d12.md), can be downloaded directly from [The D3D12 Helper Library](https://github.com/microsoft/DirectX-Headers/blob/main/include/directx/d3dx12.h).
 
 ## August 2016 documentation update 2
 
@@ -95,7 +119,7 @@ These topics have been added to the Direct3D documentation for Windows 10, vers
 ## August 2016 documentation update 1
 
 -   Revision of [Using Resource Barriers to Synchronize Resource States in Direct3D 12](using-resource-barriers-to-synchronize-resource-states-in-direct3d-12.md).
--   Revision of [Multi-queue resource access](/windows/win32/direct3d12/user-mode-heap-synchronization#multi-queue-resource-access).
+-   Revision of [Multi-queue resource access](./user-mode-heap-synchronization.md#multi-queue-resource-access).
 
 ## Windows 10, version 1607
 
@@ -107,13 +131,13 @@ These topics have been added to the Direct3D documentation for Windows 10, vers
     -   [**ID3D12PipelineLibrary**](/windows/win32/api/d3d12/nn-d3d12-id3d12pipelinelibrary)
     -   [**ID3D12Device1**](/windows/win32/api/d3d12/nn-d3d12-id3d12device1)
     -   [**ID3D12VersionedRootSignatureDeserializer**](/windows/win32/api/d3d12/nn-d3d12-id3d12versionedrootsignaturedeserializer)
--   Refer to the [HLSL Shader Model 6.0 Overview](/windows/win32/direct3dhlsl/hlsl-shader-model-6-0-features-for-direct3d-12), which describes the wave intrinsic operations for multi-threaded pixel and compute shaders.
+-   Refer to the [HLSL Shader Model 6.0 Overview](../direct3dhlsl/hlsl-shader-model-6-0-features-for-direct3d-12.md), which describes the wave intrinsic operations for multi-threaded pixel and compute shaders.
 -   The use of [**ID3D12Device::SetStablePowerState**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-setstablepowerstate) has changed.
--   Some new features for Direct3D 11 are described in [Direct3D 11.4 Features](/windows/win32/direct3d11/direct3d-11-4-features).
+-   Some new features for Direct3D 11 are described in [Direct3D 11.4 Features](../direct3d11/direct3d-11-4-features.md).
 -   The range of supported libraries for Direct3D 12 has been updated, refer to the **Supported tools and libraries** section of [Direct3D 12 Programming Environment Setup](directx-12-programming-environment-set-up.md).
--   [High Dynamic Range and Wide Color Gamut](/windows/win32/direct3ddxgi/high-dynamic-range-and-wide-color-gamut)
--   [Variable refresh rate displays](/windows/win32/direct3ddxgi/variable-refresh-rate-displays)
--   [DXGI 1.5 Improvements](/windows/win32/direct3ddxgi/dxgi-1-5-improvements)
+-   [Using DirectX with high dynamic range displays and advanced color](../direct3darticles/high-dynamic-range.md)
+-   [Variable refresh rate displays](../direct3ddxgi/variable-refresh-rate-displays.md)
+-   [DXGI 1.5 Improvements](../direct3ddxgi/dxgi-1-5-improvements.md)
 
 ## Related topics
 

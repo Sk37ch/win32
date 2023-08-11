@@ -1,5 +1,5 @@
 ---
-Description: Core window.
+description: Describes the core window attribute and provides the attribute's data type, remarks, requirements, and related articles.
 ms.assetid: B18E322C-7954-473D-81A2-F181FBA9BDAC
 title: MF_MEDIA_ENGINE_COREWINDOW attribute (Mfmediaengine.h)
 ms.topic: reference
@@ -16,13 +16,13 @@ Core window.
 
 ## Remarks
 
-For information more information see [**ICoreWindow interface**](https://msdn.microsoft.com/library/BR208296(v=Win.10).aspx).
+For information more information see [**ICoreWindow interface**](/uwp/api/Windows.UI.Core.ICoreWindow).
 
 ## Requirements
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                                |
@@ -40,7 +40,3 @@ For information more information see [**ICoreWindow interface**](https://msdn.mi
  
 
  
-
-
-
-

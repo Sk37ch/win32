@@ -1,5 +1,5 @@
 ---
-Description: Handles the WM\_CTLCOLOR message for applications that use CTL3D.
+description: Handles the WM\_CTLCOLOR message for applications that use CTL3D.
 ms.assetid: 8626a559-4856-4e7d-bf9c-edc48613b8f4
 title: Ctl3dCtlColorEx function
 ms.topic: reference
@@ -63,13 +63,13 @@ Returns a handle to the appropriate brush if the function succeeds; otherwise, i
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ctl3d32.dll</dt> </dl> |
 
@@ -78,7 +78,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Associates a transparent bridging service with an entry of its forwarding database.
+description: Associates a transparent bridging service with an entry of its forwarding database.
 ms.assetid: 6db93e71-c9b7-4710-a9ee-99a1055cfd82
 title: CIM_TransparentBridgingDynamicForwarding class
 ms.topic: reference
@@ -53,7 +53,7 @@ Data type: **CIM\_TransparentBridgingService**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 A [**CIM\_TransparentBridgingService**](cim-transparentbridgingservice.md) reference to the transparent bridging service.
@@ -69,7 +69,7 @@ Data type: **CIM\_DynamicForwardingEntry**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**Weak**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**Weak**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 A [**CIM\_DynamicForwardingEntry**](cim-dynamicforwardingentry.md) reference to the forwarding database entry.
@@ -80,7 +80,7 @@ A [**CIM\_DynamicForwardingEntry**](cim-dynamicforwardingentry.md) reference to 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -98,9 +98,4 @@ A [**CIM\_DynamicForwardingEntry**](cim-dynamicforwardingentry.md) reference to 
 </dt> </dl>
 
  
-
- 
-
-
-
 

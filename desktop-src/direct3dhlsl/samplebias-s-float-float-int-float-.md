@@ -1,6 +1,6 @@
 ---
-title: SampleBias::SampleBias(S,float,float,int,float) function
-description: Samples a Texture2D, after applying the bias value to the mipmap level, with an optional value to clamp sample level-of-detail (LOD) values to.
+title: SampleBias::SampleBias(S,float,float,int,float) function for Texture2D
+description: The SampleBias::SampleBias(S,float,float,int,float) function samples a Texture2D, after applying the bias value to the mipmap level.
 ms.assetid: 4E4A1188-DE45-4A43-B54D-4CA2E66707E3
 keywords:
 - SampleBias function HLSL
@@ -15,20 +15,20 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# SampleBias(S,float,float,int,float) function
+# SampleBias::SampleBias(S,float,float,int,float) function for Texture2D
 
 Samples a [**Texture2D**](sm5-object-texture2d.md), after applying the bias value to the mipmap level, with an optional value to clamp sample level-of-detail (LOD) values to.
 
 ## Syntax
 
 
-```C++
+``` syntax
 DXGI_FORMAT SampleBias(
-  _In_ SamplerState S,
-  _In_ float        Location,
-  _In_ float        Bias,
-  _In_ int          Offset,
-  _In_ float        Clamp
+  in SamplerState S,
+  in float        Location,
+  in float        Bias,
+  in int          Offset,
+  in float        Clamp
 );
 ```
 
@@ -111,9 +111,9 @@ An optional value to clamp sample LOD values to. For example, if you pass 2.0f f
 
 ## Return value
 
-Type: **[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
+Type: **[**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
 
-The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
+The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
 ## See also
 
@@ -125,7 +125,3 @@ The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**
  
 
  
-
-
-
-

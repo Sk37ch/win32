@@ -24,7 +24,7 @@ Implement the **IBackgroundCopyCallback** interface to receive notification that
 
 ## Members
 
-The **IBackgroundCopyCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IBackgroundCopyCallback** also has these types of members:
+The **IBackgroundCopyCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IBackgroundCopyCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -48,13 +48,13 @@ The **IBackgroundCopyCallback** interface has these methods.
 
 To receive notifications, call the [**IBackgroundCopyJob::SetNotifyInterface**](ibackgroundcopyjob-setnotifyinterface.md) method to specify the interface pointer to your **IBackgroundCopyCallback** implementation. To specify which notifications you want to receive, call the [**IBackgroundCopyJob::SetNotifyFlags**](ibackgroundcopyjob-setnotifyflags.md) method.
 
-DO will call your callbacks as long as the interface pointer is valid. The notification interface is no longer valid when your application terminates; DO does not persist the notify interface. As a result, your application's initialization process should call the [**SetNotifyInterface**](ibackgroundcopyjob-setnotifyinterface.md) method on those existing jobs for which you want to receive notification.
+Delivery Optimization will call your callbacks as long as the interface pointer is valid. The notification interface is no longer valid when your application terminates; Delivery Optimization does not persist the notify interface. As a result, your application's initialization process should call the [**SetNotifyInterface**](ibackgroundcopyjob-setnotifyinterface.md) method on those existing jobs for which you want to receive notification.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
@@ -80,10 +80,4 @@ DO will call your callbacks as long as the interface pointer is valid. The notif
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

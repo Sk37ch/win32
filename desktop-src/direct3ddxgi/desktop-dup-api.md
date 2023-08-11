@@ -1,5 +1,5 @@
 ---
-Description: Windows 8 disables standard Windows 2000 Display Driver Model (XDDM) mirror drivers and offers the desktop duplication API instead.
+description: Windows 8 disables standard Windows 2000 Display Driver Model (XDDM) mirror drivers and offers the desktop duplication API instead.
 ms.assetid: 523FBFAD-5D78-4EE3-A3B7-8FD5BA39DC46
 title: Desktop Duplication API
 ms.topic: article
@@ -17,7 +17,7 @@ Windows 8 disables standard Windows 2000 Display Driver Model (XDDM) mirror dri
 
 ## Updating the desktop image data
 
-DXGI provides a surface that contains a current desktop image through the new [**IDXGIOutputDuplication::AcquireNextFrame**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgioutputduplication-acquirenextframe) method. The format of the desktop image is always [**DXGI\_FORMAT\_B8G8R8A8\_UNORM**](https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx) no matter what the current display mode is. Along with this surface, these [**IDXGIOutputDuplication**](/windows/desktop/api/DXGI1_2/nn-dxgi1_2-idxgioutputduplication) methods return the indicated types of info that help you determine which pixels within the surface you need to process:
+DXGI provides a surface that contains a current desktop image through the new [**IDXGIOutputDuplication::AcquireNextFrame**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgioutputduplication-acquirenextframe) method. The format of the desktop image is always [**DXGI\_FORMAT\_B8G8R8A8\_UNORM**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) no matter what the current display mode is. Along with this surface, these [**IDXGIOutputDuplication**](/windows/desktop/api/DXGI1_2/nn-dxgi1_2-idxgioutputduplication) methods return the indicated types of info that help you determine which pixels within the surface you need to process:
 
 -   [**IDXGIOutputDuplication::GetFrameDirtyRects**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgioutputduplication-getframedirtyrects) returns dirty regions, which are non-overlapping rectangles that indicate the areas of the desktop image that the operating system updated since you processed the previous desktop image.
 -   [**IDXGIOutputDuplication::GetFrameMoveRects**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgioutputduplication-getframemoverects) returns move regions, which are rectangles of pixels in the desktop image that the operating system moved to another location within the same image. Each move region consists of a destination rectangle and a source point. The source point specifies the location from where the operating system copied the region and the destination rectangle specifies to where the operating system moved that region. Move regions are always non-stretched regions so the source is always the same size as the destination.
@@ -26,7 +26,7 @@ Suppose the desktop image was transmitted over a slow connection to your remote 
 
 While the operating system accumulates unprocessed desktop image updates, it might run out of space to accurately store the update regions. In this situation, the operating system starts to accumulate the updates by coalescing them with existing update regions to cover all new updates. As a result, the operating system covers pixels that it has not actually updated in that frame yet. But this situation doesn’t produce visual issues on your client app because you receive the entire desktop image and not just the updated pixels.
 
-To reconstruct the correct desktop image, your client app must first process all the move regions and then process all the dirty regions. Either of these lists of dirty and move regions can be completely empty. The example code from the [Desktop Duplication Sample](https://code.msdn.microsoft.com/windowsdesktop/Desktop-Duplication-Sample-da4c696a) shows how to process both the dirty and move regions in a single frame:
+To reconstruct the correct desktop image, your client app must first process all the move regions and then process all the dirty regions. Either of these lists of dirty and move regions can be completely empty. The example code from the [Desktop Duplication Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/DXGI%20desktop%20duplication%20sample) shows how to process both the dirty and move regions in a single frame:
 
 
 ```C++
@@ -194,7 +194,7 @@ To draw the desktop’s mouse pointer, use the **PointerPosition** member of [**
 
  
 
-This example code from the [Desktop Duplication Sample](https://code.msdn.microsoft.com/windowsdesktop/Desktop-Duplication-Sample-da4c696a) shows how to get the mouse pointer shape:
+This example code from the [Desktop Duplication Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/DXGI%20desktop%20duplication%20sample) shows how to get the mouse pointer shape:
 
 
 ```C++
@@ -294,7 +294,3 @@ HRESULT DUPLICATIONMANAGER::GetMouse(_Out_ PTR_INFO* PtrInfo, _In_ DXGI_OUTDUPL_
  
 
  
-
-
-
-

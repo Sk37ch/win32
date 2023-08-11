@@ -1,5 +1,5 @@
 ---
-Description: Sets the LineHeight property on the InkDivider object.
+description: Sets the LineHeight property on the InkDivider object.
 ms.assetid: ce5e40c5-faa1-4d66-94f4-d5bd1a11ee4c
 title: SetLineHeight function
 ms.topic: reference
@@ -18,7 +18,7 @@ api_location:
 
 # SetLineHeight function
 
-Sets the [**LineHeight**](https://msdn.microsoft.com/library/ms699524(v=VS.85).aspx) property on the [**InkDivider**](inkdivider-class.md) object.
+Sets the [**LineHeight**](/windows/win32/api/msinkaut15/nf-msinkaut15-iinkdivider-get_lineheight) property on the [**InkDivider**](inkdivider-class.md) object.
 
 This helper function is not intended to be used by application code.
 
@@ -48,7 +48,7 @@ A handle to the [**InkDivider**](inkdivider-class.md) object.
 *lLineHeight* \[in\]
 </dt> <dd>
 
-The [**LineHeight**](https://msdn.microsoft.com/library/ms699524(v=VS.85).aspx) property of the [**InkDivider**](inkdivider-class.md) object, in HIMETRIC units.
+The [**LineHeight**](/windows/win32/api/msinkaut15/nf-msinkaut15-iinkdivider-get_lineheight) property of the [**InkDivider**](inkdivider-class.md) object, in HIMETRIC units.
 
 </dd> </dl>
 
@@ -71,7 +71,7 @@ This function can return one of these values.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | None supported<br/>                                                             |
@@ -82,7 +82,3 @@ This function can return one of these values.
  
 
  
-
-
-
-

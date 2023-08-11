@@ -1,12 +1,15 @@
 ---
-Description: DirectShow Structures
+description: DirectShow Structures
 ms.assetid: 378f6f43-5c05-4ae4-be24-956f9fc0cacf
 title: DirectShow Structures
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # DirectShow Structures
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This section describes the DirectShow structures.
 
@@ -92,7 +95,7 @@ This section describes the DirectShow structures.
 | [**REGPINTYPES**](/windows/desktop/api/strmif/ns-strmif-regpintypes)                                          | Contains media type information for registering a filter.                                                                                                                                                             |
 | [**STREAM\_ID\_MAP**](/windows/desktop/api/strmif/ns-strmif-stream_id_map)                                    | Contains information about an elementary stream within an MPEG-2 program stream.                                                                                                                                      |
 | [**TIMECODE**](/windows/win32/api/strmif/ns-strmif-timecode)                                                | Contains basic timecode frame count information.                                                                                                                                                                      |
-| [**TIMECODE\_SAMPLE**](https://msdn.microsoft.com/library/Dd407197(v=VS.85).aspx)                                 | Contains complete timecode information.                                                                                                                                                                               |
+| [**TIMECODE\_SAMPLE**](/windows/win32/api/strmif/ns-strmif-timecode_sample)                                 | Contains complete timecode information.                                                                                                                                                                               |
 | [**TRUECOLORINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-truecolorinfo)                             | Maintains color information.                                                                                                                                                                                          |
 | [**VIDEO\_STREAM\_CONFIG\_CAPS**](/windows/win32/api/strmif/ns-strmif-video_stream_config_caps)             | Contains information about possible connections.                                                                                                                                                                      |
 | [**VIDEOINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo)                                              | Contains information that specifies a video image and its color palette and bitmasks.                                                                                                                                 |
@@ -115,7 +118,7 @@ This section describes the DirectShow structures.
 | [**VMRMONITORINFO**](/windows/win32/api/strmif/ns-strmif-vmrmonitorinfo)                                    | Used to set and retrieve information about monitors on the system. (VMR-7.)                                                                                                                                           |
 | [**VMRPRESENTATIONINFO**](/windows/win32/api/strmif/ns-strmif-vmrpresentationinfo)                          | Used to present video frame information. (VMR-7.)                                                                                                                                                                     |
 | [**VMRVIDEOSTREAMINFO**](/windows/win32/api/strmif/ns-strmif-vmrvideostreaminfo)                            | Contains video stream information that is used in the Video Mixing Renderer filter call to the [**IVMRImageCompositor::CompositeImage**](/windows/desktop/api/Strmif/nf-strmif-ivmrimagecompositor-compositeimage) method. (VMR-7.)                     |
-| [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx)                                        | Defines the format of waveform-audio data.                                                                                                                                                                            |
+| [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85))                                        | Defines the format of waveform-audio data.                                                                                                                                                                            |
 | [**WAVEFORMATEXTENSIBLE**](/windows/desktop/api/MMReg/ns-mmreg-waveformatextensible)                        | Defines the format of waveform-audio data for formats having more than two channels.                                                                                                                                  |
 
 
@@ -132,6 +135,3 @@ This section describes the DirectShow structures.
  
 
  
-
-
-

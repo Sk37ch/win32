@@ -1,5 +1,5 @@
 ---
-Description: This topic describes stemming considerations for agglutinative languages and Unicode surrogate pairs, and for using surrogate pairs to extend the Unicode character set to accommodate different character sets.
+description: This topic describes stemming considerations for agglutinative languages and Unicode surrogate pairs, and for using surrogate pairs to extend the Unicode character set to accommodate different character sets.
 ms.assetid: 7104b2da-2ece-46ce-b4ca-6c24dc4d6677
 title: Miscellaneous Linguistic and Unicode Considerations
 ms.topic: article
@@ -104,11 +104,8 @@ Surrogate pairs are character representations in source code that represent a si
 -   A low surrogate must follow a high surrogate.
 -   A high or low surrogate without a corresponding value for its other half has no meaning.
 
-Word breakers must consider any pairs and generate the pairs as such in the index. For more information, see [Surrogates and Supplementary Characters](https://docs.microsoft.com/windows/desktop/Intl/surrogates-and-supplementary-characters).
+Word breakers must consider any pairs and generate the pairs as such in the index. For more information, see [Surrogates and Supplementary Characters](/windows/desktop/Intl/surrogates-and-supplementary-characters).
 
  
 
  
-
-
-

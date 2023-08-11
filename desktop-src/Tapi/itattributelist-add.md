@@ -1,5 +1,5 @@
 ---
-Description: The Add method adds the attribute at the specified index.
+description: The Add method adds the attribute at the specified index.
 ms.assetid: 5b74c177-bf5c-4547-bebb-034a9a10be13
 title: ITAttributeList::Add method (Sdpblb.h)
 ms.topic: reference
@@ -62,13 +62,13 @@ This method can return one of these values.
 
 ## Remarks
 
-The application must use [**SysAllocString**](https://msdn.microsoft.com/library/ms221458(v=VS.71).aspx) to allocate memory for the *pAttribute* parameter and use [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the memory when the variable is no longer needed.
+The application must use [**SysAllocString**](/windows/win32/api/oleauto/nf-oleauto-sysallocstring) to allocate memory for the *pAttribute* parameter and use [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) to free the memory when the variable is no longer needed.
 
 ## Requirements
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |
@@ -85,9 +85,4 @@ The application must use [**SysAllocString**](https://msdn.microsoft.com/library
 </dt> </dl>
 
  
-
- 
-
-
-
 

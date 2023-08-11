@@ -1,5 +1,5 @@
 ---
-Description: The OpenSearch code sample demonstrates how to create a federated search service using the OpenSearch protocol, and an OpenSearch Descriptor (.osdx) file (a search connector).
+description: The OpenSearch code sample demonstrates how to create a federated search service using the OpenSearch protocol, and an OpenSearch Descriptor (.osdx) file (a search connector).
 ms.assetid: 792884e4-826b-4474-82e1-1680d4d8b602
 title: OpenSearch
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # OpenSearch
 
-The OpenSearch code sample demonstrates how to create a federated search service using the [OpenSearch](http://www.opensearch.org/Home) protocol, and an OpenSearch Descriptor (.osdx) file (a search connector).
+The OpenSearch code sample demonstrates how to create a federated search service using the [OpenSearch](https://github.com/dewitt/opensearch) protocol, and an OpenSearch Descriptor (.osdx) file (a search connector).
 
 This topic contains the following sections.
 
@@ -39,8 +39,7 @@ This sample is available in the following locations.
 
 | Location      | Path URL                                                                  |
 |---------------|---------------------------------------------------------------------------|
-| Code Gallery  | [OpenSearch sample](https://code.msdn.microsoft.com/windowssearch)      |
-| Windows 7 SDK | [Download Windows 7 SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx) |
+| GitHub  | [OpenSearch sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/shellextensibility/OpenSearch)      |
 
 
 
@@ -49,7 +48,7 @@ This sample is available in the following locations.
  
 
 > [!Note]  
-> After you have downloaded and installed the Windows Software Development Kit (SDK), you will find the samples in the installed directory. For example, use of the default installation path for the Windows 7 software development kit (SDK) results in the samples being placed under `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples`.
+> For all versions of Windows, including Windows 7, it is recommended to download the samples directly from GitHub for the most up to date version.
 
  
 
@@ -57,7 +56,7 @@ This sample is available in the following locations.
 
 To build the sample from the Command Prompt:
 
-1.  Open the Command Prompt window and navigate to the **AdventureSearch** project directory. For example, the full default installation path is `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\WinUI\Shell\ShellExtensibility\OpenSearch`.
+1.  Open the Command Prompt window and navigate to the **AdventureSearch** project directory. 
 2.  Enter `msbuild AdventureSearch.sln`.
 
 To build the sample using Microsoft Visual Studio (preferred):
@@ -99,12 +98,9 @@ To build the sample using Microsoft Visual Studio (preferred):
 **Other Resources**
 </dt> <dt>
 
-[Library Description Schema](https://msdn.microsoft.com/library/Dd798389(v=VS.85).aspx)
+[Library Description Schema](../shell/library-schema-entry.md)
 </dt> </dl>
 
  
 
  
-
-
-

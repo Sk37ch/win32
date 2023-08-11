@@ -1,5 +1,5 @@
 ---
-Description: The HRECOALT handle is obsolete.
+description: The HRECOALT handle is obsolete.
 ms.assetid: de3242f4-bce3-4139-9cb4-85eb33f375b1
 title: HRECOALT Handle (Recapis.h)
 ms.topic: reference
@@ -22,19 +22,19 @@ typedef HANDLE HRECOALT;
 These functions are obsolete and need not be implemented by custom application recognizers.
 
 -   [**DestroyAlternate**](/windows/desktop/api/recapis/nf-recapis-destroyalternate)
--   [**GetConfidenceLevel**](https://msdn.microsoft.com/library/ms704829(v=VS.85).aspx)
--   [**GetGuideIndex**](https://msdn.microsoft.com/library/ms701152(v=VS.85).aspx)
--   [**GetMetrics**](https://msdn.microsoft.com/library/ms695560(v=VS.85).aspx)
--   [**GetPropertyRanges**](https://msdn.microsoft.com/library/ms695602(v=VS.85).aspx)
--   [**GetSegmentAlternateList**](https://msdn.microsoft.com/library/ms701702(v=VS.85).aspx)
--   [**GetString**](https://msdn.microsoft.com/library/ms704890(v=VS.85).aspx)
--   [**GetStrokeRanges**](https://msdn.microsoft.com/library/ms705304(v=VS.85).aspx)
+-   [**GetConfidenceLevel**](/previous-versions/windows/desktop/legacy/ms704829(v=vs.85))
+-   [**GetGuideIndex**](/previous-versions/windows/desktop/legacy/ms701152(v=vs.85))
+-   [**GetMetrics**](/previous-versions/windows/desktop/legacy/ms695560(v=vs.85))
+-   [**GetPropertyRanges**](/previous-versions/windows/desktop/legacy/ms695602(v=vs.85))
+-   [**GetSegmentAlternateList**](/previous-versions/windows/desktop/legacy/ms701702(v=vs.85))
+-   [**GetString**](/previous-versions/windows/desktop/legacy/ms704890(v=vs.85))
+-   [**GetStrokeRanges**](/previous-versions/windows/desktop/legacy/ms705304(v=vs.85))
 
 ## Requirements
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                        |
 | Minimum supported server<br/> | None supported<br/>                                                            |
@@ -43,9 +43,4 @@ These functions are obsolete and need not be implemented by custom application r
 
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: The TakeOwnerShip WMI class method obtains ownership of the logical file specified in the object path.
+description: TakeOwnerShip method of the Win32_Directory class - The TakeOwnerShip WMI class method obtains ownership of the logical file specified in the object path.
 ms.assetid: 1112823b-0bb6-4dc0-a5c4-8d3839a47a3a
 ms.tgt_platform: multiple
 title: TakeOwnerShip method of the Win32_Directory class
@@ -18,9 +18,9 @@ api_location:
 
 # TakeOwnerShip method of the Win32\_Directory class
 
-The **TakeOwnerShip** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method obtains ownership of the logical file specified in the object path. If the logical file is actually a directory, then **TakeOwnerShip** acts recursively, taking ownership of all of the files and subdirectories the directory contains.
+The **TakeOwnerShip** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method obtains ownership of the logical file specified in the object path. If the logical file is actually a directory, then **TakeOwnerShip** acts recursively, taking ownership of all of the files and subdirectories the directory contains.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -161,7 +161,7 @@ wscript.echo objOutParams.ReturnValue
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -175,16 +175,11 @@ wscript.echo objOutParams.ReturnValue
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_Directory**](win32-directory.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

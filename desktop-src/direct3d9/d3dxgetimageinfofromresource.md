@@ -1,5 +1,5 @@
 ---
-Description: Retrieves information about a given image in a resource.
+description: D3DXGetImageInfoFromResource function - Retrieves information about a given image in a resource.
 ms.assetid: 1f811b1e-f0bd-4f64-a4c9-caf899470940
 title: D3DXGetImageInfoFromResource function (D3dx9tex.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ HRESULT D3DXGetImageInfoFromResource(
 *hSrcModule* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**HMODULE**](../winprog/windows-data-types.md)**
 
 Module where the resource is loaded. Set this parameter to **NULL** to specify the module associated with the image that the operating system used to create the current process.
 
@@ -49,7 +49,7 @@ Module where the resource is loaded. Set this parameter to **NULL** to specify t
 *pSrcFile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 Pointer to a string that specifies the filename. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the string data type resolves to LPCSTR. See Remarks.
 
@@ -78,7 +78,7 @@ The compiler setting also determines the function version. If Unicode is defined
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |
@@ -101,7 +101,3 @@ The compiler setting also determines the function version. If Unicode is defined
  
 
  
-
-
-
-

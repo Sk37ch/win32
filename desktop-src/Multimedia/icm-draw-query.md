@@ -36,7 +36,7 @@ lParam = 0;
 <span id="lpbiInput"></span><span id="lpbiinput"></span><span id="LPBIINPUT"></span>*lpbiInput*
 </dt> <dd>
 
-Pointer to a [**BITMAPINFO**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure containing the input format.
+Pointer to a [**BITMAPINFO**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure containing the input format.
 
 </dd> </dl>
 
@@ -52,7 +52,7 @@ This message differs from the [**ICM\_DRAW\_BEGIN**](icm-draw-begin.md) message 
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
@@ -71,10 +71,4 @@ This message differs from the [**ICM\_DRAW\_BEGIN**](icm-draw-begin.md) message 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

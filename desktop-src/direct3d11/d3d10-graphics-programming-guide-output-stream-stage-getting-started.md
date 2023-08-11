@@ -94,8 +94,8 @@ Keeping that code in mind, consider that a geometry shader looks much like a ver
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -109,7 +109,7 @@ Keeping that code in mind, consider that a geometry shader looks much like a ver
 <td>The function return type does one thing, declares the maximum number of vertices that can be output by the shader. In this case, <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -127,18 +127,18 @@ defines the output to be a maximum of 12 vertices.</td>
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><pre><code>triangle GSPS_INPUT input[3] , inout TriangleStream<GSPS_INPUT> TriStream</code></pre></td>
+<td><pre><code>triangle GSPS_INPUT input[3] , inout TriangleStream&lt;GSPS_INPUTT&gt; TriStream</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 </div>
 <p>The first parameter is an array of vertices (3 in this case) defined by a GSPS_INPUT structure (which defines per-vertex data as a position, a normal and a texture coordinate). The first parameter also uses the triangle keyword, which means the input assembler stage must output data to the geometry shader as one of the triangle primitive types (triangle list or triangle strip).</p>
-<p>The second parameter is a triangle stream defined by the type TriangleStream<GSPS_INPUT>. This means the parameter is an array of triangles, each of which is made up of three vertices (that contain the data from the members of GSPS_INPUT).</p>
+<p>The second parameter is a triangle stream defined by the type TriangleStream&lt;GSPS_INPUTT&gt;. This means the parameter is an array of triangles, each of which is made up of three vertices (that contain the data from the members of GSPS_INPUT).</p>
 <p>Use the triangle and trianglestream keywords to identify individual triangles or a stream of triangles in a GS.</p></td>
 </tr>
 <tr class="odd">
@@ -154,7 +154,7 @@ defines the output to be a maximum of 12 vertices.</td>
 
 The rest of the shader looks very similar to a vertex or pixel shader. The geometry shader uses a structure to declare input parameters and marks the position member with the SV\_POSITION semantic to tell the hardware that this is positional data. The input structure identifies the other two input parameters as texture coordinates (even though one of them will contain a face normal). You could use your own custom semantic for the face normal if you prefer.
 
-Having designed the geometry shader, call [**D3DCompile**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile) to compile as shown in the following code example.
+Having designed the geometry shader, call [**D3DCompile**](/windows/desktop/direct3dhlsl/d3dcompile) to compile as shown in the following code example.
 
 
 ```
@@ -174,7 +174,7 @@ Just like vertex and pixel shaders, you need a shader flag to tell the compiler 
 
 Once you know that you will be streaming the data from the geometry, and you have successfully compiled the shader, the next step is to call [**ID3D11Device::CreateGeometryShaderWithStreamOutput**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-creategeometryshaderwithstreamoutput) to create the geometry shader object.
 
-But first, you need to declare the steam output (SO) stage input signature. This signature matches or validates the GS outputs and the SO inputs at the time of object creation. The following code is an example of the SO declaration.
+But first, you need to declare the stream output (SO) stage input signature. This signature matches or validates the GS outputs and the SO inputs at the time of object creation. The following code is an example of the SO declaration.
 
 
 ```
@@ -194,10 +194,10 @@ D3D11Device->CreateGeometryShaderWithStreamOut( pShaderBytecode, ShaderBytecodes
 
 This function takes several parameters including:
 
--   A pointer to the compiled geometry shader (or vertex shader if no geometry shader will be present and data will be streamed out directly from the vertex shader). For information about how to get this pointer, see [Getting a Pointer to a Compiled Shader](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-using-shaders-10).
+-   A pointer to the compiled geometry shader (or vertex shader if no geometry shader will be present and data will be streamed out directly from the vertex shader). For information about how to get this pointer, see [Getting a Pointer to a Compiled Shader](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-using-shaders-10).
 -   A pointer to an array of declarations that describe the input data for the stream output stage. (See [**D3D11\_SO\_DECLARATION\_ENTRY**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_so_declaration_entry).) You can supply up to 64 declarations, one for each different type of element to be output from the SO stage. The array of declaration entries describes the data layout regardless of whether only a single buffer or multiple buffers are to be bound for stream output.
 -   The number of elements that are written out by the SO stage.
--   A pointer to the geometry shader object that is created (see [**ID3D11GeometryShader**](https://msdn.microsoft.com/library/Ff476536(v=VS.85).aspx)).
+-   A pointer to the geometry shader object that is created (see [**ID3D11GeometryShader**](/windows/win32/api/d3d11/nn-d3d11-id3d11geometryshader)).
 
 In this situation, the buffer stride is NULL, the index of the stream to be sent to the rasterizer is 0, and the class linkage interface is NULL.
 
@@ -252,10 +252,4 @@ All data written out to the target buffers will be 32-bit values.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

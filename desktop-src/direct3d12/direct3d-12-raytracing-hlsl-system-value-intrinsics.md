@@ -1,8 +1,7 @@
 ---
 title: Direct3D 12 raytracing HLSL system value intrinsics
-description: The following HLSL shaders support the Direct3D 12 raytracing pipeline.
+description: View links to articles describing high-level shader language (HLSL) system value intrinsic functions that support the Direct3D 12 raytracing pipeline.
 ms.assetid: 
-ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -24,7 +23,7 @@ System values are retrieved by using special intrinsic functions, rather than in
 
 | Topic | Description |
 |-|-|
-| [**WorldRayOrigin**](worldrayorigin.md) | The world-space direction for the current ray. |
+| [**WorldRayOrigin**](worldrayorigin.md) | The world-space origin of the current ray. |
 | [**WorldRayDirection**](worldraydirection.md) | The world-space direction for the current ray. |
 | [**RayTMin**](raytmin.md) | A float representing the current parametric starting point for the ray. |
 | [**RayTCurrent**](raytcurrent.md) | A float representing the current parametric ending point for the ray.  |

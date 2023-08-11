@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnStream.MemberwiseClone method"
 title: ColumnStream.MemberwiseClone method 
 TOCTitle: 'MemberwiseClone method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.ColumnStream.MemberwiseClone
@@ -33,13 +34,13 @@ Include inherited members
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone?redirectedfrom=MSDN#System_Object_MemberwiseClone">MemberwiseClone()</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
+<td><a href="/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">MemberwiseClone()</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone?redirectedfrom=MSDN#System_MarshalByRefObject_MemberwiseClone_System_Boolean_">MemberwiseClone(Boolean)</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject?redirectedfrom=MSDN">MarshalByRefObject</a>.)</td>
+<td><a href="/dotnet/api/system.marshalbyrefobject.memberwiseclone#System_MarshalByRefObject_MemberwiseClone_System_Boolean_">MemberwiseClone(Boolean)</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.marshalbyrefobject">MarshalByRefObject</a>.)</td>
 </tr>
 </tbody>
 </table>
@@ -51,9 +52,8 @@ Top
 
 #### Reference
 
-[ColumnStream class](dn334143\(v=exchg.10\).md)
+[ColumnStream class](./columnstream-class.md)
 
-[ColumnStream members](dn334190\(v=exchg.10\).md)
+[ColumnStream members](./columnstream-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

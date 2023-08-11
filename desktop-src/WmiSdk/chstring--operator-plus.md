@@ -1,5 +1,5 @@
 ---
-Description: The + concatenation operator joins two strings and returns a CHString object.
+description: The + concatenation operator joins two strings and returns a CHString object.
 ms.assetid: b7ed6379-ccfa-40f9-9607-d9033179b674
 ms.tgt_platform: multiple
 title: CHString::operator+ (ChString.h)
@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # CHString::operator+
 
-\[The [**CHString**](chstring.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
+\[The [**CHString**](chstring.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The + concatenation operator joins two strings and returns a [**CHString**](chstring.md) object.
 
@@ -104,7 +104,7 @@ s3 = "abc" + "def"; // Wrong. The first argument must be a CHString.
 
 
 
-|                                     |                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                                                                                |
@@ -122,9 +122,4 @@ s3 = "abc" + "def"; // Wrong. The first argument must be a CHString.
 </dt> </dl>
 
  
-
- 
-
-
-
 

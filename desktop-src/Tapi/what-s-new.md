@@ -1,12 +1,12 @@
 ---
-Description: TAPI 3.1 adds detailed phone device controls and a number of specialized terminal interfaces. The following table lists the new interfaces.
+description: TAPI 3.1 adds detailed phone device controls and a number of specialized terminal interfaces. The following table lists the new interfaces.
 ms.assetid: 71f87258-f8e1-466b-802e-a5ae22b38974
 title: What's New (Telephony API)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# What's New
+# What's New (Telephony API)
 
 TAPI 3.1 adds detailed phone device controls and a number of specialized terminal interfaces. The following table lists the new interfaces.
 
@@ -49,7 +49,7 @@ TAPI 3.1 adds detailed phone device controls and a number of specialized termina
 | [**ITTAPIObjectEvent2**](/windows/desktop/api/tapi3if/nn-tapi3if-ittapiobjectevent2)                                               | Extends the [**ITTAPIObjectEvent**](/windows/desktop/api/tapi3if/nn-tapi3if-ittapiobjectevent) interface; provides a method that returns a pointer to an [**ITPhone**](/windows/desktop/api/tapi3if/nn-tapi3if-itphone) interface on the phone object that caused the TAPI object event. |
 | [**ITTTSTerminalEvent**](/windows/desktop/api/tapi3if/nn-tapi3if-itttsterminalevent)                                               | Retrieves the description of text-to-speech (TTS) terminal events.                                                                                                                                               |
 | [**ITTerminalManager2**](/windows/desktop/api/Termmgr/nn-termmgr-itterminalmanager2)                                               | Retrieves information about pluggable terminal classes registered in the current system; derives from the [**ITTerminalManager**](/windows/desktop/api/Termmgr/nn-termmgr-itterminalmanager) interface.                                              |
-| [**ITTerminalSupport2**](/windows/desktop/api/tapi3if/nn-tapi3if-itterminalsupport2)                                               | Retrieves information about pluggable terminal classes and superclasses; derives from the [**ITTerminalSupport**](https://msdn.microsoft.com/library/ms733156(v=VS.85).aspx) interface.                                                              |
+| [**ITTerminalSupport2**](/windows/desktop/api/tapi3if/nn-tapi3if-itterminalsupport2)                                               | Retrieves information about pluggable terminal classes and superclasses; derives from the [**ITTerminalSupport**](/windows/win32/api/tapi3if/nn-tapi3if-itterminalsupport) interface.                                                              |
 | [**ITToneDetectionEvent**](/windows/desktop/api/Tapi3if/nn-tapi3if-ittonedetectionevent)                                           | Retrieves information about a tone detection event.                                                                                                                                                              |
 | [**ITToneTerminalEvent**](/windows/desktop/api/tapi3if/nn-tapi3if-ittoneterminalevent)                                             | Retrieves the description of tone terminal events.                                                                                                                                                               |
 
@@ -60,6 +60,3 @@ TAPI 3.1 adds detailed phone device controls and a number of specialized termina
  
 
  
-
-
-

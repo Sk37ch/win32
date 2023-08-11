@@ -1,10 +1,10 @@
 ---
-Description: ModemDMConfigProfile\/Context (v4)
+description: ModemDMConfigProfile\/Context (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_Context
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
-title: Context
+title: Context (v4)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 8f463f14-95b3-4364-b1b1-549a32291959
@@ -60,8 +60,8 @@ None.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -73,18 +73,18 @@ None.
 <tr class="odd">
 <td><a href="element-1-accessstring.md">AccessString</a></td>
 <td><p>Identifies the APN or dial string to be used to establish a data connection.</p>
-<p>For more information, see the documentation for the v1 <a href="../mbn/schema_accessstring_contexttype_element.md"><strong>AccessString</strong></a> element.</p></td>
+<p>For more information, see the documentation for the v1 <a href="../mbn/schema-accessstring-contexttype-element.md"><strong>AccessString</strong></a> element.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-1-authprotocol.md">AuthProtocol</a></td>
 <td><p>>Specifies the authentication protocol to be used for activating a Packet Data Protocol (PDP) context.</p>
 <p>Note that in v4, a new enumeration value is available for this element. <strong>AutoSelection</strong> means that an auth protocol is to be picked by lower layer(s).</p>
-<p>For further information, see the documentation for the v1 <a href="../mbn/schema_authprotocol_contexttype_element.md"><strong>AuthProtocol</strong></a> element.</p></td>
+<p>For further information, see the documentation for the v1 <a href="../mbn/schema-authprotocol-contexttype-element.md"><strong>AuthProtocol</strong></a> element.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-1-compression.md">Compression</a></td>
 <td><p>Specifies whether compression will be used at the data link for header and data transfer.</p>
-<p>For more information, see the documentation for the v1 <a href="../mbn/schema_compression_contexttype_element.md"><strong>Compression</strong></a> element.</p></td>
+<p>For more information, see the documentation for the v1 <a href="../mbn/schema-compression-contexttype-element.md"><strong>Compression</strong></a> element.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-1-iptype.md">IPType</a></td>
@@ -135,8 +135,8 @@ None.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -163,8 +163,8 @@ None.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

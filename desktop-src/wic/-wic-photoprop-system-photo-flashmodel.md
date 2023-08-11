@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.FlashModel property.
+description: The photo metadata policy for the System.Photo.FlashModel property.
 ms.assetid: ef322823-1b87-40ea-a5e3-e7551f14e44d
 title: System.Photo.FlashModel Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.FlashModel Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.FlashModel](https://msdn.microsoft.com/library/bb760455(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.FlashModel](../properties/props-system-photo-flashmodel.md) property.
 
 ### PKEY
 
@@ -68,12 +68,9 @@ If the file is in TIFF format, the handler will use the following order of prece
 
 <dl> <dt>
 
-[System.Photo.FlashModel](https://msdn.microsoft.com/library/bb760455(VS.85).aspx)
+[System.Photo.FlashModel](../properties/props-system-photo-flashmodel.md)
 </dt> </dl>
 
  
 
  
-
-
-

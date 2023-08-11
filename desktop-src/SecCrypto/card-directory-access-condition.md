@@ -1,5 +1,5 @@
 ---
-Description: Specifies access control permissions for a directory on a smart card.
+description: Specifies access control permissions for a directory on a smart card.
 ms.assetid: 361d9fa0-286e-4d2c-8452-3b5f48e77779
 title: CARD_DIRECTORY_ACCESS_CONDITION enumeration (Cardmod.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # CARD\_DIRECTORY\_ACCESS\_CONDITION enumeration
 
-The **CARD\_DIRECTORY\_ACCESS\_CONDITION** enumeration specifies access control permissions for a directory on a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).
+The **CARD\_DIRECTORY\_ACCESS\_CONDITION** enumeration specifies access control permissions for a directory on a [*smart card*](../secgloss/s-gly.md).
 
 ## Syntax
 
@@ -61,7 +61,7 @@ Administrators can read, write, and delete the directory.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows XP \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2003, Windows Server 2003 \[desktop apps only\]<br/>            |
@@ -73,19 +73,15 @@ Administrators can read, write, and delete the directory.
 
 <dl> <dt>
 
-[Microsoft Base Smart Card Cryptographic Service Provider](https://msdn.microsoft.com/library/Dd627637(v=VS.85).aspx)
+[Microsoft Base Smart Card Cryptographic Service Provider](/previous-versions/windows/desktop/secsmart/microsoft-base-smart-card-cryptographic-service-provider)
 </dt> <dt>
 
-[**CardCreateDirectory**](https://msdn.microsoft.com/library/Dd627606(v=VS.85).aspx)
+[**CardCreateDirectory**](/previous-versions/windows/desktop/secsmart/cardcreatedirectory)
 </dt> <dt>
 
-[**CardDeleteDirectory**](https://msdn.microsoft.com/library/Dd627611(v=VS.85).aspx)
+[**CardDeleteDirectory**](/previous-versions/windows/desktop/secsmart/carddeletedirectory)
 </dt> </dl>
 
  
 
  
-
-
-
-

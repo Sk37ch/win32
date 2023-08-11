@@ -1,5 +1,5 @@
 ---
-Description: After you retrieve a pointer to an IWbemServices proxy, you must set the security on the proxy to access WMI through the proxy.
+description: After you retrieve a pointer to an IWbemServices proxy, you must set the security on the proxy to access WMI through the proxy.
 ms.assetid: dd453e0e-aa1f-4ef1-ab21-613630b2758c
 ms.tgt_platform: multiple
 title: Setting the Security Levels on a WMI Connection
@@ -28,9 +28,9 @@ The following procedure describes how to set the security levels on a WMI connec
 
 **To set the security levels on a WMI connection**
 
--   Set the security levels on the [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) proxy with a call to [**CoSetProxyBlanket**](https://msdn.microsoft.com/library/ms692692(v=VS.85).aspx).
+-   Set the security levels on the [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) proxy with a call to [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket).
 
-    The following code example describes a common way of calling [**CoSetProxyBlanket**](https://msdn.microsoft.com/library/ms692692(v=VS.85).aspx).
+    The following code example describes a common way of calling [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket).
 
     ```C++
         HRESULT hres;
@@ -66,6 +66,3 @@ After you set the security levels for your [**IWbemServices**](/windows/desktop/
  
 
  
-
-
-

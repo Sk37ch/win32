@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the Attribute object that represents the indexed attribute.
+description: Retrieves the Attribute object that represents the indexed attribute.
 ms.assetid: 35c54c5f-f83f-40eb-b341-129c1aac6181
 title: Attributes.Item property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Attributes.Item property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**CryptographicAttributeObjectCollection Class**](https://msdn.microsoft.com/library/ms147988(v=VS.90).aspx) in the [**System.Security.Cryptography**](https://msdn.microsoft.com/library/9eat8fht(v=VS.100).aspx) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**CryptographicAttributeObjectCollection Class**](/dotnet/api/system.security.cryptography.cryptographicattributeobjectcollection?view=dotnet-plat-ext-3.1&preserve-view=true) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **Item** property retrieves the [**Attribute**](attribute.md) object that represents the indexed attribute. This is the default property.
 
@@ -42,7 +42,7 @@ An [**Attribute**](attribute.md) object that represents the indexed attribute.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |
@@ -54,7 +54,3 @@ An [**Attribute**](attribute.md) object that represents the indexed attribute.
  
 
  
-
-
-
-

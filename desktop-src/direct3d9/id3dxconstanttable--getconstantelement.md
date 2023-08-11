@@ -1,5 +1,5 @@
 ---
-Description: Gets a constant from an array of constants. An array is made up of elements.
+description: Gets a constant from an array of constants. An array is made up of elements.
 ms.assetid: 20a61207-b0e1-455d-9b65-0fade543d1cf
 title: ID3DXConstantTable::GetConstantElement method (D3DX9Shader.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Unique identifier to the array of constants. This value may not be **NULL**.
 *Index* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Zero-based index of the element in the array.
 
@@ -68,7 +68,7 @@ To get a constant that is not part of an array, use [**ID3DXConstantTable::GetCo
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -85,7 +85,3 @@ To get a constant that is not part of an array, use [**ID3DXConstantTable::GetCo
  
 
  
-
-
-
-

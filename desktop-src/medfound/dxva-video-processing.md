@@ -1,5 +1,5 @@
 ---
-Description: DXVA video processing encapsulates the functions of the graphics hardware that are devoted to processing uncompressed video images. Video processing services include deinterlacing and video mixing.
+description: DXVA video processing encapsulates the functions of the graphics hardware that are devoted to processing uncompressed video images. Video processing services include deinterlacing and video mixing.
 ms.assetid: bd688f81-4b7c-4016-b0bd-e40782131f8e
 title: DXVA Video Processing
 ms.topic: article
@@ -177,7 +177,7 @@ Consider an application that renders a video stream in YUY2 format, using the BT
 
 The code for this example is taken from the [DXVA2\_VideoProc](dxva2-videoproc-sample.md) SDK sample.
 
-The *pGuids* array in this example is allocated by the [**GetVideoProcessorDeviceGuids**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessordeviceguids) method, so the application must free the array by calling [**CoTaskMemFree**](https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx). The remaining steps can be performed using any of the device GUIDs returned by this method.
+The *pGuids* array in this example is allocated by the [**GetVideoProcessorDeviceGuids**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessordeviceguids) method, so the application must free the array by calling [**CoTaskMemFree**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree). The remaining steps can be performed using any of the device GUIDs returned by this method.
 
 ### Enumerate Render-Target Formats
 
@@ -654,6 +654,3 @@ Assuming that the deinterlacing mode needs one forward and one backward referenc
  
 
  
-
-
-

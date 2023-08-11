@@ -1,5 +1,5 @@
 ---
-Description: Creates a logical font.
+description: Creates a logical font.
 ms.assetid: 1713d8ab-99f5-42d1-afb3-de2d66c033b6
 title: '_CreateFontIndirect function'
 ms.topic: reference
@@ -19,7 +19,7 @@ api_location:
 
 \[This function is a wrapper over the **CreateFontIndirect** function. This function may be altered or unavailable in the future. Applications should call **CreateFontIndirect** directly.\]
 
-Creates a logical font. See [**CreateFontIndirect**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta).
+Creates a logical font. See [**CreateFontIndirect**](/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta).
 
 ## Syntax
 
@@ -43,7 +43,7 @@ HFONT _CreateFontIndirect(
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Sqlunirl.dll</dt> </dl> |
 
@@ -53,13 +53,8 @@ HFONT _CreateFontIndirect(
 
 <dl> <dt>
 
-[**CreateFontIndirect**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta)
+[**CreateFontIndirect**](/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: The following functions enable software developers to use the functionality provided by Native Wifi.
+description: The following functions enable software developers to use the functionality provided by Native Wifi.
 ms.assetid: c1816d68-48b2-4d3d-a8c8-4a243a4b3f3b
 title: Native Wifi functions
 ms.topic: article
@@ -22,7 +22,7 @@ The following functions enable you to use the functionality provided by Native W
 -   [**WFDStartOpenSession**](/windows/win32/api/wlanapi/nf-wlanapi-wfdstartopensession)
 -   [**WFDDisplaySinkStop**](wfdstopdisplaysink.md)
 -   [**WFDUpdateDeviceVisibility**](/windows/win32/api/wlanapi/nf-wlanapi-wfdupdatedevicevisibility)
--   [**WLAN\_NOTIFICATION\_CALLBACK**](https://msdn.microsoft.com/library/ms706278(v=VS.85).aspx)
+-   [**WLAN\_NOTIFICATION\_CALLBACK**](/windows/win32/api/wlanapi/nc-wlanapi-wlan_notification_callback)
 -   [**WlanAllocateMemory**](/windows/win32/api/wlanapi/nf-wlanapi-wlanallocatememory)
 -   [**WlanCloseHandle**](/windows/win32/api/wlanapi/nf-wlanapi-wlanclosehandle)
 -   [**WlanConnect**](/windows/win32/api/wlanapi/nf-wlanapi-wlanconnect)

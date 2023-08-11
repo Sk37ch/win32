@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 # STRINGTABLE resource
 
-Defines one or more string resources for an application. String resources are simply null-terminated Unicode or ASCII strings that can be loaded when needed from the executable file, using the [**LoadString**](https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx) function.
+Defines one or more string resources for an application. String resources are simply null-terminated Unicode or ASCII strings that can be loaded when needed from the executable file, using the [**LoadString**](/windows/win32/api/winuser/nf-winuser-loadstringa) function.
 
 There are two ways to format a **STRINGTABLE** statement:
 
@@ -68,7 +68,7 @@ Unsigned 16-bit integer that identifies the resource.
 <span id="string"></span><span id="STRING"></span>*string*
 </dt> <dd>
 
-One or more strings, enclosed in quotation marks. The string must be no longer than 4097 characters and must occupy a single line in the source file. To add a carriage return to the string, use this character sequence: \\012. For example, "Line one\\012Line two" defines a string that is displayed as follows:
+One or more strings, enclosed in quotation marks. The string must be no longer than 4097 characters and must occupy a single line in the source file (unless a '\\' is used as a line continuation). To add a carriage return to the string, use this character sequence: \\012. For example, "Line one\\012Line two" defines a string that is displayed as follows:
 
 ``` syntax
 Line one
@@ -91,7 +91,7 @@ Certain attributes are also supported for backward compatibility. For more infor
 
 ## Remarks
 
-RC allocates 16 strings per section and uses the identifier value to determine which section is to contain the string. Strings whose identifiers differ only in the bottom 4 bits are placed in the same section. For more information, see [Q196774](https://support.microsoft.com/kb/196774).
+RC allocates 16 strings per section and uses the identifier value to determine which section is to contain the string. Strings whose identifiers differ only in the bottom 4 bits are placed in the same section.
 
 ## Examples
 
@@ -112,7 +112,8 @@ The following example shows how to encode Unicode characters:
 
 ``` syntax
 STRINGTABLE
-BEGINIDS_CHINESESTRING L"\x5e2e\x52a9"
+BEGIN
+IDS_CHINESESTRING L"\x5e2e\x52a9"
 IDS_RUSSIANSTRING L"\x0421\x043f\x0440\x0430\x0432\x043a\x0430"
 IDS_ARABICSTRING L"\x062a\x0639\x0644\x064a\x0645\x0627\x062a"
 END
@@ -147,7 +148,7 @@ END
 
 <dl> <dt>
 
-[**LoadString**](https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx)
+[**LoadString**](/windows/win32/api/winuser/nf-winuser-loadstringa)
 </dt> <dt>
 
 [**ACCELERATORS**](accelerators-resource.md)
@@ -171,7 +172,3 @@ END
  
 
  
-
-
-
-

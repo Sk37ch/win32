@@ -1,5 +1,5 @@
 ---
-Description: Lists the diagnostic procedures to use when troubleshooting the Network Explorer.
+description: Lists the diagnostic procedures to use when troubleshooting the Network Explorer.
 ms.assetid: 56052a82-d3a6-4749-9010-6796558dcb17
 title: Troubleshooting the Network Explorer
 ms.topic: article
@@ -26,7 +26,7 @@ The following diagnostic procedures should be used (in order) to help identify p
 6.  [Use WinHTTP logging to verify Get traffic](using-winhttp-logging-to-verify-get-traffic.md).
 7.  [Inspect network traces for HTTP metadata exchange](inspecting-network-traces-for-http-metadata-exchange.md).
 
-The Network Explorer uses [Function Discovery](https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/fd-portal) to enumerate network devices. For more troubleshooting information, see [Troubleshooting Function Discovery Clients](troubleshooting-function-discovery-clients.md).
+The Network Explorer uses [Function Discovery](/previous-versions/windows/desktop/fundisc/fd-portal) to enumerate network devices. For more troubleshooting information, see [Troubleshooting Function Discovery Clients](troubleshooting-function-discovery-clients.md).
 
 If the source of the problem cannot be identified using the above diagnostic procedures, follow the directions in [Enabling WSDAPI Tracing](enabling-wsdapi-tracing.md) and contact Microsoft support.
 
@@ -43,6 +43,3 @@ If the source of the problem cannot be identified using the above diagnostic pro
  
 
  
-
-
-

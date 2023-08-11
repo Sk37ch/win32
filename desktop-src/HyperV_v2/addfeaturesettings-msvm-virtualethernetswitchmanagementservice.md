@@ -1,5 +1,5 @@
 ---
-Description: Adds feature settings to the configuration of an Ethernet switch port.
+description: Adds feature settings to the configuration of an Ethernet switch port.
 ms.assetid: 628a6546-cc78-4fde-be0c-533a2c3f9483
 title: AddFeatureSettings method of the Msvm_VirtualEthernetSwitchManagementService class
 ms.topic: reference
@@ -40,7 +40,7 @@ uint32 AddFeatureSettings(
 *AffectedConfiguration* \[in\]
 </dt> <dd>
 
-A reference to a [**CIM\_SettingData**](https://docs.microsoft.com/previous-versions//cc136911(v=vs.85)) derived class that represents the affected Ethernet switch port or Ethernet switch configuration.
+A reference to a [**CIM\_SettingData**](/previous-versions//cc136911(v=vs.85)) derived class that represents the affected Ethernet switch port or Ethernet switch configuration.
 
 </dd> <dt>
 
@@ -61,7 +61,7 @@ An array of references to instances of the [**Msvm\_FeatureSettingData**](msvm-f
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -102,7 +102,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -126,9 +126,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,6 +1,6 @@
 ---
-title: SampleCmp::SampleCmp(S,float,float,int,float) function
-description: Samples a texture, using a comparison value to reject samples, with an optional value to clamp sample level-of-detail (LOD) values to.
+title: SampleCmp::SampleCmp(S,float,float,int,float) function for Texture1DArray
+description: This function samples a texture using a comparison value to reject samples, with an optional value to clamp sample level-of-detail (LOD) values to. | SampleCmp::SampleCmp(S,float,float,int,float) function for Texture1DArray
 ms.assetid: D4EF2ADB-202A-4258-BCCD-524567A42A90
 keywords:
 - SampleCmp function HLSL
@@ -15,20 +15,20 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# SampleCmp(S,float,float,int,float) function
+# SampleCmp::SampleCmp(S,float,float,int,float) function for Texture1DArray
 
 Samples a texture, using a comparison value to reject samples, with an optional value to clamp sample level-of-detail (LOD) values to.
 
 ## Syntax
 
 
-```C++
+``` syntax
 DXGI_FORMAT SampleCmp(
-  _In_ SamplerState S,
-  _In_ float        Location,
-  _In_ float        CompareValue,
-  _In_ int          Offset,
-  _In_ float        Clamp
+  in SamplerState S,
+  in float        Location,
+  in float        CompareValue,
+  in int          Offset,
+  in float        Clamp
 );
 ```
 
@@ -111,9 +111,9 @@ An optional value to clamp sample LOD values to. For example, if you pass 2.0f f
 
 ## Return value
 
-Type: **[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
+Type: **[**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
 
-The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
+The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
 ## See also
 
@@ -125,7 +125,3 @@ The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**
  
 
  
-
-
-
-

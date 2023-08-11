@@ -1,5 +1,5 @@
 ---
-Description: Draw an array of sprites.
+description: Draw an array of sprites.
 ms.assetid: 3fcc7705-0d59-450e-b137-c9cb7ec6b1ea
 title: ID3DX10Sprite::DrawSpritesImmediate method (D3DX10.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ The array of sprites to draw. See [**D3DX10\_SPRITE**](d3dx10-sprite.md).
 *cSprites* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The number of sprites in pSprites.
 
@@ -59,7 +59,7 @@ The number of sprites in pSprites.
 *cbSprite* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The size of the sprite structure you are passing into pSprites. Passing in 0 is the equivalent of passing in sizeof(D3DX10\_SPRITE).
 
@@ -68,7 +68,7 @@ The size of the sprite structure you are passing into pSprites. Passing in 0 is 
 *flags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Reserved.
 
@@ -84,7 +84,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -104,7 +104,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

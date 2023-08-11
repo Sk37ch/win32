@@ -1,5 +1,5 @@
 ---
-Description: Specifies instructions on how timer events should be generated for consumers.
+description: Specifies instructions on how timer events should be generated for consumers.
 ms.assetid: b08edb25-bedf-4014-a835-4050f5749479
 ms.tgt_platform: multiple
 title: '__TimerInstruction class'
@@ -102,7 +102,7 @@ The **\_\_TimerInstruction** subclasses are [**\_\_AbsoluteTimerInstruction**](-
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -114,16 +114,11 @@ The **\_\_TimerInstruction** subclasses are [**\_\_AbsoluteTimerInstruction**](-
 
 <dl> <dt>
 
-[**\_\_EventGenerator**](https://docs.microsoft.com/windows/desktop/WmiSdk/--eventgenerator)
+[**\_\_EventGenerator**](/windows/desktop/WmiSdk/--eventgenerator)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

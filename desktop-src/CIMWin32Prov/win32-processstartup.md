@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_ProcessStartup abstract WMI class represents the startup configuration of a Windows-based process.
+description: The Win32\_ProcessStartup abstract WMI class represents the startup configuration of a Windows-based process.
 ms.assetid: 78508404-cab2-42fb-a0ed-0e6e7d21408c
 ms.tgt_platform: multiple
 title: Win32_ProcessStartup class
@@ -32,7 +32,7 @@ api_location:
 
 # Win32\_ProcessStartup class
 
-The **Win32\_ProcessStartup** abstract [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) represents the startup configuration of a Windows-based process. The class is defined as a method type definition, which means that it is only used for passing information to the [**Create**](create-method-in-class-win32-process.md) method of the [**Win32\_Process**](win32-process.md) class.
+The **Win32\_ProcessStartup** abstract [WMI class](../wmisdk/retrieving-a-class.md) represents the startup configuration of a Windows-based process. The class is defined as a method type definition, which means that it is only used for passing information to the [**Create**](create-method-in-class-win32-process.md) method of the [**Win32\_Process**](win32-process.md) class.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties.
 
@@ -80,7 +80,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Process and Thread Functions\|[**CreateProcess**](https://msdn.microsoft.com/library/ms682425(v=VS.85).aspx)\|dwCreationFlags")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Process and Thread Functions\|[**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa)\|dwCreationFlags")
 </dt> </dl>
 
 Additional values that control the priority class and the creation of the process. The following creation values can be specified in any combination, except as noted.
@@ -116,7 +116,7 @@ If this flag is not set and the calling process is being debugged, the new proce
 
 </dt> <dd>
 
-The primary thread of the new process is created in a suspended state and does not run until the [**ResumeThread**](https://msdn.microsoft.com/library/ms685086(v=VS.85).aspx) method is called.
+The primary thread of the new process is created in a suspended state and does not run until the [**ResumeThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-resumethread) method is called.
 
 </dd> <dt>
 
@@ -149,7 +149,7 @@ This new process has a new console, instead of inheriting the parent console. Th
 
 </dt> <dd>
 
-This new process is the root process of a new process group. The process group includes all of the processes that are descendants of this root process. The process identifier of the new process group is the same as the process identifier that is returned in the **ProcessID** property of the [**Win32\_Process**](win32-process.md) class. Process groups are used by the [**GenerateConsoleCtrlEvent**](https://msdn.microsoft.com/library/ms683155(v=VS.85).aspx) method to enable the sending of either a CTRL+C signal or a CTRL+BREAK signal to a group of console processes.
+This new process is the root process of a new process group. The process group includes all of the processes that are descendants of this root process. The process identifier of the new process group is the same as the process identifier that is returned in the **ProcessID** property of the [**Win32\_Process**](win32-process.md) class. Process groups are used by the [**GenerateConsoleCtrlEvent**](/windows/console/generateconsolectrlevent) method to enable the sending of either a CTRL+C signal or a CTRL+BREAK signal to a group of console processes.
 
 </dd> <dt>
 
@@ -197,7 +197,7 @@ Data type: **string** array
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32Registry\|HKEY\_CURRENT\_USER\\\\Environment")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry\|HKEY\_CURRENT\_USER\\\\Environment")
 </dt> </dl>
 
 List of settings for the configuration of a computer. Environment variables specify search paths for files, directories for temporary files, application-specific options, and other similar information. The system maintains a block of environment settings for each user and one for the computer. The system environment block represents environment variables for all of the users of a specific computer. A user's environment block represents the environment variables that the system maintains for a specific user, and includes the set of system environment variables. By default, each process receives a copy of the environment block for its parent process. Typically, this is the environment block for the user who is logged on. A process can specify different environment blocks for its child processes.
@@ -213,14 +213,14 @@ Data type: **uint16**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Error Functions\|SetErrorMode")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Error Functions\|SetErrorMode")
 </dt> </dl>
 
-On some non-x86 processors, misaligned memory references cause an alignment fault exception. The **No\_Alignment\_Fault\_Except** flag lets you control whether or not an operating system automatically fixes such alignment faults, or makes them visible to an application. On a millions of instructions per second (MIPS) platform, an application must explicitly call [**SetErrorMode**](https://msdn.microsoft.com/library/ms680621(v=VS.85).aspx) with the **No\_Alignment\_Fault\_Except** flag to have the operating system automatically fix alignment faults.
+On some non-x86 processors, misaligned memory references cause an alignment fault exception. The **No\_Alignment\_Fault\_Except** flag lets you control whether or not an operating system automatically fixes such alignment faults, or makes them visible to an application. On a millions of instructions per second (MIPS) platform, an application must explicitly call [**SetErrorMode**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-seterrormode) with the **No\_Alignment\_Fault\_Except** flag to have the operating system automatically fix alignment faults.
 
 How an operating system processes several types of serious errors. You can specify that the operating system process errors, or an application can receive and process errors.
 
-The default setting is for the operating system to make alignment faults visible to an application. Because the x86 platform does not make alignment faults visible to an application, the **No\_Alignment\_Fault\_Except** flag does not make the operating system raise an alignment fault error—even if the flag is not set. The default state for [**SetErrorMode**](https://msdn.microsoft.com/library/ms680621(v=VS.85).aspx) is to set all of the flags to 0 (zero).
+The default setting is for the operating system to make alignment faults visible to an application. Because the x86 platform does not make alignment faults visible to an application, the **No\_Alignment\_Fault\_Except** flag does not make the operating system raise an alignment fault error—even if the flag is not set. The default state for [**SetErrorMode**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-seterrormode) is to set all of the flags to 0 (zero).
 
 <dt>
 
@@ -290,7 +290,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/library/ms686331(v=VS.85).aspx)\|dwFillAttribute")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa)\|dwFillAttribute")
 </dt> </dl>
 
 The text and background colors if a new console window is created in a console application. These values are ignored in graphical user interface (GUI) applications. To specify both foreground and background colors, add the values together. For example, to have red type (4) on a blue background (16), set the FillAttribute to 20.
@@ -364,7 +364,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Process and Thread Structures\|[**JOBOBJECT\_BASIC\_LIMIT\_INFORMATION**](https://msdn.microsoft.com/library/ms684147(v=VS.85).aspx)\|PriorityClass")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Process and Thread Structures\|[**JOBOBJECT\_BASIC\_LIMIT\_INFORMATION**](/windows/win32/api/winnt/ns-winnt-jobobject_basic_limit_information)\|PriorityClass")
 </dt> </dl>
 
 Priority class of the new process. Use this property to determine the schedule priorities of the threads in the process. If the property is left null, the priority class defaults to Normal—unless the priority class of the creating process is Idle or Below\_Normal. In these cases, the child process receives the default priority class of the calling process.
@@ -448,144 +448,10 @@ Data type: **uint16**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/library/ms686331(v=VS.85).aspx)\|wShowWindow")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa)\|wShowWindow")
 </dt> </dl>
 
-How the window is displayed to the user.
-
-<dt>
-
-<span id="SW_HIDE"></span><span id="sw_hide"></span>
-
-<span id="SW_HIDE"></span><span id="sw_hide"></span>**SW\_HIDE** (0)
-
-
-</dt> <dd>
-
-Hides the window and activates another window.
-
-</dd> <dt>
-
-<span id="SW_NORMAL"></span><span id="sw_normal"></span>
-
-<span id="SW_NORMAL"></span><span id="sw_normal"></span>**SW\_NORMAL** (1)
-
-
-</dt> <dd>
-
-Activates and displays a window. If the window is minimized or maximized, the system restores it to the original size and position. An application specifies this flag when displaying the window for the first time.
-
-</dd> <dt>
-
-<span id="SW_SHOWMINIMIZED"></span><span id="sw_showminimized"></span>
-
-<span id="SW_SHOWMINIMIZED"></span><span id="sw_showminimized"></span>**SW\_SHOWMINIMIZED** (2)
-
-
-</dt> <dd>
-
-Activates the window, and displays it as a minimized window.
-
-</dd> <dt>
-
-<span id="SW_SHOWMAXIMIZED"></span><span id="sw_showmaximized"></span>
-
-<span id="SW_SHOWMAXIMIZED"></span><span id="sw_showmaximized"></span>**SW\_SHOWMAXIMIZED** (3)
-
-
-</dt> <dd>
-
-Activates the window, and displays it as a maximized window.
-
-</dd> <dt>
-
-<span id="SW_SHOWNOACTIVATE"></span><span id="sw_shownoactivate"></span>
-
-<span id="SW_SHOWNOACTIVATE"></span><span id="sw_shownoactivate"></span>**SW\_SHOWNOACTIVATE** (4)
-
-
-</dt> <dd>
-
-Displays a window in its most recent size and position. This value is similar to **SW\_NORMAL**, except that the window is not activated.
-
-</dd> <dt>
-
-<span id="SW_SHOW"></span><span id="sw_show"></span>
-
-<span id="SW_SHOW"></span><span id="sw_show"></span>**SW\_SHOW** (5)
-
-
-</dt> <dd>
-
-Activates the window, and displays it at the current size and position.
-
-</dd> <dt>
-
-<span id="SW_MINIMIZE"></span><span id="sw_minimize"></span>
-
-<span id="SW_MINIMIZE"></span><span id="sw_minimize"></span>**SW\_MINIMIZE** (6)
-
-
-</dt> <dd>
-
-Minimizes the specified window, and activates the next top-level window in the Z order.
-
-</dd> <dt>
-
-<span id="SW_SHOWMINNOACTIVE"></span><span id="sw_showminnoactive"></span>
-
-<span id="SW_SHOWMINNOACTIVE"></span><span id="sw_showminnoactive"></span>**SW\_SHOWMINNOACTIVE** (7)
-
-
-</dt> <dd>
-
-Displays the window as a minimized window. This value is similar to **SW\_SHOWMINIMZED**, except that the window is not activated.
-
-</dd> <dt>
-
-<span id="SW_SHOWNA"></span><span id="sw_showna"></span>
-
-<span id="SW_SHOWNA"></span><span id="sw_showna"></span>**SW\_SHOWNA** (8)
-
-
-</dt> <dd>
-
-Displays the window at the current size and position. This value is similar to **SW\_SHOW**, except that the window is not activated.
-
-</dd> <dt>
-
-<span id="SW_RESTORE"></span><span id="sw_restore"></span>
-
-<span id="SW_RESTORE"></span><span id="sw_restore"></span>**SW\_RESTORE** (9)
-
-
-</dt> <dd>
-
-Activates and displays the window. If the window is minimized or maximized, the system restores it to the original size and position. An application specifies this flag when restoring a minimized window.
-
-</dd> <dt>
-
-<span id="SW_SHOWDEFAULT"></span><span id="sw_showdefault"></span>
-
-<span id="SW_SHOWDEFAULT"></span><span id="sw_showdefault"></span>**SW\_SHOWDEFAULT** (10)
-
-
-</dt> <dd>
-
-Sets the show state based on the **SW\_\*** value that is specified in the [**STARTUPINFO**](https://msdn.microsoft.com/library/ms686331(v=VS.85).aspx) structure passed to the [**CreateProcess**](https://msdn.microsoft.com/library/ms682425(v=VS.85).aspx) function by the program that starts the application.
-
-</dd> <dt>
-
-<span id="SW_FORCEMINIMIZE"></span><span id="sw_forceminimize"></span>
-
-<span id="SW_FORCEMINIMIZE"></span><span id="sw_forceminimize"></span>**SW\_FORCEMINIMIZE** (11)
-
-
-</dt> <dd>
-
-Minimizes a window, even when the thread that owns the window stops responding. Only use this flag when minimizing windows from a different thread.
-
-</dd> </dl>
+How the window is displayed to the user. It can be any of the values that can be specified in the *nCmdShow* parameter for the [ShowWindow](/windows/desktop/api/winuser/nf-winuser-showwindow) function.
 
 </dd> <dt>
 
@@ -598,7 +464,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/library/ms686331(v=VS.85).aspx)\|lpTitle")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa)\|lpTitle")
 </dt> </dl>
 
 Text displayed in the title bar when a new console window is created; used for console processes. If **NULL**, the name of the executable file is used as the window title. This property must be **NULL** for GUI or console processes that do not create a new console window.
@@ -614,7 +480,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/library/ms686331(v=VS.85).aspx)\|lpDesktop")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa)\|lpDesktop")
 </dt> </dl>
 
 The name of the desktop or the name of both the desktop and window station for the process. A backslash in the string indicates that the string includes both desktop and window station names. If **WinstationDesktop** is **NULL**, the new process inherits the desktop and window station of its parent process. If **WinstationDesktop** is an empty string, the process does not inherit the desktop and window station of its parent process. The system determines if a new desktop and window station must be created. A window station is a secure object that contains a clipboard, a set of global atoms, and a group of desktop objects. The interactive window station that is assigned to the logon session of the interactive user also contains the keyboard, mouse, and display device. A desktop is a secure object contained within a window station. A desktop has a logical display surface and contains windows, menus, and hooks. A window station can have multiple desktops. Only the desktops of the interactive window station can be visible and receive user input.
@@ -630,10 +496,10 @@ Data type: **uint32**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/library/ms686331(v=VS.85).aspx)\|dwX")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa)\|dwX")
 </dt> </dl>
 
-The X offset of the upper left corner of a window if a new window is created—in pixels. The offsets are from the upper left corner of the screen. For GUI processes, the specified position is used the first time the new process calls [**CreateWindow**](https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx) to create an overlapped window if the *X* parameter of **CreateWindow** is **CW\_USEDEFAULT**.
+The X offset of the upper left corner of a window if a new window is created—in pixels. The offsets are from the upper left corner of the screen. For GUI processes, the specified position is used the first time the new process calls [**CreateWindow**](/windows/win32/api/winuser/nf-winuser-createwindowa) to create an overlapped window if the *X* parameter of **CreateWindow** is **CW\_USEDEFAULT**.
 
 > \[!Note  X\]  
 > and **Y** cannot be specified independently.
@@ -651,7 +517,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/library/ms686331(v=VS.85).aspx)\|XCountChars")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa)\|XCountChars")
 </dt> </dl>
 
 Screen buffer width in character columns. This property is used for processes that create a console window, and is ignored in GUI processes.
@@ -672,10 +538,10 @@ Data type: **uint32**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/library/ms686331(v=VS.85).aspx)\|dwXSize")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa)\|dwXSize")
 </dt> </dl>
 
-Pixel width of a window if a new window is created. For GUI processes, this is only used the first time the new process calls [**CreateWindow**](https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx) to create an overlapped window if the nWidth parameter of **CreateWindow** is **CW\_USEDEFAULT**.
+Pixel width of a window if a new window is created. For GUI processes, this is only used the first time the new process calls [**CreateWindow**](/windows/win32/api/winuser/nf-winuser-createwindowa) to create an overlapped window if the nWidth parameter of **CreateWindow** is **CW\_USEDEFAULT**.
 
 > [!Note]  
 > **XSize** and **YSize** cannot be specified independently.
@@ -693,10 +559,10 @@ Data type: **uint32**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/library/ms686331(v=VS.85).aspx)\|dwY")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa)\|dwY")
 </dt> </dl>
 
-Pixel offset of the upper-left corner of a window if a new window is created. The offsets are from the upper-left corner of the screen. For GUI processes, the specified position is used the first time the new process calls [**CreateWindow**](https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx) to create an overlapped window if the *y* parameter of **CreateWindow** is **CW\_USEDEFAULT**.
+Pixel offset of the upper-left corner of a window if a new window is created. The offsets are from the upper-left corner of the screen. For GUI processes, the specified position is used the first time the new process calls [**CreateWindow**](/windows/win32/api/winuser/nf-winuser-createwindowa) to create an overlapped window if the *y* parameter of **CreateWindow** is **CW\_USEDEFAULT**.
 
 > \[!Note  X\]  
 > and **Y** cannot be specified independently.
@@ -714,7 +580,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/library/ms686331(v=VS.85).aspx)\|YCountChars")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa)\|YCountChars")
 </dt> </dl>
 
 Screen buffer height in character rows. This property is used for processes that create a console window, but is ignored in GUI processes.
@@ -735,10 +601,10 @@ Data type: **uint32**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/library/ms686331(v=VS.85).aspx)\|dwYSize")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa)\|dwYSize")
 </dt> </dl>
 
-Pixel height of a window if a new window is created. For GUI processes, this is used only the first time the new process calls [**CreateWindow**](https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx) to create an overlapped window if the *nWidth* parameter of **CreateWindow** is **CW\_USEDEFAULT**.
+Pixel height of a window if a new window is created. For GUI processes, this is used only the first time the new process calls [**CreateWindow**](/windows/win32/api/winuser/nf-winuser-createwindowa) to create an overlapped window if the *nWidth* parameter of **CreateWindow** is **CW\_USEDEFAULT**.
 
 > [!Note]  
 > **XSize** and **YSize** cannot be specified independently.
@@ -836,7 +702,7 @@ End If
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -853,22 +719,18 @@ End If
 [**Win32\_MethodParameterClass**](win32-methodparameterclass.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](./operating-system-classes.md)
 </dt> <dt>
 
 [**Win32\_Process**](win32-process.md)
 </dt> <dt>
 
-[**\_\_ProviderHostQuotaConfiguration**](https://msdn.microsoft.com/library/Aa394671(v=VS.85).aspx)
+[**\_\_ProviderHostQuotaConfiguration**](../wmisdk/--providerhostquotaconfiguration.md)
 </dt> <dt>
 
-[WMI Tasks: Processes](https://msdn.microsoft.com/library/Aa394599(v=VS.85).aspx)
+[WMI Tasks: Processes](../wmisdk/wmi-tasks--processes.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

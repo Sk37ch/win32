@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the region of the document that corresponds to changes that were made in the IInkAnalyzer object's context node tree as a result of ink analysis.
+description: Retrieves the region of the document that corresponds to changes that were made in the IInkAnalyzer object's context node tree as a result of ink analysis.
 ms.assetid: 25d511fb-ba2d-4c46-8a8c-8bb4187c9a5c
 title: IAnalysisStatus::GetAppliedChangesRegion method (IACom.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**pAppliedChangesRegion* when you no longer need to use the analysis region.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**pAppliedChangesRegion* when you no longer need to use the analysis region.
 
  
 
@@ -58,7 +58,7 @@ This method is most frequently used when the application receives information fo
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -81,9 +81,4 @@ This method is most frequently used when the application receives information fo
 </dt> </dl>
 
  
-
- 
-
-
-
 

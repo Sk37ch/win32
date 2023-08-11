@@ -1,5 +1,5 @@
 ---
-Description: The SetPort function sets the status associated with a printer port.
+description: The SetPort function sets the status associated with a printer port.
 ms.assetid: 1b80ad93-aaa1-41ed-a668-a944fa62c3eb
 title: SetPort function (Winspool.h)
 ms.topic: reference
@@ -82,7 +82,7 @@ If the function fails, the return value is zero.
 
  
 
-The caller of the **SetPort** function must be executing as an Administrator. Additionally, if the caller is a Port Monitor or Language Monitor, it must call [**RevertToSelf**](https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-reverttoself) to cease impersonation before it calls **SetPort**.
+The caller of the **SetPort** function must be executing as an Administrator. Additionally, if the caller is a Port Monitor or Language Monitor, it must call [**RevertToSelf**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-reverttoself) to cease impersonation before it calls **SetPort**.
 
 All programs that call **SetPort** must have SERVER\_ACCESS\_ADMINISTER access to the server to which the port is connected.
 
@@ -92,7 +92,7 @@ When you set a printer port status value with the severity value PORT\_STATUS\_T
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -117,9 +117,4 @@ When you set a printer port status value with the severity value PORT\_STATUS\_T
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Represents a metric definition that contains the meta data for a CIM\_MetricInstance object.
+description: Represents a metric definition that contains the meta data for a CIM\_MetricInstance object.
 ms.assetid: 6abfb0dc-e80b-4ca6-89d9-2e43283d0abe
 title: CIM_BaseMetricDefinition class
 ms.topic: reference
@@ -134,7 +134,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_BaseMetricDefinition**.**IsContinuous**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_BaseMetricDefinition**.**IsContinuous**")
 </dt> </dl>
 
 Indicates how the metric value changes using common attributes such as direction change, minimum and maximum values, and wrapping semantics.
@@ -396,7 +396,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The unique ID of the metric definition. Open Software Foundation (OSF) UUID/GUIDs are recommended.
@@ -451,7 +451,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_BaseMetricValue**](cim-basemetricvalue.md).**TimeStamp**", "**CIM\_BaseMetricValue**.**Duration**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_BaseMetricValue**](cim-basemetricvalue.md).**TimeStamp**", "**CIM\_BaseMetricValue**.**Duration**")
 </dt> </dl>
 
 The time scope that applies to the metric designer.
@@ -535,7 +535,7 @@ The units of the metric. Examples are bytes, packets, jobs, files, milliseconds,
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -553,9 +553,4 @@ The units of the metric. Examples are bytes, packets, jobs, files, milliseconds,
 </dt> </dl>
 
  
-
- 
-
-
-
 

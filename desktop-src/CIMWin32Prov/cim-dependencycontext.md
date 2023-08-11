@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DependencyContext relationship associates a CIM\_Dependency class with one or more CIM\_Configuration objects. For example, a computer system's dependencies can change based on the network to which the system is attached.
+description: The CIM\_DependencyContext relationship associates a CIM\_Dependency class with one or more CIM\_Configuration objects. For example, a computer system's dependencies can change based on the network to which the system is attached.
 ms.assetid: 9f35fc41-1bfa-4018-a54c-64c875c710d4
 ms.tgt_platform: multiple
 title: CIM_DependencyContext class
@@ -61,7 +61,7 @@ Data type: **CIM\_Configuration**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 Reference to the configuration object that aggregates the dependency.
@@ -91,7 +91,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -102,9 +102,4 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
  
-
- 
-
-
-
 

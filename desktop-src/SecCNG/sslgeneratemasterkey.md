@@ -1,5 +1,5 @@
 ---
-Description: Computes the Secure Sockets Layer protocol (SSL) master secret key.
+description: Computes the Secure Sockets Layer protocol (SSL) master secret key.
 ms.assetid: c9408eb3-711d-42c3-a4ba-e388689da34e
 title: SslGenerateMasterKey function (Sslprovider.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # SslGenerateMasterKey function
 
-The **SslGenerateMasterKey** function computes the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) master secret key.
+The **SslGenerateMasterKey** function computes the [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) master secret key.
 
 ## Syntax
 
@@ -54,21 +54,21 @@ The handle to the SSL protocol provider instance.
 *hPrivateKey* \[in\]
 </dt> <dd>
 
-The handle to the [*private key*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) used in the exchange.
+The handle to the [*private key*](/windows/desktop/SecGloss/p-gly) used in the exchange.
 
 </dd> <dt>
 
 *hPublicKey* \[in\]
 </dt> <dd>
 
-The handle to the [*public key*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) used in the exchange.
+The handle to the [*public key*](/windows/desktop/SecGloss/p-gly) used in the exchange.
 
 </dd> <dt>
 
 *phMasterKey* \[out\]
 </dt> <dd>
 
-A pointer to the handle to the generated [*master key*](https://docs.microsoft.com/windows/desktop/SecGloss/m-gly).
+A pointer to the handle to the generated [*master key*](/windows/desktop/SecGloss/m-gly).
 
 </dd> <dt>
 
@@ -89,7 +89,7 @@ One of the [**CNG SSL Provider Cipher Suite Identifier**](https://msdn.microsoft
 *pParameterList* \[in\]
 </dt> <dd>
 
-A pointer to an array of [**NCryptBuffer**](https://msdn.microsoft.com/library/Aa376245(v=VS.85).aspx) buffers that contain information used as part of the key exchange operation. The precise set of buffers is dependent on the protocol and cipher suite that is used. At the minimum, the list will contain buffers that contain the client and server supplied random values.
+A pointer to an array of **NCryptBuffer** buffers that contain information used as part of the key exchange operation. The precise set of buffers is dependent on the protocol and cipher suite that is used. At the minimum, the list will contain buffers that contain the client and server supplied random values.
 
 </dd> <dt>
 
@@ -161,7 +161,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
@@ -171,9 +171,4 @@ Possible return codes include, but are not limited to, the following.
 
 
  
-
- 
-
-
-
 

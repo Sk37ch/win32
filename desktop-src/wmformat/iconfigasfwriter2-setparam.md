@@ -13,11 +13,14 @@ api_name:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 api_location: 
+ms.custom: UpdateFrequency5
 ---
 
 # IConfigAsfWriter2::SetParam method
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The **SetParam** method sets the value of the specified filter configuration parameter.
 
@@ -41,7 +44,7 @@ HRESULT SetParam(
 *dwParam* \[in\]
 </dt> <dd>
 
-Specifies the parameter to set. It must be a value defined in the [\_AM\_ASFWRITERCONFIG\_PARAM](https://msdn.microsoft.com/library/Dd758054(v=VS.85).aspx) enumeration.
+Specifies the parameter to set. It must be a value defined in the [\_AM\_ASFWRITERCONFIG\_PARAM](/previous-versions/windows/desktop/legacy/dd758054(v=vs.85)) enumeration.
 
 </dd> <dt>
 
@@ -67,7 +70,7 @@ If the method succeeds, it returns S\_OK. If it fails, it returns an **HRESULT**
 
 <dl> <dt>
 
-[**IConfigAsfWriter2 Interface**](https://msdn.microsoft.com/library/Dd743206(v=VS.85).aspx)
+[**IConfigAsfWriter2 Interface**](/previous-versions/windows/desktop/legacy/dd743206(v=vs.85))
 </dt> <dt>
 
 [**IConfigAsfWriter2::GetParam**](iconfigasfwriter2-getparam.md)
@@ -76,7 +79,3 @@ If the method succeeds, it returns S\_OK. If it fails, it returns an **HRESULT**
  
 
  
-
-
-
-

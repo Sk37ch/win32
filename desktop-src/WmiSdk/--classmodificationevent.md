@@ -1,5 +1,5 @@
 ---
-Description: Represents a class modification event, which is a type of intrinsic event generated when a class is changed in the namespace.
+description: Represents a class modification event, which is a type of intrinsic event generated when a class is changed in the namespace.
 ms.assetid: 77e8e025-d584-495d-98f8-71e7fb2c9698
 ms.tgt_platform: multiple
 title: '__ClassModificationEvent class'
@@ -100,7 +100,7 @@ Access type: Read-only
 
 Unique value that indicates the time at which the event was generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Times (UTC) format. This property is inherited from [**\_\_Event**](--event.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> </dl>
 
@@ -114,7 +114,7 @@ The event reports both the new and old versions of the class definition.
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -126,16 +126,11 @@ The event reports both the new and old versions of the class definition.
 
 <dl> <dt>
 
-[**\_\_ClassOperationEvent**](https://docs.microsoft.com/windows/desktop/WmiSdk/--classoperationevent)
+[**\_\_ClassOperationEvent**](/windows/desktop/WmiSdk/--classoperationevent)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

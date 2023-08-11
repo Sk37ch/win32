@@ -1,5 +1,5 @@
 ---
-Description: Once your application has located a file object, the next step is often to act on it in some way.
+description: Once your application has located a file object, the next step is often to act on it in some way.
 ms.assetid: d774c3b2-4caf-460a-ac32-0ed603491d5f
 title: Launching Applications (ShellExecute, ShellExecuteEx, SHELLEXECUTEINFO)
 ms.topic: article
@@ -47,17 +47,15 @@ Commonly available verbs include:
 | open       | Launches an application. If this file is not an executable file, its associated application is launched. |
 | print      | Prints the document file.                                                                                |
 | properties | Displays the object's properties.                                                                        |
-| runas      | Launches an application as Administrator. User Account Control (UAC) will prompt the user for consent to |
-|            | run the application elevated or enter the credentials of an administrator account used to run the        |
-|            | application.                                                                                             |
+| runas      | Launches an application as Administrator. User Account Control (UAC) will prompt the user for consent to run the application elevated or enter the credentials of an administrator account used to run the application. |
 
- 
+
 
 Each verb corresponds to the command that would be used to launch the application from a console window. The **open** verb is a good example, as it is commonly supported. For .exe files, **open** simply launches the application. However, it is more commonly used to launch an application that operates on a particular file. For instance, .txt files can be opened by Microsoft WordPad. The **open** verb for a .txt file would thus correspond to something like the following command:
 
 
 ```C++
-C:\Program Files\Windows NT\Accessories\Wordpad.exe" "%1"
+"C:\Program Files\Windows NT\Accessories\Wordpad.exe" "%1"
 ```
 
 
@@ -71,7 +69,7 @@ In general, trying to determine the list of available verbs for a particular fil
 A site chain's services can control many behaviors of item activation. As of Windows 8, you can provide a pointer to the site chain to [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) to enable these behaviors. To provide the site to **ShellExecuteEx**:
 
 -   Specify the SEE\_MASK\_FLAG\_HINST\_IS\_SITE flag in the **fMask** member of [**SHELLEXECUTEINFO**](/windows/desktop/api/Shellapi/ns-shellapi-shellexecuteinfoa).
--   Provide the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) in the **hInstApp** member of [**SHELLEXECUTEINFO**](/windows/desktop/api/Shellapi/ns-shellapi-shellexecuteinfoa).
+-   Provide the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) in the **hInstApp** member of [**SHELLEXECUTEINFO**](/windows/desktop/api/Shellapi/ns-shellapi-shellexecuteinfoa).
 
 ### Using ShellExecute to Launch the Search Dialog Box
 
@@ -157,11 +155,8 @@ main()
 
 The application first retrieves the PIDL of the Windows directory, and enumerates its contents until it finds the first .bmp file. Unlike the earlier example, [**IShellFolder::GetDisplayNameOf**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof) is used to retrieve the file's parsing name instead of its display name. Because this is a file system folder, the parsing name is a fully qualified path, which is what is needed for [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa).
 
-Once the first .bmp file has been located, appropriate values are assigned to the members of a [**SHELLEXECUTEINFO**](/windows/desktop/api/Shellapi/ns-shellapi-shellexecuteinfoa) structure. The **lpFile** member is set to the parsing name of the file, and the **lpVerb** member to **NULL**, to begin the default operation. In this case, the default operation is "open". The structure is then passed to [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa), which launches the default handler for bitmap files, typically MSPaint.exe, to open the file. After the function returns, the PIDLs are freed and the Windows folder's [**IShellFolder**](https://msdn.microsoft.com/library/Bb775075(v=VS.85).aspx) interface is released.
+Once the first .bmp file has been located, appropriate values are assigned to the members of a [**SHELLEXECUTEINFO**](/windows/desktop/api/Shellapi/ns-shellapi-shellexecuteinfoa) structure. The **lpFile** member is set to the parsing name of the file, and the **lpVerb** member to **NULL**, to begin the default operation. In this case, the default operation is "open". The structure is then passed to [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa), which launches the default handler for bitmap files, typically MSPaint.exe, to open the file. After the function returns, the PIDLs are freed and the Windows folder's [**IShellFolder**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder) interface is released.
 
  
 
  
-
-
-

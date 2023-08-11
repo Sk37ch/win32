@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the key specification.
+description: Retrieves the key specification.
 ms.assetid: 93c909cb-b1d1-4c2b-a66c-9d3f6dd9b340
 title: PrivateKey.KeySpec property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # PrivateKey.KeySpec property
 
-\[The **KeySpec** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Certificate2.PrivateKey Property**](https://msdn.microsoft.com/library/ms148460(v=VS.100).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[The **KeySpec** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Certificate2.PrivateKey Property**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2.privatekey) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **KeySpec** property retrieves the key specification.
 
@@ -49,7 +49,7 @@ A value of the [**CAPICOM\_KEY\_SPEC**](capicom-key-spec.md) enumeration that in
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
@@ -66,7 +66,3 @@ A value of the [**CAPICOM\_KEY\_SPEC**](capicom-key-spec.md) enumeration that in
  
 
  
-
-
-
-

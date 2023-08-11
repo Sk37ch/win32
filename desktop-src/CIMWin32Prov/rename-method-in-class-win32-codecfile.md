@@ -1,5 +1,5 @@
 ---
-Description: Renames the codec file specified in the object path.
+description: Renames the codec file specified in the object path.
 ms.assetid: fd6ce02c-d513-4643-ac27-313c32732f1e
 ms.tgt_platform: multiple
 title: Rename method of the Win32_CodecFile class
@@ -18,9 +18,9 @@ api_location:
 
 # Rename method of the Win32\_CodecFile class
 
-The **Rename** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method renames the codec file specified in the object path. A rename is not supported if the destination is on another drive or if overwriting an existing logical file is required.
+The **Rename** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method renames the codec file specified in the object path. A rename is not supported if the destination is on another drive or if overwriting an existing logical file is required.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -145,7 +145,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -159,16 +159,11 @@ A parameter specified is not valid.
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_CodecFile**](win32-codecfile.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,22 +1,25 @@
 ---
-Description: Determines if a ray intersects the volume of a sphere's bounding box.
+description: D3DXSphereBoundProbe function (D3DX10math.h) - Determines if a ray intersects the volume of a sphere's bounding box.
 ms.assetid: 5984a1a6-d36c-4a05-8c74-0ece7443356c
 title: D3DXSphereBoundProbe function (D3DX10math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXSphereBoundProbe
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXSphereBoundProbe function
+# D3DXSphereBoundProbe function (D3DX10math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Determines if a ray intersects the volume of a sphere's bounding box.
 
@@ -41,7 +44,7 @@ BOOL D3DXSphereBoundProbe(
 *pCenter* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, specifying the center coordinate of the sphere.
 
@@ -50,7 +53,7 @@ Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, specifying the c
 *Radius* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Radius of the sphere.
 
@@ -59,7 +62,7 @@ Radius of the sphere.
 *pRayPosition* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, specifying the origin coordinate of the ray.
 
@@ -68,7 +71,7 @@ Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, specifying the o
 *pRayDirection* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, specifying the direction of the ray. This vector should not be (0,0,0) but does not need to be normalized.
 
@@ -76,7 +79,7 @@ Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, specifying the d
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 Returns **TRUE** if the ray intersects the volume of the sphere's bounding box. Otherwise, returns **FALSE**.
 
@@ -88,7 +91,7 @@ Returns **TRUE** if the ray intersects the volume of the sphere's bounding box. 
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -105,7 +108,3 @@ Returns **TRUE** if the ray intersects the volume of the sphere's bounding box. 
  
 
  
-
-
-
-

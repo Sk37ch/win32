@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the text from the specified window's title bar.
+description: Retrieves the text from the specified window's title bar.
 ms.assetid: c14151f9-222f-40a2-837e-7f9a728efc82
 title: '_GetWindowText function'
 ms.topic: reference
@@ -19,7 +19,7 @@ api_location:
 
 \[This function is a wrapper over the **GetWindowText** function. This function may be altered or unavailable in the future. Applications should call **GetWindowText** directly.\]
 
-Retrieves the text from the specified window's title bar. See [**GetWindowText**](https://msdn.microsoft.com/library/ms633520(v=VS.85).aspx).
+Retrieves the text from the specified window's title bar. See [**GetWindowText**](/windows/win32/api/winuser/nf-winuser-getwindowtexta).
 
 ## Syntax
 
@@ -43,7 +43,7 @@ int _GetWindowText(
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Sqlunirl.dll</dt> </dl> |
 
@@ -53,13 +53,9 @@ int _GetWindowText(
 
 <dl> <dt>
 
-[**GetWindowText**](https://msdn.microsoft.com/library/ms633520(v=VS.85).aspx)
+[**GetWindowText**](/windows/win32/api/winuser/nf-winuser-getwindowtexta)
 </dt> </dl>
 
  
 
  
-
-
-
-

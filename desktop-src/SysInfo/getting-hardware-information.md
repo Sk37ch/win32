@@ -1,5 +1,5 @@
 ---
-Description: The following example uses the GetSystemInfo function to obtain hardware information such as the OEM identifier, processor type, page size, and so on. The example displays the information in the console.
+description: The following example uses the GetSystemInfo function to obtain hardware information such as the OEM identifier, processor type, page size, and so on. The example displays the information in the console.
 ms.assetid: 9f943926-9ca7-4d4c-ad1e-b68c248e0e01
 title: Getting Hardware Information
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Getting Hardware Information
 
-The following example uses the [**GetSystemInfo**](https://msdn.microsoft.com/library/ms724381(v=VS.85).aspx) function to obtain hardware information such as the OEM identifier, processor type, page size, and so on. The example displays the information in the console.
+The following example uses the [**GetSystemInfo**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsysteminfo) function to obtain hardware information such as the OEM identifier, processor type, page size, and so on. The example displays the information in the console.
 
 
 ```C++
@@ -46,6 +46,3 @@ void main()
  
 
  
-
-
-

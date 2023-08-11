@@ -1,5 +1,5 @@
 ---
-Description: The format of the data retrieved by the RegQueryValueEx function begins with a fixed-length header structure, PERF\_DATA\_BLOCK.
+description: The format of the data retrieved by the RegQueryValueEx function begins with a fixed-length header structure, PERF\_DATA\_BLOCK.
 ms.assetid: a68fa617-834c-4ad9-b922-fac3a648ad75
 title: Performance Data Format
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Performance Data Format
 
-The format of the data retrieved by the [**RegQueryValueEx**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa) function begins with a fixed-length header structure, [**PERF\_DATA\_BLOCK**](/windows/desktop/api/Winperf/ns-winperf-perf_data_block). The **PERF\_DATA\_BLOCK** structure describes the system and the performance data. The **PERF\_DATA\_BLOCK** structure is followed by variable number of variable-length object data items. The header of each object item contains the offset of the next object item in the list. The following diagram shows the basic performance data structure.
+The format of the data retrieved by the [**RegQueryValueEx**](/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa) function begins with a fixed-length header structure, [**PERF\_DATA\_BLOCK**](/windows/desktop/api/Winperf/ns-winperf-perf_data_block). The **PERF\_DATA\_BLOCK** structure describes the system and the performance data. The **PERF\_DATA\_BLOCK** structure is followed by variable number of variable-length object data items. The header of each object item contains the offset of the next object item in the list. The following diagram shows the basic performance data structure.
 
 ![performance data structure](images/perfdata.png)
 
@@ -27,6 +27,3 @@ For an example that uses the offsets, see [Displaying Object, Instance, and Coun
  
 
  
-
-
-

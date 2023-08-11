@@ -19,12 +19,15 @@ keywords:
 - Windows Media Player plug-ins,IWMPSubscriptionService interface
 - IWMPSubscriptionService
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Type 2 Online Store Plug-in
 
-A type 2 online store plug-in is a COM component that implements the [IWMPSubscriptionService](/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice) interface and optionally the [IWMPSubscriptionService2](/previous-versions/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2) interface. Windows Media Player 9 calls the methods of the **IWMPSubscriptionService** interface. Windows Media Player 10 or later calls the methods of both the **IWMPSubscriptionService** and **IWMPSubscriptionService2** interfaces.
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
+A type 2 online store plug-in is a COM component that implements the [IWMPSubscriptionService](/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice) interface and optionally the [IWMPSubscriptionService2](/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2) interface. Windows Media Player 9 calls the methods of the **IWMPSubscriptionService** interface. Windows Media Player 10 or later calls the methods of both the **IWMPSubscriptionService** and **IWMPSubscriptionService2** interfaces.
 
 A type 2 online store plug-in is packaged as an in-process COM server. That is, the plug-in is implemented in a .dll file that is mapped into the Windows Media Player process.
 
@@ -49,10 +52,10 @@ Windows Media Player releases the online store component when the Player session
 [**IWMPSubscriptionService Interface**](/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice)
 </dt> <dt>
 
-[**IWMPSubscriptionService2 Interface**](/previous-versions/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2)
+[**IWMPSubscriptionService2 Interface**](/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2)
 </dt> <dt>
 
-[**IWMPSubscriptionServiceCallback Interface**](/previous-versions/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservicecallback)
+[**IWMPSubscriptionServiceCallback Interface**](/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservicecallback)
 </dt> <dt>
 
 [**Type 2 Online Store Samples**](type-2-online-store-samples.md)

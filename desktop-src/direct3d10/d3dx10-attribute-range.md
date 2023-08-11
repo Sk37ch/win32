@@ -1,5 +1,5 @@
 ---
-Description: Stores an attribute table entry.
+description: D3DX10_ATTRIBUTE_RANGE structure - Stores an attribute table entry.
 ms.assetid: 81c77dc9-e078-46a1-a435-4b241e36ec13
 title: D3DX10_ATTRIBUTE_RANGE structure (D3DX10.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ typedef struct D3DX10_ATTRIBUTE_RANGE {
 **AttribId**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -52,7 +52,7 @@ Attribute table identifier.
 **FaceStart**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -63,7 +63,7 @@ Starting face.
 **FaceCount**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -74,7 +74,7 @@ Face count.
 **VertexStart**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -85,7 +85,7 @@ Starting vertex.
 **VertexCount**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -110,7 +110,7 @@ typedef D3DX_ATTRIBUTE_RANGE* LPD3DX_ATTRIBUTE_RANGE;
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10.h</dt> </dl> |
 
@@ -126,7 +126,3 @@ typedef D3DX_ATTRIBUTE_RANGE* LPD3DX_ATTRIBUTE_RANGE;
  
 
  
-
-
-
-

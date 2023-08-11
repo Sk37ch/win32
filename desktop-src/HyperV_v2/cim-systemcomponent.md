@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a system and one of the elements that compose it.
+description: Represents an association between a system and one of the elements that compose it.
 ms.assetid: 728f25bf-3d52-4b1c-bf72-51e8ed0a4e72
 title: CIM_SystemComponent class (Hyper-V management)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_SystemComponent class
+# CIM_SystemComponent class (Hyper-V management)
 
 Represents an association between a system and one of the elements that compose it.
 
@@ -53,7 +53,7 @@ Data type: **CIM\_System**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
+Qualifiers: [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
 </dt> </dl>
 
 The [**CIM\_System**](cim-system.md) that contains the **PartComponent**.
@@ -69,7 +69,7 @@ Data type: **CIM\_ManagedSystemElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
 </dt> </dl>
 
 The child [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md) that is a component of the system.
@@ -80,7 +80,7 @@ The child [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md) that is a
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -98,9 +98,4 @@ The child [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md) that is a
 </dt> </dl>
 
  
-
- 
-
-
-
 

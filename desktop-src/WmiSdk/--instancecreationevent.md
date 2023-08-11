@@ -1,5 +1,5 @@
 ---
-Description: Reports an instance creation event, which is a type of intrinsic event that is generated when a new instance is added to the namespace.
+description: Reports an instance creation event, which is a type of intrinsic event that is generated when a new instance is added to the namespace.
 ms.assetid: 41976479-70e3-4914-a56a-fa94a1fd31c7
 ms.tgt_platform: multiple
 title: '__InstanceCreationEvent class'
@@ -85,7 +85,7 @@ Access type: Read-only
 
 Unique value that indicates the time at which the event was generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Time (UTC) format. This property is inherited from [**\_\_Event**](--event.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> </dl>
 
@@ -109,13 +109,13 @@ The [Create Permanent WMI Event registration to monitor files](https://Gallery.T
 
 The [PowerShell WMI Permanent Events](https://Gallery.TechNet.Microsoft.Com/PowerShell-WMI-Permanent-7e17f262) PowerShell example on TechNet Gallery uses **\_\_InstanceCreationEvent** as part of a demonstration script for setting up a permanent event registration.
 
-The [Monitor process creation event](https://Gallery.TechNet.Microsoft.Com/6f137d9e-f00a-4f0a-ad07-7d752ff5251d) VBScript sample on TechNet uses **\_\_InstanceCreationEvent** to monitors the first WMI instance creation event for [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process).
+The [Monitor process creation event](https://Gallery.TechNet.Microsoft.Com/6f137d9e-f00a-4f0a-ad07-7d752ff5251d) VBScript sample on TechNet uses **\_\_InstanceCreationEvent** to monitors the first WMI instance creation event for [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process).
 
 ## Requirements
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -127,16 +127,11 @@ The [Monitor process creation event](https://Gallery.TechNet.Microsoft.Com/6f137
 
 <dl> <dt>
 
-[**\_\_InstanceOperationEvent**](https://docs.microsoft.com/windows/desktop/WmiSdk/--instanceoperationevent)
+[**\_\_InstanceOperationEvent**](/windows/desktop/WmiSdk/--instanceoperationevent)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

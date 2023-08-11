@@ -1,5 +1,5 @@
 ---
-Description: The System Event Notification Service (SENS) defines the SENS coclass as part of the SENS type library.
+description: The System Event Notification Service (SENS) defines the SENS coclass as part of the SENS type library.
 ms.assetid: b494808c-1116-47ac-8713-0d515b312368
 title: SENS Object
 ms.topic: article
@@ -20,7 +20,7 @@ The SENS object implementation is provided by the operating system.
 
 | Function                                      | Description                                             |
 |-----------------------------------------------|---------------------------------------------------------|
-| [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) | Creates an instance of the SENS object using its CLSID. |
+| [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) | Creates an instance of the SENS object using its CLSID. |
 
 
 
@@ -60,6 +60,3 @@ The SENS object implementation is provided by the operating system.
  
 
  
-
-
-

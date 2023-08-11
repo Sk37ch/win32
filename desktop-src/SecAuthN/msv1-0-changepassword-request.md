@@ -1,5 +1,5 @@
 ---
-Description: The MSV1\_0\_CHANGEPASSWORD\_REQUEST structure is obsolete.
+description: The MSV1\_0\_CHANGEPASSWORD\_REQUEST structure is obsolete.
 ms.assetid: 2a7fa224-65db-451b-8dce-c62c588dbab0
 title: MSV1_0_CHANGEPASSWORD_REQUEST
 ms.topic: article
@@ -10,11 +10,8 @@ ms.date: 05/31/2018
 
 The MSV1\_0\_CHANGEPASSWORD\_REQUEST structure is obsolete.
 
-For password change requests, see [**NetUserChangePassword**](https://msdn.microsoft.com/library/Aa370650(v=VS.85).aspx).
+For password change requests, see [**NetUserChangePassword**](/windows/win32/api/lmaccess/nf-lmaccess-netuserchangepassword).
 
  
 
  
-
-
-

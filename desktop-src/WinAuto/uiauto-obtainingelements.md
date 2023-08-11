@@ -17,24 +17,14 @@ keywords:
 - search scope
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: project-verbatim
 ---
 
 # Obtaining UI Automation Elements
 
-This topic describes various ways to obtain [**IUIAutomationElement**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement) interfaces for UI elements. It contains the following sections:
+This topic describes various ways to obtain [**IUIAutomationElement**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement) interfaces for UI elements.
 
--   [Root Element](#root-element)
--   [Conditions](#conditions)
--   [Search Scope](#search-scope)
--   [Finding a Known Element](#finding-a-known-element)
--   [Finding Elements in a Subtree](#finding-elements-in-a-subtree)
--   [Walking a Subtree](#walking-a-subtree)
--   [Other Ways to Retrieve an Element](#other-ways-to-retrieve-an-element)
-    -   [From an Event](#from-an-event)
-    -   [From a Point](#from-a-point)
-    -   [From a Window Handle](#from-a-window-handle)
-    -   [From the Focused Control](#from-the-focused-control)
--   [Related topics](#related-topics)
+**IUIAutomationElement** is used in the [UI Automation document content client sample app](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/UIAutomationDocumentClient).
 
 ## Root Element
 
@@ -47,7 +37,7 @@ Although elements can be retrieved directly by using methods, such as [**IUIAuto
 
 ## Conditions
 
-For most techniques you use to retrieve UI Automation elements, you must specify a condition. A condition is a set of criteria that defines the elements that you want to retrieve. A condition is represented by the [**IUIAutomationCondition**](https://msdn.microsoft.com/library/Ee671420(v=VS.85).aspx) interface.
+For most techniques you use to retrieve UI Automation elements, you must specify a condition. A condition is a set of criteria that defines the elements that you want to retrieve. A condition is represented by the [**IUIAutomationCondition**](/windows/win32/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition) interface.
 
 The simplest condition is the true condition, which is a predefined object that specifies that all elements in the search scope are to be returned. The false condition is the inverse of the true condition and is less useful, because it would prevent any elements from being found. You can obtain an interface to the true condition by using [**IUIAutomation::CreateTrueCondition**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomation-createtruecondition).
 
@@ -132,18 +122,6 @@ To retrieve an [**IUIAutomationElement**](/windows/desktop/api/UIAutomationClien
 
 ## Related topics
 
-<dl> <dt>
-
-
-</dt> <dt>
-
 [UI Automation Tree Overview](uiauto-treeoverview.md)
-</dt> </dl>
 
- 
-
- 
-
-
-
-
+[UI Automation document content client sample app](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/UIAutomationDocumentClient)

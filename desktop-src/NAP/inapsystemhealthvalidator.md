@@ -28,7 +28,7 @@ The **INapSystemHealthValidator** provides methods that must be implemented by S
 
 ## Members
 
-The **INapSystemHealthValidator** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapSystemHealthValidator** also has these types of members:
+The **INapSystemHealthValidator** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapSystemHealthValidator** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -50,7 +50,7 @@ The **INapSystemHealthValidator** interface has these methods.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                               |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |
@@ -70,10 +70,4 @@ The **INapSystemHealthValidator** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

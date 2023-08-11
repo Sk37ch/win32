@@ -1,5 +1,5 @@
 ---
-Description: Sent to an extension DLL when File Manager is loading the DLL.
+description: Sent to an extension DLL when File Manager is loading the DLL.
 ms.assetid: 9d673ab8-c468-4b46-b96e-1adfaa9f85fb
 title: FMEVENT_LOAD message (Wfext.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ The address of an [**FMS\_LOAD**](fms-load.md) structure that specifies the menu
 
 ## Return value
 
-An extension DLL must return **TRUE** to continue loading the DLL. If the DLL returns **FALSE**, File Manager calls the [**FreeLibrary**](https://msdn.microsoft.com/library/ms683152(v=VS.85).aspx) function and ends any communication with the extension DLL.
+An extension DLL must return **TRUE** to continue loading the DLL. If the DLL returns **FALSE**, File Manager calls the [**FreeLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-freelibrary) function and ends any communication with the extension DLL.
 
 ## Remarks
 
@@ -49,7 +49,7 @@ An application should fill the **dwSize**, **szMenuName**, and **hMenu** members
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
@@ -67,7 +67,3 @@ An application should fill the **dwSize**, **szMenuName**, and **hMenu** members
  
 
  
-
-
-
-

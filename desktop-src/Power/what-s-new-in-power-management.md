@@ -1,5 +1,5 @@
 ---
-Description: Windows 10 helps your application optimize power consumption when its running on a mobile device.
+description: Windows 10 helps your application optimize power consumption when its running on a mobile device.
 ms.assetid: a956b88c-8a75-4c1c-af27-53c69feb1596
 title: Whats New in Power Management
 ms.topic: article
@@ -12,7 +12,7 @@ Windows 10 helps your application optimize power consumption when it's running 
 
 ## Battery saver
 
-In this release, your application can be notified when battery saver is turned on or off. By responding to changing power conditions, your application can work in concert with battery saver to save energy and help extend battery life. For general information about battery saver, see [battery saver (in the hardware component guidelines)](https://docs.microsoft.com/windows-hardware/design/component-guidelines/battery-saver).
+In this release, your application can be notified when battery saver is turned on or off. By responding to changing power conditions, your application can work in concert with battery saver to save energy and help extend battery life. For general information about battery saver, see [battery saver (in the hardware component guidelines)](/windows-hardware/design/component-guidelines/battery-saver).
 
 -   [**GUID\_POWER\_SAVING\_STATUS**](power-setting-guids.md) : Use this new GUID with the [**PowerSettingRegisterNotification**](/windows/desktop/api/Powersetting/nf-powersetting-powersettingregisternotification) function to be notified when battery saver is turned on or off.
 
@@ -21,6 +21,3 @@ In this release, your application can be notified when battery saver is turned o
  
 
  
-
-
-

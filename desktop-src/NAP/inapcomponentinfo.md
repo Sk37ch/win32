@@ -28,7 +28,7 @@ The **INapComponentInfo** interface provides methods that plug-in components (su
 
 ## Members
 
-The **INapComponentInfo** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapComponentInfo** also has these types of members:
+The **INapComponentInfo** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapComponentInfo** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -56,7 +56,7 @@ The **INapComponentInfo** interface has these methods.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
@@ -76,10 +76,4 @@ The **INapComponentInfo** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

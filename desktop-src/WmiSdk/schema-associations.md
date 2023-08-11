@@ -1,5 +1,5 @@
 ---
-Description: 'Schema association queries use the same statements as are used in data association queries: ASSOCIATORS OF and REFERENCES OF.'
+description: 'Schema association queries use the same statements as are used in data association queries: ASSOCIATORS OF and REFERENCES OF.'
 ms.assetid: b5fc2d86-702a-42cd-82e6-f15c905ba6aa
 ms.tgt_platform: multiple
 title: Schema Associations
@@ -69,7 +69,7 @@ REFERENCES OF {SourceClass} WHERE
 
  
 
-For example, the following query will return the class [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) several times when enumerating classes in the **root\\cimv2** namespace.
+For example, the following query will return the class [**CIM\_ComputerSystem**](/windows/desktop/CIMWin32Prov/cim-computersystem) several times when enumerating classes in the **root\\cimv2** namespace.
 
 
 ```sql
@@ -81,6 +81,3 @@ ASSOCIATORS OF {Win32_ComputerSystem} WHERE SchemaOnly
  
 
  
-
-
-

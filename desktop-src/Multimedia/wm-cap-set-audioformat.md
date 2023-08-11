@@ -43,7 +43,7 @@ Size, in bytes, of the structure referenced by **s**.
 <span id="psAudioFormat"></span><span id="psaudioformat"></span><span id="PSAUDIOFORMAT"></span>*psAudioFormat*
 </dt> <dd>
 
-Pointer to a [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd757713(v=VS.85).aspx) or [**PCMWAVEFORMAT**](https://msdn.microsoft.com/library/Dd743663(v=VS.85).aspx) structure that defines the audio format.
+Pointer to a [**WAVEFORMATEX**](/windows/win32/api/mmeapi/ns-mmeapi-waveformatex) or [**PCMWAVEFORMAT**](/windows/win32/api/mmreg/ns-mmreg-pcmwaveformat) structure that defines the audio format.
 
 </dd> </dl>
 
@@ -55,7 +55,7 @@ Returns **TRUE** if successful or **FALSE** otherwise.
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
@@ -74,10 +74,4 @@ Returns **TRUE** if successful or **FALSE** otherwise.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

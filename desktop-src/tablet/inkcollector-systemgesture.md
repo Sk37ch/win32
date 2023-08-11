@@ -1,5 +1,5 @@
 ---
-Description: Occurs when a system gesture is recognized.
+description: InkCollector.SystemGesture event - Occurs when a system gesture is recognized.
 ms.assetid: 11071d6f-8aa3-4902-94fd-89ad0cf17729
 title: InkCollector.SystemGesture event (Msinkaut.h)
 ms.topic: reference
@@ -92,7 +92,7 @@ For example, instead of looking for a [**MouseUp Event**](inkcollector-mouseup.m
 
 As another example, instead of listening for [**MouseDown Event**](inkcollector-mousedown.md) / [**MouseMove Event**](inkcollector-mousemove.md) events and getting numerous **MouseMove Event** messages, you can watch for the [**Drag**](/windows/desktop/api/msinkaut/ne-msinkaut-inksystemgesture) or **RightDrag** system gestures as long as you're not interested in the (x, y) coordinates of every position of the mouse. This allows you to receive only one message instead of numerous **MouseMove Event** messages.
 
-For a list of specific system gestures, see the [**InkSystemGesture**](/windows/desktop/api/msinkaut/ne-msinkaut-inksystemgesture) enumeration type. For more information about system gestures, see [Using Gestures](using-gestures.md) and [Command Input on the Tablet PC](https://msdn.microsoft.com/library/Dd314533(v=VS.85).aspx).
+For a list of specific system gestures, see the [**InkSystemGesture**](/windows/desktop/api/msinkaut/ne-msinkaut-inksystemgesture) enumeration type. For more information about system gestures, see [Using Gestures](using-gestures.md) and [Command Input on the Tablet PC](/previous-versions//dd314533(v=vs.85)).
 
 This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, and \_IInkPictureEvents dispatch-only interfaces (dispinterfaces) with an ID of DISPID\_ICESystemGesture.
 
@@ -100,7 +100,7 @@ This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, 
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
@@ -128,13 +128,8 @@ This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, 
 [Pen Input, Ink, and Recognition](pen-input--ink--and-recognition.md)
 </dt> <dt>
 
-[Command Input on the Tablet PC](https://msdn.microsoft.com/library/Dd314533(v=VS.85).aspx)
+[Command Input on the Tablet PC](/previous-versions//dd314533(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
 

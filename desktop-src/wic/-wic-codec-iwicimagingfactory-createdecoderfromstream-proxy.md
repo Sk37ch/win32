@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreateDecoderFromStream method.
+description: Proxy function for the CreateDecoderFromStream method.
 ms.assetid: 8395d647-c8c9-4715-b15d-a30755ae0a98
 title: IWICImagingFactory_CreateDecoderFromStream_Proxy function
 ms.topic: reference
@@ -49,7 +49,7 @@ Type: **[**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwici
 *pIStream* \[in\]
 </dt> <dd>
 
-Type: **[IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream)\***
+Type: **[IStream](/windows/desktop/api/objidl/nn-objidl-istream)\***
 
 The stream to create the decoder from.
 
@@ -94,7 +94,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
@@ -103,9 +103,4 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
  
-
- 
-
-
-
 

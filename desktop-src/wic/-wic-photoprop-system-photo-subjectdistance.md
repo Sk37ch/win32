@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.SubjectDistance property.
+description: The photo metadata policy for the System.Photo.SubjectDistance property.
 ms.assetid: 8d5acd7e-7227-4a79-890a-43e6dace3864
 title: System.Photo.SubjectDistance Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.SubjectDistance Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.SubjectDistance](https://msdn.microsoft.com/library/bb787273(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.SubjectDistance](../properties/props-system-photo-subjectdistance.md) property.
 
 ### PKEY
 
@@ -118,12 +118,9 @@ This value is generated from System.Photo.SubjectDistanceNumerator and System.Ph
 
 <dl> <dt>
 
-[System.Photo.SubjectDistance](https://msdn.microsoft.com/library/bb787273(VS.85).aspx)
+[System.Photo.SubjectDistance](../properties/props-system-photo-subjectdistance.md)
 </dt> </dl>
 
  
 
  
-
-
-

@@ -24,7 +24,7 @@ There is information about adminSDholder exclusion bits available on the Microso
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | DS-Heuristics                               |
 | Ldap-Display-Name | dSHeuristics                                |
@@ -51,7 +51,7 @@ There is information about adminSDholder exclusion bits available on the Microso
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -72,7 +72,7 @@ There is information about adminSDholder exclusion bits available on the Microso
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -93,7 +93,7 @@ There is information about adminSDholder exclusion bits available on the Microso
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -114,7 +114,7 @@ There is information about adminSDholder exclusion bits available on the Microso
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -135,7 +135,7 @@ There is information about adminSDholder exclusion bits available on the Microso
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -156,7 +156,7 @@ There is information about adminSDholder exclusion bits available on the Microso
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -177,7 +177,7 @@ There is information about adminSDholder exclusion bits available on the Microso
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -196,7 +196,7 @@ There is information about adminSDholder exclusion bits available on the Microso
 
 ## Remarks
 
-Each Active Directory forest contains a DS-Heuristics attribute that contains settings for the entire forest. The DS-Heuristics attribute is an attribute of the "CN=Directory Service,CN=Windows NT,CN=Services,CN=Configuration,<Domain>" object.
+Each Active Directory forest contains a DS-Heuristics attribute that contains settings for the entire forest. The DS-Heuristics attribute is an attribute of the "CN=Directory Service,CN=Windows NT,CN=Services,CN=Configuration,&lt;Domain&gt;" object.
 
 DS-Heuristics is a Unicode string in which each character contains a value for a single domain-wide setting. The DS-Heuristics string takes the following format.
 
@@ -208,7 +208,7 @@ To provide data validation, each tenth character is set to the character number 
 
 Any character that is not set is assumed to be a '0'. If the DS-Heuristics attribute is not set, all values are assumed to be '0'. There are currently 25 characters being used and it is not necessary to pad the string to fill all 25 characters. For example, if the highest character being used is 7, then the string "0000002" is acceptable.
 
-For details about each character, see [dSHeuristics in \[MS-ADTS\] Active Directory Technical Specification](https://msdn.microsoft.com/library/cc223560.aspx).
+For details about each character, see [dSHeuristics in \[MS-ADTS\] Active Directory Technical Specification](/openspecs/windows_protocols/ms-adts/e5899be4-862e-496f-9a38-33950617d2c5).
 
 ### ANR Search Filters
 
@@ -220,14 +220,8 @@ If the character 4 is set to '1' then Active Directory will perform "pre-emptive
 
 <dl> <dt>
 
-[dSHeuristics in \[MS-ADTS\] Active Directory Technical Specification](https://msdn.microsoft.com/library/cc223560.aspx)
+[dSHeuristics in \[MS-ADTS\] Active Directory Technical Specification](/openspecs/windows_protocols/ms-adts/e5899be4-862e-496f-9a38-33950617d2c5)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

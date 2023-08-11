@@ -1,5 +1,5 @@
 ---
-Description: The PRINTER\_ENUM\_VALUES structure specifies the value name, type, and data for a printer configuration value returned by the EnumPrinterDataEx function.
+description: The PRINTER\_ENUM\_VALUES structure specifies the value name, type, and data for a printer configuration value returned by the EnumPrinterDataEx function.
 ms.assetid: 87eb1452-0d9d-46bd-8af8-0542a11a929b
 title: PRINTER_ENUM_VALUES structure (Winspool.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ The number of bytes in the **pValueName** member, including the terminating NULL
 **dwType**
 </dt> <dd>
 
-A code indicating the type of data pointed to by the **pData** member. For a list of the possible type codes, see [Registry Value Types](https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types).
+A code indicating the type of data pointed to by the **pData** member. For a list of the possible type codes, see [Registry Value Types](/windows/desktop/SysInfo/registry-value-types).
 
 </dd> <dt>
 
@@ -79,7 +79,7 @@ The number of bytes retrieved in the **pData** buffer.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -102,9 +102,4 @@ The number of bytes retrieved in the **pData** buffer.
 </dt> </dl>
 
  
-
- 
-
-
-
 

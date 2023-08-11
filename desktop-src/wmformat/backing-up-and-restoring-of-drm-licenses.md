@@ -31,10 +31,13 @@ keywords:
 - License Management Service
 - fraud detection
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Backing Up and Restoring of DRM Licenses
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 With the Backup Restore feature, users can back up and restore [*licenses*](wmformat-glossary.md) to the same computer or to other computers. This feature enables users to transfer licenses to a new computer or back to the same computer (after reformatting the hard disk, for example). In addition, users can play protected ASF files on more than one computer.
 
@@ -56,7 +59,7 @@ First, users back up licenses in the application, for example, by choosing a men
 
 At this point, the user must be connected to the Internet; a request from the application is sent to the License Management Service. If the computer from which the license was backed up is different from the original computer (or the original computer has been reformatted), the License Management Service issues a new license to the new computer. Otherwise, the license that was previously issued to that computer is reissued.
 
-Because the License Management Service retrieves information from the user, you must display the Microsoft privacy policy or provide a link to that page at the [Microsoft Web site](https://go.microsoft.com/fwlink/p/?LinkID=34236).
+Because the License Management Service retrieves information from the user, you must display the Microsoft privacy policy or provide a link to that page at the [Microsoft Web site](https://www.microsoft.com/licensing/default).
 
 > [!Note]  
 > When an end user restores a license to a different computer and the license requires individualization, the end user must authorize the DRM components to be updated. You must implement a process in your player application to support this feature.

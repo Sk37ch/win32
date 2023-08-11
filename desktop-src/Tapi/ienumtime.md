@@ -1,5 +1,5 @@
 ---
-Description: The IEnumTime interface provides COM-standard enumeration methods for the ITTime interface. The ITTimeCollection::get\_EnumerationIf method returns a pointer to IEnumTime.
+description: The IEnumTime interface provides COM-standard enumeration methods for the ITTime interface. The ITTimeCollection::get\_EnumerationIf method returns a pointer to IEnumTime.
 ms.assetid: 395d7830-9a70-473a-8a89-4b4db48d5774
 title: IEnumTime interface (Sdpblb.h)
 ms.topic: reference
@@ -14,7 +14,7 @@ The **IEnumTime** interface provides COM-standard enumeration methods for the [*
 
 ## Members
 
-The **IEnumTime** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IEnumTime** also has these types of members:
+The **IEnumTime** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IEnumTime** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -39,7 +39,7 @@ The **IEnumTime** interface has these methods.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |
@@ -49,9 +49,4 @@ The **IEnumTime** interface has these methods.
 
 
  
-
- 
-
-
-
 

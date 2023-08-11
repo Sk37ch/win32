@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the position of the current selection has changed, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
+description: InkOverlay.SelectionMoved event - Occurs when the position of the current selection has changed, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
 ms.assetid: 78b5ab11-01c0-4bdb-ae1f-ec55774abdce
 title: InkOverlay.SelectionMoved event (Msinkaut.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ void SelectionMoved(
 *OldSelectionRect* \[in\]
 </dt> <dd>
 
-The bounding rectangle of the selected [InkStrokes](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection as it existed before the **SelectionMoved** event fired.
+The bounding rectangle of the selected [InkStrokes](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) collection as it existed before the **SelectionMoved** event fired.
 
 > [!Note]  
 > This rectangle is specified in ink space coordinates, which allows for undo scenarios.
@@ -51,7 +51,7 @@ To get the new bounding rectangle of the collection of strokes that have been mo
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
@@ -74,9 +74,4 @@ To get the new bounding rectangle of the collection of strokes that have been mo
 </dt> </dl>
 
  
-
- 
-
-
-
 

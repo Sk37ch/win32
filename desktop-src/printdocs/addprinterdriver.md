@@ -1,5 +1,5 @@
 ---
-Description: The AddPrinterDriver function installs a local or remote printer driver and associates the configuration, data, and driver files.
+description: The AddPrinterDriver function installs a local or remote printer driver and associates the configuration, data, and driver files.
 ms.assetid: 0f762800-f5a5-40ea-8be1-7fd8bda23788
 title: AddPrinterDriver function (Winspool.h)
 ms.topic: reference
@@ -99,7 +99,7 @@ If the function fails, the return value is zero.
 
  
 
-The caller must have the [SeLoadDriverPrivilege](https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants).
+The caller must have the [SeLoadDriverPrivilege](/windows/desktop/SecAuthZ/authorization-constants).
 
 Before an application calls the **AddPrinterDriver** function, all files required by the driver must be copied to the system's printer-driver directory. An application can retrieve the name of this directory by calling the [**GetPrinterDriverDirectory**](getprinterdriverdirectory.md) function.
 
@@ -109,7 +109,7 @@ An application can determine which printer drivers are currently installed by ca
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -152,9 +152,4 @@ An application can determine which printer drivers are currently installed by ca
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: A media service provider (MSP) enables an application to control media for a particular transport mechanism.
+description: A media service provider (MSP) enables an application to control media for a particular transport mechanism.
 ms.assetid: f886380f-d970-4511-bf71-fb1eb767e4f4
 title: Media Service Providers
 ms.topic: article
@@ -45,13 +45,8 @@ MSPI enables development of media service providers for particular protocols or 
 [TAPI 3.1](tapi-3-1-start-page.md)
 </dt> <dt>
 
-[Telephony Service Providers](https://msdn.microsoft.com/library/ms725516(v=VS.85).aspx)
+[Telephony Service Providers](./telephony-service-providers-start-page.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

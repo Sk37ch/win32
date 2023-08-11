@@ -1,5 +1,5 @@
 ---
-Description: The ITStreamQualityControl exposes methods that allow an application to get and set parameters for stream quality control.
+description: The ITStreamQualityControl exposes methods that allow an application to get and set parameters for stream quality control.
 ms.assetid: b9ecf24a-c87e-44a6-9e20-aa7bf7619314
 title: ITStreamQualityControl interface (Ipmsp.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ This interface is implemented by the [IPConf MSP](ipconf-msp.md) and the [H323 M
 
 ## Members
 
-The **ITStreamQualityControl** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITStreamQualityControl** also has these types of members:
+The **ITStreamQualityControl** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITStreamQualityControl** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -40,7 +40,7 @@ The **ITStreamQualityControl** interface has these methods.
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.1<br/>                                                         |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |
@@ -50,9 +50,4 @@ The **ITStreamQualityControl** interface has these methods.
 
 
  
-
- 
-
-
-
 

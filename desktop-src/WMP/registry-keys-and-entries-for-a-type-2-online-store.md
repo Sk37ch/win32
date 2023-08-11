@@ -8,10 +8,13 @@ keywords:
 - type 2 online stores,registry
 - registry,type 2 online stores
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Registry Keys and Entries for a Type 2 Online Store
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
@@ -44,7 +47,7 @@ In the preceding registry syntax, the symbols in italic are placeholders for nam
 | Placeholder    | Description                                                                                                                                                                                                                                                                                                                                                                                            |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *keyName*      | A string agreed upon between Microsoft and the online store. This string uniquely identifies the online store.Example: "Proseware"<br/>                                                                                                                                                                                                                                                          |
-| *flags*        | A bitwise **OR** of one or more plug-in capability flags These flags specify whether Windows Media Player should call particular methods of [IWMPSubscriptionService](/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice) and [IWMPSubscriptionService2](/previous-versions/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2). For information about supported flags, see the table of plug-in capability flags that follows this table.Example: 00000037<br/> |
+| *flags*        | A bitwise **OR** of one or more plug-in capability flags These flags specify whether Windows Media Player should call particular methods of [IWMPSubscriptionService](/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice) and [IWMPSubscriptionService2](/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2). For information about supported flags, see the table of plug-in capability flags that follows this table.Example: 00000037<br/> |
 | *clsid*        | A GUID that is the class identifier (CLSID) for the class that implements **IWMPSubscriptionService** in the online store's plug-in. This GUID must be in registry format, complete with the curly braces.Format: {xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}<br/>                                                                                                                                    |
 | *friendlyname* | A friendly name for the online store.Example: "Proseware Music Service"<br/>                                                                                                                                                                                                                                                                                                                     |
 | *pluginName*   | A name for the online store's plug-in.Example: "Proseware Service Plug-in"<br/>                                                                                                                                                                                                                                                                                                                  |

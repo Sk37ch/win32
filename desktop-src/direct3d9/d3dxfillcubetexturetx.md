@@ -1,5 +1,5 @@
 ---
-Description: Uses a compiled high-level shader language (HLSL) function to fill each texel of each mipmap level of a texture.
+description: D3DXFillCubeTextureTX function - Uses a compiled high-level shader language (HLSL) function to fill each texel of each mipmap level of a texture.
 ms.assetid: a0c36967-57e6-4771-8e9f-f32949c12001
 title: D3DXFillCubeTextureTX function (D3dx9tex.h)
 ms.topic: reference
@@ -39,9 +39,9 @@ HRESULT D3DXFillCubeTextureTX(
 *pTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DCUBETEXTURE9**](https://msdn.microsoft.com/library/Bb174329(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DCUBETEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dcubetexture9)**
 
-Pointer to an [**IDirect3DCubeTexture9**](https://msdn.microsoft.com/library/Bb174329(v=VS.85).aspx) object, representing the texture to be filled.
+Pointer to an [**IDirect3DCubeTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dcubetexture9) object, representing the texture to be filled.
 
 </dd> <dt>
 
@@ -74,7 +74,7 @@ The input parameters can be in any order. For an example, see [**D3DXFillTexture
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |
@@ -94,7 +94,3 @@ The input parameters can be in any order. For an example, see [**D3DXFillTexture
  
 
  
-
-
-
-

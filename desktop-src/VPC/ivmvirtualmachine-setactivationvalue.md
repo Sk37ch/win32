@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualMachine::SetActivationValue method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Sets the value of the specified activation setting for this virtual machine.
 
@@ -101,7 +101,7 @@ The *activationKey* path string would be specified as follows:
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
@@ -120,10 +120,4 @@ The *activationKey* path string would be specified as follows:
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

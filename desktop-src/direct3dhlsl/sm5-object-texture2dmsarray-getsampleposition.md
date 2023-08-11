@@ -1,6 +1,6 @@
 ---
 title: Texture2DMSArray::GetSamplePosition function
-description: Samples a texture and returns all four components.
+description: Gets the position of the specified sample. | Texture2DMSArray::GetSamplePosition function
 ms.assetid: e04717be-58b0-4242-87dd-d769834ae1c2
 keywords:
 - GetSamplePosition function HLSL
@@ -15,9 +15,9 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GetSamplePosition function
+# Texture2DMSArray::GetSamplePosition function
 
-Samples a texture and returns all four components.
+Gets the position of the specified sample.
 
 ## Syntax
 
@@ -34,7 +34,7 @@ float2 GetSamplePosition(
 *sampleindex* \[in\]
 </dt> <dd>
 
-Type: **[**int**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**int**](/windows/desktop/WinProg/windows-data-types)**
 
 The zero-based index of a sample location.
 
@@ -73,7 +73,3 @@ This function is supported for the following types of shaders:
  
 
  
-
-
-
-

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStopwatch.ToString method"
 title: EsentStopwatch.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentStopwatch.ToString
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentStopwatch.ToString method
 
-Returns a [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) that represents the current [Stopwatch](https://docs.microsoft.com/dotnet/api/system.diagnostics.stopwatch?redirectedfrom=MSDN).
+Returns a [String](/dotnet/api/system.string) that represents the current [Stopwatch](/dotnet/api/system.diagnostics.stopwatch).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,16 +52,15 @@ public override string ToString()
 
 #### Return value
 
-Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
-A [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) that represents the current [Stopwatch](https://docs.microsoft.com/dotnet/api/system.diagnostics.stopwatch?redirectedfrom=MSDN).  
+Type: [System.String](/dotnet/api/system.string)  
+A [String](/dotnet/api/system.string) that represents the current [Stopwatch](/dotnet/api/system.diagnostics.stopwatch).  
 
 ## See also
 
 #### Reference
 
-[EsentStopwatch class](dn334867\(v=exchg.10\).md)
+[EsentStopwatch class](./esentstopwatch-class.md)
 
-[EsentStopwatch members](dn334924\(v=exchg.10\).md)
+[EsentStopwatch members](./esentstopwatch-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Clones a mesh using a declarator.
+description: Clones a mesh using a declarator.
 ms.assetid: 47e0329a-ea85-478d-af8b-cf85d2a779f6
 title: ID3DXBaseMesh::CloneMesh method (D3DX9Mesh.h)
 ms.topic: reference
@@ -41,9 +41,9 @@ HRESULT CloneMesh(
 *Options* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
-A combination of one or more [**D3DXMESH**](https://msdn.microsoft.com/library/Bb205370(v=VS.85).aspx) flags specifying creation options for the mesh.
+A combination of one or more [**D3DXMESH**](./d3dxmesh.md) flags specifying creation options for the mesh.
 
 </dd> <dt>
 
@@ -59,9 +59,9 @@ An array of [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) elements, which specif
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, representing the device object associated with the mesh.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface, representing the device object associated with the mesh.
 
 </dd> <dt>
 
@@ -90,7 +90,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -113,7 +113,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

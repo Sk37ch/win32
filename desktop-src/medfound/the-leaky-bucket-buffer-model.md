@@ -1,12 +1,12 @@
 ---
-Description: The &\#0034;leaky bucket&\#0034; model is a way to model the buffering requirements for smooth playback.
+description: The &\#0034;leaky bucket&\#0034; model is a way to model the buffering requirements for smooth playback.
 ms.assetid: 2f7f80d6-3abb-462f-a571-b223a1d59da6
 title: The Leaky Bucket Buffer Model (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# The Leaky Bucket Buffer Model
+# The Leaky Bucket Buffer Model (Microsoft Media Foundation)
 
 When you stream media over a network, the decoder receives encoded data at a theoretically constant rate (the transmission rate). The decoder consumes this data to produce decoded output. In the general case, however, the decoder consumes the data at a *variable* rate, because then encoder can use a variable encoding rate.
 
@@ -14,7 +14,7 @@ The "leaky bucket" model is a way to model the buffering requirements for smooth
 
 This topic describes the "leaky bucket" model of buffers for encoding and decoding.
 
--   [The Leaky Bucket](#the-leaky-bucket-buffer-model)
+-   [The Leaky Bucket](#the-leaky-bucket)
 -   [The Bucket in Use](#the-bucket-in-use)
 -   [Setting Leaky Bucket Values for ASF Streams](#setting-leaky-bucket-values-for-asf-streams)
 -   [Leaky Bucket Values in the ASF Multiplexer](#leaky-bucket-values-in-the-asf-multiplexer)
@@ -77,7 +77,7 @@ For information about adding streams and getting the **IMFASFStreamConfig** poin
 These values contain the following set of information:
 
 -   Average bit rate: Get the average bit rate from the output media type that is selected during media type negotiation. Use the [**MF\_MT\_AUDIO\_AVG\_BYTES\_PER\_SECOND**](mf-mt-audio-avg-bytes-per-second-attribute.md) attribute (for audio streams) or the [**MF\_MT\_AVG\_BITRATE**](mf-mt-avg-bitrate-attribute.md) attribute (for video streams).
--   Buffer window: If you have an instance of the encoder and have negotiated output media types, you can update this value later by querying the encoder for the [**IWMCodecLeakyBucket**](/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecleakybucket) interface and then calling [**IWMCodecLeakyBucket::GetBufferSizeBits**](https://msdn.microsoft.com/library/Dd743326(v=VS.85).aspx) (wmcodecifaces.h, wmcodecdspuuid.lib). Otherwise, Use the default value of 3000 milliseconds.
+-   Buffer window: If you have an instance of the encoder and have negotiated output media types, you can update this value later by querying the encoder for the [**IWMCodecLeakyBucket**](/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecleakybucket) interface and then calling [**IWMCodecLeakyBucket::GetBufferSizeBits**](../wmformat/iwmcodecleakybucket-getbuffersizebits.md) (wmcodecifaces.h, wmcodecdspuuid.lib). Otherwise, Use the default value of 3000 milliseconds.
 -   Initial buffer size: Set to 0.
 
 The values provided by the application depend on the type of encoding and the media type of the stream. For example, [Constant Bit Rate Encoding](constant-bit-rate-encoding.md) requires a predetermined fixed bit rate and a buffer window. The application can specify these leaky bucket values by setting the [**MFPKEY\_VIDEOWINDOW**](mfpkey-videowindowproperty.md) encoding property and the [**MF\_ASFSTREAMCONFIG\_LEAKYBUCKET1**](mf-asfstreamconfig-leakybucket1-attribute.md) attribute on the stream. The specified buffer window values are used to make sure that the encoded file has the correct send times marked on the data packets and the preroll value appears in the ASF Header Object. It is sufficient to set **MF\_ASFSTREAMCONFIG\_LEAKYBUCKET1** because these specified values are copied into the [**MF\_ASFSTREAMCONFIG\_LEAKYBUCKET2**](mf-asfstreamconfig-leakybucket2-attribute.md) attribute.
@@ -117,6 +117,3 @@ Similar to the stream configuration attributes for leaky buckets, set the averag
  
 
  
-
-
-

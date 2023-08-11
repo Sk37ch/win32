@@ -1,5 +1,5 @@
 ---
-Description: Microsoft Media Foundation
+description: Microsoft Media Foundation
 ms.assetid: 0d355ad1-d674-432e-809a-9fb27ac5f610
 title: Microsoft Media Foundation
 ms.topic: article
@@ -16,7 +16,7 @@ This documentation contains the following sections:
 
 
 
-|                                                                                      |                                                                                                                                                        |
+| Topic                                                                                     | Description                                                                                                                                                       |
 |--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [What's New for Media Foundation](whats-new-for-media-foundation.md)                | Describes what has changed in the latest version of Media Foundation.                                                                                  |
 | [About Media Foundation](about-the-media-foundation-sdk.md)                         | Lists the headers and libraries you will need, and describes the tools and code samples that are provided to make Media Foundation development easier. |
@@ -32,12 +32,9 @@ This documentation contains the following sections:
 
 <dl> <dt>
 
-[Media Technologies for Windows](https://msdn.microsoft.com/windows/bb190307)
+[Media Technologies for Windows](/previous-versions/bg125389(v=msdn.10))
 </dt> </dl>
 
  
 
  
-
-
-

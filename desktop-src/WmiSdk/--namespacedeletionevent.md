@@ -1,5 +1,5 @@
 ---
-Description: Reports a namespace deletion event, which is a type of intrinsic event that is generated when a sub-namespace is removed from the current namespace.
+description: Reports a namespace deletion event, which is a type of intrinsic event that is generated when a sub-namespace is removed from the current namespace.
 ms.assetid: f7160a90-562d-40d9-9189-32aaabcd81d0
 ms.tgt_platform: multiple
 title: '__NamespaceDeletionEvent class'
@@ -85,7 +85,7 @@ Access type: Read-only
 
 Unique value that indicates the time an event is generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Time (UTC) format. This property is inherited from [**\_\_Event**](--event.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> </dl>
 
@@ -97,7 +97,7 @@ The **\_\_NamespaceDeletionEvent** class is derived from [**\_\_NamespaceOperati
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -109,16 +109,11 @@ The **\_\_NamespaceDeletionEvent** class is derived from [**\_\_NamespaceOperati
 
 <dl> <dt>
 
-[**\_\_NamespaceOperationEvent**](https://docs.microsoft.com/windows/desktop/WmiSdk/--namespaceoperationevent)
+[**\_\_NamespaceOperationEvent**](/windows/desktop/WmiSdk/--namespaceoperationevent)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

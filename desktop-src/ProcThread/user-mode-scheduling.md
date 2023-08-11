@@ -1,5 +1,5 @@
 ---
-Description: User-mode scheduling (UMS) is a lightweight mechanism that applications can use to schedule their own threads.
+description: User-mode scheduling (UMS) is a lightweight mechanism that applications can use to schedule their own threads.
 ms.assetid: f9dd92fe-6d7a-452c-893e-e6df1757e377
 title: User-Mode Scheduling
 ms.topic: article
@@ -8,11 +8,15 @@ ms.date: 05/31/2018
 
 # User-Mode Scheduling
 
+> [!WARNING]
+> As of Windows 11, user-mode scheduling is not supported. All calls fail with the error `ERROR_NOT_SUPPORTED`.
+
 User-mode scheduling (UMS) is a lightweight mechanism that applications can use to schedule their own threads. An application can switch between UMS threads in user mode without involving the [system scheduler](scheduling.md) and regain control of the processor if a UMS thread blocks in the kernel. UMS threads differ from [fibers](fibers.md) in that each UMS thread has its own thread context instead of sharing the thread context of a single thread. The ability to switch between threads in user mode makes UMS more efficient than [thread pools](thread-pools.md) for managing large numbers of short-duration work items that require few system calls.
 
 UMS is recommended for applications with high performance requirements that need to efficiently run many threads concurrently on multiprocessor or multicore systems. To take advantage of UMS, an application must implement a scheduler component that manages the application's UMS threads and determines when they should run. Developers should consider whether their application performance requirements justify the work involved in developing such a component. Applications with moderate performance requirements might be better served by allowing the system scheduler to schedule their threads.
 
-UMS is available for 64-bit applications running on 64-bit versions of Windows 7 and Windows Server 2008 R2 or later 64-bit versions of Windows. This feature is not available on 32-bit versions of Windows.
+UMS is available for 64-bit applications running on AMD64 and Itanium versions of Windows 7 and Windows Server 2008 R2 through Windows 10 Version 21H2 and Windows Server 2022.
+This feature is not available on Arm64, 32-bit versions of Windows or on Windows 11.
 
 For details, see the following sections:
 
@@ -31,7 +35,7 @@ An application's UMS scheduler is responsible for creating, managing, and deleti
 -   Creates UMS worker threads to perform the work of the application.
 -   Maintains its own ready-thread queue of worker threads that are ready to run, and selects threads to run based on the application's scheduling policies.
 -   Creates and monitors one or more completion lists where the system queues threads after they finish processing in the kernel. These include newly created worker threads and threads previously blocked on a system call that become unblocked.
--   Provides a scheduler entry point function to handles notifications from the system. The system calls the entry point function when a scheduler thread is created, when a worker thread blocks on a system call, or when a worker thread explicitly yields control.
+-   Provides a scheduler entry point function to handle notifications from the system. The system calls the entry point function when a scheduler thread is created, a worker thread blocks on a system call, or a worker thread explicitly yields control.
 -   Performs cleanup tasks for worker threads that have finished running.
 -   Performs an orderly shutdown of the scheduler when requested by the application.
 
@@ -45,7 +49,7 @@ An application might create one UMS scheduler thread for each processor that wil
 
 ## UMS Worker Threads, Thread Contexts, and Completion Lists
 
-A UMS worker thread is created by calling [**CreateRemoteThreadEx**](https://msdn.microsoft.com/library/Dd405484(v=VS.85).aspx) with the PROC\_THREAD\_ATTRIBUTE\_UMS\_THREAD attribute and specifying a UMS thread context and a completion list.
+A UMS worker thread is created by calling [**CreateRemoteThreadEx**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createremotethreadex) with the PROC\_THREAD\_ATTRIBUTE\_UMS\_THREAD attribute and specifying a UMS thread context and a completion list.
 
 A UMS thread context represents the UMS thread state of a worker thread and is used to identify the worker thread in UMS function calls. It is created by calling [**CreateUmsThreadContext**](/windows/desktop/api/WinBase/nf-winbase-createumsthreadcontext).
 
@@ -69,7 +73,7 @@ The scheduler entry point function is responsible for determining the appropriat
 
 When the scheduler entry point function is called, the application's scheduler should attempt to retrieve all of the items in its associated completion list by calling the [**DequeueUmsCompletionListItems**](/windows/desktop/api/WinBase/nf-winbase-dequeueumscompletionlistitems) function. This function retrieves a list of UMS thread contexts that have finished processing in the kernel and are ready to run in user mode. The application's scheduler should not run UMS threads directly from this list because this can cause unpredictable behavior in the application. Instead, the scheduler should retrieve all UMS thread contexts by calling the [**GetNextUmsListItem**](/windows/desktop/api/WinBase/nf-winbase-getnextumslistitem) function once for each context, insert the UMS thread contexts in the scheduler’s ready thread queue, and only then run UMS threads from the ready thread queue.
 
-If the scheduler does not need to wait on multiple events, it should call [**DequeueUmsCompletionListItems**](/windows/desktop/api/WinBase/nf-winbase-dequeueumscompletionlistitems) with a nonzero timeout parameter so the function waits on the completion list event before returning. If the scheduler does need to wait on multiple completion list events, it should call **DequeueUmsCompletionListItems** with a timeout parameter of zero so the function returns immediately, even if the completion list is empty. In this case, the scheduler can wait explicitly on completion list events, for example, by using [**WaitForMultipleObjects**](https://msdn.microsoft.com/library/ms687025(v=VS.85).aspx).
+If the scheduler does not need to wait on multiple events, it should call [**DequeueUmsCompletionListItems**](/windows/desktop/api/WinBase/nf-winbase-dequeueumscompletionlistitems) with a nonzero timeout parameter so the function waits on the completion list event before returning. If the scheduler does need to wait on multiple completion list events, it should call **DequeueUmsCompletionListItems** with a timeout parameter of zero so the function returns immediately, even if the completion list is empty. In this case, the scheduler can wait explicitly on completion list events, for example, by using [**WaitForMultipleObjects**](/windows/win32/api/synchapi/nf-synchapi-waitformultipleobjects).
 
 ## UMS Thread Execution
 
@@ -90,6 +94,3 @@ Applications that implement UMS should follow these best practices:
  
 
  
-
-
-

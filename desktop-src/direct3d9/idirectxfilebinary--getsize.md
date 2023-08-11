@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the size of the binary data. Deprecated.
+description: Retrieves the size of the binary data. Deprecated.
 ms.assetid: 99a74043-ce87-4545-961f-dade54e77735
 title: IDirectXFileBinary::GetSize method (DXFile.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT GetSize(
 *pcbSize* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to the returned size of the binary data, in bytes.
 
@@ -54,7 +54,7 @@ If the method succeeds, the return value is DXFILE\_OK. If the method fails, the
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>DXFile.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3dxof.lib</dt> </dl> |
@@ -71,7 +71,3 @@ If the method succeeds, the return value is DXFILE\_OK. If the method fails, the
  
 
  
-
-
-
-

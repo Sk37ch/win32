@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.ProgramMode property.
+description: The photo metadata policy for the System.Photo.ProgramMode property.
 ms.assetid: f1954dc7-d4df-4675-ab3b-a65f2354e57a
 title: System.Photo.ProgramMode Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.ProgramMode Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.ProgramMode](https://msdn.microsoft.com/library/bb760520(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.ProgramMode](../properties/props-system-photo-programmode.md) property.
 
 ### PKEY
 
@@ -128,12 +128,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Photo.ProgramMode](https://msdn.microsoft.com/library/bb760520(VS.85).aspx)
+[System.Photo.ProgramMode](../properties/props-system-photo-programmode.md)
 </dt> </dl>
 
  
 
  
-
-
-

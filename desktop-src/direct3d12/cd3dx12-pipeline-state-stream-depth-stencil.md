@@ -1,6 +1,6 @@
 ---
 title: CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL structure (D3dx12.h)
-description: A helper structure used to describe a depth stencil description as a single object suitable for a stream description.
+description: A helper structure used to describe a depth stencil description as a single object suitable for a stream description. | CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL structure (D3dx12.h)
 ms.assetid: 4FB54EA5-FCC6-4B64-A747-27DFE4C1D2DC
 keywords:
 - CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL structure
@@ -12,7 +12,6 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 ---
@@ -84,7 +83,7 @@ typedef CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT<CD3DX12_DEPTH_STENCIL_DESC, D3D1
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx12.h</dt> </dl> |
 
@@ -100,14 +99,8 @@ typedef CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT<CD3DX12_DEPTH_STENCIL_DESC, D3D1
 [**CD3DX12\_PIPELINE\_STATE\_STREAM\_SUBOBJECT**](cd3dx12-pipeline-state-stream-subobject.md)
 </dt> <dt>
 
-[**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_pipeline_state_subobject_type)
+[**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_pipeline_state_subobject_type)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

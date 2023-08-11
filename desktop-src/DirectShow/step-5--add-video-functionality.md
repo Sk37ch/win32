@@ -1,20 +1,23 @@
 ---
-Description: This topic is step 5 of the tutorial Audio/Video Playback in DirectShow.
+description: This topic is step 5 of the tutorial Audio/Video Playback in DirectShow.
 ms.assetid: 9d7a40e0-4327-4ca3-b430-2be02f80c16f
 title: 'Step 5: Add Video Functionality'
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Step 5: Add Video Functionality
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 This topic is step 5 of the tutorial [Audio/Video Playback in DirectShow](audio-video-playback-in-directshow.md). The complete code is shown in the topic [DirectShow Playback Example](directshow-playback-example.md).
 
-To ensure that video displays correctly, the application must respond to [**WM\_PAINT**](https://msdn.microsoft.com/library/Dd145213(v=VS.85).aspx), [**WM\_SIZE**](https://msdn.microsoft.com/library/ms632646(v=VS.85).aspx), and [**WM\_DISPLAYCHANGE**](https://msdn.microsoft.com/library/Dd145210(v=VS.85).aspx) messages as follows.
+To ensure that video displays correctly, the application must respond to [**WM\_PAINT**](../gdi/wm-paint.md), [**WM\_SIZE**](../winmsg/wm-size.md), and [**WM\_DISPLAYCHANGE**](../gdi/wm-displaychange.md) messages as follows.
 
 ### Handle WM\_PAINT Messages
 
-When the application receives a [**WM\_PAINT**](https://msdn.microsoft.com/library/Dd145213(v=VS.85).aspx) message, the video renderer might need to redraw the last video frame. For the [**Enhanced Video Renderer**](enhanced-video-renderer-filter.md) (EVR) filter, call [**IMFVideoDisplayControl::RepaintVideo**](https://msdn.microsoft.com/library/ms703113(v=VS.85).aspx).
+When the application receives a [**WM\_PAINT**](../gdi/wm-paint.md) message, the video renderer might need to redraw the last video frame. For the [**Enhanced Video Renderer**](enhanced-video-renderer-filter.md) (EVR) filter, call [**IMFVideoDisplayControl::RepaintVideo**](/windows/win32/api/evr/nf-evr-imfvideodisplaycontrol-repaintvideo).
 
 
 ```C++
@@ -73,7 +76,7 @@ HRESULT CVMR7::Repaint(HWND hwnd, HDC hdc)
 
 ### Handle WM\_SIZE Messages
 
-If the size of the video window changes, notify the video renderer to resize the video. For the EVR, call [**IMFVideoDisplayControl::SetVideoPosition**](https://msdn.microsoft.com/library/ms697352(v=VS.85).aspx).
+If the size of the video window changes, notify the video renderer to resize the video. For the EVR, call [**IMFVideoDisplayControl::SetVideoPosition**](/windows/win32/api/evr/nf-evr-imfvideodisplaycontrol-setvideoposition).
 
 
 ```C++
@@ -207,7 +210,7 @@ Next: [Step 6: Handle Graph Events](step-6--handle-graph-events.md).
 [DirectShow Playback Example](directshow-playback-example.md)
 </dt> <dt>
 
-[Using the DirectShow EVR Filter](https://msdn.microsoft.com/library/Aa965247(v=VS.85).aspx)
+[Using the DirectShow EVR Filter](../medfound/using-the-directshow-evr-filter.md)
 </dt> <dt>
 
 [Using the Video Mixing Renderer](using-the-video-mixing-renderer.md)
@@ -216,6 +219,3 @@ Next: [Step 6: Handle Graph Events](step-6--handle-graph-events.md).
  
 
  
-
-
-

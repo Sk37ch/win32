@@ -1,5 +1,5 @@
 ---
-Description: Each event log contains a header (represented by the ELF\_LOGFILE\_HEADER structure) that has a fixed size, followed by a variable number of event records (represented by EVENTLOGRECORD structures), and an end-of-file record (represented by the ELF\_EOF\_RECORD structure).
+description: Each event log contains a header (represented by the ELF\_LOGFILE\_HEADER structure) that has a fixed size, followed by a variable number of event records (represented by EVENTLOGRECORD structures), and an end-of-file record (represented by the ELF\_EOF\_RECORD structure).
 ms.assetid: 2b62b807-4ffd-4a8f-afe4-34e109d01856
 title: Event Log File Format
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Event Log File Format
 
-Each event log contains a header (represented by the [**ELF\_LOGFILE\_HEADER**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb309024(v=vs.85)) structure) that has a fixed size, followed by a variable number of event records (represented by [**EVENTLOGRECORD**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-eventlogrecord) structures), and an end-of-file record (represented by the [**ELF\_EOF\_RECORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb309022(v=vs.85)) structure).
+Each event log contains a header (represented by the [**ELF\_LOGFILE\_HEADER**](/previous-versions/windows/desktop/legacy/bb309024(v=vs.85)) structure) that has a fixed size, followed by a variable number of event records (represented by [**EVENTLOGRECORD**](/windows/desktop/api/winnt/ns-winnt-eventlogrecord) structures), and an end-of-file record (represented by the [**ELF\_EOF\_RECORD**](/previous-versions/windows/desktop/legacy/bb309022(v=vs.85)) structure).
 
 The **ELF\_LOGFILE\_HEADER** structure and the **ELF\_EOF\_RECORD** structure are written in the event log when the event log is created and are updated each time an event is written to the log.
 
@@ -63,6 +63,3 @@ For more information and a code example, see [Reporting an Event](reporting-an-e
  
 
  
-
-
-

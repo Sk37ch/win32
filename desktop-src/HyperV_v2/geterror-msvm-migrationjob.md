@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the error object for the migration job, if one exists.
+description: Retrieves the error object for the migration job, if one exists.
 ms.assetid: 83a68ded-086a-42d9-b76d-e46af70d9b43
 title: GetError method of the Msvm_MigrationJob class
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # GetError method of the Msvm\_MigrationJob class
 
-Retrieves the error object for the migration job, if one exists. When the job is executing or has terminated without error, then this method does not return a [**CIM\_Error**](https://docs.microsoft.com/previous-versions//cc150671(v=vs.85)) object. However, if the job has failed because of some internal problem or because the job has been terminated by a client, then a **CIM\_Error** instance is returned.
+Retrieves the error object for the migration job, if one exists. When the job is executing or has terminated without error, then this method does not return a [**CIM\_Error**](/previous-versions//cc150671(v=vs.85)) object. However, if the job has failed because of some internal problem or because the job has been terminated by a client, then a **CIM\_Error** instance is returned.
 
 ## Syntax
 
@@ -87,7 +87,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -105,9 +105,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

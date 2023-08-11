@@ -1,5 +1,5 @@
 ---
-Description: Lists the constants used for Microsoft authentication APIs.
+description: Lists the constants used for Microsoft authentication APIs.
 ms.assetid: 3e5b7fd8-01bf-4090-b68f-006b7e2228a9
 title: Authentication Constants (Authentication)
 ms.topic: article
@@ -29,7 +29,7 @@ Credentials Management uses the following constants to specify maximum string si
 
 ## Gina Defined Values
 
-[*GINA*](https://docs.microsoft.com/windows/desktop/SecGloss/g-gly) interface functions and [*Winlogon*](https://docs.microsoft.com/windows/desktop/SecGloss/w-gly) support functions use the following defined values.
+[*GINA*](/windows/desktop/SecGloss/g-gly) interface functions and [*Winlogon*](/windows/desktop/SecGloss/w-gly) support functions use the following defined values.
 
 > [!Note]  
 > GINA DLLs are ignored in Windows Vista.
@@ -48,9 +48,4 @@ Credentials Management uses the following constants to specify maximum string si
  
 
  
-
- 
-
-
-
 

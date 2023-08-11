@@ -1,5 +1,5 @@
 ---
-Description: An application running as a standard user performs operations that require administrator privilege by starting a scheduled task.
+description: An application running as a standard user performs operations that require administrator privilege by starting a scheduled task.
 ms.assetid: cd7485b3-6be5-4163-9a86-7892dbc59181
 title: Elevated Task Model
 ms.topic: article
@@ -17,10 +17,10 @@ Tasks do not consume as many system resources as services, and tasks automatical
 To use a task to perform privileged operations for a standard user application, the following conditions must be met:
 
 -   The task must be set to run as **SYSTEM**.
--   The [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) associated with the task must be configured to allow standard users to start the task.
+-   The [*security descriptor*](/windows/desktop/SecGloss/s-gly) associated with the task must be configured to allow standard users to start the task.
 -   The task scheduler service must be running.
 
-For information about how to create and start tasks, see [Task Scheduler](https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page).
+For information about how to create and start tasks, see [Task Scheduler](/windows/desktop/TaskSchd/task-scheduler-start-page).
 
 ## Related topics
 
@@ -41,6 +41,3 @@ For information about how to create and start tasks, see [Task Scheduler](https:
  
 
  
-
-
-

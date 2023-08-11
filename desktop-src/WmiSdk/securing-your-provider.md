@@ -1,5 +1,5 @@
 ---
-Description: Writing a secure provider requires considering how the provider is hosted, how the provider handles impersonation, and ensuring that users are checked for access rights to data.
+description: Writing a secure provider requires considering how the provider is hosted, how the provider handles impersonation, and ensuring that users are checked for access rights to data.
 ms.assetid: 9a8b7730-cbb8-48fa-8a8f-8e551f00d20b
 ms.tgt_platform: multiple
 title: Securing Your Provider
@@ -24,7 +24,7 @@ The following topics discuss provider security:
 The following topics discuss how clients and scripts interact with provider security:
 
 -   [Setting Authentication in WMI](setting-authentication-in-wmi.md)
--   [Connecting Between Different Operating Systems](https://docs.microsoft.com/windows/desktop/WmiSdk/troubleshooting-a-remote-wmi-connection)
+-   [Connecting Between Different Operating Systems](/windows/desktop/WmiSdk/troubleshooting-a-remote-wmi-connection)
 -   [Setting the Default Process Security Level Using VBScript](setting-the-default-process-security-level-using-vbscript.md)
 -   [Setting Client Application Process Security](setting-client-application-process-security.md)
 
@@ -41,6 +41,3 @@ The following topics discuss how clients and scripts interact with provider secu
  
 
  
-
-
-

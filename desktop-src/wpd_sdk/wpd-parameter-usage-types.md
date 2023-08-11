@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_PARAMETER\_USAGE\_TYPES enumeration type describes how a method parameter is used in a given method.
+description: The WPD\_PARAMETER\_USAGE\_TYPES enumeration type describes how a method parameter is used in a given method.
 ms.assetid: 60cbb4fa-c5fd-4402-bfd4-8fd95c009a33
 title: WPD_PARAMETER_USAGE_TYPES enumeration (PortableDevice.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # WPD\_PARAMETER\_USAGE\_TYPES enumeration
 
-The [**WPD\_PARAMETER\_USAGE\_TYPES**](https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-parameter-usage-types) enumeration type describes how a method parameter is used in a given method.
+The [**WPD\_PARAMETER\_USAGE\_TYPES**](/windows/desktop/wpd_sdk/wpd-parameter-usage-types) enumeration type describes how a method parameter is used in a given method.
 
 ## Syntax
 
@@ -69,16 +69,11 @@ The parameter contains an input value before the method is called and an output 
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 
 
 
  
-
- 
-
-
-
 

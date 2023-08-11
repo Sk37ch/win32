@@ -1,5 +1,5 @@
 ---
-Description: Represents a Machine Check Architecture (MCA) memory error event. This class is available only in 64-bit Windows systems.
+description: Represents a Machine Check Architecture (MCA) memory error event. This class is available only in 64-bit Windows systems.
 ms.assetid: 0db1d526-e2c3-4e48-90c8-cbcd9121040e
 title: MSMCAEvent_MemoryError class
 ms.topic: reference
@@ -130,7 +130,7 @@ Access type: Read-only
 
 OEM-specific, bus-dependent data.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/previous-versions//aa393262(v=vs.85)).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> <dt>
 
@@ -181,7 +181,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 Unique identifier of this instance of the class.
@@ -277,7 +277,7 @@ Access type: Read-only
 
 Memory error status.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/previous-versions//aa393262(v=vs.85)).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> <dt>
 
@@ -318,7 +318,7 @@ Access type: Read-only
 
 Physical address of the memory error.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/previous-versions//aa393262(v=vs.85)).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> <dt>
 
@@ -338,7 +338,7 @@ Valid address bits in the 64-bit physical address of the memory error.
 
  
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/previous-versions//aa393262(v=vs.85)).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> <dt>
 
@@ -379,7 +379,7 @@ Access type: Read-only
 
 Record identifier of the error record for this error.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/previous-versions//aa393262(v=vs.85)).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> <dt>
 
@@ -394,7 +394,7 @@ Access type: Read-only
 
 Hardware address of the device or component that initiates the transaction.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/previous-versions//aa393262(v=vs.85)).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> <dt>
 
@@ -409,7 +409,7 @@ Access type: Read-only
 
 Hardware address of the responder to the transaction.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/previous-versions//aa393262(v=vs.85)).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> <dt>
 
@@ -437,7 +437,7 @@ Access type: Read-only
 
 Hardware address of the intended target of the transaction.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/previous-versions//aa393262(v=vs.85)).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> <dt>
 
@@ -491,7 +491,7 @@ Validation bits used to indicate the validity of the subsequent fields.
 
  
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/previous-versions//aa393262(v=vs.85)).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> </dl>
 
@@ -503,7 +503,7 @@ The **MSMCAEvent\_MemoryError** class is derived from [**WMIEvent**](wmievent.md
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
@@ -524,9 +524,4 @@ The **MSMCAEvent\_MemoryError** class is derived from [**WMIEvent**](wmievent.md
 </dt> </dl>
 
  
-
- 
-
-
-
 

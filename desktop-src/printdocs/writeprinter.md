@@ -1,5 +1,5 @@
 ---
-Description: The WritePrinter function notifies the print spooler that data should be written to the specified printer.
+description: The WritePrinter function notifies the print spooler that data should be written to the specified printer.
 ms.assetid: 9411b71f-d686-44ed-9051-d410e5ab228e
 title: WritePrinter function (Winspool.h)
 ms.topic: reference
@@ -23,7 +23,7 @@ api_location:
 The **WritePrinter** function notifies the print spooler that data should be written to the specified printer.
 
 > [!Note]  
-> **WritePrinter** only supports GDI printing and must not be used for XPS printing. If your print job uses the XPS or the OpenXPS print path, then use the [XPS Print API](https://docs.microsoft.com/windows/desktop/printdocs/xps-printing). Sending XPS or OpenXPS print jobs to the spooler using **WritePrinter** is not supported and can result in undetermined results.
+> **WritePrinter** only supports GDI printing and must not be used for XPS printing. If your print job uses the XPS or the OpenXPS print path, then use the [XPS Print API](/windows/desktop/printdocs/xps-printing). Sending XPS or OpenXPS print jobs to the spooler using **WritePrinter** is not supported and can result in undetermined results.
 
  
 
@@ -107,7 +107,7 @@ For a sample program that uses this function, see [How To: Print Using the GDI P
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -146,9 +146,4 @@ For a sample program that uses this function, see [How To: Print Using the GDI P
 </dt> </dl>
 
  
-
- 
-
-
-
 

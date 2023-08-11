@@ -1,5 +1,5 @@
 ---
-Description: To use the Windows Image Acquisition (WIA) scripting model, you must have the file Wiascr.dll installed and registered on the computer.
+description: To use the Windows Image Acquisition (WIA) scripting model, you must have the file Wiascr.dll installed and registered on the computer.
 ms.assetid: 94b08833-9fbd-46cf-b6a3-71713cc6ac30
 title: Setting up the Scripting Model Development Environment
 ms.topic: article
@@ -16,7 +16,7 @@ api_location:
 To use the Windows Image Acquisition (WIA) scripting model, you must have the file Wiascr.dll installed and registered on the computer.
 
 > [!Note]  
-> This scripting system has been replaced with Windows Image Acquisition (WIA) Automation Layer. See [Windows Image Acquisition Automation Layer](https://docs.microsoft.com/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage).
+> This scripting system has been replaced with Windows Image Acquisition (WIA) Automation Layer. See [Windows Image Acquisition Automation Layer](/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage).
 
  
 
@@ -29,6 +29,3 @@ You are now ready to use the WIA scripting model.
  
 
  
-
-
-

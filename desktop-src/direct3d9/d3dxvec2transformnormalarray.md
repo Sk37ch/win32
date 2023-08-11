@@ -1,22 +1,25 @@
 ---
-Description: Transforms an array (x, y, 0, 0) by a given matrix.
+description: D3DXVec2TransformNormalArray function (D3dx9math.h) - Transforms an array (x, y, 0, 0) by a given matrix.
 ms.assetid: 9f5d8fdc-f3e1-41dc-be4e-9ffc6be1947f
 title: D3DXVec2TransformNormalArray function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec2TransformNormalArray
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXVec2TransformNormalArray function
+# D3DXVec2TransformNormalArray function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Transforms an array (x, y, 0, 0) by a given matrix.
 
@@ -52,7 +55,7 @@ Pointer to the [**D3DXVECTOR2**](d3dxvector2.md) structure that is the result of
 *OutStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Stride between vectors in the output data stream.
 
@@ -70,7 +73,7 @@ Pointer to the source [**D3DXVECTOR2**](d3dxvector2.md) array.
 *VStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Stride between vectors in the input data stream.
 
@@ -88,7 +91,7 @@ Pointer to the source [**D3DXMATRIX**](d3dxmatrix.md) structure.
 *n* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of elements in the array.
 
@@ -112,7 +115,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -129,7 +132,3 @@ The return value for this function is the same value returned in the *pOut* para
  
 
  
-
-
-
-

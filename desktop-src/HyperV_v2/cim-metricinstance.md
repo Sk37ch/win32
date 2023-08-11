@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between an instance of a metric value and a metric definition.
+description: Represents an association between an instance of a metric value and a metric definition.
 ms.assetid: 4c620a7a-8b15-49ad-ae84-246e2fca175d
 title: CIM_MetricInstance class
 ms.topic: reference
@@ -53,7 +53,7 @@ Data type: **CIM\_BaseMetricDefinition**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 The definition of the metric value.
@@ -69,7 +69,7 @@ Data type: **CIM\_BaseMetricValue**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The metric value that is associated with the metric definition.
@@ -80,7 +80,7 @@ The metric value that is associated with the metric definition.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -98,9 +98,4 @@ The metric value that is associated with the metric definition.
 </dt> </dl>
 
  
-
- 
-
-
-
 

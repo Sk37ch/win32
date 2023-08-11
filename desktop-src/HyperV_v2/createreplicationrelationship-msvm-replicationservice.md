@@ -1,5 +1,5 @@
 ---
-Description: Creates a new replication relationship for a virtual machine. When a client calls this method for a replica virtual machine, it extends the replication relationship to the specified provider.
+description: Creates a new replication relationship for a virtual machine. When a client calls this method for a replica virtual machine, it extends the replication relationship to the specified provider.
 ms.assetid: 44d3b5aa-46c2-4fe9-9a1d-6ee699d3640d
 title: CreateReplicationRelationship method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -39,7 +39,7 @@ uint32 CreateReplicationRelationship(
 *ComputerSystem* \[in\]
 </dt> <dd>
 
-A reference to a [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) instance that represents the virtual machine for which the replication should be enabled.
+A reference to a [**CIM\_ComputerSystem**](/windows/desktop/CIMWin32Prov/cim-computersystem) instance that represents the virtual machine for which the replication should be enabled.
 
 </dd> <dt>
 
@@ -53,7 +53,7 @@ A string representation of an instance of the [**Msvm\_ReplicationSettingData**]
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -142,7 +142,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -163,9 +163,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

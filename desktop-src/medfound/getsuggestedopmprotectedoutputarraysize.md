@@ -1,5 +1,5 @@
 ---
-Description: Gets the size of the array that should be allocated before calling CreateOPMProtectedOutputs.
+description: Gets the size of the array that should be allocated before calling CreateOPMProtectedOutputs.
 ms.assetid: 65edce14-f225-4b7f-b953-32b085e1cabf
 title: GetSuggestedOPMProtectedOutputArraySize function
 ms.topic: reference
@@ -43,7 +43,7 @@ NTSTATUS WINAPI GetSuggestedOPMProtectedOutputArraySize(
 *pstrDeviceName* \[in\]
 </dt> <dd>
 
-A pointer to a [**UNICODE\_STRING**](https://msdn.microsoft.com/library/Aa380518(v=VS.85).aspx) structure that contains the name of the display device, as returned by the [**GetMonitorInfo**](https://msdn.microsoft.com/library/Dd144901(v=VS.85).aspx) function.
+A pointer to a [**UNICODE\_STRING**](/windows/win32/api/subauth/ns-subauth-unicode_string) structure that contains the name of the display device, as returned by the [**GetMonitorInfo**](/windows/win32/api/winuser/nf-winuser-getmonitorinfoa) function.
 
 </dd> <dt>
 
@@ -60,13 +60,13 @@ If the method succeeds, it returns **STATUS\_SUCCESS**. Otherwise, it returns an
 
 ## Remarks
 
-This function has no associated import library. To call this function, you must use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Gdi32.dll.
+This function has no associated import library. To call this function, you must use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Gdi32.dll.
 
 ## Requirements
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
@@ -87,7 +87,3 @@ This function has no associated import library. To call this function, you must 
  
 
  
-
-
-
-

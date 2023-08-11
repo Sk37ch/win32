@@ -1,7 +1,7 @@
 ---
-Description: The Audio Resampler performs one or both of the following actions on an audio stream.Change the sampling rate.Change the number of channels.
+description: The Audio Resampler performs one or both of the following actions on an audio stream.Change the sampling rate.Change the number of channels.
 ms.assetid: bee755c4-0585-40fb-aa4d-4e964f5144a3
-title: Audio Resampler DSP (Wmcodecdsp.h)
+title: 'Audio Resampler DSP (Wmcodecdsp.h)'
 ms.topic: reference
 ms.date: 05/31/2018
 ---
@@ -19,9 +19,9 @@ CLSID\_CResamplerMediaObject
 
 ## Interfaces
 
--   [**IMediaObject**](https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject)
+-   [**IMediaObject**](/previous-versions/ms785953(v=vs.85))
 -   [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)
--   [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx)
+-   [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore)
 -   [**IWMResamplerProps**](/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresamplerprops)
 
 ## Formats
@@ -31,7 +31,7 @@ PCM or IEEE floating-point
 The media type must specify an uncompressed PCM or floating-point audio format.
 
 -   For the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) interface, initialize the media type as described in [Uncompressed Audio Media Types](uncompressed-audio-media-types.md).
--   For the [**IMediaObject**](https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject) interface, the media type must be a **FORMAT\_WaveFormatEx** type. For more information, see [**DMO\_MEDIA\_TYPE**](https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type).
+-   For the [**IMediaObject**](/previous-versions/ms785953%28v%3dvs.85%29) interface, the media type must be a **FORMAT\_WaveFormatEx** type. For more information, see [**DMO\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type).
 
 ## Properties
 
@@ -52,7 +52,7 @@ The resampler requires the following attributes to be set on it:
 The audio resampler maps the input audio channels to the output audio channels, based on the following information:
 
 -   The number of channels. This is given in the [MF\_MT\_AUDIO\_NUM\_CHANNELS](mf-mt-audio-num-channels-attribute.md) attribute of the media type, or the **nChannels** member of the [WAVEFORMATEX](mf-mt-audio-prefer-waveformatex-attribute.md) structure.
--   The channel mask, which assigns channels to speaker position. The channel mask is given in the MF\_MT\_AUDIO\_CHANNEL\_MASK attribute of the media type, or the **dwChannelMask** member of the [**WAVEFORMATEXTENSIBLE**](https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-waveformatextensible) structure.
+-   The channel mask, which assigns channels to speaker position. The channel mask is given in the MF\_MT\_AUDIO\_CHANNEL\_MASK attribute of the media type, or the **dwChannelMask** member of the [**WAVEFORMATEXTENSIBLE**](/windows/desktop/api/mmreg/ns-mmreg-waveformatextensible) structure.
 -   A matrix of mapping weights.
 
 The matrix contains a series of weights, such that each output channel is a weighted average of the input channels.
@@ -80,8 +80,8 @@ The following table shows the default coefficients for mapping 6 channels (mask 
 
 |     | L     | R     | C     | LFE   | BL    | BR    |
 |-----|-------|-------|-------|-------|-------|-------|
-| L   | 0.314 | 0     | 0.222 | 0.031 | 0.268 | 0.164 |
-| R   | 0     | 0.314 | 0.222 | 0.031 | 0.164 | 0.268 |
+| **L**   | 0.314 | 0     | 0.222 | 0.031 | 0.268 | 0.164 |
+| **R**   | 0     | 0.314 | 0.222 | 0.031 | 0.164 | 0.268 |
 
 
 
@@ -93,8 +93,8 @@ The following table shows the default coefficients for mapping 6 channels (mask 
 
 |     | L     | R     | C     | LFE   | SL    | SR    |
 |-----|-------|-------|-------|-------|-------|-------|
-| L   | 0.320 | 0     | 0.226 | 0.032 | 0.292 | 0.130 |
-| R   | 0     | 0.320 | 0.226 | 0.032 | 0.130 | 0.292 |
+| **L**   | 0.320 | 0     | 0.226 | 0.032 | 0.292 | 0.130 |
+| **R**   | 0     | 0.320 | 0.226 | 0.032 | 0.130 | 0.292 |
 
 
 
@@ -106,7 +106,7 @@ The following table shows the default coefficients for mapping 6 (mask 0x3F or 0
 
 |     | L     | R     | C     | LFE   | BL(SL) | BR(SR) |
 |-----|-------|-------|-------|-------|--------|--------|
-| C   | 0.192 | 0.192 | 0.192 | 0.038 | 0.192  | 0.192  |
+| **C**   | 0.192 | 0.192 | 0.192 | 0.038 | 0.192  | 0.192  |
 
 
 
@@ -118,8 +118,8 @@ The following table shows the default coefficients for mapping 8 channels (mask 
 
 |     | L     | R     | C     | LFE   | BL    | BR    | SL    | SR    |
 |-----|-------|-------|-------|-------|-------|-------|-------|-------|
-| L   | 0.222 | 0     | 0.157 | 0.022 | 0.189 | 0.116 | 0.203 | 0.090 |
-| R   | 0     | 0.222 | 0.157 | 0.022 | 0.116 | 0.189 | 0.090 | 0.203 |
+| **L**   | 0.222 | 0     | 0.157 | 0.022 | 0.189 | 0.116 | 0.203 | 0.090 |
+| **R**   | 0     | 0.222 | 0.157 | 0.022 | 0.116 | 0.189 | 0.090 | 0.203 |
 
 
 
@@ -131,7 +131,7 @@ The following table shows the default coefficients for mapping 8 channels (mask 
 
 |     | L     | R     | C     | LFE   | BL    | BR    | SL    | SR    |
 |-----|-------|-------|-------|-------|-------|-------|-------|-------|
-| C   | 0.139 | 0.139 | 0.139 | 0.028 | 0.139 | 0.139 | 0.139 | 0.139 |
+| **C**   | 0.139 | 0.139 | 0.139 | 0.028 | 0.139 | 0.139 | 0.139 | 0.139 |
 
 
 
@@ -143,12 +143,12 @@ The following table shows the default coefficients for mapping 8 channels (mask 
 
 |     | L     | R     | C     | LFE   | BL    | BR    | SL    | SR    |
 |-----|-------|-------|-------|-------|-------|-------|-------|-------|
-| L   | 0.518 | 0     | 0     | 0     | 0     | 0     | 0.189 | 0     |
-| R   | 0     | 0.518 | 0     | 0     | 0     | 0     | 0     | 0.189 |
-| C   | 0     | 0     | 0.518 | 0     | 0     | 0     | 0     | 0     |
-| LFE | 0     | 0     | 0     | 0.518 | 0     | 0     | 0     | 0     |
-| BL  | 0     | 0     | 0     | 0     | 0.518 | 0     | 0.482 | 0     |
-| BR  | 0     | 0     | 0     | 0     | 0     | 0.518 | 0     | 0.482 |
+| **L**   | 0.518 | 0     | 0     | 0     | 0     | 0     | 0.189 | 0     |
+| **R**   | 0     | 0.518 | 0     | 0     | 0     | 0     | 0     | 0.189 |
+| **C**   | 0     | 0     | 0.518 | 0     | 0     | 0     | 0     | 0     |
+| **LFE** | 0     | 0     | 0     | 0.518 | 0     | 0     | 0     | 0     |
+| **BL**  | 0     | 0     | 0     | 0     | 0.518 | 0     | 0.482 | 0     |
+| **BR**  | 0     | 0     | 0     | 0     | 0     | 0.518 | 0     | 0.482 |
 
 
 
@@ -160,12 +160,12 @@ The following table shows the default coefficients for mapping 8 channels (mask 
 
 |     | L     | R     | C     | LFE   | BL    | BR    | SL    | SR    |
 |-----|-------|-------|-------|-------|-------|-------|-------|-------|
-| L   | 0.447 | 0     | 0     | 0     | 0     | 0     | 0     | 0     |
-| R   | 0     | 0.447 | 0     | 0     | 0     | 0     | 0     | 0     |
-| C   | 0     | 0     | 0.447 | 0     | 0     | 0     | 0     | 0     |
-| LFE | 0     | 0     | 0     | 0.447 | 0     | 0     | 0     | 0     |
-| SL  | 0     | 0     | 0     | 0     | 0.429 | 0.124 | 0.447 | 0     |
-| SR  | 0     | 0     | 0     | 0     | 0.124 | 0.429 | 0     | 0.447 |
+| **L**   | 0.447 | 0     | 0     | 0     | 0     | 0     | 0     | 0     |
+| **R**   | 0     | 0.447 | 0     | 0     | 0     | 0     | 0     | 0     |
+| **C**   | 0     | 0     | 0.447 | 0     | 0     | 0     | 0     | 0     |
+| **LFE** | 0     | 0     | 0     | 0.447 | 0     | 0     | 0     | 0     |
+| **SL**  | 0     | 0     | 0     | 0     | 0.429 | 0.124 | 0.447 | 0     |
+| **SR**  | 0     | 0     | 0     | 0     | 0.124 | 0.429 | 0     | 0.447 |
 
 
 
@@ -193,7 +193,7 @@ You can specify the output quality of the Audio Resampler DSP by calling [**IWMR
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
@@ -204,15 +204,4 @@ You can specify the output quality of the Audio Resampler DSP by calling [**IWMR
 
 ## See also
 
-<dl> <dt>
-
 [Digital Signal Processors](windowsmediadigitalsignalprocessors.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-

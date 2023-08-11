@@ -1,5 +1,5 @@
 ---
-Description: Returns the type of warning that occurred by using the AnalysisWarningCode enumeration.
+description: Returns the type of warning that occurred by using the AnalysisWarningCode enumeration.
 ms.assetid: ec67a5ac-a7a2-4805-b9b5-915ea956d228
 title: IAnalysisWarning::GetWarningCode method (IACom.h)
 ms.topic: reference
@@ -132,7 +132,7 @@ STDMETHODIMP CMyClass::Results(
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -148,16 +148,11 @@ STDMETHODIMP CMyClass::Results(
 [**IAnalysisWarning**](ianalysiswarning.md)
 </dt> <dt>
 
-[**AnalysisWarningCode**](https://docs.microsoft.com/windows/desktop/tablet/analysiswarningcode)
+[**AnalysisWarningCode**](/windows/desktop/tablet/analysiswarningcode)
 </dt> <dt>
 
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

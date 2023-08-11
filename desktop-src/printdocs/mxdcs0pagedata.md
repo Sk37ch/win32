@@ -1,5 +1,5 @@
 ---
-Description: The MXDC\_S0PAGE\_DATA\_T structure holds an XPS document page to be passed to the Microsoft XPS Document Converter (MXDC) output file without any processing.
+description: The MXDC\_S0PAGE\_DATA\_T structure holds an XPS document page to be passed to the Microsoft XPS Document Converter (MXDC) output file without any processing.
 ms.assetid: 3dc8e0b9-cf63-4345-93d2-3b60dac42546
 title: MXDC_S0PAGE_DATA_T structure (Mxdc.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ Streaming consumption is more efficient if you call [**ExtEscape**](/windows/des
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                              |
@@ -81,7 +81,7 @@ Streaming consumption is more efficient if you call [**ExtEscape**](/windows/des
 [Print Spooler API Structures](printing-and-print-spooler-structures.md)
 </dt> <dt>
 
-[GDI Printer Escape Functions](https://msdn.microsoft.com/library/Dd162843(v=VS.85).aspx)
+[GDI Printer Escape Functions](/previous-versions/windows/desktop/legacy/dd162843(v=vs.85))
 </dt> <dt>
 
 [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape)
@@ -91,9 +91,4 @@ Streaming consumption is more efficient if you call [**ExtEscape**](/windows/des
 </dt> </dl>
 
  
-
- 
-
-
-
 

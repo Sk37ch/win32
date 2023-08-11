@@ -1,5 +1,5 @@
 ---
-Description: Extends the functionality of SWbemServices.
+description: Extends the functionality of SWbemServices.
 ms.assetid: def514a9-eca4-41de-87cd-c9f964a71f68
 ms.tgt_platform: multiple
 title: SWbemServicesEx object (Wbemdisp.h)
@@ -19,7 +19,7 @@ api_location:
 
 # SWbemServicesEx object
 
-The **SWbemServicesEx** object extends the functionality of [**SWbemServices**](swbemservices.md). The [**Put**](swbemservicesex-put.md) and [**PutAsync**](swbemservicesex-putasync.md) methods allow a class or an instance to be saved to multiple namespaces or to a different namespace than the one where an instance was created. This object cannot be created by the VBScript [CreateObject](https://docs.microsoft.com/previous-versions//xzysf6hc(v=vs.85)) call.
+The **SWbemServicesEx** object extends the functionality of [**SWbemServices**](swbemservices.md). The [**Put**](swbemservicesex-put.md) and [**PutAsync**](swbemservicesex-putasync.md) methods allow a class or an instance to be saved to multiple namespaces or to a different namespace than the one where an instance was created. This object cannot be created by the VBScript [CreateObject](/previous-versions//xzysf6hc(v=vs.85)) call.
 
 ## Members
 
@@ -50,7 +50,7 @@ The methods in this class can be called in either the semisynchronous mode or th
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -73,9 +73,4 @@ The methods in this class can be called in either the semisynchronous mode or th
 </dt> </dl>
 
  
-
- 
-
-
-
 

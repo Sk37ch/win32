@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_LogonSessionMappedDisk class represents an association between a logon session and the mapped logical disks defined within the session.
+description: The Win32\_LogonSessionMappedDisk class represents an association between a logon session and the mapped logical disks defined within the session.
 ms.assetid: 013ae55e-6dd1-42fb-bcba-74d6afa1b905
 ms.tgt_platform: multiple
 title: Win32_LogonSessionMappedDisk class
@@ -56,7 +56,7 @@ Data type: **Win32\_LogonSession**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The Antecedent property references a logon session.
@@ -72,7 +72,7 @@ Data type: **Win32\_MappedLogicalDisk**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**Key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The Dependent property references a mapped logical disk defined within the session referenced by the Antecedent property.
@@ -83,7 +83,7 @@ The Dependent property references a mapped logical disk defined within the sessi
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -101,9 +101,4 @@ The Dependent property references a mapped logical disk defined within the sessi
 </dt> </dl>
 
  
-
- 
-
-
-
 

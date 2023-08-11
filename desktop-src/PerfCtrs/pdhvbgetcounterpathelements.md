@@ -1,5 +1,5 @@
 ---
-Description: The PdhVbGetCounterPathElements function parses a fully qualified performance counter path string into its individual elements.
+description: The PdhVbGetCounterPathElements function parses a fully qualified performance counter path string into its individual elements.
 ms.assetid: 5459c7dd-e8b6-48cd-a33f-cafdc64dd9ee
 title: PdhVbGetCounterPathElements function
 ms.topic: reference
@@ -18,6 +18,9 @@ api_location:
 # PdhVbGetCounterPathElements function
 
 The **PdhVbGetCounterPathElements** function parses a fully qualified performance counter path string into its individual elements. Each of the string variables must be the same size (*BufferSize*) and dimensioned and initialized before it is used in this function.
+
+> [!IMPORTANT]
+> The function that this topic describes may be altered or unavailable in the future. Instead, Microsoft recommends that you use the functions described in [Performance Counters Functions](performance-counters-functions.md).
 
 Function PdhVbGetCounterPathElements( \_ ByVal PathString As String, \_ ByVal MachineName As String, \_ ByVal ObjectName As String, \_ ByVal InstanceName As String, \_ ByVal ParentInstance As String, \_ ByVal CounterName As String, \_ ByVal BufferSize As Long \_ ) As Long
 
@@ -78,7 +81,7 @@ Maximum size of each string variable used as a parameter to this function call.
 
 If the function succeeds, it returns a **Long** integer equal to ERROR\_SUCCESS.
 
-If the function fails, the return value is a [system error code](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes) or a [PDH error code](pdh-error-codes.md). The following are possible values.
+If the function fails, the return value is a [system error code](/windows/desktop/Debug/system-error-codes) or a [PDH error code](pdh-error-codes.md). The following are possible values.
 
 
 
@@ -96,7 +99,7 @@ If the function fails, the return value is a [system error code](https://docs.mi
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
@@ -119,9 +122,4 @@ If the function fails, the return value is a [system error code](https://docs.mi
 </dt> </dl>
 
  
-
- 
-
-
-
 

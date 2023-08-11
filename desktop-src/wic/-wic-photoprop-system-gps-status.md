@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.GPS.Status property.
+description: The photo metadata policy for the System.GPS.Status property.
 ms.assetid: 74ea0384-3b1f-4d5e-8713-7b3936813a3a
 title: System.GPS.Status Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.Status Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.Status](https://msdn.microsoft.com/library/bb760590(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.Status](../properties/props-system-gps-status.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.GPS.Status](https://msdn.microsoft.com/library/bb760590(VS.85).aspx)
+[System.GPS.Status](../properties/props-system-gps-status.md)
 </dt> </dl>
 
  
 
  
-
-
-

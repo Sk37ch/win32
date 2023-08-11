@@ -1,5 +1,5 @@
 ---
-Description: Contains a collection of objects that implement the IContextLink interface.
+description: Contains a collection of objects that implement the IContextLink interface.
 ms.assetid: 34d1bbbb-85c0-4209-97ca-c22f22a1b625
 title: IContextLinks interface (IACom.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ Contains a collection of objects that implement the [**IContextLink**](icontextl
 
 ## Members
 
-The **IContextLinks** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IContextLinks** also has these types of members:
+The **IContextLinks** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IContextLinks** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -48,7 +48,7 @@ This is usually accessed through the [**IContextNode::GetContextLinks**](icontex
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -77,9 +77,4 @@ This is usually accessed through the [**IContextNode::GetContextLinks**](icontex
 </dt> </dl>
 
  
-
- 
-
-
-
 

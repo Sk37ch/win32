@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Control of Winsock Tracing
 ms.assetid: b079bdfc-b192-451c-967d-dcefa94b7ec7
 title: Control of Winsock Tracing
 ms.topic: article
@@ -47,7 +47,7 @@ If an output file containing xml rather than plain text is preferred, the follow
 Winsock catalog change tracing is enabled by default on Windows Vista and later.
 
 > [!Note]  
-> Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](https://msdn.microsoft.com/library/Aa366510(v=VS.85).aspx).
+> Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](../fwp/windows-filtering-platform-start-page.md).
 
  
 
@@ -129,6 +129,3 @@ An Error parameter in the eventdata is returned in some Winsock tracing events. 
  
 
  
-
-
-

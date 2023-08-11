@@ -1,5 +1,5 @@
 ---
-Description: Sent to notify CPlApplet that the user has chosen the icon associated with a given dialog box. CPlApplet should display the corresponding dialog box and carry out any user-specified tasks.
+description: Sent to notify CPlApplet that the user has chosen the icon associated with a given dialog box. CPlApplet should display the corresponding dialog box and carry out any user-specified tasks.
 title: CPL_STARTWPARMS message (Cpl.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -18,7 +18,7 @@ topic_type:
 
 # CPL\_STARTWPARMS message
 
-Sent to notify [**CPlApplet**](https://msdn.microsoft.com/library/Bb776392(v=VS.85).aspx) that the user has chosen the icon associated with a given dialog box. **CPlApplet** should display the corresponding dialog box and carry out any user-specified tasks.
+Sent to notify [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc) that the user has chosen the icon associated with a given dialog box. **CPlApplet** should display the corresponding dialog box and carry out any user-specified tasks.
 
 ## Parameters
 
@@ -44,13 +44,13 @@ Returns **TRUE** if the message was handled, or **FALSE** otherwise.
 
 ## Remarks
 
-**CPL\_STARTWPARMS** is similar to [**CPL\_DBLCLK**](cpl-dblclk.md) but allows you to pass a string to [**CPlApplet**](https://msdn.microsoft.com/library/Bb776392(v=VS.85).aspx) instead of an **int**. You can use this string as a flexible way to provide detailed directions for execution.
+**CPL\_STARTWPARMS** is similar to [**CPL\_DBLCLK**](cpl-dblclk.md) but allows you to pass a string to [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc) instead of an **int**. You can use this string as a flexible way to provide detailed directions for execution.
 
 ## Requirements
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                             |
@@ -61,7 +61,3 @@ Returns **TRUE** if the message was handled, or **FALSE** otherwise.
  
 
  
-
-
-
-

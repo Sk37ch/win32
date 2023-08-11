@@ -1,5 +1,5 @@
 ---
-Description: A DirectoryCombo\_control displays a part of the path that is currently displayed in the PathEdit control. This control does not show the last segment of the path, that segment is displayed by the DirectoryList control.
+description: A DirectoryCombo\_control displays a part of the path that is currently displayed in the PathEdit control. This control does not show the last segment of the path, that segment is displayed by the DirectoryList control.
 ms.assetid: c2dd494b-b51d-4d3a-ab8f-f6d64a62feb3
 title: DirectoryCombo Control
 ms.topic: article
@@ -50,12 +50,7 @@ You can use the following attributes with this control. To change the value of a
 
 ## Remarks
 
-This control can be created from the COMBOBOX class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the **CBS\_DROPDOWNLIST**, **CBS\_OWNERDRAWFIXED**, **CBS\_HASSTRINGS**, **WS\_CHILD**, **WS\_GROUP**, **WS\_TABSTOP**, and **WS\_VSCROLL** styles.
+This control can be created from the COMBOBOX class by using the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function. It has the **CBS\_DROPDOWNLIST**, **CBS\_OWNERDRAWFIXED**, **CBS\_HASSTRINGS**, **WS\_CHILD**, **WS\_GROUP**, **WS\_TABSTOP**, and **WS\_VSCROLL** styles.
 
  
-
- 
-
-
-
 

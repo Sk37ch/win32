@@ -1,5 +1,5 @@
 ---
-Description: Extensions to the IPIxEngine3 interface.
+description: Extensions to the IPIxEngine3 interface.
 MS-HAID: vspixengine.IPixEngine4
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -26,7 +26,7 @@ Extensions to the IPIxEngine3 interface.
 
 ## Members
 
-The **IPixEngine4** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixEngine4** also has these types of members:
+The **IPixEngine4** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixEngine4** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,17 +34,14 @@ The **IPixEngine4** interface inherits from the [**IUnknown**](https://docs.micr
 
 The **IPixEngine4** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/ipixengine4-updateobject-uint-dword-byte-arr"><strong>UpdateObject</strong></a></td><td style="text-align: left;"><p>Updates the initial state of an object; for example, a texture or shader.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Method</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/ipixengine4-updateobject-uint-dword-byte-arr"><strong>UpdateObject</strong></a></td><td ><p>Updates the initial state of an object; for example, a texture or shader.</p></td></tr></tbody></table>
 
  
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Creates an effect compiler from an ASCII effect description.
+description: D3DXCreateEffectCompilerFromFile function - Creates an effect compiler from an ASCII effect description.
 ms.assetid: 87438a1e-4149-42ef-aa7a-9f0549eb7982
 title: D3DXCreateEffectCompilerFromFile function (D3DX9Effect.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ HRESULT D3DXCreateEffectCompilerFromFile(
 *pSrcFile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 Pointer to the filename. This parameter supports both Unicode and ANSI strings. See Remarks.
 
@@ -70,9 +70,9 @@ Optional interface pointer, [**ID3DXInclude**](id3dxinclude.md), to use for hand
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
-Compile options identified by various flags (see [D3DXSHADER Flags](d3dxshader-flags.md)). The Direct3D 10 HLSL compiler is now the default. See [Effect-Compiler Tool](https://msdn.microsoft.com/library/Bb232919(v=VS.85).aspx) for details.
+Compile options identified by various flags (see [D3DXSHADER Flags](d3dxshader-flags.md)). The Direct3D 10 HLSL compiler is now the default. See [Effect-Compiler Tool](../direct3dtools/fxc.md) for details.
 
 </dd> <dt>
 
@@ -110,7 +110,7 @@ The compiler setting also determines the function version. If Unicode is defined
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -133,7 +133,3 @@ The compiler setting also determines the function version. If Unicode is defined
  
 
  
-
-
-
-

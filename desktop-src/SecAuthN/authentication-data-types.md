@@ -1,5 +1,5 @@
 ---
-Description: Lists the data types used by authentication APIs.
+description: Lists the data types used by authentication APIs.
 ms.assetid: 1c2f932d-11f4-406f-8874-2f247b53d70f
 title: Authentication Data Types
 ms.topic: article
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## LSA Data Types
 
-The [*Local Security Authority*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LSA) uses the following data type.
+The [*Local Security Authority*](/windows/desktop/SecGloss/l-gly) (LSA) uses the following data type.
 
 
 
@@ -39,9 +39,4 @@ The [*Local Security Authority*](https://docs.microsoft.com/windows/desktop/SecG
  
 
  
-
- 
-
-
-
 

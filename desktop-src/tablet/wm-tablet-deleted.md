@@ -1,5 +1,5 @@
 ---
-Description: The WM\_TABLET\_DELETED message is posted when a tablet device is removed from Windows.
+description: The WM\_TABLET\_DELETED message is posted when a tablet device is removed from Windows.
 ms.assetid: af5be7f0-a213-49a1-800e-c922281522c8
 title: WM_TABLET_DELETED message (Tpcshrd.h)
 ms.topic: reference
@@ -40,13 +40,13 @@ Unused.
 
 This message is sent to all top-level windows in the system, including disabled or invisible unowned windows, overlapped windows, and pop-up windows; but the message is not sent to child windows.
 
-The indexes passed in *wParam* are related to the index used by the [**ITabletManager::GetTablet**](https://msdn.microsoft.com/library/Aa373683(v=VS.85).aspx) method.
+The indexes passed in *wParam* are related to the index used by the [**ITabletManager::GetTablet**](/previous-versions/windows/desktop/legacy/aa373683(v=vs.85)) method.
 
 ## Requirements
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                        |
 | Minimum supported server<br/> | None supported<br/>                                                            |
@@ -57,7 +57,3 @@ The indexes passed in *wParam* are related to the index used by the [**ITabletMa
  
 
  
-
-
-
-

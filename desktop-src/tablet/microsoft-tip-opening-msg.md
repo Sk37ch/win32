@@ -1,5 +1,5 @@
 ---
-Description: Notifies the window when the Text Input Panel is opening.
+description: Notifies the window when the Text Input Panel is opening.
 ms.assetid: 6eadd648-bffb-4227-bdcd-cd733f692734
 title: MICROSOFT_TIP_OPENING_MSG message (Peninputpanel.h)
 ms.topic: reference
@@ -30,11 +30,11 @@ Currently not used, should be **NULL**.
 
 ## Return value
 
-Applications should call [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) after handling this message. See **DefWindowProc** for information about its return values.
+Applications should call [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) after handling this message. See **DefWindowProc** for information about its return values.
 
 ## Remarks
 
-This notification lets you know when the input panel is opening. If you want to perform an action when this happens, handle the message, perform your operation in the handler, and then pass on the message to [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca).
+This notification lets you know when the input panel is opening. If you want to perform an action when this happens, handle the message, perform your operation in the handler, and then pass on the message to [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca).
 
 > [!Note]  
 > This message is also sent when the Text Input Panel is already visible and the user switches from the keyboard to the handwriting skin.
@@ -45,7 +45,7 @@ This notification lets you know when the input panel is opening. If you want to 
 
 
 
-|                   |                                                                                            |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------------|
 | Client<br/> | Windows Vista<br/>                                                                   |
 | Header<br/> | <dl> <dt>Peninputpanel.h</dt> </dl> |
@@ -53,9 +53,4 @@ This notification lets you know when the input panel is opening. If you want to 
 
 
  
-
- 
-
-
-
 

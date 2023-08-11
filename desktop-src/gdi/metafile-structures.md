@@ -1,5 +1,5 @@
 ---
-Description: The following structures are used with enhanced-format metafiles.
+description: The following structures are used with enhanced-format metafiles.
 ms.assetid: 6a509ed5-cea3-4318-ad17-9d20425a6e80
 title: Metafile Structures
 ms.topic: article
@@ -18,8 +18,8 @@ The following structures are used with enhanced-format metafiles.
 [**ENHMETAHEADER**](/windows/win32/api/wingdi/ns-wingdi-enhmetaheader)  
 [**ENHMETARECORD**](/windows/win32/api/wingdi/ns-wingdi-enhmetarecord)  
 [**HANDLETABLE**](/windows/win32/api/wingdi/ns-wingdi-handletable)  
-[**POINTL**](https://msdn.microsoft.com/library/Dd162807(v=VS.85).aspx)  
-[**RECTL**](https://msdn.microsoft.com/library/Dd162907(v=VS.85).aspx)  
+[**POINTL**](/windows/win32/api/windef/ns-windef-pointl)  
+[**RECTL**](/windows/win32/api/windef/ns-windef-rectl)  
 </dl> 
 
 Note that the [**EMR**](/windows/win32/api/wingdi/ns-wingdi-emr) structure is used as the first member of the remaining structures.  
@@ -108,7 +108,7 @@ Note that the [**EMR**](/windows/win32/api/wingdi/ns-wingdi-emr) structure is us
 [**EMRSELECTOBJECT**](/windows/win32/api/wingdi/ns-wingdi-emrselectobject)  
 [**EMRSELECTPALETTE**](/windows/win32/api/wingdi/ns-wingdi-emrselectpalette)  
 [**EMRSETARCDIRECTION**](/windows/win32/api/wingdi/ns-wingdi-emrsetarcdirection)  
-[**EMRSETBKCOLOR**](/windows/win32/api/wingdi/ns-wingdi-emrsettextcolor)  
+[**EMRSETBKCOLOR**](/windows/win32/api/wingdi/ns-wingdi-emrsetbkcolor)  
 [**EMRSETBKMODE**](/windows/win32/api/wingdi/ns-wingdi-emrselectclippath)  
 [**EMRSETBRUSHORGEX**](/windows/win32/api/wingdi/ns-wingdi-emrsetviewportextex)  
 [**EMRSETCOLORADJUSTMENT**](/windows/win32/api/wingdi/ns-wingdi-emrsetcoloradjustment)  
@@ -127,7 +127,7 @@ Note that the [**EMR**](/windows/win32/api/wingdi/ns-wingdi-emr) structure is us
 [**EMRSETROP2**](/windows/win32/api/wingdi/ns-wingdi-emrselectclippath)  
 [**EMRSETSTRETCHBLTMODE**](/windows/win32/api/wingdi/ns-wingdi-emrselectclippath)  
 [**EMRSETTEXTALIGN**](/windows/win32/api/wingdi/ns-wingdi-emrselectclippath)  
-[**EMRSETTEXTCOLOR**](/windows/win32/api/wingdi/ns-wingdi-emrsettextcolor)  
+[**EMRSETTEXTCOLOR**](/windows/win32/api/wingdi/ns-wingdi-emrsetbkcolor)  
 [**EMRSETVIEWPORTEXTEX**](/windows/win32/api/wingdi/ns-wingdi-emrsetviewportextex)  
 [**EMRSETVIEWPORTORGEX**](/windows/win32/api/wingdi/ns-wingdi-emrsetviewportorgex)  
 [**EMRSETWINDOWEXTEX**](/windows/win32/api/wingdi/ns-wingdi-emrsetviewportextex)  
@@ -148,6 +148,3 @@ The following structures are obsolete. The are provided for compatibility with W
  
 
  
-
-
-

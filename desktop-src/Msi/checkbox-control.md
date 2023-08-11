@@ -1,5 +1,5 @@
 ---
-Description: This CheckBox\_control is a two-state check box.
+description: This CheckBox\_control is a two-state check box.
 ms.assetid: 939cc08f-7efd-4ff4-a846-6419e512a18f
 title: CheckBox Control (Windows Installer)
 ms.topic: article
@@ -40,12 +40,7 @@ You can use the following attributes with this control. To change the value of a
 
 ## Remarks
 
-This control can be created from the BUTTON class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the **BS\_CHECKBOX**, **WS\_TABSTOP**, **WS\_GROUP**, **WS\_CHILD**, and **BS\_MULTILINE** styles.
+This control can be created from the BUTTON class by using the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function. It has the **BS\_CHECKBOX**, **WS\_TABSTOP**, **WS\_GROUP**, **WS\_CHILD**, and **BS\_MULTILINE** styles.
 
  
-
- 
-
-
-
 

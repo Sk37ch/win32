@@ -1,5 +1,5 @@
 ---
-Description: For Credential Security Support Provider protocol (CredSSP) to delegate credentials, you must specify which servers can be delegated to.
+description: For Credential Security Support Provider protocol (CredSSP) to delegate credentials, you must specify which servers can be delegated to.
 ms.assetid: 15ed9a62-2eee-4f29-92c5-ccf2754cdf13
 title: CredSSP Group Policy Settings
 ms.topic: article
@@ -29,12 +29,7 @@ Group policy settings control delegation of the following types of credentials.
 
  
 
-To include a server in the category associated with a particular group policy setting, add the [*Service Principal Name*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SPN) of that server to the list of servers for that group policy setting. The SPN can contain a single wildcard character.
+To include a server in the category associated with a particular group policy setting, add the [*Service Principal Name*](/windows/desktop/SecGloss/s-gly) (SPN) of that server to the list of servers for that group policy setting. The SPN can contain a single wildcard character.
 
  
-
- 
-
-
-
 

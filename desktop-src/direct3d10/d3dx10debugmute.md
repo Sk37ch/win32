@@ -1,5 +1,5 @@
 ---
-Description: Enable or disable debug messages.
+description: Enable or disable debug messages.
 ms.assetid: 5c2aa3cf-ee6a-40fd-b300-67cb6ce691b6
 title: D3DX10DebugMute function (D3DX10Core.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT D3DX10DebugMute(
 *Mute* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 Set to **TRUE** to enable debug messages; set to **FALSE** to disable debug messages.
 
@@ -69,7 +69,7 @@ The default state is **TRUE** for a debug build.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -86,7 +86,3 @@ The default state is **TRUE** for a debug build.
  
 
  
-
-
-
-

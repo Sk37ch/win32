@@ -1,5 +1,5 @@
 ---
-Description: The following are hints and tips to consider when writing an application for TAPI 3
+description: The following are hints and tips to consider when writing an application for TAPI 3
 ms.assetid: 55aae46a-af5c-4b6d-89fc-9063f078bcd6
 title: Hints and Tips
 ms.topic: article
@@ -10,12 +10,12 @@ ms.date: 05/31/2018
 
 The following are hints and tips to consider when writing an application for TAPI 3:
 
-1.  COM [**CoInitialize**](https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize) indirectly creates windows; this is especially important for apartment threading. If a thread creates any windows, it must process messages. If your threads call **CoInitialize**, run a message pump to prevent problems. For example, COM might stop marshalling properly, or methods on COM interfaces, such as **IGlobalInterfaceTable** might hang.
+1.  COM [**CoInitialize**](/windows/desktop/api/objbase/nf-objbase-coinitialize) indirectly creates windows; this is especially important for apartment threading. If a thread creates any windows, it must process messages. If your threads call **CoInitialize**, run a message pump to prevent problems. For example, COM might stop marshalling properly, or methods on COM interfaces, such as **IGlobalInterfaceTable** might hang.
 
     In apartment threading you must have a message pump regardless of whether you wait for synchronization objects. This is particularly important if you have a console application or you write a COM local/remote server object that is apartment threaded (where you do not have a console or a GUI, but the control just "runs" in the system).
 
     > [!Caution]  
-    > When calling the wait and synchronization functions, such as [**Sleep**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-sleep), [**WaitForMultipleObjects**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjects), [**WaitForMultipleObjectsEx**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjectsex), [**WaitForSingleObject**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject), [**WaitForSingleObjectEx**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobjectex), and so on. Instead, use [**MsgWaitForMultipleObjects**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjects) and process the messages, or use [**CoWaitForMultipleHandles**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cowaitformultiplehandles), which will automatically detect what type of apartment the thread is in (STA or MTA) and will wait either in a COM modal loop (if STA) or block on **WaitForMultipleObjects** (if MTA). **MsgWaitForMultipleObjects** and **CoWaitForMultipleHandles** also process windows messages according to the COM rules.
+    > When calling the wait and synchronization functions, such as [**Sleep**](/windows/desktop/api/synchapi/nf-synchapi-sleep), [**WaitForMultipleObjects**](/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjects), [**WaitForMultipleObjectsEx**](/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjectsex), [**WaitForSingleObject**](/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject), [**WaitForSingleObjectEx**](/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobjectex), and so on. Instead, use [**MsgWaitForMultipleObjects**](/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjects) and process the messages, or use [**CoWaitForMultipleHandles**](/windows/desktop/api/combaseapi/nf-combaseapi-cowaitformultiplehandles), which will automatically detect what type of apartment the thread is in (STA or MTA) and will wait either in a COM modal loop (if STA) or block on **WaitForMultipleObjects** (if MTA). **MsgWaitForMultipleObjects** and **CoWaitForMultipleHandles** also process windows messages according to the COM rules.
 
      
 
@@ -46,8 +46,8 @@ The following are hints and tips to consider when writing an application for TAP
 
     Be aware that the following code example is provided, but is not a requirement.
 
-    ``` syntax
-#include <windows.h>
+    ```syntax
+    #include <windows.h>
 
     HRESULT
     STDMETHODCALLTYPE
@@ -73,15 +73,11 @@ The following are hints and tips to consider when writing an application for TAP
         // If (RetVal == 0 ) process error here.
 
         return S_OK;
-    }
-     
+    }     
     ```
 
-3.  Do not manipulate COM objects after calling [**CoUninitialize**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize). The results are unpredictable and detrimental to a healthy application. Some examples in which this can happen are worker threads and C++ destructors that may execute after an application calls **CoUninitialize**.
+3.  Do not manipulate COM objects after calling [**CoUninitialize**](/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize). The results are unpredictable and detrimental to a healthy application. Some examples in which this can happen are worker threads and C++ destructors that may execute after an application calls **CoUninitialize**.
 
  
 
  
-
-
-

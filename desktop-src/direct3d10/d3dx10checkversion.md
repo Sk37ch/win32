@@ -1,5 +1,5 @@
 ---
-Description: Verify that the version of D3DX you compiled with is the version that you are running.
+description: D3DX10CheckVersion function - Verify that the version of D3DX you compiled with is the version that you are running.
 ms.assetid: 57085b07-f77b-425e-a889-22c3071d7143
 title: D3DX10CheckVersion function (D3DX10Core.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT D3DX10CheckVersion(
 *D3DSdkVersion* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Use D3D10\_SDK\_VERSION. See remarks.
 
@@ -48,7 +48,7 @@ Use D3D10\_SDK\_VERSION. See remarks.
 *D3DX10SdkVersion* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Use D3DX10\_SDK\_VERSION. See remarks.
 
@@ -78,7 +78,7 @@ if( FAILED( D3DX10CheckVersion(D3D10_SDK_VERSION, D3DX10_SDK_VERSION) ) )
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -95,7 +95,3 @@ if( FAILED( D3DX10CheckVersion(D3D10_SDK_VERSION, D3DX10_SDK_VERSION) ) )
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: SFVM\_QUERYFSNOTIFY may be altered or unavailable.
+description: SFVM\_QUERYFSNOTIFY may be altered or unavailable.
 ms.assetid: 5d777115-bae3-47c4-9edc-c99c40a4f926
 title: SFVM_QUERYFSNOTIFY message (Shlobj.h)
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[**SFVM\_QUERYFSNOTIFY** is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.\]
 
-Allows the callback object to register a folder so that changes to that folder's view will generate notifications. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/library/Bb774968(v=VS.85).aspx).
+Allows the callback object to register a folder so that changes to that folder's view will generate notifications. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb).
 
 
 ```C++
@@ -36,7 +36,7 @@ A structure to hold the PIDL of the item to watch for events and an indication w
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                |
@@ -49,7 +49,3 @@ A structure to hold the PIDL of the item to watch for events and an indication w
  
 
  
-
-
-
-

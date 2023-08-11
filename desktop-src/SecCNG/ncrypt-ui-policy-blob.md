@@ -1,5 +1,5 @@
 ---
-Description: Used with the NCRYPT\_UI\_POLICY\_PROPERTY property to contain user interface information for a key.
+description: Used with the NCRYPT\_UI\_POLICY\_PROPERTY property to contain user interface information for a key.
 ms.assetid: c567d8ba-3315-4316-8e09-93b2c10a55ec
 title: NCRYPT_UI_POLICY_BLOB structure (Ncrypt\_provider.h)
 ms.topic: reference
@@ -86,13 +86,13 @@ The length, in bytes, of the key description. The key description is a null-term
 
 ## Remarks
 
-This structure is included in the Ncrypt\_provider.h header. To use the structure, you must download the [Cryptographic Provider Development Kit](https://docs.microsoft.com/collaborate/connect-redirect?ProgramID=7264&InvitationID=CSDK-GYTG-R2PX) from Microsoft Connect.
+This structure is included in the Ncrypt\_provider.h header. To use the structure, you must download the [Cryptographic Provider Development Kit](/collaborate/connect-redirect?InvitationID=CSDK-GYTG-R2PX&ProgramID=7264) from Microsoft Connect.
 
 ## Requirements
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                          |
@@ -101,9 +101,4 @@ This structure is included in the Ncrypt\_provider.h header. To use the structur
 
 
  
-
- 
-
-
-
 

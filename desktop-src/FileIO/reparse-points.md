@@ -1,5 +1,5 @@
 ---
-Description: Describes reparse points.
+description: Describes reparse points.
 ms.assetid: 3abb3a08-9a00-43eb-9792-82eab1a25f06
 title: Reparse Points
 ms.topic: article
@@ -20,7 +20,9 @@ The following restrictions apply to reparse points:
 -   Reparse points and extended attributes are mutually exclusive. The NTFS file system cannot create a reparse point when the file contains extended attributes, and it cannot create extended attributes on a file that contains a reparse point.
 -   Reparse point data, including the tag and optional **GUID**, cannot exceed 16 kilobytes. Setting a reparse point fails if the amount of data to be placed in the reparse point exceeds this limit.
 -   There is a limit of 63 reparse points on any given path.
-
+    
+    **NOTE:** The limit can be reduced depending on the length of the reparse point. For example, if your reparse point targets a fully qualified path, the limit becomes 31.
+    
     **Windows Server 2003 and Windows XP:** There is a limit of 31 reparse points on any given path.
 
 ## In this section
@@ -30,7 +32,7 @@ The following restrictions apply to reparse points:
 | Topic                                                                                   | Description                                                                                                                                                                                                        |
 |-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Reparse Point Tags](reparse-point-tags.md)<br/>                                 | Each reparse point has an identifier tag so that you can efficiently differentiate between the different types of reparse points, without having to examine the user-defined data in the reparse point.<br/> |
-| [Reparse Point Operations](reparse-point-operations.md)<br/>                     | Describes the reparse point operations that you can perform by using [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol).<br/>                                                                                       |
+| [Reparse Point Operations](reparse-point-operations.md)<br/>                     | Describes the reparse point operations that you can perform by using [**DeviceIoControl**](/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol).<br/>                                                                                       |
 | [Reparse Points and File Operations](reparse-points-and-file-operations.md)<br/> | Describes how reparse points enable file system behavior that departs from behavior most Windows developers expect.<br/>                                                                                     |
 
 
@@ -38,9 +40,4 @@ The following restrictions apply to reparse points:
  
 
  
-
- 
-
-
-
 

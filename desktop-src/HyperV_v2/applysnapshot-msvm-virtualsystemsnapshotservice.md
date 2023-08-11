@@ -1,5 +1,5 @@
 ---
-Description: Applies a virtual machine snapshot to the virtual machine that it was created from.
+description: Applies a virtual machine snapshot to the virtual machine that it was created from.
 ms.assetid: 45f1ec8f-aa96-4060-8f8c-0471d0ad4a21
 title: ApplySnapshot method of the Msvm_VirtualSystemSnapshotService class
 ms.topic: reference
@@ -38,14 +38,14 @@ uint32 ApplySnapshot(
 *Snapshot* \[in\]
 </dt> <dd>
 
-A reference to a class derived from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)) that represents the virtual machine snapshot to be applied.
+A reference to a class derived from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)) that represents the virtual machine snapshot to be applied.
 
 </dd> <dt>
 
 *Job* \[out\]
 </dt> <dd>
 
-This operation is always performed asynchronously. This method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+This operation is always performed asynchronously. This method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -101,7 +101,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -118,16 +118,11 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemSnapshotService**](msvm-virtualsystemsnapshotservice.md)
 </dt> <dt>
 
-[**ApplyVirtualSystemSnapshot (V1)**](https://docs.microsoft.com/previous-versions/windows/desktop/virtual/applyvirtualsystemsnapshot-msvm-virtualsystemmanagementservice)
+[**ApplyVirtualSystemSnapshot (V1)**](/previous-versions/windows/desktop/virtual/applyvirtualsystemsnapshot-msvm-virtualsystemmanagementservice)
 </dt> <dt>
 
-[**ApplyVirtualSystemSnapshotEx (V1)**](https://docs.microsoft.com/previous-versions/windows/desktop/virtual/msvm-virtualsystemmanagementservice-applyvirtualsystemsnapshotex)
+[**ApplyVirtualSystemSnapshotEx (V1)**](/previous-versions/windows/desktop/virtual/msvm-virtualsystemmanagementservice-applyvirtualsystemsnapshotex)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the profile of video encoding on the output media type. This is an alias of MF\_MT\_MPEG2\_PROFILE attribute.
+description: Specifies the profile of video encoding on the output media type. This is an alias of MF\_MT\_MPEG2\_PROFILE attribute.
 ms.assetid: 29D1CCCA-CC11-46F1-A094-8BA8F74F7EE9
 title: MF_MT_VIDEO_PROFILE attribute (Mfapi.h)
 ms.topic: reference
@@ -20,7 +20,7 @@ Specifies the profile of video encoding on the output media type. This is an ali
 
 Supported profiles are exceeded to include [**eAVEncH264VProfile\_ConstrainedBase**](/windows/desktop/api/codecapi/ne-codecapi-eavench264vprofile) and **eAVEncH264VProfile\_ConstrainedHigh**.
 
-Encoders shall support both [**GetValue**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue) and [**SetValue**](https://msdn.microsoft.com/library/Dd311966(v=VS.85).aspx) for this attribute.
+Encoders shall support both [**GetValue**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue) and [**SetValue**](/windows/win32/api/strmif/nf-strmif-icodecapi-setvalue) for this attribute.
 
 This is static, so video encoders must be configured before the streaming starts. If the application sets a profile which the encoder does not support, the encoder shall reject the media type.
 
@@ -30,7 +30,7 @@ Recommended default: [**eAVEncH264VProfile\_Main**](/windows/desktop/api/codecap
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                            |
@@ -48,7 +48,3 @@ Recommended default: [**eAVEncH264VProfile\_Main**](/windows/desktop/api/codecap
  
 
  
-
-
-
-

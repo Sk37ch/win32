@@ -1,5 +1,5 @@
 ---
-Description: This application demonstrates how you can build a simple handwriting recognition application.This program creates an InkCollector object to ink-enable the window and a default recognizer context object.
+description: This application demonstrates how you can build a simple handwriting recognition application.This program creates an InkCollector object to ink-enable the window and a default recognizer context object.
 ms.assetid: 6dc94293-cdf7-4b90-a5e8-559f376add26
 title: Basic Recognition Sample
 ms.topic: article
@@ -38,7 +38,7 @@ case WM_CREATE:
 
 ## Recognizing the Strokes
 
-The recognize command is received when the user clicks the Recognize! menu item. The code gets a pointer to the ink [**InkStrokes**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) (pIInkStrokes) off of the [**InkDisp**](inkdisp-class.md) object, and then passes the **InkStrokes** to the recognizer context using a call to putref\_Strokes.
+The recognize command is received when the user clicks the Recognize! menu item. The code gets a pointer to the ink [**InkStrokes**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) (pIInkStrokes) off of the [**InkDisp**](inkdisp-class.md) object, and then passes the **InkStrokes** to the recognizer context using a call to putref\_Strokes.
 
 
 ```C++
@@ -116,6 +116,3 @@ Be sure to reset the recognizer context between usages.
  
 
  
-
-
-

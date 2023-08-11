@@ -1,22 +1,28 @@
 ---
-Description: Computes the dot product of two spherical harmonic (SH) vectors.
+description: D3DXSHDot function (D3dx9math.h) - Computes the dot product of two spherical harmonic (SH) vectors.
 ms.assetid: 71b7480d-ddac-4b02-bca7-d9318823d03e
 title: D3DXSHDot function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXSHDot
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXSHDot function
+# D3DXSHDot function (D3dx9math.h)
+
+> [!Note]
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated and is not supported for Windows Store apps.
+
+> [!Note]
+> Instead of using this function, we recommend that you use the [Spherical Harmonics Math](https://github.com/Microsoft/DirectXMath/tree/main/SHMath) library function **XMSHDot**.
 
 Computes the dot product of two spherical harmonic (SH) vectors.
 
@@ -40,7 +46,7 @@ FLOAT D3DXSHDot(
 *Order* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Order of the spherical harmonic (SH) evaluation. Must be in the range of [D3DXSH\_MINORDER](other-d3dx-constants.md) to D3DXSH\_MAXORDER, inclusive. The evaluation generates Order² coefficients. The degree of the evaluation is Order - 1.
 
@@ -49,7 +55,7 @@ Order of the spherical harmonic (SH) evaluation. Must be in the range of [D3DXSH
 *pA* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to the first SH vector.
 
@@ -58,7 +64,7 @@ Pointer to the first SH vector.
 *pB* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to the second SH vector.
 
@@ -66,7 +72,7 @@ Pointer to the second SH vector.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 SH output coefficients.
 
@@ -81,7 +87,7 @@ Each coefficient of the basis function Yₗₘ is stored at memory location l² 
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -101,7 +107,3 @@ Each coefficient of the basis function Yₗₘ is stored at memory location l² 
  
 
  
-
-
-
-

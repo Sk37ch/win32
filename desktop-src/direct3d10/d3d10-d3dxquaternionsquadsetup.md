@@ -1,22 +1,25 @@
 ---
-Description: Sets up control points for spherical quadrangle interpolation.
+description: D3DXQuaternionSquadSetup function (D3DX10Math.h) - Sets up control points for spherical quadrangle interpolation.
 ms.assetid: c66227bd-8cc1-4173-9dc2-5aab9d57301e
 title: D3DXQuaternionSquadSetup function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXQuaternionSquadSetup
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXQuaternionSquadSetup function
+# D3DXQuaternionSquadSetup function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Sets up control points for spherical quadrangle interpolation.
 
@@ -44,7 +47,7 @@ void D3DXQuaternionSquadSetup(
 *pAOut* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **[**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to AOut.
 
@@ -53,7 +56,7 @@ Pointer to AOut.
 *pBOut* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **[**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to BOut.
 
@@ -62,7 +65,7 @@ Pointer to BOut.
 *pCOut* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **[**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to COut.
 
@@ -71,7 +74,7 @@ Pointer to COut.
 *pQ0* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to the input control point, Q0.
 
@@ -80,7 +83,7 @@ Pointer to the input control point, Q0.
 *pQ1* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to the input control point, Q1.
 
@@ -89,7 +92,7 @@ Pointer to the input control point, Q1.
 *pQ2* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to the input control point, Q2.
 
@@ -98,7 +101,7 @@ Pointer to the input control point, Q2.
 *pQ3* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to the input control point, Q3.
 
@@ -179,7 +182,7 @@ D3DXQuaternionSquad(&Qt, &Q1, &A, &B, &C, time);
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -196,7 +199,3 @@ D3DXQuaternionSquad(&Qt, &Q1, &A, &B, &C, time);
  
 
  
-
-
-
-

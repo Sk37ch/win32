@@ -1,5 +1,5 @@
 ---
-Description: Set the mesh's adjacency data.
+description: Set the mesh's adjacency data.
 ms.assetid: 67d51ce0-7fe2-484d-9874-f1fa59632d59
 title: ID3DX10Mesh::SetAdjacencyData method (D3DX10.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT SetAdjacencyData(
 *pAdjacency* \[in\]
 </dt> <dd>
 
-Type: **const [**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**UINT**](../winprog/windows-data-types.md)\***
 
 The adjacency data to set.
 
@@ -54,7 +54,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -74,7 +74,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

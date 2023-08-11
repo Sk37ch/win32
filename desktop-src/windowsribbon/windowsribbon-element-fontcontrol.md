@@ -25,7 +25,7 @@ Represents a [Font Control](windowsribbon-controls-fontcontrol.md), which is a s
 <FontControl
   CommandName = "xs:positiveInteger or xs:string"
   FontType = "xs:string"
-  IsGrowShrinkButtonGroupVisible = "xs:string"
+  IsGrowShrinkButtonGroupVisible = "Boolean"
   IsStrikethroughButtonVisible = "Boolean"
   IsUnderlineButtonVisible = "Boolean"
   IsHighlightButtonVisible = "Boolean"
@@ -41,10 +41,10 @@ Represents a [Font Control](windowsribbon-controls-fontcontrol.md), which is a s
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -121,7 +121,7 @@ This control is displayed by default and cannot be hidden by setting the <em>IsH
 </tr>
 <tr class="odd">
 <td><strong>IsGrowShrinkButtonGroupVisible</strong><br/></td>
-<td>xs:string<br/></td>
+<td>Boolean<br/></td>
 <td>No<br/></td>
 <td><strong>Windows 8 and newer</strong><br/> Restricted to one of the following values: <br/>
 <blockquote>
@@ -312,12 +312,8 @@ This section of code shows the **FontControl** control declarations where each *
 
 ## Element information
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
-| Can be empty                        | Yes       |
+* **Minimum supported system**: Windows 7
+* **Can be empty**: Yes
 
 
 

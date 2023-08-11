@@ -1,5 +1,5 @@
 ---
-Description: 'This section enumerates a list of tips, linked to the main Windows Installer SDK documentation, to help Application Developers, Setup Authors, IT Professionals, and Infrastructure Developers discover best practices for using the Windows Installer:'
+description: 'This section enumerates a list of tips, linked to the main Windows Installer SDK documentation, to help Application Developers, Setup Authors, IT Professionals, and Infrastructure Developers discover best practices for using the Windows Installer:'
 ms.assetid: ff48d995-fe6f-4d1b-898d-67574ed3c5b7
 title: Windows Installer Best Practices
 ms.topic: article
@@ -64,14 +64,14 @@ This section enumerates a list of tips, linked to the main Windows Installer SDK
 -   The [Windows Installer Development Tools](windows-installer-development-tools.md) are not redistributable, and you should only use the versions of these tools available from Microsoft. These are available in the [Windows SDK Components for Windows Installer Developers](platform-sdk-components-for-windows-installer-developers.md) in the Microsoft Windows Software Development Kit (SDK).
 -   Several independent software vendors offer tools to create or modify Windows Installer packages. These tools can provide a package authoring environment that may be easier to use than the tools provided in the Windows Installer SDK. You can learn more about these tools from the information resources discussed in [Other Sources of Windows Installer Information](other-sources-of-windows-installer-information.md).
 -   The capability to build a package from text files may be more intuitive for some developers. The Windows Installer XML (WiX) toolset available on [Sourceforge.net](https://sourceforge.net/projects/wix) builds Windows installation packages from XML source code.
--   The documentation in the [Windows Installer SDK](https://msdn.microsoft.com/library/cc185688.aspx) released in the MSDN Online Library is updated the most frequently.
+-   The documentation in the [Windows Installer SDK](./windows-installer-portal.md) released in the MSDN Online Library is updated the most frequently.
 -   Use the recent version of [Msizap.exe](msizap-exe.md) (version 3.1.4000.2726 or greater) that is available in the [Windows SDK Components for Windows Installer Developers](platform-sdk-components-for-windows-installer-developers.md) for Windows Vista or greater. Lesser versions of Msizap.exe can remove information about all updates that have been applied to other applications on the user's computer. If this information is removed, these other applications may need to be removed and reinstalled to receive additional updates.
 -   The database table editor [Orca.exe](orca-exe.md) is a database table editor for creating and editing Windows Installer packages and merge modules. It has a basic GUI interface but supports advanced editing of Windows Installer databases. Even if you use another application as your primary development tool, you may find using Orca.exe is convenient when troubleshooting and testing a package.
 -   See [Other Sources of Windows Installer Information](other-sources-of-windows-installer-information.md) for current Windows Installer information available in blogs, technical chats, newsgroups, technical articles, and websites.
 
 ## If you decide to repackage a legacy setup application, follow good repackaging practices.
 
-Many application vendors provide native Windows Installer packages for the installation or their products. Software that converts an existing legacy setup application into a Windows Installer package is referred to as a repackaging tool. The whitepaper [Step-by-Step Guide to Creating Windows Installer Packages and Repackaging Software for the Windows Installer](https://www.microsoft.com/technet/prodtechnol/windows2000serv/howto/winstall.mspx) describes a commercially available repackaging tool. Repackaging an existing setup application is not the best development practice. Applications that have been designed from the start to take advantage of Windows Installer features can be easier for users to install and service. If you decide to use a repackaging software the following practices can help you produce a better Windows Installer package.
+Many application vendors provide native Windows Installer packages for the installation or their products. Software that converts an existing legacy setup application into a Windows Installer package is referred to as a repackaging tool. Repackaging an existing setup application is not the best development practice. Applications that have been designed from the start to take advantage of Windows Installer features can be easier for users to install and service. If you decide to use a repackaging software the following practices can help you produce a better Windows Installer package.
 
 -   Repackaging tools convert legacy installations into a Windows Installer package by taking a picture of a staging system before and after installation. Any registry changes, file changes, or system setting that occurs during the capture process is included in the installation. Configure the hardware and software of the computer used to repackage the installation as close as possible to the intended user's system. Create a separate package for each different hardware configuration. Repackage using a clean staging computer. Remove any unnecessary applications. Stop all unnecessary processes. Close all non-essential system services.
 -   Always make a copy of the original installation before starting to work on it. Always work on the copy. Never stop a repackager before it finishes building the package. If the repackager damages the package you will still have the original.
@@ -84,7 +84,7 @@ Many application vendors provide native Windows Installer packages for the insta
 
 Windows Installer packages should not attempt to replace protected resources during installation or update. The Windows Installer does not remove or replace these resources because Windows prevents the replacement of essential system files, folders, and registry keys. Protecting these resources prevents application and operating system failures.
 
--   When running on Windows Server 2008 or Windows Vista, the Windows Installer skips the installation of any file or registry key that is protected by [Windows Resource Protection](https://msdn.microsoft.com/library/Cc185681(v=VS.85).aspx) (WRP), the installer enters a warning in the log file, and continues with the remainder of the installation without an error. For information, see [Using Windows Installer and Windows Resource Protection](windows-resource-protection-on-windows-vista.md).
+-   When running on Windows Server 2008 or Windows Vista, the Windows Installer skips the installation of any file or registry key that is protected by [Windows Resource Protection](../wfp/windows-resource-protection-portal.md) (WRP), the installer enters a warning in the log file, and continues with the remainder of the installation without an error. For information, see [Using Windows Installer and Windows Resource Protection](windows-resource-protection-on-windows-vista.md).
 -   WRP is the new name for Windows File Protection (WFP). WRP protects registry keys and folders as well as essential system files. In Windows Server 2003, Windows XP, and Windows 2000, when the Windows Installer encountered a WFP-protected file, the installer would request that WFP install the file. For information, see [Using Windows Installer and Windows Resource Protection](windows-resource-protection-on-windows-vista.md).
 
 ## Do not depend upon non-critical resources.
@@ -206,7 +206,6 @@ In some cases the original source of the Windows Installer package may be needed
 
 -   You can enable verbose logging on the user's computer by using [Command Line Options](command-line-options.md), the [**MsiLogging**](msilogging.md) property, [Logging policy](logging.md), [**MsiEnableLog**](/windows/desktop/api/Msi/nf-msi-msienableloga), and [**EnableLog**](installer-enablelog.md) method.
 -   A very useful resource for interpreting Windows Installer log files is [Wilogutl.exe](wilogutl-exe.md). This tool assists the analysis of log files and displays suggested solutions to errors that are found in a log file.
--   For more information about interpreting Windows Installer log files, see the white paper available on the TechNet site: [Windows Installer: Benefits and Implementation for System Administrators](https://www.microsoft.com/technet/prodtechnol/windows2000serv/maintain/featusability/winmsi.mspx).
 -   The verbose logging option should be used only for troubleshooting purposes and should not be left on because it can have adverse effects on system performance and disk space. Each time you use the Add/Remove Programs tool in Control Panel, a new file is created.
 
 ## Uninstallation leaves the user's computer in a clean state.
@@ -302,7 +301,7 @@ Following these guidelines when developing your package to help maintain a secur
 
 ## Use PMSIHANDLE instead of HANDLE
 
-The **PMSIHANDLE** type variables is defined in msi.h. It is recommended that your application use the **PMSIHANDLE** type because the installer closes **PMSIHANDLE** objects as they go out of scope, whereas your application must close **MSIHANDLE** objects by calling [**MsiCloseHandle**](/windows/desktop/api/Msi/nf-msi-msiclosehandle).
+The **PMSIHANDLE** type variables is defined in msi.h. It is recommended that your application use the **PMSIHANDLE** type because the installer closes **PMSIHANDLE** objects as they go out of scope, whereas your application must close **MSIHANDLE** objects by calling [**MsiCloseHandle**](/windows/desktop/api/Msi/nf-msi-msiclosehandle). **PMSIHandle** provides a casting operator to **MSIHANDLE** for API signature compatibility.
 
 For example, if you use code like this:
 
@@ -319,6 +318,3 @@ PMSIHANDLE hRec = MsiCreateRecord(3);
  
 
  
-
-
-

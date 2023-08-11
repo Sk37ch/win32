@@ -1,12 +1,15 @@
 ---
-Description: Capturing an Image From a Still Image Pin
+description: Capturing an Image From a Still Image Pin
 ms.assetid: cbcb4d6d-dc85-4ae2-b0a8-110f15092733
 title: Capturing an Image From a Still Image Pin
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Capturing an Image From a Still Image Pin
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Some cameras can produce a still image separate from the capture stream, and often the still image is of higher quality than the images produced by the capture stream. The camera may have a button that acts as a hardware trigger, or it may support software triggering. A camera that supports still images will expose a still image pin, which is pin category PIN\_CATEGORY\_STILL.
 
@@ -83,7 +86,7 @@ SampleGrabberCallback g_StillCapCB;
 
 The implementation of the class is described shortly.
 
-Next, connect the still pin to the Sample Grabber, and connect the Sample Grabber to the [**Null Renderer**](null-renderer-filter.md) filter. The Null Renderer simply discards media samples that it receives; the actual work will be done within the callback. (The only reason for the Null Renderer is to connect the Sample Grabber's output pin to something.) Call [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) to create the Sample Grabber and Null Renderer filters, and call [**IFilterGraph::AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) to add both filters to the graph:
+Next, connect the still pin to the Sample Grabber, and connect the Sample Grabber to the [**Null Renderer**](null-renderer-filter.md) filter. The Null Renderer simply discards media samples that it receives; the actual work will be done within the callback. (The only reason for the Null Renderer is to connect the Sample Grabber's output pin to something.) Call [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) to create the Sample Grabber and Null Renderer filters, and call [**IFilterGraph::AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) to add both filters to the graph:
 
 
 ```C++
@@ -262,6 +265,3 @@ public:
  
 
  
-
-
-

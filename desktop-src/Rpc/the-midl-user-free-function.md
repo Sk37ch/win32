@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # The midl\_user\_free Function
 
-The **midl\_user\_free** function must be supplied by RPC developers. It allocates memory for the RPC stubs and library routines. Your **midl\_user\_free** function must match the following prototype:
+The **midl\_user\_free** function must be supplied by RPC developers. It frees memory allocated by **midl_user_allocate** for the RPC stubs and library routines. Your **midl\_user\_free** function must match the following prototype:
 
 ``` syntax
 void __RPC_USER midl_user_free(void * pBuffer);
 ```
 
-The *pBuffer* parameter specifies a pointer to the memory that is to be freed. Both client application and server application must implement the **midl\_user\_free** function unless you are compiling in OSF-compatibility ([**/osf**](https://docs.microsoft.com/windows/desktop/Midl/-osf)) mode. The **midl\_user\_free** function must be able to free all storage allocated by [**midl\_user\_allocate**](the-midl-user-allocate-function.md).
+The *pBuffer* parameter specifies a pointer to the memory that is to be freed. Both client application and server application must implement the **midl\_user\_free** function unless you are compiling in OSF-compatibility ([**/osf**](/windows/desktop/Midl/-osf)) mode. The **midl\_user\_free** function must be able to free all storage allocated by [**midl\_user\_allocate**](the-midl-user-allocate-function.md).
 
 Applications and stubs call **midl\_user\_free** when dealing with allocated objects:
 
@@ -34,14 +34,10 @@ void __RPC_USER midl_user_free(void __RPC_FAR * p)
 
 
 > [!Note]  
-> If the RpcSs package is enabled (for example, as the result of using the \[ [**enable\_allocate**](https://docs.microsoft.com/windows/desktop/Midl/enable-allocate)\] attribute), your server program should use [**RpcSmFree**](/windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmfree) to free memory. For more information, see [RpcSs Memory Management Package](rpcss-memory-management-package.md).
+> If the RpcSs package is enabled (for example, as the result of using the \[ [**enable\_allocate**](/windows/desktop/Midl/enable-allocate)\] attribute), your server program should use [**RpcSmFree**](/windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmfree) to free memory. For more information, see [RpcSs Memory Management Package](rpcss-memory-management-package.md).
 
  
 
  
 
  
-
-
-
-

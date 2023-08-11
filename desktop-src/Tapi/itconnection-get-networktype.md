@@ -1,5 +1,5 @@
 ---
-Description: The get\_NetworkType method gets the network type.
+description: The get\_NetworkType method gets the network type.
 ms.assetid: 5597284a-9cc6-422b-a064-cda25aa5964b
 title: ITConnection::get_NetworkType method (Sdpblb.h)
 ms.topic: reference
@@ -54,13 +54,13 @@ This method can return one of these values.
 
 ## Remarks
 
-The application must use [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the memory allocated for the *ppNetworkType* parameter.
+The application must use [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) to free the memory allocated for the *ppNetworkType* parameter.
 
 ## Requirements
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |
@@ -80,9 +80,4 @@ The application must use [**SysFreeString**](https://msdn.microsoft.com/library/
 </dt> </dl>
 
  
-
- 
-
-
-
 

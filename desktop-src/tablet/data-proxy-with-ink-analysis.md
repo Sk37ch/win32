@@ -1,5 +1,5 @@
 ---
-Description: As mentioned in Ink Analysis Overview, the ink analysis technology internally maintains a tree-based document model to contain analysis results and relationships.
+description: As mentioned in Ink Analysis Overview, the ink analysis technology internally maintains a tree-based document model to contain analysis results and relationships.
 ms.assetid: 33ba9292-3bc7-41ba-a602-e2fc94cd3a57
 title: Data Proxy with Ink Analysis
 ms.topic: article
@@ -52,15 +52,12 @@ The on-demand approach only requires the data to be passed for those [**ContextN
 [**InkAnalyzer Class (C++)**](inkanalyzer.md)
 </dt> <dt>
 
-[**Microsoft.Ink.InkAnalyzer**](https://msdn.microsoft.com/library/ms583671(v=VS.90).aspx)
+[**Microsoft.Ink.InkAnalyzer**](/previous-versions/ms583671(v=vs.100))
 </dt> <dt>
 
-[**Microsoft.Ink.ContextNode**](https://msdn.microsoft.com/library/ms551996(v=VS.90).aspx)
+[**Microsoft.Ink.ContextNode**](/previous-versions/ms551996(v=vs.100))
 </dt> </dl>
 
  
 
  
-
-
-

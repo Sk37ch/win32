@@ -1,5 +1,5 @@
 ---
-Description: Attempts to place the referenced service into its startup state.
+description: StartService method of the Win32_Service class (CIMWin32 WMI Providers) - Attempts to place the referenced service into its startup state.
 ms.assetid: b7a815a2-7bf6-436f-b3b4-de55eeb2de0e
 ms.tgt_platform: multiple
 title: StartService method of the Win32_Service class (CIMWin32 WMI Providers)
@@ -16,11 +16,11 @@ api_location:
 - CIMWin32.dll
 ---
 
-# StartService method of the Win32\_Service class
+# StartService method of the Win32_Service class (CIMWin32 WMI Providers)
 
 The **StartService** method attempts to place the referenced service into its startup state.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -37,7 +37,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns one of the values listed in the following list, or any other value to indicate an error. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+Returns one of the values listed in the following list, or any other value to indicate an error. For additional error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -225,7 +225,7 @@ You must use the proper method to start a service that has been stopped or to re
 -   If a service is currently stopped, you must use the **StartService** method to restart it; [**ResumeService**](resumeservice-method-in-class-win32-service.md) cannot start a service that is currently stopped.
 -   If a service is paused, you must use [**ResumeService**](resumeservice-method-in-class-win32-service.md). If you use the **StartService** method on a paused service, you receive the message, "The service is already running." However, the service remains paused until the resume service control code is sent to it.
 
-If you start a stopped service that depends on another service, then both services are started. When a service is started with this method, any dependent services are not automatically started. You must use the association class [**Win32\_DependentService**](win32-dependentservice.md) and the [Associators Of](https://docs.microsoft.com/windows/desktop/WmiSdk/associators-of-statement) query to locate the dependents and start them separately.
+If you start a stopped service that depends on another service, then both services are started. When a service is started with this method, any dependent services are not automatically started. You must use the association class [**Win32\_DependentService**](win32-dependentservice.md) and the [Associators Of](/windows/desktop/WmiSdk/associators-of-statement) query to locate the dependents and start them separately.
 
 ## Examples
 
@@ -322,7 +322,7 @@ WScript.Echo "Dependent NetDDE service is " & objNetDDEService.State
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -336,19 +336,14 @@ WScript.Echo "Dependent NetDDE service is " & objNetDDEService.State
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_Service**](win32-service.md)
 </dt> <dt>
 
-[WMI Tasks: Services](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--services)
+[WMI Tasks: Services](/windows/desktop/WmiSdk/wmi-tasks--services)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Data error rate, in bit errors per second, for a video media type.
+description: Data error rate, in bit errors per second, for a video media type.
 ms.assetid: 90433ff4-a563-4751-86d9-caac0cc58194
 title: MF_MT_AVG_BIT_ERROR_RATE attribute (Mfapi.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ Data error rate, in bit errors per second, for a video media type.
 
 ## Remarks
 
-This attribute corresponds to the **dwBitErrorRate** member of the [**VIDEOINFOHEADER**](https://msdn.microsoft.com/library/Dd407325(v=VS.85).aspx) and [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/library/Dd407326(v=VS.85).aspx) structures.
+This attribute corresponds to the **dwBitErrorRate** member of the [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) and [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) structures.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -24,7 +24,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |
@@ -54,7 +54,3 @@ The GUID constant for this attribute is exported from mfuuid.lib.
  
 
  
-
-
-
-

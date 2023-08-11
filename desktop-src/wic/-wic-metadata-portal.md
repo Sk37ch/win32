@@ -1,5 +1,5 @@
 ---
-Description: This section contains conceptual topics that describe the Windows Imaging Component (WIC) metadata system.
+description: This section contains conceptual topics that describe the Windows Imaging Component (WIC) metadata system.
 ms.assetid: 68f08f5a-eec6-4484-b901-dbe96c443a0d
 title: Processing Image Metadata
 ms.topic: article
@@ -21,7 +21,7 @@ This section contains conceptual topics that describe the Windows Imaging Compon
 | [Native Image Format Metadata Queries](-wic-native-image-format-metadata-queries.md)<br/>   | This topic provides an overview of the [metadata query language](-wic-codec-metadataquerylanguage.md) queries for reading and writing metadata supported by GIF, PNG, TIFF and JPEG images.<br/>                                                                  |
 | [Overview of Reading and Writing Image Metadata](-wic-codec-readingwritingmetadata.md)<br/> | This topic provides an overview of how you can use the WIC APIs to read and write metadata that is embedded in image files.<br/>                                                                                                                                   |
 | [Metadata Extensibility Overview](-wic-codec-metadatahandlers.md)<br/>                      | This topic introduces the requirements for creating custom metadata handlers for the WIC, including both metadata readers and writers.<br/>                                                                                                                        |
-| [People Tagging Overview](-wic-people-tagging.md)<br/>                                      | This topic introduces the new Extensible Metadata Platform (XMP) schema and the Windows 7 photo property [System.Photo.PeopleNames](https://msdn.microsoft.com/library/dd391582(VS.85).aspx) that enables the tagging of individuals in a digital photo.<br/> |
+| [People Tagging Overview](-wic-people-tagging.md)<br/>                                      | This topic introduces the new Extensible Metadata Platform (XMP) schema and the Windows 7 photo property [System.Photo.PeopleNames](../properties/props-system-photo-peoplenames.md) that enables the tagging of individuals in a digital photo.<br/> |
 
 
 
@@ -41,7 +41,3 @@ This section contains conceptual topics that describe the Windows Imaging Compon
  
 
  
-
-
-
-

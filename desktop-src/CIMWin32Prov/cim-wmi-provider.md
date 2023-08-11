@@ -1,5 +1,5 @@
 ---
-Description: These WMI classes are declared in CimWin32.mof.
+description: These WMI classes are declared in CimWin32.mof.
 ms.assetid: 53122499-1CC0-4B48-AEA1-B70B7BBC3A99
 ms.tgt_platform: multiple
 title: CIM WMI Provider
@@ -1117,7 +1117,7 @@ The [**CIM\_OSVersionCheck**](cim-osversioncheck.md) class specifies the version
 [**CIM\_PackageAlarm**](cim-packagealarm.md)
 </dt> <dd>
 
-The [**CIM\_PackageAlarm**](https://docs.microsoft.com/windows/desktop/SecCrypto/extendedproperties-newenum) association represents the relationship in which an alarm device is installed as part of a package. The installation indicates issues with the package's environment—its security state or its overall health.
+The [**CIM\_PackageAlarm**](/windows/desktop/SecCrypto/extendedproperties-newenum) association represents the relationship in which an alarm device is installed as part of a package. The installation indicates issues with the package's environment—its security state or its overall health.
 
 </dd> <dt>
 
@@ -1943,6 +1943,3 @@ The [**CIM\_WORMDrive**](cim-wormdrive.md) class represents the capabilities and
  
 
  
-
-
-

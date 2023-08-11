@@ -1,5 +1,5 @@
 ---
-Description: Simulates a Ctrl+Alt+Del key sequence.
+description: Simulates a Ctrl+Alt+Del key sequence.
 ms.assetid: C24C9C42-844F-4560-B8C1-0054F5E913D6
 title: TypeCtrlAltDel method of the Msvm_Keyboard class
 ms.topic: reference
@@ -81,13 +81,13 @@ A return value of zero indicates success. A nonzero value indicates a failure to
 
 ## Remarks
 
-Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -105,9 +105,4 @@ Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted b
 </dt> </dl>
 
  
-
- 
-
-
-
 

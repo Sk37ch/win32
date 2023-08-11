@@ -1,5 +1,5 @@
 ---
-Description: Represents a change in the brightness of a monitor.
+description: Represents a change in the brightness of a monitor.
 ms.assetid: c2eb5630-a52f-4ad4-aaee-1cc8afef8c9e
 title: WmiMonitorBrightnessEvent class
 ms.topic: reference
@@ -91,7 +91,7 @@ Name of the specific monitor instance.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
@@ -111,13 +111,8 @@ Name of the specific monitor instance.
 [**WmiMonitorBrightness**](wmimonitorbrightness.md)
 </dt> <dt>
 
-[Receiving a WMI Event](https://docs.microsoft.com/windows/desktop/WmiSdk/receiving-a-wmi-event)
+[Receiving a WMI Event](/windows/desktop/WmiSdk/receiving-a-wmi-event)
 </dt> </dl>
 
  
-
- 
-
-
-
 

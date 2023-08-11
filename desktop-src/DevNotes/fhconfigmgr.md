@@ -1,5 +1,5 @@
 ---
-Description: Represents the File History configuration of the user under which the FhConfigMgr object is created. All configuration operations are performed by calling the methods of the IFhConfigMgr interface.
+description: Represents the File History configuration of the user under which the FhConfigMgr object is created. All configuration operations are performed by calling the methods of the IFhConfigMgr interface.
 ms.assetid: CC97FC0F-3AA4-4D8A-81B3-14F68FDF5788
 title: FhConfigMgr class (Fhcfg.h)
 ms.topic: reference
@@ -21,13 +21,13 @@ Represents the File History configuration of the user under which the **FhConfig
 
 ## When to implement
 
-The File History API implements this class. To create an instance of this class, use the [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) function.
+The File History API implements this class. To create an instance of this class, use the [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) function.
 
 ## Requirements
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
@@ -39,7 +39,3 @@ The File History API implements this class. To create an instance of this class,
  
 
  
-
-
-
-

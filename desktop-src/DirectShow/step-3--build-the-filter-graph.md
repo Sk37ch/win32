@@ -1,12 +1,15 @@
 ---
-Description: This topic is step 3 of the tutorial Audio/Video Playback in DirectShow.
+description: This topic is step 3 of the tutorial Audio/Video Playback in DirectShow.
 ms.assetid: 45679c14-2671-420d-9766-61f2b2bb713a
 title: 'Step 3: Build the Filter Graph'
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Step 3: Build the Filter Graph
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This topic is step 3 of the tutorial [Audio/Video Playback in DirectShow](audio-video-playback-in-directshow.md). The complete code is shown in the topic [DirectShow Playback Example](directshow-playback-example.md).
 
@@ -59,7 +62,7 @@ done:
 
 The `DShowPlayer::InitializeGraph` method creates a new filter graph. This method does the following:
 
-1.  Calls [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) to create a new instance of the [Filter Graph Manager](filter-graph-manager.md).
+1.  Calls [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) to create a new instance of the [Filter Graph Manager](filter-graph-manager.md).
 2.  Queries the Filter Graph Manager for the [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol) and [**IMediaEventEx**](/windows/desktop/api/Control/nn-control-imediaeventex) interfaces.
 3.  Calls [**IMediaEventEx::SetNotifyWindow**](/windows/desktop/api/Control/nf-control-imediaeventex-setnotifywindow) to set up event notification. For more information, see [Event Notification in DirectShow](event-notification-in-directshow.md).
 
@@ -282,6 +285,3 @@ Next: [Step 4: Add the Video Renderer](step-4--add-the-video-renderer.md).
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Supports the enumeration of IPortableDeviceConnector interfaces, representing MTP/Bluetooth devices that were paired with the PC.
+description: Supports the enumeration of IPortableDeviceConnector interfaces, representing MTP/Bluetooth devices that were paired with the PC.
 ms.assetid: 99aa1e89-5e20-4f6e-82b5-acf63305eba0
 title: IEnumPortableDeviceConnectors interface (Devpkey.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ The **IEnumPortableDeviceConnectors** interface supports the enumeration of [**I
 
 ## Members
 
-The **IEnumPortableDeviceConnectors** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IEnumPortableDeviceConnectors** also has these types of members:
+The **IEnumPortableDeviceConnectors** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IEnumPortableDeviceConnectors** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -47,7 +47,7 @@ The **IEnumPortableDeviceConnectors** interface has these methods.
 
 
 
-|                                     |                                                                                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                                                                             |
 | Minimum supported server<br/> | None supported<br/>                                                                                                                                              |
@@ -58,9 +58,4 @@ The **IEnumPortableDeviceConnectors** interface has these methods.
 
 
  
-
- 
-
-
-
 

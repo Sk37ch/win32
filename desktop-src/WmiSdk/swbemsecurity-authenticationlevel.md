@@ -1,5 +1,5 @@
 ---
-Description: The AuthenticationLevel property is an integer that defines the COM Authentication level that is assigned to this object.
+description: The AuthenticationLevel property is an integer that defines the COM Authentication level that is assigned to this object.
 ms.assetid: 96c2e6a5-a91f-469d-bdd1-eaa20b176158
 ms.tgt_platform: multiple
 title: SWbemSecurity.AuthenticationLevel property
@@ -67,7 +67,7 @@ objinstance.Security_.AuthenticationLevel = wbemAuthenticationLevelPkt
 
 
 
-You can also specify authentication levels as part of a moniker. The following example sets the authentication level and the impersonation level, and retrieves an instance of [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk).
+You can also specify authentication levels as part of a moniker. The following example sets the authentication level and the impersonation level, and retrieves an instance of [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk).
 
 
 ```VB
@@ -80,7 +80,7 @@ Set objinst = GetObject("WinMgmts:{impersonationLevel=impersonate,authentication
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -105,9 +105,4 @@ Set objinst = GetObject("WinMgmts:{impersonationLevel=impersonate,authentication
 </dt> </dl>
 
  
-
- 
-
-
-
 

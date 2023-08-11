@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualMachine::RemoveDVDROMDrive method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Removes the specified CD or DVD drive from the virtual machine.
 
@@ -73,7 +73,7 @@ You can only remove an existing CD or DVD drive from a stopped virtual machine.
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
@@ -92,10 +92,4 @@ You can only remove an existing CD or DVD drive from a stopped virtual machine.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

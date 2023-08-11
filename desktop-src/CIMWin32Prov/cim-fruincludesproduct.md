@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_FRUIncludesProduct class indicates that a field replaceable unit (FRU) may be composed of other products.
+description: The CIM\_FRUIncludesProduct class indicates that a field replaceable unit (FRU) may be composed of other products.
 ms.assetid: e57dc7f5-4c5b-4ec4-9300-e080053955cb
 ms.tgt_platform: multiple
 title: CIM_FRUIncludesProduct class
@@ -74,7 +74,7 @@ Data type: **CIM\_FRU**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 Reference to the FRU.
@@ -91,7 +91,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -102,9 +102,4 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
  
-
- 
-
-
-
 

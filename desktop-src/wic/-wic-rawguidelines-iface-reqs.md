@@ -1,5 +1,5 @@
 ---
-Description: Interface Method Requirements
+description: Interface Method Requirements
 ms.assetid: 8c2afeb3-3e0b-4f8a-a2f4-df7c9ce4b098
 title: Interface Method Requirements
 ms.topic: article
@@ -124,7 +124,7 @@ Optional
 
 [**IWICDevelopRaw**](/windows/desktop/api/Wincodec/nn-wincodec-iwicdevelopraw)
 
-See [Support for IWICDevelopRaw](https://msdn.microsoft.com/library/Ee720045(v=VS.85).aspx), later in this document.
+See [Support for IWICDevelopRaw](./-wic-rawguidelines-iwicdevelopraw.md), later in this document.
 
 [**IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder)
 
@@ -237,6 +237,3 @@ Required
  
 
  
-
-
-

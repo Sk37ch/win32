@@ -1,5 +1,5 @@
 ---
-Description: Requests a pointer to a specified object.
+description: SMC_GETOBJECT message - Requests a pointer to a specified object.
 title: SMC_GETOBJECT message (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -59,15 +59,15 @@ This notification is received by the [**IShellMenuCallback::CallbackSM**](/windo
 The following interfaces may be requested.
 
 -   [**IShellMenu**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenu)
--   [**IContextMenu**](https://msdn.microsoft.com/library/Bb776095(v=VS.85).aspx)
+-   [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu)
 -   [**IShellMenuCallback**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenucallback)
--   [**IDropTarget**](https://msdn.microsoft.com/library/ms679679(v=VS.85).aspx)
+-   [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget)
 
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
@@ -79,7 +79,3 @@ The following interfaces may be requested.
  
 
  
-
-
-
-

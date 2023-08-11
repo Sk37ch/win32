@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # ShowMessageAction.Title property
 
-\[This object is no longer supported. You can use IExecAction with the Windows scripting [**MsgBox function**](https://msdn.microsoft.com/library/sfw6660x(v=VS.80).aspx) to show a message in the user session.\]
+\[This object is no longer supported. You can use IExecAction with the Windows scripting [**MsgBox function**](/previous-versions/sfw6660x(v=vs.80)) to show a message in the user session.\]
 
 For scripting, gets or sets the title of the message box.
 
@@ -47,7 +47,7 @@ When setting this property value, the value can be text that is retrieved from a
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
@@ -66,10 +66,4 @@ When setting this property value, the value can be text that is retrieved from a
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

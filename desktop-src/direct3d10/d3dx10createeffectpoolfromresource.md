@@ -1,5 +1,5 @@
 ---
-Description: Create an effect pool from a resource.
+description: Create an effect pool from a resource.
 ms.assetid: 594ab788-fd96-4ea9-ad93-ef02fefa5d61
 title: D3DX10CreateEffectPoolFromResource function (D3DX10Async.h)
 ms.topic: reference
@@ -27,7 +27,7 @@ HRESULT D3DX10CreateEffectPoolFromResource(
   _In_        HMODULE            hModule,
   _In_        LPCTSTR            pResourceName,
   _In_        LPCTSTR            pSrcFileName,
-  _In_  const D3D10_SHADER_MACRO *pDefines,
+  _In_  const D3D_SHADER_MACRO *pDefines,
   _In_        ID3D10Include      *pInclude,
   _In_        LPCSTR             pProfile,
   _In_        UINT               HLSLFlags,
@@ -49,16 +49,16 @@ HRESULT D3DX10CreateEffectPoolFromResource(
 *hModule* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**HMODULE**](../winprog/windows-data-types.md)**
 
-A handle to the resource module containing the effect. HMODULE can be obtained with [GetModuleHandle Function](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea).
+A handle to the resource module containing the effect. HMODULE can be obtained with [GetModuleHandle Function](/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandlea).
 
 </dd> <dt>
 
 *pResourceName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 The name of the resource in hModule. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the data type resolves to LPCSTR.
 
@@ -67,7 +67,7 @@ The name of the resource in hModule. If the compiler settings require Unicode, t
 *pSrcFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 Optional. Effect file name, which is used for error messages only. Can be **NULL**.
 
@@ -76,34 +76,34 @@ Optional. Effect file name, which is used for error messages only. Can be **NULL
 *pDefines* \[in\]
 </dt> <dd>
 
-Type: **const [**D3D10\_SHADER\_MACRO**](https://msdn.microsoft.com/library/Bb172436(v=VS.85).aspx)\***
+Type: **const [**D3D\_SHADER\_MACRO**](/windows/win32/api/d3dcommon/ns-d3dcommon-d3d_shader_macro)\***
 
-A NULL-terminated array of shader macros (see [**D3D10\_SHADER\_MACRO**](https://msdn.microsoft.com/library/Bb172436(v=VS.85).aspx)); set this to **NULL** to specify no macros.
+A NULL-terminated array of shader macros (see [**D3D\_SHADER\_MACRO**](/windows/win32/api/d3dcommon/ns-d3dcommon-d3d_shader_macro)); set this to **NULL** to specify no macros.
 
 </dd> <dt>
 
 *pInclude* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10Include**](https://msdn.microsoft.com/library/Bb173775(v=VS.85).aspx)\***
+Type: **[**ID3D10Include**](/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))\***
 
-A pointer to an include interface (see [**ID3D10Include Interface**](https://msdn.microsoft.com/library/Bb173775(v=VS.85).aspx)). This parameter can be **NULL**.
+A pointer to an include interface (see [**ID3D10Include Interface**](/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))). This parameter can be **NULL**.
 
 </dd> <dt>
 
 *pProfile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
-A string that specifies the [shader profile](https://msdn.microsoft.com/library/Bb509626(v=VS.85).aspx), or shader model.
+A string that specifies the [shader profile](../direct3dhlsl/dx-graphics-hlsl-models.md), or shader model.
 
 </dd> <dt>
 
 *HLSLFlags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 HLSL compile options (see [D3D10\_SHADER Constants](d3d10-shader.md)).
 
@@ -112,7 +112,7 @@ HLSL compile options (see [D3D10\_SHADER Constants](d3d10-shader.md)).
 *FXFlags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Effect compile options (see [Compile and Effect Flags](d3d10-graphics-reference-effect-constants.md)).
 
@@ -121,9 +121,9 @@ Effect compile options (see [Compile and Effect Flags](d3d10-graphics-reference-
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10Device**](/windows/desktop/api/D3D10/nn-d3d10-id3d10device)\***
+Type: **[**ID3D10Device**](/windows/win32/api/D3D10/nn-d3d10-id3d10device)\***
 
-A pointer to the device (see [**ID3D10Device Interface**](/windows/desktop/api/D3D10/nn-d3d10-id3d10device)) that will use the resources.
+A pointer to the device (see [**ID3D10Device Interface**](/windows/win32/api/D3D10/nn-d3d10-id3d10device)) that will use the resources.
 
 </dd> <dt>
 
@@ -139,18 +139,18 @@ A pointer to a thread pump interface (see [**ID3DX10ThreadPump Interface**](id3d
 *ppEffectPool* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10EffectPool**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectpool)\*\***
+Type: **[**ID3D10EffectPool**](/windows/win32/api/D3D10Effect/nn-d3d10effect-id3d10effectpool)\*\***
 
-The address of a pointer to the effect pool (see [**ID3D10EffectPool Interface**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectpool)).
+The address of a pointer to the effect pool (see [**ID3D10EffectPool Interface**](/windows/win32/api/D3D10Effect/nn-d3d10effect-id3d10effectpool)).
 
 </dd> <dt>
 
 *ppErrors* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](/windows/desktop/api/D3DCommon/nn-d3dcommon-id3d10blob)\*\***
+Type: **[**ID3D10Blob**](/windows/win32/api/D3DCommon/nn-d3dcommon-id3d10blob)\*\***
 
-The address of a pointer to memory (see [**ID3D10Blob Interface**](/windows/desktop/api/D3DCommon/nn-d3dcommon-id3d10blob)) that contains effect compile errors, if there were any.
+The address of a pointer to memory (see [**ID3D10Blob Interface**](/windows/win32/api/D3DCommon/nn-d3dcommon-id3d10blob)) that contains effect compile errors, if there were any.
 
 </dd> <dt>
 
@@ -173,7 +173,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Async.h</dt> </dl> |
 
@@ -189,7 +189,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

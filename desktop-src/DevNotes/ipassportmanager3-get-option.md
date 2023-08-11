@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the value of a specific Microsoft .NET Passport sign-in option.
+description: Retrieves the value of a specific Microsoft .NET Passport sign-in option.
 ms.assetid: a38ffed3-a45b-4bac-8101-3e09f34f3891
 title: IPassportManager3::get_Option method
 ms.topic: reference
@@ -19,7 +19,7 @@ api_location:
 Retrieves the value of a specific Microsoft .NET Passport sign-in option.
 
 > [!Note]  
-> The **get\_Option** method belongs to the [**IPassportManager3**](https://msdn.microsoft.com/library/ms817681(v=MSDN.10).aspx) interface. This topic supplements the initial documentation.
+> The **get\_Option** method belongs to the [**IPassportManager3**](/previous-versions/ms817681(v=msdn.10)) interface. This topic supplements the initial documentation.
 
  
 
@@ -64,6 +64,3 @@ This method ships with older versions of the Passport SDK.
  
 
  
-
-
-

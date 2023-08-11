@@ -1,5 +1,5 @@
 ---
-Description: The NTFS file system uses Lempel-Ziv compression, which is a lossless compression algorithm.
+description: The NTFS file system uses Lempel-Ziv compression, which is a lossless compression algorithm.
 ms.assetid: 35a9fb47-5a73-479c-8fe0-5a2b07705536
 title: File Compression and Decompression
 ms.topic: article
@@ -42,7 +42,7 @@ The following topics identify the file decompression that is provided by the fun
 
 ## Cabinets
 
-Cabinets are created by a compression library that supports features such as disk spanning and multi-file compression. For additional information, see the Cabinet Software Development Kit: [https://msdn.microsoft.com/library/dncabsdk/html/cabdl.asp](https://msdn.microsoft.com/library/ms974336.aspx).
+Cabinets are created by a compression library that supports features such as disk spanning and multi-file compression. For additional information, see the Cabinet Software Development Kit: [https://msdn.microsoft.com/library/dncabsdk/html/cabdl.asp](/previous-versions/ms974336(v=msdn.10)).
 
 ## In this section
 
@@ -62,9 +62,4 @@ Cabinets are created by a compression library that supports features such as dis
  
 
  
-
- 
-
-
-
 

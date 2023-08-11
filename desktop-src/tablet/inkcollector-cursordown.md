@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the cursor tip contacts the digitizing tablet surface.
+description: InkCollector.CursorDown event - Occurs when the cursor tip contacts the digitizing tablet surface.
 ms.assetid: bf914849-ef33-4746-b2e1-c768cd1d87aa
 title: InkCollector.CursorDown event (Msinkaut.h)
 ms.topic: reference
@@ -46,7 +46,7 @@ This event does not return a value.
 
 ## Remarks
 
-This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, and \_IInkPictureEvents. the \_IInkCollectorEvents, \_IInkOverlayEvents, and \_IInkPictureEvents interfaces implements the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_ICECursorDown.
+This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, and \_IInkPictureEvents. the \_IInkCollectorEvents, \_IInkOverlayEvents, and \_IInkPictureEvents interfaces implements the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface with an identifier of DISPID\_ICECursorDown.
 
 Use this event carefully because it could have an adverse effect on ink performance if too much code is executed in the event handlers. To improve real-time ink performance, hide or show the mouse cursor in the [**MouseDown**](inkcollector-mousedown.md) and [**MouseUp**](inkcollector-mouseup.md) event handlers.
 
@@ -54,7 +54,7 @@ Use this event carefully because it could have an adverse effect on ink performa
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
@@ -83,9 +83,4 @@ Use this event carefully because it could have an adverse effect on ink performa
 </dt> </dl>
 
  
-
- 
-
-
-
 

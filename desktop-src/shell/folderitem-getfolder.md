@@ -1,5 +1,5 @@
 ---
-Description: Contains the item's Folder object, if the item is a folder.
+description: Contains the item's Folder object, if the item is a folder.
 ms.assetid: 87afd0b6-245b-4550-9f21-aa0426ba8470
 title: FolderItem.GetFolder property (Shlobj.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ objGetFolder = FolderItem.GetFolder
 
 ## Property value
 
-A variable of type [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) that receives the [**Folder**](folder.md) object.
+A variable of type [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) that receives the [**Folder**](folder.md) object.
 
 ## Examples
 
@@ -157,7 +157,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
@@ -180,7 +180,3 @@ End Sub
  
 
  
-
-
-
-

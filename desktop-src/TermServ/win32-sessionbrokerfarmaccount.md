@@ -1,6 +1,6 @@
 ---
 title: Win32_SessionBrokerFarmAccount class
-description: The Win32\_SessionBrokerFarmAccount class is no longer available for use as of Windows Server 2012.
+description: The Win32\_SessionBrokerFarmAccount class is no longer available for use as of Windows Server 2012. | Win32_SessionBrokerFarmAccount class
 ms.assetid: a76ade0f-cd94-438c-bc07-30dc4b4ee6c8
 ms.tgt_platform: multiple
 keywords:
@@ -165,7 +165,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The name of the session broker farm.
@@ -189,7 +189,7 @@ Indicates if the password for the account is updated manually.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
@@ -202,10 +202,4 @@ Indicates if the password for the account is updated manually.
 
 
  
-
- 
-
-
-
-
 

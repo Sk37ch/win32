@@ -1,12 +1,15 @@
 ---
-Description: Using the DMO Class Template
+description: Using the DMO Class Template
 ms.assetid: 5193ad08-aaee-47e3-93eb-a126a66d8f23
 title: Using the DMO Class Template
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Using the DMO Class Template
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 DirectShow includes a class template, [**IMediaObjectImpl**](imediaobjectimpl-class-template.md), for implementing DMOs. The template handles many of the "bookkeeping" tasks, such as validating input parameters. By using the template, you can focus on the functionality that is specific to your DMO. In addition, the template helps to ensure that you create a robust implementation. The template is defined in the header file Dmoimpl.h, located in the Include directory of the SDK.
 
@@ -77,7 +80,7 @@ The following methods are used to stream data:
 -   **Discontinuity**. This method signals a discontinuity in an input stream. The template calls **InternalAcceptingInput** on the derived class. If that method returns S\_OK, the template calls **InternalDiscontinuity** on the derived class.
 -   **Flush**. This method flushes the DMO. The template calls **InternalFlush** on the derived class. The DMO should discard any input buffers that it still holds to be processed.
 
-The template does not provide any direct support for the [**IMediaObjectInPlace**](/previous-versions/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobjectinplace) interface.
+The template does not provide any direct support for the [**IMediaObjectInPlace**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobjectinplace) interface.
 
 **Methods for Locking**
 
@@ -131,10 +134,10 @@ For the remaining **IMediaObject** methods, there is not a one-to-one correspond
 | **GetInputCurrentType**               | Fully implemented                                                                |
 | **GetOutputCurrentType**              | Fully implemented                                                                |
 | **GetStreamCount**                    | Fully implemented                                                                |
-| **GetInputStatus**                    | [**InternalAcceptingInput**](https://msdn.microsoft.com/library/Dd406931(v=VS.85).aspx)        |
-| **Lock** (implemented as **DMOLock**) | [**Lock**](https://msdn.microsoft.com/library/Dd406934(v=VS.85).aspx), [**Unlock**](https://msdn.microsoft.com/library/Dd406938(v=VS.85).aspx) |
-| **SetInputType**                      | [**InternalCheckInputType**](https://msdn.microsoft.com/library/Dd406932(v=VS.85).aspx)        |
-| **SetOutputType**                     | [**InternalCheckOutputType**](https://msdn.microsoft.com/library/Dd406933(v=VS.85).aspx)      |
+| **GetInputStatus**                    | [**InternalAcceptingInput**](/previous-versions/ms809095(v=msdn.10))        |
+| **Lock** (implemented as **DMOLock**) | [**Lock**](/previous-versions/ms809100(v=msdn.10)), [**Unlock**](/previous-versions/ms809101(v=msdn.10)) |
+| **SetInputType**                      | [**InternalCheckInputType**](/previous-versions/ms809096(v=msdn.10))        |
+| **SetOutputType**                     | [**InternalCheckOutputType**](/previous-versions/ms809098(v=msdn.10))      |
 
 
 
@@ -153,6 +156,3 @@ For the remaining **IMediaObject** methods, there is not a one-to-one correspond
  
 
  
-
-
-

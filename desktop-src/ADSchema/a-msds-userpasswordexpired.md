@@ -22,7 +22,7 @@ Indicates whether the password for the account that this attribute references ha
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-User-Password-Expired          |
 | Ldap-Display-Name | msDS-UserPasswordExpired             |
@@ -43,7 +43,7 @@ Indicates whether the password for the account that this attribute references ha
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -62,13 +62,7 @@ Indicates whether the password for the account that this attribute references ha
 
 ## Remarks
 
-In ADAM, this attribute replaces the [**ADS\_UF\_PASSWORD\_EXPIRED**](https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-ads_user_flag) flag of the [**userAccountControl**](a-useraccountcontrol.md) attribute.
+In ADAM, this attribute replaces the [**ADS\_UF\_PASSWORD\_EXPIRED**](/windows/desktop/api/iads/ne-iads-ads_user_flag_enum) flag of the [**userAccountControl**](a-useraccountcontrol.md) attribute.
 
  
-
- 
-
-
-
-
 

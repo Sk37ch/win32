@@ -1,5 +1,5 @@
 ---
-Description: Represents the instance value of a metric defined by an instance of CIM\_AggregationMetricDefinition.
+description: Represents the instance value of a metric defined by an instance of CIM\_AggregationMetricDefinition.
 ms.assetid: 663ef18a-0238-416f-9682-8809b271b4fc
 title: CIM_AggregationMetricValue class
 ms.topic: reference
@@ -53,7 +53,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_AggregationMetricValue**.**AggregationTimeStamp**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_AggregationMetricValue**.**AggregationTimeStamp**")
 </dt> </dl>
 
 Represents the time duration over which the aggregation was computed. The start of a monitoring interval over which the aggregation function is applied is determined by subtracting the **AggregationDuration** value from the **AggregationTimestamp** value.
@@ -69,7 +69,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_AggregationMetricValue**.**Duration**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_AggregationMetricValue**.**Duration**")
 </dt> </dl>
 
 The time when the aggregation function was applied to determine the value of the metric instance. This is different from the time when the instance is created. The **AggregationTimeStamp** value changes whenever the aggregation function is applied to calculate the value.
@@ -80,7 +80,7 @@ The time when the aggregation function was applied to determine the value of the
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -98,9 +98,4 @@ The time when the aggregation function was applied to determine the value of the
 </dt> </dl>
 
  
-
- 
-
-
-
 

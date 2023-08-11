@@ -1,5 +1,5 @@
 ---
-Description: The following tables list formats that are available for each factoid factoid used in traditional Chinese.
+description: The following tables list formats that are available for each factoid factoid used in traditional Chinese.
 ms.assetid: 3d74adf3-d322-4e74-887b-aa500586242d
 title: Chinese (Traditional) Factoids
 ms.topic: article
@@ -43,13 +43,8 @@ The following tables list formats that are available for each factoid factoid us
 [**Factoid Constants (C++)**](factoid-constants.md)
 </dt> <dt>
 
-[Factoid Class (Managed code)](https://msdn.microsoft.com/library/ms583657(v=VS.90).aspx)
+[Factoid Class (Managed code)](/previous-versions/ms583657(v=vs.100))
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: The SnmpNotification class maps from the NOTIFICATION-TYPE macro to an encapsulated CIM class.
+description: The SnmpNotification class maps from the NOTIFICATION-TYPE macro to an encapsulated CIM class.
 ms.assetid: b90d8bab-7cae-4dbe-9f6e-daba4e68a10a
 ms.tgt_platform: multiple
 title: SnmpNotification class
@@ -168,7 +168,7 @@ Access type: Read-only
 
 Unique value that indicates the time at which the event was generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Times (UTC) format. This property is inherited from [**\_\_Event**](--event.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> <dt>
 
@@ -198,7 +198,7 @@ A [NOTIFICATION-TYPE](notification-type-macro.md) macro that contains references
 
 
 
-|                                     |                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>         |
 | Minimum supported server<br/> | Windows Server 2008<br/>   |
@@ -217,9 +217,4 @@ A [NOTIFICATION-TYPE](notification-type-macro.md) macro that contains references
 </dt> </dl>
 
  
-
- 
-
-
-
 

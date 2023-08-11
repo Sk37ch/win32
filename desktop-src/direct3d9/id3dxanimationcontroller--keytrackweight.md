@@ -1,5 +1,5 @@
 ---
-Description: Sets an event key that changes the weight of an animation track. The weight is used as a multiplier when combining multiple tracks together.
+description: Sets an event key that changes the weight of an animation track. The weight is used as a multiplier when combining multiple tracks together.
 ms.assetid: fb2859de-9e77-49dd-be48-a50e22e2fc3a
 title: ID3DXAnimationController::KeyTrackWeight method (D3dx9anim.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ D3DXEVENTHANDLE KeyTrackWeight(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Identifier of the track to modify.
 
@@ -51,7 +51,7 @@ Identifier of the track to modify.
 *NewWeight* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 New weight of the track.
 
@@ -60,7 +60,7 @@ New weight of the track.
 *StartTime* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](../winprog/windows-data-types.md)**
 
 Global time key. Specifies the global time when the change will take place.
 
@@ -69,7 +69,7 @@ Global time key. Specifies the global time when the change will take place.
 *Duration* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](../winprog/windows-data-types.md)**
 
 Transition time, which specifies how long the smooth transition will take to complete.
 
@@ -78,9 +78,9 @@ Transition time, which specifies how long the smooth transition will take to com
 *Transition* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/library/Bb205475(v=VS.85).aspx)**
+Type: **[**D3DXTRANSITION\_TYPE**](./d3dxtransition-type.md)**
 
-Specifies the transition type used for transitioning between weights. See [**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/library/Bb205475(v=VS.85).aspx).
+Specifies the transition type used for transitioning between weights. See [**D3DXTRANSITION\_TYPE**](./d3dxtransition-type.md).
 
 </dd> </dl>
 
@@ -98,7 +98,7 @@ The weight is used like a multiplier to determine how much of this track to blen
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -115,7 +115,3 @@ The weight is used like a multiplier to determine how much of this track to blen
  
 
  
-
-
-
-

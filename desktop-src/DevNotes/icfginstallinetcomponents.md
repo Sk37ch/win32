@@ -1,5 +1,5 @@
 ---
-Description: Installs the system components specified.
+description: Installs the system components specified.
 ms.assetid: f4b7b8e5-b392-4208-9f56-b343974e05ff
 title: IcfgInstallInetComponents function
 ms.topic: reference
@@ -75,13 +75,13 @@ Returns an **HRESULT** value. If no errors occur, it returns the **ERROR\_SUCCES
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Icfgnt5.dll</dt> </dl> |
 
@@ -90,7 +90,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: The Internet Protocol Helper (IP Helper) API enables the retrieval and modification of network configuration settings for the local computer.
+description: The Internet Protocol Helper (IP Helper) API enables the retrieval and modification of network configuration settings for the local computer.
 ms.assetid: 4896a9f8-0486-4380-bf49-d1c9ef114acc
 title: IP Helper
 ms.topic: article
@@ -33,7 +33,7 @@ The IP Helper API can be used on all Windows platforms. Not all operating system
 | [What's New in IP Helper](what-s-new-in-ip-helper.md)<br/>  | Information on new features for IP Helper.<br/>                                                                                                                                                             |
 | [About IP Helper](about-ip-helper.md)<br/>                  | General information about IP Helper programming considerations and capabilities available to developers.<br/>                                                                                               |
 | [Using IP Helper](using-ip-helper.md)<br/>                  | Procedures and programming techniques used with IP Helper. This section includes basic IP Helper programming techniques, such as [Getting Started With IP Helper](getting-started-with-ip-helper.md).<br/> |
-| [IP Helper Reference](ip-helper-function-reference.md)<br/> | Reference documentation for the IP Helper functions, structures, and enumerations.<br/>                                                                                                                     |
+| [IP Helper reference](ip-helper-function-reference.md)<br/> | Reference documentation for the IP Helper functions, structures, and enumerations.<br/>                                                                                                                     |
 
 
 
@@ -43,16 +43,11 @@ The IP Helper API can be used on all Windows platforms. Not all operating system
 
 <dl> <dt>
 
-[Windows Sockets 2](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2)
+[Windows Sockets 2](/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> <dt>
 
-[Routing and Remote Access Service](https://msdn.microsoft.com/library/Bb530710(v=VS.85).aspx)
+[Routing and Remote Access Service](../rras/routing-start-page.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

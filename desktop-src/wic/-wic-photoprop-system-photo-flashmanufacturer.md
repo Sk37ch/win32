@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.FlashManufacturer property.
+description: The photo metadata policy for the System.Photo.FlashManufacturer property.
 ms.assetid: f62e85ec-2dc6-456b-a43b-7b76d162b608
 title: System.Photo.FlashManufacturer Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.FlashManufacturer Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.FlashManufacturer](https://msdn.microsoft.com/library/bb760453(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.FlashManufacturer](../properties/props-system-photo-flashmanufacturer.md) property.
 
 ### PKEY
 
@@ -68,12 +68,9 @@ If the file is in TIFF format, the handler will use the following order of prece
 
 <dl> <dt>
 
-[System.Photo.FlashManufacturer](https://msdn.microsoft.com/library/bb760453(VS.85).aspx)
+[System.Photo.FlashManufacturer](../properties/props-system-photo-flashmanufacturer.md)
 </dt> </dl>
 
  
 
  
-
-
-

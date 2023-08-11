@@ -1,5 +1,5 @@
 ---
-Description: The SelfUnregModules action unregisters all modules listed in the SelfReg table that are scheduled to be uninstalled. The installer does not self-register .EXE files.
+description: The SelfUnregModules action unregisters all modules listed in the SelfReg table that are scheduled to be uninstalled. The installer does not self-register .EXE files.
 ms.assetid: fa5a5abb-ecd4-434c-b176-83cdca280a13
 title: SelfUnregModules Action
 ms.topic: article
@@ -29,7 +29,7 @@ The [InstallValidate](installvalidate-action.md) action must appear before the S
 
 ## Remarks
 
-The SelfUnregModules action attempts to call the [**DllUnregisterServer**](https://msdn.microsoft.com/library/ms691457(v=VS.85).aspx) function of the module that is to be unregistered. This action runs with elevated privileges when the installation is being run with elevated privileges, such as during a per-machine installation. During a per-user installation, the installer runs this action with user privileges.
+The SelfUnregModules action attempts to call the [**DllUnregisterServer**](/windows/win32/api/olectl/nf-olectl-dllunregisterserver) function of the module that is to be unregistered. This action runs with elevated privileges when the installation is being run with elevated privileges, such as during a per-machine installation. During a per-user installation, the installer runs this action with user privileges.
 
 Note that you cannot specify the order in which the installer unregisters self-registering DLLs by using the SelfUnRegModules action.
 
@@ -43,6 +43,3 @@ Note that you cannot specify the order in which the installer unregisters self-r
  
 
  
-
-
-

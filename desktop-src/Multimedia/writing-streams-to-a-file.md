@@ -5,16 +5,19 @@ ms.assetid: a3766f8c-aaa6-4fc5-a306-54aee71018f1
 keywords:
 - AVIFileCreateStream function
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Writing Streams to a File
+
+\[The feature associated with this page, [AVIFile Functions and Macros](/windows/win32/multimedia/avifile-functions-and-macros), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader). **Source Reader** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** instead of **AVIFile Functions and Macros**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 You can also create a file containing data streams by writing a new data stream to a file.
 
 You can create a new stream in a new or existing file by using the [**AVIFileCreateStream**](/windows/desktop/api/Vfw/nf-vfw-avifilecreatestream) function. This function defines a new stream according to the characteristics described in an [**AVISTREAMINFO**](/windows/desktop/api/Vfw/ns-vfw-avistreaminfoa) structure, creates a stream interface for the new stream, increments the reference count of the stream, and returns the address of the stream-interface pointer.
 
-Before you write the content of the stream, you must specify the stream format. You can set the stream format by using the [**AVIStreamSetFormat**](/windows/desktop/api/Vfw/nf-vfw-avistreamsetformat) function. When setting the format of a video stream, you must supply this function with a [**BITMAPINFO**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure containing the appropriate information. When setting the format of an audio stream, you must supply a [**WAVEFORMAT**](/windows/win32/api/mmreg/ns-mmreg-waveformat) or [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd757713(v=VS.85).aspx) structure containing the appropriate information. The information you need to supply to the function for other stream types depends on the stream type and the stream handler.
+Before you write the content of the stream, you must specify the stream format. You can set the stream format by using the [**AVIStreamSetFormat**](/windows/desktop/api/Vfw/nf-vfw-avistreamsetformat) function. When setting the format of a video stream, you must supply this function with a [**BITMAPINFO**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure containing the appropriate information. When setting the format of an audio stream, you must supply a [**WAVEFORMAT**](/windows/win32/api/mmreg/ns-mmreg-waveformat) or [**WAVEFORMATEX**](/windows/win32/api/mmeapi/ns-mmeapi-waveformatex) structure containing the appropriate information. The information you need to supply to the function for other stream types depends on the stream type and the stream handler.
 
 You can write the multimedia content in a stream by using the [**AVIStreamWrite**](/windows/desktop/api/Vfw/nf-vfw-avistreamwrite) function. This function copies raw data from an application-supplied buffer into the specified stream. The default AVI file handler appends information to the end of a stream. The default WAVE handler can write waveform-audio data within a stream as well as at the end of a stream.
 
@@ -32,7 +35,3 @@ You can close the stream after you finish writing to the new stream by using the
  
 
  
-
-
-
-

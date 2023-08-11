@@ -1,5 +1,5 @@
 ---
-Description: Requests that the state of the job be changed to the specified state.
+description: Requests that the state of the job be changed to the specified state.
 ms.assetid: 5D7D7D20-4BB9-4375-BBBF-7AA64FEE6D13
 title: RequestStateChange method of the Msvm_ConcreteJob class
 ms.topic: reference
@@ -182,13 +182,13 @@ This method returns one of the following values.
 
 ## Remarks
 
-Access to the [**Msvm\_ConcreteJob**](msvm-concretejob.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the [**Msvm\_ConcreteJob**](msvm-concretejob.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -206,9 +206,4 @@ Access to the [**Msvm\_ConcreteJob**](msvm-concretejob.md) class might be restri
 </dt> </dl>
 
  
-
- 
-
-
-
 

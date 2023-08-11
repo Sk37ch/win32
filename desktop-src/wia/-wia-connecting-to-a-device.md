@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connecting to a Device"
 ms.assetid: 16ff280d-818b-4a4e-b5a6-16e81f5b35c6
 title: Connecting to a Device
 ms.topic: article
@@ -13,7 +14,7 @@ api_location:
 # Connecting to a Device
 
 > [!Note]  
-> This scripting system has been replaced with Windows Image Acquisition (WIA) Automation Layer. See [Windows Image Acquisition Automation Layer](https://docs.microsoft.com/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage).
+> This scripting system has been replaced with Windows Image Acquisition (WIA) Automation Layer. See [Windows Image Acquisition Automation Layer](/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage).
 
  
 
@@ -35,6 +36,3 @@ You can also use the [**Wia**](-wia-wia.md) object's [**Devices**](-wia-iwia-dev
  
 
  
-
-
-

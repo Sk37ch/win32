@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the specified color is an RGB color.
+description: Specifies whether the specified color is an RGB color.
 ms.assetid: 16b48644-c2d5-4383-836a-122f44504638
 title: FRGBIMEColorStyle function
 ms.topic: reference
@@ -47,13 +47,13 @@ Returns **TRUE** when the color is an RGB color.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Imeshare.dll</dt> </dl> |
 
@@ -72,7 +72,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

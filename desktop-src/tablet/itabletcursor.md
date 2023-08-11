@@ -1,5 +1,5 @@
 ---
-Description: Represents a stylus object.
+description: Represents a stylus object.
 ms.assetid: c55945b7-59df-49b5-b25f-fa96056889fc
 title: ITabletCursor interface
 ms.topic: reference
@@ -22,7 +22,7 @@ Represents a stylus object.
 
 ## Members
 
-The **ITabletCursor** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITabletCursor** also has these types of members:
+The **ITabletCursor** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITabletCursor** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -84,7 +84,7 @@ interface ITabletCursor : IUnknown
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
@@ -93,9 +93,4 @@ interface ITabletCursor : IUnknown
 
 
  
-
- 
-
-
-
 

@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # WM\_SYSCHAR message
 
-Posted to the window with the keyboard focus when a [**WM\_SYSKEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeydown) message is translated by the [**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage) function. It specifies the character code of a system character key   that is, a character key that is pressed while the ALT key is down.
+Posted to the window with the keyboard focus when a [**WM\_SYSKEYDOWN**](/windows/desktop/inputdev/wm-syskeydown) message is translated by the [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage) function. It specifies the character code of a system character key   that is, a character key that is pressed while the ALT key is down.
 
 
 ```C++
@@ -55,9 +55,7 @@ The repeat count, scan code, extended-key flag, context code, previous key-state
 | <dl> <dt>30</dt> </dl>    | The previous key state. The value is 1 if the key is down before the message is sent, or it is 0 if the key is up.<br/>                                                                                                                                                      |
 | <dl> <dt>31</dt> </dl>    | The transition state. The value is 1 if the key is being released, or it is 0 if the key is being pressed.<br/>                                                                                                                                                              |
 
-
-
- 
+For more detail, see [Keystroke Message Flags](../inputdev/about-keyboard-input.md#keystroke-message-flags).
 
 </dd> </dl>
 
@@ -75,7 +73,7 @@ For enhanced 101- and 102-key keyboards, extended keys are the right ALT and CTR
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -85,31 +83,10 @@ For enhanced 101- and 102-key keyboards, extended keys are the right ALT and CTR
 
 ## See also
 
-<dl> <dt>
-
-**Reference**
-</dt> <dt>
-
-[**TranslateAccelerator**](/windows/desktop/api/Winuser/nf-winuser-translateacceleratora)
-</dt> <dt>
-
-[**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage)
-</dt> <dt>
-
-[**WM\_SYSKEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeydown)
-</dt> <dt>
-
-**Conceptual**
-</dt> <dt>
-
-[Keyboard Accelerators](keyboard-accelerators.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+- [**TranslateAccelerator**](/windows/desktop/api/Winuser/nf-winuser-translateacceleratora)
+- [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage)
+- [**WM\_SYSKEYDOWN**](/windows/desktop/inputdev/wm-syskeydown)
+- [Keyboard Accelerators](keyboard-accelerators.md)
+- [Keyboard Input (Keyboard and Mouse Input)](../inputdev/keyboard-input.md)
+- [About Keyboard Input](../inputdev/about-keyboard-input.md)
 

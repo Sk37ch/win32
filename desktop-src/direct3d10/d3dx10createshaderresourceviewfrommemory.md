@@ -1,5 +1,5 @@
 ---
-Description: Create a shader-resource view from a file in memory.
+description: Create a shader-resource view from a file in memory.
 ms.assetid: 8316987f-75b4-4cee-a1f2-10bee77a28e6
 title: D3DX10CreateShaderResourceViewFromMemory function (D3DX10Tex.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ A pointer to the device (see [**ID3D10Device Interface**](/windows/desktop/api/D
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](../winprog/windows-data-types.md)**
 
 Pointer to the file in memory that contains the shader-resource view.
 
@@ -62,7 +62,7 @@ Pointer to the file in memory that contains the shader-resource view.
 *SrcDataSize* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**SIZE\_T**](../winprog/windows-data-types.md)**
 
 Size of the file in memory.
 
@@ -114,7 +114,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>  |
@@ -134,7 +134,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

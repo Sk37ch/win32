@@ -1,5 +1,5 @@
 ---
-Description: Adds a sprite to the list of batched sprites.
+description: Adds a sprite to the list of batched sprites.
 ms.assetid: 8f5c43a2-68dd-44a9-be2f-f76d9fa2d900
 title: ID3DXSprite::Draw method (D3dx9core.h)
 ms.topic: reference
@@ -42,18 +42,18 @@ HRESULT Draw(
 *pTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9)**
 
-Pointer to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx) interface that represents the sprite texture.
+Pointer to an [**IDirect3DTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9) interface that represents the sprite texture.
 
 </dd> <dt>
 
 *pSrcRect* \[in\]
 </dt> <dd>
 
-Type: **const [**RECT**](https://msdn.microsoft.com/library/Dd162897(v=VS.85).aspx)\***
+Type: **const [**RECT**](/windows/win32/api/windef/ns-windef-rect)\***
 
-Pointer to a [**RECT**](https://msdn.microsoft.com/library/Dd162897(v=VS.85).aspx) structure that indicates the portion of the source texture to use for the sprite. If this parameter is **NULL**, then the entire source image is used for the sprite.
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that indicates the portion of the source texture to use for the sprite. If this parameter is **NULL**, then the entire source image is used for the sprite.
 
 </dd> <dt>
 
@@ -98,7 +98,7 @@ To scale, rotate, or translate a sprite, call [**ID3DXSprite::SetTransform**](id
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -118,7 +118,3 @@ To scale, rotate, or translate a sprite, call [**ID3DXSprite::SetTransform**](id
  
 
  
-
-
-
-

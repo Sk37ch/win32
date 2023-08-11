@@ -9,19 +9,22 @@ keywords:
 - waveform audio reference,structures
 - reference for wavefore audio,structures
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Waveform Structures
 
--   [**PCMWAVEFORMAT**](https://msdn.microsoft.com/library/Dd743663(v=VS.85).aspx)
+\[The feature associated with this page, [Waveform Audio](/windows/win32/multimedia/waveform-audio), is a legacy feature. It has been superseded by [WASAPI](/windows/win32/coreaudio/wasapi) and [Audio Graphs](/windows/uwp/audio-video-camera/audio-graphs). **WASAPI** and **Audio Graphs** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **WASAPI** and **Audio Graphs** instead of **Waveform Audio**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
+-   [**PCMWAVEFORMAT**](/windows/win32/api/mmreg/ns-mmreg-pcmwaveformat)
 -   [**WAVEFILTER**](/windows/desktop/api/Mmreg/ns-mmreg-wavefilter)
 -   [**WAVEFORMAT**](/windows/win32/api/mmreg/ns-mmreg-waveformat)
--   [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd757713(v=VS.85).aspx)
--   [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/library/Dd757714(v=VS.85).aspx)
--   [**WAVEHDR**](https://msdn.microsoft.com/library/Dd743837(v=VS.85).aspx)
--   [**WAVEINCAPS**](https://msdn.microsoft.com/library/Dd743839(v=VS.85).aspx)
--   [**WAVEOUTCAPS**](https://msdn.microsoft.com/library/Dd743855(v=VS.85).aspx)
+-   [**WAVEFORMATEX**](/windows/win32/api/mmeapi/ns-mmeapi-waveformatex)
+-   [**WAVEFORMATEXTENSIBLE**](/windows/win32/api/mmreg/ns-mmreg-waveformatextensible)
+-   [**WAVEHDR**](/windows/win32/api/mmeapi/ns-mmeapi-wavehdr)
+-   [**WAVEINCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-waveincaps)
+-   [**WAVEOUTCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-waveoutcaps)
 
 ## Related topics
 
@@ -33,7 +36,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
-

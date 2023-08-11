@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a human-readable type name of this IContextNode.
+description: Retrieves a human-readable type name of this IContextNode.
 ms.assetid: 02031efd-1e9c-4e96-8dc1-280cc1a6e58f
 title: IContextNode::GetTypeName method (IACom.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) on \**pbstrContextNodeType* when you no longer need to use the string.
+> To avoid a memory leak, call [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) on \**pbstrContextNodeType* when you no longer need to use the string.
 
  
 
@@ -58,7 +58,7 @@ For example, this method sets *pbstrContextNodeType* to "InkWordNode" for an ink
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -84,9 +84,4 @@ For example, this method sets *pbstrContextNodeType* to "InkWordNode" for an ink
 </dt> </dl>
 
  
-
- 
-
-
-
 

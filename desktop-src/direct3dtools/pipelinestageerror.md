@@ -1,5 +1,5 @@
 ---
-Description: Represents an error in a pipeline stage.
+description: Represents an error in a pipeline stage.
 MS-HAID: vspixengine.PipeLineStageError
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -34,14 +34,14 @@ Represents an error in a pipeline stage.
 ## Members
 
 **Stage**  
-The ID of the pipeline stage in which the error has occured.
+The ID of the pipeline stage in which the error has occurred.
 
 **Error**  
 The kind of error that has occurred.
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

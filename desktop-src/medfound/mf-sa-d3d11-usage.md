@@ -1,5 +1,5 @@
 ---
-Description: Specifies how to allocate Microsoft Direct3D 11 surfaces for media samples.
+description: Specifies how to allocate Microsoft Direct3D 11 surfaces for media samples.
 ms.assetid: E9A415FA-74BF-4822-BB0E-D8AAA7D73664
 title: MF_SA_D3D11_USAGE attribute (Mftransform.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ Specifies how to allocate Microsoft Direct3D 11 surfaces for media samples. The
 
 ## Remarks
 
-The value of this attribute is a [**D3D11\_USAGE**](https://msdn.microsoft.com/library/Ff476259(v=VS.85).aspx) value.
+The value of this attribute is a [**D3D11\_USAGE**](/windows/win32/api/d3d11/ne-d3d11-d3d11_usage) value.
 
 ### Microsoft Media Foundation Transforms
 
@@ -42,7 +42,7 @@ This attribute can be set on the video sample allocator, in the [**IMFVideoSampl
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                              |
@@ -60,7 +60,3 @@ This attribute can be set on the video sample allocator, in the [**IMFVideoSampl
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Represents a latitude/longitude report.
+description: Represents a latitude/longitude report.
 ms.assetid: efa8d805-8546-4bab-95a0-69e1edc28753
 title: LocationDisp.DispLatLongReport object
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 
 # LocationDisp.DispLatLongReport object
 
-\[The Location API object model is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, to access location from a website, use the [W3C Geolocation API](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). To access location from a desktop application, use the [**Windows.Devices.Geolocation**](https://docs.microsoft.com/uwp/api/Windows.Devices.Geolocation) API.\]
+\[The Location API object model is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, to access location from a website, use the [W3C Geolocation API](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). To access location from a desktop application, use the [**Windows.Devices.Geolocation**](/uwp/api/Windows.Devices.Geolocation) API.\]
 
 Represents a latitude/longitude report.
 
@@ -53,7 +53,7 @@ You can retrieve this object through the [**LatLongReport**](locationdisp-latlon
 
 
 
-|                                     |                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                  |
@@ -61,9 +61,4 @@ You can retrieve this object through the [**LatLongReport**](locationdisp-latlon
 
 
  
-
- 
-
-
-
 

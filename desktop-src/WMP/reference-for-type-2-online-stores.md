@@ -8,10 +8,13 @@ keywords:
 - type 2 online stores,reference
 - reference for type 2 online stores
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Reference for Type 2 Online Stores
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
@@ -25,8 +28,8 @@ Windows Media Player 10 or later provides objects, interfaces, properties, and m
 | Section                                                                                                        | Description                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [IWMPSubscriptionService Interface](/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice)                                               | Provides methods to augment digital rights management (DRM) and initiate background processes.                                                                              |
-| [IWMPSubscriptionService2 Interface](/previous-versions/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2)                                             | Provides methods to initiate background processes, to provide information about online store activity, and to provide a pointer to the Windows Media Player core interface. |
-| [IWMPSubscriptionServiceCallback Interface](/previous-versions/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservicecallback)                               | Defines a method that online stores use to notify Windows Media Player when a background process is completed.                                                              |
+| [IWMPSubscriptionService2 Interface](/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2)                                             | Provides methods to initiate background processes, to provide information about online store activity, and to provide a pointer to the Windows Media Player core interface. |
+| [IWMPSubscriptionServiceCallback Interface](/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservicecallback)                               | Defines a method that online stores use to notify Windows Media Player when a background process is completed.                                                              |
 | [WMPNotifySubscriptionPluginAddRemove](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-wmpnotifysubscriptionpluginaddremove)                               | A function used to notify Windows Media Player that a plug-in has been installed or uninstalled.                                                                            |
 | [DownloadCollection Object](downloadcollection-object.md)                                                     | Provides methods and properties to manage collections of download items.                                                                                                    |
 | [DownloadItem Object](downloaditem-object.md)                                                                 | Provides methods and properties relating to download requests.                                                                                                              |

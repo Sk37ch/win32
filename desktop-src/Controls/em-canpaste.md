@@ -27,7 +27,7 @@ Determines whether a rich edit control can paste a specified clipboard format.
 *wParam* 
 </dt> <dd>
 
-Specifies the [Clipboard Formats](https://docs.microsoft.com/windows/desktop/dataxchg/clipboard-formats) to try. To try any format currently on the clipboard, set this parameter to zero.
+Specifies the [Clipboard Formats](/windows/desktop/dataxchg/clipboard-formats) to try. To try any format currently on the clipboard, set this parameter to zero.
 
 </dd> <dt>
 
@@ -48,7 +48,7 @@ If the clipboard format cannot be pasted, the return value is zero.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -60,14 +60,8 @@ If the clipboard format cannot be pasted, the return value is zero.
 
 <dl> <dt>
 
-[**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage)
+[**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

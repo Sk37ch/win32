@@ -1,5 +1,5 @@
 ---
-Description: Renames the shortcut file (or directory) specified in the object path.
+description: Renames the shortcut file (or directory) specified in the object path.
 ms.assetid: 6325fe96-19ee-4ccc-934c-ef0c0668f353
 ms.tgt_platform: multiple
 title: Rename method of the Win32_ShortcutFile class
@@ -18,9 +18,9 @@ api_location:
 
 # Rename method of the Win32\_ShortcutFile class
 
-The **Rename** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method renames the shortcut file (or directory) specified in the object path. A rename is not supported if the destination is on another drive or if overwriting an existing logical file is required.
+The **Rename** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method renames the shortcut file (or directory) specified in the object path. A rename is not supported if the destination is on another drive or if overwriting an existing logical file is required.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -147,7 +147,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -161,16 +161,11 @@ A parameter specified is not valid.
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_ShortcutFile**](win32-shortcutfile.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Brings a new computer system into a cluster.
+description: Brings a new computer system into a cluster.
 ms.assetid: 26d9428e-99de-4dcb-96ed-d773f28e015a
 ms.tgt_platform: multiple
 title: AddNode method of the CIM_ClusteringService class
@@ -25,7 +25,7 @@ The **AddNode** method brings a new computer system into a cluster. The node to 
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -63,7 +63,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -84,9 +84,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

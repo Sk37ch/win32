@@ -1,5 +1,5 @@
 ---
-Description: Removes virtual resource settings from a virtual machine configuration.
+description: Removes virtual resource settings from a virtual machine configuration.
 ms.assetid: 74d9a70a-5258-4e4b-8131-b25513d11a4b
 title: RemoveResourceSettings method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -38,14 +38,14 @@ uint32 RemoveResourceSettings(
 *ResourceSettings* \[in\]
 </dt> <dd>
 
-An array of references to instances of the [**CIM\_ResourceAllocationSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata) class, where each instance represents the settings of a virtual resource within a virtual machine configuration that are to be removed.
+An array of references to instances of the [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata) class, where each instance represents the settings of a virtual resource within a virtual machine configuration that are to be removed.
 
 </dd> <dt>
 
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -89,7 +89,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -107,9 +107,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

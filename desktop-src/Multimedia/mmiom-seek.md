@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # MMIOM\_SEEK message
 
-The **MMIOM\_SEEK** message is sent to an I/O procedure by the [**mmioSeek**](https://msdn.microsoft.com/library/Dd757336(v=VS.85).aspx) function to request that the current file position be moved.
+The **MMIOM\_SEEK** message is sent to an I/O procedure by the [**mmioSeek**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioseek) function to request that the current file position be moved.
 
 
 ```C++
@@ -47,7 +47,7 @@ Flag specifying how the file position is changed. The following values are defin
 
 
 
-|           |                                                                                                                        |
+| Requirement | Value |
 |-----------|------------------------------------------------------------------------------------------------------------------------|
 | SEEK\_CUR | Move the file position to be *lNewFilePos* bytes from the current position. *lNewFilePos* can be positive or negative. |
 | SEEK\_END | Move the file position to be *lNewFilePos* bytes from the end of the file.                                             |
@@ -65,13 +65,13 @@ Returns the new file position. If there is an error, the return value is  1.
 
 ## Remarks
 
-The I/O procedure is responsible for maintaining the current file position in the **lDiskOffset** member of the [**MMIOINFO**](https://msdn.microsoft.com/library/Dd757322(v=VS.85).aspx) structure.
+The I/O procedure is responsible for maintaining the current file position in the **lDiskOffset** member of the [**MMIOINFO**](/previous-versions//dd757322(v=vs.85)) structure.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -80,10 +80,4 @@ The I/O procedure is responsible for maintaining the current file position in th
 
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ComputerSystemIRQ class represents an association between a computer system and its available interrupt request lines (IRQs).
+description: The CIM\_ComputerSystemIRQ class represents an association between a computer system and its available interrupt request lines (IRQs).
 ms.assetid: c2a1f231-1f8e-48b2-9afe-fa798e6a8a1d
 ms.tgt_platform: multiple
 title: CIM_ComputerSystemIRQ class
@@ -61,7 +61,7 @@ Data type: **CIM\_ComputerSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (GroupComponent)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) (GroupComponent)
 </dt> </dl>
 
 A [**CIM\_ComputerSystem**](cim-computersystem.md) describing the computer associated with the IRQ.
@@ -79,7 +79,7 @@ Data type: **CIM\_IRQ**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent"), [**Weak**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent"), [**Weak**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 A [**CIM\_IRQ**](cim-irq.md) describing an IRQ of the computer system.
@@ -98,7 +98,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -116,9 +116,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: When you run a script on a local system that obtains data from a remote system, WMI supplies your credentials to the provider of the data on the remote system.
+description: When you run a script on a local system that obtains data from a remote system, WMI supplies your credentials to the provider of the data on the remote system.
 ms.assetid: e27ff207-b067-47df-9706-e8af51646d28
 ms.tgt_platform: multiple
 title: Delegating with WMI
@@ -21,26 +21,26 @@ When you run a script on a local system that obtains data from a remote system, 
 
     <dl> <dt>
 
-<span id="PowerShell"></span><span id="powershell"></span><span id="POWERSHELL"></span>PowerShell
-</dt> <dd>
+    <span id="PowerShell"></span><span id="powershell"></span><span id="POWERSHELL"></span>PowerShell
+    </dt> <dd>
 
     Set the *-Impersonation* parameter on the WMI cmdlet to **Delegate**.
 
     </dd> <dt>
 
-<span id="VBScript"></span><span id="vbscript"></span><span id="VBSCRIPT"></span>VBScript
-</dt> <dd>
+    <span id="VBScript"></span><span id="vbscript"></span><span id="VBSCRIPT"></span>VBScript
+    </dt> <dd>
 
     Set the *impersonationLevel* parameter to **Delegate** in the call to [SWbemLocator.ConnectServer](swbemlocator-connectserver.md) or **Delegate**in the [moniker](constructing-a-moniker-string.md) string. You can also set the impersonation in a [**SWbemSecurity**](swbemsecurity.md)object.
 
     </dd> <dt>
 
-<span id="C__"></span><span id="c__"></span>C++
-</dt> <dd>
+    <span id="C__"></span><span id="c__"></span>C++
+    </dt> <dd>
 
-    Set the impersonation level parameter to **RPC\_C\_IMP\_LEVEL\_DELEGATE** in the call to [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx) or [**CoSetProxyBlanket**](https://msdn.microsoft.com/library/ms692692(v=VS.85).aspx). For more information about when to make these calls, see [Initializing COM for a WMI Application](initializing-com-for-a-wmi-application.md).
+    Set the impersonation level parameter to **RPC\_C\_IMP\_LEVEL\_DELEGATE** in the call to [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) or [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket). For more information about when to make these calls, see [Initializing COM for a WMI Application](initializing-com-for-a-wmi-application.md).
 
-    To pass the client identity to remote COM servers in C++, set cloaking in the call to [**CoSetProxyBlanket**](https://msdn.microsoft.com/library/ms692692(v=VS.85).aspx). For more information, see [Cloaking](https://msdn.microsoft.com/library/ms683778(v=VS.85).aspx).
+    To pass the client identity to remote COM servers in C++, set cloaking in the call to [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket). For more information, see [Cloaking](../com/cloaking.md).
 
     </dd> </dl>
 
@@ -49,7 +49,7 @@ When you run a script on a local system that obtains data from a remote system, 
 The following code example shows a moniker string that sets the impersonation to **Delegate**. Be aware that the authority must be set to Kerberos.
 
 
-```VB
+```vb
 set objWMIServices = Getobject("winmgmts:{impersonationLevel=Delegate,authority=kerberos:MyDomain\Computer_B}!\\ComputerB\Root\CIMv2")
 ```
 
@@ -58,7 +58,7 @@ set objWMIServices = Getobject("winmgmts:{impersonationLevel=Delegate,authority=
 The following code example shows how to set impersonation to **Delegate** (a value of 4) using [**SWbemLocator.ConnectServer**](swbemlocator-connectserver.md).
 
 
-```VB
+```vb
 Set objLocator = CreateObject("WbemScripting.SWbemLocator")
 Set objWMIService = objLocator.ConnectServer(Computer_B, _
                                              "Root\CIMv2", _
@@ -83,6 +83,3 @@ objWMIService.Security_.ImpersonationLevel = 4
  
 
  
-
-
-

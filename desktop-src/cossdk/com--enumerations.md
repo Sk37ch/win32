@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: COM+ Enumerations"
 ms.assetid: d78e3120-fc4d-4acf-ba49-b22222e95dec
 title: COM+ Enumerations
 ms.topic: article
@@ -24,7 +25,7 @@ The following are the COM+ enumerations:
 -   [**CSC\_ThreadPool**](/windows/win32/api/comsvcs/ne-comsvcs-csc_threadpool)
 -   [**CSC\_TrackerConfig**](/windows/win32/api/comsvcs/ne-comsvcs-csc_trackerconfig)
 -   [**CSC\_TransactionConfig**](/windows/win32/api/comsvcs/ne-comsvcs-csc_transactionconfig)
--   [**EOC\_ChangeType**](https://msdn.microsoft.com/library/ms684348(v=VS.85).aspx)
+-   [**EOC\_ChangeType**](/windows/win32/api/eventsys/ne-eventsys-eoc_changetype)
 -   [**GetAppTrackerDataFlags**](/windows/desktop/api/ComSvcs/ne-comsvcs-getapptrackerdataflags)
 -   [**TRACKING\_COLL\_TYPE**](/windows/win32/api/comsvcs/ne-comsvcs-tracking_coll_type)
 -   [**TransactionVote**](/windows/win32/api/comsvcs/ne-comsvcs-transactionvote)
@@ -32,6 +33,3 @@ The following are the COM+ enumerations:
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Simulates a key sequence using scan codes.
+description: Simulates a key sequence using scan codes.
 ms.assetid: F67D2FBA-3CE0-4135-9043-FAB59381DE3C
 title: TypeScancodes method of the Msvm_Keyboard class
 ms.topic: reference
@@ -92,13 +92,13 @@ This method returns 0 if it succeeds. Any other return value indicates an error.
 
 ## Remarks
 
-Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -110,15 +110,7 @@ Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted b
 
 ## See also
 
-<dl> <dt>
-
-[**Msvm\_Keyboard**](msvm-keyboard.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
+- [Msvm\_Keyboard](msvm-keyboard.md)
+- [Keyboard Input (Keyboard and Mouse Input)](../inputdev/keyboard-input.md)
+- [About Keyboard Input](../inputdev/about-keyboard-input.md)
 

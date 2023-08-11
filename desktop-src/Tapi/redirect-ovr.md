@@ -1,5 +1,5 @@
 ---
-Description: Session redirection allows an application to deflect an offered session to another address without answering the call.
+description: Session redirection allows an application to deflect an offered session to another address without answering the call.
 ms.assetid: b52cd5c2-fdd6-4240-b07b-b22733a89d27
 title: Redirect
 ms.topic: article
@@ -14,11 +14,8 @@ Redirect differs from [forward](forward-ovr.md) in that once forwarding has been
 
 Not all service providers support use of this operation.
 
-**TAPI 2.x:** See [**lineRedirect**](https://msdn.microsoft.com/library/ms736042(v=VS.85).aspx).
+**TAPI 2.x:** See [**lineRedirect**](/windows/win32/api/tapi/nf-tapi-lineredirect).
 
  
 
  
-
-
-

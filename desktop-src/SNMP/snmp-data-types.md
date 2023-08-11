@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # SNMP Data Types
 
-\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](https://docs.microsoft.com/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
+\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
 
 The SNMP API defines the following data types.
 
@@ -27,7 +27,7 @@ The SNMP API defines the following data types.
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                        |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                              |
@@ -46,10 +46,4 @@ The SNMP API defines the following data types.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

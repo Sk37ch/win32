@@ -1,5 +1,5 @@
 ---
-Description: Gets an array of nontransposed matrices.
+description: Gets an array of nontransposed matrices.
 ms.assetid: 37b08f55-22f1-4b60-8cd4-566a77e7dbd6
 title: ID3DXBaseEffect::GetMatrixArray method (D3DX9Shader.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Returns an array of nontransposed matrices. See [**D3DXMATRIX**](d3dxmatrix.md).
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of matrices in the array.
 
@@ -80,7 +80,7 @@ If the destination matrices are larger than the source matrices, only the upper-
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -100,7 +100,3 @@ If the destination matrices are larger than the source matrices, only the upper-
  
 
  
-
-
-
-

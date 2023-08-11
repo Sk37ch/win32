@@ -1,5 +1,5 @@
 ---
-Description: Forces the Enhanced Video Renderer (EVR) to batch calls to the IDirect3D9Device::Present method.
+description: Forces the Enhanced Video Renderer (EVR) to batch calls to the IDirect3D9Device::Present method.
 ms.assetid: d7523000-baa0-4011-97e1-d1ffe7263d01
 title: EVRConfig_ForceBatching attribute (Uuids.h)
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # EVRConfig\_ForceBatching attribute
 
-Forces the Enhanced Video Renderer (EVR) to batch calls to the [**IDirect3D9Device::Present**](https://msdn.microsoft.com/library/Bb174423(v=VS.85).aspx) method.
+Forces the Enhanced Video Renderer (EVR) to batch calls to the [**IDirect3D9Device::Present**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-present) method.
 
 ## Data type
 
@@ -32,7 +32,7 @@ The GUID constant for this attribute is exported from strmiids.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |
@@ -56,7 +56,3 @@ The GUID constant for this attribute is exported from strmiids.lib.
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Contains the top-level collections in the catalog.
+description: Contains the top-level collections in the catalog.
 ms.assetid: 6cd23e6a-53b8-42ec-97df-59281f019252
 title: Root collection
 ms.topic: reference
@@ -24,7 +24,7 @@ You cannot navigate to the **Root** collection from any collection.
 
 ## Members
 
-The **Root** collection inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
+The **Root** collection inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Related Collections
 
@@ -58,6 +58,3 @@ The following are the top-level collections in the catalog:
  
 
  
-
-
-

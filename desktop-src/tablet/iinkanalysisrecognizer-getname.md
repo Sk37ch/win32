@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the name of the recognizer.
+description: Retrieves the name of the recognizer.
 ms.assetid: bd97fead-1e80-49dc-ada0-38eb5dc015ae
 title: IInkAnalysisRecognizer::GetName method (IACom.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) on \**pbstrName* when you no longer need to use the string.
+> To avoid a memory leak, call [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) on \**pbstrName* when you no longer need to use the string.
 
  
 
@@ -58,7 +58,7 @@ The name is localized for the region-neutral language that the recognizer suppor
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -78,9 +78,4 @@ The name is localized for the region-neutral language that the recognizer suppor
 </dt> </dl>
 
  
-
- 
-
-
-
 

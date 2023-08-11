@@ -53,7 +53,7 @@ The **D2D1\_SIZE\_U** structure provides a convenient way for you to store an or
 
 
 
-|                                     |                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
 | Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
@@ -66,7 +66,7 @@ The **D2D1\_SIZE\_U** structure provides a convenient way for you to store an or
 
 <dl> <dt>
 
-[**D2D\_SIZE\_U**](https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_size_u)
+[**D2D\_SIZE\_U**](/windows/desktop/api/dcommon/ns-dcommon-d2d_size_u)
 </dt> <dt>
 
 [**D2D1\_SIZE\_F**](d2d1-size-f.md)
@@ -76,10 +76,4 @@ The **D2D1\_SIZE\_U** structure provides a convenient way for you to store an or
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

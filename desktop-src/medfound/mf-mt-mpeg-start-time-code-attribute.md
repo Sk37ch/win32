@@ -1,5 +1,5 @@
 ---
-Description: Group-of-pictures (GOP) start time code, for an MPEG-1 or MPEG-2 video media type.
+description: Group-of-pictures (GOP) start time code, for an MPEG-1 or MPEG-2 video media type.
 ms.assetid: 8313b83c-5a0a-4aaa-bdc8-58a987c329c7
 title: MF_MT_MPEG_START_TIME_CODE attribute (Mfapi.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ Group-of-pictures (GOP) start time code, for an MPEG-1 or MPEG-2 video media typ
 
 ## Remarks
 
-This attribute corresponds to the **dwStartTimeCode** member of the [**MPEG1VIDEOINFO**](https://msdn.microsoft.com/library/Dd390700(v=VS.85).aspx) and [**MPEG2VIDEOINFO**](https://msdn.microsoft.com/library/Dd390707(v=VS.85).aspx) structures.
+This attribute corresponds to the **dwStartTimeCode** member of the [**MPEG1VIDEOINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo) and [**MPEG2VIDEOINFO**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo) structures.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -24,7 +24,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |
@@ -57,7 +57,3 @@ The GUID constant for this attribute is exported from mfuuid.lib.
  
 
  
-
-
-
-

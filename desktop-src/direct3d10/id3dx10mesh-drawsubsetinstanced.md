@@ -1,5 +1,5 @@
 ---
-Description: Draw several instances of the same subset of a mesh.
+description: Draw several instances of the same subset of a mesh.
 ms.assetid: 2a17ecdb-c6f3-401c-b7ed-8a42fe159de0
 title: ID3DX10Mesh::DrawSubsetInstanced method (D3DX10.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ HRESULT DrawSubsetInstanced(
 *AttribId* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Specifies which subset of the mesh to draw. This value is used to differentiate faces in a mesh as belonging to one or more attribute groups. See remarks.
 
@@ -49,7 +49,7 @@ Specifies which subset of the mesh to draw. This value is used to differentiate 
 *InstanceCount* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of instances to render.
 
@@ -58,7 +58,7 @@ Number of instances to render.
 *StartInstanceLocation* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Which instance to start fetching from in each buffer marked as instance data.
 
@@ -76,7 +76,7 @@ A mesh contains an attribute table. The attribute table can divide a mesh into s
 
 
 
-|            |                 |
+| Subset     | Faces           |
 |------------|-----------------|
 | AttribID 0 | Faces 0 ~ 50    |
 | AttribID 1 | Faces 51 ~ 125  |
@@ -107,7 +107,7 @@ The following code illustrates extracting the vertex and index buffers from the 
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -127,7 +127,3 @@ The following code illustrates extracting the vertex and index buffers from the 
  
 
  
-
-
-
-

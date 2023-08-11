@@ -1,5 +1,5 @@
 ---
-Description: The get\_Description method gets the session description (BSTR).
+description: The get\_Description method gets the session description (BSTR).
 ms.assetid: 09a372fe-0dcd-4daf-8f13-c4c89b1ecd16
 title: ITSdp::get_Description method (Sdpblb.h)
 ms.topic: reference
@@ -54,13 +54,13 @@ This method can return one of these values.
 
 ## Remarks
 
-The application must use [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the *ppDescription* parameter.
+The application must use [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) to free the *ppDescription* parameter.
 
 ## Requirements
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |
@@ -80,9 +80,4 @@ The application must use [**SysFreeString**](https://msdn.microsoft.com/library/
 </dt> </dl>
 
  
-
- 
-
-
-
 

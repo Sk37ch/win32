@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Winsock Tracing Levels"
 ms.assetid: a92bc4d2-257a-478a-b10d-4fada4323c9b
 title: Winsock Tracing Levels
 ms.topic: article
@@ -66,7 +67,7 @@ All of the information events are traced at the verbose level. The following lis
 
 -   WSAPoll and select
 
-    An event is logged of an application's usage of [**WSAPoll**](https://msdn.microsoft.com/library/ms741669(v=VS.85).aspx) and [**select**](/windows/desktop/api/Winsock2/nf-winsock2-select) calls which can be used to find performance bottlenecks.
+    An event is logged of an application's usage of [**WSAPoll**](/windows/win32/api/winsock2/nf-winsock2-wsapoll) and [**select**](/windows/desktop/api/Winsock2/nf-winsock2-select) calls which can be used to find performance bottlenecks.
 
 -   Winsock-initiated aborts and cancels
 
@@ -99,6 +100,3 @@ All of the information events are traced at the verbose level. The following lis
  
 
  
-
-
-

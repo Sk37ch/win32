@@ -1,6 +1,6 @@
 ---
 title: WPD programming guide
-Description: Programming Guide
+description: This programming guide focuses on how sample tasks are accomplished using the WPD interfaces and methods found in the interfaces.
 ms.assetid: 87777b0b-a7a0-4032-99bb-92b717d3c452
 ms.topic: article
 ms.date: 05/31/2018
@@ -18,12 +18,9 @@ The following sections focus on the tasks accomplished by these samples and expl
 
 <dl> <dt>
 
-[**Windows Portable Devices**](https://docs.microsoft.com/windows/desktop/windows-portable-devices)
+[**Windows Portable Devices**](/windows/desktop/windows-portable-devices)
 </dt> </dl>
 
  
 
  
-
-
-

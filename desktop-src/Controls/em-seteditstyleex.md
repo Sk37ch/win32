@@ -34,7 +34,7 @@ Sets the current extended edit style flags.
 *wParam* 
 </dt> <dd>
 
-Specifies one or more extended edit style flags. For a list of possible values, see [**EM\_GETEDITSTYLEEX**](https://docs.microsoft.com/windows/desktop/Controls/em-geteditstyleex).
+Specifies one or more extended edit style flags. For a list of possible values, see [**EM\_GETEDITSTYLEEX**](/windows/desktop/Controls/em-geteditstyleex).
 
 </dd> <dt>
 
@@ -53,7 +53,7 @@ The return value is the state of the extended edit style flags after rich edit h
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
@@ -69,10 +69,4 @@ The return value is the state of the extended edit style flags after rich edit h
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

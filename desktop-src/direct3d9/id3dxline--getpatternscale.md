@@ -1,5 +1,5 @@
 ---
-Description: Gets the stipple-pattern scale value.
+description: Gets the stipple-pattern scale value.
 ms.assetid: cf80ae8c-493d-4f35-b4f9-5981e64cc842
 title: ID3DXLine::GetPatternScale method (D3dx9core.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Returns the value used to scale the stipple-pattern. 1.0f is the default value and represents no scaling. A value less than 1.0f shrinks the pattern, and a value greater than 1.0 stretches the pattern.
 
@@ -43,7 +43,7 @@ Returns the value used to scale the stipple-pattern. 1.0f is the default value a
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -63,7 +63,3 @@ Returns the value used to scale the stipple-pattern. 1.0f is the default value a
  
 
  
-
-
-
-

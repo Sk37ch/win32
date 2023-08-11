@@ -1,5 +1,5 @@
 ---
-Description: The RolesForPartition collection is always related to an object in the Partitions collection. It holds an object for each role assigned to the partition to which it is related.
+description: The RolesForPartition collection is always related to an object in the Partitions collection. It holds an object for each role assigned to the partition to which it is related.
 ms.assetid: 56985f55-d6e8-4066-b6d5-21c62d4278ce
 title: RolesForPartition collection
 ms.topic: reference
@@ -22,7 +22,7 @@ This collection does not support the [**Add**](/windows/desktop/api/ComAdmin/nf-
 
 ## Members
 
-The **RolesForPartition** collection inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
+The **RolesForPartition** collection inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Related Collections
 
@@ -48,7 +48,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                            |
+| Entry | Value |
 |----------------|----------------------------|
 | Description    | A description of the role. |
 | Access         | ReadOnly                   |
@@ -64,7 +64,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                                             |
+| Entry | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The role name. Extra spaces at the beginning and end of the string are stripped out. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) or [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                                                                                                                    |
@@ -86,6 +86,3 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
  
 
  
-
-
-

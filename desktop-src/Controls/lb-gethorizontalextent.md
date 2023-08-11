@@ -44,7 +44,7 @@ The return value is the scrollable width, in pixels, of the list box.
 
 ## Remarks
 
-To respond to the **LB\_GETHORIZONTALEXTENT** message, the list box must have been defined with the [**WS\_HSCROLL**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) style.
+To respond to the **LB\_GETHORIZONTALEXTENT** message, the list box must have been defined with the [**WS\_HSCROLL**](/windows/desktop/winmsg/window-styles) style.
 
 If the application does not set the horizontal extent of the list box (using [**LB\_SETHORIZONTALEXTENT**](lb-sethorizontalextent.md)), the default horizontal extent is zero. Note that the list box does not update its horizontal extent dynamically.
 
@@ -52,7 +52,7 @@ If the application does not set the horizontal extent of the list box (using [**
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
@@ -68,10 +68,4 @@ If the application does not set the horizontal extent of the list box (using [**
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

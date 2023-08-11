@@ -5,12 +5,15 @@ ms.assetid: d4881d32-e8b7-45e6-b00b-b4cd69b738f1
 keywords:
 - MCI_OPEN command
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Opening a Device
 
-Before using a device, you must initialize it by using the [**open**](open.md) ([**MCI\_OPEN**](mci-open.md)) command. This command loads the driver into memory (if it isn't already loaded) and retrieves the device identifier you will use to identify the device in subsequent MCI commands. You should check the return value of the [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) or [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function before using a new device identifier to ensure that the identifier is valid. (You can also retrieve a device identifier by using the [**mciGetDeviceID**](https://msdn.microsoft.com/library/Dd757156(v=VS.85).aspx) function.)
+\[The feature associated with this page, [MCI](/windows/win32/multimedia/mci), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **MCI**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
+Before using a device, you must initialize it by using the [**open**](open.md) ([**MCI\_OPEN**](mci-open.md)) command. This command loads the driver into memory (if it isn't already loaded) and retrieves the device identifier you will use to identify the device in subsequent MCI commands. You should check the return value of the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) or [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function before using a new device identifier to ensure that the identifier is valid. (You can also retrieve a device identifier by using the [**mciGetDeviceID**](/previous-versions//dd757156(v=vs.85)) function.)
 
 Like all MCI command messages, **MCI\_OPEN** has an associated structure. These structures are sometimes called *parameter blocks*. The default structure for **MCI\_OPEN** is [**MCI\_OPEN\_PARMS**](mci-open-parms.md). Certain devices (such as *waveform* and *overlay*) have extended structures (such as [**MCI\_WAVE\_OPEN\_PARMS**](mci-wave-open-parms.md) and [**MCI\_OVLY\_OPEN\_PARMS**](mci-ovly-open-parms.md)) to accommodate additional optional parameters. Unless you need to use these additional parameters, you can use the **MCI\_OPEN\_PARMS** structure with any MCI device.
 
@@ -157,7 +160,3 @@ If you open multiple instances of a file, you must assign a unique device identi
  
 
  
-
-
-
-

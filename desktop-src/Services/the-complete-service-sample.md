@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The Complete Service Sample"
 ms.assetid: a3aeea9b-09c0-4834-892a-c378b67402f4
 title: The Complete Service Sample
 ms.topic: article
@@ -57,7 +58,7 @@ The following procedure describes how to test the service.
 
     If the operation succeeds, the service control program writes "Service start pending..." and then "Service started successfully" to the console. Otherwise, the program writes an error message to the console.
 
-    If the service starts successfully, **Status** is set to "Started". The code in the [*ServiceMain*](https://msdn.microsoft.com/library/ms685138(v=VS.85).aspx) function is executed by the SCM. If an error occurs, the service will write an error message to the event log. This message includes the name of the function that failed and the error code that was returned on failure.
+    If the service starts successfully, **Status** is set to "Started". The code in the [*ServiceMain*](/windows/win32/api/winsvc/nc-winsvc-lpservice_main_functiona) function is executed by the SCM. If an error occurs, the service will write an error message to the event log. This message includes the name of the function that failed and the error code that was returned on failure.
 
 4.  Run the following command to update the service description:
 
@@ -123,6 +124,3 @@ The following procedure describes how to test the service.
  
 
  
-
-
-

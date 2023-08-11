@@ -1,5 +1,5 @@
 ---
-Description: You can use the methods and properties of the SWbemObject object to represent one Windows Management Instrumentation (WMI) class definition or object instance.
+description: You can use the methods and properties of the SWbemObject object to represent one Windows Management Instrumentation (WMI) class definition or object instance.
 ms.assetid: d303ec1a-5e0c-4a5e-8ed3-ed353a138755
 ms.tgt_platform: multiple
 title: SWbemObject object (Wbemdisp.h)
@@ -19,7 +19,7 @@ api_location:
 
 # SWbemObject object
 
-You can use the methods and properties of the **SWbemObject** object to represent one Windows Management Instrumentation (WMI) class definition or object instance. This object cannot be created by the VBScript [CreateObject](https://docs.microsoft.com/previous-versions//xzysf6hc(v=vs.85)) call.
+You can use the methods and properties of the **SWbemObject** object to represent one Windows Management Instrumentation (WMI) class definition or object instance. This object cannot be created by the VBScript [CreateObject](/previous-versions//xzysf6hc(v=vs.85)) call.
 
 This object supports two types of properties and methods. Those defined in this section are generic properties and methods that apply to all WMI objects. In addition, this object exposes the properties and methods of the underlying object as dynamic automation properties and methods of **SWbemObject**. The names and types of these properties and methods depend on the underlying WMI object. For more information about how these dynamic properties and methods are exposed, see [Manipulating Class and Instance Information](manipulating-class-and-instance-information.md).
 
@@ -130,7 +130,7 @@ The [List All the Properties and Methods for a WMI Class](https://Gallery.TechNe
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -153,9 +153,4 @@ The [List All the Properties and Methods for a WMI Class](https://Gallery.TechNe
 </dt> </dl>
 
  
-
- 
-
-
-
 

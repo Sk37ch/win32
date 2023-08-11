@@ -1,5 +1,5 @@
 ---
-Description: Loads the specified cursor.
+description: Loads the specified cursor.
 ms.assetid: 36caac30-0121-4866-9eac-5bb4e64ba517
 title: '_LoadCursor function'
 ms.topic: reference
@@ -19,7 +19,7 @@ api_location:
 
 \[This function is a wrapper over the **LoadCursor** function. This function may be altered or unavailable in the future. Applications should call **LoadCursor** directly.\]
 
-Loads the specified cursor. See [**LoadCursor**](https://msdn.microsoft.com/library/ms648391(v=VS.85).aspx).
+Loads the specified cursor. See [**LoadCursor**](/windows/win32/api/winuser/nf-winuser-loadcursora).
 
 ## Syntax
 
@@ -43,7 +43,7 @@ HCURSOR _LoadCursor(
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Sqlunirl.dll</dt> </dl> |
 
@@ -53,13 +53,9 @@ HCURSOR _LoadCursor(
 
 <dl> <dt>
 
-[**LoadCursor**](https://msdn.microsoft.com/library/ms648391(v=VS.85).aspx)
+[**LoadCursor**](/windows/win32/api/winuser/nf-winuser-loadcursora)
 </dt> </dl>
 
  
 
  
-
-
-
-

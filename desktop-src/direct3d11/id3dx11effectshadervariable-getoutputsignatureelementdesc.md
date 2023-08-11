@@ -43,7 +43,7 @@ HRESULT GetOutputSignatureElementDesc(
 *ShaderIndex* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 A zero-based shader index.
 
@@ -52,7 +52,7 @@ A zero-based shader index.
 *Element* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 A zero-based element index.
 
@@ -86,7 +86,7 @@ An effect contains one or more shaders; each shader has an input and output sign
 
 
 
-|                    |                                                                                                                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
 | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |
@@ -101,10 +101,4 @@ An effect contains one or more shaders; each shader has an input and output sign
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

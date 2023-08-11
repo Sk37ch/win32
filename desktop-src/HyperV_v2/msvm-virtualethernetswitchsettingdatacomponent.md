@@ -1,5 +1,5 @@
 ---
-Description: An association used to establish &\#0034;part of&\#0034; relationships between one instance of Msvm\_VirtualEthernetSwitchSettingData and one or more instances of Msvm\_EthernetSwitchFeatureSettingData.
+description: An association used to establish &\#0034;part of&\#0034; relationships between one instance of Msvm\_VirtualEthernetSwitchSettingData and one or more instances of Msvm\_EthernetSwitchFeatureSettingData.
 ms.assetid: b3adac33-056e-4f39-8022-5d9ef78370e9
 title: Msvm_VirtualEthernetSwitchSettingDataComponent class
 ms.topic: reference
@@ -55,7 +55,7 @@ Data type: **Msvm\_VirtualEthernetSwitchSettingData**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 Reference to an instance of the [**Msvm\_VirtualEthernetSwitchSettingData**](msvm-virtualethernetswitchsettingdata.md) class that represents an Ethernet port.
@@ -71,7 +71,7 @@ Data type: **Msvm\_EthernetSwitchFeatureSettingData**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
 </dt> </dl>
 
 Reference to an instance of the [**Msvm\_EthernetSwitchFeatureSettingData**](msvm-ethernetswitchfeaturesettingdata.md) class that represents the settings applied to the switch.
@@ -82,7 +82,7 @@ Reference to an instance of the [**Msvm\_EthernetSwitchFeatureSettingData**](msv
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -93,9 +93,4 @@ Reference to an instance of the [**Msvm\_EthernetSwitchFeatureSettingData**](msv
 
 
  
-
- 
-
-
-
 

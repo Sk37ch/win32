@@ -1,5 +1,5 @@
 ---
-Description: An access check determines whether a security descriptor grants a specified set of access rights to the client or thread identified by an access token.
+description: An access check determines whether a security descriptor grants a specified set of access rights to the client or thread identified by an access token.
 ms.assetid: d0259bb1-fd74-4440-ac2a-d6aa84a48d9b
 ms.tgt_platform: multiple
 title: Performing Access Checks
@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Performing Access Checks
 
-An access check determines whether a security descriptor grants a specified set of access rights to the client or thread identified by an access token. You can call the security function [**AccessCheck**](https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck) from WMI client applications or providers written in C++ or C#. Scripts and Visual Basic applications cannot perform access checks using the method described here.
+An access check determines whether a security descriptor grants a specified set of access rights to the client or thread identified by an access token. You can call the security function [**AccessCheck**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck) from WMI client applications or providers written in C++ or C#. Scripts and Visual Basic applications cannot perform access checks using the method described here.
 
 Client applications should do an access check to determine the identity of the callback when returning results to the sink provided by the client asynchronous call.
 
@@ -214,6 +214,3 @@ BOOL IsAllowed(LPWSTR pwsExpectedDomain,
  
 
  
-
-
-

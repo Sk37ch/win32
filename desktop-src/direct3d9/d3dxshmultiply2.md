@@ -1,25 +1,31 @@
 ---
-Description: Computes the product of two functions represented using SH (f and g).
+description: Computes the product of two functions represented using SH (f and g).
 ms.assetid: 632400a4-2ac9-438d-85f7-869101f350c8
 title: D3DXSHMultiply2 function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXSHMultiply2
 - D3DXSHMultiply3
 - D3DXSHMultiply4
 - D3DXSHMultiply5
 - D3DXSHMultiply6
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - d3dx9math.h
 ---
 
-# D3DXSHMultiply2 function
+# D3DXSHMultiply2 function (D3dx9math.h)
+
+> [!Note]
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated and is not supported for Windows Store apps.
+
+> [!Note]
+> Instead of using this function, we recommend that you use the [Spherical Harmonics Math](https://github.com/Microsoft/DirectXMath/tree/main/SHMath) library function **XMSHMultiply2**, **XMSHMultiply3**, **XMSHMultiply4**, **XMSHMultiply5**, or **XMSHMultiply6**.
 
 Computes the product of two functions represented using SH (f and g).
 
@@ -43,7 +49,7 @@ FLOAT* D3DXSHMultiply2(
 *pOut* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to the output SH coefficients - basis function Ylm is stored at l\*l + m+l.
 
@@ -52,7 +58,7 @@ Pointer to the output SH coefficients - basis function Ylm is stored at l\*l + m
 *pF* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](../winprog/windows-data-types.md)\***
 
 Input SH coeffs for first function.
 
@@ -61,7 +67,7 @@ Input SH coeffs for first function.
 *pG* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](../winprog/windows-data-types.md)\***
 
 Second set of input SH coeffs.
 
@@ -69,7 +75,7 @@ Second set of input SH coeffs.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to SH output coefficients.
 
@@ -83,7 +89,7 @@ Computes the product of two functions represented using SH (f and g), where *pOu
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9math.h</dt> </dl> |
 
@@ -99,7 +105,3 @@ Computes the product of two functions represented using SH (f and g), where *pOu
  
 
  
-
-
-
-

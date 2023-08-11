@@ -1,14 +1,14 @@
 ---
-Description: The error values identified in this topic are returned by GetLastError when one of the Microsoft Windows HTTP Services (WinHTTP) functions fails.
+description: The error values identified in this topic are returned by GetLastError when one of the Microsoft Windows HTTP Services (WinHTTP) functions fails.
 ms.assetid: c8a863cd-d36c-4ec8-ac49-0b714a5e4cc2
 title: Error Messages (Winhttp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Error Messages
+# Error Messages (Winhttp.h)
 
-The error values listed below are returned by [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) when one of the Microsoft Windows HTTP Services (WinHTTP) functions fails, and are also returned in the lower 16 bits of [**HRESULT**](https://msdn.microsoft.com/library/ms690088(v=VS.85).aspx) error returns from the [**WinHttpRequest**](winhttprequest.md) object.
+The error values listed below are returned by [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) when one of the Microsoft Windows HTTP Services (WinHTTP) functions fails, and are also returned in the lower 16 bits of [**HRESULT**](../com/structure-of-com-error-codes.md) error returns from the [**WinHttpRequest**](winhttprequest.md) object.
 
 Error values whose names begin with "ERROR\_WINHTTP\_" are specific to the WinHTTP functions. The WinHTTP functions also return Windows error messages where appropriate.
 
@@ -556,7 +556,7 @@ Indicates that an error occurred having to do with a secure channel (equivalent 
 
 
 
-One or more errors were found in the Secure Sockets Layer (SSL) certificate sent by the server. To determine what type of error was encountered, check for a [**WINHTTP\_CALLBACK\_STATUS\_SECURE\_FAILURE**](https://msdn.microsoft.com/library/Aa383917(v=VS.85).aspx) notification in a status callback function. For more information, see [**WINHTTP\_STATUS\_CALLBACK**](https://msdn.microsoft.com/library/Aa383917(v=VS.85).aspx).
+One or more errors were found in the Secure Sockets Layer (SSL) certificate sent by the server. To determine what type of error was encountered, check for a [**WINHTTP\_CALLBACK\_STATUS\_SECURE\_FAILURE**](/windows/win32/api/winhttp/nc-winhttp-winhttp_status_callback) notification in a status callback function. For more information, see [**WINHTTP\_STATUS\_CALLBACK**](/windows/win32/api/winhttp/nc-winhttp-winhttp_status_callback).
 
 
 </dt> </dl> </dd> <dt>
@@ -734,7 +734,7 @@ For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-p
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
@@ -751,9 +751,4 @@ For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-p
 </dt> </dl>
 
  
-
- 
-
-
-
 

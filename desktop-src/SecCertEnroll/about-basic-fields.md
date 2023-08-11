@@ -1,5 +1,5 @@
 ---
-Description: An X.509 version 1 certificate contains the following fields. Version 2 fields are discussed in Version 2 Fields. Version 3 fields are discussed in Version 3 Extensions.
+description: An X.509 version 1 certificate contains the following fields. Version 2 fields are discussed in Version 2 Fields. Version 3 fields are discussed in Version 3 Extensions.
 ms.assetid: d614130c-cf1b-4580-8903-064982ed738e
 title: Basic Fields
 ms.topic: article
@@ -34,7 +34,7 @@ CertificateSerialNumber ::= INTEGER
 
 ## Signature Algorithm
 
-Contains an [*object identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/o-gly) (OID) that specifies the algorithm used by the CA to sign the certificate. 
+Contains an [*object identifier*](/windows/desktop/SecGloss/o-gly) (OID) that specifies the algorithm used by the CA to sign the certificate. 
 For example, 1.2.840.113549.1.1.5 specifies a SHA-1 hashing algorithm combined with the RSA encryption algorithm from RSA Laboratories.
 
 ``` syntax
@@ -52,7 +52,7 @@ AlgorithmIdentifier ::= SEQUENCE
 
 ## Issuer
 
-Contains the [*X.500*](https://docs.microsoft.com/windows/desktop/SecGloss/x-gly) distinguished name (DN) of the CA that created and signed the certificate.
+Contains the [*X.500*](/windows/desktop/SecGloss/x-gly) distinguished name (DN) of the CA that created and signed the certificate.
 
 ``` syntax
 ---------------------------------------------------------------------
@@ -148,6 +148,3 @@ AlgorithmIdentifier ::= SEQUENCE
  
 
  
-
-
-

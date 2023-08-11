@@ -1,5 +1,5 @@
 ---
-Description: Represents a relationship between a controller and a logical device that is managed by the controller.
+description: Represents a relationship between a controller and a logical device that is managed by the controller.
 ms.assetid: 5a938fa4-3b91-42ad-beee-12ed0ce6df9a
 title: CIM_ControlledBy class (Hyper-V management)
 ms.topic: reference
@@ -24,7 +24,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_ControlledBy class
+# CIM_ControlledBy class (Hyper-V management)
 
 Represents a relationship between a controller and a logical device that is managed by the controller.
 
@@ -152,7 +152,7 @@ Data type: **CIM\_Controller**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 The controller.
@@ -168,7 +168,7 @@ Data type: **CIM\_LogicalDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The logical devices.
@@ -237,7 +237,7 @@ The time when the downstream device was last reset by the controller.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -255,9 +255,4 @@ The time when the downstream device was last reset by the controller.
 </dt> </dl>
 
  
-
- 
-
-
-
 

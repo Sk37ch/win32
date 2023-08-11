@@ -22,15 +22,7 @@ The following are the programming elements that you use to create an instrumenta
 
 For applications written using a .NET language, such as C# or Visual Basic, see the following namespaces:
 
--   To write events, use the classes and methods defined in the [System.Diagnostics.Eventing](https://msdn.microsoft.com/library/system.diagnostics.eventing(VS.90).aspx) namespace.
--   To consume events from a Windows Event Log channel or log, use the classes and methods defined in the [System.Diagnostics.Eventing.Reader](https://msdn.microsoft.com/library/system.diagnostics.eventing.reader(VS.90).aspx) namespace.
+-   To write events, use the classes and methods defined in the [System.Diagnostics.Eventing](/dotnet/api/system.diagnostics.eventing?view=netframework-4.8&preserve-view=true) namespace.
+-   To consume events from a Windows Event Log channel or log, use the classes and methods defined in the [System.Diagnostics.Eventing.Reader](/dotnet/api/system.diagnostics.eventing.reader) namespace.
 
-As an alternative to using the [System.Diagnostics.Eventing](https://msdn.microsoft.com/library/system.diagnostics.eventing(VS.90).aspx) namespace to write events, you can use the **-cs** or **-css** argument to have the message compiler generate the code to write the events. For details, see [**Message Compiler**](message-compiler--mc-exe-.md).
-
- 
-
- 
-
-
-
-
+As an alternative to using the [System.Diagnostics.Eventing](/dotnet/api/system.diagnostics.eventing) namespace to write events, you can use the **-cs** or **-css** argument to have the message compiler generate the code to write the events. For details, see [**Message Compiler**](message-compiler--mc-exe-.md).

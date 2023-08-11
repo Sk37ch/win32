@@ -1,5 +1,5 @@
 ---
-Description: The installer sets the value of the MsiRestartManagerSessionKey property to the session key for the Restart Manager session.
+description: The installer sets the value of the MsiRestartManagerSessionKey property to the session key for the Restart Manager session.
 ms.assetid: efbf11f2-38ab-4509-aa01-23fa8cfdaa60
 title: MsiRestartManagerSessionKey property
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MsiRestartManagerSessionKey property
 
-The installer sets the value of the **MsiRestartManagerSessionKey** property to the session key for the [Restart Manager](https://msdn.microsoft.com/library/Cc948910(v=VS.85).aspx) session. Custom actions can use the session key to join the [Restart Manager](https://msdn.microsoft.com/library/Cc948910(v=VS.85).aspx) session.
+The installer sets the value of the **MsiRestartManagerSessionKey** property to the session key for the [Restart Manager](../rstmgr/restart-manager-portal.md) session. Custom actions can use the session key to join the [Restart Manager](../rstmgr/restart-manager-portal.md) session.
 
 ## Remarks
 
@@ -18,7 +18,7 @@ The installer sets the value of the **MsiRestartManagerSessionKey** property at 
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                          |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum service pack required by a Windows Installer version.<br/> |
 
@@ -37,7 +37,3 @@ The installer sets the value of the **MsiRestartManagerSessionKey** property at 
  
 
  
-
-
-
-

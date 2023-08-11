@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CimMofDeserializer.Create method ()"
 title: CimMofDeserializer.Create method (Microsoft.Management.Infrastructure.Serialization)
 TOCTitle: CimMofDeserializer.Create method (Microsoft.Management.Infrastructure.Serialization)
 ms:assetid: M:Microsoft.Management.Infrastructure.Serialization.CimMofDeserializer.Create
@@ -28,7 +29,7 @@ ms.topic: reference
 
 Creates and initializes a default deserializer.
 
-**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](hh832966\(v=vs.85\).md)  
+**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))  
 **Assembly:**  Microsoft.Management.Infrastructure (in Microsoft.Management.Infrastructure.dll)  
 
 ## Syntax
@@ -59,4 +60,4 @@ The newly created deserializer object.
 ## See also
 
 [CimMofDeserializer class](microsoft.management.infrastructure.serialization.cimmofdeserializer.md)
-[Microsoft.Management.Infrastructure.Serialization namespace](hh832966\(v=vs.85\).md)
+[Microsoft.Management.Infrastructure.Serialization namespace](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))

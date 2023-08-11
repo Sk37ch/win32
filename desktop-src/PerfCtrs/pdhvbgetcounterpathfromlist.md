@@ -1,5 +1,5 @@
 ---
-Description: The PdhVbGetCounterPathFromList function copies the counter path referenced by the Index parameter from a counter path list created by the user from the most recent call to the PdhVbCreateCounterPathList function.
+description: The PdhVbGetCounterPathFromList function copies the counter path referenced by the Index parameter from a counter path list created by the user from the most recent call to the PdhVbCreateCounterPathList function.
 ms.assetid: e77a022d-42f2-4c48-acb7-36cb013730dd
 title: PdhVbGetCounterPathFromList function
 ms.topic: reference
@@ -18,6 +18,9 @@ api_location:
 # PdhVbGetCounterPathFromList function
 
 The **PdhVbGetCounterPathFromList** function copies the counter path referenced by the *Index* parameter from a counter path list created by the user from the most recent call to the [**PdhVbCreateCounterPathList**](pdhvbcreatecounterpathlist.md) function.
+
+> [!IMPORTANT]
+> The function that this topic describes may be altered or unavailable in the future. Instead, Microsoft recommends that you use the functions described in [Performance Counters Functions](performance-counters-functions.md).
 
 Function PdhVbGetCounterPathFromList( \_ ByVal Index As Long, \_ ByVal Buffer As String, \_ ByVal BufferLength As Long \_ ) As Long
 
@@ -54,7 +57,7 @@ The function returns the number of characters copied to Buffer.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |

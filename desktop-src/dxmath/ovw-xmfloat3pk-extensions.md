@@ -1,12 +1,12 @@
 ---
-Description: A 3D vector with X and Y components stored as 11 bit floating point number, and Z component stored as a 10 bit floating-point value.
+description: A 3D vector with X and Y components stored as 11 bit floating point number, and Z component stored as a 10 bit floating-point value.
 ms.assetid: cca32fd6-9f41-49c2-8e2a-247bbf78edca
-title: XMFLOAT3PK Extensions
+title: XMFLOAT3PK extensions
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# XMFLOAT3PK Extensions
+# XMFLOAT3PK extensions
 
 A 3D vector with X and Y components stored as 11 bit floating point number, and Z component stored as a 10 bit floating-point value.
 
@@ -35,13 +35,9 @@ A 3D vector with X and Y components stored as 11 bit floating point number, and 
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT3PK**](https://msdn.microsoft.com/library/Ee419478(v=VS.85).aspx)
+[**XMFLOAT3PK**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Takes an STRRET structure returned by IShellFolder::GetDisplayNameOf, converts it to a string, and places the result in a buffer.
+description: Takes an STRRET structure returned by IShellFolder::GetDisplayNameOf, converts it to a string, and places the result in a buffer.
 title: StrRetToStrN function
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: a816fb5f-8320-4b63-a85d-dd4c59596ead
-api_name: 
- - StrRetToStrN
-api_type: 
- - DllExport
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -96,7 +87,7 @@ Type: **BOOL**
 
  
 
-**StrRetToStrN** is not exported by name. To use it, you must use [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) and request ordinal 96 from Shell32.dll to obtain a function pointer.
+**StrRetToStrN** is not exported by name. To use it, you must use [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) and request ordinal 96 from Shell32.dll to obtain a function pointer.
 
 If the **uType** member of the structure pointed to by *pStrRet* is set to **STRRET\_WSTR**, the **pOleStr** member of that structure will be freed on return.
 
@@ -106,7 +97,7 @@ Note that this function is exported from Shell32.dll rather than Shlwapi.dll. It
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
@@ -127,7 +118,3 @@ Note that this function is exported from Shell32.dll rather than Shlwapi.dll. It
  
 
  
-
-
-
-

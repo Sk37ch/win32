@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.GPS.LongitudeRef property.
+description: The photo metadata policy for the System.GPS.LongitudeRef property.
 ms.assetid: 6e7b3b87-70e5-4c6a-a9b3-959eab38f1f0
 title: System.GPS.LongitudeRef Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.LongitudeRef Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.LongitudeRef](https://msdn.microsoft.com/library/bb760572(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.LongitudeRef](../properties/props-system-gps-longituderef.md) property.
 
 ### PKEY
 
@@ -70,12 +70,9 @@ If the file is in TIFF format, the handler will read, write, and remove the data
 
 <dl> <dt>
 
-[System.GPS.LongitudeRef](https://msdn.microsoft.com/library/bb760572(VS.85).aspx)
+[System.GPS.LongitudeRef](../properties/props-system-gps-longituderef.md)
 </dt> </dl>
 
  
 
  
-
-
-

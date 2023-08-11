@@ -1,5 +1,5 @@
 ---
-Description: Represents an association in which a CIM\_LogicalElement object represents a resource allocated from a CIM\_ResourcePool object.
+description: Represents an association in which a CIM\_LogicalElement object represents a resource allocated from a CIM\_ResourcePool object.
 ms.assetid: 5e3c95c5-1cbb-40de-b285-0bf9b34a5ca8
 title: CIM_ElementAllocatedFromPool class
 ms.topic: reference
@@ -53,7 +53,7 @@ Data type: **CIM\_ResourcePool**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 The resource pool.
@@ -69,7 +69,7 @@ Data type: **CIM\_LogicalElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The allocated resource.
@@ -80,7 +80,7 @@ The allocated resource.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -98,9 +98,4 @@ The allocated resource.
 </dt> </dl>
 
  
-
- 
-
-
-
 

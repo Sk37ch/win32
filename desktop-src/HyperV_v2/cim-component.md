@@ -1,5 +1,5 @@
 ---
-Description: Represents a generic association between a parent managed element and a child managed element where the child represents a component or part of the parent.
+description: Represents a generic association between a parent managed element and a child managed element where the child represents a component or part of the parent.
 ms.assetid: b5cef452-2d00-483c-8e70-f804f1e3536b
 title: CIM_Component class (Hyper-V management)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_Component class
+# CIM_Component class (Hyper-V management)
 
 Represents a generic association between a parent managed element and a child managed element where the child represents a component or part of the parent.
 
@@ -53,7 +53,7 @@ Data type: **CIM\_ManagedElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 The parent element in the association.
@@ -69,7 +69,7 @@ Data type: **CIM\_ManagedElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The child element in the association.
@@ -80,7 +80,7 @@ The child element in the association.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -91,9 +91,4 @@ The child element in the association.
 
 
  
-
- 
-
-
-
 

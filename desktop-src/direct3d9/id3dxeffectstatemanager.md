@@ -1,5 +1,5 @@
 ---
-Description: This is a user-implemented interface that allows a user to set the device state from an effect.
+description: This is a user-implemented interface that allows a user to set the device state from an effect.
 ms.assetid: ccd3e456-e27b-4128-b20b-99ff8dafcbe1
 title: ID3DXEffectStateManager interface (D3DX9Effect.h)
 ms.topic: reference
@@ -27,7 +27,7 @@ When an application uses the state manager to implement custom callbacks, an eff
 
 ## Members
 
-The **ID3DXEffectStateManager** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXEffectStateManager** also has these types of members:
+The **ID3DXEffectStateManager** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ID3DXEffectStateManager** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -80,7 +80,7 @@ typedef interface ID3DXEffectStateManager *LPD3DXEFFECTSTATEMANAGER;
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -97,7 +97,3 @@ typedef interface ID3DXEffectStateManager *LPD3DXEFFECTSTATEMANAGER;
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: IsAdditionalPdpContextProfile
+description: IsAdditionalPdpContextProfile
 MS-HAID: WWAN\_profile\_v3.element\_IsAdditionalPdpContextProfile
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -17,12 +17,12 @@ An "additional PDP context" profile is a profile that does not get activated ove
 
 Note that if this element is set to true, then the following must also be true.
 
--   The [**IsDefault**](https://msdn.microsoft.com/library/Dd323288(v=VS.85).aspx) element must be unspecified or set to **false** for the profile to be valid.
--   The [**ConnectionMode**](https://msdn.microsoft.com/library/Dd323278(v=VS.85).aspx) element must be unspecified or set to **manual** for the profile to be valid.
+-   The [**IsDefault**](./schema-isdefault-mbnprofile-element.md) element must be unspecified or set to **false** for the profile to be valid.
+-   The [**ConnectionMode**](./schema-connectionmode-mbnprofile-element.md) element must be unspecified or set to **manual** for the profile to be valid.
 
 ## Element hierarchy
 
-**<IsAdditionalPdpContextProfile>**
+**&lt;IsAdditionalPdpContextProfile&gt;**
 
 ## Syntax
 
@@ -50,22 +50,12 @@ This outermost (document) element may not be contained by any other elements.
 
 ## Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v3</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p>Namespace</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v3</p> | 
+
 
  
 
  
-
-
-

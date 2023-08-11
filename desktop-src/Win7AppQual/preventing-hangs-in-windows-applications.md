@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Learn how to prevent hangs in Windows applications for Windows 7 and Windows Server 2008 R2 platforms.
 ms.assetid: 698a046b-1934-49cd-a717-d61e7e1ec534
 title: Preventing Hangs in Windows Applications
 ms.topic: article
@@ -10,9 +10,16 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Clients** - Windows 7  
+**Clients** - Windows 7  
 **Servers** - Windows Server 2008 R2  
-</dl>
+
+
+
+
+
+
+
+
 
 ## Description
 
@@ -32,7 +39,7 @@ Detection is only the first step. At this point, the user still cannot even term
 
 The whole ghost experience looks like this:
 
-![](images/preventinghangs-ghostwindow.gif)
+![Screenshot that shows the 'Notepad is not responding' dialog.](images/preventinghangs-ghostwindow.gif)
 
 The Desktop Window Manager does one last thing; it integrates with Windows Error Reporting, allowing the user to not only close and optionally restart the application, but also send valuable debugging data back to Microsoft. You can get this hang data for your own applications by signing up at the Winqual website.
 
@@ -53,13 +60,13 @@ However, the user perceives this as a bug. The design should match the user's ex
 -   Make UI responsiveness a top-level requirement; the user should always feel in control of your application
 -   Ensure that users can cancel operations that take longer than one second to complete and/or that operations can complete in the background; provide appropriate progress UI if necessary
 
-![](images/preventinghangs-progressbar.gif)
+![Screenshot that shows the 'Copying items' dialog.](images/preventinghangs-progressbar.gif)
 
 -   Queue long-running or blocking operations as background tasks (this requires a well-thought out messaging mechanism to inform the UI thread when work has been completed)
 -   Keep the code for UI threads simple; remove as many blocking API calls as possible
 -   Show windows and dialogs only when they are ready and fully operational. If the dialog needs to display information that is too resource-intensive to calculate, show some generic information first and update it on the fly when more data becomes available. A good example is the folder properties dialog from Windows Explorer. It needs to display the folder's total size, information that is not readily available from the file system. The dialog shows up right away and the "size" field is updated from a worker thread:
 
-![](images/preventinghangs-updatingdialog.gif)
+![Screenshot that shows the 'General' page of Windows Properties with the 'Size', 'Size on disk', and 'Contains' text circled.](images/preventinghangs-updatingdialog.gif)
 
 Unfortunately, there is no simple way to design and write a responsive application. Windows does not provide a simple asynchronous framework that would allow for easy scheduling of blocking or long-running operations. The following sections introduce some of the best practices in preventing hangs and highlight some of the common pitfalls.
 
@@ -172,32 +179,29 @@ The sample code below illustrates this issue. The unbounded access to the "buffe
 
 ## Links to Resources
 
--   [Windows Error Reporting](https://msdn.microsoft.com/library/Bb513641(v=VS.85).aspx)
+-   [Windows Error Reporting](../wer/windows-error-reporting.md)
 -   [Asynchronous Design](https://msdn.microsoft.com/library/ms228969(v=VS.80).aspx)
--   [Asynchronous I/O](https://msdn.microsoft.com/library/Aa365683(v=VS.85).aspx)
--   [**AttachThreadInput Function**](https://msdn.microsoft.com/library/ms681956(v=VS.85).aspx)
+-   [Asynchronous I/O](../fileio/synchronous-and-asynchronous-i-o.md)
+-   [**AttachThreadInput Function**](/windows/win32/api/winuser/nf-winuser-attachthreadinput)
 -   [**auto\_ptr Class**](https://msdn.microsoft.com/library/ew3fk483(v=VS.71).aspx)
--   [**DisableProcessWindowsGhosting Function**](https://msdn.microsoft.com/library/ms648415(v=VS.85).aspx)
--   [**DllMain Callback Function**](https://msdn.microsoft.com/library/ms682583(v=VS.85).aspx)
+-   [**DisableProcessWindowsGhosting Function**](/windows/win32/api/winuser/nf-winuser-disableprocesswindowsghosting)
+-   [**DllMain Callback Function**](../dlls/dllmain.md)
 -   [Events](https://msdn.microsoft.com/library/wewwczdw(v=VS.80).aspx)
--   [**GetMessage Function**](https://msdn.microsoft.com/library/ms644936(v=VS.85).aspx)
--   [I/O cancellation](https://msdn.microsoft.com/library/Aa363789(v=VS.85).aspx)
--   [**IsHungAppWindow Function**](https://msdn.microsoft.com/library/ms633526(v=VS.85).aspx)
--   [Message Queue](https://msdn.microsoft.com/library/ms644928(v=VS.85).aspx)
--   [**MsgWaitForMultipleObjects Function**](https://msdn.microsoft.com/library/ms684242(v=VS.85).aspx)
--   [New Thread Pool API](https://msdn.microsoft.com/library/ms686766(v=VS.85).aspx)
--   [**PostMessage Function**](https://msdn.microsoft.com/library/ms644944(v=VS.85).aspx)
--   [Restart and Recovery](https://msdn.microsoft.com/library/Bb525423(v=VS.85).aspx)
--   [**SendMessageCallback Function**](https://msdn.microsoft.com/library/ms644951(v=VS.85).aspx)
--   [**SendNotifyMessage Function**](https://msdn.microsoft.com/library/ms644953(v=VS.85).aspx)
--   [Synchronization Objects](https://msdn.microsoft.com/library/ms681924(v=VS.85).aspx)
--   [**TerminateThread Function**](https://msdn.microsoft.com/library/ms686717(v=VS.85).aspx)
--   [Windows Error Reporting](https://msdn.microsoft.com/library/Bb513641(v=VS.85).aspx)
--   [Winqual](https://go.microsoft.com/fwlink/p/?linkid=92793)
+-   [**GetMessage Function**](/windows/win32/api/winuser/nf-winuser-getmessage)
+-   [I/O cancellation](../fileio/canceling-pending-i-o-operations.md)
+-   [**IsHungAppWindow Function**](/windows/win32/api/winuser/nf-winuser-ishungappwindow)
+-   [Message Queue](../winmsg/using-messages-and-message-queues.md)
+-   [**MsgWaitForMultipleObjects Function**](/windows/win32/api/winuser/nf-winuser-msgwaitformultipleobjects)
+-   [New Thread Pool API](../procthread/thread-pool-api.md)
+-   [**PostMessage Function**](/windows/win32/api/winuser/nf-winuser-postmessagea)
+-   [Restart and Recovery](../recovery/registering-for-application-restart.md)
+-   [**SendMessageCallback Function**](/windows/win32/api/winuser/nf-winuser-sendmessagecallbacka)
+-   [**SendNotifyMessage Function**](/windows/win32/api/winuser/nf-winuser-sendnotifymessagea)
+-   [Synchronization Objects](../sync/about-synchronization.md)
+-   [**TerminateThread Function**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-terminatethread)
+-   [Windows Error Reporting](../wer/windows-error-reporting.md)
+-   [Winqual](/windows-hardware/drivers/dashboard/hardware-submission-wlk)
 
  
 
  
-
-
-

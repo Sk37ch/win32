@@ -1,5 +1,5 @@
 ---
-Description: Requests that the service update its state to the service manager.
+description: Requests that the service update its state to the service manager.
 ms.assetid: 118156ef-ee43-4f73-af41-e295a0a850b9
 ms.tgt_platform: multiple
 title: InterrogateService method of the Win32_BaseService class
@@ -18,9 +18,9 @@ api_location:
 
 # InterrogateService method of the Win32\_BaseService class
 
-The **InterrogateService** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method requests that the service update its state to the service manager.
+The **InterrogateService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method requests that the service update its state to the service manager.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -277,7 +277,7 @@ The service is currently paused in the system.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -291,16 +291,11 @@ The service is currently paused in the system.
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_BaseService**](win32-baseservice.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

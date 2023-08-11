@@ -2,7 +2,6 @@
 title: Root Signatures Overview
 description: A root signature is configured by the app and links command lists to the resources the shaders require.
 ms.assetid: 2E649DA2-6CAC-4C2A-A420-D4EC0DD6EA73
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -27,7 +26,7 @@ The root constants are inline 32-bit values that show up in the shader as a cons
 
 The inlined root descriptors should contain descriptors that are accessed most often, though is limited to CBVs, and raw or structured UAV or SRV buffers. A more complex type, such as a 2D texture SRV, cannot be used as a root descriptor. Root descriptors do not include a size limit, so there can be no out-of-bounds checking, unlike descriptors in descriptor heaps, which do include a size.
 
-Descriptor table entries within root signatures contain the descriptor, HLSL shader bind name and visibility flag. Refer to [Shader Model 5.1](https://docs.microsoft.com/windows/desktop/direct3dhlsl/shader-model-5-1) for details of shader names. On some hardware, there can be a performance gain from only making descriptors visible to the shader stages that require them (refer to [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility)).
+Descriptor table entries within root signatures contain the descriptor, HLSL shader bind name and visibility flag. Refer to [Shader Model 5.1](/windows/desktop/direct3dhlsl/shader-model-5-1) for details of shader names. On some hardware, there can be a performance gain from only making descriptors visible to the shader stages that require them (refer to [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility)).
 
 ![root descriptor table entry](images/root-descriptor-table.png)
 
@@ -37,7 +36,7 @@ The contents of the root signature (the descriptor tables, root constants and ro
 
 Ideally, there are groups of Pipeline State Objects (PSOs) that share the same root signature. After a root signature is set on the pipeline, all the bindings that it defines (descriptor tables, descriptors, constants) can each be individually set or changed, including inheritance into bundles.
 
-An app can make its own tradeoff between how many descriptor tables it wants verses inline descriptors (which take more space but remove an indirection) verses inline constants (which have no indirection) they want in the root signature. Applications should use the root signature as sparingly as possible, relying on application controlled memory such as heaps and descriptor heaps pointing into them to represent bulk data.
+An app can make its own tradeoff between how many descriptor tables it wants versus inline descriptors (which take more space but remove an indirection) versus inline constants (which have no indirection) they want in the root signature. Applications should use the root signature as sparingly as possible, relying on application controlled memory such as heaps and descriptor heaps pointing into them to represent bulk data.
 
 ## Related topics
 
@@ -49,7 +48,3 @@ An app can make its own tradeoff between how many descriptor tables it wants ver
  
 
  
-
-
-
-

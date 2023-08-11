@@ -1,5 +1,5 @@
 ---
-Description: Returns a handle to the handshake hash.
+description: Returns a handle to the handshake hash.
 ms.assetid: c0f20084-c863-42cf-afdf-298c5a96eed9
 title: SslHashHandshake function (Sslprovider.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ SECURITY_STATUS WINAPI SslHashHandshake(
 *hSslProvider* \[in\]
 </dt> <dd>
 
-The handle to the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
+The handle to the [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
 
 </dd> <dt>
 
@@ -89,7 +89,7 @@ The **SslHashHandshake** function is one of three functions used to generate a h
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
@@ -99,9 +99,4 @@ The **SslHashHandshake** function is one of three functions used to generate a h
 
 
  
-
- 
-
-
-
 

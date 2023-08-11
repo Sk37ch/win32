@@ -21,13 +21,13 @@ typedef UINT64 D2D1_TAG;
 
 ## Remarks
 
-To set a tag before a series of rendering operations, use the [**ID2D1RenderTarget::SetTags**](https://msdn.microsoft.com/library/Dd316892(v=VS.85).aspx) method. To retrieve the current tag, use the [**ID2D1RenderTarget::GetTags**](https://msdn.microsoft.com/library/Dd316830(v=VS.85).aspx) method.
+To set a tag before a series of rendering operations, use the [**ID2D1RenderTarget::SetTags**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-settags) method. To retrieve the current tag, use the [**ID2D1RenderTarget::GetTags**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-gettags) method.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
 | Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
@@ -40,17 +40,11 @@ To set a tag before a series of rendering operations, use the [**ID2D1RenderTarg
 
 <dl> <dt>
 
-[**GetTags**](https://msdn.microsoft.com/library/Dd316830(v=VS.85).aspx)
+[**GetTags**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-gettags)
 </dt> <dt>
 
-[**SetTags**](https://msdn.microsoft.com/library/Dd316892(v=VS.85).aspx)
+[**SetTags**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-settags)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

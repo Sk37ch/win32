@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.CameraManufacturer property.
+description: The photo metadata policy for the System.Photo.CameraManufacturer property.
 ms.assetid: 6710161c-4835-4385-9d4c-566acc000925
 title: System.Photo.CameraManufacturer Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.CameraManufacturer Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.CameraManufacturer](https://msdn.microsoft.com/library/bb760379(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.CameraManufacturer](../properties/props-system-photo-cameramanufacturer.md) property.
 
 ### PKEY
 
@@ -128,12 +128,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Photo.CameraManufacturer](https://msdn.microsoft.com/library/bb760379(VS.85).aspx)
+[System.Photo.CameraManufacturer](../properties/props-system-photo-cameramanufacturer.md)
 </dt> </dl>
 
  
 
  
-
-
-

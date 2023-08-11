@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.ShutterSpeed property.
+description: The photo metadata policy for the System.Photo.ShutterSpeed property.
 ms.assetid: f320944c-978d-4a3c-9bf8-5c5652123e29
 title: System.Photo.ShutterSpeed Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.ShutterSpeed Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.ShutterSpeed](https://msdn.microsoft.com/library/bb787267(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.ShutterSpeed](../properties/props-system-photo-shutterspeed.md) property.
 
 ### PKEY
 
@@ -118,12 +118,9 @@ This value is generated from System.Photo.ShutterSpeedNumerator and System.Photo
 
 <dl> <dt>
 
-[System.Photo.ShutterSpeed](https://msdn.microsoft.com/library/bb787267(VS.85).aspx)
+[System.Photo.ShutterSpeed](../properties/props-system-photo-shutterspeed.md)
 </dt> </dl>
 
  
 
  
-
-
-

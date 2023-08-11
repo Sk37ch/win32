@@ -1,5 +1,5 @@
 ---
-Description: How symbolic links affect standard file functions that use path names to specify one or more files.
+description: How symbolic links affect standard file functions that use path names to specify one or more files.
 ms.assetid: afda53eb-d0db-4844-9dd0-8a7d93ca341f
 title: Symbolic Link Effects on File Systems Functions
 ms.topic: article
@@ -39,7 +39,7 @@ In the descriptions below, the following terms are used:
 -   Target—The entity that a symbolic link points to.
 
 > [!Note]  
-> The behavior of functions that accept a handle created using the [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) function, such as the [**GetFileTime**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfiletime) function, will differ based on whether or not the **CreateFile** function was called using the **FILE\_FLAG\_OPEN\_REPARSE\_POINT** flag. For more information, see [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) and the following [CreateFile and CreateFileTransacted](#createfile-and-createfiletransacted) section.
+> The behavior of functions that accept a handle created using the [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) function, such as the [**GetFileTime**](/windows/desktop/api/fileapi/nf-fileapi-getfiletime) function, will differ based on whether or not the **CreateFile** function was called using the **FILE\_FLAG\_OPEN\_REPARSE\_POINT** flag. For more information, see [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) and the following [CreateFile and CreateFileTransacted](#createfile-and-createfiletransacted) section.
 
  
 
@@ -47,7 +47,7 @@ In the descriptions below, the following terms are used:
 
 If the source file is a symbolic link, the actual file copied is the target of the symbolic link.
 
-If the destination file already exists and is a symbolic link, the symbolic link is overwritten by the source file.
+If the destination file already exists and is a symbolic link, the target of the symbolic link is overwritten by the source file.
 
 ## CopyFileEx
 
@@ -214,7 +214,7 @@ If the path points to a symbolic link, the function returns attributes for the s
 [**GetFileAttributesEx**](/windows/desktop/api/FileAPI/nf-fileapi-getfileattributesexa)
 </dt> <dt>
 
-[**GetFileSecurity**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfilesecuritya)
+[**GetFileSecurity**](/windows/desktop/api/winbase/nf-winbase-getfilesecuritya)
 </dt> <dt>
 
 [**GetTempPath**](/windows/desktop/api/FileAPI/nf-fileapi-gettemppatha)
@@ -226,12 +226,9 @@ If the path points to a symbolic link, the function returns attributes for the s
 [**SetFileAttributes**](/windows/desktop/api/FileAPI/nf-fileapi-setfileattributesa)
 </dt> <dt>
 
-[**SetFileSecurity**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setfilesecuritya)
+[**SetFileSecurity**](/windows/desktop/api/winbase/nf-winbase-setfilesecuritya)
 </dt> </dl>
 
  
 
  
-
-
-

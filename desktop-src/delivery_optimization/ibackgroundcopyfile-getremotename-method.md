@@ -41,7 +41,7 @@ HRESULT GetRemoteName(
 *ppName* \[out\]
 </dt> <dd>
 
-Null-terminated string that contains the remote name of the file to transfer. The name is fully qualified. Call the [**CoTaskMemFree**](https://msdn.microsoft.com/windows/desktop/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7) function to free *ppName* when done.
+Null-terminated string that contains the remote name of the file to transfer. The name is fully qualified. Call the [**CoTaskMemFree**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) function to free *ppName* when done.
 
 </dd> </dl>
 
@@ -57,7 +57,7 @@ To change the remote file name, call the [**IBackgroundCopyFile2::SetRemoteName*
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
@@ -80,10 +80,4 @@ To change the remote file name, call the [**IBackgroundCopyFile2::SetRemoteName*
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

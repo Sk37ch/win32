@@ -1,5 +1,5 @@
 ---
-Description: Adds guest service settings to a virtual system configuration.
+description: Adds guest service settings to a virtual system configuration.
 ms.assetid: 2c8c2f2b-332a-470e-af7f-80c82e3e2caf
 title: AddGuestServiceSettings method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -63,7 +63,7 @@ On success, contains a reference to a [**CIM\_SettingData**](cim-settingdata.md)
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -104,7 +104,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -122,9 +122,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

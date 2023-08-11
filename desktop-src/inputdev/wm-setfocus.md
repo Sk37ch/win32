@@ -57,7 +57,7 @@ To display a caret, an application should call the appropriate caret functions w
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -72,7 +72,7 @@ To display a caret, an application should call the appropriate caret functions w
 **Reference**
 </dt> <dt>
 
-[**SetFocus**](https://msdn.microsoft.com/library/ms646312(v=VS.85).aspx)
+[**SetFocus**](/windows/win32/api/winuser/nf-winuser-setfocus)
 </dt> <dt>
 
 [**WM\_KILLFOCUS**](wm-killfocus.md)
@@ -85,10 +85,4 @@ To display a caret, an application should call the appropriate caret functions w
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

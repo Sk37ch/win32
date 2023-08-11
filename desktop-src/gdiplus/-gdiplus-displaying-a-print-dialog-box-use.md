@@ -1,5 +1,5 @@
 ---
-Description: One way to get a device context handle for a printer is to display a print dialog box and allow the user to choose a printer.
+description: One way to get a device context handle for a printer is to display a print dialog box and allow the user to choose a printer.
 ms.assetid: 73a74186-c916-4ad9-b768-6bc887fd5231
 title: Displaying a Print Dialog Box
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Displaying a Print Dialog Box
 
-One way to get a device context handle for a printer is to display a print dialog box and allow the user to choose a printer. The [PrintDlg](https://msdn.microsoft.com/library/en-us/winui/winui/windowsuserinterface/userinput/commondialogboxlibrary/commondialogboxreference/commondialogboxfunctions/printdlg.asp) function (which displays the dialog box) has one parameter that is the address of a [PRINTDLG](https://msdn.microsoft.com/library/en-us/winui/winui/windowsuserinterface/userinput/commondialogboxlibrary/commondialogboxreference/commondialogboxstructures/printdlg.asp) structure. The PRINTDLG structure has several members, but you can leave most of them set to their default values. The two members you need to set are **lStructSize** and **Flags**. Set **lStructSize** to the size of a PRINTDLG variable, and set **Flags** to PD\_RETURNDC. Setting **Flags** to PC\_RETURNDC specifies that you want the PrintDlg function to fill the **hDC** field with a device context handle for the printer chosen by the user.
+One way to get a device context handle for a printer is to display a print dialog box and allow the user to choose a printer. The [PrintDlg](/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)) function (which displays the dialog box) has one parameter that is the address of a [PRINTDLG](/windows/win32/api/commdlg/ns-commdlg-printdlga?redirectedfrom=MSDN) structure. The PRINTDLG structure has several members, but you can leave most of them set to their default values. The two members you need to set are **lStructSize** and **Flags**. Set **lStructSize** to the size of a PRINTDLG variable, and set **Flags** to PD\_RETURNDC. Setting **Flags** to PC\_RETURNDC specifies that you want the PrintDlg function to fill the **hDC** field with a device context handle for the printer chosen by the user.
 
 
 ```
@@ -74,6 +74,3 @@ INT main()
  
 
  
-
-
-

@@ -8,10 +8,13 @@ keywords:
 - ASF (Advanced Systems Format),attributes
 - attributes,list of
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Attribute List
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The predefined attributes included with this SDK are presented alphabetically in the following table. Each attribute has a name, a global identifier, and a data type as defined by the appropriate member of the [**WMT\_ATTR\_DATATYPE**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_attr_datatype) enumeration. Some attributes do not use a simple data type, or are formatted according to a structure. Entries for these attributes list a structure name in the data-type column with the data type used to set the value in parentheses.
 
@@ -148,7 +151,7 @@ When you are programming with these attributes, you should use the global identi
 | [**WM/PartOfSet**](wm-partofset.md)                                                 | g\_wszWMPartOfSet                             | **WMT\_TYPE\_STRING**                                |
 | [**WM/PeakBitrate**](wm-peakbitrate.md)                                             | g\_wszWMPeakBitrate                           | **WMT\_TYPE\_DWORD**                                 |
 | [**WM/Period**](wm-period.md)                                                       | g\_wszWMPeriod                                | **WMT\_TYPE\_STRING**                                |
-| [**WM/Picture**](https://docs.microsoft.com/windows/desktop/wmformat/wmpicture)                                      | g\_wszWMPicture                               | **WM\_PICTURE** (**WMT\_TYPE\_BINARY**)              |
+| [**WM/Picture**](/windows/desktop/wmformat/wmpicture)                                      | g\_wszWMPicture                               | **WM\_PICTURE** (**WMT\_TYPE\_BINARY**)              |
 | [**WM/PlaylistDelay**](wm-playlistdelay.md)                                         | g\_wszWMPlaylistDelay                         | **WMT\_TYPE\_STRING**                                |
 | [**WM/Producer**](wm-producer.md)                                                   | g\_wszWMProducer                              | **WMT\_TYPE\_STRING**                                |
 | [**WM/PromotionURL**](wm-promotionurl.md)                                           | g\_wszWMPromotionURL                          | **WMT\_TYPE\_STRING**                                |
@@ -218,7 +221,3 @@ The following constants are defined with the attributes. Each one indicates the 
  
 
  
-
-
-
-

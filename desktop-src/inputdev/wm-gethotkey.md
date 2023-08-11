@@ -64,13 +64,13 @@ The return value is the virtual-key code and modifiers for the hot key, or **NUL
 
 ## Remarks
 
-These hot keys are unrelated to the hot keys set by the [**RegisterHotKey**](https://msdn.microsoft.com/library/ms646309(v=VS.85).aspx) function.
+These hot keys are unrelated to the hot keys set by the [**RegisterHotKey**](/windows/win32/api/winuser/nf-winuser-registerhotkey) function.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -85,7 +85,7 @@ These hot keys are unrelated to the hot keys set by the [**RegisterHotKey**](htt
 **Reference**
 </dt> <dt>
 
-[**RegisterHotKey**](https://msdn.microsoft.com/library/ms646309(v=VS.85).aspx)
+[**RegisterHotKey**](/windows/win32/api/winuser/nf-winuser-registerhotkey)
 </dt> <dt>
 
 [**WM\_SETHOTKEY**](wm-sethotkey.md)
@@ -98,10 +98,4 @@ These hot keys are unrelated to the hot keys set by the [**RegisterHotKey**](htt
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

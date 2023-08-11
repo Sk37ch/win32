@@ -1,5 +1,5 @@
 ---
-Description: The shutdown reason codes are used by the ExitWindowsEx and InitiateSystemShutdownEx functions in the dwReason parameter. A maximum of MAX\_NUM\_REASONS reason codes will be processed by the system. MAX\_NUM\_REASONS is defined in reason.h.
+description: The shutdown reason codes are used by the ExitWindowsEx and InitiateSystemShutdownEx functions in the dwReason parameter. A maximum of MAX\_NUM\_REASONS reason codes will be processed by the system. MAX\_NUM\_REASONS is defined in reason.h.
 ms.assetid: db1ecee0-40eb-4761-b5d8-9cc3c1c98cdf
 title: System Shutdown Reason Codes (Reason.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ The following optional flags provide additional information about the event.
 | Constant/value                                                                                                                                                                                                                                                                      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="SHTDN_REASON_FLAG_USER_DEFINED"></span><span id="shtdn_reason_flag_user_defined"></span><dl> <dt>**SHTDN\_REASON\_FLAG\_USER\_DEFINED**</dt> <dt>0x40000000</dt> </dl> | The reason code is defined by the user. For more information, see Defining a Custom Reason Code. <br/> If this flag is not present, the reason code is defined by the system.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| <span id="SHTDN_REASON_FLAG_PLANNED"></span><span id="shtdn_reason_flag_planned"></span><dl> <dt>**SHTDN\_REASON\_FLAG\_PLANNED**</dt> <dt>0x80000000</dt> </dl>                 | The shutdown was planned. The system generates a System State Data (SSD) file. This file contains system state information such as the processes, threads, memory usage, and configuration. <br/> If this flag is not present, the shutdown was unplanned. Notification and reporting options are controlled by a set of policies. For example, after logging in, the system displays a dialog box reporting the unplanned shutdown if the policy has been enabled. An SSD file is created only if the SSD policy is enabled on the system. The administrator can use [Windows Error Reporting](https://msdn.microsoft.com/library/Bb513641(v=VS.85).aspx) to send the SSD data to a central location, or to Microsoft.<br/> |
+| <span id="SHTDN_REASON_FLAG_PLANNED"></span><span id="shtdn_reason_flag_planned"></span><dl> <dt>**SHTDN\_REASON\_FLAG\_PLANNED**</dt> <dt>0x80000000</dt> </dl>                 | The shutdown was planned. The system generates a System State Data (SSD) file. This file contains system state information such as the processes, threads, memory usage, and configuration. <br/> If this flag is not present, the shutdown was unplanned. Notification and reporting options are controlled by a set of policies. For example, after logging in, the system displays a dialog box reporting the unplanned shutdown if the policy has been enabled. An SSD file is created only if the SSD policy is enabled on the system. The administrator can use [Windows Error Reporting](../wer/windows-error-reporting.md) to send the SSD data to a central location, or to Microsoft.<br/> |
 
 
 
@@ -166,7 +166,7 @@ The data for each registry value is two strings, separated by \\n\\r. The first 
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps \| UWP apps\]<br/>                         |
@@ -177,7 +177,3 @@ The data for each registry value is two strings, separated by \\n\\r. The first 
  
 
  
-
-
-
-

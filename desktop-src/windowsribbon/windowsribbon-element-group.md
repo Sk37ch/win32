@@ -36,10 +36,10 @@ Represents a [Group](windowsribbon-controls-group.md) control that functions as 
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -133,12 +133,8 @@ The following code example illustrates the use of a custom template in a **Group
 
 ## Element information
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
-| Can be empty                        | No        |
+* **Minimum supported system**: Windows 7
+* **Can be empty**: No
 
 
 
@@ -152,14 +148,8 @@ The following code example illustrates the use of a custom template in a **Group
 [Group control](windowsribbon-controls-group.md)
 </dt> <dt>
 
-[**SetModes**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes)
+[**SetModes**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

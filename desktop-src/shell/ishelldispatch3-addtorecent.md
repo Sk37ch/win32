@@ -1,5 +1,5 @@
 ---
-Description: Adds a file to the most recently used (MRU) list.
+description: IShellDispatch3.AddToRecent method - Adds a file to the most recently used (MRU) list.
 ms.assetid: aa5aef31-7f3f-4cc4-949d-1484de243ef3
 title: IShellDispatch3.AddToRecent method (Shldisp.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ A **String** that contains the path of the file to add to the list of recently u
 *bstrCategory* \[in, optional\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** that contains the name of the category in which to place the file.
 
@@ -173,7 +173,7 @@ End Sub
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |
@@ -186,7 +186,3 @@ End Sub
  
 
  
-
-
-
-

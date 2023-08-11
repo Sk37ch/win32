@@ -1,8 +1,8 @@
 ---
-Description: The ITTime interface is a provider-specific interface for a Session Descriptor Protocol (SDP) conference blob object.
+description: The ITTime interface is a provider-specific interface for a Session Descriptor Protocol (SDP) conference blob object.
 ms.assetid: '24d33259-dcbe-47e4-9c71-fcc25f6e9a76'
 title: ITTime interface (Sdpblb.h)
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -14,7 +14,7 @@ The **ITTime** interface is a provider-specific interface for a Session Descript
 
 ## Members
 
-The **ITTime** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ITTime** also has these types of members:
+The **ITTime** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **ITTime** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -39,7 +39,7 @@ The **ITTime** interface has these methods.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |
@@ -49,9 +49,4 @@ The **ITTime** interface has these methods.
 
 
  
-
- 
-
-
-
 

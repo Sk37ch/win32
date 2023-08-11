@@ -76,7 +76,7 @@ The clipboard owner can use the [**ScrollWindow**](https://msdn.microsoft.com/li
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -91,10 +91,10 @@ The clipboard owner can use the [**ScrollWindow**](https://msdn.microsoft.com/li
 **Reference**
 </dt> <dt>
 
-[**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
 </dt> <dt>
 
-[**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
+[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
 </dt> <dt>
 
 **Conceptual**
@@ -110,10 +110,4 @@ The clipboard owner can use the [**ScrollWindow**](https://msdn.microsoft.com/li
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

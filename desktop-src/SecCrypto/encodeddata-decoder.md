@@ -1,5 +1,5 @@
 ---
-Description: Obtains a decoder object, if one exists.
+description: Obtains a decoder object, if one exists.
 ms.assetid: b8a1c7c9-e7ac-4b0e-a342-5b923ab83df3
 title: EncodedData.Decoder method
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # EncodedData.Decoder method
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**AsnEncodedData Class**](https://msdn.microsoft.com/library/zt6ys2z1(v=VS.90).aspx) in the [**System.Security.Cryptography**](https://msdn.microsoft.com/library/9eat8fht(v=VS.100).aspx) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**AsnEncodedData Class**](/dotnet/api/system.security.cryptography.asnencodeddata) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography) namespace.\]
 
 The **Decoder** method obtains a decoder object, if one exists.
 
@@ -42,7 +42,7 @@ If the encoded data does not have a decoder object, **NULL** is returned.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |
@@ -54,7 +54,3 @@ If the encoded data does not have a decoder object, **NULL** is returned.
  
 
  
-
-
-
-

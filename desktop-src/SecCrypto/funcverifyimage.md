@@ -1,5 +1,5 @@
 ---
-Description: Used by a cryptographic service provider (CSP) to verify the signature of a DLL.
+description: Used by a cryptographic service provider (CSP) to verify the signature of a DLL.
 ms.assetid: 477a6c9f-05ac-485a-8b27-5605fc11c1d6
 title: CRYPT_VERIFY_IMAGE function pointer (Cspdk.h)
 ms.topic: reference
@@ -19,9 +19,9 @@ api_location:
 
 # CRYPT\_VERIFY\_IMAGE function pointer
 
-The **FuncVerifyImage** callback function is used by a [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP) to verify the signature of a DLL.
+The **FuncVerifyImage** callback function is used by a [*cryptographic service provider*](../secgloss/c-gly.md) (CSP) to verify the signature of a DLL.
 
-All auxiliary DLLs into which a CSP makes function calls must be signed in the same manner (and with the same key) as the primary CSP DLL. To ensure this signature, the auxiliary DLLs must be loaded dynamically by using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) function. But before the DLL is loaded, the signature of the DLL must be verified. The CSP performs this verification by calling the **FuncVerifyImage** function, as shown in the example below.
+All auxiliary DLLs into which a CSP makes function calls must be signed in the same manner (and with the same key) as the primary CSP DLL. To ensure this signature, the auxiliary DLLs must be loaded dynamically by using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) function. But before the DLL is loaded, the signature of the DLL must be verified. The CSP performs this verification by calling the **FuncVerifyImage** function, as shown in the example below.
 
 ## Syntax
 
@@ -96,7 +96,7 @@ if(RCRYPT_FAILED(ProvVerifyImage
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
@@ -117,7 +117,3 @@ if(RCRYPT_FAILED(ProvVerifyImage
  
 
  
-
-
-
-

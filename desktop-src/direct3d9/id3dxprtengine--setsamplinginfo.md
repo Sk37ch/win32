@@ -1,5 +1,5 @@
 ---
-Description: Sets sampling properties used by the precomputed radiance transfer (PRT) simulator.
+description: Sets sampling properties used by the precomputed radiance transfer (PRT) simulator.
 ms.assetid: a33963a7-fbcb-4e1c-a4f3-fb20a99fcf9f
 title: ID3DXPRTEngine::SetSamplingInfo method (D3DX9Mesh.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ HRESULT SetSamplingInfo(
 *NumRays* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of light rays to direct at each sample. Must be greater than zero.
 
@@ -51,7 +51,7 @@ Number of light rays to direct at each sample. Must be greater than zero.
 *UseSphere* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 If **TRUE**, samples will be computed over a full sphere. If **FALSE**, samples will be computed over a hemisphere.
 
@@ -60,7 +60,7 @@ If **TRUE**, samples will be computed over a full sphere. If **FALSE**, samples 
 *UseCosine* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 If **TRUE**, use a cosine weighting of samples. If both UseCosine and UseSphere are **TRUE**, the method will fail and an error will be returned.
 
@@ -69,7 +69,7 @@ If **TRUE**, use a cosine weighting of samples. If both UseCosine and UseSphere 
 *Adaptive* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 Must be **FALSE**. Adaptive sampling is currently not implemented.
 
@@ -78,7 +78,7 @@ Must be **FALSE**. Adaptive sampling is currently not implemented.
 *AdaptiveThresh* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Ignored.
 
@@ -94,7 +94,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -111,7 +111,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

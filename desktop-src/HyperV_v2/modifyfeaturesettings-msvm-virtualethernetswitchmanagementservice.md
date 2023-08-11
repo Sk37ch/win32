@@ -1,5 +1,5 @@
 ---
-Description: Modifies the feature settings of an Ethernet switch port.
+description: Modifies the feature settings of an Ethernet switch port.
 ms.assetid: 8c21a932-fffb-40fd-9166-d7e351329217
 title: ModifyFeatureSettings method of the Msvm_VirtualEthernetSwitchManagementService class
 ms.topic: reference
@@ -53,7 +53,7 @@ An array of references to instances of the [**Msvm\_FeatureSettingData**](msvm-f
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -100,7 +100,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -124,9 +124,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

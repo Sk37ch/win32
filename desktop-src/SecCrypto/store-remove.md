@@ -1,5 +1,5 @@
 ---
-Description: The Remove method removes a certificate from an open certificate store. This method can only be used with a store that has been opened with read/write permission.
+description: The Remove method removes a certificate from an open certificate store. This method can only be used with a store that has been opened with read/write permission.
 ms.assetid: 02bb8ff1-2240-4ec7-b8af-9a7812a12ba9
 title: Store.Remove method
 ms.topic: reference
@@ -17,9 +17,9 @@ api_location:
 
 # Store.Remove method
 
-\[The **Remove** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](https://msdn.microsoft.com/library/d228271e(v=VS.100).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[The **Remove** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](/dotnet/api/system.security.cryptography.x509certificates.x509store) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
-The **Remove** method removes a [*certificate*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) from an open [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx). This method can only be used with a store that has been opened with read/write permission.
+The **Remove** method removes a [*certificate*](../secgloss/c-gly.md) from an open [*certificate store*](../secgloss/c-gly.md). This method can only be used with a store that has been opened with read/write permission.
 
 ## Syntax
 
@@ -62,7 +62,7 @@ If the store is not open with read/write permission, this method fails. Although
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
@@ -82,7 +82,3 @@ If the store is not open with read/write permission, this method fails. Although
  
 
  
-
-
-
-

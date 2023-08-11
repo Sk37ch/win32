@@ -1,5 +1,5 @@
 ---
-Description: Represents the registration of a service in the Microsoft Hyper-V platform.
+description: Represents the registration of a service in the Microsoft Hyper-V platform.
 ms.assetid: 706557C2-49D6-453F-9DC0-2C655888EEBE
 title: Msvm_VirtualizationComponentRegistration class
 ms.topic: reference
@@ -73,13 +73,13 @@ A reference to an instance that describes a resource type supported by the servi
 
 ## Remarks
 
-Access to the **Msvm\_VirtualizationComponentRegistration** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_VirtualizationComponentRegistration** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -92,9 +92,4 @@ Access to the **Msvm\_VirtualizationComponentRegistration** class might be restr
 
 
  
-
- 
-
-
-
 

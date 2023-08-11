@@ -1,5 +1,5 @@
 ---
-Description: The SwitchTerminalToSubStream method sets a terminal to the participant substream.
+description: The SwitchTerminalToSubStream method sets a terminal to the participant substream.
 ms.assetid: 39e1d4b9-2e39-4b36-9a6a-89e41cd59153
 title: ITParticipantSubStreamControl::SwitchTerminalToSubStream method (Confpriv.h)
 ms.topic: reference
@@ -31,14 +31,14 @@ HRESULT SwitchTerminalToSubStream(
 *pITTerminal* \[in\]
 </dt> <dd>
 
-Pointer to [**ITTerminal**](https://msdn.microsoft.com/library/ms732646(v=VS.85).aspx) interface.
+Pointer to [**ITTerminal**](/windows/win32/api/tapi3if/nn-tapi3if-itterminal) interface.
 
 </dd> <dt>
 
 *pITSubStream* \[in\]
 </dt> <dd>
 
-Pointer to [**ITSubStream**](https://msdn.microsoft.com/library/ms732440(v=VS.85).aspx) interface.
+Pointer to [**ITSubStream**](/windows/win32/api/tapi3if/nn-tapi3if-itsubstream) interface.
 
 </dd> </dl>
 
@@ -64,7 +64,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |
@@ -83,16 +83,11 @@ This method can return one of these values.
 [**ITParticipant**](itparticipant.md)
 </dt> <dt>
 
-[**ITSubStream**](https://msdn.microsoft.com/library/ms732440(v=VS.85).aspx)
+[**ITSubStream**](/windows/win32/api/tapi3if/nn-tapi3if-itsubstream)
 </dt> <dt>
 
-[**ITTerminal**](https://msdn.microsoft.com/library/ms732646(v=VS.85).aspx)
+[**ITTerminal**](/windows/win32/api/tapi3if/nn-tapi3if-itterminal)
 </dt> </dl>
 
  
-
- 
-
-
-
 

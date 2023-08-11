@@ -1,5 +1,5 @@
 ---
-Description: Modifies the disk merge setting data.
+description: Modifies the disk merge setting data.
 ms.assetid: 91775dc5-105a-4e38-a334-fb34dd4e59f8
 title: ModifyDiskMergeSettings method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -45,7 +45,7 @@ An embedded instance of the [**Msvm\_DiskMergeSettingData**](msvm-diskmergesetti
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -98,7 +98,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -116,9 +116,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

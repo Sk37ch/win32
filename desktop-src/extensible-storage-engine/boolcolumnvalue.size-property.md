@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BoolColumnValue.Size property"
 title: BoolColumnValue.Size property 
 TOCTitle: 'Size property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.BoolColumnValue.Size
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the size of the value in the column. This returns 0 for variable sized columns (i.e. binary and string).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,15 +53,14 @@ protected override int Size { get; }
 
 #### Property value
 
-Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+Type: [System.Int32](/dotnet/api/system.int32)  
 
 ## See also
 
 #### Reference
 
-[BoolColumnValue class](dn334148\(v=exchg.10\).md)
+[BoolColumnValue class](./boolcolumnvalue-class.md)
 
-[BoolColumnValue members](dn334152\(v=exchg.10\).md)
+[BoolColumnValue members](./boolcolumnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,12 +1,15 @@
 ---
-Description: How Decoders Use IAMVideoAccelerator
+description: How Decoders Use IAMVideoAccelerator
 ms.assetid: 0bc6b65b-4502-4c6f-a0f2-82a2bd444d1d
 title: How Decoders Use IAMVideoAccelerator
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # How Decoders Use IAMVideoAccelerator
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The [**IAMVideoAccelerator**](/previous-versions/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator) interface enables generic video acceleration operations, including DirectX Video Acceleration (VA). For non-DirectX VA acceleration, the decoder and video driver must both adhere to a common protocol.
 
@@ -17,7 +20,7 @@ This section describes the general order of operations that any decoder should f
 
  
 
-The [**IAMVideoAccelerator**](/previous-versions/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator) interface is exposed on the input pin of the [Overlay Mixer](overlay-mixer-filter.md) or Video Mixing Renderer (VMR). The [**IAMVideoAcceleratorNotify**](/previous-versions/previous-versions/windows/desktop/api/videoacc/nn-videoacc-iamvideoacceleratornotify) interface is exposed on the decoder's output pin. The sequence of events for connecting the filter pins is as follows:
+The [**IAMVideoAccelerator**](/previous-versions/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator) interface is exposed on the input pin of the [Overlay Mixer](overlay-mixer-filter.md) or Video Mixing Renderer (VMR). The [**IAMVideoAcceleratorNotify**](/previous-versions/windows/desktop/api/videoacc/nn-videoacc-iamvideoacceleratornotify) interface is exposed on the decoder's output pin. The sequence of events for connecting the filter pins is as follows:
 
 1.  The Filter Graph Manager calls [**IPin::Connect**](/windows/desktop/api/Strmif/nf-strmif-ipin-connect) on the decoder filter's output pin. An [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) is an optional parameter.
     -   [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) is a data structure that describes a type of media. It contains a majortype GUID (which in our case should be MEDIATYPE\_Video), a subtype GUID (which in our case should be a video accelerator GUID), and a variety of other things. One of those things is a format type GUID containing information about the media, including in our case the width and height of an uncompressed video picture, most likely in an [**MPEG1VIDEOINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo), [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader), [**MPEG2VIDEOINFO**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo), or [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) structure.
@@ -55,7 +58,7 @@ The [**IAMVideoAccelerator**](/previous-versions/windows/desktop/api/videoacc/nn
         -   A DDPIXELFORMAT, describing the pixel format used to create surfaces to store compressed data (a field which may or may not have any actual meaning).
 
 > [!Note]  
-> The renderer's calls to some of the decoder's [**IAMVideoAcceleratorNotify**](/previous-versions/previous-versions/windows/desktop/api/videoacc/nn-videoacc-iamvideoacceleratornotify) interface methods may (and normally would) occur inside of the decoder's call to the renderer's [**IPin::ReceiveConnection**](/windows/desktop/api/Strmif/nf-strmif-ipin-receiveconnection). Specifically, this applies to the following:
+> The renderer's calls to some of the decoder's [**IAMVideoAcceleratorNotify**](/previous-versions/windows/desktop/api/videoacc/nn-videoacc-iamvideoacceleratornotify) interface methods may (and normally would) occur inside of the decoder's call to the renderer's [**IPin::ReceiveConnection**](/windows/desktop/api/Strmif/nf-strmif-ipin-receiveconnection). Specifically, this applies to the following:
 >
 > -   [**IAMVideoAcceleratorNotify::GetUncompSurfacesInfo**](/previous-versions/windows/desktop/api/videoacc/nf-videoacc-iamvideoacceleratornotify-getuncompsurfacesinfo),
 > -   [**IAMVideoAcceleratorNotify::SetUncompSurfacesInfo**](/previous-versions/windows/desktop/api/videoacc/nf-videoacc-iamvideoacceleratornotify-setuncompsurfacesinfo), and

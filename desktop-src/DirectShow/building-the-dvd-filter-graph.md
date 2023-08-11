@@ -1,12 +1,15 @@
 ---
-Description: Building the DVD Filter Graph
+description: Building the DVD Filter Graph
 ms.assetid: 1d2f8284-2deb-4207-b067-24a54d6b286c
 title: Building the DVD Filter Graph
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Building the DVD Filter Graph
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 As with any DirectShow application, a DVD playback application starts by building a filter graph. DirectShow provides the following components for DVD playback:
 
@@ -76,7 +79,7 @@ DirectShow provides several video renderer filters. Before you build the graph, 
 -   Overlay Mixer Filter: [**IDDrawExclModeVideo**](/windows/desktop/api/Strmif/nn-strmif-iddrawexclmodevideo).
 -   Video Mixing Renderer 7 (VMR-7): [**IVMRFilterConfig**](/windows/desktop/api/Strmif/nn-strmif-ivmrfilterconfig).
 -   Video Mixing Renderer 9 (VMR-9): [**IVMRFilterConfig9**](/previous-versions/windows/desktop/api/Vmr9/nn-vmr9-ivmrfilterconfig9).
--   Enhanced Video Renderer (EVR): [**IEVRFilterConfig**](https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-ievrfilterconfig).
+-   Enhanced Video Renderer (EVR): [**IEVRFilterConfig**](/windows/desktop/api/evr/nn-evr-ievrfilterconfig).
 
 If you request any of these interfaces before building the filter graph, the DVD Graph Builder creates the corresponding video renderer. Later, when you build the graph, the DVD Graph Builder will try to use that renderer. But if it cannot build the graph using the renderer you selected, it may switch to another renderer. For example, your MPEG-2 decoder might not be compatible with the VMR filter, in which case the DVD Graph Builder would default to the Overlay Mixer.
 
@@ -119,6 +122,3 @@ Windowless mode avoids the problems with mouse messages altogether. You do not n
  
 
  
-
-
-

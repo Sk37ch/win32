@@ -1,5 +1,5 @@
 ---
-Description: Creates, displays, and operates a message box.
+description: Creates, displays, and operates a message box.
 ms.assetid: ec444595-da2a-4c73-a472-3820983f7303
 title: '_MessageBox function'
 ms.topic: reference
@@ -19,7 +19,7 @@ api_location:
 
 \[This function is a wrapper over the **MessageBox** function. This function may be altered or unavailable in the future. Applications should call **MessageBox** directly.\]
 
-Creates, displays, and operates a message box. See [**MessageBox**](https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx).
+Creates, displays, and operates a message box. See [**MessageBox**](/windows/win32/api/winuser/nf-winuser-messagebox).
 
 ## Syntax
 
@@ -43,7 +43,7 @@ int _MessageBox(
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Sqlunirl.dll</dt> </dl> |
 
@@ -53,13 +53,9 @@ int _MessageBox(
 
 <dl> <dt>
 
-[**MessageBox**](https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx)
+[**MessageBox**](/windows/win32/api/winuser/nf-winuser-messagebox)
 </dt> </dl>
 
  
 
  
-
-
-
-

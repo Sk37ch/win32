@@ -1,5 +1,5 @@
 ---
-Description: Enabling a privilege in an access token allows the process to perform system-level actions that it could not previously.
+description: Enabling a privilege in an access token allows the process to perform system-level actions that it could not previously.
 ms.assetid: aa2d3fe7-01ee-4243-b72c-3e8b90068e22
 title: Enabling and Disabling Privileges in C++
 ms.topic: article
@@ -26,13 +26,13 @@ Enabling a privilege in an access token allows the process to perform system-lev
 
 Before enabling any of these potentially dangerous privileges, determine that functions or operations in your code actually require the privileges. For example, very few functions in the operating system actually require the **SeTcbPrivilege**. For a list of all the available privileges, see [Privilege Constants](authorization-constants.md).
 
-The following example shows how to enable or disable a privilege in an [*access token*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly). The example calls the [**LookupPrivilegeValue**](/windows/desktop/api/Winbase/nf-winbase-lookupprivilegevaluea) function to get the [*locally unique identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LUID) that the local system uses to identify the privilege. Then the example calls the [**AdjustTokenPrivileges**](https://msdn.microsoft.com/library/Aa375202(v=VS.85).aspx) function, which either enables or disables the privilege that depends on the value of the *bEnablePrivilege* parameter.
+The following example shows how to enable or disable a privilege in an [*access token*](/windows/desktop/SecGloss/a-gly). The example calls the [**LookupPrivilegeValue**](/windows/desktop/api/Winbase/nf-winbase-lookupprivilegevaluea) function to get the [*locally unique identifier*](/windows/desktop/SecGloss/l-gly) (LUID) that the local system uses to identify the privilege. Then the example calls the [**AdjustTokenPrivileges**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges) function, which either enables or disables the privilege that depends on the value of the *bEnablePrivilege* parameter.
 
 
 ```C++
 #include <windows.h>
 #include <stdio.h>
-#pragma comment(lib, "cmcfg32.lib")
+#pragma comment(lib, "advapi32.lib")
 
 BOOL SetPrivilege(
     HANDLE hToken,          // access token handle
@@ -88,9 +88,4 @@ BOOL SetPrivilege(
 
 
  
-
- 
-
-
-
 

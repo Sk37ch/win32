@@ -1,5 +1,5 @@
 ---
-Description: If an application does not want any interference by outside events for a session from TAPI or the service provider, it should secure the call.
+description: If an application does not want any interference by outside events for a session from TAPI or the service provider, it should secure the call.
 ms.assetid: 0a3be209-e3ff-4177-abb2-ad0facbdf569
 title: Secure a Session
 ms.topic: article
@@ -14,13 +14,10 @@ An application can secure a call at the time the call is made or after the call 
 
 Not all service providers support use of this operation.
 
-**TAPI 2.x:** See [**lineSecureCall**](https://msdn.microsoft.com/library/ms736065(v=VS.85).aspx).
+**TAPI 2.x:** See [**lineSecureCall**](/windows/win32/api/tapi/nf-tapi-linesecurecall).
 
 **TAPI 3.x:** See [**ITAddress::Forward**](/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-forward).
 
  
 
  
-
-
-

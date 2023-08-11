@@ -23,7 +23,6 @@ The CLSID for this effect is CLSID\_D2D13DTransform.
     -   [Interpolation modes](#interpolation-modes)
     -   [Border modes](#border-modes)
 -   [4x4 Transform Matrix Class](#4x4-transform-matrix-class)
--   [Sample code](#sample-code)
 -   [Requirements](#requirements)
 -   [Related topics](#related-topics)
 
@@ -145,7 +144,7 @@ Direct2D provides a 4x4 matrix class to provide helper functions for transformin
 | Function                                | Description                                                                                    | Matrix                                                 |
 |-----------------------------------------|------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | Matrix4x4F::Scale(X, Y, Z)              | Generates a transform matrix that scales the projection plane in the X, Y, and/or Z direction. | ![scale3d matrix](images/3d-transform-matrix2.png)     |
-| SkewX(X)                                | Generates a transform matrix that skews the projection plane in the X direction.               | ![skew matrix](images/matrix4x4-skewx.png)             |
+| SkewX(X)                                | Generates a transform matrix that skews the projection plane in the X direction.               | ![Shows a skew matrix in the X direction.](images/matrix4x4-skewx.png)             |
 | SkewY(Y)                                | Generates a transform matrix that skews the projection plane in the Y direction.               | ![skew matrix](images/matrix4x4-skewy.png)             |
 | Translation(X, Y, Z)                    | Generates a transform matrix that translates the projection plane in the X, Y, or Z direction. | ![translate matrix](images/3d-transform-matrix4.png)   |
 | RotationX(X)                            | Generates a transform matrix that rotates the projection plane about the X axis.               | ![rotate x matrix](images/3d-transform-matrix5.png)    |
@@ -158,15 +157,11 @@ Direct2D provides a 4x4 matrix class to provide helper functions for transformin
 
  
 
-## Sample code
-
-For an example of this effect, download the [Direct2D 3D transform effect sample](https://code.msdn.microsoft.com/windowsapps/Direct2D-3D-transform-327c1e33).
-
 ## Requirements
 
 
 
-|                          |                                                                                    |
+| Requirement | Value |
 |--------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
@@ -181,14 +176,8 @@ For an example of this effect, download the [Direct2D 3D transform effect sample
 
 <dl> <dt>
 
-[**ID2D1Effect**](https://msdn.microsoft.com/library/Hh404566(v=VS.85).aspx)
+[**ID2D1Effect**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1effect)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

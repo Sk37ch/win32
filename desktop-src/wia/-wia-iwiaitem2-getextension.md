@@ -1,5 +1,5 @@
 ---
-Description: Gets the extension interfaces that might come with a Windows Image Acquisition (WIA) 2.0 device driver.
+description: Gets the extension interfaces that might come with a Windows Image Acquisition (WIA) 2.0 device driver.
 ms.assetid: 70f20f33-905c-4a88-8065-1cf876e98302
 title: IWiaItem2::GetExtension method (Wia.h)
 ms.topic: reference
@@ -94,7 +94,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 An application invokes this method to create an extension object implementing one of the WIA 2.0 driver extension interfaces. **IWiaItem2::GetExtension** stores the address of the extension object's extension interface in the *riidExtensionInterface* parameter. The application then uses the interface pointer to call its methods.
 
-Applications must call the [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method on the interface pointers they receive through the *riidExtensionInterface* parameter.
+Applications must call the [IUnknown::Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) method on the interface pointers they receive through the *riidExtensionInterface* parameter.
 
 ## Examples
 
@@ -149,7 +149,7 @@ CreateSegmentationFilter(
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
@@ -161,7 +161,3 @@ CreateSegmentationFilter(
  
 
  
-
-
-
-

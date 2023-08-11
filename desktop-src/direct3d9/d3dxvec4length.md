@@ -1,22 +1,25 @@
 ---
-Description: Returns the length of a 4D vector.
+description: Returns the length of a 4D vector.
 ms.assetid: cb332160-3e3d-41b9-bfb0-e3b743d2eafd
 title: D3DXVec4Length function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec4Length
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXVec4Length function
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Returns the length of a 4D vector.
 
@@ -46,7 +49,7 @@ Pointer to the source [**D3DXVECTOR4**](d3dxvector4.md) structure.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The vector's length.
 
@@ -54,7 +57,7 @@ The vector's length.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -74,7 +77,3 @@ The vector's length.
  
 
  
-
-
-
-

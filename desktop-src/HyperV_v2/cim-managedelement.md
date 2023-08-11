@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ManagedElement class is an abstract class that provides a common superclass (or top of the inheritance tree) for the non-association classes in the CIM Schema.
+description: The CIM\_ManagedElement class is an abstract class that provides a common superclass (or top of the inheritance tree) for the non-association classes in the CIM Schema.
 ms.assetid: 6655a480-37bd-403c-9673-4eaa3d381201
 title: CIM_ManagedElement class
 ms.topic: reference
@@ -57,7 +57,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64)
+Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64)
 </dt> </dl>
 
 A short textual description of the object.
@@ -121,7 +121,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -132,9 +132,4 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 
 
  
-
- 
-
-
-
 

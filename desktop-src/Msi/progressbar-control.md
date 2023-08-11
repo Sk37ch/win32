@@ -1,5 +1,5 @@
 ---
-Description: The ProgressBar control displays a bar graph that changes length as it receives progress messages. This control subscribes to the SetProgress ControlEvent. It can subscribe to a ControlEvent named after the action being monitored.
+description: The ProgressBar control displays a bar graph that changes length as it receives progress messages. This control subscribes to the SetProgress ControlEvent. It can subscribe to a ControlEvent named after the action being monitored.
 ms.assetid: '0d366a1b-3c7e-4590-8557-c6a7d1fcd426'
 title: ProgressBar Control
 ms.topic: article
@@ -34,12 +34,8 @@ You can use the following attributes with this control. To change the value of a
 
 ## Remarks
 
-This control can be created from the PROGRESS\_CLASS class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the **WS\_CHILD** and **WS\_GROUP** styles.
+This control can be created from the PROGRESS\_CLASS class by using the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function. It has the **WS\_CHILD** and **WS\_GROUP** styles.
 
  
 
  
-
-
-
-

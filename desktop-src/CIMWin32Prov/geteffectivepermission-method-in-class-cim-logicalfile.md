@@ -1,5 +1,5 @@
 ---
-Description: Determines whether the caller has the aggregated permissions on the CIM\_LogicalFile object, and the share on which the file or directory resides, as specified by the Permissions argument.
+description: Determines whether the caller has the aggregated permissions on the CIM\_LogicalFile object, and the share on which the file or directory resides, as specified by the Permissions argument.
 ms.assetid: 7b6845df-2427-44a8-bd91-9a4ba65caa51
 ms.tgt_platform: multiple
 title: GetEffectivePermission method of the CIM_LogicalFile class (Aclui.h)
@@ -25,7 +25,7 @@ The **GetEffectivePermission** method determines whether the caller has the aggr
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -217,7 +217,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -239,9 +239,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

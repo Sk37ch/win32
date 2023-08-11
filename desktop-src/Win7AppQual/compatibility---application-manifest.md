@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Application Manifest
 ms.assetid: f022374d-ea3f-477f-9b59-3188b775ed64
 title: Application Manifest
 ms.topic: article
@@ -10,15 +10,25 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Clients** - Windows 7  
+**Clients** - Windows 7  
 **Servers** - Windows Server 2008 R2  
-</dl>
+
+
+
+
+
+
+
+
 
 ## Feature Impact
 
-<dl> **Severity** - Low  
+ **Severity** - Low  
 **Frequency** - Low  
-</dl>
+
+
+
+
 
 ## Description
 
@@ -117,19 +127,16 @@ The value of adding GUIDs for both operating systems in the above example is to 
 
 **Crash dump diagnosis blocked**
 
-**Solution** Go to the Microsoft Support page for [KB 976038: Exceptions that are thrown from an application that runs in a 64-bit version of Windows are ignored](https://support.microsoft.com/kb/976038) for additional details.
+**Solution** Go to the Microsoft Support page for KB 976038: Exceptions that are thrown from an application that runs in a 64-bit version of Windows are ignored  for additional details.
 
 ## Links to Other Resources
 
--   [**QueryActCtxW Function**](https://msdn.microsoft.com/library/Aa375704(v=VS.85).aspx)
--   [UAC manifest](https://msdn.microsoft.com/library/Bb756929(v=MSDN.10).aspx)
--   [Application manifests for Windows applications](https://msdn.microsoft.com/library/Aa374191(v=VS.85).aspx)
--   [Desktop Window Manager (DWM)](https://msdn.microsoft.com/library/Aa969540(v=VS.85).aspx)
+-   [**QueryActCtxW Function**](/windows/win32/api/winbase/nf-winbase-queryactctxw)
+-   [UAC manifest](/previous-versions/bb756929(v=msdn.10))
+-   [Application manifests for Windows applications](../sbscs/application-manifests.md)
+-   [Desktop Window Manager (DWM)](../dwm/dwm-overview.md)
 -   [Context Mismatch Update](https://support.microsoft.com/kb/978637)
 
  
 
  
-
-
-

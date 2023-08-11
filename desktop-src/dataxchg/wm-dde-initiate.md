@@ -41,7 +41,7 @@ A handle to the client window sending the message.
 *lParam* 
 </dt> <dd>
 
-The low-order word contains an atom that identifies the application with which a conversation is requested. The application name cannot contain slashes (/) or backslashes (\). These characters are reserved for network implementations. If this parameter is **NULL**, a conversation with all applications is requested.
+The low-order word contains an atom that identifies the application with which a conversation is requested. The application name cannot contain slashes (/) or backslashes (\\). These characters are reserved for network implementations. If this parameter is **NULL**, a conversation with all applications is requested.
 
 The high-order word contains an atom that identifies the topic for which a conversation is requested. If the topic is **NULL**, conversations for all available topics are requested.
 
@@ -53,13 +53,13 @@ If the low-order word of *lParam* is **NULL**, any server application can respon
 
 ### Sending
 
-The client broadcasts the message to all top-level windows by setting the first parameter of [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage) to **HWND\_BROADCAST**.
+The client broadcasts the message to all top-level windows by setting the first parameter of [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage) to **HWND\_BROADCAST**.
 
-If the client application has already obtained the window handle of the desired server, it can send **WM\_DDE\_INITIATE** directly to the server window by passing the server's window handle as the first parameter of [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage).
+If the client application has already obtained the window handle of the desired server, it can send **WM\_DDE\_INITIATE** directly to the server window by passing the server's window handle as the first parameter of [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage).
 
 The client application allocates atoms by calling the [**GlobalAddAtom**](/windows/desktop/api/Winbase/nf-winbase-globaladdatoma) function.
 
-When [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage) returns, the client application must delete the atoms.
+When [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage) returns, the client application must delete the atoms.
 
 ### Receiving
 
@@ -69,7 +69,7 @@ To complete the initiation of a conversation, the server application must respon
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |
@@ -87,10 +87,10 @@ To complete the initiation of a conversation, the server application must respon
 [**GlobalAddAtom**](/windows/desktop/api/Winbase/nf-winbase-globaladdatoma)
 </dt> <dt>
 
-[**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea)
+[**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea)
 </dt> <dt>
 
-[**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage)
+[**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage)
 </dt> <dt>
 
 [**WM\_DDE\_ACK**](wm-dde-ack.md)
@@ -103,10 +103,4 @@ To complete the initiation of a conversation, the server application must respon
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

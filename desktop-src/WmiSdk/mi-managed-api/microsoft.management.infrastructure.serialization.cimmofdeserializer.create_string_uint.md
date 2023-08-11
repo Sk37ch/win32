@@ -1,4 +1,5 @@
 ---
+description: Describes the **CimMofDeserializer.Create** method, and provides its syntax, parameters, and return value.
 title: CimMofDeserializer.Create method (String, UInt32) (Microsoft.Management.Infrastructure.Serialization)
 TOCTitle: CimMofDeserializer.Create method (String, UInt32) (Microsoft.Management.Infrastructure.Serialization)
 ms:assetid: M:Microsoft.Management.Infrastructure.Serialization.CimMofDeserializer.Create(System.String,System.UInt32)
@@ -28,7 +29,7 @@ ms.topic: reference
 
 Creates and initializes a custom deserializer, based on the specified format and flags.
 
-**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](hh832966\(v=vs.85\).md)  
+**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))  
 **Assembly:**  Microsoft.Management.Infrastructure (in Microsoft.Management.Infrastructure.dll)  
 
 ## Syntax
@@ -64,14 +65,14 @@ Public Shared Function Create (
 #### Parameters
 
   - format  
-    Type: [System.String](/dotnet/api/system.string?view=netframework-4.8)
+    Type: [System.String](/dotnet/api/system.string)
     
     The serialization format. Only "MI_XML" is supported.
 
 <!-- end list -->
 
   - flags  
-    Type: [System.UInt32](/dotnet/api/system.uint32?view=netframework-4.8)
+    Type: [System.UInt32](/dotnet/api/system.uint32)
     
     The serialization flags. Must be 0.
 
@@ -84,4 +85,4 @@ The newly created deserializer object.
 ## See also
 
 [CimMofDeserializer class](microsoft.management.infrastructure.serialization.cimmofdeserializer.md)
-[Microsoft.Management.Infrastructure.Serialization namespace](hh832966\(v=vs.85\).md)
+[Microsoft.Management.Infrastructure.Serialization namespace](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))

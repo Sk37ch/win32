@@ -1,5 +1,5 @@
 ---
-Description: Virtualization WMI classes related to virtual machine management.
+description: Virtualization WMI classes related to virtual machine management.
 ms.assetid: CE1BC344-CA27-4744-ACD7-0623CC54E532
 title: Virtual system management classes
 ms.topic: reference
@@ -27,7 +27,7 @@ The following are virtualization WMI classes related to virtual machine manageme
 | [**Msvm\_OwningJobElement**](msvm-owningjobelement.md)<br/>                                                   | Represents an association between a job and the managed element responsible for the creation of the job.<br/>                                                                                                                                                  |
 | [**Msvm\_ServiceAffectsElement**](msvm-serviceaffectselement.md)<br/>                                         | Associates a virtual machine instance with the management service that controls its state.<br/>                                                                                                                                                                |
 | [**Msvm\_ServicingSettings**](msvm-servicingsettings.md)<br/>                                                 | Contains settings used during servicing operations.<br/>                                                                                                                                                                                                       |
-| [**Msvm\_SettingsDefineState**](msvm-settingsdefinestate.md)<br/>                                             | Associates a virtual machine and its devices with instances of [**CIM\_SettingData**](https://docs.microsoft.com/previous-versions//cc136911(v=vs.85)) that represent the current settings that apply to these objects.<br/>                                                                               |
+| [**Msvm\_SettingsDefineState**](msvm-settingsdefinestate.md)<br/>                                             | Associates a virtual machine and its devices with instances of [**CIM\_SettingData**](/previous-versions//cc136911(v=vs.85)) that represent the current settings that apply to these objects.<br/>                                                                               |
 | [**Msvm\_SystemExportSettingData**](msvm-systemexportsettingdata.md)<br/>                                     | Associates a virtual machine and its export setting data.<br/>                                                                                                                                                                                                 |
 | [**Msvm\_VirtualSystemExportSettingData**](msvm-virtualsystemexportsettingdata.md)<br/>                       | Provides additional information to be used with the [**ExportSystemDefinition**](exportsystemdefinition-msvm-virtualsystemmanagementservice.md) method of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class.<br/> |
 | [**Msvm\_VirtualSystemManagementCapabilities**](msvm-virtualsystemmanagementcapabilities.md)<br/>             | Describes the capabilities of the associated [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md).<br/>                                                                                                                         |
@@ -40,9 +40,4 @@ The following are virtualization WMI classes related to virtual machine manageme
  
 
  
-
- 
-
-
-
 

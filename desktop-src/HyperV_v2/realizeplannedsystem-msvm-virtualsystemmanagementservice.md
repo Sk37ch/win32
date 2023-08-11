@@ -1,5 +1,5 @@
 ---
-Description: Validates the configuration of a planned virtual machine and converts it to a realized virtual machine.
+description: Validates the configuration of a planned virtual machine and converts it to a realized virtual machine.
 ms.assetid: bddbdc35-4603-45c3-96b4-04f445dbb3a6
 title: RealizePlannedSystem method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -55,7 +55,7 @@ Datatype updated from [**Msvm\_ComputerSystem**](msvm-computersystem.md) in Wind
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -106,7 +106,7 @@ This method returns one of the following values.
 
 ## Examples
 
-The following C# sample uses the **RealizePlannedSystem** method to realize a planned virtual machine. This code is taken from the [Hyper-V planned virtual machines sample](https://code.msdn.microsoft.com/windowsdesktop/Hyper-V-planned-virtual-8c7b7499). The referenced utilities can be found in [Common utilities for the virtualization samples (V2)](common-utilities-for-the-virtualization-samples-v2.md).
+The following C# sample uses the **RealizePlannedSystem** method to realize a planned virtual machine. This code is taken from the [Hyper-V planned virtual machines sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Hyper-V/Pvm). The referenced utilities can be found in [Common utilities for the virtualization samples (V2)](common-utilities-for-the-virtualization-samples-v2.md).
 
 > [!IMPORTANT]
 > To function correctly, the following code must be run on the virtual machine host server, and must be run with Administrator privileges.
@@ -165,7 +165,7 @@ RealizePvm(
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -183,9 +183,4 @@ RealizePvm(
 </dt> </dl>
 
  
-
- 
-
-
-
 

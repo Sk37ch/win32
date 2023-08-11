@@ -1,5 +1,5 @@
 ---
-Description: Animates the mesh and advances the global animation time by a specified amount.
+description: Animates the mesh and advances the global animation time by a specified amount.
 ms.assetid: a822d92a-c301-4289-b67b-1df99808c79d
 title: ID3DXAnimationController::AdvanceTime method (D3dx9anim.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT AdvanceTime(
 *TimeDelta* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](../winprog/windows-data-types.md)**
 
 Amount, in seconds, by which to advance the global animation time. TimeDelta value must be non-negative or zero.
 
@@ -64,7 +64,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -81,7 +81,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

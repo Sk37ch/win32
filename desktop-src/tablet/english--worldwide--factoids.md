@@ -1,5 +1,5 @@
 ---
-Description: The following table lists formats that are available for each factoid used in English (United Kingdom).
+description: The following table lists formats that are available for each factoid used in English (United Kingdom).
 ms.assetid: d6acf41a-e94e-4e8b-b2ae-0b927632e04d
 title: English (Worldwide) Factoids
 ms.topic: article
@@ -35,13 +35,8 @@ The following table lists formats that are available for each factoid used in En
 [**Factoid Constants (C++)**](factoid-constants.md)
 </dt> <dt>
 
-[Factoid Class (managed code)](https://msdn.microsoft.com/library/ms583657(v=VS.90).aspx)
+[Factoid Class (managed code)](/previous-versions/ms583657(v=vs.100))
 </dt> </dl>
 
  
-
- 
-
-
-
 

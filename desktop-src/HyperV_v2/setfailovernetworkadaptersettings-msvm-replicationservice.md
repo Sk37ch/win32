@@ -1,5 +1,5 @@
 ---
-Description: Configures the network adapters IP settings to be applied to a virtual machine after a failover.
+description: Configures the network adapters IP settings to be applied to a virtual machine after a failover.
 ms.assetid: a49d089e-f5dc-4bfb-9f66-2593304b9795
 title: SetFailoverNetworkAdapterSettings method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -39,7 +39,7 @@ uint32 SetFailoverNetworkAdapterSettings(
 *ComputerSystem* \[in\]
 </dt> <dd>
 
-A reference to a [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) instance that represents the virtual machine whose network adapters are to be configured.
+A reference to a [**CIM\_ComputerSystem**](/windows/desktop/CIMWin32Prov/cim-computersystem) instance that represents the virtual machine whose network adapters are to be configured.
 
 </dd> <dt>
 
@@ -53,7 +53,7 @@ An array of embedded instances of [**Msvm\_FailoverNetworkAdapterSettingData**](
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -106,7 +106,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -130,9 +130,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

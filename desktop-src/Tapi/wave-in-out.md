@@ -1,5 +1,5 @@
 ---
-Description: The wave/in/out device class consists of full duplex audio devices.
+description: The wave/in/out device class consists of full duplex audio devices.
 ms.assetid: 1b49c9ae-da64-4415-95ce-785ffedc65bc
 title: wave/in/out
 ms.topic: article
@@ -17,13 +17,10 @@ DWORD DeviceInId;  // identifier of wave in audio device
 DWORD DeviceOutId;  // identifier of wave out audio device
 ```
 
-The **DeviceInId** and **DeviceOutId** members are identifiers of a closed audio device. You use these identifiers in a call to the [**waveOutOpen**](https://msdn.microsoft.com/library/Dd743866(v=VS.85).aspx) function to open the device for output. You can use the resulting device handle to play digitized audio data at the line or phone device.
+The **DeviceInId** and **DeviceOutId** members are identifiers of a closed audio device. You use these identifiers in a call to the [**waveOutOpen**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutopen) function to open the device for output. You can use the resulting device handle to play digitized audio data at the line or phone device.
 
-For more information about the wave functions, see [**Multimedia Functions**](https://msdn.microsoft.com/library/Dd743586(v=VS.85).aspx).
-
- 
+For more information about the wave functions, see [**Multimedia Functions**](../multimedia/multimedia-functions.md).
 
  
 
-
-
+ 

@@ -1,5 +1,5 @@
 ---
-Description: Represents replication status for a replication relationship.
+description: Represents replication status for a replication relationship.
 ms.assetid: F11EFF86-5CC9-4310-8254-B310C54B561D
 title: Msvm_ReplicationRelationship class
 ms.topic: reference
@@ -110,14 +110,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("InstanceID")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("InstanceID")
 </dt> </dl>
 
-Identifies replication relationship. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+Identifies replication relationship. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 This property has this format:
 
-**Microsoft:<vmid>\\HVR\\<0/1>**
+**Microsoft:&lt;vmid&gt;\\HVR\\<0/1>**
 
 0 indicates primary and 1 indicates [extended replication](#extended-replication).
 
@@ -478,7 +478,7 @@ The Hyper-V replication feature in Windows 8.1 enables a user to extend the repl
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
@@ -495,13 +495,8 @@ The Hyper-V replication feature in Windows 8.1 enables a user to extend the repl
 [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md)
 </dt> <dt>
 
-[**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement)
+[**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)
 </dt> </dl>
 
  
-
- 
-
-
-
 

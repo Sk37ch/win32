@@ -1,22 +1,25 @@
 ---
-Description: Computes a quaternion's axis and angle of rotation.
+description: D3DXQuaternionToAxisAngle function (D3DX10Math.h) - Computes a quaternion's axis and angle of rotation.
 ms.assetid: 1e81b88b-071d-46f1-b640-c70d063a14d1
 title: D3DXQuaternionToAxisAngle function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXQuaternionToAxisAngle
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXQuaternionToAxisAngle function
+# D3DXQuaternionToAxisAngle function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Computes a quaternion's axis and angle of rotation.
 
@@ -40,7 +43,7 @@ void D3DXQuaternionToAxisAngle(
 *pQ* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to the source [**D3DXQUATERNION**](d3d10-d3dxquaternion.md).
 
@@ -49,7 +52,7 @@ Pointer to the source [**D3DXQUATERNION**](d3d10-d3dxquaternion.md).
 *pAxis* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 This function returns a pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that identifies the quaternion's axis of rotation.
 
@@ -58,7 +61,7 @@ This function returns a pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) tha
 *pAngle* \[in, out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 This function returns a pointer to a FLOAT value that identifies the quaternion's angle of rotation in radians.
 
@@ -76,7 +79,7 @@ Use [**D3DXQuaternionNormalize**](d3d10-d3dxquaternionnormalize.md) for any quat
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -93,7 +96,3 @@ Use [**D3DXQuaternionNormalize**](d3d10-d3dxquaternionnormalize.md) for any quat
  
 
  
-
-
-
-

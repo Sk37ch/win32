@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Docked association represents the relationship between two chassis. For example, a laptop (a type of chassis) can be docked in a docking station (another type of chassis). This typical relationship is explicitly described.
+description: The CIM\_Docked association represents the relationship between two chassis. For example, a laptop (a type of chassis) can be docked in a docking station (another type of chassis). This typical relationship is explicitly described.
 ms.assetid: 72cb36bb-f79e-4d1a-a859-4024031e4ebc
 ms.tgt_platform: multiple
 title: CIM_Docked class
@@ -61,7 +61,7 @@ Data type: **CIM\_Chassis**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 A [**CIM\_Chassis**](cim-chassis.md) describing the docking station.
@@ -77,7 +77,7 @@ Data type: **CIM\_Chassis**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 A [**CIM\_Chassis**](cim-chassis.md) describing the docked laptop.
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -114,9 +114,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

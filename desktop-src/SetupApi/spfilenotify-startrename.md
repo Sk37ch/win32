@@ -1,5 +1,5 @@
 ---
-Description: The SPFILENOTIFY\_STARTRENAME notification is sent to the callback function when the queue starts a file rename operation.
+description: The SPFILENOTIFY\_STARTRENAME notification is sent to the callback function when the queue starts a file rename operation.
 ms.assetid: 005c1840-6aa9-4e94-bfe7-6a9d53735fd9
 title: SPFILENOTIFY_STARTRENAME message (Setupapi.h)
 ms.topic: reference
@@ -46,7 +46,7 @@ The callback routine should return one of the following values.
 
 | Return code                                                                                  | Description                                                                                                                                                                                                                                                                                                                                                                     |
 |----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**FILEOP\_ABORT**</dt> </dl> | Abort the queue commit. The callback routine should call [**SetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) to indicate the reason for termination. [**SetupCommitFileQueue**](/windows/desktop/api/Setupapi/nf-setupapi-setupcommitfilequeuea) returns **FALSE** and a subsequent call to [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns the error code set by the callback routine during the call to **SetLastError**.<br/> |
+| <dl> <dt>**FILEOP\_ABORT**</dt> </dl> | Abort the queue commit. The callback routine should call [**SetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) to indicate the reason for termination. [**SetupCommitFileQueue**](/windows/desktop/api/Setupapi/nf-setupapi-setupcommitfilequeuea) returns **FALSE** and a subsequent call to [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns the error code set by the callback routine during the call to **SetLastError**.<br/> |
 | <dl> <dt>**FILEOP\_DOIT**</dt> </dl>  | Perform the file copy operation.<br/>                                                                                                                                                                                                                                                                                                                                     |
 | <dl> <dt>**FILEOP\_SKIP**</dt> </dl>  | Skip the current copy operation.<br/>                                                                                                                                                                                                                                                                                                                                     |
 
@@ -58,7 +58,7 @@ The callback routine should return one of the following values.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -86,9 +86,4 @@ The callback routine should return one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

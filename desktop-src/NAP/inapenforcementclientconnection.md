@@ -1,6 +1,6 @@
 ---
 title: INapEnforcementClientConnection interface (NapEnforcementClient.h)
-description: Allow for client connection management.
+description: Allow for client connection management. | INapEnforcementClientConnection interface (NapEnforcementClient.h)
 ms.assetid: 96b94995-24b8-47ed-880e-6182d1bfe925
 keywords:
 - INapEnforcementClientConnection interface NAP
@@ -33,7 +33,7 @@ The **INapEnforcementClientConnection** provides methods that allow for client c
 
 ## Members
 
-The **INapEnforcementClientConnection** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapEnforcementClientConnection** also has these types of members:
+The **INapEnforcementClientConnection** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapEnforcementClientConnection** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -74,7 +74,7 @@ The **INapEnforcementClientConnection** interface has these methods.
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
@@ -95,10 +95,4 @@ The **INapEnforcementClientConnection** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

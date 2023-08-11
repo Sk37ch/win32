@@ -1,5 +1,5 @@
 ---
-Description: Changes the text of the specified window's title bar (if it has one).
+description: Changes the text of the specified window's title bar (if it has one).
 ms.assetid: 0da53972-8f2e-4ca5-92f8-97eb88514e35
 title: '_SetWindowText function'
 ms.topic: reference
@@ -19,7 +19,7 @@ api_location:
 
 \[This function is a wrapper over the **SetWindowText** function. This function may be altered or unavailable in the future. Applications should call **SetWindowText** directly.\]
 
-Changes the text of the specified window's title bar (if it has one). See [**SetWindowText**](https://msdn.microsoft.com/library/ms633546(v=VS.85).aspx).
+Changes the text of the specified window's title bar (if it has one). See [**SetWindowText**](/windows/win32/api/winuser/nf-winuser-setwindowtexta).
 
 ## Syntax
 
@@ -43,7 +43,7 @@ BOOL _SetWindowText(
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Sqlunirl.dll</dt> </dl> |
 
@@ -53,13 +53,9 @@ BOOL _SetWindowText(
 
 <dl> <dt>
 
-[**SetWindowText**](https://msdn.microsoft.com/library/ms633546(v=VS.85).aspx)
+[**SetWindowText**](/windows/win32/api/winuser/nf-winuser-setwindowtexta)
 </dt> </dl>
 
  
 
  
-
-
-
-

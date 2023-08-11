@@ -1,5 +1,5 @@
 ---
-Description: Defines the settings for virtual system migration that is managed by an instance of the CIM\_VirtualSystemMigrationService class.
+description: Defines the settings for virtual system migration that is managed by an instance of the CIM\_VirtualSystemMigrationService class.
 ms.assetid: c28ed48b-bacc-49c8-9131-2543c0edb3fd
 title: CIM_VirtualSystemMigrationSettingData class
 ms.topic: reference
@@ -61,7 +61,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Gauge**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers), [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_VirtualSystemMigrationSettingData**.**BandwidthUnit**")
+Qualifiers: [**Gauge**](/windows/desktop/WmiSdk/standard-qualifiers), [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_VirtualSystemMigrationSettingData**.**BandwidthUnit**")
 </dt> </dl>
 
 The bandwidth assigned to or requested for a virtual system migration operation. "0" is default bandwidth for migration requests.
@@ -87,7 +87,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_VirtualSystemMigrationSettingData**.**Bandwidth**"), **IsPUnit**
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_VirtualSystemMigrationSettingData**.**Bandwidth**"), **IsPUnit**
 </dt> </dl>
 
 The unit used by the **Bandwidth** property. The value of this property should be a legal value of the Programmatic Units qualifier defined in Appendix C.1 of DSP0004 V2.4 or later.
@@ -158,7 +158,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_VirtualSystemMigrationSettingData**.**TransportType**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_VirtualSystemMigrationSettingData**.**TransportType**")
 </dt> </dl>
 
 The type of transport to apply if the value of **TransportType** is "1" (other).
@@ -187,7 +187,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_VirtualSystemMigrationSettingData**.**OtherTransportType**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_VirtualSystemMigrationSettingData**.**OtherTransportType**")
 </dt> </dl>
 
 The type of transport to apply to a virtual system migration operation.
@@ -263,7 +263,7 @@ The type of transport to apply to a virtual system migration operation.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -281,9 +281,4 @@ The type of transport to apply to a virtual system migration operation.
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.LVChunkSizeMost property"
 title: SystemParameters.LVChunkSizeMost property 
 TOCTitle: 'LVChunkSizeMost property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.LVChunkSizeMost
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the lv chunks size. This depends on the database page size.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,15 +53,14 @@ public static int LVChunkSizeMost { get; }
 
 #### Property value
 
-Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+Type: [System.Int32](/dotnet/api/system.int32)  
 
 ## See also
 
 #### Reference
 
-[SystemParameters class](dn351139\(v=exchg.10\).md)
+[SystemParameters class](./systemparameters-class.md)
 
-[SystemParameters members](dn351207\(v=exchg.10\).md)
+[SystemParameters members](./systemparameters-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

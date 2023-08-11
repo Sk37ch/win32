@@ -1,5 +1,5 @@
 ---
-Description: Fills an array of pointers to IWiaItem2 interfaces.
+description: Fills an array of pointers to IWiaItem2 interfaces.
 ms.assetid: 35fd5bdf-7e6c-431f-a9c6-62a86ee05f95
 title: IEnumWiaItem2::Next method (Wia.h)
 ms.topic: reference
@@ -77,13 +77,13 @@ To obtain the list of pointers, the application passes an array of [**IWiaItem2*
 
 Until the enumeration process completes, the **IEnumWiaItem2::Next** method returns S\_OK. Each time it does, it sets the value pointed to by *pcEltFetched* to the number of items it inserted into the array. When **IEnumWiaItem2::Next** finishes the process of enumerating [**IWiaItem2**](-wia-iwiaitem2.md) objects, it returns S\_FALSE and sets the memory location pointed to by *pcEltFetched* to zero.
 
-Applications must call the [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method on the interface pointers they receive through the *ppIWiaItem2* parameter.
+Applications must call the [IUnknown::Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) method on the interface pointers they receive through the *ppIWiaItem2* parameter.
 
 ## Requirements
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
@@ -95,7 +95,3 @@ Applications must call the [IUnknown::Release](https://msdn.microsoft.com/librar
  
 
  
-
-
-
-

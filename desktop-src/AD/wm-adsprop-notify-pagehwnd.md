@@ -63,13 +63,13 @@ This message has no return value.
 
 ## Remarks
 
-An Active Directory property sheet extension normally calls the [**ADsPropSetHwnd**](/windows/desktop/api/Adsprop/nf-adsprop-adspropsethwnd) function while processing the [**WM\_INITDIALOG**](https://msdn.microsoft.com/library/ms645428(v=VS.85).aspx) message.
+An Active Directory property sheet extension normally calls the [**ADsPropSetHwnd**](/windows/desktop/api/Adsprop/nf-adsprop-adspropsethwnd) function while processing the [**WM\_INITDIALOG**](../dlgbox/wm-initdialog.md) message.
 
 ## Requirements
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
@@ -90,14 +90,8 @@ An Active Directory property sheet extension normally calls the [**ADsPropSetHwn
 [**ADsPropCreateNotifyObj**](/windows/desktop/api/Adsprop/nf-adsprop-adspropcreatenotifyobj)
 </dt> <dt>
 
-[**WM\_INITDIALOG**](https://msdn.microsoft.com/library/ms645428(v=VS.85).aspx)
+[**WM\_INITDIALOG**](../dlgbox/wm-initdialog.md)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

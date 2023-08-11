@@ -1,5 +1,5 @@
 ---
-Description: The guidelines in this topic are intended to help you write clear error messages that are easy to localize and useful for customers.
+description: The guidelines in this topic are intended to help you write clear error messages that are easy to localize and useful for customers.
 ms.assetid: 361833e4-b94f-4ef9-a8f5-adf543534a67
 title: Error Message Guidelines
 ms.topic: article
@@ -35,7 +35,7 @@ The following are ways to improve your error messages:
     -   To provide more information about the solution to the problem, use the **Help** button.
     -   If a user action is included in the message, use the **OK** button to close the message box.
     -   **Yes** and **No** buttons must be used in combination and must always be preceded by a question.
--   If the error is a critical error, write it to the [event log](https://msdn.microsoft.com/library/Aa363652(v=VS.85).aspx).
+-   If the error is a critical error, write it to the [event log](../eventlog/event-logging.md).
 
 ## Style Considerations
 
@@ -55,6 +55,3 @@ The following are ways to improve your error messages:
  
 
  
-
-
-

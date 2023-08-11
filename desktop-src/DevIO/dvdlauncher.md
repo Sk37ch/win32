@@ -1,5 +1,5 @@
 ---
-Description: Verifies that the media region in the DVD drive matches the DVD drive region.
+description: Verifies that the media region in the DVD drive matches the DVD drive region.
 ms.assetid: 864de493-94c2-4f32-96a8-14cfea13dbef
 title: DvdLauncher function
 ms.topic: reference
@@ -55,13 +55,13 @@ If the function succeeds and the regions match, the return value is nonzero. Oth
 
 ## Remarks
 
-This function has no associated import library. You must use the [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to StorProp.dll.
+This function has no associated import library. You must use the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to StorProp.dll.
 
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                          |
@@ -77,9 +77,4 @@ This function has no associated import library. You must use the [**LoadLibrary*
 </dt> </dl>
 
  
-
- 
-
-
-
 

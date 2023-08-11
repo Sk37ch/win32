@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNDEF class"
 title: JET_COLUMNDEF class
 TOCTitle: JET_COLUMNDEF class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_COLUMNDEF
@@ -32,10 +33,10 @@ Describes a column in a table of an ESENT database.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.JET_COLUMNDEF  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,7 +64,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_COLUMNDEF members](dn335075\(v=exchg.10\).md)
+[JET_COLUMNDEF members](./jet-columndef-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -11,9 +11,9 @@
     - name: "Unicode Support for Common Controls"
       href: unicode-support.md
     - name: "Localization Support for Common Controls"
-      href: cc-faq-localization.md
+      href: cc-faq-localization.yml
     - name: "Common Controls FAQ"
-      href: cc-faq.md
+      href: cc-faq.yml
   - name: "Control Messages"
     href: control-messages.md
   - name: "Custom Controls"
@@ -763,7 +763,7 @@
           href: bumper-edit-control-reference-functions.md
           items: 
           - name: "EditWordBreakProc"
-            href: https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-editwordbreakproca
+            href: /windows/desktop/api/winuser/nc-winuser-editwordbreakproca
         - name: "Edit Control Macros"
           href: bumper-edit-control-reference-macros.md
           items: 
@@ -979,7 +979,7 @@
           href: bumper-edit-control-reference-structures.md
           items: 
           - name: "EDITBALLOONTIP"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-_tageditballoontip
+            href: /windows/desktop/api/Commctrl/ns-commctrl-editballoontip
         - name: "Edit Control Constants"
           href: bumper-edit-control-reference-constants.md
           items: 
@@ -1210,11 +1210,11 @@
           href: bumper-header-control-reference-structures.md
           items: 
           - name: "HDHITTESTINFO"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-_hd_hittestinfo
+            href: /windows/desktop/api/Commctrl/ns-commctrl-hdhittestinfo
           - name: "HDITEM"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-_hd_itema
+            href: /windows/desktop/api/Commctrl/ns-commctrl-hditema
           - name: "HDLAYOUT"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-_hd_layout
+            href: /windows/desktop/api/Commctrl/ns-commctrl-hdlayout
           - name: "HDTEXTFILTER"
             href: /windows/win32/api/Commctrl/ns-commctrl-hd_textfiltera
           - name: "NMHDDISPINFO"
@@ -1469,9 +1469,9 @@
           href: bumper-image-lists-reference-structures.md
           items: 
           - name: "IMAGEINFO"
-            href: https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-tagimageinfo
+            href: /windows/desktop/api/commoncontrols/ns-commoncontrols-imageinfo
           - name: "IMAGELISTDRAWPARAMS"
-            href: https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-_imagelistdrawparams
+            href: /windows/desktop/api/commoncontrols/ns-commoncontrols-imagelistdrawparams
           - name: "IMAGELISTSTATS"
             href: /windows/win32/api/Commoncontrols/ns-commoncontrols-imageliststats
         - name: "Image List Constants"
@@ -1811,7 +1811,7 @@
           href: bumper-list-view-control-reference-functions.md
           items: 
           - name: "LVGroupCompare"
-            href: https://docs.microsoft.com/windows/desktop/api/commctrl/nc-commctrl-pfnlvgroupcompare
+            href: /windows/desktop/api/commctrl/nc-commctrl-pfnlvgroupcompare
         - name: "List View Macros"
           href: bumper-list-view-control-reference-macros.md
           items: 
@@ -2459,7 +2459,7 @@
           - name: "NMLVCUSTOMDRAW"
             href: /windows/win32/api/Commctrl/ns-commctrl-nmlvcustomdraw
           - name: "NMLVDISPINFO"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-taglvdispinfo
+            href: /windows/desktop/api/Commctrl/ns-commctrl-nmlvdispinfoa
           - name: "NMLVEMPTYMARKUP"
             href: /windows/win32/api/Commctrl/ns-commctrl-nmlvemptymarkup
           - name: "NMLVFINDITEM"
@@ -2872,7 +2872,7 @@
           - name: "PropertySheet"
             href: /windows/desktop/api/Prsht/nf-prsht-propertysheeta
           - name: "LPFNPSPCALLBACK"
-            href: https://docs.microsoft.com/windows/desktop/api/prsht/nc-prsht-lpfnpspcallbacka
+            href: /windows/desktop/api/prsht/nc-prsht-lpfnpspcallbacka
           - name: "PropSheetProc"
             href: /windows/desktop/api/Prsht/nc-prsht-pfnpropsheetcallback
         - name: "Property Sheet Macros"
@@ -2931,9 +2931,9 @@
           - name: "PropSheet_SetFinishText"
             href: /windows/desktop/api/Prsht/nf-prsht-propsheet_setfinishtext
           - name: "PropSheet_SetHeaderBitmap"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb760787(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/bb760787(v=vs.85)
           - name: "PropSheet_SetHeaderBitmapResource"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb760789(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/bb760789(v=vs.85)
           - name: "PropSheet_SetHeaderSubTitle"
             href: /windows/desktop/api/Prsht/nf-prsht-propsheet_setheadersubtitle
           - name: "PropSheet_SetHeaderTitle"
@@ -3052,9 +3052,9 @@
           href: bumper-property-sheets-reference-structures.md
           items: 
           - name: "PROPSHEETHEADER"
-            href: /windows/win32/api/Prsht/ns-prsht-propsheetheadera_v2
+            href: pss-propsheetheader.md
           - name: "PROPSHEETPAGE"
-            href: /windows/win32/api/Prsht/ns-prsht-propsheetpagea_v2
+            href: pss-propsheetpage.md
           - name: "PSHNOTIFY"
             href: /windows/win32/api/Prsht/ns-prsht-pshnotify
       - name: "Property Sheets Sample"
@@ -3216,7 +3216,7 @@
           - name: "NMREBARSPLITTER"
             href: /windows/win32/api/Commctrl/ns-commctrl-nmrebarsplitter
           - name: "RBHITTESTINFO"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-_rb_hittestinfo
+            href: /windows/desktop/api/Commctrl/ns-commctrl-rbhittestinfo
           - name: "REBARBANDINFO"
             href: /windows/win32/api/Commctrl/ns-commctrl-rebarbandinfoa
           - name: "REBARINFO"
@@ -3279,17 +3279,17 @@
           - name: "EditWordBreakProcEx"
             href: /windows/desktop/api/Richedit/nc-richedit-editwordbreakprocex
           - name: "GetMathAlphanumeric"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh780353(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/hh780353(v=vs.85)
           - name: "GetMathAlphanumericCode"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh780354(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/hh780354(v=vs.85)
           - name: "HyphenateProc"
             href: /windows/desktop/api/Richedit/nf-richedit-hyphenateproc
           - name: "MathBuildDown"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh780443(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/hh780443(v=vs.85)
           - name: "MathBuildUp"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh780445(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/hh780445(v=vs.85)
           - name: "MathTranslate"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh780446(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/hh780446(v=vs.85)
           - name: "REExtendedRegisterClass"
             href: reextendedregisterclass.md
         - name: "Rich Edit Interfaces"
@@ -3615,7 +3615,7 @@
           - name: "CHANGENOTIFY"
             href: /windows/desktop/api/Textserv/ns-textserv-changenotify
           - name: "CHARFORMAT"
-            href: /windows/desktop/api/Richedit/ns-richedit-_charformat
+            href: /windows/desktop/api/Richedit/ns-richedit-charformata
           - name: "CHARFORMAT2"
             href: /windows/desktop/api/Richedit/ns-richedit-charformat2a
           - name: "CHARRANGE"
@@ -3629,7 +3629,7 @@
           - name: "ENCORRECTTEXT"
             href: /windows/win32/api/Richedit/ns-richedit-encorrecttext
           - name: "ENDCOMPOSITIONNOTIFY"
-            href: /windows/desktop/api/Richedit/ns-richedit-_endcomposition
+            href: /windows/desktop/api/Richedit/ns-richedit-endcompositionnotify
           - name: "ENDROPFILES"
             href: /windows/win32/api/Richedit/ns-richedit-endropfiles
           - name: "ENLINK"
@@ -3643,7 +3643,7 @@
           - name: "ENSAVECLIPBOARD"
             href: /windows/win32/api/Richedit/ns-richedit-ensaveclipboard
           - name: "FINDTEXT"
-            href: /windows/desktop/api/Richedit/ns-richedit-_findtext
+            href: /windows/desktop/api/Richedit/ns-richedit-findtexta
           - name: "FINDTEXTEX"
             href: /windows/win32/api/Richedit/ns-richedit-findtextexa
           - name: "FORMATRANGE"
@@ -3687,7 +3687,7 @@
           - name: "TABLEROWPARMS"
             href: /windows/win32/api/Richedit/ns-richedit-tablerowparms
           - name: "TEXTRANGE"
-            href: /windows/desktop/api/Richedit/ns-richedit-_textrange
+            href: /windows/desktop/api/Richedit/ns-richedit-textrangea
         - name: "Rich Edit Constants"
           href: bumper-rich-edit-control-reference-constants.md
           items: 
@@ -3728,7 +3728,7 @@
             href: bumper-text-object-model-reference-interfaces.md
             items: 
             - name: "ITextDisplays"
-              href: https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdisplays
+              href: /windows/desktop/api/tom/nn-tom-itextdisplays
             - name: "ITextDocument"
               href: /windows/desktop/api/Tom/nn-tom-itextdocument
               items: 
@@ -4510,7 +4510,7 @@
               - name: "TypeText"
                 href: /windows/desktop/api/Tom/nf-tom-itextselection-typetext
             - name: "ITextSelection2"
-              href: https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextselection2
+              href: /windows/desktop/api/tom/nn-tom-itextselection2
             - name: "ITextStory"
               href: /windows/desktop/api/tom/nn-tom-itextstory
               items: 
@@ -5051,8 +5051,8 @@
           items: 
           - name: "How to Create SysLink Controls"
             href: create-syslink-controls.md
-          - name: "How to Use SysLihnk Notifications"
-            href: use-syslihnk-notifications.md
+          - name: "How to Use SysLink Notifications"
+            href: use-syslink-notifications.md
       - name: "SysLink Control Reference"
         href: bumper-syslink-syslink-control-reference.md
         items: 
@@ -5295,7 +5295,7 @@
           - name: "TaskDialog"
             href: /windows/desktop/api/Commctrl/nf-commctrl-taskdialog
           - name: "PFTASKDIALOGCALLBACK"
-            href: https://docs.microsoft.com/windows/desktop/api/commctrl/nc-commctrl-pftaskdialogcallback
+            href: /windows/desktop/api/commctrl/nc-commctrl-pftaskdialogcallback
           - name: "TaskDialogIndirect"
             href: /windows/desktop/api/Commctrl/nf-commctrl-taskdialogindirect
         - name: "Task Dialog Messages"
@@ -5391,9 +5391,9 @@
           - name: "How to Use Hot-tracking with Toolbars"
             href: use-hot-tracking-with-toolbars.md
           - name: "How to Create an Internet Explorer-style Toolbar"
-            href: cc-faq-ietoolbar.md
+            href: cc-faq-ietoolbar.yml
           - name: "How to Create an Internet Explorer-style Menu Bar"
-            href: cc-faq-iemenubar.md
+            href: cc-faq-iemenubar.yml
       - name: "Toolbar Control Reference"
         href: bumper-toolbar-toolbar-control-reference.md
         items: 
@@ -5838,7 +5838,7 @@
           - name: "TTGETTITLE"
             href: /windows/win32/api/Commctrl/ns-commctrl-ttgettitle
           - name: "TTHITTESTINFO"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-_tt_hittestinfoa
+            href: /windows/desktop/api/Commctrl/ns-commctrl-tthittestinfoa
         - name: "Tooltip Control Constants"
           href: bumper-tooltip-control-reference-constants.md
           items: 
@@ -6313,7 +6313,7 @@
           - name: "NMTVITEMCHANGE"
             href: /windows/win32/api/Commctrl/ns-commctrl-nmtvitemchange
           - name: "NMTVITEMRECT"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb773428(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/bb773428(v=vs.85)
           - name: "NMTVKEYDOWN"
             href: /windows/win32/api/Commctrl/ns-commctrl-nmtvkeydown
           - name: "NMTVSTATEIMAGECHANGING"
@@ -6406,7 +6406,7 @@
           href: bumper-up-down-control-reference-structures.md
           items: 
           - name: "NMUPDOWN"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-_nm_updown
+            href: /windows/desktop/api/Commctrl/ns-commctrl-nmupdown
           - name: "UDACCEL"
             href: /windows/win32/api/Commctrl/ns-commctrl-udaccel
         - name: "Up-Down Constants"

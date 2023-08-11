@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.Saturation property.
+description: The photo metadata policy for the System.Photo.Saturation property.
 ms.assetid: 1dbb7515-7022-404c-928a-9eb09e43e7a7
 title: System.Photo.Saturation Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.Saturation Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.Saturation](https://msdn.microsoft.com/library/bb760526(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.Saturation](../properties/props-system-photo-saturation.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Photo.Saturation](https://msdn.microsoft.com/library/bb760526(VS.85).aspx)
+[System.Photo.Saturation](../properties/props-system-photo-saturation.md)
 </dt> </dl>
 
  
 
  
-
-
-

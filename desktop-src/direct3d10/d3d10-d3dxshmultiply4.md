@@ -1,22 +1,28 @@
 ---
-Description: Computes the product of two spherical harmonics functions (f and g). Both functions are of order N = 4.
+description: Computes the product of two spherical harmonics functions (f and g). Both functions are of order N = 4.
 ms.assetid: 05427a18-447e-45d7-a851-e580298c9a1f
 title: D3DXSHMultiply4 function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXSHMultiply4
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
 # D3DXSHMultiply4 function
+
+> [!Note]
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated and is not supported for Windows Store apps.
+
+> [!Note]
+> Instead of using this function, we recommend that you use the [Spherical Harmonics Math](https://github.com/Microsoft/DirectXMath/tree/main/SHMath) library function **XMSHMultiply4**.
 
 Computes the product of two spherical harmonics functions (*f* and *g*). Both functions are of order N = 4.
 
@@ -40,7 +46,7 @@ FLOAT* D3DXSHMultiply4(
 *pOut* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to the output SH coefficients — basis function *Y*ₗₘ is stored at l² + *m* + l. The order *N* determines the length of the array, where there should always be *N*² coefficients.
 
@@ -49,7 +55,7 @@ Pointer to the output SH coefficients — basis function *Y*ₗₘ is stored at
 *pF* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](../winprog/windows-data-types.md)\***
 
 Input SH coefficients for first function.
 
@@ -58,7 +64,7 @@ Input SH coefficients for first function.
 *pG* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](../winprog/windows-data-types.md)\***
 
 Second set of input SH coefficients.
 
@@ -66,7 +72,7 @@ Second set of input SH coefficients.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to SH output coefficients.
 
@@ -96,7 +102,7 @@ sum_i(y_i(s)*c_i)
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -113,7 +119,3 @@ sum_i(y_i(s)*c_i)
  
 
  
-
-
-
-

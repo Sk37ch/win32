@@ -1,5 +1,5 @@
 ---
-Description: Defines a rectangle.
+description: Defines a rectangle.
 ms.assetid: a8590411-fd34-4048-a41f-b4155d955573
 title: D3DRECT structure (D3D9Types.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ typedef struct D3DRECT {
 **x1**
 </dt> <dd>
 
-Type: **[**LONG**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LONG**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -51,7 +51,7 @@ The x-coordinate of the upper-left corner of the rectangle.
 **y1**
 </dt> <dd>
 
-Type: **[**LONG**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LONG**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -62,7 +62,7 @@ The y-coordinate of the upper-left corner of the rectangle.
 **x2**
 </dt> <dd>
 
-Type: **[**LONG**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LONG**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -73,7 +73,7 @@ The x-coordinate of the lower-right corner of the rectangle.
 **y2**
 </dt> <dd>
 
-Type: **[**LONG**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LONG**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -85,7 +85,7 @@ The y-coordinate of the lower-right corner of the rectangle.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 
@@ -98,13 +98,9 @@ The y-coordinate of the lower-right corner of the rectangle.
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**Clear**](https://msdn.microsoft.com/library/Bb174352(v=VS.85).aspx)
+[**Clear**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-clear)
 </dt> </dl>
 
  
 
  
-
-
-
-

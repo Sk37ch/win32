@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the size and location of the dynamically unloaded module list for the current process.
+description: Retrieves the size and location of the dynamically unloaded module list for the current process.
 ms.assetid: 53ac9a7f-aa4a-412d-a6f7-a3a73bede5c2
 title: RtlGetUnloadEventTraceEx function
 ms.topic: reference
@@ -78,13 +78,13 @@ typedef struct _RTL_UNLOAD_EVENT_TRACE {
 } RTL_UNLOAD_EVENT_TRACE, *PRTL_UNLOAD_EVENT_TRACE;
 ```
 
-This function has no associated header file. The associated import library, Ntdll.lib, is available in the Windows Driver Kit (WDK). You can also call this function using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated header file. The associated import library, Ntdll.lib, is available in the Windows Driver Kit (WDK). You can also call this function using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                      |
+| Requirement | Value |
 |----------------|--------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ntdll.dll</dt> </dl> |
 
@@ -93,7 +93,3 @@ This function has no associated header file. The associated import library, Ntdl
  
 
  
-
-
-
-

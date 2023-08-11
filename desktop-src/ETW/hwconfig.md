@@ -1,5 +1,5 @@
 ---
-Description: The HWConfig class is the parent class for hardware configuration events on Windows XP. The following syntax is simplified from MOF code.
+description: The HWConfig class is the parent class for hardware configuration events on Windows XP. The following syntax is simplified from MOF code.
 ms.assetid: 47f062c0-fdf0-4beb-906d-257571324de9
 title: HWConfig class
 ms.topic: reference
@@ -41,7 +41,7 @@ These events provide the hardware configuration of the computer. Unlike other NT
 
 For hardware configuration events on Windows Vista and Windows Server 2003, see the [SystemConfig](systemconfig.md) class.
 
-Event trace consumers can implement special processing for hardware configuration events by calling the [**SetTraceCallback**](settracecallback.md) function and specifying [**EventTraceConfigGuid**](nt-kernel-logger-constants.md) as the *pGuid* parameter. Use the following event types to identify the actual hardware configuration event when consuming events.
+Event trace consumers can implement special processing for hardware configuration events by calling the [**SetTraceCallback**](/windows/win32/api/evntrace/nf-evntrace-settracecallback) function and specifying [**EventTraceConfigGuid**](nt-kernel-logger-constants.md) as the *pGuid* parameter. Use the following event types to identify the actual hardware configuration event when consuming events.
 
 
 
@@ -60,7 +60,7 @@ Event trace consumers can implement special processing for hardware configuratio
 
 
 
-|                                     |                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                   |
@@ -89,7 +89,3 @@ Event trace consumers can implement special processing for hardware configuratio
  
 
  
-
-
-
-

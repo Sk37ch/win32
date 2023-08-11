@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the current state of the specified device button.
+description: GetButtonState method of the Msvm_Ps2Mouse class - Retrieves the current state of the specified device button.
 ms.assetid: 7772A3AC-1677-44A7-9E5E-D31E90988705
 title: GetButtonState method of the Msvm_Ps2Mouse class
 ms.topic: reference
@@ -102,13 +102,13 @@ A return value of zero indicates success. A nonzero value indicates a query fail
 
 ## Remarks
 
-Access to the [**Msvm\_Ps2Mouse**](msvm-ps2mouse.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the [**Msvm\_Ps2Mouse**](msvm-ps2mouse.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -126,9 +126,4 @@ Access to the [**Msvm\_Ps2Mouse**](msvm-ps2mouse.md) class might be restricted b
 </dt> </dl>
 
  
-
- 
-
-
-
 

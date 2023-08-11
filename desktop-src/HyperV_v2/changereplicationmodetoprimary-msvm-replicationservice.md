@@ -1,5 +1,5 @@
 ---
-Description: Changes the extended replication relationship to the primary relationship for a replica virtual machine. The replica virtual machine must be in a failover committed state.
+description: Changes the extended replication relationship to the primary relationship for a replica virtual machine. The replica virtual machine must be in a failover committed state.
 ms.assetid: B593A155-B5E6-44E5-8835-09DEB1FF868E
 title: Msvm_ReplicationService::ChangeReplicationModeToPrimary method
 ms.topic: reference
@@ -39,7 +39,7 @@ uint32 ChangeReplicationModeToPrimary(
 *ComputerSystem* \[in\]
 </dt> <dd>
 
-A reference to a [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) instance that represents the virtual machine for which this method changes the extended replication relationship to the primary relationship.
+A reference to a [**CIM\_ComputerSystem**](/windows/desktop/CIMWin32Prov/cim-computersystem) instance that represents the virtual machine for which this method changes the extended replication relationship to the primary relationship.
 
 </dd> <dt>
 
@@ -53,7 +53,7 @@ A string representation of an embedded instance of the [**Msvm\_ReplicationRelat
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)). This reference can be **NULL** if the task is complete.
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)). This reference can be **NULL** if the task is complete.
 
 </dd> </dl>
 
@@ -109,7 +109,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
@@ -127,9 +127,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

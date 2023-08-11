@@ -1,5 +1,5 @@
 ---
-Description: Winsock network tracing event for socket close operation.
+description: Winsock network tracing event for socket close operation.
 ms.assetid: C59B2B51-288A-46C9-B390-26A18DB0C2FB
 title: AFD_EVENT_CLOSE event
 ms.topic: reference
@@ -62,7 +62,7 @@ A private field used internally.
 *Process* 
 </dt> <dd>
 
-The [EPROCESS](https://msdn.microsoft.com/library/ff544273(VS.85).aspx) address of the process that owns the related socket. This is an opaque structure that serves as the process object for a process. For more information, see the Windows Driver Kit documentation for the [EPROCESS](https://msdn.microsoft.com/library/ff544273(VS.85).aspx) structure.
+The [EPROCESS](/windows-hardware/drivers/kernel/eprocess) address of the process that owns the related socket. This is an opaque structure that serves as the process object for a process. For more information, see the Windows Driver Kit documentation for the [EPROCESS](/windows-hardware/drivers/kernel/eprocess) structure.
 
 </dd> <dt>
 
@@ -88,7 +88,7 @@ The **AFD\_EVENT\_CLOSE** event is traced for a Winsock network operation to clo
 
 
 
-|                                     |                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
@@ -102,7 +102,7 @@ The **AFD\_EVENT\_CLOSE** event is traced for a Winsock network operation to clo
 [Control of Winsock Tracing](control-of-winsock-tracing.md)
 </dt> <dt>
 
-[**EVENT\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor)
+[**EVENT\_DESCRIPTOR**](/windows/desktop/api/evntprov/ns-evntprov-event_descriptor)
 </dt> <dt>
 
 [Winsock Tracing](winsock-tracing.md)
@@ -115,9 +115,4 @@ The **AFD\_EVENT\_CLOSE** event is traced for a Winsock network operation to clo
 </dt> </dl>
 
  
-
- 
-
-
-
 

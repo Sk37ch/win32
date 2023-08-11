@@ -14,7 +14,6 @@ api_location:
 - D3D12.dll
 api_type:
 - COM
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 ---
@@ -41,7 +40,7 @@ void SampleDescCb(
 *SampleDesc* \[ref\]
 </dt> <dd>
 
-Type: **const [**DXGI\_SAMPLE\_DESC**](https://docs.microsoft.com/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc)**
+Type: **const [**DXGI\_SAMPLE\_DESC**](/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc)**
 
 Details of the sample description subobject parsed from a pipeline state stream.
 
@@ -55,7 +54,7 @@ Returns nothing.
 
 
 
-|                    |                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX12.h</dt> </dl>  |
 | Library<br/> | <dl> <dt>D3D12.lib</dt> </dl> |
@@ -73,14 +72,8 @@ Returns nothing.
 [**ID3DX12PipelineParserCallbacks**](id3dx12pipelineparsercallbacks.md)
 </dt> <dt>
 
-[**DXGI\_SAMPLE\_DESC**](https://docs.microsoft.com/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc)
+[**DXGI\_SAMPLE\_DESC**](/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

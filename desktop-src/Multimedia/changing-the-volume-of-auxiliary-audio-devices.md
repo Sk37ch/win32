@@ -11,10 +11,13 @@ keywords:
 - auxiliary audio,interface
 - auxiliary audio,devices
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Changing the Volume of Auxiliary Audio-Devices
+
+\[The feature associated with this page, [Waveform Audio](/windows/win32/multimedia/waveform-audio), is a legacy feature. It has been superseded by [WASAPI](/windows/win32/coreaudio/wasapi) and [Audio Graphs](/windows/uwp/audio-video-camera/audio-graphs). **WASAPI** and **Audio Graphs** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **WASAPI** and **Audio Graphs** instead of **Waveform Audio**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Windows provides the following functions to query and set the volume for auxiliary audio devices.
 
@@ -22,8 +25,8 @@ Windows provides the following functions to query and set the volume for auxilia
 
 | Function                             | Description                                                                    |
 |--------------------------------------|--------------------------------------------------------------------------------|
-| [**auxGetVolume**](https://msdn.microsoft.com/library/Dd756714(v=VS.85).aspx) | Retrieves the current volume setting of the specified auxiliary output device. |
-| [**auxSetVolume**](https://msdn.microsoft.com/library/Dd756717(v=VS.85).aspx) | Sets the volume of the specified auxiliary output device.                      |
+| [**auxGetVolume**](/windows/win32/api/mmeapi/nf-mmeapi-auxgetvolume) | Retrieves the current volume setting of the specified auxiliary output device. |
+| [**auxSetVolume**](/windows/win32/api/mmeapi/nf-mmeapi-auxsetvolume) | Sets the volume of the specified auxiliary output device.                      |
 
 
 
@@ -38,7 +41,3 @@ Volume-level values range from 0x0 (silence) to 0xFFFF (maximum volume) and are 
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: The Write method writes a specified number from bytes into the stream object starting at the current seek pointer.
+description: The Write method writes a specified number from bytes into the stream object starting at the current seek pointer.
 ms.assetid: 0019cd10-8f8a-4190-bae4-e134e7b76882
 title: IByteBuffer::Write method (Scardssp.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # IByteBuffer::Write method
 
-\[The **Write** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) interface provides similar functionality.\]
+\[The **Write** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) interface provides similar functionality.\]
 
 The **Write** method writes a specified number from bytes into the stream object starting at the current seek pointer.
 
@@ -99,7 +99,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -113,9 +113,4 @@ if (FAILED(hr))
 
 
  
-
- 
-
-
-
 

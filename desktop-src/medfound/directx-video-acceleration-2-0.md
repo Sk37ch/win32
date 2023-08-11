@@ -1,5 +1,5 @@
 ---
-Description: DirectX Video Acceleration 2.0
+description: DirectX Video Acceleration 2.0
 ms.assetid: acb73b20-89fa-4a48-be4a-846715a239b0
 title: DirectX Video Acceleration 2.0
 ms.topic: article
@@ -36,13 +36,9 @@ This section contains the following topics.
 [Media Foundation Programming Guide](media-foundation-programming-guide.md)
 </dt> <dt>
 
-[DXVA 1 Specification](https://msdn.microsoft.com/library/windows/hardware/gg463516)
+[DXVA 1 Specification](/windows-hardware/drivers/display/directx-video-acceleration)
 </dt> </dl>
 
  
 
  
-
-
-
-

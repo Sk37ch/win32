@@ -1,5 +1,5 @@
 ---
-Description: The ITParticipantSubStreamControl interface is implemented by the IPConf MSP.
+description: The ITParticipantSubStreamControl interface is implemented by the IPConf MSP.
 ms.assetid: d5af0fb1-af18-4efb-9b68-1fa60c1272f6
 title: ITParticipantSubStreamControl interface (Confpriv.h)
 ms.topic: reference
@@ -14,7 +14,7 @@ The **ITParticipantSubStreamControl** interface is implemented by the IPConf MSP
 
 ## Members
 
-The **ITParticipantSubStreamControl** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITParticipantSubStreamControl** also has these types of members:
+The **ITParticipantSubStreamControl** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITParticipantSubStreamControl** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -38,7 +38,7 @@ The **ITParticipantSubStreamControl** interface has these methods.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |
@@ -54,13 +54,8 @@ The **ITParticipantSubStreamControl** interface has these methods.
 [**ITParticipant**](itparticipant.md)
 </dt> <dt>
 
-[**ITSubStream**](https://msdn.microsoft.com/library/ms732440(v=VS.85).aspx)
+[**ITSubStream**](/windows/win32/api/tapi3if/nn-tapi3if-itsubstream)
 </dt> </dl>
 
  
-
- 
-
-
-
 

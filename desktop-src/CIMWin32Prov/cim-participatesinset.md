@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ParticipatesInSet class identifies physical elements that should be replaced together.
+description: The CIM\_ParticipatesInSet class identifies physical elements that should be replaced together.
 ms.assetid: 417607a3-6682-4745-a5ca-0538a0d4853d
 ms.tgt_platform: multiple
 title: CIM_ParticipatesInSet class
@@ -74,7 +74,7 @@ Data type: **CIM\_ReplacementSet**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 Reference to the replacement set of elements.
@@ -91,7 +91,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -102,9 +102,4 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
  
-
- 
-
-
-
 

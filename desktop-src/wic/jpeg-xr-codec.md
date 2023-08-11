@@ -1,5 +1,5 @@
 ---
-Description: The native JPEG XR codec is available through the Windows Imaging Component (WIC). The JPEG XR format, which the codec supports, is designed for consumer and professional digital photography.
+description: The native JPEG XR codec is available through the Windows Imaging Component (WIC). The JPEG XR format, which the codec supports, is designed for consumer and professional digital photography.
 ms.assetid: CB8D1A5F-B544-462E-8927-F45512CED873
 title: JPEG XR Codec Overview
 ms.topic: article
@@ -32,7 +32,7 @@ Substantial performance improvements, in relation to the HD Photo codec, have be
 
 
 
-|                     |                                                                         |
+|      Component      |    Description                                                          |
 |---------------------|-------------------------------------------------------------------------|
 | File name extension | "jxr" and "wdp"                                                         |
 | Container GUID      | **GUID\_ContainerFormatWmp**                                            |
@@ -94,20 +94,20 @@ The following compressed domain operations are supported:
 -   Discard frequency data to create a smaller image file.
 -   Reorganize the image between spatial and frequency order.
 
-The JPEG XR encoder uses compressed domain transcoding, if possible, when the source image is a JPEG XR image. When the encoder performs a compressed domain operation, it ignores the following codec properties: [AlphaQuality](#alphaquality), [ImageQuality](#imagequality), [InterleavedAlpha](#interleavedalpha), [Lossless](#lossless)[Overlap](#overlap), and [Quality](#image-quality-settings). If the [HorizontalTileSlices](https://docs.microsoft.com/windows) and [VerticalTileSlices](https://docs.microsoft.com/windows) properties are present, you must set them to zero. You cannot change the tile size of an image as part of a compressed domain transcode.
+The JPEG XR encoder uses compressed domain transcoding, if possible, when the source image is a JPEG XR image. When the encoder performs a compressed domain operation, it ignores the following codec properties: [AlphaQuality](#alphaquality), [ImageQuality](#imagequality), [InterleavedAlpha](#interleavedalpha), [Lossless](#lossless)[Overlap](#overlap), and [Quality](#image-quality-settings). If the [HorizontalTileSlices](/windows) and [VerticalTileSlices](/windows) properties are present, you must set them to zero. You cannot change the tile size of an image as part of a compressed domain transcode.
 
 The follow list describes how to perform the image transformations.
 
 -   To crop the image, set the desired region in the [**WICRect**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-writesource) parameter of the **WriteSource** method.
 -   To rotate or flip the image, set the [BitmapTransform](#bitmaptransform) property.
 -   To discard frequency data in the image, set the [ImageDataDiscard](#imagedatadiscard) property. To discard frequency data in the alpha channel, set the [AlphaDataDiscard](#alphadatadiscard) property. Discarding frequency data reduces the encoded file size and can reduce the resolution.
--   To change the image organization between frequency and spatial ordering, set the [FrequencyOrdering](https://docs.microsoft.com/windows) property.
+-   To change the image organization between frequency and spatial ordering, set the [FrequencyOrdering](/windows) property.
 
 To disable compressed domain transcode and force the encoder to re-encode the image, set the [UseCodecOptions](#usecodecoptions) to **VARIANT\_TRUE** and set [CompressedDomainTranscode](#compresseddomaintranscode) to **VARIANT\_FALSE**.
 
 ## Encoder Options
 
-To set encoding properties, use the [**IPropertyBag2**](https://msdn.microsoft.com/library/Aa768192(v=VS.85).aspx) interface. For more information, see the [Encoding Overview](-wic-creating-encoder.md).
+To set encoding properties, use the [**IPropertyBag2**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85)) interface. For more information, see the [Encoding Overview](-wic-creating-encoder.md).
 
 The following list specifies the encoder options.
 
@@ -482,41 +482,14 @@ Sets the chroma subsampling. This property applies only to RGB images.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>3</td>
-<td>4:4:4 encoding. Preserves full chroma resolution.</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>4:2:2 encoding. Chroma resolution is ½ of luminance resolution.</td>
-</tr>
-<tr class="odd">
-<td>1</td>
-<td>4:2:0 encoding. Chroma resolution is ¼ of luminance resolution.</td>
-</tr>
-<tr class="even">
-<td>0</td>
-<td>4:0:0 encoding. Discards all chroma values and preserves luminance only.
-<blockquote>
-[!Note]<br />
-This mode is not recommended, because the codec uses a slightly modified definition of luminance to improve performance. Instead, it is better to convert the image to monochrome before encoding.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Value | Description | 
+|-------|-------------|
+| 3 | 4:4:4 encoding. Preserves full chroma resolution. | 
+| 2 | 4:2:2 encoding. Chroma resolution is ½ of luminance resolution. | 
+| 1 | 4:2:0 encoding. Chroma resolution is ¼ of luminance resolution. | 
+| 0 | 4:0:0 encoding. Discards all chroma values and preserves luminance only.<blockquote>[!Note]<br />This mode is not recommended, because the codec uses a slightly modified definition of luminance to improve performance. Instead, it is better to convert the image to monochrome before encoding.</blockquote><br /> | 
+
 
 
 
@@ -626,7 +599,3 @@ For more information about these formats, see [Native Pixel Formats](-wic-codec-
  
 
  
-
-
-
-

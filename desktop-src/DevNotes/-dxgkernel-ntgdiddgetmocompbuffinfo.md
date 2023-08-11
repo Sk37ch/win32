@@ -1,5 +1,5 @@
 ---
-Description: Allows the driver to specify how many interim surfaces are required to support the specified GUID, and the size, location, and format of each of these surfaces.
+description: Allows the driver to specify how many interim surfaces are required to support the specified GUID, and the size, location, and format of each of these surfaces.
 ms.assetid: 1f3207a8-aa6a-47a3-a1d0-19166592eeca
 title: NtGdiDdGetMoCompBuffInfo function (Ntgdi.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ Handle to previously created kernel-mode DirectDraw object.
 *puGetBuffData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_GETMOCOMPCOMPBUFFDATA**](https://msdn.microsoft.com/library/Ff551576(v=VS.85).aspx) structure that contains the compressed buffer information.
+Pointer to a [**DD\_GETMOCOMPCOMPBUFFDATA**](/windows/win32/api/ddrawint/ns-ddrawint-dd_getmocompcompbuffdata) structure that contains the compressed buffer information.
 
 </dd> </dl>
 
@@ -77,7 +77,7 @@ For more information, see the Microsoft DirectX Video Acceleration Driver Develo
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
@@ -95,7 +95,3 @@ For more information, see the Microsoft DirectX Video Acceleration Driver Develo
  
 
  
-
-
-
-

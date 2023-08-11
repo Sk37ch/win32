@@ -1,5 +1,5 @@
 ---
-Description: Supports the Secure Sockets Layer (SSL) protocol.
+description: Supports the Secure Sockets Layer (SSL) protocol.
 ms.assetid: c94d8584-f01b-469b-a0d6-5fb14796b93e
 title: PROV_SSL
 ms.topic: article
@@ -18,7 +18,7 @@ For descriptions of each of these algorithms, see the glossary.
 
 | Purpose      | Supported algorithms                                        |
 |--------------|-------------------------------------------------------------|
-| Key Exchange | [*RSA*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx) |
+| Key Exchange | [*RSA*](../secgloss/r-gly.md) |
 | Signature    | RSA                                                         |
 | Encryption   | Varies                                                      |
 | Hashing      | Varies                                                      |
@@ -34,6 +34,3 @@ A specification explaining the SSL protocol is available from Netscape Communica
  
 
  
-
-
-

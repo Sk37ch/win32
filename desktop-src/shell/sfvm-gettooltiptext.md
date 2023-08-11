@@ -1,5 +1,5 @@
 ---
-Description: Allows the callback object to specify a tooltip text string for menu items or toolbar buttons. Used by IShellFolderViewCB::MessageSFVCB.
+description: Allows the callback object to specify a tooltip text string for menu items or toolbar buttons. Used by IShellFolderViewCB::MessageSFVCB.
 ms.assetid: 29849218-0d30-4412-86c8-5d320bc5dd26
 title: SFVM_GETTOOLTIPTEXT message (Shlobj.h)
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # SFVM\_GETTOOLTIPTEXT message
 
-Allows the callback object to specify a tooltip text string for menu items or toolbar buttons. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/library/Bb774968(v=VS.85).aspx).
+Allows the callback object to specify a tooltip text string for menu items or toolbar buttons. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb).
 
 
 ```C++
@@ -45,7 +45,7 @@ A null-terminated string containing the help text.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
@@ -56,7 +56,3 @@ A null-terminated string containing the help text.
  
 
  
-
-
-
-

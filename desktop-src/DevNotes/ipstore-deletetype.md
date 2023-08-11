@@ -1,5 +1,5 @@
 ---
-Description: Deletes a specified type from the protected storage database.
+description: Deletes a specified type from the protected storage database.
 ms.assetid: 5e3a08eb-e16b-4d9f-82be-241eb3137d17
 title: IPStore::DeleteType method (Pstore.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # IPStore::DeleteType method
 
-\[Protected Storage (Pstore) is available for use in Windows Server 2003 and Windows XP. It is only available for read-only operations in Windows Server 2008 and Windows Vista, but may be unavailable in subsequent versions. Pstore uses an older implementation of data protection. Developers are strongly encouraged to take advantage of the stronger data protection provided by the [**CryptProtectData**](https://msdn.microsoft.com/library/Aa380261(v=VS.85).aspx) and [**CryptUnprotectData**](https://msdn.microsoft.com/library/Aa380882(v=VS.85).aspx) functions.\]
+\[Protected Storage (Pstore) is available for use in Windows Server 2003 and Windows XP. It is only available for read-only operations in Windows Server 2008 and Windows Vista, but may be unavailable in subsequent versions. Pstore uses an older implementation of data protection. Developers are strongly encouraged to take advantage of the stronger data protection provided by the [**CryptProtectData**](/windows/win32/api/dpapi/nf-dpapi-cryptprotectdata) and [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata) functions.\]
 
 Deletes a specified type from the protected storage database.
 
@@ -78,7 +78,7 @@ The return value is an **HRESULT** value. A value of **PST\_E\_OK** indicates th
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |
@@ -95,7 +95,3 @@ The return value is an **HRESULT** value. A value of **PST\_E\_OK** indicates th
  
 
  
-
-
-
-

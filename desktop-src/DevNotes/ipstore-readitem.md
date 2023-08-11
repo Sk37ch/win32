@@ -1,5 +1,5 @@
 ---
-Description: Reads the specified data item from protected storage.
+description: Reads the specified data item from protected storage.
 ms.assetid: e565a0ea-5d8e-4706-a176-2305a95f0d67
 title: IPStore::ReadItem method (Pstore.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # IPStore::ReadItem method
 
-\[Protected Storage (Pstore) is available for use in Windows Server 2003 and Windows XP. It is only available for read-only operations in Windows Server 2008 and Windows Vista, but may be unavailable in subsequent versions. Pstore uses an older implementation of data protection. Developers are strongly encouraged to take advantage of the stronger data protection provided by the [**CryptProtectData**](https://msdn.microsoft.com/library/Aa380261(v=VS.85).aspx) and [**CryptUnprotectData**](https://msdn.microsoft.com/library/Aa380882(v=VS.85).aspx) functions.\]
+\[Protected Storage (Pstore) is available for use in Windows Server 2003 and Windows XP. It is only available for read-only operations in Windows Server 2008 and Windows Vista, but may be unavailable in subsequent versions. Pstore uses an older implementation of data protection. Developers are strongly encouraged to take advantage of the stronger data protection provided by the [**CryptProtectData**](/windows/win32/api/dpapi/nf-dpapi-cryptprotectdata) and [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata) functions.\]
 
 Reads the specified data item from protected storage.
 
@@ -130,13 +130,13 @@ The return value is an **HRESULT** value. A value of **PST\_E\_OK** indicates th
 
 ## Remarks
 
-If **ReadItem** completes successfully, the application is responsible for freeing the returned data buffer using the [**CoTaskMemFree**](https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx) function.
+If **ReadItem** completes successfully, the application is responsible for freeing the returned data buffer using the [**CoTaskMemFree**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) function.
 
 ## Requirements
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |
@@ -156,7 +156,3 @@ If **ReadItem** completes successfully, the application is responsible for freei
  
 
  
-
-
-
-

@@ -1,14 +1,17 @@
 ---
-Description: Samples and Allocators
+description: Samples and Allocators
 ms.assetid: '1fbea741-f29a-4815-9885-94ca9cf4bb95'
 title: Samples and Allocators
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Samples and Allocators
 
-When a pin delivers media data to another pin, it does not pass a direct pointer to the memory buffer. Instead, it delivers a pointer to a COM object that manages the memory. This object, called a *media sample*, exposes the [**IMediaSample**](/windows/desktop/api/Strmif/nn-strmif-imediasample) interface. The receiving pin accesses the memory buffer by calling **IMediaSample** methods, such as [**IMediaSample::GetPointer**](/windows/desktop/api/Strmif/nf-strmif-imediasample-getpointer), [**IMediaSample::GetSize**](/windows/desktop/api/Strmif/nf-strmif-imediasample-getsize), and [**IMediaSample::GetActualDataLength**](https://msdn.microsoft.com/library/Dd407007(v=VS.85).aspx).
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
+When a pin delivers media data to another pin, it does not pass a direct pointer to the memory buffer. Instead, it delivers a pointer to a COM object that manages the memory. This object, called a *media sample*, exposes the [**IMediaSample**](/windows/desktop/api/Strmif/nn-strmif-imediasample) interface. The receiving pin accesses the memory buffer by calling **IMediaSample** methods, such as [**IMediaSample::GetPointer**](/windows/desktop/api/Strmif/nf-strmif-imediasample-getpointer), [**IMediaSample::GetSize**](/windows/desktop/api/Strmif/nf-strmif-imediasample-getsize), and [**IMediaSample::GetActualDataLength**](/windows/win32/api/strmif/nf-strmif-imediasample-getactualdatalength).
 
 Samples always travel downstream, from output pin to input pin. In the push model, the output pin delivers a sample by calling [**IMemInputPin::Receive**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receive) on the input pin. The input pin will either process the data synchronously (that is, completely inside the **Receive** method), or process it asynchronously on a worker thread. The input pin is allowed to block within the **Receive** method, if it needs to wait for resources.
 
@@ -46,6 +49,3 @@ When streaming stops, the pin calls [**IMemAllocator::Decommit**](/windows/deskt
  
 
  
-
-
-

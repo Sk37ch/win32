@@ -1,5 +1,5 @@
 ---
-Description: The \_\_MethodInvocationEvent system class is defined but is not implemented.
+description: The \_\_MethodInvocationEvent system class is defined but is not implemented.
 ms.assetid: ea736e44-a6bc-41e5-abc5-9e21a5504f44
 ms.tgt_platform: multiple
 title: '__MethodInvocationEvent class'
@@ -102,7 +102,7 @@ Data type: **uint8** array
 Access type: Read-only
 </dt> </dl>
 
-Descriptor used by the event provider to determine which users can receive the event. This property is inherited from [**\_\_Event**](--event.md). For more information, see [Security Descriptors](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptors).
+Descriptor used by the event provider to determine which users can receive the event. This property is inherited from [**\_\_Event**](--event.md). For more information, see [Security Descriptors](/windows/desktop/SecAuthZ/security-descriptors).
 
 </dd> <dt>
 
@@ -130,7 +130,7 @@ Access type: Read-only
 
 Unique value that indicates the time an event is generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Time (UTC) format. This property is inherited from [**\_\_Event**](--event.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> </dl>
 
@@ -142,7 +142,7 @@ The **\_\_MethodInvocationEvent** class is derived from [**\_\_InstanceOperation
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -154,16 +154,11 @@ The **\_\_MethodInvocationEvent** class is derived from [**\_\_InstanceOperation
 
 <dl> <dt>
 
-[**\_\_InstanceOperationEvent**](https://docs.microsoft.com/windows/desktop/WmiSdk/--instanceoperationevent)
+[**\_\_InstanceOperationEvent**](/windows/desktop/WmiSdk/--instanceoperationevent)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -48,7 +48,7 @@ List-view controls internally track items by index. This can present problems be
 
 The list-view control can tag an item with an ID when the item is created. You can use this ID to guarantee uniqueness during the lifetime of the list-view control.
 
-To uniquely identify an item, take the index that is returned from a call such as [**IComponent::GetDisplayInfo**](https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-getdisplayinfo) and call [**LVM\_MAPINDEXTOID**](lvm-mapindextoid.md). The return value is a unique ID.
+To uniquely identify an item, take the index that is returned from a call such as [**IComponent::GetDisplayInfo**](/windows/desktop/api/mmc/nf-mmc-icomponent-getdisplayinfo) and call [**LVM\_MAPINDEXTOID**](lvm-mapindextoid.md). The return value is a unique ID.
 
 If you need the index of an item after an ID is created you can call **LVM\_MAPIDTOINDEX** with the unique ID and it returns the most current index.
 
@@ -68,7 +68,7 @@ If you need the index of an item after an ID is created you can call **LVM\_MAPI
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -77,10 +77,4 @@ If you need the index of an item after an ID is created you can call **LVM\_MAPI
 
 
  
-
- 
-
-
-
-
 

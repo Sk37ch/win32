@@ -1,5 +1,5 @@
 ---
-Description: Specifies the desired maximum volume level of output audio content.
+description: Specifies the desired maximum volume level of output audio content.
 ms.assetid: 231b7296-ca80-4918-bae6-674b976db24c
 title: MFPKEY_WMADRC_PEAKTARGET Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -30,13 +30,13 @@ If you request dynamic range control from the decoder when this property is not 
 
 Use the [MFPKEY\_WMADRC\_AVGREF](mfpkey-wmadrc-avgrefproperty.md) and [MFPKEY\_WMADRC\_PEAKREF](mfpkey-wmadrc-peakrefproperty.md) properties to compute appropriate values for this property.
 
-For more information on dynamic range control, see the web article [Windows Media Audio Professional Codec Features](https://msdn2.microsoft.com/library/ms867218.aspx).
+For more information on dynamic range control, see the web article [Windows Media Audio Professional Codec Features](/previous-versions/ms867218(v=msdn.10)).
 
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -54,7 +54,3 @@ For more information on dynamic range control, see the web article [Windows Medi
  
 
  
-
-
-
-

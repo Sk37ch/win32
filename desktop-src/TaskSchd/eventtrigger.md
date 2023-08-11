@@ -59,13 +59,13 @@ When reading or writing your own XML for a task, an event trigger is specified u
 
 ## Examples
 
-For more information and a code example for this scripting object, see [Event Trigger Example (Scripting)](https://msdn.microsoft.com/library/Aa446887(v=VS.85).aspx).
+For more information and a code example for this scripting object, see [Event Trigger Example (Scripting)](/previous-versions//aa446887(v=vs.85)).
 
 ## Requirements
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
@@ -89,10 +89,4 @@ For more information and a code example for this scripting object, see [Event Tr
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

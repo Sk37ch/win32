@@ -1,5 +1,5 @@
 ---
-Description: The SetPowerState method sets the desired power state for a logical device and when the device should be put into that state.
+description: SetPowerState method of the CIM_AggregatePExtent class - The SetPowerState method sets the desired power state for a logical device and when the device should be put into that state.
 ms.assetid: 1a1a8d5e-d685-4b7e-99fb-61fa2e7bdafa
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_AggregatePExtent class
@@ -20,7 +20,7 @@ api_location:
 
 The **SetPowerState** method sets the desired power state for a logical device and when the device should be put into that state. In a subclass, the set of possible return codes should be specified using a **ValueMap** qualifier on the method. The strings to which the **ValueMap** contents are translated should also be specified in the subclass as a **Values** array qualifier. This method is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 
-For more information about using this method with C/C++, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+For more information about using this method with C/C++, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 > [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).
@@ -113,7 +113,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -134,9 +134,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.TranscodedForSync property.
+description: The photo metadata policy for the System.Photo.TranscodedForSync property.
 ms.assetid: 1869d845-6264-425a-ab3e-e0a9f942961a
 title: System.Photo.TranscodedForSync Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.TranscodedForSync Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.TranscodedForSync](https://msdn.microsoft.com/library/bb787279(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.TranscodedForSync](../properties/props-system-photo-transcodedforsync.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Photo.TranscodedForSync](https://msdn.microsoft.com/library/bb787279(VS.85).aspx)
+[System.Photo.TranscodedForSync](../properties/props-system-photo-transcodedforsync.md)
 </dt> </dl>
 
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Creates a copy of the IAnalysisRegion.
+description: Creates a copy of the IAnalysisRegion.
 ms.assetid: eb94e1ce-7801-409d-9ae6-e7db0a9b861f
 title: IAnalysisRegion::Clone method (IACom.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 This method is eqivalent to theSystem.Windows.Ink.AnalysisCore.AnalysisRegionBase.Clone Method in the .NET Framework.
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**pClonedRegion* when you no longer need to use the cloned analysis region.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**pClonedRegion* when you no longer need to use the cloned analysis region.
 
  
 
@@ -58,7 +58,7 @@ This method is eqivalent to theSystem.Windows.Ink.AnalysisCore.AnalysisRegionBas
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -78,9 +78,4 @@ This method is eqivalent to theSystem.Windows.Ink.AnalysisCore.AnalysisRegionBas
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of child objects in this file data object.
+description: Retrieves the number of child objects in this file data object.
 ms.assetid: 4409819f-a346-40b1-8e12-86e8128ece47
 title: ID3DXFileEnumObject::GetChildren method (D3DX9Xof.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT GetChildren(
 *puiChildren* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**SIZE\_T**](../winprog/windows-data-types.md)\***
 
 Address of a pointer to receive the number of child objects in this file data object.
 
@@ -54,7 +54,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |
@@ -71,7 +71,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
  
 
  
-
-
-
-

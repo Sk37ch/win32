@@ -1,12 +1,12 @@
 ---
-Description: A 3D primitive is a collection of vertices that form a single 3D entity. The simplest primitive is a collection of points in a 3D coordinate system, which is called a point list.
+description: A 3D primitive is a collection of vertices that form a single 3D entity. The simplest primitive is a collection of points in a 3D coordinate system, which is called a point list.
 ms.assetid: 'vs|directx_sdk|~\primitives.htm'
 title: Primitives (Direct3D 9 Graphics)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Primitives
+# Primitives (Direct3D 9 Graphics)
 
 A 3D primitive is a collection of vertices that form a single 3D entity. The simplest primitive is a collection of points in a 3D coordinate system, which is called a point list.
 
@@ -29,7 +29,7 @@ Direct3D devices can create and manipulate the following types of primitives.
 -   [Triangle Strips](triangle-strips.md)
 -   [Triangle Fans (Direct3D 9)](triangle-fans.md)
 
-You can render primitive types from a C++ application with any of the rendering methods of the [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface.
+You can render primitive types from a C++ application with any of the rendering methods of the [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface.
 
 ## Related topics
 
@@ -41,6 +41,3 @@ You can render primitive types from a C++ application with any of the rendering 
  
 
  
-
-
-

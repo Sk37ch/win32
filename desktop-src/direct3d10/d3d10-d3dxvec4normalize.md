@@ -1,21 +1,24 @@
 ---
-Description: Returns the normalized version of a 4D vector.
+description: D3DXVec4Normalize function (D3DX10Math.h) - Returns the normalized version of a 4D vector.
 ms.assetid: ed3c48cf-4985-4ef3-b733-f8532e3ff6b5
 title: D3DXVec4Normalize function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec4Normalize
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3DX10Math.h
 ---
 
-# D3DXVec4Normalize function
+# D3DXVec4Normalize function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Returns the normalized version of a 4D vector.
 
@@ -38,7 +41,7 @@ D3DXVECTOR4* D3DXVec4Normalize(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointer to the [**D3DXVECTOR4**](d3d10-d3dxvector4.md) that is the result of the operation.
 
@@ -47,7 +50,7 @@ Pointer to the [**D3DXVECTOR4**](d3d10-d3dxvector4.md) that is the result of the
 *pV* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointer to the source D3DXVECTOR4 structure.
 
@@ -55,7 +58,7 @@ Pointer to the source D3DXVECTOR4 structure.
 
 ## Return value
 
-Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointer to a D3DXVECTOR4 structure that is the normalized version of the vector.
 
@@ -67,7 +70,7 @@ The return value for this function is the same value returned in the pOut parame
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 
@@ -83,7 +86,3 @@ The return value for this function is the same value returned in the pOut parame
  
 
  
-
-
-
-

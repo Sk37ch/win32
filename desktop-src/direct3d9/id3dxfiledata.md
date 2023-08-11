@@ -1,5 +1,5 @@
 ---
-Description: Applications use the methods of the ID3DXFileData interface to build or to access the immediate hierarchy of the data object. Template restrictions determine the hierarchy.
+description: Applications use the methods of the ID3DXFileData interface to build or to access the immediate hierarchy of the data object. Template restrictions determine the hierarchy.
 ms.assetid: ce291e2b-b926-4502-8bee-55fe6d6d3267
 title: ID3DXFileData interface (D3DX9Xof.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ Applications use the methods of the ID3DXFileData interface to build or to acces
 
 ## Members
 
-The **ID3DXFileData** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXFileData** also has these types of members:
+The **ID3DXFileData** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ID3DXFileData** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -67,7 +67,7 @@ typedef interface ID3DXFileData *LPD3DXFILEDATA;
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |
@@ -84,7 +84,3 @@ typedef interface ID3DXFileData *LPD3DXFILEDATA;
  
 
  
-
-
-
-

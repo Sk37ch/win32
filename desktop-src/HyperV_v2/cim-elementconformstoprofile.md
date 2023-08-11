@@ -1,5 +1,5 @@
 ---
-Description: Represents an association in which a managed element conforms to the standard of a registered profile.
+description: Represents an association in which a managed element conforms to the standard of a registered profile.
 ms.assetid: 9d5704b6-c764-4f68-bce3-384d5a244e28
 title: CIM_ElementConformsToProfile class
 ms.topic: reference
@@ -53,7 +53,7 @@ Data type: **CIM\_RegisteredProfile**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The registered profile to which the managed element conforms.
@@ -69,7 +69,7 @@ Data type: **CIM\_ManagedElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The managed element that conforms to the registered profile.
@@ -80,7 +80,7 @@ The managed element that conforms to the registered profile.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
@@ -91,9 +91,4 @@ The managed element that conforms to the registered profile.
 
 
  
-
- 
-
-
-
 

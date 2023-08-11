@@ -1,5 +1,5 @@
 ---
-Description: D3DXSHPRTSPLITMESHVERTDATA structure
+description: D3DXSHPRTSPLITMESHVERTDATA structure
 ms.assetid: 8799a680-bf5f-42cc-91aa-1a6aed164ca5
 title: D3DXSHPRTSPLITMESHVERTDATA structure (D3dx9mesh.h)
 ms.topic: reference
@@ -37,7 +37,7 @@ typedef struct D3DXSHPRTSPLITMESHVERTDATA {
 **uVertRemap**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -48,7 +48,7 @@ Vertex in original mesh this corresponds to.
 **uSubCluster**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -59,7 +59,7 @@ Cluster index, relative to the supercluster.
 **ucVertStatus**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -75,7 +75,7 @@ Allocated in [**D3DXSHPRTCompSplitMeshSC**](d3dxshprtcompsplitmeshsc.md).
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 
@@ -91,7 +91,3 @@ Allocated in [**D3DXSHPRTCompSplitMeshSC**](d3dxshprtcompsplitmeshsc.md).
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Compile a shader and create a data processor asynchronously.
+description: Compile a shader and create a data processor asynchronously.
 ms.assetid: 842db48b-51a7-4f32-8ea6-44247f2619b0
 title: D3DX10CreateAsyncShaderCompilerProcessor function (D3DX10Async.h)
 ms.topic: reference
@@ -25,7 +25,7 @@ Compile a shader and create a data processor asynchronously.
 ```C++
 HRESULT D3DX10CreateAsyncShaderCompilerProcessor(
   _In_        LPCSTR               pFileName,
-  _In_  const D3D10_SHADER_MACRO   *pDefines,
+  _In_  const D3D_SHADER_MACRO   *pDefines,
   _In_        LPD3D10INCLUDE       pInclude,
   _In_        LPCSTR               pFunctionName,
   _In_        LPCSTR               pProfile,
@@ -45,7 +45,7 @@ HRESULT D3DX10CreateAsyncShaderCompilerProcessor(
 *pFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 A string that contains the shader filename.
 
@@ -54,25 +54,25 @@ A string that contains the shader filename.
 *pDefines* \[in\]
 </dt> <dd>
 
-Type: **const [**D3D10\_SHADER\_MACRO**](https://msdn.microsoft.com/library/Bb172436(v=VS.85).aspx)\***
+Type: **const [**D3D\_SHADER\_MACRO**](/windows/win32/api/d3dcommon/ns-d3dcommon-d3d_shader_macro)\***
 
-A NULL-terminated array of shader macros (see [**D3D10\_SHADER\_MACRO**](https://msdn.microsoft.com/library/Bb172436(v=VS.85).aspx)); set this to **NULL** to specify no macros.
+A NULL-terminated array of shader macros (see [**D3D\_SHADER\_MACRO**](/windows/win32/api/d3dcommon/ns-d3dcommon-d3d_shader_macro)); set this to **NULL** to specify no macros.
 
 </dd> <dt>
 
 *pInclude* \[in\]
 </dt> <dd>
 
-Type: **[**LPD3D10INCLUDE**](https://msdn.microsoft.com/library/Bb173775(v=VS.85).aspx)**
+Type: **[**LPD3D10INCLUDE**](/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))**
 
-A pointer to an include interface (see [**ID3D10Include Interface**](https://msdn.microsoft.com/library/Bb173775(v=VS.85).aspx)); set this to **NULL** to specify there is no include file.
+A pointer to an include interface (see [**ID3D10Include Interface**](/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))); set this to **NULL** to specify there is no include file.
 
 </dd> <dt>
 
 *pFunctionName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Name of the entry point function for the shader.
 
@@ -81,16 +81,16 @@ Name of the entry point function for the shader.
 *pProfile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
-A string that specifies the [shader profile](https://msdn.microsoft.com/library/Bb509626(v=VS.85).aspx) or shader model.
+A string that specifies the [shader profile](../direct3dhlsl/dx-graphics-hlsl-models.md) or shader model.
 
 </dd> <dt>
 
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 HLSL compile options (see [Shader Flags](d3d10-graphics-reference-effect-constants.md)).
 
@@ -99,18 +99,18 @@ HLSL compile options (see [Shader Flags](d3d10-graphics-reference-effect-constan
 *ppCompiledShader* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](/windows/desktop/api/D3DCommon/nn-d3dcommon-id3d10blob)\*\***
+Type: **[**ID3D10Blob**](/windows/win32/api/D3DCommon/nn-d3dcommon-id3d10blob)\*\***
 
-Address of a pointer to the compiled shader. See [**ID3D10Blob Interface**](/windows/desktop/api/D3DCommon/nn-d3dcommon-id3d10blob).
+Address of a pointer to the compiled shader. See [**ID3D10Blob Interface**](/windows/win32/api/D3DCommon/nn-d3dcommon-id3d10blob).
 
 </dd> <dt>
 
 *ppErrorBuffer* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](/windows/desktop/api/D3DCommon/nn-d3dcommon-id3d10blob)\*\***
+Type: **[**ID3D10Blob**](/windows/win32/api/D3DCommon/nn-d3dcommon-id3d10blob)\*\***
 
-Address of a pointer to a buffer that contains compile errors (see [**ID3D10Blob Interface**](/windows/desktop/api/D3DCommon/nn-d3dcommon-id3d10blob)).
+Address of a pointer to a buffer that contains compile errors (see [**ID3D10Blob Interface**](/windows/win32/api/D3DCommon/nn-d3dcommon-id3d10blob)).
 
 </dd> <dt>
 
@@ -133,7 +133,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Async.h</dt> </dl> |
 
@@ -149,7 +149,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

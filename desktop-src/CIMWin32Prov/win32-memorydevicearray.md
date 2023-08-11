@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_MemoryDeviceArray association WMI class relates a memory device and the memory array in which it resides.
+description: The Win32\_MemoryDeviceArray association WMI class relates a memory device and the memory array in which it resides.
 ms.assetid: 39ea6333-2352-488b-99e4-97594bea7dcd
 ms.tgt_platform: multiple
 title: Win32_MemoryDeviceArray class
@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_MemoryDeviceArray class
 
-The **Win32\_MemoryDeviceArray** association [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) relates a memory device and the memory array in which it resides.
+The **Win32\_MemoryDeviceArray** association [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) relates a memory device and the memory array in which it resides.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_MemoryArray**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_MemoryArray")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_MemoryArray")
 </dt> </dl>
 
 A [**Win32\_MemoryArray**](win32-memoryarray.md) that represents the memory array part of the Win32\_MemoryDeviceArray association.
@@ -72,7 +72,7 @@ Data type: **Win32\_MemoryDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_MemoryDevice")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_MemoryDevice")
 </dt> </dl>
 
 A [**Win32\_MemoryDevice**](win32-memorydevice.md) that represents a memory device part of the Win32\_MemoryDeviceArray association.
@@ -87,7 +87,7 @@ The **Win32\_MemoryDeviceArray** class is derived from [**CIM\_Component**](cim-
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -108,9 +108,4 @@ The **Win32\_MemoryDeviceArray** class is derived from [**CIM\_Component**](cim-
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the quality of the output.
+description: Specifies the quality of the output.
 ms.assetid: 7b45633b-7f1c-4951-a462-ad6240b9ca31
 title: MFPKEY_WMRESAMP_FILTERQUALITY Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Specifies the quality of the output.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -30,7 +30,7 @@ The valid range of this property is 1 to 60, inclusive. Higher values produce hi
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -48,7 +48,3 @@ The valid range of this property is 1 to 60, inclusive. Higher values produce hi
  
 
  
-
-
-
-

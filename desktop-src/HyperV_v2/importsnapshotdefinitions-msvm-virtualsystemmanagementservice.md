@@ -1,5 +1,5 @@
 ---
-Description: Searches the specified folder for any snapshot definition files associated with the specified planned computer system, and creates a new snapshot on the planned computer system for every associated definition file in this location.
+description: Searches the specified folder for any snapshot definition files associated with the specified planned computer system, and creates a new snapshot on the planned computer system for every associated definition file in this location.
 ms.assetid: d240c24b-f788-4ea9-b3bd-af1f75f4f460
 title: ImportSnapshotDefinitions method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -61,7 +61,7 @@ If the operation completes synchronously, an array of references to the [**Msvm\
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -117,7 +117,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -135,9 +135,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

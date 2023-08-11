@@ -46,13 +46,13 @@ Return **TRUE** to indicate that the mouse click was handled and suppress defaul
 
 ## Remarks
 
-Clicking an item with the left mouse button causes the toolbar to send a [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message with the [BN\_CLICKED](bn-clicked.md) notification code to the parent window. The NM\_CLICK notification is sent after the **WM\_COMMAND** message.
+Clicking an item with the left mouse button causes the toolbar to send a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message with the [BN\_CLICKED](bn-clicked.md) notification code to the parent window. The NM\_CLICK notification is sent after the **WM\_COMMAND** message.
 
 ## Requirements
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -61,10 +61,4 @@ Clicking an item with the left mouse button causes the toolbar to send a [**WM\_
 
 
  
-
- 
-
-
-
-
 

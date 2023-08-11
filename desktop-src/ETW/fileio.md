@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for file I/O events. The following syntax is simplified from MOF code.
+description: FileIo class - This class is the parent class for file I/O events. The following syntax is simplified from MOF code.
 ms.assetid: 8e006a63-a061-4b62-8f90-b8c8823bb047
 title: FileIo class
 ms.topic: reference
@@ -35,12 +35,12 @@ The **FileIo** class does not define any members.
 
 ## Remarks
 
-To enable the File IO events in an NT Kernel logging session, specify the **EVENT\_TRACE\_FLAG\_DISK\_FILE\_IO** flag in the **EnableFlags** member of an [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md) structure when calling the [**StartTrace**](starttrace.md) function. You can also specify one or more of the following flags:
+To enable the File IO events in an NT Kernel logging session, specify the **EVENT\_TRACE\_FLAG\_DISK\_FILE\_IO** flag in the **EnableFlags** member of an [**EVENT\_TRACE\_PROPERTIES**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) structure when calling the [**StartTrace**](/windows/win32/api/evntrace/nf-evntrace-starttracea) function. You can also specify one or more of the following flags:
 
 -   **EVENT\_TRACE\_FLAG\_FILE\_IO**
 -   **EVENT\_TRACE\_FLAG\_FILE\_IO\_INIT**
 
-Event trace consumers can implement special processing for file I/O events by calling the [**SetTraceCallback**](settracecallback.md) function and specifying [**FileIoGuid**](nt-kernel-logger-constants.md) as the *pGuid* parameter. Use the following event types to identify the actual event when consuming events.
+Event trace consumers can implement special processing for file I/O events by calling the [**SetTraceCallback**](/windows/win32/api/evntrace/nf-evntrace-settracecallback) function and specifying [**FileIoGuid**](nt-kernel-logger-constants.md) as the *pGuid* parameter. Use the following event types to identify the actual event when consuming events.
 
 
 
@@ -75,7 +75,7 @@ File IO events are logged at the beginning of the operation.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
@@ -98,7 +98,3 @@ File IO events are logged at the beginning of the operation.
  
 
  
-
-
-
-

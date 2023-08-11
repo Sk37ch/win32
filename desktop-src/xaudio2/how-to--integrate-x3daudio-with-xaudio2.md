@@ -1,5 +1,5 @@
 ---
-Description: This topic shows how to integrate X3DAudio with XAudio2.
+description: This topic shows how to integrate X3DAudio with XAudio2.
 ms.assetid: a8f41f0d-b284-aefa-923b-471b13b4a3ec
 title: 'How to: Integrate X3DAudio with XAudio2'
 ms.topic: article
@@ -14,7 +14,7 @@ This topic shows how to integrate X3DAudio with XAudio2. You can use X3DAudio to
 
 1.  Initialize X3DAudio by calling [**X3DAudioInitialize**](/windows/desktop/api/x3daudio/nf-x3daudio-x3daudioinitialize).
 
-    The [**X3DAudioInitialize**](/windows/desktop/api/x3daudio/nf-x3daudio-x3daudioinitialize) function takes flags indicating the speaker setup, the speed of sound in user-defined world units per second, and a handle to return an instance of the X3DAudio engine. Call [**IXAudio2MasteringVoice::GetChannelMask**](https://msdn.microsoft.com/library/Hh405046(v=VS.85).aspx) to get the output format's channel mask.
+    The [**X3DAudioInitialize**](/windows/desktop/api/x3daudio/nf-x3daudio-x3daudioinitialize) function takes flags indicating the speaker setup, the speed of sound in user-defined world units per second, and a handle to return an instance of the X3DAudio engine. Call [**IXAudio2MasteringVoice::GetChannelMask**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2masteringvoice-getchannelmask) to get the output format's channel mask.
 
     ```
     DWORD dwChannelMask;       
@@ -33,12 +33,14 @@ This topic shows how to integrate X3DAudio with XAudio2. You can use X3DAudio to
     Members of the structures that will not be updated in a game loop should be initialized here. Most members of the structures can simply be initialized to zero. However, some members of [**X3DAUDIO\_EMITTER**](/windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_emitter) need to be set to be initialized to non-zero values. The ChannelCount member of the **X3DAUDIO\_EMITTER** needs to be initialized to the number of channels in the voice the emitter represents. Also, the CurveDistanceScaler member of **X3DAUDIO\_EMITTER** must be in the range FLT\_MIN to FLT\_MAX.
 
     ```
-    X3DAUDIO_LISTENER Listener = {0};
-    X3DAUDIO_EMITTER Emitter = {0};
+    X3DAUDIO_LISTENER Listener = {};
+    
+    X3DAUDIO_EMITTER Emitter = {};
     Emitter.ChannelCount = 1;
-    Emitter.CurveDistanceScaler = FLT_MIN;
+    Emitter.CurveDistanceScaler = Emitter.DopplerScaler = 1.0f;
     ```
 
+> The ChannelCount here assumes we are playing a mono-channel sound which is the easist to set up. For sound sources with more than 1 channel, you must also set the emitter ``ChannelRadius`` and ``pChannelAzimuths`` values.
     
 
 3.  Create an instance of the [**X3DAUDIO\_DSP\_SETTINGS**](/windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_dsp_settings) structure.
@@ -46,7 +48,7 @@ This topic shows how to integrate X3DAudio with XAudio2. You can use X3DAudio to
     The [**X3DAUDIO\_DSP\_SETTINGS**](/windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_dsp_settings) structure is used to return results calculated by [**X3DAudioCalculate**](/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate). The **X3DAudioCalculate** function does not allocate memory for any of its parameters. This means that you need to allocate arrays for the **X3DAUDIO\_DSP\_SETTINGS** structure's pMatrixCoefficients and pDelayTimes members if you intend to use them. In addition, you need to set the SrcChannelCount and DstChannelCount members to the number of channels in the emitter's source and destination voices.
 
     ```
-    X3DAUDIO_DSP_SETTINGS DSPSettings = {0};
+    X3DAUDIO_DSP_SETTINGS DSPSettings = {};
     FLOAT32 * matrix = new FLOAT32[deviceDetails.OutputFormat.Format.nChannels];
     DSPSettings.SrcChannelCount = 1;
     DSPSettings.DstChannelCount = deviceDetails.OutputFormat.Format.nChannels;
@@ -56,7 +58,7 @@ This topic shows how to integrate X3DAudio with XAudio2. You can use X3DAudio to
     
 
     > [!Note]  
-    > Use [**IXAudio2Voice::GetVoiceDetails**](https://msdn.microsoft.com/library/Ee418591(v=VS.85).aspx) on the mastering voice to obtain the number of InputChannels for **nChannels**. For DirectX SDK versions of XAUDIO2 prior to Windows 8, use IXAudio2::GetDeviceDetails.
+    > Use [**IXAudio2Voice::GetVoiceDetails**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voice-getvoicedetails) on the mastering voice to obtain the number of InputChannels for **nChannels**. For DirectX SDK versions of XAUDIO2 prior to Windows 8, use IXAudio2::GetDeviceDetails.
 
      
 
@@ -91,7 +93,7 @@ Perform these steps once every two to three frames to calculate new settings and
 
     
 
-3.  Use [**IXAudio2Voice::SetOutputMatrix**](https://msdn.microsoft.com/library/Ee418598(v=VS.85).aspx) and [**IXAudio2SourceVoice::SetFrequencyRatio**](https://msdn.microsoft.com/library/Ee418469(v=VS.85).aspx) to apply the volume and pitch values to the source voice.
+3.  Use [**IXAudio2Voice::SetOutputMatrix**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputmatrix) and [**IXAudio2SourceVoice::SetFrequencyRatio**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-setfrequencyratio) to apply the volume and pitch values to the source voice.
 
     ```
     pSFXSourceVoice->SetOutputMatrix( pMasterVoice, 1, deviceDetails.OutputFormat.Format.nChannels, DSPSettings.pMatrixCoefficients ) ;
@@ -100,7 +102,7 @@ Perform these steps once every two to three frames to calculate new settings and
 
     
 
-4.  Use [**IXAudio2Voice::SetOutputMatrix**](https://msdn.microsoft.com/library/Ee418598(v=VS.85).aspx) to apply the calculated reverb level to the submix voice.
+4.  Use [**IXAudio2Voice::SetOutputMatrix**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputmatrix) to apply the calculated reverb level to the submix voice.
 
     ```
     pSFXSourceVoice->SetOutputMatrix(pSubmixVoice, 1, 1, &DSPSettings.ReverbLevel);
@@ -108,7 +110,7 @@ Perform these steps once every two to three frames to calculate new settings and
 
     
 
-5.  Use [**IXAudio2Voice::SetFilterParameters**](https://msdn.microsoft.com/library/Ee418596(v=VS.85).aspx) to apply the calculated low pass filter direct coefficient to the source voice.
+5.  Use [**IXAudio2Voice::SetFilterParameters**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voice-setfilterparameters) to apply the calculated low pass filter direct coefficient to the source voice.
 
     ```
     XAUDIO2_FILTER_PARAMETERS FilterParameters = { LowPassFilter, 2.0f * sinf(X3DAUDIO_PI/6.0f * DSPSettings.LPFDirectCoefficient), 1.0f };
@@ -136,6 +138,3 @@ Perform these steps once every two to three frames to calculate new settings and
  
 
  
-
-
-

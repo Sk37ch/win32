@@ -1,6 +1,6 @@
 ---
 title: Semantic differences between multipoint sockets and regular sockets
-Description: Differences between c\_root multipoint sockets and regular point-to-point sockets.
+description: Differences between c\_root multipoint sockets and regular point-to-point sockets.
 ms.assetid: fbadfde8-44dc-41ac-bd93-1a22c76ca321
 ms.topic: article
 ms.date: 05/31/2018
@@ -21,11 +21,8 @@ In the data plane, the semantic differences between the d\_root socket and a reg
 -   The data sent on the d\_root socket is delivered to all the leaves in the same multipoint session.
 -   The data received on the d\_root socket may be from any of the leaves.
 
-The d\_leaf socket in the rooted data plane has no semantic difference from the regular socket, however, in the nonrooted data plane, the data sent on the d\_leaf socket goes to all the other leaf nodes, and the data received could be from any other leaf nodes. As mentioned earlier, the information about whether the d\_leaf socket is in a rooted or nonrooted data plane is contained in the corresponding [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/library/ms741675(v=VS.85).aspx) structure for the socket.
+The d\_leaf socket in the rooted data plane has no semantic difference from the regular socket, however, in the nonrooted data plane, the data sent on the d\_leaf socket goes to all the other leaf nodes, and the data received could be from any other leaf nodes. As mentioned earlier, the information about whether the d\_leaf socket is in a rooted or nonrooted data plane is contained in the corresponding [**WSAPROTOCOL\_INFO**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure for the socket.
 
  
 
  
-
-
-

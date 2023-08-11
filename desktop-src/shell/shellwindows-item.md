@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an InternetExplorer object that represents the Shell window.
+description: Retrieves an InternetExplorer object that represents the Shell window.
 ms.assetid: '32390f35-f83a-45d9-a240-282da7cb2b13'
 title: ShellWindows.Item method (Exdisp.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # ShellWindows.Item method
 
-Retrieves an [**InternetExplorer**](https://msdn.microsoft.com/library/Aa752084(v=VS.85).aspx) object that represents the Shell window.
+Retrieves an [**InternetExplorer**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752084(v=vs.85)) object that represents the Shell window.
 
 ## Syntax
 
@@ -45,13 +45,13 @@ The zero-based index of the item to retrieve. This value must be less than the v
 
 ## Return value
 
-Type: **[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)\*\***
+Type: **[**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)\*\***
 
-An object reference to the [**InternetExplorer**](https://msdn.microsoft.com/library/Aa752084(v=VS.85).aspx) object that represents the Shell window.
+An object reference to the [**InternetExplorer**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752084(v=vs.85)) object that represents the Shell window.
 
 ## Examples
 
-The following example uses [**Item**](folderitemverbs-item.md) to retrieve the [**InternetExplorer**](https://msdn.microsoft.com/library/Aa752084(v=VS.85).aspx) object that represents the first Shell window item. Proper usage is shown for JScript, VBScript, and Visual Basic.
+The following example uses [**Item**](folderitemverbs-item.md) to retrieve the [**InternetExplorer**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752084(v=vs.85)) object that represents the first Shell window item. Proper usage is shown for JScript, VBScript, and Visual Basic.
 
 JScript:
 
@@ -144,7 +144,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
@@ -156,7 +156,3 @@ End Sub
  
 
  
-
-
-
-

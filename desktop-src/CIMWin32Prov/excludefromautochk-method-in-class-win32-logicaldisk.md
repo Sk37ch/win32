@@ -1,5 +1,5 @@
 ---
-Description: Excludes disks from the autochk operation to be run at the next reboot.
+description: Excludes disks from the autochk operation to be run at the next reboot.
 ms.assetid: 5df2bc3b-e149-4853-aa02-af4cb8af6da0
 ms.tgt_platform: multiple
 title: ExcludeFromAutochk method of the Win32_LogicalDisk class
@@ -20,7 +20,7 @@ api_location:
 
 The **ExcludeFromAutochk** method excludes disks from the **autochk** operation to be run at the next reboot.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -48,7 +48,7 @@ Example: "C:"
 
 ## Return value
 
-Returns a value of 0 (zero) when no error occurs. Values are listed in the following list. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+Returns a value of 0 (zero) when no error occurs. Values are listed in the following list. For additional error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -92,7 +92,7 @@ errReturn = objDisk.ExcludeFromAutoChk(Array("C:"))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -113,9 +113,4 @@ errReturn = objDisk.ExcludeFromAutoChk(Array("C:"))
 </dt> </dl>
 
  
-
- 
-
-
-
 

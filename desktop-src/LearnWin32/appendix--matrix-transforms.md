@@ -49,7 +49,7 @@ This section describes the basic operations defined on matrices.
 
 *Matrix multiplication*. Given two matrices A and B with order (m × n) and (n × p), the product C = A × B is a matrix with order (m × p), defined as follows:
 
-![matrix multiplication.](images/matrix02.png)
+![Shows a formula for matrix multiplication.](images/matrix02.png)
 
 or, equivalently:
 
@@ -92,7 +92,7 @@ An *affine transform* is a mathematical operation that maps one coordinate space
 
 Affine transforms for 2-D space have the following form.
 
-![affine transform.](images/matrix05.png)
+![Shows an affine transform for 2-D space.](images/matrix05.png)
 
 If you apply the definition of matrix multiplication given earlier, you can show that the product of two affine transforms is another affine transform. To transform a 2D point using an affine transform, the point is represented as a 1 × 3 matrix.
 
@@ -160,7 +160,7 @@ which corresponds to the point (x,y) scaled by *dx* and *dy*.
 
 The matrix to rotate a point around the origin has the following form.
 
-![rotation transform.](images/matrix11.png)
+![Shows a formula for a rotation transform.](images/matrix11.png)
 
 The transformed point is:
 
@@ -279,27 +279,27 @@ or equivalently:
 
 To see how this transform works, consider each component individually. The Θ parameter moves every point in the x direction by an amount equal to tanΘ. The following diagram shows the relation between Θ and the x-axis skew.
 
-![a diagram that shows skew along the x-axis.](images/graphics26.png)
+![Diagram that shows skew along the x-axis.](images/graphics26.png)
 
 Here is the same skew applied to a rectangle:
 
-![a diagram that shows skew along the x-axis.](images/graphics27.png)
+![Diagram that shows skew along the x-axis when applied to a rectangle.](images/graphics27.png)
 
 The Φ parameter has the same effect, but along the y-axis:
 
-![a diagram that shows skew along the y-axis.](images/graphics28.png)
+![Diagram that shows skew along the y-axis.](images/graphics28.png)
 
 The next diagram shows y-axis skew applied to a rectangle.
 
-![a diagram that shows skew along the y-axis.](images/graphics29.png)
+![Diagram that shows skew along the y-axis when applied to a rectangle.](images/graphics29.png)
 
 Finally, the parameters *px* and *py* shift the center point for the skew along the x- and y-axes.
 
 ## Representing Transforms in Direct2D
 
-All Direct2D transforms are affine transforms. Direct2D does not support non-affine transforms. Transforms are represented by the [**D2D1\_MATRIX\_3X2\_F**](https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f) structure. This structure defines a 3 × 2 matrix. Because the third column of an affine transform is always the same (\[0, 0, 1\]), and because Direct2D does not support non-affine transforms, there is no need to specify the entire 3 × 3 matrix. Internally, Direct2D uses 3 × 3 matrices to compute the transforms.
+All Direct2D transforms are affine transforms. Direct2D does not support non-affine transforms. Transforms are represented by the [**D2D1\_MATRIX\_3X2\_F**](/windows/desktop/Direct2D/d2d1-matrix-3x2-f) structure. This structure defines a 3 × 2 matrix. Because the third column of an affine transform is always the same (\[0, 0, 1\]), and because Direct2D does not support non-affine transforms, there is no need to specify the entire 3 × 3 matrix. Internally, Direct2D uses 3 × 3 matrices to compute the transforms.
 
-The members of the [**D2D1\_MATRIX\_3X2\_F**](https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f) are named according to their index position: the **\_11** member is element (1,1), the **\_12** member is element (1,2), and so forth. Although you can initialize the structure members directly, it is recommended to use the [**D2D1::Matrix3x2F**](https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f) class. This class inherits **D2D1\_MATRIX\_3X2\_F** and provides helper methods for creating any of the basic affine transforms. The class also defines [**operator\*()**](https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-operator-mult) for composing two or more transforms, as described in [Applying Transforms in Direct2D](applying-transforms-in-direct2d.md).
+The members of the [**D2D1\_MATRIX\_3X2\_F**](/windows/desktop/Direct2D/d2d1-matrix-3x2-f) are named according to their index position: the **\_11** member is element (1,1), the **\_12** member is element (1,2), and so forth. Although you can initialize the structure members directly, it is recommended to use the [**D2D1::Matrix3x2F**](/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f) class. This class inherits **D2D1\_MATRIX\_3X2\_F** and provides helper methods for creating any of the basic affine transforms. The class also defines [**operator\*()**](/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-operator-mult) for composing two or more transforms, as described in [Applying Transforms in Direct2D](applying-transforms-in-direct2d.md).
 
 ## Next
 
@@ -308,7 +308,3 @@ The members of the [**D2D1\_MATRIX\_3X2\_F**](https://docs.microsoft.com/windows
  
 
  
-
-
-
-

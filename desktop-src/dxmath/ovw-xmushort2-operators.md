@@ -1,5 +1,5 @@
 ---
-Description: The XMUSHORT2 structure exposes the following operators.
+description: The XMUSHORT2 structure exposes the following operators.
 ms.assetid: f57c9445-bd7f-42f7-b892-1023b76c792e
 title: XMUSHORT2 Operators
 ms.topic: reference
@@ -21,7 +21,7 @@ The [**XMUSHORT2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvec
 
 | Methods                                                | Description                                                                                                            |
 |--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://msdn.microsoft.com/library/Ee420700(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMUSHORT2` to the current instance of `XMUSHORT2`. <br/> |
+| [**operator =**](/previous-versions/windows/desktop/legacy/ee420700(v=vs.85))<br/> | Assigns the vector component data from one instance of `XMUSHORT2` to the current instance of `XMUSHORT2`. <br/> |
 
 
 
@@ -43,7 +43,3 @@ The [**XMUSHORT2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvec
  
 
  
-
-
-
-

@@ -11,7 +11,6 @@ api_location:
 - do.h
 api_type:
 - HeaderDef
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/29/2019
 ---
@@ -19,7 +18,7 @@ ms.date: 07/29/2019
 # IDODownloadInternal interface
 
 > [!IMPORTANT]
-> The **IDODownloadInternal** interface is deprecated. Instead, use the [IDODownload](/windows/win32/delivery_optimization/do/nn-do-idodownload) interface.
+> The **IDODownloadInternal** interface is deprecated. Instead, use the [IDODownload](/windows/win32/api/deliveryoptimization/nn-deliveryoptimization-idodownload) interface.
 
 The **IDODownloadInternal** interface is used to get or set extended download properties.
 
@@ -29,8 +28,8 @@ The **IDODownloadInternal** interface has these methods.
 
 | Method | Description |
 | ---- |:---- |
-| [IDODownloadInternal::GetPropertyEx](/windows/win32/delivery_optimization/dodownloadinternal/nf-dodownloadinternal-idodownloadinternal-getpropertyex) | Retrieves a pointer to a **VARIANT** that contains a specific extended download property value. |
-| [IDODownloadInternal::SetPropertyEx](/windows/win32/delivery_optimization/dodownloadinternal/nf-dodownloadinternal-idodownloadinternal-setpropertyex) | Sets an extended download property. The method accepts a pointer to a **VARIANT** that contains a specific property value to apply to the download. |
+| [IDODownloadInternal::GetPropertyEx](./nf-dodownloadinternal-idodownloadinternal-getpropertyex.md) | Retrieves a pointer to a **VARIANT** that contains a specific extended download property value. |
+| [IDODownloadInternal::SetPropertyEx](./nf-dodownloadinternal-idodownloadinternal-setpropertyex.md) | Sets an extended download property. The method accepts a pointer to a **VARIANT** that contains a specific property value to apply to the download. |
 
 ## Requirements
 

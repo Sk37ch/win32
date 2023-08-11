@@ -1,5 +1,5 @@
 ---
-Description: Gets the handle of a top-level parameter or a structure member parameter by looking up its semantic with a case-insensitive search.
+description: Gets the handle of a top-level parameter or a structure member parameter by looking up its semantic with a case-insensitive search.
 ms.assetid: 3de3791a-fe09-4a39-bd6f-0e20a641dd32
 title: ID3DXBaseEffect::GetParameterBySemantic method (D3DX9Shader.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Handle of the parameter, or **NULL** for top-level parameters. See [Handles (Dir
 *pSemantic* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 String containing the semantic name.
 
@@ -64,7 +64,7 @@ Returns the handle of the first parameter that matches the specified semantic, o
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -81,7 +81,3 @@ Returns the handle of the first parameter that matches the specified semantic, o
  
 
  
-
-
-
-

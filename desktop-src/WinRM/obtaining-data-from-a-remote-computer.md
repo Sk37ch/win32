@@ -14,11 +14,11 @@ api_location:
 
 # Obtaining Data from a Remote Computer
 
-You can obtain data or manage resources on remote computers as well as the local computer. Connecting to a remote computer in a Windows Remote Management script is very similar to making a local connection. WMI instance data is available and, if the remote computer has BMC hardware that can communicate using the WS-Management protocol, then [Intelligent Platform Management Interface (IPMI)](https://docs.microsoft.com/previous-versions/windows/desktop/ipmiprv/ipmi-provider) data is also available. For more information, see [Windows Remote Management and WMI](windows-remote-management-and-wmi.md) and [Remote Hardware Management](remote-hardware-management.md).
+You can obtain data or manage resources on remote computers as well as the local computer. Connecting to a remote computer in a Windows Remote Management script is very similar to making a local connection. WMI instance data is available and, if the remote computer has BMC hardware that can communicate using the WS-Management protocol, then [Intelligent Platform Management Interface (IPMI)](/previous-versions/windows/desktop/ipmiprv/ipmi-provider) data is also available. For more information, see [Windows Remote Management and WMI](windows-remote-management-and-wmi.md) and [Remote Hardware Management](remote-hardware-management.md).
 
 You may need to create a [**ConnectionOptions**](connectionoptions.md) object to specify information about the type of authentication requested for the logon.
 
-If the account on the remote computer has the same logon username and password, the only extra information you need is the transport, the domain name, and the computer name. Because of [User Account Control (UAC)](https://technet.microsoft.com/En-US/WindowsVista/aa906022.aspx), the remote account must be a domain account and a member of the remote computer Administrators group. If the account is a local computer member of the Administrators group, then UAC does not allow access to the WinRM service. To access a remote WinRM service in a workgroup, UAC filtering for local accounts must be disabled by creating the following DWORD registry entry and setting its value to 1: **\[HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\] LocalAccountTokenFilterPolicy**.
+If the account on the remote computer has the same logon username and password, the only extra information you need is the transport, the domain name, and the computer name. Because of [User Account Control (UAC)](https://support.microsoft.com/help/922708/how-to-use-user-account-control-uac-in-windows-vista), the remote account must be a domain account and a member of the remote computer Administrators group. If the account is a local computer member of the Administrators group, then UAC does not allow access to the WinRM service. To access a remote WinRM service in a workgroup, UAC filtering for local accounts must be disabled by creating the following DWORD registry entry and setting its value to 1: **\[HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\] LocalAccountTokenFilterPolicy**.
 
 **To connect to a remote computer using your logon username and password**
 
@@ -175,7 +175,3 @@ End Sub
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Description of substandard techniques for exposing custom controls.
+description: Description of substandard techniques for exposing custom controls.
 ms.assetid: 107968c6-c3b3-462d-b488-96c69f2b3b14
 title: Substandard Techniques for Exposing Custom Controls
 ms.topic: article
@@ -17,11 +17,8 @@ If an application does not support Microsoft Active Accessibility, it may not be
 
      
 
-To avoid compatibility problems with accessibility aids, you should follow Active Accessibility guidelines closely when designing custom controls. For more information about how to avoid compatibility problems with accessibility aids, see the [Accessibility](https://msdn.microsoft.com/library/Ee663255(v=VS.85).aspx) section.
+To avoid compatibility problems with accessibility aids, you should follow Active Accessibility guidelines closely when designing custom controls. For more information about how to avoid compatibility problems with accessibility aids, see the [Accessibility](../accessibility/accessibility.md) section.
 
  
 
  
-
-
-

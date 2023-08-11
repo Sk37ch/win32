@@ -1,5 +1,5 @@
 ---
-Description: Validates a mesh.
+description: Validates a mesh.
 ms.assetid: e5bec2f3-e914-4677-8114-77c71b8a586e
 title: D3DXValidMesh function (D3DX9Mesh.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ Pointer to an [**ID3DXMesh**](id3dxmesh.md) interface, representing the mesh to 
 *pAdjacency* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the mesh to be tested.
 
@@ -78,7 +78,7 @@ This method validates the mesh by checking for invalid indices. Error informatio
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -95,7 +95,3 @@ This method validates the mesh by checking for invalid indices. Error informatio
  
 
  
-
-
-
-

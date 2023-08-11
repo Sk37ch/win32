@@ -1,5 +1,5 @@
 ---
-Description: The CommitSpoolData function notifies the print spooler that a specified amount of data has been written to a specified spool file and is ready to be rendered.
+description: The CommitSpoolData function notifies the print spooler that a specified amount of data has been written to a specified spool file and is ready to be rendered.
 ms.assetid: cb8899e0-2fdf-4928-adff-17ef5af39f63
 title: CommitSpoolData function (Winspool.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ If the function fails, it returns INVALID\_HANDLE\_VALUE.
 
 ## Remarks
 
-Applications submitting a spooler print job can call [**GetSpoolFileHandle**](getspoolfilehandle.md) and then directly write data to the spool file handle by calling [**WriteFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile). To notify the print spooler that the file contains data which is ready to be rendered, the application must call **CommitSpoolData** and provide the number of available bytes.
+Applications submitting a spooler print job can call [**GetSpoolFileHandle**](getspoolfilehandle.md) and then directly write data to the spool file handle by calling [**WriteFile**](/windows/desktop/api/fileapi/nf-fileapi-writefile). To notify the print spooler that the file contains data which is ready to be rendered, the application must call **CommitSpoolData** and provide the number of available bytes.
 
 If **CommitSpoolData** is called multiple times, each call must use the spool file handle returned by the previous call. When no more data will be written to the spool file, [**CloseSpoolFileHandle**](closespoolfilehandle.md) should be called for the file handle returned by the last call to **CommitSpoolData**.
 
@@ -75,7 +75,7 @@ Before calling **CommitSpoolData**, applications must set the file pointer to th
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                      |
@@ -102,9 +102,4 @@ Before calling **CommitSpoolData**, applications must set the file pointer to th
 </dt> </dl>
 
  
-
- 
-
-
-
 

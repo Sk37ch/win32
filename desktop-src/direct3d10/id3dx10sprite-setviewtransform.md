@@ -1,5 +1,5 @@
 ---
-Description: Set the view transform that applies to all sprites.
+description: Set the view transform that applies to all sprites.
 ms.assetid: 0420b141-46c7-4409-a0c4-67d1e8e02cd4
 title: ID3DX10Sprite::SetViewTransform method (D3DX10.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT SetViewTransform(
 *pViewTransform* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to a D3DXMATRIX that contains a transform of the sprite from the original world space. Use this transform to scale, rotate, or transform the sprite.
 
@@ -54,7 +54,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -74,7 +74,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
  
 
  
-
-
-
-

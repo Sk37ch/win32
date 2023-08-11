@@ -1,5 +1,5 @@
 ---
-Description: Defines the registered profiles to which the referenced standalone system conforms.
+description: Defines the registered profiles to which the referenced standalone system conforms.
 ms.assetid: d9ede8d0-c6f3-48bd-84a9-7f2c31637819
 title: Msvm_StandaloneV2ElementConformsToProfile class
 ms.topic: reference
@@ -54,7 +54,7 @@ Data type: **Msvm\_RegisteredProfile**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 The registered profile to which the standalone system conforms.
@@ -70,7 +70,7 @@ Data type: **Msvm\_ComputerSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers), **MSFT\_TargetNamespace** ("root\\\\virtualization\\\\v2")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers), **MSFT\_TargetNamespace** ("root\\\\virtualization\\\\v2")
 </dt> </dl>
 
 The standalone system that conforms to the registered profile.
@@ -81,7 +81,7 @@ The standalone system that conforms to the registered profile.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -99,9 +99,4 @@ The standalone system that conforms to the registered profile.
 </dt> </dl>
 
  
-
- 
-
-
-
 

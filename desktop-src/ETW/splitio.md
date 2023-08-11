@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for split IO events. The following syntax is simplified from MOF code.
+description: This class is the parent class for split IO events. The following syntax is simplified from MOF code.
 ms.assetid: d65c5180-6f1a-45cc-bca8-eac13857d383
 title: SplitIo class
 ms.topic: reference
@@ -35,9 +35,9 @@ The **SplitIo** class does not define any members.
 
 ## Remarks
 
-To enable split IO events in an NT Kernel logging session, specify the **EVENT\_TRACE\_FLAG\_SPLIT\_IO** flag in the **EnableFlags** member of an [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md) structure when calling the [**StartTrace**](starttrace.md) function.
+To enable split IO events in an NT Kernel logging session, specify the **EVENT\_TRACE\_FLAG\_SPLIT\_IO** flag in the **EnableFlags** member of an [**EVENT\_TRACE\_PROPERTIES**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) structure when calling the [**StartTrace**](/windows/win32/api/evntrace/nf-evntrace-starttracea) function.
 
-Event trace consumers can implement special processing for split IO events by calling the [**SetTraceCallback**](settracecallback.md) function and specifying [**SplitIoGuid**](nt-kernel-logger-constants.md) as the *pGuid* parameter. Use the following event type to identify the actual event when consuming events.
+Event trace consumers can implement special processing for split IO events by calling the [**SetTraceCallback**](/windows/win32/api/evntrace/nf-evntrace-settracecallback) function and specifying [**SplitIoGuid**](nt-kernel-logger-constants.md) as the *pGuid* parameter. Use the following event type to identify the actual event when consuming events.
 
 
 
@@ -55,7 +55,7 @@ Split IO events indicate that the IO requests have been split into multiple disk
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
@@ -65,7 +65,3 @@ Split IO events indicate that the IO requests have been split into multiple disk
  
 
  
-
-
-
-

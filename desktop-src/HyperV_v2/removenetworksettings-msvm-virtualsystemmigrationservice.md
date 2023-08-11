@@ -1,5 +1,5 @@
 ---
-Description: Removes migration network subnets from the virtual system migration service.
+description: Removes migration network subnets from the virtual system migration service.
 ms.assetid: 6ae8de07-552b-4525-8806-bfb9da73bd42
 title: RemoveNetworkSettings method of the Msvm_VirtualSystemMigrationService class
 ms.topic: reference
@@ -45,7 +45,7 @@ An array of embedded instances of the [**Msvm\_VirtualSystemMigrationNetworkSett
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -98,7 +98,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -122,9 +122,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

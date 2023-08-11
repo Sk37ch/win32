@@ -1,5 +1,5 @@
 ---
-Description: As each service entry is read from the database of installed services, the SCM creates a service record for the service.
+description: As each service entry is read from the database of installed services, the SCM creates a service record for the service.
 ms.assetid: c0ee43e2-af9b-4578-9017-46a5ed50b938
 title: Service Record List
 ms.topic: article
@@ -26,11 +26,8 @@ The SCM keeps two copies of a user account's password, a current password and a 
 
 The SCM updates the service status when a service sends it status notifications using the [**SetServiceStatus**](/windows/desktop/api/Winsvc/nf-winsvc-setservicestatus) function. The SCM maintains the status of a driver service by querying the I/O system, instead of receiving status notifications, as it does from a service.
 
-A service can register additional type information by calling the [**SetServiceBits**](/windows/desktop/api/Lmserver/nf-lmserver-setservicebits) function. The [**NetServerGetInfo**](https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo) and [**NetServerEnum**](https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netserverenum) functions obtain the supported service types.
+A service can register additional type information by calling the [**SetServiceBits**](/windows/desktop/api/Lmserver/nf-lmserver-setservicebits) function. The [**NetServerGetInfo**](/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo) and [**NetServerEnum**](/windows/desktop/api/lmserver/nf-lmserver-netserverenum) functions obtain the supported service types.
 
  
 
  
-
-
-

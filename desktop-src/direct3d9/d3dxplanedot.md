@@ -1,22 +1,25 @@
 ---
-Description: Computes the dot product of a plane and a 4D vector.
+description: Computes the dot product of a plane and a 4D vector.
 ms.assetid: e6232ca8-52cc-472d-8bdb-4f8dfc520d4f
 title: D3DXPlaneDot function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXPlaneDot
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXPlaneDot function
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Computes the dot product of a plane and a 4D vector.
 
@@ -56,7 +59,7 @@ Pointer to a [**D3DXVECTOR4**](d3dxvector4.md) structure.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The dot product of the plane and 4D vector.
 
@@ -68,7 +71,7 @@ Given a plane (a, b, c, d) and a 4D vector (x, y, z, w) the return value of this
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -91,7 +94,3 @@ Given a plane (a, b, c, d) and a 4D vector (x, y, z, w) the return value of this
  
 
  
-
-
-
-

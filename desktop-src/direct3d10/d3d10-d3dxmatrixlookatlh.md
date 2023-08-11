@@ -1,22 +1,25 @@
 ---
-Description: Builds a left-handed, look-at matrix.
+description: D3DXMatrixLookAtLH function (D3DX10Math.h) - Builds a left-handed, look-at matrix.
 ms.assetid: 06888a97-66ef-447f-be8b-ea458ce16b4b
 title: D3DXMatrixLookAtLH function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixLookAtLH
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXMatrixLookAtLH function
+# D3DXMatrixLookAtLH function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a left-handed, look-at matrix.
 
@@ -41,7 +44,7 @@ D3DXMATRIX* D3DXMatrixLookAtLH(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the result of the operation.
 
@@ -50,7 +53,7 @@ Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the resul
 *pEye* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to the [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that defines the eye point. This value is used in translation.
 
@@ -59,7 +62,7 @@ Pointer to the [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that defines the eye poin
 *pAt* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to the D3DXVECTOR3 structure that defines the camera look-at target.
 
@@ -68,7 +71,7 @@ Pointer to the D3DXVECTOR3 structure that defines the camera look-at target.
 *pUp* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to the D3DXVECTOR3 structure that defines the current world's up, usually \[0, 1, 0\].
 
@@ -76,7 +79,7 @@ Pointer to the D3DXVECTOR3 structure that defines the current world's up, usuall
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to a D3DXMATRIX structure that is a left-handed, look-at matrix.
 
@@ -91,7 +94,7 @@ This function uses the following formula to compute the returned matrix.
 zaxis = normal(At - Eye)
 xaxis = normal(cross(Up, zaxis))
 yaxis = cross(zaxis, xaxis)
-    
+
  xaxis.x           yaxis.x           zaxis.x          0
  xaxis.y           yaxis.y           zaxis.y          0
  xaxis.z           yaxis.z           zaxis.z          0
@@ -104,7 +107,7 @@ yaxis = cross(zaxis, xaxis)
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -121,7 +124,3 @@ yaxis = cross(zaxis, xaxis)
  
 
  
-
-
-
-

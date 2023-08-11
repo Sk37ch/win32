@@ -1,5 +1,5 @@
 ---
-Description: Gets the number of callback keys in the animation set.
+description: ID3DXKeyframedAnimationSet::GetNumCallbackKeys method - Gets the number of callback keys in the animation set.
 ms.assetid: e1292be8-4ca2-4c01-a8bf-236346dbd16d
 title: ID3DXKeyframedAnimationSet::GetNumCallbackKeys method (D3dx9anim.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of callback keys in the animation set.
 
@@ -43,7 +43,7 @@ Number of callback keys in the animation set.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -60,7 +60,3 @@ Number of callback keys in the animation set.
  
 
  
-
-
-
-

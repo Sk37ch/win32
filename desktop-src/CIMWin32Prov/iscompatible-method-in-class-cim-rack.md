@@ -1,5 +1,5 @@
 ---
-Description: Verifies whether the referenced rack can be contained by, or inserted into, the physical package.
+description: Verifies whether the referenced rack can be contained by, or inserted into, the physical package.
 ms.assetid: 03276c6a-ca48-48bc-adbe-e53e02107abb
 ms.tgt_platform: multiple
 title: IsCompatible method of the CIM_Rack class
@@ -25,7 +25,7 @@ The **IsCompatible** method verifies whether the referenced rack can be containe
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -63,7 +63,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -84,9 +84,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

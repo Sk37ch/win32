@@ -1,5 +1,5 @@
 ---
-Description: XMUNIBBLE4 describes a 4D vector with four unsigned 4-bit integer components.
+description: XMUNIBBLE4 describes a 4D vector with four unsigned 4-bit integer components.
 ms.assetid: c9581948-f80f-4467-94a2-d6da2ddedb26
 title: XMUNIBBLE4 Extensions
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XMUNIBBLE4 Extensions
 
-[**XMUNIBBLE4**](https://msdn.microsoft.com/library/Ee420614(v=VS.85).aspx) describes a 4D vector with four unsigned 4-bit integer components.
+[**XMUNIBBLE4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmunibble4) describes a 4D vector with four unsigned 4-bit integer components.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -35,13 +35,9 @@ ms.date: 05/31/2018
 **Reference**
 </dt> <dt>
 
-[**XMUNIBBLE4**](https://msdn.microsoft.com/library/Ee420614(v=VS.85).aspx)
+[**XMUNIBBLE4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmunibble4)
 </dt> </dl>
 
  
 
  
-
-
-
-

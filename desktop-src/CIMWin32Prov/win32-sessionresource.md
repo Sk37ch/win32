@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SessionResource association represents the relationship between a session and the resources that the session provides access to.
+description: The Win32\_SessionResource association represents the relationship between a session and the resources that the session provides access to.
 ms.assetid: 39c195cf-e70b-4e93-b46b-61ed4f08f57e
 ms.tgt_platform: multiple
 title: Win32_SessionResource class
@@ -56,7 +56,7 @@ Data type: **Win32\_LogicalElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Antecedent")
+Qualifiers: [**Override**](../wmisdk/standard-qualifiers.md) ("Antecedent")
 </dt> </dl>
 
 The Antecedent reference represents resources used by this session.
@@ -72,7 +72,7 @@ Data type: **Win32\_Session**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Dependent")
+Qualifiers: [**Override**](../wmisdk/standard-qualifiers.md) ("Dependent")
 </dt> </dl>
 
 The Dependent reference represents the session using the resource.
@@ -83,7 +83,7 @@ The Dependent reference represents the session using the resource.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -103,7 +103,3 @@ The Dependent reference represents the session using the resource.
  
 
  
-
-
-
-

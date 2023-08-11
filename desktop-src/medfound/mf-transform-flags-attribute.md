@@ -1,5 +1,5 @@
 ---
-Description: Contains flags for a Media Foundation transform (MFT) activation object.
+description: Contains flags for a Media Foundation transform (MFT) activation object.
 ms.assetid: de377132-19b0-4c8c-882e-193c31420739
 title: MF_TRANSFORM_FLAGS_Attribute attribute (Mftransform.h)
 ms.topic: reference
@@ -14,7 +14,7 @@ Contains flags for a Media Foundation transform (MFT) activation object.
 
 **UINT32**
 
-The value is a bitwise **OR** of flags from the [**\_MFT\_ENUM\_FLAG**](https://msdn.microsoft.com/library/Dd389302(v=VS.85).aspx) enumeration.
+The value is a bitwise **OR** of flags from the [**\_MFT\_ENUM\_FLAG**](/windows/win32/api/mfapi/ne-mfapi-_mft_enum_flag) enumeration.
 
 ## Get/set
 
@@ -30,7 +30,7 @@ This attribute is set on the [**IMFActivate**](/windows/desktop/api/mfobjects/nn
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |
@@ -51,7 +51,3 @@ This attribute is set on the [**IMFActivate**](/windows/desktop/api/mfobjects/nn
  
 
  
-
-
-
-

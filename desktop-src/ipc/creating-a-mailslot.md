@@ -1,5 +1,5 @@
 ---
-Description: 'How to create mailslots. Mailslots are supported by three specialized functions: CreateMailslot, GetMailslotInfo, and SetMailslotInfo. These functions are used by the mailslot server.'
+description: 'How to create mailslots. Mailslots are supported by three specialized functions: CreateMailslot, GetMailslotInfo, and SetMailslotInfo. These functions are used by the mailslot server.'
 ms.assetid: 7f5a3b36-9583-43fc-a977-321c00a48edb
 title: Creating a Mailslot
 ms.topic: article
@@ -44,11 +44,8 @@ void main()
 
 
 
-To create a mailslot that can be inherited by child processes, an application should change the [**SECURITY\_ATTRIBUTES**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) structure passed as the last parameter of [**CreateMailslot**](/windows/desktop/api/Winbase/nf-winbase-createmailslota). To do this, the application sets the **bInheritHandle** member of this structure to **TRUE** (the default setting is **FALSE**).
+To create a mailslot that can be inherited by child processes, an application should change the [**SECURITY\_ATTRIBUTES**](/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) structure passed as the last parameter of [**CreateMailslot**](/windows/desktop/api/Winbase/nf-winbase-createmailslota). To do this, the application sets the **bInheritHandle** member of this structure to **TRUE** (the default setting is **FALSE**).
 
  
 
  
-
-
-

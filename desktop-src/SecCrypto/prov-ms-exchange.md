@@ -1,5 +1,5 @@
 ---
-Description: Designed for the cryptographic needs of the Microsoft Exchange mail application and other applications compatible with Microsoft Mail.
+description: Designed for the cryptographic needs of the Microsoft Exchange mail application and other applications compatible with Microsoft Mail.
 ms.assetid: 40b28dee-85b6-431c-834f-b1e5b3242d4b
 title: PROV_MS_EXCHANGE
 ms.topic: article
@@ -18,10 +18,10 @@ For descriptions of each of these algorithms, see the glossary.
 
 | Purpose      | Supported algorithms                                           |
 |--------------|----------------------------------------------------------------|
-| Key Exchange | [*RSA*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx)    |
+| Key Exchange | [*RSA*](../secgloss/r-gly.md)    |
 | Signature    | RSA                                                            |
-| Encryption   | [*CAST*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) |
-| Hashing      | [*MD5*](https://msdn.microsoft.com/library/ms721594(v=VS.85).aspx)    |
+| Encryption   | [*CAST*](../secgloss/c-gly.md) |
+| Hashing      | [*MD5*](../secgloss/m-gly.md)    |
 
 
 
@@ -30,6 +30,3 @@ For descriptions of each of these algorithms, see the glossary.
  
 
  
-
-
-

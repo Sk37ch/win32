@@ -11,10 +11,13 @@ keywords:
 - codecs,reading multichannel audio
 - multichannel audio,reading
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Reading Multichannel Audio
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The Windows Media Audio 9 Professional codec can encode multichannel audio (more than two channels). When reading a file with multichannel audio, you must configure the output properly or the audio will be delivered at a lower quality and in stereo. To set an output for multichannel audio delivery, you must set two output settings: g\_wszEnableDiscreteOutput and g\_wszSpeakerConfig.
 
@@ -43,12 +46,12 @@ To set these settings, use [**IWMReaderAdvanced2::SetOutputSetting**](/previous-
 
 Finally, for the channels to be output discretely, with no fold-down to stereo, you must set the correct media type on the output by following these steps:
 
-1.  Call [**IWMReader::GetOutputFormatCount**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformatcount) to get the number of supported formats for the relevant audio output. Output format indexes are zero-based.
+1.  Call [**IWMReader::GetOutputFormatCount**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformatcount) to get the number of supported formats for the relevant audio output. Output format indexes are zero-based.
 2.  For each supported format, call [**IWMReader::GetOutputFormat**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformat) to retrieve the [**IWMOutputMediaProps**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmoutputmediaprops) interface on the output media properties object.
 3.  Call [**IWMMediaProps::GetMediaType**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmmediaprops-getmediatype) to retrieve the media type.
 4.  If the retrieved media type is the desired multichannel type, then set it by calling [**IWMReader::SetOutputProps**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-setoutputprops).
 
-After you have set discrete output and the speaker configuration, the output formats enumerated by the reader should include multichannel formats that use the [**WAVEFORMATEXTENSIBLE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd757721(v=vs.85)) structure. If you enumerate the output formats before setting the properties, only formats with 1 or 2 channels and a maximum of 16 bits per channel will be included. As with other audio formats, you should use only the formats enumerated by the reader; do not configure your own.
+After you have set discrete output and the speaker configuration, the output formats enumerated by the reader should include multichannel formats that use the [**WAVEFORMATEXTENSIBLE**](/previous-versions/windows/desktop/legacy/dd757721(v=vs.85)) structure. If you enumerate the output formats before setting the properties, only formats with 1 or 2 channels and a maximum of 16 bits per channel will be included. As with other audio formats, you should use only the formats enumerated by the reader; do not configure your own.
 
 > [!Note]  
 > You can output multichannel audio only if your application is running on Microsoft Windows XP or a later version of Microsoft Windows.
@@ -74,7 +77,3 @@ After you have set discrete output and the speaker configuration, the output for
  
 
  
-
-
-
-

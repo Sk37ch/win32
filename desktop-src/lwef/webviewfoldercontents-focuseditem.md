@@ -1,6 +1,6 @@
 ---
 title: WebViewFolderContents.FocusedItem property (Shldisp.h)
-description: Gets a FolderItem object that represents the item that has the input focus.
+description: WebViewFolderContents.FocusedItem property - Gets a FolderItem object that represents the item that has the input focus.
 ms.assetid: 84cf92ac-dadb-4741-8383-a8ae1d35d4e0
 keywords:
 - FocusedItem property Legacy Windows Environment Features
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # WebViewFolderContents.FocusedItem property
 
-Gets a [**FolderItem**](https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-folderitem) object that represents the item that has the input focus.
+Gets a [**FolderItem**](../shell/folderitem.md) object that represents the item that has the input focus.
 
 This property is read-only.
 
@@ -35,7 +35,7 @@ objFocusedItem = WebViewFolderContents.FocusedItem
 
 ## Property value
 
-A variable of type [IDispatch](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) that receives the focused item object.
+A variable of type [IDispatch](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) that receives the focused item object.
 
 ## Examples
 
@@ -77,7 +77,7 @@ The following example shows the proper usage of this property in JScript embedde
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
@@ -88,10 +88,4 @@ The following example shows the proper usage of this property in JScript embedde
 
 
  
-
- 
-
-
-
-
 

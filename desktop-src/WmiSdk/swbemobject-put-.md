@@ -1,5 +1,5 @@
 ---
-Description: The Put\_ method of SWbemObject creates or updates an instance or a class object to Windows Management Instrumentation (WMI). You can use this method after you modify any properties or methods in an SWbemObject, and your changes are written to WMI.
+description: The Put\_ method of SWbemObject creates or updates an instance or a class object to Windows Management Instrumentation (WMI). You can use this method after you modify any properties or methods in an SWbemObject, and your changes are written to WMI.
 ms.assetid: c636ff95-9f3e-4ba9-adf3-30b981be02a4
 ms.tgt_platform: multiple
 title: SWbemObject.Put_ method (Wbemdisp.h)
@@ -161,7 +161,7 @@ If the call is successful, an [**SWbemObjectPath**](swbemobjectpath.md) object i
 
 ## Error codes
 
-After the completion of the **Put\_** method, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
+After the completion of the **Put\_** method, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
 
 <dl> <dt>
 
@@ -232,7 +232,7 @@ Not enough memory to complete the operation.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -261,9 +261,4 @@ Not enough memory to complete the operation.
 </dt> </dl>
 
  
-
- 
-
-
-
 

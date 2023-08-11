@@ -1,5 +1,5 @@
 ---
-Description: Create a texture from another resource.
+description: Create a texture from another resource.
 ms.assetid: 9758968a-652f-42bb-8c81-ad7816c57b17
 title: D3DX10CreateTextureFromResource function (D3DX10.h)
 ms.topic: reference
@@ -53,16 +53,16 @@ A pointer to the device (see [**ID3D10Device Interface**](/windows/desktop/api/D
 *hSrcModule* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**HMODULE**](../winprog/windows-data-types.md)**
 
-A handle to the source resource. HMODULE can be obtained with [GetModuleHandle Function](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea).
+A handle to the source resource. HMODULE can be obtained with [GetModuleHandle Function](/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea).
 
 </dd> <dt>
 
 *pSrcResource* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 A string that contains the name of the source resource. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the data type resolves to LPCSTR.
 
@@ -118,7 +118,7 @@ For a list of supported image formats see [**D3DX10\_IMAGE\_FILE\_FORMAT**](d3dx
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -138,7 +138,3 @@ For a list of supported image formats see [**D3DX10\_IMAGE\_FILE\_FORMAT**](d3dx
  
 
  
-
-
-
-

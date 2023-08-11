@@ -1,5 +1,5 @@
 ---
-Description: Specifies how the ASF media sink should apply Windows Media DRM.
+description: Specifies how the ASF media sink should apply Windows Media DRM.
 ms.assetid: 5f81294b-859a-4325-98dd-6267c736e1f1
 title: MFPKEY_ASFMEDIASINK_DRMACTION property (Mfidl.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ VT\_UI4
 
 ## Remarks
 
-The value of this property is a member of the [**MFSINK\_WMDRMACTION**](https://msdn.microsoft.com/library/ms703949(v=VS.85).aspx) enumeration.
+The value of this property is a member of the [**MFSINK\_WMDRMACTION**](/windows/win32/api/wmcontainer/ne-wmcontainer-mfsink_wmdrmaction) enumeration.
 
 You can use this attribute to configure the ASF media sink. The usage depends on which function you call to create the ASF media sink:
 
@@ -40,7 +40,7 @@ You can use this attribute to configure the ASF media sink. The usage depends on
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
@@ -58,7 +58,3 @@ You can use this attribute to configure the ASF media sink. The usage depends on
  
 
  
-
-
-
-

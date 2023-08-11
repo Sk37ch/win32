@@ -1,5 +1,5 @@
 ---
-Description: Reports a namespace modification event, which is a type of intrinsic event that is generated when a namespace is modified.
+description: Reports a namespace modification event, which is a type of intrinsic event that is generated when a namespace is modified.
 ms.assetid: 168505d7-4677-4f41-935e-149f22de2cb5
 ms.tgt_platform: multiple
 title: __NamespaceModificationEvent class
@@ -90,7 +90,7 @@ Access type: Read-only
 Descriptor that the event provider uses to determine the users that can receive an event. This property is inherited from [**\_\_Event**](--event.md).
 
 > [!Note]  
-> A **NULL** access control list (ACL) in the [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor) grants unlimited access to everyone all the time. For more information, see [Creating a Security Descriptor for a New Object](https://docs.microsoft.com/windows/desktop/SecAuthZ/creating-a-security-descriptor-for-a-new-object-in-c--).
+> A **NULL** access control list (ACL) in the [**SECURITY\_DESCRIPTOR**](/windows/desktop/api/winnt/ns-winnt-security_descriptor) grants unlimited access to everyone all the time. For more information, see [Creating a Security Descriptor for a New Object](/windows/desktop/SecAuthZ/creating-a-security-descriptor-for-a-new-object-in-c--).
 
  
 
@@ -120,7 +120,7 @@ Access type: Read-only
 
 Unique value that indicates the time that an event is generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Time (UTC) format. This property is inherited from [**\_\_Event**](--event.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> </dl>
 
@@ -136,7 +136,7 @@ Note that the [**Name**](--namespace.md) property of a **\_\_Namespace** instanc
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -148,16 +148,11 @@ Note that the [**Name**](--namespace.md) property of a **\_\_Namespace** instanc
 
 <dl> <dt>
 
-[**\_\_NamespaceOperationEvent**](https://docs.microsoft.com/windows/desktop/WmiSdk/--namespaceoperationevent)
+[**\_\_NamespaceOperationEvent**](/windows/desktop/WmiSdk/--namespaceoperationevent)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

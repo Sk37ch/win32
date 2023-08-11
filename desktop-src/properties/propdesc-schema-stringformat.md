@@ -1,5 +1,5 @@
 ---
-Description: Specifies how IPropertyDescription::FormatForDisplay should format the property's value as a string. This is applicable only if <displayInfo displayType=&\#0034;String&\#0034;>.
+description: Specifies how IPropertyDescription::FormatForDisplay should format the stringFormat property's value as a string.
 ms.assetid: 7c38bc15-be86-4260-b2e4-13afc90de6d7
 title: stringFormat
 ms.topic: article
@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # stringFormat
 
-Specifies how [**IPropertyDescription::FormatForDisplay**](https://msdn.microsoft.com/library/Bb761521(v=VS.85).aspx) should format the property's value as a string. This is applicable only if <displayInfo displayType="String">. There should be only one [stringFormat](https://msdn.microsoft.com/library/Bb773886(v=VS.85).aspx) element for each [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) element.
+Specifies how [**IPropertyDescription::FormatForDisplay**](/windows/win32/api/propsys/nf-propsys-ipropertydescription-formatfordisplay) should format the property's value as a string. This is applicable only if \<displayInfo displayType="String"\>. There should be only one [stringFormat]() element for each [displayInfo](./propdesc-schema-displayinfo.md) element.
 
-If there are multiple elements, the last one is used. If no [stringFormat](https://msdn.microsoft.com/library/Bb773886(v=VS.85).aspx) element is provided, then the default attribute settings are applied to the property description.
+If there are multiple elements, the last one is used. If no [stringFormat]() element is provided, then the default attribute settings are applied to the property description.
 
 ## Syntax
 
@@ -41,7 +41,7 @@ If there are multiple elements, the last one is used. If no [stringFormat](https
 
 | Parent Element                                   | Child Elements |
 |--------------------------------------------------|----------------|
-| [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) | None           |
+| [displayInfo](./propdesc-schema-displayinfo.md) | None           |
 
 
 
@@ -53,8 +53,8 @@ If there are multiple elements, the last one is used. If no [stringFormat](https
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -105,6 +105,3 @@ If there are multiple elements, the last one is used. If no [stringFormat](https
  
 
  
-
-
-

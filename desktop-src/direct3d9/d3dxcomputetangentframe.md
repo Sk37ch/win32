@@ -1,5 +1,5 @@
 ---
-Description: Compute tangent, binormal, and normal vectors for a mesh.
+description: Compute tangent, binormal, and normal vectors for a mesh.
 ms.assetid: 54edb9a5-440d-4191-a58f-296e5b804e0c
 title: D3DXComputeTangentFrame function (D3DX9Mesh.h)
 ms.topic: reference
@@ -48,9 +48,9 @@ Pointer to an input [**ID3DXMesh**](id3dxmesh.md) mesh object.
 *dwOptions* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
-Combination of one or more [**D3DXTANGENT**](https://msdn.microsoft.com/library/Bb205467(v=VS.85).aspx) flags.
+Combination of one or more [**D3DXTANGENT**](./d3dxtangent.md) flags.
 
 Use **NULL** to specify the following options:
 
@@ -93,7 +93,7 @@ The most robust solution for computing orthogonal Cartesian coordinates is to no
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -110,13 +110,9 @@ The most robust solution for computing orthogonal Cartesian coordinates is to no
 [**D3DXComputeTangentFrameEx**](d3dxcomputetangentframeex.md)
 </dt> <dt>
 
-[**D3DXTANGENT**](https://msdn.microsoft.com/library/Bb205467(v=VS.85).aspx)
+[**D3DXTANGENT**](./d3dxtangent.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

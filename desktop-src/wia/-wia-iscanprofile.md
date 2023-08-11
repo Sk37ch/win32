@@ -1,5 +1,5 @@
 ---
-Description: The IScanProfile interface represents a single scan profile and enables applications to set and get the properties of the profile.
+description: The IScanProfile interface represents a single scan profile and enables applications to set and get the properties of the profile.
 ms.assetid: 5cd76256-d64e-4934-8cc2-0a467c7e34a9
 title: IScanProfile interface
 ms.topic: reference
@@ -21,7 +21,7 @@ The **IScanProfile** interface represents a single scan profile and enables appl
 
 ## Members
 
-The **IScanProfile** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IScanProfile** also has these types of members:
+The **IScanProfile** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **IScanProfile** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -69,7 +69,7 @@ The `<Properties>` element contains `<Property>` children. Use these to add any 
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                        |
@@ -81,7 +81,7 @@ The `<Properties>` element contains `<Property>` children. Use these to add any 
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
+[**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)
 </dt> <dt>
 
 [Scan Profile Schema](-wia-scan-profile-schema.md)
@@ -90,7 +90,3 @@ The `<Properties>` element contains `<Property>` children. Use these to add any 
  
 
  
-
-
-
-

@@ -36,13 +36,11 @@ req.redist:
 
 # ShellProc function
 
-## -description
+## Description
 
-An application-defined or library-defined callback function used with the [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexw) function.
-The function receives notifications of Shell events from the system.
+An application-defined or library-defined callback function used with the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function. The function receives notifications of Shell events from the system.
 
-The **HOOKPROC** type defines a pointer to this callback function.
-**ShellProc** is a placeholder for the application-defined or library-defined function name.
+The **HOOKPROC** type defines a pointer to this callback function. *ShellProc* is a placeholder for the application-defined or library-defined function name.
 
 ```cpp
 LRESULT CALLBACK ShellProc(
@@ -52,14 +50,16 @@ LRESULT CALLBACK ShellProc(
 );
 ```
 
-## -parameters
+## Parameters
 
-### -param nCode [in]
+### nCode [in]
 
 Type: **int**
 
 The hook code.
-If *nCode* is less than zero, the hook procedure must pass the message to the [CallNextHookEx](/windows/desktop/api/winuser/nf-winuser-callnexthookex) function without further processing and should return the value returned by **CallNextHookEx**.
+
+If *nCode* is less than zero, the hook procedure must pass the message to the [**CallNextHookEx**](/windows/desktop/api/winuser/nf-winuser-callnexthookex) function without further processing and should return the value returned by **CallNextHookEx**.
+
 This parameter can be one of the following values.
 
 | Value | Meaning |
@@ -76,7 +76,7 @@ This parameter can be one of the following values.
 | **HSHELL_WINDOWDESTROYED** 2 | A top-level, unowned window is about to be destroyed. The window still exists when the system calls this hook. |
 | **HSHELL_WINDOWREPLACED** 13 | A top-level window is being replaced. The window exists when the system calls this hook. |
 
-### -param wParam [in]
+### wParam [in]
 
 Type: **WPARAM**
 
@@ -94,7 +94,7 @@ This parameter depends on the value of the *nCode* parameter, as shown in the fo
 | **HSHELL_WINDOWDESTROYED** | A handle to the destroyed window. |
 | **HSHELL_WINDOWREPLACED** | A handle to the window being replaced. Windows 2000:  Not supported. |
 
-### -param lParam [in]
+### lParam [in]
 
 Type: **LPARAM**
 
@@ -103,25 +103,24 @@ This parameter depends on the value of the *nCode* parameter, as shown in the fo
 | nCode | lParam |
 |-------|---------|
 | **HSHELL_APPCOMMAND** | `GET_APPCOMMAND_LPARAM(lParam)` is the application command corresponding to the input event. `GET_DEVICE_LPARAM(lParam)` indicates what generated the input event; for example, the mouse or keyboard. For more information, see the *uDevice* parameter description under **WM_APPCOMMAND**. `GET_FLAGS_LPARAM(lParam)` depends on the value of *cmd* in **WM_APPCOMMAND**. For example, it might indicate which virtual keys were held down when the **WM_APPCOMMAND** message was originally sent. For more information, see the *dwCmdFlags* description parameter under **WM_APPCOMMAND**. |
-| **HSHELL_GETMINRECT** | A pointer to a [RECT](/previous-versions/dd162897(v=vs.85)) structure. |
+| **HSHELL_GETMINRECT** | A pointer to a [RECT](/windows/win32/api/windef/ns-windef-rect) structure. |
 | **HSHELL_LANGUAGE** | A handle to a keyboard layout. |
 | **HSHELL_MONITORCHANGED** | A handle to the window that moved to a different monitor. |
 | **HSHELL_REDRAW** | The value is **TRUE** if the window is flashing, or **FALSE** otherwise. |
 | **HSHELL_WINDOWACTIVATED** | The value is TRUE if the window is in full-screen mode, or **FALSE** otherwise. |
 | **HSHELL_WINDOWREPLACED** | A handle to the new window. Windows 2000:  Not supported. |
 
-## -returns
+## Returns
 
 Type: **LRESULT**
 
-The return value should be zero unless the value of nCode is **HSHELL_APPCOMMAND** and the shell procedure handles the **WM_COMMAND** message.
-In this case, the return should be nonzero.
+The return value should be zero unless the value of *nCode* is **HSHELL_APPCOMMAND** and the shell procedure handles the [**WM_COMMAND**](/windows/win32/menurc/wm-command) message. In this case, the return should be nonzero.
 
-## -remarks
+## Remarks
 
 Install this hook procedure by specifying the [WH_SHELL](about-hooks.md) hook type and a pointer to the hook procedure in a call to the **SetWindowsHookEx** function.
 
-## -see-also
+## See also
 
 [CallNextHookEx](/windows/desktop/api/winuser/nf-winuser-callnexthookex)
 

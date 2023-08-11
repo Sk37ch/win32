@@ -1,5 +1,5 @@
 ---
-Description: Computes precomputed radiance transfer (PRT) samples for an arbitrary point (and normal vector).
+description: Computes precomputed radiance transfer (PRT) samples for an arbitrary point (and normal vector).
 ms.assetid: 862a9067-5c5e-4428-86f4-ebef653411b9
 title: ID3DXPRTEngine::ComputeSurfSamplesBounce method (D3DX9Mesh.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Pointer to an input [**ID3DXPRTBuffer**](id3dxprtbuffer.md) object that represen
 *NumSamples* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of sample locations.
 
@@ -104,7 +104,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -124,7 +124,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

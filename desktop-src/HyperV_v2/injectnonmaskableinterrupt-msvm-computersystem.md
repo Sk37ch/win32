@@ -1,5 +1,5 @@
 ---
-Description: Injects a non-maskable interrupt into the virtual machine.
+description: Injects a non-maskable interrupt into the virtual machine.
 ms.assetid: 897AD1B9-0EDD-4DCE-963D-D5DE03AF55A9
 title: Msvm_ComputerSystem::InjectNonMaskableInterrupt method
 ms.topic: reference
@@ -37,7 +37,7 @@ uint32 InjectNonMaskableInterrupt(
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)) to track the status of the interrupt injection. This reference can be **NULL** if the task is complete.
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)) to track the status of the interrupt injection. This reference can be **NULL** if the task is complete.
 
 </dd> </dl>
 
@@ -60,7 +60,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
@@ -78,9 +78,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

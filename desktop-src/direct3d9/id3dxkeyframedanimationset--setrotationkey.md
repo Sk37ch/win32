@@ -1,5 +1,5 @@
 ---
-Description: Set rotation information for a specific key frame in the animation set.
+description: Set rotation information for a specific key frame in the animation set.
 ms.assetid: b31edc88-0d77-49f3-b4c4-39cd866e1379
 title: ID3DXKeyframedAnimationSet::SetRotationKey method (D3dx9anim.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ HRESULT SetRotationKey(
 *Animation* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Animation index.
 
@@ -49,7 +49,7 @@ Animation index.
 *Key* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Key frame.
 
@@ -74,7 +74,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -91,7 +91,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
  
 
  
-
-
-
-

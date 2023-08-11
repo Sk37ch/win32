@@ -1,5 +1,5 @@
 ---
-Description: Sets the render-target format for the Media Engine.
+description: Sets the render-target format for the Media Engine.
 ms.assetid: 70FFDD44-9FDE-4D86-AD65-60019AC4A2BC
 title: MF_MEDIA_ENGINE_VIDEO_OUTPUT_FORMAT attribute (Mfmediaengine.h)
 ms.topic: reference
@@ -16,13 +16,13 @@ Sets the render-target format for the Media Engine.
 
 ## Remarks
 
-Set this attribute if you create the Media Engine in frame-server mode. For more information, see [**IMFMediaEngineClassFactory::CreateInstance**](/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance). The value of the attribute is a [DXGI\_FORMAT](https://msdn.microsoft.com/library/Bb172558(v=VS.85).aspx) value.
+Set this attribute if you create the Media Engine in frame-server mode. For more information, see [**IMFMediaEngineClassFactory::CreateInstance**](/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance). The value of the attribute is a [DXGI\_FORMAT](../direct3d9/d3dformat.md) value.
 
 ## Requirements
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                                |
@@ -40,7 +40,3 @@ Set this attribute if you create the Media Engine in frame-server mode. For more
  
 
  
-
-
-
-

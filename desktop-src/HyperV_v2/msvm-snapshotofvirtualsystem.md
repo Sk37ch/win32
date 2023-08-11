@@ -1,5 +1,5 @@
 ---
-Description: Associates a virtual system with a snapshot that was captured from the virtual system.
+description: Associates a virtual system with a snapshot that was captured from the virtual system.
 ms.assetid: CF1C1C04-02BC-4AC3-8327-FEE54ECE8541
 title: Msvm_SnapshotOfVirtualSystem class
 ms.topic: reference
@@ -55,7 +55,7 @@ Data type: **[**Msvm\_ComputerSystem**](msvm-computersystem.md)**
 Access type: Read-only
 </dt> </dl>
 
-A reference to an instance of the [**Msvm\_ComputerSystem**](msvm-computersystem.md) class that represents the virtual system. This property is derived from [**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency).
+A reference to an instance of the [**Msvm\_ComputerSystem**](msvm-computersystem.md) class that represents the virtual system. This property is derived from [**CIM\_Dependency**](/windows/desktop/CIMWin32Prov/cim-dependency).
 
 </dd> <dt>
 
@@ -68,7 +68,7 @@ Data type: **[**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.
 Access type: Read-only
 </dt> </dl>
 
-A reference to an instance of the [**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md) class that represents the snapshot. This property is derived from [**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency).
+A reference to an instance of the [**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md) class that represents the snapshot. This property is derived from [**CIM\_Dependency**](/windows/desktop/CIMWin32Prov/cim-dependency).
 
 </dd> </dl>
 
@@ -76,7 +76,7 @@ A reference to an instance of the [**Msvm\_VirtualSystemSettingData**](msvm-virt
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -97,9 +97,4 @@ A reference to an instance of the [**Msvm\_VirtualSystemSettingData**](msvm-virt
 </dt> </dl>
 
  
-
- 
-
-
-
 

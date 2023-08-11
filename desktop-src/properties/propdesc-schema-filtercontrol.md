@@ -1,5 +1,5 @@
 ---
-Description: Specifies what control to use in the header filter menu.
+description: Specifies what control to use in the header filter menu.
 ms.assetid: a3117e16-20d0-4637-b726-9fa49516ad5c
 title: filterControl
 ms.topic: article
@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # filterControl
 
-Specifies what control to use in the header filter menu. There should be only one [filterControl](https://msdn.microsoft.com/library/Bb773874(v=VS.85).aspx) element for each [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) element.
+Specifies what control to use in the header filter menu. There should be only one [filterControl]() element for each [displayInfo](./propdesc-schema-displayinfo.md) element.
 
-If there are multiple elements, the last one is used. If no [filterControl](https://msdn.microsoft.com/library/Bb773874(v=VS.85).aspx) element is provided, then the default attribute settings are applied to the property description.
+If there are multiple elements, the last one is used. If no [filterControl]() element is provided, then the default attribute settings are applied to the property description.
 
 ## Syntax
 
@@ -40,7 +40,7 @@ If there are multiple elements, the last one is used. If no [filterControl](http
 
 | Parent Element                                   | Child Elements |
 |--------------------------------------------------|----------------|
-| [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) | None           |
+| [displayInfo](./propdesc-schema-displayinfo.md) | None           |
 
 
 
@@ -52,8 +52,8 @@ If there are multiple elements, the last one is used. If no [filterControl](http
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -75,7 +75,7 @@ If there are multiple elements, the last one is used. If no [filterControl](http
 <tbody>
 <tr class="odd">
 <td>Default</td>
-<td>Default. Uses the default control, based upon the <typeInfo type=&quot;&quot;> attribute. The default type is &quot;DateTime&quot; and the default control is &quot;Calendar&quot;. Any other type results in no special filter control.</td>
+<td>Default. Uses the default control, based upon the &lt;typeInfo type=&quot;&quot;&gt; attribute. The default type is &quot;DateTime&quot; and the default control is &quot;Calendar&quot;. Any other type results in no special filter control.</td>
 </tr>
 <tr class="even">
 <td>Calendar</td>
@@ -100,6 +100,3 @@ If there are multiple elements, the last one is used. If no [filterControl](http
  
 
  
-
-
-

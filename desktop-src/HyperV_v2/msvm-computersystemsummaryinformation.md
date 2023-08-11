@@ -1,5 +1,5 @@
 ---
-Description: Contains an information summary about the specified virtual computer system.
+description: Contains an information summary about the specified virtual computer system.
 ms.assetid: ab31d5db-a8d3-47bc-a024-0f4c4b93a34b
 title: Msvm_ComputerSystemSummaryInformation class
 ms.topic: reference
@@ -55,7 +55,7 @@ Data type: **CIM\_ComputerSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_ComputerSystem**](cim-computersystem.md) object that is an instance in the normalized representation of the managed resource.
@@ -77,7 +77,7 @@ Data type: **Msvm\_SummaryInformationBase**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 An instance of [**Msvm\_SummaryInformation**](msvm-summaryinformation.md) that represents a de-normalized or aggregate view of the managed resource that is represented by the [**Msvm\_ComputerSystem**](msvm-computersystem.md) referenced by the Antecedent property.
@@ -94,7 +94,7 @@ An instance of [**Msvm\_SummaryInformation**](msvm-summaryinformation.md) that r
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -112,9 +112,4 @@ An instance of [**Msvm\_SummaryInformation**](msvm-summaryinformation.md) that r
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -24,7 +24,7 @@ An **ID3DX11Effect** interface manages a set of state objects, resources, and sh
 
 ## Members
 
-The **ID3DX11Effect** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ID3DX11Effect** also has these types of members:
+The **ID3DX11Effect** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ID3DX11Effect** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -70,52 +70,28 @@ The effect system groups the information required for rendering into an effect w
 
 > [!Note]
 >
-> If you call [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) on an **ID3DX11Effect** object to retrieve the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface, **QueryInterface** returns E\_NOINTERFACE. To work around this issue, use the following code:
+> If you call [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) on an **ID3DX11Effect** object to retrieve the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface, **QueryInterface** returns E\_NOINTERFACE. To work around this issue, use the following code:
 >
-> <span codelanguage=""></span>
+> 
 >
-> <table>
-> <colgroup>
-> <col style="width: 100%" />
-> </colgroup>
-> <tbody>
-> <tr class="odd">
-> <td><pre><code>    IUnknown* pIUnknown = (IUnknown*)pEffect;
->     pIUnknown->AddRef();</code></pre></td>
-> </tr>
-> </tbody>
-> </table>
+> 
+ 
+ <pre><code>    IUnknown* pIUnknown = (IUnknown*)pEffect;&gt;     pIUnknown-&gt;AddRef();</code></pre> | 
+
 >
 > 
 >
 >  
->
-> ## Requirements
->
-> 
->
-> |                    |                                                                                                                                              |
-> |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-> | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
-> | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |
->
-> 
->
-> ## See also
->
-> <dl> <dt>
+
+## Requirements
+
+| Requirement | Value |
+|-------------|-------------------------------------------------------------------------------------------|
+| Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
+| Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |
+
+## See also
 
 [Effects 11 Interfaces](d3d11-graphics-reference-effects11-interfaces.md)
-</dt> <dt>
 
 [D3DX Interfaces](d3d11-graphics-reference-d3dx11-interfaces.md)
-</dt> </dl>
->
->  
->
->  
->
-
-
-
-

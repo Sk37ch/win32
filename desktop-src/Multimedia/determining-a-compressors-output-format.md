@@ -9,12 +9,15 @@ keywords:
 - ICCompressQuery macro
 - ICCompressGetSize macro
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Determining a Compressor's Output Format
 
-The following example uses the [**ICCompressGetFormat**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetformat) size macro to determine the buffer size needed for the data specifying the compression format, allocates a buffer of the appropriate size using the [GlobalAlloc](https://msdn.microsoft.com/library/aa366574.aspx) function, and retrieves the compression format information using the **ICCompressGetFormat** macro.
+\[The feature associated with this page, [Video Compression Manager](/windows/win32/multimedia/video-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
+The following example uses the [**ICCompressGetFormat**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetformat) size macro to determine the buffer size needed for the data specifying the compression format, allocates a buffer of the appropriate size using the [GlobalAlloc](/windows/win32/api/winbase/nf-winbase-globalalloc) function, and retrieves the compression format information using the **ICCompressGetFormat** macro.
 
 
 ```C++
@@ -53,7 +56,7 @@ if (ICCompressQuery(hIC, lpbiIn, lpbiOut) == ICERR_OK)
 
 
 
-The following example uses the [**ICCompressGetSize**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetsize) macro to determine the buffer size, and it allocates a buffer of that size using [GlobalAlloc](https://msdn.microsoft.com/library/aa366574.aspx).
+The following example uses the [**ICCompressGetSize**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetsize) macro to determine the buffer size, and it allocates a buffer of that size using [GlobalAlloc](/windows/win32/api/winbase/nf-winbase-globalalloc).
 
 
 ```C++
@@ -72,7 +75,3 @@ lpOutput = (LPVOID)GlobalLock(h);
  
 
  
-
-
-
-

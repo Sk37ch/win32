@@ -1,5 +1,5 @@
 ---
-Description: The InetGetAutodial function returns the autodial settings from the registry.
+description: The InetGetAutodial function returns the autodial settings from the registry.
 ms.assetid: e36761da-c050-4844-ad94-efdc77702f6f
 title: InetGetAutodial function
 ms.topic: reference
@@ -78,13 +78,13 @@ This function can return one of these values.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Inetcfg.dll</dt> </dl> |
 
@@ -93,7 +93,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

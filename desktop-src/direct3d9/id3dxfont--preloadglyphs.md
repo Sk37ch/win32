@@ -1,5 +1,5 @@
 ---
-Description: Loads a series of glyphs into video memory to improve the efficiency of rendering to the device.
+description: Loads a series of glyphs into video memory to improve the efficiency of rendering to the device.
 ms.assetid: df023359-bcb3-4c05-950b-19cdeba97c85
 title: ID3DXFont::PreloadGlyphs method (D3dx9core.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT PreloadGlyphs(
 *First* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 ID of the first glyph to be loaded into video memory.
 
@@ -48,7 +48,7 @@ ID of the first glyph to be loaded into video memory.
 *Last* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 ID of the last glyph to be loaded into video memory.
 
@@ -70,7 +70,7 @@ Glyphs will not be rendered to the device; [**DrawText**](id3dxfont--drawtext.md
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -87,7 +87,3 @@ Glyphs will not be rendered to the device; [**DrawText**](id3dxfont--drawtext.md
  
 
  
-
-
-
-

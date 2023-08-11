@@ -54,7 +54,7 @@ The value specified in a filter must be a decimal Integer. Hexadecimal values mu
 
 
 
-"<attribute name>" is the **lDAPDisplayName** of the attribute and "<value>" is the value to use for comparison.
+"\<attribute name\>" is the **lDAPDisplayName** of the attribute and "&lt;value&gt;" is the value to use for comparison.
 
 The following code example shows a filter that will search for objects that have a **groupType** value that is equal to the **ADS\_GROUP\_TYPE\_UNIVERSAL\_GROUP** (8) flag and the **ADS\_GROUP\_TYPE\_SECURITY\_ENABLED** (0x80000000) flag. The two flags combined equal 0x80000008, which converted to decimal is 2147483656.
 
@@ -65,7 +65,7 @@ The following code example shows a filter that will search for objects that have
 
 
 
-The LDAP matching rule operators can also be used to perform bitwise comparisons. For more information about matching rules, see [Search Filter Syntax](https://docs.microsoft.com/windows/desktop/ADSI/search-filter-syntax). The following code example shows a filter that will search for objects that have a **groupType** with the **ADS\_GROUP\_TYPE\_SECURITY\_ENABLED** (0x80000000 = 2147483648) bit set.
+The LDAP matching rule operators can also be used to perform bitwise comparisons. For more information about matching rules, see [Search Filter Syntax](/windows/desktop/ADSI/search-filter-syntax). The following code example shows a filter that will search for objects that have a **groupType** with the **ADS\_GROUP\_TYPE\_SECURITY\_ENABLED** (0x80000000 = 2147483648) bit set.
 
 
 ```C++
@@ -79,9 +79,9 @@ The LDAP matching rule operators can also be used to perform bitwise comparisons
 <span id="OctetString"></span><span id="octetstring"></span><span id="OCTETSTRING"></span>OctetString
 </dt> <dd>
 
-The value specified in a filter is the data to be found. The data must be represented as a two character encoded byte string where each byte is preceded by a backslash (\). For example, the value 0x05 will appear in the string as "\\05".
+The value specified in a filter is the data to be found. The data must be represented as a two character encoded byte string where each byte is preceded by a backslash (\\). For example, the value 0x05 will appear in the string as "\\05".
 
-The [**ADsEncodeBinaryData**](https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsencodebinarydata) function can be used to create an encoded string representation of binary data. The **ADsEncodeBinaryData** function does not encode byte values that represent alpha-numeric characters. It will, instead, place the character into the string without encoding it. This results in the string containing a mixture of encoded and unencoded characters. For example, if the binary data is 0x05\|0x1A\|0x1B\|0x43\|0x32, the encoded string will contain "\\05\\1A\\1BC2". This has no effect on the filter and the search filters will work correctly with these types of strings.
+The [**ADsEncodeBinaryData**](/windows/desktop/api/adshlp/nf-adshlp-adsencodebinarydata) function can be used to create an encoded string representation of binary data. The **ADsEncodeBinaryData** function does not encode byte values that represent alpha-numeric characters. It will, instead, place the character into the string without encoding it. This results in the string containing a mixture of encoded and unencoded characters. For example, if the binary data is 0x05\|0x1A\|0x1B\|0x43\|0x32, the encoded string will contain "\\05\\1A\\1BC2". This has no effect on the filter and the search filters will work correctly with these types of strings.
 
 Wildcards are accepted.
 
@@ -137,7 +137,7 @@ The following example shows a filter that specifies a **member** that contains "
 
 The value specified in a filter must be a decimal integer. Convert hexadecimal values to decimal.
 
-The following code example shows a filter that specifies a **creationTime** set to a [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime) of "1999-12-31 23:59:59 (UTC/GMT)":
+The following code example shows a filter that specifies a **creationTime** set to a [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime) of "1999-12-31 23:59:59 (UTC/GMT)":
 
 
 ```C++
@@ -531,7 +531,3 @@ The following syntaxes are evaluated in a filter similar to an octet string:
  
 
  
-
-
-
-

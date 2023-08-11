@@ -1,5 +1,5 @@
 ---
-Description: Registers method providers with WMI.
+description: Registers method providers with WMI.
 ms.assetid: c5a8ccd3-487e-42a3-bb31-d27da9a711c4
 ms.tgt_platform: multiple
 title: '__MethodProviderRegistration class'
@@ -65,7 +65,7 @@ The **\_\_MethodProviderRegistration** class is derived from [**\_\_ProviderRegi
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -77,7 +77,7 @@ The **\_\_MethodProviderRegistration** class is derived from [**\_\_ProviderRegi
 
 <dl> <dt>
 
-[**\_\_ProviderRegistration**](https://docs.microsoft.com/windows/desktop/WmiSdk/--providerregistration)
+[**\_\_ProviderRegistration**](/windows/desktop/WmiSdk/--providerregistration)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
@@ -87,9 +87,4 @@ The **\_\_MethodProviderRegistration** class is derived from [**\_\_ProviderRegi
 </dt> </dl>
 
  
-
- 
-
-
-
 

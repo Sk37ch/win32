@@ -1,5 +1,5 @@
 ---
-Description: Retrieve font characteristics.
+description: Retrieve font characteristics.
 ms.assetid: ef7e0d18-492b-476b-945a-bfc0232a939a
 title: ID3DX10Font::GetTextMetrics method (D3DX10.h)
 ms.topic: reference
@@ -40,13 +40,13 @@ BOOL GetTextMetrics(
 
 Type: **TEXTMETRIC\***
 
-Pointer to a [TEXTMETRIC](https://msdn2.microsoft.com/library/ms534202.aspx) structure, which contains font properties. If Unicode is defined, the function returns a TEXTMETRICW structure. Otherwise, the function returns a TEXTMETRICA structure.
+Pointer to a [TEXTMETRIC](/previous-versions//ms534202(v=vs.85)) structure, which contains font properties. If Unicode is defined, the function returns a TEXTMETRICW structure. Otherwise, the function returns a TEXTMETRICA structure.
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 Nonzero if the function is successful; otherwise 0.
 
@@ -54,7 +54,7 @@ Nonzero if the function is successful; otherwise 0.
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -74,7 +74,3 @@ Nonzero if the function is successful; otherwise 0.
  
 
  
-
-
-
-

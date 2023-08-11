@@ -1,5 +1,5 @@
 ---
-Description: Indicates the location of a certificate store.
+description: Indicates the location of a certificate store.
 ms.assetid: b0c64e54-7139-4945-9802-6e6c479481e2
 title: CAPICOM_STORE_LOCATION enumeration (Capicom.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # CAPICOM\_STORE\_LOCATION enumeration
 
-The **CAPICOM\_STORE\_LOCATION** enumeration type indicates the location of a [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
+The **CAPICOM\_STORE\_LOCATION** enumeration type indicates the location of a [*certificate store*](../secgloss/c-gly.md).
 
 ## Members
 
@@ -44,7 +44,7 @@ The **CAPICOM\_STORE\_LOCATION** enumeration type is used by the following metho
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |
@@ -54,7 +54,3 @@ The **CAPICOM\_STORE\_LOCATION** enumeration type is used by the following metho
  
 
  
-
-
-
-

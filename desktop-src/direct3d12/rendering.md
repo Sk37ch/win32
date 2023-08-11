@@ -2,12 +2,11 @@
 title: Rendering (Direct3D 12 Graphics)
 description: This section contains information about rendering features new to Direct3D 12 (and Direct3D 11.3).
 ms.assetid: 5BF1440E-E4D8-43C8-BF0E-F02FEFE79C93
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Rendering
+# Rendering (Direct3D 12 Graphics)
 
 This section contains information about rendering features new to Direct3D 12 (and Direct3D 11.3).
 
@@ -35,7 +34,7 @@ The following topics are also new to Direct3D 12 and Direct3D 11.3:
 
 ## High Dynamic Range and Wide Color Gamut
 
-Refer to the support for High Dynamic Range (increased difference between the brightest whites and the darkest blacks), and Wide Color Gamut (10 bits, rather than 8 bits, per color) described in [DXGI 1.5 Improvements](https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-1-5-improvements).
+Refer to the support for High Dynamic Range (increased difference between the brightest whites and the darkest blacks), and Wide Color Gamut (10 bits, rather than 8 bits, per color) described in [DXGI 1.5 Improvements](/windows/desktop/direct3ddxgi/dxgi-1-5-improvements).
 
 ## Related topics
 
@@ -45,10 +44,4 @@ Refer to the support for High Dynamic Range (increased difference between the br
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

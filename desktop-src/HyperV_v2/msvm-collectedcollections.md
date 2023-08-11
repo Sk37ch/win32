@@ -1,5 +1,5 @@
 ---
-Description: Associates the Msvm\_VirtualSystemCollection to the contained Msvm\_ComputerSystem objects.
+description: Msvm_CollectedCollections class - Associates the Msvm\_VirtualSystemCollection to the contained Msvm\_ComputerSystem objects.
 ms.assetid: bbf7713a-b331-4b40-bcb4-3545c26c6f3a
 title: Msvm_CollectedCollections class
 ms.topic: reference
@@ -55,7 +55,7 @@ Data type: **Msvm\_ManagementCollection**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Collection")
+Qualifiers: [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Collection")
 </dt> </dl>
 
 An [**Msvm\_ManagementCollection**](msvm-managementcollection.md) grouping or 'bag' object that represents the collection.
@@ -71,7 +71,7 @@ Data type: **CIM\_CollectionOfMSEs**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Member")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Member")
 </dt> </dl>
 
 A [**CIM\_CollectionOfMSEs**](cim-collectionofmses.md) containing the members of the collection.
@@ -82,7 +82,7 @@ A [**CIM\_CollectionOfMSEs**](cim-collectionofmses.md) containing the members of
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -100,9 +100,4 @@ A [**CIM\_CollectionOfMSEs**](cim-collectionofmses.md) containing the members of
 </dt> </dl>
 
  
-
- 
-
-
-
 

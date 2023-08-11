@@ -1,22 +1,25 @@
 ---
-Description: Performs a linear interpolation between two 2D vectors.
+description: Performs a linear interpolation between two 2D vectors.
 ms.assetid: f8e9e6be-9696-4a4a-a6c8-c021985decaa
 title: D3DXVec2Lerp function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec2Lerp
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXVec2Lerp function
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Performs a linear interpolation between two 2D vectors.
 
@@ -68,7 +71,7 @@ Pointer to a source [**D3DXVECTOR2**](d3dxvector2.md) structure.
 *s* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Parameter that linearly interpolates between the vectors.
 
@@ -90,7 +93,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -107,7 +110,3 @@ The return value for this function is the same value returned in the *pOut* para
  
 
  
-
-
-
-

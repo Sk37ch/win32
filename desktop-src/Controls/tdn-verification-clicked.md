@@ -56,7 +56,7 @@ The return value is ignored.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
@@ -71,14 +71,8 @@ The return value is ignored.
 **Reference**
 </dt> <dt>
 
-[*TaskDialogCallbackProc*](https://msdn.microsoft.com/library/Bb760542(v=VS.85).aspx)
+[*TaskDialogCallbackProc*](/windows/win32/api/commctrl/nc-commctrl-pftaskdialogcallback)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

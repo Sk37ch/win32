@@ -18,13 +18,13 @@ This article is intended to address some of the common questions about the Direc
 -   [Internal Deployment of the Debug DirectX Runtime](#internal-deployment-of-the-debug-directx-runtime)
 
 > [!IMPORTANT]
-> The legacy DirectX SDK is at end-of-life, but it's still available in order to support old games, tutorials, and projects. New projects should not use it. Using the legacy DirectX SDK requires the use of the deprecated DirectSetup for components such as D3DX9, D3DX10, D3DX11, XAudio 2.7, XInput 1.3, and XACT. For more details on the current state of the DirectX SDK, see [Where is the DirectX SDK?](/windows/win32/directx-sdk--august-2009-), and the blog post [Not So Direct Setup](https://walbourn.github.io/not-so-direct-setup/).
+> The legacy DirectX SDK is at end-of-life, but it's still available in order to support old games, tutorials, and projects. New projects should not use it. Using the legacy DirectX SDK requires the use of the deprecated DirectSetup for components such as D3DX9, D3DX10, D3DX11, XAudio 2.7, XInput 1.3, and XACT. For more details on the current state of the DirectX SDK, see [Where is the DirectX SDK?](../directx-sdk--august-2009-.md), and the blog post [Not So Direct Setup](https://walbourn.github.io/not-so-direct-setup/).
 
 ## DirectX Runtime
 
 The DirectX runtime consists of core components and optional components.
 
-The core components, such as Direct3D and DirectInput, are considered part of the operating system. The core components for DirectX 9.0c have not changed since the DirectX SDK Summer 2004 Update, and they match what was released with Microsoft Windows XP SP2, Windows XP Pro x64 Edition, and Windows Server 2003 SP1. Windows Vista includes DirectX 10, which supports the Windows Display Driver Model (WDDM) and Direct3D 10.x. Windows 7 and Windows Vista (see [KB971644](https://support.microsoft.com/kb/971644)) support DirectX 11, which supports Direct3D 11, Direct2D, DirectWrite, the WARP10 software rendering device, and the 10level9 feature levels. See [Graphics APIs in Windows](https://docs.microsoft.com/windows/desktop/direct3darticles/graphics-apis-in-windows-vista) for more details.
+The core components, such as Direct3D and DirectInput, are considered part of the operating system. The core components for DirectX 9.0c have not changed since the DirectX SDK Summer 2004 Update, and they match what was released with Microsoft Windows XP SP2, Windows XP Pro x64 Edition, and Windows Server 2003 SP1. Windows Vista includes DirectX 10, which supports the Windows Display Driver Model (WDDM) and Direct3D 10.x. Windows 7 and Windows Vista support DirectX 11, which supports Direct3D 11, Direct2D, DirectWrite, the WARP10 software rendering device, and the 10level9 feature levels. See [Graphics APIs in Windows](/windows/desktop/direct3darticles/graphics-apis-in-windows-vista) for more details.
 
 The optional components are released in updates of DirectX SDK, and they include D3DX, XACT, XAudio2, XINPUT, Managed DirectX, and other such components. Many of the optional components are regularly updated to integrate customer feedback and expose new features.
 
@@ -45,12 +45,12 @@ While ensuring that DLLs are installed on a system isn't as easy as simply linki
 -   The DirectX redistributable can be configured to contain only those components that your application requires to minimize distribution and media sizes.
 -   The redistributable folder, Program Files\\DirectX SDK\\Redist\\, now contains a cabinet (.cab) file for every possible optional component, so you don't have to dig up an older SDK to find them.
 -   Installing the SDK itself installs every possible optional component.
--   A DirectX redistributable that contains all the optional components is available as both a Web-based installer and as a downloadable package; see the DirectX Developer Center ([DirectX](https://msdn2.microsoft.com/directx/default.aspx)) for more information.
+-   A DirectX redistributable that contains all the optional components is available as both a Web-based installer and as a downloadable package; see the DirectX Developer Center ([DirectX](/previous-versions/windows/apps/hh452744(v=win.10))) for more information.
 
 ## Installation of DirectX by the Game's Installer
 
 > [!Note]  
-> See [Direct3D 11 Deployment for Game Developers](https://docs.microsoft.com/windows/desktop/direct3darticles/direct3d11-deployment) and the [D3D11InstallHelper sample](https://code.msdn.microsoft.com/Direct3D-11-Install-Helper-3044575e).
+> See [Direct3D 11 Deployment for Game Developers](/windows/desktop/direct3darticles/direct3d11-deployment).
 
  
 
@@ -58,42 +58,15 @@ The following are the best practices for adding installation of DirectX to a gam
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Term</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="Install_the_redistributable_components_every_time.__"></span><span id="install_the_redistributable_components_every_time.__"></span><span id="INSTALL_THE_REDISTRIBUTABLE_COMPONENTS_EVERY_TIME.__"></span>Install the redistributable components every time. <br/></td>
-<td>A game's installation process should install the DirectX redistributable components during every single installation without allowing users to opt-out of it. If you allow opting-out, then some users will guess that they don't need it, and if they actually do, the game will not run. <br/></td>
-</tr>
-<tr class="even">
-<td><span id="Let_the_DirectX_installer_check_for_optional_components.__"></span><span id="let_the_directx_installer_check_for_optional_components.__"></span><span id="LET_THE_DIRECTX_INSTALLER_CHECK_FOR_OPTIONAL_COMPONENTS.__"></span>Let the DirectX installer check for optional components. <br/></td>
-<td>Do not assume that the latest optional components are already installed on a system, because Windows Update and Service Packs do not provide any of DirectX's optional components. You must install the DirectX runtime either by running dxsetup.exe directly or calling DirectSetup. <br/></td>
-</tr>
-<tr class="odd">
-<td><span id="Set_up_silently.__"></span><span id="set_up_silently.__"></span><span id="SET_UP_SILENTLY.__"></span>Set up silently. <br/></td>
-<td>Launch setup in silent mode so that users do not accidentally skip updating the DirectX runtime. You can do this by launching dxsetup.exe with the following command: <br/>
-<pre class="syntax" data-space="preserve"><code>   path-to-redistributable\dxsetup.exe /silent</code></pre>
-or by calling DirectSetup and not showing any UI. <br/></td>
-</tr>
-<tr class="even">
-<td><span id="Combine_EULA_acceptances.__"></span><span id="combine_eula_acceptances.__"></span><span id="COMBINE_EULA_ACCEPTANCES.__"></span>Combine EULA acceptances. <br/></td>
-<td>If you prompt the user to accept a EULA, then combine that with prompting for acceptance of the DirectX EULA when installing in silent mode so that prompting for acceptance of EULAs happens just once. Prompting should happen before you install anything so that if user doesn't accept, you don't end up with a failed and partial installation. <br/></td>
-</tr>
-<tr class="odd">
-<td><span id="Just_run_dxsetup_or_call_DirectSetup.__"></span><span id="just_run_dxsetup_or_call_directsetup.__"></span><span id="JUST_RUN_DXSETUP_OR_CALL_DIRECTSETUP.__"></span>Just run dxsetup or call DirectSetup. <br/></td>
-<td>Because the DirectX version number doesn't refer to anything except the core DirectX components, do not check an installed version before running dxsetup.exe or calling DirectSetup. Also, do not check for a file's existence to test if an optional component is already installed, since this usually will not correctly determine when a component exists but needs updating. However, the DirectX setup package will quickly determine this, and perform the right action. <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Term | Description | 
+|------|-------------|
+| <span id="Install_the_redistributable_components_every_time.__"></span><span id="install_the_redistributable_components_every_time.__"></span><span id="INSTALL_THE_REDISTRIBUTABLE_COMPONENTS_EVERY_TIME.__"></span>Install the redistributable components every time. <br /> | A game's installation process should install the DirectX redistributable components during every single installation without allowing users to opt-out of it. If you allow opting-out, then some users will guess that they don't need it, and if they actually do, the game will not run. <br /> | 
+| <span id="Let_the_DirectX_installer_check_for_optional_components.__"></span><span id="let_the_directx_installer_check_for_optional_components.__"></span><span id="LET_THE_DIRECTX_INSTALLER_CHECK_FOR_OPTIONAL_COMPONENTS.__"></span>Let the DirectX installer check for optional components. <br /> | Do not assume that the latest optional components are already installed on a system, because Windows Update and Service Packs do not provide any of DirectX's optional components. You must install the DirectX runtime either by running dxsetup.exe directly or calling DirectSetup. <br /> | 
+| <span id="Set_up_silently.__"></span><span id="set_up_silently.__"></span><span id="SET_UP_SILENTLY.__"></span>Set up silently. <br /> | Launch setup in silent mode so that users do not accidentally skip updating the DirectX runtime. You can do this by launching dxsetup.exe with the following command: <br /><pre class="syntax" data-space="preserve"><code>   path-to-redistributable\dxsetup.exe /silent</code></pre>or by calling DirectSetup and not showing any UI. <br /> | 
+| <span id="Combine_EULA_acceptances.__"></span><span id="combine_eula_acceptances.__"></span><span id="COMBINE_EULA_ACCEPTANCES.__"></span>Combine EULA acceptances. <br /> | If you prompt the user to accept a EULA, then combine that with prompting for acceptance of the DirectX EULA when installing in silent mode so that prompting for acceptance of EULAs happens just once. Prompting should happen before you install anything so that if user doesn't accept, you don't end up with a failed and partial installation. <br /> | 
+| <span id="Just_run_dxsetup_or_call_DirectSetup.__"></span><span id="just_run_dxsetup_or_call_directsetup.__"></span><span id="JUST_RUN_DXSETUP_OR_CALL_DIRECTSETUP.__"></span>Just run dxsetup or call DirectSetup. <br /> | Because the DirectX version number doesn't refer to anything except the core DirectX components, do not check an installed version before running dxsetup.exe or calling DirectSetup. Also, do not check for a file's existence to test if an optional component is already installed, since this usually will not correctly determine when a component exists but needs updating. However, the DirectX setup package will quickly determine this, and perform the right action. <br /> | 
+
 
 
 
@@ -133,8 +106,4 @@ However, we strongly recommend that you do not simply copy the released run-time
 
 ## Desktop Bridge applications 
 
-Desktop Bridge applications that use D3DX9, D3DX10, D3DX11, XAudio 2.7, XInput 1.3, or XACT must download either the [Microsoft.DirectX.x86](https://download.microsoft.com/download/c/c/2/cc291a37-2ebd-4ac2-ba5f-4c9124733bf1/UAPSignedBinary_Microsoft.DirectX.x86.appx) or the [Microsoft.DirectX.x64](https://download.microsoft.com/download/c/c/2/cc291a37-2ebd-4ac2-ba5f-4c9124733bf1/UAPSignedBinary_Microsoft.DirectX.x64.appx) framework in order to deploy these legacy DirectX SDK side-by-side components. Alternatively, you can remove all such dependencies&mdash;(see [Developer guide for redistributable version of XAudio 2.9](/windows/win32/xaudio2/xaudio2-redistributable), and the blog posts [Living without D3DX](https://walbourn.github.io/living-without-d3dx/) and [XINPUT and Windows 8](https://walbourn.github.io/xinput-and-windows-8/)).
-
-
-
-
+Desktop Bridge applications that use D3DX9, D3DX10, D3DX11, XAudio 2.7, XInput 1.3, or XACT must download either the [Microsoft.DirectX.x86](https://download.microsoft.com/download/c/c/2/cc291a37-2ebd-4ac2-ba5f-4c9124733bf1/UAPSignedBinary_Microsoft.DirectX.x86.appx) or the [Microsoft.DirectX.x64](https://download.microsoft.com/download/c/c/2/cc291a37-2ebd-4ac2-ba5f-4c9124733bf1/UAPSignedBinary_Microsoft.DirectX.x64.appx) framework in order to deploy these legacy DirectX SDK side-by-side components. Alternatively, you can remove all such dependencies&mdash;(see [Developer guide for redistributable version of XAudio 2.9](../xaudio2/xaudio2-redistributable.md), and the blog posts [Living without D3DX](https://walbourn.github.io/living-without-d3dx/) and [XINPUT and Windows 8](https://walbourn.github.io/xinput-and-windows-8/)).

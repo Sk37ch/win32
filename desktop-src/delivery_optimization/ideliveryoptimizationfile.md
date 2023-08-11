@@ -24,7 +24,7 @@ Implement the **IDeliveryOptimizationFile** interface to identify the status of 
 
 ## Members
 
-The **IDeliveryOptimizationFile** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDeliveryOptimizationFile** also has these types of members:
+The **IDeliveryOptimizationFile** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDeliveryOptimizationFile** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -40,7 +40,7 @@ The **IDeliveryOptimizationFile** interface has these methods.
 
 ## Requirements
 
-|                               |                                                                                  |
+| Requirement | Value |
 |-------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client      | Windows 10, version 1709 \[desktop apps only\]                                   |
 | Minimum supported server      | Windows Server, version 1709 \[desktop apps only\]                               |

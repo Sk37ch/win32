@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTINFO.ToString method"
 title: JET_RSTINFO.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RSTINFO.ToString
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_RSTINFO.ToString method
 
-Returns a [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) that represents the current [JET_RSTINFO](dn335235\(v=exchg.10\).md).
+Returns a [String](/dotnet/api/system.string) that represents the current [JET_RSTINFO](./jet-rstinfo-class.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,16 +52,15 @@ public override string ToString()
 
 #### Return value
 
-Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
-A [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) that represents the current [JET_RSTINFO](dn335235\(v=exchg.10\).md).  
+Type: [System.String](/dotnet/api/system.string)  
+A [String](/dotnet/api/system.string) that represents the current [JET_RSTINFO](./jet-rstinfo-class.md).  
 
 ## See also
 
 #### Reference
 
-[JET_RSTINFO class](dn335235\(v=exchg.10\).md)
+[JET_RSTINFO class](./jet-rstinfo-class.md)
 
-[JET_RSTINFO members](dn335237\(v=exchg.10\).md)
+[JET_RSTINFO members](./jet-rstinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

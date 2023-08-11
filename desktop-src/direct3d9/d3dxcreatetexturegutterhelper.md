@@ -1,5 +1,5 @@
 ---
-Description: Creates an ID3DXTextureGutterHelper object from an input mesh and texture data.
+description: Creates an ID3DXTextureGutterHelper object from an input mesh and texture data.
 ms.assetid: 1696fc3d-5b35-48cc-a79b-c0d4ed44e420
 title: D3DXCreateTextureGutterHelper function (D3DX9Mesh.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ HRESULT D3DXCreateTextureGutterHelper(
 *Width* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Width of the texture, in pixels.
 
@@ -51,7 +51,7 @@ Width of the texture, in pixels.
 *Height* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Height of the texture, in pixels.
 
@@ -69,7 +69,7 @@ Pointer to an input [**ID3DXMesh**](id3dxmesh.md) mesh object.
 *GutterSize* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Number of texels by which to over-sample the texture and create the gutter region. Must be at least 1.
 
@@ -98,7 +98,7 @@ Use [**D3DXConcatenateMeshes**](d3dxconcatenatemeshes.md) to transform a scene t
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -115,7 +115,3 @@ Use [**D3DXConcatenateMeshes**](d3dxconcatenatemeshes.md) to transform a scene t
  
 
  
-
-
-
-

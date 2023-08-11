@@ -1,6 +1,6 @@
 ---
 title: RWTexture2DArray::Load(int,uint) function
-description: Reads texture data and returns status about the operation.
+description: Reads texture data and returns status about the operation. | RWTexture2DArray::Load(int,uint) function
 ms.assetid: 97D6E36A-1613-43BA-92C1-3034E0F344F0
 keywords:
 - Load function HLSL
@@ -15,17 +15,17 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Load(int,uint) function
+# RWTexture2DArray::Load(int,uint) function
 
 Reads texture data and returns status about the operation.
 
 ## Syntax
 
 
-```C++
+``` syntax
  Load(
-  _In_  int  Location,
-  _Out_ uint Status
+  in  int  Location,
+  out uint Status
 );
 ```
 
@@ -49,7 +49,7 @@ The location of the texture.
 
 Type: **uint**
 
-The status of the operation. You can't access the status directly; instead, pass the status to the [**CheckAccessFullyMapped**](checkaccessfullymapped.md) intrinsic function. **CheckAccessFullyMapped** returns **TRUE** if all values from the corresponding **Sample**, **Gather**, or **Load** operation accessed mapped tiles in a [tiled resource](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-2-features). If any values were taken from an unmapped tile, **CheckAccessFullyMapped** returns **FALSE**.
+The status of the operation. You can't access the status directly; instead, pass the status to the [**CheckAccessFullyMapped**](checkaccessfullymapped.md) intrinsic function. **CheckAccessFullyMapped** returns **TRUE** if all values from the corresponding **Sample**, **Gather**, or **Load** operation accessed mapped tiles in a [tiled resource](/windows/desktop/direct3d11/direct3d-11-2-features). If any values were taken from an unmapped tile, **CheckAccessFullyMapped** returns **FALSE**.
 
 </dd> </dl>
 
@@ -83,7 +83,3 @@ This function is supported for the following types of shaders:
  
 
  
-
-
-
-

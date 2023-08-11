@@ -1,5 +1,5 @@
 ---
-Description: The WM\_PRINT message is sent to a window to request that it draw itself in the specified device context, most commonly in a printer device context.
+description: The WM\_PRINT message is sent to a window to request that it draw itself in the specified device context, most commonly in a printer device context.
 ms.assetid: e6be2ecd-603a-405f-8a48-68d971e1f6de
 title: WM_PRINT message (Winuser.h)
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The **WM\_PRINT** message is sent to a window to request that it draw itself in the specified device context, most commonly in a printer device context.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -59,13 +59,13 @@ The drawing options. This parameter can be one or more of the following values.
 
 ## Remarks
 
-The [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function processes this message based on which drawing option is specified: if PRF\_CHECKVISIBLE is specified and the window is not visible, do nothing, if PRF\_NONCLIENT is specified, draw the nonclient area in the specified device context, if PRF\_ERASEBKGND is specified, send the window a [**WM\_ERASEBKGND**](https://msdn.microsoft.com/library/ms648055(v=VS.85).aspx) message, if PRF\_CLIENT is specified, send the window a [**WM\_PRINTCLIENT**](wm-printclient.md) message, if PRF\_CHILDREN is set, send each visible child window a **WM\_PRINT** message, if PRF\_OWNED is set, send each visible owned window a **WM\_PRINT** message.
+The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function processes this message based on which drawing option is specified: if PRF\_CHECKVISIBLE is specified and the window is not visible, do nothing, if PRF\_NONCLIENT is specified, draw the nonclient area in the specified device context, if PRF\_ERASEBKGND is specified, send the window a [**WM\_ERASEBKGND**](../winmsg/wm-erasebkgnd.md) message, if PRF\_CLIENT is specified, send the window a [**WM\_PRINTCLIENT**](wm-printclient.md) message, if PRF\_CHILDREN is set, send each visible child window a **WM\_PRINT** message, if PRF\_OWNED is set, send each visible owned window a **WM\_PRINT** message.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -83,10 +83,10 @@ The [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).asp
 [Painting and Drawing Messages](painting-and-drawing-messages.md)
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
+[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**WM\_ERASEBKGND**](https://msdn.microsoft.com/library/ms648055(v=VS.85).aspx)
+[**WM\_ERASEBKGND**](../winmsg/wm-erasebkgnd.md)
 </dt> <dt>
 
 [**WM\_PRINTCLIENT**](wm-printclient.md)
@@ -95,7 +95,3 @@ The [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).asp
  
 
  
-
-
-
-

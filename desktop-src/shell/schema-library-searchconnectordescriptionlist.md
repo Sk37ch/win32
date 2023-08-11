@@ -1,5 +1,5 @@
 ---
-Description: This <searchConnectorDescriptionList> element contains a list of search connectors that map to locations included in this library. Each search connector is defined by a <searchConnectorDescription> element. This element is optional and has no attributes.
+description: This &lt;searchConnectorDescriptionList&gt; element contains a list of search connectors that map to locations included in this library. Each search connector is defined by a &lt;searchConnectorDescription&gt; element. This element is optional and has no attributes.
 ms.assetid: 58A7BC21-0EB8-4bcf-98EE-31A56A4BC58C
 title: searchConnectorDescriptionList Element (Library Schema)
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # searchConnectorDescriptionList Element (Library Schema)
 
-This <searchConnectorDescriptionList> element contains a list of search connectors that map to locations included in this library. Each search connector is defined by a <searchConnectorDescription> element. This element is optional and has no attributes.
+This &lt;searchConnectorDescriptionList&gt; element contains a list of search connectors that map to locations included in this library. Each search connector is defined by a &lt;searchConnectorDescription&gt; element. This element is optional and has no attributes.
 
 ## Syntax
 
@@ -46,12 +46,9 @@ Search connectors for Windows Federated Search and protocol handler scopes canno
 [Library Description Schema](library-schema-entry.md)
 </dt> <dt>
 
-[Search Connector Description Schema](https://msdn.microsoft.com/library/Dd743009(v=VS.85).aspx)
+[Search Connector Description Schema](/previous-versions//dd743009(v=vs.85))
 </dt> </dl>
 
  
 
  
-
-
-

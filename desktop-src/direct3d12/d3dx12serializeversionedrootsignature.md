@@ -12,7 +12,6 @@ api_location:
 - D3D12.dll
 api_type:
 - DllExport
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 ---
@@ -62,7 +61,7 @@ Specifies the maximum supported [**D3D\_ROOT\_SIGNATURE\_VERSION**](/windows/des
 
 Type: **ID3DBlob\*\***
 
-A pointer to a memory block that receives a pointer to the [**ID3DBlob**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)) interface that you can use to access the serialized root signature.
+A pointer to a memory block that receives a pointer to the [**ID3DBlob**](/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)) interface that you can use to access the serialized root signature.
 
 </dd> <dt>
 
@@ -71,7 +70,7 @@ A pointer to a memory block that receives a pointer to the [**ID3DBlob**](https:
 
 Type: **ID3DBlob\*\***
 
-A pointer to a memory block that receives a pointer to the [**ID3DBlob**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)) interface that you can use to access serializer error messages, or **NULL** if there are no errors.
+A pointer to a memory block that receives a pointer to the [**ID3DBlob**](/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)) interface that you can use to access serializer error messages, or **NULL** if there are no errors.
 
 </dd> </dl>
 
@@ -89,7 +88,7 @@ This function was released to coincide with the Windows 10 Anniversary Update (1
 
 
 
-|                    |                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx12.h</dt> </dl>  |
 | Library<br/> | <dl> <dt>D3D12.lib</dt> </dl> |
@@ -108,10 +107,4 @@ This function was released to coincide with the Windows 10 Anniversary Update (1
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

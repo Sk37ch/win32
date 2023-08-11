@@ -1,6 +1,6 @@
 ---
 title: IVMFloppyDriveEvents OnMediaEject method (VPCCOMInterfaces.h)
-description: Receives notification that media has been ejected from the drive.
+description: Receives notification that media has been ejected from the drive. | IVMFloppyDriveEvents OnMediaEject method (VPCCOMInterfaces.h)
 ms.assetid: 3e9c0b5d-8fec-4f34-93d2-c5975403798b
 keywords:
 - OnMediaEject method Virtual PC
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # IVMFloppyDriveEvents::OnMediaEject method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Receives notification that media has been ejected from the drive.
 
@@ -58,7 +58,7 @@ This method is called when media (a floppy disk image or a floppy disk in a host
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
@@ -77,10 +77,4 @@ This method is called when media (a floppy disk image or a floppy disk in a host
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

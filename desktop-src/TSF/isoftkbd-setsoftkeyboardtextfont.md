@@ -40,7 +40,7 @@ HRESULT SetSoftKeyboardTextFont(
 *pLogFont* \[in\]
 </dt> <dd>
 
-Pointer to a [**LOGFONTW**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta) structure defining the text font for the soft keyboard.
+Pointer to a [**LOGFONTW**](/windows/win32/api/wingdi/ns-wingdi-logfonta) structure defining the text font for the soft keyboard.
 
 </dd> </dl>
 
@@ -63,7 +63,7 @@ This method can return one of these values.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
@@ -85,10 +85,4 @@ This method can return one of these values.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

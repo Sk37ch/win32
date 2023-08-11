@@ -41,7 +41,7 @@ ID3DX11EffectType* GetMemberTypeBySemantic(
 *Semantic* 
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 A semantic.
 
@@ -64,7 +64,7 @@ A pointer to an [**ID3DX11EffectType**](id3dx11effecttype.md).
 
 
 
-|                    |                                                                                                                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
 | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |
@@ -79,10 +79,4 @@ A pointer to an [**ID3DX11EffectType**](id3dx11effecttype.md).
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

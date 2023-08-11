@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNID.CompareTo method"
 title: JET_COLUMNID.CompareTo method 
 TOCTitle: 'CompareTo method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNID.CompareTo(Microsoft.Isam.Esent.Interop.JET_COLUMNID)
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Compares this columnid to another columnid and determines whether this instance is before, the same as or after the other instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,26 +58,25 @@ public int CompareTo(
 #### Parameters
 
   - other  
-    Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)  
     
     The columnid to compare to the current instance.
 
 #### Return value
 
-Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+Type: [System.Int32](/dotnet/api/system.int32)  
 A signed number indicating the relative positions of this instance and the value parameter.  
 
 #### Implements
 
-[IComparable\<T\>.CompareTo(T)](https://docs.microsoft.com/dotnet/api/system.icomparable-1.compareto?redirectedfrom=MSDN#System_IComparable_1_CompareTo__0_)  
+[IComparable\<T\>.CompareTo(T)](/dotnet/api/system.icomparable-1.compareto#System_IComparable_1_CompareTo__0_)  
 
 ## See also
 
 #### Reference
 
-[JET_COLUMNID structure](hh564510\(v=exchg.10\).md)
+[JET_COLUMNID structure](./jet-columnid-structure.md)
 
-[JET_COLUMNID members](hh558343\(v=exchg.10\).md)
+[JET_COLUMNID members](./jet-columnid-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

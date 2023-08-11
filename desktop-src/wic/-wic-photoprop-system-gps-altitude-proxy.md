@@ -1,5 +1,5 @@
 ---
-Description: The property proxy for the System.GPS.Altitude photo metadata policy.
+description: The property proxy for the System.GPS.Altitude photo metadata policy.
 ms.assetid: 1b27ed14-50e0-431f-bc03-04fbd7160728
 title: System.GPS.Altitude Proxy
 ms.topic: article
@@ -12,7 +12,7 @@ The property proxy for the System.GPS.Altitude photo metadata policy.
 
 ### Description
 
-The property proxy returns a rational pair a through the [PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(VS.85).aspx) uhVal member.
+The property proxy returns a rational pair a through the [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) uhVal member.
 
 ### Containers
 
@@ -38,12 +38,9 @@ LowPart of the uhVal.
 
 <dl> <dt>
 
-[System.GPS.Altitude](https://msdn.microsoft.com/library/bb787472(VS.85).aspx)
+[System.GPS.Altitude](../properties/props-system-gps-altitude.md)
 </dt> </dl>
 
  
 
  
-
-
-

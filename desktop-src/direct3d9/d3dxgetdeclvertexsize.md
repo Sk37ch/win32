@@ -1,5 +1,5 @@
 ---
-Description: Returns the size of a vertex from the vertex declaration.
+description: Returns the size of a vertex from the vertex declaration.
 ms.assetid: a2524f96-103e-43ab-bdcb-b99e7402fd89
 title: D3DXGetDeclVertexSize function (D3DX9Mesh.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ A pointer to the vertex declaration. See [**D3DVERTEXELEMENT9**](d3dvertexelemen
 *Stream* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 The zero-based stream index.
 
@@ -56,7 +56,7 @@ The zero-based stream index.
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The vertex declaration size, in bytes.
 
@@ -64,7 +64,7 @@ The vertex declaration size, in bytes.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -81,7 +81,3 @@ The vertex declaration size, in bytes.
  
 
  
-
-
-
-

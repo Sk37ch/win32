@@ -1,5 +1,5 @@
 ---
-Description: This tutorial shows how to use the Transcode API to encode an MP4 file, using H.264 for the video stream and AAC for the audio stream.
+description: This tutorial shows how to use the Transcode API to encode an MP4 file, using H.264 for the video stream and AAC for the audio stream.
 ms.assetid: 60873aa6-46ec-4a73-94b9-0d8ac602f850
 title: 'Tutorial: Encoding an MP4 File'
 ms.topic: article
@@ -168,11 +168,11 @@ int wmain(int argc, wchar_t* argv[])
 
 The `wmain` function does the following:
 
-1.  Calls the [**CoInitializeEx**](https://msdn.microsoft.com/library/ms695279(v=VS.85).aspx) function to initialize the COM library.
+1.  Calls the [**CoInitializeEx**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) function to initialize the COM library.
 2.  Calls the [**MFStartup**](/windows/desktop/api/mfapi/nf-mfapi-mfstartup) function to initialize Media Foundation.
 3.  Calls the application-defined `EncodeFile` function. This function transcodes the input file to the output file, and is shown in the next section.
 4.  Calls the [**MFShutdown**](/windows/desktop/api/mfapi/nf-mfapi-mfshutdown) function to shut down Media Foundation.
-5.  Call the [**CoUninitialize**](https://msdn.microsoft.com/library/ms688715(v=VS.85).aspx) function to uninitialize the COM library.
+5.  Call the [**CoUninitialize**](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize) function to uninitialize the COM library.
 
 ## Encode the File
 
@@ -499,7 +499,7 @@ The following code creates the audio stream attributes.
 ```C++
 HRESULT CreateAACProfile(DWORD index, IMFAttributes **ppAttributes)
 {
-    if (index >= ARRAYSIZE(h264_profiles))
+    if (index >= ARRAYSIZE(aac_profiles))
     {
         return E_INVALIDARG;
     }
@@ -881,6 +881,3 @@ HRESULT CSession::Wait(DWORD dwMsec)
  
 
  
-
-
-

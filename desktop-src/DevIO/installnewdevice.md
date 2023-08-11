@@ -1,5 +1,5 @@
 ---
-Description: Installs a new device. The user is prompted to select the device.
+description: Installs a new device. The user is prompted to select the device.
 ms.assetid: 9bdee82c-1d0a-41ea-8b42-7ad96ac37663
 title: InstallNewDevice function
 ms.topic: reference
@@ -61,17 +61,17 @@ A pointer to a variable that receives the reboot status. This parameter can be *
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 
-This function has no associated import library. You must use the [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to NewDev.dll.
+This function has no associated import library. You must use the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to NewDev.dll.
 
 ## Requirements
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
@@ -87,9 +87,4 @@ This function has no associated import library. You must use the [**LoadLibrary*
 </dt> </dl>
 
  
-
- 
-
-
-
 

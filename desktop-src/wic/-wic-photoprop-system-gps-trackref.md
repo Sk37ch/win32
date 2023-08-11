@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.GPS.TrackRef property.
+description: The photo metadata policy for the System.GPS.TrackRef property.
 ms.assetid: e6912177-8add-4520-b396-c28060b359c7
 title: System.GPS.TrackRef Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.TrackRef Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.TrackRef](https://msdn.microsoft.com/library/bb760597(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.TrackRef](../properties/props-system-gps-trackref.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.GPS.TrackRef](https://msdn.microsoft.com/library/bb760597(VS.85).aspx)
+[System.GPS.TrackRef](../properties/props-system-gps-trackref.md)
 </dt> </dl>
 
  
 
  
-
-
-

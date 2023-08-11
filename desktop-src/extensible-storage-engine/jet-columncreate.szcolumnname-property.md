@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNCREATE.szColumnName property"
 title: JET_COLUMNCREATE.szColumnName property 
 TOCTitle: 'szColumnName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNCREATE.szColumnName
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the name of the column to create.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,15 +58,14 @@ public string szColumnName { get; set; }
 
 #### Property value
 
-Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+Type: [System.String](/dotnet/api/system.string)  
 
 ## See also
 
 #### Reference
 
-[JET_COLUMNCREATE class](dn335028\(v=exchg.10\).md)
+[JET_COLUMNCREATE class](./jet-columncreate-class.md)
 
-[JET_COLUMNCREATE members](dn335070\(v=exchg.10\).md)
+[JET_COLUMNCREATE members](./jet-columncreate-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

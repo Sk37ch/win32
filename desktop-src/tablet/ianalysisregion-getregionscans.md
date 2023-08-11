@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an array of rectangles that defines the area of the IAnalysisRegion.
+description: Retrieves an array of rectangles that defines the area of the IAnalysisRegion.
 ms.assetid: 40de4c27-4b3b-4db3-af08-cb53e638db6b
 title: IAnalysisRegion::GetRegionScans method (IACom.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 If *pRegionScans* is passed as **NULL**, the **GetRegionScans** method returns **S\_OK** and the number of rectangles is returned in *pulCount*.
 
 > [!Caution]  
-> To avoid a memory leak, use [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to release the memory from \**pRegionScans* when you no longer need the information.
+> To avoid a memory leak, use [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to release the memory from \**pRegionScans* when you no longer need the information.
 
  
 
@@ -92,7 +92,7 @@ region->GetRegionScans(&number, NULL);
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -115,9 +115,4 @@ region->GetRegionScans(&number, NULL);
 </dt> </dl>
 
  
-
- 
-
-
-
 

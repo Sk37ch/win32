@@ -1,5 +1,5 @@
 ---
-Description: This class represents a virtual system reference point export operation job.
+description: This class represents a virtual system reference point export operation job.
 ms.assetid: 3d8e117c-4863-441a-9264-c33f05fbc5ef
 title: Msvm_VirtualSystemReferencePointExportJob class
 ms.topic: reference
@@ -116,7 +116,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_Job**](cim-job.md).**ErrorCode**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_Job**](cim-job.md).**ErrorCode**")
 </dt> </dl>
 
 Contains an error summary description.
@@ -236,7 +236,7 @@ GUID of the virtual machine for which log files were exported.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -254,9 +254,4 @@ GUID of the virtual machine for which log files were exported.
 </dt> </dl>
 
  
-
- 
-
-
-
 

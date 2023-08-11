@@ -1,5 +1,5 @@
 ---
-Description: Initializes or reinitializes the system image list.
+description: Initializes or reinitializes the system image list.
 ms.assetid: 4e661326-157e-4c75-86df-cd213e01c3e5
 title: FileIconInit function
 ms.topic: reference
@@ -54,7 +54,7 @@ Type: **BOOL**
 If you are using system image lists in your own process, you must call **FileIconInit** at the following times:
 
 -   On launch.
--   In response to a [**WM\_SETTINGCHANGE**](https://msdn.microsoft.com/library/ms725497(v=VS.85).aspx) message when the [**SPI\_SETNONCLIENTMETRICS**](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx) flag is set.
+-   In response to a [**WM\_SETTINGCHANGE**](../winmsg/wm-settingchange.md) message when the [**SPI\_SETNONCLIENTMETRICS**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa) flag is set.
 
 **FileIconInit** is not included in a header file. You must call it directly from Shell32.dll, using ordinal 660.
 
@@ -62,7 +62,7 @@ If you are using system image lists in your own process, you must call **FileIco
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
@@ -73,7 +73,3 @@ If you are using system image lists in your own process, you must call **FileIco
  
 
  
-
-
-
-

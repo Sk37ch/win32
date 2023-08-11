@@ -1,5 +1,5 @@
 ---
-Description: Adaptive Differential Pulse Code Modulation (ADPCM) is a lossy compression format that is implemented for XAudio2 to provide additional features for specifying the size of the compression sample block.
+description: Adaptive Differential Pulse Code Modulation (ADPCM) is a lossy compression format that is implemented for XAudio2 to provide additional features for specifying the size of the compression sample block.
 ms.assetid: ae8a0a3e-293c-8193-d252-046d79771cfb
 title: ADPCM Overview
 ms.topic: article
@@ -33,7 +33,7 @@ Software decoding of ADPCM is supported in XAudio2.
 
 -   XAudio2
 
-    In order to use ADPCM encoded data in XAudio2, you need to initialize a **ADPCMWAVEFORMAT** structure with ADPCM specific values, and pass it as an argument to [**IXAudio2::CreateSourceVoice**](https://msdn.microsoft.com/library/Ee418607(v=VS.85).aspx) when you create a source voice. For an example of loading and playing a sound in XAudio2, see [How to: Play a Sound with XAudio2](how-to--play-a-sound-with-xaudio2.md).
+    In order to use ADPCM encoded data in XAudio2, you need to initialize a **ADPCMWAVEFORMAT** structure with ADPCM specific values, and pass it as an argument to [**IXAudio2::CreateSourceVoice**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice) when you create a source voice. For an example of loading and playing a sound in XAudio2, see [How to: Play a Sound with XAudio2](how-to--play-a-sound-with-xaudio2.md).
 
 ## SamplesPerBlock
 
@@ -91,6 +91,3 @@ An ADPCM file is a standard RIFF file with the following chunk types.
  
 
  
-
-
-

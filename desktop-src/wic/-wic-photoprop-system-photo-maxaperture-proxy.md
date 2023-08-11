@@ -1,5 +1,5 @@
 ---
-Description: The property proxy for the System.Photo.MaxAperture photo metadata policy.
+description: The property proxy for the System.Photo.MaxAperture photo metadata policy.
 ms.assetid: c508cf7d-1106-4a59-bd82-2b788b8e6ce0
 title: System.Photo.MaxAperture Proxy
 ms.topic: article
@@ -12,7 +12,7 @@ The property proxy for the System.Photo.MaxAperture photo metadata policy.
 
 ### Description
 
-The property proxy returns a rational pair a through the [PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(VS.85).aspx) uhVal member.
+The property proxy returns a rational pair a through the [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) uhVal member.
 
 ### Containers
 
@@ -38,12 +38,9 @@ LowPart of the uhVal.
 
 <dl> <dt>
 
-[System.Photo.MaxAperture](https://msdn.microsoft.com/library/bb760495(VS.85).aspx)
+[System.Photo.MaxAperture](../properties/props-system-photo-maxaperture.md)
 </dt> </dl>
 
  
 
  
-
-
-

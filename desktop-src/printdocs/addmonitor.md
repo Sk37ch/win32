@@ -1,5 +1,5 @@
 ---
-Description: The AddMonitor function installs a local port monitor and links the configuration, data, and monitor files.
+description: The AddMonitor function installs a local port monitor and links the configuration, data, and monitor files.
 ms.assetid: 6a556422-5360-42d2-b177-dba0498c06d8
 title: AddMonitor function (Winspool.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If the function fails, the return value is zero.
 
  
 
-The caller must have the [SeLoadDriverPrivilege](https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants).
+The caller must have the [SeLoadDriverPrivilege](/windows/desktop/SecAuthZ/authorization-constants).
 
 Before an application calls the **AddMonitor** function, all files required by the monitor must be copied to the SYSTEM32 directory.
 
@@ -86,7 +86,7 @@ To remove a monitor added by **AddMonitor**, call the [**DeleteMonitor**](delete
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -117,9 +117,4 @@ To remove a monitor added by **AddMonitor**, call the [**DeleteMonitor**](delete
 </dt> </dl>
 
  
-
- 
-
-
-
 

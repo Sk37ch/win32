@@ -1,16 +1,21 @@
 ---
-Description: Control Flow Guard (CFG) is a highly-optimized platform security feature that was created to combat memory corruption vulnerabilities.
+description: Control Flow Guard (CFG) is a highly-optimized platform security feature that was created to combat memory corruption vulnerabilities.
 ms.assetid: 116EAD64-7CAE-455C-BA43-9492F78DE873
 title: Control Flow Guard
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 01/25/2022
+ms.custom: seo-windows-dev
 ---
 
-# Control Flow Guard
+# Control Flow Guard for platform security
 
 ## What is Control Flow Guard?
 
-Control Flow Guard (CFG) is a highly-optimized platform security feature that was created to combat memory corruption vulnerabilities. By placing tight restrictions on where an application can execute code from, it makes it much harder for exploits to execute arbitrary code through vulnerabilities such as buffer overflows. CFG extends previous exploit mitigation technologies such as [/GS](https://docs.microsoft.com/cpp/build/reference/gs-buffer-security-check?redirectedfrom=MSDN&view=vs-2019), [DEP](https://docs.microsoft.com/windows/win32/memory/data-execution-prevention?redirectedfrom=MSDN), and [ASLR](https://blogs.msdn.com/b/michael_howard/archive/2006/05/26/address-space-layout-randomization-in-windows-vista.aspx).
+Control Flow Guard (CFG) is a highly-optimized platform security feature that was created to combat memory corruption vulnerabilities. By placing tight restrictions on where an application can execute code from, it makes it much harder for exploits to execute arbitrary code through vulnerabilities such as buffer overflows. CFG extends previous exploit mitigation technologies such as [/GS](/cpp/build/reference/gs-buffer-security-check), [DEP](../memory/data-execution-prevention.md), and [ASLR](/archive/blogs/michael_howard/address-space-layout-randomization-in-windows-vista).
+
+- Prevent memory corruption and ransomware attacks.
+- Restrict the capabilities of the server to whatever is needed at a particular point in time to reduce attack surface.
+- Make it harder to exploit arbitrary code through vulnerabilities such as buffer overflows.
 
 This feature is available in Microsoft Visual Studio 2015, and runs on "CFG-Aware" versions of Windows—the x86 and x64 releases for Desktop and Server of Windows 10 and Windows 8.1 Update (KB3000850).
 
@@ -28,15 +33,15 @@ Alternatively, add **/guard:cf** to **Project \| Properties \| Configuration Pro
 
 ![cfg property for compiler](images/cfg-compiler.png)![cfg property for linker](images/cfg-linker.png)
 
-See [/guard (Enable Control Flow Guard)](https://docs.microsoft.com/cpp/build/reference/guard-enable-control-flow-guard?redirectedfrom=MSDN&view=vs-2019) for additional info.
+See [/guard (Enable Control Flow Guard)](/cpp/build/reference/guard-enable-control-flow-guard) for additional info.
 
 If you are building your project from the command line, you can add the same options. For example, if you are compiling a project called test.cpp, use **cl /guard:cf test.cpp /link /guard:cf**.
 
-You also have the option of dynamically controlling the set of icall target addresses that are considered valid by CFG using the [**SetProcessValidCallTargets**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-setprocessvalidcalltargets) from the Memory Management API. The same API can be used to specify whether pages are invalid or valid targets for CFG. The [**VirtualProtect**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualprotect) and [**VirtualAlloc**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc) functions will by default treat a specified region of executable and committed pages as valid indirect call targets. It is possible to override this behavior, such as when implementing a Just-in-Time compiler, by specifying **PAGE\_TARGETS\_INVALID** when calling **VirtualAlloc** or **PAGE\_TARGETS\_NO\_UPDATE** when calling **VirtualProtect** as detailed under [**Memory Protection Constants**](https://docs.microsoft.com/windows/desktop/Memory/memory-protection-constants).
+You also have the option of dynamically controlling the set of icall target addresses that are considered valid by CFG using the [**SetProcessValidCallTargets**](/windows/desktop/api/memoryapi/nf-memoryapi-setprocessvalidcalltargets) from the Memory Management API. The same API can be used to specify whether pages are invalid or valid targets for CFG. The [**VirtualProtect**](/windows/desktop/api/memoryapi/nf-memoryapi-virtualprotect) and [**VirtualAlloc**](/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc) functions will by default treat a specified region of executable and committed pages as valid indirect call targets. It is possible to override this behavior, such as when implementing a Just-in-Time compiler, by specifying **PAGE\_TARGETS\_INVALID** when calling **VirtualAlloc** or **PAGE\_TARGETS\_NO\_UPDATE** when calling **VirtualProtect** as detailed under [**Memory Protection Constants**](/windows/desktop/Memory/memory-protection-constants).
 
 ## How Do I Tell That a Binary is under Control Flow Guard?
 
-Run the [dumpbin tool](https://docs.microsoft.com/cpp/build/reference/dumpbin-reference) (included in the Visual Studio 2015 installation) from the Visual Studio command prompt with the */headers* and */loadconfig* options: **dumpbin /headers /loadconfig test.exe**. The output for a binary under CFG should show that the header values include "Guard", and that the load config values include "CF Instrumented" and "FID table present".
+Run the [dumpbin tool](/cpp/build/reference/dumpbin-reference) (included in the Visual Studio 2015 installation) from the Visual Studio command prompt with the */headers* and */loadconfig* options: **dumpbin /headers /loadconfig test.exe**. The output for a binary under CFG should show that the header values include "Guard", and that the load config values include "CF Instrumented" and "FID table present".
 
 ![output from dumpbin /headers](images/cfg-dumpbin-headers.png)
 
@@ -50,23 +55,16 @@ However, a potent combination of compile and run-time support from CFG implement
 
 The compiler does the following:
 
-1.  Adds lightweight security checks to the compiled code.
-2.  Identifies the set of functions in the application that are valid targets for indirect calls.
+1. Adds lightweight security checks to the compiled code.
+2. Identifies the set of functions in the application that are valid targets for indirect calls.
 
 The runtime support, provided by the Windows kernel:
 
-1.  Efficiently maintains state that identifies valid indirect call targets.
-2.  Implements the logic that verifies that an indirect call target is valid.
+1. Efficiently maintains state that identifies valid indirect call targets.
+2. Implements the logic that verifies that an indirect call target is valid.
 
 To illustrate:
 
 ![cfg pseudocode](images/cfg-pseudocode.jpg)
 
 When a CFG check fails at runtime, Windows immediately terminates the program, thus breaking any exploit that attempts to indirectly call an invalid address.
-
- 
-
- 
-
-
-

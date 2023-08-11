@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 Exposes methods and properties that manage advanced settings of the ActiveX control.
 
-To obtain an instance of this interface, use the [**IMsTscAx::AdvancedSettings**](imstscax-advancedsettings.md) property to obtain an [**IMsTscAdvancedSettings**](imstscadvancedsettings-interface.md) interface pointer. Then call [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) on the **IMsTscAdvancedSettings** pointer, and pass **IID\_IMsRdpClientAdvancedSettings7** to **QueryInterface**.
+To obtain an instance of this interface, use the [**IMsTscAx::AdvancedSettings**](imstscax-advancedsettings.md) property to obtain an [**IMsTscAdvancedSettings**](imstscadvancedsettings-interface.md) interface pointer. Then call [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) on the **IMsTscAdvancedSettings** pointer, and pass **IID\_IMsRdpClientAdvancedSettings7** to **QueryInterface**.
 
 ## Members
 
@@ -54,7 +54,7 @@ The **IMsRdpClientAdvancedSettings7** interface has these properties.
 
 
 
-|                                     |                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7<br/>                                                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                |
@@ -90,10 +90,4 @@ The **IMsRdpClientAdvancedSettings7** interface has these properties.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

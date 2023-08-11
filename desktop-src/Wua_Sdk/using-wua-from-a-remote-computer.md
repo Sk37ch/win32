@@ -1,5 +1,5 @@
 ---
-Description: The Windows Update Agent (WUA) API can be used by a user on a remote computer or by an application that is running on a remote computer. However, the remote user or application must have administrator privileges.
+description: The Windows Update Agent (WUA) API can be used by a user on a remote computer or by an application that is running on a remote computer. However, the remote user or application must have administrator privileges.
 ms.assetid: 15f86590-bed8-4506-916d-43b0bac5db2a
 title: Using WUA From a Remote Computer
 ms.topic: article
@@ -78,11 +78,8 @@ The following list contains tools that can be used to configure Windows Firewall
 -   Group Policy
 -   Netsh advfirewall command-line tool
 
-For more information about how to use tools to configure Windows Firewall settings, see [Getting Started with Windows Firewall with Advanced Security](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc748991(v=ws.10)?redirectedfrom=MSDN).
+For more information about how to use tools to configure Windows Firewall settings, see [Getting Started with Windows Firewall with Advanced Security](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc748991(v=ws.10)).
 
  
 
  
-
-
-

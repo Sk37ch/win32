@@ -1,5 +1,5 @@
 ---
-Description: Gets the number of patches in the mesh.
+description: Gets the number of patches in the mesh.
 ms.assetid: c081711a-9fbb-4993-b073-fbce53105165
 title: ID3DXPatchMesh::GetNumPatches method (D3DX9Mesh.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 The number of patches.
 
@@ -43,7 +43,7 @@ The number of patches.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -60,7 +60,3 @@ The number of patches.
  
 
  
-
-
-
-

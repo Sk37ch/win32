@@ -1,5 +1,5 @@
 ---
-Description: Starts an active technique.
+description: Starts an active technique.
 ms.assetid: 6598d77b-8b53-4f2d-aa43-adf358ad486d
 title: ID3DXEffect::Begin method (D3DX9Effect.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT Begin(
 *pPasses* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Pointer to a value returned that indicates the number of passes needed to render the current technique.
 
@@ -48,7 +48,7 @@ Pointer to a value returned that indicates the number of passes needed to render
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 DWORD that determines if state modified by an effect is saved and restored. The default value 0 specifies that **ID3DXEffect::Begin** and [**ID3DXEffect::End**](id3dxeffect--end.md) will save and restore all state modified by the effect (including pixel and vertex shader constants). Valid flags can be seen at [Effect State Save and Restore Flags](d3dxfx.md).
 
@@ -70,7 +70,7 @@ Within the **ID3DXEffect::Begin** and [**ID3DXEffect::End**](id3dxeffect--end.md
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -87,7 +87,3 @@ Within the **ID3DXEffect::Begin** and [**ID3DXEffect::End**](id3dxeffect--end.md
  
 
  
-
-
-
-

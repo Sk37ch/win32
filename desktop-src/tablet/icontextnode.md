@@ -1,5 +1,5 @@
 ---
-Description: Represents a node in a tree of objects that are created as part of ink analysis.
+description: Represents a node in a tree of objects that are created as part of ink analysis.
 ms.assetid: 44ef4401-cb14-4348-9ed8-b11a40d04940
 title: IContextNode interface (IACom.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ Represents a node in a tree of objects that are created as part of ink analysis.
 
 ## Members
 
-The **IContextNode** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IContextNode** also has these types of members:
+The **IContextNode** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IContextNode** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -191,7 +191,7 @@ HRESULT CMyClass::ExploreContextNode(
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -217,9 +217,4 @@ HRESULT CMyClass::ExploreContextNode(
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Represents a specialization of the system component association that establishes that the resource pool is defined in the context of the system.
+description: Represents a specialization of the system component association that establishes that the resource pool is defined in the context of the system.
 ms.assetid: 72b68687-2b5f-4fef-bdca-a5c0bbfa3564
 title: Msvm_HostedResourcePool class
 ms.topic: reference
@@ -55,7 +55,7 @@ Data type: **[**Msvm\_ComputerSystem**](msvm-computersystem.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 The parent system in the association.
@@ -65,13 +65,13 @@ The parent system in the association.
 **PartComponent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ResourcePool**](https://docs.microsoft.com/previous-versions//cc136903(v=vs.85))**
+Data type: **[**CIM\_ResourcePool**](/previous-versions//cc136903(v=vs.85))**
 </dt> <dt>
 
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
 </dt> </dl>
 
 The resource pool that is a component of the system.
@@ -82,7 +82,7 @@ The resource pool that is a component of the system.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -93,9 +93,4 @@ The resource pool that is a component of the system.
 
 
  
-
- 
-
-
-
 

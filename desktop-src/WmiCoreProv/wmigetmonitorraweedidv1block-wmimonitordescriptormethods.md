@@ -1,5 +1,5 @@
 ---
-Description: Gets the raw data for a specified Video Electronics Standard Association (VESA) Enhanced Extended Display Identification Data (E-EDID) structure that defines optimal settings for configuring a monitor.
+description: Gets the raw data for a specified Video Electronics Standard Association (VESA) Enhanced Extended Display Identification Data (E-EDID) structure that defines optimal settings for configuring a monitor.
 ms.assetid: a787e66e-1b96-4dd5-8646-7aa2d281ac95
 title: WmiGetMonitorRawEEdidV1Block method of the WmiMonitorDescriptorMethods class
 ms.topic: reference
@@ -72,7 +72,7 @@ A 128-byte array that contains the raw block content.
 
 ## Return value
 
-Returns zero (0) to indicate success. Any other number indicates an error. For more information about error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum).
+Returns zero (0) to indicate success. Any other number indicates an error. For more information about error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum).
 
 ## Examples
 
@@ -117,7 +117,7 @@ static void Main(string[] args)
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
@@ -138,9 +138,4 @@ static void Main(string[] args)
 </dt> </dl>
 
  
-
- 
-
-
-
 

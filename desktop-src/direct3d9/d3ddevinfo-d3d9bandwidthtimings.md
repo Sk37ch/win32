@@ -1,5 +1,5 @@
 ---
-Description: Throughput metrics for help in understanding the performance of an application.
+description: Throughput metrics for help in understanding the performance of an application.
 ms.assetid: c0bcf060-a0ed-4c85-9554-398ffe4b4235
 title: D3DDEVINFO_D3D9BANDWIDTHTIMINGS structure (D3D9Types.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ typedef struct D3DDEVINFO_D3D9BANDWIDTHTIMINGS {
 **MaxBandwidthUtilized**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -52,7 +52,7 @@ The bandwidth or maximum data transfer rate from the host CPU to the GPU. This i
 **FrontEndUploadMemoryUtilizedPercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -63,7 +63,7 @@ Memory utilized percentage when uploading data from the host CPU to the GPU.
 **VertexRateUtilizedPercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -74,7 +74,7 @@ Vertex throughput percentage. This is the number of vertices processed compared 
 **TriangleSetupRateUtilizedPercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -85,7 +85,7 @@ Triangle set-up throughput percentage. This is the number of triangles that are 
 **FillRateUtilizedPercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -97,7 +97,7 @@ Pixel fill throughput percentage. This is the number of pixels that are filled c
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 
@@ -110,13 +110,9 @@ Pixel fill throughput percentage. This is the number of pixels that are filled c
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetData**](https://msdn.microsoft.com/library/Bb205873(v=VS.85).aspx)
+[**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata)
 </dt> </dl>
 
  
 
  
-
-
-
-

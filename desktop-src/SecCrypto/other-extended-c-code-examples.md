@@ -1,5 +1,5 @@
 ---
-Description: Lists topics that present procedures and extended C code examples that use CryptoAPI functions.
+description: Lists topics that present procedures and extended C code examples that use CryptoAPI functions.
 ms.assetid: d4a408de-4201-4cd4-a270-ba96889232b6
 title: Other Extended C Code Examples
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Other Extended C Code Examples
 
-The following topics present other procedures and extended C code examples that use the [*CryptoAPI*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) functions:
+The following topics present other procedures and extended C code examples that use the [*CryptoAPI*](../secgloss/c-gly.md) functions:
 
 -   [Verifying a CTL](verifying-a-ctl.md)
 -   [Verifying Signed Messages by Using CTLs](verifying-signed-messages-by-using-ctls.md)
@@ -24,6 +24,3 @@ The following topics present other procedures and extended C code examples that 
  
 
  
-
-
-

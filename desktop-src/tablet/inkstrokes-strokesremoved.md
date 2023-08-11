@@ -1,5 +1,5 @@
 ---
-Description: Occurs when one or more strokes are deleted from the InkStrokes collection.
+description: Occurs when one or more strokes are deleted from the InkStrokes collection.
 ms.assetid: 58d78143-c733-45dc-ae5f-fe13136010db
 title: InkStrokes.StrokesRemoved event (Msinkaut.h)
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # InkStrokes.StrokesRemoved event
 
-Occurs when one or more strokes are deleted from the [InkStrokes](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection.
+Occurs when one or more strokes are deleted from the [InkStrokes](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) collection.
 
 ## Syntax
 
@@ -40,13 +40,13 @@ This event does not return a value.
 
 ## Remarks
 
-This event method is defined in the \_IInkEvents interface. The \_IInkEvents interface implements the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_SEStrokesRemoved.
+This event method is defined in the \_IInkEvents interface. The \_IInkEvents interface implements the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface with an identifier of DISPID\_SEStrokesRemoved.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
@@ -59,7 +59,7 @@ This event method is defined in the \_IInkEvents interface. The \_IInkEvents int
 
 <dl> <dt>
 
-[InkStrokes Collection](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx)
+[InkStrokes Collection](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85))
 </dt> <dt>
 
 [**Remove Method \[InkStrokes Collection\]**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-remove)
@@ -69,9 +69,4 @@ This event method is defined in the \_IInkEvents interface. The \_IInkEvents int
 </dt> </dl>
 
  
-
- 
-
-
-
 

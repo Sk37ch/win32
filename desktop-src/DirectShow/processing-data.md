@@ -1,12 +1,15 @@
 ---
-Description: Processing Data
+description: Processing Data
 ms.assetid: 823615df-ce50-4e20-957a-f83d3be66658
 title: Processing Data
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Processing Data
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 **Parsing Media Data**
 
@@ -18,7 +21,7 @@ If your filter parses media data, do not trust headers or other self-describing 
 Another common class of errors involves not validating format descriptions that are found in the content. For example:
 
 -   A [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) structure can be followed by a color table. The **BITMAPINFO** structure is defined as a **BITMAPINFOHEADER** structure followed by an array of **RGBQUAD** values that make up the color table. The size of the array is determined by the value of **biClrUsed**. Never copy a color table into a **BITMAPINFO** without first checking the size of the buffer that was allocated for the **BITMAPINFO** structure.
--   A [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx) structure might have extra format information appended to the structure. The **cbSize** member specifies the size of the extra information.
+-   A [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85)) structure might have extra format information appended to the structure. The **cbSize** member specifies the size of the extra information.
 
 During pin connection, a filter should verify that all format structures are well-formed and contain reasonable values. If not, reject the connection. In the code that validates the format structure, be especially careful about arithmetic overflow. For example, in a **BITMAPINFOHEADER**, the width and height are 32-bit **long** values but the image size (which is a function of the product of the two) is only a **DWORD** value.
 
@@ -39,6 +42,3 @@ Several mechanisms exist for filters to change formats mid-stream. Each of them 
  
 
  
-
-
-

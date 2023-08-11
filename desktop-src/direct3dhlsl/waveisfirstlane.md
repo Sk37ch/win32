@@ -22,7 +22,7 @@ Returns true only for the active lane in the current wave with the smallest inde
 ## Syntax
 
 
-```C++
+``` syntax
 bool WaveIsFirstLane(void);
 ```
 
@@ -40,13 +40,7 @@ True only for the active lane in the current wave with the smallest index.
 
 This function can be used to identify operations that are to be executed only once per wave.
 
-This function is supported from shader model 6.0, in the following types of shaders:
-
-
-
-| Vertex | Hull | Domain | Geometry | Pixel | Compute |
-|--------|------|--------|----------|-------|---------|
-|        |      |        |          | x     | x       |
+This function is supported from shader model 6.0 in all shader stages. 
 
 
 

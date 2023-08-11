@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SNPROG.cunitTotal property"
 title: JET_SNPROG.cunitTotal property 
 TOCTitle: 'cunitTotal property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SNPROG.cunitTotal
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the number of work units that need to be completed. This value will always be bigger than or equal to cunitDone.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -55,15 +56,14 @@ public int cunitTotal { get; internal set; }
 
 #### Property value
 
-Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+Type: [System.Int32](/dotnet/api/system.int32)  
 
 ## See also
 
 #### Reference
 
-[JET_SNPROG class](dn351044\(v=exchg.10\).md)
+[JET_SNPROG class](./jet-snprog-class.md)
 
-[JET_SNPROG members](dn351084\(v=exchg.10\).md)
+[JET_SNPROG members](./jet-snprog-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

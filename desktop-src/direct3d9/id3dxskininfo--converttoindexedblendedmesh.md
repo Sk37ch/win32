@@ -1,5 +1,5 @@
 ---
-Description: Takes a mesh and returns a new mesh with per-vertex blend weights, indices, and a bone combination table. The table describes which bone palettes affect which subsets of the mesh.
+description: Takes a mesh and returns a new mesh with per-vertex blend weights, indices, and a bone combination table. The table describes which bone palettes affect which subsets of the mesh.
 ms.assetid: e4758a3b-8a45-4ed3-aa62-9713d12afc56
 title: ID3DXSkinInfo::ConvertToIndexedBlendedMesh method (D3DX9Mesh.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ The input mesh. See [**ID3DXMesh**](id3dxmesh.md).
 *Options* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Currently unused.
 
@@ -66,7 +66,7 @@ Currently unused.
 *paletteSize* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Number of bone matrices available for matrix palette skinning.
 
@@ -75,7 +75,7 @@ Number of bone matrices available for matrix palette skinning.
 *pAdjacencyIn* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 Input mesh adjacency information.
 
@@ -84,7 +84,7 @@ Input mesh adjacency information.
 *pAdjacencyOut* \[in\]
 </dt> <dd>
 
-Type: **[**LPDWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPDWORD**](../winprog/windows-data-types.md)**
 
 Output mesh adjacency information.
 
@@ -93,7 +93,7 @@ Output mesh adjacency information.
 *pFaceRemap* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 An array of DWORDs, one per face, that identifies the original mesh face that corresponds to each face in the blended mesh. If the value supplied for this argument is **NULL**, face remap data is not returned.
 
@@ -111,7 +111,7 @@ Address of a pointer to an [**ID3DXBuffer**](id3dxbuffer.md) interface, which co
 *pMaxVertexInfl* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to a DWORD that will contain the maximum number of bone influences required per vertex for this skinning method.
 
@@ -120,7 +120,7 @@ Pointer to a DWORD that will contain the maximum number of bone influences requi
 *pNumBoneCombinations* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to the number of bones in the bone combination table.
 
@@ -160,7 +160,7 @@ This method does not run on hardware that does not support fixed-function vertex
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -177,7 +177,3 @@ This method does not run on hardware that does not support fixed-function vertex
  
 
  
-
-
-
-

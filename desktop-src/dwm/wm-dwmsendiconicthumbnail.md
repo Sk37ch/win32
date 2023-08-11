@@ -34,7 +34,7 @@ Not used.
 *lParam* 
 </dt> <dd>
 
-The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) of this value is the maximum x-coordinate of the thumbnail. The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is the maximum y-coordinate. If a thumbnail has a dimension that exceeds one or both of these values, the DWM does not accept the thumbnail.
+The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) of this value is the maximum x-coordinate of the thumbnail. The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is the maximum y-coordinate. If a thumbnail has a dimension that exceeds one or both of these values, the DWM does not accept the thumbnail.
 
 </dd> </dl>
 
@@ -83,7 +83,7 @@ For the complete example, see the [Customize an Iconic Thumbnail and a Live Prev
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                             |
@@ -102,10 +102,4 @@ For the complete example, see the [Customize an Iconic Thumbnail and a Live Prev
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Stores tablet context information.
+description: Stores tablet context information.
 ms.assetid: a9eadc83-c3dc-42ba-bd4c-24a4a95563ff
 title: ITabletContext interface
 ms.topic: reference
@@ -22,7 +22,7 @@ Stores tablet context information.
 
 ## Members
 
-The **ITabletContext** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
+The **ITabletContext** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Remarks
 
@@ -152,7 +152,7 @@ interface ITabletContext : IUnknown
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
@@ -161,9 +161,4 @@ interface ITabletContext : IUnknown
 
 
  
-
- 
-
-
-
 

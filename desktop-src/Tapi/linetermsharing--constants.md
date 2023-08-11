@@ -1,5 +1,5 @@
 ---
-Description: The LINETERMSHARING\_ bit-flag constants describe different ways in which a terminal can be shared between line devices, addresses, or calls.
+description: The LINETERMSHARING\_ bit-flag constants describe different ways in which a terminal can be shared between line devices, addresses, or calls.
 ms.assetid: 50a52a50-4d94-4068-9ea4-bea862400036
 title: LINETERMSHARING_ Constants (Tapi.h)
 ms.topic: reference
@@ -37,7 +37,7 @@ The terminal device can be used by multiple lines. The [**lineSetTerminal**](/wi
 
 
 
-The terminal device can be used by multiple lines. The last line device to do a [**lineSetTerminal**](/windows/desktop/api/Tapi/nf-tapi-linesetterminal) or [**TSPI\_lineSetTerminal**](https://msdn.microsoft.com/library/ms725607(v=VS.85).aspx) to the terminal for a given terminal mode will have exclusive connection to the terminal for that mode.
+The terminal device can be used by multiple lines. The last line device to do a [**lineSetTerminal**](/windows/desktop/api/Tapi/nf-tapi-linesetterminal) or [**TSPI\_lineSetTerminal**](/windows/win32/api/tspi/nf-tspi-tspi_linesetterminal) to the terminal for a given terminal mode will have exclusive connection to the terminal for that mode.
 
 
 </dt> </dl> </dd> </dl>
@@ -52,7 +52,7 @@ These constants describe the classes of control and information streams that can
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |
@@ -60,9 +60,4 @@ These constants describe the classes of control and information streams that can
 
 
  
-
- 
-
-
-
 

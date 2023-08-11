@@ -1,6 +1,6 @@
 ---
 title: IVMHostInfo SSE2 property (VPCCOMInterfaces.h)
-description: Determines whether the processor supports the SSE2 instruction set.
+description: Determines whether the processor supports the SSE2 instruction set. | IVMHostInfo SSE2 property (VPCCOMInterfaces.h)
 ms.assetid: 1db5583c-fb8e-400e-87d3-3c4309696307
 keywords:
 - SSE2 property Virtual PC
@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IVMHostInfo::SSE2 property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Determines whether the processor supports the SSE2 instruction set.
 
@@ -58,7 +58,7 @@ HRESULT get_SSE2(
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
@@ -77,10 +77,4 @@ HRESULT get_SSE2(
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

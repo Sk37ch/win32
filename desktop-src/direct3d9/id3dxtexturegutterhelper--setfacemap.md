@@ -1,5 +1,5 @@
 ---
-Description: Sets the index of the mesh face to which each texel belongs.
+description: Sets the index of the mesh face to which each texel belongs.
 ms.assetid: 45d931bc-fb8b-48da-b30d-99d5dc183494
 title: ID3DXTextureGutterHelper::SetFaceMap method (D3DX9Mesh.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT SetFaceMap(
 *pFaceData* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Pointer to the index of the mesh face to which each texel belongs.
 
@@ -58,7 +58,7 @@ The mesh face data input to this method is valid only for valid (non-class 0) te
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -75,7 +75,3 @@ The mesh face data input to this method is valid only for valid (non-class 0) te
  
 
  
-
-
-
-

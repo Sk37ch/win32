@@ -1,5 +1,5 @@
 ---
-Description: Posted to the installing thread's message queue when a timer expires. The message is posted by the GetMessage or PeekMessage function.
+description: Posted to the installing thread's message queue when a timer expires. The message is posted by the GetMessage or PeekMessage function.
 ms.assetid: 419e3f05-35ec-4e48-b24d-ab98df687b20
 title: WM_TIMER message (Winuser.h)
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WM\_TIMER message
 
-Posted to the installing thread's message queue when a timer expires. The message is posted by the [**GetMessage**](https://msdn.microsoft.com/library/ms644936(v=VS.85).aspx) or [**PeekMessage**](https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx) function.
+Posted to the installing thread's message queue when a timer expires. The message is posted by the [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) or [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagea) function.
 
 
 ```C++
@@ -31,7 +31,7 @@ The timer identifier.
 *lParam* \[in\]
 </dt> <dd>
 
-A pointer to an application-defined callback function that was passed to the [**SetTimer**](https://msdn.microsoft.com/library/ms644906(v=VS.85).aspx) function when the timer was installed.
+A pointer to an application-defined callback function that was passed to the [**SetTimer**](/windows/win32/api/winuser/nf-winuser-settimer) function when the timer was installed.
 
 </dd> </dl>
 
@@ -43,15 +43,15 @@ An application should return zero if it processes this message.
 
 ## Remarks
 
-You can process the message by providing a **WM\_TIMER** case in the window procedure. Otherwise, [**DispatchMessage**](https://msdn.microsoft.com/library/ms644934(v=VS.85).aspx) will call the [*TimerProc*](https://msdn.microsoft.com/library/ms644907(v=VS.85).aspx) callback function specified in the call to the [**SetTimer**](https://msdn.microsoft.com/library/ms644906(v=VS.85).aspx) function used to install the timer.
+You can process the message by providing a **WM\_TIMER** case in the window procedure. Otherwise, [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) will call the [*TimerProc*](/windows/win32/api/winuser/nc-winuser-timerproc) callback function specified in the call to the [**SetTimer**](/windows/win32/api/winuser/nf-winuser-settimer) function used to install the timer.
 
-The **WM\_TIMER** message is a low-priority message. The [**GetMessage**](https://msdn.microsoft.com/library/ms644936(v=VS.85).aspx) and [**PeekMessage**](https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx) functions post this message only when no other higher-priority messages are in the thread's message queue.
+The **WM\_TIMER** message is a low-priority message. The [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) and [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagea) functions post this message only when no other higher-priority messages are in the thread's message queue.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -66,16 +66,16 @@ The **WM\_TIMER** message is a low-priority message. The [**GetMessage**](https:
 **Reference**
 </dt> <dt>
 
-[**GetMessage**](https://msdn.microsoft.com/library/ms644936(v=VS.85).aspx)
+[**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage)
 </dt> <dt>
 
-[**PeekMessage**](https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx)
+[**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagea)
 </dt> <dt>
 
-[**SetTimer**](https://msdn.microsoft.com/library/ms644906(v=VS.85).aspx)
+[**SetTimer**](/windows/win32/api/winuser/nf-winuser-settimer)
 </dt> <dt>
 
-[**TimerProc**](https://msdn.microsoft.com/library/ms644907(v=VS.85).aspx)
+[**TimerProc**](/windows/win32/api/winuser/nc-winuser-timerproc)
 </dt> <dt>
 
 **Conceptual**
@@ -87,7 +87,3 @@ The **WM\_TIMER** message is a low-priority message. The [**GetMessage**](https:
  
 
  
-
-
-
-

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COMMIT_ID.Equals method (JET_COMMIT_ID)"
 title: JET_COMMIT_ID.Equals method (JET_COMMIT_ID) (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: Equals method (JET_COMMIT_ID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID.Equals(Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Returns a value indicating whether this instance is equal to another instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -53,28 +54,27 @@ public bool Equals(
 #### Parameters
 
   - other  
-    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](dn335448\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](./jet-commit-id-class.md)  
     
     An object to compare with this instance.
 
 #### Return value
 
-Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
+Type: [System.Boolean](/dotnet/api/system.boolean)  
 true if the two instances are equal.  
 
 #### Implements
 
-[IEquatable\<T\>.Equals(T)](https://docs.microsoft.com/dotnet/api/system.iequatable-1.equals?redirectedfrom=MSDN#System_IEquatable_1_Equals__0_)  
+[IEquatable\<T\>.Equals(T)](/dotnet/api/system.iequatable-1.equals#System_IEquatable_1_Equals__0_)  
 
 ## See also
 
 #### Reference
 
-[JET_COMMIT_ID class](dn335448\(v=exchg.10\).md)
+[JET_COMMIT_ID class](./jet-commit-id-class.md)
 
-[JET_COMMIT_ID members](dn335451\(v=exchg.10\).md)
+[JET_COMMIT_ID members](./jet-commit-id-members.md)
 
-[Equals overload](dn335455\(v=exchg.10\).md)
+[Equals overload](./jet-commit-id.equals-method.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

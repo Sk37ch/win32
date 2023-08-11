@@ -1,5 +1,5 @@
 ---
-Description: A web page customizes the user interface (UI) with the title, icon, and header color by using metadata tags defined on the web page.
+description: A web page customizes the user interface (UI) with the title, icon, and header color by using metadata tags defined on the web page.
 ms.assetid: 6F1E0B2E-E013-4C5B-86A4-0AF8606D0C12
 title: How to customize the UI elements
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to customize the UI elements
 
-A web page customizes the user interface (UI) with the title, icon, and header color by using metadata tags defined on the web page. Web developers can use HTML <meta> tags to display the provider's personality and brand in the Web Authentication Broker UI. In addition, developers can direct more intricate user actions, for example signing up and recovering passwords. The concept is very similar to Pinned Sites feature of the Windows Internet Explorer 9 and Windows 7.
+A web page customizes the user interface (UI) with the title, icon, and header color by using metadata tags defined on the web page. Web developers can use HTML &lt;meta&gt; tags to display the provider's personality and brand in the Web Authentication Broker UI. In addition, developers can direct more intricate user actions, for example signing up and recovering passwords. The concept is very similar to Pinned Sites feature of the Windows Internet Explorer 9 and Windows 7.
 
 In addition to customizing the user interface around the web page area, the web page should also take advantage of the Windows 8 controls’ styles, be enabled for touch, and enable links to be opened in the browser where appropriate.
 
@@ -24,7 +24,7 @@ The web page can provide an icon by using an mswebdialog-logo meta tag.
 <meta name="mswebdialog-logo" content="https://www.contoso.com/logo.png"/>
 ```
 
-The content is a URL that can be a page relative or absolute. The scheme of the URL can be HTTP or HTTPS. The format of the file should be either PNG or JPG. The size of the image should be 30x30 pixels. If the image is of the different size, it will be scaled down or up by the operating system to fit the 30x30 space. The image should be designed to render well when scaled up to 140% and 180% to account for higher resolution screens. To test different scaling factors, use the [Web Authentication Broker SDK sample app](https://code.msdn.microsoft.com/windowsapps/Web-Authentication-d0485122#content) loaded in Visual Studio 11 which allows simulating different resolutions and scaling factors using the Device windows of the Design mode.
+The content is a URL that can be a page relative or absolute. The scheme of the URL can be HTTP or HTTPS. The format of the file should be either PNG or JPG. The size of the image should be 30x30 pixels. If the image is of the different size, it will be scaled down or up by the operating system to fit the 30x30 space. The image should be designed to render well when scaled up to 140% and 180% to account for higher resolution screens. To test different scaling factors, use the [Web Authentication Broker SDK sample app](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker) loaded in Visual Studio 11 which allows simulating different resolutions and scaling factors using the Device windows of the Design mode.
 
 ### Step 2: Customize the title text
 
@@ -83,7 +83,7 @@ In addition to customizing the UI around the web page, developers should also cr
 
     The `mswebdialog-newwindowurl` allows the web page to specify a URL or part of the URL that the Web Authentication Broker will use to match (left-hand string match) against every time it is asked to open a URL in a new window either by using the target attribute or window.open() method. If there is a match, the URL will be opened in the user’s default browser. If there is no match, the Web Authentication Broker will navigate to the URL itself (default behavior). For example:`<meta name="mswebdialog-newwindowurl" content="https://www.contoso.com/privacy"/>`
 
-    In the case of this meta tag, the Web Authentication Broker will open the https://www.contoso.com/privacy/policy.html in the browser, but will directly navigate to https://www.contoso.com/termsofuse.html. Note that links that don’t attempt to open in a new window (for example, links that are not using target attribute or window.open() method) are not affected by this meta tag. The content is a URL that can be a page relative or absolute. The scheme of the URL can be HTTP or HTTPS. You should define `mswebdialog-newwindowurl` meta tags to cover any links that are not part of the core user flow such as privacy statements, sign up forms, and such. If you support login with a third-party authentication provider (for example, OpenID providers), make sure to keep those interactions within the Web Authentication Broker. To enable all links on your page as safe to be opened in the browser, use the star syntax, such as, `  <meta name="mswebdialog-newwindowurl" content="*"/>` Note that the “\*” can only be used exclusively and can’t be combined with another URL, for example, "https://www.contoso.com/\*" is not a valid syntax.
+    In the case of this meta tag, the Web Authentication Broker will open the `https://www.contoso.com/privacy/policy.html` in the browser, but will directly navigate to `https://www.contoso.com/termsofuse.html`. Note that links that don’t attempt to open in a new window (for example, links that are not using target attribute or window.open() method) are not affected by this meta tag. The content is a URL that can be a page relative or absolute. The scheme of the URL can be HTTP or HTTPS. You should define `mswebdialog-newwindowurl` meta tags to cover any links that are not part of the core user flow such as privacy statements, sign up forms, and such. If you support login with a third-party authentication provider (for example, OpenID providers), make sure to keep those interactions within the Web Authentication Broker. To enable all links on your page as safe to be opened in the browser, use the star syntax, such as, `  <meta name="mswebdialog-newwindowurl" content="*"/>` Note that the “\*” can only be used exclusively and can’t be combined with another URL, for example, "https://www.contoso.com/\*" is not a valid syntax.
 
 ### Step 5: Rules applied to all meta tags
 
@@ -103,15 +103,12 @@ When Web Authentication Broker processes meta tags, the following rules apply:
 [Considerations for the web page development](considerations-for-the-web-page-development.md)
 </dt> <dt>
 
-[Web Authentication Broker SDK sample app](https://code.msdn.microsoft.com/windowsapps/Web-Authentication-d0485122#content)
+[Web Authentication Broker SDK sample app](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)
 </dt> <dt>
 
-[**Windows.Security.Authentication.Web**](https://docs.microsoft.com/uwp/api/Windows.Security.Authentication.Web)
+[**Windows.Security.Authentication.Web**](/uwp/api/Windows.Security.Authentication.Web)
 </dt> </dl>
 
  
 
  
-
-
-

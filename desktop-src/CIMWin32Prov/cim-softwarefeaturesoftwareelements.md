@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SoftwareFeatureSoftwareElements association identifies the software elements that make up a specific software feature.
+description: The CIM\_SoftwareFeatureSoftwareElements association identifies the software elements that make up a specific software feature.
 ms.assetid: 933586c5-b85e-4136-b557-5151a48abc32
 ms.tgt_platform: multiple
 title: CIM_SoftwareFeatureSoftwareElements class
@@ -61,7 +61,7 @@ Data type: **CIM\_SoftwareFeature**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 The group component.
@@ -97,7 +97,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -115,9 +115,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

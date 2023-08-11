@@ -68,7 +68,7 @@ The distance to scroll vertically. If the RMF\_HORIZONTALONLY flag is set in the
 
 ## Return value
 
-Type: **[**BOOL**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**BOOL**](/windows/desktop/WinProg/windows-data-types)**
 
 This function should always return **TRUE**.
 
@@ -101,7 +101,7 @@ ReaderScrollCallback(PREADERMODEINFO prmi, int dx, int dy)
 
 
 
-|                                     |                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows Vista \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>          |
@@ -109,10 +109,4 @@ ReaderScrollCallback(PREADERMODEINFO prmi, int dx, int dy)
 
 
  
-
- 
-
-
-
-
 

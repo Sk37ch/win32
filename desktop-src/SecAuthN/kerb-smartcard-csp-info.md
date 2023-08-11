@@ -1,5 +1,5 @@
 ---
-Description: Contains information about a smart card cryptographic service provider (CSP).
+description: Contains information about a smart card cryptographic service provider (CSP).
 ms.assetid: b3e6722a-25dd-4137-b224-4082e846ddec
 title: KERB_SMARTCARD_CSP_INFO structure
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 
 # KERB\_SMARTCARD\_CSP\_INFO structure
 
-The **KERB\_SMARTCARD\_CSP\_INFO** structure contains information about a smart card [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP).
+The **KERB\_SMARTCARD\_CSP\_INFO** structure contains information about a smart card [*cryptographic service provider*](../secgloss/c-gly.md) (CSP).
 
 This structure is not declared in a public header.
 
@@ -155,7 +155,7 @@ When this structure is serialized, the structure members must be aligned to boun
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
@@ -172,7 +172,3 @@ When this structure is serialized, the structure members must be aligned to boun
  
 
  
-
-
-
-

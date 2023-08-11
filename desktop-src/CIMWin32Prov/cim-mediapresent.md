@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_MediaPresent association describes a relationship where a storage extent must be accessed through a media access device.
+description: The CIM\_MediaPresent association describes a relationship where a storage extent must be accessed through a media access device.
 ms.assetid: 84c4931c-1dc6-4fc1-b3b9-8252ecb627f5
 ms.tgt_platform: multiple
 title: CIM_MediaPresent class (CIMWin32 WMI Providers)
@@ -18,7 +18,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_MediaPresent class
+# CIM_MediaPresent class (CIMWin32 WMI Providers)
 
 The **CIM\_MediaPresent** association describes a relationship where a storage extent must be accessed through a media access device.
 
@@ -61,7 +61,7 @@ Data type: **CIM\_MediaAccessDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_MediaAccessDevice**](cim-mediaaccessdevice.md) that describes the media access device.
@@ -77,7 +77,7 @@ Data type: **CIM\_StorageExtent**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_StorageExtent**](cim-storageextent.md) that describes the storage extent accessed using the media access device.
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -114,9 +114,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

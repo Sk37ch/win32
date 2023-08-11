@@ -1,6 +1,6 @@
 ---
 title: IVMVirtualMachine Has3DNow property (VPCCOMInterfaces.h)
-description: Determines whether the processor supports the 3DNow instruction set.
+description: Determines whether the processor supports the 3DNow instruction set. | IVMVirtualMachine Has3DNow property (VPCCOMInterfaces.h)
 ms.assetid: 525ee7f0-081c-4f87-b2b7-ffec09f632c4
 keywords:
 - Has3DNow property Virtual PC
@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualMachine::Has3DNow property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Determines whether the processor supports the 3DNow instruction set.
 
@@ -59,7 +59,7 @@ HRESULT get_Has3DNow(
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
@@ -78,10 +78,4 @@ HRESULT get_Has3DNow(
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

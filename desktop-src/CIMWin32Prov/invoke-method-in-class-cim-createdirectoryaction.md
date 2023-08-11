@@ -1,5 +1,5 @@
 ---
-Description: The Invoke method of the CIM\_CreateDirectoryAction class takes a particular action. Details about how the method performs the action are implementation-specific. This method is inherited from CIM\_Action.
+description: The Invoke method of the CIM\_CreateDirectoryAction class takes a particular action. Details about how the method performs the action are implementation-specific. This method is inherited from CIM\_Action.
 ms.assetid: f14e215d-31f2-46c5-b45e-3de64ce46bf2
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_CreateDirectoryAction class
@@ -25,7 +25,7 @@ The **Invoke** method of the [**CIM\_CreateDirectoryAction**](cim-createdirector
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -54,7 +54,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -75,9 +75,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

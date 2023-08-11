@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a logical device and a protocol controller that is connected to the device.
+description: Represents an association between a logical device and a protocol controller that is connected to the device.
 ms.assetid: 1a1efc60-6108-4376-9f73-d2dd41443645
 title: CIM_ProtocolControllerForDevice class
 ms.topic: reference
@@ -122,7 +122,7 @@ Data type: **CIM\_ProtocolController**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 The protocol controller in the association.
@@ -138,7 +138,7 @@ Data type: **CIM\_LogicalDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The logical device in the association.
@@ -162,7 +162,7 @@ The address of the associated device in the context of the protocol controler.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -180,9 +180,4 @@ The address of the associated device in the context of the protocol controler.
 </dt> </dl>
 
  
-
- 
-
-
-
 

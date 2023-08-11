@@ -1,5 +1,5 @@
 ---
-Description: The following table contains return codes from API functions.
+description: The following table contains return codes from API functions.
 ms.assetid: 7b67d428-d000-4c3e-adc1-b5fc67a15a6a
 title: Direct3D 10 Return Codes
 ms.topic: article
@@ -29,7 +29,7 @@ The following table contains return codes from API functions.
 
  
 
-To write code that handles [HRESULT values](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx) robustly, use the SUCCEEDED(hr) and FAILED(hr) macros.
+To write code that handles [HRESULT values](../winprog/windows-data-types.md) robustly, use the SUCCEEDED(hr) and FAILED(hr) macros.
 
 ## Related topics
 
@@ -44,6 +44,3 @@ To write code that handles [HRESULT values](https://msdn.microsoft.com/library/A
  
 
  
-
-
-

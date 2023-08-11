@@ -1,5 +1,5 @@
 ---
-Description: Establish a relationship between an instance of the Msvm\_EmulatedEthernetPortSettingData or Msvm\_SyntheticEthernetPortSettingData class with an instance of the Msvm\_GuestNetworkAdapterConfiguration class.
+description: Establish a relationship between an instance of the Msvm\_EmulatedEthernetPortSettingData or Msvm\_SyntheticEthernetPortSettingData class with an instance of the Msvm\_GuestNetworkAdapterConfiguration class.
 ms.assetid: 82262e67-1e72-4bad-974e-f18d00a94c3d
 title: Msvm_SettingDataComponent class
 ms.topic: reference
@@ -49,13 +49,13 @@ The **Msvm\_SettingDataComponent** class has these properties.
 **GroupComponent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ResourceAllocationSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata)**
+Data type: **[**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 A reference to an instance of the [**Msvm\_EmulatedEthernetPortSettingData**](msvm-emulatedethernetportsettingdata.md) or [**Msvm\_SyntheticEthernetPortSettingData**](msvm-syntheticethernetportsettingdata.md) class that represents an Ethernet port.
@@ -71,7 +71,7 @@ Data type: **[**Msvm\_GuestNetworkAdapterConfiguration**](msvm-guestnetworkadapt
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
 </dt> </dl>
 
 A reference to an instance of the [**Msvm\_GuestNetworkAdapterConfiguration**](msvm-guestnetworkadapterconfiguration.md) class that represents a guest network adapter configuration.
@@ -82,7 +82,7 @@ A reference to an instance of the [**Msvm\_GuestNetworkAdapterConfiguration**](m
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -93,9 +93,4 @@ A reference to an instance of the [**Msvm\_GuestNetworkAdapterConfiguration**](m
 
 
  
-
- 
-
-
-
 

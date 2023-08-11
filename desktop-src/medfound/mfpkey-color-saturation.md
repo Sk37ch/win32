@@ -1,5 +1,5 @@
 ---
-Description: Adjusts the saturation.
+description: Adjusts the saturation.
 ms.assetid: bd71f542-36d9-4dfc-b402-35ee8e574731
 title: MFPKEY_COLOR_SATURATION Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Adjusts the saturation.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -36,7 +36,7 @@ This property has a range of -127 to 127. Zero indicates no change in saturation
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -54,7 +54,3 @@ This property has a range of -127 to 127. Zero indicates no change in saturation
  
 
  
-
-
-
-

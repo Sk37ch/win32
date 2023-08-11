@@ -1,5 +1,5 @@
 ---
-Description: The GetPrinterData function retrieves configuration data for the specified printer or print server.
+description: The GetPrinterData function retrieves configuration data for the specified printer or print server.
 ms.assetid: b5a44b27-a4aa-4e58-9a64-05be87d12ab5
 title: GetPrinterData function (Winspool.h)
 ms.topic: reference
@@ -23,7 +23,7 @@ api_location:
 
 The **GetPrinterData** function retrieves configuration data for the specified printer or print server.
 
-In Windows 2000 and later versions of Windows, calling **GetPrinterData** is equivalent to calling [**GetPrinterDataEx**](https://docs.microsoft.com/windows/desktop/printdocs/getprinterdataex) with the *pKeyName* parameter set to "PrinterDriverData".
+In Windows 2000 and later versions of Windows, calling **GetPrinterData** is equivalent to calling [**GetPrinterDataEx**](/windows/desktop/printdocs/getprinterdataex) with the *pKeyName* parameter set to "PrinterDriverData".
 
 ## Syntax
 
@@ -104,7 +104,7 @@ If the function succeeds, the return value is **ERROR\_SUCCESS**. If the functio
 
 **GetPrinterData** retrieves printer configuration data that was set by the [**SetPrinterDataEx**](setprinterdataex.md) or [**SetPrinterData**](setprinterdata.md) function.
 
-**GetPrinterData** might trigger a Windows call to [**GetPrinterDataFromPort**](https://docs.microsoft.com/previous-versions//ff550506(v=vs.85)), which might write to the registry. If it does, side effects can occur, such as triggering an update or upgrade printer event ID 20 in the client, if the printer is shared in a network.
+**GetPrinterData** might trigger a Windows call to [**GetPrinterDataFromPort**](/previous-versions//ff550506(v=vs.85)), which might write to the registry. If it does, side effects can occur, such as triggering an update or upgrade printer event ID 20 in the client, if the printer is shared in a network.
 
 If *hPrinter* is a handle to a print server, *pValueName* can specify one of the following predefined values.
 
@@ -161,7 +161,7 @@ The time specified in **SPLREG\_RESTART\_JOB\_ON\_POOL\_ERROR** is a minimum tim
 
 **HKLM\\SYSTEM\\CurrentControlSet\\Control\\Print\\Monitors\\<*MonitorName*>\\Ports**
 
-Call the [**RegQueryValueEx**](https://msdn.microsoft.com/library/ms724911(v=VS.85).aspx) function to query these values.
+Call the [**RegQueryValueEx**](/windows/win32/api/winreg/nf-winreg-regqueryvalueexa) function to query these values.
 
 
 
@@ -191,7 +191,7 @@ In Windows 7 and later versions of Windows, print jobs that are sent to a print 
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -231,9 +231,4 @@ In Windows 7 and later versions of Windows, print jobs that are sent to a print 
 </dt> </dl>
 
  
-
- 
-
-
-
 

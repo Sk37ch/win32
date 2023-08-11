@@ -1,5 +1,5 @@
 ---
-Description: Represents configuration data for a VLAN endpoint.
+description: Represents configuration data for a VLAN endpoint.
 ms.assetid: 5ef3cc55-cf27-40b4-9e94-2e2b42ca41c5
 title: CIM_VLANEndpointSettingData class
 ms.topic: reference
@@ -59,7 +59,7 @@ Data type: **uint16**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_VLANEndpoint**](cim-vlanendpoint.md).**OperationalEndpointMode**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_VLANEndpoint**](cim-vlanendpoint.md).**OperationalEndpointMode**")
 </dt> </dl>
 
 The access VLAN for the endpoint.
@@ -75,7 +75,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_VLANEndpoint**](cim-vlanendpoint.md).**OperationalEndpointMode**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_VLANEndpoint**](cim-vlanendpoint.md).**OperationalEndpointMode**")
 </dt> </dl>
 
 The default value for the native VLAN on the trunk endpoint.
@@ -96,7 +96,7 @@ Data type: **uint16**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_VLANEndpoint**](cim-vlanendpoint.md).**OperationalEndpointMode**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_VLANEndpoint**](cim-vlanendpoint.md).**OperationalEndpointMode**")
 </dt> </dl>
 
 The VLAN ID that is used to tag untagged traffic received on the trunk endpoint.
@@ -117,7 +117,7 @@ Data type: **uint16** array
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_VLANEndpoint**](cim-vlanendpoint.md).**OperationalEndpointMode**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_VLANEndpoint**](cim-vlanendpoint.md).**OperationalEndpointMode**")
 </dt> </dl>
 
 An array that contains IDs of VLANs that the system may remove from the trunk endpoint.
@@ -138,7 +138,7 @@ Data type: **uint16** array
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_VLANEndpoint**](cim-vlanendpoint.md).**OperationalEndpointMode**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_VLANEndpoint**](cim-vlanendpoint.md).**OperationalEndpointMode**")
 </dt> </dl>
 
 An array that contains IDs of VLAN endpoints with trunking enabled.
@@ -154,7 +154,7 @@ An array that contains IDs of VLAN endpoints with trunking enabled.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
@@ -172,9 +172,4 @@ An array that contains IDs of VLAN endpoints with trunking enabled.
 </dt> </dl>
 
  
-
- 
-
-
-
 

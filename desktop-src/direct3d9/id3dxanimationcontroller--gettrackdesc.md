@@ -1,5 +1,5 @@
 ---
-Description: Gets the track description.
+description: Gets the track description.
 ms.assetid: 7663a26f-5ad3-4a17-a502-c0dcfa730db2
 title: ID3DXAnimationController::GetTrackDesc method (D3dx9anim.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT GetTrackDesc(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Track identifier.
 
@@ -64,7 +64,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -81,7 +81,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: When the job is executing or has terminated without error, then this method returns no Msvm\_Error instance.
+description: When the job is executing or has terminated without error, then this method returns no Msvm\_Error instance.
 ms.assetid: 119E7EFD-78C9-46F1-8A53-C51A7A34B32E
 title: GetErrorEx method of the Msvm_StorageJob class
 ms.topic: reference
@@ -89,13 +89,13 @@ This method returns one of the following values.
 
 ## Remarks
 
-Access to the [**Msvm\_StorageJob**](msvm-storagejob.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the [**Msvm\_StorageJob**](msvm-storagejob.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -113,9 +113,4 @@ Access to the [**Msvm\_StorageJob**](msvm-storagejob.md) class might be restrict
 </dt> </dl>
 
  
-
- 
-
-
-
 

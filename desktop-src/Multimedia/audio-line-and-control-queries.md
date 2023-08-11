@@ -11,29 +11,28 @@ keywords:
 - mixers,controls
 - mixers,audio lines
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Audio Line and Control Queries
 
+\[The feature associated with this page, [Audio Mixers](/windows/win32/multimedia/audio-mixers), is a legacy feature. It has been superseded by [Volume Controls](/windows/win32/coreaudio/volume-controls). **Volume Controls** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Volume Controls** instead of **Audio Mixers**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The mixer services provide functions for determining information about audio lines, audio-line controls, and control details. The services also provide functions for setting control details.
 
-You can use the [**mixerGetLineInfo**](https://msdn.microsoft.com/library/Dd757303(v=VS.85).aspx) function to retrieve information about a specified audio line. This function fills the [**MIXERLINE**](https://msdn.microsoft.com/library/Dd757305(v=VS.85).aspx) structure for a specified source audio line, destination audio line, or line identifier. The structure includes the destination line number, the number of channels in the audio line, as well as a short and a long name for the audio line.
+You can use the [**mixerGetLineInfo**](/windows/win32/api/mmeapi/nf-mmeapi-mixergetlineinfo) function to retrieve information about a specified audio line. This function fills the [**MIXERLINE**](/windows/win32/api/mmeapi/ns-mmeapi-mixerline) structure for a specified source audio line, destination audio line, or line identifier. The structure includes the destination line number, the number of channels in the audio line, as well as a short and a long name for the audio line.
 
-The [**mixerGetLineControls**](https://msdn.microsoft.com/library/Dd757302(v=VS.85).aspx) function retrieves general information about one or more controls associated with an audio line. This function fills the [**MIXERLINECONTROLS**](https://msdn.microsoft.com/library/Dd757306(v=VS.85).aspx) structure with information about the specified control or controls. You can use **mixerGetLineControls** to retrieve control properties for one of the following:
+The [**mixerGetLineControls**](/windows/win32/api/mmeapi/nf-mmeapi-mixergetlinecontrols) function retrieves general information about one or more controls associated with an audio line. This function fills the [**MIXERLINECONTROLS**](/windows/win32/api/mmeapi/ns-mmeapi-mixerlinecontrols) structure with information about the specified control or controls. You can use **mixerGetLineControls** to retrieve control properties for one of the following:
 
 -   All controls for a specified source line
 -   A specified control for a specified source line
 -   The first control of a specific class for a specified source line
 
-The [**mixerGetControlDetails**](https://msdn.microsoft.com/library/Dd757299(v=VS.85).aspx) function retrieves properties of a single control associated with an audio line. This function fills the [**MIXERCONTROLDETAILS**](/windows/win32/api/mmeapi/ns-mmeapi-mixercontroldetails_listtexta) structure with the current values for a control.
+The [**mixerGetControlDetails**](/windows/win32/api/mmeapi/nf-mmeapi-mixergetcontroldetails) function retrieves properties of a single control associated with an audio line. This function fills the [**MIXERCONTROLDETAILS**](/windows/win32/api/mmeapi/ns-mmeapi-mixercontroldetails_listtexta) structure with the current values for a control.
 
-The [**mixerSetControlDetails**](https://msdn.microsoft.com/library/Dd757309(v=VS.85).aspx) function uses the contents of the **MIXERCONTROLDETAILS** structure to set the properties of the specified control. You must ensure that all members of this structure are filled before you call **mixerSetControlDetails**.
-
- 
+The [**mixerSetControlDetails**](/windows/win32/api/mmeapi/nf-mmeapi-mixersetcontroldetails) function uses the contents of the **MIXERCONTROLDETAILS** structure to set the properties of the specified control. You must ensure that all members of this structure are filled before you call **mixerSetControlDetails**.
 
  
 
-
-
-
+ 

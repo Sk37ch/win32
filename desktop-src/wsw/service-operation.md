@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 Service operation is the code and the metadata associated with a specific operation of a service.
 
-## 
 
 In terms of WSDL, each wsdl:operation defined in the WSDL document for a given portType is a service operation.
 
@@ -43,7 +42,7 @@ Each service operation within service model is given as a [**WS\_OPERATION\_DESC
 
 For each wsdl:operation the tool generates a separate [**WS\_OPERATION\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_operation_description).
 
-![](images/porttypetocontract.png)
+![Diagram showing how wsutil.exe generates a WS_CONTRACT_DESCRIPTION.](images/porttypetocontract.png)
 
 ``` syntax
 static WS_OPERATION_DESCRIPTION serviceOperationsICalculator[] =
@@ -73,7 +72,7 @@ The following enumerations are used with service operations:
 
 -   [**WS\_PARAMETER\_TYPE**](/windows/desktop/api/WebServices/ne-webservices-ws_parameter_type)
 -   [**WS\_SERVICE\_CANCEL\_REASON**](/windows/desktop/api/WebServices/ne-webservices-ws_service_cancel_reason)
--   [**WS\_SERVICE\_OPERATION\_MESSAGE\_OPTION**](https://msdn.microsoft.com/library/Dd819129(v=VS.85).aspx)
+-   [**WS\_SERVICE\_OPERATION\_MESSAGE\_OPTION**](/windows/win32/api/webservices/ne-webservices-ws_charset)
 
 The following structures are used with service operations:
 

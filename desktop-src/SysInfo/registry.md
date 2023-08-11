@@ -1,5 +1,5 @@
 ---
-Description: The registry is a system-defined database in which applications and system components store and retrieve configuration data.
+description: The registry is a system-defined database in which applications and system components store and retrieve configuration data.
 ms.assetid: 'ffb06903-593e-47ce-adb2-baed5d379110'
 title: Registry
 ms.topic: article
@@ -22,12 +22,9 @@ For more information on the registry database and programmatic access to the reg
 
 <dl> <dt>
 
-[Windows Server 2003 Resource Kit Registry Reference](https://technet.microsoft.com/library/56a33a88-a7b2-4f21-ab5e-5c62d728619f)
+[Windows Server 2003 Resource Kit Registry Reference](/previous-versions/windows/it-pro/windows-server-2003/cc778196(v=ws.10))
 </dt> </dl>
 
  
 
  
-
-
-

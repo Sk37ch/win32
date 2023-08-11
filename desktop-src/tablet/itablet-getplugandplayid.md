@@ -1,5 +1,5 @@
 ---
-Description: Returns a string containing the Plug and Play ID for the tablet device.
+description: Returns a string containing the Plug and Play ID for the tablet device.
 ms.assetid: a0b6619b-f80c-470b-aa3f-f0b30a9dbda8
 title: ITablet::GetPlugAndPlayId method
 ms.topic: reference
@@ -59,13 +59,13 @@ This method can return one of these values.
 
 ## Remarks
 
-It is the caller's responsibility to free the memory returned from this method by using [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree).
+It is the caller's responsibility to free the memory returned from this method by using [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree).
 
 ## Requirements
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
@@ -81,9 +81,4 @@ It is the caller's responsibility to free the memory returned from this method b
 </dt> </dl>
 
  
-
- 
-
-
-
 

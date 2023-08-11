@@ -43,7 +43,7 @@ Invalid MIDI message that was received. The message is packed into a doubleword 
 <span id="dwTimestamp"></span><span id="dwtimestamp"></span><span id="DWTIMESTAMP"></span>*dwTimestamp*
 </dt> <dd>
 
-Time that the message was received by the input device driver. The time stamp is specified in milliseconds, beginning at zero when the [**midiInStart**](https://msdn.microsoft.com/library/Dd798462(v=VS.85).aspx) function was called.
+Time that the message was received by the input device driver. The time stamp is specified in milliseconds, beginning at zero when the [**midiInStart**](/windows/win32/api/mmeapi/nf-mmeapi-midiinstart) function was called.
 
 </dd> </dl>
 
@@ -55,7 +55,7 @@ This message does not return a value.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -74,10 +74,4 @@ This message does not return a value.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

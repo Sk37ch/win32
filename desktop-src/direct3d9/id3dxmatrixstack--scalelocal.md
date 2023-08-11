@@ -1,22 +1,25 @@
 ---
-Description: Scale the current matrix about the object origin.
+description: ID3DXMATRIXStack::ScaleLocal method (D3dx9math.h) - Scale the current matrix about the object origin.
 ms.assetid: fe71da67-c8c9-4c78-9055-9bc3cadc0780
 title: ID3DXMATRIXStack::ScaleLocal method (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXMATRIXStack.ScaleLocal
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# ID3DXMATRIXStack::ScaleLocal method
+# ID3DXMATRIXStack::ScaleLocal method (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/directxmath-portal.md) instead along with this header from [GitHub](https://github.com/microsoft/DirectXMath/tree/main/MatrixStack).
 
 Scale the current matrix about the object origin.
 
@@ -40,7 +43,7 @@ HRESULT ScaleLocal(
 *x* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The scaling component in the x-direction.
 
@@ -49,7 +52,7 @@ The scaling component in the x-direction.
 *y* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The scaling component in the y-direction.
 
@@ -58,7 +61,7 @@ The scaling component in the y-direction.
 *z* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The scaling component in the z-direction.
 
@@ -87,7 +90,7 @@ m_stack[m_currentPos] = tmp * m_stack[m_currentPos];
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -107,7 +110,3 @@ m_stack[m_currentPos] = tmp * m_stack[m_currentPos];
  
 
  
-
-
-
-

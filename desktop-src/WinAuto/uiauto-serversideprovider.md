@@ -37,6 +37,18 @@ This topic describes how to implement a server-side Microsoft UI Automation prov
 
 For code examples that show how to implement server-side providers, see [How-To Topics for UI Automation Providers](uiauto-howto-topics-for-uiautomation-providers.md).
 
+## Provider Tree Structure
+
+You must implement a UIA provider for each UI element that needs to be accessible to a UIA client.
+
+For example, each element must implement [**IRawElementProviderFragment**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragment) while the root element of the application must implement [**IRawElementProviderFragmentRoot**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragmentroot). In addition, each provider element should link to a:
+
+- parent
+- prior provider element
+- next provider element
+- first provider child
+- last provider child
+
 ## Provider Interfaces
 
 The following Component Object Model (COM) interfaces provide functionality for custom controls. To provide basic functionality, every UI Automation provider must implement at least the [**IRawElementProviderSimple**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple) interface. The [**IRawElementProviderFragment**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragment) and [**IRawElementProviderFragmentRoot**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragmentroot) interfaces are optional, but should be implemented for elements in a complex control to provide additional functionality.
@@ -145,7 +157,7 @@ To optimize performance, a provider can selectively raise events, or raise no ev
  
 
 > [!Note]  
-> Similar to implementing reference counting in COM programming, it is important for UI Automation providers to treat the [**IRawElementProviderAdviseEvents::AdviseEventAdded**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementprovideradviseevents-adviseeventadded) and [**AdviseEventRemoved**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementprovideradviseevents-adviseeventremoved) methods like the [**IUnknown::AddRef**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref) and [**Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) methods of the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. As long as **AdviseEventAdded** has been called more times than **AdviseEventRemoved** for a specific event or property, the provider should continue to raise corresponding events, because some clients are still listening. Alternatively, UI Automation providers can use the [**UiaClientsAreListening**](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiaclientsarelistening) function to determine whether at least one client is listening and, if so, raise all appropriate events.
+> Similar to implementing reference counting in COM programming, it is important for UI Automation providers to treat the [**IRawElementProviderAdviseEvents::AdviseEventAdded**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementprovideradviseevents-adviseeventadded) and [**AdviseEventRemoved**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementprovideradviseevents-adviseeventremoved) methods like the [**IUnknown::AddRef**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref) and [**Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) methods of the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. As long as **AdviseEventAdded** has been called more times than **AdviseEventRemoved** for a specific event or property, the provider should continue to raise corresponding events, because some clients are still listening. Alternatively, UI Automation providers can use the [**UiaClientsAreListening**](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiaclientsarelistening) function to determine whether at least one client is listening and, if so, raise all appropriate events.
 
  
 
@@ -203,7 +215,3 @@ Similarly, an application should use the [**UiaDisconnectAllProviders**](/window
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Provides methods for supplying browser settings. The IItemPreviewerExt interface is supported only on Windows XP and Windows Server 2003, and should no longer be used.
+description: Provides methods for supplying browser settings. The IItemPreviewerExt interface is supported only on Windows XP and Windows Server 2003, and should no longer be used.
 ms.assetid: d7d6cbb0-18bf-4e68-b7b4-307cadbced5c
 title: IItemPreviewerExt interface
 ms.topic: reference
@@ -20,7 +20,7 @@ Provides methods for supplying browser settings. The **IItemPreviewerExt** inter
 
 ## Members
 
-The **IItemPreviewerExt** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IItemPreviewerExt** also has these types of members:
+The **IItemPreviewerExt** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IItemPreviewerExt** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -51,7 +51,7 @@ To preview attachments with a third-party protocol handler on computers running 
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
@@ -62,7 +62,3 @@ To preview attachments with a third-party protocol handler on computers running 
  
 
  
-
-
-
-

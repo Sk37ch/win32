@@ -1,8 +1,7 @@
 ---
-Description: The width, height and depth values from the D3D12_DISPATCH_RAYS_DESC structure specified in the originating DispatchRays call.
+description: The width, height and depth values from the D3D12_DISPATCH_RAYS_DESC structure specified in the originating DispatchRays call.
 ms.assetid: 
 title: DispatchRaysDimensions
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -29,11 +28,11 @@ uint3 DispatchRaysDimensions();
 This function can be called from the following raytracing shader types:
 
 * [**Any Hit Shader**](any-hit-shader.md)
-* [**Callable Shader**](/callable-shader.md)
+* [**Callable Shader**](callable-shader.md)
 * [**Closest Hit Shader**](closest-hit-shader.md)
 * [**Intersection Shader**](intersection-shader.md)
 * [**Miss Shader**](miss-shader.md)
-* [**Ray Generation Shader**](/ray-generation-shader.md)
+* [**Ray Generation Shader**](ray-generation-shader.md)
 
 ## See also
 

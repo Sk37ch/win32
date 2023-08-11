@@ -7,10 +7,13 @@ keywords:
 - Advanced Systems Format (ASF),structures
 - ASF (Advanced Systems Format),structures
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
-# Structures
+# Windows Media Format SDK Structures
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The Windows Media Format SDK implements the following structures.
 
@@ -27,15 +30,15 @@ The Windows Media Format SDK implements the following structures.
 | [**DRM\_VAL16**](/previous-versions/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-drm_val16)                                                          | Stores a 128-bit value used as a device identifier.                                                                                                                       |
 | [**DRM\_VIDEO\_OUTPUT\_PROTECTION**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_output_protection)                    | Holds the identifier of a video protection technology and the configuration data required by that technology.                                                             |
 | [**DRM\_VIDEO\_OUTPUT\_PROTECTION\_IDS**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_video_output_protection_ids)           | Holds an array of **DRM\_VIDEO\_OUTPUT\_PROTECTION** structures.                                                                                                          |
-| [**WAVEFORMATEX**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd757720(v=vs.85))                                                | Defines the format of waveform-audio data.                                                                                                                                |
-| [**WAVEFORMATEXTENSIBLE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd757721(v=vs.85))                                | Defines the format of waveform-audio data for formats having more than two channels.                                                                                      |
+| [**WAVEFORMATEX**](/previous-versions/windows/desktop/legacy/dd757720(v=vs.85))                                                | Defines the format of waveform-audio data.                                                                                                                                |
+| [**WAVEFORMATEXTENSIBLE**](/previous-versions/windows/desktop/legacy/dd757721(v=vs.85))                                | Defines the format of waveform-audio data for formats having more than two channels.                                                                                      |
 | [**WM\_ADDRESS\_ACCESSENTRY**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_address_accessentry)                               | Specifies an entry in an IP address access list.                                                                                                                          |
 | [**WM\_CLIENT\_PROPERTIES**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_properties)                                   | Records information about the client.                                                                                                                                     |
 | [**WM\_CLIENT\_PROPERTIES\_EX**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_properties_ex)                            | Records extended information about the client.                                                                                                                            |
 | [**WM\_GET\_LICENSE\_DATA**](wm-get-license-data.md)                                    | Contains information about a DRM license.                                                                                                                                 |
 | [**WM\_INDIVIDUALIZE\_STATUS**](wm-individualize-status.md)                             | Records the status of the [*individualization*](wmformat-glossary.md) process.                                                                |
 | [**WM\_LEAKY\_BUCKET\_PAIR**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_leaky_bucket_pair)                                  | Describes the buffering requirements for a variable-bit-rate (VBR) file.                                                                                                  |
-| [**WM\_LICENSE\_STATE\_DATA**](https://msdn.microsoft.com/library/Dd757942(v=VS.85).aspx)                                | Encapsulates a [**DRM\_LICENSE\_STATE\_DATA**](drm-license-state-data.md) structure which describes DRM license state data.                                              |
+| [**WM\_LICENSE\_STATE\_DATA**](/previous-versions/windows/desktop/legacy/dd757942(v=vs.85))                                | Encapsulates a [**DRM\_LICENSE\_STATE\_DATA**](drm-license-state-data.md) structure which describes DRM license state data.                                              |
 | [**WM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type)                                                 | Describes a media sample.                                                                                                                                                 |
 | [**WMMPEG2VIDEOINFO**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmmpeg2videoinfo)                                             | Describes an MPEG-2 video stream.                                                                                                                                         |
 | [**WM\_PICTURE**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_picture)                                                        | Contains the data for the [**WM/Picture**](wmpicture.md) complex metadata attribute.                                                                                     |
@@ -79,7 +82,3 @@ The Windows Media Format SDK implements the following structures.
  
 
  
-
-
-
-

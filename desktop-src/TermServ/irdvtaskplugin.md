@@ -23,7 +23,7 @@ The **IRDVTaskPlugin** interface is implemented by a virtual machine update *tas
 
 ## Members
 
-The **IRDVTaskPlugin** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IRDVTaskPlugin** also has these types of members:
+The **IRDVTaskPlugin** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IRDVTaskPlugin** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -90,7 +90,7 @@ Although this interface is supported on the operating systems identified in the 
 
 
 
-|                                     |                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------|
 | Minimum supported client<br/> | Windows 7 Enterprise<br/>   |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/> |
@@ -98,10 +98,4 @@ Although this interface is supported on the operating systems identified in the 
 
 
  
-
- 
-
-
-
-
 

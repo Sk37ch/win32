@@ -1,5 +1,5 @@
 ---
-Description: Decrypts a single Secure Sockets Layer protocol (SSL) packet.
+description: Decrypts a single Secure Sockets Layer protocol (SSL) packet.
 ms.assetid: 22a7dd2b-d023-47b9-8f76-1c17c2dd6466
 title: SslDecryptPacket function (Sslprovider.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # SslDecryptPacket function
 
-the **SslDecryptPacket** function decrypts a single [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) packet.
+the **SslDecryptPacket** function decrypts a single [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) packet.
 
 ## Syntax
 
@@ -131,7 +131,7 @@ The length of the packet can be zero, such as when a "HelloRequest" message is d
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
@@ -141,9 +141,4 @@ The length of the packet can be zero, such as when a "HelloRequest" message is d
 
 
  
-
- 
-
-
-
 

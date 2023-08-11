@@ -1,5 +1,5 @@
 ---
-Description: Puts a break after the preceding word.
+description: Puts a break after the preceding word.
 ms.assetid: C8622067-D8CE-4099-8B9F-941720F4706B
 title: IWordSink::PutBreak method (Search.h)
 ms.topic: reference
@@ -37,7 +37,7 @@ HRESULT PutBreak(
 *breakType* \[in\]
 </dt> <dd>
 
-A value from [**WORDREP\_BREAK\_TYPE**](https://msdn.microsoft.com/library/Ff819130(v=VS.85).aspx) that indicates the type of break that the WordSink inserts after the preceding word. Each break occupies a unique position in the index. Therefore, inserting breaks between words changes the relative distance between words.
+A value from [**WORDREP\_BREAK\_TYPE**](/previous-versions/windows/desktop/legacy/ff819130(v=vs.85)) that indicates the type of break that the WordSink inserts after the preceding word. Each break occupies a unique position in the index. Therefore, inserting breaks between words changes the relative distance between words.
 
 </dd> </dl>
 
@@ -57,13 +57,13 @@ This method can return one of these values.
 
 ## Remarks
 
-The [**IWordSinkPutWord**](iwordsink-putword.md) and [**IWordSink::PutAltWord**](iwordsink-putaltword.md) methods automatically insert an end-of-word break (EOW, indicated by the WORDREP\_BREAK\_EOW element of the [**WORDREP\_BREAK\_TYPE**](https://msdn.microsoft.com/library/Ff819130(v=VS.85).aspx) enumerated type) after each word. Call the **PutBreak** method to insert a break type other than end of word. This method does not change the source text buffer (*pSourceText*) or increment the character count (*cwc*). However, it does increment the current position in the index and affects query results.
+The [**IWordSinkPutWord**](iwordsink-putword.md) and [**IWordSink::PutAltWord**](iwordsink-putaltword.md) methods automatically insert an end-of-word break (EOW, indicated by the WORDREP\_BREAK\_EOW element of the [**WORDREP\_BREAK\_TYPE**](/previous-versions/windows/desktop/legacy/ff819130(v=vs.85)) enumerated type) after each word. Call the **PutBreak** method to insert a break type other than end of word. This method does not change the source text buffer (*pSourceText*) or increment the character count (*cwc*). However, it does increment the current position in the index and affects query results.
 
 ## Requirements
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
@@ -81,7 +81,3 @@ The [**IWordSinkPutWord**](iwordsink-putword.md) and [**IWordSink::PutAltWord**]
  
 
  
-
-
-
-

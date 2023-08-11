@@ -1,5 +1,5 @@
 ---
-Description: Indicates the uncompressed formats to which the hardware can decode the data.
+description: Indicates the uncompressed formats to which the hardware can decode the data.
 ms.assetid: 44bcc4e2-0f8e-4292-b4a4-1ebbf899c14a
 title: NtGdiDdGetMoCompFormats function (Ntgdi.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ Handle to previously created kernel-mode DirectDraw object.
 *puGetMoCompFormatsData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_GETMOCOMPFORMATSDATA**](https://msdn.microsoft.com/library/Ff551580(v=VS.85).aspx) structure that contains the uncompressed format information for the hardware.
+Pointer to a [**DD\_GETMOCOMPFORMATSDATA**](/windows/win32/api/ddrawint/ns-ddrawint-dd_getmocompformatsdata) structure that contains the uncompressed format information for the hardware.
 
 </dd> </dl>
 
@@ -77,7 +77,7 @@ For more information, see the Microsoft DirectX Video Acceleration Driver Develo
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
@@ -95,7 +95,3 @@ For more information, see the Microsoft DirectX Video Acceleration Driver Develo
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Sets the title or text of a control in a dialog box.
+description: Sets the title or text of a control in a dialog box.
 ms.assetid: 84d1919e-8868-412f-bcbf-d68fe8b2cee1
 title: '_SetDlgItemText function'
 ms.topic: reference
@@ -19,7 +19,7 @@ api_location:
 
 \[This function is a wrapper over the **SetDlgItemText** function. This function may be altered or unavailable in the future. Applications should call **SetDlgItemText** directly.\]
 
-Sets the title or text of a control in a dialog box. See [**SetDlgItemText**](https://msdn.microsoft.com/library/ms645521(v=VS.85).aspx).
+Sets the title or text of a control in a dialog box. See [**SetDlgItemText**](/windows/win32/api/winuser/nf-winuser-setdlgitemtexta).
 
 ## Syntax
 
@@ -43,7 +43,7 @@ BOOL _SetDlgItemText(
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Sqlunirl.dll</dt> </dl> |
 
@@ -53,13 +53,9 @@ BOOL _SetDlgItemText(
 
 <dl> <dt>
 
-[**SetDlgItemText**](https://msdn.microsoft.com/library/ms645521(v=VS.85).aspx)
+[**SetDlgItemText**](/windows/win32/api/winuser/nf-winuser-setdlgitemtexta)
 </dt> </dl>
 
  
 
  
-
-
-
-

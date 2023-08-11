@@ -1,5 +1,5 @@
 ---
-Description: Represents an association in which a CIM\_BaseMetricDefinition object defines metrics for a managed element.
+description: Represents an association in which a CIM\_BaseMetricDefinition object defines metrics for a managed element.
 ms.assetid: 10905038-fc23-4018-bae8-f336e4f001e7
 title: CIM_MetricDefForME class
 ms.topic: reference
@@ -55,7 +55,7 @@ Data type: **CIM\_ManagedElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 The managed element that is associated with the metric definition.
@@ -71,7 +71,7 @@ Data type: **CIM\_BaseMetricDefinition**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The metric definition that is associated with the managed element.
@@ -132,7 +132,7 @@ Indicates whether the metric is being collected for the managed element.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -150,9 +150,4 @@ Indicates whether the metric is being collected for the managed element.
 </dt> </dl>
 
  
-
- 
-
-
-
 

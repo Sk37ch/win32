@@ -1,5 +1,5 @@
 ---
-Description: Remove the animation data from the animation set.
+description: Remove the animation data from the animation set.
 ms.assetid: 9821d21e-fe8f-4742-b4f3-63b2578d29ec
 title: ID3DXKeyframedAnimationSet::UnregisterAnimation method (D3dx9anim.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT UnregisterAnimation(
 *Index* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The animation index.
 
@@ -54,7 +54,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -71,7 +71,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
  
 
  
-
-
-
-

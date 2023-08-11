@@ -1,5 +1,5 @@
 ---
-Description: The CHStringArray class exposes the following methods.
+description: The CHStringArray class exposes the following methods.
 ms.assetid: AFE4306E-6BB1-4F1D-A301-CD5F05385466
 ms.tgt_platform: multiple
 title: CHStringArray Methods
@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # CHStringArray Methods
 
-\[The [**CHStringArray**](/windows/desktop/api/ChStrArr/nl-chstrarr-chstringarray) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
+\[The [**CHStringArray**](/windows/desktop/api/ChStrArr/nl-chstrarr-chstringarray) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The [**CHStringArray**](/windows/desktop/api/ChStrArr/nl-chstrarr-chstringarray) class exposes the following methods.
 
@@ -36,6 +36,3 @@ The [**CHStringArray**](/windows/desktop/api/ChStrArr/nl-chstrarr-chstringarray)
  
 
  
-
-
-

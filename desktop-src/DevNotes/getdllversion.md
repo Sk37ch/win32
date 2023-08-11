@@ -1,5 +1,5 @@
 ---
-Description: The GetDllVersion function retrieves the version number of Cabinet.dll.
+description: The GetDllVersion function retrieves the version number of Cabinet.dll.
 ms.assetid: b324d5cd-1ede-473e-a10f-249c95eda057
 title: GetDllVersion function
 ms.topic: reference
@@ -36,17 +36,17 @@ This function has no parameters.
 
 ## Return value
 
-The version number of the file (see [VERSIONINFO Resource](https://msdn.microsoft.com/library/Aa381058(v=VS.85).aspx)).
+The version number of the file (see [VERSIONINFO Resource](../menurc/versioninfo-resource.md)).
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Cabinet.dll</dt> </dl> |
 
@@ -62,7 +62,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the GetVisibleClipBounds methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+description: This topic lists the GetVisibleClipBounds methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 ms.assetid: af7ed6de-00c3-46c8-b597-142bee9b02cc
 title: Graphics.GetVisibleClipBounds methods (Gdiplusgraphics.h)
 ms.date: 07/02/2019
@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Graphics.GetVisibleClipBounds methods
 
-This topic lists the GetVisibleClipBounds methods of the [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx).
+This topic lists the GetVisibleClipBounds methods of the [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics).
 
 ### Overload list
 
@@ -16,8 +16,8 @@ This topic lists the GetVisibleClipBounds methods of the [**Graphics**](https://
 
 | Method                                                                                            | Description                                                                                                                                                                                                                  |
 |:--------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetVisibleClipBounds(Rect\*)**](https://msdn.microsoft.com/library/ms535946(v=VS.85).aspx)   | The [**Graphics::GetVisibleClipBounds**](https://msdn.microsoft.com/library/ms535946(v=VS.85).aspx)[**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx)**Graphics** object and the clipping region of the window.<br/>  |
-| [**GetVisibleClipBounds(RectF\*)**](https://msdn.microsoft.com/library/ms535947(v=VS.85).aspx) | The [**Graphics::GetVisibleClipBounds**](https://msdn.microsoft.com/library/ms535947(v=VS.85).aspx)[**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx)**Graphics** object and the clipping region of the window.<br/> |
+| [**GetVisibleClipBounds(Rect\*)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getvisibleclipbounds(outrect))   | The [**Graphics::GetVisibleClipBounds**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getvisibleclipbounds(outrect))[**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics)**Graphics** object and the clipping region of the window.<br/>  |
+| [**GetVisibleClipBounds(RectF\*)**](/previous-versions//ms535947(v=vs.85)) | The [**Graphics::GetVisibleClipBounds**](/previous-versions//ms535947(v=vs.85))[**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics)**Graphics** object and the clipping region of the window.<br/> |
 
 
 
@@ -25,7 +25,7 @@ This topic lists the GetVisibleClipBounds methods of the [**Graphics**](https://
 
 
 
-|                   |                                                                                              |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplusgraphics.h</dt> </dl> |
 
@@ -34,7 +34,3 @@ This topic lists the GetVisibleClipBounds methods of the [**Graphics**](https://
  
 
  
-
-
-
-

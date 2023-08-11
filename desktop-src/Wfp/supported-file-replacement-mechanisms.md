@@ -1,5 +1,5 @@
 ---
-Description: Replacement of protected resources is supported through the following mechanisms.
+description: Replacement of protected resources is supported through the following mechanisms.
 ms.assetid: a757e6cf-59df-4894-a0dc-40174b0aa147
 title: Supported Resource Replacement Mechanisms
 ms.topic: article
@@ -25,7 +25,7 @@ For well-known installers attempting to replace WRP-protected resources, the acc
 -   The access denied error is caused only by the attempt to modify a WRP-protected resource.
 -   An Administrator is installing the application.
 
-For information about using the Windows Installer with WRP, see [Using Windows Installer and Windows Resource Protection](https://docs.microsoft.com/windows/desktop/Msi/windows-resource-protection-on-windows-vista) in the [Windows Installer](https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal) SDK.
+For information about using the Windows Installer with WRP, see [Using Windows Installer and Windows Resource Protection](/windows/desktop/Msi/windows-resource-protection-on-windows-vista) in the [Windows Installer](/windows/desktop/Msi/windows-installer-portal) SDK.
 
 **Windows Server 2003 and Windows XP:** Replacement of WFP-protected system files is supported only through the following mechanisms:
 
@@ -39,6 +39,3 @@ Replacing protected files by means other than these specified methods results in
  
 
  
-
-
-

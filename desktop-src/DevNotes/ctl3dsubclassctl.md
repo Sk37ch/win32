@@ -1,5 +1,5 @@
 ---
-Description: Subclasses an individual control unless the control appears in a dialog box.
+description: Subclasses an individual control unless the control appears in a dialog box.
 ms.assetid: 07a2bce1-4c69-4f8d-bb24-b17351f5e771
 title: Ctl3dSubclassCtl function
 ms.topic: reference
@@ -47,13 +47,13 @@ Returns **TRUE** if the control is successfully subclassed; otherwise, it return
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ctl3d32.dll</dt> </dl> |
 
@@ -69,7 +69,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

@@ -1,7 +1,7 @@
 ---
-Description: 'Provides access to the current call's security context, which contains information about an object's callers.'
+description: "Provides access to the current call's security context, which contains information about an object's callers."
 ms.assetid: 'e8ac05fb-6665-4e57-b64e-82d9799d29d4'
-title: SecurityCallContext class (ComSvcs.h)
+title: 'SecurityCallContext class (ComSvcs.h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -25,7 +25,7 @@ This class is implemented by COM+.
 
 
 
-|            |                                                      |
+| Requirement | Value |
 |------------|------------------------------------------------------|
 | Interfaces | [**ISecurityCallersColl**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallerscoll) |
 
@@ -39,7 +39,7 @@ Use this class to access the methods of [**ISecurityCallContext**](/windows/desk
 
 ## Remarks
 
-You cannot directly create a **SecurityCallContext** object. To use the methods of [**ISecurityCallContext**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext), you must obtain a reference to its implementation by calling [**CoGetCallContext**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext), supplying IID\_ISecurityCallContext for the *riid* parameter.
+You cannot directly create a **SecurityCallContext** object. To use the methods of [**ISecurityCallContext**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext), you must obtain a reference to its implementation by calling [**CoGetCallContext**](/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext), supplying IID\_ISecurityCallContext for the *riid* parameter.
 
 To use this class from Microsoft Visual Basic, add a reference to the COM+ Services Type Library. A SecurityCallContext object can be declared using "COMSVCSLib.SecurityCallContext" as the class name; it is created by calling [**GetSecurityCallContext**](/windows/desktop/api/ComSvcs/nf-comsvcs-igetsecuritycallcontext-getsecuritycallcontext).
 
@@ -47,7 +47,7 @@ To use this class from Microsoft Visual Basic, add a reference to the COM+ Servi
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
@@ -78,9 +78,4 @@ To use this class from Microsoft Visual Basic, add a reference to the COM+ Servi
 </dt> </dl>
 
  
-
- 
-
-
-
 

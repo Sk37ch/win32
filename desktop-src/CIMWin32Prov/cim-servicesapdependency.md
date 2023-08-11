@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ServiceSAPDependency class represents an association between a service and a service access point (SAP), which indicates that the referenced SAP is used by the service to provide its functionality.
+description: The CIM\_ServiceSAPDependency class represents an association between a service and a service access point (SAP), which indicates that the referenced SAP is used by the service to provide its functionality.
 ms.assetid: cf5a8b9b-a38e-4173-861c-e417fbea6016
 ms.tgt_platform: multiple
 title: CIM_ServiceSAPDependency class (CIMWin32 WMI Providers)
@@ -18,7 +18,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_ServiceSAPDependency class
+# CIM_ServiceSAPDependency class (CIMWin32 WMI Providers)
 
 The **CIM\_ServiceSAPDependency** class represents an association between a service and a service access point (SAP), which indicates that the referenced SAP is used by the service to provide its functionality. For example, boot services can invoke BIOS disk services (interrupts) to function.
 
@@ -61,7 +61,7 @@ Data type: **CIM\_ServiceAccessPoint**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_ServiceAccessPoint**](cim-serviceaccesspoint.md) that describes the required service access point.
@@ -77,7 +77,7 @@ Data type: **CIM\_Service**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_Service**](cim-service.md) that describes the service that is dependent on an underlying SAP.
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -114,9 +114,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

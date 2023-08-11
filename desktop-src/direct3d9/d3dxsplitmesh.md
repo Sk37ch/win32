@@ -1,5 +1,5 @@
 ---
-Description: Splits a mesh into meshes smaller than the specified size.
+description: Splits a mesh into meshes smaller than the specified size.
 ms.assetid: 55cdd82f-91fa-4805-969f-8fbe53cbde58
 title: D3DXSplitMesh function (D3DX9Mesh.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ Pointer to an [**ID3DXMesh**](id3dxmesh.md) interface, representing the source m
 *pAdjacencyIn* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the mesh to be simplified.
 
@@ -64,7 +64,7 @@ Pointer to an array of three DWORDs per face that specify the three neighbors fo
 *MaxSize* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **const [**DWORD**](../winprog/windows-data-types.md)**
 
 Maximum number of vertices in the resulting mesh.
 
@@ -73,7 +73,7 @@ Maximum number of vertices in the resulting mesh.
 *Options* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **const [**DWORD**](../winprog/windows-data-types.md)**
 
 Option flags for the new meshes.
 
@@ -82,7 +82,7 @@ Option flags for the new meshes.
 *pMeshesOut* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Number of meshes returned.
 
@@ -148,7 +148,7 @@ const DWORD remap = face_remaps[2][3];
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -165,7 +165,3 @@ const DWORD remap = face_remaps[2][3];
  
 
  
-
-
-
-

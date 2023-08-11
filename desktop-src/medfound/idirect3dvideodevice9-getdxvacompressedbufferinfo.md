@@ -1,5 +1,5 @@
 ---
-Description: Gets information about the compressed buffers needed for hardware-accelerated decoding.
+description: Gets information about the compressed buffers needed for hardware-accelerated decoding.
 ms.assetid: 5a9fb077-fd79-4faa-a0f8-b3ac987adf36
 title: IDirect3DVideoDevice9::GetDXVACompressedBufferInfo method (Dxva.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ Address of an array of [**DXVACompBufferInfo**](/windows/desktop/api/dxva9typ/ns
 
 Set all of the array elements to zero before calling this method.
 
-Each array index corresponds to one of the DXVA surface types defined in dxva.h. The video accelerator returns a list of up to **DXVA\_NUM\_TYPES\_COMP\_BUFFERS** array entries. For details, refer to the [DXVA 1.0 specification](https://msdn.microsoft.com/library/windows/hardware/gg463516), section 3.4, "Buffer Description List." If a particular buffer type is not used by the DXVA profile, the entry at that index contains zeros for all values.
+Each array index corresponds to one of the DXVA surface types defined in dxva.h. The video accelerator returns a list of up to **DXVA\_NUM\_TYPES\_COMP\_BUFFERS** array entries. For details, refer to the [DXVA 1.0 specification](/windows-hardware/drivers/display/directx-video-acceleration), section 3.4, "Buffer Description List." If a particular buffer type is not used by the DXVA profile, the entry at that index contains zeros for all values.
 
 </dd> </dl>
 
@@ -79,7 +79,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                              |
@@ -97,7 +97,3 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
  
 
  
-
-
-
-

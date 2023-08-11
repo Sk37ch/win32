@@ -1,5 +1,5 @@
 ---
-Description: Returns a value that indicates whether a particular service is running.
+description: IShellDispatch2.IsServiceRunning method - Returns a value that indicates whether a particular service is running.
 ms.assetid: 91f3fba1-7aa5-423a-bc37-49db230c79db
 title: IShellDispatch2.IsServiceRunning method (Shldisp.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ IShellDispatch2.IsServiceRunning( _
 *sServiceName* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** that contains the name of the service.
 
@@ -69,7 +69,7 @@ Returns **true** if the service specified by *sServiceName* is running; otherwis
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.IsServiceRunning**](https://msdn.microsoft.com/library/Gg537742(v=VS.85).aspx) method.
+This method is implemented and accessed through the [**Shell.IsServiceRunning**](./shell-isservicerunning.md) method.
 
 This method is not currently available in Microsoft Visual Basic.
 
@@ -118,7 +118,7 @@ VBScript:
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |
@@ -131,7 +131,3 @@ VBScript:
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Associates the Msvm\_BootSourceSettingData to the overall Msvm\_VirtualSystemSettingData.
+description: Associates the Msvm\_BootSourceSettingData to the overall Msvm\_VirtualSystemSettingData.
 ms.assetid: DB2E66F1-CC2C-49FC-96CE-D9DE441AA809
 title: Msvm_BootSourceComponent class
 ms.topic: reference
@@ -19,7 +19,7 @@ api_location:
 
 # Msvm\_BootSourceComponent class
 
-Associates the [**Msvm\_BootSourceSettingData**](msvm-bootsourcesettingdata.md) to the overall [**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md). This class derives from [**CIM\_Component**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-component).
+Associates the [**Msvm\_BootSourceSettingData**](msvm-bootsourcesettingdata.md) to the overall [**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md). This class derives from [**CIM\_Component**](/windows/desktop/CIMWin32Prov/cim-component).
 
 The following syntax is simplified from MOF code and includes all inherited properties.
 
@@ -76,7 +76,7 @@ Reference to the child element in the association. This property is inherited fr
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
@@ -93,7 +93,7 @@ Reference to the child element in the association. This property is inherited fr
 [**CIM\_Component**](cim-component.md)
 </dt> <dt>
 
-[**CIM\_Component**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-component)
+[**CIM\_Component**](/windows/desktop/CIMWin32Prov/cim-component)
 </dt> <dt>
 
 [**Msvm\_BootSourceSettingData**](msvm-bootsourcesettingdata.md)
@@ -103,9 +103,4 @@ Reference to the child element in the association. This property is inherited fr
 </dt> </dl>
 
  
-
- 
-
-
-
 

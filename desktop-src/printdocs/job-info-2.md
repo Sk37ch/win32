@@ -1,5 +1,5 @@
 ---
-Description: The JOB\_INFO\_2 structure describes a full set of values associated with a job.
+description: The JOB\_INFO\_2 structure describes a full set of values associated with a job.
 ms.assetid: 0cc61e35-4ac9-47bd-bb0d-ff43854bdee5
 title: JOB_INFO_2 structure (Winspool.h)
 ms.topic: reference
@@ -243,9 +243,9 @@ The size, in bytes, of the job.
 **Submitted**
 </dt> <dd>
 
-A [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure that specifies the time when the job was submitted.
+A [**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure that specifies the time when the job was submitted.
 
-This time value is in Universal Time Coordinate (UTC) format. You should convert it to a local time value before displaying it. You can use the [**FileTimeToLocalFileTime**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-filetimetolocalfiletime) function to perform the conversion.
+This time value is in Universal Time Coordinate (UTC) format. You should convert it to a local time value before displaying it. You can use the [**FileTimeToLocalFileTime**](/windows/desktop/api/fileapi/nf-fileapi-filetimetolocalfiletime) function to perform the conversion.
 
 </dd> <dt>
 
@@ -271,7 +271,7 @@ Port monitors that do not support TrueEndOfJob will set the job as JOB\_STATUS\_
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -303,9 +303,4 @@ Port monitors that do not support TrueEndOfJob will set the job as JOB\_STATUS\_
 </dt> </dl>
 
  
-
- 
-
-
-
 

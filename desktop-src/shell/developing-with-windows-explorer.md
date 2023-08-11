@@ -1,5 +1,5 @@
 ---
-Description: Windows Explorer is a powerful resource-browsing and management application.
+description: Windows Explorer is a powerful resource-browsing and management application.
 ms.assetid: 879CE652-EDC0-4a14-925E-C83763133BE5
 title: Developing with Windows Explorer
 ms.topic: article
@@ -10,12 +10,7 @@ ms.date: 05/31/2018
 
 Windows Explorer is a powerful resource-browsing and management application. Windows Explorer can be accessed as an integrated whole through Explorer.exe or the [**IExplorerBrowser**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser) interface. Windows Explorer (Explorer.exe) can be spawned as a separate process using [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) or a similar function.
 
-> [!Note]  
-> Command-line options for Explorer.exe are documented on the Microsoft Windows Support site in the article [Windows Explorer Command-Line Options](https://support.microsoft.com/kb/152457).
-
- 
-
-Open explorer windows can be discovered and programmed by using [**IShellWindows**](/windows/desktop/api/Exdisp/nn-exdisp-ishellwindows) (CLSID\_ShellWindows), and new instances of Windows Explorer can be created by using [**IWebBrowser2**](https://msdn.microsoft.com/library/Aa752127(v=VS.85).aspx) (CLSID\_ShellBrowserWindow).
+Open explorer windows can be discovered and programmed by using [**IShellWindows**](/windows/desktop/api/Exdisp/nn-exdisp-ishellwindows) (CLSID\_ShellWindows), and new instances of Windows Explorer can be created by using [**IWebBrowser2**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752127(v=vs.85)) (CLSID\_ShellBrowserWindow).
 
 The following code sample demonstrates how the Windows Explorer automation model can be used to create and discover explorer windows that are running.
 
@@ -324,6 +319,3 @@ These separate controls work together largely through events generated either by
  
 
  
-
-
-

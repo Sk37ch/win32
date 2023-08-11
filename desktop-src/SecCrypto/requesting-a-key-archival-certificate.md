@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates how to request a key archival certificate.
+description: Demonstrates how to request a key archival certificate.
 ms.assetid: a09f55c1-fb27-41e7-9a2f-617d2360c02f
 title: Requesting a Key Archival Certificate
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Requesting a Key Archival Certificate
 
-The following example shows creating and submitting a [*certificate request*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) and receiving the resulting key archival certificate. For this example to succeed, the [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA) that receives the certificate request must be configured for key archival.
+The following example shows creating and submitting a [*certificate request*](../secgloss/c-gly.md) and receiving the resulting key archival certificate. For this example to succeed, the [*certification authority*](../secgloss/c-gly.md) (CA) that receives the certificate request must be configured for key archival.
 
 The following steps describe how to create and submit a certificate request.
 
@@ -281,6 +281,3 @@ return hr;
  
 
  
-
-
-

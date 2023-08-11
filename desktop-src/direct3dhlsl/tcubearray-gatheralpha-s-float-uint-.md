@@ -1,6 +1,6 @@
 ---
 title: TextureCubeArray::GatherAlpha(S,float,uint) function
-description: Samples a texture and returns the alpha component along with status about the operation.
+description: Returns the alpha components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status. | TextureCubeArray::GatherAlpha(S,float,uint) function
 ms.assetid: C6AF896A-C68E-44EA-A779-DD9DBA30A039
 keywords:
 - GatherAlpha function HLSL
@@ -15,18 +15,18 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherAlpha(S,float,uint) function
+# TextureCubeArray::GatherAlpha(S,float,uint) function
 
-Samples a texture and returns the alpha component along with status about the operation.
+Returns the alpha components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.
 
 ## Syntax
 
 
-```C++
+``` syntax
 TemplateType GatherAlpha(
-  _In_  SamplerState S,
-  _In_  float        Location,
-  _Out_ uint         Status
+  in  SamplerState S,
+  in  float4       Location,
+  out uint         Status
 );
 ```
 
@@ -59,7 +59,7 @@ The sample coordinates (u,v).
 
 Type: **uint**
 
-The status of the operation. You can't access the status directly; instead, pass the status to the [**CheckAccessFullyMapped**](checkaccessfullymapped.md) intrinsic function. **CheckAccessFullyMapped** returns **TRUE** if all values from the corresponding **Sample**, **Gather**, or **Load** operation accessed mapped tiles in a [tiled resource](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-2-features). If any values were taken from an unmapped tile, **CheckAccessFullyMapped** returns **FALSE**.
+The status of the operation. You can't access the status directly; instead, pass the status to the [**CheckAccessFullyMapped**](checkaccessfullymapped.md) intrinsic function. **CheckAccessFullyMapped** returns **TRUE** if all values from the corresponding **Sample**, **Gather**, or **Load** operation accessed mapped tiles in a [tiled resource](/windows/desktop/direct3d11/direct3d-11-2-features). If any values were taken from an unmapped tile, **CheckAccessFullyMapped** returns **FALSE**.
 
 </dd> </dl>
 
@@ -83,7 +83,7 @@ This function is supported for the following types of shaders:
 
 
 
- 
+
 
 ## See also
 
@@ -94,10 +94,6 @@ This function is supported for the following types of shaders:
 
 [**TextureCubeArray**](texturecubearray.md)
 </dt> </dl>
-
- 
-
- 
 
 
 

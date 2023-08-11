@@ -1,5 +1,5 @@
 ---
-Description: Describe how to use the LSA Policy functions.
+description: Describe how to use the LSA Policy functions.
 ms.assetid: 7f4b963d-3442-4c04-b3d4-f7c8eb1ed15b
 title: Using LSA Policy
 ms.topic: article
@@ -20,11 +20,8 @@ The following topics describe how to use the LSA Policy functions.
 -   [Mapping Posix Identifiers](mapping-posix-identifiers.md) describes how to map SIDs to 32-bit Posix identifiers.
 -   [Storing Private Data](storing-private-data.md) explains how to store and retrieve private data strings.
 
-For information about how to use the LSA to logon and authenticate users, see [LSA Authentication](https://docs.microsoft.com/windows/desktop/SecAuthN/lsa-authentication).
+For information about how to use the LSA to logon and authenticate users, see [LSA Authentication](/windows/desktop/SecAuthN/lsa-authentication).
 
  
 
  
-
-
-

@@ -36,36 +36,11 @@ The following table depicts a typical control and content view of the UI Automat
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Control View</th>
-<th>Content View</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>AppBar
-<ul>
-<li>Button (0 or many)</li>
-<li>Other controls (0 or many)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Not applicable
-<ul>
-<li>Button (0 or many)</li>
-<li>Other controls (0 or many)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Control View | Content View | 
+|--------------|--------------|
+| <ul><li>AppBar<ul><li>Button (0 or many)</li><li>Other controls (0 or many)</li></ul></li></ul> | <ul><li>Not applicable<ul><li>Button (0 or many)</li><li>Other controls (0 or many)</li></ul></li></ul> | 
+
 
 
 
@@ -144,16 +119,12 @@ The following table lists the UI Automation events that are especially relevant 
 **Reference**
 </dt> <dt>
 
-[**AppBar XAML control**](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.AppBar)
+[**AppBar XAML control**](/uwp/api/Windows.UI.Xaml.Controls.AppBar)
 </dt> <dt>
 
-[**WinJS.UI.AppBar object**](https://docs.microsoft.com/previous-versions/windows/apps/br229670(v=win.10))
+[**WinJS.UI.AppBar object**](/previous-versions/windows/apps/br229670(v=win.10))
 </dt> </dl>
 
  
 
  
-
-
-
-

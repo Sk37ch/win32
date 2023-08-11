@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the position and size of the IContextNode object.
+description: Retrieves the position and size of the IContextNode object.
 ms.assetid: 40787a9b-1017-4209-aec8-09b7332bfa8a
 title: IContextNode::GetLocation method (IACom.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppIAnalysisRegion* when you no longer need to use the analysis region.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppIAnalysisRegion* when you no longer need to use the analysis region.
 
  
 
@@ -139,7 +139,7 @@ HRESULT CMyClass::GetNodeInformation(
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -165,9 +165,4 @@ HRESULT CMyClass::GetNodeInformation(
 </dt> </dl>
 
  
-
- 
-
-
-
 

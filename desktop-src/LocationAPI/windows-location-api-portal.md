@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Location API
 ms.assetid: 0182461a-df06-46ea-a9c2-7aedbde5033b
 title: Location API
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Location API
 
-\[The Win32 Location API and is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the [**Windows.Devices.Geolocation**](https://docs.microsoft.com/uwp/api/Windows.Devices.Geolocation) API. To access location from a website, use the [W3C Geolocation API](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). \]
+\[The Win32 Location API and is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the [**Windows.Devices.Geolocation**](/uwp/api/Windows.Devices.Geolocation) API. To access location from a website, use the [W3C Geolocation API](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). \]
 
 ## Purpose
 
@@ -35,6 +35,3 @@ The Location API provides its functionality through a set of COM interfaces. Loc
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: The ListBox control is a regular list box that enables the user to make a single selection from a list of predetermined values.
+description: The ListBox control is a regular list box that enables the user to make a single selection from a list of predetermined values.
 ms.assetid: f2aace82-3b42-4790-a817-1b874a702938
 title: ListBox Control (Windows Installer)
 ms.topic: article
@@ -41,12 +41,8 @@ You can use the following attributes with this control. To change the value of a
 
 ## Remarks
 
-This control can be created from the LISTBOX class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the **WS\_TABSTOP**, **WS\_GROUP**, and **WS\_CHILD** styles. If the Sorted control style bit is on, the control is created with the **LBS\_NOTIFY**, **WS\_VSCROLL**, and **WS\_BORDER** styles, otherwise, the control is created with the **LBS\_STANDARD** style.
+This control can be created from the LISTBOX class by using the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function. It has the **WS\_TABSTOP**, **WS\_GROUP**, and **WS\_CHILD** styles. If the Sorted control style bit is on, the control is created with the **LBS\_NOTIFY**, **WS\_VSCROLL**, and **WS\_BORDER** styles, otherwise, the control is created with the **LBS\_STANDARD** style.
 
  
 
  
-
-
-
-

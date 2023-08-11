@@ -1,5 +1,5 @@
 ---
-Description: Establishes a &\#0034;part of&\#0034; relationship between a system and any managed system element of which it is composed.
+description: Establishes a &\#0034;part of&\#0034; relationship between a system and any managed system element of which it is composed.
 ms.assetid: 6BF72E36-9B6C-4853-A553-DDAF65991C86
 title: Msvm_SystemComponent class
 ms.topic: reference
@@ -49,26 +49,26 @@ The **Msvm\_SystemComponent** class has these properties.
 **GroupComponent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_System**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-system)**
+Data type: **[**CIM\_System**](/windows/desktop/CIMWin32Prov/cim-system)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-The parent element in the association. This property is inherited from [**CIM\_SystemComponent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-systemcomponent).
+The parent element in the association. This property is inherited from [**CIM\_SystemComponent**](/windows/desktop/CIMWin32Prov/cim-systemcomponent).
 
 </dd> <dt>
 
 **PartComponent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement)**
+Data type: **[**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-The child element in the association. This property is inherited from [**CIM\_SystemComponent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-systemcomponent).
+The child element in the association. This property is inherited from [**CIM\_SystemComponent**](/windows/desktop/CIMWin32Prov/cim-systemcomponent).
 
 </dd> </dl>
 
@@ -76,7 +76,7 @@ The child element in the association. This property is inherited from [**CIM\_Sy
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
@@ -87,9 +87,4 @@ The child element in the association. This property is inherited from [**CIM\_Sy
 
 
  
-
- 
-
-
-
 

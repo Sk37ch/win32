@@ -24,8 +24,8 @@ Changes or animates the value of the OffsetY property of this visual, altering t
 
 | Method                                                                                                | Description                                           |
 |:------------------------------------------------------------------------------------------------------|:------------------------------------------------------|
-| [**SetOffsetY(float)**](https://msdn.microsoft.com/library/Hh449167(v=VS.85).aspx)                                     | Changes the value of the OffsetY property.<br/> |
-| [**SetOffsetY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh449169(v=VS.85).aspx) | Animates the value of the OffsetY property<br/> |
+| [**SetOffsetY(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setoffsety(float))                                     | Changes the value of the OffsetY property.<br/> |
+| [**SetOffsetY(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setoffsety(idcompositionanimation)) | Animates the value of the OffsetY property<br/> |
 
 
 
@@ -33,7 +33,7 @@ Changes or animates the value of the OffsetY property of this visual, altering t
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows�8 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server�2012 \[desktop apps only\]<br/>                                 |
@@ -47,7 +47,7 @@ Changes or animates the value of the OffsetY property of this visual, altering t
 
 <dl> <dt>
 
-[**IDCompositionVisual**](https://msdn.microsoft.com/library/Hh449139(v=VS.85).aspx)
+[**IDCompositionVisual**](/windows/win32/api/dcomp/nn-dcomp-idcompositionvisual)
 </dt> <dt>
 
 [**IDCompositionVisual::SetOffsetX**](idcompositionvisual-setoffsetx-overloaded.md)
@@ -56,8 +56,3 @@ Changes or animates the value of the OffsetY property of this visual, altering t
 �
 
 �
-
-
-
-
-

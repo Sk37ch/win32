@@ -1,5 +1,5 @@
 ---
-Description: Target average volume level of a Windows Media Audio file.
+description: Target average volume level of a Windows Media Audio file.
 ms.assetid: f81158c8-b341-4b39-8fa4-b510c93b89fc
 title: MF_MT_AUDIO_WMADRC_AVGTARGET attribute (Mfapi.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ Target average volume level of a Windows Media Audio file.
 
 This attribute applies to audio media types for Windows Media Audio codecs. It specifies the target average volume level of the content. The decoder can use this value to perform dynamic range control.
 
-The [**IMFASFContentInfo::ParseHeader**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-parseheader) method adds this attribute to the media type if the ASF header contains the [**WM/WMADRCAverageTarget**](https://msdn.microsoft.com/library/Dd758016(v=VS.85).aspx) attribute. This attribute is documented in the Windows Media Format SDK documentation.
+The [**IMFASFContentInfo::ParseHeader**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-parseheader) method adds this attribute to the media type if the ASF header contains the [**WM/WMADRCAverageTarget**](../wmformat/wm-wmadrcaveragetarget.md) attribute. This attribute is documented in the Windows Media Format SDK documentation.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -26,7 +26,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |
@@ -56,7 +56,3 @@ The GUID constant for this attribute is exported from mfuuid.lib.
  
 
  
-
-
-
-

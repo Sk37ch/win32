@@ -20,11 +20,11 @@ ms.date: 05/31/2018
 
 The name of the object in canonical format. myserver2.fabrikam.com/users/jeffsmith is an example of a distinguished name in canonical format. This is a constructed attribute. The results returned are identical to those returned by the following Active Directory function: DsCrackNames(NULL, DS\_NAME\_FLAG\_SYNTACTICAL\_ONLY, DS\_FQDN\_1779\_NAME, DS\_CANONICAL\_NAME, ...).
 
-For more information about name formats, see [**DsCrackNames**](https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dscracknamesa).
+For more information about name formats, see [**DsCrackNames**](/windows/desktop/api/ntdsapi/nf-ntdsapi-dscracknamesa).
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Canonical-Name                              |
 | Ldap-Display-Name | canonicalName                               |
@@ -51,7 +51,7 @@ For more information about name formats, see [**DsCrackNames**](https://docs.mic
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -72,7 +72,7 @@ For more information about name formats, see [**DsCrackNames**](https://docs.mic
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -93,7 +93,7 @@ For more information about name formats, see [**DsCrackNames**](https://docs.mic
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -114,7 +114,7 @@ For more information about name formats, see [**DsCrackNames**](https://docs.mic
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -135,7 +135,7 @@ For more information about name formats, see [**DsCrackNames**](https://docs.mic
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -156,7 +156,7 @@ For more information about name formats, see [**DsCrackNames**](https://docs.mic
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -177,7 +177,7 @@ For more information about name formats, see [**DsCrackNames**](https://docs.mic
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -195,10 +195,4 @@ For more information about name formats, see [**DsCrackNames**](https://docs.mic
 
 
  
-
- 
-
-
-
-
 

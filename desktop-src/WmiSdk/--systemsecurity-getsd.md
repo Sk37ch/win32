@@ -1,5 +1,5 @@
 ---
-Description: Gets the security descriptor for the namespace to which the user is connected. This method returns a security descriptor in binary byte array format. If you are writing a script, use the GetSecurityDescriptor method.
+description: Gets the security descriptor for the namespace to which the user is connected. This method returns a security descriptor in binary byte array format. If you are writing a script, use the GetSecurityDescriptor method.
 ms.assetid: aeac1e7b-fcb8-4880-afd1-4950da37602b
 ms.tgt_platform: multiple
 title: GetSD method of the __SystemSecurity class
@@ -22,7 +22,7 @@ The **GetSD** method gets the security descriptor for the namespace to which the
 
 The user must have the **READ\_CONTROL** permission. By default, administrators have that permission. The only part of the security descriptor that is actually used is the discretionary access control list (DACL). The DACL can contain both inherited and non-inherited ACEs. Both deny and allow ACEs are permitted.
 
-If you are programming in C++, you can manipulate the binary security descriptor using [SDDL](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-definition-language), and the conversion methods [**ConvertSecurityDescriptorToStringSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora) and [**ConvertStringSecurityDescriptorToSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora).
+If you are programming in C++, you can manipulate the binary security descriptor using [SDDL](/windows/desktop/SecAuthZ/security-descriptor-definition-language), and the conversion methods [**ConvertSecurityDescriptorToStringSecurityDescriptor**](/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora) and [**ConvertStringSecurityDescriptorToSecurityDescriptor**](/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora).
 
 ## Syntax
 
@@ -113,7 +113,7 @@ WScript.Echo DisplaySD
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -134,25 +134,20 @@ WScript.Echo DisplaySD
 [WMI Security Constants](wmi-security-constants.md)
 </dt> <dt>
 
-[**Win32\_ACE**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-ace)
+[**Win32\_ACE**](/previous-versions/windows/desktop/secrcw32prov/win32-ace)
 </dt> <dt>
 
 [**\_\_SystemSecurity::SetSD**](--systemsecurity-setsd.md)
 </dt> <dt>
 
-[**Security\_Descriptor**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor)
+[**Security\_Descriptor**](/windows/desktop/api/winnt/ns-winnt-security_descriptor)
 </dt> <dt>
 
-[**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)
+[**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)
 </dt> <dt>
 
 [Securing WMI Namespaces](securing-wmi-namespaces.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

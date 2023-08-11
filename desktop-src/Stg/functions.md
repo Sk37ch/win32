@@ -1,5 +1,6 @@
 ---
-title: Functions
+title: Functions (STG)
+
 description: Functions are routines or subroutines that return a specific value or values. Structured Storage functions are described in the following sections.
 ms.assetid: 5fbb05ae-594d-4fa5-97d2-a2371e94c054
 keywords:
@@ -8,14 +9,14 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Functions
+# Structured Storage functions
 
 Functions are routines or subroutines that return a specific value or values. Structured Storage functions are described in the following sections:
 
 -   [**CreateILockBytesOnHGlobal**](/windows/desktop/api/coml2api/nf-coml2api-createilockbytesonhglobal)
 -   [**CreateStreamOnHGlobal**](/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal)
 -   [**FmtIdToPropStgName**](/windows/desktop/api/coml2api/nf-coml2api-fmtidtopropstgname)
--   [**FreePropVariantArray**](https://msdn.microsoft.com/library/Aa379126(v=VS.85).aspx)
+-   [**FreePropVariantArray**](/windows/win32/api/combaseapi/nf-combaseapi-freepropvariantarray)
 -   [**GetConvertStg**](/windows/desktop/api/coml2api/nf-coml2api-getconvertstg)
 -   [**GetHGlobalFromILockBytes**](/windows/desktop/api/coml2api/nf-coml2api-gethglobalfromilockbytes)
 -   [**GetHGlobalFromStream**](/windows/desktop/api/combaseapi/nf-combaseapi-gethglobalfromstream)
@@ -24,8 +25,8 @@ Functions are routines or subroutines that return a specific value or values. St
 -   [**OleConvertOLESTREAMToIStorage**](/windows/desktop/api/Ole2/nf-ole2-oleconvertolestreamtoistorage)
 -   [**OleConvertOLESTREAMToIStorageEx**](/windows/desktop/api/Ole2/nf-ole2-oleconvertolestreamtoistorageex)
 -   [**PropStgNameToFmtId**](/windows/desktop/api/coml2api/nf-coml2api-propstgnametofmtid)
--   [**PropVariantClear**](https://msdn.microsoft.com/library/Aa380073(v=VS.85).aspx)
--   [**PropVariantCopy**](https://msdn.microsoft.com/library/Aa380192(v=VS.85).aspx)
+-   [**PropVariantClear**](/windows/win32/api/combaseapi/nf-combaseapi-propvariantclear)
+-   [**PropVariantCopy**](/windows/win32/api/combaseapi/nf-combaseapi-propvariantcopy)
 -   [**PropVariantInit**](/windows/desktop/api/PropIdl/nf-propidl-propvariantinit)
 -   [**ReadClassStg**](/windows/desktop/api/coml2api/nf-coml2api-readclassstg)
 -   [**ReadClassStm**](/windows/desktop/api/coml2api/nf-coml2api-readclassstm)
@@ -50,7 +51,7 @@ Functions are routines or subroutines that return a specific value or values. St
 -   [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex)
 -   [**StgOpenStorageOnILockBytes**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageonilockbytes)
 -   [**StgPropertyLengthAsVariant**](/windows/desktop/api/Propapi/nf-propapi-stgpropertylengthasvariant)
--   [**StgSerializePropVariant**](https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-stgserializepropvariant)
+-   [**StgSerializePropVariant**](/windows/desktop/api/propvarutil/nf-propvarutil-stgserializepropvariant)
 -   [**StgSetTimes**](/windows/desktop/api/coml2api/nf-coml2api-stgsettimes)
 -   [**WriteClassStg**](/windows/desktop/api/coml2api/nf-coml2api-writeclassstg)
 -   [**WriteClassStm**](/windows/desktop/api/coml2api/nf-coml2api-writeclassstm)
@@ -59,7 +60,3 @@ Functions are routines or subroutines that return a specific value or values. St
  
 
  
-
-
-
-

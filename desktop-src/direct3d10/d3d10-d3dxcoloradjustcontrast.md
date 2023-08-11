@@ -1,22 +1,25 @@
 ---
-Description: Adjusts the contrast value of a color.
+description: D3DXColorAdjustContrast function (D3DX10Math.h) - Adjusts the contrast value of a color.
 ms.assetid: c111d3c7-19c6-4a6b-af0d-a9e1bc0bb7d9
 title: D3DXColorAdjustContrast function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXColorAdjustContrast
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXColorAdjustContrast function
+# D3DXColorAdjustContrast function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Adjusts the contrast value of a color.
 
@@ -40,7 +43,7 @@ D3DXCOLOR* D3DXColorAdjustContrast(
 *pOut* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/library/Bb172721(v=VS.85).aspx)\***
+Type: **[**D3DXCOLOR**](../direct3d9/d3dxcolor.md)\***
 
 \[in, out\] Pointer to a [**D3DXCOLOR**](d3d10-d3dxcolor.md) that is the result of the operation.
 
@@ -49,7 +52,7 @@ Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/library/Bb172721(v=VS.85).asp
 *pC* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXCOLOR**](https://msdn.microsoft.com/library/Bb172721(v=VS.85).aspx)\***
+Type: **const [**D3DXCOLOR**](../direct3d9/d3dxcolor.md)\***
 
 Pointer to a source D3DXCOLOR structure.
 
@@ -58,7 +61,7 @@ Pointer to a source D3DXCOLOR structure.
 *c* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Contrast value. This parameter linearly interpolates between fifty percent gray and the color, pC. There are no limits on the value of c. If this parameter is zero, then the returned color is fifty percent gray. If this parameter is 1, then the returned color is the original color.
 
@@ -66,7 +69,7 @@ Contrast value. This parameter linearly interpolates between fifty percent gray 
 
 ## Return value
 
-Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/library/Bb172721(v=VS.85).aspx)\***
+Type: **[**D3DXCOLOR**](../direct3d9/d3dxcolor.md)\***
 
 This function returns a pointer to a D3DXCOLOR structure that is the result of the contrast adjustment.
 
@@ -91,7 +94,7 @@ If c is greater than 0 and less than 1, the contrast is decreased. If c is great
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -108,7 +111,3 @@ If c is greater than 0 and less than 1, the contrast is decreased. If c is great
  
 
  
-
-
-
-

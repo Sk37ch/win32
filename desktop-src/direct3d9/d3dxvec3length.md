@@ -1,22 +1,25 @@
 ---
-Description: Returns the length of a 3D vector.
+description: Returns the length of a 3D vector.
 ms.assetid: 78da506c-3169-48e9-934c-cc09271a10d4
 title: D3DXVec3Length function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec3Length
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXVec3Length function
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Returns the length of a 3D vector.
 
@@ -46,7 +49,7 @@ Pointer to the source [**D3DXVECTOR3**](d3dxvector3.md) structure.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The vector's length.
 
@@ -54,7 +57,7 @@ The vector's length.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -74,7 +77,3 @@ The vector's length.
  
 
  
-
-
-
-

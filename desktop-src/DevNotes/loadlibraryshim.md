@@ -1,5 +1,5 @@
 ---
-Description: Loads a specified version of a .NET Framework library DLL.
+description: Loads a specified version of a .NET Framework library DLL.
 ms.assetid: f001774d-ea9a-4820-aec0-99ce958b1e1d
 title: LoadLibraryShim function
 ms.topic: reference
@@ -73,13 +73,13 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 This function is used to load library DLLs that are included in the .NET Framework redistributable package, not user-generated DLLs.
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Mscoree.dll</dt> </dl> |
 
@@ -88,7 +88,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

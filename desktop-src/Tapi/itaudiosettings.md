@@ -1,5 +1,5 @@
 ---
-Description: The ITAudioSettings interface exposes methods that allow an application to get and set parameters for control of an audio device.
+description: The ITAudioSettings interface exposes methods that allow an application to get and set parameters for control of an audio device.
 ms.assetid: 56607024-255d-4d1b-9ca0-6086eff7b7b2
 title: ITAudioSettings interface (Ipmsp.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ This interface is implemented by the [IPConf MSP](ipconf-msp.md) and the [H323 M
 
 ## Members
 
-The **ITAudioSettings** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITAudioSettings** also has these types of members:
+The **ITAudioSettings** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITAudioSettings** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -40,7 +40,7 @@ The **ITAudioSettings** interface has these methods.
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.1<br/>                                                         |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |
@@ -50,9 +50,4 @@ The **ITAudioSettings** interface has these methods.
 
 
  
-
- 
-
-
-
 

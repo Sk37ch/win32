@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 08/23/2022
 ---
 
 # EM\_GETTEXTEX message
@@ -40,19 +40,19 @@ Pointer to the buffer to receive the text. The size of this buffer, in bytes, is
 
 ## Return value
 
-The return value is the number of **TCHAR**s copied into the output buffer, including the null terminator.
+The return value is the number of **TCHAR**s copied into the output buffer, not including the null terminator.
 
 ## Remarks
 
 If the size of the output buffer is less than the size of the text in the control, the edit control will copy text from its beginning and place it in the buffer until the buffer is full. A terminating null character will still be placed at the end of the buffer.
 
-If ANSI text is requested, **EM\_GETTEXTEX** uses the [**WideCharToMultiByte**](https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte) function to translate the Unicode characters to ANSI. It allows you to go from Unicode to ANSI using a particular code page. The [**GETTEXTEX**](/windows/desktop/api/Richedit/ns-richedit-gettextex) structure contains members (**lpDefaultChar** and **lpUsedDefChar**) that are used in the translation from Unicode to ANSI.
+If ANSI text is requested, **EM\_GETTEXTEX** uses the [**WideCharToMultiByte**](/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte) function to translate the Unicode characters to ANSI. It allows you to go from Unicode to ANSI using a particular code page. The [**GETTEXTEX**](/windows/desktop/api/Richedit/ns-richedit-gettextex) structure contains members (**lpDefaultChar** and **lpUsedDefChar**) that are used in the translation from Unicode to ANSI.
 
 ## Requirements
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -76,17 +76,11 @@ If ANSI text is requested, **EM\_GETTEXTEX** uses the [**WideCharToMultiByte**](
 **Other Resources**
 </dt> <dt>
 
-[**WideCharToMultiByte**](https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte)
+[**WideCharToMultiByte**](/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte)
 </dt> <dt>
 
-[**WM\_SETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-settext)
+[**WM\_SETTEXT**](/windows/desktop/winmsg/wm-settext)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Texture filtering constants.
+description: Texture filtering constants.
 ms.assetid: 4434e456-670e-46a9-ba78-affdc195fe1c
 title: D3DPTFILTERCAPS
 ms.topic: article
@@ -14,8 +14,8 @@ Texture filtering constants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -24,7 +24,7 @@ Texture filtering constants.
 </tr>
 <tr class="even">
 <td>D3DPTFILTERCAPS_CONVOLUTIONMONO</td>
-<td>Device supports monochrome convolution filtering. This filter is represented by the D3DTEXF_CONVOLUTIONMONO member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dtexturefiltertype"><strong>D3DTEXTUREFILTERTYPE</strong></a> enumerated type. 
+<td>Device supports monochrome convolution filtering. This filter is represented by the D3DTEXF_CONVOLUTIONMONO member of the <a href="/windows/desktop/direct3d9/d3dtexturefiltertype"><strong>D3DTEXTUREFILTERTYPE</strong></a> enumerated type. 
 <table>
 <tbody>
 <tr class="odd">
@@ -37,19 +37,19 @@ Texture filtering constants.
 </tr>
 <tr class="odd">
 <td>D3DPTFILTERCAPS_MAGFPOINT</td>
-<td>Device supports per-stage point-sample filtering for magnifying textures. The point-sample magnification filter is represented by the D3DTEXF_POINT member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dtexturefiltertype"><strong>D3DTEXTUREFILTERTYPE</strong></a> enumerated type.</td>
+<td>Device supports per-stage point-sample filtering for magnifying textures. The point-sample magnification filter is represented by the D3DTEXF_POINT member of the <a href="/windows/desktop/direct3d9/d3dtexturefiltertype"><strong>D3DTEXTUREFILTERTYPE</strong></a> enumerated type.</td>
 </tr>
 <tr class="even">
 <td>D3DPTFILTERCAPS_MAGFLINEAR</td>
-<td>Device supports per-stage bilinear interpolation filtering for magnifying mipmaps. The bilinear interpolation mipmapping filter is represented by the D3DTEXF_LINEAR member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dtexturefiltertype"><strong>D3DTEXTUREFILTERTYPE</strong></a> enumerated type.</td>
+<td>Device supports per-stage bilinear interpolation filtering for magnifying mipmaps. The bilinear interpolation mipmapping filter is represented by the D3DTEXF_LINEAR member of the <a href="/windows/desktop/direct3d9/d3dtexturefiltertype"><strong>D3DTEXTUREFILTERTYPE</strong></a> enumerated type.</td>
 </tr>
 <tr class="odd">
 <td>D3DPTFILTERCAPS_MAGFANISOTROPIC</td>
-<td>Device supports per-stage anisotropic filtering for magnifying textures. The anisotropic magnification filter is represented by the D3DTEXF_ANISOTROPIC member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dtexturefiltertype"><strong>D3DTEXTUREFILTERTYPE</strong></a> enumerated type.</td>
+<td>Device supports per-stage anisotropic filtering for magnifying textures. The anisotropic magnification filter is represented by the D3DTEXF_ANISOTROPIC member of the <a href="/windows/desktop/direct3d9/d3dtexturefiltertype"><strong>D3DTEXTUREFILTERTYPE</strong></a> enumerated type.</td>
 </tr>
 <tr class="even">
 <td>D3DPTFILTERCAPS_MAGFPYRAMIDALQUAD</td>
-<td>Device supports per-stage pyramidal sample filtering for magnifying textures. The pyramidal magnifying filter is represented by the D3DTEXF_PYRAMIDALQUAD member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dtexturefiltertype"><strong>D3DTEXTUREFILTERTYPE</strong></a> enumerated type.</td>
+<td>Device supports per-stage pyramidal sample filtering for magnifying textures. The pyramidal magnifying filter is represented by the D3DTEXF_PYRAMIDALQUAD member of the <a href="/windows/desktop/direct3d9/d3dtexturefiltertype"><strong>D3DTEXTUREFILTERTYPE</strong></a> enumerated type.</td>
 </tr>
 <tr class="odd">
 <td>D3DPTFILTERCAPS_MAGFGAUSSIANQUAD</td>
@@ -57,15 +57,15 @@ Texture filtering constants.
 </tr>
 <tr class="even">
 <td>D3DPTFILTERCAPS_MINFPOINT</td>
-<td>Device supports per-stage point-sample filtering for minifying textures. The point-sample minification filter is represented by the D3DTEXF_POINT member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dtexturefiltertype"><strong>D3DTEXTUREFILTERTYPE</strong></a> enumerated type.</td>
+<td>Device supports per-stage point-sample filtering for minifying textures. The point-sample minification filter is represented by the D3DTEXF_POINT member of the <a href="/windows/desktop/direct3d9/d3dtexturefiltertype"><strong>D3DTEXTUREFILTERTYPE</strong></a> enumerated type.</td>
 </tr>
 <tr class="odd">
 <td>D3DPTFILTERCAPS_MINFLINEAR</td>
-<td>Device supports per-stage linear filtering for minifying textures. The linear minification filter is represented by the D3DTEXF_LINEAR member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dtexturefiltertype"><strong>D3DTEXTUREFILTERTYPE</strong></a> enumerated type.</td>
+<td>Device supports per-stage linear filtering for minifying textures. The linear minification filter is represented by the D3DTEXF_LINEAR member of the <a href="/windows/desktop/direct3d9/d3dtexturefiltertype"><strong>D3DTEXTUREFILTERTYPE</strong></a> enumerated type.</td>
 </tr>
 <tr class="even">
 <td>D3DPTFILTERCAPS_MINFANISOTROPIC</td>
-<td>Device supports per-stage anisotropic filtering for minifying textures. The anisotropic minification filter is represented by the D3DTEXF_ANISOTROPIC member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dtexturefiltertype"><strong>D3DTEXTUREFILTERTYPE</strong></a> enumerated type.</td>
+<td>Device supports per-stage anisotropic filtering for minifying textures. The anisotropic minification filter is represented by the D3DTEXF_ANISOTROPIC member of the <a href="/windows/desktop/direct3d9/d3dtexturefiltertype"><strong>D3DTEXTUREFILTERTYPE</strong></a> enumerated type.</td>
 </tr>
 <tr class="odd">
 <td>D3DPTFILTERCAPS_MINFPYRAMIDALQUAD</td>
@@ -77,11 +77,11 @@ Texture filtering constants.
 </tr>
 <tr class="odd">
 <td>D3DPTFILTERCAPS_MIPFPOINT</td>
-<td>Device supports per-stage point-sample filtering for mipmaps. The point-sample mipmapping filter is represented by the D3DTEXF_POINT member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dtexturefiltertype"><strong>D3DTEXTUREFILTERTYPE</strong></a> enumerated type.</td>
+<td>Device supports per-stage point-sample filtering for mipmaps. The point-sample mipmapping filter is represented by the D3DTEXF_POINT member of the <a href="/windows/desktop/direct3d9/d3dtexturefiltertype"><strong>D3DTEXTUREFILTERTYPE</strong></a> enumerated type.</td>
 </tr>
 <tr class="even">
 <td>D3DPTFILTERCAPS_MIPFLINEAR</td>
-<td>Device supports per-stage bilinear interpolation filtering for mipmaps. The bilinear interpolation mipmapping filter is represented by the D3DTEXF_LINEAR member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dtexturefiltertype"><strong>D3DTEXTUREFILTERTYPE</strong></a> enumerated type.</td>
+<td>Device supports per-stage bilinear interpolation filtering for mipmaps. The bilinear interpolation mipmapping filter is represented by the D3DTEXF_LINEAR member of the <a href="/windows/desktop/direct3d9/d3dtexturefiltertype"><strong>D3DTEXTUREFILTERTYPE</strong></a> enumerated type.</td>
 </tr>
 </tbody>
 </table>
@@ -96,7 +96,7 @@ These constants are used by TextureFilterCaps, CubeTextureFilterCaps, VolumeText
 
 
 
-|                          |            |
+|  Requirement                        | Value           |
 |--------------------------|------------|
 | Header                   | d3d9caps.h |
 | Minimum operating system | Windows 98 |
@@ -115,7 +115,3 @@ These constants are used by TextureFilterCaps, CubeTextureFilterCaps, VolumeText
  
 
  
-
-
-
-

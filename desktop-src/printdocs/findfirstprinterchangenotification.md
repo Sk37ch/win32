@@ -1,5 +1,5 @@
 ---
-Description: The FindFirstPrinterChangeNotification function creates a change notification object and returns a handle to the object. You can then use this handle in a call to one of the wait functions to monitor changes to the printer or print server.
+description: The FindFirstPrinterChangeNotification function creates a change notification object and returns a handle to the object. You can then use this handle in a call to one of the wait functions to monitor changes to the printer or print server.
 ms.assetid: 4155ef5c-cd96-4960-919b-d9a495bb73a5
 title: FindFirstPrinterChangeNotification function (Winspool.h)
 ms.topic: reference
@@ -118,7 +118,7 @@ If the function fails, the return value is INVALID\_HANDLE\_VALUE.
 
  
 
-To monitor a printer or print server, call the **FindFirstPrinterChangeNotification** function, then use the returned change notification object handle in a call to one of the [wait functions](https://docs.microsoft.com/windows/desktop/Sync/wait-functions). A wait operation on a change notification object is satisfied when the change notification object enters the signaled state. The system signals the object when one or more of the changes specified by *fdwFilter* or *pPrinterNotifyOptions* occurs in the monitored printer or print server.
+To monitor a printer or print server, call the **FindFirstPrinterChangeNotification** function, then use the returned change notification object handle in a call to one of the [wait functions](/windows/desktop/Sync/wait-functions). A wait operation on a change notification object is satisfied when the change notification object enters the signaled state. The system signals the object when one or more of the changes specified by *fdwFilter* or *pPrinterNotifyOptions* occurs in the monitored printer or print server.
 
 When you call **FindFirstPrinterChangeNotification**, either *fdwFilter* must be nonzero or *pPrinterNotifyOptions* must be non-**NULL**. If both are specified, notifications will occur for both.
 
@@ -141,7 +141,7 @@ Callers of **FindFirstPrinterChangeNotification** must ensure that the printer h
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -177,9 +177,4 @@ Callers of **FindFirstPrinterChangeNotification** must ensure that the printer h
 </dt> </dl>
 
  
-
- 
-
-
-
 

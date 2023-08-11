@@ -1,5 +1,5 @@
 ---
-Description: The Invoke method of the CIM\_DiskSpaceCheck class evaluates a particular check. The details of how the method evaluates a particular check in a CIM context is described by the non-abstract CIM\_Check subclass.
+description: The Invoke method of the CIM\_DiskSpaceCheck class evaluates a particular check. The details of how the method evaluates a particular check in a CIM context is described by the non-abstract CIM\_Check subclass.
 ms.assetid: 1f06b0c4-3f39-4a6f-9205-2aa309fb06bb
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_DiskSpaceCheck class
@@ -25,7 +25,7 @@ The **Invoke** method of the [**CIM\_DiskSpaceCheck**](cim-diskspacecheck.md) cl
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -54,7 +54,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -75,9 +75,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

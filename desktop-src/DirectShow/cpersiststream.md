@@ -1,9 +1,9 @@
 ---
-Description: CPersistStream is the base class for persistent properties of filters (that is, filter properties in saved graphs).
+description: CPersistStream is the base class for persistent properties of filters (that is, filter properties in saved graphs).
 ms.assetid: 8073e2be-aaf9-4b01-a7d5-bab5c1dcc19b
 title: CPersistStream class
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -12,9 +12,12 @@ api_name:
 api_type: 
 - COM
 api_location: 
+ms.custom: UpdateFrequency5
 ---
 
 # CPersistStream class
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 ![cpersiststream class hierarchy](images/pstrm01.png)
 
@@ -35,7 +38,7 @@ The simplest way to use `CPersistStream` is to:
 
 At some point you might decide to alter or extend the format of your data. You will then wish you had a version number in all the old saved streams so you can tell, when you read them, whether they represent the old or new form. To assist you, this class writes and reads a version number. When it writes, it calls [**GetSoftwareVersion**](cpersiststream-getsoftwareversion.md) to inquire as to the version of the software being used at the moment. (In effect, this is a version number of the data layout in the file.) It writes this as the first thing in the data. If you want to change the version, implement (override) **GetSoftwareVersion**. It reads the version number from the file into **mPS\_dwFileVersion** before calling [**ReadFromStream**](cpersiststream-readfromstream.md), so in **ReadFromStream** you can check **mPS\_dwFileVersion** to see if you are reading an old version file. Usually you should accept files whose version is no newer than the software version that is reading them.
 
-**CPersistStream** implements [**IPersistStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream). For more implementation information, see the COM Reference in the Microsoft Platform SDK.
+**CPersistStream** implements [**IPersistStream**](/windows/desktop/api/objidl/nn-objidl-ipersiststream). For more implementation information, see the COM Reference in the Microsoft Platform SDK.
 
 
 
@@ -65,6 +68,3 @@ At some point you might decide to alter or extend the format of your data. You w
  
 
  
-
-
-

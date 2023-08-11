@@ -10,10 +10,13 @@ keywords:
 - profiles,objects
 - profiles,profile manager objects
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Profile Manager Object
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 A profile is a set of media parameters used to create an ASF file. The profile manager object creates profile objects for editing. Profile objects can be created without any data in them or built from existing profile data. The profile manager object also provides methods for enumerating supported codecs and querying those codecs for information.
 
@@ -26,11 +29,11 @@ The following interfaces are supported by the profile manager object.
 | Interface                                                      | Description                                                                                                                                  |
 |----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IWMCodecInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo)                           | Retrieves information about supported codecs and their formats.                                                                              |
-| [**IWMCodecInfo2**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo2)                         | Retrieves the names of the supported codecs and the descriptions of their formats. Inherits all of the methods of **IWMCodecInfo**.          |
-| [**IWMCodecInfo3**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3)                         | Retrieves codec properties and queries codecs for supported features. Inherits all of the methods of **IWMCodecInfo** and **IWMCodecInfo2**. |
+| [**IWMCodecInfo2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo2)                         | Retrieves the names of the supported codecs and the descriptions of their formats. Inherits all of the methods of **IWMCodecInfo**.          |
+| [**IWMCodecInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3)                         | Retrieves codec properties and queries codecs for supported features. Inherits all of the methods of **IWMCodecInfo** and **IWMCodecInfo2**. |
 | [**IWMProfileManager**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager)                 | Creates new profiles, loads existing profiles, and saves custom profiles.                                                                    |
-| [**IWMProfileManager2**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager2)               | Controls the version of system profiles enumerated by the profile manager. Inherits all of the methods of **IWMProfileManager**.             |
-| [**IWMProfileManagerLanguage**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanagerlanguage) | Controls the language of the system profiles parsed by the profile manager.                                                                  |
+| [**IWMProfileManager2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager2)               | Controls the version of system profiles enumerated by the profile manager. Inherits all of the methods of **IWMProfileManager**.             |
+| [**IWMProfileManagerLanguage**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanagerlanguage) | Controls the language of the system profiles parsed by the profile manager.                                                                  |
 
 
 

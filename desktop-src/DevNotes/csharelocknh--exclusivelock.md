@@ -1,5 +1,5 @@
 ---
-Description: Acquires a reader/writer lock.
+description: Acquires a reader/writer lock.
 ms.assetid: fd212dd9-034b-4e0c-9111-e3460ea6f133
 title: CShareLockNH::ExclusiveLock method
 ms.topic: reference
@@ -40,13 +40,13 @@ This method does not return a value.
 
 Each call to **ExclusiveLock** must be paired with exactly one call to [**ExclusiveUnlock**](csharelocknh--exclusiveunlock.md) to avoid the risk of a deadlock.
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                     |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Rwnh.dll</dt> </dl> |
 
@@ -62,7 +62,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

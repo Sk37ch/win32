@@ -1,5 +1,5 @@
 ---
-Description: Sets the stream configuration for the WTV media source.
+description: Sets the stream configuration for the WTV media source.
 ms.assetid: 2181723A-C6E8-42BD-979C-5C26FE3986C4
 title: MFPKEY_SBESourceMode property (Mfidl.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ VT\_INT
 
 ## Remarks
 
-Use this property to configure the WTV media source. To set the property, pass an [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) pointer to the source resolver. For more information, see [Configuring a Media Source](configuring-a-media-source.md).
+Use this property to configure the WTV media source. To set the property, pass an [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) pointer to the source resolver. For more information, see [Configuring a Media Source](configuring-a-media-source.md).
 
 The WTV media source reads Windows Recorded TV Show (.wtv and .ms-drv) files.
 
@@ -41,7 +41,7 @@ This property must have one of the following values.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                        |
@@ -59,7 +59,3 @@ This property must have one of the following values.
  
 
  
-
-
-
-

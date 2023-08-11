@@ -1,5 +1,5 @@
 ---
-Description: Power setting change event sent with a WM\_POWERBROADCAST window message or in a HandlerEx notification callback for services.
+description: Power setting change event sent with a WM\_POWERBROADCAST window message or in a HandlerEx notification callback for services.
 ms.assetid: 0bcadb85-47c5-48a9-b3f9-f0a1ca60b503
 title: PBT_POWERSETTINGCHANGE event (WinUser.h)
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PBT\_POWERSETTINGCHANGE event
 
-Power setting change event sent with a [**WM\_POWERBROADCAST**](wm-powerbroadcast.md) window message or in a [**HandlerEx**](https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex) notification callback for services.
+Power setting change event sent with a [**WM\_POWERBROADCAST**](wm-powerbroadcast.md) window message or in a [**HandlerEx**](/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex) notification callback for services.
 
 
 ```C++
@@ -68,7 +68,7 @@ No return value.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |
@@ -83,7 +83,7 @@ No return value.
 [Power Management Events](power-management-events.md)
 </dt> <dt>
 
-[**HandlerEx**](https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex)
+[**HandlerEx**](/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex)
 </dt> <dt>
 
 [**WM\_POWERBROADCAST**](wm-powerbroadcast.md)
@@ -93,9 +93,4 @@ No return value.
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LGPOS.CompareTo method"
 title: JET_LGPOS.CompareTo method 
 TOCTitle: 'CompareTo method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_LGPOS.CompareTo(Microsoft.Isam.Esent.Interop.JET_LGPOS)
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Compares this log position to another log position and determines whether this instance is before, the same as or after the other instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,26 +58,25 @@ public int CompareTo(
 #### Parameters
 
   - other  
-    Type: [Microsoft.Isam.Esent.Interop.JET_LGPOS](hh578063\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_LGPOS](./jet-lgpos-structure2.md)  
     
     The log position to compare to the current instance.
 
 #### Return value
 
-Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+Type: [System.Int32](/dotnet/api/system.int32)  
 A signed number indicating the relative positions of this instance and the value parameter.  
 
 #### Implements
 
-[IComparable\<T\>.CompareTo(T)](https://docs.microsoft.com/dotnet/api/system.icomparable-1.compareto?redirectedfrom=MSDN#System_IComparable_1_CompareTo__0_)  
+[IComparable\<T\>.CompareTo(T)](/dotnet/api/system.icomparable-1.compareto#System_IComparable_1_CompareTo__0_)  
 
 ## See also
 
 #### Reference
 
-[JET_LGPOS structure](hh578063\(v=exchg.10\).md)
+[JET_LGPOS structure](./jet-lgpos-structure2.md)
 
-[JET_LGPOS members](hh566576\(v=exchg.10\).md)
+[JET_LGPOS members](./jet-lgpos-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

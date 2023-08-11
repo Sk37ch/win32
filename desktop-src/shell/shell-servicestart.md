@@ -1,5 +1,5 @@
 ---
-Description: Starts a named service.
+description: Shell.ServiceStart method - Starts a named service.
 ms.assetid: 72214E80-38A2-4a57-B555-942902BAFC3D
 title: Shell.ServiceStart method (Shldisp.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ Shell.ServiceStart( _
 *sServiceName* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** that contains the name of the service.
 
@@ -80,7 +80,7 @@ Returns **true** if successful; otherwise, **false**.
 
 ## Remarks
 
-The method returns **false** if the service has already been started. Before calling this method, you can call [**Shell.IsServiceRunning**](https://msdn.microsoft.com/library/Gg537742(v=VS.85).aspx) to ascertain the status of the service.
+The method returns **false** if the service has already been started. Before calling this method, you can call [**Shell.IsServiceRunning**](./shell-isservicerunning.md) to ascertain the status of the service.
 
 This method is not currently available in Microsoft Visual Basic.
 
@@ -128,7 +128,7 @@ VBScript:
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |
@@ -141,7 +141,3 @@ VBScript:
  
 
  
-
-
-
-

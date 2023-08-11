@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ActionSequence association defines a series of operations that transition the software element (referenced by the CIM\_SoftwareElementActions association) to its next state, or removes the software element from its current state.
+description: The CIM\_ActionSequence association defines a series of operations that transition the software element (referenced by the CIM\_SoftwareElementActions association) to its next state, or removes the software element from its current state.
 ms.assetid: b539c424-bc2a-414b-b56c-72550004720f
 ms.tgt_platform: multiple
 title: CIM_ActionSequence class
@@ -69,7 +69,7 @@ Data type: **CIM\_Action**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0)
+Qualifiers: [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (0)
 </dt> </dl>
 
 Reference to the next action.
@@ -85,7 +85,7 @@ Data type: **CIM\_Action**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0)
+Qualifiers: [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (0)
 </dt> </dl>
 
 Reference to the prior action.
@@ -104,7 +104,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -118,13 +118,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 <dl> <dt>
 
-[CIM Classes](https://docs.microsoft.com/windows/desktop/WmiSdk/cimclas)
+[CIM Classes](/windows/desktop/WmiSdk/cimclas)
 </dt> </dl>
 
  
-
- 
-
-
-
 

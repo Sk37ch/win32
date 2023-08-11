@@ -36,13 +36,13 @@ The width, specified in pixels, of the margin that surrounds a bitmap within an 
 
 ## Return value
 
-Returns the width of the bitmap margin, in pixels. If the bitmap margin was not previously specified, the default value of 3\* [**GetSystemMetrics**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) (*SM\_CXEDGE*) is returned.
+Returns the width of the bitmap margin, in pixels. If the bitmap margin was not previously specified, the default value of 3\* [**GetSystemMetrics**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) (*SM\_CXEDGE*) is returned.
 
 ## Requirements
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -58,10 +58,4 @@ Returns the width of the bitmap margin, in pixels. If the bitmap margin was not 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

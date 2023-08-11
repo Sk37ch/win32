@@ -1,5 +1,5 @@
 ---
-Description: The subject field of a PKCS \#10 certificate request contains the distinguished name of the entity requesting the certificate.
+description: The subject field of a PKCS \#10 certificate request contains the distinguished name of the entity requesting the certificate.
 ms.assetid: 6c35ce42-07be-4d47-a14e-ed5a361dbe33
 title: Subject Names
 ms.topic: article
@@ -52,12 +52,9 @@ For more information, see the following topics:
 
 <dl> <dt>
 
-[Requests](https://docs.microsoft.com/windows/desktop/SecCrypto/requests)
+[Requests](/windows/desktop/SecCrypto/requests)
 </dt> </dl>
 
  
 
  
-
-
-

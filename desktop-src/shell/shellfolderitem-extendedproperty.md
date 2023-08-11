@@ -1,5 +1,5 @@
 ---
-Description: Gets the value of a property from an item's property set. The property can be specified either by name or by the property set's format identifier (FMTID) and property identifier (PID).
+description: Gets the value of a property from an item's property set. The property can be specified either by name or by the property set's format identifier (FMTID) and property identifier (PID).
 ms.assetid: ca787d7b-d95a-45b9-9627-fd505f99f868
 title: ShellFolderItem.ExtendedProperty method (Shldisp.h)
 ms.topic: reference
@@ -37,7 +37,7 @@ retVal = ShellFolderItem.ExtendedProperty(
 *sPropName* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** value that specifies the property. See the Remarks section for details.
 
@@ -53,11 +53,11 @@ This method returns a zero-length string if the property is valid but does not e
 
 ## Remarks
 
-There are two ways to specify a property. The first is to assign the property's well-known name, such as "Author" or "Date", to *sPropName*. However, each property is a member of a Component Object Model (COM) property set and can also be identified by specifying its format ID (FMTID) and property ID (PID). An [**FMTID**](https://msdn.microsoft.com/library/Aa380367(v=VS.85).aspx) is a GUID that identifies the property set, and a [**PID**](https://msdn.microsoft.com/library/Aa380367(v=VS.85).aspx) is an integer that identifies a particular property within the property set.
+There are two ways to specify a property. The first is to assign the property's well-known name, such as "Author" or "Date", to *sPropName*. However, each property is a member of a Component Object Model (COM) property set and can also be identified by specifying its format ID (FMTID) and property ID (PID). An [**FMTID**](../stg/structured-storage-serialized-property-set-format.md) is a GUID that identifies the property set, and a [**PID**](../stg/structured-storage-serialized-property-set-format.md) is an integer that identifies a particular property within the property set.
 
 Specifying a property by its FMTID/PID values is usually more efficient than using its name. To use a property's FMTID/PID values with **ExtendedProperty**, they must be combined into an SCID. An SCID is a string that contains the FMTID/PID values in the form "*FMTID**PID*", where the FMTID is the string form of the property set's GUID. For example, the SCID of the summary information property set's author property is "{F29F85E0-4FF9-1068-AB91-08002B27B3D9} 4".
 
-For a list of FMTIDs and PIDs that are currently supported by the Shell, see [**SHCOLUMNID**](https://msdn.microsoft.com/library/Bb759748(v=VS.85).aspx).
+For a list of FMTIDs and PIDs that are currently supported by the Shell, see [**SHCOLUMNID**](./objects.md).
 
 ## Examples
 
@@ -198,7 +198,7 @@ End Sub
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |
@@ -211,7 +211,3 @@ End Sub
  
 
  
-
-
-
-

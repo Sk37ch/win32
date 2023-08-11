@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.FocalLengthInFilm property.
+description: The photo metadata policy for the System.Photo.FocalLengthInFilm property.
 ms.assetid: 3ad63a7a-5ced-4e7f-a4a0-e1463f3d3fa3
 title: System.Photo.FocalLengthInFilm Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.FocalLengthInFilm Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.FocalLengthInFilm](https://msdn.microsoft.com/library/bb760464(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.FocalLengthInFilm](../properties/props-system-photo-focallengthinfilm.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Photo.FocalLengthInFilm](https://msdn.microsoft.com/library/bb760464(VS.85).aspx)
+[System.Photo.FocalLengthInFilm](../properties/props-system-photo-focallengthinfilm.md)
 </dt> </dl>
 
  
 
  
-
-
-

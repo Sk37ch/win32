@@ -1,5 +1,5 @@
 ---
-Description: Terminates the trace.
+description: Terminates the trace.
 ms.assetid: e823ed82-1966-4e44-b062-0c8ab0fb5f6e
 title: TermAsyncTrace function
 ms.topic: reference
@@ -40,13 +40,13 @@ This function returns **TRUE** if it succeeds; otherwise, it returns **FALSE**.
 
 Exstrace.dll is an optional component that installs with the Simple Mail Transfer Protocol (SMTP) and the Network News Transfer Protocol (NNTP).
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Exstrace.dll</dt> </dl> |
 
@@ -55,7 +55,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

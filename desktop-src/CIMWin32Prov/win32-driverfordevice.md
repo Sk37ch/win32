@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_DriverForDevice association WMI class relates a printer instance to a printer driver instance.
+description: The Win32\_DriverForDevice association WMI class relates a printer instance to a printer driver instance.
 ms.assetid: 56ff74b2-31ba-4d8e-b389-9f962932aa03
 ms.tgt_platform: multiple
 title: Win32_DriverForDevice class
@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_DriverForDevice class
 
-The **Win32\_DriverForDevice** association [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) relates a printer instance to a printer driver instance.
+The **Win32\_DriverForDevice** association [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) relates a printer instance to a printer driver instance.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -84,7 +84,7 @@ The **Win32\_DriverForDevice** class is derived from [**CIM\_Dependency**](cim-d
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
@@ -102,9 +102,4 @@ The **Win32\_DriverForDevice** class is derived from [**CIM\_Dependency**](cim-d
 </dt> </dl>
 
  
-
- 
-
-
-
 

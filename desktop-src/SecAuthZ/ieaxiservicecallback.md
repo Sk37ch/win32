@@ -1,5 +1,5 @@
 ---
-Description: Called by the IeAxiSystemInstaller interface to verify that an ActiveX object can be installed.
+description: Called by the IeAxiSystemInstaller interface to verify that an ActiveX object can be installed.
 ms.assetid: d5cd6263-d07e-4261-9463-b9a06e883f16
 title: IeAxiServiceCallback interface
 ms.topic: reference
@@ -42,7 +42,7 @@ interface IeAxiServiceCallback : IUnknown
 
 ## Members
 
-The **IeAxiServiceCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IeAxiServiceCallback** also has these types of members:
+The **IeAxiServiceCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IeAxiServiceCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -64,7 +64,7 @@ The **IeAxiServiceCallback** interface has these methods.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                                 |
@@ -73,9 +73,4 @@ The **IeAxiServiceCallback** interface has these methods.
 
 
  
-
- 
-
-
-
 

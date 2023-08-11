@@ -1,5 +1,5 @@
 ---
-Description: Uncompresses the logical data file (or directory) that is specified in the object path. This method is an extended version of the Uncompress method and is inherited from CIM\_LogicalFile.
+description: Uncompresses the logical data file (or directory) that is specified in the object path. This method is an extended version of the Uncompress method and is inherited from CIM\_LogicalFile.
 ms.assetid: 30b62930-1d4a-47c0-8b57-b460edb5dbd0
 ms.tgt_platform: multiple
 title: UncompressEx method of the CIM_DataFile class
@@ -25,7 +25,7 @@ The **UncompressEx** method uncompresses the logical data file (or directory) th
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -54,7 +54,7 @@ Name of the file (or directory) where the method failed. This parameter is **nul
 *StartFileName* \[in\]
 </dt> <dd>
 
-Child file (or directory) to use as a starting point for this method. Typically, the *StartFileName* parameter is the *StopFileName* parameter specifying the file (or directory) at which an error occurred from the previous method call. If this parameter is **null**, the operation is performed on the file (or directory) specified in the [**ExecMethod**](https://docs.microsoft.com/windows/desktop/WmiSdk/swbemservices-execmethod) call.
+Child file (or directory) to use as a starting point for this method. Typically, the *StartFileName* parameter is the *StopFileName* parameter specifying the file (or directory) at which an error occurred from the previous method call. If this parameter is **null**, the operation is performed on the file (or directory) specified in the [**ExecMethod**](/windows/desktop/WmiSdk/swbemservices-execmethod) call.
 
 If *StartFileName* is used, *Recursive* must be set to true as well.
 
@@ -69,7 +69,7 @@ If **TRUE**, the method is also applied recursively to files and directories wit
 
 ## Return value
 
-Returns a value of 0 (zero) on success, and any other number to indicate an error. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+Returns a value of 0 (zero) on success, and any other number to indicate an error. For additional error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -174,7 +174,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -194,16 +194,11 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_DataFile**](cim-datafile.md)
 </dt> <dt>
 
-[WMI Tasks: Files and Folders](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--files-and-folders)
+[WMI Tasks: Files and Folders](/windows/desktop/WmiSdk/wmi-tasks--files-and-folders)
 </dt> <dt>
 
-[**File and Directory Access Rights Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/file-and-directory-access-rights-constants)
+[**File and Directory Access Rights Constants**](/windows/desktop/WmiSdk/file-and-directory-access-rights-constants)
 </dt> </dl>
 
  
-
- 
-
-
-
 

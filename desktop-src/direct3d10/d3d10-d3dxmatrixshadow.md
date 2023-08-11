@@ -1,22 +1,25 @@
 ---
-Description: Builds a matrix that flattens geometry into a plane.
+description: D3DXMatrixShadow function (D3DX10Math.h) - Builds a matrix that flattens geometry into a plane.
 ms.assetid: 83c9e7d6-fc6c-48e7-bbf2-6aa10868351d
 title: D3DXMatrixShadow function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixShadow
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXMatrixShadow function
+# D3DXMatrixShadow function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a matrix that flattens geometry into a plane.
 
@@ -40,7 +43,7 @@ D3DXMATRIX* D3DXMatrixShadow(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the result of the operation.
 
@@ -49,7 +52,7 @@ Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the resul
 *pLight* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointer to a [**D3DXVECTOR4**](d3d10-d3dxvector4.md) describing the light's position.
 
@@ -58,7 +61,7 @@ Pointer to a [**D3DXVECTOR4**](d3d10-d3dxvector4.md) describing the light's posi
 *pPlane* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXPLANE**](https://msdn.microsoft.com/library/Bb205385(v=VS.85).aspx)\***
+Type: **const [**D3DXPLANE**](../direct3d9/d3dxplane.md)\***
 
 Pointer to the source [**D3DXPLANE**](d3d10-d3dxplane.md).
 
@@ -66,7 +69,7 @@ Pointer to the source [**D3DXPLANE**](d3d10-d3dxplane.md).
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to a D3DXMATRIX structure that flattens geometry into a plane.
 
@@ -83,7 +86,7 @@ This function uses the following formula to compute the returned matrix.
 P = normalize(Plane);
 L = Light;
 d = dot(P, L)
-    
+
 P.a * L.x + d  P.a * L.y      P.a * L.z      P.a * L.w  
 P.b * L.x      P.b * L.y + d  P.b * L.z      P.b * L.w  
 P.c * L.x      P.c * L.y      P.c * L.z + d  P.c * L.w  
@@ -98,7 +101,7 @@ If the light's w-component is 0, the ray from the origin to the light represents
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -115,7 +118,3 @@ If the light's w-component is 0, the ray from the origin to the light represents
  
 
  
-
-
-
-

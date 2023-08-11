@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the core encoder uses the &\#0034;Plus&\#0034; feature.
+description: Specifies whether the core encoder uses the &\#0034;Plus&\#0034; feature.
 ms.assetid: 1ace09da-7dee-469e-a533-63b40ac747ab
 title: MFPKEY_ENHANCED_WMA Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Specifies whether the core encoder uses the "Plus" feature.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -34,7 +34,7 @@ This property alters the enumerated media types, so if you set it, you must do s
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows Vista or Windows 7<br/>                                                   |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |
@@ -51,7 +51,3 @@ This property alters the enumerated media types, so if you set it, you must do s
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Handles words identified by word breaks during both index time and query time.
+description: Handles words identified by word breaks during both index time and query time.
 ms.assetid: 220FCAE5-D22D-45ED-9689-E78C0D8E0BB3
 title: IWordSink interface (Search.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ Handles words identified by word breaks during both index time and query time.
 
 ## Members
 
-The **IWordSink** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IWordSink** also has these types of members:
+The **IWordSink** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IWordSink** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -47,13 +47,13 @@ The **IWordSink** interface has these methods.
 
 Windows Search creates and initializes instances of the **IWordSink** object. The **IWordSink** object receives the *fQuery* parameter during initialization and uses this parameter to determine the word-breaking context in which the object is used.
 
-[**IWordBreaker**](https://msdn.microsoft.com/library/Bb266433(v=VS.85).aspx) implementations receive a pointer to the **IWordSink** object in the [**IWordBreaker::BreakText**](https://msdn.microsoft.com/library/Bb266429(v=VS.85).aspx) method.
+[**IWordBreaker**](/windows/win32/api/indexsrv/nn-indexsrv-iwordbreaker) implementations receive a pointer to the **IWordSink** object in the [**IWordBreaker::BreakText**](/windows/win32/api/indexsrv/nf-indexsrv-iwordbreaker-breaktext) method.
 
 ## Requirements
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
@@ -64,7 +64,3 @@ Windows Search creates and initializes instances of the **IWordSink** object. Th
  
 
  
-
-
-
-

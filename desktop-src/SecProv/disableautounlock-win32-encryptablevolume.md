@@ -1,5 +1,5 @@
 ---
-Description: Removes the external key saved onto the currently running operating system volume.
+description: Removes the external key saved onto the currently running operating system volume.
 ms.assetid: a8c4bb3b-6566-4173-b550-e89740f1cba6
 title: DisableAutoUnlock method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -57,13 +57,13 @@ This method returns one of the following codes or another error code if it fails
 
 If no errors are returned, this method removes from the registry any volume protector IDs and external keys used to automatically unlock the volume.
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/Aa823192(v=VS.85).aspx).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |
@@ -82,7 +82,3 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
  
 
  
-
-
-
-

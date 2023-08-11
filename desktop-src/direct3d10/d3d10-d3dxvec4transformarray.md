@@ -1,21 +1,24 @@
 ---
-Description: Transforms an array (x, y, z, w) by a given matrix.
+description: Transforms an array (x, y, z, w) by a given matrix.
 ms.assetid: afd5cccb-e22f-4726-a84e-9eac1c1c277f
 title: D3DXVec4TransformArray function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec4TransformArray
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3DX10Math.h
 ---
 
-# D3DXVec4TransformArray function
+# D3DXVec4TransformArray function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Transforms an array (x, y, z, w) by a given matrix.
 
@@ -42,7 +45,7 @@ D3DXVECTOR4* D3DXVec4TransformArray(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointer to the [**D3DXVECTOR4**](d3d10-d3dxvector4.md) array that is the result of the operation.
 
@@ -51,7 +54,7 @@ Pointer to the [**D3DXVECTOR4**](d3d10-d3dxvector4.md) array that is the result 
 *OutStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Stride between vectors in the output data stream.
 
@@ -60,7 +63,7 @@ Stride between vectors in the output data stream.
 *pV* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointer to the source D3DXVECTOR4 array.
 
@@ -69,7 +72,7 @@ Pointer to the source D3DXVECTOR4 array.
 *VStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Stride between vectors in the input data stream.
 
@@ -78,7 +81,7 @@ Stride between vectors in the input data stream.
 *pM* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **const [**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure.
 
@@ -87,7 +90,7 @@ Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure.
 *n* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of elements in the array.
 
@@ -95,7 +98,7 @@ Number of elements in the array.
 
 ## Return value
 
-Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointer to a [**D3DXVECTOR4**](d3d10-d3dxvector4.md) structure that is the transformed array.
 
@@ -109,7 +112,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 
@@ -125,7 +128,3 @@ The return value for this function is the same value returned in the *pOut* para
  
 
  
-
-
-
-

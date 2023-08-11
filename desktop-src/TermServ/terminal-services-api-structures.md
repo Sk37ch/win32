@@ -15,7 +15,7 @@ The following structures are used with the Remote Desktop Services API.
 
 <dl> <dt>
 
-[**CHANNEL\_DEF**](/windows/desktop/api/Pchannel/ns-pchannel-tagchannel_def)
+[**CHANNEL\_DEF**](/previous-versions/windows/embedded/aa513856(v=msdn.10))
 </dt> <dd>
 
 Contains the name and options of a Remote Desktop Services virtual channel.
@@ -123,7 +123,7 @@ Contains information about sessions that are available to Remote Desktop Connect
 [**WTSSESSION\_NOTIFICATION**](/windows/win32/api/winuser/ns-winuser-wtssession_notification)
 </dt> <dd>
 
-Provides information about the session change notification. A service receives this structure in its [*HandlerEx*](https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex) function in response to a session change event.
+Provides information about the session change notification. A service receives this structure in its [*HandlerEx*](/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex) function in response to a session change event.
 
 </dd> <dt>
 
@@ -162,7 +162,7 @@ Contains extended information about a process running on a RD Session Host serv
 
 </dd> <dt>
 
-[**WTS\_PRODUCT\_INFO**](https://msdn.microsoft.com/library/Mt283722(v=VS.85).aspx)
+**WTS\_PRODUCT\_INFO**
 </dt> <dd>
 
 The details of the product license that is required to connect to a terminal server.
@@ -200,7 +200,3 @@ Contains extended information about a client session on a RD Session Host serve
  
 
  
-
-
-
-

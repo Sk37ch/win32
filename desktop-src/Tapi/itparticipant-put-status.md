@@ -1,5 +1,5 @@
 ---
-Description: The put\_Status method sets the status of a participant.
+description: The put\_Status method sets the status of a participant.
 ms.assetid: 8478fcf4-00b3-4b77-9859-e5a80ce24be1
 title: ITParticipant::put_Status method (Ipmsp.h)
 ms.topic: reference
@@ -31,7 +31,7 @@ HRESULT put_Status(
 *pITStream* \[in\]
 </dt> <dd>
 
-Pointer to [**ITStream**](https://msdn.microsoft.com/library/ms732390(v=VS.85).aspx) interface.
+Pointer to [**ITStream**](/windows/win32/api/tapi3if/nn-tapi3if-itstream) interface.
 
 </dd> <dt>
 
@@ -68,7 +68,7 @@ Enabling or disabling a participant's status on a stream allows an application t
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |
@@ -84,16 +84,11 @@ Enabling or disabling a participant's status on a stream allows an application t
 [**ITParticipant**](itparticipant.md)
 </dt> <dt>
 
-[**ITStream**](https://msdn.microsoft.com/library/ms732390(v=VS.85).aspx)
+[**ITStream**](/windows/win32/api/tapi3if/nn-tapi3if-itstream)
 </dt> <dt>
 
 [**get\_Status**](itparticipant-get-status.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

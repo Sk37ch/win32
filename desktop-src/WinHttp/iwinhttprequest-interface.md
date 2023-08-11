@@ -1,5 +1,5 @@
 ---
-Description: The IWinHttpRequest interface provides all of the nonevent methods for Microsoft Windows HTTP Services (WinHTTP).
+description: The IWinHttpRequest interface provides all of the nonevent methods for Microsoft Windows HTTP Services (WinHTTP).
 ms.assetid: 6417b3b5-b74a-4c7b-acf9-87e2e814a4df
 title: IWinHttpRequest interface
 ms.topic: reference
@@ -21,7 +21,7 @@ The **IWinHttpRequest** interface provides all of the nonevent methods for [Micr
 
 ## Members
 
-The **IWinHttpRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWinHttpRequest** also has these types of members:
+The **IWinHttpRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWinHttpRequest** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -61,7 +61,7 @@ The **IWinHttpRequest** interface has these properties.
 |:--------------------------------------------------------------------|:----------------------|:----------------------------------------------------------------------|
 | [**Option**](iwinhttprequest-option.md)<br/>                 | Read/write<br/> | A WinHTTP option value.<br/>                                    |
 | [**ResponseBody**](iwinhttprequest-responsebody.md)<br/>     | Read-only<br/>  | The response entity body as an array of unsigned bytes.<br/>    |
-| [**ResponseStream**](iwinhttprequest-responsestream.md)<br/> | Read-only<br/>  | The response entity body as an [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream).<br/> |
+| [**ResponseStream**](iwinhttprequest-responsestream.md)<br/> | Read-only<br/>  | The response entity body as an [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream).<br/> |
 | [**ResponseText**](iwinhttprequest-responsetext.md)<br/>     | Read-only<br/>  | The response entity body.<br/>                                  |
 | [**Status**](iwinhttprequest-status.md)<br/>                 | Read-only<br/>  | The HTTP status code from the last response.<br/>               |
 | [**StatusText**](iwinhttprequest-statustext.md)<br/>         | Read-only<br/>  | The HTTP status text.<br/>                                      |
@@ -72,7 +72,7 @@ The **IWinHttpRequest** interface has these properties.
 
 ## Remarks
 
-The **IWinHttpRequest** interface defined in httprequest.idl is implemented by a class with id of **CLSID\_WinHttpRequest**. An application obtain this interface by calling [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) with a class id of **CLSID\_WinHttpRequest** and an interface id of **IID\_IWinHttpRequest**.
+The **IWinHttpRequest** interface defined in httprequest.idl is implemented by a class with id of **CLSID\_WinHttpRequest**. An application obtain this interface by calling [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) with a class id of **CLSID\_WinHttpRequest** and an interface id of **IID\_IWinHttpRequest**.
 
 > [!Note]  
 > For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHttp start page.
@@ -83,7 +83,7 @@ The **IWinHttpRequest** interface defined in httprequest.idl is implemented by a
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
@@ -105,9 +105,4 @@ The **IWinHttpRequest** interface defined in httprequest.idl is implemented by a
 </dt> </dl>
 
  
-
- 
-
-
-
 

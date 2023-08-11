@@ -1,5 +1,5 @@
 ---
-Description: Generates a secure random number using the default cryptographic service provider (CSP).
+description: Generates a secure random number using the default cryptographic service provider (CSP).
 ms.assetid: 52c49f73-58b8-455f-9368-54f38de55776
 title: Utilities.GetRandom method
 ms.topic: reference
@@ -19,7 +19,7 @@ api_location:
 
 \[The **GetRandom** method is available for use in the operating systems specified in the Requirements section.\]
 
-The **GetRandom** method generates a secure random number using the default [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP).
+The **GetRandom** method generates a secure random number using the default [*cryptographic service provider*](../secgloss/c-gly.md) (CSP).
 
 ## Syntax
 
@@ -71,7 +71,7 @@ A randomly generated number *Length* bytes long, with the specified encoding.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
@@ -88,7 +88,3 @@ A randomly generated number *Length* bytes long, with the specified encoding.
  
 
  
-
-
-
-

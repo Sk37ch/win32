@@ -24,7 +24,7 @@ Provides a property to control using a redirection server.
 
 ## Members
 
-The **IMsRdpPreferredRedirectionInfo** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMsRdpPreferredRedirectionInfo** also has these types of members:
+The **IMsRdpPreferredRedirectionInfo** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMsRdpPreferredRedirectionInfo** also has these types of members:
 
 -   [Properties](#properties)
 
@@ -46,7 +46,7 @@ The **IMsRdpPreferredRedirectionInfo** interface has these properties.
 
 
 
-|                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
@@ -58,10 +58,4 @@ The **IMsRdpPreferredRedirectionInfo** interface has these properties.
 
 
  
-
- 
-
-
-
-
 

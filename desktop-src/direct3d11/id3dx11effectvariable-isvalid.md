@@ -38,7 +38,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**BOOL**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**BOOL**](/windows/desktop/WinProg/windows-data-types)**
 
 **TRUE** if the syntax is valid; otherwise **FALSE**.
 
@@ -55,7 +55,7 @@ This method checks that the data type matches the data stored after casting one 
 
 
 
-|                    |                                                                                                                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
 | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |
@@ -70,10 +70,4 @@ This method checks that the data type matches the data stored after casting one 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WCT Reference"
 ms.assetid: 479ca55a-d570-44bc-9f52-88432804df6f
 title: WCT Reference
 ms.topic: article
@@ -14,11 +15,8 @@ The following elements are part of the wait chain traversal API:
 -   [**OpenThreadWaitChainSession**](/windows/desktop/api/Wct/nf-wct-openthreadwaitchainsession) function
 -   [**RegisterWaitChainCOMCallback**](/windows/desktop/api/Wct/nf-wct-registerwaitchaincomcallback) function
 -   [**WAITCHAIN\_NODE\_INFO**](/windows/desktop/api/Wct/ns-wct-waitchain_node_info) structure
--   [*WaitChainCallback*](https://msdn.microsoft.com/library/ms681421(v=VS.85).aspx) callback function
+-   [*WaitChainCallback*](/windows/win32/api/wct/nc-wct-pwaitchaincallback) callback function
 
  
 
  
-
-
-

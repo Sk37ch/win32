@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Error Handling
+# Error Handling (RPC)
 
 In synchronous RPC, a client makes a remote call that returns with either a success or failure code. Asynchronous RPC provides more opportunities for a call to fail, and these failures are handled differently, depending on where and when they occur. The following table describes the ways in which a call can fail, and how it is handled.
 
@@ -48,7 +48,7 @@ There are special cases for error handling when using pipes. The following list 
 | Source of failure                                                                                                 | How handled                                                                                                |
 |-------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
 | Client calls push and the call fails.                                                                             | No RPC API calls are necessary. All RPC state has been cleaned up.                                         |
-| Client calls [**RpcAsyncCompleteCall**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasynccompletecall) before the [**in**](https://docs.microsoft.com/windows/desktop/Midl/in) pipes are drained. | Call fails with the appropriate pipe-filling error code.                                                   |
+| Client calls [**RpcAsyncCompleteCall**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasynccompletecall) before the [**in**](/windows/desktop/Midl/in) pipes are drained. | Call fails with the appropriate pipe-filling error code.                                                   |
 | Client calls pull and the call fails.                                                                             | No RPC API calls are necessary. All RPC state has been cleaned up.                                         |
 | Either client or server calls push or pull in the wrong order.                                                    | Run-time returns pipe-filling error status.                                                                |
 | Server calls push or pull and the call fails.                                                                     | Push returns a failure code. No call to [**RpcAsyncCompleteCall**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasynccompletecall) is necessary. |
@@ -62,7 +62,3 @@ There are special cases for error handling when using pipes. The following list 
  
 
  
-
-
-
-

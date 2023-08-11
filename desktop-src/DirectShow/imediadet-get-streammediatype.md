@@ -1,9 +1,9 @@
 ---
-Description: The get\_StreamMediaType method retrieves the media type of the current stream. All video streams are converted to VIDEOINFOHEADER types, and all audio streams are converted to WAVEFORMATEX types.
+description: The get\_StreamMediaType method retrieves the media type of the current stream. All video streams are converted to VIDEOINFOHEADER types, and all audio streams are converted to WAVEFORMATEX types.
 ms.assetid: 7fc15cb3-af77-42c1-b5eb-d1d88bf9cd1d
 title: IMediaDet::get_StreamMediaType method (Qedit.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type:
 - APIRef
 - kbSyntax
@@ -14,16 +14,19 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
+ms.custom: UpdateFrequency5
 ---
 
 # IMediaDet::get\_StreamMediaType method
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 > [!Note]  
 > \[Deprecated. This API may be removed from future releases of Windows.\]
 
  
 
-The `get_StreamMediaType` method retrieves the media type of the current stream. All video streams are converted to [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) types, and all audio streams are converted to [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx) types.
+The `get_StreamMediaType` method retrieves the media type of the current stream. All video streams are converted to [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) types, and all audio streams are converted to [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85)) types.
 
 ## Syntax
 
@@ -71,7 +74,7 @@ If the media detector is in bitmap grab mode, this method returns E\_INVALIDARG.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |
@@ -91,7 +94,3 @@ If the media detector is in bitmap grab mode, this method returns E\_INVALIDARG.
  
 
  
-
-
-
-

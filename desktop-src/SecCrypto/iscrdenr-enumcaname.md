@@ -1,5 +1,5 @@
 ---
-Description: Enumerates the name of the certification authorities (CAs) for a given certificate template name.
+description: Enumerates the name of the certification authorities (CAs) for a given certificate template name.
 ms.assetid: 82cc3346-a8b9-4abd-933a-c212a37a373e
 title: ISCrdEnr::enumCAName method
 ms.topic: reference
@@ -18,7 +18,7 @@ api_location:
 
 # ISCrdEnr::enumCAName method
 
-The **enumCAName** method enumerates the name of the [*certification authorities*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CAs) for a given certificate template name.
+The **enumCAName** method enumerates the name of the [*certification authorities*](../secgloss/c-gly.md) (CAs) for a given certificate template name.
 
 ## Syntax
 
@@ -95,7 +95,7 @@ A string that represents the name of the CA.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -123,7 +123,3 @@ A string that represents the name of the CA.
  
 
  
-
-
-
-

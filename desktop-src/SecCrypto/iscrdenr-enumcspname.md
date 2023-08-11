@@ -1,5 +1,5 @@
 ---
-Description: Enumerates the name of the available cryptographic service providers (CSPs).
+description: Enumerates the name of the available cryptographic service providers (CSPs).
 ms.assetid: d0dc8a8a-afff-4ccc-96e0-2c52913c3322
 title: ISCrdEnr::enumCSPName method
 ms.topic: reference
@@ -18,7 +18,7 @@ api_location:
 
 # ISCrdEnr::enumCSPName method
 
-The **enumCSPName** method enumerates the name of the available [*cryptographic service providers*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSPs).
+The **enumCSPName** method enumerates the name of the available [*cryptographic service providers*](../secgloss/c-gly.md) (CSPs).
 
 ## Syntax
 
@@ -86,7 +86,7 @@ A string that represents the name of the enumerated CSP.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -111,7 +111,3 @@ A string that represents the name of the enumerated CSP.
  
 
  
-
-
-
-

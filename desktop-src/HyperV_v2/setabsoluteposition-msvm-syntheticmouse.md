@@ -1,5 +1,5 @@
 ---
-Description: Sets the horizontal and vertical position of the mouse cursor.
+description: Sets the horizontal and vertical position of the mouse cursor.
 ms.assetid: 7845E10A-7F61-4134-BF81-AED5483F36AD
 title: SetAbsolutePosition method of the Msvm_SyntheticMouse class (Dbdao.h)
 ms.topic: reference
@@ -102,13 +102,13 @@ A return value of zero indicates success. A nonzero value indicates a failure to
 
 ## Remarks
 
-Access to the [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -127,9 +127,4 @@ Access to the [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md) class might be 
 </dt> </dl>
 
  
-
- 
-
-
-
 

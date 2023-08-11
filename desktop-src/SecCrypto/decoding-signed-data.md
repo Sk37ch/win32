@@ -1,5 +1,5 @@
 ---
-Description: Process to decode signed data.
+description: Process to decode signed data.
 ms.assetid: 803220d0-7963-4fc4-8451-a979e54a9cc3
 title: Decoding Signed Data
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Decoding Signed Data
 
-The following general process decodes a [*signed data*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) type.
+The following general process decodes a [*signed data*](../secgloss/s-gly.md) type.
 
 **To decode a signed message**
 
@@ -34,6 +34,3 @@ For C coding details, see [Example C Program: Signing, Encoding, Decoding, and V
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Deletes a printer driver package from the driver store.
+description: Deletes a printer driver package from the driver store.
 ms.assetid: a43a94d1-097e-457c-bce9-d4c434ecfa93
 title: DeletePrinterDriverPackage function (Winspool.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ HRESULT\_CODE(ERROR\_PRINT\_DRIVER\_PACKAGE\_IN\_USE), if the package is being u
 
 Otherwise the **HRESULT** will contain an error code.
 
-For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/library/ms679692(v=VS.85).aspx).
+For more information about COM error codes, see [Error Handling](../com/error-handling-in-com.md).
 
 ## Remarks
 
@@ -88,7 +88,7 @@ The user must have printer administration privileges.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                      |
@@ -110,9 +110,4 @@ The user must have printer administration privileges.
 </dt> </dl>
 
  
-
- 
-
-
-
 

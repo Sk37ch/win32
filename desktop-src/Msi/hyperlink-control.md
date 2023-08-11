@@ -1,5 +1,5 @@
 ---
-Description: The Hyperlink control displays a HTML link to an address, which opens in the default browser for the computer.
+description: The Hyperlink control displays a HTML link to an address, which opens in the default browser for the computer.
 ms.assetid: 06678b10-0915-4649-b917-ec90c40d5160
 title: Hyperlink Control
 ms.topic: article
@@ -12,10 +12,10 @@ The Hyperlink control displays a HTML link to an address, which opens in the def
 
 **[Windows Installer 4.5 or earlier](not-supported-in-windows-installer-4-5.md):** Not supported. This Control is available beginning with Windows Installer 5.0.
 
-The Text value of the HyperLink control uses the anchor <a> tag and the HREF attribute value to specify the URL and displayed text of the link.
+The Text value of the HyperLink control uses the anchor \<a\> tag and the HREF attribute value to specify the URL and displayed text of the link.
 
 ``` syntax
-[Blue Yonder Airlines](https://www.blueyonderairlines.com)
+<a href="https://www.blueyonderairlines.com">Blue Yonder Airlines</a>
 ```
 
 ## Control Attributes
@@ -39,7 +39,7 @@ You can use the following attributes with the Hyperlink control. To change the v
 
 ## Remarks
 
-This control can be created from the WC\_LINK class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the WS\_CHILD, WS\_TABSTOP and WS\_GROUP styles.
+This control can be created from the WC\_LINK class by using the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function. It has the WS\_CHILD, WS\_TABSTOP and WS\_GROUP styles.
 
 Do not place transparent [Text controls](text-control.md) on top of colored bitmaps. The text may not be visible if the user changes the display color scheme. For example, text may become invisible if the user sets the high contrast parameter for accessibility reasons.
 
@@ -48,7 +48,3 @@ If the text in the control is longer than the control width, the text wraps or t
  
 
  
-
-
-
-

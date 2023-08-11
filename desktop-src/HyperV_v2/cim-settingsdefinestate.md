@@ -1,5 +1,5 @@
 ---
-Description: Associates settings data with a managed element.
+description: Associates settings data with a managed element.
 ms.assetid: 3fdf111b-3ec1-4559-94ce-27d6a8cd0080
 title: CIM_SettingsDefineState class
 ms.topic: reference
@@ -53,7 +53,7 @@ Data type: **CIM\_ManagedElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The managed element in the association.
@@ -69,7 +69,7 @@ Data type: **CIM\_SettingData**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The settings data in the association.
@@ -80,7 +80,7 @@ The settings data in the association.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
@@ -91,9 +91,4 @@ The settings data in the association.
 
 
  
-
- 
-
-
-
 

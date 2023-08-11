@@ -1,5 +1,5 @@
 ---
-Description: Creates an enumerator that returns the instances of a specified class according to the user-specified selection criteria.
+description: Creates an enumerator that returns the instances of a specified class according to the user-specified selection criteria.
 ms.assetid: 6465a981-f98e-4ece-a9b6-9da8ae618bc6
 ms.tgt_platform: multiple
 title: SWbemServices.InstancesOf method (Wbemdisp.h)
@@ -209,13 +209,13 @@ Next
 
 
 
-If you run this script, you will get information back. However, this information will not be limited to the services installed on a computer. Instead, it will include information from all child classes of [**CIM\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-service), including [**Win32\_SystemDriver**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-systemdriver) and [**Win32\_ApplicationService**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa394068(v=vs.85)).
+If you run this script, you will get information back. However, this information will not be limited to the services installed on a computer. Instead, it will include information from all child classes of [**CIM\_Service**](/windows/desktop/CIMWin32Prov/cim-service), including [**Win32\_SystemDriver**](/windows/desktop/CIMWin32Prov/win32-systemdriver) and [**Win32\_ApplicationService**](/previous-versions/windows/desktop/legacy/aa394068(v=vs.85)).
 
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -238,9 +238,4 @@ If you run this script, you will get information back. However, this information
 </dt> </dl>
 
  
-
- 
-
-
-
 

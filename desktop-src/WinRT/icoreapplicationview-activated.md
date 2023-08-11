@@ -1,5 +1,5 @@
 ---
-Description: Occurs when a Windows Store app is activated.
+description: Occurs when a Windows Store app is activated.
 ms.assetid: CA0DB2D4-3417-48F5-8455-D87D0F323A1E
 title: ICoreApplicationView::Activated event (Windows.ApplicationModel.Core.h)
 ms.topic: reference
@@ -34,13 +34,13 @@ This event does not return a value.
 
 ## Remarks
 
-Do not call the [**Exit**](https://msdn.microsoft.com/library/Hh438368(v=VS.85).aspx) method from within *handler*.
+Do not call the [**Exit**](/previous-versions//hh438368(v=vs.85)) method from within *handler*.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                              |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                         |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                               |
@@ -52,7 +52,3 @@ Do not call the [**Exit**](https://msdn.microsoft.com/library/Hh438368(v=VS.85).
  
 
  
-
-
-
-

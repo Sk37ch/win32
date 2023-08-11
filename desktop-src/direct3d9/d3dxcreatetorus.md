@@ -1,5 +1,5 @@
 ---
-Description: Uses a left-handed coordinate system to create a mesh containing a torus.
+description: Uses a left-handed coordinate system to create a mesh containing a torus.
 ms.assetid: 68df7650-8a87-4762-8b57-5704c419b0d7
 title: D3DXCreateTorus function (D3dx9shape.h)
 ms.topic: reference
@@ -44,16 +44,16 @@ HRESULT D3DXCreateTorus(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, representing the device associated with the created torus mesh.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface, representing the device associated with the created torus mesh.
 
 </dd> <dt>
 
 *InnerRadius* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Inner-radius of the torus. Value should be greater than or equal to 0.0f.
 
@@ -62,7 +62,7 @@ Inner-radius of the torus. Value should be greater than or equal to 0.0f.
 *OuterRadius* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Outer-radius of the torus. Value should be greater than or equal to 0.0f.
 
@@ -71,7 +71,7 @@ Outer-radius of the torus. Value should be greater than or equal to 0.0f.
 *Sides* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of sides in a cross-section. Value must be greater than or equal to 3.
 
@@ -80,7 +80,7 @@ Number of sides in a cross-section. Value must be greater than or equal to 3.
 *Rings* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of rings making up the torus. Value must be greater than or equal to 3.
 
@@ -122,7 +122,7 @@ This function creates a mesh with the D3DXMESH\_MANAGED creation option and [D3D
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9shape.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>    |
@@ -139,7 +139,3 @@ This function creates a mesh with the D3DXMESH\_MANAGED creation option and [D3D
  
 
  
-
-
-
-

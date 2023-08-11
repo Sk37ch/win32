@@ -1,5 +1,5 @@
 ---
-Description: Specifies the width of the pan/scan region, in pixels.
+description: Specifies the width of the pan/scan region, in pixels.
 ms.assetid: c0dcf305-ec81-45df-891c-8aaacd95f620
 title: MFPKEY_RESIZE_PANSCANAPWIDTH Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Specifies the width of the pan/scan region, in pixels.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -26,7 +26,7 @@ VT\_I4
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -44,7 +44,3 @@ VT\_I4
  
 
  
-
-
-
-

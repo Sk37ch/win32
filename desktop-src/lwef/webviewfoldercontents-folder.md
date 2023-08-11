@@ -1,6 +1,6 @@
 ---
 title: WebViewFolderContents.Folder property (Shldisp.h)
-description: Gets a Folder object that represents the view.
+description: WebViewFolderContents.Folder property - Gets a Folder object that represents the view.
 ms.assetid: 1d81c27a-1e48-4c0a-b74d-c63af43a909d
 keywords:
 - Folder property Legacy Windows Environment Features
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # WebViewFolderContents.Folder property
 
-Gets a [**Folder**](https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-folder) object that represents the view.
+Gets a [**Folder**](../shell/folder.md) object that represents the view.
 
 This property is read-only.
 
@@ -35,7 +35,7 @@ Folder = WebViewFolderContents.Folder
 
 ## Property value
 
-An object that receives the [**Folder**](https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-folder) object.
+An object that receives the [**Folder**](../shell/folder.md) object.
 
 ## Examples
 
@@ -77,7 +77,7 @@ The following example shows the proper usage of this property in JScript embedde
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
@@ -88,10 +88,4 @@ The following example shows the proper usage of this property in JScript embedde
 
 
  
-
- 
-
-
-
-
 

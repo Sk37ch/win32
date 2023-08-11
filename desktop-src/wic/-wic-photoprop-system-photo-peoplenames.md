@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.PeopleNames property.
+description: The photo metadata policy for the System.Photo.PeopleNames property.
 ms.assetid: 567d5542-fc7b-4d19-bc3c-b9d6e26e3387
 title: System.Photo.PeopleNames Photo Metadata Policy
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.PeopleNames Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.PeopleNames](https://msdn.microsoft.com/library/dd391582(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.PeopleNames](../properties/props-system-photo-peoplenames.md) property.
 
 ### PKEY
 
@@ -42,7 +42,7 @@ Values from different schemas are reconciled.
 
 | Order | Path                                                           | Disk Format |
 |-------|----------------------------------------------------------------|-------------|
-| 1     | /xmp/<xmpstruct>MP:RegionInfo/<xmpbag>MPRI:Regions | ushort      |
+| 1     | /xmp/&lt;xmpstruct&gt;MP:RegionInfo/&lt;xmpbag&gt;MPRI:Regions | ushort      |
 
 
 
@@ -58,7 +58,7 @@ This property cannot be written using the metadata policy.
 
 | Order | Path                                |
 |-------|-------------------------------------|
-| 1     | /xmp/<xmpstruct>MP:RegionInfo |
+| 1     | /xmp/&lt;xmpstruct&gt;MP:RegionInfo |
 
 
 
@@ -72,7 +72,7 @@ This property cannot be written using the metadata policy.
 
 | Order | Path                                                               | Disk Format |
 |-------|--------------------------------------------------------------------|-------------|
-| 1     | /ifd/xmp/<xmpstruct>MP:RegionInfo/<xmpbag>MPRI:Regions | ushort      |
+| 1     | /ifd/xmp/&lt;xmpstruct&gt;MP:RegionInfo/&lt;xmpbag&gt;MPRI:Regions | ushort      |
 
 
 
@@ -88,7 +88,7 @@ This property cannot be written using the metadata policy.
 
 | Order | Path                                    |
 |-------|-----------------------------------------|
-| 1     | /ifd/xmp/<xmpstruct>MP:RegionInfo |
+| 1     | /ifd/xmp/&lt;xmpstruct&gt;MP:RegionInfo |
 
 
 
@@ -100,12 +100,9 @@ This property cannot be written using the metadata policy.
 
 <dl> <dt>
 
-[System.Photo.ProgramMode](https://msdn.microsoft.com/library/bb760520(VS.85).aspx)
+[System.Photo.ProgramMode](../properties/props-system-photo-programmode.md)
 </dt> </dl>
 
  
 
  
-
-
-

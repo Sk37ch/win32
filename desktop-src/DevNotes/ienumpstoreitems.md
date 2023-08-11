@@ -1,5 +1,5 @@
 ---
-Description: Provides the COM-standard enumeration methods for the IPStore interface.
+description: Provides the COM-standard enumeration methods for the IPStore interface.
 ms.assetid: f5290e6c-8752-4380-9210-c96a87f000ba
 title: IEnumPStoreItems interface (Pstore.h)
 ms.topic: reference
@@ -17,13 +17,13 @@ api_location:
 
 # IEnumPStoreItems interface
 
-\[Protected Storage (Pstore) is available for use in Windows Server 2003 and Windows XP. It is only available for read-only operations in Windows Server 2008 and Windows Vista, but may be unavailable in subsequent versions. Pstore uses an older implementation of data protection. Developers are strongly encouraged to take advantage of the stronger data protection provided by the [**CryptProtectData**](https://msdn.microsoft.com/library/Aa380261(v=VS.85).aspx) and [**CryptUnprotectData**](https://msdn.microsoft.com/library/Aa380882(v=VS.85).aspx) functions.\]
+\[Protected Storage (Pstore) is available for use in Windows Server 2003 and Windows XP. It is only available for read-only operations in Windows Server 2008 and Windows Vista, but may be unavailable in subsequent versions. Pstore uses an older implementation of data protection. Developers are strongly encouraged to take advantage of the stronger data protection provided by the [**CryptProtectData**](/windows/win32/api/dpapi/nf-dpapi-cryptprotectdata) and [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata) functions.\]
 
 Provides the COM-standard enumeration methods for the [**IPStore**](ipstore.md) interface.
 
 ## Members
 
-The **IEnumPStoreItems** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IEnumPStoreItems** also has these types of members:
+The **IEnumPStoreItems** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IEnumPStoreItems** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -52,7 +52,7 @@ It is necessary to free each item after enumerating it. The enumerator object mu
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |
@@ -62,7 +62,3 @@ It is necessary to free each item after enumerating it. The enumerator object mu
  
 
  
-
-
-
-

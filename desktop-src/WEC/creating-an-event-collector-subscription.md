@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Creating a Collector Initiated Subscription
 
-You can subscribe to receive events on a local computer (the event collector) that are forwarded from remote computers (the event sources) by using a collector-initiated subscription. In a collector-initiated subscription, the subscription must contain a list of all the event sources. Before a collector computer can subscribe to events and a remote event source can forward events, both computers must be configured for event collecting and forwarding. For more information about how to configure the computers, see [Configure Computers to Forward and Collect Events](https://technet.microsoft.com/library/cc748890.aspx).
+You can subscribe to receive events on a local computer (the event collector) that are forwarded from remote computers (the event sources) by using a collector-initiated subscription. In a collector-initiated subscription, the subscription must contain a list of all the event sources. Before a collector computer can subscribe to events and a remote event source can forward events, both computers must be configured for event collecting and forwarding. For more information about how to configure the computers, see [Configure Computers to Forward and Collect Events](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc748890(v=ws.11)).
 
 The following code example follows a series of steps to create a collector initiated subscription:
 
@@ -512,12 +512,12 @@ DWORD GetProperty(EC_HANDLE hSubscription,
 
     1.  Run the following command from an elevated privilege command prompt to get the runtime status of the subscription:
 
-        **wecutil gr** *<subscriptionID>*
+        **wecutil gr** *&lt;subscriptionID&gt;*
 
     2.  Verify that the event source has connected. You might need to wait until the refresh interval specified in the policy is over after you create the subscription for the event source to be connected.
     3.  Run the following command to get the subscription information:
 
-        **wecutil gs** *<subscriptionID>*
+        **wecutil gs** *&lt;subscriptionID&gt;*
 
     4.  Get the DeliveryMaxItems value from the subscription information.
 
@@ -528,7 +528,7 @@ DWORD GetProperty(EC_HANDLE hSubscription,
 
 <dl> <dt>
 
-[Configure Computers to Forward and Collect Events](https://technet.microsoft.com/library/cc748890.aspx)
+[Configure Computers to Forward and Collect Events](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc748890(v=ws.11))
 </dt> <dt>
 
 [Adding an Event Source to an Event Collector Subscription](adding-an-event-source-to-an-event-collector-subscription.md)
@@ -540,7 +540,3 @@ DWORD GetProperty(EC_HANDLE hSubscription,
  
 
  
-
-
-
-

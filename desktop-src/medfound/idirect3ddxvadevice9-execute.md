@@ -1,5 +1,5 @@
 ---
-Description: Performs a DirectX Video Acceleration (DXVA) decoding operation.
+description: Performs a DirectX Video Acceleration (DXVA) decoding operation.
 ms.assetid: cb87a087-ca53-470e-ab46-f4022cfd7869
 title: IDirect3DDXVADevice9::Execute method (Dxva.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ HRESULT Execute(
 *FunctionNum* 
 </dt> <dd>
 
-A **DWORD** that contains one or more DXVA function numbers. For details, refer to the [DXVA 1.0 specification](https://msdn.microsoft.com/library/windows/hardware/gg463516).
+A **DWORD** that contains one or more DXVA function numbers. For details, refer to the [DXVA 1.0 specification](/windows-hardware/drivers/display/directx-video-acceleration).
 
 </dd> <dt>
 
@@ -97,7 +97,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                              |
@@ -115,7 +115,3 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
  
 
  
-
-
-
-

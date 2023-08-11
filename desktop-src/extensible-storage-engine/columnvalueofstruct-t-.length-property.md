@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValueOfStruct<T>.Length property"
 title: ColumnValueOfStruct(T).Length property 
 TOCTitle: 'Length property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1.Length
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the byte length of a column value, which is zero if column is null, otherwise it matches the Size for this fixed-size column.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -53,15 +54,14 @@ public override int Length { get; }
 
 #### Property value
 
-Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+Type: [System.Int32](/dotnet/api/system.int32)  
 
 ## See also
 
 #### Reference
 
-[ColumnValueOfStruct\<T\> class](dn334171\(v=exchg.10\).md)
+[ColumnValueOfStruct\<T\> class](./columnvalueofstruct-t-class.md)
 
-[ColumnValueOfStruct\<T\> members](dn334217\(v=exchg.10\).md)
+[ColumnValueOfStruct\<T\> members](./columnvalueofstruct-t-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

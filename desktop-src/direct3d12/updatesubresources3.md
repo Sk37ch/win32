@@ -12,7 +12,6 @@ api_location:
 - D3D12.dll
 api_type:
 - DllExport
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 ---
@@ -72,7 +71,7 @@ The intermediate resource, as a pointer to an [**ID3D12Resource**](/windows/desk
 *IntermediateOffset* 
 </dt> <dd>
 
-Type: **[**UINT64**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT64**](/windows/desktop/WinProg/windows-data-types)**
 
 The offset, in bytes, to the intermediate resource.
 
@@ -81,7 +80,7 @@ The offset, in bytes, to the intermediate resource.
 *FirstSubresource* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The index of the first subresource in the resource. Valid values range from 0 to *MaxSubresources*.
 
@@ -90,7 +89,7 @@ The index of the first subresource in the resource. Valid values range from 0 to
 *NumSubresources* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The number of subresources in the resource. Valid values range from 1 to (*MaxSubresources* - *FirstSubresource*).
 
@@ -107,7 +106,7 @@ Pointer to an array (of length *NumSubresources*) of pointers to [**D3D12\_SUBRE
 
 ## Return value
 
-Type: **[**UINT64**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT64**](/windows/desktop/WinProg/windows-data-types)**
 
 The size, in bytes, of the buffer.
 
@@ -119,7 +118,7 @@ The declaration of this function begins with: `template <UINT MaxSubresources>`
 
 
 
-|                    |                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx12.h</dt> </dl>  |
 | Library<br/> | <dl> <dt>D3D12.lib</dt> </dl> |
@@ -138,10 +137,4 @@ The declaration of this function begins with: `template <UINT MaxSubresources>`
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

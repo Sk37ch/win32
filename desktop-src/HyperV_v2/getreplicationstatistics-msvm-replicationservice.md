@@ -1,5 +1,5 @@
 ---
-Description: Retrieves replication statistics for a virtual machine and acts on the primary replication relationship of the virtual machine.
+description: Retrieves replication statistics for a virtual machine and acts on the primary replication relationship of the virtual machine.
 ms.assetid: 24f3f572-fa85-4680-be77-7e835e6471c5
 title: GetReplicationStatistics method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -45,7 +45,7 @@ uint32 GetReplicationStatistics(
 *ComputerSystem* \[in\]
 </dt> <dd>
 
-A reference to a [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) instance that represents the virtual machine for which to retrieve the replication statistics.
+A reference to a [**CIM\_ComputerSystem**](/windows/desktop/CIMWin32Prov/cim-computersystem) instance that represents the virtual machine for which to retrieve the replication statistics.
 
 </dd> <dt>
 
@@ -66,7 +66,7 @@ If successful, receives an array of embedded instances of the [**Msvm\_Error**](
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -122,7 +122,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -143,9 +143,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

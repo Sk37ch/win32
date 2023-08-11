@@ -1,5 +1,5 @@
 ---
-Description: The Windows Installer functions, tables, and properties listed on this page are not supported by Windows Installer&\#160;4.0 and earlier versions.
+description: The Windows Installer functions, tables, and properties listed on this page are not supported by Windows Installer&\#160;4.0 and earlier versions.
 ms.assetid: 7256b759-3fb5-4195-b0e4-a1631327ebb7
 title: Not Supported in Windows Installer 4.0
 ms.topic: article
@@ -30,19 +30,21 @@ The following features are not supported in Windows Installer 4.0 and earlier v
 -   [MsiEmbeddedChainer table](msiembeddedchainer-table.md)
 -   [MsiEmbeddedUI table](msiembeddedui-table.md)
 -   [MsiPackageCertificate Table](msipackagecertificate-table.md)
--   [Component table](component-table.md)<dl> **msidbComponentAttributesUninstallOnSupersedence**  
+-   [Component table](component-table.md)
+- **msidbComponentAttributesUninstallOnSupersedence**  
     **msidbComponentAttributesShared**  
-    </dl>
--   [CustomAction](customaction-table.md)<dl> ExtendedType Column  
-    </dl>
+    
+-   [CustomAction](customaction-table.md) ExtendedType Column  
+    
 
 [Custom Action Patch Uninstall Option](custom-action-patch-uninstall-option.md)
 
-<dl>
 
-[MsiTransformView*<PatchGUID>*](msitransformview.md)  
+
+[MsiTransformView\<PatchGUID\>](msitransformview.md)  
+
 **msidbCustomActionTypePatchUninstall**  
-</dl>
+
 
 [System Policy](system-policy.md)
 
@@ -51,9 +53,9 @@ The following features are not supported in Windows Installer 4.0 and earlier v
 
 Callback Function Prototypes
 
--   [*EmbeddedUIHandler*](embeddeduihandler.md)
--   [*InitializeEmbeddedUI*](initializeembeddedui.md)
--   [*ShutdownEmbeddedUI*](shutdownembeddedui.md)
+-   *EmbeddedUIHandler*
+-   *InitializeEmbeddedUI*
+-   *ShutdownEmbeddedUI*
 
 [Internal Consistency Evaluators - ICEs](internal-consistency-evaluators-ices.md)
 

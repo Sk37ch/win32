@@ -1,5 +1,5 @@
 ---
-Description: Specifies a Software Publisher Certificate (SPC) and certificate chain used to sign a document.
+description: Specifies a Software Publisher Certificate (SPC) and certificate chain used to sign a document.
 ms.assetid: b65b4129-df92-410c-b372-b0c004f8bb03
 title: SIGNER_SPC_CHAIN_INFO structure
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 
 # SIGNER\_SPC\_CHAIN\_INFO structure
 
-The **SIGNER\_SPC\_CHAIN\_INFO** structure specifies a [*Software Publisher Certificate*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SPC) and certificate chain used to sign a document.
+The **SIGNER\_SPC\_CHAIN\_INFO** structure specifies a [*Software Publisher Certificate*](../secgloss/s-gly.md) (SPC) and certificate chain used to sign a document.
 
 > [!Note]  
 > This structure is not defined in any header file. To use this structure, you must define it yourself as shown in this topic.
@@ -85,7 +85,7 @@ Optional. A handle to an additional certificate store.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
@@ -102,7 +102,3 @@ Optional. A handle to an additional certificate store.
  
 
  
-
-
-
-

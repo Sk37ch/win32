@@ -1,5 +1,5 @@
 ---
-Description: An association array is an ordered list of registry locations used to store information about an item type, including handlers, verbs, and other attributes like the icon and display name of the type.
+description: An association array is an ordered list of registry locations used to store information about an item type, including handlers, verbs, and other attributes like the icon and display name of the type.
 title: Association Arrays
 ms.topic: article
 ms.date: 05/31/2018
@@ -74,7 +74,7 @@ if (SUCCEEDED(hr))
 
 
 
-The following APIs can be used to query an association array or to construct an association array [**IQueryAssociations**](https://msdn.microsoft.com/library/Bb761400(v=VS.85).aspx) object that can be queried:
+The following APIs can be used to query an association array or to construct an association array [**IQueryAssociations**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) object that can be queried:
 
 -   [**AssocCreate**](/windows/desktop/api/Shlwapi/nf-shlwapi-assoccreate) (prior to Windows Vista)
 -   [**AssocCreateForClasses**](/windows/desktop/api/Shellapi/nf-shellapi-assoccreateforclasses)
@@ -158,6 +158,3 @@ Other common association arrays include Folder and Printers.
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Converts a DEVMODE structure to a print ticket.
+description: Converts a DEVMODE structure to a print ticket.
 ms.assetid: c03371f8-a978-4fb7-82cc-f76a65f3904c
 title: ConvertDevModeToPrintTicketThunk2 function
 ms.topic: reference
@@ -72,7 +72,7 @@ A value that specifies the scope of *ppPrintTicket*. This value can specify a si
 *ppPrintTicket* \[out\]
 </dt> <dd>
 
-The address of the buffer that contains a print ticket that represents the [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) passed in *pDevmode*. This function calls [**CoTaskMemAlloc**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc) to allocate this buffer. When the buffer is no longer needed, the caller must free it by calling [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree).
+The address of the buffer that contains a print ticket that represents the [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) passed in *pDevmode*. This function calls [**CoTaskMemAlloc**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc) to allocate this buffer. When the buffer is no longer needed, the caller must free it by calling [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree).
 
 </dd> <dt>
 
@@ -85,13 +85,13 @@ The size, in bytes, of the print ticket returned in *ppPrintTicket*.
 
 ## Return value
 
-If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT** error code. For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/library/ms679692(v=VS.85).aspx).
+If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT** error code. For more information about COM error codes, see [Error Handling](../com/error-handling-in-com.md).
 
 ## Requirements
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
@@ -103,7 +103,7 @@ If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT
 
 <dl> <dt>
 
-[Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx)
+[Print Schema](./printschema.md)
 </dt> <dt>
 
 [**PTConvertDevModeToPrintTicket**](/windows/desktop/api/prntvpt/nf-prntvpt-ptconvertdevmodetoprintticket)
@@ -116,9 +116,4 @@ If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT
 </dt> </dl>
 
  
-
- 
-
-
-
 

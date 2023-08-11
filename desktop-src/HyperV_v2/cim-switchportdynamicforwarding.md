@@ -1,5 +1,5 @@
 ---
-Description: Represents an association in which an entry of a forwarding database applies to a switch port.
+description: Represents an association in which an entry of a forwarding database applies to a switch port.
 ms.assetid: e63ac61d-ed0c-49e9-b056-4fcb6d1d5455
 title: CIM_SwitchPortDynamicForwarding class
 ms.topic: reference
@@ -53,7 +53,7 @@ Data type: **CIM\_SwitchPort**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 A [**CIM\_SwitchPort**](cim-switchport.md) reference to the switch port.
@@ -69,7 +69,7 @@ Data type: **CIM\_DynamicForwardingEntry**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_DynamicForwardingEntry**](cim-dynamicforwardingentry.md) reference to the entry of the forwarding database.
@@ -80,7 +80,7 @@ A [**CIM\_DynamicForwardingEntry**](cim-dynamicforwardingentry.md) reference to 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -98,9 +98,4 @@ A [**CIM\_DynamicForwardingEntry**](cim-dynamicforwardingentry.md) reference to 
 </dt> </dl>
 
  
-
- 
-
-
-
 

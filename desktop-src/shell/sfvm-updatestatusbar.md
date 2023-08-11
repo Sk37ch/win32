@@ -1,5 +1,5 @@
 ---
-Description: Notifies the callback object that the status bar is being updated. Used by IShellFolderViewCB::MessageSFVCB.
+description: Notifies the callback object that the status bar is being updated. Used by IShellFolderViewCB::MessageSFVCB.
 title: SFVM_UPDATESTATUSBAR message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -18,7 +18,7 @@ topic_type:
 
 # SFVM\_UPDATESTATUSBAR message
 
-Notifies the callback object that the status bar is being updated. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/library/Bb774968(v=VS.85).aspx).
+Notifies the callback object that the status bar is being updated. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb).
 
 
 ```C++
@@ -68,7 +68,7 @@ The default status bar text is as follows.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
@@ -79,7 +79,3 @@ The default status bar text is as follows.
  
 
  
-
-
-
-

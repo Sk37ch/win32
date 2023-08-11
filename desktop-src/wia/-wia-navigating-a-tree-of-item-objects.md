@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Navigating a Tree of Item Objects"
 ms.assetid: e91f72c8-3ad6-49e8-88cc-aa99c13cd4c2
 title: Navigating a Tree of Item Objects
 ms.topic: article
@@ -13,7 +14,7 @@ api_location:
 # Navigating a Tree of Item Objects
 
 > [!Note]  
-> This scripting system has been replaced with Windows Image Acquisition (WIA) Automation Layer. See [Windows Image Acquisition Automation Layer](https://docs.microsoft.com/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage).
+> This scripting system has been replaced with Windows Image Acquisition (WIA) Automation Layer. See [Windows Image Acquisition Automation Layer](/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage).
 
  
 
@@ -28,6 +29,3 @@ Enumerate this collection (recursively, if necessary) to navigate item tree.
  
 
  
-
-
-

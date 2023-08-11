@@ -1,5 +1,5 @@
 ---
-Description: Sent when a window is being destroyed. It is sent to the window procedure of the window being destroyed after the window is removed from the screen.
+description: Sent when a window is being destroyed. It is sent to the window procedure of the window being destroyed after the window is removed from the screen.
 ms.assetid: 089c0645-199b-4a90-9cbc-740f0cf3267d
 title: WM_DESTROY message (Winuser.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Sent when a window is being destroyed. It is sent to the window procedure of the
 
 This message is sent first to the window being destroyed and then to the child windows (if any) as they are destroyed. During the processing of the message, it can be assumed that all child windows still exist.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -47,13 +47,13 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-If the window being destroyed is part of the clipboard viewer chain (set by calling the [**SetClipboardViewer**](https://msdn.microsoft.com/library/ms649052(v=VS.85).aspx) function), the window must remove itself from the chain by processing the [**ChangeClipboardChain**](https://msdn.microsoft.com/library/ms649034(v=VS.85).aspx) function before returning from the **WM\_DESTROY** message.
+If the window being destroyed is part of the clipboard viewer chain (set by calling the [**SetClipboardViewer**](/windows/win32/api/winuser/nf-winuser-setclipboardviewer) function), the window must remove itself from the chain by processing the [**ChangeClipboardChain**](/windows/win32/api/winuser/nf-winuser-changeclipboardchain) function before returning from the **WM\_DESTROY** message.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -68,16 +68,16 @@ If the window being destroyed is part of the clipboard viewer chain (set by call
 **Reference**
 </dt> <dt>
 
-[**ChangeClipboardChain**](https://msdn.microsoft.com/library/ms649034(v=VS.85).aspx)
+[**ChangeClipboardChain**](/windows/win32/api/winuser/nf-winuser-changeclipboardchain)
 </dt> <dt>
 
-[**DestroyWindow**](https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx)
+[**DestroyWindow**](/windows/win32/api/winuser/nf-winuser-destroywindow)
 </dt> <dt>
 
-[**PostQuitMessage**](https://msdn.microsoft.com/library/ms644945(v=VS.85).aspx)
+[**PostQuitMessage**](/windows/win32/api/winuser/nf-winuser-postquitmessage)
 </dt> <dt>
 
-[**SetClipboardViewer**](https://msdn.microsoft.com/library/ms649052(v=VS.85).aspx)
+[**SetClipboardViewer**](/windows/win32/api/winuser/nf-winuser-setclipboardviewer)
 </dt> <dt>
 
 [**WM\_CLOSE**](wm-close.md)
@@ -92,7 +92,3 @@ If the window being destroyed is part of the clipboard viewer chain (set by call
  
 
  
-
-
-
-

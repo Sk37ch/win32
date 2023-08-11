@@ -1,5 +1,5 @@
 ---
-Description: The AssociatorsAsync\_ method of SWbemObject obtains objects (classes or instances) that are associated with the current object. These objects are called endpoints. This method performs the same function that the ASSOCIATORS OF WQL query performs.
+description: The AssociatorsAsync\_ method of SWbemObject obtains objects (classes or instances) that are associated with the current object. These objects are called endpoints. This method performs the same function that the ASSOCIATORS OF WQL query performs.
 ms.assetid: c71e11cd-39a5-40d8-b279-f5ee9ff3ae04
 ms.tgt_platform: multiple
 title: SWbemObject.AssociatorsAsync_ method (Wbemdisp.h)
@@ -173,7 +173,7 @@ This method does not return a value. If successful, the sink receives an [**OnOb
 
 ## Error codes
 
-After completion of the **AssociatorsAsync\_** method, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
+After completion of the **AssociatorsAsync\_** method, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
 
 <dl> <dt>
 
@@ -217,7 +217,7 @@ For more information about the ASSOCIATORS OF associated WQL queries, source ins
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -246,9 +246,4 @@ For more information about the ASSOCIATORS OF associated WQL queries, source ins
 </dt> </dl>
 
  
-
- 
-
-
-
 

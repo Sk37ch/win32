@@ -1,5 +1,5 @@
 ---
-Description: Removes guest service settings from a virtual system configuration.
+description: Removes guest service settings from a virtual system configuration.
 ms.assetid: 33e55d74-adfd-4174-8f05-14e797a33806
 title: RemoveGuestServiceSettings method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -47,7 +47,7 @@ Reference to an array of [**CIM\_SettingData**](cim-settingdata.md) that describ
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -91,7 +91,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -109,9 +109,4 @@ This method returns one of the following values:
 </dt> </dl>
 
  
-
- 
-
-
-
 

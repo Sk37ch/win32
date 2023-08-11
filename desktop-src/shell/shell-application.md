@@ -1,5 +1,5 @@
 ---
-Description: Contains the object's Application object.
+description: Shell.Application property - Contains the object's Application object.
 ms.assetid: 5335f4dd-ca80-49c8-8953-e32a6e6308e0
 title: Shell.Application property (Shldisp.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ Property Application As Object
 
 ## Property value
 
-A variable of type [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) that receives the Application object.
+A variable of type [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) that receives the Application object.
 
 ## Remarks
 
@@ -52,7 +52,7 @@ Use this property with the **Set** and **CreateObject** commands or with the **G
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
@@ -65,7 +65,3 @@ Use this property with the **Set** and **CreateObject** commands or with the **G
  
 
  
-
-
-
-

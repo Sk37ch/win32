@@ -1,5 +1,5 @@
 ---
-Description: Changes the security permissions for the logical file specified in the object path (this method is an extended version of the ChangeSecurityPermissions method).
+description: Changes the security permissions for the logical file specified in the object path (this method is an extended version of the ChangeSecurityPermissions method).
 ms.assetid: 29155533-0898-4f8f-af08-f3ea46c8c1d3
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissionsEx method of the CIM_LogicalFile class
@@ -25,7 +25,7 @@ The **ChangeSecurityPermissionsEx** method changes the security permissions for 
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -120,7 +120,7 @@ String that represents the name of the file (or directory) where the method fail
 *StartFileName* \[in, optional\]
 </dt> <dd>
 
-String that represents the child file (or directory) to use as a starting point for this method. Typically, the *StartFileName* parameter is the *StopFileName* parameter specifying the file (or directory) at which an error occurred from the previous method call. If the parameter value is **null**, the operation is performed on the file or directory specified in the [**ExecMethod**](https://docs.microsoft.com/windows/desktop/WmiSdk/swbemservices-execmethod) call.
+String that represents the child file (or directory) to use as a starting point for this method. Typically, the *StartFileName* parameter is the *StopFileName* parameter specifying the file (or directory) at which an error occurred from the previous method call. If the parameter value is **null**, the operation is performed on the file or directory specified in the [**ExecMethod**](/windows/desktop/WmiSdk/swbemservices-execmethod) call.
 
 </dd> <dt>
 
@@ -262,7 +262,7 @@ This method is currently not implemented by WMI. To use this method, you must im
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -283,9 +283,4 @@ This method is currently not implemented by WMI. To use this method, you must im
 </dt> </dl>
 
  
-
- 
-
-
-
 

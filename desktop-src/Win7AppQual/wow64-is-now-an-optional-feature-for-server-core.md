@@ -1,5 +1,5 @@
 ---
-Description: .
+description: WoW64 Is Now an Optional Feature for Server Core
 ms.assetid: 9a918cd3-60a0-4231-975a-bee12de5c812
 title: WoW64 status in Server Core
 ms.topic: article
@@ -10,14 +10,18 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Servers** - Windows Server 2008 R2  
-</dl>
+**Servers** - Windows Server 2008 R2  
+
+
 
 ## Feature Impact
 
-<dl> **Severity** - Low  
+ **Severity** - Low  
 **Frequency** - Low  
-</dl>
+
+
+
+
 
 ## Description
 
@@ -45,9 +49,9 @@ Verify that all code used is 64-bit.
 
 ## Links to Other Resources
 
--   [WOW64 Implementation Details](https://msdn.microsoft.com/library/Aa384274(v=VS.85).aspx)
--   [Debugging WOW64](https://msdn.microsoft.com/library/Aa384163(v=VS.85).aspx)
--   [Server Core](https://msdn.microsoft.com/library/ms723891(v=VS.85).aspx)
+-   [WOW64 Implementation Details](../winprog64/wow64-implementation-details.md)
+-   [Debugging WOW64](../winprog64/debugging-wow64.md)
+-   [Server Core](/previous-versions/windows/desktop/legacy/ms723891(v=vs.85))
 
  
 

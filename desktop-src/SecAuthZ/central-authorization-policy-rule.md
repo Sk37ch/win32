@@ -1,5 +1,5 @@
 ---
-Description: The purpose of the Central Authorization Policy Rule (CAPR) is to provide a domain-wide definition of an isolated aspect of the organizations authorization policy.
+description: The purpose of the Central Authorization Policy Rule (CAPR) is to provide a domain-wide definition of an isolated aspect of the organizations authorization policy.
 ms.assetid: 51436332-F06A-4929-B3C1-AD2F66C3273B
 title: Central Authorization Policy Rule
 ms.topic: article
@@ -63,15 +63,12 @@ CAPRs are created though a new UX provided in Active Directory Administrative Ce
 
 <dl> <dt>
 
-[**AccessCheck**](https://msdn.microsoft.com/library/Aa374815(v=VS.85).aspx)
+[**AccessCheck**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-accesscheck)
 </dt> <dt>
 
-[Dynamic Access Control (DAC) scenario](https://docs.microsoft.com/previous-versions/windows/desktop/dacx/dynamic-access-control-developer-extensibility-roadmap)
+[Dynamic Access Control (DAC) scenario](/previous-versions/windows/desktop/dacx/dynamic-access-control-developer-extensibility-roadmap)
 </dt> </dl>
 
  
 
  
-
-
-

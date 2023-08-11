@@ -27,7 +27,7 @@ ms.date: 05/31/2018
 
 This topic provides information about Microsoft UI Automation support for the **Tree** control type.
 
-The **Tree** control type is used for containers whose contents have relevance as a hierarchy of nodes, as with the way files and folders are displayed in the left pane of Windows Explorer. Each node has the potential to contain other nodes, called child nodes. Parent nodes, or nodes that contain child nodes, can be displayed as expanded or collapsed. The Windows tree-view control (as identified by [**WC\_TREEVIEW**](https://docs.microsoft.com/windows/desktop/Controls/common-control-window-classes)) is an example of a control that belongs to the **Tree** control type.
+The **Tree** control type is used for containers whose contents have relevance as a hierarchy of nodes, as with the way files and folders are displayed in the left pane of Windows Explorer. Each node has the potential to contain other nodes, called child nodes. Parent nodes, or nodes that contain child nodes, can be displayed as expanded or collapsed. The Windows tree-view control (as identified by [**WC\_TREEVIEW**](/windows/desktop/Controls/common-control-window-classes)) is an example of a control that belongs to the **Tree** control type.
 
 The following sections define the required UI Automation tree structure, properties, control patterns, and events for the **Tree** control type. The UI Automation requirements apply to all tree item controls where the UI framework/platform integrates UI Automation support for control types and control patterns.
 
@@ -45,49 +45,11 @@ The following table depicts a typical control and content view of the UI Automat
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Control View</th>
-<th>Content View</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Tree
-<ul>
-<li>DataItem (0 or more)</li>
-<li>TreeItem (0 or more)
-<ul>
-<li>TreeItem (0 or more)
-<ul>
-<li>...</li>
-</ul></li>
-</ul></li>
-<li>ScrollBar (0, 1, 2)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Tree
-<ul>
-<li>DataItem (0 or more)</li>
-<li>TreeItem (0 or more)
-<ul>
-<li>TreeItem (0 or more)
-<ul>
-<li>...</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Control View | Content View | 
+|--------------|--------------|
+| <ul><li>Tree<ul><li>DataItem (0 or more)</li><li>TreeItem (0 or more)<ul><li>TreeItem (0 or more)<ul><li>...</li></ul></li></ul></li><li>ScrollBar (0, 1, 2)</li></ul></li></ul> | <ul><li>Tree<ul><li>DataItem (0 or more)</li><li>TreeItem (0 or more)<ul><li>TreeItem (0 or more)<ul><li>...</li></ul></li></ul></li></ul></li></ul> | 
+
 
 
 
@@ -181,7 +143,3 @@ The following table lists the UI Automation events that all tree controls must s
  
 
  
-
-
-
-

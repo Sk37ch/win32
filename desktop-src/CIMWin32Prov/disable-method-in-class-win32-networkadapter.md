@@ -1,5 +1,5 @@
 ---
-Description: Disables the network adapter.
+description: Disables the network adapter.
 ms.assetid: 6b328d7c-a9ef-4c9b-bc32-13fa2e0f65eb
 ms.tgt_platform: multiple
 title: Disable method of the Win32_NetworkAdapter class
@@ -35,13 +35,13 @@ This method has no parameters.
 
 ## Return value
 
-Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum).
+Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum).
 
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -58,16 +58,11 @@ Returns zero (0) to indicate success. Any other number indicates an error. For e
 [**Win32\_NetworkAdapter**](win32-networkadapter.md)
 </dt> <dt>
 
-[WMI Tasks: Networking](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--networking)
+[WMI Tasks: Networking](/windows/desktop/WmiSdk/wmi-tasks--networking)
 </dt> <dt>
 
-[IPv6 and IPv4 Support in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/ipv6-and-ipv4-support-in-wmi)
+[IPv6 and IPv4 Support in WMI](/windows/desktop/WmiSdk/ipv6-and-ipv4-support-in-wmi)
 </dt> </dl>
 
  
-
- 
-
-
-
 

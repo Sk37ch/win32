@@ -1,5 +1,5 @@
 ---
-Description: The get\_SubStreamFromParticipant method allows an application to discover which substreams are associated with a given participant.
+description: The get\_SubStreamFromParticipant method allows an application to discover which substreams are associated with a given participant.
 ms.assetid: d45cdd1d-13cf-433a-9b19-193d5c0cba11
 title: ITParticipantSubStreamControl::get_SubStreamFromParticipant method (Confpriv.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |
@@ -83,13 +83,8 @@ This method can return one of these values.
 [**ITParticipant**](itparticipant.md)
 </dt> <dt>
 
-[**ITSubStream**](https://msdn.microsoft.com/library/ms732440(v=VS.85).aspx)
+[**ITSubStream**](/windows/win32/api/tapi3if/nn-tapi3if-itsubstream)
 </dt> </dl>
 
  
-
- 
-
-
-
 

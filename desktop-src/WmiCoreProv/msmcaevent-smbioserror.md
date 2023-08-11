@@ -1,5 +1,5 @@
 ---
-Description: Indicates a Machine Check Architecture (MCA) system BIOS error. This class is available only in 64-bit Windows systems.
+description: Indicates a Machine Check Architecture (MCA) system BIOS error. This class is available only in 64-bit Windows systems.
 ms.assetid: b451ca45-6208-4445-b9f1-b4e3174837a4
 title: MSMCAEvent_SMBIOSError class
 ms.topic: reference
@@ -138,7 +138,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 Unique identifier of this instance of the class.
@@ -182,7 +182,7 @@ Access type: Read-only
 
 Record identifier of the error record for this error.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/previous-versions//aa393262(v=vs.85)).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> <dt>
 
@@ -269,7 +269,7 @@ Access type: Read-only
 
 Validation bits used to indicate the validity of the subsequent fields. A value of 1 (0x1) means that the **SMBIOS\_EVENT** is valid.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/previous-versions//aa393262(v=vs.85)).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> </dl>
 
@@ -281,7 +281,7 @@ The **MSMCAEvent\_SMBIOSError** class is derived from [**WMIEvent**](wmievent.md
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
@@ -302,9 +302,4 @@ The **MSMCAEvent\_SMBIOSError** class is derived from [**WMIEvent**](wmievent.md
 </dt> </dl>
 
  
-
- 
-
-
-
 

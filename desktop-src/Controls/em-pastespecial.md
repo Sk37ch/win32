@@ -27,7 +27,7 @@ Pastes a specific clipboard format in a rich edit control.
 *wParam* 
 </dt> <dd>
 
-Specifies the [Clipboard Formats](https://docs.microsoft.com/windows/desktop/dataxchg/clipboard-formats).
+Specifies the [Clipboard Formats](/windows/desktop/dataxchg/clipboard-formats).
 
 </dd> <dt>
 
@@ -46,7 +46,7 @@ This message does not return a value.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -62,10 +62,4 @@ This message does not return a value.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

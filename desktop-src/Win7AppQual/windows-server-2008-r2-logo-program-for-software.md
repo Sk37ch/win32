@@ -1,5 +1,5 @@
 ---
-Description: The Windows Server 2008 R2 logo program focuses on ensuring that devices, systems, and applications are compatible, reliable and can perform to meet Windows standards.
+description: The Windows Server 2008 R2 logo program focuses on ensuring that devices, systems, and applications are compatible, reliable and can perform to meet Windows standards.
 ms.assetid: f90aed9d-db23-4b6b-9c4b-62f0e2730be2
 title: Windows Server 2008 R2 Logo Program for Software
 ms.topic: article
@@ -10,8 +10,7 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Servers -** Windows Server 2008 R2  
-</dl>
+ **Servers -** Windows Server 2008 R2  
 
 ### Description
 

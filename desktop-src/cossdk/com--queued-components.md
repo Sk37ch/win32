@@ -1,5 +1,5 @@
 ---
-Description: The COM+ queued components feature enables a client to request a service from a COM+ server application, even when the server application is temporarily unavailable. The client request is stored in a queue and processed when the server becomes available.
+description: The COM+ queued components feature enables a client to request a service from a COM+ server application, even when the server application is temporarily unavailable. The client request is stored in a queue and processed when the server becomes available.
 ms.assetid: 810305ad-c7fb-4627-8ca7-de37c5bef2f5
 title: COM+ Queued Components
 ms.topic: article
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 The COM+ queued components feature enables a client to request a service from a COM+ server application, even when the server application is temporarily unavailable. The client request is stored in a queue and processed when the server becomes available.
 
 > [!Note]  
-> To use the COM+ queued components service, you must have [Message Queuing](_mq_Message_Queuing_MSMQ_Start_Page.md) installed on your computer.
+> To use the COM+ queued components service, you must have [Message Queuing](/previous-versions/windows/desktop/legacy/ms711472(v=vs.85)) installed on your computer.
 
  
 

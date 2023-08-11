@@ -1,5 +1,5 @@
 ---
-Description: Authentication provides the following classes.
+description: Authentication provides the following classes.
 ms.assetid: 596ADED2-3FC3-4DCA-BA53-AC4F975D1494
 title: Authentication Classes
 ms.topic: reference
@@ -16,17 +16,12 @@ Authentication provides the following classes.
 
 | Topic                                                                                   | Description                                                       |
 |-----------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| [**RemoteTpmVirtualSmartCardManager**](https://msdn.microsoft.com/library/Hh707166(v=VS.85).aspx)<br/> | Manages TPM virtual smart cards on remote computers.<br/>   |
-| [**TpmVirtualSmartCardManager**](https://msdn.microsoft.com/library/Hh707171(v=VS.85).aspx)<br/>             | Manages TPM virtual smart cards on the local computer.<br/> |
+| [**RemoteTpmVirtualSmartCardManager**](/previous-versions/windows/desktop/legacy/hh707166(v=vs.85))<br/> | Manages TPM virtual smart cards on remote computers.<br/>   |
+| [**TpmVirtualSmartCardManager**](/previous-versions/windows/desktop/legacy/hh707171(v=vs.85))<br/>             | Manages TPM virtual smart cards on the local computer.<br/> |
 
 
 
  
 
  
-
- 
-
-
-
 

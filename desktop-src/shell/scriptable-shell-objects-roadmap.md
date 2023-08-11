@@ -1,5 +1,5 @@
 ---
-Description: The Windows Shell provides a powerful set of automation objects that enable you to program the Shell with Microsoft Visual Basic and scripting languages such as Microsoft JScript (compatible with ECMA 262 language specification) and Microsoft Visual Basic Scripting Edition (VBScript). You can use these objects to access many of the Shell's features and dialog boxes. For example, you can access the file system, launch programs, and change system settings.
+description: The Windows Shell provides a powerful set of automation objects that enable you to program the Shell with Microsoft Visual Basic and scripting languages such as Microsoft JScript (compatible with ECMA 262 language specification) and Microsoft Visual Basic Scripting Edition (VBScript). You can use these objects to access many of the Shell's features and dialog boxes. For example, you can access the file system, launch programs, and change system settings.
 title: Scriptable Shell Objects
 ms.topic: article
 ms.date: 05/31/2018
@@ -41,7 +41,7 @@ Many of the Shell objects became available in [version 4.71](versions.md) of the
 | [**ShellFolderView**](shellfolderview.md)              | [**FolderItems**](folderitems.md)                    |
 | [**ShellUIHelper**](shelluihelper.md)                  | [**FolderItems2**](folderitems2-object.md)           |
 | [**ShellWindows**](shellwindows.md)                    | [**IShellDispatch2**](ishelldispatch2-object.md)     |
-| [**WebViewFolderContents**](https://msdn.microsoft.com/library/Bb773965(v=VS.85).aspx) | [**IShellLinkDual2**](ishelllinkdual2-object.md)     |
+| [**WebViewFolderContents**](../lwef/webviewfoldercontents.md) | [**IShellLinkDual2**](ishelllinkdual2-object.md)     |
 |                                                         | [**ShellFolderItem**](shellfolderitem-object.md)     |
 |                                                         | [**ShellFolderViewOC**](shellfolderviewoc-object.md) |
 |                                                         | [**ShellLinkObject**](shelllinkobject-object.md)     |
@@ -124,7 +124,7 @@ The ProgID for each of the Shell objects is shown in the following table.
 | [**ShellLinkObject**](shelllinkobject-object.md)       | Shell.NameSpace("...").Self.GetLink or Shell.NameSpace("...").Items().GetLink           |
 | [**ShellUIHelper**](shelluihelper.md)                  | Cannot late bind                                                                        |
 | [**ShellWindows**](shellwindows.md)                    | shell.Shell\_Windows or ShellWindows.\_NewEnum                                          |
-| [**WebViewFolderContents**](https://msdn.microsoft.com/library/Bb773965(v=VS.85).aspx) | Cannot late bind                                                                        |
+| [**WebViewFolderContents**](../lwef/webviewfoldercontents.md) | Cannot late bind                                                                        |
 
 
 
@@ -148,8 +148,8 @@ The following table lists each Shell object and its respective CLASSID.
 
 
 
-|                                                         |                                      |
-|---------------------------------------------------------|--------------------------------------|
+| Shell object                                           | CLASSID                              |
+|--------------------------------------------------------|--------------------------------------|
 | [**DIDiskQuotaUser**](didiskquotauser-object.md)       | 7988B571-EC89-11cf-9C00-00AA00A14F56 |
 | [**DiskQuotaControl**](diskquotacontrol-object.md)     | 7988B571-EC89-11cf-9C00-00AA00A14F56 |
 | [**Folder**](folder.md)                                | BBCBDE60-C3FF-11CE-8350-444553540000 |
@@ -168,7 +168,7 @@ The following table lists each Shell object and its respective CLASSID.
 | [**ShellLinkObject**](shelllinkobject-object.md)       | 11219420-1768-11d1-95BE-00609797EA4F |
 | [**ShellUIHelper**](shelluihelper.md)                  | 64AB4BB7-111E-11D1-8F79-00C04FC2FBE1 |
 | [**ShellWindows**](shellwindows.md)                    | 9BA05972-F6A8-11CF-A442-00A0C90A8F39 |
-| [**WebViewFolderContents**](https://msdn.microsoft.com/library/Bb773965(v=VS.85).aspx) | 1820FED0-473E-11D0-A96C-00C04FD705A2 |
+| [**WebViewFolderContents**](../lwef/webviewfoldercontents.md) | 1820FED0-473E-11D0-A96C-00C04FD705A2 |
 
 
 
@@ -342,6 +342,3 @@ In the following JScript example, which is a direct translation of the preceding
  
 
  
-
-
-

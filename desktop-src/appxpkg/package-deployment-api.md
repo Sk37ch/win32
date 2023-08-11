@@ -12,7 +12,7 @@ Learn about the package deployment API, which you can use to install, update, an
 
 ## Windows Runtime reference
 
--   [**Windows.Management.Deployment**](https://docs.microsoft.com/uwp/api/Windows.Management.Deployment)
+-   [**Windows.Management.Deployment**](/uwp/api/Windows.Management.Deployment)
 
 ## Related topics
 
@@ -21,25 +21,25 @@ Learn about the package deployment API, which you can use to install, update, an
 **Samples**
 </dt> <dt>
 
-[Add app package sample (AddPackage)](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Deployment-f4a89ec0)
+[Add app package sample (AddPackage)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerAddPackage)
 </dt> <dt>
 
-[Enumerate app packages sample (FindPackages)](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-ee821079)
+[Enumerate app packages sample (FindPackages)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackages)
 </dt> <dt>
 
-[Enumerate app packages by name and publisher sample (FindPackagesByNameAndPublisher)](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-fe747b8a)
+[Enumerate app packages by name and publisher sample (FindPackagesByNameAndPublisher)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackagesByNameAndPublisher)
 </dt> <dt>
 
-[Enumerate app packages by user SID sample (FindPackagesByUserSecurityId)](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-5bee970a)
+[Enumerate app packages by user SID sample (FindPackagesByUserSecurityId)](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/PackageManagerFindPackagesByUserSecurityId)
 </dt> <dt>
 
-[Remove app package sample (RemovePackage)](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Deployment-ae818077)
+[Remove app package sample (RemovePackage)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerRemovePackage)
 </dt> <dt>
 
 **Concepts**
 </dt> <dt>
 
-[App packages and deployment](https://docs.microsoft.com/previous-versions/windows/apps/hh464929(v=win.10))
+[App packages and deployment](/previous-versions/windows/apps/hh464929(v=win.10))
 </dt> <dt>
 
 [Glossary](appx-packaging-glossary.md)
@@ -48,7 +48,7 @@ Learn about the package deployment API, which you can use to install, update, an
 **Reference**
 </dt> <dt>
 
-[App package manifest schema](https://docs.microsoft.com/uwp/schemas/appxpackage/appx-package-manifest)
+[App package manifest schema](/uwp/schemas/appxpackage/appx-package-manifest)
 </dt> <dt>
 
 [Packaging API](interfaces.md)
@@ -60,7 +60,3 @@ Learn about the package deployment API, which you can use to install, update, an
  
 
  
-
-
-
-

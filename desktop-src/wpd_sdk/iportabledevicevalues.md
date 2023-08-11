@@ -1,5 +1,5 @@
 ---
-Description: The IPortableDeviceValues interface holds a collection of PROPERTYKEY/PROPVARIANT pairs.
+description: The IPortableDeviceValues interface holds a collection of PROPERTYKEY/PROPVARIANT pairs.
 ms.assetid: a73cbb4e-15d2-4c8d-9267-aaec9a0fd09f
 title: IPortableDeviceValues interface (PortableDeviceTypes.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ This interface can be retrieved from a method or, if a new object is required, c
 
 ## Members
 
-The **IPortableDeviceValues** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPortableDeviceValues** also has these types of members:
+The **IPortableDeviceValues** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPortableDeviceValues** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -91,7 +91,7 @@ The **IPortableDeviceValues** interface has these methods.
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |
@@ -106,9 +106,4 @@ The **IPortableDeviceValues** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
 

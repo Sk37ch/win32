@@ -1,5 +1,5 @@
 ---
-Description: Called when the certificate returned by the CertStoreProvFindCert callback was not used, and thus released, in a subsequent call to CertStoreProvFindCert.
+description: Called when the certificate returned by the CertStoreProvFindCert callback was not used, and thus released, in a subsequent call to CertStoreProvFindCert.
 ms.assetid: be882b56-027c-4540-9426-27d3c2b262e9
 title: CertStoreProvFreeFindCert callback function
 ms.topic: reference
@@ -39,7 +39,7 @@ BOOL WINAPI CertStoreProvFreeFindCert(
 *hStoreProv* \[in\]
 </dt> <dd>
 
-**HCERTSTOREPROV** handle to a [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
+**HCERTSTOREPROV** handle to a [*certificate store*](../secgloss/c-gly.md).
 
 </dd> <dt>
 
@@ -72,7 +72,7 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
@@ -92,7 +92,3 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
  
 
  
-
-
-
-

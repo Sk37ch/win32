@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the mesh options enabled for this mesh at creation time.
+description: Retrieves the mesh options enabled for this mesh at creation time.
 ms.assetid: 4be990d7-77ab-4273-b852-e6283a89ac6c
 title: ID3DXBaseMesh::GetOptions method (D3DX9Mesh.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Returns a combination of one or more of the following flags, indicating the options enabled for this mesh at creation time.
 
@@ -69,7 +69,7 @@ Returns a combination of one or more of the following flags, indicating the opti
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -86,7 +86,3 @@ Returns a combination of one or more of the following flags, indicating the opti
  
 
  
-
-
-
-

@@ -1,14 +1,14 @@
 ---
-Description: Command-line options for msiexec.exe for Windows Installer 3.0 and earlier. Provides a table showing options, parameters, and descriptions. Examples showing how to install products and other tasks.
+description: Command-line options for msiexec.exe for Windows Installer 3.0 and earlier. Provides a table showing options, parameters, and descriptions. Examples showing how to install products and other tasks.
 ms.assetid: a70d8cc8-af47-4472-aabc-97481d97080d
 title: Command-Line Options
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/10/2021
 ---
 
 # Command-Line Options
 
-The executable program that interprets packages and installs products is Msiexec.exe. Note that Msiexec also sets an error level on return that corresponds to [system error codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes). Command-line options are case-insensitive.
+The executable program that interprets packages and installs products is Msiexec.exe. Note that Msiexec also sets an error level on return that corresponds to [system error codes](/windows/desktop/Debug/system-error-codes). Command-line options are case-insensitive.
 
 The command-line options in the following table are available with Windows Installer  3.0 and earlier versions. The [Standard Installer Command-Line Options](standard-installer-command-line-options.md) are also available beginning with Windows Installer 3.0.
 
@@ -16,9 +16,9 @@ The command-line options in the following table are available with Windows Insta
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -76,7 +76,7 @@ The length of <em>filename</em> must be no more than eight characters.
 <tr class="even">
 <td><strong>/p</strong></td>
 <td><em>PatchPackage[;patchPackage2</em> ]</td>
-<td>Applies a patch. To apply a patch to an installed administrative image you must combine the following options:<br/> /p <em><PatchPackage>[;patchPackage2 ]</em> /a <em><Package></em><br/></td>
+<td>Applies a patch. To apply a patch to an installed administrative image you must combine the following options:<br/> /p <em>&lt;PatchPackage&gt;[;patchPackage2 ]</em> /a <em>\&lt;Package&gt;</em><br/></td>
 </tr>
 <tr class="odd">
 <td><strong>/q</strong></td>
@@ -168,9 +168,4 @@ When you apply patches to a specific product, the /i and /p options cannot be sp
 The [**PATCH**](patch.md) property cannot be set in a command line, when /p option is used. If the **PATCH** property is set when the /p option is used, the value of **PATCH** property is ignored and overwritten.
 
  
-
- 
-
-
-
 

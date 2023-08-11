@@ -7,10 +7,13 @@ keywords:
 - Windows Media Format SDK,compiler settings
 - Windows Media Format SDK,header files
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Library Files and Compiler Settings
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 To develop an application using the Windows Media Format SDK, you must use Microsoft Visual C++ version 6.0 or later. The only programming languages appropriate for development are C++ and C.
 
@@ -93,9 +96,9 @@ If you are using the Platform SDK then the default paths would appear as follows
 
  
 
-Before calling any of the creation functions, COM should be initialized with a call to **Coinitialize** or **CoinitializeEx**. Either the free threading model or the apartment threading model can be used, but the apartment threading model imposes threading restrictions on the application. For more information on the Microsoft Component Object Model (COM), see the COM page at the [Microsoft Web site](https://www.microsoft.com/com/default.asp).
+Before calling any of the creation functions, COM should be initialized with a call to **Coinitialize** or **CoinitializeEx**. Either the free threading model or the apartment threading model can be used, but the apartment threading model imposes threading restrictions on the application. For more information on the Microsoft Component Object Model (COM), see the COM page at the [Microsoft Web site](../com/the-component-object-model.md).
 
-**Note** Applications that play or create files protected by Digital Rights Management (DRM) require an individualized static library that must be obtained separately from Microsoft. For more information, see the Windows Media Licensing Form at the [Microsoft Web site](http://wmlicense.smdisp.net/licenserequest/default.asp). If you use the DRM library, you should not link to Wmvcore.lib.
+**Note** Applications that play or create files protected by Digital Rights Management (DRM) require an individualized static library that must be obtained separately from Microsoft. For more information, see the Windows Media Licensing Form at the [Microsoft Web site](https://www.microsoft.com/licensing/default). If you use the DRM library, you should not link to Wmvcore.lib.
 
 ## Related topics
 
@@ -105,10 +108,4 @@ Before calling any of the creation functions, COM should be initialized with a c
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

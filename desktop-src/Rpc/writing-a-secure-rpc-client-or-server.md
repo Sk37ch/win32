@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 This section provides best practice recommendations for writing a secure RPC client or server.
 
-The information in this section applies to Windows 2000 and Windows XP. This section applies to all protocol sequences, including [**ncalrpc**](https://docs.microsoft.com/windows/desktop/Midl/ncalrpc). Developers tend to think **ncalrpc** is not a probable target for an attack, which is not true on a terminal server where potentially hundreds of users have access to a service, and compromising or even bringing down a service can lead to acquiring extra access.
+The information in this section applies to Windows 2000 and Windows XP. This section applies to all protocol sequences, including [**ncalrpc**](/windows/desktop/Midl/ncalrpc). Developers tend to think **ncalrpc** is not a probable target for an attack, which is not true on a terminal server where potentially hundreds of users have access to a service, and compromising or even bringing down a service can lead to acquiring extra access.
 
 This section is divided into the following topics:
 
@@ -20,7 +20,7 @@ This section is divided into the following topics:
 -   [Controlling Client Authentication](controlling-client-authentication.md)
 -   [Choosing an Authentication Level](choosing-an-authentication-level.md)
 -   [Choosing Security QOS Options](choosing-security-qos-options.md)
--   [Common Mistake: Assuming RpcServerRegisterAuthInfo Prevents Unauthorized Users from Calling your Server](common-mistake-assuming-rpcserverregisterauthinfo-prevents-unauthorized-users-from-calling-your-server.md)
+-   [RpcServerRegisterAuthInfo doesn't deny unauthorized users](common-mistake-assuming-rpcserverregisterauthinfo-prevents-unauthorized-users-from-calling-your-server.md)
 -   [Callbacks](callbacks.md)
 -   [Null Sessions](null-sessions.md)
 -   [Use the /robust Flag](use-the-robust-flag.md)
@@ -36,7 +36,3 @@ This section is divided into the following topics:
  
 
  
-
-
-
-

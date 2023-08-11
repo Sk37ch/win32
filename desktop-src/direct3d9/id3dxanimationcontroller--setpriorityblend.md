@@ -1,5 +1,5 @@
 ---
-Description: Sets the priority blending weight used by the animation controller.
+description: Sets the priority blending weight used by the animation controller.
 ms.assetid: b053024b-f219-48b3-906e-161d9cf47556
 title: ID3DXAnimationController::SetPriorityBlend method (D3dx9anim.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT SetPriorityBlend(
 *BlendWeight* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Priority blending weight used by the animation controller.
 
@@ -58,7 +58,7 @@ The blend weight is used to blend high and low priority tracks together.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -78,7 +78,3 @@ The blend weight is used to blend high and low priority tracks together.
  
 
  
-
-
-
-

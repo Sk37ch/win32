@@ -1,5 +1,5 @@
 ---
-Description: Returns a collection of objects (classes or instances) called endpoints that are associated with a specified object.
+description: SWbemServices.AssociatorsOfAsync method - Returns a collection of objects (classes or instances) called endpoints that are associated with a specified object.
 ms.assetid: 3969d90f-d39c-40f1-9328-fc1afbaa53b1
 ms.tgt_platform: multiple
 title: SWbemServices.AssociatorsOfAsync method (Wbemdisp.h)
@@ -185,7 +185,7 @@ This method does not return a value. If successful, the sink receives an [**OnOb
 
 ## Error codes
 
-After the completion of the **AssociatorsOfAsync** method, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
+After the completion of the **AssociatorsOfAsync** method, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
 
 <dl> <dt>
 
@@ -236,7 +236,7 @@ Use the *objWbemAsyncContext* parameter in scripts to verify the source of a cal
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -274,9 +274,4 @@ Use the *objWbemAsyncContext* parameter in scripts to verify the source of a cal
 </dt> </dl>
 
  
-
- 
-
-
-
 

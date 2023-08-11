@@ -1,5 +1,5 @@
 ---
-Description: Is an abstract base class that serves as the parent class for all intrinsic and extrinsic events.
+description: Is an abstract base class that serves as the parent class for all intrinsic and extrinsic events.
 ms.assetid: 4d2e4715-041c-49e9-b948-a148dfe85483
 ms.tgt_platform: multiple
 title: '__Event class'
@@ -71,7 +71,7 @@ Access type: Read-only
 
 Unique value that indicates the time the event is generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Time (UTC) format.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> </dl>
 
@@ -83,7 +83,7 @@ The **\_\_Event** class is derived from [**\_\_IndicationRelated**](--indication
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -95,7 +95,7 @@ The **\_\_Event** class is derived from [**\_\_IndicationRelated**](--indication
 
 <dl> <dt>
 
-[**\_\_IndicationRelated**](https://docs.microsoft.com/windows/desktop/WmiSdk/--indicationrelated)
+[**\_\_IndicationRelated**](/windows/desktop/WmiSdk/--indicationrelated)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
@@ -114,9 +114,4 @@ The **\_\_Event** class is derived from [**\_\_IndicationRelated**](--indication
 </dt> </dl>
 
  
-
- 
-
-
-
 

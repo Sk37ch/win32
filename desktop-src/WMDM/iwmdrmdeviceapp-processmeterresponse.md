@@ -100,13 +100,13 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 ## Remarks
 
-More information on metering, including code examples, can be found in the whitepaper [Metering the Use of Digital Media Content with Windows Media DRM 10](https://msdn.microsoft.com/library/windows/desktop/bb614723(v=vs.85).aspx) on the MSDN Web site.
+More information on metering, including code examples, can be found in the whitepaper [Metering the Use of Digital Media Content with Windows Media DRM 10](/previous-versions//bb614723(v=vs.85)) on the MSDN Web site.
 
 ## Requirements
 
 
 
-|                    |                                                                                                                                                                |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>WMDRMDeviceApp.h (also requires Wmdrmdeviceapp\_i.c, built from WMDRMDeviceApp.idl)</dt> </dl> |
 | Library<br/> | <dl> <dt>Mssachlp.lib</dt> </dl>                                                                        |
@@ -127,10 +127,4 @@ More information on metering, including code examples, can be found in the white
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

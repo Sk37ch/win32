@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the TPM is ready for use.
+description: Indicates whether the TPM is ready for use.
 ms.assetid: 70E9EB90-DC13-4431-97E5-D77B4E345373
 title: Win32_Tpm::IsReady method
 ms.topic: reference
@@ -45,7 +45,7 @@ Set to **TRUE** if the TPM and system are fully provisioned for TPM use.
 
 ## Return value
 
-All TPM errors as well as errors specific to [TPM Base Services](https://msdn.microsoft.com/library/Aa446795(v=VS.85).aspx) can be returned.
+All TPM errors as well as errors specific to [TPM Base Services](../tbs/tbs-return-codes.md) can be returned.
 
 Common return codes are listed below.
 
@@ -61,13 +61,13 @@ Common return codes are listed below.
 
 ## Remarks
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/Aa823192(v=VS.85).aspx).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## Requirements
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
@@ -87,7 +87,3 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
  
 
  
-
-
-
-

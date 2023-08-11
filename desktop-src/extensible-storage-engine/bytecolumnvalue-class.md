@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ByteColumnValue class"
 title: ByteColumnValue class
 TOCTitle: ByteColumnValue class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.ByteColumnValue
@@ -28,16 +29,16 @@ ROBOTS: INDEX,FOLLOW
 
 # ByteColumnValue class
 
-A [Byte](https://docs.microsoft.com/dotnet/api/system.byte?redirectedfrom=MSDN) column value.
+A [Byte](/dotnet/api/system.byte) column value.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
-  [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  
-    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Byte](https://docs.microsoft.com/dotnet/api/system.byte?redirectedfrom=MSDN)\>  
+[System.Object](/dotnet/api/system.object)  
+  [Microsoft.Isam.Esent.Interop.ColumnValue](./columnvalue-class.md)  
+    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](./columnvalueofstruct-t-class.md)\<[Byte](/dotnet/api/system.byte)\>  
       Microsoft.Isam.Esent.Interop.ByteColumnValue  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,7 +63,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[ByteColumnValue members](dn334162\(v=exchg.10\).md)
+[ByteColumnValue members](./bytecolumnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

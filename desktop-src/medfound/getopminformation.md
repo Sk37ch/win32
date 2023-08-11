@@ -1,5 +1,5 @@
 ---
-Description: Sends an OPM status request to a protected output object.
+description: Sends an OPM status request to a protected output object.
 ms.assetid: 4b691b20-25de-4b9e-a725-674a57697b56
 title: GetOPMInformation function
 ms.topic: reference
@@ -72,13 +72,13 @@ Applications should call [**IOPMVideoOutput::GetInformation**](/windows/desktop/
 
 The protected output object must be created with OPM semantics. See [**CreateOPMProtectedOutputs**](createopmprotectedoutputs.md).
 
-This function has no associated import library. To call this function, you must use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Gdi32.dll.
+This function has no associated import library. To call this function, you must use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Gdi32.dll.
 
 ## Requirements
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
@@ -99,7 +99,3 @@ This function has no associated import library. To call this function, you must 
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum QP supported by the encoder.
+description: Specifies the maximum QP supported by the encoder.
 ms.assetid: 2C02F82B-E645-4C5B-9526-5E130A6E2F67
 title: CODECAPI_AVEncVideoMaxQP property (Codecapi.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ Specifies the maximum QP supported by the encoder.
 
 **H.264/AVC encoders:**
 
-The encoder shall support[**GetValue**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue), [**SetValue**](https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-setvalue), and [**GetParameterRange**](https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-getparameterrange).
+The encoder shall support[**GetValue**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue), [**SetValue**](/windows/desktop/api/strmif/nf-strmif-icodecapi-setvalue), and [**GetParameterRange**](/windows/desktop/api/strmif/nf-strmif-icodecapi-getparameterrange).
 
 This is a static property meaning that it can only be set before the encoding session starts.
 
@@ -32,7 +32,7 @@ Default value shall be the max QP allowed by the corresponding coding standard. 
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                   |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                        |
@@ -51,9 +51,4 @@ Default value shall be the max QP allowed by the corresponding coding standard. 
 </dt> </dl>
 
  
-
- 
-
-
-
 

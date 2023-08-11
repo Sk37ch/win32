@@ -1,5 +1,5 @@
 ---
-Description: Requests that the state of the guest service interface component be changed to the specified value.
+description: Requests that the state of the guest service interface component be changed to the specified value.
 ms.assetid: D9F7CD03-0D86-4005-A600-5CC7082A5047
 title: Msvm_GuestServiceInterfaceComponent::RequestStateChange method
 ms.topic: reference
@@ -125,7 +125,7 @@ The new state. The info is placed in the **RequestedState** property of the inst
 *Job* \[out\]
 </dt> <dd>
 
-Type: **[**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85))**
+Type: **[**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85))**
 
 An optional reference to a [**Msvm\_ConcreteJob**](msvm-concretejob.md) object that is returned if the operation is executed asynchronously. If present, the returned reference can be used to monitor progress and obtain the result of the method.
 
@@ -173,7 +173,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
@@ -191,9 +191,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

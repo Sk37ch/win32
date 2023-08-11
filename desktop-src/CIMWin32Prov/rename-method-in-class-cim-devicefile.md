@@ -1,5 +1,5 @@
 ---
-Description: Renames the device file (or directory) specified in the object path.
+description: Renames the device file (or directory) specified in the object path.
 ms.assetid: 48c2eab3-c76d-4e4b-927e-dbb17584cccd
 ms.tgt_platform: multiple
 title: Rename method of the CIM_DeviceFile class
@@ -25,7 +25,7 @@ The **Rename** method renames the device file (or directory) specified in the ob
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -158,7 +158,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -179,9 +179,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

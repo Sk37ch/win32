@@ -1,5 +1,5 @@
 ---
-Description: Registers event consumer providers with WMI.
+description: Registers event consumer providers with WMI.
 ms.assetid: 31ff43dc-dc70-4ba0-866f-37445912f837
 ms.tgt_platform: multiple
 title: '__EventConsumerProviderRegistration class'
@@ -80,7 +80,7 @@ The **\_\_EventConsumerProviderRegistration** class is derived from [**\_\_Provi
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -92,7 +92,7 @@ The **\_\_EventConsumerProviderRegistration** class is derived from [**\_\_Provi
 
 <dl> <dt>
 
-[**\_\_ProviderRegistration**](https://docs.microsoft.com/windows/desktop/WmiSdk/--providerregistration)
+[**\_\_ProviderRegistration**](/windows/desktop/WmiSdk/--providerregistration)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
@@ -105,9 +105,4 @@ The **\_\_EventConsumerProviderRegistration** class is derived from [**\_\_Provi
 </dt> </dl>
 
  
-
- 
-
-
-
 

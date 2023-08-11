@@ -1,5 +1,5 @@
 ---
-Description: The PdhVbAddCounter function creates a counter entry in the specified query object, and returns a handle to that counter upon successful completion.
+description: The PdhVbAddCounter function creates a counter entry in the specified query object, and returns a handle to that counter upon successful completion.
 ms.assetid: 20a9e6cd-bf0d-497d-b660-88e786e2f004
 title: PdhVbAddCounter function
 ms.topic: reference
@@ -18,6 +18,9 @@ api_location:
 # PdhVbAddCounter function
 
 The **PdhVbAddCounter** function creates a counter entry in the specified query object, and returns a handle to that counter upon successful completion.
+
+> [!IMPORTANT]
+> The function that this topic describes may be altered or unavailable in the future. Instead, Microsoft recommends that you use the functions described in [Performance Counters Functions](performance-counters-functions.md).
 
 Function PdhVbAddCounter( \_ ByVal QueryHandle As Long, \_ ByVal CounterPath As String, \_ ByVal CounterHandle As Long \_ ) As Long
 
@@ -50,7 +53,7 @@ Unique reference that identifies this counter in the query. This variable must b
 
 If the function succeeds, it returns a **Long** integer equal to ERROR\_SUCCESS and a new handle in the *CounterHandle* variable.
 
-If the function fails, the return value is a [system error code](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes) or a [PDH error code](pdh-error-codes.md). The following are possible values.
+If the function fails, the return value is a [system error code](/windows/desktop/Debug/system-error-codes) or a [PDH error code](pdh-error-codes.md). The following are possible values.
 
 
 
@@ -73,7 +76,7 @@ If the function fails, the return value is a [system error code](https://docs.mi
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
@@ -90,9 +93,4 @@ If the function fails, the return value is a [system error code](https://docs.mi
 </dt> </dl>
 
  
-
- 
-
-
-
 

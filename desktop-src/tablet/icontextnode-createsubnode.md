@@ -1,5 +1,5 @@
 ---
-Description: Creates a new child IContextNode object.
+description: Creates a new child IContextNode object.
 ms.assetid: 35d2b641-fada-418b-9374-0303c7d318e5
 title: IContextNode::CreateSubNode method (IACom.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppContextNodeCreated* when you no longer need to use the context node.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppContextNodeCreated* when you no longer need to use the context node.
 
  
 
@@ -68,7 +68,7 @@ For a list of context node types, see [Context Node Types](context-node-types.md
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -91,9 +91,4 @@ For a list of context node types, see [Context Node Types](context-node-types.md
 </dt> </dl>
 
  
-
- 
-
-
-
 

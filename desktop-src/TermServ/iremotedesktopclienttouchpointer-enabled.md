@@ -50,7 +50,7 @@ HRESULT get_Enabled(
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
@@ -64,14 +64,8 @@ HRESULT get_Enabled(
 
 <dl> <dt>
 
-[**IRemoteDesktopClientTouchPointer**](https://msdn.microsoft.com/library/Mt787029(v=VS.85).aspx)
+[**IRemoteDesktopClientTouchPointer**](/windows/win32/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclienttouchpointer)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

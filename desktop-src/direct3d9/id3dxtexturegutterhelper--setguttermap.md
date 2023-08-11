@@ -1,5 +1,5 @@
 ---
-Description: Sets a texel class value that indicates texel class according to each texel's location.
+description: Sets a texel class value that indicates texel class according to each texel's location.
 ms.assetid: cb2e6afb-4b6a-4b01-aaa8-1fd2d1f2bfa1
 title: ID3DXTextureGutterHelper::SetGutterMap method (D3DX9Mesh.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT SetGutterMap(
 *pGutterData* \[in\]
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**BYTE**](../winprog/windows-data-types.md)\***
 
 Pointer to the texel class. Possible texel classes are as follows. There is no texel class 3.
 
@@ -67,7 +67,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -84,7 +84,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
  
 
  
-
-
-
-

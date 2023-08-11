@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a collection of IContextLink objects that represents relationships with other IContextNode objects.
+description: Retrieves a collection of IContextLink objects that represents relationships with other IContextNode objects.
 ms.assetid: 0fe56e6d-c779-4916-9c80-6f18cf6f1b09
 title: IContextNode::GetContextLinks method (IACom.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppContextLinks* when you no longer need to use the context links collection.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppContextLinks* when you no longer need to use the context links collection.
 
  
 
@@ -60,7 +60,7 @@ For more information about the kinds of relationships that are described by link
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -89,9 +89,4 @@ For more information about the kinds of relationships that are described by link
 </dt> </dl>
 
  
-
- 
-
-
-
 

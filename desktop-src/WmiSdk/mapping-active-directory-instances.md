@@ -1,5 +1,5 @@
 ---
-Description: In general, each Active Directory object maps to exactly one WMI instance.
+description: In general, each Active Directory object maps to exactly one WMI instance.
 ms.assetid: c6c7f3c3-7174-4278-bf40-d99ed8bd0c8d
 ms.tgt_platform: multiple
 title: Mapping Active Directory Instances
@@ -66,11 +66,8 @@ For more information about **Uint8Array** and **DN\_With\_Binary**, see [Mapping
 
 ## Mapping Instance Associations
 
-The Directory Services provider maps the different container relationships in Active Directory using instances of the [**DS\_LDAP\_Instance\_Containment**](https://docs.microsoft.com/previous-versions/windows/desktop/dsprov/ds-ldap-instance-containment) class.
+The Directory Services provider maps the different container relationships in Active Directory using instances of the [**DS\_LDAP\_Instance\_Containment**](/previous-versions/windows/desktop/dsprov/ds-ldap-instance-containment) class.
 
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Associates the Msvm\_VirtualSystemCollection to the contained Msvm\_ComputerSystem objects.
+description: Msvm_CollectedVirtualSystems class - Associates the Msvm\_VirtualSystemCollection to the contained Msvm\_ComputerSystem objects.
 ms.assetid: ad783188-b60a-4271-aa2d-8050c36e70eb
 title: Msvm_CollectedVirtualSystems class
 ms.topic: reference
@@ -55,7 +55,7 @@ Data type: **Msvm\_VirtualSystemCollection**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Collection")
+Qualifiers: [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Collection")
 </dt> </dl>
 
 An [**Msvm\_VirtualSystemCollection**](msvm-virtualsystemcollection.md) grouping or 'bag' object that represents the collection.
@@ -71,7 +71,7 @@ Data type: **Msvm\_ComputerSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Member")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Member")
 </dt> </dl>
 
 An [**Msvm\_ComputerSystem**](msvm-computersystem.md) object containing the members of the collection.
@@ -82,7 +82,7 @@ An [**Msvm\_ComputerSystem**](msvm-computersystem.md) object containing the memb
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -100,9 +100,4 @@ An [**Msvm\_ComputerSystem**](msvm-computersystem.md) object containing the memb
 </dt> </dl>
 
  
-
- 
-
-
-
 

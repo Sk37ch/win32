@@ -1,22 +1,25 @@
 ---
-Description: Builds a left-handed perspective projection matrix
+description: D3DXMatrixPerspectiveLH function (D3DX10Math.h) - Builds a left-handed perspective projection matrix
 ms.assetid: 5fd8da67-ff12-42fa-b915-b50fa2680b32
 title: D3DXMatrixPerspectiveLH function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixPerspectiveLH
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXMatrixPerspectiveLH function
+# D3DXMatrixPerspectiveLH function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a left-handed perspective projection matrix
 
@@ -42,7 +45,7 @@ D3DXMATRIX* D3DXMatrixPerspectiveLH(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the result of the operation.
 
@@ -51,7 +54,7 @@ Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the resul
 *w* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Width of the view volume at the near view-plane.
 
@@ -60,7 +63,7 @@ Width of the view volume at the near view-plane.
 *h* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Height of the view volume at the near view-plane.
 
@@ -69,7 +72,7 @@ Height of the view volume at the near view-plane.
 *zn* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Z-value of the near view-plane.
 
@@ -78,7 +81,7 @@ Z-value of the near view-plane.
 *zf* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Z-value of the far view-plane.
 
@@ -86,7 +89,7 @@ Z-value of the far view-plane.
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to a D3DXMATRIX structure that is a left-handed perspective projection matrix.
 
@@ -112,7 +115,7 @@ This function uses the following formula to compute the returned matrix.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -129,7 +132,3 @@ This function uses the following formula to compute the returned matrix.
  
 
  
-
-
-
-

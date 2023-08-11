@@ -1,5 +1,5 @@
 ---
-Description: Computes unit normals for each vertex in a mesh. Provided to support legacy applications. Use D3DXComputeTangentFrameEx for better results.
+description: Computes unit normals for each vertex in a mesh. Provided to support legacy applications. Use D3DXComputeTangentFrameEx for better results.
 ms.assetid: 7c879149-2c4c-4824-9604-e88696cc6ddc
 title: D3DXComputeNormals function (D3DX9Mesh.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Pointer to an [**ID3DXBaseMesh**](id3dxbasemesh.md) interface, representing the 
 *pAdjacency* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the created progressive mesh. This parameter is optional and should be set to **NULL** if it is unused.
 
@@ -96,7 +96,7 @@ D3DXComputeTangentFrameEx( pMesh,
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -113,7 +113,3 @@ D3DXComputeTangentFrameEx( pMesh,
  
 
  
-
-
-
-

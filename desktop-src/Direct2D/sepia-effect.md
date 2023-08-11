@@ -50,7 +50,7 @@ The properties for the sepia effect are defined by the [**D2D1\_SEPIA\_PROP**](/
 
 
 
-|                          |                                                   |
+| Requirement | Value |
 |--------------------------|---------------------------------------------------|
 | Minimum supported client | Windows 10 \[desktop apps \| Windows Store apps\] |
 | Minimum supported server | Windows 10 \[desktop apps \| Windows Store apps\] |
@@ -58,8 +58,7 @@ The properties for the sepia effect are defined by the [**D2D1\_SEPIA\_PROP**](/
 | Library                  | d2d1.lib, dxguid.lib                              |
 
 
-
- ## Related topics
+## Related topics
 
 * [ID2D1Effect interface](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)
 

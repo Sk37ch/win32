@@ -1,22 +1,25 @@
 ---
-Description: Builds a matrix that scales along the x-axis, the y-axis, and the z-axis.
+description: D3DXMatrixScaling function (D3DX10Math.h) - Builds a matrix that scales along the x-axis, the y-axis, and the z-axis.
 ms.assetid: 1804bf41-26de-4be1-ad62-7a871d7408e6
 title: D3DXMatrixScaling function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixScaling
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXMatrixScaling function
+# D3DXMatrixScaling function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a matrix that scales along the x-axis, the y-axis, and the z-axis.
 
@@ -41,7 +44,7 @@ D3DXMATRIX* D3DXMatrixScaling(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the result of the operation.
 
@@ -50,7 +53,7 @@ Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the resul
 *sx* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Scaling factor that is applied along the x-axis.
 
@@ -59,7 +62,7 @@ Scaling factor that is applied along the x-axis.
 *sy* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Scaling factor that is applied along the y-axis.
 
@@ -68,7 +71,7 @@ Scaling factor that is applied along the y-axis.
 *sz* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Scaling factor that is applied along the z-axis.
 
@@ -76,7 +79,7 @@ Scaling factor that is applied along the z-axis.
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to the scaling transformation D3DXMATRIX.
 
@@ -88,7 +91,7 @@ The return value for this function is the same value returned in the pOut parame
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -105,7 +108,3 @@ The return value for this function is the same value returned in the pOut parame
  
 
  
-
-
-
-

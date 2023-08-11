@@ -1,5 +1,5 @@
 ---
-Description: Following are the SSP authentication packages provided by Microsoft.
+description: Following are the SSP authentication packages provided by Microsoft.
 ms.assetid: 8df87a74-75b2-46a0-a209-57d906b2affd
 title: SSP Packages Provided by Microsoft
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # SSP Packages Provided by Microsoft
 
-Following are the SSP [*authentication packages*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) provided by Microsoft.
+Following are the SSP [*authentication packages*](../secgloss/a-gly.md) provided by Microsoft.
 
 -   [Credential Security Support Provider](credential-security-support-provider.md)
 -   [Microsoft Negotiate](microsoft-negotiate.md)
@@ -20,6 +20,3 @@ Following are the SSP [*authentication packages*](https://msdn.microsoft.com/lib
  
 
  
-
-
-

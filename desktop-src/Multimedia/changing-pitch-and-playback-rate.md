@@ -14,10 +14,13 @@ keywords:
 - changing waveform-audio playback rate
 - changing waveform-audio pitch
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Changing Pitch and Playback Rate
+
+\[The feature associated with this page, [Waveform Audio](/windows/win32/multimedia/waveform-audio), is a legacy feature. It has been superseded by [WASAPI](/windows/win32/coreaudio/wasapi) and [Audio Graphs](/windows/uwp/audio-video-camera/audio-graphs). **WASAPI** and **Audio Graphs** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **WASAPI** and **Audio Graphs** instead of **Waveform Audio**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Some waveform-audio output devices can vary the pitch and the playback rate of waveform-audio data. Not all waveform-audio devices support pitch and playback-rate changes. For information about how to determine whether a particular waveform-audio device supports pitch and playback rate changes, see [Devices and Data Types](devices-and-data-types.md).
 
@@ -32,10 +35,10 @@ Windows provides the following functions to query and set waveform-audio pitch a
 
 | Function                                                 | Description                                                                 |
 |----------------------------------------------------------|-----------------------------------------------------------------------------|
-| [**waveOutGetPitch**](https://msdn.microsoft.com/library/Dd743861(v=VS.85).aspx)               | Retrieves the pitch for the specified waveform-audio output device.         |
-| [**waveOutGetPlaybackRate**](https://msdn.microsoft.com/library/Dd743862(v=VS.85).aspx) | Retrieves the playback rate for the specified waveform-audio output device. |
-| [**waveOutSetPitch**](https://msdn.microsoft.com/library/Dd743872(v=VS.85).aspx)               | Sets the pitch for the specified waveform-audio output device.              |
-| [**waveOutSetPlaybackRate**](https://msdn.microsoft.com/library/Dd743873(v=VS.85).aspx) | Sets the playback rate for the specified waveform-audio output device.      |
+| [**waveOutGetPitch**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgetpitch)               | Retrieves the pitch for the specified waveform-audio output device.         |
+| [**waveOutGetPlaybackRate**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgetplaybackrate) | Retrieves the playback rate for the specified waveform-audio output device. |
+| [**waveOutSetPitch**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutsetpitch)               | Sets the pitch for the specified waveform-audio output device.              |
+| [**waveOutSetPlaybackRate**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutsetplaybackrate) | Sets the playback rate for the specified waveform-audio output device.      |
 
 
 
@@ -46,7 +49,3 @@ The pitch and playback rates are changed by a factor specified with a fixed-poin
  
 
  
-
-
-
-

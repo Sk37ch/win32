@@ -1,5 +1,5 @@
 ---
-Description: Credential Providers in Windows 10
+description: Credential Providers in Windows 10
 ms.assetid: BCF69196-D4E4-41D0-B372-5000FD50164B
 title: Credential Providers in Windows 10
 ms.topic: article
@@ -34,9 +34,9 @@ In summary, we want to discourage the disabling of all system credential provide
 
 ## Custom credential providers
 
-The Windows credential provider framework enables developers to create custom credential providers. When [Winlogon](winlogon.md) wants to collect credentials, the Logon UI queries each credential provider for the number of credentials that it wishes to enumerate. After all providers have enumerated their tiles, the Logon UI displays them to the user. The user then interacts with a tile to supply the necessary credentials. The Logon UI submits these credentials for authentication. Credential providers can also be used by the Credential UI when credentials are necessary. See [**CREDENTIAL\_PROVIDER\_USAGE\_SCENARIO**](https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-credential_provider_usage_scenario) for a list of scenarios where a credential provider can be supported.
+The Windows credential provider framework enables developers to create custom credential providers. When [Winlogon](winlogon.md) wants to collect credentials, the Logon UI queries each credential provider for the number of credentials that it wishes to enumerate. After all providers have enumerated their tiles, the Logon UI displays them to the user. The user then interacts with a tile to supply the necessary credentials. The Logon UI submits these credentials for authentication. Credential providers can also be used by the Credential UI when credentials are necessary. See [**CREDENTIAL\_PROVIDER\_USAGE\_SCENARIO**](/windows/desktop/api/credentialprovider/ne-credentialprovider-credential_provider_usage_scenario) for a list of scenarios where a credential provider can be supported.
 
-Thanks to this system, it is much easier to create a credential provider than it was historically. Much of the work is handled by the combination of [Winlogon](winlogon.md), the Logon UI and the Credential UI. In order to do so, you will need to create your own implementation of [**ICredentialProvider**](https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovider) and [**ICredentialProviderCredential**](https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential). If you are implementing a V2 credential provider, which is recommended, you will also need to implement [**ICredentialProviderCredential2**](https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential2).
+Thanks to this system, it is much easier to create a credential provider than it was historically. Much of the work is handled by the combination of [Winlogon](winlogon.md), the Logon UI and the Credential UI. In order to do so, you will need to create your own implementation of [**ICredentialProvider**](/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovider) and [**ICredentialProviderCredential**](/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential). If you are implementing a V2 credential provider, which is recommended, you will also need to implement [**ICredentialProviderCredential2**](/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential2).
 
 It is important to note that credential providers are not enforcement mechanisms. They are simply used to gather and serialize credentials, submitting them for authorization. The local authority and authentication packages will handle and any necessary security enforcement.
 
@@ -54,7 +54,7 @@ Credential providers are registered on a Windows machine and are responsible for
 
 ## Wrapping credential providers
 
-Wrapping a system credential provider can be done to add functionality to that credential provider that is not natively supported. This is not recommend because it can lead to problematic behavior. Changes can be made to the credential provider which may conflict with the wrapper causing a poor user experience or even preventing the user from getting into their device. This is especially true with the frequent update cadence of Windows 10.
+Wrapping a system credential provider can be done to add functionality to that credential provider that is not natively supported. This is not recommended because it can lead to problematic behavior. Changes can be made to the credential provider which may conflict with the wrapper causing a poor user experience or even preventing the user from getting into their device. This is especially true with the frequent update cadence of Windows 10.
 
 If functionality in a credential provider is needed that is not included natively, the recommended path is to create a custom credential provider. This is a more stable approach that does not take dependencies on the system providers.
 
@@ -65,18 +65,15 @@ If functionality in a credential provider is needed that is not included nativel
 [Credential Provider driven Windows Logon Experience](https://go.microsoft.com/fwlink/?LinkId=717287)
 </dt> <dt>
 
-[ICredentialProvider](https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovider)
+[ICredentialProvider](/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovider)
 </dt> <dt>
 
-[CREDENTIAL\_PROVIDER\_CREDENTIAL\_SERIALIZATION](https://docs.microsoft.com/windows/desktop/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization)
+[CREDENTIAL\_PROVIDER\_CREDENTIAL\_SERIALIZATION](/windows/desktop/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization)
 </dt> <dt>
 
-[CREDENTIAL\_PROVIDER\_USAGE\_SCENARIO](https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-credential_provider_usage_scenario)
+[CREDENTIAL\_PROVIDER\_USAGE\_SCENARIO](/windows/desktop/api/credentialprovider/ne-credentialprovider-credential_provider_usage_scenario)
 </dt> </dl>
 
  
 
  
-
-
-

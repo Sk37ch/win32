@@ -1,5 +1,5 @@
 ---
-Description: Indicates the location to be searched for an Active Directory certificate store.
+description: Indicates the location to be searched for an Active Directory certificate store.
 ms.assetid: 56b9695e-7ab9-405b-9cae-d78c43071186
 title: CAPICOM_ACTIVE_DIRECTORY_SEARCH_LOCATION enumeration (Capicom.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # CAPICOM\_ACTIVE\_DIRECTORY\_SEARCH\_LOCATION enumeration
 
-The **CAPICOM\_ACTIVE\_DIRECTORY\_SEARCH\_LOCATION** enumeration type indicates the location to be searched for an Active Directory [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
+The **CAPICOM\_ACTIVE\_DIRECTORY\_SEARCH\_LOCATION** enumeration type indicates the location to be searched for an Active Directory [*certificate store*](../secgloss/c-gly.md).
 
 ## Members
 
@@ -41,7 +41,7 @@ This enumeration type is used by the following property:
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |
@@ -51,7 +51,3 @@ This enumeration type is used by the following property:
  
 
  
-
-
-
-

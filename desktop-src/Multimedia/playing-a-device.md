@@ -6,14 +6,17 @@ keywords:
 - MCI_PLAY command
 - MCIAVI playback window
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Playing a Device
 
+\[The feature associated with this page, [MCI](/windows/win32/multimedia/mci), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **MCI**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The [**play**](play.md) ([**MCI\_PLAY**](mci-play.md)) command starts playing a device. Without any flags, this command starts playing from the current position and plays until the command is interrupted or until the end of the media or file is reached. After playback, the current position is at the end of the media. You can also use the [**seek**](seek.md) ([**MCI\_SEEK**](mci-seek.md)) command to change the current position.
 
-Most devices that support the **play** command also support the "from" (MCI\_FROM) and "to" (MCI\_TO) flags. These flags indicate the position at which the device should start and stop playing. For example, the following command plays a CD audio disc from the beginning of the first track using the [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) function:
+Most devices that support the **play** command also support the "from" (MCI\_FROM) and "to" (MCI\_TO) flags. These flags indicate the position at which the device should start and stop playing. For example, the following command plays a CD audio disc from the beginning of the first track using the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) function:
 
 
 ```C++
@@ -45,11 +48,11 @@ Your application can specify the following options to define the playback window
 
 If your application does not specify any window options, the MCIAVI driver creates a default window for playing the sequence. The driver creates this playback window for the [**open**](open.md) ([**MCI\_OPEN**](mci-open.md)) command, but it does not display the window until your application sends a command to either display the window or play the file. This default playback window is a pop-up window with a sizing border, title bar, a thick frame, a **window** menu, and a Minimize button.
 
-Your application can also specify a parent window handle and a window style when it issues the **open** command. In this case, the MCIAVI driver creates a window based on these specifications instead of the default pop-up window. Your application can specify any window style available for the [CreateWindow](https://msdn.microsoft.com/library/ms632679.aspx) function. Styles that require a parent window, such as WS\_CHILD, should include a parent window handle.
+Your application can also specify a parent window handle and a window style when it issues the **open** command. In this case, the MCIAVI driver creates a window based on these specifications instead of the default pop-up window. Your application can specify any window style available for the [CreateWindow](/windows/win32/api/winuser/nf-winuser-createwindowa) function. Styles that require a parent window, such as WS\_CHILD, should include a parent window handle.
 
 Your application can also create its own window and supply the handle to the MCIAVI driver by using the [**window**](window.md) ([**MCI\_WINDOW**](mci-window.md)) command. The MCIAVI driver uses this window instead of creating one of its own.
 
-When the MCIAVI driver creates the playback window or obtains a window handle from your application, it does not display the window until your application either plays the sequence or sends a command to display the window. Your application can use the **window** command to display the window without playing the sequence. For example, the following command displays the window using [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx):
+When the MCIAVI driver creates the playback window or obtains a window handle from your application, it does not display the window until your application either plays the sequence or sends a command to display the window. Your application can use the **window** command to display the window without playing the sequence. For example, the following command displays the window using [**mciSendString**](/previous-versions//dd757161(v=vs.85)):
 
 
 ```C++
@@ -88,7 +91,3 @@ The data in an AVI file is treated as a series of streams. An AVI file typically
  
 
  
-
-
-
-

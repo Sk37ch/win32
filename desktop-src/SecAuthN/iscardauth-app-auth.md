@@ -1,5 +1,5 @@
 ---
-Description: The APP\_Auth method authenticates the application. It allows an application to authenticate itself (using a challenge/signature protocol) when authentication is requested by a smart card.
+description: The APP\_Auth method authenticates the application. It allows an application to authenticate itself (using a challenge/signature protocol) when authentication is requested by a smart card.
 ms.assetid: 0b86ce09-ca17-4d74-bc14-46b17262e669
 title: ISCardAuth::APP_Auth method
 ms.topic: reference
@@ -16,9 +16,9 @@ api_location:
 
 # ISCardAuth::APP\_Auth method
 
-\[The **APP\_Auth** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **APP\_Auth** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
-The **APP\_Auth** method authenticates the application. It allows an application to authenticate itself (using a challenge/signature protocol) when authentication is requested by a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).
+The **APP\_Auth** method authenticates the application. It allows an application to authenticate itself (using a challenge/signature protocol) when authentication is requested by a [*smart card*](../secgloss/s-gly.md).
 
 ## Syntax
 
@@ -85,7 +85,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
@@ -107,7 +107,3 @@ In addition to the COM error codes listed above, this interface may return a sma
  
 
  
-
-
-
-

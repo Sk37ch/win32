@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ClusterServiceAccessBySAP class represents the relationship between a clustering service and its access points.
+description: The CIM\_ClusterServiceAccessBySAP class represents the relationship between a clustering service and its access points.
 ms.assetid: b1e03ef1-909c-4836-a75f-c8d88a4d0087
 ms.tgt_platform: multiple
 title: CIM_ClusterServiceAccessBySAP class
@@ -61,7 +61,7 @@ Data type: **CIM\_ClusteringService**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_ClusteringService**](cim-clusteringservice.md) that describes the clustering service.
@@ -77,7 +77,7 @@ Data type: **CIM\_ClusteringSAP**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_ClusteringSAP**](cim-clusteringsap.md) that describes an access point for the clustering service.
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -114,9 +114,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

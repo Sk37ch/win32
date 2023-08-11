@@ -29,7 +29,7 @@ Data loading object used by [**ID3DX11ThreadPump Interface**](id3dx11threadpump.
 
 ## Members
 
-The **ID3DX11DataLoader** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ID3DX11DataLoader** also has these types of members:
+The **ID3DX11DataLoader** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ID3DX11DataLoader** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -39,44 +39,13 @@ The **ID3DX11DataLoader** interface has these methods.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Method</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="id3dx11dataloader-decompress.md"><strong>Decompress</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
-</blockquote>
-<br/> Decompresses encoded data.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="id3dx11dataloader-destroy.md"><strong>Destroy</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
-</blockquote>
-<br/> Destroys the loader after a work item completes.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="id3dx11dataloader-load.md"><strong>Load</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
-</blockquote>
-<br/> Loads data from a disk.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Method | Description | 
+|--------|-------------|
+| <a href="id3dx11dataloader-decompress.md"><strong>Decompress</strong></a> | <blockquote>[!Note]<br />The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.</blockquote><br /> Decompresses encoded data.<br /> | 
+| <a href="id3dx11dataloader-destroy.md"><strong>Destroy</strong></a> | <blockquote>[!Note]<br />The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.</blockquote><br /> Destroys the loader after a work item completes.<br /> | 
+| <a href="id3dx11dataloader-load.md"><strong>Load</strong></a> | <blockquote>[!Note]<br />The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.</blockquote><br /> Loads data from a disk.<br /> | 
+
 
 
 
@@ -90,7 +59,7 @@ This object can be inherited and its members redefined. Doing so would enable yo
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
@@ -107,10 +76,4 @@ This object can be inherited and its members redefined. Doing so would enable yo
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Attaches a surface to another surface.
+description: NtGdiDdAddAttachedSurface function - Attaches a surface to another surface.
 ms.assetid: c4ef9e96-c498-4175-a2cd-22e0f88fd86e
 title: NtGdiDdAddAttachedSurface function (Ntgdi.h)
 ms.topic: reference
@@ -44,21 +44,21 @@ DWORD APIENTRY NtGdiDdAddAttachedSurface(
 *hSurface* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that represents the surface to which another surface is being attached.
+Handle to a [**DD\_SURFACE\_LOCAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local) structure that represents the surface to which another surface is being attached.
 
 </dd> <dt>
 
 *hSurfaceAttached* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that represents the surface to be attached.
+Handle to a [**DD\_SURFACE\_LOCAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local) structure that represents the surface to be attached.
 
 </dd> <dt>
 
 *puAddAttachedSurfaceData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_ADDATTACHEDSURFACEDATA**](https://msdn.microsoft.com/library/Ff550462(v=VS.85).aspx) structure that contains information required for the driver to perform the attachment.
+Pointer to a [**DD\_ADDATTACHEDSURFACEDATA**](/windows/win32/api/ddrawint/ns-ddrawint-dd_addattachedsurfacedata) structure that contains information required for the driver to perform the attachment.
 
 </dd> </dl>
 
@@ -81,7 +81,7 @@ Pointer to a [**DD\_ADDATTACHEDSURFACEDATA**](https://msdn.microsoft.com/library
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
@@ -99,7 +99,3 @@ Pointer to a [**DD\_ADDATTACHEDSURFACEDATA**](https://msdn.microsoft.com/library
  
 
  
-
-
-
-

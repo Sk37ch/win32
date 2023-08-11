@@ -1,5 +1,5 @@
 ---
-Description: The IWiaAppErrorHandler interface enables applications to display error windows (during data transfers) from which the user can choose whether to continue, cancel, or abort the transfer.
+description: The IWiaAppErrorHandler interface enables applications to display error windows (during data transfers) from which the user can choose whether to continue, cancel, or abort the transfer.
 ms.assetid: ac2597e6-2857-4694-bea7-1ea65d63b365
 title: IWiaAppErrorHandler interface (Wia.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ The **IWiaAppErrorHandler** interface enables applications to display error wind
 
 ## Members
 
-The **IWiaAppErrorHandler** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IWiaAppErrorHandler** also has these types of members:
+The **IWiaAppErrorHandler** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IWiaAppErrorHandler** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -56,7 +56,7 @@ If you want a driver error handler and default error handler to display error me
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
@@ -68,7 +68,3 @@ If you want a driver error handler and default error handler to display error me
  
 
  
-
-
-
-

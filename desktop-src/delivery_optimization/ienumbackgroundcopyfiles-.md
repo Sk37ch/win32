@@ -24,7 +24,7 @@ Use the **IEnumBackgroundCopyFiles** interface to enumerate the files that a job
 
 ## Members
 
-The **IEnumBackgroundCopyFiles** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IEnumBackgroundCopyFiles** also has these types of members:
+The **IEnumBackgroundCopyFiles** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IEnumBackgroundCopyFiles** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -49,7 +49,7 @@ The **IEnumBackgroundCopyFiles** interface has these methods.
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
@@ -69,10 +69,4 @@ The **IEnumBackgroundCopyFiles** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

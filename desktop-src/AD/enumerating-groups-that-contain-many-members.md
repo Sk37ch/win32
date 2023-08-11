@@ -1,6 +1,6 @@
 ---
 title: Enumerating Groups That Contain Many Members
-description: The members of a group are stored in a multi-value attribute called member.
+description: Learn about enumerating Azure Active Directory groups that contain many members by using the incremental retrieval of data (range retrieval).
 ms.assetid: 78f81b09-2223-4b74-b8d5-7a97494c0324
 ms.tgt_platform: multiple
 keywords:
@@ -29,14 +29,10 @@ The version of the server that supplies the requested data determines the maximu
 
  
 
-For more information about retrieving ranges of attribute values with ADSI, see [Attribute Range Retrieval](https://docs.microsoft.com/windows/desktop/ADSI/attribute-range-retrieval).
+For more information about retrieving ranges of attribute values with ADSI, see [Attribute Range Retrieval](/windows/desktop/ADSI/attribute-range-retrieval).
 
-For more information about retrieving ranges of attribute values with [System.DirectoryServices](https://docs.microsoft.com/dotnet/api/system.directoryservices?redirectedfrom=MSDN), see [Enumerating Members in a Large Group](https://msdn.microsoft.com/library/ms180907(v=VS.80).aspx).
-
- 
+For more information about retrieving ranges of attribute values with [System.DirectoryServices](/dotnet/api/system.directoryservices), see [Enumerating Members in a Large Group](https://msdn.microsoft.com/library/ms180907(v=VS.80).aspx).
 
  
 
-
-
-
+ 

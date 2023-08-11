@@ -1,5 +1,5 @@
 ---
-Description: A list of possible reasons why a Windows Installer uninstallation was unable to remove all the files of an application.
+description: A list of possible reasons why a Windows Installer uninstallation was unable to remove all the files of an application.
 ms.assetid: 0a856f0f-a829-478e-a83b-dade7b05b4f2
 title: Removing Stranded Files
 ms.topic: article
@@ -16,15 +16,12 @@ If a file that should have been removed from the user's computer remains install
 -   There is a condition specified in the [Condition](condition-table.md) table that enables a feature during installation and disables the feature during uninstallation.
 -   The key file for the component has a previous reference count under **HKLM**\\**Software**\\**Microsoft**\\**Windows**\\**CurrentVersion**\\**SharedDLLs**.
 -   The component is installed in the System folder and any file in the component has a previous reference count under **HKLM**\\**Software**\\**Microsoft**\\**Windows**\\**CurrentVersion**\\**SharedDLLs**.
--   The Windows Installer does not remove any files or registry keys that are protected by [Windows Resource Protection](https://msdn.microsoft.com/library/Cc185681(v=VS.85).aspx) (WRP). For more information, see [Using Windows Installer and Windows Resource Protection](windows-resource-protection-on-windows-vista.md). On Windows Server 2003, Windows XP, and Windows 2000, the installer does not remove any files that are protected by Windows File Protection (WFP). If a component's key path file or registry key is protected by WFP or WRP, the installer does not remove the component.
+-   The Windows Installer does not remove any files or registry keys that are protected by [Windows Resource Protection](../wfp/windows-resource-protection-portal.md) (WRP). For more information, see [Using Windows Installer and Windows Resource Protection](windows-resource-protection-on-windows-vista.md). On Windows Server 2003, Windows XP, and Windows 2000, the installer does not remove any files that are protected by Windows File Protection (WFP). If a component's key path file or registry key is protected by WFP or WRP, the installer does not remove the component.
     > [!Note]  
-    > Because Windows Installer does not install, update, or remove any resource that is protected by WRP, you should not include protected resources in an installation package. Instead, use only the [supported resource replacement mechanisms](https://msdn.microsoft.com/library/Aa382540(v=VS.85).aspx) described in the [Windows Resource Protection](https://msdn.microsoft.com/library/Cc185681(v=VS.85).aspx) section.
+    > Because Windows Installer does not install, update, or remove any resource that is protected by WRP, you should not include protected resources in an installation package. Instead, use only the [supported resource replacement mechanisms](../wfp/supported-file-replacement-mechanisms.md) described in the [Windows Resource Protection](../wfp/windows-resource-protection-portal.md) section.
 
      
 
  
 
  
-
-
-

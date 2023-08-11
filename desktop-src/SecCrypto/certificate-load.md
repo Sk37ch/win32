@@ -1,5 +1,5 @@
 ---
-Description: Imports a certificate from a file.
+description: Imports a certificate from a file.
 ms.assetid: 62c3bf8e-2f52-4342-b3ee-744b032578bf
 title: ICertificate2::Load method
 ms.topic: reference
@@ -18,7 +18,7 @@ api_location:
 
 # ICertificate2::Load method
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2 Class**](https://msdn.microsoft.com/library/Hh424017(v=MSDN.10).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2 Class**](/previous-versions/windows/embedded/hh424017(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **Load** method imports a certificate from a file. This method was introduced in CAPICOM 2.0.
 
@@ -50,7 +50,7 @@ A string that contains the path to a .cer or .pfx file that contains the certifi
 *Password* \[in, optional\]
 </dt> <dd>
 
-A string that contains the [*plaintext*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) password to the [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) file. The password can contain up to 32 Unicode characters, including a terminating null character. For information about protecting the password, see [Handling Passwords](https://msdn.microsoft.com/library/ms717799(v=VS.85).aspx).
+A string that contains the [*plaintext*](../secgloss/p-gly.md) password to the [*private key*](../secgloss/p-gly.md) file. The password can contain up to 32 Unicode characters, including a terminating null character. For information about protecting the password, see [Handling Passwords](../secbp/handling-passwords.md).
 
 </dd> <dt>
 
@@ -103,7 +103,7 @@ This method raises CAPICOM\_E\_NOT\_ALLOWED when it is scripted from a web-based
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |
@@ -115,7 +115,3 @@ This method raises CAPICOM\_E\_NOT\_ALLOWED when it is scripted from a web-based
  
 
  
-
-
-
-

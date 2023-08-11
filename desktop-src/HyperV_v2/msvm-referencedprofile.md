@@ -1,5 +1,5 @@
 ---
-Description: Describes a profile that is referenced by another registered profile.
+description: Describes a profile that is referenced by another registered profile.
 ms.assetid: 36FC0161-C57F-488A-9B4A-C86C6EB481D7
 title: Msvm_ReferencedProfile class
 ms.topic: reference
@@ -48,7 +48,7 @@ The **Msvm\_ReferencedProfile** class has these properties.
 **Antecedent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_RegisteredProfile**](https://docs.microsoft.com/previous-versions//ee309375(v=vs.85))**
+Data type: **[**CIM\_RegisteredProfile**](/previous-versions//ee309375(v=vs.85))**
 </dt> <dt>
 
 Access type: Read-only
@@ -61,7 +61,7 @@ The registered profile that is referenced by the **Dependent** profile.
 **Dependent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_RegisteredProfile**](https://docs.microsoft.com/previous-versions//ee309375(v=vs.85))**
+Data type: **[**CIM\_RegisteredProfile**](/previous-versions//ee309375(v=vs.85))**
 </dt> <dt>
 
 Access type: Read-only
@@ -75,7 +75,7 @@ A registered profile that references other profiles.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
@@ -86,9 +86,4 @@ A registered profile that references other profiles.
 
 
  
-
- 
-
-
-
 

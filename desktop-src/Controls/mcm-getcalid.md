@@ -40,13 +40,13 @@ Must be zero.
 
 ## Return value
 
-ID of the current calendar. One of the [Calendar Identifiers](https://docs.microsoft.com/windows/desktop/Intl/calendar-identifiers) constants.
+ID of the current calendar. One of the [Calendar Identifiers](/windows/desktop/Intl/calendar-identifiers) constants.
 
 ## Requirements
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
@@ -55,10 +55,4 @@ ID of the current calendar. One of the [Calendar Identifiers](https://docs.micro
 
 
  
-
- 
-
-
-
-
 

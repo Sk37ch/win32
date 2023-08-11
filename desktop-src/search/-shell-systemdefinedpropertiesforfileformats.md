@@ -1,5 +1,5 @@
 ---
-Description: Microsoft Windows supplies a number of system properties that you can use for your file formats.
+description: Microsoft Windows supplies a number of system properties that you can use for your file formats.
 ms.assetid: 3a25c4fb-ffea-4524-b59b-912416b2fc7d
 title: System-Defined Properties for Custom File Formats
 ms.topic: article
@@ -171,7 +171,7 @@ The following table categorizes file formats and then lists the most important s
 **Other Resources**
 </dt> <dt>
 
-[Property System](https://msdn.microsoft.com/library/Cc144125(v=VS.85).aspx)
+[Property System](../properties/building-property-handlers.md)
 </dt> <dt>
 
 [System Properties](https://msdn.microsoft.com/library/bb763010(VS.85).aspx)
@@ -180,6 +180,3 @@ The following table categorizes file formats and then lists the most important s
  
 
  
-
-
-

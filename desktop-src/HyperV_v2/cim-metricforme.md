@@ -1,5 +1,5 @@
 ---
-Description: Represents an association in which a metric values are collected for a managed element.
+description: Represents an association in which a metric values are collected for a managed element.
 ms.assetid: 00752751-bc27-463b-a4ac-4db8e5040077
 title: CIM_MetricForME class
 ms.topic: reference
@@ -53,7 +53,7 @@ Data type: **CIM\_ManagedElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 The managed element in the association.
@@ -69,7 +69,7 @@ Data type: **CIM\_BaseMetricValue**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The metric value in the association.
@@ -80,7 +80,7 @@ The metric value in the association.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
@@ -98,9 +98,4 @@ The metric value in the association.
 </dt> </dl>
 
  
-
- 
-
-
-
 

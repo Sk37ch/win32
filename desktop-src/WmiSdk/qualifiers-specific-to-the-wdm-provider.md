@@ -1,5 +1,5 @@
 ---
-Description: The following qualifiers are used by the WDM Provider in device driver MOF files when they are extracting data from WNODEs to generate instances of WDM driver classes.
+description: The following qualifiers are used by the WDM Provider in device driver MOF files when they are extracting data from WNODEs to generate instances of WDM driver classes.
 ms.assetid: 11b0af59-979f-4908-baef-c9ec564b3cfd
 ms.tgt_platform: multiple
 title: Qualifiers Specific to the WDM Provider
@@ -17,7 +17,7 @@ api_location:
 
 # Qualifiers Specific to the WDM Provider
 
-The following qualifiers are used by the [WDM Provider](https://docs.microsoft.com/windows/desktop/WmiCoreProv/wdm-provider) in device driver MOF files when they are extracting data from WNODEs to generate instances of WDM driver classes.
+The following qualifiers are used by the [WDM Provider](/windows/desktop/WmiCoreProv/wdm-provider) in device driver MOF files when they are extracting data from WNODEs to generate instances of WDM driver classes.
 
 <dt>
 
@@ -69,7 +69,7 @@ Index in the WNODE of the data for the property. The WDM provider uses this qual
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -77,9 +77,4 @@ Index in the WNODE of the data for the property. The WDM provider uses this qual
 
 
  
-
- 
-
-
-
 

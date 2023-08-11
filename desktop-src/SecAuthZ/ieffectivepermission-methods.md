@@ -1,5 +1,5 @@
 ---
-Description: The IEffectivePermission interface exposes the following methods.
+description: The IEffectivePermission interface exposes the following methods.
 ms.assetid: 38928251-8768-4888-8F29-36576EF25E24
 title: IEffectivePermission Methods
 ms.topic: reference
@@ -8,15 +8,12 @@ ms.date: 05/31/2018
 
 # IEffectivePermission Methods
 
-The [**IEffectivePermission**](https://msdn.microsoft.com/library/Aa378393(v=VS.85).aspx) interface exposes the following methods.
+The [**IEffectivePermission**](/windows/win32/api/aclui/nn-aclui-ieffectivepermission) interface exposes the following methods.
 
 ## In this section
 
--   [**GetEffectivePermission Method**](https://msdn.microsoft.com/library/Aa378526(v=VS.85).aspx)
+-   [**GetEffectivePermission Method**](/windows/win32/api/aclui/nf-aclui-ieffectivepermission-geteffectivepermission)
 
  
 
  
-
-
-

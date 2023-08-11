@@ -1,12 +1,12 @@
 ---
-Description: A ControlEvent specifies an action to be taken by the installer or a change in the attributes of one or more controls in a dialog box. For more information about ControlEvents, see ControlEvent Overview.
+description: A ControlEvent specifies an action to be taken by the installer or a change in the attributes of one or more controls in a dialog box. For more information about ControlEvents, see ControlEvent Overview.
 ms.assetid: 8768acaa-884b-428f-a14e-3f39f8ea4ad5
 title: Control Events (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Control Events
+# Control Events (Windows Installer)
 
 A ControlEvent specifies an action to be taken by the installer or a change in the attributes of one or more controls in a dialog box. For more information about ControlEvents, see [ControlEvent Overview](controlevent-overview.md).
 
@@ -36,7 +36,7 @@ The following table provides links to more information about particular ControlE
 | [ReinstallMode](reinstallmode-controlevent.md)                     | Specifies the validation mode during a reinstallation.                                                                                                                                                        |
 | [Remove](remove-controlevent.md)                                   | Notifies the installer when features are selected for removal.                                                                                                                                                |
 | [Reset](reset-controlevent.md)                                     | Resets all the property values to the default values used when the dialog box was created.                                                                                                                    |
-| [RmShutdownAndRestart](rmshutdownandrestart-controlevent.md)       | Use the [Restart Manager](https://docs.microsoft.com/windows/desktop/RstMgr/restart-manager-portal) to shutdown all applications that have files in use and to restart them at the end of the installation.                                                              |
+| [RmShutdownAndRestart](rmshutdownandrestart-controlevent.md)       | Use the [Restart Manager](/windows/desktop/RstMgr/restart-manager-portal) to shutdown all applications that have files in use and to restart them at the end of the installation.                                                              |
 | [ScriptInProgress](scriptinprogress-controlevent.md)               | Displays a string while the execution script is compiled.                                                                                                                                                     |
 | [SelectionAction](selectionaction-controlevent.md)                 | Published by SelectionTree to describe an item.                                                                                                                                                               |
 | [SelectionBrowse](selectionbrowse-controlevent.md)                 | Published by SelectionTree to spawn a dialog box.                                                                                                                                                             |
@@ -59,9 +59,4 @@ The following table provides links to more information about particular ControlE
  
 
  
-
- 
-
-
-
 

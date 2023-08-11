@@ -12,10 +12,13 @@ keywords:
 - inverse telecine
 - telecine
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # To Use Inverse Telecine
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Telecine is the process of converting film, which has 24 frames per second, to video, which has 60 fields (half frames) per second. This process puts images from each film frame in multiple video fields.
 
@@ -29,7 +32,7 @@ To use inverse telecine, you must:
 To use inverse telecine for an input to the writer, perform the following steps.
 
 1.  Set up the writer as usual. For more information, see [Writing ASF Files](writing-asf-files.md).
-2.  Before beginning to write samples, obtain a pointer to the [**IWMWriterAdvanced2**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2) interface by calling **IWMWriter::QueryInterface**.
+2.  Before beginning to write samples, obtain a pointer to the [**IWMWriterAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2) interface by calling **IWMWriter::QueryInterface**.
 3.  Identify the stream to be reconstructed by calling [**IWMWriterAdvanced2::SetInputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting) for the desired input number. Pass g\_wszDeinterlaceMode as the setting and WM\_DM\_DEINTERLACE\_INVERSETELECINE as the value.
 4.  Call **SetInputSetting** again to set g\_wszInitialPatternForInverseTelecine.
 5.  Write the file as usual.
@@ -44,7 +47,7 @@ To use inverse telecine for an input to the writer, perform the following steps.
 [**IWMWriter Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter)
 </dt> <dt>
 
-[**IWMWriterAdvanced2 Interface**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2)
+[**IWMWriterAdvanced2 Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2)
 </dt> </dl>
 
  

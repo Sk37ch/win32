@@ -1,5 +1,5 @@
 ---
-Description: CryptXML natively supports the URIs listed below.
+description: CryptXML natively supports the URIs listed below.
 ms.assetid: 012bad01-228a-4bb0-b883-0c2c7abd9271
 title: XML Digital Signature Cryptographic Algorithms
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XML Digital Signature Cryptographic Algorithms
 
-CryptXML natively supports the URIs listed below. If support is required for cryptographic algorithms and transforms that are not part of the native support, you can use [Cryptography API: Next Generation](https://msdn.microsoft.com/library/Aa376210(v=VS.85).aspx) and [XML Digital Signature Cryptographic Extensions](xml-digital-signature-cryptographic-extensions.md) to support new algorithms.
+CryptXML natively supports the URIs listed below. If support is required for cryptographic algorithms and transforms that are not part of the native support, you can use [Cryptography API: Next Generation](../seccng/cng-portal.md) and [XML Digital Signature Cryptographic Extensions](xml-digital-signature-cryptographic-extensions.md) to support new algorithms.
 
 ## Supported URIs
 
@@ -54,7 +54,3 @@ Signature Methods
  
 
  
-
-
-
-

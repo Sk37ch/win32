@@ -1,5 +1,5 @@
 ---
-Description: IEnumUserIdentity is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+description: IEnumUserIdentity is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: df4b6235-e66a-4187-b1f9-33c042cae2f2
 title: IEnumUserIdentity interface (Msident.h)
 ms.topic: reference
@@ -23,7 +23,7 @@ Provides enumeration of all user identities present on the system.
 
 ## Members
 
-The **IEnumUserIdentity** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IEnumUserIdentity** also has these types of members:
+The **IEnumUserIdentity** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IEnumUserIdentity** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -53,7 +53,7 @@ To retrieve information about user identities present on the system, you can use
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
@@ -75,7 +75,3 @@ To retrieve information about user identities present on the system, you can use
  
 
  
-
-
-
-

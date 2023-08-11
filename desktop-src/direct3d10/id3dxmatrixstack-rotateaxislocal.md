@@ -1,22 +1,25 @@
 ---
-Description: Rotates (relative to the object's local coordinate space) around an arbitrary axis.
+description: ID3DXMATRIXStack::RotateAxisLocal method (D3DX10.h) - Rotates (relative to the object's local coordinate space) around an arbitrary axis.
 ms.assetid: 90837762-9bfe-4065-94b3-1ca61184a78e
 title: ID3DXMATRIXStack::RotateAxisLocal method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXMATRIXStack.RotateAxisLocal
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# ID3DXMATRIXStack::RotateAxisLocal method
+# ID3DXMATRIXStack::RotateAxisLocal method (D3DX10.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/directxmath-portal.md) instead along with this header from [GitHub](https://github.com/microsoft/DirectXMath/tree/main/MatrixStack).
 
 Rotates (relative to the object's local coordinate space) around an arbitrary axis.
 
@@ -39,7 +42,7 @@ HRESULT RotateAxisLocal(
 *pV* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to the arbitrary axis of rotation. See [**D3DXVECTOR3**](d3d10-d3dxvector3.md).
 
@@ -48,7 +51,7 @@ Pointer to the arbitrary axis of rotation. See [**D3DXVECTOR3**](d3d10-d3dxvecto
 *Angle* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Rotation angle about the arbitrary axis, in radians. Angles are measured counterclockwise when looking along the arbitrary axis toward the origin.
 
@@ -79,7 +82,7 @@ Because the rotation is left-multiplied to the matrix stack, the rotation is rel
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -99,7 +102,3 @@ Because the rotation is left-multiplied to the matrix stack, the rotation is rel
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Creates an Authenticode time stamp signature on the signed executable file specified in the SignedCode.FileName property.
+description: Creates an Authenticode time stamp signature on the signed executable file specified in the SignedCode.FileName property.
 ms.assetid: 8f4c9901-b509-4e4c-82f9-a802b0896a11
 title: SignedCode.Timestamp method
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # SignedCode.Timestamp method
 
-\[The **Timestamp** method is available for use in the operating systems specified in the Requirements section. Instead, use Platform Invocation Services (PInvoke) to call the Win32 API [**SignerSignEx**](signersignex.md), [**SignerTimeStampEx**](signertimestampex.md), and [**WinVerifyTrust**](/windows/desktop/api/Wintrust/nf-wintrust-winverifytrust) functions to sign content with an Authenticode digital signature. For information about PInvoke, see [Platform Invoke Tutorial](https://msdn.microsoft.com/library/aa288468.aspx). The [.NET and CryptoAPI via P/Invoke: Part 1](https://msdn.microsoft.com/library/ms867087.aspx#netcryptoapi_topic5) and [.NET and CryptoAPI via P/Invoke: Part 2](https://msdn.microsoft.com/library/ms867087.aspx#netcryptoapi_topic6) subsections of [Extending .NET Cryptography with CAPICOM and P/Invoke](https://msdn.microsoft.com/library/ms867087.aspx) may also be helpful.\]
+\[The **Timestamp** method is available for use in the operating systems specified in the Requirements section. Instead, use Platform Invocation Services (PInvoke) to call the Win32 API [**SignerSignEx**](signersignex.md), [**SignerTimeStampEx**](signertimestampex.md), and [**WinVerifyTrust**](/windows/desktop/api/Wintrust/nf-wintrust-winverifytrust) functions to sign content with an Authenticode digital signature. For information about PInvoke, see [Platform Invoke Tutorial](https://msdn.microsoft.com/library/aa288468.aspx). The [.NET and CryptoAPI via P/Invoke: Part 1](/previous-versions/ms867087(v=msdn.10)#netcryptoapi_topic5) and [.NET and CryptoAPI via P/Invoke: Part 2](/previous-versions/ms867087(v=msdn.10)#netcryptoapi_topic6) subsections of [Extending .NET Cryptography with CAPICOM and P/Invoke](/previous-versions/ms867087(v=msdn.10)) may also be helpful.\]
 
 The **Timestamp** method creates an Authenticode time stamp signature on the signed executable file specified in the **SignedCode.FileName** property. This time stamp is a counter signature on the signed executable file that is performed by a time stamp authority.
 
@@ -59,7 +59,7 @@ If the signed executable file is already time stamped, this method overwrites th
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
@@ -76,7 +76,3 @@ If the signed executable file is already time stamped, this method overwrites th
  
 
  
-
-
-
-

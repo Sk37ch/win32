@@ -1,5 +1,5 @@
 ---
-Description: The Security Descriptor String Format is a text format for storing or transporting information in a security descriptor.
+description: The Security Descriptor String Format is a text format for storing or transporting information in a security descriptor.
 ms.assetid: 0a226629-084c-40c5-bdd4-ad7355c807cf
 title: Security Descriptor String Format
 ms.topic: article
@@ -13,7 +13,7 @@ The **Security Descriptor String Format** is a text format for storing or transp
 The format is a **null**-terminated string with tokens to indicate each of the four main components of a security descriptor: owner (O:), primary group (G:), DACL (D:), and SACL (S:).
 
 > [!Note]  
-> [*Access control entries*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACEs) and conditional ACEs have differing formats. For ACEs, see [ACE Strings](ace-strings.md). For conditional ACEs, see [Security Descriptor Definition Language for Conditional ACEs](security-descriptor-definition-language-for-conditional-aces-.md).
+> [*Access control entries*](/windows/desktop/SecGloss/a-gly) (ACEs) and conditional ACEs have differing formats. For ACEs, see [ACE Strings](ace-strings.md). For conditional ACEs, see [Security Descriptor Definition Language for Conditional ACEs](security-descriptor-definition-language-for-conditional-aces-.md).
 
  
 
@@ -46,7 +46,7 @@ A SID string that identifies the object's primary group.
 <span id="dacl_flags"></span><span id="DACL_FLAGS"></span>dacl\_flags
 </dt> <dd>
 
-Security descriptor control flags that apply to the DACL. For a description of these control flags, see the [**SetSecurityDescriptorControl**](https://msdn.microsoft.com/library/Aa379582(v=VS.85).aspx) function. The dacl\_flags string can be a concatenation of zero or more of the following strings.
+Security descriptor control flags that apply to the DACL. For a description of these control flags, see the [**SetSecurityDescriptorControl**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorcontrol) function. The dacl\_flags string can be a concatenation of zero or more of the following strings.
 
 
 
@@ -55,7 +55,7 @@ Security descriptor control flags that apply to the DACL. For a description of t
 | "P"                   | SDDL\_PROTECTED          | The SE\_DACL\_PROTECTED flag is set.          |
 | "AR"                  | SDDL\_AUTO\_INHERIT\_REQ | The SE\_DACL\_AUTO\_INHERIT\_REQ flag is set. |
 | "AI"                  | SDDL\_AUTO\_INHERITED    | The SE\_DACL\_AUTO\_INHERITED flag is set.    |
-| "NO\_ACCESS\_CONTROL" | SSDL\_NULL\_ACL          | The ACL is null.                              |
+| "NO\_ACCESS\_CONTROL" | SDDL\_NULL\_ACL          | The ACL is null. **Windows Server 2008, Windows Vista and Windows Server 2003:** Not available. |
 
 
 
@@ -258,6 +258,3 @@ DACL
  
 
  
-
-
-

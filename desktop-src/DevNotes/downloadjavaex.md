@@ -1,5 +1,5 @@
 ---
-Description: Downloads the .cab file signature, verifies the permissions associated with the packages, and executes them based on authentication.
+description: Downloads the .cab file signature, verifies the permissions associated with the packages, and executes them based on authentication.
 ms.assetid: b86a8f39-73a1-4e17-ac83-9ed095de4922
 title: DownloadJavaEX function
 ms.topic: reference
@@ -49,21 +49,21 @@ This parameter is reserved.
 *pProviderData* \[in\]
 </dt> <dd>
 
-A [**CRYPT\_PROVIDER\_DATA**](https://msdn.microsoft.com/library/Aa381453(v=VS.85).aspx) structure that contains certificate data such as file and zone permissions.
+A [**CRYPT\_PROVIDER\_DATA**](/windows/win32/api/wintrust/ns-wintrust-crypt_provider_data) structure that contains certificate data such as file and zone permissions.
 
 </dd> <dt>
 
 *pJava* \[in\]
 </dt> <dd>
 
-A [**JAVA\_POLICY\_PROVIDER**](https://msdn.microsoft.com/library/Bb432350(v=VS.85).aspx) structure that contains data related to the policy provider.
+A [**JAVA\_POLICY\_PROVIDER**](/previous-versions//bb432350(v=vs.85)) structure that contains data related to the policy provider.
 
 </dd> <dt>
 
 *pFunctions* \[in\]
 </dt> <dd>
 
-A [**CRYPT\_PROVIDER\_FUNCTIONS**](https://msdn.microsoft.com/library/Aa381455(v=VS.85).aspx) structure that contains a list of methods to verify certificate objects, signatures, and final policies.
+A [**CRYPT\_PROVIDER\_FUNCTIONS**](/windows/win32/api/wintrust/ns-wintrust-crypt_provider_functions) structure that contains a list of methods to verify certificate objects, signatures, and final policies.
 
 </dd> <dt>
 
@@ -87,13 +87,13 @@ If the function succeeds, the return value is **S\_OK**. Otherwise, the return v
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Javacypt.dll</dt> </dl> |
 
@@ -102,7 +102,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

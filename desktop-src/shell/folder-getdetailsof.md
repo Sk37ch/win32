@@ -1,5 +1,5 @@
 ---
-Description: Retrieves details about an item in a folder. For example, its size, type, or the time of its last modification.
+description: Retrieves details about an item in a folder. For example, its size, type, or the time of its last modification.
 ms.assetid: d2fe4550-f171-40d9-8bce-065b61826997
 title: Folder.GetDetailsOf method (Shlobj\_core.h)
 ms.topic: reference
@@ -121,7 +121,7 @@ Retrieves the info tip information for the item.
 
 ## Return value
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)\***
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)\***
 
 String containing the retrieved detail.
 
@@ -233,7 +233,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
@@ -246,7 +246,3 @@ End Sub
  
 
  
-
-
-
-

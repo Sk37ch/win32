@@ -10,10 +10,13 @@ keywords:
 - metadata editor objects,about
 - metadata,editor objects
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Metadata Editor Object
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The metadata editor object is used to edit information stored in the header section of ASF files. The most common things manipulated by this object are metadata attributes. Additionally, the metadata editor deals with [*markers*](wmformat-glossary.md) and script commands. The only time you need to use the metadata editor is when you want to edit the header of an existing file without playing it.
 
@@ -27,10 +30,10 @@ The following interfaces are supported by the metadata editor object.
 |--------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IWMDRMEditor**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmeditor)             | Enables editing applications to examine the [*DRM*](wmformat-glossary.md) properties of an ASF file without having any rights to play the protected content. |
 | [**IWMHeaderInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo)           | Manipulates attributes, markers, and script commands in the header.                                                                                                                                    |
-| [**IWMHeaderInfo2**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2)         | Retrieves codec information. Inherits all of the methods of **IWMHeaderInfo**.                                                                                                                         |
-| [**IWMHeaderInfo3**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3)         | Provides advanced support for attributes, including large attributes, multiple languages, and duplicate attribute names. Inherits all of the methods of **IWMHeaderInfo** and **IWMHeaderInfo2**.      |
+| [**IWMHeaderInfo2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2)         | Retrieves codec information. Inherits all of the methods of **IWMHeaderInfo**.                                                                                                                         |
+| [**IWMHeaderInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3)         | Provides advanced support for attributes, including large attributes, multiple languages, and duplicate attribute names. Inherits all of the methods of **IWMHeaderInfo** and **IWMHeaderInfo2**.      |
 | [**IWMMetadataEditor**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmetadataeditor)   | Opens, closes, and saves changes to the header of an ASF file.                                                                                                                                         |
-| [**IWMMetadataEditor2**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmetadataeditor2) | Opens an ASF file for header editing with multiple file access and sharing options. Inherits all of the methods of **IWMMetadataEditor**.                                                              |
+| [**IWMMetadataEditor2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmetadataeditor2) | Opens an ASF file for header editing with multiple file access and sharing options. Inherits all of the methods of **IWMMetadataEditor**.                                                              |
 
 
 

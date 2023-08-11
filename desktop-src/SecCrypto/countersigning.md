@@ -1,5 +1,5 @@
 ---
-Description: Lists topics that explain how to countersign messages and verify countersignatures.
+description: Lists topics that explain how to countersign messages and verify countersignatures.
 ms.assetid: 172e4f56-6dc0-460d-afe0-8da6f71a4e4c
 title: Countersigning
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Countersigning
 
-The following sections deal with countersigning messages and [*countersignature*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) verification:
+The following sections deal with countersigning messages and [*countersignature*](../secgloss/c-gly.md) verification:
 
 -   [Countersigning a Message](countersigning-a-message.md)
 -   [Example C Program: Encoding and Decoding a Countersigned Message](example-c-program-encoding-and-decoding-a-countersigned-message.md)
@@ -18,6 +18,3 @@ The following sections deal with countersigning messages and [*countersignature*
  
 
  
-
-
-

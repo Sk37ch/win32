@@ -1,5 +1,5 @@
 ---
-Description: Generates mipmap chain using a particular texture filter.
+description: Generates mipmap chain using a particular texture filter.
 ms.assetid: 19e651dd-dc34-405b-8769-00d91c097a1f
 title: D3DX10FilterTexture function (D3DX10Tex.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ The texture object to be filtered. See [**ID3D10Resource**](/windows/desktop/api
 *SrcLevel* 
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The mipmap level whose data is used to generate the rest of the mipmap chain.
 
@@ -57,7 +57,7 @@ The mipmap level whose data is used to generate the rest of the mipmap chain.
 *MipFilter* 
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Flags controlling how each miplevel is filtered (or D3DX10\_DEFAULT for D3DX10\_FILTER\_BOX). See [**D3DX10\_FILTER\_FLAG**](d3dx10-filter-flag.md).
 
@@ -73,7 +73,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Tex.h</dt> </dl> |
 
@@ -89,7 +89,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

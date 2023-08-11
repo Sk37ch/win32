@@ -1,5 +1,5 @@
 ---
-Description: Lists and describes the access types of the Policy object.
+description: Lists and describes the access types of the Policy object.
 ms.assetid: 592dea65-9da1-4e49-82e4-8e08c451e026
 title: Policy Object Access Rights
 ms.topic: article
@@ -14,7 +14,7 @@ The [**Policy**](policy-object.md) object has the following object-specific acce
 
 | Access type                         | Description                                                                                                                                                                                                                                                                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| POLICY\_VIEW\_LOCAL\_INFORMATION    | This access type is needed to read the target system's miscellaneous security policy information. This includes the default quota, auditing, server state and role information, and trust information. This access type is also needed to enumerate trusted domains, accounts, and [*privileges*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly). |
+| POLICY\_VIEW\_LOCAL\_INFORMATION    | This access type is needed to read the target system's miscellaneous security policy information. This includes the default quota, auditing, server state and role information, and trust information. This access type is also needed to enumerate trusted domains, accounts, and [*privileges*](/windows/desktop/SecGloss/p-gly). |
 | POLICY\_GET\_PRIVATE\_INFORMATION   | This access type is needed to view sensitive information, such as the names of accounts established for trusted domain relationships.                                                                                                                                                                                                                              |
 | POLICY\_TRUST\_ADMIN                | This access type is needed to change the account domain or primary domain information.                                                                                                                                                                                                                                                                             |
 | POLICY\_SET\_DEFAULT\_QUOTA\_LIMITS | Set the default system quotas that are applied to user accounts.                                                                                                                                                                                                                                                                                                   |
@@ -78,6 +78,3 @@ This object does not support the (optional) SYNCHRONIZE standard access type. Al
  
 
  
-
-
-

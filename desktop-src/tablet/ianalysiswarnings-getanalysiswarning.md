@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the IAnalysisWarning object at the specified index.
+description: Retrieves the IAnalysisWarning object at the specified index.
 ms.assetid: 8f5d5642-73ec-496e-bad7-9f636fc00217
 title: IAnalysisWarnings::GetAnalysisWarning method (IACom.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppWarning* when you no longer need to use the warning.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppWarning* when you no longer need to use the warning.
 
  
 
@@ -147,7 +147,7 @@ STDMETHODIMP CMyClass::Results(
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -167,9 +167,4 @@ STDMETHODIMP CMyClass::Results(
 </dt> </dl>
 
  
-
- 
-
-
-
 

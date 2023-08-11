@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ComputerSystemDMA class represents an association between a computer system and its available direct memory access (DMA) channels.
+description: The CIM\_ComputerSystemDMA class represents an association between a computer system and its available direct memory access (DMA) channels.
 ms.assetid: 7d5bce4b-973f-4452-b403-a2196bd4017a
 ms.tgt_platform: multiple
 title: CIM_ComputerSystemDMA class
@@ -61,7 +61,7 @@ Data type: **CIM\_ComputerSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
 </dt> </dl>
 
 A [**CIM\_ComputerSystem**](cim-computersystem.md) that describes the computer associated with the DMA.
@@ -77,7 +77,7 @@ Data type: **CIM\_DMA**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent"), [**Weak**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent"), [**Weak**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 A [**CIM\_DMA**](cim-dma.md) that describes a DMA channel of the computer system.
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -114,9 +114,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

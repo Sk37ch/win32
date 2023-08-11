@@ -44,9 +44,6 @@ The address of the factory with which *resource* was used.
 
 </dd> </dl> 
 
-|             |       |
-|-------------|-------|
-| Error Level | Error |
 
 
 
@@ -54,7 +51,7 @@ The address of the factory with which *resource* was used.
 
 ## Examples
 
-The following example first creates two debug-enabled [**ID2D1Factory**](https://msdn.microsoft.com/library/Dd371246(v=VS.85).aspx) objects; it then creates a geometry from the first factory, and a brush from the second factory. Lastly, it calls [**FillGeometry**](https://msdn.microsoft.com/library/Dd371933(v=VS.85).aspx), passing in the geometry and the brush.
+The following example first creates two debug-enabled [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory) objects; it then creates a geometry from the first factory, and a brush from the second factory. Lastly, it calls [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry), passing in the geometry and the brush.
 
 
 ```C++
@@ -94,11 +91,11 @@ The following example first creates two debug-enabled [**ID2D1Factory**](https:/
 
 
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -117,11 +114,11 @@ The following example first creates two debug-enabled [**ID2D1Factory**](https:/
 </tbody>
 </table>
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -141,11 +138,11 @@ The following example first creates two debug-enabled [**ID2D1Factory**](https:/
 </tbody>
 </table>
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -181,7 +178,3 @@ Invalid resource usage. A resource allocated by one factory was used with anothe
  
 
  
-
-
-
-

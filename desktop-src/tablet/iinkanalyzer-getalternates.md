@@ -1,5 +1,5 @@
 ---
-Description: Retrieves 10 analysis alternates for all ink associated with the IInkAnalyzer.
+description: Retrieves 10 analysis alternates for all ink associated with the IInkAnalyzer.
 ms.assetid: 42b702cf-54a3-413b-9f3a-dcdae7c2e89b
 title: IInkAnalyzer::GetAlternates method (IACom.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppAlternates* when you no longer need to use the object.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppAlternates* when you no longer need to use the object.
 
  
 
@@ -58,7 +58,7 @@ The top alternate is returned as the first alternate of the collection.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -96,9 +96,4 @@ The top alternate is returned as the first alternate of the collection.
 </dt> </dl>
 
  
-
- 
-
-
-
 

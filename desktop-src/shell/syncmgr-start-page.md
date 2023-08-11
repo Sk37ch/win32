@@ -1,5 +1,5 @@
 ---
-Description: The Synchronization Manager provides a centralized, standard technology for synchronizing files for offline use on a mobile computer or a computer connected to a local area network.
+description: The Synchronization Manager provides a centralized, standard technology for synchronizing files for offline use on a mobile computer or a computer connected to a local area network.
 title: Synchronization Manager
 ms.topic: article
 ms.date: 05/31/2018
@@ -51,13 +51,9 @@ Requires Windows Server 2003, Windows XP, Windows 2000, or Windows Millenniu
 
 <dl> <dt>
 
-[About System Event Notification Service](https://msdn.microsoft.com/library/Aa376606(v=VS.85).aspx)
+[About System Event Notification Service](../sens/about-system-event-notification-service.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

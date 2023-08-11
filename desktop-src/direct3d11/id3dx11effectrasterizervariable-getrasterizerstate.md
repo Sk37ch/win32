@@ -42,7 +42,7 @@ HRESULT GetRasterizerState(
 *Index* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 Index into an array of rasterizer interfaces. If there is only one rasterizer interface, use 0.
 
@@ -74,7 +74,7 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 
 
 
-|                    |                                                                                                                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
 | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |
@@ -89,10 +89,4 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

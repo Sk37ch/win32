@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_AssociatedSensor class associates an installed sensor with a logical device. The sensor measures critical input and output properties, and can be included with the device or installed nearby.
+description: The CIM\_AssociatedSensor class associates an installed sensor with a logical device. The sensor measures critical input and output properties, and can be included with the device or installed nearby.
 ms.assetid: 8ccaa37f-b95f-4582-a694-23bdc15b8c8b
 ms.tgt_platform: multiple
 title: CIM_AssociatedSensor class
@@ -61,7 +61,7 @@ Data type: **CIM\_Sensor**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_Sensor**](cim-sensor.md) that describes the sensor.
@@ -77,7 +77,7 @@ Data type: **CIM\_LogicalDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_LogicalDevice**](cim-logicaldevice.md) that describes the logical device for which information is measured by the sensor.
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -114,9 +114,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

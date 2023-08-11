@@ -1,5 +1,5 @@
 ---
-Description: Adds an item to the Microsoft Active Desktop.
+description: Adds an item to the Microsoft Active Desktop.
 title: ShellUIHelper.AddDesktopComponent method (Exdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 41634a89-15b9-41c8-ba3f-4bf19b786f6f
-api_name: 
- - ShellUIHelper.AddDesktopComponent
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -52,7 +43,7 @@ iRetVal = ShellUIHelper.AddDesktopComponent(
 *sURL* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** value that specifies the URL of the new favorite item.
 
@@ -61,7 +52,7 @@ A **String** value that specifies the URL of the new favorite item.
 *sType* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** value that specifies the type of item being added. This can be one of the following values.
 
@@ -178,7 +169,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
@@ -190,7 +181,3 @@ End Sub
  
 
  
-
-
-
-

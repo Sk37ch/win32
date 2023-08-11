@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # RB\_GETDROPTARGET message
 
-Retrieves a rebar control's [**IDropTarget**](https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget) interface pointer.
+Retrieves a rebar control's [**IDropTarget**](/windows/desktop/api/oleidl/nn-oleidl-idroptarget) interface pointer.
 
 ## Parameters
 
@@ -34,7 +34,7 @@ Must be zero.
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**IDropTarget**](https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget) pointer that receives the interface pointer. It is the caller's responsibility to call [**Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on this pointer when it is no longer needed.
+Pointer to an [**IDropTarget**](/windows/desktop/api/oleidl/nn-oleidl-idroptarget) pointer that receives the interface pointer. It is the caller's responsibility to call [**Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on this pointer when it is no longer needed.
 
 </dd> </dl>
 
@@ -46,7 +46,7 @@ The return value for this message is not used.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -55,10 +55,4 @@ The return value for this message is not used.
 
 
  
-
- 
-
-
-
-
 

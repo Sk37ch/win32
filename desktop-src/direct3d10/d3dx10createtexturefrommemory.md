@@ -1,5 +1,5 @@
 ---
-Description: Create a texture resource from a file residing in system memory.
+description: Create a texture resource from a file residing in system memory.
 ms.assetid: 63eac44b-0540-457f-96c0-d151fbd44df0
 title: D3DX10CreateTextureFromMemory function (D3DX10.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ A pointer to the device (see [**ID3D10Device Interface**](/windows/desktop/api/D
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](../winprog/windows-data-types.md)**
 
 Pointer to the resource in system memory.
 
@@ -62,7 +62,7 @@ Pointer to the resource in system memory.
 *SrcDataSize* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**SIZE\_T**](../winprog/windows-data-types.md)**
 
 Size of the resource in system memory.
 
@@ -118,7 +118,7 @@ For a list of supported image formats see [**D3DX10\_IMAGE\_FILE\_FORMAT**](d3dx
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -138,7 +138,3 @@ For a list of supported image formats see [**D3DX10\_IMAGE\_FILE\_FORMAT**](d3dx
  
 
  
-
-
-
-

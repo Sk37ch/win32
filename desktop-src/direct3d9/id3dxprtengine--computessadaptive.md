@@ -1,5 +1,5 @@
 ---
-Description: Computes a transfer vector that maps source radiance to exit radiance resulting from subsurface scattering, using adaptive sampling and material properties set by ID3DXPRTEngine::SetMeshMaterials.
+description: Computes a transfer vector that maps source radiance to exit radiance resulting from subsurface scattering, using adaptive sampling and material properties set by ID3DXPRTEngine::SetMeshMaterials.
 ms.assetid: 34e42271-703b-4b67-8153-2eca3f8dde92
 title: ID3DXPRTEngine::ComputeSSAdaptive method (D3DX9Mesh.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Pointer to an input [**ID3DXPRTBuffer**](id3dxprtbuffer.md) object that represen
 *AdaptiveThresh* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Threshold on the PRT vector to use for subdividing mesh vertices and faces. If less than 1e-6f, a default value of 1e-6f is specified.
 
@@ -61,7 +61,7 @@ Threshold on the PRT vector to use for subdividing mesh vertices and faces. If l
 *MinEdgeLength* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Minimum face edge length that will be generated in adaptive sampling. If the method determines that the value is too small, a model-dependent value is specified.
 
@@ -70,7 +70,7 @@ Minimum face edge length that will be generated in adaptive sampling. If the met
 *MaxSubdiv* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Maximum level of subdivision of a face that will be used in adaptive sampling. If zero, a default value of 4 is specified.
 
@@ -112,7 +112,7 @@ Call [**ID3DXPRTEngine::MultiplyAlbedo**](id3dxprtengine--multiplyalbedo.md) to 
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -135,7 +135,3 @@ Call [**ID3DXPRTEngine::MultiplyAlbedo**](id3dxprtengine--multiplyalbedo.md) to 
  
 
  
-
-
-
-

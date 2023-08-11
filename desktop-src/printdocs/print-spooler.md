@@ -1,5 +1,5 @@
 ---
-Description: The primary component of the printing interface is the print spooler.
+description: The primary component of the printing interface is the print spooler.
 ms.assetid: 36ffb001-78e2-4fa0-8241-3891493ac02d
 title: Print Spooler
 ms.topic: article
@@ -26,12 +26,9 @@ The default data type for a print job is the enhanced metafile. An EMF record is
 
 <dl> <dt>
 
-[Enhanced-Format Metafiles](https://docs.microsoft.com/windows/desktop/gdi/enhanced-format-metafiles)
+[Enhanced-Format Metafiles](/windows/desktop/gdi/enhanced-format-metafiles)
 </dt> </dl>
 
  
 
  
-
-
-

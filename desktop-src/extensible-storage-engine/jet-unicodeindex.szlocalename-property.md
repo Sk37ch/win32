@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_UNICODEINDEX.szLocaleName property"
 title: JET_UNICODEINDEX.szLocaleName property 
 TOCTitle: 'szLocaleName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX.szLocaleName
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the LocaleName to be used when normalizing unicode data.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,15 +58,14 @@ public string szLocaleName { get; set; }
 
 #### Property value
 
-Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+Type: [System.String](/dotnet/api/system.string)  
 
 ## See also
 
 #### Reference
 
-[JET_UNICODEINDEX class](dn351106\(v=exchg.10\).md)
+[JET_UNICODEINDEX class](./jet-unicodeindex-class.md)
 
-[JET_UNICODEINDEX members](dn351131\(v=exchg.10\).md)
+[JET_UNICODEINDEX members](./jet-unicodeindex-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

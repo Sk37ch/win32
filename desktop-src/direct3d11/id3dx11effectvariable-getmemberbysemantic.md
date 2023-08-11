@@ -41,7 +41,7 @@ ID3DX11EffectVariable* GetMemberBySemantic(
 *Semantic* 
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 The semantic.
 
@@ -66,7 +66,7 @@ If the effect variable is an structure, use this method to look up a member by a
 
 
 
-|                    |                                                                                                                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
 | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |
@@ -81,10 +81,4 @@ If the effect variable is an structure, use this method to look up a member by a
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: The Extract function extracts files from a cabinet.
+description: The Extract function extracts files from a cabinet.
 ms.assetid: c6a79d81-7adf-4b8e-a1ef-fec868f7fdbf
 title: Extract function
 ms.topic: reference
@@ -57,13 +57,13 @@ If the function succeeds, it returns **S\_OK**; otherwise, it returns an error c
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Cabinet.dll</dt> </dl> |
 
@@ -76,7 +76,7 @@ This function has no associated import library or header file; you must call it 
 [**DeleteExtractedFiles**](deleteextractedfiles.md)
 </dt> <dt>
 
-[**ERF**](https://msdn.microsoft.com/library/Bb432257(v=VS.85).aspx)
+[**ERF**](/windows/win32/api/fdi_fci_types/ns-fdi_fci_types-erf)
 </dt> <dt>
 
 [**SESSION**](session.md)
@@ -85,7 +85,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

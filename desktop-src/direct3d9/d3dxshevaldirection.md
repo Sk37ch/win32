@@ -1,22 +1,28 @@
 ---
-Description: Evaluates the spherical harmonic (SH) basis functions from an input direction vector.
+description: D3DXSHEvalDirection function (D3dx9math.h) - Evaluates the spherical harmonic (SH) basis functions from an input direction vector.
 ms.assetid: f30ba32c-d6b0-4e4e-b5cd-839ed7821855
 title: D3DXSHEvalDirection function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXSHEvalDirection
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXSHEvalDirection function
+# D3DXSHEvalDirection function (D3dx9math.h)
+
+> [!Note]
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated and is not supported for Windows Store apps.
+
+> [!Note]
+> Instead of using this function, we recommend that you use the [Spherical Harmonics Math](https://github.com/Microsoft/DirectXMath/tree/main/SHMath) library function **XMSHEvalDirection**.
 
 Evaluates the spherical harmonic (SH) basis functions from an input direction vector.
 
@@ -40,7 +46,7 @@ FLOAT* D3DXSHEvalDirection(
 *pOut* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to Spherical harmonic (SH) output coefficients. The evaluation generates Order² coefficients. See Remarks.
 
@@ -49,7 +55,7 @@ Pointer to Spherical harmonic (SH) output coefficients. The evaluation generates
 *Order* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Order of the SH evaluation. Must be in the range of [D3DXSH\_MINORDER](other-d3dx-constants.md) to D3DXSH\_MAXORDER, inclusive. The evaluation generates Order² coefficients. The degree of the evaluation is Order - 1.
 
@@ -66,7 +72,7 @@ Type: **const [**D3DXVECTOR3**](d3dxvector3.md)\***
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to SH output coefficients. See Remarks.
 
@@ -89,7 +95,7 @@ The following equations show the relationship between Cartesian (x, y, z) and sp
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -109,7 +115,3 @@ The following equations show the relationship between Cartesian (x, y, z) and sp
  
 
  
-
-
-
-

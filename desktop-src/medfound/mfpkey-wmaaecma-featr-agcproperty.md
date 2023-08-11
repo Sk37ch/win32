@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the Voice Capture DSP performs automatic gain control.
+description: Specifies whether the Voice Capture DSP performs automatic gain control.
 ms.assetid: 85ac8de0-ac36-4b34-a93d-0ac792a677b2
 title: MFPKEY_WMAAECMA_FEATR_AGC Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Specifies whether the Voice Capture DSP performs automatic gain control.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -49,7 +49,7 @@ The default value of this property is VARIANT\_FALSE (disabled). Before setting 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
@@ -70,7 +70,3 @@ The default value of this property is VARIANT\_FALSE (disabled). Before setting 
  
 
  
-
-
-
-

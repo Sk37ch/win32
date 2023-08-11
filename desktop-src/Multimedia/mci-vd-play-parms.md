@@ -68,7 +68,7 @@ Playback speed in frames per second.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function to validate the members.
 
 You can use the [**MCI\_PLAY\_PARMS**](mci-play-parms.md) structure instead of **MCI\_VD\_PLAY\_PARMS** if you are not using the extended data members.
 
@@ -76,7 +76,7 @@ You can use the [**MCI\_PLAY\_PARMS**](mci-play-parms.md) structure instead of *
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
@@ -100,14 +100,8 @@ You can use the [**MCI\_PLAY\_PARMS**](mci-play-parms.md) structure instead of *
 [**MCI\_PLAY\_PARMS**](mci-play-parms.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](/previous-versions//dd757160(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

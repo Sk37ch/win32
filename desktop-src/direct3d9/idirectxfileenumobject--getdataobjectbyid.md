@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the data object that has the specified GUID. Deprecated.
+description: Retrieves the data object that has the specified GUID. Deprecated.
 ms.assetid: dd079b5c-18e1-4252-aabd-498c24910a08
 title: IDirectXFileEnumObject::GetDataObjectById method (DXFile.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT GetDataObjectById(
 *rguid* \[in\]
 </dt> <dd>
 
-Type: **[REFGUID](https://msdn.microsoft.com/library/cc237815(PROT.13).aspx)**
+Type: **[REFGUID](/openspecs/windows_protocols/ms-oaut/6e7d7108-c213-40bc-8294-ac13fe68fd50)**
 
 Reference to the requested GUID.
 
@@ -64,7 +64,7 @@ If the method succeeds, the return value is DXFILE\_OK. If the method fails, the
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>DXFile.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3dxof.lib</dt> </dl> |
@@ -81,7 +81,3 @@ If the method succeeds, the return value is DXFILE\_OK. If the method fails, the
  
 
  
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: In preparing for a restore, a requester uses the stored Writer Metadata Documents in conjunction with its own retrieved Backup Components Document to determine what is to be restored and how.
+description: In preparing for a restore, a requester uses the stored Writer Metadata Documents in conjunction with its own retrieved Backup Components Document to determine what is to be restored and how.
 ms.assetid: 36cf188f-fce6-467c-a200-cbd9dc8f31a6
 title: Overview of Preparing for Restore
 ms.topic: article
@@ -38,7 +38,7 @@ To determine which components are candidates for restore, the requester must do 
 -   Use selectability guidelines ([Working with Selectability for Restore and Subcomponents](working-with-selectability-for-restore-and-subcomponents.md)) to choose components to include.
 -   Use component [*file set*](vssgloss-f.md) information to determine which files on the backup media must be restored.
 
-To do this, the requester needs to examine [*explicitly included*](vssgloss-e.md) components in the stored Backup Components Document. This component information is available on a writer-by-writer basis using [**IVssBackupComponents::GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents), which returns instances of the [**IVssWriterComponentsExt**](https://msdn.microsoft.com/library/Aa384312(v=VS.85).aspx) interface, from which both writer information and instances of the [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) interface can be retrieved.
+To do this, the requester needs to examine [*explicitly included*](vssgloss-e.md) components in the stored Backup Components Document. This component information is available on a writer-by-writer basis using [**IVssBackupComponents::GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents), which returns instances of the [**IVssWriterComponentsExt**](/windows/win32/api/vsbackup/nl-vsbackup-ivsswritercomponentsext) interface, from which both writer information and instances of the [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) interface can be retrieved.
 
 As noted elsewhere ([Use of Components by the Requester](use-of-components-by-the-requestor.md)), the Backup Components Document and the **IVssComponent** interface do not contain enough information to support the backup. Therefore, the requester must examine the corresponding stored Writer Metadata Document by using [**IVssExamineWriterMetadata**](/windows/desktop/api/VsBackup/nl-vsbackup-ivssexaminewritermetadata) (see [Writer Identification Information](writer-metadata-document-contents.md)).
 
@@ -86,7 +86,3 @@ The instance of [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-iv
  
 
  
-
-
-
-

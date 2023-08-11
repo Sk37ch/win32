@@ -1,5 +1,5 @@
 ---
-Description: Returns the number of the current physical scan line.
+description: Returns the number of the current physical scan line.
 ms.assetid: 159d5ea0-25b8-4c2d-9cd4-cf4ee0ca0561
 title: NtGdiDdGetScanLine function (Ntgdi.h)
 ms.topic: reference
@@ -43,14 +43,14 @@ DWORD APIENTRY NtGdiDdGetScanLine(
 *hDirectDraw* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_DIRECTDRAW\_GLOBAL**](https://msdn.microsoft.com/library/Ff550586(v=VS.85).aspx) structure that represents the driver.
+Handle to a [**DD\_DIRECTDRAW\_GLOBAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_directdraw_global) structure that represents the driver.
 
 </dd> <dt>
 
 *puGetScanLineData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_GETSCANLINEDATA**](https://msdn.microsoft.com/library/Ff551591(v=VS.85).aspx) structure in which the driver returns the number of the current scan line.
+Pointer to a [**DD\_GETSCANLINEDATA**](/windows/win32/api/ddrawint/ns-ddrawint-dd_getscanlinedata) structure in which the driver returns the number of the current scan line.
 
 </dd> </dl>
 
@@ -73,7 +73,7 @@ Pointer to a [**DD\_GETSCANLINEDATA**](https://msdn.microsoft.com/library/Ff5515
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
@@ -91,7 +91,3 @@ Pointer to a [**DD\_GETSCANLINEDATA**](https://msdn.microsoft.com/library/Ff5515
  
 
  
-
-
-
-

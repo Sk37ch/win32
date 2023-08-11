@@ -1,5 +1,5 @@
 ---
-Description: The GetIpAddrTable function fills a pointer to an MIB\_IPADDRTABLE structure with information about the current IP addresses associated with the system.
+description: The GetIpAddrTable function fills a pointer to an MIB\_IPADDRTABLE structure with information about the current IP addresses associated with the system.
 ms.assetid: f041cb37-926d-4eeb-835c-f8b9d5ee4d2e
 title: Managing IP Addresses Using GetIpAddrTable
 ms.topic: article
@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Managing IP Addresses Using GetIpAddrTable
 
-The [**GetIpAddrTable**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getipaddrtable) function fills a pointer to an [**MIB\_IPADDRTABLE**](https://msdn.microsoft.com/library/Aa366847(v=VS.85).aspx) structure with information about the current IP addresses associated with the system.
+The [**GetIpAddrTable**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getipaddrtable) function fills a pointer to an [**MIB\_IPADDRTABLE**](/windows/win32/api/ipmib/ns-ipmib-mib_ipaddrtable) structure with information about the current IP addresses associated with the system.
 
 **To use GetIpAddrTable**
 
-1.  Declare a pointer to an [**MIB\_IPADDRTABLE**](https://msdn.microsoft.com/library/Aa366847(v=VS.85).aspx) object called *pIPAddrTable*, and a **DWORD** object called *dwSize*. These variables are passed as parameters to the [**GetIpAddrTable**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getipaddrtable) function. Also create a **DWORD** variable called *dwRetVal* (used for error checking).
+1.  Declare a pointer to an [**MIB\_IPADDRTABLE**](/windows/win32/api/ipmib/ns-ipmib-mib_ipaddrtable) object called *pIPAddrTable*, and a **DWORD** object called *dwSize*. These variables are passed as parameters to the [**GetIpAddrTable**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getipaddrtable) function. Also create a **DWORD** variable called *dwRetVal* (used for error checking).
     ```C++
     MIB_IPADDRTABLE  *pIPAddrTable;
     DWORD            dwSize = 0;
@@ -94,6 +94,3 @@ Previous Step: [Managing Interfaces Using GetInterfaceInfo](managing-interfaces-
  
 
  
-
-
-

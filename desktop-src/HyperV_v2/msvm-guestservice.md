@@ -1,5 +1,5 @@
 ---
-Description: Msvm\_GuestService is the abstract base class for services in the guest that can be accessed from the host.
+description: Msvm\_GuestService is the abstract base class for services in the guest that can be accessed from the host.
 ms.assetid: F9E6FFE6-B8C5-4F06-BF22-A4BDB20F813A
 title: Msvm_GuestService class
 ms.topic: reference
@@ -27,7 +27,7 @@ api_location:
 
 # Msvm\_GuestService class
 
-**Msvm\_GuestService** is the abstract base class for services in the guest that can be accessed from the host. This class derives from the [**CIM\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-service) class.
+**Msvm\_GuestService** is the abstract base class for services in the guest that can be accessed from the host. This class derives from the [**CIM\_Service**](/windows/desktop/CIMWin32Prov/cim-service) class.
 
 The following syntax is simplified from MOF code and includes all inherited properties.
 
@@ -88,7 +88,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Short textual description of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Short textual description of the object. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -114,7 +114,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Textual description of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Textual description of the object. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -127,7 +127,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-Date and time the object was installed. This property does not need a value to indicate that the object is installed. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Date and time the object was installed. This property does not need a value to indicate that the object is installed. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -140,7 +140,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Unique identifier for the service that also provides an indication of the functionality that is managed. For more information about the functionality, see the object's **Description** property. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Unique identifier for the service that also provides an indication of the functionality that is managed. For more information about the functionality, see the object's **Description** property. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -189,7 +189,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Current status of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Current status of the object. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 Values include the following:
 
@@ -263,7 +263,7 @@ Name of the system that hosts the service.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
@@ -280,13 +280,8 @@ Name of the system that hosts the service.
 [**CIM\_Service**](cim-service.md)
 </dt> <dt>
 
-[**CIM\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-service)
+[**CIM\_Service**](/windows/desktop/CIMWin32Prov/cim-service)
 </dt> </dl>
 
  
-
- 
-
-
-
 

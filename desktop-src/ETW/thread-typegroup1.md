@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for thread start and end events. The following syntax is simplified from MOF code.
+description: Thread_TypeGroup1 class - This class is the event type class for thread start and end events. The following syntax is simplified from MOF code.
 ms.assetid: d9e3e33a-0e59-4753-a8d8-5320cbae9d95
 title: Thread_TypeGroup1 class
 ms.topic: reference
@@ -97,7 +97,7 @@ Access type: Read-only
 Qualifiers: WmiDataId(11)
 </dt> </dl>
 
-The scheduler priority of the thread (see the [**SetThreadPriority**](https://msdn.microsoft.com/library/ms686277(v=VS.85).aspx) function).
+The scheduler priority of the thread (see the [**SetThreadPriority**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadpriority) function).
 
 </dd> <dt>
 
@@ -301,7 +301,7 @@ The DCStart and DCEnd event types enumerate the threads that are currently runni
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
@@ -318,7 +318,3 @@ The DCStart and DCEnd event types enumerate the threads that are currently runni
  
 
  
-
-
-
-

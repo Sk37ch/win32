@@ -1,5 +1,5 @@
 ---
-Description: The EnumMonitors function retrieves information about the port monitors installed on the specified server.
+description: The EnumMonitors function retrieves information about the port monitors installed on the specified server.
 ms.assetid: 4d4fbed2-193f-426c-8463-eeb6b1eaf316
 title: EnumMonitors function (Winspool.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ This value can be 1 or 2.
 
 A pointer to a buffer that receives an array of structures. The buffer must be large enough to store the strings referenced by the structure members.
 
-To determine the required buffer size, call **EnumMonitors** with *cbBuf* set to zero. **EnumMonitors** fails, [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns ERROR\_INSUFFICIENT\_BUFFER, and the *pcbNeeded* parameter returns the size, in bytes, of the buffer required to hold the array of structures and their data.
+To determine the required buffer size, call **EnumMonitors** with *cbBuf* set to zero. **EnumMonitors** fails, [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns ERROR\_INSUFFICIENT\_BUFFER, and the *pcbNeeded* parameter returns the size, in bytes, of the buffer required to hold the array of structures and their data.
 
 The buffer receives an array of [**MONITOR\_INFO\_1**](monitor-info-1.md) structures if *Level* is 1, or [**MONITOR\_INFO\_2**](monitor-info-2.md) structures if *Level* is 2.
 
@@ -106,7 +106,7 @@ If the function fails, the return value is zero.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -134,9 +134,4 @@ If the function fails, the return value is zero.
 </dt> </dl>
 
  
-
- 
-
-
-
 

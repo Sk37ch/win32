@@ -1,5 +1,5 @@
 ---
-Description: Gets the address of a function from a DLL.
+description: Gets the address of a function from a DLL.
 ms.assetid: e425948c-5588-4a4f-994c-4e608af18439
 title: '_GetProcAddress_ function'
 ms.topic: reference
@@ -20,7 +20,7 @@ api_location:
 
 \[This function is a wrapper over the **GetProcAddress** function. This function may be altered or unavailable in the future. Applications should call **GetProcAddress** directly.\]
 
-Gets the address of a function from a DLL. See [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx).
+Gets the address of a function from a DLL. See [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress).
 
 ## Syntax
 
@@ -44,7 +44,7 @@ FARPROC _GetProcAddress_(
 
 
 
-|                |                                                                                                                                                             |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Msmdun80.dll; </dt> <dt>Sqlunirl.dll</dt> </dl> |
 
@@ -54,13 +54,9 @@ FARPROC _GetProcAddress_(
 
 <dl> <dt>
 
-[**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx)
+[**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress)
 </dt> </dl>
 
  
 
  
-
-
-
-

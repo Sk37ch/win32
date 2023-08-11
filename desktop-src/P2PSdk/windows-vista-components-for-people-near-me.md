@@ -1,5 +1,5 @@
 ---
-Description: Windows Vista Components for People Near Me
+description: Windows Vista Components for People Near Me
 ms.assetid: 87d0cc0d-fbbb-4a22-9946-7296d53df773
 title: Windows Vista Components for People Near Me
 ms.topic: article
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 ### Web Service Discovery
 
-The Web Service Discovery component allows for the publication and discovery of services on the local subnet. In PNM, a user is a service that gets advertised on the local subnet. For more information about Web Service Discovery, see [XML Web Service Discovery](https://msdn.microsoft.com/library/fxx6cfx2.aspx).
+The Web Service Discovery component allows for the publication and discovery of services on the local subnet. In PNM, a user is a service that gets advertised on the local subnet. For more information about Web Service Discovery, see [XML Web Service Discovery](/previous-versions/dotnet/netframework-4.0/fxx6cfx2(v=vs.100)).
 
 ### Schannel
 
@@ -29,6 +29,3 @@ New TCP/IP stack in Windows Vista that has IPv6 built-in and enabled by default
  
 
  
-
-
-

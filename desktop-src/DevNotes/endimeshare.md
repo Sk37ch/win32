@@ -1,5 +1,5 @@
 ---
-Description: Terminates IME Share.
+description: Terminates IME Share.
 ms.assetid: aa33b5ed-fd4a-4829-9b7f-d545a4e7bd02
 title: EndIMEShare function
 ms.topic: reference
@@ -38,7 +38,7 @@ This function does not return a value.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 This function should be called after the last IME Share function is called.
 
@@ -46,7 +46,7 @@ This function should be called after the last IME Share function is called.
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Imeshare.dll</dt> </dl> |
 
@@ -62,7 +62,3 @@ This function should be called after the last IME Share function is called.
  
 
  
-
-
-
-

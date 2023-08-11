@@ -1,5 +1,5 @@
 ---
-Description: The global and local functions are supported for porting from 16-bit code, or for maintaining source code compatibility with 16-bit Windows.
+description: The global and local functions are supported for porting from 16-bit code, or for maintaining source code compatibility with 16-bit Windows.
 ms.assetid: 97707ce7-4c65-4d0e-ba69-47fdaee73a9b
 title: Global and Local Functions
 ms.topic: article
@@ -22,7 +22,7 @@ The actual size of the memory allocated can be larger than the requested size. T
 
 The [**GlobalReAlloc**](/windows/desktop/api/WinBase/nf-winbase-globalrealloc) and [**LocalReAlloc**](/windows/desktop/api/WinBase/nf-winbase-localrealloc) functions change the size or the attributes of a memory object allocated by [**GlobalAlloc**](/windows/desktop/api/WinBase/nf-winbase-globalalloc) and [**LocalAlloc**](/windows/desktop/api/WinBase/nf-winbase-localalloc). The size can increase or decrease.
 
-The [**GlobalFree**](/windows/desktop/api/WinBase/nf-winbase-globalfree) and [**LocalFree**](/windows/desktop/api/WinBase/nf-winbase-localfree) functions release memory allocated by [**GlobalAlloc**](/windows/desktop/api/WinBase/nf-winbase-globalalloc), [**LocalAlloc**](/windows/desktop/api/WinBase/nf-winbase-localalloc), [**GlobalReAlloc**](/windows/desktop/api/WinBase/nf-winbase-globalrealloc), or [**LocalReAlloc**](/windows/desktop/api/WinBase/nf-winbase-localrealloc). To discard the specified memory object without invalidating the handle, use the [**GlobalDiscard**](/windows/desktop/api/WinBase/nf-winbase-globaldiscard) or [**LocalDiscard**](https://msdn.microsoft.com/library/Aa366727(v=VS.85).aspx) function. The handle can be used later by **GlobalReAlloc** or **LocalReAlloc** to allocate a new block of memory associated with the same handle.
+The [**GlobalFree**](/windows/desktop/api/WinBase/nf-winbase-globalfree) and [**LocalFree**](/windows/desktop/api/WinBase/nf-winbase-localfree) functions release memory allocated by [**GlobalAlloc**](/windows/desktop/api/WinBase/nf-winbase-globalalloc), [**LocalAlloc**](/windows/desktop/api/WinBase/nf-winbase-localalloc), [**GlobalReAlloc**](/windows/desktop/api/WinBase/nf-winbase-globalrealloc), or [**LocalReAlloc**](/windows/desktop/api/WinBase/nf-winbase-localrealloc). To discard the specified memory object without invalidating the handle, use the [**GlobalDiscard**](/windows/desktop/api/WinBase/nf-winbase-globaldiscard) or [**LocalDiscard**](/windows/win32/api/minwinbase/nf-minwinbase-localdiscard) function. The handle can be used later by **GlobalReAlloc** or **LocalReAlloc** to allocate a new block of memory associated with the same handle.
 
 To return information about a specified memory object, use the [**GlobalFlags**](/windows/desktop/api/WinBase/nf-winbase-globalflags) or [**LocalFlags**](/windows/desktop/api/WinBase/nf-winbase-localflags) function. The information includes the object's lock count and indicates whether the object is discardable or has already been discarded. To return a handle to the memory object associated with a specified pointer, use the [**GlobalHandle**](/windows/desktop/api/WinBase/nf-winbase-globalhandle) or [**LocalHandle**](/windows/desktop/api/WinBase/nf-winbase-localhandle) function.
 
@@ -36,6 +36,3 @@ To return information about a specified memory object, use the [**GlobalFlags**]
  
 
  
-
-
-

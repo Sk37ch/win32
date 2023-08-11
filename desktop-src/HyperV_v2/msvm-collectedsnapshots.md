@@ -1,5 +1,5 @@
 ---
-Description: Associates the Msvm\_SnapshotCollection to the contained Msvm\_VirtualSystemSettingData objects.
+description: Associates the Msvm\_SnapshotCollection to the contained Msvm\_VirtualSystemSettingData objects.
 ms.assetid: 21005e8a-0bc6-4ea7-8f6f-d79803b43bc0
 title: Msvm_CollectedSnapshots class
 ms.topic: reference
@@ -55,7 +55,7 @@ Data type: **Msvm\_SnapshotCollection**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Collection")
+Qualifiers: [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Collection")
 </dt> </dl>
 
 An [**Msvm\_SnapshotCollection**](msvm-snapshotcollection.md) grouping or 'bag' object that represents the collection.
@@ -71,7 +71,7 @@ Data type: **Msvm\_VirtualSystemSettingData**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Member")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Member")
 </dt> </dl>
 
 An [**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md) containing the members of the collection.
@@ -82,7 +82,7 @@ An [**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md) contai
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -100,9 +100,4 @@ An [**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md) contai
 </dt> </dl>
 
  
-
- 
-
-
-
 

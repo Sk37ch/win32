@@ -1,5 +1,5 @@
 ---
-Description: Determines the size, in bytes, of the IStream COM interface.
+description: Determines the size, in bytes, of the IStream COM interface.
 ms.assetid: 8c2f081d-cc41-409e-a868-bcf834e1f128
 title: ISCardTypeConv::SizeOfIStream method (Scarddat.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # ISCardTypeConv::SizeOfIStream method
 
-\[The **SizeOfIStream** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **SizeOfIStream** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
 The **SizeOfIStream** method determines the size, in bytes, of the **IStream** COM interface.
 
@@ -73,7 +73,7 @@ The method returns one of the following possible values.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
@@ -99,7 +99,3 @@ The method returns one of the following possible values.
  
 
  
-
-
-
-

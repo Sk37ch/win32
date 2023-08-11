@@ -30,7 +30,7 @@ Sets the color used to draw the insertion mark for the tree view. You can send t
 *lParam* 
 </dt> <dd>
 
-[**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) value that contains the new insertion mark color.
+[**COLORREF**](/windows/desktop/gdi/colorref) value that contains the new insertion mark color.
 
 </dd> </dl>
 
@@ -42,7 +42,7 @@ Returns a **COLORREF** value that contains the previous insertion mark color.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -58,10 +58,4 @@ Returns a **COLORREF** value that contains the previous insertion mark color.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

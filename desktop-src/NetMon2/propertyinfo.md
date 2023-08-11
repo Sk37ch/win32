@@ -1,5 +1,5 @@
 ---
-Description: The PROPERTYINFO data structure defines one property of the protocol.
+description: The PROPERTYINFO data structure defines one property of the protocol.
 ms.assetid: '878777ab-141d-4cc5-b0c1-f2ac8f770bf0'
 title: PROPERTYINFO structure (Netmon.h)
 ms.topic: reference
@@ -194,13 +194,13 @@ Specify the format function that is called to format the displayed data for the 
 
 ## Remarks
 
-The **PROPERTYINFO** structure is used in calls to the [AddProperty](https://msdn.microsoft.com/library/Ee817694(v=VS.85).aspx) function. The **AddProperty** function adds a single property definition to the parser [*property database*](p.md).
+The **PROPERTYINFO** structure is used in calls to the [AddProperty](/previous-versions/bb251873(v=msdn.10)) function. The **AddProperty** function adds a single property definition to the parser [*property database*](p.md).
 
 ## Requirements
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
@@ -212,7 +212,7 @@ The **PROPERTYINFO** structure is used in calls to the [AddProperty](https://msd
 
 <dl> <dt>
 
-[AddProperty](https://msdn.microsoft.com/library/Ee817694(v=VS.85).aspx)
+[AddProperty](/previous-versions/bb251873(v=msdn.10))
 </dt> <dt>
 
 [RANGE](range.md)
@@ -222,9 +222,4 @@ The **PROPERTYINFO** structure is used in calls to the [AddProperty](https://msd
 </dt> </dl>
 
  
-
- 
-
-
-
 

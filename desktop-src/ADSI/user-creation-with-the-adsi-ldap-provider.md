@@ -17,12 +17,12 @@ With the ADSI LDAP provider, you can only create a global user account. Local ac
 
 1.  Bind to the container where the user object will reside and obtain either the [**IADsContainer**](/windows/desktop/api/Iads/nn-iads-iadscontainer) or [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject) interface for the container.
 2.  Use the [**IADsContainer.Create**](/windows/desktop/api/Iads/nf-iads-iadscontainer-create) or [**IDirectoryObject::CreateDSObject**](/windows/desktop/api/Iads/nf-iads-idirectoryobject-createdsobject) method to create the user object.
-3.  The minimum attributes required to create a user object will depend on the directory service used. For more information about creating an Active Directory user, see [Creating a User](https://docs.microsoft.com/windows/desktop/AD/creating-a-user).
+3.  The minimum attributes required to create a user object will depend on the directory service used. For more information about creating an Active Directory user, see [Creating a User](/windows/desktop/AD/creating-a-user).
 4.  If the [**IADsContainer**](/windows/desktop/api/Iads/nn-iads-iadscontainer) interface is used, the new object is not actually created until the [**IADs.SetInfo**](/windows/desktop/api/Iads/nf-iads-iads-setinfo) method is called.
 
-    If the [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject) interface is used, the new object is created when the [**CreateDSObject**](/windows/desktop/api/Iads/nf-iads-idirectoryobject-createdsobject) method is called. The minimum attributes, including the [**objectClass**](https://docs.microsoft.com/windows/desktop/ADSchema/a-objectclass), must be specified in the [**ADS\_ATTR\_INFO**](/windows/desktop/api/Iads/ns-iads-ads_attr_info) array passed to the **CreateDSObject** method.
+    If the [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject) interface is used, the new object is created when the [**CreateDSObject**](/windows/desktop/api/Iads/nf-iads-idirectoryobject-createdsobject) method is called. The minimum attributes, including the [**objectClass**](/windows/desktop/ADSchema/a-objectclass), must be specified in the [**ADS\_ATTR\_INFO**](/windows/desktop/api/Iads/ns-iads-ads_attr_info) array passed to the **CreateDSObject** method.
 
-## Example Code
+## Example 1
 
 The following code example creates a user account with the default attributes.
 
@@ -48,7 +48,7 @@ Cleanup:
 
 
 
-## Example Code
+## Example 2
 
 The following code example creates a user account with the default attributes. For brevity, error checking is omitted.
 
@@ -106,7 +106,3 @@ int main()
  
 
  
-
-
-
-

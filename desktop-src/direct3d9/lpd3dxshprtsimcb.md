@@ -1,5 +1,5 @@
 ---
-Description: Callback function for Precomputed Radiance Transfer (PRT) simulation and compression.
+description: Callback function for Precomputed Radiance Transfer (PRT) simulation and compression.
 ms.assetid: 1d7e2149-d2ca-47da-be1f-8273fd9bd30a
 title: LPD3DXSHPRTSIMCB
 ms.topic: reference
@@ -34,11 +34,11 @@ This function must be implemented to return S\_OK to keep running the simulator.
 
 ## Remarks
 
-Be sure to specify the [**Windows Data Types**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx) calling convention when declaring the callback function. Otherwise, stack overflows can occur.
+Be sure to specify the [**Windows Data Types**](../winprog/windows-data-types.md) calling convention when declaring the callback function. Otherwise, stack overflows can occur.
 
 
 
-|                          |             |
+| Requirement                         | Value            |
 |--------------------------|-------------|
 | Header                   | d3dx9mesh.h |
 | Import Library           | d3dx9.lib   |
@@ -58,6 +58,3 @@ Be sure to specify the [**Windows Data Types**](https://msdn.microsoft.com/libra
  
 
  
-
-
-

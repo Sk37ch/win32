@@ -1,12 +1,15 @@
 ---
-Description: 'This filter decodes the following audio formats:'
+description: 'This filter decodes the following audio formats:'
 ms.assetid: 2fd14296-9eed-4e25-b140-6281c707fdb7
 title: Microsoft MPEG-1/DD/AAC Audio Decoder (Wmcodecdsp.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Microsoft MPEG-1/DD/AAC Audio Decoder
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This filter decodes the following audio formats:
 
@@ -145,7 +148,7 @@ To select between these two options, use the [**ICodecAPI**](/windows/desktop/ap
 
 ### AAC Decoding
 
-For AAC, the decoder has certain format constraints on the compressed AAC input. These format constraints are the same as the Media Foundation [**AAC Decoder**](https://msdn.microsoft.com/library/Dd742784(v=VS.85).aspx), and are documented in the section "[**Format Constraints**](https://msdn.microsoft.com/library/Dd742784(v=VS.85).aspx)".
+For AAC, the decoder has certain format constraints on the compressed AAC input. These format constraints are the same as the Media Foundation [**AAC Decoder**](../medfound/aac-decoder.md), and are documented in the section "[**Format Constraints**](../medfound/aac-decoder.md)".
 
 The DirectShow decoder also accepts different input types than the Media Foundation decoder. The DirectShow decoder supports the following AAC input types:
 
@@ -219,7 +222,7 @@ The filter supports the following properties through [**ICodecAPI**](/windows/de
 
 
 
-|                                     |                                                                                                |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Home Premium, Windows Vista Ultimate, Windows 7 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
@@ -243,7 +246,3 @@ The filter supports the following properties through [**ICodecAPI**](/windows/de
  
 
  
-
-
-
-

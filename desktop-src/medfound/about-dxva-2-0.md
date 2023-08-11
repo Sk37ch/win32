@@ -1,5 +1,5 @@
 ---
-Description: Overview of DXVA 2 and its relation to DXVA 1.
+description: Overview of DXVA 2 and its relation to DXVA 1.
 ms.assetid: 190ed399-a8a8-4087-8d18-b1a715690e4c
 title: About DXVA 2.0
 ms.topic: article
@@ -30,7 +30,7 @@ The following table shows the operating system requirements and the supported vi
 
  
 
-In DXVA 1, the software decoder must access the API through the video renderer. There is no way to use the DXVA 1 API without calling into the video renderer. This limitation has been removed with DXVA 2. Using DXVA 2, the host decoder (or any application) can access the API directly, through the [**IDirectXVideoDecoderService**](/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoderservice) interface.
+In DXVA 1, the software decoder must access the API through the video renderer. There is no way to use the DXVA 1 API without calling into the video renderer. This limitation has been removed with DXVA 2. Using DXVA 2, the host decoder (or any application) can access the API directly, through the [**IDirectXVideoDecoderService**](/windows/win32/api/dxva2api/nn-dxva2api-idirectxvideodecoderservice) interface.
 
 The DXVA 1 documentation describes the decoding structures used for the following video standards:
 
@@ -41,10 +41,10 @@ The DXVA 1 documentation describes the decoding structures used for the followin
 
 The following specifications define DXVA extensions for other video standards:
 
--   [DXVA Specification for H.264/AVC Decoding](https://www.microsoft.com/downloads/details.aspx?FamilyID=3d1c290b-310b-4ea2-bf76-714063a6d7a6&displaylang=en)
--   [DXVA Specification for H.264/MPEG-4 AVC Multiview Video Coding (MVC), Including the Stereo High Profile](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=03844445-6a6a-48f8-9eec-febcf66e9c3b)
--   [DXVA Specification for MPEG-1 VLD and Combined MPEG-1/MPEG-2 VLD Video Decoding](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d44995bc-68df-49b0-8959-5e539324716d).
--   [DXVA Specification for Off-Host VLD Mode for MPEG-4 Part 2 Video Decoding]( https://go.microsoft.com/fwlink/p/?linkid=213079)
+-   [DXVA Specification for H.264/AVC Decoding](https://www.microsoft.com/download/details.aspx?id=11323)
+-   [DXVA Specification for H.264/MPEG-4 AVC Multiview Video Coding (MVC), Including the Stereo High Profile](https://www.microsoft.com/download/details.aspx?id=25200)
+-   [DXVA Specification for MPEG-1 VLD and Combined MPEG-1/MPEG-2 VLD Video Decoding](https://www.microsoft.com/download/details.aspx?id=9374).
+-   [DXVA Specification for Off-Host VLD Mode for MPEG-4 Part 2 Video Decoding](https://www.microsoft.com/download/details.aspx?id=21100)
 -   [DXVA Specification for Windows Media Video® v8, v9 and vA Decoding (Including SMPTE 421M "VC-1")](https://www.microsoft.com/downloads/details.aspx?FamilyID=8792dfdb-8459-4cb7-adb4-fef30b609b31&displaylang=en)
 -   [DirectX Video Acceleration (DXVA) Specification for H.264/MPEG-4 Scalable Video Coding (SVC) Off-Host VLD Mode Decoding](https://www.microsoft.com/downloads/details.aspx?FamilyID=a38538b6-f52c-470b-94be-0cf7c28d46cc&displaylang=en)
 -   [DirectX Video Acceleration Specification for VP8 and VP9 Video Coding](https://www.microsoft.com/download/details.aspx?id=49188)
@@ -61,12 +61,9 @@ DXVA 1 and DXVA 2 use the same data structures for decoding. However, the proced
 [DirectX Video Acceleration 2.0](directx-video-acceleration-2-0.md)
 </dt> <dt>
 
-[DXVA 1.0 specification](https://msdn.microsoft.com/library/windows/hardware/gg463516)
+[DXVA 1.0 specification](/windows-hardware/drivers/display/directx-video-acceleration)
 </dt> </dl>
 
  
 
  
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: The IEnumParticipant interface provides COM-standard enumeration methods for the ITParticipant interface. The ITParticipantControl::EnumerateParticipants method returns a pointer to IEnumParticipant.
+description: The IEnumParticipant interface provides COM-standard enumeration methods for the ITParticipant interface. The ITParticipantControl::EnumerateParticipants method returns a pointer to IEnumParticipant.
 ms.assetid: 8534d102-06ce-4e82-8f9c-9ab9f0d14df9
 title: IEnumParticipant interface (Confpriv.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ The **IEnumParticipant** interface is hidden from Visual Basic and scripting lan
 
 ## Members
 
-The **IEnumParticipant** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IEnumParticipant** also has these types of members:
+The **IEnumParticipant** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IEnumParticipant** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -41,7 +41,7 @@ The **IEnumParticipant** interface has these methods.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |
@@ -58,9 +58,4 @@ The **IEnumParticipant** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Gets the thickness of the line.
+description: Gets the thickness of the line.
 ms.assetid: 8e29fcfe-91bd-4389-8586-470f1ca1c29f
 title: ID3DXLine::GetWidth method (D3dx9core.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The line thickness.
 
@@ -43,7 +43,7 @@ The line thickness.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -63,7 +63,3 @@ The line thickness.
  
 
  
-
-
-
-

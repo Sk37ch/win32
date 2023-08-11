@@ -1,5 +1,5 @@
 ---
-Description: Used by the Microsoft Internet Explorer System Event Notification Service (SENS) to access the event data store. This interface extends the IEventSystem interface.
+description: Used by the Microsoft Internet Explorer System Event Notification Service (SENS) to access the event data store. This interface extends the IEventSystem interface.
 ms.assetid: ad3c38a6-fa2d-4fcd-8782-1fac7595e829
 title: IEventSystem2 interface
 ms.topic: reference
@@ -26,7 +26,7 @@ You do not need to implement the **IEventSystem2** interface. A system-supplied 
 
 If you use SENS, you can call the methods of **IEventSystem2** to add and remove objects to and from the event store and to obtain objects from the event store.
 
-Because [**IEventPublisher**](https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventpublisher) and the publisher object are no longer supported, [**IEventObjectChange**](/windows/desktop/api/Eventsys/nn-eventsys-ieventobjectchange) is not called on the [**ChangedPublisher**](/windows/desktop/api/Eventsys/nf-eventsys-ieventobjectchange-changedpublisher) method.
+Because [**IEventPublisher**](/windows/desktop/api/eventsys/nn-eventsys-ieventpublisher) and the publisher object are no longer supported, [**IEventObjectChange**](/windows/desktop/api/Eventsys/nn-eventsys-ieventobjectchange) is not called on the [**ChangedPublisher**](/windows/desktop/api/Eventsys/nf-eventsys-ieventobjectchange-changedpublisher) method.
 
 ## Members
 
@@ -53,7 +53,7 @@ The **IEventSystem2** interface has these methods.
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
@@ -68,9 +68,4 @@ The **IEventSystem2** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -1,6 +1,6 @@
 ---
 title: TextureCubeArray::Sample(S,float,float) function
-description: Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to.
+description: Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to. | TextureCubeArray::Sample(S,float,float) function
 ms.assetid: E3BACA5E-18FC-4BD7-A8D8-C2808BDF1517
 keywords:
 - Sample function HLSL
@@ -15,18 +15,18 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Sample(S,float,float) function
+# TextureCubeArray::Sample(S,float,float) function
 
 Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to.
 
 ## Syntax
 
 
-```C++
+``` syntax
 DXGI_FORMAT Sample(
-  _In_ SamplerState S,
-  _In_ float        Location,
-  _In_ float        Clamp
+  in SamplerState S,
+  in float        Location,
+  in float        Clamp
 );
 ```
 
@@ -78,9 +78,9 @@ An optional value to clamp sample LOD values to. For example, if you pass 2.0f f
 
 ## Return value
 
-Type: **[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
+Type: **[**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
 
-The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
+The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
 ## See also
 
@@ -95,7 +95,3 @@ The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**
  
 
  
-
-
-
-

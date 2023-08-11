@@ -1,7 +1,7 @@
 ---
-Description: Retrieves the security identifier and flags used to protect a key.
+description: Retrieves the security identifier and flags used to protect a key.
 ms.assetid: 5EF97F44-78FF-4FBF-9142-F2DD0A849057
-title: GetKeyProtectorCertificate method of the Win32_EncryptableVolume class
+title: GetKeyProtectorAdSidInformation method of the Win32_EncryptableVolume class
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -92,13 +92,13 @@ This method returns one of the following codes or another error code if it fails
 
 ## Remarks
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/Aa823192(v=VS.85).aspx).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 Enterprise, Windows 8 Pro \[desktop apps only\]<br/>                                    |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -117,7 +117,3 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
  
 
  
-
-
-
-

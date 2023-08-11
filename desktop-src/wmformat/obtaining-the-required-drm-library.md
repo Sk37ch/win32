@@ -14,14 +14,17 @@ keywords:
 - DRM (digital rights management),debugging information
 - debugging DRM
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Obtaining the Required DRM Library
 
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 To create or play DRM-protected digital media files, your application must link to a static library that is provided in binary form by Microsoft. This library is sometimes called a stub library or "stublib" and it uniquely identifies your application.
 
-In this documentation, the DRM library is referred to as "WMStubDRM.lib". The name of the library you receive will include an identifying number. To obtain this library, you must sign a license agreement with Microsoft. The terms of the agreement may differ depending on whether you request an evaluation license or a production license. For more information on the DRM licensing process, see the Windows Media Licensing Form at the [Microsoft Web site](http://wmlicense.smdisp.net/licenserequest/default.asp).
+In this documentation, the DRM library is referred to as "WMStubDRM.lib". The name of the library you receive will include an identifying number. To obtain this library, you must sign a license agreement with Microsoft. The terms of the agreement may differ depending on whether you request an evaluation license or a production license. For more information on the DRM licensing process, see the Windows Media Licensing Form at the [Microsoft Web site](https://www.microsoft.com/licensing/default).
 
 The library that you receive has a DRM security level that depends on the type of license agreement you enter into. A DRM license can restrict applications with DRM components below a specified security level from accessing the file contents. This security level is not the same as the DRM individualization level, nor is it related to any of the numerical values of output protection levels (OPLs). The following table shows examples of DRM security levels for different players and portable devices.
 

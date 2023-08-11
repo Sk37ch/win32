@@ -1,5 +1,5 @@
 ---
-Description: The read-only Language property of the Error object returns the LANGID of the current error.
+description: The read-only Language property of the Error object returns the LANGID of the current error.
 ms.assetid: f47cad5d-8e76-4210-b1ab-377d2d05379e
 title: Error.Language property (Mergemod.h)
 ms.topic: reference
@@ -39,13 +39,13 @@ The value of the **Language** property is -1 unless the error is of type msmErro
 
 ### C++
 
-See [**get\_Language Function (Error Object)**](https://msdn.microsoft.com/library/Aa369252(v=VS.85).aspx).
+See [**get\_Language Function (Error Object)**](/windows/win32/api/mergemod/nf-mergemod-imsmerror-get_language).
 
 ## Requirements
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 1.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |
@@ -54,9 +54,4 @@ See [**get\_Language Function (Error Object)**](https://msdn.microsoft.com/libra
 
 
  
-
- 
-
-
-
 

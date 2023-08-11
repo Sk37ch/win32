@@ -1,5 +1,5 @@
 ---
-Description: Creates a font object.Note  Instead of using this function, we recommend that you use DirectWrite and the DirectXTK library, SpriteFont class.
+description: Creates a font object.Note  Instead of using this function, we recommend that you use DirectWrite and the DirectXTK library, SpriteFont class.
 ms.assetid: 057ee033-37d8-4fc1-9f35-776393fff008
 title: D3DX10CreateFontIndirect function (D3DX10Core.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ api_location:
 Creates a font object.
 
 > [!Note]  
-> Instead of using this function, we recommend that you use [DirectWrite](https://msdn.microsoft.com/library/Dd368038(v=VS.85).aspx) and the [DirectXTK](https://github.com/Microsoft/DirectXTK) library, **SpriteFont** class.
+> Instead of using this function, we recommend that you use [DirectWrite](../directwrite/direct-write-portal.md) and the [DirectXTK](https://github.com/Microsoft/DirectXTK) library, **SpriteFont** class.
 
  
 
@@ -79,7 +79,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
@@ -96,7 +96,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

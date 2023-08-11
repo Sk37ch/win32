@@ -1,5 +1,5 @@
 ---
-Description: This topic provides information about the native TIFF codec available through Windows Imaging Component (WIC).
+description: This topic provides information about the native TIFF codec available through Windows Imaging Component (WIC).
 ms.assetid: 021AAF33-A89E-4336-AEB1-1A0D79A14C75
 title: TIFF Format Overview
 ms.topic: article
@@ -21,7 +21,7 @@ The following table provides codec identification information.
 
 
 
-|                        |                                 |
+|   Component            |   Description                   |
 |------------------------|---------------------------------|
 | Formal Name(s)         | Tagged Image File Format (TIFF) |
 | File Name Extension(s) | tiff, tif                       |
@@ -52,49 +52,24 @@ The WIC encoding API are designed to be codec-independent and image encoding for
 
 ### Encoder Options
 
-WIC-enabled codecs differ at the encoding option level. Encoder options reflect the capabilities of an image encoder and each native codec supports a set of these encoder options. Encoder options can be basic WIC supported options available to all WIC enabled codes (though not necessarily supported) or codec-specific options designed by the image format codec. To manage these encoding options during the encoding process, WIC uses the [**IPropertyBag2**](https://msdn.microsoft.com/library/Aa768192(v=VS.85).aspx) interface . For more information about using the **IPropertyBag2** interface for WIC encoding , see the [Encoding Overview](-wic-creating-encoder.md).
+WIC-enabled codecs differ at the encoding option level. Encoder options reflect the capabilities of an image encoder and each native codec supports a set of these encoder options. Encoder options can be basic WIC supported options available to all WIC enabled codes (though not necessarily supported) or codec-specific options designed by the image format codec. To manage these encoding options during the encoding process, WIC uses the [**IPropertyBag2**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85)) interface . For more information about using the **IPropertyBag2** interface for WIC encoding , see the [Encoding Overview](-wic-creating-encoder.md).
 
 The TIFF codec uses basic WIC options. The following table lists the WIC encoder options supported by the native TIFF codec.
 
+| Property Name         | VARTYPE | Value Range | Default Value    |
+|-----------------------|---------|-------------|------------------|
+| CompressionQuality    | VT\_R4  | 0 - 1.0     | 0                |
+| TiffCompressionMethod | VT\_UI1 | [**WICTiffCompressionOption**](/windows/desktop/api/Wincodec/ne-wincodec-wictiffcompressionoption) | [**WICTiffCompressionDontCare**](/windows/desktop/api/Wincodec/ne-wincodec-wictiffcompressionoption) |
 
-
-Basic WIC Encoder Options
-
-Property Name
-
-VARTYPE
-
-Value Range
-
-Default Value
-
-CompressionQuality
-
-VT\_R4
-
-0 - 1.0
-
-TIFFCompressionMethod
-
-VT\_UI1
-
-[**WICTiffCompressionOption**](/windows/desktop/api/Wincodec/ne-wincodec-wictiffcompressionoption)
-
-[**WICTiffCompressionDontCare**](/windows/desktop/api/Wincodec/ne-wincodec-wictiffcompressionoption)
-
-
-
- 
-
-If an encoder option is present in the [**IPropertyBag2**](https://msdn.microsoft.com/library/Aa768192(v=VS.85).aspx) option list that the codec does not support, it is ignored.
+If an encoder option is present in the [**IPropertyBag2**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85)) option list that the codec does not support, it is ignored.
 
 ### CompressionQuality Option
 
-Specifies the desired compression quality. 0.0 indicates the efficient compression schema available. Typically, this schema results in a faster encode but larger output. A value of 1.0 specifies the most efficient compression schema available. Typically, this schema results in a longer encode but producing smaller output.
+Specifies the desired compression quality. 0.0 indicates the least efficient compression scheme available. Typically, this scheme results in a faster encode but larger output. A value of 1.0 specifies the most efficient compression scheme available. Typically, this scheme results in a longer encode but produces smaller output.
 
-The default value is .
+The default value is 0.
 
-### TIFFCompressionMethod Option
+### TiffCompressionMethod Option
 
 Specifies the TIFF compression method.
 
@@ -102,11 +77,8 @@ The default value is [**WICTiffCompressionDontCare**](/windows/desktop/api/Winco
 
 ## Decoding
 
-The WIC decoding API are designed to be codec-independent and image decoding for WIC-enabled codecs is essentially the same. For more information about image decoding, see the [Decoding Overview](-wic-creating-decoder.md). For more information about using decoded image data, see the [Bitmap Sources Overview](-wic-bitmapsources.md).
+The WIC decoding APIs are designed to be codec-independent and image decoding for WIC-enabled codecs is essentially the same. For more information about image decoding, see the [Decoding Overview](-wic-creating-decoder.md). For more information about using decoded image data, see the [Bitmap Sources Overview](-wic-bitmapsources.md).
 
  
 
  
-
-
-

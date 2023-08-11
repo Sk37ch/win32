@@ -45,7 +45,7 @@ Context value passed to the [**PxeRegisterCallback**](/windows/desktop/api/WdsPx
 *dwControl* 
 </dt> <dd>
 
-Control code. For the list of possible values, see the *dwControl* parameter of the [*HandlerEx*](https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex) function.
+Control code. For the list of possible values, see the *dwControl* parameter of the [*HandlerEx*](/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex) function.
 
 </dd> </dl>
 
@@ -57,7 +57,7 @@ If the provider shutdown succeeds, the callback should return **ERROR\_SUCCESS**
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2008, Windows Server 2003 with SP2 \[desktop apps only\]<br/> |
@@ -75,10 +75,4 @@ If the provider shutdown succeeds, the callback should return **ERROR\_SUCCESS**
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

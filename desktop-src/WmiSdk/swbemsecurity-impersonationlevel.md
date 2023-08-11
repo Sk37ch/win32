@@ -1,5 +1,5 @@
 ---
-Description: The ImpersonationLevel property is an integer that defines the COM impersonation level that is assigned to this object.
+description: The ImpersonationLevel property is an integer that defines the COM impersonation level that is assigned to this object.
 ms.assetid: cf57620b-7827-4552-a969-d25e5eb13a89
 ms.tgt_platform: multiple
 title: SWbemSecurity.ImpersonationLevel property
@@ -71,7 +71,7 @@ objinstance.Security_.ImpersonationLevel = _
 
 
 
-You can also specify impersonation levels as part of a moniker. The following example sets the authentication level and the impersonation level, and retrieves an instance of [**Win32\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service).
+You can also specify impersonation levels as part of a moniker. The following example sets the authentication level and the impersonation level, and retrieves an instance of [**Win32\_Service**](/windows/desktop/CIMWin32Prov/win32-service).
 
 
 ```VB
@@ -86,7 +86,7 @@ Set objinst = GetObject("WinMgmts:{impersonationLevel=impersonate,"& _
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -111,9 +111,4 @@ Set objinst = GetObject("WinMgmts:{impersonationLevel=impersonate,"& _
 </dt> </dl>
 
  
-
- 
-
-
-
 

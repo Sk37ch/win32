@@ -1,5 +1,5 @@
 ---
-Description: Retrieves information about a given image file.
+description: D3DXGetImageInfoFromFile function - Retrieves information about a given image file.
 ms.assetid: 2e9d7073-4136-4fb7-8749-810aee000433
 title: D3DXGetImageInfoFromFile function (D3dx9tex.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ HRESULT D3DXGetImageInfoFromFile(
 *pSrcFile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 File name of image to retrieve information about. If UNICODE or \_UNICODE are defined, this parameter type is LPCWSTR, otherwise, the type is LPCSTR.
 
@@ -68,7 +68,7 @@ This function supports both Unicode and ANSI strings.
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |
@@ -91,7 +91,3 @@ This function supports both Unicode and ANSI strings.
  
 
  
-
-
-
-

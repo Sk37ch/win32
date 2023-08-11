@@ -19,7 +19,6 @@ The CLSID for this effect is CLSID\_D2D12DAffineTransform.
 -   [Border modes](#border-modes)
 -   [Interpolation modes](#interpolation-modes)
 -   [Output bitmap](#output-bitmap)
--   [Sample code](#sample-code)
 -   [Requirements](#requirements)
 -   [Related topics](#related-topics)
 
@@ -65,41 +64,14 @@ Although the input matrix is defined as a 3x2 matrix, the last column is padded 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Display name and index enumeration</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>InterpolationMode<br/> D2D1_2DAFFINETRANSFORM_PROP_INTERPOLATION_MODE<br/></td>
-<td>The interpolation mode used to scale the image. There are 6 scale modes that range in quality and speed.<br/> Type is D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE.<br/> Default value is D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE_LINEAR.<br/></td>
-</tr>
-<tr class="even">
-<td>BorderMode<br/> D2D1_2DAFFINETRANSFORM_PROP_BORDER_MODE<br/></td>
-<td>The mode used to calculate the border of the image, soft or hard. See <a href="https://www.bing.com/search?q=Border+modes">Border modes</a> for more info. <br/> Type is D2D1_BORDER_MODE.<br/> Default value is D2D1_BORDER_MODE_SOFT.<br/></td>
-</tr>
-<tr class="odd">
-<td>TransformMatrix<br/> D2D1_2DAFFINETRANSFORM_PROP_TRANSFORM_MATRIX<br/></td>
-<td>The 3x2 matrix to transform the image using the Direct2D matrix <a href="direct2d-transforms-overview.md">transform</a>. <br/> Type is D2D1_MATRIX_3X2_F.<br/> Default value is Matrix3x2F::Identity().<br/></td>
-</tr>
-<tr class="even">
-<td>Sharpness<br/> D2D1_2DAFFINETRANSFORM_PROP_SHARPNESS<br/></td>
-<td>In the high quality cubic interpolation mode, the sharpness level of the scaling filter as a float between 0 and 1. The values are unitless. You can use sharpness to adjust the quality of an image when you scale the image.<br/> The sharpness factor affects the shape of the kernel. The higher the sharpness factor, the smaller the kernel. <br/>
-<blockquote>
-[!Note]<br />
-This property affects only the high quality cubic interpolation mode.
-</blockquote>
-<br/> Type is FLOAT.<br/> Default value is 1.0f.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Display name and index enumeration | Description | 
+|------------------------------------|-------------|
+| InterpolationMode<br /> D2D1_2DAFFINETRANSFORM_PROP_INTERPOLATION_MODE<br /> | The interpolation mode used to scale the image. There are 6 scale modes that range in quality and speed.<br /> Type is D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE.<br /> Default value is D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE_LINEAR.<br /> | 
+| BorderMode<br /> D2D1_2DAFFINETRANSFORM_PROP_BORDER_MODE<br /> | The mode used to calculate the border of the image, soft or hard. See <a href="https://www.bing.com/search?q=Border+modes">Border modes</a> for more info. <br /> Type is D2D1_BORDER_MODE.<br /> Default value is D2D1_BORDER_MODE_SOFT.<br /> | 
+| TransformMatrix<br /> D2D1_2DAFFINETRANSFORM_PROP_TRANSFORM_MATRIX<br /> | The 3x2 matrix to transform the image using the Direct2D matrix <a href="direct2d-transforms-overview.md">transform</a>. <br /> Type is D2D1_MATRIX_3X2_F.<br /> Default value is Matrix3x2F::Identity().<br /> | 
+| Sharpness<br /> D2D1_2DAFFINETRANSFORM_PROP_SHARPNESS<br /> | In the high quality cubic interpolation mode, the sharpness level of the scaling filter as a float between 0 and 1. The values are unitless. You can use sharpness to adjust the quality of an image when you scale the image.<br /> The sharpness factor affects the shape of the kernel. The higher the sharpness factor, the smaller the kernel. <br /><blockquote>[!Note]<br />This property affects only the high quality cubic interpolation mode.</blockquote><br /> Type is FLOAT.<br /> Default value is 0.0f.<br /> | 
+
 
 
 
@@ -151,15 +123,11 @@ The size of the output bitmap depends on the transform matrix that is applied to
 
 The effect performs the transform operation and then applies a bounding box around the result. The output bitmap is the size of the bounding box.
 
-## Sample code
-
-For an example of this effect, download the [Direct2D interpolation modes sample](https://code.msdn.microsoft.com/windowsapps/Direct2D-interpolation-0fa5420a).
-
 ## Requirements
 
 
 
-|                          |                                                                                    |
+| Requirement | Value |
 |--------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
@@ -174,14 +142,8 @@ For an example of this effect, download the [Direct2D interpolation modes sample
 
 <dl> <dt>
 
-[**ID2D1Effect**](https://msdn.microsoft.com/library/Hh404566(v=VS.85).aspx)
+[**ID2D1Effect**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1effect)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

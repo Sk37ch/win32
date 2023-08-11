@@ -1,5 +1,5 @@
 ---
-Description: Draws a line strip in screen space. Input is in the form of an array that defines points (of D3DXVECTOR2) on the line strip.
+description: Draws a line strip in screen space. Input is in the form of an array that defines points (of D3DXVECTOR2) on the line strip.
 ms.assetid: 10ad5af5-fb57-46ef-a89f-7a05dcf58826
 title: ID3DXLine::Draw method (D3dx9core.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ Array of vertices that make up the line. See [**D3DXVECTOR2**](d3dxvector2.md).
 *dwVertexListCount* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Number of vertices in the vertex list.
 
@@ -74,7 +74,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -91,7 +91,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

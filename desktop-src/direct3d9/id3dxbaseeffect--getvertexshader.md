@@ -1,5 +1,5 @@
 ---
-Description: Gets a vertex shader.
+description: Gets a vertex shader.
 ms.assetid: ab58b465-7b10-46eb-88c0-c5229cb09481
 title: ID3DXBaseEffect::GetVertexShader method (D3DX9Shader.h)
 ms.topic: reference
@@ -48,9 +48,9 @@ Unique identifier. See [Handles (Direct3D 9)](handles.md).
 *ppVShader* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVERTEXSHADER9**](https://msdn.microsoft.com/library/Bb205922(v=VS.85).aspx)\***
+Type: **[**LPDIRECT3DVERTEXSHADER9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvertexshader9)\***
 
-Returns a vertex shader object. See [**IDirect3DVertexShader9**](https://msdn.microsoft.com/library/Bb205922(v=VS.85).aspx).
+Returns a vertex shader object. See [**IDirect3DVertexShader9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvertexshader9).
 
 </dd> </dl>
 
@@ -64,7 +64,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
@@ -81,7 +81,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

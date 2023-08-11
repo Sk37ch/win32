@@ -1,5 +1,5 @@
 ---
-Description: TAPI 2.2 provides specialized call center management functionality.
+description: TAPI 2.2 provides specialized call center management functionality.
 ms.assetid: 8d7b976a-ff7a-4cb2-a539-e4b9903f091c
 title: TAPI 2.2
 ms.topic: article
@@ -12,11 +12,8 @@ TAPI 2.2 provides specialized call center management functionality. Under TAPI 2
 
 **TAPI 2.x:** For more information, see [Call Center Control](call-center-control.md).
 
-**TAPI 3.x:** For more information, see [Call Center Controls](https://msdn.microsoft.com/library/ms725998(v=VS.85).aspx).
+**TAPI 3.x:** For more information, see [Call Center Controls](./about-call-center-controls.md).
 
  
 
  
-
-
-

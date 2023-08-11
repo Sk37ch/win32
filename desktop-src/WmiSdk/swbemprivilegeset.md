@@ -1,5 +1,5 @@
 ---
-Description: An SWbemPrivilegeSet object is a collection of SWbemPrivilege objects in an SWbemSecurity object that requests specific privileges for a Windows Management Instrumentation (WMI) object.
+description: An SWbemPrivilegeSet object is a collection of SWbemPrivilege objects in an SWbemSecurity object that requests specific privileges for a Windows Management Instrumentation (WMI) object.
 ms.assetid: 073cf2d4-f7ee-45a6-8fa6-ca77a4870346
 ms.tgt_platform: multiple
 title: SWbemPrivilegeSet object (Wbemdisp.h)
@@ -19,7 +19,7 @@ api_location:
 
 # SWbemPrivilegeSet object
 
-An **SWbemPrivilegeSet** object is a collection of [**SWbemPrivilege**](swbemprivilege.md) objects in an [**SWbemSecurity**](swbemsecurity.md) object that requests specific privileges for a Windows Management Instrumentation (WMI) object. See the list of privileges in [**Privilege Constants**](privilege-constants.md). Items are added to the collection using the [**Add**](swbemprivilegeset-add.md) and [**AddAsString**](swbemprivilegeset-addasstring.md) methods. Items are retrieved from the collection using the [**Item**](swbemprivilegeset-item.md) method, and removed using the [**Remove**](swbemprivilegeset-remove.md) method. This object cannot be created by the VBScript [CreateObject](https://docs.microsoft.com/previous-versions//xzysf6hc(v=vs.85)) method call. For more information, see [Accessing a Collection](accessing-a-collection.md).
+An **SWbemPrivilegeSet** object is a collection of [**SWbemPrivilege**](swbemprivilege.md) objects in an [**SWbemSecurity**](swbemsecurity.md) object that requests specific privileges for a Windows Management Instrumentation (WMI) object. See the list of privileges in [**Privilege Constants**](privilege-constants.md). Items are added to the collection using the [**Add**](swbemprivilegeset-add.md) and [**AddAsString**](swbemprivilegeset-addasstring.md) methods. Items are retrieved from the collection using the [**Item**](swbemprivilegeset-item.md) method, and removed using the [**Remove**](swbemprivilegeset-remove.md) method. This object cannot be created by the VBScript [CreateObject](/previous-versions//xzysf6hc(v=vs.85)) method call. For more information, see [Accessing a Collection](accessing-a-collection.md).
 
 An **SWbemPrivilegeSet** object is a set of privilege override requests for a specific object. When an API call is made using this object, the privilege override requests are attempted. The **SWbemPrivilegeSet** object does not define the privileges available to the current user or process. In other words, obtaining the privileges for any WMI object does not identify the privilege settings that are made on the connection to WMI, or the privileges in effect when an object is delivered to a sink.
 
@@ -192,7 +192,7 @@ else
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -224,9 +224,4 @@ else
 </dt> </dl>
 
  
-
- 
-
-
-
 

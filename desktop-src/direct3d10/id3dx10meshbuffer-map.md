@@ -1,5 +1,5 @@
 ---
-Description: Get a pointer to the mesh buffer memory to modify its contents.
+description: Get a pointer to the mesh buffer memory to modify its contents.
 ms.assetid: d15ed47a-450e-404a-bcc2-a641abc2d02e
 title: ID3DX10MeshBuffer::Map method (D3DX10.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Pointer to the buffer data.
 *pSize* \[out\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**SIZE\_T**](../winprog/windows-data-types.md)\***
 
 Size of the buffer in bytes.
 
@@ -64,9 +64,9 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                                                                                                                                          |
-|------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 10:<br/> Map() in Direct3D 10 is analogous to resource Map() in Direct3D 9.<br/> |
+ Differences between Direct3D 9 and Direct3D 10:
+
+- Map() in Direct3D 10 is analogous to resource Map() in Direct3D 9.
 
 
 
@@ -76,7 +76,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -96,7 +96,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

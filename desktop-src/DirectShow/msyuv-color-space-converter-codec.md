@@ -1,12 +1,15 @@
 ---
-Description: MSYUV is a YUV-to-RGB color space converter codec.
+description: MSYUV is a YUV-to-RGB color space converter codec.
 ms.assetid: 77b00937-ac63-4b23-b546-c0896b3c57ba
 title: MSYUV Color Space Converter Codec
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # MSYUV Color Space Converter Codec
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 MSYUV is a YUV-to-RGB color space converter codec. It enables playback of video source data in YUV formats on clients whose video display adapter cannot be used for YUV-to-RGB conversions in hardware. The codec participates in filter graphs through the [AVI Decompressor](avi-decompressor-filter.md) wrapper filter.
 
@@ -21,13 +24,13 @@ MSYUV converts packed YUV formats to RGB, as shown in the following list:
 -   Input formats: UYVY, YUY2, YVYU
 -   Output formats: RGB 8, RGB 16, RGB 24, RGB 32
 
-The MSYUV Color Space Converter Codec is a Video Compression Manager (VCM) codec. It is used in DirectShow through the [AVI Decompressor](avi-decompressor-filter.md) filter. For a more general-purpose color converter, use the [**Color Converter DSP**](https://msdn.microsoft.com/library/Ff819079(v=VS.85).aspx).
+The MSYUV Color Space Converter Codec is a Video Compression Manager (VCM) codec. It is used in DirectShow through the [AVI Decompressor](avi-decompressor-filter.md) filter. For a more general-purpose color converter, use the [**Color Converter DSP**](../medfound/colorconverter.md).
 
 ## Requirements
 
 
 
-|                |                                                                                      |
+| Requirement | Value |
 |----------------|--------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Msyuv.dll</dt> </dl> |
 
@@ -43,7 +46,3 @@ The MSYUV Color Space Converter Codec is a Video Compression Manager (VCM) codec
  
 
  
-
-
-
-

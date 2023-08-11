@@ -1,5 +1,5 @@
 ---
-Description: Retrieves texel barycentric coordinates.
+description: Retrieves texel barycentric coordinates.
 ms.assetid: f380a37f-b9c1-4433-b1d6-e9feeca79b30
 title: ID3DXTextureGutterHelper::GetBaryMap method (D3DX9Mesh.h)
 ms.topic: reference
@@ -69,13 +69,13 @@ The barycentric coordinates returned by this method are valid only for valid (no
 
 The application must allocate and manage pBaryData.
 
-Barycentric coordinates define a point inside a triangle in terms of the triangle's vertices. For a more in-depth description of barycentric coordinates, see [Mathworld's Barycentric Coordinates Description](http://mathworld.wolfram.com/BarycentricCoordinates.html).
+Barycentric coordinates define a point inside a triangle in terms of the triangle's vertices. For a more in-depth description of barycentric coordinates, see [Mathworld's Barycentric Coordinates Description](https://mathworld.wolfram.com/BarycentricCoordinates.html).
 
 ## Requirements
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

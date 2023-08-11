@@ -1,5 +1,5 @@
 ---
-Description: The read-only Type property returns one of the values of msmErrorType, indicating the type of error represented by this object.
+description: The read-only Type property returns one of the values of msmErrorType, indicating the type of error represented by this object.
 ms.assetid: 5567ba71-c815-4434-962c-aa46cd171712
 title: Error.Type property (Mergemod.h)
 ms.topic: reference
@@ -35,13 +35,13 @@ propVal = Error.Type
 
 ## C++
 
-See [**get\_Type Function**](https://msdn.microsoft.com/library/Aa369256(v=VS.85).aspx) function (Error Object).
+See [**get\_Type Function**](/windows/win32/api/mergemod/nf-mergemod-imsmerror-get_type) function (Error Object).
 
 ## Requirements
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 1.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |
@@ -50,9 +50,4 @@ See [**get\_Type Function**](https://msdn.microsoft.com/library/Aa369256(v=VS.85
 
 
  
-
- 
-
-
-
 

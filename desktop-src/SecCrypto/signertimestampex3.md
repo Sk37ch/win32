@@ -1,5 +1,5 @@
 ---
-Description: Time stamps the specified subject and supports setting time stamps on multiple signatures.
+description: Time stamps the specified subject and supports setting time stamps on multiple signatures.
 ms.assetid: A290ED4F-8803-4EAA-8CE1-68879F7F754A
 title: SignerTimeStampEx3 function
 ms.topic: reference
@@ -20,7 +20,7 @@ api_location:
 The **SignerTimeStampEx3** function time stamps the specified subject and supports setting time stamps on multiple signatures.
 
 > [!Note]  
-> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Mssign32.dll.
+> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Mssign32.dll.
 
  
 
@@ -55,33 +55,12 @@ Flag that specifies the type of time stamp to generate. This parameter can be on
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="SIGNER_TIMESTAMP_AUTHENTICODE"></span><span id="signer_timestamp_authenticode"></span><dl> <dt><strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong></dt> </dl></td>
-<td>Specifies an Authenticode time stamp.<br/>
-<blockquote>
-[!Note]<br />
-Authenticode is no longer the preferred type of time stamp. Support for Authenticode time stamps may be removed in the future. We recommend that you use RFC 3161 instead.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SIGNER_TIMESTAMP_RFC3161"></span><span id="signer_timestamp_rfc3161"></span><dl> <dt><strong>SIGNER_TIMESTAMP_RFC3161</strong></dt> </dl></td>
-<td>Specifies an RFC 3161–compliant time stamp.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Value | Meaning | 
+|-------|---------|
+| <span id="SIGNER_TIMESTAMP_AUTHENTICODE"></span><span id="signer_timestamp_authenticode"></span><dl><dt><strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong></dt></dl> | Specifies an Authenticode time stamp.<br /><blockquote>[!Note]<br />Authenticode is no longer the preferred type of time stamp. Support for Authenticode time stamps may be removed in the future. We recommend that you use RFC 3161 instead.</blockquote><br /> | 
+| <span id="SIGNER_TIMESTAMP_RFC3161"></span><span id="signer_timestamp_rfc3161"></span><dl><dt><strong>SIGNER_TIMESTAMP_RFC3161</strong></dt></dl> | Specifies an RFC 3161–compliant time stamp.<br /> | 
+
 
 
 
@@ -129,7 +108,7 @@ This parameter is optional and can be **NULL** if it is not included.
 *pSipData* \[in, optional\]
 </dt> <dd>
 
-Optional. A 32-bit value that is passed as additional data to [*subject interface package*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SIP) functions. The format and content of this parameter is defined by the SIP provider.
+Optional. A 32-bit value that is passed as additional data to [*subject interface package*](../secgloss/s-gly.md) (SIP) functions. The format and content of this parameter is defined by the SIP provider.
 
 This parameter is optional and can be **NULL** if it is not included.
 
@@ -164,29 +143,11 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Return code</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><dl> <dt><strong>E_INVALIDARG</strong></dt> </dl></td>
-<td>This error can be returned for the following conditions:<br/>
-<ul>
-<li>You must set either <strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong> or <strong>SIGNER_TIMESTAMP_RFC3161</strong> for the <em>dwFlags</em> parameter.</li>
-<li>The <em>pReserved</em> parameter must be <strong>NULL</strong>.</li>
-<li>If you set the <strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong> flag in the <em>dwFlags</em> parameter, you must set the <em>dwIndex</em> parameter to zero.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Return code | Description | 
+|-------------|-------------|
+| <dl><dt><strong>E_INVALIDARG</strong></dt></dl> | This error can be returned for the following conditions:<br /><ul><li>You must set either <strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong> or <strong>SIGNER_TIMESTAMP_RFC3161</strong> for the <em>dwFlags</em> parameter.</li><li>The <em>pReserved</em> parameter must be <strong>NULL</strong>.</li><li>If you set the <strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong> flag in the <em>dwFlags</em> parameter, you must set the <em>dwIndex</em> parameter to zero.</li></ul> | 
+
 
 
 
@@ -196,7 +157,7 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
@@ -220,7 +181,3 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
  
 
  
-
-
-
-

@@ -1,6 +1,6 @@
 ---
 title: TextureCube::GatherCmpRed(S,float,float,uint) function
-description: Samples a texture, tests the samples against a compare value, and returns the red component along with status about the operation.
+description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their red component against a compare value along with tile-mapping status. | TextureCube::GatherCmpRed(S,float,float,uint) function
 ms.assetid: 99ADA450-9665-4870-924E-E4DAEFA912D5
 keywords:
 - GatherCmpRed function HLSL
@@ -15,19 +15,19 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherCmpRed(S,float,float,uint) function
+# TextureCube::GatherCmpRed(S,float,float,uint) function
 
-Samples a texture, tests the samples against a compare value, and returns the red component along with status about the operation.
+For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their red component against a compare value along with tile-mapping status.
 
 ## Syntax
 
 
-```C++
+``` syntax
 TemplateType GatherCmpRed(
-  _In_  SamplerState S,
-  _In_  float        Location,
-  _In_  float        CompareValue,
-  _Out_ uint         Status
+  in  SamplerState S,
+  in  float        Location,
+  in  float        CompareValue,
+  out uint         Status
 );
 ```
 
@@ -69,7 +69,7 @@ A value to compare each against each sampled value.
 
 Type: **uint**
 
-The status of the operation. You can't access the status directly; instead, pass the status to the [**CheckAccessFullyMapped**](checkaccessfullymapped.md) intrinsic function. **CheckAccessFullyMapped** returns **TRUE** if all values from the corresponding **Sample**, **Gather**, or **Load** operation accessed mapped tiles in a [tiled resource](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-2-features). If any values were taken from an unmapped tile, **CheckAccessFullyMapped** returns **FALSE**.
+The status of the operation. You can't access the status directly; instead, pass the status to the [**CheckAccessFullyMapped**](checkaccessfullymapped.md) intrinsic function. **CheckAccessFullyMapped** returns **TRUE** if all values from the corresponding **Sample**, **Gather**, or **Load** operation accessed mapped tiles in a [tiled resource](/windows/desktop/direct3d11/direct3d-11-2-features). If any values were taken from an unmapped tile, **CheckAccessFullyMapped** returns **FALSE**.
 
 </dd> </dl>
 
@@ -108,7 +108,3 @@ This function is supported for the following types of shaders:
  
 
  
-
-
-
-

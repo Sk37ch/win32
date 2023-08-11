@@ -24,8 +24,8 @@ Sets the blue value for the color of the shadow.
 
 | Method                                                                             | Description                                                 |
 |:-----------------------------------------------------------------------------------|:------------------------------------------------------------|
-| [**SetBlue (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919770(v=VS.85).aspx) | Sets the blue value for the color of the shadow.<br/> |
-| [**SetBlue**](https://msdn.microsoft.com/library/Dn919769(v=VS.85).aspx)                               | Sets the blue value for the color of the shadow.<br/> |
+| [**SetBlue (IDCompositionAnimation \*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionshadoweffect-setblue(idcompositionanimation)) | Sets the blue value for the color of the shadow.<br/> |
+| [**SetBlue**](/windows/win32/api/dcomp/nf-dcomp-idcompositionshadoweffect-setblue(float))                               | Sets the blue value for the color of the shadow.<br/> |
 
 
 
@@ -33,7 +33,7 @@ Sets the blue value for the color of the shadow.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dcomp.h</dt> </dl> |
 
@@ -43,14 +43,9 @@ Sets the blue value for the color of the shadow.
 
 <dl> <dt>
 
-[**IDCompositionShadowEffect**](https://msdn.microsoft.com/library/Dn919766(v=VS.85).aspx)
+[**IDCompositionShadowEffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionshadoweffect)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

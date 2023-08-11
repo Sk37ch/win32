@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# R
+# R (RPC)
 
 [A](a-glos.md) [B](b-glos.md) [C](c-glos.md) [D](d-glos.md) [E](e-glos.md) [F](f-glos.md) G H [I](i-glos.md) J K [L](l-glos.md) [M](m-glos.md) [N](n-glos.md) [O](o-glos.md) [P](p-glos.md) [Q](q.md) R [S](s-glos.md) [T](t-glos.md) [U](u-glos.md) [V](v-glos.md) [W](w-glos.md) X Y Z
 
@@ -30,14 +30,10 @@ Windows subsystem that includes a variety of RPC and OLE services, including the
 <span id="_rpc_reference_pointer_glos"></span><span id="_RPC_REFERENCE_POINTER_GLOS"></span>**reference pointer**
 </dt> <dd>
 
-Simplest pointer type. A reference pointer always points to valid storage and that storage does not change (although the contents may change). A reference pointer cannot be aliased. The \[ [ref](https://docs.microsoft.com/windows/desktop/Midl/ref)\] attribute designates a reference pointer. See also [*unique pointer*](u-glos.md) and [*full pointer*](f-glos.md).
+Simplest pointer type. A reference pointer always points to valid storage and that storage does not change (although the contents may change). A reference pointer cannot be aliased. The \[ [ref](/windows/desktop/Midl/ref)\] attribute designates a reference pointer. See also [*unique pointer*](u-glos.md) and [*full pointer*](f-glos.md).
 
 </dd> </dl>
 
  
 
  
-
-
-
-

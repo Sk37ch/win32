@@ -1,5 +1,5 @@
 ---
-Description: Establishes that a CIM\_ResourceAllocationSettingData instance representing a resource allocation depends on another resource allocation.
+description: Establishes that a CIM\_ResourceAllocationSettingData instance representing a resource allocation depends on another resource allocation.
 ms.assetid: 567ee36a-d47b-444d-8d2f-425873f95bef
 title: Msvm_ResourceDependentOnResource class
 ms.topic: reference
@@ -55,7 +55,7 @@ Data type: **CIM\_ResourceAllocationSettingData**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_ResourceAllocationSettingData**](cim-resourceallocationsettingdata.md) that represents the independent resource in this association.
@@ -71,7 +71,7 @@ Data type: **CIM\_ResourceAllocationSettingData**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_ResourceAllocationSettingData**](cim-resourceallocationsettingdata.md) that represents the resource that is dependent on the Antecedent.
@@ -82,7 +82,7 @@ A [**CIM\_ResourceAllocationSettingData**](cim-resourceallocationsettingdata.md)
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
@@ -100,9 +100,4 @@ A [**CIM\_ResourceAllocationSettingData**](cim-resourceallocationsettingdata.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

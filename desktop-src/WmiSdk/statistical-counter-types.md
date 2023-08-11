@@ -1,5 +1,5 @@
 ---
-Description: The WMI high-performance Formatted Performance Data Provider calculates the statistical counter types on a specified number of raw counter data samples.
+description: The WMI high-performance Formatted Performance Data Provider calculates the statistical counter types on a specified number of raw counter data samples.
 ms.assetid: a7e32ef2-fad1-449c-beee-07db4b93e3fe
 ms.tgt_platform: multiple
 title: Statistical Counter Types
@@ -19,11 +19,11 @@ For more information, see [Obtaining Statistical Performance Data](obtaining-sta
 
 | CounterType Constant                    | Description                                                                                                                                                                                |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [COOKER\_AVERAGE](cooker-average.md)   | Sums repeated observations of one property in a [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata) class and divides the sum by the number of observations.                              |
-| [COOKER\_MAX](cooker-max.md)           | Largest value from a set of observations of a property in a [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata) class.                                                                    |
-| [COOKER\_MIN](cooker-min.md)           | Smallest value from a set of observations of a property in a [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata) class.                                                                   |
-| [COOKER\_RANGE](cooker-range.md)       | Difference between the [Min](cooker-min.md) and [Max](cooker-max.md) values for a set of raw observations of a property in a [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata) class. |
-| [COOKER\_VARIANCE](cooker-variance.md) | Measure of variability that can be used to characterize dispersion for a set of raw observations of a property in a [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata) class.            |
+| [COOKER\_AVERAGE](cooker-average.md)   | Sums repeated observations of one property in a [**Win32\_PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata) class and divides the sum by the number of observations.                              |
+| [COOKER\_MAX](cooker-max.md)           | Largest value from a set of observations of a property in a [**Win32\_PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata) class.                                                                    |
+| [COOKER\_MIN](cooker-min.md)           | Smallest value from a set of observations of a property in a [**Win32\_PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata) class.                                                                   |
+| [COOKER\_RANGE](cooker-range.md)       | Difference between the [Min](cooker-min.md) and [Max](cooker-max.md) values for a set of raw observations of a property in a [**Win32\_PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata) class. |
+| [COOKER\_VARIANCE](cooker-variance.md) | Measure of variability that can be used to characterize dispersion for a set of raw observations of a property in a [**Win32\_PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata) class.            |
 
 
 
@@ -51,6 +51,3 @@ For more information, see [Obtaining Statistical Performance Data](obtaining-sta
  
 
  
-
-
-

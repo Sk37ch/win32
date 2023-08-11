@@ -1,5 +1,5 @@
 ---
-Description: Occurs when an application-specific gesture is recognized.
+description: InkOverlay.Gesture event - Occurs when an application-specific gesture is recognized.
 ms.assetid: 11b48fbc-0c93-4c3c-b218-258028822544
 title: InkOverlay.Gesture event (Msinkaut.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ The [**IInkCursor**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor) objec
 *Strokes* \[in\]
 </dt> <dd>
 
-The [IInkStrokes](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection that the recognizer returned as the gesture.
+The [IInkStrokes](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) collection that the recognizer returned as the gesture.
 
 </dd> <dt>
 
@@ -93,7 +93,7 @@ For a list of specific application gestures, see the [**InkApplicationGesture**]
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
@@ -119,9 +119,4 @@ For a list of specific application gestures, see the [**InkApplicationGesture**]
 </dt> </dl>
 
  
-
- 
-
-
-
 

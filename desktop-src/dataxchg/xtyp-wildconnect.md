@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # XTYP\_WILDCONNECT transaction
 
-Enables a client to establish a conversation on each of the server's service name and topic name pairs that match the specified service name and topic name. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](https://msdn.microsoft.com/library/ms648742(v=VS.85).aspx), receives this transaction when a client specifies a **NULL** service name, a **NULL** topic name, or both in a call to the [**DdeConnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect) or [**DdeConnectList**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnectlist) function.
+Enables a client to establish a conversation on each of the server's service name and topic name pairs that match the specified service name and topic name. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), receives this transaction when a client specifies a **NULL** service name, a **NULL** topic name, or both in a call to the [**DdeConnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect) or [**DdeConnectList**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnectlist) function.
 
 
 ```C++
@@ -105,7 +105,7 @@ A server cannot block this transaction type; the CBR\_BLOCK return code is ignor
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
@@ -139,10 +139,4 @@ A server cannot block this transaction type; the CBR\_BLOCK return code is ignor
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

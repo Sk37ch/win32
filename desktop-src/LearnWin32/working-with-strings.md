@@ -1,6 +1,6 @@
 ---
 title: Working with Strings
-description: .
+description: Working with Strings
 ms.assetid: 876ff8bb-67c3-4dcc-aa94-7fbd915c67dc
 ms.topic: article
 ms.date: 05/31/2018
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Working with Strings
 
-Windows natively supports Unicode strings for UI elements, file names, and so forth. Unicode is the preferred character encoding, because it supports all character sets and languages. Windows represents Unicode characters using UTF-16 encoding, in which each character is encoded as a 16-bit value. UTF-16 characters are called *wide* characters, to distinguish them from 8-bit ANSI characters. The Visual C++ compiler supports the built-in data type **wchar\_t** for wide characters. The header file WinNT.h also defines the following **typedef**.
+Windows natively supports Unicode strings for UI elements, file names, and so forth. Unicode is the preferred character encoding, because it supports all character sets and languages. Windows represents Unicode characters using UTF-16 encoding, in which each character is encoded as one or two 16-bit values. UTF-16 characters are called *wide* characters, to distinguish them from 8-bit ANSI characters. The Visual C++ compiler supports the built-in data type **wchar\_t** for wide characters. The header file WinNT.h also defines the following **typedef**.
 
 
 ```C++
@@ -63,7 +63,7 @@ Internally, the ANSI version translates the string to Unicode. The Windows heade
 
 
 
-In MSDN, the function is documented under the name [**SetWindowText**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowtexta), even though that is really the macro name, not the actual function name.
+In MSDN, the function is documented under the name [**SetWindowText**](/windows/desktop/api/winuser/nf-winuser-setwindowtexta), even though that is really the macro name, not the actual function name.
 
 New applications should always call the Unicode versions. Many world languages require Unicode. If you use ANSI strings, it will be impossible to localize your application. The ANSI versions are also less efficient, because the operating system must convert the ANSI strings to Unicode at run time. Depending on your preference, you can call the Unicode functions explicitly, such as **SetWindowTextW**, or use the macros. The example code on MSDN typically calls the macros, but the two forms are exactly equivalent. Most newer APIs in Windows have just a Unicode version, with no corresponding ANSI version.
 
@@ -76,7 +76,7 @@ Back when applications needed to support both Windows NT as well as Windows 95, 
 | Macro     | Unicode   | ANSI   |
 |-----------|-----------|--------|
 | TCHAR     | `wchar_t` | `char` |
-| TEXT("x") | `L"x"`    | `"x"`  |
+| `TEXT("x")` or `_T("x")` | `L"x"`    | `"x"`  |
 
 
 
@@ -126,7 +126,3 @@ Be careful: Some headers use the preprocessor symbol `UNICODE`, others use `_UNI
  
 
  
-
-
-
-

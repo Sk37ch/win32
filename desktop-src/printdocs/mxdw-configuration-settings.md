@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft XPS Document Writer (MXDW) enables users to create XPS document files by printing from any Windows application.
+description: The Microsoft XPS Document Writer (MXDW) enables users to create XPS document files by printing from any Windows application.
 ms.assetid: 1fa50337-2df7-48d3-a179-0ca5ae3dfda3
 title: MXDW Configuration Settings
 ms.topic: article
@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # MXDW Configuration Settings
 
-The Microsoft XPS Document Writer (MXDW) enables users to create XPS document files by printing from any Windows application. Applications developers can control the following output settings of the MXDW using the PrintTicket and PrintCapabilities parts of the [Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx).
+The Microsoft XPS Document Writer (MXDW) enables users to create XPS document files by printing from any Windows application. Applications developers can control the following output settings of the MXDW using the PrintTicket and PrintCapabilities parts of the [Print Schema](./printschema.md).
 
 ## JobInterleaving
 
-The JobInterleaving setting controls the content interleaving order for the XPS Documents. For information about job interleaving, see the [XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816). MXDW supports the following two options for this setting:
+The JobInterleaving setting controls the content interleaving order for the XPS Documents. For information about job interleaving, see the [XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf). MXDW supports the following two options for this setting:
 
 -   **Off** - This option disables interleaving so that all data for each content element in the document is contiguous, which improves the efficiency of random access. This option is best for viewing an XPS document.
 -   **On** - This option enables interleaving so that data for each content element is broken up and reordered for more efficient sequential processing. This option is best for web download and printing.
@@ -43,9 +43,9 @@ The following example is an example of the PrintCapabilities XML that includes t
 
 
 
-The PrintTicket XML is similar, except that it specifies a particular option. See the [Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx) for details.
+The PrintTicket XML is similar, except that it specifies a particular option. See the [Print Schema](./printschema.md) for details.
 
-Since JobInterleaving is not one of the [Print Schema Public Keywords](https://msdn.microsoft.com/library/ms716547(v=VS.85).aspx), you must include a declaration of the namespace (in this case "ns0000" in the **PrintCapabilities** (or **PrintTicket**) tag at the beginning of the PrintCapabilities (or PrintTicket) document, as shown in the following example:
+Since JobInterleaving is not one of the [Print Schema Public Keywords](./print-schema-public-keywords.md), you must include a declaration of the namespace (in this case "ns0000" in the **PrintCapabilities** (or **PrintTicket**) tag at the beginning of the PrintCapabilities (or PrintTicket) document, as shown in the following example:
 
 
 ```XML
@@ -103,9 +103,9 @@ The PrintCapabilities XML of the JobImageType setting appears below:
 
 
 
-The PrintTicket XML is similar, except that it specifies a particular option. See the [Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx) for details.
+The PrintTicket XML is similar, except that it specifies a particular option. See the [Print Schema](./printschema.md) for details.
 
-Since JobImageType is not one of the [Print Schema Public Keywords](https://msdn.microsoft.com/library/ms716547(v=VS.85).aspx), you must include a declaration of the namespace (in this case "ns0000" in the **PrintCapabilities** (or **PrintTicket**) tag at the beginning of the PrintCapabilities (or PrintTicket) document, as shown in the following example:
+Since JobImageType is not one of the [Print Schema Public Keywords](./print-schema-public-keywords.md), you must include a declaration of the namespace (in this case "ns0000" in the **PrintCapabilities** (or **PrintTicket**) tag at the beginning of the PrintCapabilities (or PrintTicket) document, as shown in the following example:
 
 
 ```XML
@@ -122,21 +122,18 @@ xmlns:ns0000=http://schemas.microsoft.com/windows/2006/06/printing/printschemake
 
 <dl> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> <dt>
 
-[Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx)
+[Print Schema](./printschema.md)
 </dt> <dt>
 
-[XPS Specification and License Downloads](https://www.microsoft.com/download/details.aspx?id=11816)
+[XPS Specification and License Downloads](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> </dl>
 
  
 
  
-
-
-

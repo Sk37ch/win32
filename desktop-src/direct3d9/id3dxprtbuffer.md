@@ -1,5 +1,5 @@
 ---
-Description: The ID3DXPRTBuffer interface is used as a data buffer to store vertex and pixel data for use with precomputed radiance transfer (PRT) methods and functions.
+description: The ID3DXPRTBuffer interface is used as a data buffer to store vertex and pixel data for use with precomputed radiance transfer (PRT) methods and functions.
 ms.assetid: 36c1fd13-0949-4991-93cb-41ace458802d
 title: ID3DXPRTBuffer interface (D3DX9Mesh.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ The ID3DXPRTBuffer interface is used as a data buffer to store vertex and pixel 
 
 ## Members
 
-The **ID3DXPRTBuffer** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXPRTBuffer** also has these types of members:
+The **ID3DXPRTBuffer** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ID3DXPRTBuffer** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -37,7 +37,7 @@ The **ID3DXPRTBuffer** interface has these methods.
 | [**AddBuffer**](id3dxprtbuffer--addbuffer.md)           | Adds another buffer to the **ID3DXPRTBuffer** and stores the results in **ID3DXPRTBuffer**.<br/>                                                                                        |
 | [**AttachGH**](id3dxprtbuffer--attachgh.md)             | Associates an [**ID3DXTextureGutterHelper**](id3dxtexturegutterhelper.md) object with the **ID3DXPRTBuffer** object.<br/>                                                              |
 | [**EvalGH**](id3dxprtbuffer--evalgh.md)                 | Applies stored texture gutter data to an **ID3DXPRTBuffer** texture buffer.<br/>                                                                                                        |
-| [**ExtractTexture**](id3dxprtbuffer--extracttexture.md) | Extracts coefficient data from a color channel of the buffer for a specified range of coefficients, and adds the data to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx) object.<br/> |
+| [**ExtractTexture**](id3dxprtbuffer--extracttexture.md) | Extracts coefficient data from a color channel of the buffer for a specified range of coefficients, and adds the data to an [**IDirect3DTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9) object.<br/> |
 | [**ExtractToMesh**](id3dxprtbuffer--extracttomesh.md)   | Extracts coefficient data from a single-channel buffer and adds the data to an [**ID3DXMesh**](id3dxmesh.md) object.<br/>                                                              |
 | [**GetHeight**](id3dxprtbuffer--getheight.md)           | Retrieves the height of the texture, in pixels.<br/>                                                                                                                                    |
 | [**GetNumChannels**](id3dxprtbuffer--getnumchannels.md) | Retrieves the number of color channels used in memory to store samples.<br/>                                                                                                            |
@@ -73,7 +73,7 @@ typedef interface ID3DXPRTBuffer *LPD3DXPRTBUFFER;
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -99,7 +99,3 @@ typedef interface ID3DXPRTBuffer *LPD3DXPRTBUFFER;
  
 
  
-
-
-
-

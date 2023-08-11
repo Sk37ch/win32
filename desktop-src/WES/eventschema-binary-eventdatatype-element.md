@@ -17,7 +17,7 @@ api_location:
 
 # Binary (EventDataType) Element
 
-A binary data blob for events that are written using [Event Logging](https://docs.microsoft.com/windows/desktop/EventLog/event-logging).
+A binary data blob for events that are written using [Event Logging](/windows/desktop/EventLog/event-logging).
 
 ``` syntax
 <xs:element name="Binary"
@@ -31,7 +31,7 @@ The **Binary** element is defined by the [**EventDataType**](eventschema-eventda
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
@@ -49,10 +49,4 @@ The **Binary** element is defined by the [**EventDataType**](eventschema-eventda
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

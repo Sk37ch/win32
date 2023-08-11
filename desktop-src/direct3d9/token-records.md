@@ -1,5 +1,5 @@
 ---
-Description: This section describes the format of the records for each of the record-bearing tokens. Information is divided into the following sections.
+description: This section describes the format of the records for each of the record-bearing tokens. Information is divided into the following sections.
 ms.assetid: 4fdd8339-f660-4389-878a-e7ab067d8508
 title: Token Records
 ms.topic: article
@@ -10,12 +10,12 @@ ms.date: 05/31/2018
 
 This section describes the format of the records for each of the record-bearing tokens. Information is divided into the following sections.
 
--   [TOKEN\_NAME](https://docs.microsoft.com/windows)
--   [TOKEN\_STRING](https://docs.microsoft.com/windows)
--   [TOKEN\_INTEGER](https://docs.microsoft.com/windows)
--   [TOKEN\_GUID](https://docs.microsoft.com/windows)
--   [TOKEN\_INTEGER\_LIST](https://docs.microsoft.com/windows)
--   [TOKEN\_FLOAT\_LIST](https://docs.microsoft.com/windows)
+-   [TOKEN\_NAME](/windows)
+-   [TOKEN\_STRING](/windows)
+-   [TOKEN\_INTEGER](/windows)
+-   [TOKEN\_GUID](/windows)
+-   [TOKEN\_INTEGER\_LIST](/windows)
+-   [TOKEN\_FLOAT\_LIST](/windows)
 
 ## TOKEN\_NAME
 
@@ -125,6 +125,3 @@ A variable-length record. The token is followed by a count value that specifies 
  
 
  
-
-
-

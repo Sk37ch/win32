@@ -52,7 +52,7 @@ Name of the restored common-store file.
 
 ## Return value
 
-This function returns **TRUE** if it completes successfully and **FALSE** otherwise. Call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get more information about the reason the call failed.
+This function returns **TRUE** if it completes successfully and **FALSE** otherwise. Call [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get more information about the reason the call failed.
 
 ## Remarks
 
@@ -64,7 +64,7 @@ Your restore operation should restore only common-store files reported by [**Sis
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
@@ -85,10 +85,4 @@ Your restore operation should restore only common-store files reported by [**Sis
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Adds stroke data for a single stroke to the IInkAnalyzer and assigns a specific culture identifier to the stroke.
+description: Adds stroke data for a single stroke to the IInkAnalyzer and assigns a specific culture identifier to the stroke.
 ms.assetid: 65eb805e-05ed-4144-b17e-872c47ab33fa
 title: IInkAnalyzer::AddStrokeForLanguage method (IACom.h)
 ms.topic: reference
@@ -96,7 +96,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppContextNodeStrokeAddedTo* when you no longer need to use the object.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppContextNodeStrokeAddedTo* when you no longer need to use the object.
 
  
 
@@ -116,7 +116,7 @@ If the [**IInkAnalyzer**](iinkanalyzer.md) already contains a stroke with the sa
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -151,9 +151,4 @@ If the [**IInkAnalyzer**](iinkanalyzer.md) already contains a stroke with the sa
 </dt> </dl>
 
  
-
- 
-
-
-
 

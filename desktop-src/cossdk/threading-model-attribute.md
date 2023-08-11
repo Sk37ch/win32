@@ -1,5 +1,5 @@
 ---
-Description: COM+ manages threads for you. Every COM component has a ThreadingModel property that you can specify when you develop the component. This property determines how the components objects are assigned to threads for method execution.
+description: COM+ manages threads for you. Every COM component has a ThreadingModel property that you can specify when you develop the component. This property determines how the components objects are assigned to threads for method execution.
 ms.assetid: 5fae8475-3d2e-4939-80a7-bc9a677a50b3
 title: Threading Model Attribute
 ms.topic: article
@@ -21,7 +21,7 @@ You can use the Component Services administrative tool to view the threading-mod
 The preferred threading model for COM+ is the [neutral apartment](neutral-apartments.md). However, if you do not specify a threading model for your component, COM+ uses the main thread apartment, which is the default.
 
 > [!Note]  
-> For more detailed information, see [Choosing the Threading Model](https://docs.microsoft.com/windows/desktop/com/choosing-the-threading-model).
+> For more detailed information, see [Choosing the Threading Model](/windows/desktop/com/choosing-the-threading-model).
 
  
 
@@ -51,6 +51,3 @@ The following table shows the programming model for apartments in COM+.
  
 
  
-
-
-

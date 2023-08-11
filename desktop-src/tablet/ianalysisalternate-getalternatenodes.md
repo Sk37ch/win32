@@ -1,5 +1,5 @@
 ---
-Description: Gets the IContextNode objects that are associated with this alternate.
+description: Gets the IContextNode objects that are associated with this alternate.
 ms.assetid: 6dfae9cc-d9d2-44de-b6cf-80bbcd296390
 title: IAnalysisAlternate::GetAlternateNodes method (IACom.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppAlternateNodes* when you no longer need to use the context node collection.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppAlternateNodes* when you no longer need to use the context node collection.
 
  
 
@@ -60,7 +60,7 @@ Because they correspond to alternates, these [**IContextNode**](icontextnode.md)
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -89,9 +89,4 @@ Because they correspond to alternates, these [**IContextNode**](icontextnode.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

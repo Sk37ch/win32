@@ -40,13 +40,13 @@ No return value.
 
 ## Remarks
 
-The minimum height is the sum of *wParam* and twice the width, in pixels, of the vertical border of the status window. An application must send the [**WM\_SIZE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-size) message to the status window to redraw the window. The *wParam* and *lParam* parameters of the **WM\_SIZE** message should be set to zero.
+The minimum height is the sum of *wParam* and twice the width, in pixels, of the vertical border of the status window. An application must send the [**WM\_SIZE**](/windows/desktop/winmsg/wm-size) message to the status window to redraw the window. The *wParam* and *lParam* parameters of the **WM\_SIZE** message should be set to zero.
 
 ## Requirements
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -55,10 +55,4 @@ The minimum height is the sum of *wParam* and twice the width, in pixels, of the
 
 
  
-
- 
-
-
-
-
 

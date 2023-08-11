@@ -1,5 +1,5 @@
 ---
-Description: Defines the location at which a color or color component must be accessed for lighting calculations.
+description: Defines the location at which a color or color component must be accessed for lighting calculations.
 ms.assetid: 76061d47-a31c-4008-aa8d-a0464dd3423f
 title: D3DMATERIALCOLORSOURCE enumeration (D3D9Types.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## Remarks
 
-These flags are used to set the value of the following render states in the [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/library/Bb172599(v=VS.85).aspx) enumerated type.
+These flags are used to set the value of the following render states in the [**D3DRENDERSTATETYPE**](./d3drenderstatetype.md) enumerated type.
 
 -   D3DRS\_AMBIENTMATERIALSOURCE
 -   D3DRS\_DIFFUSEMATERIALSOURCE
@@ -78,7 +78,7 @@ These flags are used to set the value of the following render states in the [**D
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 
@@ -91,13 +91,9 @@ These flags are used to set the value of the following render states in the [**D
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/library/Bb172599(v=VS.85).aspx)
+[**D3DRENDERSTATETYPE**](./d3drenderstatetype.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

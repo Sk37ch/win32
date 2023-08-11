@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexInfo.Pages property"
 title: IndexInfo.Pages property 
 TOCTitle: 'Pages property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexInfo.Pages
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the number of pages in the index. This value is not current and is only is updated by Api.JetComputeStats.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -53,15 +54,14 @@ public int Pages { get; }
 
 #### Property value
 
-Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+Type: [System.Int32](/dotnet/api/system.int32)  
 
 ## See also
 
 #### Reference
 
-[IndexInfo class](dn350919\(v=exchg.10\).md)
+[IndexInfo class](./indexinfo-class.md)
 
-[IndexInfo members](dn350916\(v=exchg.10\).md)
+[IndexInfo members](./indexinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

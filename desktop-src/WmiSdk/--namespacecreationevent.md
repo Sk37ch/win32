@@ -1,5 +1,5 @@
 ---
-Description: Reports a namespace creation event, which is a type of intrinsic event generated when a new namespace is added to the current namespace.
+description: Reports a namespace creation event, which is a type of intrinsic event generated when a new namespace is added to the current namespace.
 ms.assetid: 50b9860a-d6e8-4dab-a7d0-09da9dd37b6b
 ms.tgt_platform: multiple
 title: '__NamespaceCreationEvent class'
@@ -85,7 +85,7 @@ Access type: Read-only
 
 Unique value that indicates the time at which the event was generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Time (UTC) format. This property is inherited from [**\_\_Event**](--event.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> </dl>
 
@@ -97,7 +97,7 @@ The **\_\_NamespaceCreationEvent** class is derived from [**\_\_NamespaceOperati
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |
@@ -109,16 +109,11 @@ The **\_\_NamespaceCreationEvent** class is derived from [**\_\_NamespaceOperati
 
 <dl> <dt>
 
-[**\_\_NamespaceOperationEvent**](https://docs.microsoft.com/windows/desktop/WmiSdk/--namespaceoperationevent)
+[**\_\_NamespaceOperationEvent**](/windows/desktop/WmiSdk/--namespaceoperationevent)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

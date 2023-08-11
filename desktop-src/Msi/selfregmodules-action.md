@@ -1,5 +1,5 @@
 ---
-Description: The SelfRegModules action processes all modules listed in the SelfReg table and registers all installed modules with the system. The installer does not self-register EXE files.
+description: The SelfRegModules action processes all modules listed in the SelfReg table and registers all installed modules with the system. The installer does not self-register EXE files.
 ms.assetid: b139ae28-e479-4915-909d-2449244e9fd6
 title: SelfRegModules Action
 ms.topic: article
@@ -29,7 +29,7 @@ The [InstallValidate](installvalidate-action.md) action must be called before ca
 
 ## Remarks
 
-The SelfRegModules action attempts to call the [DllRegisterServer](https://msdn.microsoft.com/library/ms682162(v=VS.85).aspx) function of the module scheduled to be registered. This action runs with elevated privileges when the installation is being run with elevated privileges, such as during a per-machine installation. During a per-user installation the installer runs this action with user privileges.
+The SelfRegModules action attempts to call the [DllRegisterServer](/windows/win32/api/olectl/nf-olectl-dllregisterserver) function of the module scheduled to be registered. This action runs with elevated privileges when the installation is being run with elevated privileges, such as during a per-machine installation. During a per-user installation the installer runs this action with user privileges.
 
 Note that you cannot specify the order in which the installer registers self-registering DLLs by using the [SelfUnRegModules action](selfunregmodules-action.md).
 
@@ -43,6 +43,3 @@ Note that you cannot specify the order in which the installer registers self-reg
  
 
  
-
-
-

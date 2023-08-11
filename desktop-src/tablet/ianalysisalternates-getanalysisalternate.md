@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the IAnalysisAlternate object at the specified index within the collection.
+description: Retrieves the IAnalysisAlternate object at the specified index within the collection.
 ms.assetid: d927e2f1-ca21-415d-90ad-d1ded575fcb7
 title: IAnalysisAlternates::GetAnalysisAlternate method (IACom.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppAlternate* when you no longer need to use the analysis alternate.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppAlternate* when you no longer need to use the analysis alternate.
 
  
 
@@ -64,7 +64,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
@@ -84,9 +84,4 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 </dt> </dl>
 
  
-
- 
-
-
-
 

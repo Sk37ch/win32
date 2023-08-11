@@ -1,5 +1,5 @@
 ---
-Description: Sets a Microsoft DirectComposition visual as the playback region for the Media Engine.
+description: Sets a Microsoft DirectComposition visual as the playback region for the Media Engine.
 ms.assetid: C381D28E-B7A1-4A1A-9F8D-42A4ABB1C633
 title: MF_MEDIA_ENGINE_PLAYBACK_VISUAL attribute (Mfmediaengine.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ To set this attribute, call [**IMFAttributes::SetUnknown**](/windows/desktop/api
 
 ## Remarks
 
-For more information on DirectComposition, see [DirectComposition](https://msdn.microsoft.com/library/Hh437371(v=VS.85).aspx) and [**IDCompositionVisual**](https://msdn.microsoft.com/library/Hh449139(v=VS.85).aspx).
+For more information on DirectComposition, see [DirectComposition](../directcomp/directcomposition-portal.md) and [**IDCompositionVisual**](/windows/win32/api/dcomp/nn-dcomp-idcompositionvisual).
 
 This attribute is used with the [**IMFMediaEngineClassFactory::CreateInstance**](/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance) method to initialize the Media Engine.
 
@@ -30,7 +30,7 @@ This attribute is used with the [**IMFMediaEngineClassFactory::CreateInstance**]
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                                |
@@ -48,7 +48,3 @@ This attribute is used with the [**IMFMediaEngineClassFactory::CreateInstance**]
  
 
  
-
-
-
-

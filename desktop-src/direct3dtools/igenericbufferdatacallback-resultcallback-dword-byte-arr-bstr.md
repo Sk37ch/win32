@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host of generic buffer information returned by the assocaited request.
+description: A callback that notifies the host of generic buffer information returned by the assocaited request.
 MS-HAID: vspixengine.IGenericBufferDataCallback\_ResultCallback\_DWORD\_BYTE\_arr\_BSTR
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -52,15 +52,12 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
 ## <span id="see_also"></span>See also
 
-[**IGenericBufferDataCallback**](https://docs.microsoft.com/windows/desktop/direct3dtools/igenericbufferdatacallback)
+[**IGenericBufferDataCallback**](/windows/desktop/direct3dtools/igenericbufferdatacallback)
 
  
 
  
-
-
-

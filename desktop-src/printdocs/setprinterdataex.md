@@ -1,5 +1,5 @@
 ---
-Description: The SetPrinterDataEx function sets the configuration data for a printer or print server. The function stores the configuration data under the printers registry key.
+description: The SetPrinterDataEx function sets the configuration data for a printer or print server. The function stores the configuration data under the printers registry key.
 ms.assetid: b7faadfc-1c81-4ddf-8fe5-68f4cc0376f1
 title: SetPrinterDataEx function (Winspool.h)
 ms.topic: reference
@@ -96,7 +96,7 @@ For print servers, this string is one of the predefined strings listed in the fo
 *Type* \[in\]
 </dt> <dd>
 
-A code indicating the type of data pointed to by the *pData* parameter. For a list of the possible type codes, see [Registry Value Types](https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types).
+A code indicating the type of data pointed to by the *pData* parameter. For a list of the possible type codes, see [Registry Value Types](/windows/desktop/SysInfo/registry-value-types).
 
 If *pKeyName* specifies one of the predefined directory service keys, *Type* must be **REG_SZ**, **REG_MULTI_SZ**, **REG_DWORD**, or **REG_BINARY**. If **REG_BINARY** is used, *cbData* must be equal to 1, and the directory service treats the data as a Boolean value.
 
@@ -178,7 +178,7 @@ The time specified in **SPLREG_RESTART_JOB_ON_POOL_ERROR** is a minimum time. Th
 
 **HKLM\\SYSTEM\\CurrentControlSet\\Control\\Print\\Monitors\\<*MonitorName*>\\Ports**
 
-Call the [**RegSetValueEx**](https://msdn.microsoft.com/library/ms724922(v=VS.85).aspx) function to set these values.
+Call the [**RegSetValueEx**](/windows/win32/api/winreg/nf-winreg-regsetvaluea) function to set these values.
 
 
 
@@ -210,7 +210,7 @@ In Windows 7 and later versions of Windows, print jobs that are sent to a print 
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
@@ -244,9 +244,4 @@ In Windows 7 and later versions of Windows, print jobs that are sent to a print 
 </dt> </dl>
 
  
-
- 
-
-
-
 

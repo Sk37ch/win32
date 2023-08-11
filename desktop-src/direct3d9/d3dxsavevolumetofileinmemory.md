@@ -1,5 +1,5 @@
 ---
-Description: Saves a volume to a buffer. The method creates an ID3DXBuffer buffer to store the data, and returns that object.
+description: Saves a volume to a buffer. The method creates an ID3DXBuffer buffer to store the data, and returns that object.
 ms.assetid: 4887ff1f-7904-4764-b284-b2c8e037f806
 title: D3DXSaveVolumeToFileInMemory function (D3dx9tex.h)
 ms.topic: reference
@@ -51,18 +51,18 @@ Address of a pointer to an [**ID3DXBuffer**](id3dxbuffer.md) buffer that will st
 *DestFormat* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/library/Bb172878(v=VS.85).aspx)**
+Type: **[**D3DXIMAGE\_FILEFORMAT**](./d3dximage-fileformat.md)**
 
-[**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/library/Bb172878(v=VS.85).aspx) specifying the file format to use when saving. This function supports saving to all **D3DXIMAGE\_FILEFORMAT** formats except Portable Pixmap (.ppm) and Targa/Truevision Graphics Adapter (.tga).
+[**D3DXIMAGE\_FILEFORMAT**](./d3dximage-fileformat.md) specifying the file format to use when saving. This function supports saving to all **D3DXIMAGE\_FILEFORMAT** formats except Portable Pixmap (.ppm) and Targa/Truevision Graphics Adapter (.tga).
 
 </dd> <dt>
 
 *pSrcVolume* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVOLUME9**](https://msdn.microsoft.com/library/Bb205932(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DVOLUME9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvolume9)**
 
-Pointer to [**IDirect3DVolume9**](https://msdn.microsoft.com/library/Bb205932(v=VS.85).aspx) interface containing the image to be saved.
+Pointer to [**IDirect3DVolume9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvolume9) interface containing the image to be saved.
 
 </dd> <dt>
 
@@ -94,7 +94,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |
@@ -114,7 +114,3 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
  
 
  
-
-
-
-

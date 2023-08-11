@@ -1,5 +1,5 @@
 ---
-Description: Toggles the mode to draw OpenGL-style lines.
+description: Toggles the mode to draw OpenGL-style lines.
 ms.assetid: 298bf391-9f2b-4352-b9f8-3bc2ab661eee
 title: ID3DXLine::SetGLLines method (D3dx9core.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ HRESULT SetGLLines(
 *bGLLines* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 Toggles OpenGL-style line drawing. **TRUE** enables OpenGL-style lines, and **FALSE** enables Direct3D-style lines.
 
@@ -54,7 +54,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -71,7 +71,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-
